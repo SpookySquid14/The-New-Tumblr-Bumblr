@@ -1,0 +1,13 @@
+#Change this to the registry name of the item you wish to give to players.
+Currency = "minecraft:emerald"
+
+[Multipliers]
+	#Change this to how many items of the currency you want common items to sell for
+	"Common Multiplier" = 1.0
+	#Change this to how many items of the currency you want uncommon items to sell for
+	"Uncommon Multiplier" = 2.0
+	#Change this to how many items of the currency you want rare items to sell for
+	"Rare Multiplier" = 3.0
+	#Change this to how many items of the currency you want epic items to sell for
+	"Epic Multiplier" = 4.0
+
