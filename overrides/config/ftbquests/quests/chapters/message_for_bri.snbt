@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "message_for_bri"
+	group: ""
+	id: "5CC30C98250BD630"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "34C7AE0ADB1C6096"
+		rewards: [{
+			id: "3F42DA49D78F043E"
+			item: {
+				Count: 1
+				id: "minecraft:written_book"
+				tag: {
+					author: "SpookiestOfSquid"
+					pages: ["{\"text\":\"You're pretty.\\nBeautiful girl.\\nYou're so gorgeous.\\nLove your nails <3\"}"]
+					title: "For Bri"
+				}
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "772C1586B6B49591"
+			title: "Bri, click this"
+			type: "checkmark"
+		}]
+		x: -2.0d
+		y: -1.5d
+	}]
+	title: "Message for Bri"
+}
