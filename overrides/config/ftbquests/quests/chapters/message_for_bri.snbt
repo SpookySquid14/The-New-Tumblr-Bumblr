@@ -6,28 +6,70 @@
 	id: "5CC30C98250BD630"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "34C7AE0ADB1C6096"
-		rewards: [{
-			id: "3F42DA49D78F043E"
-			item: {
-				Count: 1
-				id: "minecraft:written_book"
-				tag: {
-					author: "SpookiestOfSquid"
-					pages: ["{\"text\":\"You're pretty.\\nBeautiful girl.\\nYou're so gorgeous.\\nLove your nails <3\"}"]
-					title: "For Bri"
+	quests: [
+		{
+			id: "34C7AE0ADB1C6096"
+			rewards: [{
+				id: "3F42DA49D78F043E"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "SpookiestOfSquid"
+						pages: ["{\"text\":\"You're pretty.\\nBeautiful girl.\\nYou're so gorgeous.\\nLove your nails <3\"}"]
+						title: "For Bri"
+					}
 				}
-			}
-			type: "item"
-		}]
-		tasks: [{
-			id: "772C1586B6B49591"
-			title: "Bri, click this"
-			type: "checkmark"
-		}]
-		x: -2.0d
-		y: -1.5d
-	}]
+				type: "item"
+			}]
+			tasks: [{
+				id: "772C1586B6B49591"
+				title: "Bri, click this"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "3226D298B876F640"
+			rewards: [{
+				amount: 10L
+				currency: "ancientcoins:ancient_coins"
+				id: "565BFC9887C53879"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				block: "minecraft:dirt"
+				block_type: 0
+				checkItem: false
+				id: "22E2755EACF29ABA"
+				isItemInteraction: false
+				type: "questsadditions:use"
+				value: 100L
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "5056363205013606"
+			tasks: [
+				{
+					id: "1DFDE1DE65D1B8EA"
+					type: "custom"
+				}
+				{
+					checkItem: false
+					entity: "minecraft:furnace_minecart"
+					id: "7CB728D0B9C95203"
+					nbt: { }
+					type: "questsadditions:interaction"
+					value: 100L
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
 	title: "Message for Bri"
 }

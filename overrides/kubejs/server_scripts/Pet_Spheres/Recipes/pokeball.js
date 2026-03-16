@@ -14,3 +14,10 @@ ServerEvents.recipes(event => {
   }
 )
 })
+
+  ServerEvents.recipes(event => {
+    //Removes Recipe via ID
+    [
+      'petcapturetool:capture_tool'
+    ].forEach((recipeID) => event.remove({id: recipeID}));
+  })
