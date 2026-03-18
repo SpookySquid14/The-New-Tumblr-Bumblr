@@ -48,7 +48,10 @@ declare namespace Registry {
         create(id: string, type: "boots"): Internal.ArmorItemBuilder$Boots;
         create(id: string, type: "music_disc"): Internal.RecordItemJS$Builder;
         create(id: string, type: "smithing_template"): Internal.SmithingTemplateItemBuilder;
+        create(id: string, type: "create:sequenced_assembly"): Internal.SequencedAssemblyItemBuilder;
+        create(id: string, type: "create:sandpaper"): Internal.SandpaperItemBuilder;
         create(id: string, type: "biomancy:basic_serum"): Internal.SerumItemBuilder;
+        create(id: string, type: "occultism:ritual_dummy"): Internal.RitualDummyItemType;
         create(id: string): Internal.BasicItemJS$Builder;
     }
     class Potion extends Internal.RegistryEventJS<any> {
@@ -233,27 +236,49 @@ declare namespace Registry {
         create(id: string, type: "basic"): Internal.BioForgeTabBuilder;
         create(id: string): Internal.BioForgeTabBuilder;
     }
-    class BlendingFunction extends Internal.RegistryEventJS<any> {
+    class FanProcessingType extends Internal.RegistryEventJS<any> {
     }
-    class CatVariant extends Internal.RegistryEventJS<any> {
-    }
-    class VillagerTradesItemListing extends Internal.RegistryEventJS<any> {
-    }
-    class ChickenVariant extends Internal.RegistryEventJS<any> {
-    }
-    class WolfSoundVariant extends Internal.RegistryEventJS<any> {
-    }
-    class PigVariant extends Internal.RegistryEventJS<any> {
-    }
-    class FrogVariant extends Internal.RegistryEventJS<any> {
-    }
-    class SpawnConditionType extends Internal.RegistryEventJS<any> {
-    }
-    class Condition extends Internal.RegistryEventJS<any> {
+    class DisplayTarget extends Internal.RegistryEventJS<any> {
     }
     class WolfVariant extends Internal.RegistryEventJS<any> {
     }
     class CowVariant extends Internal.RegistryEventJS<any> {
+    }
+    class WolfSoundVariant extends Internal.RegistryEventJS<any> {
+    }
+    class FrogVariant extends Internal.RegistryEventJS<any> {
+    }
+    class CatVariant extends Internal.RegistryEventJS<any> {
+    }
+    class PotatoProjectileEntityHitAction extends Internal.RegistryEventJS<any> {
+    }
+    class BlendingFunction extends Internal.RegistryEventJS<any> {
+    }
+    class ContraptionType extends Internal.RegistryEventJS<any> {
+    }
+    class ChickenVariant extends Internal.RegistryEventJS<any> {
+    }
+    class Condition extends Internal.RegistryEventJS<any> {
+    }
+    class ArmInteractionPointType extends Internal.RegistryEventJS<any> {
+    }
+    class DisplaySource extends Internal.RegistryEventJS<any> {
+    }
+    class VillagerTradesItemListing extends Internal.RegistryEventJS<any> {
+    }
+    class MountedItemStorageType extends Internal.RegistryEventJS<any> {
+    }
+    class PotatoProjectileBlockHitAction extends Internal.RegistryEventJS<any> {
+    }
+    class ItemAttributeType extends Internal.RegistryEventJS<any> {
+    }
+    class PigVariant extends Internal.RegistryEventJS<any> {
+    }
+    class SpawnConditionType extends Internal.RegistryEventJS<any> {
+    }
+    class MountedFluidStorageType extends Internal.RegistryEventJS<any> {
+    }
+    class PotatoProjectileRenderMode extends Internal.RegistryEventJS<any> {
     }
     class Keytypes extends Internal.RegistryEventJS<any> {
     }
@@ -266,6 +291,16 @@ declare namespace Registry {
     class Gene extends Internal.RegistryEventJS<any> {
     }
     class MutationCondition extends Internal.RegistryEventJS<any> {
+    }
+    class BlockRecipeSerializers extends Internal.RegistryEventJS<any> {
+    }
+    class BlockRecipeTypes extends Internal.RegistryEventJS<any> {
+    }
+    class CannonCastShapes extends Internal.RegistryEventJS<any> {
+    }
+    class ShopEntryTypes extends Internal.RegistryEventJS<any> {
+    }
+    class ShopRequirementTypes extends Internal.RegistryEventJS<any> {
     }
     class EntityTicker extends Internal.RegistryEventJS<any> {
     }
@@ -304,6 +339,8 @@ declare namespace Registry {
     class RitualFactory extends Internal.RegistryEventJS<any> {
     }
     class TimeEffect extends Internal.RegistryEventJS<any> {
+    }
+    class JsonConditions extends Internal.RegistryEventJS<any> {
     }
     class Schools extends Internal.RegistryEventJS<any> {
     }
@@ -359,9 +396,13 @@ declare namespace Registry {
     }
     class Researchrequirementtypes extends Internal.RegistryEventJS<any> {
     }
+    class BrainFactory extends Internal.RegistryEventJS<any> {
+    }
     class RitualFactory extends Internal.RegistryEventJS<any> {
     }
     class SpiritJobFactory extends Internal.RegistryEventJS<any> {
+    }
+    class JsonConditions extends Internal.RegistryEventJS<any> {
     }
     class Perks extends Internal.RegistryEventJS<any> {
     }
@@ -389,62 +430,68 @@ declare namespace Registry {
     }
     class TaskUnlocker extends Internal.RegistryEventJS<any> {
     }
-    class ModdedBiomeSlices extends Internal.RegistryEventJS<any> {
-    }
-    class RobitSkin extends Internal.RegistryEventJS<any> {
-    }
-    class Flower extends Internal.RegistryEventJS<any> {
-    }
-    class BlockPropertiesTransformer extends Internal.RegistryEventJS<any> {
+    class SoftFluids extends Internal.RegistryEventJS<any> {
     }
     class ModdedBiomeSlices extends Internal.RegistryEventJS<any> {
-    }
-    class BiomeReplacer extends Internal.RegistryEventJS<any> {
-    }
-    class ColorPalette extends Internal.RegistryEventJS<any> {
-    }
-    class LunarEvent extends Internal.RegistryEventJS<any> {
-    }
-    class Comb extends Internal.RegistryEventJS<any> {
-    }
-    class Filter extends Internal.RegistryEventJS<any> {
-    }
-    class FurnaceFuels extends Internal.RegistryEventJS<any> {
-    }
-    class LunarDimensionSettings extends Internal.RegistryEventJS<any> {
     }
     class StructureModifier extends Internal.RegistryEventJS<any> {
     }
-    class Tasks extends Internal.RegistryEventJS<any> {
+    class ColorPalette extends Internal.RegistryEventJS<any> {
     }
-    class StructureRepaletters extends Internal.RegistryEventJS<any> {
+    class ShopCategories extends Internal.RegistryEventJS<any> {
     }
-    class Noise extends Internal.RegistryEventJS<any> {
+    class PotatoProjectileType extends Internal.RegistryEventJS<any> {
     }
-    class Mutation extends Internal.RegistryEventJS<any> {
-    }
-    class MapMarkers extends Internal.RegistryEventJS<any> {
-    }
-    class BiomeModifier extends Internal.RegistryEventJS<any> {
-    }
-    class Compostables extends Internal.RegistryEventJS<any> {
-    }
-    class BlockUseBehaviors extends Internal.RegistryEventJS<any> {
-    }
-    class BlockSoundTransformers extends Internal.RegistryEventJS<any> {
-    }
-    class LunarEventDimensionChance extends Internal.RegistryEventJS<any> {
-    }
-    class WispArcheology extends Internal.RegistryEventJS<any> {
+    class Flower extends Internal.RegistryEventJS<any> {
     }
     class Lens extends Internal.RegistryEventJS<any> {
     }
+    class BiomeReplacer extends Internal.RegistryEventJS<any> {
+    }
+    class Comb extends Internal.RegistryEventJS<any> {
+    }
     class Species extends Internal.RegistryEventJS<any> {
+    }
+    class Mutation extends Internal.RegistryEventJS<any> {
+    }
+    class RobitSkin extends Internal.RegistryEventJS<any> {
+    }
+    class BiomeModifier extends Internal.RegistryEventJS<any> {
+    }
+    class UpgradeOrbType extends Internal.RegistryEventJS<any> {
+    }
+    class BlockSoundTransformers extends Internal.RegistryEventJS<any> {
+    }
+    class Noise extends Internal.RegistryEventJS<any> {
+    }
+    class BlockPropertiesTransformer extends Internal.RegistryEventJS<any> {
+    }
+    class Compostables extends Internal.RegistryEventJS<any> {
+    }
+    class ModdedBiomeSlices extends Internal.RegistryEventJS<any> {
+    }
+    class Currencies extends Internal.RegistryEventJS<any> {
+    }
+    class MapMarkers extends Internal.RegistryEventJS<any> {
+    }
+    class WispArcheology extends Internal.RegistryEventJS<any> {
+    }
+    class LunarEventDimensionChance extends Internal.RegistryEventJS<any> {
     }
     class CassetteTape extends Internal.RegistryEventJS<any> {
     }
-    class SoftFluids extends Internal.RegistryEventJS<any> {
+    class LunarEvent extends Internal.RegistryEventJS<any> {
     }
-    class UpgradeOrbType extends Internal.RegistryEventJS<any> {
+    class StructureRepaletters extends Internal.RegistryEventJS<any> {
+    }
+    class LunarDimensionSettings extends Internal.RegistryEventJS<any> {
+    }
+    class BlockUseBehaviors extends Internal.RegistryEventJS<any> {
+    }
+    class FurnaceFuels extends Internal.RegistryEventJS<any> {
+    }
+    class Tasks extends Internal.RegistryEventJS<any> {
+    }
+    class Filter extends Internal.RegistryEventJS<any> {
     }
 }

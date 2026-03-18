@@ -32,63 +32,65 @@ command(handler: (event: Internal.CommandEventJS) => void):void,
      * @at *server*
     */
 blockLootTables(handler: (event: Internal.BlockLootEventJS) => void):void,
-tags(type: "instrument", handler: (event: TagEvent.Instrument) => void): void
-tags(type: "minecraft:instrument", handler: (event: TagEvent.Instrument) => void): void
-tags(type: "block_entity_type", handler: (event: TagEvent.BlockEntityType) => void): void
-tags(type: "minecraft:block_entity_type", handler: (event: TagEvent.BlockEntityType) => void): void
-tags(type: "game_event", handler: (event: TagEvent.GameEvent) => void): void
-tags(type: "minecraft:game_event", handler: (event: TagEvent.GameEvent) => void): void
-tags(type: "cat_variant", handler: (event: TagEvent.CatVariant) => void): void
-tags(type: "minecraft:cat_variant", handler: (event: TagEvent.CatVariant) => void): void
-tags(type: "recipe_serializer", handler: (event: TagEvent.RecipeSerializer) => void): void
-tags(type: "minecraft:recipe_serializer", handler: (event: TagEvent.RecipeSerializer) => void): void
-tags(type: "enhancedcelestials:lunar/event", handler: (event: TagEvent.Event) => void): void
-tags(type: "entity_type", handler: (event: TagEvent.EntityType) => void): void
-tags(type: "minecraft:entity_type", handler: (event: TagEvent.EntityType) => void): void
-tags(type: "mekanism:gas", handler: (event: TagEvent.Gas) => void): void
-tags(type: "worldgen/placed_feature", handler: (event: TagEvent.PlacedFeature) => void): void
-tags(type: "minecraft:worldgen/placed_feature", handler: (event: TagEvent.PlacedFeature) => void): void
-tags(type: "worldgen/world_preset", handler: (event: TagEvent.WorldPreset) => void): void
-tags(type: "minecraft:worldgen/world_preset", handler: (event: TagEvent.WorldPreset) => void): void
-tags(type: "villager_profession", handler: (event: TagEvent.VillagerProfession) => void): void
-tags(type: "minecraft:villager_profession", handler: (event: TagEvent.VillagerProfession) => void): void
-tags(type: "enchantment", handler: (event: TagEvent.Enchantment) => void): void
-tags(type: "minecraft:enchantment", handler: (event: TagEvent.Enchantment) => void): void
-tags(type: "point_of_interest_type", handler: (event: TagEvent.PointOfInterestType) => void): void
-tags(type: "minecraft:point_of_interest_type", handler: (event: TagEvent.PointOfInterestType) => void): void
-tags(type: "painting_variant", handler: (event: TagEvent.PaintingVariant) => void): void
-tags(type: "minecraft:painting_variant", handler: (event: TagEvent.PaintingVariant) => void): void
-tags(type: "mekanism:slurry", handler: (event: TagEvent.Slurry) => void): void
-tags(type: "mekanism:infuse_type", handler: (event: TagEvent.InfuseType) => void): void
+tags(type: "moonlight:soft_fluids", handler: (event: TagEvent.SoftFluids) => void): void
+tags(type: "damage_type", handler: (event: TagEvent.DamageType) => void): void
+tags(type: "minecraft:damage_type", handler: (event: TagEvent.DamageType) => void): void
 tags(type: "fluid", handler: (event: TagEvent.Fluid) => void): void
 tags(type: "minecraft:fluid", handler: (event: TagEvent.Fluid) => void): void
+tags(type: "dimension_type", handler: (event: TagEvent.DimensionType) => void): void
+tags(type: "minecraft:dimension_type", handler: (event: TagEvent.DimensionType) => void): void
+tags(type: "cat_variant", handler: (event: TagEvent.CatVariant) => void): void
+tags(type: "minecraft:cat_variant", handler: (event: TagEvent.CatVariant) => void): void
+tags(type: "entity_type", handler: (event: TagEvent.EntityType) => void): void
+tags(type: "minecraft:entity_type", handler: (event: TagEvent.EntityType) => void): void
+tags(type: "worldgen/flat_level_generator_preset", handler: (event: TagEvent.FlatLevelGeneratorPreset) => void): void
+tags(type: "minecraft:worldgen/flat_level_generator_preset", handler: (event: TagEvent.FlatLevelGeneratorPreset) => void): void
+tags(type: "banner_pattern", handler: (event: TagEvent.BannerPattern) => void): void
+tags(type: "minecraft:banner_pattern", handler: (event: TagEvent.BannerPattern) => void): void
+tags(type: "villager_profession", handler: (event: TagEvent.VillagerProfession) => void): void
+tags(type: "minecraft:villager_profession", handler: (event: TagEvent.VillagerProfession) => void): void
+tags(type: "create:contraption_type", handler: (event: TagEvent.ContraptionType) => void): void
+tags(type: "recipe_serializer", handler: (event: TagEvent.RecipeSerializer) => void): void
+tags(type: "minecraft:recipe_serializer", handler: (event: TagEvent.RecipeSerializer) => void): void
+tags(type: "potion", handler: (event: TagEvent.Potion) => void): void
+tags(type: "minecraft:potion", handler: (event: TagEvent.Potion) => void): void
+tags(type: "point_of_interest_type", handler: (event: TagEvent.PointOfInterestType) => void): void
+tags(type: "minecraft:point_of_interest_type", handler: (event: TagEvent.PointOfInterestType) => void): void
+tags(type: "item", handler: (event: TagEvent.Item) => void): void
+tags(type: "minecraft:item", handler: (event: TagEvent.Item) => void): void
+tags(type: "worldgen/biome", handler: (event: TagEvent.Biome) => void): void
+tags(type: "minecraft:worldgen/biome", handler: (event: TagEvent.Biome) => void): void
+tags(type: "mob_effect", handler: (event: TagEvent.MobEffect) => void): void
+tags(type: "minecraft:mob_effect", handler: (event: TagEvent.MobEffect) => void): void
+tags(type: "mekanism:infuse_type", handler: (event: TagEvent.InfuseType) => void): void
+tags(type: "block", handler: (event: TagEvent.Block) => void): void
+tags(type: "minecraft:block", handler: (event: TagEvent.Block) => void): void
+tags(type: "worldgen/world_preset", handler: (event: TagEvent.WorldPreset) => void): void
+tags(type: "minecraft:worldgen/world_preset", handler: (event: TagEvent.WorldPreset) => void): void
+tags(type: "mekanism:slurry", handler: (event: TagEvent.Slurry) => void): void
+tags(type: "worldgen/placed_feature", handler: (event: TagEvent.PlacedFeature) => void): void
+tags(type: "minecraft:worldgen/placed_feature", handler: (event: TagEvent.PlacedFeature) => void): void
+tags(type: "mekanism:gas", handler: (event: TagEvent.Gas) => void): void
+tags(type: "game_event", handler: (event: TagEvent.GameEvent) => void): void
+tags(type: "minecraft:game_event", handler: (event: TagEvent.GameEvent) => void): void
+tags(type: "block_entity_type", handler: (event: TagEvent.BlockEntityType) => void): void
+tags(type: "minecraft:block_entity_type", handler: (event: TagEvent.BlockEntityType) => void): void
+tags(type: "instrument", handler: (event: TagEvent.Instrument) => void): void
+tags(type: "minecraft:instrument", handler: (event: TagEvent.Instrument) => void): void
+tags(type: "vista:cassette_tape", handler: (event: TagEvent.CassetteTape) => void): void
+tags(type: "worldgen/structure", handler: (event: TagEvent.Structure) => void): void
+tags(type: "minecraft:worldgen/structure", handler: (event: TagEvent.Structure) => void): void
+tags(type: "enhancedcelestials:lunar/event", handler: (event: TagEvent.Event) => void): void
+tags(type: "worldgen/structure_set", handler: (event: TagEvent.StructureSet) => void): void
+tags(type: "minecraft:worldgen/structure_set", handler: (event: TagEvent.StructureSet) => void): void
+tags(type: "painting_variant", handler: (event: TagEvent.PaintingVariant) => void): void
+tags(type: "minecraft:painting_variant", handler: (event: TagEvent.PaintingVariant) => void): void
 tags(type: "vampirism:tasks", handler: (event: TagEvent.Tasks) => void): void
 tags(type: "menu", handler: (event: TagEvent.Menu) => void): void
 tags(type: "minecraft:menu", handler: (event: TagEvent.Menu) => void): void
-tags(type: "dimension_type", handler: (event: TagEvent.DimensionType) => void): void
-tags(type: "minecraft:dimension_type", handler: (event: TagEvent.DimensionType) => void): void
-tags(type: "worldgen/biome", handler: (event: TagEvent.Biome) => void): void
-tags(type: "minecraft:worldgen/biome", handler: (event: TagEvent.Biome) => void): void
-tags(type: "banner_pattern", handler: (event: TagEvent.BannerPattern) => void): void
-tags(type: "minecraft:banner_pattern", handler: (event: TagEvent.BannerPattern) => void): void
-tags(type: "block", handler: (event: TagEvent.Block) => void): void
-tags(type: "minecraft:block", handler: (event: TagEvent.Block) => void): void
-tags(type: "mob_effect", handler: (event: TagEvent.MobEffect) => void): void
-tags(type: "minecraft:mob_effect", handler: (event: TagEvent.MobEffect) => void): void
-tags(type: "damage_type", handler: (event: TagEvent.DamageType) => void): void
-tags(type: "minecraft:damage_type", handler: (event: TagEvent.DamageType) => void): void
-tags(type: "worldgen/flat_level_generator_preset", handler: (event: TagEvent.FlatLevelGeneratorPreset) => void): void
-tags(type: "minecraft:worldgen/flat_level_generator_preset", handler: (event: TagEvent.FlatLevelGeneratorPreset) => void): void
-tags(type: "worldgen/structure", handler: (event: TagEvent.Structure) => void): void
-tags(type: "minecraft:worldgen/structure", handler: (event: TagEvent.Structure) => void): void
-tags(type: "worldgen/structure_set", handler: (event: TagEvent.StructureSet) => void): void
-tags(type: "minecraft:worldgen/structure_set", handler: (event: TagEvent.StructureSet) => void): void
-tags(type: "moonlight:soft_fluids", handler: (event: TagEvent.SoftFluids) => void): void
-tags(type: "potion", handler: (event: TagEvent.Potion) => void): void
-tags(type: "minecraft:potion", handler: (event: TagEvent.Potion) => void): void
-tags(type: "vista:cassette_tape", handler: (event: TagEvent.CassetteTape) => void): void
-tags(type: "item", handler: (event: TagEvent.Item) => void): void
-tags(type: "minecraft:item", handler: (event: TagEvent.Item) => void): void
+tags(type: "enchantment", handler: (event: TagEvent.Enchantment) => void): void
+tags(type: "minecraft:enchantment", handler: (event: TagEvent.Enchantment) => void): void
+tags(type: "create:mounted_item_storage_type", handler: (event: TagEvent.MountedItemStorageType) => void): void
     /**
      * @at *server*
     */
@@ -629,6 +631,20 @@ lang(extra: string, handler: (event: Internal.LangEventJS) => void):void,
     */
 highPriorityAssets(handler: (event: Internal.GenerateClientAssetsEventJS) => void):void,
 };
+declare const CreateEvents: {
+    /**
+     * @at *startup*
+    */
+boilerHeatHandler(handler: (event: Internal.BoilerHeaterHandlerEvent) => void):void,
+    /**
+     * @at *startup*
+    */
+pipeFluidEffect(handler: (event: Internal.SpecialFluidHandlerEvent) => void):void,
+    /**
+     * @at *startup*
+    */
+spoutHandler(handler: (event: Internal.SpecialSpoutHandlerEvent) => void):void,
+};
 declare const StartupEvents: {
     /**
      * @at *startup*
@@ -808,29 +824,45 @@ registry(type: "minecraft:worldgen/multi_noise_biome_source_parameter_list", han
 registry(type: "worldgen.multi_noise_biome_source_parameter_list", handler: (event: Registry.WorldgenMultiNoiseBiomeSourceParameterList) => void):void,
 registry(type: "biomancy:serum", handler: (event: Registry.Serum) => void):void,
 registry(type: "biomancy:bio_forge_tab", handler: (event: Registry.BioForgeTab) => void):void,
-registry(type: "corgilib:blending_function", handler: (event: Registry.BlendingFunction) => void):void,
-registry(type: "vanillabackport:cat_variant", handler: (event: Registry.CatVariant) => void):void,
-registry(type: "corgilib:villager_trades_item_listing", handler: (event: Registry.VillagerTradesItemListing) => void):void,
-registry(type: "minecraft:chicken_variant", handler: (event: Registry.ChickenVariant) => void):void,
-registry(type: "chicken_variant", handler: (event: Registry.ChickenVariant) => void):void,
-registry(type: "minecraft:wolf_sound_variant", handler: (event: Registry.WolfSoundVariant) => void):void,
-registry(type: "wolf_sound_variant", handler: (event: Registry.WolfSoundVariant) => void):void,
-registry(type: "minecraft:pig_variant", handler: (event: Registry.PigVariant) => void):void,
-registry(type: "pig_variant", handler: (event: Registry.PigVariant) => void):void,
-registry(type: "vanillabackport:frog_variant", handler: (event: Registry.FrogVariant) => void):void,
-registry(type: "minecraft:spawn_condition_type", handler: (event: Registry.SpawnConditionType) => void):void,
-registry(type: "spawn_condition_type", handler: (event: Registry.SpawnConditionType) => void):void,
-registry(type: "corgilib:condition", handler: (event: Registry.Condition) => void):void,
+registry(type: "create:fan_processing_type", handler: (event: Registry.FanProcessingType) => void):void,
+registry(type: "create:display_target", handler: (event: Registry.DisplayTarget) => void):void,
 registry(type: "minecraft:wolf_variant", handler: (event: Registry.WolfVariant) => void):void,
 registry(type: "wolf_variant", handler: (event: Registry.WolfVariant) => void):void,
 registry(type: "minecraft:cow_variant", handler: (event: Registry.CowVariant) => void):void,
 registry(type: "cow_variant", handler: (event: Registry.CowVariant) => void):void,
+registry(type: "minecraft:wolf_sound_variant", handler: (event: Registry.WolfSoundVariant) => void):void,
+registry(type: "wolf_sound_variant", handler: (event: Registry.WolfSoundVariant) => void):void,
+registry(type: "vanillabackport:frog_variant", handler: (event: Registry.FrogVariant) => void):void,
+registry(type: "vanillabackport:cat_variant", handler: (event: Registry.CatVariant) => void):void,
+registry(type: "create:potato_projectile/entity_hit_action", handler: (event: Registry.PotatoProjectileEntityHitAction) => void):void,
+registry(type: "corgilib:blending_function", handler: (event: Registry.BlendingFunction) => void):void,
+registry(type: "create:contraption_type", handler: (event: Registry.ContraptionType) => void):void,
+registry(type: "minecraft:chicken_variant", handler: (event: Registry.ChickenVariant) => void):void,
+registry(type: "chicken_variant", handler: (event: Registry.ChickenVariant) => void):void,
+registry(type: "corgilib:condition", handler: (event: Registry.Condition) => void):void,
+registry(type: "create:arm_interaction_point_type", handler: (event: Registry.ArmInteractionPointType) => void):void,
+registry(type: "create:display_source", handler: (event: Registry.DisplaySource) => void):void,
+registry(type: "corgilib:villager_trades_item_listing", handler: (event: Registry.VillagerTradesItemListing) => void):void,
+registry(type: "create:mounted_item_storage_type", handler: (event: Registry.MountedItemStorageType) => void):void,
+registry(type: "create:potato_projectile/block_hit_action", handler: (event: Registry.PotatoProjectileBlockHitAction) => void):void,
+registry(type: "create:item_attribute_type", handler: (event: Registry.ItemAttributeType) => void):void,
+registry(type: "minecraft:pig_variant", handler: (event: Registry.PigVariant) => void):void,
+registry(type: "pig_variant", handler: (event: Registry.PigVariant) => void):void,
+registry(type: "minecraft:spawn_condition_type", handler: (event: Registry.SpawnConditionType) => void):void,
+registry(type: "spawn_condition_type", handler: (event: Registry.SpawnConditionType) => void):void,
+registry(type: "create:mounted_fluid_storage_type", handler: (event: Registry.MountedFluidStorageType) => void):void,
+registry(type: "create:potato_projectile/render_mode", handler: (event: Registry.PotatoProjectileRenderMode) => void):void,
 registry(type: "ae2:keytypes", handler: (event: Registry.Keytypes) => void):void,
 registry(type: "ars_additions:tag_modifier", handler: (event: Registry.TagModifier) => void):void,
 registry(type: "botania:brews", handler: (event: Registry.Brews) => void):void,
 registry(type: "complicated_bees:bee_effect", handler: (event: Registry.BeeEffect) => void):void,
 registry(type: "complicated_bees:gene", handler: (event: Registry.Gene) => void):void,
 registry(type: "complicated_bees:mutation_condition", handler: (event: Registry.MutationCondition) => void):void,
+registry(type: "createbigcannons:block_recipe_serializers", handler: (event: Registry.BlockRecipeSerializers) => void):void,
+registry(type: "createbigcannons:block_recipe_types", handler: (event: Registry.BlockRecipeTypes) => void):void,
+registry(type: "createbigcannons:cannon_cast_shapes", handler: (event: Registry.CannonCastShapes) => void):void,
+registry(type: "eternalcurrencies:shop_entry_types", handler: (event: Registry.ShopEntryTypes) => void):void,
+registry(type: "eternalcurrencies:shop_requirement_types", handler: (event: Registry.ShopRequirementTypes) => void):void,
 registry(type: "etstlib:entity_ticker", handler: (event: Registry.EntityTicker) => void):void,
 registry(type: "fairylights:connection_type", handler: (event: Registry.ConnectionType) => void):void,
 registry(type: "fairylights:string_type", handler: (event: Registry.StringType) => void):void,
@@ -850,6 +882,7 @@ registry(type: "forge:holder_set_type", handler: (event: Registry.HolderSetType)
 registry(type: "forge:structure_modifier_serializers", handler: (event: Registry.StructureModifierSerializers) => void):void,
 registry(type: "goety:ritual_factory", handler: (event: Registry.RitualFactory) => void):void,
 registry(type: "hourglass:time_effect", handler: (event: Registry.TimeEffect) => void):void,
+registry(type: "integrated_api:json_conditions", handler: (event: Registry.JsonConditions) => void):void,
 registry(type: "irons_spellbooks:schools", handler: (event: Registry.Schools) => void):void,
 registry(type: "irons_spellbooks:spells", handler: (event: Registry.Spells) => void):void,
 registry(type: "mekanism:gas", handler: (event: Registry.Gas) => void):void,
@@ -877,8 +910,10 @@ registry(type: "minecolonies:recipetypeentries", handler: (event: Registry.Recip
 registry(type: "minecolonies:researchcosttypes", handler: (event: Registry.Researchcosttypes) => void):void,
 registry(type: "minecolonies:researcheffecttypes", handler: (event: Registry.Researcheffecttypes) => void):void,
 registry(type: "minecolonies:researchrequirementtypes", handler: (event: Registry.Researchrequirementtypes) => void):void,
+registry(type: "occultengineering:brain_factory", handler: (event: Registry.BrainFactory) => void):void,
 registry(type: "occultism:ritual_factory", handler: (event: Registry.RitualFactory) => void):void,
 registry(type: "occultism:spirit_job_factory", handler: (event: Registry.SpiritJobFactory) => void):void,
+registry(type: "repurposed_structures:json_conditions", handler: (event: Registry.JsonConditions) => void):void,
 registry(type: "tombstone:perks", handler: (event: Registry.Perks) => void):void,
 registry(type: "vampirism:actions", handler: (event: Registry.Actions) => void):void,
 registry(type: "vampirism:converting_handler", handler: (event: Registry.ConvertingHandler) => void):void,
@@ -892,35 +927,38 @@ registry(type: "vampirism:task_requirement", handler: (event: Registry.TaskRequi
 registry(type: "vampirism:task_reward", handler: (event: Registry.TaskReward) => void):void,
 registry(type: "vampirism:task_reward_instance", handler: (event: Registry.TaskRewardInstance) => void):void,
 registry(type: "vampirism:task_unlocker", handler: (event: Registry.TaskUnlocker) => void):void,
-registry(type: "lionfishapi:modded_biome_slices", handler: (event: Registry.ModdedBiomeSlices) => void):void,
-registry(type: "mekanism:robit_skin", handler: (event: Registry.RobitSkin) => void):void,
-registry(type: "complicated_bees:flower", handler: (event: Registry.Flower) => void):void,
-registry(type: "elysium:block/properties_transformer", handler: (event: Registry.BlockPropertiesTransformer) => void):void,
-registry(type: "blueprint:modded_biome_slices", handler: (event: Registry.ModdedBiomeSlices) => void):void,
-registry(type: "elysium:biome_replacer", handler: (event: Registry.BiomeReplacer) => void):void,
-registry(type: "exposure:color_palette", handler: (event: Registry.ColorPalette) => void):void,
-registry(type: "enhancedcelestials:lunar/event", handler: (event: Registry.LunarEvent) => void):void,
-registry(type: "complicated_bees:comb", handler: (event: Registry.Comb) => void):void,
-registry(type: "exposure:filter", handler: (event: Registry.Filter) => void):void,
-registry(type: "jinxedlib:furnace_fuels", handler: (event: Registry.FurnaceFuels) => void):void,
-registry(type: "enhancedcelestials:lunar/dimension_settings", handler: (event: Registry.LunarDimensionSettings) => void):void,
-registry(type: "forge:structure_modifier", handler: (event: Registry.StructureModifier) => void):void,
-registry(type: "vampirism:tasks", handler: (event: Registry.Tasks) => void):void,
-registry(type: "blueprint:structure_repaletters", handler: (event: Registry.StructureRepaletters) => void):void,
-registry(type: "aquamirae:noise", handler: (event: Registry.Noise) => void):void,
-registry(type: "complicated_bees:mutation", handler: (event: Registry.Mutation) => void):void,
-registry(type: "moonlight:map_markers", handler: (event: Registry.MapMarkers) => void):void,
-registry(type: "forge:biome_modifier", handler: (event: Registry.BiomeModifier) => void):void,
-registry(type: "jinxedlib:compostables", handler: (event: Registry.Compostables) => void):void,
-registry(type: "elysium:block/use_behaviors", handler: (event: Registry.BlockUseBehaviors) => void):void,
-registry(type: "elysium:block/sound_transformers", handler: (event: Registry.BlockSoundTransformers) => void):void,
-registry(type: "enhancedcelestials:lunar/event/dimension_chance", handler: (event: Registry.LunarEventDimensionChance) => void):void,
-registry(type: "netherexp:wisp_archeology", handler: (event: Registry.WispArcheology) => void):void,
-registry(type: "exposure:lens", handler: (event: Registry.Lens) => void):void,
-registry(type: "complicated_bees:species", handler: (event: Registry.Species) => void):void,
-registry(type: "vista:cassette_tape", handler: (event: Registry.CassetteTape) => void):void,
 registry(type: "moonlight:soft_fluids", handler: (event: Registry.SoftFluids) => void):void,
+registry(type: "blueprint:modded_biome_slices", handler: (event: Registry.ModdedBiomeSlices) => void):void,
+registry(type: "forge:structure_modifier", handler: (event: Registry.StructureModifier) => void):void,
+registry(type: "exposure:color_palette", handler: (event: Registry.ColorPalette) => void):void,
+registry(type: "eternalcurrencies:shop_categories", handler: (event: Registry.ShopCategories) => void):void,
+registry(type: "create:potato_projectile/type", handler: (event: Registry.PotatoProjectileType) => void):void,
+registry(type: "complicated_bees:flower", handler: (event: Registry.Flower) => void):void,
+registry(type: "exposure:lens", handler: (event: Registry.Lens) => void):void,
+registry(type: "elysium:biome_replacer", handler: (event: Registry.BiomeReplacer) => void):void,
+registry(type: "complicated_bees:comb", handler: (event: Registry.Comb) => void):void,
+registry(type: "complicated_bees:species", handler: (event: Registry.Species) => void):void,
+registry(type: "complicated_bees:mutation", handler: (event: Registry.Mutation) => void):void,
+registry(type: "mekanism:robit_skin", handler: (event: Registry.RobitSkin) => void):void,
+registry(type: "forge:biome_modifier", handler: (event: Registry.BiomeModifier) => void):void,
 registry(type: "irons_spellbooks:upgrade_orb_type", handler: (event: Registry.UpgradeOrbType) => void):void,
+registry(type: "elysium:block/sound_transformers", handler: (event: Registry.BlockSoundTransformers) => void):void,
+registry(type: "aquamirae:noise", handler: (event: Registry.Noise) => void):void,
+registry(type: "elysium:block/properties_transformer", handler: (event: Registry.BlockPropertiesTransformer) => void):void,
+registry(type: "jinxedlib:compostables", handler: (event: Registry.Compostables) => void):void,
+registry(type: "lionfishapi:modded_biome_slices", handler: (event: Registry.ModdedBiomeSlices) => void):void,
+registry(type: "eternalcurrencies:currencies", handler: (event: Registry.Currencies) => void):void,
+registry(type: "moonlight:map_markers", handler: (event: Registry.MapMarkers) => void):void,
+registry(type: "netherexp:wisp_archeology", handler: (event: Registry.WispArcheology) => void):void,
+registry(type: "enhancedcelestials:lunar/event/dimension_chance", handler: (event: Registry.LunarEventDimensionChance) => void):void,
+registry(type: "vista:cassette_tape", handler: (event: Registry.CassetteTape) => void):void,
+registry(type: "enhancedcelestials:lunar/event", handler: (event: Registry.LunarEvent) => void):void,
+registry(type: "blueprint:structure_repaletters", handler: (event: Registry.StructureRepaletters) => void):void,
+registry(type: "enhancedcelestials:lunar/dimension_settings", handler: (event: Registry.LunarDimensionSettings) => void):void,
+registry(type: "elysium:block/use_behaviors", handler: (event: Registry.BlockUseBehaviors) => void):void,
+registry(type: "jinxedlib:furnace_fuels", handler: (event: Registry.FurnaceFuels) => void):void,
+registry(type: "vampirism:tasks", handler: (event: Registry.Tasks) => void):void,
+registry(type: "exposure:filter", handler: (event: Registry.Filter) => void):void,
     /**
      * @at *startup*
     */
@@ -1011,4 +1049,16 @@ detectorChanged(handler: (event: Internal.DetectorBlockEventJS) => void):void,
      * @at *startup*
     */
 modification(handler: (event: Internal.BlockModificationEventJS) => void):void,
+};
+declare const GameStageEvents: {
+    /**
+     * @at *server, client*
+    */
+stageAdded(extra: string, handler: (event: Internal.GameStageEventJS) => void):void,
+stageAdded(handler: (event: Internal.GameStageEventJS) => void):void,
+    /**
+     * @at *server, client*
+    */
+stageRemoved(extra: string, handler: (event: Internal.GameStageEventJS) => void):void,
+stageRemoved(handler: (event: Internal.GameStageEventJS) => void):void,
 };

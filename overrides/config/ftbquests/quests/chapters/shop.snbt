@@ -38,6 +38,7 @@
 					type: "command"
 				}
 				{
+					auto: "no_toast"
 					icon: {
 						Count: 1
 						id: "ftbquests:custom_icon"
@@ -62,6 +63,7 @@
 		}
 		{
 			can_repeat: true
+			description: ["Now this is where we get interesting. This scroll will let you teleport to &oany&r known waystone, almost like you're using one yourself. It'll even negate the experience cost for you. One use though, so make it count."]
 			disable_toast: true
 			icon: "waystones:warp_scroll"
 			id: "201D9D19102FEC86"
@@ -73,18 +75,67 @@
 					id: "waystones:warp_scroll"
 					tag: { }
 				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "banner"
 			tasks: [{
-				amount: 150L
+				amount: 3000L
 				currency: "ancientcoins:ancient_coins"
 				id: "1DB3B9329967977C"
 				type: "eternalcurrencies:currency"
 			}]
 			title: "Buy Warp Scroll"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			description: ["This little scroll of mine's simple but powerful. It'll instantly teleport you to the closest known waystone available. Pretty useful for a quick escape, no?"]
+			disable_toast: true
+			icon: "waystones:return_scroll"
+			id: "2767F0ACA0E05A29"
+			repeatable: true
+			rewards: [{
+				id: "0E1747957AC759CA"
+				item: "waystones:return_scroll"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "banner"
+			tasks: [{
+				amount: 1000L
+				currency: "ancientcoins:ancient_coins"
+				id: "3A2D8FD95FBE53BD"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "Buy Return Scroll"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			description: ["This nifty little scroll requires you bind the scroll to a waystone first, but then you can warp back there any time you want. I'd say it's quite useful after a long day's travel."]
+			disable_toast: true
+			icon: "waystones:bound_scroll"
+			id: "200D96871A6421D8"
+			repeatable: true
+			rewards: [{
+				id: "20DDA722C41BC34E"
+				item: "waystones:bound_scroll"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "banner"
+			tasks: [{
+				amount: 1500L
+				currency: "ancientcoins:ancient_coins"
+				id: "314ACF63DE8BD800"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "Buy Bound Scroll"
 			x: 0.0d
-			y: 0.0d
+			y: -1.0d
 		}
 	]
 	title: "Shop"
