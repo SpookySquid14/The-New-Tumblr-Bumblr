@@ -1,0 +1,198 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "none",
+			"facing": "north"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "clockwise_90",
+			"facing": "north"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "180",
+			"facing": "north"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "counterclockwise_90",
+			"facing": "north"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "none",
+			"facing": "east"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "clockwise_90",
+			"facing": "east"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "180",
+			"facing": "east"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "counterclockwise_90",
+			"facing": "east"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "none",
+			"facing": "south"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "clockwise_90",
+			"facing": "south"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "180",
+			"facing": "south"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "counterclockwise_90",
+			"facing": "south"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "none",
+			"facing": "west"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "clockwise_90",
+			"facing": "west"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "180",
+			"facing": "west"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "counterclockwise_90",
+			"facing": "west"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "clockwise_90",
+			"facing": "up"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "180",
+			"facing": "up"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "counterclockwise_90",
+			"facing": "up"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "none",
+			"facing": "down"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "clockwise_90",
+			"facing": "down"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "180",
+			"facing": "down"
+		},
+		"Name": "vista:viewfinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotate_tile": "counterclockwise_90",
+			"facing": "down"
+		},
+		"Name": "vista:viewfinder"
+	}
+]

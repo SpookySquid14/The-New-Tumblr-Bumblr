@@ -1,0 +1,329 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "open",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "pressed",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "open",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "closed",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "pressed",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "open",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "closed",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "pressed",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "open",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "closed",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "pressed",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "open",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "closed",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "pressed",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "open",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "closed",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "pressed",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "open",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "closed",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "pressed",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "open",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "closed",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "pressed",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "open",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "closed",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "pressed",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "open",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "closed",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "pressed",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "open",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "closed",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "pressed",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "open",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "closed",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"state": "pressed",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "infinitybuttons:green_safe_emergency_button"
+	}
+]

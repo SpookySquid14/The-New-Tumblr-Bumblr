@@ -137,6 +137,174 @@
 			x: 0.0d
 			y: -1.0d
 		}
+		{
+			description: ["Aye, I made this fella a while back for a friend of mine. One day it just showed up at my doorstep again, no sign of the man. I'd hate for it to just collect dust, so I'm willing to part with it, for the right price of course."]
+			id: "5D0A8D94344F139B"
+			rewards: [{
+				id: "3B811B0E8E491ECE"
+				item: {
+					Count: 1
+					id: "tconstruct:pickaxe"
+					tag: {
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Miner's Best Friend\"}"
+						}
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:bronze"
+							"tconstruct:iron"
+							"tconstruct:copper"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:diamond"
+							}
+							{
+								level: 1
+								name: "tconstruct:emerald"
+							}
+							{
+								level: 1
+								name: "tconstruct:reinforced"
+							}
+							{
+								level: 2
+								name: "tconstruct:haste"
+							}
+							{
+								level: 3
+								name: "tconstruct:luck"
+							}
+							{
+								level: 2
+								name: "tconstruct:magnetic"
+							}
+							{
+								level: 1
+								name: "tconstruct:maintained"
+							}
+							{
+								level: 1
+								name: "tconstruct:pierce"
+							}
+							{
+								level: 1
+								name: "tconstruct:dwarven"
+							}
+							{
+								level: 1
+								name: "tconstruct:writable"
+							}
+							{
+								level: 1
+								name: "constructs_casting:reinscribed"
+							}
+							{
+								level: 1
+								name: "tconstruct:harmonious"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:mining_speed": 1.25f
+						}
+						tic_persistent: {
+							abilities: -1
+							upgrades: -6
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 3.75f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:durability": 2079.0f
+							"tconstruct:harvest_tier": "minecraft:diamond"
+							"tconstruct:mining_speed": 16.5f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tconstruct:diamond"
+							}
+							{
+								level: 1
+								name: "tconstruct:emerald"
+							}
+							{
+								level: 1
+								name: "tconstruct:writable"
+							}
+							{
+								level: 1
+								name: "tconstruct:reinforced"
+							}
+							{
+								level: 1
+								name: "constructs_casting:reinscribed"
+							}
+							{
+								level: 1
+								name: "tconstruct:harmonious"
+							}
+							{
+								level: 2
+								name: "tconstruct:haste"
+							}
+							{
+								level: 3
+								name: "tconstruct:luck"
+							}
+							{
+								level: 1
+								name: "tconstruct:magnetic"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+							"tconstruct:rarity": 1
+							upgrades: 6
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				amount: 800L
+				currency: "ancientcoins:ancient_coins"
+				id: "56AAEB56FB416D64"
+				type: "eternalcurrencies:currency"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			description: ["Ah, that catch your eye? Yes, soul gems may be somewhat plentiful to those practicing the arts, but it takes a... special touch to imbue one as I have. If you want one, I'll gladly sell it to you. Perhaps it can be useful next time you die."]
+			icon: "kubejs:enchanted_soul_gem"
+			id: "221F955B1421EC0C"
+			rewards: [{
+				id: "7FC06E8BA9401F50"
+				item: "kubejs:enchanted_soul_gem"
+				type: "item"
+			}]
+			shape: "banner"
+			tasks: [{
+				amount: 500L
+				currency: "ancientcoins:ancient_coins"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ancientcoins:textures/currencies/ancient_coin.png"
+					}
+				}
+				id: "1CEA794FC75BFB52"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "Buy Enchanted Soul Gem"
+			x: 2.0d
+			y: -1.0d
+		}
 	]
 	title: "Shop"
 }

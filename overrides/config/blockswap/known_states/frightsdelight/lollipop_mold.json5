@@ -1,0 +1,7043 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "0",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "1",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "2",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "3",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"shards": "4",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:lollipop_mold"
+	}
+]

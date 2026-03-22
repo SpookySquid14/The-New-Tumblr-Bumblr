@@ -1,0 +1,2404 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "north",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "south",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "west",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "east",
+			"amount": "0"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "north",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "south",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "west",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "east",
+			"amount": "1"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "north",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "south",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "west",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "east",
+			"amount": "2"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "north",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "south",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "west",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "none",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "none",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "none",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "water",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "water",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "water",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "milk",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "milk",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "milk",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_water",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_water",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_water",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "none",
+			"liquid": "boiling_milk",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "tray",
+			"liquid": "boiling_milk",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"support": "handle",
+			"liquid": "boiling_milk",
+			"facing": "east",
+			"amount": "3"
+		},
+		"Name": "tea_aroma:kettle"
+	}
+]

@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.19",
-  "config_datetime": "2026-03-15_17-38-10",
+  "config_datetime": "2026-03-20_17-51-18",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -25,10 +25,10 @@
       "is_disabled": true,
       "salt": 41375816,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
+      "override_global_spacing_and_separation_modifier": true,
       "structure_weights": {
-        "tombstone:abandoned_grave_land": 1,
-        "tombstone:abandoned_grave_ocean": 1
+        "tombstone:abandoned_grave_land": 0,
+        "tombstone:abandoned_grave_ocean": 0
       }
     }
   ]

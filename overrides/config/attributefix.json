@@ -286,6 +286,17 @@
         "value": 2048
       }
     },
+    "shippingbin:crop_sell_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
+      }
+    },
     "goety:abyss_potency": {
       "enabled": false,
       "min": {
@@ -306,6 +317,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "shippingbin:gem_sell_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
       }
     },
     "attributeslib:crit_chance": {
@@ -339,6 +361,17 @@
       "max": {
         "default": 20,
         "value": 1000000
+      }
+    },
+    "shippingbin:meat_sell_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
       }
     },
     "vampirism:blood_exhaustion": {
@@ -768,6 +801,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "shippingbin:wood_sell_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
       }
     },
     "goety:spell_velocity": {
@@ -1373,6 +1417,17 @@
       "max": {
         "default": 4,
         "value": 4
+      }
+    },
+    "shippingbin:sell_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
       }
     },
     "goety:spell_duration": {

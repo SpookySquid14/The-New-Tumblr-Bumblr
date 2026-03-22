@@ -1,0 +1,1284 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"hardened": "true",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"hardened": "false",
+			"facing": "north"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"hardened": "true",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"hardened": "false",
+			"facing": "south"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"hardened": "true",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"hardened": "false",
+			"facing": "west"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"hardened": "true",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "empty",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "empty",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "rotten_flesh",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "rotten_flesh",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "slimeapple",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "slimeapple",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "spidereye",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "spidereye",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "ghasttear",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "ghasttear",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "soul_berry",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "soul_berry",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "wither_berry",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "wither_berry",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"syrup_type": "cobweb",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"syrup_type": "cobweb",
+			"hardened": "false",
+			"facing": "east"
+		},
+		"Name": "frightsdelight:ring_candy_mold"
+	}
+]

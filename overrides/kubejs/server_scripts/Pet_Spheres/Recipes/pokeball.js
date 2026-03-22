@@ -12,12 +12,8 @@ ServerEvents.recipes(event => {
     C: 'minecraft:stone_button',
     D: 'minecraft:iron_ingot'
   }
-)
-})
-
-  ServerEvents.recipes(event => {
-    //Removes Recipe via ID
+),
     [
       'petcapturetool:capture_tool'
     ].forEach((recipeID) => event.remove({id: recipeID}));
-  })
+})

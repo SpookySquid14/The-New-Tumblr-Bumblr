@@ -1,0 +1,2309 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "0",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "0",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "1",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "2",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "2",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "3",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "3",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "4",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "4",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "5",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "5",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "6",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "6",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "7",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "7",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "8",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "8",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "9",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "9",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "10",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "10",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "11",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "11",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "12",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "12",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "13",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "13",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "14",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "14",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "15",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "15",
+			"layers": "1"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "0",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "0",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "1",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "1",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "2",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "2",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "3",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "3",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "4",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "4",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "5",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "5",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "6",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "6",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "7",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "7",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "8",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "8",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "9",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "9",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "10",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "10",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "11",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "11",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "12",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "12",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "13",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "13",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "14",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "14",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "15",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "15",
+			"layers": "2"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "0",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "0",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "1",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "1",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "2",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "2",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "3",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "3",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "4",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "4",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "5",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "5",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "6",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "6",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "7",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "7",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "8",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "8",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "9",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "9",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "10",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "10",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "11",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "11",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "12",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "12",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "13",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "13",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "14",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "14",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "15",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "15",
+			"layers": "3"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "0",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "0",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "1",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "1",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "2",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "2",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "3",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "3",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "4",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "4",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "5",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "5",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "6",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "6",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "7",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "7",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "8",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "8",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "9",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "9",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "10",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "10",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "11",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "11",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "12",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "12",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "13",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "13",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "14",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "14",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "15",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "15",
+			"layers": "4"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "0",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "0",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "1",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "1",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "2",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "2",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "3",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "3",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "4",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "4",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "5",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "5",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "6",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "6",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "7",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "7",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "8",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "8",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "9",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "9",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "10",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "10",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "11",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "11",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "12",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "12",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "13",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "13",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "14",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "14",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "15",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "15",
+			"layers": "5"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "0",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "0",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "1",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "1",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "2",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "2",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "3",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "3",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "4",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "4",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "5",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "5",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "6",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "6",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "7",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "7",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "8",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "8",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "9",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "9",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "10",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "10",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "11",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "11",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "12",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "12",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "13",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "13",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "14",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "14",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "15",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "15",
+			"layers": "6"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "0",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "0",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "1",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "1",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "2",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "2",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "3",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "3",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "4",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "4",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "5",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "5",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "6",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "6",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "7",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "7",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "8",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "8",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "9",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "9",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "10",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "10",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "11",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "11",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "12",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "12",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "13",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "13",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "14",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "14",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "15",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "15",
+			"layers": "7"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "0",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "0",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "1",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "1",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "2",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "2",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "3",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "3",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "4",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "4",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "5",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "5",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "6",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "6",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "7",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "7",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "8",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "8",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "9",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "9",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "10",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "10",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "11",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "11",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "12",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "12",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "13",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "13",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "14",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "14",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "15",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "15",
+			"layers": "8"
+		},
+		"Name": "weeping_angels:snow_angel"
+	}
+]

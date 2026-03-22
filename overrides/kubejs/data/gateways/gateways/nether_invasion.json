@@ -32,7 +32,7 @@
             "entity": "wither_skeleton"
         }
     ],
-    "max_wave_time": 2400,
+    "max_wave_time": 3840,
     "setup_time": 200
 },
         {
@@ -65,7 +65,7 @@
             "entity": "wither_skeleton"
         }
     ],
-    "max_wave_time": 2400,
+    "max_wave_time": 3840,
     "setup_time": 200
 },
         {
@@ -104,7 +104,7 @@
             "entity":"mebahelcreaturesdraugr:flame_atronach"
         }
     ],
-    "max_wave_time": 2400,
+    "max_wave_time": 3840,
     "setup_time": 200
 },
         {
@@ -115,6 +115,14 @@
                 "Team": "Nether_Gateway",
                 "DeathLootTable": "minecraft:empty"
             },
+            "modifiers": [
+                {
+                    "type":"gateways:attribute",
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "multiply_total",
+                    "value": -0.4
+                }
+            ],
             "count": 1
         },
         {
@@ -140,7 +148,7 @@
             "rolls": 2
         }
     ],
-    "max_wave_time": 3900,
+    "max_wave_time": 3840,
     "setup_time": 300
 },
         {
@@ -151,6 +159,14 @@
                 "Team": "Nether_Gateway",
                 "DeathLootTable": "minecraft:empty"
             },
+            "modifiers": [
+                {
+                    "type":"gateways:attribute",
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "multiply_total",
+                    "value": -0.4
+                }
+            ],
             "count": 2
         },
         {
@@ -176,7 +192,7 @@
             "rolls": 2
         }
     ],
-    "max_wave_time": 3900,
+    "max_wave_time": 6240,
     "setup_time": 300
 },
         {
@@ -207,7 +223,7 @@
             "rolls":3
         }
     ],
-    "max_wave_time": 3900,
+    "max_wave_time": 6240,
     "setup_time": 300
 }
     ],
@@ -217,6 +233,11 @@
         "stack": {
             "item": "kubejs:burned_tablet"
         }
+    },
+    {
+        "type":"gateways:command",
+        "command": "team remove Nether_Gateway",
+        "desc": ""
     }
         
     ],
@@ -226,7 +247,12 @@
     "strength": 3,
     "fire": true,
     "block_damage": false
-}
+},
+    {
+        "type":"gateways:command",
+        "command": "team remove Nether_Gateway",
+        "desc": ""
+    }
     ],
     "spawn_algorithm": "gateways:open_field",
     "rules": {},

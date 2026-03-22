@@ -12,8 +12,8 @@
 	["Perfectly Balanced Bows Config".falloff]
 		#min distance before range based damage falloff
 		#Range: 0.0 ~ 1000.0
-		start = 20.0
+		start = 50.0
 		#max distance for range based damage falloff
 		#Range: 1.0 ~ 1000.0
-		end = 100.0
+		end = 150.0
 
