@@ -81,6 +81,8 @@
 	darkAnvilCap = false
 	#Whether creating items through Rituals will transfer damage from the original item, Default: false
 	ritualCraftDamage = false
+	#Whether Shrieking Obelisk can prevent Pillager Patrols, Default: true
+	ShriekObeliskPatrol = true
 
 ["Soul Taken"]
 	#Animals Killed, Default: 5

@@ -15,7 +15,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "south",
-			"blockstate": "0"
+			"bites": "0"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -23,7 +23,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "west",
-			"blockstate": "0"
+			"bites": "0"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -31,7 +31,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "east",
-			"blockstate": "0"
+			"bites": "0"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -39,7 +39,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "north",
-			"blockstate": "1"
+			"bites": "1"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -47,7 +47,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "south",
-			"blockstate": "1"
+			"bites": "1"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -55,7 +55,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "west",
-			"blockstate": "1"
+			"bites": "1"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -63,7 +63,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "east",
-			"blockstate": "1"
+			"bites": "1"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -71,7 +71,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "north",
-			"blockstate": "2"
+			"bites": "2"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -79,7 +79,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "south",
-			"blockstate": "2"
+			"bites": "2"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -87,7 +87,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "west",
-			"blockstate": "2"
+			"bites": "2"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -95,7 +95,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "east",
-			"blockstate": "2"
+			"bites": "2"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -103,7 +103,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "north",
-			"blockstate": "3"
+			"bites": "3"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -111,7 +111,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "south",
-			"blockstate": "3"
+			"bites": "3"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -119,7 +119,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "west",
-			"blockstate": "3"
+			"bites": "3"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -127,7 +127,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "east",
-			"blockstate": "3"
+			"bites": "3"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -135,7 +135,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "north",
-			"blockstate": "4"
+			"bites": "4"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -143,7 +143,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "south",
-			"blockstate": "4"
+			"bites": "4"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -151,7 +151,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "west",
-			"blockstate": "4"
+			"bites": "4"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -159,7 +159,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "east",
-			"blockstate": "4"
+			"bites": "4"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -167,7 +167,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "north",
-			"blockstate": "5"
+			"bites": "5"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -175,7 +175,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "south",
-			"blockstate": "5"
+			"bites": "5"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -183,7 +183,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "west",
-			"blockstate": "5"
+			"bites": "5"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	},
@@ -191,7 +191,7 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"facing": "east",
-			"blockstate": "5"
+			"bites": "5"
 		},
 		"Name": "aquamirae_delight:fishermans_delicacy"
 	}

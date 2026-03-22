@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.19",
-  "config_datetime": "2026-03-20_17-51-18",
+  "config_datetime": "2026-03-22_17-02-17",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -11,6 +11,9 @@
     {
       "name": "global",
       "is_disabled": false,
+      "override_global_distance_from_world_center": false,
+      "min_distance_from_world_center": 500,
+      "max_distance_from_world_center": 0,
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false

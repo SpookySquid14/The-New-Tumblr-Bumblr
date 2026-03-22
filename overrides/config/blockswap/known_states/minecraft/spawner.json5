@@ -10,5 +10,12 @@ to make editing this file much easier.
 [
 	{
 		"Name": "minecraft:spawner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multiplayer_activated": "false"
+		},
+		"Name": "minecraft:spawner"
 	}
 ]
