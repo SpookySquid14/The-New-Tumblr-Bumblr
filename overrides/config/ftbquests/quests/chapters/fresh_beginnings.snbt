@@ -1,0 +1,467 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fresh_beginnings"
+	group: "48841A8C395C40D5"
+	icon: "minecraft:red_bed"
+	id: "3387B25D1A4A376F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome &0&ksubject&rmy friend, to this wonderful new world! I'm sure you cannot wait to begin, so I won't waste your time. Just click this checkmark here, and we can begin a fantastic journey together."]
+			icon: "ftbquests:task_screen_configurator"
+			id: "15ACD993630984F4"
+			rewards: [{
+				amount: 150L
+				currency: "ancientcoins:ancient_coins"
+				id: "50664CB77E417D8A"
+				ignore_reward_blocking: true
+				title: "Some pocket change for the journey ahead"
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "System.out.println(\"Hello, World!\");"
+			tasks: [{
+				id: "7C62070C3730C721"
+				title: "Accept your reality"
+				type: "checkmark"
+			}]
+			title: "Welcome to the world"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			description: [
+				"Let's get you fitted with basics, shall we? Any and all good journeys start the same way, by punching a tree."
+				"{image:modpack:textures/tree-chopping.png width:156 height:90 align:center}"
+				"Something you'll notice upon approaching one of these wooded wonders is the counter at the top of your screen. Yes, in this world, you need only break the bottom block of a tree to knock it down. It will still take a few hits, but it's far more convenient, no? You will also see the amount of logs and any other drops you'll receive from chopping."
+			]
+			hide_until_deps_complete: true
+			id: "5FF18EB0CE40B71B"
+			rewards: [
+				{
+					amount: 100L
+					currency: "ancientcoins:ancient_coins"
+					id: "15725102214553A9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "23C4C215D571BCBF"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "4E852A9A6ABAD2DC"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 176
+							display: {
+								Name: "{\"text\":\"Rusty Axe\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Chop a tree (You don't need an axe)"
+			tasks: [{
+				count: 10L
+				id: "2189433C5EA6A960"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "How much wood"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FF18EB0CE40B71B"]
+			description: [
+				"So, you've gotten your bearings and some materials. Great job! But it's probably getting dark, isn't it? You'll want to keep your space lit. Not only will it help prevent &6&oeerie nightmares&r, but it will also be crucial when &4&o&lit&r comes for you."
+				"By far the easiest way to find light is &6&otorches&r, which you can craft with a stick and any sort of coal."
+				"You can make charcoal simply by burning logs. How convenient!"
+			]
+			hide_until_deps_visible: true
+			id: "4DFD059C412284D5"
+			rewards: [
+				{
+					amount: 100L
+					currency: "ancientcoins:ancient_coins"
+					id: "409A12284DCA17A3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "493181D5D4FBB91E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "5848497E0E4F3904"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			title: "Light em up up up"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DFD059C412284D5"]
+			description: [
+				"So, you've got wood and you've got light. Well done! I think we're safe to say you're about ready to make a home. Or maybe you don't wanna. Either way, a &o&6bed&r is important for sleeping through the harsh nights. But don't forget, sleeping out in the open or in dimly lit caverns is a recipe for &o&4nightmares&r."
+				"Here's a tip for you! You may find &o&6flax&r growing around your world. This nifty little plant can be used to make string, which can be used to make wool. Isn't that just cool?"
+			]
+			hide_until_deps_visible: true
+			id: "05B83606164A1853"
+			rewards: [
+				{
+					amount: 150L
+					currency: "ancientcoins:ancient_coins"
+					id: "2299501EC9A49765"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32F45370BC58984D"
+					table_id: 4597731606249609751L
+					type: "choice"
+				}
+			]
+			subtitle: "Make a bed to sleep the night away."
+			tasks: [{
+				id: "512E9A722041DB2B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				type: "item"
+			}]
+			title: "Cozy and Comfortable"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DFD059C412284D5"]
+			description: [
+				"With the addition of FTB Chunks, you have the ability to &o&6claim land&r. Accessing the menu through your inventory will bring you to a small map of the immediate area."
+				"{image:modpack:textures/claim1.png width:156 height:90 align:center}"
+				"{image:modpack:textures/claim2.png width:156 height:90 align:center}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/map"
+				}
+			}
+			id: "36A6DDDCE75E7925"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "74A6643D636405A1"
+				item: "minecraft:red_wool"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "03F800E6AB0477FB"
+					title: "Learn about claims"
+					type: "checkmark"
+				}
+				{
+					amount: 65L
+					currency: "ancientcoins:ancient_coins"
+					disable_toast: true
+					id: "28688C1F0894181A"
+					type: "eternalcurrencies:currency"
+				}
+			]
+			title: "Bonus: Home is where the claim is"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05B83606164A1853"]
+			description: [
+				"You will no doubt encounter many structures along your adventures, some big, some small. With so much to find, it may feel like you're lost at times, and we don't want that."
+				"&o&6Waystones&r are a fantastic relic of old that allow for quick travel across large distances. Using one will allow you to travel to any other waystone you've discovered... for a modest fee, of course. But don't worry. It gets cheaper the farther you go."
+				"I &omay&r have one spare that I'd be willing to gift you, but I'd like to be sure you're the type to use it first. That's only fair, no?"
+			]
+			hide_until_deps_visible: true
+			icon: "waystones:waystone"
+			id: "149BF56B98224AAF"
+			rewards: [
+				{
+					id: "067B2B8AE0C463BD"
+					item: {
+						Count: 1
+						id: "waystones:mossy_waystone"
+						tag: {
+							display: {
+								Lore: "{\"text\": \"It's barely held together by some green substance. Is this safe to use?\", \"italic\": true}"
+								Name: "{\"text\": \"Ancient Waystone\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 175L
+					currency: "ancientcoins:ancient_coins"
+					id: "4F7730408F102E18"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "artifacts:item/running_shoes"
+					}
+				}
+				id: "45E00D69A748ACD3"
+				stat: "minecraft:walk_one_cm"
+				title: "Walk 250 blocks"
+				type: "stat"
+				value: 250
+			}]
+			title: "Don't lose your way(stone)"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FF18EB0CE40B71B"]
+			description: ["So you got some wood. Great job! You've done the mine, so now let's do the craft. I think you know how to make one of these, but if you don't, &o&6JEI&r can tell you virtually any recipe. Just go over to the right side of your screen."]
+			hide_until_deps_visible: true
+			id: "6D9C812CBC680546"
+			rewards: [
+				{
+					amount: 100L
+					currency: "ancientcoins:ancient_coins"
+					id: "43121A55EA6D8211"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "487AD76B38CAB41D"
+					item: "crafting_on_a_stick:crafting_table"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "454116EDEFD4CA87"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Let's (Mine)craft!"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DFD059C412284D5"]
+			description: ["One nice convenience of many lightsources is their &o&6dynamic nature&r. What this means is simple: When you hold a torch, lantern, or other light sources in your hands, the area around you will be lit, no need to place the block down!"]
+			hide_until_deps_visible: true
+			icon: "minecraft:lantern"
+			id: "6EEDE4E1054D5ABF"
+			optional: true
+			rewards: [
+				{
+					amount: 50L
+					currency: "ancientcoins:ancient_coins"
+					id: "5E03B84D6DAE78E4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "153223874AAD890C"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4ED4E000CD2C572F"
+				title: "Learn about dynamic lights"
+				type: "checkmark"
+			}]
+			title: "Bonus: Light in your hands"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D9C812CBC680546"]
+			description: ["Another well known item you'll want to be sure to have is a furnace. This will let you cook food, smelt ores, and maybe even more. Who knew a ring of cobblestone could turn into such a useful tool."]
+			hide_until_deps_visible: true
+			id: "257AD50176950053"
+			rewards: [
+				{
+					amount: 100L
+					currency: "ancientcoins:ancient_coins"
+					id: "32F59C25BA0BFFCB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7964D6118E32D22A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "59980398F1D79FB4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:furnace"
+							}
+							{
+								Count: 1b
+								id: "quark:blackstone_furnace"
+							}
+							{
+								Count: 1b
+								id: "quark:deepslate_furnace"
+							}
+						]
+					}
+				}
+				title: "Furnace"
+				type: "item"
+			}]
+			title: "Smeltery? Not Quite"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["257AD50176950053"]
+			description: [
+				"By now, I'm sure you've probably gotten a pretty full inventory, huh? Well not to worry, for we have the magical solution that is... &6&obackpacks&r."
+				"Indeed, these wonderful devices allow for portable storage, and can be upgraded as you grow stronger. Hopefully you've found some cows by now. If not, you'll need to find some source of leather. I've heard tales of shadowy wolves whose hide makes for a good base."
+			]
+			hide_until_deps_visible: true
+			id: "083FB6BC2C2D9609"
+			rewards: [{
+				amount: 160L
+				currency: "ancientcoins:ancient_coins"
+				id: "1B5FD4A34B598840"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "1D31C6B22E0DE734"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Pockets? What are those?"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			description: [
+				"Feeling lonely in your travels? Perhaps it's time to find a friend. &m&0I miss my friend.&r"
+				"Well, it all starts with finding someone. I hear people like wolves."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "51489406A1269085"
+			rewards: [{
+				amount: 100L
+				currency: "ancientcoins:ancient_coins"
+				id: "5B48796C23B3F2F0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				icon: "minecraft:bone"
+				id: "0F84FB918FDFB084"
+				type: "advancement"
+			}]
+			title: "Need a friend?"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51489406A1269085"]
+			description: [
+				"We all need sleep, and that includes our little friends. A &6&opet bed&r will act the same way for your pet that your own bed does for you! I-it will let them respawn... if they die..."
+				"... &0I miss you.&r"
+				"Well, let's not get off track! You'll know your pet has taken the bed when Zs appear over their head."
+			]
+			hide_until_deps_visible: true
+			id: "5B9D08BF34A3396B"
+			rewards: [{
+				amount: 100L
+				currency: "ancientcoins:ancient_coins"
+				id: "77FA833DCD190871"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2AADF81FA1477EE0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "domesticationinnovation:pet_beds"
+					}
+				}
+				title: "Pet Bed"
+				type: "item"
+			}]
+			title: "Pets Need Sleep, Too "
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B9D08BF34A3396B"]
+			description: ["All good pets need a fitting name! While name tags get the job done, they aren't exactly accessible. To remedy this, we can craft a &6&ocollar tag&r. Not only does this act as a cheaper alternative to name tags, they can also be &oenchanted&r to give your pet a boost. Crouching will let you see the enchantments on your pet's current collar tag."]
+			hide_until_deps_visible: true
+			id: "6DEED125538775FD"
+			rewards: [{
+				amount: 100L
+				currency: "ancientcoins:ancient_coins"
+				id: "3E2CC371EBEC7C93"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "6504F9B7A7028C57"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			title: "Do They Have A Name?"
+			x: -3.5d
+			y: -0.5d
+		}
+	]
+	title: "Fresh Beginnings"
+}

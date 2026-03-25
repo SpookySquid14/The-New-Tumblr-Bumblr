@@ -11,7 +11,7 @@
 		}
 	}
 	id: "6CF1BB7A7DE0F2FC"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -80,7 +80,7 @@
 			}]
 			shape: "banner"
 			tasks: [{
-				amount: 3000L
+				amount: 1500L
 				currency: "ancientcoins:ancient_coins"
 				id: "1DB3B9329967977C"
 				type: "eternalcurrencies:currency"
@@ -104,7 +104,7 @@
 			}]
 			shape: "banner"
 			tasks: [{
-				amount: 1000L
+				amount: 300L
 				currency: "ancientcoins:ancient_coins"
 				id: "3A2D8FD95FBE53BD"
 				type: "eternalcurrencies:currency"
@@ -128,7 +128,7 @@
 			}]
 			shape: "banner"
 			tasks: [{
-				amount: 1500L
+				amount: 700L
 				currency: "ancientcoins:ancient_coins"
 				id: "314ACF63DE8BD800"
 				type: "eternalcurrencies:currency"
@@ -289,7 +289,7 @@
 			}]
 			shape: "banner"
 			tasks: [{
-				amount: 500L
+				amount: 250L
 				currency: "ancientcoins:ancient_coins"
 				icon: {
 					Count: 1

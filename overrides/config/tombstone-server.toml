@@ -16,7 +16,7 @@
 	#Enables the enchantment Spectral Bite [false/true|default:true]
 	enable_enchantment_spectral_bite = false
 	#Enables the enchantment Soulbound [false/true|default:true]
-	enable_enchantment_soulbound = true
+	enable_enchantment_soulbound = false
 	#Enables the enchantment Magic Siphon [false/true|default:true]
 	enable_enchantment_magic_siphon = false
 	#Enables the enchantment Plague Bringer [false/true|default:true]
@@ -38,7 +38,7 @@
 	#Enables the enchantment Ruthless Strike [false/true|default:true]
 	enable_enchantment_ruthless_strike = false
 	#Allows Soulbound at enchanting table [false/true|default:false]
-	soulbound_enchanting_table = true
+	soulbound_enchanting_table = false
 	#Allows Spectral Bite at enchanting table [false/true|default:false]
 	spectral_bite_enchanting_table = false
 	#Allows Magic Siphon at enchanting table [false/true|default:false]
@@ -162,7 +162,7 @@
 	#Book of Scribe [false/true|default:true]
 	allow_book_of_scribe = false
 	#Book of Soulbound [false/true|default:true]
-	allow_book_of_soulbound = true
+	allow_book_of_soulbound = false
 	#Book of Oblivion [false/true|default:true]
 	allow_book_of_oblivion = false
 	#Smoke Ball [false/true|default:true]

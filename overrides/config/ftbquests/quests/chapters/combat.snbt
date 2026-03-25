@@ -2,9 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "combat"
-	group: ""
+	group: "48841A8C395C40D5"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "tconstruct:gui/modifiers/armor/strength"
+		}
+	}
 	id: "09E0D38A497A486D"
-	order_index: 5
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -23,18 +30,18 @@
 			id: "59E5F8A65B826B42"
 			rewards: [
 				{
-					id: "1623740B52332692"
-					item: "dummmmmmy:target_dummy"
-					team_reward: false
-					type: "item"
-				}
-				{
-					amount: 50L
+					amount: 100L
 					currency: "ancientcoins:ancient_coins"
 					id: "287DEDF9989AABCB"
 					ignore_reward_blocking: true
 					team_reward: false
 					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1623740B52332692"
+					item: "dummmmmmy:target_dummy"
+					team_reward: false
+					type: "item"
 				}
 			]
 			shape: "embellish"
@@ -97,6 +104,13 @@
 				}
 			}
 			id: "48FD69C56789F0D9"
+			rewards: [{
+				amount: 100L
+				currency: "ancientcoins:ancient_coins"
+				id: "3AC00B7899039289"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "embellish"
 			tasks: [{
 				id: "334DF86628E8E280"
@@ -114,69 +128,78 @@
 				"But simply holding a shield is one thing. It's another to &6&oblock&r&r with it. Blocking with a shield will completely negate most attacks. Be careful, however, as weapons such as axes may damage your shield, disabling it for a small period of time."
 			]
 			id: "63FE95E91D565AE0"
-			rewards: [{
-				id: "662EB02841ABF0B3"
-				item: {
-					Count: 1
-					id: "minecraft:shield"
-					tag: {
-						BlockEntityTag: {
-							Base: 0
-							Patterns: [
-								{
-									Color: 11
-									Pattern: "lud"
-								}
-								{
-									Color: 11
-									Pattern: "ld"
-								}
-								{
-									Color: 11
-									Pattern: "rd"
-								}
-								{
-									Color: 0
-									Pattern: "br"
-								}
-								{
-									Color: 11
-									Pattern: "rud"
-								}
-								{
-									Color: 11
-									Pattern: "drs"
-								}
-								{
-									Color: 0
-									Pattern: "cs"
-								}
-								{
-									Color: 0
-									Pattern: "ms"
-								}
-								{
-									Color: 11
-									Pattern: "ts"
-								}
-								{
-									Color: 11
-									Pattern: "bo"
-								}
-							]
-						}
-						Damage: 0
-						Enchantments: [{
-							id: "unbreaking"
-							lvl: 1
-						}]
-						display: {
-							Name: "\"The Tumblr Buckler\""
+			rewards: [
+				{
+					amount: 100L
+					currency: "ancientcoins:ancient_coins"
+					id: "35353661A7631BDC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "662EB02841ABF0B3"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							BlockEntityTag: {
+								Base: 0
+								Patterns: [
+									{
+										Color: 11
+										Pattern: "lud"
+									}
+									{
+										Color: 11
+										Pattern: "ld"
+									}
+									{
+										Color: 11
+										Pattern: "rd"
+									}
+									{
+										Color: 0
+										Pattern: "br"
+									}
+									{
+										Color: 11
+										Pattern: "rud"
+									}
+									{
+										Color: 11
+										Pattern: "drs"
+									}
+									{
+										Color: 0
+										Pattern: "cs"
+									}
+									{
+										Color: 0
+										Pattern: "ms"
+									}
+									{
+										Color: 11
+										Pattern: "ts"
+									}
+									{
+										Color: 11
+										Pattern: "bo"
+									}
+								]
+							}
+							Damage: 0
+							Enchantments: [{
+								id: "unbreaking"
+								lvl: 1
+							}]
+							display: {
+								Name: "\"The Tumblr Buckler\""
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			shape: "embellish"
 			tasks: [{
 				consume_items: true
@@ -212,7 +235,7 @@
 			id: "0D3DC90F66E544F7"
 			rewards: [
 				{
-					amount: 350L
+					amount: 100L
 					currency: "ancientcoins:ancient_coins"
 					id: "5E4EDC9887F66D31"
 					ignore_reward_blocking: true
@@ -264,7 +287,7 @@
 			hide_until_deps_complete: true
 			id: "38E49C8AA7FD4DA3"
 			rewards: [{
-				amount: 350L
+				amount: 100L
 				currency: "ancientcoins:ancient_coins"
 				id: "36F795CF16BE6489"
 				ignore_reward_blocking: true

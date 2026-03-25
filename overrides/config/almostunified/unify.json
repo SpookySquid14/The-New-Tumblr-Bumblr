@@ -53,7 +53,6 @@
     "diamond",
     "electrum",
     "elementium",
-    "emerald",
     "enderium",
     "fluorite",
     "gold",
@@ -95,6 +94,6 @@
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],
-  "ignoredRecipes": [],
+  "ignoredRecipes": ["goety:totem_of_souls"],
   "itemsHidingJeiRei": true
 }

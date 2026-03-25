@@ -26,7 +26,7 @@
 		addVampireForestToOverworld = true
 		#Only considered if terrablender installed. Heigher values increase Vampirism region weight (likelyhood to appear)
 		#Range: 1 ~ 1000
-		vampireForestWeight_terrablender = 2
+		vampireForestWeight_terrablender = 1
 		#Control hunter camp generation. If disabled you should set hunterSpawnChance to 75.
 		enableHunterTentGeneration = true
 		#Use the vanilla campfire block instead of Vampirism's much cooler one

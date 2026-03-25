@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fishing_2"
+	group: "48841A8C395C40D5"
+	icon: "minecraft:cod_bucket"
+	id: "59964A25078B8ECE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Fishing. It truly is something special, isn't it? Well, here you'll find there's much to do and much to find."
+				"But all fishermen need one item. What is it? Why, a fishing rod of course! So, why don't you craft one, and we can get this aquatic show on the road?"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "593F14E6FF0AACEB"
+			rewards: [
+				{
+					amount: 100L
+					currency: "ancientcoins:ancient_coins"
+					id: "7AF68E5F5C8D97B4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 5
+					id: "6193C553DC95FFFD"
+					item: "farmersdelight:cod_roll"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a fishing rod"
+			tasks: [{
+				id: "5BE378D4EE212CDC"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Getting Fishy"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["593F14E6FF0AACEB"]
+			id: "1032ACA8EAF0E0B8"
+			rewards: [{
+				amount: 300L
+				currency: "ancientcoins:ancient_coins"
+				id: "52A79A66C09CA8EA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 32L
+				id: "201EFB25F87E9B0E"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			title: "Catch 32 Cod"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			description: ["Now that you've hopefully gotten some experience with basic fishing, it's time to take things up a notch. &oAquaculture 2&r is a mod that adds plenty of new items to fishing, and it all starts with an upgraded rod."]
+			id: "3C88203BB36909F6"
+			rewards: [
+				{
+					count: 2
+					id: "605E7A1E963C6FC4"
+					item: "aquaculture:algae"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6314A1F2BB7E7CFD"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					amount: 250L
+					currency: "ancientcoins:ancient_coins"
+					id: "3B67D854DDFD26AD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Craft an iron fishing rod"
+			tasks: [{
+				id: "34C17B8723B8253F"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Taking things to the next level"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3C88203BB36909F6"]
+			description: ["&oThe Tackle Box&r is your key to truly customizing and improving your fishing experience. Hopefully you still have some of the iron and algae from the last quest's rewards, but if not, it shouldn't be too hard to find substitutes."]
+			id: "7D0EE07823EB90B1"
+			rewards: [
+				{
+					id: "756D7ACF7FE4D932"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+				{
+					id: "6F4B72F5EE05019E"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a tackle box"
+			tasks: [{
+				id: "6EA54909637A81DE"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			title: "Getting into the deep end."
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D0EE07823EB90B1"]
+			description: [
+				"{image:modpack:textures/tackle-box-menu.png width:100 height:100 align:center}"
+				"The tackle box has a variety of functions, the first being simple storage of your fishing related items, such as hooks, bobbers, and bait. You can freely pick up and place down your tackle box, allowing for ease of transportation."
+				"The primary function of the tackle box, however, is the ability to modify your fishing rod by equipping bobbers, fishing line, hooks, and bait. In the last quest, you were given a simple bobber and fishing line. These items are purely cosmetic, and can be dyed to give your fishing rod a little more personality. You will however find other bobbers in your travels that offer unique effects and bonuses."
+			]
+			id: "74B1B18C1BBC9EFF"
+			subtitle: "Use a tackle box to customize your fishing rod"
+			tasks: [{
+				block: "aquaculture:tackle_box"
+				block_type: 0
+				checkItem: false
+				id: "483B19ECD7E64F4E"
+				isItemInteraction: false
+				type: "questsadditions:use"
+				value: 1L
+			}]
+			title: "Let's get custom!"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "4118D03D581F2C3E"
+			tasks: [{
+				count: 32L
+				id: "308651E76F372D27"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			title: "Catch 32 Salmon"
+			x: 0.5d
+			y: -1.5d
+		}
+	]
+	title: "Fishing"
+}
