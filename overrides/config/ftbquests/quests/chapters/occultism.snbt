@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "2E5A9DABC49A0340"
+	id: "617637544D025A7F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "1908E5992649B221"
+		tasks: [{
+			count: 16L
+			id: "15701D4CAED41A05"
+			item: { Count: 16, id: "occultism:otherstone" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Occultism"
+}

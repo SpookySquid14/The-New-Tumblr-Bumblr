@@ -1,0 +1,190 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "43386B27669D2B6A"
+	icon: "minecraft:netherrack"
+	id: "30605053F60EB7C5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3A92B8E45BD4ED4E"]
+			description: [
+				"I'm as surprised as you are. That... should have worked. What's this about a tablet?"
+				"Hmm... I've got an idea. Perhaps you could try making some sort of pseudo portal. Like, an unstable one. Maybe then we'd be able to find that tablet."
+				"An unstable portal. If I had to guess, it'd probably need &o&6some blocks from the portal frame, something that holds a lot of lost souls inside it, and some kind of igniter. Flint and steel probably isn't good to use for this.&r"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/ruined_portal.png"
+				}
+			}
+			id: "2CBE90561300741D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2045FB4504ECB0B2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "3EA389F58775A32E"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:nether_invasion"
+					}
+				}
+				title: "Craft an Unstable Nether Portal"
+				type: "item"
+			}]
+			title: "Well... That Didn't Work"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D781DCA4118AF8A"]
+			description: [
+				"I can't believe that worked. The tablet talks about the portals alright. I guess now we know how, all that's left is to try this one more time."
+				"&0Let's hope it doesn't follow us.&r"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:netherrack"
+			id: "498F02A60A22B5E1"
+			rewards: [{
+				amount: 230L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "686BF921196DE8F6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "07DAE759B736ADB6"
+				title: "Enter The Nether"
+				type: "dimension"
+			}]
+			title: "Welcome To Hell!"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"You've gotten this far, huh? The Overworld truly is amazing, but to see all there is, one must go deeper. It's time... for The Nether."
+				"Entering The Nether should be a simple matter. &6&oA frame of 10 Obsidian lit with Flint and Steel.&r That's what must be done."
+				"It uh... actually sounds pretty simple, huh?"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/nether_portal.png"
+				}
+			}
+			id: "3A92B8E45BD4ED4E"
+			require_sequential_tasks: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "677F6510A92E5DF7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					hasCustomPicture: false
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "supplementaries:textures/map_marker/nether_portal.png"
+						}
+					}
+					id: "788A54D5FCCE91F7"
+					ignoreState: false
+					layer: true
+					name: "nether_portal_frame_base"
+					rightclick: false
+					title: "Build A Portal Frame"
+					type: "questsadditions:structure"
+				}
+				{
+					block: "minecraft:obsidian"
+					block_type: 0
+					checkItem: true
+					id: "1B1728BE922A33F8"
+					isItemInteraction: true
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "questsadditions:use"
+					value: 1L
+				}
+			]
+			title: "Thinking With Po—Wait, Wrong Game"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2CBE90561300741D"]
+			description: [
+				"This thing we made... You know what? I'm just going to leave it to you. Given its nature, &o&6you probably want to use it somewhere with a lot of space&r."
+				"Who knows what will happen when it's activated. &oBest be prepared for a fight.&r"
+			]
+			hide_until_deps_complete: true
+			id: "0D781DCA4118AF8A"
+			rewards: [{
+				amount: 230L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "43C9249CEB1FDCB2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:nether_invasion"
+					}
+				}
+				id: "30CC490564B2A9DE"
+				item: "kubejs:burned_tablet"
+				title: "Use the Unstable Portal and Obtain the Burned Tablet"
+				type: "item"
+			}]
+			title: "Are You Sure This Will Work?"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "20B7F6A62F064817"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "supplementaries:textures/map_marker/nether_fortress.png"
+					}
+				}
+				id: "666EA667F3AB62A0"
+				structure: "betterfortresses:fortress"
+				title: "The Fortress of The Damned"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	title: "Nether"
+}

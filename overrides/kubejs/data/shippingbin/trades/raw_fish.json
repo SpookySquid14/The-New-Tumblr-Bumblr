@@ -12,7 +12,7 @@
     "nbt": {
       "currencies": [
         {
-          "currency": "ancientcoins:ancient_coins",
+          "currency": "eternalcurrencies:ancientcoins",
           "amount":100
         }
       ]

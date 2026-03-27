@@ -22,7 +22,22 @@
 	   Helpful if certain mobs aren't able to properly animate Better Combat attacks.
 	*/
 	"mob_blacklist": [
-		"minecraft:fox"
+		"minecraft:fox",
+		"cataclysm:ancient_remnant",
+		"cataclysm:ignis",
+		"cataclysm:maledictus",
+		"cataclysm:ender_golem",
+		"cataclysm:ender_guardian",
+		"cataclysm:the_leviathan",
+		"cataclysm:the_harbinger",
+		"cataclysm:netherite_monstrosity",
+		"bosses_of_mass_destruction:void_blossom",
+		"bosses_of_mass_destruction:gauntlet",
+		"bosses_of_mass_destruction:lich",
+		"bosses_of_mass_destruction:obsidilith",
+		"mowziesmobs:ferrous_wroughtnaut",
+		"mowziesmobs:umvuthi",
+		"mowziesmobs:frostmaw"
 	],
 	/* Allows the mob blacklist to instead be used as a whitelist. 
 	   This makes it so that only mobs in the whitelist can use the Better Combat system.

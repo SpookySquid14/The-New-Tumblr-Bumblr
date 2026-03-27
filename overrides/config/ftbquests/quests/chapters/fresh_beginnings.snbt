@@ -9,24 +9,27 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Welcome &0&ksubject&rmy friend, to this wonderful new world! I'm sure you cannot wait to begin, so I won't waste your time. Just click this checkmark here, and we can begin a fantastic journey together."]
-			icon: "ftbquests:task_screen_configurator"
+			description: [
+				"To whoever finds this, I welcome you to this wonderful world we call home. There will surely be much to discover, fight, learn, and avoid. By reading this book, you accept your reality. I will be in touch."
+				"PS: You are never alone. &0Avoid &kthe entity&r&0 at all costs.&r"
+			]
+			icon: "irons_spellbooks:chained_book"
 			id: "15ACD993630984F4"
 			rewards: [{
 				amount: 150L
-				currency: "ancientcoins:ancient_coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "50664CB77E417D8A"
 				ignore_reward_blocking: true
 				title: "Some pocket change for the journey ahead"
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "System.out.println(\"Hello, World!\");"
+			subtitle: "Who wrote this?"
 			tasks: [{
 				id: "7C62070C3730C721"
-				title: "Accept your reality"
+				title: "Listen to the one who came before"
 				type: "checkmark"
 			}]
-			title: "Welcome to the world"
+			title: "A book?"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -42,7 +45,7 @@
 			rewards: [
 				{
 					amount: 100L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "15725102214553A9"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -97,7 +100,7 @@
 			rewards: [
 				{
 					amount: 100L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "409A12284DCA17A3"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -129,7 +132,7 @@
 			rewards: [
 				{
 					amount: 150L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "2299501EC9A49765"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -190,7 +193,7 @@
 				}
 				{
 					amount: 65L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					disable_toast: true
 					id: "28688C1F0894181A"
 					type: "eternalcurrencies:currency"
@@ -227,7 +230,7 @@
 				}
 				{
 					amount: 175L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "4F7730408F102E18"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -259,7 +262,7 @@
 			rewards: [
 				{
 					amount: 100L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "43121A55EA6D8211"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -289,7 +292,7 @@
 			rewards: [
 				{
 					amount: 50L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "5E03B84D6DAE78E4"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -318,7 +321,7 @@
 			rewards: [
 				{
 					amount: 100L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "32F59C25BA0BFFCB"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -368,7 +371,7 @@
 			id: "083FB6BC2C2D9609"
 			rewards: [{
 				amount: 160L
-				currency: "ancientcoins:ancient_coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "1B5FD4A34B598840"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -393,7 +396,7 @@
 			id: "51489406A1269085"
 			rewards: [{
 				amount: 100L
-				currency: "ancientcoins:ancient_coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "5B48796C23B3F2F0"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -415,12 +418,13 @@
 				"We all need sleep, and that includes our little friends. A &6&opet bed&r will act the same way for your pet that your own bed does for you! I-it will let them respawn... if they die..."
 				"... &0I miss you.&r"
 				"Well, let's not get off track! You'll know your pet has taken the bed when Zs appear over their head."
+				"{image:modpack:textures/pet-bed.png width:156 height:90 align:center}"
 			]
 			hide_until_deps_visible: true
 			id: "5B9D08BF34A3396B"
 			rewards: [{
 				amount: 100L
-				currency: "ancientcoins:ancient_coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "77FA833DCD190871"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -443,12 +447,15 @@
 		}
 		{
 			dependencies: ["5B9D08BF34A3396B"]
-			description: ["All good pets need a fitting name! While name tags get the job done, they aren't exactly accessible. To remedy this, we can craft a &6&ocollar tag&r. Not only does this act as a cheaper alternative to name tags, they can also be &oenchanted&r to give your pet a boost. Crouching will let you see the enchantments on your pet's current collar tag."]
+			description: [
+				"All good pets need a fitting name! While name tags get the job done, they aren't exactly accessible. To remedy this, we can craft a &6&ocollar tag&r. Not only does this act as a cheaper alternative to name tags, they can also be &oenchanted&r to give your pet a boost. Crouching will let you see the enchantments on your pet's current collar tag."
+				"{image: width:100 height:100 align:center}"
+			]
 			hide_until_deps_visible: true
 			id: "6DEED125538775FD"
 			rewards: [{
 				amount: 100L
-				currency: "ancientcoins:ancient_coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "3E2CC371EBEC7C93"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -461,6 +468,181 @@
 			title: "Do They Have A Name?"
 			x: -3.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			description: [
+				"Did you know there are other people in this world?"
+				""
+				"Villages are home to villagers. I guess that makes sense now, doesn't it? There are many types of villages in this world. Perhaps you can find one."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "exposure:textures/exposure/village/village_3.png"
+				}
+			}
+			id: "64084A2EAFBE2B7F"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "523FF1B56A4BF819"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3DF05F2A804F8271"
+				structure: "#minecraft:village"
+				title: "Find a village"
+				type: "structure"
+			}]
+			title: "Villages to Venture"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["083FB6BC2C2D9609"]
+			description: [
+				"Do you have an excess of items, even with a nice bag and some chests? Well, have you considered selling your goods?"
+				"The &o&6shipping bin&r is a helpful block. By interacting with it, you can deposit all sorts of items and receive ancient coins in return. When midnight hits, you'll be alerted that the contents of the box have been bought and shipped off. Checking the box afterwards, you will see your earnings in its contents."
+				"Note that &onot all items are sellable&r, and some items like common ingredients may require more than one before receiving any purchase."
+				"{image:modpack:textures/shipping-bin.png width:156 height:90 align:center}"
+			]
+			id: "30ABD0E686F62848"
+			rewards: [{
+				amount: 130L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5BE97D295A756673"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "6880C6FEAE21BBC2"
+				item: "shippingbin:shipping_bin"
+				type: "item"
+			}]
+			title: "Ship It Off!"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64084A2EAFBE2B7F"]
+			description: [
+				"Have you heard about illagers? Strange cousins to the villagers, and much less peaceful. You might come across a group of pillagers, but beware the one with a banner, for it will give you a nasty omen with its dying breath."
+				"&6&oVillage raids&r begin when a player with the Bad Omen effect enters a village. Waves of illagers will come seeking naught but destruction and death, and you'll need to help fend them off. Doing so has its rewards, as you'll be seen a hero in the eyes of the traders."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/mob_effect/bad_omen.png"
+				}
+			}
+			id: "7727C53B1B821455"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4F4CFF64A90AD8D7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:textures/mob_effect/bad_omen.png"
+					}
+				}
+				id: "6085F0BBBF582197"
+				stat: "minecraft:raid_win"
+				title: "Complete a Raid"
+				type: "stat"
+				value: 1
+			}]
+			title: "Village Defense Squad"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7727C53B1B821455"]
+			description: ["I... won't ask &owhy&r so many raids have been triggered, but I will congratulate you for fending off each and every one of them... I hope."]
+			id: "0A064317CD8AE591"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:textures/mob_effect/hero_of_the_village.png"
+					}
+				}
+				id: "2AA326E8369D3491"
+				stat: "minecraft:raid_win"
+				title: "Complete 5 raids"
+				type: "stat"
+				value: 5
+			}]
+			title: "A True Hero of Green"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64084A2EAFBE2B7F"]
+			description: [
+				"Do you ever find yourself scouring the town to find that one specific villager you want to trade with? Well, no more!"
+				"The &o&6Trading Post&r is a block that connects to all nearby villagers, allowing you to access any trade from it. What's best is that you can even filter and search for more specific wants."
+			]
+			hide_until_deps_visible: true
+			id: "2CF72976CE0FE008"
+			rewards: [{
+				count: 5
+				id: "10620B2E22C0844B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "206CC5BEC1EFD0B9"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			title: "Trading Central"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "6582DCB124CE4A9F"
+			rewards: [{
+				id: "332401932C4398FF"
+				item: "kubejs:enchanted_soul_gem"
+				title: "It Won't Let You"
+				type: "item"
+			}]
+			secret: true
+			shape: "none"
+			subtitle: "Not Yet"
+			tasks: [{
+				advancement: "tombstone:adventure/first_grave"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "supplementaries:textures/map_marker/death_marker.png"
+					}
+				}
+				id: "5559C61D8CA9BF31"
+				secret: true
+				title: "You Can't Die"
+				type: "advancement"
+			}]
+			title: "You Won't Die"
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 	title: "Fresh Beginnings"

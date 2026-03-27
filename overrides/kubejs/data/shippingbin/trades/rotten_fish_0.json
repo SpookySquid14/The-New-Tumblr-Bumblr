@@ -1,0 +1,12 @@
+{
+   "input": {
+    "count": 7,
+    "ingredient": {
+      "item": "born_in_chaos_v1:rotten_fish"
+    }
+  },
+  "output": {
+    "item": "aquamirae:sharp_bones",
+    "count": 3
+  }
+}

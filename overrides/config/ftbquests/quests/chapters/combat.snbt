@@ -31,7 +31,7 @@
 			rewards: [
 				{
 					amount: 100L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "287DEDF9989AABCB"
 					ignore_reward_blocking: true
 					team_reward: false
@@ -66,7 +66,7 @@
 			rewards: [
 				{
 					amount: 100L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "0BD34CF4F0F5D385"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -106,7 +106,7 @@
 			id: "48FD69C56789F0D9"
 			rewards: [{
 				amount: 100L
-				currency: "ancientcoins:ancient_coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "3AC00B7899039289"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -131,7 +131,7 @@
 			rewards: [
 				{
 					amount: 100L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "35353661A7631BDC"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -236,7 +236,7 @@
 			rewards: [
 				{
 					amount: 100L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "5E4EDC9887F66D31"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -288,7 +288,7 @@
 			id: "38E49C8AA7FD4DA3"
 			rewards: [{
 				amount: 100L
-				currency: "ancientcoins:ancient_coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "36F795CF16BE6489"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -297,12 +297,27 @@
 			subtitle: "Stabby stab"
 			tasks: [{
 				count: 2L
-				id: "78C77A66DB0C4D66"
+				id: "46F3269BB6E80DD4"
 				item: {
 					Count: 1
-					id: "farmersdelight:iron_knife"
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "forge:tools/knives"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "forge:tools/daggers"
+								}
+							}
+						]
 					}
 				}
 				type: "item"
@@ -315,6 +330,13 @@
 			dependencies: ["63FE95E91D565AE0"]
 			description: ["They say the piglins have developed a special type of shield. Though the secrets to crafting such an item are lost to us, that doesn't stop one from acquiring it through... &oother means.&r"]
 			id: "3D13CC5391A7277B"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "07C03AA6603E5A1F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "window"
 			tasks: [{
 				id: "351E85F6CC80C965"

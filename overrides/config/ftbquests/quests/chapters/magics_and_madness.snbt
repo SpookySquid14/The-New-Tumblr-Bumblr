@@ -1,0 +1,297 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magics_and_madness"
+	group: "6DE537A3985C2BD8"
+	id: "2D34FF035F596DF7"
+	images: [
+		{
+			click: "command:/eternalcurrencies checkbalance eternalcurrencies:ancientcoins @s"
+			height: 0.5d
+			image: "modpack:textures/check-balance.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.5d
+			x: -2.0d
+			y: -6.75d
+		}
+		{
+			height: 1.0d
+			image: "modpack:textures/magics-and-madness.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.0d
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_two"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -4.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_five"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_three"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -3.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_seven"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_one"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_five"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.75d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			description: ["Now this is where we get interesting. This scroll will let you teleport to &oany&r known waystone, almost like you're using one yourself. It'll even negate the experience cost for you. One use though, so make it count."]
+			disable_toast: true
+			icon: "waystones:warp_scroll"
+			id: "201D9D19102FEC86"
+			repeatable: true
+			rewards: [{
+				id: "7EA9EFD312A41926"
+				item: {
+					Count: 1
+					id: "waystones:warp_scroll"
+					tag: { }
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				amount: 1500L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1DB3B9329967977C"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "Warp Scroll"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: false
+			description: ["Now this is where we get interesting. This scroll will let you teleport to &oany&r known waystone, almost like you're using one yourself. It'll even negate the experience cost for you. One use though, so make it count."]
+			disable_toast: true
+			icon: "waystones:warp_scroll"
+			id: "5554564CABF86018"
+			repeatable: true
+			rewards: [{
+				id: "5C830CDF5B931069"
+				item: {
+					Count: 1
+					id: "waystones:warp_scroll"
+					tag: { }
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				amount: 1500L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "238DC9FA50F254EA"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "Warp Scroll"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: false
+			description: ["Now this is where we get interesting. This scroll will let you teleport to &oany&r known waystone, almost like you're using one yourself. It'll even negate the experience cost for you. One use though, so make it count."]
+			disable_toast: true
+			icon: "waystones:warp_scroll"
+			id: "5C4476807C0C4A7B"
+			repeatable: true
+			rewards: [{
+				id: "1F5A032C4987E79F"
+				item: {
+					Count: 1
+					id: "waystones:warp_scroll"
+					tag: { }
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				amount: 1500L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "12A4C6838C757DD3"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "Warp Scroll"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			description: ["This little scroll of mine's simple but powerful. It'll instantly teleport you to the closest known waystone available. Pretty useful for a quick escape, no?"]
+			disable_toast: true
+			icon: "waystones:return_scroll"
+			id: "2767F0ACA0E05A29"
+			repeatable: true
+			rewards: [{
+				id: "0E1747957AC759CA"
+				item: "waystones:return_scroll"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				amount: 300L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3A2D8FD95FBE53BD"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "1x Return Scroll"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			description: ["This nifty little scroll requires you bind the scroll to a waystone first, but then you can warp back there any time you want. I'd say it's quite useful after a long day's travel."]
+			disable_toast: true
+			icon: "waystones:bound_scroll"
+			id: "200D96871A6421D8"
+			repeatable: true
+			rewards: [{
+				id: "20DDA722C41BC34E"
+				item: "waystones:bound_scroll"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				amount: 700L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "314ACF63DE8BD800"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "1x Bound Scroll"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: ["Ah, that catch your eye? Yes, soul gems may be somewhat plentiful to those practicing the arts, but it takes a... special touch to imbue one as I have. If you want one, I'll gladly sell it to you. Perhaps it can be useful next time you die."]
+			icon: "kubejs:enchanted_soul_gem"
+			id: "221F955B1421EC0C"
+			rewards: [{
+				id: "7FC06E8BA9401F50"
+				item: "kubejs:enchanted_soul_gem"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				amount: 250L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ancientcoins:textures/currencies/ancient_coin.png"
+					}
+				}
+				id: "1CEA794FC75BFB52"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "1x Enchanted Soul Gem"
+			x: -1.5d
+			y: -5.0d
+		}
+	]
+	title: "Magics And Madness"
+}

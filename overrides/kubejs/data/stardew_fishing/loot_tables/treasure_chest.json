@@ -32,7 +32,7 @@
                 {
           "type": "minecraft:item",
           "name": "endrem:cryptic_eye",
-          "weight": 1
+          "weight": 7
         }
       ]
     }

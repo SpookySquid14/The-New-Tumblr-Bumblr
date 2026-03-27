@@ -32,7 +32,7 @@
 			rewards: [
 				{
 					amount: 150L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "5ACDEB041333EEE4"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -76,7 +76,7 @@
 			id: "5981B3DEDD0B3827"
 			rewards: [{
 				amount: 100L
-				currency: "ancientcoins:ancient_coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "193FCC6C2EBD36B8"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -109,7 +109,7 @@
 			rewards: [
 				{
 					amount: 100L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "5D8A8E81D4ED62B5"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -139,7 +139,7 @@
 			id: "3873AB1F19921EF0"
 			rewards: [{
 				amount: 160L
-				currency: "ancientcoins:ancient_coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "1CE114E8ED8E456C"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -174,7 +174,7 @@
 			rewards: [
 				{
 					amount: 100L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "3AF70DB38549114A"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -239,7 +239,7 @@
 			rewards: [
 				{
 					amount: 100L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "1EBFD7CA9D343E7F"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -271,7 +271,7 @@
 			rewards: [
 				{
 					amount: 140L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "6FFE5A90F3075E3D"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
@@ -308,7 +308,7 @@
 			rewards: [
 				{
 					amount: 230L
-					currency: "ancientcoins:ancient_coins"
+					currency: "eternalcurrencies:ancientcoins"
 					id: "2861E989053228D3"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
