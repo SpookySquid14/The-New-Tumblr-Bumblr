@@ -222,7 +222,7 @@
 		#Range: 0 ~ 64
 		trade_how_many = 7
 		#Disable/enable Umvuthi resetting health when a player respawns nearby. (Prevents respawn cheese!)
-		reset_health_when_respawn = true
+		reset_health_when_respawn = false
 
 		#Generation controls for Umvuthana Groves
 		[mobs.umvuthi.biome_config]

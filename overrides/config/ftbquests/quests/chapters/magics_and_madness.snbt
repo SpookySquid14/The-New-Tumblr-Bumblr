@@ -140,6 +140,7 @@
 			id: "201D9D19102FEC86"
 			repeatable: true
 			rewards: [{
+				auto: "no_toast"
 				id: "7EA9EFD312A41926"
 				item: {
 					Count: 1
@@ -168,6 +169,7 @@
 			id: "5554564CABF86018"
 			repeatable: true
 			rewards: [{
+				auto: "no_toast"
 				id: "5C830CDF5B931069"
 				item: {
 					Count: 1
@@ -196,6 +198,7 @@
 			id: "5C4476807C0C4A7B"
 			repeatable: true
 			rewards: [{
+				auto: "no_toast"
 				id: "1F5A032C4987E79F"
 				item: {
 					Count: 1
@@ -224,6 +227,7 @@
 			id: "2767F0ACA0E05A29"
 			repeatable: true
 			rewards: [{
+				auto: "no_toast"
 				id: "0E1747957AC759CA"
 				item: "waystones:return_scroll"
 				team_reward: true
@@ -248,6 +252,7 @@
 			id: "200D96871A6421D8"
 			repeatable: true
 			rewards: [{
+				auto: "no_toast"
 				id: "20DDA722C41BC34E"
 				item: "waystones:bound_scroll"
 				team_reward: true
@@ -267,11 +272,14 @@
 		{
 			can_repeat: true
 			description: ["Ah, that catch your eye? Yes, soul gems may be somewhat plentiful to those practicing the arts, but it takes a... special touch to imbue one as I have. If you want one, I'll gladly sell it to you. Perhaps it can be useful next time you die."]
+			disable_toast: true
 			icon: "kubejs:enchanted_soul_gem"
 			id: "221F955B1421EC0C"
 			rewards: [{
+				auto: "no_toast"
 				id: "7FC06E8BA9401F50"
 				item: "kubejs:enchanted_soul_gem"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "diamond"

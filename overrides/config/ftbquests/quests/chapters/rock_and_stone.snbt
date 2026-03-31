@@ -216,12 +216,15 @@
 		{
 			can_repeat: true
 			description: ["Not one for mining, ay? Well, I'd say it can be worth the trouble most times, but if you need a little push, I can cover ya, for a fee of coure."]
+			disable_toast: true
 			icon: { Count: 16, id: "minecraft:cobblestone" }
 			id: "7790867215971C3C"
 			rewards: [{
+				auto: "no_toast"
 				count: 16
 				id: "74F4C7F2713673EB"
 				item: "minecraft:cobblestone"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -238,12 +241,15 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: { Count: 8, id: "minecraft:iron_ingot" }
 			id: "5C13443DAF789830"
 			rewards: [{
+				auto: "no_toast"
 				count: 8
 				id: "7A9EE88068A1459A"
 				item: "minecraft:iron_ingot"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -260,6 +266,7 @@
 		{
 			can_repeat: false
 			description: ["I'll uh... I'll be real with ya for a momen'. I... do not remember where this thing came from. I just found it while cleaning. It's certainly a good tool, don't get me wrong. But something about it just feels... off."]
+			disable_toast: true
 			hide_dependency_lines: false
 			icon: {
 				Count: 1
@@ -270,6 +277,7 @@
 			}
 			id: "59B393F49F76FE66"
 			rewards: [{
+				auto: "no_toast"
 				id: "738EF3A3457E4F56"
 				item: {
 					Count: 1
@@ -278,6 +286,7 @@
 						Damage: 0
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -294,13 +303,16 @@
 		{
 			can_repeat: true
 			dependencies: ["08BE7B461CC437CA"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			icon: { Count: 16, id: "tconstruct:grout" }
 			id: "57383C95CC6678D3"
 			rewards: [{
+				auto: "no_toast"
 				count: 16
 				id: "03EEBA49B1AF2FB4"
 				item: "tconstruct:grout"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -316,8 +328,17 @@
 		}
 		{
 			can_repeat: true
+			disable_toast: true
 			icon: { Count: 32, id: "minecraft:coal" }
 			id: "01FD933F1E52DA53"
+			rewards: [{
+				auto: "no_toast"
+				count: 32
+				id: "6D873BB9A9DA5DDA"
+				item: "minecraft:coal"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				amount: 350L
@@ -336,13 +357,16 @@
 				"42B5D1A43C9C02AB"
 			]
 			dependency_requirement: "one_completed"
+			disable_toast: true
 			hide_until_deps_complete: true
 			icon: { Count: 16, id: "minecraft:andesite" }
 			id: "03C1FFF0D39BAEE5"
 			rewards: [{
+				auto: "no_toast"
 				count: 16
 				id: "47A2E152B6D8C0DD"
 				item: "minecraft:andesite"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"

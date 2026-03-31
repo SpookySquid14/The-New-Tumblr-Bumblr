@@ -1,4 +1,5 @@
 {
     "currency.eternalcurrencies:ancientcoins.name": "Ancient Coins",
-    "currency.eternalcurrencies:ancientcoins.name.with_amount": "%s Ancient Coins"
+    "currency.eternalcurrencies:ancientcoins.name.with_amount": "%s Ancient Coins",
+    "item.eternalcurrencies.currency_item": "Bag of Coins"
 }

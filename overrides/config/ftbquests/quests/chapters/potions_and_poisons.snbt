@@ -11,39 +11,43 @@
 			rotation: 0.0d
 			width: 11.0d
 			x: -0.5d
-			y: -6.75d
+			y: -7.0d
 		}
 		{
+			dependency: "2CBE90561300741D"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_one"
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: -4.5d
+			y: -4.75d
 		}
 		{
+			dependency: "2CBE90561300741D"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_three"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: -4.5d
+			y: -4.75d
 		}
 		{
+			dependency: "2CBE90561300741D"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_five"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.5d
-			y: -4.5d
+			y: -4.75d
 		}
 		{
+			dependency: "2CBE90561300741D"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
-			y: -4.5d
+			y: -4.75d
 		}
 		{
 			height: 1.0d
@@ -51,7 +55,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: -5.5d
+			y: -5.75d
 		}
 		{
 			height: 1.0d
@@ -59,7 +63,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: -5.5d
+			y: -5.75d
 		}
 		{
 			height: 1.0d
@@ -67,7 +71,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.5d
-			y: -5.5d
+			y: -5.75d
 		}
 		{
 			click: "command:/eternalcurrencies checkbalance eternalcurrencies:ancientcoins @s"
@@ -77,13 +81,15 @@
 			rotation: 0.0d
 			width: 4.5d
 			x: -3.0d
-			y: -7.5d
+			y: -7.75d
 		}
 	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: true
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "minecraft:potion"
@@ -93,6 +99,7 @@
 			}
 			id: "3EDF20DB417E51C2"
 			rewards: [{
+				auto: "no_toast"
 				id: "180A10AF7181710D"
 				item: {
 					Count: 1
@@ -101,6 +108,7 @@
 						Potion: "minecraft:healing"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -111,9 +119,13 @@
 			}]
 			title: "1x Minor Potion of Healing"
 			x: -1.5d
-			y: -5.75d
+			y: -6.0d
 		}
 		{
+			can_repeat: true
+			dependencies: ["2CBE90561300741D"]
+			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "minecraft:potion"
@@ -123,6 +135,7 @@
 			}
 			id: "6BE3A91F70079E4E"
 			rewards: [{
+				auto: "no_toast"
 				id: "7CFF29C6C42568D4"
 				item: {
 					Count: 1
@@ -131,6 +144,7 @@
 						Potion: "minecraft:fire_resistance"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -141,7 +155,7 @@
 			}]
 			title: "1x Potion of Fire Resistance"
 			x: -1.5d
-			y: -4.75d
+			y: -5.0d
 		}
 	]
 	title: "Potions and Poisons"

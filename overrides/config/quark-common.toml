@@ -113,7 +113,7 @@
 	"Duskbound Blocks" = true
 	"Framed Glass" = true
 	"Glass Item Frame" = true
-	"Gold Bars" = true
+	"Gold Bars" = false
 	Grate = true
 	Hedges = true
 	"Hollow Logs" = true
@@ -678,7 +678,7 @@
 		#If `petAllMobs` is set, these mobs still can't be pet
 		"Pettable Denylist" = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:armor_stand"]
 		#Even if `petAllMobs` is not set, these mobs can be pet
-		"Pettable Allowlist" = []
+		"Pettable Allowlist" = ["minecraft:player", "minecraft:cat"]
 
 	[tweaks.pig_litters]
 		#Allowed values: [1,)

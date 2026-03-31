@@ -5,7 +5,7 @@
 	#Range: 1 ~ 100
 	stalk_range = 65
 	#Allow angels to break light-emitting blocks?
-	block_breaking = true
+	block_breaking = false
 
 [damage]
 	#Type of hurt inflicted by angels.

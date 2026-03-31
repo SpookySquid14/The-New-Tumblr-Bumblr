@@ -10,7 +10,7 @@
 	quests: [
 		{
 			description: [
-				"To whoever finds this, I welcome you to this wonderful world we call home. There will surely be much to discover, fight, learn, and avoid. By reading this book, you accept your reality. I will be in touch."
+				"To whoever finds this, I welcome you to this wonderful world we call home. There will surely be much to discover, fight, learn, and avoid. By reading this book, you accept your reality. I will be in touch. If you ever need to find this menu again, &6&oyou can access it through your inventory in the top left corner or the tabs above the menu. You can also set a keybind in Controls&r."
 				"PS: You are never alone. &0Avoid &kthe entity&r&0 at all costs.&r"
 			]
 			icon: "irons_spellbooks:chained_book"
@@ -382,7 +382,7 @@
 				type: "item"
 			}]
 			title: "Pockets? What are those?"
-			x: 3.0d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -526,8 +526,8 @@
 				type: "item"
 			}]
 			title: "Ship It Off!"
-			x: 2.0d
-			y: -1.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["64084A2EAFBE2B7F"]
@@ -643,6 +643,119 @@
 			title: "You Won't Die"
 			x: -1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["257AD50176950053"]
+			description: [
+				"&o&6Spice of Life: Apple Pie Edition&r is a mod that incentivizes eating a variety of different foods, encouraging the player to cook up meals more than a simple steak or loaf of bread."
+				"While not required, eating a diverse amount of food and &6&okeeping one's diversity level high will grant the player a variety of useful buffs, from extra health to more speed&r."
+			]
+			hide_until_deps_complete: true
+			id: "0CEABDF5DF16171A"
+			tasks: [{
+				id: "284856DD6E18307F"
+				item: "solapplepie:food_book"
+				type: "item"
+			}]
+			title: "Travel Meals Don't Need to Be Simple"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0CEABDF5DF16171A"]
+			description: [
+				"You may be wondering, \"If I need to constantly eat a variety of foods, won't that fill up my inventory?\" And you would be correct. That's where the &o&6lunchbag&r comes into play."
+				"Crouching and right clicking will open the bag's menu, wherein you can place up to &ofive different foods&r. From there, the bag can be used as a food item itself. When eating from the bag, &o&6it will automatically pick a food from its contents that best keeps your diversity level high&r."
+			]
+			hide_until_deps_visible: true
+			id: "4255B54782CADB9E"
+			tasks: [{
+				id: "27177C963F4AA74E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "solapplepie:lunchbag"
+				}
+				type: "item"
+			}]
+			title: "Don't Forget Lunch!"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4255B54782CADB9E"]
+			description: [
+				"The lunchbag is useful, but perhaps you want to store more meals and snacks inside it, and the 5 slot limit just isn't enough."
+				"Well, fortunately for you, &o&6the lunchbag can be upgraded to a satchel, giving it 4 additional slots&r."
+			]
+			hide_until_deps_visible: true
+			id: "5F477EF4273A7F1C"
+			tasks: [{
+				id: "703D3304D0AFE68C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [
+								{
+									Count: 64b
+									Slot: 2
+									id: "farmersdelight:egg_sandwich"
+								}
+								{
+									Count: 64b
+									Slot: 3
+									id: "brewinandchewin:ham_and_cheese_sandwich"
+								}
+								{
+									Count: 64b
+									Slot: 4
+									id: "farmersdelight:bacon_sandwich"
+								}
+								{
+									Count: 64b
+									Slot: 5
+									id: "alexsdelight:bunfungus_sandwich"
+								}
+							]
+							Size: 9
+						}
+					}
+					id: "solapplepie:lunchbox"
+				}
+				type: "item"
+			}]
+			title: "A Food Carrying Fiend"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F477EF4273A7F1C"]
+			description: ["So the satchel is nice, but you want even &omore&r storage from your meals. Well, there is one last upgrade. By turning your satchel into a Picnic Basket, it gains 5 additional slots for food&r."]
+			hide_until_deps_visible: true
+			id: "336A6C21364AFBA2"
+			tasks: [{
+				id: "51A51864B91546BA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 14
+						}
+					}
+					id: "solapplepie:golden_lunchbox"
+				}
+				type: "item"
+			}]
+			title: "Going Somewhere?"
+			x: 4.0d
+			y: -3.0d
 		}
 	]
 	title: "Fresh Beginnings"

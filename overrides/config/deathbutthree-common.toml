@@ -2,5 +2,5 @@
 [DeathButThree]
 	#Before ';': boss' registry name
 	#After ';': its max death times
-	ValidBossesAndMaxDeathTimes = ["cataclysm:ignis;3"]
+	ValidBossesAndMaxDeathTimes = ["cataclysm:ignis;3", "mowziesmobs:umvuthi;3"]
 
