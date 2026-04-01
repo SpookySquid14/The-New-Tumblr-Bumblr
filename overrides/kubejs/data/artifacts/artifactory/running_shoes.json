@@ -1,0 +1,16 @@
+{
+  "slots_used": 2,
+  "use_without_attunement": false,
+  "replace": true,
+  "attunement_levels": [
+    {
+      "modifications": [
+        "invulnerable"
+      ],
+      "requirements": {
+        "xp_levels_consumed": 10,
+        "xp_level_threshold": 5
+      }
+    }
+  ]
+}
