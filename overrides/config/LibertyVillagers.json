@@ -49,7 +49,7 @@
     "butchersFeedSheep": false,
     "fletchersFeedChickens": true,
     "leatherworkersFeedCows": true,
-    "shepherdsFeedSheep": false,
+    "shepherdsFeedSheep": true,
     "feedAnimalsRange": 20,
     "feedMaxAnimals": 30,
     "fishermanFish": true,

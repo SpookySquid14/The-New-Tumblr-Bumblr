@@ -1,0 +1,22 @@
+{
+  "type": "immersiveenchanting:ancient_book_loot_modifier",
+  "conditions": [
+    {
+      "condition": "any_of",
+      "terms": [
+        { "condition": "forge:loot_table_id", "loot_table_id": "netherexp:brazier_chest/hidden" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "netherexp:brazier_chest/exposed" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "integrated_stronghold:chests/bedroom" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "integrated_stronghold:chests/crypt" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "integrated_stronghold:chests/enchanting" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "integrated_stronghold:chests/grand_library" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "integrated_stronghold:chests/nether_portal" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "integrated_stronghold:chests/sanctorum" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "structory:library/high" }
+      ]
+    }
+  ],
+  "count": 1,
+  "item": "immersiveenchanting:ancient_book",
+  "chance": 0.9
+}

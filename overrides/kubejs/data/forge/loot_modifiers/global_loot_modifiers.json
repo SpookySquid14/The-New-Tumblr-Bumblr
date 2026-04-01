@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "entries": [
+    "immersiveenchanting:ancient_books_loot",
+    "immersiveenchanting:remove_enchanted_books",
+    "immersiveenchanting:two_ancient_books_loot"
+  ]
+}
