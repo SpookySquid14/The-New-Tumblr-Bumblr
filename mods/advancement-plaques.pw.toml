@@ -1,0 +1,17 @@
+filename = 'AdvancementPlaques-1.20.1-forge-1.6.9.jar'
+name = 'Advancement Plaques [Neo/Forge]'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'AdvancementPlaques-1.20.1-forge-1.6.9.jar'
+
+[download]
+hash = '6e7b01db61f9646977bd06e9d85492a667d4a8bd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6186385
+project-id = 499826
