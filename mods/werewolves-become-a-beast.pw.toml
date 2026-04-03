@@ -1,0 +1,17 @@
+filename = 'Werewolves-1.20.1-2.0.2.7.jar'
+name = 'Werewolves - Become a Beast!'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Werewolves-1.20.1-2.0.2.7'
+
+[download]
+hash = 'b2540a22f2182a742a5ec5ddcfe5332543a02098'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6722563
+project-id = 417851

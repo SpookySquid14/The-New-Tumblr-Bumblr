@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "levels": {
+    "1": {
+      "item": "minecraft:fire_charge",
+      "amount": 12,
+      "xp_levels": 0
+    },
+    "2": {
+      "item": "minecraft:flint_and_steel",
+      "amount": 1,
+      "xp_levels": 0
+    },
+    "3": {
+      "item": "minecraft:blaze_powder",
+      "amount": 8,
+      "xp_levels": 0
+    }
+  }
+}

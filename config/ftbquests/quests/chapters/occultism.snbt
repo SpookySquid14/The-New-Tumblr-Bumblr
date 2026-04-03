@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "2E5A9DABC49A0340"
+	id: "617637544D025A7F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28EBB69D972236AC"]
+			description: ["Now, throw &o&6some andesite and oak saplings into the fire&r. The flames will alter them, and you will be given &oOtherstone and an Otherworld Sapling&r, though the latter may not look the part."]
+			id: "1908E5992649B221"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "33D43DFBC16C7528"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "15701D4CAED41A05"
+					item: { Count: 16, id: "occultism:otherstone" }
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "occultism:otherworld_sapling_natural"
+						tag: {
+							isInventoryItem: 1b
+						}
+					}
+					id: "507EDE587A82CF65"
+					item: {
+						Count: 1
+						id: "occultism:otherworld_sapling_natural"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Items From Beyond The Veil"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"So, you wish to learn the art of occultism? You wish to summon demons to do your bidding? Very well. I will teach you what I know."
+				"&o&6Occultism&r is a mod based around drawing pentacles and sacrifcing items to summon demons for a variety of different tasks. It allows for a unique form of automation utilizing mobs and not blocks. The mod also features ways to get specific drops earlier than usual."
+				"{@pagebreak}"
+				"To begin, you will want &oDemon's Dream&r, a new crop that forms a base for future actions. Seeds can be found by breaking grass."
+			]
+			id: "4479AB901F8621D9"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "178B0845883B5B87"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "31869C3F2CCA7F87"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "4E21BF9CE3961C6D"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			title: "Occult Beginnings"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4479AB901F8621D9"]
+			description: ["You've obtained some Demon's Dream. Good. Now we will want to &o&6combine it with a book&r and obtain &n&6The Dictionary of Spirits&r. This tome serves as both a guide and a tool for rituals."]
+			id: "51AB4D8CC9052211"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "00CF2DC5653437F3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "507DBCD4D336A982"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			title: "The Book of Demons"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51AB4D8CC9052211"]
+			description: [
+				"You've obtained your book and some Demon's Dream. Now you are ready to gain materials from &othe Otherworld&r."
+				"&o&6Ignite a Demon's Dream with Flint and Steel&r to create Spiritfire. Worry not about burns, for these purple flames have no heat. Rather, they will connect you to the Otherworld and &o&6exchange items thrown in&r."
+				"I suggest you spark this flame somewhere you will have easy access to, as we will be using it often."
+			]
+			id: "28EBB69D972236AC"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1232518D6691C19F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				icon: "occultism:spirit_fire"
+				id: "0189164F35FF1E85"
+				observe_type: 0
+				timer: 0L
+				title: "Ignite a Demon's Dream to create Spiritfire"
+				to_observe: "occultism:spirit_fire"
+				type: "observation"
+			}]
+			title: "A Fire That Doesn't Burn"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "Occultism"
+}

@@ -1,0 +1,1046 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "0"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "1"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "1"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "2"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "2"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "3"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "3"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "4"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "4"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "5"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "5"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "6"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "6"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "7"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "7"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "8"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "8"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "9"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "9"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "10"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "10"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "11"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "11"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "12"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "12"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "13"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "13"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "14"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "14"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "15"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "15"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "16"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "16"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "17"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "17"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "18"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "18"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "19"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "19"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "20"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "20"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "21"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "21"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "22"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "22"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "23"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "23"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "24"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "24"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "25"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "25"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "26"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "26"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "27"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "27"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "28"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "28"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "29"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "29"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "30"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "30"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "31"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "31"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "32"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "32"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "33"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "33"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "34"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "34"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "35"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "35"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "36"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "36"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "37"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "37"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "38"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "38"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "39"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "39"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "40"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "40"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "41"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "41"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "42"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "42"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "43"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "43"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "44"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "44"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "45"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "45"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "46"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "46"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "47"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "47"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "48"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "48"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "49"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "49"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "50"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "50"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "51"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "51"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "52"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "52"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "53"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "53"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "54"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "54"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "55"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "55"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "56"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "56"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "57"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "57"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "58"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "58"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "59"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "59"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "60"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "60"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "61"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "61"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "62"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "62"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "63"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "63"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"servings": "64"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"servings": "64"
+		},
+		"Name": "vampiresdelight:dandelion_beer_bottle_placed"
+	}
+]

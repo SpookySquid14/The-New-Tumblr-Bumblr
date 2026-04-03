@@ -1,0 +1,17 @@
+filename = 'updated_aquaculture-1.1-1.12.zip'
+name = 'Updated Aquaculture'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'updated_aquaculture-1.1-1.12.zip'
+
+[download]
+hash = '3b811ff9f82c36fd9ed563bb90febb6ed9481296'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7374171
+project-id = 640645

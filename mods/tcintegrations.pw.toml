@@ -1,0 +1,17 @@
+filename = 'TCIntegrations-1.20.1-2.0.25.18.jar'
+name = 'TCIntegrations'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'TCIntegrations 1.20.1-2.0.25.18'
+
+[download]
+hash = '2e2ed539607ba17466696a7974dc2213f2259aba'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7800791
+project-id = 602680

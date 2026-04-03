@@ -1,0 +1,356 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "combat"
+	group: "48841A8C395C40D5"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "tconstruct:gui/modifiers/armor/strength"
+		}
+	}
+	id: "09E0D38A497A486D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You may quickly notice that combat here is a little... different than average worlds. The first thing you'll likely notice is the moveset of your weapon. Indeed, each weapon has its own set of attacks and combos, from large sweeping motions to powerful slams. Even the simple knife is deadly when dual wielded."
+				"This chapter aims to teach you about combat and its changes, to help you in your future endeavours."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 1.4d
+			id: "59E5F8A65B826B42"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "287DEDF9989AABCB"
+					ignore_reward_blocking: true
+					team_reward: false
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1623740B52332692"
+					item: "dummmmmmy:target_dummy"
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Fighting 101"
+			tasks: [{
+				id: "06E9CEB9D2EB9176"
+				title: "Begin your lessons on the art of combat."
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59E5F8A65B826B42"]
+			description: [
+				"The dummy is a great way to test new weapons and abilities in a safe controlled manner. Once placed down, it will not be destroyed by your attacks, and will even display your damage dealt along with DPS."
+				"If you do find yourself wanting to move, simply crouch and hit the dummy to break it."
+			]
+			hide_until_deps_complete: true
+			icon_scale: 1.4d
+			id: "36F7B644F6DCB1BA"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0BD34CF4F0F5D385"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "591B4BC66221C610"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				icon: "dummmmmmy:target_dummy"
+				id: "630EAE8E3AB7CD96"
+				stat: "minecraft:damage_dealt"
+				type: "stat"
+				value: 500
+			}]
+			title: "Can we get much higher?"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59E5F8A65B826B42"]
+			description: [
+				"Have you noticed the blue arrow next to your hotbar? One of the most important things to know about combat in this pack is the ability to &6&oroll&r&r."
+				"Once assigned to any key in the controls menu (Default: R), pressing it will launch you in the direction you're moving, or forwards if you aren't. The meter will slowly recharge before allowing you to roll again. This is a very helpful skill, and can be key to avoiding some attacks."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combatroll:textures/hud/arrow.png"
+				}
+			}
+			id: "48FD69C56789F0D9"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3AC00B7899039289"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "334DF86628E8E280"
+				title: "Learn to roll"
+				type: "checkmark"
+			}]
+			title: "On a roll!"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48FD69C56789F0D9"]
+			description: [
+				"Rolling is great for avoiding many attacks, but there are times you simply need to take the blow. In these cases, a shield is your best ally. Simply holding one in your hands will decrease the damage you take from incoming attacks."
+				"But simply holding a shield is one thing. It's another to &6&oblock&r&r with it. Blocking with a shield will completely negate most attacks. Be careful, however, as weapons such as axes may damage your shield, disabling it for a small period of time."
+			]
+			id: "63FE95E91D565AE0"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "35353661A7631BDC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "662EB02841ABF0B3"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							BlockEntityTag: {
+								Base: 0
+								Patterns: [
+									{
+										Color: 11
+										Pattern: "lud"
+									}
+									{
+										Color: 11
+										Pattern: "ld"
+									}
+									{
+										Color: 11
+										Pattern: "rd"
+									}
+									{
+										Color: 0
+										Pattern: "br"
+									}
+									{
+										Color: 11
+										Pattern: "rud"
+									}
+									{
+										Color: 11
+										Pattern: "drs"
+									}
+									{
+										Color: 0
+										Pattern: "cs"
+									}
+									{
+										Color: 0
+										Pattern: "ms"
+									}
+									{
+										Color: 11
+										Pattern: "ts"
+									}
+									{
+										Color: 11
+										Pattern: "bo"
+									}
+								]
+							}
+							Damage: 0
+							Enchantments: [{
+								id: "unbreaking"
+								lvl: 1
+							}]
+							display: {
+								Name: "\"The Tumblr Buckler\""
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "6E6692DF4CF0CC18"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Block the haters"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["59E5F8A65B826B42"]
+			description: [
+				"Want to avoid the chance of taking damage all together? Or maybe you're wanting to build another stealth archer. Either way, bows are a great method to deal damage from afar."
+				"In this pack, they've been upgraded to have &6&ocritical hits&r&r. Whenever you shoot an arrow that's been fully charged, there's a chance you'll deal &6&o50% more damage.&r&r Sneaking while firing an arrow also increases the chance of a critical hit."
+				"Guess stealth archers really are strong."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D3DC90F66E544F7"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5E4EDC9887F66D31"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3B343B257D6CF56C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								SelectedSlot: 0
+								Size: 6
+							}
+						}
+						id: "supplementaries:quiver"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1C8DCE75482938D4"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "541D6706195F3B2B"
+					item: { Count: 16, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			title: "I was an adventurer like you once"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["59E5F8A65B826B42"]
+			description: ["Swords and axes too slow for you? Daggers and Knives provide excellent fast damage. While on their own they may not seem too impressive, their true power comes to light when dual wielded."]
+			hide_until_deps_complete: true
+			id: "38E49C8AA7FD4DA3"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "36F795CF16BE6489"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			subtitle: "Stabby stab"
+			tasks: [{
+				count: 2L
+				id: "46F3269BB6E80DD4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "forge:tools/knives"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "forge:tools/daggers"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Say hello to my little friends"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63FE95E91D565AE0"]
+			description: ["They say the piglins have developed a special type of shield. Though the secrets to crafting such an item are lost to us, that doesn't stop one from acquiring it through... &oother means.&r"]
+			id: "3D13CC5391A7277B"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "07C03AA6603E5A1F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "351E85F6CC80C965"
+				item: {
+					Count: 1
+					id: "piglinproliferation:buckler"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A golden shield?"
+			x: 0.0d
+			y: -7.0d
+		}
+	]
+	title: "Combat"
+}

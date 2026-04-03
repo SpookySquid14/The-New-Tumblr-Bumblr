@@ -1,0 +1,17 @@
+filename = 'Minecolonies Refreshed 4.0.0-1.21.1.zip'
+name = 'Minecolonies Refreshed'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Minecolonies Refreshed 4.0.0-1.21.1.zip'
+
+[download]
+hash = 'feeeb4febf75dad004759d5b77e91158779c396b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6021369
+project-id = 567347

@@ -1,0 +1,17 @@
+filename = 'DeathKnell-Forge-1.20.1-10.0.6.jar'
+name = 'Death Knell'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DeathKnell-Forge-1.20.1-10.0.6.jar'
+
+[download]
+hash = '74f12807919299a106bd44a1676e60f13fd67631'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7612528
+project-id = 538316

@@ -1,0 +1,17 @@
+filename = 'toweringtownscape-1.4-1.20.1.jar'
+name = 'Towering Townscape Style Pack for Minecolonies'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'toweringtownscape-1.4-1.20.1.jar'
+
+[download]
+hash = '4d5af2215a4e41f38f26cfd38625150ebaa4fe2c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5680418
+project-id = 1071934

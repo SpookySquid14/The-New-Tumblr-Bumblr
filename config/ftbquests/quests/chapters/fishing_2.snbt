@@ -1,0 +1,2188 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fishing_2"
+	group: "48841A8C395C40D5"
+	icon: "minecraft:cod_bucket"
+	id: "59964A25078B8ECE"
+	images: [
+		{
+			height: 1.0d
+			hover: ["Arctic fish spawn in cold ocean and cold beach biomes."]
+			image: "modpack:textures/arctic-fish.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Arid fish spawn in dry biomes that are not cold, such as savannas and badlands."]
+			image: "modpack:textures/arid-fish.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "modpack:textures/find-the-fishies.png"
+			rotation: 0.0d
+			width: 8.6d
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Freshwater fish spawn in rivers and lakes excluding ocean, beach, desert, and jungle biomes."]
+			image: "modpack:textures/freshwater-fish.png"
+			rotation: 0.0d
+			width: 4.1d
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "modpack:textures/jungle-fish.png"
+			rotation: 0.0d
+			width: 2.4d
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Saltwater fish spawn in warm ocean and beach biomes."]
+			image: "modpack:textures/saltwater-fish.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Brown Shrooma and Red Shrooma spawn exclusively in Mushroom Island biomes."]
+			image: "modpack:textures/special-fish.png"
+			rotation: 0.0d
+			width: 2.7d
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "modpack:textures/find-the-fishies-ii.png"
+			rotation: 0.0d
+			width: 5.46d
+			x: 11.5d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "modpack:textures/bobbers.png"
+			rotation: 0.0d
+			width: 4.6d
+			x: -2.0d
+			y: -9.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Fishing. It truly is something special, isn't it? Well, here you'll find there's much to do and much to find."
+				"But all fishermen need one item. What is it? Why, a fishing rod of course! So, why don't you craft one, and we can get this aquatic show on the road?"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "593F14E6FF0AACEB"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7AF68E5F5C8D97B4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 5
+					id: "6193C553DC95FFFD"
+					item: "farmersdelight:cod_roll"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a fishing rod"
+			tasks: [{
+				id: "5BE378D4EE212CDC"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Getting Fishy"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["593F14E6FF0AACEB"]
+			id: "1032ACA8EAF0E0B8"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "52A79A66C09CA8EA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3E7C085510F848CF"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					id: "1F0D1FE81B305AEF"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "201EFB25F87E9B0E"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			title: "Catch 32 Cod"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["593F14E6FF0AACEB"]
+			description: ["Now that you've hopefully gotten some experience with basic fishing, it's time to take things up a notch. &oAquaculture 2&r is a mod that adds plenty of new items to fishing, and it all starts with an upgraded rod."]
+			hide_dependency_lines: true
+			id: "3C88203BB36909F6"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3B67D854DDFD26AD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 2
+					id: "605E7A1E963C6FC4"
+					item: "aquaculture:algae"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6314A1F2BB7E7CFD"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an iron fishing rod"
+			tasks: [{
+				id: "34C17B8723B8253F"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Taking things to the next level"
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3C88203BB36909F6"]
+			description: ["&o&6The Tackle Box&r is your key to truly customizing and improving your fishing experience. Hopefully you still have some of the iron and algae from the last quest's rewards, but if not, it shouldn't be too hard to find substitutes."]
+			hide_until_deps_visible: true
+			id: "7D0EE07823EB90B1"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "382EB588497A76B6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "756D7ACF7FE4D932"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+				{
+					id: "6F4B72F5EE05019E"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a tackle box"
+			tasks: [{
+				id: "6EA54909637A81DE"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			title: "Getting into the deep end."
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7D0EE07823EB90B1"]
+			description: [
+				"{image:modpack:textures/tackle-box-menu.png width:100 height:100 align:center}"
+				"The tackle box has a variety of functions, the first being simple storage of your fishing related items, such as hooks, bobbers, and bait. You can freely pick up and place down your tackle box, allowing for ease of transportation."
+				"The primary function of the tackle box, however, is the ability to modify your fishing rod by equipping bobbers, fishing line, hooks, and bait. In the last quest, you were given a simple bobber and fishing line. These items are purely cosmetic, and can be dyed to give your fishing rod a little more personality. You will however find other bobbers in your travels that offer unique effects and bonuses."
+			]
+			hide_until_deps_visible: true
+			id: "74B1B18C1BBC9EFF"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3020427AE22CE73B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Use a tackle box to customize your fishing rod"
+			tasks: [{
+				block: "aquaculture:tackle_box"
+				block_type: 0
+				checkItem: false
+				id: "483B19ECD7E64F4E"
+				isItemInteraction: false
+				type: "questsadditions:use"
+				value: 1L
+			}]
+			title: "Let's get custom!"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["74B1B18C1BBC9EFF"]
+			description: [
+				"If you're wanting to get better odds in your fishing endeavors, then let me introduce you to &o&6bait&r. And not the online kind!"
+				"Bait comes in three forms: &oworms, leeches, and minnows&r. We'll get into the latter two in a bit, but first let's get some worms. For that, you'll need to make a &o&6worm farm&r."
+				"{image:modpack:textures/worm-farm.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_visible: true
+			id: "12248D0134A1B320"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "690F6554F0C640F9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "347860BDF8D6B2E5"
+				item: "aquaculture:worm_farm"
+				type: "item"
+			}]
+			title: "Squirmy Wormy"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["12248D0134A1B320"]
+			description: [
+				"You've got a worm farm. Great! Now you just need to get some worms. This is an easy process. Simply use the farm like you would a composter. &6&oBy putting seeds, vegetables, and other compostable items inside, your farm will fill up with worms.&r Once filled, right clicking will let you harvest them."
+				"PS: Unlike a composter, you don't need to fill the Worm Farm fully. Any amount of filling will produce a single worm."
+			]
+			hide_until_deps_visible: true
+			id: "1F3B5DCD1B92F326"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "081C083BCA735E45"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7DFA184759B1F283"
+				item: {
+					Count: 16
+					id: "aquaculture:worm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Can't Worm Out of This One"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F3B5DCD1B92F326"]
+			description: ["The second of the three baits, and the first to be caught in the wild, is the humble leech. These tiny blood suckers can be caught in &6&oswamp biomes&r, and prove more effective than worms."]
+			hide_until_deps_visible: true
+			id: "27FCEB957B9871FB"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0428820675DE3A1C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "I-I think?"
+			tasks: [{
+				count: 3L
+				id: "7E173AE90CD3BE56"
+				item: {
+					Count: 3
+					id: "aquaculture:leech"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The Cure to Most Things"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27FCEB957B9871FB"]
+			description: [
+				"The final, and most powerful, bait is &6&othe minnow&r. Yes, we're catching fish with other fish."
+				"You'll find minnows in &o&6rivers and lakes&r, provided they're of average climate. So no frozen or desert wastes."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "aquaculture:minnow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3957DF3B75825FFB"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "72E9D9D1115C82FE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "056CA751A5F19B8A"
+				item: {
+					Count: 1
+					id: "aquaculture:minnow"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Catch a Minnow"
+				type: "item"
+			}]
+			title: "There's Always a Bigger Fish"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["593F14E6FF0AACEB"]
+			id: "6BF4CF6AC13E2795"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0B1A174EBDDCF453"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0E558C61569748AF"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					id: "6AF426645E8C8737"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "69E88DDB3E4C5C69"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			title: "Catch 32 Salmon"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["593F14E6FF0AACEB"]
+			id: "6906B59E97A63FD7"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "710A22B4AE275D9A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "558FB046B4E84BB6"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					id: "288D235BF9D684D8"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "3E26EE50A7E0427C"
+				item: "minecraft:tropical_fish"
+				type: "item"
+			}]
+			title: "Catch 32 Tropical Fish"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "33B5703517A1080B"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "007B3AA200ED22C5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "78B6E3D5C4A837D6"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64DF93CA842B8535"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "6B7E740B300146C3"
+				item: { Count: 32, id: "aquaculture:atlantic_cod" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "51AF959635F3653F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "334FD623A725C02A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5F04F904B0C097DA"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20CD12FEC64B7071"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "52B45B23BF564A51"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "504FC330223D1B9F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "54966BEA24FA7390"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5F86C2A032215C4F"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41EB83B91B477C86"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "03C2F4F10DADED92"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "22F827A65D85A130"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "23775A200E850CB3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "290AFABC7B7EC8AF"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A58F3E0330CB9B8"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "60EEBC79CA255A5F"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "48AF4F2AE001E6BD"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0FDB8D84866F443B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "69A22353AFCECDD6"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CADF87671C80683"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "329E71CAD9F6F880"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "013596BFD40E7C07"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "797C267D9524CAAA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4D38C61BAFFD83CF"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7480DC976396055C"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "461E3E9DBF9B1C8E"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "6AA6FDB85F1F075C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "21D8F58F88E5BB84"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "48C8FBED39E4B776"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26473724C648BD2B"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "0901D6BA2624FB26"
+				item: "aquaculture:pollock"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "043B4E753B728DBB"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5448F0096D3DE402"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "297AA17EF948AE92"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06628CE93E5975BB"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "5289A178FA07573C"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "20CE79C4D07D88C3"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "13B007186B447DAF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3F72E3859D5ED085"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A2C4AA0BA8753D4"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "16CDF09694677002"
+				item: "aquaculture:smallmouth_bass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "0F18D32B03FED2F0"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "469FA9B865F88793"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6011090A2FAB15A7"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ED79C4583B78F7F"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "5AEC65632B0746E5"
+				item: "aquaculture:bluegill"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			id: "5C74CD9EE331F46B"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "6D9659F6AD07C6F9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "20D4D2C924FE7536"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6556975C5940E83D"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "6D27AFCC17B43C9B"
+				item: "aquaculture:brown_trout"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			id: "44479DEF93237A94"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "57AFEA90587817C3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "746CF93F3326E2AF"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "507A7E756C5412CE"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "75F934777157A9EF"
+				item: "aquaculture:carp"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "5B5DC7FC2C25E319"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7413B13A916C33F7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6385E2EE62B08202"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FB609D25469D397"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "47532132823B3A73"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "1E6690831D6F740C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "12AA4F22FFA2CD3E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5E63E20B8EAA7BEE"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B9B4BB4EC02C64A"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "0598EF43AAC0EBF6"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "4421AB3729F87775"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2D824EE58AB450BA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2C066854B13D012D"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66B33304C55D3645"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "49435B9198B318C8"
+				item: {
+					Count: 1
+					id: "aquaculture:minnow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "5D75737B1DA2D43B"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "30332DC6E5FC4C50"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "795FA5CF5CF43454"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FFC81BDE084B726"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "11B4A97F82EC069B"
+				item: "aquaculture:muskellunge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "66CA6C597A4E4A66"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "54D2AE70FBB3DE7F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "57992FDF1073CAC2"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AC35C613ACBF6CF"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "6380D9F5E1863D57"
+				item: "aquaculture:perch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "0DE6DC730D335E0B"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3A4F11F0039FDD1D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "11C2B51AABB763C0"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7228EF9383346B32"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "3874C5150F1D8FD3"
+				item: "aquaculture:jellyfish"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			id: "6AA909A64FA645A5"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2115C4AF34FC966C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "24117FA4FB6A2950"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "426084FBE958ED26"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "73C0190D5F38E640"
+				item: "aquaculture:red_grouper"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			id: "5486AEB753B3A005"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2E7EB6677EF60AE6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "31F383309AF9D9BB"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2227083583532C86"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "6C0C12E87B661152"
+				item: "aquaculture:tuna"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			id: "0F04C3784F204AA5"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2F07661DD94A4D6C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1CD65542C4CCE040"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "009922392F465730"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "26DB57BF08011658"
+				item: "aquaculture:arapaima"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "428917934111E361"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "478C3EC0CEB4DD7C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "113135A774967250"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C658E7853A441A7"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "0258CC62D2B4B5D7"
+				item: "aquaculture:piranha"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			id: "5C8C5E803D5B336D"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "533D80E81033A317"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "21A09BCF9AFA8B24"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "772C97E5A8B960CE"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "7F1B956138D9B18E"
+				item: "aquaculture:tambaqui"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "15B5605E326C19CE"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2B378470546CB111"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "086EE2DEDFFD6F1D"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D9A52A71F35498E"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "1A51A2B2B34CA885"
+				item: "aquaculture:arrau_turtle"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "20133C8275399C3F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0DC561142BC86580"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0FC94265500F7018"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A5B72F7338CDCEE"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "0FF2590B86DE3C8F"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			id: "000F8B466D665E5D"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3A0B69ED2EFD8517"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "113D30E0D93F609E"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "781608897EB1ADBA"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "06A62D1E01A0BF99"
+				item: "aquaculture:boulti"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			id: "4186F7A13335AE37"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "09FD3511AB9363DE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "557487F749F7E61B"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B499453F71E42AC"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "4D886561FEF76701"
+				item: "aquaculture:capitaine"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "70D6E867C2B3C4EA"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "063FA53D6F6D1D11"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1A18FA7D817D1352"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5549E297B4355144"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "46EA2D4EB6FD1181"
+				item: "aquaculture:synodontis"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "2467442E682B428D"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "34CEA50C6E9F6E0E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3CF2D3EF98C507C5"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38392AB858BCDC07"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "04DE56B27054ECD2"
+				item: "aquaculture:brown_shrooma"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "7681D1D0FAC5A172"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3BCAABFCA74D31F2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2574B180052619F2"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "022F7C9DEE81BB71"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "76AD0237CD4258D0"
+				item: "aquaculture:red_shrooma"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"593F14E6FF0AACEB"
+				"498F02A60A22B5E1"
+			]
+			description: [
+				"Now that you're in the Nether, you probably want a stronger fishing rod to withstand the heat. Well don't worry that pretty little delicious head of yours, for the answer lies in the way you got here to begin with!"
+				"That's right, using the same obsidian from your portal, you craft an &6&oObsidian Fishing Rod&r."
+				"PS: Don't, like, actually use the blocks from your portal. Get some more obsidian."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "lavafishing:obsidian_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "15EBA864E618A8F7"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2ECE24C01C84FD46"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "57A23ED1E3ACD61E"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09BBCEC845BD4A44"
+				item: {
+					Count: 1
+					id: "lavafishing:obsidian_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "And This Is To Fish Even Further Beyond!"
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15EBA864E618A8F7"]
+			description: [
+				"A strong fishing rod is one thing, but that's not going to be enough for fishing in &olava&r."
+				"In particular, your hook is just going to plummet in the lava if it doesn't melt first. For proper Nether fishing, you need to craft yourself an &o&6Obsidian Hook&r."
+				"{image:modpack:textures/lava-fishing.png width:156 height:90 align:center}"
+			]
+			hide_dependency_lines: false
+			id: "26102C3CF4D9529C"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "57D8DED078B91232"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "00E4800D3D4A415B"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2192001F74389BC6"
+				item: "aquaculture:obsidian_hook"
+				type: "item"
+			}]
+			title: "A Real Hot Hook"
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0F04C3784F204AA5"
+				"15B5605E326C19CE"
+				"33B5703517A1080B"
+				"22F827A65D85A130"
+				"48AF4F2AE001E6BD"
+				"20133C8275399C3F"
+				"0F18D32B03FED2F0"
+				"000F8B466D665E5D"
+				"51AF959635F3653F"
+				"5C74CD9EE331F46B"
+				"4186F7A13335AE37"
+				"44479DEF93237A94"
+				"5B5DC7FC2C25E319"
+				"1E6690831D6F740C"
+				"0DE6DC730D335E0B"
+				"013596BFD40E7C07"
+				"504FC330223D1B9F"
+				"4421AB3729F87775"
+				"5D75737B1DA2D43B"
+				"66CA6C597A4E4A66"
+				"428917934111E361"
+				"6AA6FDB85F1F075C"
+				"043B4E753B728DBB"
+				"6AA909A64FA645A5"
+				"20CE79C4D07D88C3"
+				"6BF4CF6AC13E2795"
+				"1032ACA8EAF0E0B8"
+				"6906B59E97A63FD7"
+				"70D6E867C2B3C4EA"
+				"5C8C5E803D5B336D"
+				"5486AEB753B3A005"
+				"2467442E682B428D"
+				"7681D1D0FAC5A172"
+			]
+			hide_dependency_lines: true
+			id: "3415565DFFC0015F"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2A009CEFA9F1AE4B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "0BB8675FCFFE715E"
+					item: "aquaculture:neptunes_bounty"
+					type: "item"
+				}
+				{
+					id: "0F442463DF4317AC"
+					item: "farmersdelight:rice_roll_medley_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					Count: 1
+					id: "tinkersjewelry:gem"
+					tag: {
+						Material: "tinkersjewelry:heart_of_the_sea"
+					}
+				}
+				id: "5D9D26C4787A93C9"
+				title: "Catch Every Overworld Fish"
+				type: "dimension"
+			}]
+			title: "Overworld Angler"
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			id: "7A61D6575B1D260F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "56002C3955455CA7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "356D56CF536A3E26"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14A91FF6E2EB6A20"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "7B4DA8F7A09CE8DD"
+				item: "lavafishing:lava_lamprey"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			id: "5614F9BD6242A73F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "1FDB20B0B56DC174"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "54F1E11E077F256A"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D06372F9CB43352"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "18923E07986FB7C8"
+				item: "lavafishing:quartz_fish"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.5d
+		}
+		{
+			id: "1C4D17C55BDB18AE"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "24E083902ADDF657"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3034DDFF2295E437"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FBBE2864C42F2FC"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "41A0D62CD18EEC3D"
+				item: "lavafishing:flame_squat_lobster"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			id: "6BF260420A7C0F23"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3074C09D786A8F57"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "26A2969C39DB8466"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "276BDEEDED0601FD"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "7ED3368B2B679E49"
+				item: "lavafishing:steam_flying_fish"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.5d
+		}
+		{
+			id: "1AC40F96E9D534FC"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "52C312C1FF34DAB5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4EE39615D8D8C121"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72CB0809B053180B"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "533412216DBE5C51"
+				item: "lavafishing:agni_fish"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			id: "23896C51759FB204"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "584A1B63C42B985A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "37D22A85B6194A6C"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "361E86E29C269DF9"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "5EF5A3B64252A704"
+				item: "lavafishing:obsidian_sword_fish"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			id: "335A2EA5205A05FC"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5891F07806E043F1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2AD7B3DF44093BD1"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C099D10DBAE755B"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "57D76B6EB9A4ADEE"
+				item: "lavafishing:arowana_fish"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			id: "69FFA4C8282CA9DF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "47346C24E75FC20E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "21F9DD380B0171CC"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D18B9ADCB5156B1"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "565430669CAFCF39"
+				item: "lavafishing:scaly_foot_snail"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			id: "0278F76EF548A0F8"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3D4977051D4B00A7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3A77DED38886E5A7"
+					item: "lavafishing:promethium_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EE33EC9F09EA7EB"
+					table_id: 4917844875856388557L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 32L
+				id: "770673623C652D90"
+				item: "lavafishing:yeti_crab"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1AC40F96E9D534FC"
+				"335A2EA5205A05FC"
+				"7A61D6575B1D260F"
+				"23896C51759FB204"
+				"69FFA4C8282CA9DF"
+				"6BF260420A7C0F23"
+				"0278F76EF548A0F8"
+				"1C4D17C55BDB18AE"
+				"5614F9BD6242A73F"
+			]
+			hide_dependency_lines: true
+			id: "7E3778F7D15ED450"
+			rewards: [
+				{
+					amount: 360L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "6821698235E3D152"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "0FA5A51BB9FF3D1D"
+					item: "lavafishing:prometheus_bounty"
+					type: "item"
+				}
+				{
+					id: "708FCBFB2FE8E377"
+					item: "aquaculturedelight:fish_roll_medley"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					Count: 1
+					id: "tinkersjewelry:gem"
+					tag: {
+						Material: "tinkersjewelry:ichor_crystal"
+					}
+				}
+				id: "5329532AFF1ADA88"
+				title: "Catch All Nether Fish"
+				type: "dimension"
+			}]
+			title: "Nether Angler"
+			x: 11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["15EBA864E618A8F7"]
+			description: [
+				"You have any spare Netherite? You like fishing? Well, I guess by now, we both now you do, don't we?"
+				"A &o&6Netherite Fishing Rod&r is made the same way as many other Netherite tools. With access to a smithing table, &oa template&r, &osingle Netherite Ingot&r and &oDiamond Fishing Rod&r is all you need."
+				"{image:modpack:textures/netherite-fishing-rod.png width:156 height:90 align:center}"
+			]
+			id: "697208E5908B3EAE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2E8DF02F58314773"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "22FE91A39D991A92"
+					item: "lavafishing:promethium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E92DF00580BBE05"
+				item: {
+					Count: 1
+					id: "lavafishing:netherite_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A Rod to Surpass Metal Gear"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			description: ["Increasing the size of your &6&o\"fishing bar.\"&r Truly, a bobber can't get much simpler."]
+			id: "1B2DBF229C0C8F2A"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4E49CD63A133B6CA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 5
+					id: "2AB88C42952AB0F9"
+					item: "farmersdelight:cod_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19827850A863D7B2"
+				item: {
+					Count: 1
+					id: "stardew_fishing:cork_bobber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			description: ["Now here's where we start to get interesting. The trap bobber is, well, a trap. To be more specific, &6it lowers the speed of the fish's escape&r. You'll notice the bar drain just a little slower with this nifty little thing."]
+			id: "3E690CCB63E73B34"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2F61C95FDC36446F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 5
+					id: "2B71E4F639224881"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66485D39E94D408B"
+				item: {
+					Count: 1
+					id: "stardew_fishing:trap_bobber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"Are you one who enjoys a little bonus along with your tasty meal? Then perhaps the &o&6Treasure Bobber&r is for you."
+				"While this bobber is equipped, you will be more likely to find treasure while reeling in fish. Not only that, but &6&ofish will no longer escape when you reel in treasure&r. Finally, no more balancing acts."
+			]
+			id: "0CEDDED6B5B39312"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "51C1324816332FCE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 5
+					id: "71B119C0D7456F72"
+					item: "aquaculturedelight:raw_fish_fillet_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "518ED1285DA6EBD9"
+				item: {
+					Count: 1
+					id: "stardew_fishing:treasure_bobber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"There's a note."
+				"{@pagebreak}"
+				"&4&kI'm &r&4so hungry. &k&4Please, just give me something. &r&4Rotten fish.&k&4 Put it in the &r&4shipping bin.&r"
+			]
+			disable_toast: true
+			icon: "born_in_chaos_v1:rotten_fish"
+			id: "7D3241C72714FB26"
+			optional: true
+			secret: true
+			shape: "circle"
+			size: 0.5d
+			tasks: [{
+				count: 7L
+				id: "37C7F753885EEFD1"
+				item: { Count: 7, id: "born_in_chaos_v1:rotten_fish" }
+				type: "item"
+			}]
+			title: "&8so... hungry&r"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Red stands out, right? Well, and here me out, what if we took that small little cork bobber, and then covered it in red candlewax? I'm certain it would &6&omake any fishing done virtually impossible to fail&r."
+				"Mmmnn, it'll probably be &o&6real hard to get treasure with it&r, though. But we take the ups and downs together."
+			]
+			id: "6325BFDC4747C8F8"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3505396333A34CF8"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 5
+					id: "09D50D7F2E7EFF7C"
+					item: "aquaculturedelight:fried_perch_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "384108FDA47B42EA"
+				item: {
+					Count: 1
+					id: "gonefishing:big_red_bobber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Are you out searching for specific fish? Or maybe you just want to know more about what you're fighting with? If any of this is true, you may like the &6&oSonar Bobber&r."
+				"What does it do? Well, using built in sonar abilities, &6&oit tells you what fish you're trying to catch before you succeed&r. Maybe you'll find yourself fighting a fish you don't care for."
+			]
+			id: "45C6C9C2ADF453E9"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "530010BF34AE213E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 5
+					id: "7F02087F5E61B347"
+					item: "oceansdelight:fugu_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0111CBB105CE57A1"
+				item: {
+					Count: 1
+					id: "stardew_fishing:sonar_bobber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Experience is the lifeblood of us all, and fishing can be a great source of it. Still, if you'd like a little &oboost&r, then I'd suggest the &o&6Quality Bobber&r."
+				"With this shiny little attachment, &6&oevery round of fishing will grant you 50% more experience&r."
+			]
+			id: "71583B000C768D98"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5C4F7E252A3C01E5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 5
+					id: "5701B5069E9AED85"
+					item: "aquamirae_delight:spinefish_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CDC06E54D397CAA"
+				item: {
+					Count: 1
+					id: "stardew_fishing:quality_bobber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+	]
+	title: "Fishing"
+}

@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "levels": {
+    "1": {
+      "item": "minecraft:air",
+      "amount": 0,
+      "xp_levels": 0
+    }
+  }
+}

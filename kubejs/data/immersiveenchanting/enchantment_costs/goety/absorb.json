@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "levels": {
+    "1": {
+      "item": "minecraft:sculk_catalyst",
+      "amount": 12,
+      "xp_levels": 0
+    }
+  }
+}

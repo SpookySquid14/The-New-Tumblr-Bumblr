@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "settings": {
+    "showSettingsButton": true,
+    "showShortcutButton": true,
+    "useFlatStyle": true
+  },
+  "aliases": [
+    {
+      "id": "4fccd577-21eb-4f6f-bf0b-b2e345ce175f",
+      "name": "chest",
+      "commands": [
+        "setblock ~ ~ ~ minecraft:chest\\{LootTable:\"\"}"
+      ],
+      "children": [
+        {
+          "id": "6111b3e2-9232-4518-bada-4f39e47620bf",
+          "name": "{END}",
+          "commands": [],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

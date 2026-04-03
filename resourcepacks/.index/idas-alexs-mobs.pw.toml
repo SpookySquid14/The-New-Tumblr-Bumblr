@@ -1,0 +1,17 @@
+filename = 'idasalexsmobs-1.20.zip'
+name = "Integrated Dungeons and Structures- Alex's Mobs Integration"
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'idasalexsmobs-1.20.zip'
+
+[download]
+hash = 'd6d5e1b1d329d402ef1536f146125e0162436e45'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5121930
+project-id = 847936

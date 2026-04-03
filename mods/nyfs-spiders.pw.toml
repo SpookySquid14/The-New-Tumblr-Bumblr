@@ -1,0 +1,17 @@
+filename = 'nyfsspiders-Forge-1.20.1-3.0.1.jar'
+name = "Nyf's Spiders"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Nyf's Spiders-1.20.1-[Forge]-3.0.1"
+
+[download]
+hash = '10fe91f66dcc6613e58ceddbfb1f4e67c2ec3bbb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7652359
+project-id = 686058

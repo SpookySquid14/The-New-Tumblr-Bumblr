@@ -1,0 +1,17 @@
+filename = 'exposure-forge-1.20.1-1.9.19.jar'
+name = 'Exposure'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Exposure - Forge 1.20.1 - 1.9.19'
+
+[download]
+hash = 'b3dd7b69905a349b280f66ad0a82c2bb89423d99'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7777367
+project-id = 871755

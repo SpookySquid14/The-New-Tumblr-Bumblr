@@ -1,0 +1,17 @@
+filename = 'create_gunpowder-1.20.1.jar'
+name = 'Create : Gunpowder'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_gunpowder-1.20.1.jar'
+
+[download]
+hash = '551b2dc4ef1b02d1da2291f962bb06710aa09ec1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6936958
+project-id = 1336379

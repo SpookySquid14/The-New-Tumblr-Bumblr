@@ -1,0 +1,17 @@
+filename = 'vag-1.0.0-1.20.1.jar'
+name = 'Vanilla Animated Guns'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'vag-1.0.0-1.20.1.jar'
+
+[download]
+hash = '88220aeffc56d2739073632f5494edbc0cab96d4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7056729
+project-id = 1357310

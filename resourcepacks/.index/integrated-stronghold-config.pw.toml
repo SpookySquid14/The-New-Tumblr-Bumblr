@@ -1,0 +1,17 @@
+filename = 'integrated_stronghold_config_forge-1.1.1-1.20.1.zip'
+name = 'Integrated Stronghold- Configuration'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'integrated_stronghold_config_forge-1.1.1-1.20.1.zip'
+
+[download]
+hash = '90d185f9ee53b36294b18065315b09c127332ab8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5178481
+project-id = 833654

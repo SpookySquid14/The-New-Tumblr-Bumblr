@@ -1,0 +1,55 @@
+{
+  "enabled": false,
+  "levels": {
+    "1": {
+      "item": "minecraft:air",
+      "amount": 0,
+      "xp_levels": 0
+    },
+    "2": {
+      "item": "minecraft:air",
+      "amount": 0,
+      "xp_levels": 0
+    },
+    "3": {
+      "item": "minecraft:air",
+      "amount": 0,
+      "xp_levels": 0
+    },
+    "4": {
+      "item": "minecraft:air",
+      "amount": 0,
+      "xp_levels": 0
+    },
+    "5": {
+      "item": "minecraft:air",
+      "amount": 0,
+      "xp_levels": 0
+    },
+    "6": {
+      "item": "minecraft:air",
+      "amount": 0,
+      "xp_levels": 0
+    },
+    "7": {
+      "item": "minecraft:air",
+      "amount": 0,
+      "xp_levels": 0
+    },
+    "8": {
+      "item": "minecraft:air",
+      "amount": 0,
+      "xp_levels": 0
+    },
+    "9": {
+      "item": "minecraft:air",
+      "amount": 0,
+      "xp_levels": 0
+    },
+    "10": {
+      "item": "minecraft:air",
+      "amount": 0,
+      "xp_levels": 0
+    }
+  }
+}

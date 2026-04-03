@@ -1,0 +1,17 @@
+filename = 'eerienightmares-0.2-1.20.1.jar'
+name = '🛏️ Eerie Nightmares'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'eerienightmares-1.2-1.20.1.jar'
+
+[download]
+hash = '0ae7e94fb0888a701f752113773a411ad484eb89'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6626596
+project-id = 1260720

@@ -1,0 +1,518 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "white"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "white"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "white"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "orange"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "orange"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "orange"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "orange"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "magenta"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "magenta"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "magenta"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "magenta"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "light_blue"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "light_blue"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "light_blue"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "light_blue"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "yellow"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "yellow"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "yellow"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "yellow"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "lime"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "lime"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "lime"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "lime"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "pink"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "pink"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "pink"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "pink"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "gray"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "gray"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "gray"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "gray"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "light_gray"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "light_gray"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "light_gray"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "light_gray"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "cyan"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "cyan"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "cyan"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "cyan"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "purple"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "purple"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "purple"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "purple"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "blue"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "blue"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "blue"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "blue"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "brown"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "brown"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "brown"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "brown"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "green"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "green"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "green"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "green"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "red"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "red"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "red"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "red"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"color": "black"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"color": "black"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"color": "black"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"color": "black"
+		},
+		"Name": "alshanex_familiars:pet_bed"
+	}
+]

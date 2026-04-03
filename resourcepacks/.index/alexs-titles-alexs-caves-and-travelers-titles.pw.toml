@@ -1,0 +1,17 @@
+filename = "Alex's Titles 2.0.zip"
+name = "Alex's Titles (Alex's Caves and Traveler's Titles compatibility)"
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Alex's Titles 2.0"
+
+[download]
+hash = 'b43f9202ebefcbe6f081ac663a0caf5529ccb62b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5895914
+project-id = 979204

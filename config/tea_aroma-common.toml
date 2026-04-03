@@ -1,0 +1,6 @@
+
+["Configs for Tea Aroma"]
+	#Default: 600
+	#Range: 10 ~ 1000
+	bamboo_tray_processing_time = 600
+

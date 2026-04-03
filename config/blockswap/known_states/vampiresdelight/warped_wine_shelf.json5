@@ -1,0 +1,7778 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "north"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "south"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "west"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "true",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "empty",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "beer_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "empty",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "beer_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "empty",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "beer_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "empty",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "beer_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_3": "wine_bottle",
+			"slot_2": "wine_bottle",
+			"slot_1": "wine_bottle",
+			"slot_0": "wine_bottle",
+			"has_upper_support": "false",
+			"facing": "east"
+		},
+		"Name": "vampiresdelight:warped_wine_shelf"
+	}
+]

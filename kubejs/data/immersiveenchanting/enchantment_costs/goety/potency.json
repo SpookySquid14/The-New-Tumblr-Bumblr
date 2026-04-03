@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "levels": {
+    "1": {
+      "item": "goety:savage_tooth",
+      "amount": 4,
+      "xp_levels": 0
+    },
+    "2": {
+      "item": "goety:magic_emerald",
+      "amount": 16,
+      "xp_levels": 0
+    },
+    "3": {
+      "item": "goety:soul_emerald",
+      "amount": 8,
+      "xp_levels": 0
+    }
+  }
+}

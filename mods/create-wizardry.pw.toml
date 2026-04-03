@@ -1,0 +1,17 @@
+filename = 'create_wizardry-1.20.1-0.4.1.jar'
+name = 'Create: Wizardry'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create: Wizardry 1.20.1-0.4.1'
+
+[download]
+hash = '8ae2021115a453da6de5c1b54a8ac88c5e260af1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7597952
+project-id = 949995

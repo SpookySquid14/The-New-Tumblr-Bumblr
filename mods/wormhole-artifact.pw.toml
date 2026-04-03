@@ -1,0 +1,17 @@
+filename = 'wormhole_artifact-1.2.0.jar'
+name = 'Wormhole Artifact'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'wormhole_artifact-1.2.0.jar'
+
+[download]
+hash = '8a4bf90b825504c2428dc307ff82179c286da126'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6181231
+project-id = 1169503

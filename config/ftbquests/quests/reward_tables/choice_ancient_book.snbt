@@ -1,0 +1,47 @@
+{
+	id: "3299A46D9C211ECE"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "immersiveenchanting:ancient_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Ancient Book of Sharpness"
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersiveenchanting:ancient_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Ancient Book of Efficiency"
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersiveenchanting:ancient_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Ancient Book of Protection"
+		}
+	]
+	title: "Choice Ancient Book"
+}

@@ -1,0 +1,17 @@
+filename = 'etstlib-3.0.0-beta.19.jar'
+name = 'EtST Lib'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'etstlib-3.0.0-beta.19.jar'
+
+[download]
+hash = '0a7fbd48bd6e40d5413c8ae166c517dc15c59769'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7732390
+project-id = 1206379

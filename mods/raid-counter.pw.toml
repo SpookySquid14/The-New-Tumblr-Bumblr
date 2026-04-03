@@ -1,0 +1,17 @@
+filename = 'raidcounter-1.2-1.20.1.jar'
+name = 'Raid Counter'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'raidcounter-1.2-1.20.1.jar'
+
+[download]
+hash = '80ddc5817e6d1f2247a4d69b64fa8a3ed7e460c4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6392545
+project-id = 1221601

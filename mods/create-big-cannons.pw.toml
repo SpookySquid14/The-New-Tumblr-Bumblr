@@ -1,0 +1,17 @@
+filename = 'createbigcannons-5.11.2-mc.1.20.1-forge.jar'
+name = 'Create Big Cannons'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create Big Cannons v5.11.2 for Forge 1.20.1, Create v6.0.7'
+
+[download]
+hash = 'e935119645444d2de5d012c3e9b38c39015d349a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7689049
+project-id = 646668

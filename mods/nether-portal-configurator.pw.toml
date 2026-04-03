@@ -1,0 +1,17 @@
+filename = 'netherportalconfigurator-0.1-1.20.1.jar'
+name = 'Nether Portal Configurator'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'netherportalconfigurator-0.1-1.20.1.jar'
+
+[download]
+hash = '0c3052c9a81d78f69da5dbb3d8cb635b4a47b62f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6611792
+project-id = 1279647

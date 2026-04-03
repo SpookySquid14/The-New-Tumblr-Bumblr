@@ -1,0 +1,17 @@
+filename = 'UIS_magic_schools_1.19.2_1.20.1_1.21.1.jar'
+name = "Magic Schools Skill trees: Addon for Iron's Spells 'n Spellbooks Unofficial Skill Tree"
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2', '1.20.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Addon: Normal Version of the Magic Schools Skill Trees'
+
+[download]
+hash = 'f3df87a113f9eebc4f9d9a1888c85928a691c5cd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6456771
+project-id = 1250165

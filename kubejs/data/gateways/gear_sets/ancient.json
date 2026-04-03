@@ -1,0 +1,67 @@
+{
+	"weight": 0,
+	"quality": 0,
+	"mainhands": [{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:netherite_sword"
+			},
+            "drop_chance": 0
+		}
+	],
+
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:golden_boots",
+            "nbt": {
+                "Trim": {
+                    "pattern":"silence",
+                    "material":"netherite"
+                }
+            }
+		},
+        "drop_chance": 0
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:golden_leggings",
+            "nbt": {
+                "Trim": {
+                    "pattern":"silence",
+                    "material":"netherite"
+                }
+            }
+		},
+        "drop_chance": 0
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:golden_chestplate",
+            "nbt": {
+                "Trim": {
+                    "pattern":"silence",
+                    "material":"netherite"
+                }
+            }
+		},
+        "drop_chance": 0
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:golden_helmet",
+            "nbt": {
+                "Trim": {
+                    "pattern":"silence",
+                    "material":"netherite"
+                }
+            }
+		},
+        "drop_chance": 0
+	}],
+	"tags": [
+	]
+}

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "levels": {
+    "1": {
+      "item": "minecraft:lapis_lazuli",
+      "amount": 16
+    },
+    "2": {
+      "item": "goety:ectoplasm",
+      "amount": 16
+    },
+    "3": {
+      "item": "goety:grave_dust",
+      "amount": 8
+    },
+    "4": {
+      "item": "goety:hunger_core",
+      "amount": 4
+    },
+    "5": {
+      "item": "goety:shadow_essence",
+      "amount": 4
+    }
+  }
+}

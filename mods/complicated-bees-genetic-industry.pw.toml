@@ -1,0 +1,17 @@
+filename = 'genindustry_bees1.20.1-1.0.1.jar'
+name = 'Complicated Bees: Genetic Industry'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'genindustry_bees1.20.1-1.0.1.jar'
+
+[download]
+hash = '4bc6f6ba35716cc88b70da2408e03db818703859'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7230143
+project-id = 1384987

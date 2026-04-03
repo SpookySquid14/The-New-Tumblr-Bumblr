@@ -1,0 +1,5 @@
+
+#Common Settings
+[common]
+	enabledItems = ["sophisticatedbackpacks:void_upgrade|true", "sophisticatedstorage:copper_to_iron_tier_upgrade|true", "sophisticatedstorage:barrel|true", "sophisticatedstorage:storage_output|true", "sophisticatedstorage:chest|true", "sophisticatedbackpacks:compacting_upgrade|true", "sophisticatedstorage:chipped/loom_table_upgrade|true"]
+

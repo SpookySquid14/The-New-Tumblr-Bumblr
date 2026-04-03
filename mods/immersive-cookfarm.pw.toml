@@ -1,0 +1,17 @@
+filename = 'immersivecooking-1.20.1-0.1.2-SNAPSHOT-5.jar'
+name = 'Immersive Cooking & Farming'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'immersivecooking-1.20.1-0.1.2-SNAPSHOT-5.jar'
+
+[download]
+hash = '0aaca9fdceafd4347247e2a8719d40edd3f351f8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7618438
+project-id = 1460406

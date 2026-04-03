@@ -1,0 +1,12 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+# Enable debug logging for spell casting and AI behavior
+# Shows detailed information about mob spell selection and casting
+debugLogging = false
+# Enable all logging (debug, info, warnings, errors)
+# When enabled, all log messages will be shown regardless of other settings
+# Useful for troubleshooting and development
+enableAllLogging = false
+# Entity blacklist is managed by Better-Mob-Combat
+# Configure in: config/bettermobcombat-server.json5
+blacklistManagedByBMC = true

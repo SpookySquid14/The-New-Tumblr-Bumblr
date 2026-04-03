@@ -1,0 +1,17 @@
+filename = 'floating_islands-1.4.7.jar'
+name = 'Floating Islands'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'floating_islands-1.4.7.jar'
+
+[download]
+hash = '754b79b5e50bc8fc0e5acee704c402ac32cc0b14'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7782031
+project-id = 1216244

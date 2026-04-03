@@ -1,0 +1,512 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "legendary_eyes"
+	group: "43386B27669D2B6A"
+	id: "34322E009FC0ADDE"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Obtained from Maledictus"]
+			id: "2E272904A33ACAD5"
+			shape: "none"
+			tasks: [{
+				id: "38985EC9AF8D79E8"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{image:modpack:textures/dead-king.png width:160 height:90 align:center}"
+				"The Dead King was once a powerful necromancer. Now his body sits atop his throne, waiting with the eye it guards hidden away. Dark magic can bind this king's soul to a compass, leading you to his catacombs. Take care of yourself and your surroundings, and this lord of the dead will fall before you."
+				"PS: Don't think you've won after killing him once. The dead always come back."
+			]
+			id: "1D1BDE3EC94B4722"
+			shape: "none"
+			subtitle: "The Lord of Death"
+			tasks: [{
+				id: "54D2FA45C9B3E81F"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Obtained from the Ferrous Wroughtnaut"
+				"NORMAL"
+			]
+			id: "3A1BCAC06FC8322E"
+			shape: "none"
+			tasks: [{
+				id: "4328CD977A8E3DA2"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: ["Obtained from The Nether Gauntlet"]
+			id: "0C1D96315B727F90"
+			shape: "none"
+			tasks: [{
+				id: "31A58D96B4B87F25"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{image:modpack:textures/void-blossom.png width:160 height:90 align:center}"
+				"The Void Blossom is an interesting thing. It's less monster and more plant. Reminds me of the old Tremorzilla films, but we're getting off topic. This flower is said to be found at the bottom of the world in lush caves and jagged crystals. They say a special flower made from amethyst can lead you to these caverns."
+				"PS: I say you keep your distance. Thorns aren't pretty up close."
+				""
+				"&lDifficulty: &2Medium&r&r"
+			]
+			id: "3CCA251B73C9B4C6"
+			shape: "none"
+			subtitle: "The Crystal Flower"
+			tasks: [{
+				id: "284B988A3CFDF6E4"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Obtained from The Harbinger"]
+			id: "2E39C6C7A1BE0560"
+			subtitle: "The Mech"
+			tasks: [{
+				id: "2B3C2F4885781AD1"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: ["Obtained from an Ancient Remnant"]
+			id: "6B9B91887BF3FB7B"
+			subtitle: "The Remnant"
+			tasks: [{
+				id: "62ACFBFD85BE3E42"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{image:modpack:textures/frostmaw.png width:160 height:90 align:center}"
+				"Cold? Let me tell you about cold. The Frostmaw is a hulking beast of the snow. You'll likely find him sleeping in your travels, but be wary. Waking one can quickly spell out a forever frozen fate. That said, play your cards right, and you can take down the behemoth, making the Cold Eye it guards all but yours."
+				"PS: You might be able to snag the Ice Crystal it holds in its sleep, provided you're confident in your stealth."
+				"HARD"
+			]
+			id: "1467F080230DFEEE"
+			subtitle: "The Yeti"
+			tasks: [{
+				id: "0E229B3DFC71CD15"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{image:modpack:textures/umvuthi-throne.png width:160 height:90 align:center}"
+				"Umvuthi, The Sunbird. I'll be frank with you, I don't like this guy. All these masks and cronies of his. But if you're in the savana, be sure to keep an eye out for an Umvuthana Grove. Maybe you have the strength it takes to slay this bird of terror and claim its Guardian Eye"
+				"PS: Watch out for the laser."
+			]
+			id: "4FDACAE8F84DA3BD"
+			subtitle: "The Sunbird"
+			tasks: [{
+				id: "68EA311F609E21F5"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: ["Obtained from Ignis"]
+			id: "45547B4089A3D0F1"
+			tasks: [{
+				id: "78BB4F40FCE3E9AA"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: ["Obtained from The Netherite Monstrosity"]
+			id: "5884738C49CA8E9B"
+			subtitle: "The Monstrosity"
+			tasks: [{
+				id: "18213D48D2D0ED25"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Obtained from Captain Cornelia"]
+			id: "45AF68A92FF37768"
+			tasks: [{
+				id: "1ED06C4A3D309A4F"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{image:modpack:textures/vizier.png width:160 height:90 align:center}"
+				"Despite my love for the dark arts, I cannot say I am... pleased with the vizier. Though anybody wanting to learn more of the forbidden will inevitably come face to face with him. To call one as powerul &mand arrogant&r as him, one must make use of a scroll crafted with the illagers' prized totem. After that, it's only a matter of finding a dark manor, and &4you can tear his soul apart.&r"
+				"Uh, excuse me, I got a bit sidetracked."
+				"PS: Crowd control is your ally."
+			]
+			id: "2EAEB8C2A9C94594"
+			subtitle: "The Evoker's Chief"
+			tasks: [{
+				id: "56003376E96F8E45"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: ["Obtained from The Leviathan or Scylla"]
+			id: "6282BFF8E9934E2A"
+			tasks: [{
+				id: "5E0E3BC7FCC7F611"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["Obtained from The Masquerader"]
+			id: "17DBF6E831690F59"
+			tasks: [{
+				id: "2AD9A5C7F52027BB"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Obtained from fishing"
+				"{image:aquaculture:item/treasure_chest width:100 height:100 align:center}"
+			]
+			id: "78025406C5AF87EA"
+			tasks: [{
+				id: "748EE6AB03AA85AD"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The End Portal is locked behind 12 magical blocks, each requiring more than a normal eye of ender can give. Instead, one must obtain 12 of the 16 legendary eyes. It does not matter which eyes you obtain, so long as you have 12."
+				"This will serve as a log of the eyes you've collected on your journey."
+			]
+			icon: "minecraft:ender_eye"
+			id: "70EA49198D23A24A"
+			tasks: [{
+				id: "3457A462608A3118"
+				title: "The End"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+	title: "Legendary Eyes"
+}

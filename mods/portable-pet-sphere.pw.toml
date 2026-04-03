@@ -1,0 +1,17 @@
+filename = 'petcapturetool-1.20.1-1.0.1.jar'
+name = 'Portable Pet Sphere'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'petcapturetool-1.20.1-1.0.1.jar'
+
+[download]
+hash = '6a00f820cc570ffcb1a439d2f0b809c9fa71b21a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6836853
+project-id = 1317560

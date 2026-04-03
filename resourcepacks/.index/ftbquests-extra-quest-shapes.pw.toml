@@ -1,0 +1,17 @@
+filename = 'FTBQuestsShapesHeyKatu.zip'
+name = 'FTBQuests Extra Quest Shapes'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'FTBQuestsShapesHeyKatu.zip'
+
+[download]
+hash = '187a098134f5cf2c7ae79f7a37488c0b5fa51273'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5654662
+project-id = 1089131

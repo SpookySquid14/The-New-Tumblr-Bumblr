@@ -1,0 +1,1219 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_storage"
+	group: "60036678430AC30B"
+	id: "735224FDAABAE660"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Howdy! You can call be the Quartermaster! I am fluent in all things storage- well maybe not all things, there are some wizard's an' shit that can do the same... but if it's made out of wood, it's my specialty!"
+				""
+				""
+				"First, Just make a chest to toss yer shit."
+			]
+			id: "25B20970F2E51E30"
+			rewards: [
+				{
+					id: "73DC90E8615DB8B1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "738ECAE0990E9D2A"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			subtitle: "Standard Chest"
+			tasks: [{
+				id: "177B3B44403A54B3"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "It's a Box!"
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25B20970F2E51E30"]
+			description: [
+				"Great, Now To make sure you continue to have room to put shit until... I dunno, you have enough cobblestone to create a black hole, Make an upgrade base."
+				""
+				"It's pretty easy, just use some of those levers I gave ya and combine them with a basic chest in a crafting grid."
+			]
+			id: "20BC0B93A0B52388"
+			rewards: [
+				{
+					id: "0C4A057660F5D8EE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 6
+					id: "0F1690A7651D9A16"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Just a Small Change"
+			tasks: [{
+				id: "7A61B36B3A30B6BF"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "A Little Bit of Redstone...."
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20BC0B93A0B52388"]
+			description: ["You can upgrade your chests by surrounding it in material, the first step is usually copper or iron, copper is cheaper though. As you upgrade it, it can be filled with more and more shit, and you can even make further upgrades, like being able to put multiple stacks in a single slot."]
+			id: "020AD3C5960386EB"
+			rewards: [
+				{
+					id: "674B3E9560BC9E2B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 6
+					id: "3EDA13A34B3D8B7D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Does not Oxodize"
+			tasks: [{
+				id: "50B157429A794FA7"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:copper_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "And A Little Bit of Copper."
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["551ADB23A1679792"]
+			description: ["A limited Barrel is made to hold a single type of item, Just- A Damn lot, of that one item, useful for filtering. or all your thousands of cobble."]
+			id: "1AAD393EC8CA5294"
+			rewards: [{
+				id: "50DE94C372C542DC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "One Stack"
+			tasks: [{
+				id: "0C00D0CCF4BDF6A6"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_barrel_1"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["551ADB23A1679792"]
+			description: [
+				"Like the name, this barrel can hold two item stacks, unless you can't read. But then you couldn't read this either."
+				""
+				""
+				"Just remember, now that it holds two different items, the amount of those items the barrel can store is now halfed."
+			]
+			id: "21026D8552F0AAC5"
+			rewards: [{
+				id: "25E15ECED53B2701"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Two Stack"
+			tasks: [{
+				id: "56DE175FF5CF2254"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_barrel_2"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["551ADB23A1679792"]
+			id: "14B0868E99676875"
+			rewards: [{
+				id: "1A74E4A507D0481C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Four Stack"
+			tasks: [{
+				id: "73861BD9677E1221"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_barrel_4"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "24CA2793B67AB471"
+			rewards: [{
+				id: "064B7000A71159DD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7D73FCFB995DDEA0"
+				item: "sophisticatedstorage:pickup_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "1327EDD0BA054648"
+			rewards: [{
+				id: "5B1388407B226206"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2A937FD68184B45B"
+				item: "sophisticatedstorage:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "5B82BF9D6ED5AED5"
+			rewards: [{
+				id: "75CC7D489D4B6DDF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0AFDCEC7928D9463"
+				item: "sophisticatedstorage:filter_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "7C4BE51FC5BFCB80"
+			rewards: [{
+				id: "5EBB4B6085643BC7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2682CE9F022C6B2B"
+				item: "sophisticatedstorage:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "11B24F83BFD3EC7C"
+			rewards: [{
+				id: "552714B3F15CEAA1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "54A4CC355E707AED"
+				item: "sophisticatedstorage:magnet_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "29550C23C06EEE61"
+			rewards: [{
+				id: "3194FC6E9188EB29"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7E536788153295E6"
+				item: "sophisticatedstorage:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "5C305E74B2F2635C"
+			rewards: [{
+				id: "1A7186CCF9EA7E49"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "57149790A532BD62"
+				item: "sophisticatedstorage:feeding_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "5D72D2C20DE31EE2"
+			rewards: [{
+				id: "1FB32207CB5FBC24"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "22CB078B25526C22"
+				item: "sophisticatedstorage:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "46FCAB6F1591BAEB"
+			rewards: [{
+				id: "06091F8011ADE282"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "65B1C0435D889147"
+				item: "sophisticatedstorage:compacting_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "4785BEBAD3E315FE"
+			rewards: [{
+				id: "0C2289767FD1892F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "526BDBBA3465B865"
+				item: "sophisticatedstorage:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "2F267987A561022D"
+			rewards: [{
+				id: "7E96F1E5CA11857B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4CBA816F87B617C3"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "427B7B15F42614CC"
+			rewards: [{
+				id: "26FB1DC5B66AD612"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "641D11DB3C8A035B"
+				item: "sophisticatedstorage:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "1E7993836A8F2ABC"
+			rewards: [{
+				id: "0CEA671ED5AF564C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3D14E01E7E481DB0"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "37A50B9452708A43"
+			rewards: [{
+				id: "22B56B21954B9460"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0FD7B349D6CFA153"
+				item: "sophisticatedstorage:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "3738DE1EAA739CAF"
+			rewards: [{
+				id: "62F5F816BB5B6D60"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5EAA0FF14B3535AF"
+				item: "sophisticatedstorage:smoking_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "42E403AD5F97F6B5"
+			rewards: [{
+				id: "7E39602C79725758"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7AEAF76538D7019A"
+				item: "sophisticatedstorage:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "6F4CB55D15F77D97"
+			rewards: [{
+				id: "6570120EF85B8DE6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "733E52B09264AEB4"
+				item: "sophisticatedstorage:blasting_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "4D4380FD4A7B96E7"
+			rewards: [{
+				id: "5D967B71D874EDD6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3D9FBC000A5F3F7F"
+				item: "sophisticatedstorage:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "0DB45A8F4E182EBA"
+			rewards: [{
+				id: "31A4ED5B872237C7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "27C60F0C169264CB"
+				item: "sophisticatedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "1B313C472D166D1C"
+			rewards: [{
+				id: "7F9A144827E39DB1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "212BCFCE7B3FAC00"
+				item: "sophisticatedstorage:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "78E3542EFC048E5F"
+			rewards: [{
+				id: "3DBEA8AC23F33188"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "524809106763CF8F"
+				item: "sophisticatedstorage:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "653D4753D7743AA5"
+			rewards: [{
+				id: "3318409381850CD8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "254B4E241A5FA8BC"
+				item: "sophisticatedstorage:advanced_jukebox_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "57CB6FEF09E692F8"
+			rewards: [{
+				id: "50BA2C204C906B10"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "179E2AB2FEA060B3"
+				item: "sophisticatedstorage:compression_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "6C8EE17207079C32"
+			rewards: [{
+				id: "727896C25579C32D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "091AC115342A4A20"
+				item: "sophisticatedstorage:survival_infinity_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "5B480277407A2025"
+			rewards: [{
+				id: "4B61129E7FB30504"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0056DC4B2FA7327D"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "4FD4FF5849476766"
+			rewards: [{
+				id: "73E96EF8FD8B6C90"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7C2ADBBDD1756F94"
+				item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "48FC48D1B2D78011"
+			rewards: [{
+				id: "5073DB4A443310EA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "15C712EA2A83F9BA"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "5218429C48951370"
+			rewards: [{
+				id: "5C1551EDF6867006"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3E6B9106F745D1B3"
+				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "29ACA75ADCB874D2"
+			rewards: [{
+				id: "59F79F7D82F22C75"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "322C0BB41D0592FB"
+				item: "sophisticatedstorage:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "7080C350CCEAB0FC"
+			rewards: [{
+				id: "26E6685A3C7FE055"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6887CEA72257239F"
+				item: "sophisticatedstorage:stack_upgrade_tier_5"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "30BA8734CFB8D819"
+			rewards: [{
+				id: "1FAB9DBBCB05B2EF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1C71EAF89B27E59A"
+				item: "sophisticatedstorage:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "6095D172AE384D86"
+			rewards: [{
+				id: "5D3F8C3197F6455E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "600B4CDA591F85C7"
+				item: "sophisticatedstorage:pump_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "09253863CA0A7123"
+			rewards: [{
+				id: "2B7980142D6CA639"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "52AE23CE1A8E1B63"
+				item: "sophisticatedstorage:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "444D519CEAFCD11C"
+			rewards: [{
+				id: "78D8938F89D50888"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6DFF4616E197481C"
+				item: "sophisticatedstorage:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "6F3FA64BABCFEFA8"
+			rewards: [{
+				id: "10415ED6B034BBBC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5E805BAC667A9826"
+				item: "sophisticatedstorage:hopper_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "531E7C48BA86B546"
+			rewards: [{
+				id: "4AA8BE71A03C2097"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4044DB8EFC8848DD"
+				item: "sophisticatedstorage:advanced_hopper_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "0224AD0DAC0D3BDD"
+			rewards: [{
+				id: "1A7963572033F783"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7E7CDC7B2935AA88"
+				item: "sophisticatedstorage:alchemy_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["230A514F4CE41017"]
+			id: "76167B4171AB5C4B"
+			rewards: [{
+				id: "267AEB734C30D305"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3BAD27A935B76BA6"
+				item: "sophisticatedstorage:advanced_alchemy_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25B20970F2E51E30"]
+			description: [
+				"If you would rather upgrade yer chests without spilling yer shit all over the floor, you'll need to make these upgrades, which allow you to right click a chest with it in your hand to upgrade it to the next tier. (You'll need TWO for double chests!)"
+				""
+				"This one specificly, is to turn basic Vanilla chests into Sophisticated Storage Chests."
+			]
+			id: "3FD815F712CCA0ED"
+			rewards: [
+				{
+					id: "07B5788170472B90"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 32
+					id: "1743AEEC0007FF89"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			subtitle: "No Mess!"
+			tasks: [{
+				id: "386389E561C2937A"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["020AD3C5960386EB"]
+			description: ["Iron lets you hold EVEN MORE shit. And so on and so forth up to Netherite Teir, it's kinda pretty damn simple after this, each teir gives you some more space, and an extra upgrade slot to do whatever you please."]
+			id: "065CC7543DCDC9FC"
+			rewards: [
+				{
+					count: 6
+					id: "1A3D8AC4CEAF2333"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "0F6CB94F6452608E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Reinforced"
+			tasks: [{
+				id: "66D3FF26D4DC1DC1"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52B0A510B06AF3A0"]
+			id: "29A7297004BECA7E"
+			rewards: [
+				{
+					id: "5E735EFD6666937F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "56ABC2CB5386DAD9"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Shiny Chest"
+			tasks: [{
+				id: "68D81C76FDDC650A"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FD815F712CCA0ED"]
+			id: "113D270E86B5A284"
+			rewards: [
+				{
+					id: "1E65630470BC9D69"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "446D0C08DD945319"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+			]
+			subtitle: "Copper Chests"
+			tasks: [{
+				id: "0503F7B7F8932334"
+				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["113D270E86B5A284"]
+			description: ["Starting from here, you'll need to make sure you are creating the correct upgrade for your chest. If it's still basic, then a Basic to Iron upgrade is what you need, if it's copper, then you need a Copper to Iron upgrade instead."]
+			id: "0F047E7D87DD19B9"
+			rewards: [
+				{
+					id: "0D6C64E6F7C5156F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3D5B09A2EF7CC2D9"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			subtitle: "Iron Chests"
+			tasks: [
+				{
+					id: "105AC73F70958FC9"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "18A0AABAF675257D"
+					item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4919CA330CE83242"]
+			id: "2CC64FEFCD8C3A22"
+			rewards: [
+				{
+					id: "0A1870F8B441B596"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5C316B373DA5943F"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			subtitle: "Diamond Chests"
+			tasks: [
+				{
+					id: "5FCF230B3DE32582"
+					item: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "2898D391757589AE"
+					item: "sophisticatedstorage:copper_to_diamond_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "0122BD1E7BC6AFF3"
+					item: "sophisticatedstorage:iron_to_diamond_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "2C700C6F40539244"
+					item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2CC64FEFCD8C3A22"]
+			id: "700207112B8CB1E9"
+			rewards: [
+				{
+					id: "5AF6D1D47C0A6718"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "62419207344E6054"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "The Best Chest"
+			tasks: [
+				{
+					id: "222D4F3A7174B372"
+					item: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "776473D37E7D9BCE"
+					item: "sophisticatedstorage:copper_to_netherite_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "24C8626291200CE7"
+					item: "sophisticatedstorage:iron_to_netherite_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "40FB5B65E8533307"
+					item: "sophisticatedstorage:gold_to_netherite_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "63BB3830C2FEF2D3"
+					item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29A7297004BECA7E"]
+			description: [
+				"That's it, Not a lot to teach."
+				""
+				""
+				"Now get outta my face."
+			]
+			id: "1C4A96F5309C4A07"
+			rewards: [
+				{
+					id: "30307B69A9211D0C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "212EFAC295D9ADD4"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Damn, that's Expensive"
+			tasks: [{
+				id: "667778E35125BF85"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["065CC7543DCDC9FC"]
+			id: "52B0A510B06AF3A0"
+			rewards: [
+				{
+					id: "2BD961DC811A981E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 6
+					id: "0333E3275BFF1090"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Soft Chest"
+			tasks: [{
+				id: "1C0D7934878F1AAD"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F047E7D87DD19B9"]
+			id: "4919CA330CE83242"
+			rewards: [
+				{
+					id: "6C27FD58CEDCA841"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4A028D3986E06CDE"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			subtitle: "Gold Chests"
+			tasks: [
+				{
+					id: "3D92A09F0E51DCA7"
+					item: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "27D30304A5DF3ADE"
+					item: "sophisticatedstorage:copper_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "48C8C27DBAD8043F"
+					item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			id: "230A514F4CE41017"
+			tasks: [{
+				id: "731C40C584A5E411"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			description: ["Just like Chests, Barrels can be upgraded in the same way. But also in a unique way too."]
+			id: "4987607027AD1D38"
+			rewards: [
+				{
+					id: "1E04EA70F7C8577C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 32
+					id: "287494B5E04745E3"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			subtitle: "Barrel Time!"
+			tasks: [{
+				id: "349D79C5ECDD8E51"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4987607027AD1D38"]
+			id: "551ADB23A1679792"
+			rewards: [{
+				id: "021A662429C986EA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Better Barrels"
+			tasks: [{
+				id: "6F46AA5AC2937139"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["551ADB23A1679792"]
+			id: "75B955D121D3B267"
+			rewards: [{
+				id: "101A918C18ADC41C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Three Stack"
+			tasks: [{
+				id: "55AA9FDA602430A2"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_barrel_3"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+	]
+	title: "Sophisticated Storage"
+}

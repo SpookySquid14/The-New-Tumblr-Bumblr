@@ -1,0 +1,93 @@
+{
+	"lichConfig": {
+		"eternalNighttime": true,
+		"experienceDrop": 1500,
+		"idleHealingPerTick": 0.20000000298023224,
+		"health": 300.0,
+		"missile": {
+			"mobEffectId": "minecraft:slowness",
+			"mobEffectDuration": 100,
+			"mobEffectAmplifier": 2,
+			"damage": 9.0
+		},
+		"comet": {
+			"explosionStrength": 4.0
+		},
+		"summonMechanic": {
+			"isEnabled": true,
+			"entitiesThatCountToSummonCounter": [
+				"minecraft:skeleton",
+				"minecraft:giant",
+				"minecraft:zoglin",
+				"born_in_chaos_v1:zombie_bruiser",
+				"born_in_chaos_v1:zombie_lumberjack",
+				"goety:wither_necromancer",
+				"born_in_chaos_v1:siamese_skeletonsleft",
+				"born_in_chaos_v1:fallen_chaos_knight",
+				"minecraft:skeleton_horse",
+				"born_in_chaos_v1:siamese_skeletonsright",
+				"born_in_chaos_v1:baby_skeleton",
+				"goety:mossy_necromancer",
+				"minecraft:zombie_horse",
+				"aquamirae:tortured_soul",
+				"minecraft:wither",
+				"mebahelcreaturesdraugr:inferal_draugr",
+				"born_in_chaos_v1:barrel_zombie",
+				"born_in_chaos_v1:bonescaller",
+				"mebahelcreaturesdraugr:draugr_wight",
+				"born_in_chaos_v1:bone_imp",
+				"minecraft:phantom",
+				"mebahelcreaturesdraugr:draugr_scourge",
+				"minecraft:zombified_piglin",
+				"mebahelcreaturesdraugr:draugr",
+				"minecraft:wither_skeleton",
+				"goety:necromancer",
+				"born_in_chaos_v1:spirit_guide",
+				"minecraft:husk",
+				"born_in_chaos_v1:skeleton_demoman",
+				"goety:cairn_necromancer",
+				"minecraft:stray",
+				"born_in_chaos_v1:skeleton_thrasher",
+				"minecraft:zombie",
+				"minecraft:drowned",
+				"born_in_chaos_v1:door_knight",
+				"minecraft:zombie_villager",
+				"born_in_chaos_v1:decrepit_skeleton",
+				"born_in_chaos_v1:zombie_clown",
+				"mebahelcreaturesdraugr:draugr_archer",
+				"mebahelcreaturesdraugr:skeleton_warrior",
+				"born_in_chaos_v1:zombie_fisherman"
+			],
+			"numEntitiesKilledToDropSoulStar": 50
+		}
+	},
+	"obsidilithConfig": {
+		"health": 300.0,
+		"armor": 14.0,
+		"attack": 16.0,
+		"idleHealingPerTick": 0.5,
+		"experienceDrop": 1000,
+		"spawnPillarOnDeath": true,
+		"anvilAttackExplosionStrength": 4.0
+	},
+	"gauntletConfig": {
+		"health": 250.0,
+		"armor": 8.0,
+		"attack": 16.0,
+		"idleHealingPerTick": 0.5,
+		"experienceDrop": 1000,
+		"spawnAncientDebrisOnDeath": true,
+		"energizedPunchExplosionSize": 4.5,
+		"normalPunchExplosionMultiplier": 1.5
+	},
+	"voidBlossomConfig": {
+		"health": 350.0,
+		"armor": 4.0,
+		"attack": 12.0,
+		"idleHealingPerTick": 0.5,
+		"experienceDrop": 1000
+	},
+	"generalConfig": {
+		"tableOfElevationRadius": 3
+	}
+}

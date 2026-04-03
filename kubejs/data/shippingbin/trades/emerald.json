@@ -1,0 +1,21 @@
+{
+  "attribute": "shippingbin:gem_sell_multiplier",
+   "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "output": {
+    "count": 1,
+    "item": "eternalcurrencies:currency_item",
+    "nbt": {
+      "currencies": [
+        {
+          "currency": "eternalcurrencies:ancientcoins",
+          "amount":10
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+filename = 'Tombstones redux 1.20 v3.zip'
+name = 'Corail Tombstones Redux'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Tombstones Redux 1.20 v3'
+
+[download]
+hash = 'c3c50185a0711bf13f4d4a8d84f308f677558f25'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6273412
+project-id = 579058

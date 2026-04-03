@@ -1,0 +1,598 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "43386B27669D2B6A"
+	icon: "minecraft:netherrack"
+	id: "30605053F60EB7C5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3A92B8E45BD4ED4E"]
+			description: [
+				"I'm as surprised as you are. That... should have worked. What's this about a tablet?"
+				"Hmm... I've got an idea. Perhaps you could try making some sort of pseudo portal. Like, an unstable one. Maybe then we'd be able to find that tablet."
+				"An unstable portal. If I had to guess, it'd probably need &o&6some blocks from the portal frame, something that holds a lot of lost souls inside it, and some kind of igniter. Flint and steel probably isn't good to use for this.&r"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/ruined_portal.png"
+				}
+			}
+			id: "2CBE90561300741D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2045FB4504ECB0B2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "3EA389F58775A32E"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:nether_invasion"
+					}
+				}
+				title: "Craft an Unstable Nether Portal"
+				type: "item"
+			}]
+			title: "Well... That Didn't Work"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D781DCA4118AF8A"]
+			description: [
+				"I can't believe that worked. The tablet talks about the portals alright. I guess now we know how, all that's left is to try this one more time."
+				"&0Let's hope it doesn't follow us.&r"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:netherrack"
+			id: "498F02A60A22B5E1"
+			rewards: [{
+				amount: 230L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "686BF921196DE8F6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "07DAE759B736ADB6"
+				title: "Enter The Nether"
+				type: "dimension"
+			}]
+			title: "Welcome To Hell!"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"You've gotten this far, huh? The Overworld truly is amazing, but to see all there is, one must go deeper. It's time... for The Nether."
+				"Entering The Nether should be a simple matter. &6&oA frame of 10 Obsidian lit with Flint and Steel.&r That's what must be done."
+				"It uh... actually sounds pretty simple, huh?"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/nether_portal.png"
+				}
+			}
+			id: "3A92B8E45BD4ED4E"
+			require_sequential_tasks: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "677F6510A92E5DF7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					hasCustomPicture: false
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "supplementaries:textures/map_marker/nether_portal.png"
+						}
+					}
+					id: "788A54D5FCCE91F7"
+					ignoreState: false
+					layer: true
+					name: "nether_portal_frame_base"
+					rightclick: false
+					title: "Build A Portal Frame"
+					type: "questsadditions:structure"
+				}
+				{
+					block: "minecraft:obsidian"
+					block_type: 0
+					checkItem: true
+					id: "1B1728BE922A33F8"
+					isItemInteraction: true
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "questsadditions:use"
+					value: 1L
+				}
+			]
+			title: "Thinking With Po—Wait, Wrong Game"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2CBE90561300741D"]
+			description: [
+				"This thing we made... You know what? I'm just going to leave it to you. Given its nature, &o&6you probably want to use it somewhere with a lot of space&r."
+				"Who knows what will happen when it's activated. &oBest be prepared for a fight.&r"
+			]
+			hide_until_deps_complete: true
+			id: "0D781DCA4118AF8A"
+			rewards: [{
+				amount: 230L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "43C9249CEB1FDCB2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:nether_invasion"
+					}
+				}
+				id: "30CC490564B2A9DE"
+				item: "kubejs:burned_tablet"
+				title: "Use the Unstable Portal and Obtain the Burned Tablet"
+				type: "item"
+			}]
+			title: "Are You Sure This Will Work?"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1F92B2332221508F"]
+			description: [
+				"Tales talk of a grand fortress built long ago by ancient beings that no longer walk these realms. Made from netherbrick, The Nether Fortress is a towering construction. Finding one may not be easy, but it's best to start looking."
+				"{image:modpack:textures/nether-fortress.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_visible: true
+			id: "20B7F6A62F064817"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "55A27D0622052E3F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "supplementaries:textures/map_marker/nether_fortress.png"
+					}
+				}
+				id: "666EA667F3AB62A0"
+				structure: "betterfortresses:fortress"
+				title: "Find a Nether Fortress"
+				type: "structure"
+			}]
+			title: "The Fortress of The Damned"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["20B7F6A62F064817"]
+			description: [
+				"The eternal guardians of the Nether Fortress, Wither Skeletons are a semi-rare occurance. That's not to say you won't find your fair share of them. Be careful of their attacks, for the wither you away from the inside."
+				"{image:modpack:textures/wither-skeleton.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:wither_skeleton_skull"
+			id: "15EC5D720D4001E8"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7DFD6C31BC511C79"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "tconstruct:necrotic_bone"
+				id: "0417C96FCAE1CD04"
+				type: "kill"
+				value: 16L
+			}]
+			title: "Off With Their Heads!"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["498F02A60A22B5E1"]
+			description: [
+				"I hope you haven't tried sleeping in a bed. That doesn't really work in The Nether. That being said, there &ois&r a way to set your spawnpoint. With some crying obsidian and glowstone, you can craft a &o&6Respawn Anchor&r."
+				"It's worth noting that a Respawn Anchor's power is not unlimited. &6&oIt must be given glowstone to gain a charge&r. Up to 4 charges can be stored at once, and one charge is expended upon respawning."
+				"{image:modpack:textures/respawn-anchor.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_visible: true
+			id: "1F92B2332221508F"
+			tasks: [{
+				id: "179F8E7D88FC3BC4"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			title: "Otherworldly Undeath"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["193988E4791FC83A"]
+			description: [
+				"To think the ancient beings were responsible for the scourge of the overworld. I suppose that happens when you try to play god and revive the dead."
+				"I wonder... could we recreate such a feat with &6some soul filled blocks and skulls of our own&r? Perhaps there are clues in the fortresses."
+				""
+				"{image:minecraft:textures/painting/wither.png width:100 height:100 align:center}"
+			]
+			hide_until_deps_visible: true
+			id: "610AEA5B82729D80"
+			rewards: [{
+				amount: 230L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "655DC325A6FEA474"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7EAB066E14654517"
+				item: "minecraft:nether_star"
+				title: "Summon and Slay The Wither"
+				type: "item"
+			}]
+			title: "A Force Of Corruption"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B605AD4992DD0F5"]
+			description: [
+				"The Soul Forge is one of the more interesting structures in the realm. Not much is known about its creation. One thing is for sure, though. While its inhabitants vanished, &4&oThe Netherite Monstrosity&r remained."
+				"Given its unique construction, it may be possible to locate it through the usage of an Eye of Monstrous. How you'd create one is beyond me, but I'm sure an &o&6eye of ender&r would be required, &o&6along with some material from the monstrosity itself&r."
+				"{image:modpack:textures/soul-blacksmith.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "cataclysm:netherite_ministrosity"
+				}
+			}
+			id: "7D46AEE85AF5EFAF"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "69B48A7470E75115"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "477FFDCC1AD45428"
+					structure: "cataclysm:soul_black_smith"
+					title: "Find a Soul Blacksmith"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "cataclysm:textures/mob_effect/monstrous.png"
+						}
+					}
+					id: "522C32860EAB2068"
+					title: "Destroy The Netherite Monstrosity"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "A Terrible Creation"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F92B2332221508F"]
+			description: [
+				"The Gauntlet Arena is a structure you want to be on the lookout for. Sadly I cannot help much in terms of locating it, though I've heard they aren't the hardest to find."
+				"{image:modpack:textures/gauntlet_arena.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_visible: true
+			icon: "bosses_of_mass_destruction:gauntlet_blackstone"
+			id: "4B605AD4992DD0F5"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3810BED8E83723C1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "08FDE31FDE99DFC5"
+					structure: "bosses_of_mass_destruction:gauntlet_arena"
+					title: "Find The Gauntlet Arena"
+					type: "structure"
+				}
+				{
+					advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+					criterion: ""
+					id: "72AD231BA8FA449A"
+					title: "Destroy The Nether Gauntlet"
+					type: "advancement"
+				}
+			]
+			title: "Talk To The Hand"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D46AEE85AF5EFAF"]
+			description: [
+				"&6&oThe Burning Arena,&r home to the immortal flame, &4Ignis&r. I cannot describe this coliseum with words alone. If you seek its challenge, &6&oprepare yourself for a fight you will never forget&r."
+				"Ah, right. An &o&6Eye of Flame&r may be able to help locate this arena."
+				"{image:modpack:textures/burning-arena.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_visible: true
+			icon: "cataclysm:flame_eye"
+			id: "15D59D975C84E266"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "33271B4593B1C2F5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "1D07359FC275F272"
+				structure: "cataclysm:burning_arena"
+				title: "Find The Burning Arena"
+				type: "structure"
+			}]
+			title: "A Final Destination"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15D59D975C84E266"]
+			description: [
+				"To call forth &4&oIgnis&r, one must first claim the ashes of an Ignited Revenant. These monsters are powerful guards of the Burning Arena, wielding several shields to protect them. But, just like your own shields, &6&oan axe can make quick work of them&r."
+				"{image:modpack:textures/ignited_revenant.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "cataclysm:ignited_revenant"
+				}
+			}
+			icon_scale: 0.6d
+			id: "7B396A381FC50D4E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "35F58503F51E5546"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: "cataclysm:burning_ashes"
+				id: "12CD9FA51727A110"
+				title: "Kill The Ignited Berserker And Claim Its Ashes"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ashes From Ashes"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B396A381FC50D4E"]
+			description: [
+				"It is time. Prepare yourself, for Ignis is one who demands upmost respect from his challengers. &o&4Do NOT underestimate his power.&r"
+				"Good luck, friend."
+				"{image:modpack:textures/altar-of-fire.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6FCC21B481AA7424"
+			rewards: [{
+				amount: 560L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7B81650F9A87FB9E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					icon: "cataclysm:altar_of_fire"
+					id: "47E19D91E6AD815C"
+					observe_type: 0
+					timer: 0L
+					title: "Reach The Altar of Fire"
+					to_observe: "cataclysm:altar_of_fire"
+					type: "observation"
+				}
+				{
+					entity: "cataclysm:ignis"
+					icon: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "72C6B1700E929A0E"
+					title: "Slay Ignis, The Eternal Fire"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Immortal Flame"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["498F02A60A22B5E1"]
+			description: ["The Nether isn't just a barren wasteland, you know. There's many different biomes and ecosystems, with different resources scattered about. There's a few that I find to be more common, so perhaps you could try to visit them all."]
+			hide_until_deps_visible: true
+			id: "4D92CD853B2371EB"
+			rewards: [{
+				amount: 160L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "630B9CC710A58969"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					biome: "minecraft:nether_wastes"
+					icon: "minecraft:netherrack"
+					id: "25B165EA2D457DC8"
+					title: "Visit The Nether Wastes"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:soul_sand_valley"
+					icon: "minecraft:soul_sand"
+					id: "5107B305A8595C15"
+					title: "Visit The Soul Sand Valley"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:warped_forest"
+					icon: "minecraft:warped_nylium"
+					id: "7C42DD70F1603361"
+					title: "Visit the Warped Forest"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:crimson_forest"
+					icon: "minecraft:crimson_nylium"
+					id: "7BA964999617392F"
+					title: "Visit The Crimson Forest"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:basalt_deltas"
+					icon: "minecraft:basalt"
+					id: "709C8BA4A46E07C2"
+					title: "Visit The Basalt Deltas"
+					type: "biome"
+				}
+			]
+			title: "The Hottest Places to Tour"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D92CD853B2371EB"]
+			hide_until_deps_visible: true
+			id: "166C0CC10669A38E"
+			tasks: [
+				{
+					biome: "regions_unexplored:blackstone_basin"
+					icon: "regions_unexplored:cobalt_nylium"
+					id: "76CF10BE0F1BA6D1"
+					title: "Visit The Blackstone Basin"
+					type: "biome"
+				}
+				{
+					biome: "regions_unexplored:glistering_meadow"
+					icon: "regions_unexplored:glistering_nylium"
+					id: "32E5B37EE2B5D94F"
+					title: "Visit The Glistering Meadow"
+					type: "biome"
+				}
+				{
+					biome: "regions_unexplored:infernal_holt"
+					icon: "regions_unexplored:brimsprout_nylium"
+					id: "784E5424595FC1B1"
+					title: "Visit The Infernal Holt"
+					type: "biome"
+				}
+				{
+					biome: "regions_unexplored:mycotoxic_undergrowth"
+					icon: "regions_unexplored:mycotoxic_moss"
+					id: "3EC2D7613E675E85"
+					title: "Visit The Mycotoxic Undergrowth"
+					type: "biome"
+				}
+				{
+					biome: "regions_unexplored:redstone_abyss"
+					icon: "regions_unexplored:raw_redstone_block"
+					id: "498CF16B971E2147"
+					title: "Visit The Redstone Abyss"
+					type: "biome"
+				}
+			]
+			title: "Hell's Greatest Tourist"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15EC5D720D4001E8"]
+			description: [
+				"When you were fighting wither skeletons, did you ever find one's head dropped from it? &o&6Wither Skeleton Skulls&r are a very rare and very important item. The ancient beings would quiver in fear of &4&othe monster that three of them could summon&r."
+				"{image:modpack:textures/wither-skeleton-skull.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_visible: true
+			id: "193988E4791FC83A"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5CC631451A7A206F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 3L
+				id: "073C379C237D9DB4"
+				item: "minecraft:wither_skeleton_skull"
+				title: "Collect 3 Wither Skulls"
+				type: "item"
+			}]
+			title: "The Heads of The Dead"
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	title: "Nether"
+}

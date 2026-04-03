@@ -1,0 +1,17 @@
+filename = 'occultengineering-1.20.1-0.11.3.jar'
+name = 'Create: Occult Engineering'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'occultengineering-1.20.1-0.11.3.jar'
+
+[download]
+hash = '2df62d0a5431f31665301e74a1d78c897d9062c1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7246645
+project-id = 1206040

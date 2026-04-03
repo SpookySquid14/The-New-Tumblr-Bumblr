@@ -1,0 +1,17 @@
+filename = 'mystical_manors-1.0.5.jar'
+name = "Ember's Mystical Manors"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mystical_manors-1.0.5.jar'
+
+[download]
+hash = '895201f4c5ae37d7fbe81d97a06b32584e4bd3ac'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7036581
+project-id = 1334689

@@ -1,0 +1,17 @@
+filename = 'mobplayeranimator-forge-1.20.1-1.3.3-all.jar'
+name = 'Mob Player Animator'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mobplayeranimator-forge-1.20.1-1.3.3-all.jar'
+
+[download]
+hash = '5767ecee24e34efb138403a45de1589e38ddc624'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6125584
+project-id = 1058791

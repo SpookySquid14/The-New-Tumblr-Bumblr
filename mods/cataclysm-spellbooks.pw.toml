@@ -1,0 +1,17 @@
+filename = 'cataclysm_spellbooks-1.2.9-1.20.1-all.jar'
+name = 'Cataclysm: Spellbooks'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cataclysm_spellbooks-1.2.9-1.20.1-all.jar'
+
+[download]
+hash = '57fbb161849fca19aa12632944b01ce12760c4c4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7687059
+project-id = 1099461

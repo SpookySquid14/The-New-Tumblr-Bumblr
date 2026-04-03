@@ -1,0 +1,17 @@
+filename = 'blighted_beasts-1.20.1-1.5.4.jar'
+name = 'Blighted Beasts'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'blighted_beasts-1.20.1-1.5.4.jar'
+
+[download]
+hash = 'd085634bea49b3bb7d614112109ae303ff2420b5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7771353
+project-id = 1064685

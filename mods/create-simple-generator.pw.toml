@@ -1,0 +1,17 @@
+filename = 'create_simple_generator-1.0.9-1.20.1.jar'
+name = 'Create: Simple Generator'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CreateSimpleGenerator-1.0.9-forge-1.20.1.jar'
+
+[download]
+hash = '2417f0e2398b392a1dc998a8076ec7a0ef2fcbdb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6805466
+project-id = 1236032

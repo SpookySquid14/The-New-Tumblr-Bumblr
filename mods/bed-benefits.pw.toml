@@ -1,0 +1,17 @@
+filename = 'BedBenefits-Forge-1.20.1-13.0.4.jar'
+name = 'Bed Benefits'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BedBenefits-Forge-1.20.1-13.0.4.jar'
+
+[download]
+hash = '5c5dbc3bf2f8ba2d86f2ba35c03869cc28c7298d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7612351
+project-id = 377051

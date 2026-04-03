@@ -1,0 +1,17 @@
+filename = 'BetterFusionReactor-1.20.1-1.4.15.jar'
+name = 'Better Fusion Reactor for Mekanism PLUS'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BetterFusionReactor-1.20.1-1.4.14.jar'
+
+[download]
+hash = '52bec41d621e32fb46c70a568d2df0b065944c14'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7662868
+project-id = 602409

@@ -1,0 +1,1554 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: "48841A8C395C40D5"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	id: "2248DCF95595D594"
+	order_index: 3
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Tinker's Contruct allows you to create tools out of (Almost) Any Material! YOU have complete control over your tools! This Questline will guide you from basic tinkering to a Master Smith!"
+				""
+				""
+				"Sit down, and let this old dwarf teach you how it's done."
+			]
+			id: "2D65D038AF3F9654"
+			rewards: [
+				{
+					count: 15
+					id: "0B778DEB1190E2F3"
+					item: "tconstruct:pattern"
+					type: "item"
+				}
+				{
+					id: "1C2C720402C83415"
+					item: "tconstruct:cast_chest"
+					type: "item"
+				}
+				{
+					id: "3AC529DB4D8C56C3"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+			]
+			subtitle: "A Blacksmith is Born"
+			tasks: [
+				{
+					id: "6CA50795B5D7D49F"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+				{
+					id: "6F8C51A8334782B7"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "2718607FF0AF6F62"
+					item: "tconstruct:pattern"
+					type: "item"
+				}
+			]
+			title: "Patterns Matter"
+			x: -28.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2D65D038AF3F9654"]
+			description: ["Tier 1 Tools are equivlant to wood or stone vanilla tools, and can be made purely on the Tinker Station without worrying about liquid metal. \"Materials and You\" explains what you can use for what part. Bone and Flint are common and flimsy, but are often better then dull old stone."]
+			id: "53A09EAB4421492A"
+			rewards: [
+				{
+					id: "5619A100BE4A87B7"
+					item: "tconstruct:materials_and_you"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7660D10416FFEC62"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "62507DF015BC400A"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			subtitle: "Primitive, Shmimitive"
+			tasks: [
+				{
+					id: "3FC367DF3562634E"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EA505C50819740D"
+					item: {
+						Count: 1
+						id: "tconstruct:small_axe_head"
+						tag: {
+							Material: "tconstruct:bone"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tier 1 Tools"
+			x: -26.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0A73874C00D2C311"]
+			description: ["The Melter is a Tinker's Best Freind in forging their first tools! The heater is placed underneath the melter and provided with solid fuel, which then melts any item (That's Meltable) Within, it can be taken out with a faucet and a casting basin."]
+			id: "08BE7B461CC437CA"
+			rewards: [
+				{
+					count: 64
+					id: "413B6310D7F668B4"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "143B1736EE680A18"
+					item: "tconstruct:blank_sand_cast"
+					type: "item"
+				}
+				{
+					id: "5CE2FAA3CA472A1B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Melter Skelter"
+			tasks: [
+				{
+					id: "5EF57D5E9025C008"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "52264346B49E43FF"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7BB768F2E536334A"
+					item: { Count: 2, id: "tconstruct:seared_faucet" }
+					type: "item"
+				}
+				{
+					id: "7586013C6791F3C3"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "0AA5F31CBED8ABF2"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+			]
+			title: "Now your putting the Black in Smith"
+			x: -25.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["53A09EAB4421492A"]
+			description: [
+				"Grout is nessary for constructing both the Melter and Smelter Multiblocks, your most powerful bulk smelter (For Now)."
+				""
+				"Gather plenty of Sand, Gravel, and Clay in preperation of making your first soild fuel melter."
+			]
+			id: "0A73874C00D2C311"
+			rewards: [
+				{
+					count: 16
+					id: "63663D0A623D9B4D"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2AB61C1B6AA12CFA"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "431D49B74570D48C"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "722F0E1186AA69AD"
+					item: "tconstruct:puny_smelting"
+					type: "item"
+				}
+			]
+			subtitle: "The Forge Awaits"
+			tasks: [
+				{
+					count: 64L
+					id: "63D6DA2EDDBFE169"
+					item: { Count: 64, id: "minecraft:sand" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4328FE6946E20DDA"
+					item: { Count: 64, id: "minecraft:gravel" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3D129FA357632FE0"
+					item: { Count: 64, id: "minecraft:clay" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4681742933CC5790"
+					item: { Count: 64, id: "tconstruct:grout" }
+					type: "item"
+				}
+			]
+			title: "The River Provides"
+			x: -25.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["08BE7B461CC437CA"]
+			description: [
+				"Once you make a tool, it's parts can be replaced and swapped out. You made a flint pick earlier, try adding the new iron head to it now."
+				""
+				""
+				"Sand Casts are the cheapest way to make casts, place the cast into the Casting Table, and then a stone or wooden part onto the sand cast, then remove the part, this makes a cast of whatever part you used. Permanent Casts can be made by pouring liquid gold onto a part (Hint: Try an Ingot!)"
+			]
+			id: "1BA8589B69D3D94E"
+			rewards: [
+				{
+					id: "67C240FA8CA971B4"
+					item: "tconstruct:mighty_smelting"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4D6E1D4FD6346204"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "74DA490FD54001C5"
+					item: "tconstruct:seared_bricks"
+					type: "item"
+				}
+			]
+			subtitle: "Hot Swapping"
+			tasks: [
+				{
+					id: "5460CCD9D314FA29"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:iron"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "701E6E4CB0FC613C"
+					item: {
+						Count: 1
+						id: "tconstruct:small_axe_head"
+						tag: {
+							Material: "tconstruct:iron"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tier 2 Tools"
+			x: -23.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["322A153075BE46A9"]
+			description: ["Instead of Using three whole Diamonds to make a pick, you can add one to your iron pick, making it diamond tipped. This gives it the same properties as a vanilla Diamond Pick, being much more durable and being able to mine things like Obsidian! "]
+			id: "508F4A0DC217F01F"
+			rewards: [
+				{
+					id: "7F368952BC39ED3F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "67F25AE4490B3252"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Cheaper, Better, Stronger"
+			tasks: [{
+				id: "7E0C3AA4DBC99069"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Diamond Tipped!"
+			x: -21.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1BA8589B69D3D94E"]
+			description: [
+				"Your handmade tools do not shatter in your hands when they break like normal tools, They simply become worn down and unusable. But! They can be repaired!"
+				""
+				""
+				"In a Tinker's Station, combining the tool with the correct repair material (Whatever the head is made from) will repair it. You can also repair an item on the go with a repair kit."
+			]
+			id: "322A153075BE46A9"
+			rewards: [
+				{
+					count: 5
+					id: "45CC54E6DBFCFBA7"
+					item: {
+						Count: 1
+						id: "tconstruct:repair_kit"
+						tag: {
+							Material: "tconstruct:iron"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BEDEE396ED6AC9B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "But still Unbreakable!"
+			tasks: [{
+				id: "5EEF11CE7307B24D"
+				item: {
+					Count: 1
+					id: "tconstruct:repair_kit"
+					tag: {
+						Material: "tconstruct:rock"
+					}
+				}
+				type: "item"
+			}]
+			title: "Not Quite Mending"
+			x: -23.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7B1E7D944854185E"]
+			description: [
+				"It's time to make the Smeltery!"
+				""
+				"You will need quite a bit of Grout to make a forge large enough to be of use. The Multiblock is created by building a 3x3 base, and building up the walls around it, you do not need corners. You can place the Controller and the Fuel Tank wherever you please within the walls. But I recommend they're easily accssesable. "
+				""
+				""
+				"(Tip: You're going to need Lava to Fuel the Smeltery, It's a good idea to have some sort of generator to keep it running!)"
+			]
+			id: "222203F2D4CF537C"
+			rewards: [
+				{
+					count: 3
+					id: "21A4CEA4B7ED468A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "71B3A76F0EEF8F2D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "58C25EEF59FB5254"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "683BB5CC182F889C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Apprentice Blacksmith"
+			tasks: [
+				{
+					id: "0F5B2F28410B6D83"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					count: 56L
+					id: "6E1F7DDD4019A87A"
+					item: { Count: 56, id: "tconstruct:seared_bricks" }
+					type: "item"
+				}
+				{
+					id: "625273CAC2CA7456"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7CAFC86D081EE0DA"
+					item: { Count: 2, id: "tconstruct:seared_drain" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "22658C7B883C78E1"
+					item: { Count: 2, id: "tconstruct:seared_faucet" }
+					type: "item"
+				}
+			]
+			title: "The Heart of Copper"
+			x: -20.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["222203F2D4CF537C"]
+			description: [
+				"Alloys are typically much stronger then traditional metals, surpassing even Diamond, and at times, Netherite. Just be careful, the Smelter will alloy any metal that CAN ALLOY, wether you want it to or not."
+				""
+				"Be Polite, Empty your Smelters, Avoid Making 10 stacks of Rose Gold. "
+			]
+			id: "51E87962019534D5"
+			rewards: [
+				{
+					id: "6123147127D45E76"
+					item: "mekanism:block_bronze"
+					type: "item"
+				}
+				{
+					id: "4C6482D51EEBB3AE"
+					item: "tconstruct:rose_gold_block"
+					type: "item"
+				}
+				{
+					id: "41A66BD9BA1BEA72"
+					item: "tconstruct:pig_iron_block"
+					type: "item"
+				}
+				{
+					id: "79D495ADF144E6C4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5C4369DCD6B098EE"
+					item: {
+						Count: 1
+						id: "tconstruct:encyclopedia"
+						tag: {
+							mantle: {
+								book: {
+									current_page: "tools.tconstruct.earth_staff"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Mixing Metals"
+			tasks: [
+				{
+					count: 5L
+					id: "46ABF03F2A6F4194"
+					item: { Count: 5, id: "tcintegrations:bronze_ingot" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "36151634CC2F827C"
+					item: { Count: 5, id: "tconstruct:rose_gold_ingot" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0CA92C0C575E67D3"
+					item: { Count: 5, id: "tconstruct:pig_iron_ingot" }
+					type: "item"
+				}
+			]
+			title: "Alloy Time!"
+			x: -19.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1BA8589B69D3D94E"]
+			description: [
+				"All Tools can be modified and all materials have it's own modifier that effects the tool, and effects each kind of tool differently."
+				""
+				"For Example: Adding Redstone to your pickaxe gives it Haste! Which allows you to mine faster much like the Efficency enchantment!"
+			]
+			id: "7B1E7D944854185E"
+			rewards: [
+				{
+					count: 64
+					id: "7EAA9B593A0294E4"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "371BE51CE2ECE07B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Modifier Worktable"
+			tasks: [{
+				id: "371737810E21DFD3"
+				item: "tconstruct:modifier_worktable"
+				type: "item"
+			}]
+			title: "Adapt, Modify, Overcome"
+			x: -22.0d
+			y: -5.0d
+		}
+		{
+			id: "2F719A48ECA78904"
+			rewards: [{
+				id: "1C7D03E6F9265E94"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0C0397558C267F76"
+				item: "tconstruct:ingot_cast"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			id: "09D59EB8A167ECAD"
+			rewards: [{
+				id: "42735D33EDEADD1B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3C669301888F5B6A"
+				item: "tconstruct:nugget_cast"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			id: "772E0FF2405F822C"
+			rewards: [{
+				id: "6C468D2F9D33D285"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0F1C947716AC8893"
+				item: "tconstruct:gem_cast"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			id: "36522E8C51182157"
+			rewards: [{
+				id: "1F7DF8B08BCE0639"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5B1175BD720FE988"
+				item: "tconstruct:rod_cast"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			id: "3428838980B287DC"
+			rewards: [{
+				id: "6D56827CAC9A5882"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7E63B7314B50B11C"
+				item: "tconstruct:repair_kit_cast"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 3.0d
+		}
+		{
+			id: "025AC27DCBA8D736"
+			rewards: [{
+				id: "656ABA16F762F4D7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0BDBE6AB37BCA4AF"
+				item: "tconstruct:plate_cast"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			id: "2161C29C65652940"
+			rewards: [{
+				id: "5E065C09C995C942"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1550D4E3562AAFC1"
+				item: "tconstruct:wire_cast"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.0d
+		}
+		{
+			id: "1F1B487A6FDC7438"
+			rewards: [{
+				id: "7D960675B81794EA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0AB0C2F070D56339"
+				item: "tconstruct:pick_head_cast"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			id: "6C7A21DE92062369"
+			rewards: [{
+				id: "6E4A7861ACCA546C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "095E3D2F21C8F8BF"
+				item: "tconstruct:small_axe_head_cast"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 1.0d
+		}
+		{
+			id: "10772D447BDED1F5"
+			rewards: [{
+				id: "7CBE0F86F3735B6F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "753F95AF61B424F4"
+				item: "tconstruct:small_blade_cast"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			id: "5ECE659C93517BAC"
+			rewards: [{
+				id: "6578CD6D4D94127A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5903115A986B0B0C"
+				item: "tconstruct:adze_head_cast"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 3.0d
+		}
+		{
+			id: "6C5E9F5545733E5E"
+			rewards: [{
+				id: "211CBF67234A1AF9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "424C658904F24773"
+				item: "tconstruct:hammer_head_cast"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.0d
+		}
+		{
+			id: "653D5E71E4719056"
+			rewards: [{
+				id: "013FA257480B00A9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1CE1791692DC50BE"
+				item: "tconstruct:broad_axe_head_cast"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.0d
+		}
+		{
+			id: "1572AE099DE32E53"
+			rewards: [{
+				id: "61393E15BFBF4A6A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6EE364B2F6FB84AE"
+				item: "tconstruct:broad_blade_cast"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			id: "1096F974AC40A67A"
+			rewards: [{
+				id: "7BE2EF99B776D218"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5DADCC721FE70BD6"
+				item: "tconstruct:large_plate_cast"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			id: "1DE841992983D331"
+			rewards: [{
+				id: "6A35C18A68FB8E63"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0632742C0AE0845A"
+				item: "tconstruct:tool_handle_cast"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			id: "235E193633D5DF06"
+			rewards: [{
+				id: "6F03F115518623E0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2C3B5E67356AE7BC"
+				item: "tconstruct:tool_binding_cast"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			id: "1FF40B4369CEA872"
+			rewards: [{
+				id: "2236EA6316FB44B1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1018B12DAA63F2FE"
+				item: "tconstruct:tough_handle_cast"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			id: "4AC5B27E4C25FA8A"
+			rewards: [{
+				id: "3DA2CBC38CD325B9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "472E0BAE8A27429F"
+				item: "tconstruct:tough_binding_cast"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.0d
+		}
+		{
+			id: "383E08B47AC91DBB"
+			rewards: [{
+				id: "21A53D9F45650F61"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2524B6B948488DE0"
+				item: "tconstruct:bow_limb_cast"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.0d
+		}
+		{
+			id: "132E411CA61A2AAF"
+			rewards: [{
+				id: "03EAFF95524DD6AB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2A9A427EB111D08C"
+				item: "tconstruct:bow_grip_cast"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			id: "5C67F68081E3AFF3"
+			rewards: [{
+				id: "48D6A7628ABB880D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "588D1C0F0FAC6B4B"
+				item: "tconstruct:helmet_plating_cast"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			id: "285AF5E3EDAC9055"
+			rewards: [{
+				id: "726ACAA7833EC8A5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0F4C05592D243ED1"
+				item: "tconstruct:chestplate_plating_cast"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			id: "0237B658A0B7F120"
+			rewards: [{
+				id: "1C16CCEAF21855C3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2D0D5532180C4548"
+				item: "tconstruct:leggings_plating_cast"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			id: "043B0BAF1FB900A3"
+			rewards: [{
+				id: "50A960DFBF5B2138"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "127E255FCA36C532"
+				item: "tconstruct:boots_plating_cast"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			id: "1ABC3FE948A2F3F8"
+			rewards: [{
+				id: "316C1C69DA1D3D0C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1FC6318F8175C1B4"
+				item: "tconstruct:maille_cast"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["508F4A0DC217F01F"]
+			description: [
+				"As you explore, you will find floating island's high in the sky, these are Skyslime Islands!"
+				""
+				"Slime has many uses in smithing. Though it's most known for it's utility in making Slime Alloys"
+			]
+			id: "44A93A794D4165FC"
+			rewards: [
+				{
+					id: "329C12FE9523C309"
+					item: {
+						Count: 1
+						id: "tconstruct:tinkers_gadgetry"
+						tag: {
+							mantle: {
+								book: {
+									current_page: ""
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D02D86F5BB8E275"
+					item: "tconstruct:seared_ingot_tank"
+					type: "item"
+				}
+				{
+					id: "7DA45ED992322B4D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Gross, But Useful"
+			tasks: [
+				{
+					count: 10L
+					id: "192A35315B419914"
+					item: { Count: 10, id: "tconstruct:sky_slime_ball" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "59B166446857CFC5"
+					item: { Count: 5, id: "tconstruct:sky_congealed_slime" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2E918C0320B42E60"
+					item: { Count: 3, id: "tconstruct:sky_slime_sapling" }
+					type: "item"
+				}
+			]
+			title: "Slimy Goodness"
+			x: -20.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["31F7CCE1B74248B2"]
+			id: "3695D8779498D171"
+			rewards: [
+				{
+					id: "79109CEFDEBC0833"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1FA287AB6C9ED261"
+					item: "tconstruct:slimesteel_block"
+					type: "item"
+				}
+			]
+			subtitle: "Hard and Squishy?"
+			tasks: [{
+				id: "436EECA1660ADF48"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E156E0FF61C3646"]
+			id: "020511479F5F4E92"
+			rewards: [
+				{
+					id: "1BB14641DF532FC7"
+					item: "tconstruct:cinderslime_block"
+					type: "item"
+				}
+				{
+					id: "7DCAC2987A2C244D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Lava Eater"
+			tasks: [{
+				id: "6E3B173A8B38422B"
+				item: "tconstruct:cinderslime_ingot"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3695D8779498D171"
+				"020511479F5F4E92"
+			]
+			id: "4BFAEB671E0D2029"
+			rewards: [
+				{
+					id: "3BCD0C7AB291252B"
+					item: "tconstruct:queens_slime_block"
+					type: "item"
+				}
+				{
+					id: "1AA5805157707885"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Motherslime"
+			tasks: [{
+				id: "78E484BBB0B8B00D"
+				item: "tconstruct:queens_slime_ingot"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["51E87962019534D5"]
+			description: [
+				"You have reached Tier 3 tools, equivalant, and often surpassing, Diamond. Congrats! This is the maximum teir you can acheive without defeating the Gatekeeper to the Nether, and making a portal."
+				""
+				"Go forth my Apprentice! You are well on your way to becoming a Master Smith!"
+			]
+			id: "26391C42E91CA9F7"
+			rewards: [
+				{
+					count: 4
+					id: "74142A88B4B4D840"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D45976D0EC6E146"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+			]
+			subtitle: "Good Student!"
+			tasks: [
+				{
+					id: "0750A747D861AC68"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:bronze"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DE018723812914C"
+					item: {
+						Count: 1
+						id: "tconstruct:small_axe_head"
+						tag: {
+							Material: "tconstruct:pig_iron"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tier 3 Tools"
+			x: -17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26391C42E91CA9F7"]
+			description: ["The Nether is home to some of this world's hottest... most volitile substances."]
+			id: "5482C9C8A1CF524C"
+			rewards: [
+				{
+					id: "04D144B4C71D2EF3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "5AAEAB3ADF86CE86"
+					item: "tconstruct:cobalt_nugget"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "440A54CDB13CE144"
+					item: "tconstruct:nether_grout"
+					type: "item"
+				}
+				{
+					id: "48A56A7B212878E1"
+					item: "tconstruct:fantastic_foundry"
+					type: "item"
+				}
+			]
+			subtitle: "Treated with Hellfire"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				icon: "minecraft:blaze_powder"
+				id: "00B91124349DDE70"
+				type: "advancement"
+			}]
+			title: "Hotter Yet Hotter"
+			x: -16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5482C9C8A1CF524C"]
+			description: ["Cobalt is a rare ore, well known for it's bright blue hue standing out against the firey backdrop of the nether. It is a strong metal on it's own, but can be improved even further, IF you're willing to excavate around the boiling lava seas..."]
+			id: "507322CB01827F36"
+			rewards: [
+				{
+					id: "7B533243292B11F9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "50D50456C18AEC6B"
+					item: "tconstruct:raw_cobalt_block"
+					type: "item"
+				}
+			]
+			subtitle: "Nether Iron"
+			tasks: [
+				{
+					count: 10L
+					id: "1F44C2A32EE6EBF8"
+					item: { Count: 10, id: "tconstruct:raw_cobalt" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "132002104B3E400F"
+					item: { Count: 64, id: "minecraft:netherrack" }
+					type: "item"
+				}
+			]
+			title: "Blue Metal"
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["507322CB01827F36"]
+			description: ["Scattered and Buried throughout the hellscape are parts of the distant past, just waiting to be melted down for your own use. Netherite is useful sure. but what else can be made from the old scrap?"]
+			id: "1E2054693E1C12A1"
+			rewards: [
+				{
+					id: "10F83781B9604F1B"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "5FF9298748E0E11F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "I Wonder Who Left It?"
+			tasks: [{
+				id: "3DEF3232D8989B7B"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			title: "Forgotten Treasures"
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5482C9C8A1CF524C"]
+			description: [
+				"The Foundry gives byproducts the the Smeltery cannot. Smelting Iron will now make a small amount of Steel due to the high tempurature. Cobalt, Diamiond, and many more. The Foundry Also will NOT Alloy ores, making it perfect for bulk smelting without worrying that your metals will mix."
+				""
+				"If you'd like to make alloys, it might be best to keep the smeltery around."
+			]
+			id: "56C9557D933F0045"
+			rewards: [
+				{
+					count: 2
+					id: "18FB784D6CCEF3AE"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "413DED0DECF0E19E"
+					item: "tconstruct:scorched_ingot_tank"
+					type: "item"
+				}
+				{
+					id: "47F43A65E7608FFC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Improved, Maybe"
+			tasks: [
+				{
+					id: "4599B1BA3D5A2E71"
+					item: "tconstruct:foundry_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4C2C96E52A226CE7"
+					item: { Count: 2, id: "tconstruct:scorched_drain" }
+					type: "item"
+				}
+				{
+					id: "322E5C9E036FD13E"
+					item: "tconstruct:scorched_fuel_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5F9F16B3E6367BA4"
+					item: { Count: 2, id: "tconstruct:scorched_faucet" }
+					type: "item"
+				}
+				{
+					count: 56L
+					id: "0EA9173C19F772BC"
+					item: { Count: 56, id: "tconstruct:scorched_bricks" }
+					type: "item"
+				}
+			]
+			title: "The Foundry"
+			x: -14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"4208293A3F93DF21"
+				"1E2054693E1C12A1"
+			]
+			description: [
+				"Manyullyn is one of the strongest metals known to blacksmiths, forged with a mix of Cobalt and Ancient Debris. At one point. It was the stongest metal a mortal could ever hope to forge."
+				""
+				"Nowadays, though it remains strong, other metals have taken it's place on top. It's up to you to find them..."
+			]
+			id: "209788EC74A463B8"
+			rewards: [
+				{
+					id: "56F9320120A6E5E3"
+					item: "tconstruct:manyullyn_block"
+					type: "item"
+				}
+				{
+					id: "21F9EE1DA241A18A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "1D3EBCFCED27CF69"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+			]
+			subtitle: "Deep Purple"
+			tasks: [{
+				count: 2L
+				id: "7BF627B19380AEF2"
+				item: { Count: 2, id: "tconstruct:manyullyn_ingot" }
+				type: "item"
+			}]
+			title: "Bound Tight"
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["44A93A794D4165FC"]
+			description: ["Of all the slimes, Earthslime is the most well known, being bright green and the slime itself being found in many places of the world. Though hardened crystals can be found underground in geodes. much like ameythyst."]
+			id: "5356973CA8AF15BB"
+			rewards: [
+				{
+					id: "40513EC711DFFD0F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "287D4904FD9D0BD8"
+					item: "minecraft:slime_block"
+					type: "item"
+				}
+			]
+			subtitle: "Green Slime"
+			tasks: [{
+				id: "56A372A0507CD81B"
+				item: "tconstruct:earth_slime_crystal"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44A93A794D4165FC"]
+			description: ["Skyslime is the type of slime found upon the island's floating far above even the tallest mountains, known for it's pale blue color, unlike Earthslime, it's properties are more condusive to mixing into metal."]
+			id: "31F7CCE1B74248B2"
+			rewards: [
+				{
+					id: "07D4DB6E04884CE5"
+					item: "tconstruct:sky_slime"
+					type: "item"
+				}
+				{
+					id: "1768EBD8C4B5A9F0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Blue Slime"
+			tasks: [{
+				id: "40FF58EBE9A4726A"
+				item: "tconstruct:sky_slime_crystal"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44A93A794D4165FC"]
+			description: ["Ichor is the Nether's own Earthslime counterpart. Found in large geodes scattered between the lava seas"]
+			id: "2E156E0FF61C3646"
+			rewards: [
+				{
+					id: "2C1DE147CD180EF9"
+					item: "tconstruct:ichor_slime"
+					type: "item"
+				}
+				{
+					id: "0175FCC507CEB466"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Tangy!"
+			tasks: [{
+				id: "754E73117704FC99"
+				item: "tconstruct:ichor_slime_crystal"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44A93A794D4165FC"]
+			description: [
+				"Ichor, Earthslime, Knowing these two, Then I would harbor a guess that there's a type of slime in the end. Bad Part? Iv'e personally never been, just heard stories, so where it can be found? You'll have to figure that out yourself."
+				""
+				""
+				"Knowing the End? It might behave more like Skyslime."
+			]
+			id: "35F1010EA8C338CE"
+			rewards: [
+				{
+					id: "240C6155D2E6469F"
+					item: "tconstruct:ender_slime"
+					type: "item"
+				}
+				{
+					id: "462A02B42E74063D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "End Slime"
+			tasks: [{
+				id: "1647F7B2BF4F3C16"
+				item: "tconstruct:ender_slime_crystal"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["56C9557D933F0045"]
+			description: [
+				"There are some substances that require a hotter temperature to melt down then lava can provide. In these instances, your sights must turn to the living constructs of fire that reside within the nether, Their blood does nicely."
+				""
+				""
+				"Slaying Blazes with a Cleaver has a chance for them to drop their heads, which can be melted down into Blazing Blood. (There are probably better ways to get it however...)"
+			]
+			id: "4208293A3F93DF21"
+			rewards: [
+				{
+					id: "684299612DB435B3"
+					item: "tconstruct:blazing_blood_bucket"
+					type: "item"
+				}
+				{
+					id: "066ACD5F1C350891"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Blazing Blood"
+			tasks: [
+				{
+					id: "13D4880F6F245567"
+					item: "tconstruct:blaze_head"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "20EFB1A9A48B5C4D"
+					item: { Count: 10, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+			]
+			title: "Better then Lava"
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["209788EC74A463B8"]
+			description: [
+				"Tier 4 Tools are Netherite Equivilants or better, and while Tier 5 exists within the world, I am afriad I have now taught you all I know, You have the makings of being a better Smith then even this old dwarf."
+				""
+				"Now, Get out there, and show the world your creations!"
+			]
+			id: "779A26C471E80278"
+			rewards: [{
+				id: "4474113B9AB32AFA"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "You HAVE, Earned the Rank of Master"
+			tasks: [
+				{
+					id: "53EE00026AFC5BD7"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:manyullyn"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "319257B0028BB15A"
+					item: {
+						Count: 1
+						id: "tconstruct:small_axe_head"
+						tag: {
+							Material: "tconstruct:hepatizon"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tier 4 Tools"
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5ECE659C93517BAC"
+				"043B0BAF1FB900A3"
+				"132E411CA61A2AAF"
+				"383E08B47AC91DBB"
+				"653D5E71E4719056"
+				"1572AE099DE32E53"
+				"285AF5E3EDAC9055"
+				"772E0FF2405F822C"
+				"6C5E9F5545733E5E"
+				"5C67F68081E3AFF3"
+				"2F719A48ECA78904"
+				"1096F974AC40A67A"
+				"0237B658A0B7F120"
+				"1ABC3FE948A2F3F8"
+				"09D59EB8A167ECAD"
+				"1F1B487A6FDC7438"
+				"3428838980B287DC"
+				"36522E8C51182157"
+				"6C7A21DE92062369"
+				"10772D447BDED1F5"
+				"025AC27DCBA8D736"
+				"235E193633D5DF06"
+				"4AC5B27E4C25FA8A"
+				"1FF40B4369CEA872"
+				"2161C29C65652940"
+			]
+			id: "360A8263D9C40DF2"
+			rewards: [
+				{
+					id: "477E8802AF7B10CF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "718BDD92FE0B05EF"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "782D1B78787FE861"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			subtitle: "Hey there's a lot and some of them obscure; BITE ME"
+			tasks: [{
+				id: "225BADD00B0A98BC"
+				type: "checkmark"
+			}]
+			title: "You Got (Most of them-)"
+			x: -14.0d
+			y: 5.0d
+		}
+	]
+	title: "Tinker's Construct"
+}

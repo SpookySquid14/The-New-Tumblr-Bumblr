@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "levels": {
+    "1": {
+      "item": "minecraft:clock",
+      "amount": 8,
+      "xp_levels": 0
+    },
+    "2": {
+      "item": "minecraft:redstone_block",
+      "amount": 8,
+      "xp_levels": 0
+    },
+    "3": {
+      "item": "goety:reinforced_redstone_block",
+      "amount": 4,
+      "xp_levels": 0
+    }
+  }
+}

@@ -1,0 +1,17 @@
+filename = 'gonefishing-1.1-1.20.1.jar'
+name = "Gone Fishin'"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'gonefishing-1.1-1.20.1.jar'
+
+[download]
+hash = 'd0862ab339ad37dd34867d2bd89fac9388cacac9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7235809
+project-id = 1358325

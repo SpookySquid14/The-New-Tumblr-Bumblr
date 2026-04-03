@@ -1,0 +1,17 @@
+filename = 'artifactory-1.20.1-1.2.1.jar'
+name = 'Artifactory'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'artifactory-1.20.1-1.2.1.jar'
+
+[download]
+hash = 'd950bf7c9573de9d2f9a4512c866ea5285fac6b1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7508661
+project-id = 867520

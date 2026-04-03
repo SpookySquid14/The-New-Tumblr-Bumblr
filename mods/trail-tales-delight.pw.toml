@@ -1,0 +1,17 @@
+filename = 'trailandtales_delight-1.3-all.jar'
+name = 'Trail&Tales Delight'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'trailandtales_delight-1.3-all.jar'
+
+[download]
+hash = '11655851598c85ea58ccd2c9dc2444dfe0d1ebd1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6526276
+project-id = 1198527

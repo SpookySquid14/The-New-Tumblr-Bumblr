@@ -1,0 +1,1284 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "0",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "0",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "0",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "0",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "1",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "1",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "1",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "1",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "2",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "2",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "2",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "2",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "3",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "3",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "3",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "3",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "4",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "4",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "4",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "4",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "5",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "5",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "5",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "5",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "6",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "6",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "6",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "6",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "7",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "7",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "7",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "7",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "8",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "8",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "8",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "8",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "9",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "9",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "9",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "9",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "10",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "10",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "10",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "10",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "11",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "11",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "11",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "11",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "12",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "12",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "12",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "12",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "13",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "13",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "13",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "13",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "14",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "14",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "14",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "14",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "15",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "15",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "15",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "15",
+			"open": "true"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "0",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "0",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "0",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "0",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "1",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "1",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "1",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "2",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "2",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "2",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "2",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "3",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "3",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "3",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "3",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "4",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "4",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "4",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "4",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "5",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "5",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "5",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "5",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "6",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "6",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "6",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "6",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "7",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "7",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "7",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "7",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "8",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "8",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "8",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "8",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "9",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "9",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "9",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "9",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "10",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "10",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "10",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "10",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "11",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "11",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "11",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "11",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "12",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "12",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "12",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "12",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "13",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "13",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "13",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "13",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "14",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "14",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "14",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "14",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "true",
+			"rotation": "15",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "true",
+			"rotation": "15",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"upright": "false",
+			"rotation": "15",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"upright": "false",
+			"rotation": "15",
+			"open": "false"
+		},
+		"Name": "weeping_angels:coffin"
+	}
+]

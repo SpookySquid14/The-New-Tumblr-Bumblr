@@ -1,0 +1,17 @@
+filename = 'certain_questing_additions-forge-1.1.5+mc1.20.1.jar'
+name = 'Certain Questing Additions'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'certain_questing_additions-forge-1.1.5+mc1.20.1.jar'
+
+[download]
+hash = 'd39a44f4efedd486a8a7caf6f60fb5ff48620d75'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7714525
+project-id = 1372051

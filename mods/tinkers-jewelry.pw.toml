@@ -1,0 +1,17 @@
+filename = 'tinkersjewelry-1.2.0.jar'
+name = "Tinkers' Jewelry"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'tinkersjewelry-1.2.0.jar'
+
+[download]
+hash = '2be4d27a97004d1fd8ece878c48a5c76712fef06'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6328912
+project-id = 1191965

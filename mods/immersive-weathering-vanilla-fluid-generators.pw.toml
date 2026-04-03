@@ -1,0 +1,17 @@
+filename = 'iw_vanilla_fluid_generators-0.1.0.jar'
+name = 'Immersive Weathering: Vanilla Fluid Generators'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'iw_vanilla_fluid_generators-0.1.0.jar'
+
+[download]
+hash = 'b74c784b0aae3994c1d4441218c05e66c6cf2064'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6904674
+project-id = 1330699

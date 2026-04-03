@@ -1,0 +1,14 @@
+{
+	id: "443FB1DBD5E521CD"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "aquaculture:oak_fish_mount" }
+		{ item: "aquaculture:spruce_fish_mount" }
+		{ item: "aquaculture:birch_fish_mount" }
+		{ item: "aquaculture:jungle_fish_mount" }
+		{ item: "aquaculture:acacia_fish_mount" }
+		{ item: "aquaculture:dark_oak_fish_mount" }
+	]
+	title: "Choice Fish Mount"
+}

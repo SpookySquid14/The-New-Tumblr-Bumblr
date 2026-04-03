@@ -1,0 +1,17 @@
+filename = 'Fresh Vampirism Pack V1.4.zip'
+name = 'Fresh Vampirism Textures'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Fresh Vampirism Pack V1.4.zip'
+
+[download]
+hash = 'cbe4f6be3282be5272c3436611bf0cb470a12b10'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7101122
+project-id = 1359686

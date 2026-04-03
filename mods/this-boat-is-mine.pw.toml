@@ -1,0 +1,37 @@
+filename = 'this-boat-is-mine-1.0.1.jar'
+name = 'This boat is MINE!'
+side = ''
+x-prismlauncher-loaders = [ 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.17',
+    '1.17.1',
+    '1.18',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'this-boat-is-mine-1.0.1.jar'
+
+[download]
+hash = '21125c72e867b1a26369cf9ba0421d0aad8491ee'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4636416
+project-id = 884043

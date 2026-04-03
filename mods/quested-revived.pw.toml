@@ -1,0 +1,17 @@
+filename = 'quested-1.20.1-1.2-R.jar'
+name = 'Quested: Revived'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'quested-1.20.1-1.2-R.jar'
+
+[download]
+hash = '104c3854466dc148c6f44a53e230eb174da1b757'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7393901
+project-id = 1330709

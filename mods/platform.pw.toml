@@ -1,0 +1,17 @@
+filename = 'Platform-forge-1.20.1-1.2.11.6.2.jar'
+name = 'Platform'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Platform-forge-1.20.1-1.2.11.6.2.jar'
+
+[download]
+hash = '1854581e32a7f2f850b84f168037160668051906'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7609676
+project-id = 997634

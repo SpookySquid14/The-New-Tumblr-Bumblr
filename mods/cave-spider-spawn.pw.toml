@@ -1,0 +1,17 @@
+filename = 'cavespiderspawn-1.20.1-1.2.jar'
+name = 'Cave Spider Spawn'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.20.1-1.2 | Cave Spider Spawn'
+
+[download]
+hash = '70b52bc90f03b1d80c163d2027466d0803d55f1f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5572847
+project-id = 952294

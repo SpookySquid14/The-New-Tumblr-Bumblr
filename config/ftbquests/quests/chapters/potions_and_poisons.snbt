@@ -1,0 +1,162 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "potions_and_poisons"
+	group: "6DE537A3985C2BD8"
+	id: "6A973C6CC334168D"
+	images: [
+		{
+			height: 1.0d
+			image: "modpack:textures/potions-and-poisons.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependency: "2CBE90561300741D"
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_one"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -4.75d
+		}
+		{
+			dependency: "2CBE90561300741D"
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_three"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.75d
+		}
+		{
+			dependency: "2CBE90561300741D"
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_five"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.75d
+		}
+		{
+			dependency: "2CBE90561300741D"
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -4.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_five"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -5.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -5.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -5.75d
+		}
+		{
+			click: "command:/eternalcurrencies checkbalance eternalcurrencies:ancientcoins @s"
+			height: 0.5d
+			image: "modpack:textures/check-balance.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.5d
+			x: -3.0d
+			y: -7.75d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			}
+			id: "3EDF20DB417E51C2"
+			rewards: [{
+				auto: "no_toast"
+				id: "180A10AF7181710D"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7431842BB8DD71EA"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "1x Minor Potion of Healing"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2CBE90561300741D"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:fire_resistance"
+				}
+			}
+			id: "6BE3A91F70079E4E"
+			rewards: [{
+				auto: "no_toast"
+				id: "7CFF29C6C42568D4"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				amount: 1350L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "28EEC499BBC8C824"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "1x Potion of Fire Resistance"
+			x: -1.5d
+			y: -5.0d
+		}
+	]
+	title: "Potions and Poisons"
+}

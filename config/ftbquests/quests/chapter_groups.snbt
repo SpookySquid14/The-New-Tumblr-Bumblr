@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "6DE537A3985C2BD8", title: "Shop" }
+		{ id: "48841A8C395C40D5", title: "First Steps" }
+		{ id: "43386B27669D2B6A", title: "Other Dimensions" }
+		{ id: "2E5A9DABC49A0340", title: "Magic" }
+		{ id: "60036678430AC30B", title: "Storage" }
+		{ id: "453245C6A3A61454", title: "Technology" }
+	]
+}

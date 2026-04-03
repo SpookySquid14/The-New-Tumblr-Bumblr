@@ -1,0 +1,17 @@
+filename = 'jumpboat-1.20.0-1.0.5.jar'
+name = 'Jumpy Boats'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'jumpboat-1.20.1-1.0.5.jar'
+
+[download]
+hash = '0e8c0d7d311b9216b5f4a71c0fed13c50d883021'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4573946
+project-id = 542110

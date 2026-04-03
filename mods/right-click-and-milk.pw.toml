@@ -1,0 +1,17 @@
+filename = 'rightclickandmilk-1.20.1-1.0.3.jar'
+name = "Right Click and Milk (A Farmer's Delight Add-on)"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'rightclickandmilk-1.20.1-1.0.3.jar'
+
+[download]
+hash = 'dbd940212ba483a27b7d1795b3e21552aed37771'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7521664
+project-id = 1264015

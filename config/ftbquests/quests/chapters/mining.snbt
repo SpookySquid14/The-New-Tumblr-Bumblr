@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mining"
+	group: "48841A8C395C40D5"
+	id: "7548472196D95D7C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "73E13C5846EEA15B"
+			tasks: [{
+				id: "71D5161957A25D0C"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0838E783B7978F76"
+			tasks: [{
+				id: "4AC1AA56C5EF5F6D"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	title: "Mining"
+}

@@ -1,0 +1,17 @@
+filename = 'rootoffear-1.20.1-1.0.10.jar'
+name = 'The Root of Fear'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'rootoffear-1.20.1-1.0.10.jar'
+
+[download]
+hash = 'c9f7bf5d7a5aa5e80e5732eb8806d5b9d5623e2c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5893696
+project-id = 1131981

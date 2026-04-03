@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "levels": {
+    "1": {
+      "item": "minecraft:arrow",
+      "amount": 32,
+      "xp_levels": 0
+    },
+    "2": {
+      "item": "minecraft:fletching_table",
+      "amount": 8,
+      "xp_levels": 0
+    },
+    "3": {
+      "item": "minecraft:bow",
+      "amount": 4,
+      "xp_levels": 0
+    },
+    "4": {
+      "item": "minecraft:dispenser",
+      "amount": 6,
+      "xp_levels": 0
+    },
+    "5": {
+      "item": "minecraft:ender_pearl",
+      "amount": 8,
+      "xp_levels": 0
+    }
+  }
+}

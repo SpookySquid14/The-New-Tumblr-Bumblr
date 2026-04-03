@@ -1,0 +1,17 @@
+filename = 'goety_cataclysm-1.20-1.7.0.jar'
+name = 'Goety Cataclysm'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Goety Cataclysm 1.20-1.7.0'
+
+[download]
+hash = '33939e8b7e27e4d1149d093b426495d61065bc39'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7744971
+project-id = 1224214

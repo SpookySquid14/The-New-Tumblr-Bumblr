@@ -1,0 +1,17 @@
+filename = 'aquamirae_delight-2.0-forge-1.20.1.jar'
+name = 'Aquamirae Delight'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'aquamirae_delight-2.0-forge-1.20.1.jar'
+
+[download]
+hash = 'e361351af5da9671e4e44e147a382318921afecc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7754387
+project-id = 1094104

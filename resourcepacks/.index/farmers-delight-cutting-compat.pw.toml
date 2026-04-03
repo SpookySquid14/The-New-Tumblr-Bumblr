@@ -1,0 +1,17 @@
+filename = "Farmer's Delight Cutting Compat 1.0.zip"
+name = "Farmer's Delight Cutting Compat"
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Farmer's Delight Cutting Compat 1.0"
+
+[download]
+hash = 'ad215d64f7551367f33d416fd90c31742db08065'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6523935
+project-id = 1264536

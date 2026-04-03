@@ -1,0 +1,17 @@
+filename = 'workers-1.20.1-1.7.9.1.jar'
+name = 'Villager Workers: Traveling Merchant Update!'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'workers-1.20.1-1.7.9.1.jar'
+
+[download]
+hash = '3d608e741f502d437c53b23e840e87cffa1ffe4e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6339807
+project-id = 567450

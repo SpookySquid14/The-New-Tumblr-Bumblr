@@ -1,0 +1,24 @@
+{
+  "levels": {
+    "1": {
+      "item": "werewolves:silver_ingot",
+      "amount": 16
+    },
+    "2": {
+      "item": "minecraft:glistering_melon_slice",
+      "amount": 6
+    },
+    "3": {
+      "item": "irons_spellbooks:divine_pearl",
+      "amount": 8
+    },
+    "4": {
+      "item": "minecraft:glowstone",
+      "amount": 16
+    },
+    "5": {
+      "item": "minecraft:ghast_tear",
+      "amount": 8
+    }
+  }
+}

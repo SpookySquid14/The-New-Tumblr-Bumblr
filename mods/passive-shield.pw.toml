@@ -1,0 +1,17 @@
+filename = 'passiveshield-1.20.1-3.7.jar'
+name = 'Passive Shield'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.20.1-3.7 | Passive Shield'
+
+[download]
+hash = 'f0f68293b898ded5b32a8d5f86d20ef46cf73717'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6185425
+project-id = 447359

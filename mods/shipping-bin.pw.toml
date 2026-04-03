@@ -1,0 +1,17 @@
+filename = 'ShippingBin-forge-1.20.1-4.jar'
+name = 'Shipping Bin'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Shipping Bin - v1.1'
+
+[download]
+hash = '3467709775e63054b0c1a544e3dbf998ebac3f9a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5818385
+project-id = 1058468

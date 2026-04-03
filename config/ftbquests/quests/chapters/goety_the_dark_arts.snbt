@@ -1,0 +1,332 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "goety_the_dark_arts"
+	group: "2E5A9DABC49A0340"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "goety:item/full_totem"
+		}
+	}
+	id: "4A0E12C943429894"
+	images: [{
+		height: 1.0d
+		image: "modpack:textures/goety-first-steps.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: 0.0d
+		y: -5.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You wish to harness the dark arts you've witnessed from those around you? Or perhaps you've found a scroll that piqued your interest. Either way, I welcome you into my dark embrace."
+				"&6Goety: The Dark Arts&r is a magic mod with a focus on dark or black magic. You as the caster utilize &6&osoul energy&r and wield &6&ofocuses&r to cast a variety of different spells."
+				"Now then, follow me, my new apprentice. We have much to learn."
+			]
+			id: "09A68ADF45EC8501"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5ACDEB041333EEE4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4CD6ABFE284E7FC6"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "goety:black_book"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04596653554AD36F"
+				title: "Learn the basics of Goety"
+				type: "checkmark"
+			}]
+			title: "Introduction to The Dark Arts"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09A68ADF45EC8501"]
+			description: [
+				"&6&oSoul Energy&r is the driving force of the dark arts, so naturally, your first step as a fledgling caster is to harness this energy for yourself. To do this, a &o&6totem&r will be required. The craft the &6&ototem of roots&r, &oectoplasm&r is required. There are many ways to obtain it, but for yourself, I suggest seeking out a &4&owraith&r."
+				"{image:modpack:textures/wraith.png width:156 height:90 align:center}"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "goety:item/lesser_totem"
+				}
+			}
+			id: "5981B3DEDD0B3827"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "193FCC6C2EBD36B8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "04ECC486167BF790"
+				item: {
+					Count: 1
+					id: "goety:totem_of_roots"
+					tag: {
+						"Max Souls": 100
+						Souls: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Fetch Me Their Souls!"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5981B3DEDD0B3827"]
+			description: [
+				"There are two other components we will want to acquire. One of those are &6&ofabrics&r. Made from lapis and some string, a variety of different fabrics can be created by adding one addition ingredient. These all have their purposes, but for ours, we will want &o&6magic fabric&r, made by adding gold to the recipe."
+				"{image:modpack:textures/fabrics.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_visible: true
+			id: "08E9141026F7F288"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5D8A8E81D4ED62B5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 4
+					id: "0444D1FF80C74B87"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3362DF8D3C1AF869"
+				item: "goety:magic_fabric"
+				type: "item"
+			}]
+			title: "The Fabrics That Bind Us"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2BED66945BBA3836"]
+			description: [
+				"Now that you've obtained an empty focus, perhaps multiple, it is time to combine it with your earlier magic fabric, some wooden planks, and 2 pieces of Lapis Lazuli. In doing this, you will craft your main tool, the &o&6Dark Wand&r."
+				"This will server as your primary method of casting magic. In the future, you may wish to upgrade it, but that is out of the scope for these first lessons. Once fitted with a &ofocus&r, you need but hold the wand in your hands and right click, as if using any other tools or weapons."
+			]
+			id: "3873AB1F19921EF0"
+			rewards: [{
+				amount: 160L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1CE114E8ED8E456C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "76BA0428D124A37C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:dark_wand"
+				}
+				type: "item"
+			}]
+			title: "A Wand Chosen By The Wizard"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["08E9141026F7F288"]
+			description: [
+				"As I said before, there are two components we will want to acquire. The second of these is an &6&oempty focus&r. For now, the simplest method of obtaining one would be to use your totem and some amethyst. Once you have that, then we can begin."
+				"{image:modpack:textures/empty-focus.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_visible: true
+			id: "2BED66945BBA3836"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3AF70DB38549114A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "4BC7513D63740755"
+					item: "goety:empty_focus"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51D2564F38F3CE5C"
+				item: "goety:empty_focus"
+				type: "item"
+			}]
+			title: "Your First Focus"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5981B3DEDD0B3827"]
+			description: [
+				"You've made your totem, now you must fill it. Fortunately, doing so is a simple matter. Merely killing mobs while a totem is either in your hotbar or equipped as a curio will fill the totem with that mob's energy. Different types of mobs have differing amounts of soul energy, with undead being one of the weakest, most likely due to their nature."
+				"The Totem of Roots can hold a max of &o&6100 souls&r. Before continuing, I suggest you fill it, as we will be needing that energy very soon."
+			]
+			hide_until_deps_visible: true
+			icon: "goety:ectoplasm"
+			id: "2AEACBC0748148A7"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "7466A71299B06F1A"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1761C44DC478EFF8"
+				item: {
+					Count: 1
+					id: "goety:totem_of_roots"
+					tag: {
+						"Max Souls": 100
+						Souls: 100
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Extracurricular: On Gathering Souls"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3873AB1F19921EF0"]
+			description: [
+				"You've obtained your wand at last, but you should not go off trying to cast a spell so quickly. To do so, one requires &6&oa focus&r. There are many different focuses, but a simple one to start with is the &o&6Soul Light Focus&r. With some sticks, coal of any kind, and an empty focus, you will be able to create it."
+				"Now armed with a focus, inset it into your wand with the appropriate binding (Default: Z). You can now cast the spell and shoot a projectile that upon hitting a surface with leave a small but ever present light."
+				"{image:modpack:textures/soul-light.png width:156 height:90 align:center}"
+			]
+			id: "7DC5F505120655C1"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "1EBFD7CA9D343E7F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 5
+					id: "08EA465A1538CA5F"
+					item: "goety:ectoplasm"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BEFE937C3D08C67"
+				item: "goety:soul_light_focus"
+				type: "item"
+			}]
+			title: "Soul Light, Soul Bright"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7DC5F505120655C1"]
+			description: [
+				"You've created a powerful utility in the Soul Light Focus, but if you wish to take things further, then we shall look at creating a &o&6Soul Bolt Focus&r. This focus serves as a simple projectile, and not much more. Still, it can be amplified later through enchantments and powerful items. You will need some arrows and ectoplasm, along with the Soul Light Focus you crafted earlier. I also recommend making a second Soul Light Focus, as to not strip away a useful tool to gain a weapon."
+				""
+				"{image:modpack:textures/soul-bolt.png width:156 height:90 align:center}"
+			]
+			id: "7D6F2EC87AA8F366"
+			rewards: [
+				{
+					amount: 140L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "6FFE5A90F3075E3D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "51AA333D46C227F1"
+					item: {
+						Count: 1
+						id: "jadensnetherexpansiondelight:ecto_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6762638CDA52775D"
+				item: "goety:soul_bolt_focus"
+				type: "item"
+			}]
+			title: "A Caster's First Blaster"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D6F2EC87AA8F366"]
+			description: [
+				"With this, we have come to the end of our introduction. The Dark Arts will now open for you. Many powerful artifacts and spells lay there, waiting to be discovered. &8Necromancy&r, &2Nature&r, &1The Abyss&r, &bWinds&r, &eStorms&r, &dGeomancy&r."
+				"With so many options, what will &oyou&r choose? I look forward to finding out."
+			]
+			hide_until_deps_visible: true
+			id: "75F46ED3CD1FE1A7"
+			rewards: [
+				{
+					amount: 230L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2861E989053228D3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "585A381FD263E2E3"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "706E52595D5B2BA4"
+				title: "Complete the basics of Goety"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+	]
+	title: "Goety: The Dark Arts"
+}

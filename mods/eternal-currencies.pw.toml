@@ -1,0 +1,17 @@
+filename = 'eternalcurrencies-0.1.4-BETA.jar'
+name = 'Eternal Currencies'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'eternalcurrencies-0.1.4-BETA.jar'
+
+[download]
+hash = '2865a134a13d632e4c1437a1b60a474ac8e70c41'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6683981
+project-id = 1285492

@@ -1,0 +1,17 @@
+filename = 'sootychimneys-forge-1.20.1-1.3.4.jar'
+name = 'Sooty Chimneys'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Sooty Chimneys - Forge 1.20.1 - 1.3.4'
+
+[download]
+hash = '2243c7cd658953be02ae2e08fe14f2709705b75e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7671379
+project-id = 634005

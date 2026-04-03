@@ -1,0 +1,17 @@
+filename = 'mebahels-api-1.0.18-fabric-1.20.1.jar'
+name = "Mebahel's API"
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mebahels-api-1.0.18-fabric-1.20.1'
+
+[download]
+hash = '86270c043b3d66af743a60f662a13657fe7371b0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7700110
+project-id = 1463166

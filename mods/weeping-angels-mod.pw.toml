@@ -1,0 +1,17 @@
+filename = 'weeping_angels-46.1.5-forge.jar'
+name = 'Doctor Who:  Weeping Angels'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Forge] Weeping Angels - v1.20.1-46.1.5'
+
+[download]
+hash = '0a5b6691b9ac3adc67984f063d85eb5e2f9a06ba'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6003157
+project-id = 291249
