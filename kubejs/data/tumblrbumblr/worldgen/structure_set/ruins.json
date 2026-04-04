@@ -1,0 +1,87 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 12413523,
+    "spacing": 32,
+    "separation": 20
+  },
+  "structures": [
+    {
+      "structure": "explorify:supply_cache/birch",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/dark",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/desert",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/forest",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/jungle",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/mangrove",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/taiga",
+      "weight": 1
+    },
+        {
+      "structure": "structory:ruin_grassy",
+      "weight": 8
+    },
+        {
+      "structure": "structory:taiga_ruin_surface",
+      "weight": 1
+    },
+    {
+      "structure": "structory:taiga_ruin_underground",
+      "weight": 1
+    },
+    {
+      "structure": "structory:northern_ruin",
+      "weight": 1
+    },
+    {
+      "structure": "structory:dense_forest_ruin",
+      "weight": 1
+    },
+    {
+      "structure": "structory:taiga_ruin_surface",
+      "weight": 1
+    },
+    {
+      "structure": "structory:northern_ruin",
+      "weight": 1
+    },
+    {
+      "structure": "ars_elemental:starbuncle_shrine",
+      "weight": 1
+    },
+    {
+      "structure": "idas:washing_camp",
+      "weight": 1
+    },
+    {
+      "structure": "betterarcheology:stonehenge_grassy",
+      "weight": 1
+    },
+    {
+      "structure": "betterarcheology:villager_grave",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:campsite",
+      "weight": 1
+    }
+  ]
+}
