@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.20",
-  "config_datetime": "2026-04-04_21-36-42",
+  "config_datetime": "2026-04-04_20-29-56",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -61,8 +61,8 @@
       }
     },
     {
-      "spacing": 1024,
-      "separation": 600,
+      "spacing": 180,
+      "separation": 60,
       "name": "aaaaatumblrbumblr:large_structures",
       "is_disabled": false,
       "salt": 12413523,
@@ -593,54 +593,6 @@
       "override_global_spacing_and_separation_modifier": false,
       "structure_weights": {
         "betterdungeons:skeleton_dungeon": 1
-      }
-    },
-    {
-      "spacing": 10,
-      "separation": 6,
-      "name": "betterdungeons:small_dungeons",
-      "is_disabled": true,
-      "salt": 34239823,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "betterdungeons:small_dungeon": 1
-      }
-    },
-    {
-      "spacing": 16,
-      "separation": 10,
-      "name": "betterdungeons:small_nether_dungeons",
-      "is_disabled": true,
-      "salt": 998767517,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "betterdungeons:small_nether_dungeon": 1
-      }
-    },
-    {
-      "spacing": 44,
-      "separation": 22,
-      "name": "betterdungeons:spider_dungeons",
-      "is_disabled": true,
-      "salt": 596523129,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "betterdungeons:spider_dungeon": 1
-      }
-    },
-    {
-      "spacing": 48,
-      "separation": 24,
-      "name": "betterdungeons:zombie_dungeons",
-      "is_disabled": true,
-      "salt": 280667671,
-      "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "betterdungeons:zombie_dungeon": 1
       }
     },
     {
@@ -1566,18 +1518,6 @@
       "override_global_spacing_and_separation_modifier": false,
       "structure_weights": {
         "dungeons_enhanced:large_dungeon": 1
-      }
-    },
-    {
-      "spacing": 24,
-      "separation": 19,
-      "name": "dungeons_enhanced:miners_house",
-      "is_disabled": true,
-      "salt": 468801613,
-      "frequency": 0.8,
-      "override_global_spacing_and_separation_modifier": false,
-      "structure_weights": {
-        "dungeons_enhanced:miners_house": 1
       }
     },
     {

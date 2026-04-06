@@ -1,0 +1,457 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 12413523,
+    "spacing": 32,
+    "separation": 20
+  },
+  "structures": [
+    {
+      "structure": "ars_additions:ruined_portal",
+      "weight": 1
+    },
+    {
+      "structure": "ars_additions:ruined_portal_large",
+      "weight": 1
+    },
+
+    {
+      "structure": "ars_nouveau:hunter_wilden_den",
+      "weight": 1
+    },{
+      "structure": "ars_nouveau:guardian_wilden_den",
+      "weight": 25
+    },{
+      "structure": "ars_nouveau:stalker_wilden_den",
+      "weight": 1
+    },
+
+    {
+        "structure":"betterarcheology:tumulus_grassy",
+        "weight":1
+    },
+    {
+        "structure":"betterarcheology:archeologist_camp_grassy",
+        "weight":1
+    },
+    {
+        "structure":"betterarcheology:archeologist_camp_sand",
+        "weight":1
+    },
+    {
+        "structure":"betterarcheology:archeologist_camp_redsand",
+        "weight":1
+    },
+    {
+        "structure":"betterarcheology:buried_ruins_sand",
+        "weight":1
+    },
+    {
+        "structure":"betterarcheology:ruins_sand",
+        "weight":1
+    },
+    {
+        "structure":"betterarcheology:catacombs",
+        "weight":1
+    },
+    {
+      "structure": "betterarcheology:mesa_ruins",
+      "weight":1
+    },
+    {
+      "structure": "betterarcheology:mott",
+      "weight":1
+    },
+    {
+      "structure": "betterarcheology:underwater_0",
+      "weight":1
+    },
+    {
+      "structure": "betterarcheology:underwater_1",
+      "weight":1
+    },
+    {
+      "structure": "betterarcheology:underwater_2",
+      "weight":1
+    },
+    {
+      "structure": "betterarcheology:underwater_3",
+      "weight":1
+    },
+
+    {
+      "structure": "born_in_chaos_v1:clown_caravan_plains",
+      "weight":1
+    },
+    {
+      "structure": "born_in_chaos_v1:clown_caravan_savanna",
+      "weight":1
+    },
+    {
+      "structure": "born_in_chaos_v1:clown_caravan_taiga",
+      "weight":1
+    },
+    {
+      "structure": "born_in_chaos_v1:farm",
+      "weight":1
+    },
+    {
+      "structure": "born_in_chaos_v1:firewell",
+      "weight":1
+    },
+    
+    {
+        "structure":"castles_and_keeps:two_towers",
+        "weight":1
+    },
+    {
+        "structure":"castles_and_keeps:small_abandoned_tower",
+        "weight":1
+    },
+    {
+        "structure":"castles_and_keeps:medium_tower",
+        "weight":1
+    },
+
+    {
+        "structure":"create_rustic_structures:rustic_windmill",
+        "weight":1
+    },
+
+    {
+        "structure":"clanginghowl:small_extraterrestrial_object",
+        "weight":1
+    },
+    {
+        "structure":"clanginghowl:medium_extraterrestrial_object",
+        "weight":1
+    },
+    {
+        "structure":"clanginghowl:large_extraterrestrial_object",
+        "weight":1
+    },
+    {
+        "structure":"clanginghowl:extraterrestrial_nest",
+        "weight":1
+    },
+
+    {
+        "structure": "dungeons_enhanced:ruined_building",
+        "weight":1
+    },
+    {
+        "structure":"dungeons_enhanced:stables",
+        "weight":1
+    },
+    {
+        "structure":"dungeons_enhanced:tall_witch_hut",
+        "weight":1
+    },
+    {
+        "structure":"dungeons_enhanced:witch_tower",
+        "weight":1
+    },
+    {
+        "structure":"dungeons_enhanced:watch_tower",
+        "weight":1
+    },
+    {
+        "structure":"dungeons_enhanced:tree_house",
+        "weight":1
+    },
+    {
+        "structure":"dungeons_enhanced:sunken_shrine",
+        "weight":1
+    },
+    {
+        "structure":"dungeons_enhanced:mushroom_house",
+        "weight":1
+    },
+    {
+        "structure":"dungeons_enhanced:miners_house",
+        "weight":1
+    },
+    {
+        "structure":"dungeons_enhanced:hay_storage",
+        "weight":1
+    },
+    {
+        "structure":"dungeons_enhanced:flying_dutchman",
+        "weight":1
+    },
+    {
+        "structure":"dungeons_enhanced:desert_tomb",
+        "weight":1
+    },
+    {
+        "structure":"dungeons_enhanced:desert_temple",
+        "weight":1
+    },
+
+    {
+        "structure":"endersdelight:end_house",
+        "weight":1
+    },
+
+    {
+      "structure": "explorify:guide_post_cold",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:guide_post_warm",
+      "weight": 1
+    },
+    {
+        "structure":"explorify:watchtower/plains",
+        "weight":1
+    },
+    {
+        "structure":"explorify:watchtower/savanna",
+        "weight":1
+    },
+    {
+        "structure":"explorify:watchtower/taiga",
+        "weight":1
+    },
+    {
+        "structure":"explorify:tavern",
+        "weight":1
+    },
+    {
+        "structure":"explorify:ruins",
+        "weight":1
+    },
+    {
+        "structure":"explorify:mausoleum",
+        "weight":1
+    },
+    {
+        "structure":"explorify:mangrove_hut",
+        "weight":1
+    },
+    {
+        "structure":"explorify:farmstead",
+        "weight":1
+    },
+    {
+        "structure":"explorify:badlands_pyramid",
+        "weight":1
+    },
+    {
+        "structure":"explorify:desert_shrine",
+        "weight":1
+    },
+    {
+        "structure":"explorify:end_shipwreck",
+        "weight":1
+    },
+
+    {
+        "structure":"goety:graveyard",
+        "weight":1
+    },
+    {
+        "structure":"goety:black_assembly",
+        "weight":1
+    },
+    {
+        "structure":"goety:mangrove_tower",
+        "weight":1
+    },
+    
+    {
+        "structure": "idas:enchantingtower",
+        "weight":1
+    },
+    {
+        "structure": "idas:brickhouse",
+        "weight":1
+    },
+    {
+        "structure": "idas:abandoned_vineyard",
+        "weight":1
+    },
+    {
+        "structure": "idas:abandoned_lighthouse",
+        "weight":1
+    },
+    {
+        "structure": "idas:abandonedhouse",
+        "weight":1
+    },
+    {
+        "structure": "idas:witches_treestump",
+        "weight":1
+    },
+    {
+        "structure": "idas:animal_den/polar_bear_den",
+        "weight":1
+    },
+    {
+        "structure": "idas:animal_den/forest_den",
+        "weight":1
+    },
+    {
+        "structure": "idas:animal_den/foxhound_den",
+        "weight":1
+    },
+    {
+        "structure": "idas:desert_market/desert_market_red",
+        "weight":1
+    },
+    {
+        "structure": "idas:desert_market/desert_market",
+        "weight":1
+    },
+    {
+        "structure": "idas:desert_market/desert_market_orange",
+        "weight":1
+    },
+    {
+        "structure": "idas:nether_pump_camp",
+        "weight":1
+    },
+    {
+        "structure": "idas:ancient_statue/ancient_statue_desert",
+        "weight":1
+    },
+    {
+        "structure": "idas:ancient_statue/ancient_statue_jungle",
+        "weight":1
+    },
+    {
+        "structure": "idas:ancient_statue/ancient_statue_plains",
+        "weight":1
+    },
+    {
+      "structure": "idas:beekeepers_house",
+      "weight":1
+    },
+    {
+      "structure": "idas:botanist",
+      "weight":1
+    },
+    {
+      "structure": "idas:cottage",
+      "weight":1
+    },
+    {
+      "structure": "idas:mason_house",
+      "weight": 1
+    },
+    {
+      "structure": "idas:ruined_church",
+      "weight": 1
+    },
+    {
+      "structure": "idas:ruined_fort",
+      "weight": 1
+    },
+    {
+      "structure": "idas:the_log",
+      "weight": 1
+    },
+    {
+      "structure": "idas:tinkers_workshop",
+      "weight": 1
+    },
+    {
+      "structure": "idas:tudor_pub",
+      "weight": 1
+    },
+    {
+      "structure": "idas:wacky_wares",
+      "weight": 1
+    },
+    {
+      "structure": "idas:windswept_shrine",
+      "weight": 1
+    },
+    {
+      "structure": "idas:winter_wagon",
+      "weight": 1
+    },
+    
+    {
+        "structure": "immersiveenchanting:ancient_library_desert",
+        "weight":1
+    },
+    {
+        "structure": "immersiveenchanting:ancient_library_jungle",
+        "weight":1
+    },
+    {
+        "structure": "immersiveenchanting:ancient_library_end",
+        "weight":1
+    },
+
+    {
+        "structure": "irons_spellbooks:ancient_battleground",
+        "weight":1
+    },
+    {
+        "structure": "irons_spellbooks:impaled_icebreaker",
+        "weight":1
+    },
+    {
+        "structure": "irons_spellbooks:mangrove_hut",
+        "weight":1
+    },
+
+    {
+        "structure":"mystical_manors:garden_house",
+        "weight":1
+    },
+    {
+        "structure":"mystical_manors:witch_tower",
+        "weight":1
+    },
+    {
+        "structure":"mystical_manors:crimson_shack",
+        "weight":1
+    },
+    {
+        "structure":"mystical_manors:alchemy_hut",
+        "weight":1
+    },
+    {
+        "structure":"mystical_manors:tower_and_shack",
+        "weight":1
+    },
+
+    {
+        "structure":"netherexp:chapel",
+        "weight":1
+    },
+    {
+        "structure":"netherexp:devils_bluff",
+        "weight":1
+    },
+
+    {
+        "structure":"structory:abandoned_chapel",
+        "weight":1
+    },
+    {
+      "structure": "structory:taiga_ruin_underground",
+      "weight": 1
+    },
+    {
+      "structure": "structory:firetower",
+      "weight": 1
+    },
+    {
+      "structure": "structory:graveyard",
+      "weight": 1
+    },
+
+    {
+        "structure":"vampirism:vampire_altar",
+        "weight":1
+    },
+    {
+        "structure":"vampirism:vampire_hut",
+        "weight":1
+    }
+  ]}

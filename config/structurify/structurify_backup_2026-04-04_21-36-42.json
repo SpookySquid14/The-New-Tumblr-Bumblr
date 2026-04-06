@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.20",
-  "config_datetime": "2026-04-04_21-36-42",
+  "config_datetime": "2026-04-04_20-37-35",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -61,8 +61,8 @@
       }
     },
     {
-      "spacing": 1024,
-      "separation": 600,
+      "spacing": 180,
+      "separation": 60,
       "name": "aaaaatumblrbumblr:large_structures",
       "is_disabled": false,
       "salt": 12413523,

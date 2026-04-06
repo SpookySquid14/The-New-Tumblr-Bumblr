@@ -1,0 +1,91 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 12413523,
+    "spacing": 32,
+    "separation": 20
+  },
+  "structures": [
+    {
+      "structure": "born_in_chaos_v1:infernal_pumpkin",
+      "weight": 1
+    },
+
+    {
+      "structure": "bosses_of_mass_destruction:gauntlet_arena",
+      "weight": 1
+    },
+    {
+      "structure": "bosses_of_mass_destruction:lich_tower",
+      "weight": 1
+    },
+    {
+      "structure": "bosses_of_mass_destruction:obsidilith_arena",
+      "weight": 1
+    },
+    {
+      "structure": "bosses_of_mass_destruction:void_blossom",
+      "weight": 1
+    },
+
+    {
+      "structure": "cataclysm:acropolis",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:ancient_factory",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:burning_arena",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:frosted_prison",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:ruined_citadel",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:soul_black_smith",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:sunken_city",
+      "weight": 1
+    },
+
+    {
+      "structure": "irons_spellbooks:catacombs",
+      "weight": 1
+    },
+    {
+      "structure": "irons_spellbooks:citadel",
+      "weight": 1
+    },
+
+    {
+      "structure": "masquerader_mod:masquerade_ballroom",
+      "weight": 1
+    },
+
+    {
+      "structure": "mowziesmobs:frostmaw_spawn",
+      "weight": 1
+    },
+    {
+      "structure": "mowziesmobs:monastery",
+      "weight": 1
+    },
+    {
+      "structure": "mowziesmobs:umvuthana_grove",
+      "weight": 1
+    },
+    {
+      "structure": "mowziesmobs:wrought_chamber",
+      "weight": 1
+    }
+  ]}

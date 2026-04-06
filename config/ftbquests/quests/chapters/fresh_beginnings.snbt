@@ -79,7 +79,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "forge:logs"
+						value: "minecraft:logs"
 					}
 				}
 				type: "item"

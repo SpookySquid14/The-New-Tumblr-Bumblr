@@ -1,0 +1,152 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 12413523,
+    "spacing": 32,
+    "separation": 20
+  },
+  "structures": [
+    {
+      "structure": "alexscaves:underground_cabin",
+      "weight": 1
+    },
+
+    {
+      "structure": "biomancy:abandoned_lab",
+      "weight": 1
+    },
+    {
+      "structure": "biomancy:carcass_worm",
+      "weight": 1
+    },
+    {
+      "structure": "biomancy:keter_worm",
+      "weight": 1
+    },
+    {
+      "structure": "biomancy:vault",
+      "weight": 1
+    },
+
+    {
+      "structure": "betterdungeons:skeleton_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "betterdungeons:small_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "betterdungeons:small_nether_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "betterdungeons:spider_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "betterdungeons:zombie_dungeon",
+      "weight": 1
+    },
+
+    {
+      "structure": "dungeons_enhanced:dungeon_variant",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_enhanced:deep_crypt",
+      "weight": 1
+    },
+
+    {
+      "structure": "idas:nexus",
+      "weight": 1
+    },
+    {
+      "structure": "idas:underground_camp/underground_camp",
+      "weight": 1
+    },
+    {
+      "structure": "idas:underground_camp/underground_camp_deep",
+      "weight": 1
+    },
+
+    {
+      "structure": "underground_rooms:alchemy_room",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:blacksmith_room1",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:catacombs",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:desert_crypt",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:enchanting_room",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:end_room",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:hidden_temple",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:jungle_main_room",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:library",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:library1",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:mainroom1",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:mining_storage_room",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:throne_room",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:torture_chamber",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:treasure_room",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:wine_cellar",
+      "weight": 1
+    },
+    {
+      "structure": "underground_rooms:undead_main_room",
+      "weight": 1
+    },
+
+    {
+      "structure": "weeping_angels:catacombs",
+      "weight": 1
+    }
+  ]}

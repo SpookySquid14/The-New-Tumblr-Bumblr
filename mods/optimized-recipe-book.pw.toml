@@ -1,0 +1,17 @@
+filename = 'orb-neoforge-1.20.1-0.3.0.jar'
+name = 'Optimized Recipe Book (ORB)'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'ORB v0.3.0'
+
+[download]
+hash = '7bee7804d5b4f438e70a9f44fbc41811420d8b06'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7236841
+project-id = 1385431

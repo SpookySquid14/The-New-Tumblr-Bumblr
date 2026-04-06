@@ -1,0 +1,339 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 12413523,
+    "spacing": 32,
+    "separation": 20
+  },
+  "structures": [
+    {
+      "structure": "ars_elemental:starbuncle_shrine",
+      "weight": 1
+    },
+
+    {
+      "structure": "born_in_chaos_v1:grave_2003wise",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_2_dling",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_darktitan",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_derivas",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_euthymia",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_feral",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_fubuki_banzai",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_memesus",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_mike_and_rory",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_nino_4416",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_orion",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_petasi",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_plug",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_rotborne",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_somfunambulist",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_tem_187",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:grave_the_gentleman_frog",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:gravecarrionexe",
+      "weight": 1
+    },
+    {
+      "structure": "born_in_chaos_v1:mound_of_hounds",
+      "weight": 1
+    },
+
+    {
+      "structure": "betterarcheology:stonehenge_grassy",
+      "weight": 1
+    },
+    {
+      "structure": "betterarcheology:villager_grave",
+      "weight": 1
+    },
+    {
+      "structure": "betterarcheology:desert_obelisk",
+      "weight": 1
+    },
+    {
+      "structure": "betterarcheology:fossil_chicken",
+      "weight": 1
+    },
+    {
+      "structure": "betterarcheology:fossil_chicken_birch",
+      "weight": 1
+    },
+    {
+      "structure": "betterarcheology:fossil_creeper",
+      "weight": 1
+    },
+    {
+      "structure": "betterarcheology:fossil_jungle_0",
+      "weight": 1
+    },
+    {
+      "structure": "betterarcheology:fossil_jungle_1",
+      "weight": 1
+    },
+    {
+      "structure": "betterarcheology:fossil_sheep_0",
+      "weight": 1
+    },
+    {
+      "structure": "betterarcheology:fossil_wolf",
+      "weight": 1
+    },
+
+    {
+      "structure": "dungeons_enhanced:druid_circle",
+      "weight": 1
+    },
+
+    {
+      "structure": "cataclysm:kobolediator_shrine",
+      "weight": 1
+    },
+
+    {
+      "structure": "create_rustic_structures:rustic_well",
+      "weight": 1
+    },
+    {
+      "structure": "create_rustic_structures:rustic_smithy",
+      "weight": 1
+    },
+
+    {
+      "structure": "explorify:supply_cache/birch",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/dark",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/desert",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/forest",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/jungle",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/mangrove",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:supply_cache/taiga",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:campsite",
+      "weight": 1
+    },
+
+    {
+      "structure": "goety:buried_ritual",
+      "weight": 1
+    },
+
+    {
+      "structure": "idas:washing_camp",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp_bygwindswept",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp_orange",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp_red",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_ruins",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_oak",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_acacia",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_birch",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_bopmahogany",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_bopredwood",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_bygmahogany",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_bygredwood",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_dark_oak",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_spruce",
+      "weight": 1
+    },
+    {
+      "structure": "idas:pillager_camp",
+      "weight": 1
+    },
+    {
+      "structure": "idas:ruined_well",
+      "weight": 1
+    },
+    {
+      "structure": "idas:snifferhenge",
+      "weight": 1
+    },
+    {
+      "structure": "idas:train_ruins",
+      "weight": 1
+    },
+
+    {
+      "structure": "mystical_manors:ritual_circle",
+      "weight": 1
+    },
+    {
+      "structure": "mystical_manors:small_field",
+      "weight": 1
+    },
+
+    {
+      "structure": "piglinproliferation:traveler_camp",
+      "weight": 1
+    },
+    {
+      "structure": "piglinproliferation:traveler_camp_gathering",
+      "weight": 1
+    },
+    {
+      "structure": "piglinproliferation:traveler_soul_camp",
+      "weight": 1
+    },
+
+    {
+      "structure": "structory:ruin_grassy",
+      "weight": 8
+    },
+    {
+      "structure": "structory:abandoned_camp",
+      "weight": 8
+    },
+    {
+      "structure": "structory:taiga_ruin_surface",
+      "weight": 1
+    },
+    {
+      "structure": "structory:taiga_ruin_underground",
+      "weight": 1
+    },
+    {
+      "structure": "structory:northern_ruin",
+      "weight": 1
+    },
+    {
+      "structure": "structory:dense_forest_ruin",
+      "weight": 1
+    },
+    {
+      "structure": "structory:taiga_ruin_surface",
+      "weight": 1
+    },
+    {
+      "structure": "structory:northern_ruin",
+      "weight": 1
+    },
+
+    {
+      "structure": "vampirism:hunter_camp",
+      "weight": 1
+    },
+    {
+      "structure": "vampiresdelight:lost_carriage",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 12413523,
+    "spacing": 32,
+    "separation": 20,
+    "frequency": 0.75
+  },
+  "structures": [
+    {
+      "structure": "dungeons_enhanced:pillager_camp",
+      "weight":1
+    },
+
+    {
+      "structure": "betterfortresses:fortress",
+      "weight":1
+    },
+
+    {
+      "structure": "explorify:dark_forest_settlement",
+      "weight":1
+    },
+
+    {
+      "structure": "idas:castle",
+      "weight":1
+    },
+    {
+      "structure": "idas:tinkers_citadel",
+      "weight":1
+    },
+    {
+      "structure": "idas:ancient_mines",
+      "weight":1
+    },
+    {
+      "structure": "idas:collectors_museum",
+      "weight":1
+    },
+    {
+      "structure": "idas:desert_pyramid",
+      "weight":1
+    },
+    {
+      "structure": "idas:pillager_fortress",
+      "weight":1
+    },
+
+    {
+      "structure": "integrated_stronghold:stronghold",
+      "weight":1
+    },
+
+    {
+      "structure": "integrated_villages:marketstead_village",
+      "weight":1
+    },
+    {
+      "structure": "integrated_villages:airship_village",
+      "weight":1
+    },
+    {
+      "structure": "integrated_villages:cabin_village",
+      "weight":1
+    },
+    {
+      "structure": "integrated_villages:clockwork_village",
+      "weight":1
+    },
+    {
+      "structure": "integrated_villages:kutcha_village",
+      "weight":1
+    },
+    {
+      "structure": "integrated_villages:mediterranean_village",
+      "weight":1
+    },
+    {
+      "structure": "integrated_villages:mossy_mounds",
+      "weight":1
+    },
+    {
+      "structure": "integrated_villages:oasis_village",
+      "weight":1
+    },
+    {
+      "structure": "integrated_villages:pirate_village",
+      "weight":1
+    },
+    {
+      "structure": "integrated_villages:quark/minka_village",
+      "weight":1
+    },
+    {
+      "structure": "integrated_villages:sunken_village",
+      "weight":1
+    },
+    {
+      "structure": "integrated_villages:tavern_village",
+      "weight":1
+    },
+
+    {
+      "structure": "minecolonies:amazon_camp",
+      "weight":1
+    },
+    {
+      "structure": "minecolonies:asian_colony",
+      "weight":1
+    },
+    {
+      "structure": "minecolonies:caledonia_colony",
+      "weight":1
+    },
+
+    {
+      "structure": "netherexp:sanctum",
+      "weight":1
+    }
+  ]}
