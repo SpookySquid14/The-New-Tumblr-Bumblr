@@ -6,7 +6,15 @@
     }
   },
   "output": {
-    "item": "minecraft:emerald",
-    "count": 8
+    "count": 1,
+    "item": "eternalcurrencies:currency_item",
+    "nbt": {
+      "currencies": [
+        {
+          "currency": "eternalcurrencies:ancientcoins",
+          "amount":80
+        }
+      ]
+    }
   }
 }

@@ -1,17 +1,21 @@
-filename = 'IncineratorsTryHard-1.20.1-1.1.1.jar'
-name = "Cataclysm:  Weapon Skill Config/ Incinerator's Try Hard"
+filename = 'IncineratorsTryHard-1.20.1-1.2.0.jar'
+name = "Cataclysm: Incinerator's Try Hard"
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'IncineratorsTryHard-1.20.1-1.1.1.jar'
+x-prismlauncher-version-number = 'IncineratorsTryHard-1.20.1-1.2.0.jar'
 
 [download]
-hash = '4fe3e05fa6c5d09b5dafeb0aeb71bf47c05dee32'
+hash = '166b1490871f079e1d1a0d519fb907778b9a3a54'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6777381
+file-id = 7889194
 project-id = 1183628
+
+[[x-prismlauncher-dependencies]]
+addonId = '551586'
+type = 'REQUIRED'

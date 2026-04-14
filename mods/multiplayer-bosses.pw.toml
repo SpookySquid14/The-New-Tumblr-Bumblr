@@ -1,0 +1,18 @@
+filename = 'multiplayerbosses-1.1.3.jar'
+name = 'Multiplayer Bosses'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'multiplayerbosses-1.1.3.jar'
+
+[download]
+hash = 'f8705d1e9695a17c6b6c9f7294b49fa71476cec5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5945996
+project-id = 1086755

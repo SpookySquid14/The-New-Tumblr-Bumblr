@@ -1,17 +1,21 @@
-filename = 'vista-1.20-3.0.16-forge.jar'
+filename = 'vista-1.20-3.1.0-forge.jar'
 name = 'Vista'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'vista-1.20-3.0.16-forge.jar'
+x-prismlauncher-version-number = 'vista-1.20-3.1.0-forge.jar'
 
 [download]
-hash = '9d7bb7ba7c70359d9a4e3a05c4099bdd769a4da9'
+hash = 'f74be9571eb8f42aa5097fc15de4ea07feb460f1'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7716905
+file-id = 7917734
 project-id = 1368607
+
+[[x-prismlauncher-dependencies]]
+addonId = '499980'
+type = 'REQUIRED'

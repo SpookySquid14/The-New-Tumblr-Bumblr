@@ -13,6 +13,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "north",
 			"battery": "true"
@@ -24,6 +25,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "north",
 			"battery": "true"
@@ -35,6 +37,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "north",
 			"battery": "true"
@@ -46,6 +49,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "north",
 			"battery": "true"
@@ -57,6 +61,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "north",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "north",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "north",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "north",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "north",
 			"battery": "true"
@@ -68,6 +121,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "north",
 			"battery": "true"
@@ -79,6 +133,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "north",
 			"battery": "true"
@@ -86,6 +141,15 @@ to make editing this file much easier.
 		"Name": "sophisticatedbackpacks:netherite_backpack"
 	},
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "true",
+			"left_tank": "false",
+			"facing": "north",
+			"battery": "true"
+		},
 		"Name": "sophisticatedbackpacks:netherite_backpack"
 	},
 	{
@@ -93,6 +157,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "north",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "north",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "north",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "north",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "south",
 			"battery": "true"
@@ -104,6 +217,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "south",
 			"battery": "true"
@@ -115,6 +229,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "south",
 			"battery": "true"
@@ -126,6 +241,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "south",
 			"battery": "true"
@@ -137,6 +253,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "south",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "south",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "south",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "south",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "south",
 			"battery": "true"
@@ -148,6 +313,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "south",
 			"battery": "true"
@@ -159,6 +325,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "south",
 			"battery": "true"
@@ -170,6 +337,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "south",
 			"battery": "true"
@@ -181,6 +349,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "south",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "south",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "south",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "south",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "west",
 			"battery": "true"
@@ -192,6 +409,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "west",
 			"battery": "true"
@@ -203,6 +421,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "west",
 			"battery": "true"
@@ -214,6 +433,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "west",
 			"battery": "true"
@@ -225,6 +445,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "west",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "west",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "west",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "west",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "west",
 			"battery": "true"
@@ -236,6 +505,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "west",
 			"battery": "true"
@@ -247,6 +517,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "west",
 			"battery": "true"
@@ -258,6 +529,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "west",
 			"battery": "true"
@@ -269,6 +541,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "west",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "west",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "west",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "west",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "east",
 			"battery": "true"
@@ -280,6 +601,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "east",
 			"battery": "true"
@@ -291,6 +613,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "east",
 			"battery": "true"
@@ -302,6 +625,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "east",
 			"battery": "true"
@@ -313,6 +637,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "east",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "east",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "east",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "east",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "east",
 			"battery": "true"
@@ -324,6 +697,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "east",
 			"battery": "true"
@@ -335,6 +709,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "east",
 			"battery": "true"
@@ -346,6 +721,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "east",
 			"battery": "true"
@@ -357,6 +733,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "east",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "east",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "east",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "east",
+			"battery": "true"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "north",
 			"battery": "false"
@@ -368,6 +793,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "north",
 			"battery": "false"
@@ -379,6 +805,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "north",
 			"battery": "false"
@@ -390,6 +817,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "north",
 			"battery": "false"
@@ -401,6 +829,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "north",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "north",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "north",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "north",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "north",
 			"battery": "false"
@@ -412,6 +889,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "north",
 			"battery": "false"
@@ -423,6 +901,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "north",
 			"battery": "false"
@@ -434,6 +913,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "north",
 			"battery": "false"
@@ -445,6 +925,46 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "north",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "north",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "north",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "south",
 			"battery": "false"
@@ -456,6 +976,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "south",
 			"battery": "false"
@@ -467,6 +988,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "south",
 			"battery": "false"
@@ -478,6 +1000,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "south",
 			"battery": "false"
@@ -489,6 +1012,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "south",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "south",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "south",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "south",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "south",
 			"battery": "false"
@@ -500,6 +1072,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "south",
 			"battery": "false"
@@ -511,6 +1084,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "south",
 			"battery": "false"
@@ -522,6 +1096,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "south",
 			"battery": "false"
@@ -533,6 +1108,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "south",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "south",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "south",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "south",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "west",
 			"battery": "false"
@@ -544,6 +1168,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "west",
 			"battery": "false"
@@ -555,6 +1180,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "west",
 			"battery": "false"
@@ -566,6 +1192,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "west",
 			"battery": "false"
@@ -577,6 +1204,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "west",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "west",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "west",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "west",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "west",
 			"battery": "false"
@@ -588,6 +1264,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "west",
 			"battery": "false"
@@ -599,6 +1276,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "west",
 			"battery": "false"
@@ -610,6 +1288,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "west",
 			"battery": "false"
@@ -621,6 +1300,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "west",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "west",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "west",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "west",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "east",
 			"battery": "false"
@@ -632,6 +1360,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "east",
 			"battery": "false"
@@ -643,6 +1372,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "east",
 			"battery": "false"
@@ -654,6 +1384,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "true",
 			"facing": "east",
 			"battery": "false"
@@ -665,6 +1396,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "east",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "east",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "east",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "true",
+			"facing": "east",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "east",
 			"battery": "false"
@@ -676,6 +1456,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "true",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "east",
 			"battery": "false"
@@ -687,6 +1468,7 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"right_tank": "false",
+			"open": "true",
 			"left_tank": "false",
 			"facing": "east",
 			"battery": "false"
@@ -698,6 +1480,55 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "false",
 			"right_tank": "false",
+			"open": "true",
+			"left_tank": "false",
+			"facing": "east",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "east",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "true",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "east",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"right_tank": "false",
+			"open": "false",
+			"left_tank": "false",
+			"facing": "east",
+			"battery": "false"
+		},
+		"Name": "sophisticatedbackpacks:netherite_backpack"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"right_tank": "false",
+			"open": "false",
 			"left_tank": "false",
 			"facing": "east",
 			"battery": "false"

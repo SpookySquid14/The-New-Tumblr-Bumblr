@@ -327,6 +327,185 @@
 			x: -0.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["75F46ED3CD1FE1A7"]
+			description: [
+				"Well now, you wish to continue learning the arts? Good, very good. In that case, I will teach you more."
+				"Before we continue, I believe it is best we tackle the creation of magical components. In the past, you created them through your totem, but there exists a better method. &o&6A Cursed Infuser&r will utilize the energy of the spawners located within this world to transform items."
+				"If you don't have access to a spawner, do not worry. The infuser will still come in handy later."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7EF2EEABBBAFC489"
+			tasks: [{
+				id: "0823F6B90978B0FA"
+				item: "goety:cursed_infuser"
+				type: "item"
+			}]
+			title: "A More Efficient Source"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"585EFD3486B4D863"
+				"370F8CDB9335BC67"
+			]
+			description: ["Rituals are a large part of the dark arts. There are many types that we will get into later, but for now, let us focus on the core of them all, the &o&6Dark Altar&r. In addition to this, we will need to craft a &oCursed Cage&r and some &oPedestals&r. The Altar and Pedestals can be made from a variety of stones, but the cage will require &6&ocursed metal&r."]
+			hide_until_deps_visible: true
+			id: "7CF531E5081C9D69"
+			tasks: [
+				{
+					id: "415936F51F9C63A5"
+					item: "goety:cursed_cage"
+					type: "item"
+				}
+				{
+					id: "2548C493460B5F3E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "goety:dark_altars"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "093A18990BBE9F8A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "goety:pedestals"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Start of Rituals"
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7EF2EEABBBAFC489"]
+			id: "585EFD3486B4D863"
+			tasks: [{
+				id: "0DE17D2987899ADE"
+				item: "goety:magic_emerald"
+				type: "item"
+			}]
+			title: "A Special Shade of Green"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["75F46ED3CD1FE1A7"]
+			hide_dependency_lines: true
+			id: "42EA735FD945A117"
+			subtitle: "Make a Focus Bag"
+			tasks: [{
+				id: "38F21CFE7A80273C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 11
+						}
+					}
+					id: "goety:focus_bag"
+				}
+				type: "item"
+			}]
+			title: "Bag For Your Troubles"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["42EA735FD945A117"]
+			id: "39594A99C94BFE80"
+			tasks: [{
+				id: "4B7A4A2A69C1B7B0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 21
+						}
+					}
+					id: "goety:focus_pack"
+				}
+				type: "item"
+			}]
+			title: "Carry-On Focuses"
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7EF2EEABBBAFC489"]
+			id: "370F8CDB9335BC67"
+			tasks: [{
+				id: "6FA9F1E895E348BC"
+				item: "goety:cursed_ingot"
+				type: "item"
+			}]
+			title: "Darkened Steel"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["506D131D4A0F6CE8"]
+			id: "5C7DB8A37A24B2F1"
+			tasks: [
+				{
+					id: "279E91671DD0701D"
+					item: "goety:arca"
+					type: "item"
+				}
+				{
+					id: "48DB94F74A55307F"
+					item: "goety:soul_transfer"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7CF531E5081C9D69"]
+			id: "506D131D4A0F6CE8"
+			tasks: [{
+				id: "4082B20F0D53C2D4"
+				item: {
+					Count: 1
+					id: "goety:totem_of_souls"
+					tag: {
+						"Max Souls": 10000
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Make a Totem of Souls"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			id: "00B0A750A72CAB66"
+			tasks: [{
+				id: "5F50734F074AC246"
+				observe_type: 0
+				timer: 0L
+				to_observe: "goety:neollager"
+				type: "observation"
+			}]
+			title: "Make a Neollager"
+			x: 3.0d
+			y: -9.5d
+		}
 	]
 	title: "Goety: The Dark Arts"
 }

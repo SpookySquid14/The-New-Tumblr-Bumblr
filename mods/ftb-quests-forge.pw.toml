@@ -1,17 +1,33 @@
-filename = 'ftb-quests-forge-2001.4.18.jar'
-name = 'FTB Quests (NeoForge)'
+filename = 'ftb-quests-forge-2001.4.21.jar'
+name = 'FTB Quests'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'ftb-quests-forge-2001.4.18.jar'
+x-prismlauncher-version-number = 'ftb-quests-forge-2001.4.21.jar'
 
 [download]
-hash = 'e2ff1cea24c5f3d6d55d093d429efae60dcad9e0'
+hash = '928d287c016d4032d80870d9d3c5503e1ec85c21'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7608804
+file-id = 7909594
 project-id = 289412
+
+[[x-prismlauncher-dependencies]]
+addonId = '404468'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '889915'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '404465'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

@@ -1,15 +1,15 @@
 
 [lectern]
 	#Improved lectern screen allowing to edit font of a book while on it
-	improved_screen = true
+	improved_screen = false
 
 [fireball]
 	#Adds dragons charge item
 	dragon_charge = true
 	#Makes fire & dragon charges have gravity
-	gravity = true
+	gravity = false
 	#Makes fire charges deflectable by punching
-	deflectable = false
+	deflectable = true
 	#Allows throwing fire & dragon charges
 	fire_charges_throwable = true
 	#Makes dispensers shoot fire charges (the ones with gravity added by the mod) instead of blaze charges. Technically a breaking changes as it could break existing contraptions while allowing for new ones
@@ -50,7 +50,7 @@
 	#Makes cauldrons connect to fences
 	connect_to_fences = true
 	#Makes it so a dripstone drop only increments a cauldron by 1 layer(buttle) instead of a full bottle, making it just like a water cauldron
-	consistent_lava_layers = false
+	consistent_lava_layers = true
 
 	#Map of potion ids to their inverse ids. Used for potion mixing
 	[cauldron.inverse_potions]
@@ -83,7 +83,7 @@
 
 [mob_head]
 	#Allows you to place two mob heads on top of each other
-	skull_piles = true
+	skull_piles = false
 	#Allows candles to be placed on top of skulls
 	skull_candles = true
 	#Allows placing more than one candle ontop of each skull

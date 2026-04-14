@@ -1,0 +1,18 @@
+filename = 'illagersweararmor-1.20.1-1.4.0.jar'
+name = 'Illagers Wear Armor'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'illagersweararmor-1.20.1-1.4.0.jar'
+
+[download]
+hash = '43d23dc28606d74c6079d275c02021292c7de1b4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5538877
+project-id = 407488

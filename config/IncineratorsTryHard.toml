@@ -47,6 +47,8 @@
 ["Bloom Stone Pauldrons"]
 	#Range: > 1
 	"Cooldown time (ticks) of Bloom Stone Pauldrons to shoot Amethyst Cluster" = 240
+	#Range: 0.1 ~ 2.147483647E9
+	"Damage of Amethyst Clusters shot by Bloom Stone Pauldrons" = 11.0
 
 ["The Annihilator"]
 	#Range: 0.01 ~ 1.7976931348623157E308

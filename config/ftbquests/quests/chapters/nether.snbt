@@ -206,7 +206,13 @@
 				"{image:modpack:textures/wither-skeleton.png width:156 height:90 align:center}"
 			]
 			hide_until_deps_visible: true
-			icon: "minecraft:wither_skeleton_skull"
+			icon: {
+				Count: 1
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "15EC5D720D4001E8"
 			rewards: [{
 				amount: 100L

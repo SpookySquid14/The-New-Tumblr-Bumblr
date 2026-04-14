@@ -1,17 +1,21 @@
-filename = 'siegeweapons-1.20.1-0.2.3.jar'
-name = 'siegeweapons'
+filename = 'siegeweapons-1.20.1-0.2.5.jar'
+name = 'Siege Weapons Mod'
 side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'siegeweapons-1.20.1-0.2.3.jar'
+x-prismlauncher-version-number = 'siegeweapons-1.20.1-0.2.5.jar'
 
 [download]
-hash = '54f72a01a7f38f9c452af5df9b23bb3e33c9682e'
+hash = 'f4ae32159b78d6d5e9f1c11588107678cd1151bd'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7681849
+file-id = 7906096
 project-id = 1259343
+
+[[x-prismlauncher-dependencies]]
+addonId = '523860'
+type = 'OPTIONAL'

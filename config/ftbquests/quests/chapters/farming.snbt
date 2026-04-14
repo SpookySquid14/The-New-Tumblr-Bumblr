@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming"
+	group: "48841A8C395C40D5"
+	id: "6616695BCAE96AB7"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Can carry up to 10 stacks of a single crop or seed, and can be used to plant its contents"]
+			id: "5AA9BF164EF88E5F"
+			tasks: [{
+				id: "29A0579E26C0FB4E"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2A90B8D5B22C1CED"
+			tasks: [{
+				id: "636BABF202DFBEE3"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A90B8D5B22C1CED"]
+			id: "634ACDA4857B1A62"
+			tasks: [{
+				id: "44D475023A24246D"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+	]
+	title: "Farming"
+}

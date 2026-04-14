@@ -757,47 +757,6 @@
 			x: 4.0d
 			y: -3.0d
 		}
-		{
-			dependencies: ["15ACD993630984F4"]
-			description: [
-				"You may have come across some &o&6Ancient Books&r while travelling and wondered what they were for. Well, let me tell you about &oImmersive Enchanting&r."
-				"{image:modpack:textures/immersive-enchanting-1.png width:156 height:90 align:center}"
-				"Instead of the usual UI and random enchantments, you will be met with a screen not unlike a skill tree. By placing the &oancient books&r you find in &ochisled bookshelves&r nearby the enchanting table, you will unlock those enchantments."
-				"{@pagebreak}"
-				"{image:modpack:textures/immersive-enchanting-2.png width:156 height:90 align:center}"
-				"All enchantments have &o&6unique costs&r to acquiring them, as indicated when you hover over them. Once the requirements are met, you can click the enchantment to add it to your item. &o&4Books can not be enchanted.&r"
-				"{@pagebreak}"
-				"{image:modpack:textures/immersive-enchanting-3.png width:156 height:90 align:center}"
-				"To add stronger levels of an enchantment, you simply add on from the previous. Higher levels will require more items and lapis lazuli."
-			]
-			hide_dependency_lines: true
-			id: "04E10E29A4BDB88F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "49ABC74916EA3B8A"
-				table_id: 3646126164010933966L
-				type: "choice"
-			}]
-			secret: true
-			tasks: [{
-				id: "7BA9FB8C2F7F0D7F"
-				item: {
-					Count: 1
-					id: "immersiveenchanting:ancient_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:protection"
-							lvl: 1s
-						}]
-					}
-				}
-				match_nbt: false
-				type: "item"
-			}]
-			title: "Ancient Books and Immersive Enchanting"
-			x: -2.5d
-			y: -2.0d
-		}
 	]
 	title: "Fresh Beginnings"
 }

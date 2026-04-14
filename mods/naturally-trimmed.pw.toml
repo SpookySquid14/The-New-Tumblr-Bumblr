@@ -1,0 +1,21 @@
+filename = 'naturally_trimmed-3.2.1+1.20.1-forge.jar'
+name = 'Naturally Trimmed'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Naturally Trimmed 3.2.1 for Forge 1.20.1'
+
+[download]
+hash = 'b78e241fdb039e6266b858dbffdf54f4c4eb8be6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7828509
+project-id = 1005441
+
+[[x-prismlauncher-dependencies]]
+addonId = '667299'
+type = 'OPTIONAL'

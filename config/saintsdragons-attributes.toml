@@ -6,27 +6,29 @@
 	max_health = 80.0
 	#Range: 0.0 ~ 100000.0
 	armor = 4.0
+	#Base rider flying speed
 	#Range: 0.0 ~ 2.0
 	flying_speed = 0.6
+	#Multiplier for wild flying speed only
 	#Range: 0.05 ~ 10.0
 	wild_flying_speed_multiplier = 1.0
 	#Ability Damage
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 100000.0
 	bite_damage = 12.0
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 100000.0
 	slash_grab_hit1_damage = 5.0
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 100000.0
 	slash_grab_hit2_damage = 7.0
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 100000.0
 	magma_volley_damage = 20.0
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 100000.0
 	fire_body_damage = 3.0
-	#Taming Chances (lower = easier)
-	#Range: 1.0 ~ 20.0
+	#Taming chance percent per feed (0-100)
+	#Range: 0.0 ~ 100.0
 	taming_chance_base = 4.0
-	#Range: 1.0 ~ 20.0
+	#Range: 0.0 ~ 100.0
 	taming_chance_chicken = 3.0
-	#Range: 1.0 ~ 20.0
+	#Range: 0.0 ~ 100.0
 	taming_chance_hearty = 2.0
 	#Eggs (1 in N chance per random tick)
 	#Range: 1.0 ~ 200.0
@@ -35,18 +37,16 @@
 	#Range: 0.0 ~ 1.0
 	egg_drop_chance = 0.12
 	#Direct blast damage on Fire Body crash impact
-	#Range: 0.0 ~ 1000.0
+	#Range: 0.0 ~ 100000.0
 	fire_body_explosion_damage = 200.0
 	#Self-damage applied to Cindervane after Fire Body crash impact
-	#Range: 0.0 ~ 1000.0
+	#Range: 0.0 ~ 100000.0
 	fire_body_self_damage_on_crash = 40.0
 	#Aggressive wild behavior
 	aggressive_wild = false
-	#Allow this dragon to damage/destroy blocks with abilities and movement
-	griefing_enabled = true
-	#Reactive terrain clearing (requires mobGriefing)
-	reactive_terrain_clearing_on_damage = true
-	reactive_terrain_clearing_on_damage_tamed = false
+	#Scale drop chance when brushed (0-1)
+	#Range: 0.0 ~ 1.0
+	scale_drop_chance_brush = 0.3
 
 #Raevyx Dragon Attributes
 [raevyx]
@@ -55,18 +55,20 @@
 	max_health = 180.0
 	#Range: 0.0 ~ 100000.0
 	armor = 8.0
+	#Base rider flying speed
 	#Range: 0.0 ~ 2.0
 	flying_speed = 1.0
+	#Multiplier for wild flying speed only
 	#Range: 0.05 ~ 10.0
 	wild_flying_speed_multiplier = 1.0
 	#Ability Damage
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 100000.0
 	bite_damage = 15.0
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 100000.0
 	lightning_beam_damage = 35.0
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 100000.0
 	horn_gore_damage = 15.0
-	#Range: 0.0 ~ 200.0
+	#Range: 0.0 ~ 100000.0
 	dash_damage = 10.0
 	#Beam Energy Tuning
 	#Range: 0.0 ~ 1.0
@@ -82,10 +84,10 @@
 	summon_storm_supercharge_damage_multiplier = 2.0
 	#Range: 20.0 ~ 120000.0
 	summon_storm_duration_ticks = 1200.0
-	#Taming Chances (lower = easier)
-	#Range: 1.0 ~ 20.0
+	#Taming chance percent per feed (0-100)
+	#Range: 0.0 ~ 100.0
 	taming_chance_base = 5.0
-	#Range: 1.0 ~ 20.0
+	#Range: 0.0 ~ 100.0
 	taming_chance_hearty = 3.0
 	#Taming stun health threshold (HP)
 	#Range: 0.0 ~ 1000.0
@@ -104,17 +106,15 @@
 	#Range: 0.0 ~ 1.0
 	egg_loot_pillager_outpost = 0.2
 	#Range: 0.0 ~ 1.0
-	egg_loot_shipwreck_treasure = 0.15
-	#Range: 0.0 ~ 1.0
 	egg_loot_ancient_city = 0.15
 	#Egg drop chance (0-1)
 	#Range: 0.0 ~ 1.0
 	egg_drop_chance = 0.12
 	#Aggressive wild behavior
 	aggressive_wild = true
-	#Reactive terrain clearing (requires mobGriefing)
-	reactive_terrain_clearing_on_damage = true
-	reactive_terrain_clearing_on_damage_tamed = false
+	#Scale drop chance when brushed (0-1)
+	#Range: 0.0 ~ 1.0
+	scale_drop_chance_brush = 0.35
 
 #Nulljaw Dragon Attributes
 [nulljaw]
@@ -123,43 +123,6 @@
 	max_health = 250.0
 	#Range: 0.0 ~ 100000.0
 	armor = 8.0
-	#Range: 0.1 ~ 5.0
-	swim_speed = 1.45
-	#Ability Damage
-	#Range: 0.0 ~ 200.0
-	bite_phase1_damage = 40.0
-	#Range: 0.0 ~ 200.0
-	bite_phase2_damage = 50.0
-	#Range: 0.0 ~ 200.0
-	tail_attack_damage = 8.0
-	#Range: 0.0 ~ 200.0
-	dash_tail_swipe_damage = 14.0
-	#Range: 0.0 ~ 200.0
-	dash_claw_damage = 16.0
-	#Range: 0.0 ~ 200.0
-	horn_gore_phase1_damage = 16.0
-	#Range: 0.0 ~ 200.0
-	horn_gore_phase2_damage = 20.8
-	#Taming Chance (lower = easier)
-	#Range: 1.0 ~ 20.0
-	taming_chance = 6.0
-	#Range: 1.0 ~ 20.0
-	taming_chance_tropical = 4.0
-	#Legacy taming (true = simple food taming, false = special mechanics)
-	legacy_taming = false
-	#Eggs (1 in N chance per random tick)
-	#Range: 1.0 ~ 200.0
-	egg_hatch_chance_normal = 3.0
-	#Egg drop chance (0-1)
-	#Range: 0.0 ~ 1.0
-	egg_drop_chance = 0.12
-	#Aggressive wild behavior
-	aggressive_wild = false
-	#Allow this dragon to damage/destroy blocks with abilities and movement
-	griefing_enabled = true
-	#Reactive terrain clearing (requires mobGriefing)
-	reactive_terrain_clearing_on_damage = true
-	reactive_terrain_clearing_on_damage_tamed = false
 
 #Ignivorus Dragon Attributes
 [ignivorus]
@@ -168,30 +131,32 @@
 	max_health = 300.0
 	#Range: 0.0 ~ 100000.0
 	armor = 4.0
+	#Base rider flying speed
 	#Range: 0.0 ~ 2.0
 	flying_speed = 0.4
+	#Multiplier for wild flying speed only
 	#Range: 0.05 ~ 10.0
 	wild_flying_speed_multiplier = 1.0
 	#Ability Damage
-	#Range: 0.0 ~ 200.0
+	#Range: 0.0 ~ 100000.0
 	bite_damage = 50.0
-	#Range: 0.0 ~ 200.0
+	#Range: 0.0 ~ 100000.0
 	body_slam_damage = 40.0
-	#Range: 0.0 ~ 200.0
+	#Range: 0.0 ~ 100000.0
 	leap_slam_damage = 50.0
-	#Range: 0.0 ~ 200.0
+	#Range: 0.0 ~ 100000.0
 	fire_breath_damage = 80.0
-	#Range: 0.0 ~ 200.0
+	#Range: 0.0 ~ 100000.0
 	fireball_damage = 70.0
-	#Range: 0.0 ~ 200.0
+	#Range: 0.0 ~ 100000.0
 	magma_pillar_damage = 18.0
-	#Range: 0.0 ~ 200.0
+	#Range: 0.0 ~ 100000.0
 	wing_swipe_damage = 15.0
-	#Range: 0.0 ~ 200.0
+	#Range: 0.0 ~ 100000.0
 	stomp_damage = 18.0
-	#Range: 0.0 ~ 200.0
+	#Range: 0.0 ~ 100000.0
 	bulldoze_damage = 10.0
-	#Range: 0.0 ~ 10000.0
+	#Range: 0.0 ~ 100000.0
 	ultimate_damage = 200.0
 	#Ultimate ability health penalty
 	#Range: 1.0 ~ 10000.0
@@ -218,12 +183,12 @@
 	phase2_decision_min_ticks = 60.0
 	#Range: 1.0 ~ 1200.0
 	phase2_decision_max_ticks = 120.0
-	#Taming Chances (lower = easier)
-	#Range: 1.0 ~ 20.0
+	#Taming chance percent per feed (0-100)
+	#Range: 0.0 ~ 100.0
 	taming_chance_base = 7.0
-	#Range: 1.0 ~ 20.0
+	#Range: 0.0 ~ 100.0
 	taming_chance_beef = 5.0
-	#Range: 1.0 ~ 20.0
+	#Range: 0.0 ~ 100.0
 	taming_chance_hearty = 4.0
 	#Taming stun health threshold (HP)
 	#Range: 0.0 ~ 1000.0
@@ -245,11 +210,12 @@
 	egg_drop_chance = 0.12
 	#Aggressive wild behavior
 	aggressive_wild = true
-	#Allow this dragon to damage/destroy blocks with abilities and movement
-	griefing_enabled = true
-	#Reactive terrain clearing (requires mobGriefing)
-	reactive_terrain_clearing_on_damage = true
-	reactive_terrain_clearing_on_damage_tamed = false
+	#Health fraction threshold for enabling the ultimate ability
+	#Range: 0.0 ~ 1.0
+	ultimate_trigger_health_fraction = 0.5
+	#Scale drop chance when brushed (0-1)
+	#Range: 0.0 ~ 1.0
+	scale_drop_chance_brush = 0.35
 
 #Stegonaut Dragon Attributes
 [stegonaut]
@@ -259,16 +225,16 @@
 	#Range: 0.0 ~ 100000.0
 	armor = 15.0
 	#Ability Damage
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 100000.0
 	bite_damage = 5.0
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 100000.0
 	chin_slam_damage = 8.0
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 100000.0
 	ground_eating_damage = 10.0
-	#Taming Chances (lower = easier)
-	#Range: 1.0 ~ 20.0
+	#Taming chance percent per feed (0-100)
+	#Range: 0.0 ~ 100.0
 	taming_chance_base = 1.0
-	#Range: 1.0 ~ 20.0
+	#Range: 0.0 ~ 100.0
 	taming_chance_hearty = 1.0
 	#Eggs (1 in N chance per random tick)
 	#Range: 1.0 ~ 200.0
@@ -278,9 +244,9 @@
 	egg_drop_chance = 0.12
 	#Aggressive wild behavior
 	aggressive_wild = false
-	#Reactive terrain clearing (requires mobGriefing)
-	reactive_terrain_clearing_on_damage = true
-	reactive_terrain_clearing_on_damage_tamed = false
+	#Scale drop chance when brushed (0-1)
+	#Range: 0.0 ~ 1.0
+	scale_drop_chance_brush = 0.3
 
 #Other Configuration (NPCs, etc.)
 [others]
@@ -288,4 +254,138 @@
 	#Ticks between Ivy's trade restocks (20 ticks = 1 second, 24000 = 20 minutes)
 	#Range: 20 ~ 72000
 	ivy_restock_interval = 24000
+	#Enable first-person banking and barrel-roll camera effects while riding dragons
+	first_person_banking_camera = true
+
+#Varasuchus Dragon Attributes
+[varasuchus]
+	#Core Attributes
+	#Range: 1.0 ~ 100000.0
+	max_health = 250.0
+	#Range: 0.0 ~ 100000.0
+	armor = 8.0
+	#Range: 0.1 ~ 5.0
+	swim_speed = 1.45
+	#Ability Damage
+	#Range: 0.0 ~ 100000.0
+	bite_phase1_damage = 40.0
+	#Range: 0.0 ~ 100000.0
+	bite_phase2_damage = 50.0
+	#Range: 0.0 ~ 100000.0
+	tail_attack_damage = 8.0
+	#Range: 0.0 ~ 100000.0
+	dash_tail_swipe_damage = 14.0
+	#Range: 0.0 ~ 100000.0
+	dash_claw_damage = 16.0
+	#Range: 0.0 ~ 100000.0
+	horn_gore_phase1_damage = 16.0
+	#Range: 0.0 ~ 100000.0
+	horn_gore_phase2_damage = 20.8
+	#Base taming chance percent. Legacy food taming rolls it directly; rodeo taming converts it into a smaller per-tick chance
+	#Range: 0.0 ~ 100.0
+	taming_chance = 16.6667
+	#Range: 0.0 ~ 100.0
+	taming_chance_tropical = 25.0
+	#Legacy taming (true = simple food taming, false = special mechanics)
+	legacy_taming = false
+	#Eggs (1 in N chance per random tick)
+	#Range: 1.0 ~ 200.0
+	egg_hatch_chance_normal = 3.0
+	#Egg drop chance (0-1)
+	#Range: 0.0 ~ 1.0
+	egg_drop_chance = 0.12
+	#Scale drop chance when brushed (0-1)
+	#Range: 0.0 ~ 1.0
+	scale_drop_chance_brush = 0.3
+	#Aggressive wild behavior
+	aggressive_wild = true
+
+#Volitans Dragon Attributes
+[volitans]
+	#Core Attributes
+	#Range: 1.0 ~ 100000.0
+	max_health = 140.0
+	#Range: 0.0 ~ 100000.0
+	armor = 6.0
+	#Base rider flying speed
+	#Range: 0.0 ~ 2.0
+	flying_speed = 0.38
+	#Multiplier for wild flying speed only
+	#Range: 0.05 ~ 10.0
+	wild_flying_speed_multiplier = 1.0
+	#Ability Damage
+	#Range: 0.0 ~ 100000.0
+	bite_damage = 12.0
+	#Range: 0.0 ~ 100000.0
+	claw_damage = 11.0
+	#Range: 0.0 ~ 100000.0
+	horn_gore_damage = 15.0
+	#Range: 0.0 ~ 100000.0
+	roar_ground_damage = 10.0
+	#Range: 0.0 ~ 100000.0
+	roar_air_water_damage = 7.0
+	#Range: 0.0 ~ 100000.0
+	burrow_damage = 30.0
+	#Range: 0.0 ~ 100000.0
+	poison_ball_damage = 12.0
+	#Range: 0.0 ~ 100000.0
+	water_breath_damage = 1.8
+	#Range: 0.0 ~ 100000.0
+	poison_breath_damage = 1.4
+	#Combat taming
+	#Range: 0.0 ~ 100.0
+	taming_chance_base = 5.0
+	#Range: 0.0 ~ 100.0
+	taming_chance_hearty = 3.0
+	#Range: 0.0 ~ 100000.0
+	taming_stun_health = 60.0
+	legacy_taming = false
+	#Eggs (1 in N chance per random tick)
+	#Range: 1.0 ~ 200.0
+	egg_hatch_chance_normal = 3.0
+	#Egg loot chances (0-1)
+	#Range: 0.0 ~ 1.0
+	egg_loot_shipwreck_treasure = 0.12
+	#Egg drop chance (0-1)
+	#Range: 0.0 ~ 1.0
+	egg_drop_chance = 0.12
+	#Loot drop chances (0-1)
+	#Range: 0.0 ~ 1.0
+	scale_drop_chance_brush = 0.3
+	#Range: 0.0 ~ 1.0
+	spine_drop_chance = 1.0
+	#Range: 0.0 ~ 1.0
+	fish_drop_chance = 0.4
+	#Breath Gauge Tuning
+	#Range: 1.0 ~ 24000.0
+	breath_active_ticks_max = 240.0
+	#Range: 0.0 ~ 1.0
+	breath_drain_per_tick = 0.004166666666666667
+	#Range: 0.0 ~ 1.0
+	breath_regen_per_tick = 0.0025
+	#Range: 0.0 ~ 5.0
+	breath_projectile_spread = 0.2
+	#Range: 0.0 ~ 10.0
+	breath_projectile_speed = 1.6
+	#Range: 1.0 ~ 1200.0
+	breath_projectile_lifetime = 28.0
+	#Poison modifiers (0 disables poison, 1-4 = Poison I-IV)
+	#Range: 0.0 ~ 12000.0
+	poison_breath_poison_duration_ticks = 80.0
+	#Range: 0.0 ~ 4.0
+	poison_breath_poison_level = 1.0
+	#Range: 0.0 ~ 12000.0
+	poison_ball_poison_duration_ticks = 120.0
+	#Range: 0.0 ~ 4.0
+	poison_ball_poison_level = 1.0
+	#Range: 0.0 ~ 12000.0
+	roar_ground_poison_duration_ticks = 1200.0
+	#Range: 0.0 ~ 4.0
+	roar_ground_poison_level = 3.0
+	#Range: 0.0 ~ 12000.0
+	roar_air_water_poison_duration_ticks = 200.0
+	#Range: 0.0 ~ 4.0
+	roar_air_water_poison_level = 2.0
+	#Aggressive wild behavior
+	aggressive_wild = true
 

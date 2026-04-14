@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bonus"
+	group: ""
+	id: "4C4C449889077278"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "35FABD0FF6D68B76"
+		tasks: [{
+			id: "75F268D90B064129"
+			observe_type: 5
+			timer: 0L
+			to_observe: "biomancy:chroma_sheep"
+			type: "observation"
+		}]
+		x: -4.0d
+		y: -4.5d
+	}]
+	title: "Bonus"
+}
