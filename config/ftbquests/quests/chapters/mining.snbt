@@ -9,6 +9,13 @@
 	quests: [
 		{
 			id: "73E13C5846EEA15B"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:coins"
+				id: "5F251A18FCE1745C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "71D5161957A25D0C"
 				item: {
@@ -21,10 +28,18 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["73E13C5846EEA15B"]
 			id: "0838E783B7978F76"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:coins"
+				id: "08380CDE87114941"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "4AC1AA56C5EF5F6D"
 				item: {
@@ -37,7 +52,407 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "44977686A91D674C"
+			rewards: [{
+				amount: 128L
+				currency: "eternalcurrencies:coins"
+				id: "1DD9576BCA6D0824"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					biome: "alexscaves:abyssal_chasm"
+					icon: "alexscaves:submarine"
+					id: "147511FAB5ECE1E8"
+					title: "Find The Abyssal Chasm"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:candy_cavity"
+					icon: "alexscaves:candy_cane"
+					id: "41BF13D3C2DDA957"
+					title: "Find The Candy Cavity"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:forlorn_hollows"
+					icon: "alexscaves:thornwood_sapling"
+					id: "2E8FD044AAF62C9D"
+					title: "Find The Forlorn Hollows"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:magnetic_caves"
+					icon: "alexscaves:raw_azure_neodymium"
+					id: "4EDF2FB8BFE5E3DF"
+					title: "Find The Magnetic Caves"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:primordial_caves"
+					icon: "alexscaves:tremorsaurus_egg"
+					id: "1E0D60D46BCA847A"
+					title: "Find The Primordial Caves"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:toxic_caves"
+					icon: "alexscaves:uranium"
+					id: "4E6298C38513E665"
+					title: "Find The Toxic Caves"
+					type: "biome"
+				}
+			]
+			title: "Find All of Alex's Caves"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			id: "28458B14A9335A52"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:coins"
+				id: "18F0EB1558540B11"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "49826669C9212BCA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alexscaves:cave_tablet"
+								tag: {
+									CaveBiome: "alexscaves:magnetic_caves"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_tablet"
+								tag: {
+									CaveBiome: "alexscaves:primordial_caves"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_tablet"
+								tag: {
+									CaveBiome: "alexscaves:toxic_caves"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_tablet"
+								tag: {
+									CaveBiome: "alexscaves:abyssal_chasm"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_tablet"
+								tag: {
+									CaveBiome: "alexscaves:forlorn_hollows"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_tablet"
+								tag: {
+									CaveBiome: "alexscaves:candy_cavity"
+								}
+							}
+						]
+					}
+				}
+				title: "Obtain a Cave Tablet"
+				type: "item"
+			}]
+			title: "Obtain a Cave Tablet"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28458B14A9335A52"]
+			id: "5CB90AEB55DB0D95"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:coins"
+				id: "4A43E6DD725A34FE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "3997DFC7DA74E8C8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alexscaves:cave_codex"
+								tag: {
+									CaveBiome: "alexscaves:magnetic_caves"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_codex"
+								tag: {
+									CaveBiome: "alexscaves:primordial_caves"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_codex"
+								tag: {
+									CaveBiome: "alexscaves:toxic_caves"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_codex"
+								tag: {
+									CaveBiome: "alexscaves:abyssal_chasm"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_codex"
+								tag: {
+									CaveBiome: "alexscaves:forlorn_hollows"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_codex"
+								tag: {
+									CaveBiome: "alexscaves:candy_cavity"
+								}
+							}
+						]
+					}
+				}
+				title: "Translate a Tablet and Create a Cave Codex"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0838E783B7978F76"]
+			id: "154BBC98E9655643"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:coins"
+				id: "5CA4C404692E2100"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2B1C4EDC2AF6CA2E"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "6AB9950ABD27F21E"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:coins"
+				id: "17539C9C30E3F5EB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				biome: "minecraft:dripstone_caves"
+				icon: "minecraft:pointed_dripstone"
+				id: "1F5A9277B0FAC0DA"
+				title: "Find Dripstone Caves"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "2EF27327122B19E6"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:coins"
+				id: "452C33E8B5F6C7DB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				biome: "minecraft:lush_caves"
+				icon: "minecraft:glow_berries"
+				id: "3846F34B57AAD113"
+				title: "Find Lush Caves"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "6D6D7809F98D962B"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:coins"
+				id: "4AB6841C06535E3E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				biome: "yungscavebiomes:frosted_caves"
+				icon: "yungscavebiomes:frost_lily"
+				id: "0A8B7DBB9C7231B2"
+				title: "Find Frosted Caves"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "1311AF01528542CD"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:coins"
+				id: "63CFF581141F4E83"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				biome: "yungscavebiomes:lost_caves"
+				icon: "yungscavebiomes:prickly_peach"
+				id: "57FA764686D52F1D"
+				title: "Find Lost Caves"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "725FBF759BC307C8"
+			rewards: [{
+				amount: 115L
+				currency: "eternalcurrencies:coins"
+				id: "7A74A2D987E5615A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "4CA103A60716F20B"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "11A5FDB0870DFF52"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6F814027B3EB6E56"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+			]
+			title: "Diggy Diggy Hole 2"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "2538D770008B1CD4"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "4BAAE29A5C862297"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "25283E438029E0A3"
+					item: { Count: 8, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "046F3DA8FA16DC85"
+					item: { Count: 8, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "2024ED505E5E26EA"
+					item: { Count: 32, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+			]
+			title: "Diggy Diggy Hole 3"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "128555C5E928F099"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:coins"
+				id: "09D89A07471144B8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 64L
+				id: "679E5721FC8AFE5A"
+				item: { Count: 64, id: "minecraft:coal" }
+				type: "item"
+			}]
+			title: "Diggy Diggy Hole 1"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "7494BD5420DD948B"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:coins"
+				id: "15392549785A405B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				block: "minecraft:stone"
+				block_type: 0
+				checkItem: false
+				id: "674AA6F6A94F5F47"
+				type: "questsadditions:break"
+				value: 1024L
+			}]
+			title: "Diggy Diggy Hole 0"
+			x: 0.5d
+			y: -3.0d
 		}
 	]
 	title: "Mining"

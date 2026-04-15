@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "legendary_eyes"
-	group: "43386B27669D2B6A"
+	group: "48841A8C395C40D5"
 	id: "34322E009FC0ADDE"
 	images: [
 		{
@@ -174,7 +174,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 1
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -344,7 +344,7 @@
 		{
 			description: [
 				"{image:modpack:textures/umvuthi-throne.png width:160 height:90 align:center}"
-				"Umvuthi, The Sunbird. I'll be frank with you, I don't like this guy. All these masks and cronies of his. But if you're in the savana, be sure to keep an eye out for an Umvuthana Grove. Maybe you have the strength it takes to slay this bird of terror and claim its Guardian Eye"
+				"&eUmvuthi, The Sunbird.&r I'll be frank with you, I don't like this guy. All these masks and cronies of his. But if you're in the savana, be sure to keep an eye out for an Umvuthana Grove. Maybe you have the strength it takes to slay this bird of terror and claim its Guardian Eye"
 				"PS: Watch out for the laser."
 			]
 			id: "4FDACAE8F84DA3BD"
@@ -439,7 +439,13 @@
 			y: -2.0d
 		}
 		{
-			description: ["Obtained from The Leviathan or Scylla"]
+			description: [
+				"The Leviathan and Scylla are two sides of the same coin. It is said that the Sunken eye was shattered by the pair long ago, and now each hold a shard. You will need to combine both to restore the eye to its former glory."
+				"The Leviathan is found within The Sunken City, a place one could easily call the abyss. "
+				"&bScylla&r, known also as the Storm Empress, is found in the hovering lands of Acropolis. A mighty place, found high within the clouds. An Eye of Storm may be capable of leading one to this mighty palace. True to her name, lightning is Scylla's ally, and your biggest enemy. Be wary of her attacks, as some may be able to pierce through even the toughest armor. Do this, and the shard she holds will be yours."
+				""
+				"Obtained from The Leviathan or Scylla"
+			]
 			id: "6282BFF8E9934E2A"
 			tasks: [{
 				id: "5E0E3BC7FCC7F611"

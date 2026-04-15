@@ -66578,7 +66578,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a9c9d54db3cad1f3590c47ef2a32dd61332eb0f051ce9cd38bb8b4abd3975a2b"
+hash = "ef186a02ba7c395acc0343c90aaf841439ebffe859e996e2d90e91f1b2750b09"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -67294,7 +67294,7 @@ hash = "5470aa94c0a135f979917b0fbf0ea6c6005ab234f83d5b69410bf9b687861e94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/biomancy.snbt"
-hash = "d53565cee830d3d98c7e01dc5d383bf871df13c4ed32cd988a3e28cb03417d9b"
+hash = "3b58118037f3f673ac40a3cb8d87159a2d36ebf7c246d148331a1521a1c109d3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bonus.snbt"
@@ -67471,26 +67471,6 @@ hash = "bd6a2e3f7244a47df057bba4edb0eda1e7799d89723fdc1eb94899f9176469d7"
 [[files]]
 file = "config/goety_cataclysm/goety_cataclysm-spells.toml"
 hash = "7bb0e6225488642a1355ab13a3cad29cdb9e1bb0a3b396297751888cac9a337b"
-
-[[files]]
-file = "config/goety_spillage/goety_spillage-attributes.toml"
-hash = "6427402e83e8424332137fe33ed4947b3e5679f6bdc3969dcc9c05edeed699fa"
-
-[[files]]
-file = "config/goety_spillage/goety_spillage-items.toml"
-hash = "ae8d3adeff8ddfef62014fa62202adb2b16820c67f26feff8226e52c32ceb0c3"
-
-[[files]]
-file = "config/goety_spillage/goety_spillage-mobs.toml"
-hash = "decf4d67b1a6ee9ff7cbeee71e1d92812d6bcaddfbcc98b2eea0ed98276296f3"
-
-[[files]]
-file = "config/goety_spillage/goety_spillage-spells.toml"
-hash = "6957afd92106b2ffce35962b21ddda042503b890861dc4c33fe63c54c0c902a5"
-
-[[files]]
-file = "config/goety_spillage/goety_spillage.toml"
-hash = "f7518854c0403c61d6b60ad9ffb82414845b51d1cbd110592bd013ab81e5ac45"
 
 [[files]]
 file = "config/golemoverhaul.jsonc"
@@ -67766,7 +67746,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "3cd009dd3c95e988312a427b3bdbdc65ed0d193c9540952847f95fbeefc1e048"
+hash = "e69879bcabc912df77b22db5ecbca7e2d7da9fa1fca77fd740f271943e4712a9"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -67842,7 +67822,7 @@ hash = "716baa83908266cff60aa99ee18bc3151caad1e95d9766df19cc4d8c56bbc36a"
 
 [[files]]
 file = "config/jei/world/local/New_World__1/lookupHistory.ini"
-hash = "aac74b3fbdc285b8f5562b4fce17eea772f95cbe30fda1573386287352bf81f7"
+hash = "9b99f42ebd56cf1b96bceb6b098c1e09e346cdef3451caa8e9b82bef9453e41d"
 
 [[files]]
 file = "config/jei/world/local/New_World__10/lookupHistory.ini"
@@ -68094,7 +68074,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "afaaf95082f71cd5ac808d13d22ffba48df0f77a27e4e4f000a0b6657555a681"
+hash = "c64da75bb4cb8c7975fb053ec399054a0627f10123af5fdebc5b14431e73f12d"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68202,7 +68182,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "cacc9f1e42f47f3b40f0ae90a6e65be609bec2d88e65a7fe495b0c16954ecd80"
+hash = "879b100827e13aec11581311d6df8d27969d254fdfcc00e1e95243b9c33a9c9a"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68210,7 +68190,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "afbbb5414ee6ce2b4a9bc1dc05b68145c572086e10042491223f54a74b9559c4"
+hash = "790528bf7ec9c553c750aef21a65f299c65373360d54080385d1bb559b2452c4"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -68558,7 +68538,7 @@ hash = "4e2e205c6801bd7f6cdbc7dbb98fb462108b4b9b5d26262b748659c5990a5f28"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "d97754c0f68a1c5c698a8f28b33a014ce63489a3d931f311466c5a1f5d4f597e"
+hash = "6aabd813deb7afe7aabdb5b3a9ba3af68654b82265da8a0b5fa34f666a55f3cf"
 
 [[files]]
 file = "config/quested-common.toml"
@@ -77022,3 +77002,7 @@ hash = "56c76d73030fb50223560627caefa75e57ee9652c641da78cb7f2fcd2e194eae"
 [[files]]
 file = "resourcepacks/§6Immersive§8_§6Interfaces§8_§6Modded§8.zip"
 hash = "a604c71750ed8ec5dfab6f33122bfb8cd604fdb6b5bb3aac3ec46040ecc1dac4"
+
+[[files]]
+file = "sync.sh"
+hash = "9901413b2465da0c623fe668e41354cc3c0b512394575e31d0ff70c5254c1c96"

@@ -111,7 +111,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: -1.25d
+			y: 0.75d
 		}
 		{
 			dependency: "08BE7B461CC437CA"
@@ -120,7 +120,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: -1.25d
+			y: 0.75d
 		}
 		{
 			dependency: "08BE7B461CC437CA"
@@ -129,7 +129,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.5d
-			y: -1.25d
+			y: 0.75d
 		}
 		{
 			height: 1.0d
@@ -162,16 +162,16 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: 0.75d
+			y: -1.25d
 		}
 		{
 			dependency: "42B5D1A43C9C02AB"
 			height: 1.0d
-			image: "fairylights:entity/letter/digit_zero"
+			image: "fairylights:entity/letter/digit_five"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: 0.75d
+			y: -1.25d
 		}
 		{
 			dependency: "42B5D1A43C9C02AB"
@@ -180,7 +180,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.5d
-			y: 0.75d
+			y: -1.25d
 		}
 		{
 			dependency: "1908E5992649B221"
@@ -189,16 +189,16 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: 0.75d
+			y: -1.25d
 		}
 		{
 			dependency: "1908E5992649B221"
 			height: 1.0d
-			image: "fairylights:entity/letter/digit_zero"
+			image: "fairylights:entity/letter/digit_five"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: 0.75d
+			y: -1.25d
 		}
 		{
 			dependency: "1908E5992649B221"
@@ -207,7 +207,43 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.5d
-			y: 0.75d
+			y: -1.25d
+		}
+		{
+			dependency: "2538D770008B1CD4"
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_one"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 1.75d
+		}
+		{
+			dependency: "2538D770008B1CD4"
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_two"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.75d
+		}
+		{
+			dependency: "2538D770008B1CD4"
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_five"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1.75d
+		}
+		{
+			dependency: "2538D770008B1CD4"
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.75d
 		}
 	]
 	order_index: 0
@@ -315,7 +351,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			tasks: [{
 				amount: 450L
 				currency: "eternalcurrencies:ancientcoins"
@@ -324,7 +360,7 @@
 			}]
 			title: "16x Grout"
 			x: -1.5d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -379,7 +415,32 @@
 			}]
 			title: "16x Andesite"
 			x: -1.5d
-			y: 0.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2538D770008B1CD4"]
+			hide_until_deps_complete: true
+			icon: { Count: 8, id: "minecraft:diamond" }
+			id: "4EA4C799624AA35F"
+			rewards: [{
+				auto: "no_toast"
+				count: 8
+				id: "02B60866BA772950"
+				item: "minecraft:diamond"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				amount: 1250L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6CF597AEDB531573"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "8x Diamonds"
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 	title: "Rock and Stone"

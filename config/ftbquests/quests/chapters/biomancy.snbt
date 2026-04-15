@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "biomancy"
 	group: "453245C6A3A61454"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "biomancy:item/tab_icon"
+		}
+	}
 	id: "0D7C0F8B83DFE16E"
 	images: [
 		{
@@ -83,7 +90,7 @@
 			dependencies: ["53A31A5C0C000C7B"]
 			description: [
 				"{\"extra\":[{\"text\":\"Great, you deci\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ded to le\"},{\"text\":\"arn. Alright, the\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\" fi\"},{\"text\":\"rst thing you'll nee\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"d is a\"},{\"text\":\" \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Flesh Plunderer.\"},{\"text\":\" It's a s\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ick\"},{\"text\":\"le of sorts, \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"made fr\"},{\"italic\":true,\"font\":\"biomancy:caro_invitica\",\"color\":\"gold\",\"text\":\"om bon\"},{\"italic\":true,\"color\":\"gold\",\"text\":\"e and raw meat.\"},{\"text\":\" I... wish I could tel\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"l yo\"},{\"text\":\"u \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"mo\"},{\"text\":\"re on how to mak\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"e on\"},{\"text\":\"e.\"}],\"text\":\"\"}"
-				"{\"extra\":[{\"text\":\"It's a crucial tool needed to g\"},{\"obfuscated\":true,\"text\":\"athe\"},{\"text\":\"r impo\"},{\"obfuscated\":true,\"text\":\"rta\"},{\"text\":\"nt items fro\"},{\"obfuscated\":true,\"text\":\"m mob\"},{\"text\":\"s that they otherwise w\"},{\"obfuscated\":true,\"text\":\"ould no\"},{\"text\":\"t usually dr\"},{\"obfuscated\":true,\"text\":\"o\"},{\"text\":\"p. Just... make one, th\"},{\"obfuscated\":true,\"text\":\"en go and k\"},{\"text\":\"ill a bunc\"},{\"obfuscated\":true,\"text\":\"h of m\"},{\"text\":\"obs, especially pred\"},{\"obfuscated\":true,\"text\":\"ato\"},{\"text\":\"rs, the ones with sharp claws and fangs.\"}],\"text\":\"\"}"
+				"{\"extra\":[{\"text\":\"It's a crucial tool needed to g\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"athe\"},{\"text\":\"r impo\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"rta\"},{\"text\":\"nt items fro\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"m mob\"},{\"text\":\"s that they otherwise w\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ould no\"},{\"text\":\"t usually dr\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"o\"},{\"text\":\"p. Just... make one, th\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"en go and k\"},{\"text\":\"ill a bunc\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"h of m\"},{\"text\":\"obs, especially pred\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ato\"},{\"text\":\"rs, the ones with sharp claws and fangs.\"}],\"text\":\"\"}"
 				"{image:modpack:textures/flesh-plunderer.png width:100 height:100 align:center}"
 			]
 			hide_until_deps_complete: true
@@ -114,10 +121,10 @@
 			dependencies: ["592B100EDEFA0F5A"]
 			description: [
 				"{\"extra\":[{\"text\":\"You got th\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"e st\"},{\"text\":\"uff? Great job, you'r\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"e a n\"},{\"text\":\"atural.\"}],\"text\":\"\"}"
-				"{\"extra\":[{\"text\":\"Alright, no\"},{\"obfuscated\":true,\"text\":\"w y\"},{\"text\":\"ou should be ab\"},{\"obfuscated\":true,\"text\":\"le to \"},{\"italic\":true,\"obfuscated\":true,\"text\":\"t\"},{\"italic\":true,\"text\":\"ake some cla\"},{\"italic\":true,\"obfuscated\":true,\"text\":\"ws a\"},{\"italic\":true,\"text\":\"nd meat\"},{\"text\":\", and com\"},{\"obfuscated\":true,\"text\":\"bin\"},{\"text\":\"e them to make a \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Primordial Cradle\"},{\"text\":\".\"}],\"text\":\"\"}"
+				"{\"extra\":[{\"text\":\"Alright, no\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"w y\"},{\"text\":\"ou should be ab\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"le to \"},{\"italic\":true,\"font\":\"biomancy:caro_invitica\",\"text\":\"t\"},{\"italic\":true,\"text\":\"ake some cla\"},{\"italic\":true,\"font\":\"biomancy:caro_invitica\",\"text\":\"ws a\"},{\"italic\":true,\"text\":\"nd meat\"},{\"text\":\", and com\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"bin\"},{\"text\":\"e them to make a \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Primordial Cradle\"},{\"text\":\".\"}],\"text\":\"\"}"
 				"{image:modpack:textures/primordial-cradle.png width:100 height:100 align:center}"
 				"{@pagebreak}"
-				"{\"extra\":[{\"text\":\"I fe\"},{\"obfuscated\":true,\"text\":\"el like \"},{\"text\":\"I'\"},{\"obfuscated\":true,\"text\":\"m fo\"},{\"text\":\"rgetting some\"},{\"obfuscated\":true,\"text\":\"thi\"},{\"text\":\"ng... Ri\"},{\"obfuscated\":true,\"text\":\"ght!\"},{\"text\":\" \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"The Primord\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"gold\",\"text\":\"ial C\"},{\"italic\":true,\"color\":\"gold\",\"text\":\"ore\"},{\"text\":\"! You'll need one of tho\"},{\"obfuscated\":true,\"text\":\"se fo\"},{\"text\":\"r th\"},{\"obfuscated\":true,\"text\":\"e cr\"},{\"text\":\"adle.\"}],\"text\":\"\"}"
+				"{\"extra\":[{\"text\":\"I fe\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"el like \"},{\"text\":\"I'\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"m fo\"},{\"text\":\"rgetting some\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"thi\"},{\"text\":\"ng... Ri\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ght!\"},{\"text\":\" \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"The Primord\"},{\"italic\":true,\"font\":\"biomancy:caro_invitica\",\"color\":\"gold\",\"text\":\"ial C\"},{\"italic\":true,\"color\":\"gold\",\"text\":\"ore\"},{\"text\":\"! You'll need one of tho\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"se fo\"},{\"text\":\"r th\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"e cr\"},{\"text\":\"adle.\"}],\"text\":\"\"}"
 				"{image:modpack:textures/primordial-core.png width:100 height:100 align:center}"
 			]
 			hide_until_deps_visible: true
@@ -150,7 +157,7 @@
 			dependencies: ["37A7B469D081A654"]
 			description: [
 				"{\"extra\":[{\"text\":\"Have you \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"tr\"},{\"text\":\"ied feedin\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"g the c\"},{\"text\":\"radle yet? If not, you sh\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"oul\"},{\"text\":\"d. Offe\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"r it r\"},{\"text\":\"aw meat and then a \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"s\"},{\"text\":\"acrifice with life properties, such as a he\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"alt\"},{\"text\":\"h \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"po\"},{\"text\":\"tion or \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"go\"},{\"text\":\"lden apple. It should spit out a \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"flesh blob\"},{\"text\":\". These guys are raw, \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"pr\"},{\"text\":\"imal life, and they'll do n\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"othing\"},{\"text\":\" but consume wha\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"te\"},{\"text\":\"ver they can find, so ma\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ke s\"},{\"text\":\"ure you don't ha\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ve an\"},{\"text\":\"y pets nearby. You can also drop food on the ground for them. Whatever \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"wo\"},{\"text\":\"rks, \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"as long as they eat it and grow\"},{\"text\":\".\"}],\"text\":\"\"}"
-				"{\"extra\":[{\"text\":\"Then yo\"},{\"obfuscated\":true,\"text\":\"u ne\"},{\"text\":\"ed to kill it. I know that sounds counterproductive, but that's the best way to get \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Living Flesh\"},{\"text\":\". The \"},{\"obfuscated\":true,\"text\":\"la\"},{\"text\":\"rger the blob \"},{\"obfuscated\":true,\"text\":\"is, t\"},{\"text\":\"he more flesh you'll \"},{\"obfuscated\":true,\"text\":\"g\"},{\"text\":\"et from \"},{\"obfuscated\":true,\"text\":\"kil\"},{\"text\":\"ling it.\"}],\"text\":\"\"}"
+				"{\"extra\":[{\"text\":\"Then yo\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"u ne\"},{\"text\":\"ed to kill it. I know that sounds counterproductive, but that's the best way to get \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Living Flesh\"},{\"text\":\". The \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"la\"},{\"text\":\"rger the blob \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"is, t\"},{\"text\":\"he more flesh you'll \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"g\"},{\"text\":\"et from \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"kil\"},{\"text\":\"ling it.\"}],\"text\":\"\"}"
 				"{image:modpack:textures/flesh-blob.png width:100 height:100 align:center}"
 			]
 			hide_until_deps_visible: true
@@ -197,6 +204,13 @@
 			]
 			hide_until_deps_visible: true
 			id: "4537DD077CD404BF"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "137A7AB511BBCCEB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [
 				{
 					id: "1F53958258EC47B0"
@@ -217,11 +231,18 @@
 			dependencies: ["4537DD077CD404BF"]
 			description: [
 				"{\"extra\":[{\"text\":\"The \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Bio-F\"},{\"italic\":true,\"font\":\"biomancy:caro_invitica\",\"color\":\"gold\",\"text\":\"org\"},{\"italic\":true,\"color\":\"gold\",\"text\":\"e\"},{\"text\":\" is one of you\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"r mo\"},{\"text\":\"st impor\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"tan\"},{\"text\":\"t machines in Biomancy. It'll a\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"llo\"},{\"text\":\"w you to cra\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ft m\"},{\"text\":\"ost items. On th\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"e\"},{\"text\":\" left of t\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"he m\"},{\"text\":\"enu, you should \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"s\"},{\"text\":\"ee the items that are cra\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ftab\"},{\"text\":\"le. Clicking on on\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"e will s\"},{\"text\":\"how it's ma\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"te\"},{\"text\":\"rial comp\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"on\"},{\"text\":\"ents in the sl\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"o\"},{\"text\":\"ts on the rig\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ht\"},{\"text\":\". You should also s\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ee\"},{\"text\":\" a bar to th\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"e le\"},{\"text\":\"ft of the sele\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"cte\"},{\"text\":\"d item. That's the forge's su\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"pp\"},{\"text\":\"ly of \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"nutrients\"},{\"text\":\". They \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"func\"},{\"text\":\"tion as the fuel f\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"or t\"},{\"text\":\"hese devices. N\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"othi\"},{\"text\":\"ng can be done w\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ith\"},{\"text\":\"out nutrients, and nutri\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ents\"},{\"text\":\" can be taken from \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"any kind of food\"},{\"text\":\".\"}],\"text\":\"\"}"
-				"{\"extra\":[{\"text\":\"You pr\"},{\"obfuscated\":true,\"text\":\"obabl\"},{\"text\":\"y don't \"},{\"obfuscated\":true,\"text\":\"h\"},{\"text\":\"ave all the mate\"},{\"obfuscated\":true,\"text\":\"rial\"},{\"text\":\"s yo\"},{\"obfuscated\":true,\"text\":\"u n\"},{\"text\":\"eed. That's where the \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Decomposer\"},{\"text\":\" comes into play.\"}],\"text\":\"\"}"
+				"{\"extra\":[{\"text\":\"You pr\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"obabl\"},{\"text\":\"y don't \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"h\"},{\"text\":\"ave all the mate\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"rial\"},{\"text\":\"s yo\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"u n\"},{\"text\":\"eed. That's where the \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Decomposer\"},{\"text\":\" comes into play.\"}],\"text\":\"\"}"
 				"{image:modpack:textures/bioforge.png width:100 height:70 align:center}"
 			]
 			hide_until_deps_visible: true
 			id: "7B7F34E2C34E28FA"
+			rewards: [{
+				amount: 45L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "627FE98087975049"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				block: "biomancy:bio_forge"
 				block_type: 0
@@ -239,11 +260,18 @@
 			dependencies: ["4537DD077CD404BF"]
 			description: [
 				"{\"extra\":[{\"text\":\"On\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"e o\"},{\"text\":\"f the m\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ain m\"},{\"text\":\"achines you'll \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"u\"},{\"text\":\"se is \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"The Decomposer\"},{\"text\":\". It w\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"il\"},{\"text\":\"l take in \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ite\"},{\"text\":\"ms and bre\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"a\"},{\"text\":\"k them down to th\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"eir m\"},{\"text\":\"aterial com\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"pone\"},{\"text\":\"nts. Like al\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"l oth\"},{\"text\":\"er mac\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"hin\"},{\"text\":\"es, you mus\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"t s\"},{\"text\":\"upply the Decomposer with \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"nutrients\"},{\"text\":\", which ca\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"n\"},{\"text\":\" be done by \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"pl\"},{\"text\":\"acing food i\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"n the s\"},{\"text\":\"lot on the \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"l\"},{\"text\":\"eft.\"}],\"text\":\"\"}"
-				"{\"extra\":[{\"text\":\"Af\"},{\"obfuscated\":true,\"text\":\"te\"},{\"text\":\"r that, \"},{\"obfuscated\":true,\"text\":\"yo\"},{\"text\":\"u just need \"},{\"obfuscated\":true,\"text\":\"to p\"},{\"text\":\"ut in the items yo\"},{\"obfuscated\":true,\"text\":\"u w\"},{\"text\":\"ish to break \"},{\"obfuscated\":true,\"text\":\"do\"},{\"text\":\"wn and wait. The\"},{\"obfuscated\":true,\"text\":\"s\"},{\"text\":\"e materials \"},{\"obfuscated\":true,\"text\":\"wil\"},{\"text\":\"l be used heavily in rec\"},{\"obfuscated\":true,\"text\":\"ipe\"},{\"text\":\"s from \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"The Bio-Forge\"},{\"text\":\".\"}],\"text\":\"\"}"
+				"{\"extra\":[{\"text\":\"Af\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"te\"},{\"text\":\"r that, \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"yo\"},{\"text\":\"u just need \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"to p\"},{\"text\":\"ut in the items yo\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"u w\"},{\"text\":\"ish to break \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"do\"},{\"text\":\"wn and wait. The\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"s\"},{\"text\":\"e materials \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"wil\"},{\"text\":\"l be used heavily in rec\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ipe\"},{\"text\":\"s from \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"The Bio-Forge\"},{\"text\":\".\"}],\"text\":\"\"}"
 				"{image:modpack:textures/decomposer.png width:100 height:110 align:center}"
 			]
 			hide_until_deps_visible: true
 			id: "7DB5674EB574A1AD"
+			rewards: [{
+				amount: 45L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3C2DF8B483B48261"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				block: "biomancy:decomposer"
 				block_type: 0
@@ -260,12 +288,19 @@
 		{
 			dependencies: ["37A7B469D081A654"]
 			description: [
-				"{\"extra\":[{\"text\":\"Uh, hey, have you notic\"},{\"obfuscated\":true,\"text\":\"ed any \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Malignant Flesh Ve\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"gold\",\"text\":\"ins\"},{\"obfuscated\":true,\"text\":\" ap\"},{\"text\":\"pearing wh\"},{\"obfuscated\":true,\"text\":\"en you pe\"},{\"text\":\"rform a sacrifice? They'r\"},{\"obfuscated\":true,\"text\":\"e hard to m\"},{\"text\":\"iss. If you do, well... \"},{\"obfuscated\":true,\"text\":\"you might want to get rid of them bef\"},{\"text\":\"ore they spread.\"}],\"text\":\"\"}"
-				"{\"extra\":[{\"text\":\"B-but they aren't nece\"},{\"obfuscated\":true,\"text\":\"ssari\"},{\"text\":\"ly a \"},{\"italic\":true,\"text\":\"bad\"},{\"text\":\" thing. If y\"},{\"obfuscated\":true,\"text\":\"ou w\"},{\"text\":\"ait, let them \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"spread\"},{\"text\":\", you'll s\"},{\"obfuscated\":true,\"text\":\"ee all s\"},{\"text\":\"orts of new blocks. Fleshy ones. They make \"},{\"obfuscated\":true,\"text\":\"for a gr\"},{\"text\":\"eat source of raw material.\"}],\"text\":\"\"}"
+				"{\"extra\":[{\"text\":\"Uh, hey, have you notic\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ed any \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Malignant Flesh Ve\"},{\"italic\":true,\"font\":\"biomancy:caro_invitica\",\"color\":\"gold\",\"text\":\"ins\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\" ap\"},{\"text\":\"pearing wh\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"en you pe\"},{\"text\":\"rform a sacrifice? They'r\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"e hard to m\"},{\"text\":\"iss. If you do, well... \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"you might want to get rid of them bef\"},{\"text\":\"ore they spread.\"}],\"text\":\"\"}"
+				"{\"extra\":[{\"text\":\"B-but they aren't nece\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ssari\"},{\"text\":\"ly a \"},{\"italic\":true,\"text\":\"bad\"},{\"text\":\" thing. If y\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ou w\"},{\"text\":\"ait, let them \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"spread\"},{\"text\":\", you'll s\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ee all s\"},{\"text\":\"orts of new blocks. Fleshy ones. They make \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"for a gr\"},{\"text\":\"eat source of raw material.\"}],\"text\":\"\"}"
 				"{\"extra\":[{\"text\":\"I uh, think \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"rotten flesh\"},{\"text\":\" upsets the cradle. Uh, causes it to nearly always grow more veins.\"}],\"text\":\"\"}"
 				"{image:modpack:textures/malignant-veins.png width:100 height:100 align:center}"
 			]
 			id: "306086EE9B34A8CC"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1F51BC2F2AFFFA01"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				icon: "biomancy:malignant_flesh"
 				id: "6F5B1AEC520D1BBC"
@@ -283,7 +318,7 @@
 			dependencies: ["7B7F34E2C34E28FA"]
 			description: [
 				"{\"extra\":[{\"text\":\"So, you \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"prob\"},{\"text\":\"ably don't want to b\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"e const\"},{\"text\":\"antly giving the ma\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"chines meat fo\"},{\"text\":\"r nutrients, right? Well, you have the Bio-Forge now, so you can make a \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Digester\"},{\"text\":\".\"}],\"text\":\"\"}"
-				"{\"extra\":[{\"text\":\"The Digester\"},{\"obfuscated\":true,\"text\":\" is ra\"},{\"text\":\"ther simple. You put any\"},{\"obfuscated\":true,\"text\":\" sort of \"},{\"text\":\"organic material like meat or plants inside, and it'll convert them into \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Nutrient Paste\"},{\"text\":\". This is a great sou\"},{\"obfuscated\":true,\"text\":\"rce of n\"},{\"text\":\"utrients, and\"},{\"obfuscated\":true,\"text\":\" when compr\"},{\"text\":\"essed into \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Nutrient Bars\"},{\"text\":\", can\"},{\"obfuscated\":true,\"text\":\" be a\"},{\"text\":\" very good option for food.\"}],\"text\":\"\"}"
+				"{\"extra\":[{\"text\":\"The Digester\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\" is ra\"},{\"text\":\"ther simple. You put any\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\" sort of \"},{\"text\":\"organic material like meat or plants inside, and it'll convert them into \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Nutrient Paste\"},{\"text\":\". This is a great sou\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"rce of n\"},{\"text\":\"utrients, and\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\" when compr\"},{\"text\":\"essed into \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Nutrient Bars\"},{\"text\":\", can\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\" be a\"},{\"text\":\" very good option for food.\"}],\"text\":\"\"}"
 				"{\"text\":\"I don't remember the last time I've had anything else.\"}"
 				"{image:modpack:textures/digester.png width:100 height:100 align:center}"
 			]
@@ -317,6 +352,13 @@
 		{
 			dependencies: ["2053246F6CA30BC6"]
 			id: "3F30439847E13BD6"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6FAA38CBF5D5DD31"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "443C2505853720F7"
 				item: "biomancy:vial"
@@ -333,6 +375,13 @@
 				"&o&6The Organic Compound&r serves as your basis for all future alchemy. Every single serum starts off as this. Try making some."
 			]
 			id: "23F1B575238D5D9F"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "633AC01F146A6787"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "39388F75A475C4CD"
 				item: "biomancy:organic_compound"
@@ -344,6 +393,13 @@
 		{
 			dependencies: ["23F1B575238D5D9F"]
 			id: "29F5E45C97600A71"
+			rewards: [{
+				amount: 45L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7F8F332F51CB3376"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "5E03E91ABF68B7B1"
 				item: "biomancy:genetic_compound"
@@ -355,6 +411,13 @@
 		{
 			dependencies: ["23F1B575238D5D9F"]
 			id: "5551C74B36ABC2EA"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2833CF6B9C30EF0C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "2904B58748F852F6"
 				item: "biomancy:exotic_compound"
@@ -366,6 +429,13 @@
 		{
 			dependencies: ["23F1B575238D5D9F"]
 			id: "1CA4E6C5001398C5"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4F2DE7F662AD0E1F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "1E45AE888A9BCE71"
 				item: "biomancy:unstable_compound"
@@ -378,6 +448,13 @@
 			dependencies: ["3F30439847E13BD6"]
 			description: ["So if you've seen the flesh spread long enough, you've probably come across some &o&6Gastric Acid&r, right? This stuff is highly corosive. While a bucket works when it's spilled on the ground, you can &o&6use an organic vial on the orifice that produces it&r to gather it in a more portable form."]
 			id: "758F00009EFA6E27"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "001F4DE4A27321A1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "793EA16694B8D22D"
 				item: "biomancy:acid_extract"
@@ -389,6 +466,13 @@
 		{
 			dependencies: ["29F5E45C97600A71"]
 			id: "3E54748FDA323B3E"
+			rewards: [{
+				amount: 60L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "15523B74A212331E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "2277BAF3387D3DCB"
 				item: "biomancy:breeding_stimulant"
@@ -419,6 +503,13 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3FC61B65DA8C7080"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "48A6B433B60729F0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "5CB5CA3C588A68BD"
 				item: {
@@ -436,6 +527,13 @@
 		{
 			dependencies: ["29F5E45C97600A71"]
 			id: "171FC85502A10D8A"
+			rewards: [{
+				amount: 45L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "50BDC5E23DD600A4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "02DA14E74E7803EE"
 				item: "biomancy:rejuvenation_serum"
@@ -453,6 +551,13 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "2053246F6CA30BC6"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0881AB2371E270BD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "2304D0E7AF0034F2"
 				item: "biomancy:bio_lab"
@@ -466,6 +571,13 @@
 			description: ["These guys are jerks. They'll attack you, villagers, and any other animals that's not a pig. What's more, if you feed it raw porkchops, it'll enter a &ofrenzy&r and will start attacking quite literally anyhting."]
 			hide_dependency_lines: true
 			id: "1D0A5E343CD7689A"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5911057AAFEE3668"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			secret: true
 			tasks: [{
 				icon: {
@@ -490,6 +602,13 @@
 			description: ["Like a regular sheep, these guys "]
 			hide_dependency_lines: true
 			id: "1AA91D7D090A9404"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "575CA0D8041679D2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			secret: true
 			tasks: [{
 				icon: {
@@ -513,6 +632,13 @@
 			dependencies: ["3E54748FDA323B3E"]
 			hide_dependency_lines: true
 			id: "7777A4B0D411361C"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "13C1573FC8C7A1A9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			secret: true
 			tasks: [{
 				icon: {
@@ -536,6 +662,13 @@
 			dependencies: ["3E54748FDA323B3E"]
 			hide_dependency_lines: true
 			id: "43DA45DB8EDC0584"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0CE114DCD8BF3783"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			secret: true
 			tasks: [{
 				icon: {
@@ -564,6 +697,13 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6CC8ABE47CE50400"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3BCCDBA0D7F40171"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "45B775F84E2C5F35"
 				item: {
@@ -584,6 +724,13 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "58697C4CF815054A"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7C362B19E9D93C4C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "2A71E76077D2FB4D"
 				item: "biomancy:fleshkin_chest"
@@ -598,6 +745,13 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "396D173C835EC97C"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "20C3803D73EEF7E2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "78A5C609C09C6035"
 				item: "biomancy:maw_hopper"
@@ -615,6 +769,13 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "21AC049A964823A0"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2C69646B903A14C1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "1177CE1ECDFF04C4"
 				item: "biomancy:tongue"
@@ -628,6 +789,13 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "50499C9D17A45F7C"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "074CE6F96C1D69FE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "4DB492C7D9599C2A"
 				item: "biomancy:chrysalis"
@@ -642,6 +810,13 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4DEEB71D2AB760AE"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "74034E6E7B9D203F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "2F2AFE707364F638"
 				item: {
@@ -730,6 +905,13 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7FE6E7B6905980AE"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6EB18A49ABE56229"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "0F1C95F030DBECA1"
 				item: {
@@ -816,6 +998,13 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "20A74B3486B24614"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "46923DF30248A942"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "2F32D5C95B73965F"
 				item: {
@@ -835,6 +1024,13 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3279DB002A9CF954"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "12F0D4DBD591F814"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "1EDAFD47DEF51DAE"
 				item: {
@@ -855,6 +1051,13 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "55243BED37406952"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5C67A79DC31019D4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "4CE54158F1108F4E"
 				item: {
@@ -874,6 +1077,13 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "00F62B445ED2A4D1"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0D9A4B3EC6798C55"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "09FDF481CA6ED9FC"
 				item: "biomancy:grenade_casing"
@@ -885,6 +1095,13 @@
 		{
 			dependencies: ["00F62B445ED2A4D1"]
 			id: "7522D8908ED9DE8F"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7B40E18DBA22A156"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "76A2271801D4A785"
 				item: "biomancy:toxin_grenade"
@@ -896,6 +1113,13 @@
 		{
 			dependencies: ["00F62B445ED2A4D1"]
 			id: "34C50E409F6DD9CA"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2B2A5A117156E2E8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "2A5DE4FE7E0F8389"
 				item: "biomancy:acid_grenade"
@@ -907,6 +1131,13 @@
 		{
 			dependencies: ["00F62B445ED2A4D1"]
 			id: "0847562B329868F8"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "42550824039792D7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "7192E94CD50F297C"
 				item: "biomancy:decay_grenade"
@@ -918,6 +1149,13 @@
 		{
 			dependencies: ["00F62B445ED2A4D1"]
 			id: "2858D7BC80DEF4D7"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6144590B5C221BBF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "095874FBAAC79A40"
 				item: "biomancy:incendiary_grenade"
@@ -929,6 +1167,13 @@
 		{
 			dependencies: ["29F5E45C97600A71"]
 			id: "0CCD28EE5292C045"
+			rewards: [{
+				amount: 45L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1D43538CE61422AD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "52CB4AD5D37FDD9B"
 				item: "biomancy:ageing_serum"
@@ -940,6 +1185,13 @@
 		{
 			dependencies: ["29F5E45C97600A71"]
 			id: "788CEA1889C7C128"
+			rewards: [{
+				amount: 45L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7BBF91F76552BCEA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "671153F25C646EE8"
 				item: "biomancy:shrinking_serum"
@@ -951,6 +1203,13 @@
 		{
 			dependencies: ["29F5E45C97600A71"]
 			id: "339B37630EE2D0E4"
+			rewards: [{
+				amount: 45L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "755238B65BFEDDA3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "38E68C2F2436040B"
 				item: "biomancy:enlargement_serum"
@@ -962,6 +1221,13 @@
 		{
 			dependencies: ["5551C74B36ABC2EA"]
 			id: "6933F18AFC826E44"
+			rewards: [{
+				amount: 45L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6756FEF63ABD066D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "0EC7373A9C6661AD"
 				item: "biomancy:insomnia_cure"
@@ -973,6 +1239,13 @@
 		{
 			dependencies: ["5551C74B36ABC2EA"]
 			id: "14E275B38B54D71C"
+			rewards: [{
+				amount: 45L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "58758E7E9C6E0059"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "0F449324E21D0EE9"
 				item: "biomancy:absorption_boost"
@@ -984,6 +1257,13 @@
 		{
 			dependencies: ["5551C74B36ABC2EA"]
 			id: "352C5EC28212183B"
+			rewards: [{
+				amount: 45L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "66DB052487C41FDA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "631E2AA6AB163538"
 				item: "biomancy:cleansing_serum"
@@ -995,6 +1275,13 @@
 		{
 			dependencies: ["5551C74B36ABC2EA"]
 			id: "33A5BB608F0915FC"
+			rewards: [{
+				amount: 45L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5AE13C87840F2589"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "1DBA45870E800475"
 				item: "biomancy:frenzy_serum"
@@ -1010,6 +1297,13 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "08B2F084D5F15438"
+			rewards: [{
+				amount: 45L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "17EF70DD0C4FC0F6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "17A376F123541334"
 				item: {
@@ -1453,10 +1747,17 @@
 		{
 			dependencies: ["306086EE9B34A8CC"]
 			description: [
-				"{\"extra\":[{\"text\":\"While watc\"},{\"obfuscated\":true,\"text\":\"hing the fles\"},{\"text\":\"h spread, did you come acr\"},{\"obfuscated\":true,\"text\":\"oss an\"},{\"text\":\"y berries? \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Bloomberries form near outer walls of flesh\"},{\"text\":\". They c\"},{\"obfuscated\":true,\"text\":\"an be p\"},{\"text\":\"icked and then consumed for rando\"},{\"obfuscated\":true,\"text\":\"m po\"},{\"text\":\"tion effects. Alternativ\"},{\"obfuscated\":true,\"text\":\"ely, y\"},{\"text\":\"ou can let a \"},{\"obfuscated\":true,\"text\":\"fully grown bloo\"},{\"text\":\"mberry continue growing before it'\"},{\"obfuscated\":true,\"text\":\"s lau\"},{\"text\":\"nched into the sky. \"},{\"obfuscated\":true,\"text\":\"After tr\"},{\"text\":\"aveling a bit, \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"they'll explode into malignant veins\"},{\"text\":\", continuing t\"},{\"obfuscated\":true,\"text\":\"he spre\"},{\"text\":\"ad of the flesh.\"}],\"text\":\"\"}"
+				"{\"extra\":[{\"text\":\"While watc\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"hing the fles\"},{\"text\":\"h spread, did you come acr\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"oss an\"},{\"text\":\"y berries? \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"Bloomberries form near outer walls of flesh\"},{\"text\":\". They c\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"an be p\"},{\"text\":\"icked and then consumed for rando\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"m po\"},{\"text\":\"tion effects. Alternativ\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ely, y\"},{\"text\":\"ou can let a \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"fully grown bloo\"},{\"text\":\"mberry continue growing before it'\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"s lau\"},{\"text\":\"nched into the sky. \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"After tr\"},{\"text\":\"aveling a bit, \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"they'll explode into malignant veins\"},{\"text\":\", continuing t\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"he spre\"},{\"text\":\"ad of the flesh.\"}],\"text\":\"\"}"
 				"{image:modpack:textures/bloomberry.png width:100 height:100 align:center}"
 			]
 			id: "0BB8DE1AF9032136"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "77BD786544B83110"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "6DC9C74E282BEA08"
 				item: "biomancy:bloomberry"
@@ -1470,9 +1771,16 @@
 			dependencies: ["0BB8DE1AF9032136"]
 			description: [
 				"{\"extra\":[{\"text\":\"Aside from a few decorative blocks, Bloomberries can be used for one particular, beautiful thing. \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"The Primordial Infestation effect\"},{\"text\":\". Using these berries for potions or a serum will grant this wonderful boon. Under its effect, you'll speak the Primordial Tongue. It will come naturally to you. Ah, a true gift~\"}],\"text\":\"\"}"
-				"{\"extra\":[{\"text\":\"Even more, your death \"},{\"obfuscated\":true,\"text\":\"will spread the flesh further\"},{\"text\":\". Even deceased, you will continue to breathe new life.\"}],\"text\":\"\"}"
+				"{\"extra\":[{\"text\":\"Even more, your death \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"will spread the flesh further\"},{\"text\":\". Even deceased, you will continue to breathe new life.\"}],\"text\":\"\"}"
 			]
 			id: "57100F16C9395F28"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "37B43E4D97D4C066"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "0E78B3D3AAE89865"
 				item: {
@@ -1517,6 +1825,24 @@
 			title: "A Wonderful Infestation"
 			x: -1.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			id: "27B4B5F2E95006AE"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3F2DFBF583A536CA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "4DA61DD307011B0F"
+				item: "biomancy:fertilizer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
 		}
 	]
 	title: "Biomancy"

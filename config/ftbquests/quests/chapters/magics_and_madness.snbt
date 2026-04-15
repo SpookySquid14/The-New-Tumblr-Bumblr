@@ -128,6 +128,33 @@
 			x: 1.0d
 			y: -1.75d
 		}
+		{
+			dependency: "2538D770008B1CD4"
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_eight"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -0.75d
+		}
+		{
+			dependency: "2538D770008B1CD4"
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			dependency: "2538D770008B1CD4"
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.75d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -299,6 +326,31 @@
 			title: "1x Enchanted Soul Gem"
 			x: -1.5d
 			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2538D770008B1CD4"]
+			hide_until_deps_complete: true
+			icon: { Count: 16, id: "minecraft:lapis_lazuli" }
+			id: "1804F80D5B4FBD50"
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "2EA87EABA9671170"
+				item: "minecraft:lapis_lazuli"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				amount: 800L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5EBF98FF5922E71C"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "16x Lapis Lazuli"
+			x: -1.5d
+			y: -1.0d
 		}
 	]
 	title: "Magics And Madness"

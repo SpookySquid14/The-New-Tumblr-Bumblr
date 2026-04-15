@@ -241,6 +241,13 @@
 			]
 			hide_until_deps_visible: true
 			id: "1F92B2332221508F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2064BE447779895D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "179F8E7D88FC3BC4"
 				item: "minecraft:respawn_anchor"

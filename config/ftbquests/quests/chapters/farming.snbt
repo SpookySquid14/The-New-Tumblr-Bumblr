@@ -15,8 +15,9 @@
 				item: "quark:seed_pouch"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			title: "A Sorta Seed Bank"
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			id: "2A90B8D5B22C1CED"
@@ -26,7 +27,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2A90B8D5B22C1CED"]
@@ -37,7 +38,220 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -2.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&o&6Spice of Life: Apple Pie Edition&r is a mod that incentivizes eating a variety of different foods, encouraging the player to cook up meals more than a simple steak or loaf of bread."
+				"While not required, eating a diverse amount of food and &6&okeeping one's diversity level high will grant the player a variety of useful buffs, from extra health to more speed&r."
+			]
+			id: "37043064988891A4"
+			tasks: [{
+				id: "1AEF92D39C64DF12"
+				item: "solapplepie:food_book"
+				type: "item"
+			}]
+			title: "Travel Meals Don't Need to Be Simple"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "39807177697E390F"
+			shape: "rsquare"
+			tasks: [{
+				id: "6967B23E48B2522F"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Go Get Your—Nevermind"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["634ACDA4857B1A62"]
+			id: "60894743B2741EC1"
+			tasks: [{
+				id: "4F605A021910B21F"
+				item: "supplementaries:planter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["37043064988891A4"]
+			description: [
+				"You may be wondering, \"If I need to constantly eat a variety of foods, won't that fill up my inventory?\" And you would be correct. That's where the &o&6lunchbag&r comes into play."
+				"Crouching and right clicking will open the bag's menu, wherein you can place up to &ofive different foods&r. From there, the bag can be used as a food item itself. When eating from the bag, &o&6it will automatically pick a food from its contents that best keeps your diversity level high&r."
+			]
+			hide_until_deps_visible: true
+			id: "6A9B9DB71F967F74"
+			tasks: [{
+				id: "3E3E39625BCBF360"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "solapplepie:lunchbag"
+				}
+				type: "item"
+			}]
+			title: "Don't Forget Lunch!"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A9B9DB71F967F74"]
+			description: [
+				"The lunchbag is useful, but perhaps you want to store more meals and snacks inside it, and the 5 slot limit just isn't enough."
+				"Well, fortunately for you, &o&6the lunchbag can be upgraded to a satchel, giving it 4 additional slots&r."
+			]
+			hide_until_deps_visible: true
+			id: "39129615A6470D5C"
+			tasks: [{
+				id: "7338D2812B5DFB7D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [
+								{
+									Count: 64b
+									Slot: 2
+									id: "farmersdelight:egg_sandwich"
+								}
+								{
+									Count: 64b
+									Slot: 3
+									id: "brewinandchewin:ham_and_cheese_sandwich"
+								}
+								{
+									Count: 64b
+									Slot: 4
+									id: "farmersdelight:bacon_sandwich"
+								}
+								{
+									Count: 64b
+									Slot: 5
+									id: "alexsdelight:bunfungus_sandwich"
+								}
+							]
+							Size: 9
+						}
+					}
+					id: "solapplepie:lunchbox"
+				}
+				type: "item"
+			}]
+			title: "A Food Carrying Fiend"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39129615A6470D5C"]
+			description: ["So the satchel is nice, but you want even &omore&r storage from your meals. Well, there is one last upgrade. By turning your satchel into a Picnic Basket, it gains 5 additional slots for food&r."]
+			hide_until_deps_visible: true
+			id: "6B733345FAD245D0"
+			tasks: [{
+				id: "7744BBCB78F999C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 14
+						}
+					}
+					id: "solapplepie:golden_lunchbox"
+				}
+				type: "item"
+			}]
+			title: "Going Somewhere?"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			description: ["Wild Crops are naturally spawning plants that provide the seeds and starter materials needed to begin farming Farmer’s Delight crops. Seven different variants can be found across the Overworld, each in specific biomes: Wild Cabbages on beaches, Wild Onions in plains and forests, Wild Tomatoes in hot deserts and savannas, Wild Carrots in most biomes, Wild Potatoes in forests, Wild Beetroots on beaches and deserts, and Wild Rice growing in rivers and swamps."]
+			id: "6E2846C32B27E04F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "088CAADEB095A555"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "48FDFF2DB056A19B"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "72961FB61BD1F553"
+					item: { Count: 4, id: "minecraft:potato" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "47419AEE43D1ED33"
+					item: { Count: 4, id: "farmersdelight:cabbage_seeds" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "68FE7AD4B24FB6C1"
+					item: { Count: 4, id: "farmersdelight:tomato_seeds" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "11A81D3189A94015"
+					item: { Count: 4, id: "farmersdelight:onion" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "64906990840C3EF7"
+					item: { Count: 4, id: "farmersdelight:rice" }
+					type: "item"
+				}
+			]
+			title: "The Seeds of Our Youth"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "7AEC1ACFE5A654BD"
+			tasks: [{
+				id: "328948C194BBABFA"
+				item: "mynethersdelight:letios_compost"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7AEC1ACFE5A654BD"]
+			id: "551B32E93832E22A"
+			tasks: [{
+				id: "38EAF869AC2125A1"
+				item: "mynethersdelight:resurgent_soil"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
 		}
 	]
 	title: "Farming"

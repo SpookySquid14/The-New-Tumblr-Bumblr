@@ -250,12 +250,26 @@
 
 #Other Configuration (NPCs, etc.)
 [others]
-	#Ivy the Dragon Merchant
 	#Ticks between Ivy's trade restocks (20 ticks = 1 second, 24000 = 20 minutes)
 	#Range: 20 ~ 72000
 	ivy_restock_interval = 24000
 	#Enable first-person banking and barrel-roll camera effects while riding dragons
 	first_person_banking_camera = true
+	#Enable dragon-caused block destruction when mobGriefing is also enabled
+	dragon_griefing_enabled = true
+	#Enable dragon and ability-driven screen shake effects
+	screen_shake_enabled = true
+	#Enable rider-triggered barrel roll on flying dragons
+	barrel_roll_enabled = true
+	#Enable Stegonaut passive aura buffs and portable binder buffs
+	stegonaut_buffs_enabled = true
+	#Enable tame dragon hunger decay
+	hunger_decay_enabled = true
+	#Enable tame dragon happiness decay
+	happiness_decay_enabled = true
+	#Ivy the Dragon Merchant
+	#Enable Ivy's house structure generation and Ivy spawning from that structure
+	ivy_house_enabled = true
 
 #Varasuchus Dragon Attributes
 [varasuchus]
@@ -299,6 +313,8 @@
 	scale_drop_chance_brush = 0.3
 	#Aggressive wild behavior
 	aggressive_wild = true
+	#Range: 0.0 ~ 100000.0
+	claw_attack_damage = 8.0
 
 #Volitans Dragon Attributes
 [volitans]
