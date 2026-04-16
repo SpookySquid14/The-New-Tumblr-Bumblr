@@ -10,12 +10,12 @@
 [damage]
 	#Type of hurt inflicted by angels.
 	#Allowed Values: PICKAXE, PICKAXE_AND_GENERATOR, NONE, GENERATOR, ANYTHING
-	hurt_type = "PICKAXE_AND_GENERATOR"
+	hurt_type = "ANYTHING"
 
 [teleporting]
 	#Range for teleportation.
 	#Range: > 1
-	teleport_range = 400
+	teleport_range = 1
 	#Allow teleporting across dimensions?
 	interdimensional_teleporting = false
 	#Allow Angel theft?

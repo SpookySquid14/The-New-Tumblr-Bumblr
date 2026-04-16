@@ -6,8 +6,8 @@ nightmareChanceIndoors = 0.15
 nightmareChanceOutdoors = 0.8
 #Min number of mobs that can spawn with a nightmare
 #Range: 1 ~ 10
-nightmareMinMobs = 2
+nightmareMinMobs = 1
 #Max number of mobs that can spawn with a nightmare
 #Range: 1 ~ 10
-nightmareMaxMobs = 3
+nightmareMaxMobs = 2
 

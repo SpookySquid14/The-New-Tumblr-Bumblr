@@ -99,7 +99,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["5981B3DEDD0B3827"]
+			dependencies: ["2BED66945BBA3836"]
 			description: [
 				"There are two other components we will want to acquire. One of those are &6&ofabrics&r. Made from lapis and some string, a variety of different fabrics can be created by adding one addition ingredient. These all have their purposes, but for ours, we will want &o&6magic fabric&r, made by adding gold to the recipe."
 				"{image:modpack:textures/fabrics.png width:156 height:90 align:center}"
@@ -127,11 +127,11 @@
 				type: "item"
 			}]
 			title: "The Fabrics That Bind Us"
-			x: 1.0d
-			y: -2.5d
+			x: 0.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["2BED66945BBA3836"]
+			dependencies: ["08E9141026F7F288"]
 			description: [
 				"Now that you've obtained an empty focus, perhaps multiple, it is time to combine it with your earlier magic fabric, some wooden planks, and 2 pieces of Lapis Lazuli. In doing this, you will craft your main tool, the &o&6Dark Wand&r."
 				"This will server as your primary method of casting magic. In the future, you may wish to upgrade it, but that is out of the scope for these first lessons. Once fitted with a &ofocus&r, you need but hold the wand in your hands and right click, as if using any other tools or weapons."
@@ -164,7 +164,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["08E9141026F7F288"]
+			dependencies: ["5981B3DEDD0B3827"]
 			description: [
 				"As I said before, there are two components we will want to acquire. The second of these is an &6&oempty focus&r. For now, the simplest method of obtaining one would be to use your totem and some amethyst. Once you have that, then we can begin."
 				"{image:modpack:textures/empty-focus.png width:156 height:90 align:center}"
@@ -192,8 +192,8 @@
 				type: "item"
 			}]
 			title: "Your First Focus"
-			x: 0.5d
-			y: -3.5d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5981B3DEDD0B3827"]
@@ -221,8 +221,8 @@
 						Souls: 100
 					}
 				}
+				match_nbt: true
 				type: "item"
-				weak_nbt_match: true
 			}]
 			title: "Extracurricular: On Gathering Souls"
 			x: 0.5d

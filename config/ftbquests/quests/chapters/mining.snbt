@@ -11,7 +11,7 @@
 			id: "73E13C5846EEA15B"
 			rewards: [{
 				amount: 70L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "5F251A18FCE1745C"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -35,7 +35,7 @@
 			id: "0838E783B7978F76"
 			rewards: [{
 				amount: 70L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "08380CDE87114941"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -58,7 +58,7 @@
 			id: "44977686A91D674C"
 			rewards: [{
 				amount: 128L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "1DD9576BCA6D0824"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -116,7 +116,7 @@
 			id: "28458B14A9335A52"
 			rewards: [{
 				amount: 70L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "18F0EB1558540B11"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -185,7 +185,7 @@
 			id: "5CB90AEB55DB0D95"
 			rewards: [{
 				amount: 70L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "4A43E6DD725A34FE"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -253,7 +253,7 @@
 			id: "154BBC98E9655643"
 			rewards: [{
 				amount: 70L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "5CA4C404692E2100"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -276,7 +276,7 @@
 			id: "6AB9950ABD27F21E"
 			rewards: [{
 				amount: 70L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "17539C9C30E3F5EB"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -295,7 +295,7 @@
 			id: "2EF27327122B19E6"
 			rewards: [{
 				amount: 70L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "452C33E8B5F6C7DB"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -314,7 +314,7 @@
 			id: "6D6D7809F98D962B"
 			rewards: [{
 				amount: 70L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "4AB6841C06535E3E"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -333,7 +333,7 @@
 			id: "1311AF01528542CD"
 			rewards: [{
 				amount: 70L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "63CFF581141F4E83"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -352,7 +352,7 @@
 			id: "725FBF759BC307C8"
 			rewards: [{
 				amount: 115L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "7A74A2D987E5615A"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -385,7 +385,7 @@
 			id: "2538D770008B1CD4"
 			rewards: [{
 				amount: 200L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "4BAAE29A5C862297"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -418,7 +418,7 @@
 			id: "128555C5E928F099"
 			rewards: [{
 				amount: 70L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "09D89A07471144B8"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
@@ -437,7 +437,7 @@
 			id: "7494BD5420DD948B"
 			rewards: [{
 				amount: 70L
-				currency: "eternalcurrencies:coins"
+				currency: "eternalcurrencies:ancientcoins"
 				id: "15392549785A405B"
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
