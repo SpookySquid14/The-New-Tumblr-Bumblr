@@ -121,6 +121,14 @@ file = "config/ad_astra_giselle_addon.ver2.jsonc"
 hash = "2899c558017ff0a6a78862c0e835728883a644f1ecfb1b53f94bb48c4fb0fe38"
 
 [[files]]
+file = "config/adaptive_performance_tweaks/core.toml"
+hash = "c3000079a8eeb82b07a6bec7b5597c439761a9a654df9c92b01cb3e83ac3eef1"
+
+[[files]]
+file = "config/adaptive_performance_tweaks/items.toml"
+hash = "9ab65c1f0e403f9cc8eb5161fcbc6ba8e0a38f21572c2431647c2688e141ee63"
+
+[[files]]
 file = "config/addonslib-common.toml"
 hash = "6cc0653fede0a380a205e7c2b5b3790f6b3e5ac5de1d6ab970dee409220fc1c2"
 
@@ -67078,7 +67086,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a0f22579408391ddcd81aae9aef19c7fa2a7e15d0a889fb01d3a8cad7db46e77"
+hash = "f542e3477f9c07aa7673b62a0d29c7d21db85a6d2fdc62475bf67b966e4e96da"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68442,7 +68450,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/world/local/New_World__23/lookupHistory.ini"
-hash = "e0d89fd610e21d80424e841b49ca174fbd3ce2edfc3a15e9ffc700474ecf214b"
+hash = "775d2e60a7c8a228b2e4ee492fe436c92011236496163e59ca4c7c547983f986"
 
 [[files]]
 file = "config/jei/world/local/New_World__3/lookupHistory.ini"
@@ -68670,7 +68678,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "0921fd18f74e34b7ac6b6d3463d9ad3d6ba413ec33ecf67b5cf8686e715ad763"
+hash = "eb17a9c282563ff7a0983fbdbcf07626e6c45fe7d62f58b6a61558e0a1f3d08c"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68786,7 +68794,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "52bd7fb1e406fdf1d732a813d551fb2c57a563cb5477ae48e483e6b8dc44e1e5"
+hash = "c8540b962a86006ca33b73844ca093d46ec029b4d1ac3653007e0d78b4abb4e3"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68794,7 +68802,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "30ccac3c6ae030c74a77357b236c05bc43d46ed9de44295c19e164eb402a66bd"
+hash = "8332654e8f61fc114d67a54bc82c2706f80196e76e544318ffe6ee1c10cca163"
 
 [[files]]
 file = "config/particular-common.toml"
