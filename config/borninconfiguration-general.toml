@@ -565,7 +565,7 @@
 		[Weapons.Mobs.Lifestealer]
 			#Days till Lifestealer spawns
 			#Range: 1 ~ 999999
-			DAYS_TILL_LIFESTEALER = 10
+			DAYS_TILL_LIFESTEALER = 100
 			#.
 			#Range: 0.0 ~ 1.7976931348623157E308
 			LIFESTEALER_ARMOR = 16.0
@@ -710,7 +710,7 @@
 		[Weapons.Mobs.Missioner]
 			#Days till The Missioner spawns
 			#Range: 1 ~ 999999
-			DAYS_TILL_MISSIONER = 23
+			DAYS_TILL_MISSIONER = 50
 			#.
 			#Range: 0.0 ~ 1.7976931348623157E308
 			MISSIONER_ARMOR = 10.0
@@ -819,7 +819,7 @@
 			NIGHTMARE_STALKER_SPAWNING_ENABLED = true
 			#Days till Nightmare Stalker spawns
 			#Range: 1 ~ 999999
-			DAYS_TILL_NIGHTMARE = 13
+			DAYS_TILL_NIGHTMARE = 75
 			#Whether Nightmare Stalker has its base immunity to certain things
 			STALKER_IMMUNITY_ENABLED = true
 			#.

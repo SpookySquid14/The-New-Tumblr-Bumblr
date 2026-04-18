@@ -1,0 +1,3 @@
+#If debugging features should be enabled
+debugEnabled = false
+

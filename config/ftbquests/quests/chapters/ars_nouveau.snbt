@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "2E5A9DABC49A0340"
+	hide_quest_until_deps_visible: true
+	id: "24D05EE5346105AD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["639F18460A94F794"]
+			id: "79CAC5DD86CF5B52"
+			tasks: [{
+				id: "7E12576675F0CBE1"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79CAC5DD86CF5B52"]
+			description: ["Can be used to locate budding amethyst."]
+			id: "4D279009D425E84B"
+			tasks: [{
+				id: "50B20CCA196348EA"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["732DDBE332DE607F"]
+			id: "639F18460A94F794"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2E70354DFF23472C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0E7CD0551C65D2D6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:logs/archwood"
+					}
+				}
+				type: "item"
+			}]
+			title: "Archwood"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79CAC5DD86CF5B52"]
+			id: "39D2C7E79A2A575C"
+			tasks: [{
+				id: "2069926D882DCE69"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: ["Ars Noveau is a magic mod focused around spell creation and automation"]
+			id: "732DDBE332DE607F"
+			tasks: [{
+				id: "1C90CCFE6E2B0A6C"
+				title: "Learn About Ars Nouveau"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "175CC2FC98270934"
+			tasks: [{
+				id: "4D86AA41BB835B49"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "056F9909CD8A4F4D"
+			tasks: [{
+				id: "7E0A7D69ABD35831"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "7B911BD477A5F0A0"
+			tasks: [{
+				id: "3AB98373B8FCECE7"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "Ars Nouveau"
+}

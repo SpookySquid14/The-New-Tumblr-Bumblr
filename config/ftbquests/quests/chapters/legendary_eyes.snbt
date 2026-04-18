@@ -399,7 +399,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["Obtained from Captain Cornelia"]
+			description: ["It's said that long ago, the higher beings grew bored of the frozen seas that scattered the land, and chose to add new life to the barren areas in what's now considered the Ice Mazes."]
 			id: "45AF68A92FF37768"
 			tasks: [{
 				id: "1ED06C4A3D309A4F"

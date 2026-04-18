@@ -646,7 +646,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["257AD50176950053"]
+			dependencies: ["58E6B0A4E1DEA998"]
 			description: ["Notes? Yeah, you probably want to take some. Fortunately, a clip board makes that easy."]
 			hide_until_deps_visible: true
 			id: "3BEEBD80625364E4"
@@ -663,6 +663,127 @@
 				type: "item"
 			}]
 			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["257AD50176950053"]
+			description: ["There are &oa lot&r of mods in this pack, and many have guidebooks that you probably don't want to be carrying around all the time. That's where the &o&6Eccentric Tome&r comes into play. &6&oWith it, you can combine all your guide books into one by putting the tome and book in a crafting grid.&r I've gone ahead and put something together for you, so when you make yours, we can trade."]
+			id: "58E6B0A4E1DEA998"
+			rewards: [{
+				id: "6A863A9B1787A9A3"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:items": [
+							{
+								Count: 1b
+								id: "alexsmobs:animal_dictionary"
+							}
+							{
+								Count: 1b
+								id: "botania:lexicon"
+							}
+							{
+								Count: 1b
+								id: "immersiveengineering:manual"
+							}
+							{
+								Count: 1b
+								id: "tinkersjewelry:book"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:worn_notebook"
+							}
+							{
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "complicated_bees:field_guide"
+								}
+							}
+							{
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "goety:black_book"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_book"
+							}
+							{
+								Count: 1b
+								id: "solapplepie:food_book"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:puny_smelting"
+								tag: {
+									mantle: {
+										book: {
+											current_page: "moving_fluids.copper_cans"
+										}
+									}
+								}
+							}
+						]
+						"eccentrictome:version": 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06A0C422B22FD824"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:items": [ ]
+						"eccentrictome:version": 2
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			description: [
+				"You may notice the gold rim around naturally found spawners. These are &oMultiplayer Spawners&r, and they have some interesting effects. Namely, &o&6when you break the spawner, it will disable it for you and you only.&r In other words, if someone new comes along, the spawner will still be active for them."
+				"Another thing to be aware of is that &o&6torches you place near spawners will extinguish after 10 minutes.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2170DDB920E2E543"
+			rewards: [
+				{
+					amount: 130L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "18735158895F2C07"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7928F83A6F7CE781"
+					table_id: 5852847927377225909L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:spawner"
+				id: "5B1F2F40364C3205"
+				observe_type: 0
+				timer: 0L
+				title: "See a Multiplayer Spawner"
+				to_observe: "minecraft:spawner"
+				type: "observation"
+			}]
+			x: 4.0d
 			y: -1.0d
 		}
 	]

@@ -5,6 +5,71 @@
       "name": "SpookiestOfSquid",
       "uniqueId": "af78c06d-e580-481b-b5fe-49ff1d817501"
     },
+    "time": 1776453207452,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/5E2Dpxcg9q"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "SpookiestOfSquid",
+      "uniqueId": "af78c06d-e580-481b-b5fe-49ff1d817501"
+    },
+    "time": 1776451354942,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/S8lr7MZO32"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "SpookiestOfSquid",
+      "uniqueId": "af78c06d-e580-481b-b5fe-49ff1d817501"
+    },
+    "time": 1776450998310,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/SILbCIcH4Y"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "SpookiestOfSquid",
+      "uniqueId": "af78c06d-e580-481b-b5fe-49ff1d817501"
+    },
+    "time": 1776450251880,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/getsQyKPJo"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "SpookiestOfSquid",
+      "uniqueId": "af78c06d-e580-481b-b5fe-49ff1d817501"
+    },
+    "time": 1776449753257,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Kuz823eiP9"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "SpookiestOfSquid",
+      "uniqueId": "af78c06d-e580-481b-b5fe-49ff1d817501"
+    },
     "time": 1775170965454,
     "type": "Profiler",
     "data": {

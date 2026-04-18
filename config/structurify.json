@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-04-15_17-59-58",
+  "config_datetime": "2026-04-17_20-02-43",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -33,6 +33,103 @@
     }
   ],
   "structure_sets": [
+    {
+      "spacing": 18,
+      "separation": 10,
+      "name": "aquamirae:outpost",
+      "is_disabled": true,
+      "salt": 701829589,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "aquamirae:outpost": 1
+      }
+    },
+    {
+      "spacing": 40,
+      "separation": 20,
+      "name": "aquamirae:shelter",
+      "is_disabled": true,
+      "salt": 901831489,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "aquamirae:shelter": 1
+      }
+    },
+    {
+      "spacing": 25,
+      "separation": 10,
+      "name": "aquamirae:ship",
+      "is_disabled": true,
+      "salt": 801831489,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "aquamirae:ship": 1
+      }
+    },
+    {
+      "name": "aquamirae:surface",
+      "is_disabled": true,
+      "salt": 601831488,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "aquamirae:surface/spiral": 33,
+        "aquamirae:surface/arch": 66
+      }
+    },
+    {
+      "spacing": 25,
+      "separation": 6,
+      "name": "tconstruct:end_sky_island",
+      "is_disabled": false,
+      "salt": 368963602,
+      "frequency": 0.374,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "tconstruct:end_slime_island": 1
+      }
+    },
+    {
+      "spacing": 15,
+      "separation": 7,
+      "name": "tconstruct:nether_ocean_island",
+      "is_disabled": false,
+      "salt": 65245622,
+      "frequency": 0.374,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "tconstruct:blood_island": 1
+      }
+    },
+    {
+      "spacing": 30,
+      "separation": 9,
+      "name": "tconstruct:overworld_ocean_island",
+      "is_disabled": false,
+      "salt": 25988585,
+      "frequency": 0.374,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "tconstruct:ocean_skyslime_island": 1,
+        "tconstruct:earth_slime_island": 1
+      }
+    },
+    {
+      "spacing": 35,
+      "separation": 4,
+      "name": "tconstruct:overworld_sky_island",
+      "is_disabled": false,
+      "salt": 14357800,
+      "frequency": 0.374,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "tconstruct:sky_slime_island": 4,
+        "tconstruct:clay_island": 1
+      }
+    },
     {
       "spacing": 86,
       "separation": 60,

@@ -1,7 +1,64 @@
 [
   {
-    "mob":"born_in_chaos_v1:fallen_chaos_knight",
-    "daycount": "lt(13)",
+    "mod": "born_in_chaos_v1",
+    "when": "onjoin",
+    "biome": ["alexscaves:abyssal_chasm", "alexscaves:candy_cavity", "alexscaves:forlorn_hollows", "alexscaves:magnetic_caves", "alexscaves:primordial_caves", "alexscaves:toxic_caves"],
+    "result": "deny"
+  },
+  {
+    "mod": "mebahelcreaturesdraugr",
+    "when": "onjoin",
+    "biome": ["alexscaves:abyssal_chasm", "alexscaves:candy_cavity", "alexscaves:forlorn_hollows", "alexscaves:magnetic_caves", "alexscaves:primordial_caves", "alexscaves:toxic_caves"],
+    "result": "deny"
+  },
+  {
+    "mob": "irons_spellbooks:necromancer",
+    "when": "onjoin",
+    "biome": ["alexscaves:abyssal_chasm", "alexscaves:candy_cavity", "alexscaves:forlorn_hollows", "alexscaves:magnetic_caves", "alexscaves:primordial_caves", "alexscaves:toxic_caves"],
+    "result": "deny"
+  },
+  {
+    "spawner": true,
+    "mob": ["mebahelcreaturesdraugr:draugr","mebahelcreaturesdraugr:draugr_archer","mebahelcreaturesdraugr:skeleton_warrior","mebahelcreaturesdraugr:draugr_wight","mebahelcreaturesdraugr:draugr_scourge","mebahelcreaturesdraugr:infernal_draugr"],
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
+    "phase": "after_day_15",
+    "mob": ["mebahelcreaturesdraugr:draugr","mebahelcreaturesdraugr:draugr_archer","mebahelcreaturesdraugr:skeleton_warrior","irons_spellbooks:necromancer","saintsdragons:stegonaut","saintsdragons:cindervane","born_in_chaos_v1:dark_vortex","born_in_chaos_v1:zombie_bruiser","born_in_chaos_v1:skeleton_thrasher"],
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
+    "phase": "after_day_25",
+    "mob": ["mebahelcreaturesdraugr:draugr_wight","mebahelcreaturesdraugr:draugr_scourge","born_in_chaos_v1:mother_spider"],
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
+    "phase": "after_day_50",
+    "mob": ["mebahelcreaturesdraugr:infernal_draugr","saintsdragons:volitans","saintsdragons:nulljaw","born_in_chaos_v1:fallen_chaos_knight"],
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
+    "phase": "after_day_75",
+    "mob": ["saintsdragons:raevyx","saintsdragons:varasuchus"],
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
+    "phase": "after_day_100",
+    "mob": ["saintsdragons:ignivorus"],
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
+    "mob": ["mebahelcreaturesdraugr:draugr","mebahelcreaturesdraugr:draugr_archer","mebahelcreaturesdraugr:skeleton_warrior","mebahelcreaturesdraugr:draugr_wight","mebahelcreaturesdraugr:draugr_scourge","mebahelcreaturesdraugr:infernal_draugr",
+        "irons_spellbooks:necromancer",
+        "saintsdragons:stegonaut","saintsdragons:cindervane","saintsdragons:ignivorus","saintsdragons:raevyx","saintsdragons:volitans","saintsdragons:varasuchus","saintsdragons:nulljaw",
+        "born_in_chaos_v1:dark_vortex","born_in_chaos_v1:zombie_bruiser","born_in_chaos_v1:skeleton_thrasher","born_in_chaos_v1:mother_spider","born_in_chaos_v1:fallen_chaos_knight"],
+    "when": "onjoin",
     "result": "deny"
   }
 ]

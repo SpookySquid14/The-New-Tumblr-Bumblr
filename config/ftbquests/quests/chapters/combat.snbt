@@ -126,6 +126,7 @@
 				"Rolling is great for avoiding many attacks, but there are times you simply need to take the blow. In these cases, a shield is your best ally. Simply holding one in your hands will decrease the damage you take from incoming attacks."
 				"But simply holding a shield is one thing. It's another to &6&oblock&r&r with it. Blocking with a shield will completely negate most attacks. Be careful, however, as weapons such as axes may damage your shield, disabling it for a small period of time."
 			]
+			hide_until_deps_visible: true
 			id: "63FE95E91D565AE0"
 			rewards: [
 				{
@@ -327,6 +328,7 @@
 		{
 			dependencies: ["63FE95E91D565AE0"]
 			description: ["They say the piglins have developed a special type of shield. Though the secrets to crafting such an item are lost to us, that doesn't stop one from acquiring it through... &oother means.&r"]
+			hide_until_deps_visible: true
 			id: "3D13CC5391A7277B"
 			rewards: [{
 				amount: 150L
