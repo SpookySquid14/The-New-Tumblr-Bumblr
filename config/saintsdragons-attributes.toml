@@ -25,17 +25,20 @@
 	fire_body_damage = 3.0
 	#Taming chance percent per feed (0-100)
 	#Range: 0.0 ~ 100.0
-	taming_chance_base = 4.0
+	taming_chance_base = 25.0
 	#Range: 0.0 ~ 100.0
-	taming_chance_chicken = 3.0
+	taming_chance_chicken = 33.3333
 	#Range: 0.0 ~ 100.0
-	taming_chance_hearty = 2.0
+	taming_chance_hearty = 50.0
 	#Eggs (1 in N chance per random tick)
 	#Range: 1.0 ~ 200.0
 	egg_hatch_chance_normal = 2.0
 	#Egg drop chance (0-1)
 	#Range: 0.0 ~ 1.0
 	egg_drop_chance = 0.12
+	#Scale drop chance when brushed (0-1)
+	#Range: 0.0 ~ 1.0
+	scale_drop_chance_brush = 0.3
 	#Direct blast damage on Fire Body crash impact
 	#Range: 0.0 ~ 100000.0
 	fire_body_explosion_damage = 200.0
@@ -44,9 +47,6 @@
 	fire_body_self_damage_on_crash = 40.0
 	#Aggressive wild behavior
 	aggressive_wild = false
-	#Scale drop chance when brushed (0-1)
-	#Range: 0.0 ~ 1.0
-	scale_drop_chance_brush = 0.3
 
 #Raevyx Dragon Attributes
 [raevyx]
@@ -57,7 +57,7 @@
 	armor = 8.0
 	#Base rider flying speed
 	#Range: 0.0 ~ 2.0
-	flying_speed = 1.0
+	flying_speed = 0.5
 	#Multiplier for wild flying speed only
 	#Range: 0.05 ~ 10.0
 	wild_flying_speed_multiplier = 1.0
@@ -86,9 +86,9 @@
 	summon_storm_duration_ticks = 1200.0
 	#Taming chance percent per feed (0-100)
 	#Range: 0.0 ~ 100.0
-	taming_chance_base = 5.0
+	taming_chance_base = 20.0
 	#Range: 0.0 ~ 100.0
-	taming_chance_hearty = 3.0
+	taming_chance_hearty = 33.3333
 	#Taming stun health threshold (HP)
 	#Range: 0.0 ~ 1000.0
 	taming_stun_health = 60.0
@@ -110,30 +110,67 @@
 	#Egg drop chance (0-1)
 	#Range: 0.0 ~ 1.0
 	egg_drop_chance = 0.12
-	#Aggressive wild behavior
-	aggressive_wild = true
 	#Scale drop chance when brushed (0-1)
 	#Range: 0.0 ~ 1.0
 	scale_drop_chance_brush = 0.35
+	#Aggressive wild behavior
+	aggressive_wild = false
 
-#Nulljaw Dragon Attributes
-[nulljaw]
+#Varasuchus Dragon Attributes
+[varasuchus]
 	#Core Attributes
 	#Range: 1.0 ~ 100000.0
-	max_health = 250.0
+	max_health = 200.0
 	#Range: 0.0 ~ 100000.0
 	armor = 8.0
+	#Range: 0.1 ~ 5.0
+	swim_speed = 1.45
+	#Ability Damage
+	#Range: 0.0 ~ 100000.0
+	bite_phase1_damage = 15.0
+	#Range: 0.0 ~ 100000.0
+	bite_phase2_damage = 25.0
+	#Range: 0.0 ~ 100000.0
+	tail_attack_damage = 7.0
+	#Range: 0.0 ~ 100000.0
+	dash_tail_swipe_damage = 10.0
+	#Range: 0.0 ~ 100000.0
+	dash_claw_damage = 15.0
+	#Range: 0.0 ~ 100000.0
+	claw_attack_damage = 8.0
+	#Range: 0.0 ~ 100000.0
+	horn_gore_phase1_damage = 8.0
+	#Range: 0.0 ~ 100000.0
+	horn_gore_phase2_damage = 15.8
+	#Base taming chance percent. Legacy food taming rolls it directly; rodeo taming converts it into a smaller per-tick chance
+	#Range: 0.0 ~ 100.0
+	taming_chance = 16.6667
+	#Range: 0.0 ~ 100.0
+	taming_chance_tropical = 25.0
+	#Legacy taming (true = simple food taming, false = special mechanics)
+	legacy_taming = false
+	#Eggs (1 in N chance per random tick)
+	#Range: 1.0 ~ 200.0
+	egg_hatch_chance_normal = 3.0
+	#Egg drop chance (0-1)
+	#Range: 0.0 ~ 1.0
+	egg_drop_chance = 0.12
+	#Scale drop chance when brushed (0-1)
+	#Range: 0.0 ~ 1.0
+	scale_drop_chance_brush = 0.3
+	#Aggressive wild behavior
+	aggressive_wild = true
 
 #Ignivorus Dragon Attributes
 [ignivorus]
 	#Core Attributes
 	#Range: 1.0 ~ 100000.0
-	max_health = 300.0
+	max_health = 450.0
 	#Range: 0.0 ~ 100000.0
 	armor = 4.0
 	#Base rider flying speed
 	#Range: 0.0 ~ 2.0
-	flying_speed = 0.4
+	flying_speed = 0.35
 	#Multiplier for wild flying speed only
 	#Range: 0.05 ~ 10.0
 	wild_flying_speed_multiplier = 1.0
@@ -161,6 +198,9 @@
 	#Ultimate ability health penalty
 	#Range: 1.0 ~ 10000.0
 	ultimate_penalty_health = 50.0
+	#Health fraction threshold for enabling the ultimate ability
+	#Range: 0.0 ~ 1.0
+	ultimate_trigger_health_fraction = 0.5
 	#Fire Breath Tuning
 	#Range: 0.0 ~ 1.0
 	fire_breath_drain_per_tick = 0.0063
@@ -185,11 +225,11 @@
 	phase2_decision_max_ticks = 120.0
 	#Taming chance percent per feed (0-100)
 	#Range: 0.0 ~ 100.0
-	taming_chance_base = 7.0
+	taming_chance_base = 14.2857
 	#Range: 0.0 ~ 100.0
-	taming_chance_beef = 5.0
+	taming_chance_beef = 20.0
 	#Range: 0.0 ~ 100.0
-	taming_chance_hearty = 4.0
+	taming_chance_hearty = 25.0
 	#Taming stun health threshold (HP)
 	#Range: 0.0 ~ 1000.0
 	taming_stun_health = 100.0
@@ -208,14 +248,11 @@
 	#Egg drop chance (0-1)
 	#Range: 0.0 ~ 1.0
 	egg_drop_chance = 0.12
-	#Aggressive wild behavior
-	aggressive_wild = true
-	#Health fraction threshold for enabling the ultimate ability
-	#Range: 0.0 ~ 1.0
-	ultimate_trigger_health_fraction = 0.5
 	#Scale drop chance when brushed (0-1)
 	#Range: 0.0 ~ 1.0
 	scale_drop_chance_brush = 0.35
+	#Aggressive wild behavior
+	aggressive_wild = true
 
 #Stegonaut Dragon Attributes
 [stegonaut]
@@ -233,94 +270,26 @@
 	ground_eating_damage = 10.0
 	#Taming chance percent per feed (0-100)
 	#Range: 0.0 ~ 100.0
-	taming_chance_base = 1.0
+	taming_chance_base = 25.0
 	#Range: 0.0 ~ 100.0
-	taming_chance_hearty = 1.0
+	taming_chance_hearty = 40.0
 	#Eggs (1 in N chance per random tick)
 	#Range: 1.0 ~ 200.0
 	egg_hatch_chance_normal = 2.0
 	#Egg drop chance (0-1)
 	#Range: 0.0 ~ 1.0
 	egg_drop_chance = 0.12
+	#Scale drop chance when brushed (0-1)
+	#Range: 0.0 ~ 1.0
+	scale_drop_chance_brush = 0.3
 	#Aggressive wild behavior
 	aggressive_wild = false
-	#Scale drop chance when brushed (0-1)
-	#Range: 0.0 ~ 1.0
-	scale_drop_chance_brush = 0.3
-
-#Other Configuration (NPCs, etc.)
-[others]
-	#Ticks between Ivy's trade restocks (20 ticks = 1 second, 24000 = 20 minutes)
-	#Range: 20 ~ 72000
-	ivy_restock_interval = 24000
-	#Enable first-person banking and barrel-roll camera effects while riding dragons
-	first_person_banking_camera = true
-	#Enable dragon-caused block destruction when mobGriefing is also enabled
-	dragon_griefing_enabled = true
-	#Enable dragon and ability-driven screen shake effects
-	screen_shake_enabled = true
-	#Enable rider-triggered barrel roll on flying dragons
-	barrel_roll_enabled = true
-	#Enable Stegonaut passive aura buffs and portable binder buffs
-	stegonaut_buffs_enabled = true
-	#Enable tame dragon hunger decay
-	hunger_decay_enabled = true
-	#Enable tame dragon happiness decay
-	happiness_decay_enabled = true
-	#Ivy the Dragon Merchant
-	#Enable Ivy's house structure generation and Ivy spawning from that structure
-	ivy_house_enabled = true
-
-#Varasuchus Dragon Attributes
-[varasuchus]
-	#Core Attributes
-	#Range: 1.0 ~ 100000.0
-	max_health = 250.0
-	#Range: 0.0 ~ 100000.0
-	armor = 8.0
-	#Range: 0.1 ~ 5.0
-	swim_speed = 1.45
-	#Ability Damage
-	#Range: 0.0 ~ 100000.0
-	bite_phase1_damage = 40.0
-	#Range: 0.0 ~ 100000.0
-	bite_phase2_damage = 50.0
-	#Range: 0.0 ~ 100000.0
-	tail_attack_damage = 8.0
-	#Range: 0.0 ~ 100000.0
-	dash_tail_swipe_damage = 14.0
-	#Range: 0.0 ~ 100000.0
-	dash_claw_damage = 16.0
-	#Range: 0.0 ~ 100000.0
-	horn_gore_phase1_damage = 16.0
-	#Range: 0.0 ~ 100000.0
-	horn_gore_phase2_damage = 20.8
-	#Base taming chance percent. Legacy food taming rolls it directly; rodeo taming converts it into a smaller per-tick chance
-	#Range: 0.0 ~ 100.0
-	taming_chance = 16.6667
-	#Range: 0.0 ~ 100.0
-	taming_chance_tropical = 25.0
-	#Legacy taming (true = simple food taming, false = special mechanics)
-	legacy_taming = false
-	#Eggs (1 in N chance per random tick)
-	#Range: 1.0 ~ 200.0
-	egg_hatch_chance_normal = 3.0
-	#Egg drop chance (0-1)
-	#Range: 0.0 ~ 1.0
-	egg_drop_chance = 0.12
-	#Scale drop chance when brushed (0-1)
-	#Range: 0.0 ~ 1.0
-	scale_drop_chance_brush = 0.3
-	#Aggressive wild behavior
-	aggressive_wild = true
-	#Range: 0.0 ~ 100000.0
-	claw_attack_damage = 8.0
 
 #Volitans Dragon Attributes
 [volitans]
 	#Core Attributes
 	#Range: 1.0 ~ 100000.0
-	max_health = 140.0
+	max_health = 160.0
 	#Range: 0.0 ~ 100000.0
 	armor = 6.0
 	#Base rider flying speed
@@ -369,14 +338,14 @@
 	#Range: 0.0 ~ 1.0
 	scale_drop_chance_brush = 0.3
 	#Range: 0.0 ~ 1.0
-	spine_drop_chance = 1.0
+	spine_drop_chance = 0.3
 	#Range: 0.0 ~ 1.0
 	fish_drop_chance = 0.4
 	#Breath Gauge Tuning
 	#Range: 1.0 ~ 24000.0
 	breath_active_ticks_max = 240.0
 	#Range: 0.0 ~ 1.0
-	breath_drain_per_tick = 0.004166666666666667
+	breath_drain_per_tick = 0.0042
 	#Range: 0.0 ~ 1.0
 	breath_regen_per_tick = 0.0025
 	#Range: 0.0 ~ 5.0
@@ -404,4 +373,35 @@
 	roar_air_water_poison_level = 2.0
 	#Aggressive wild behavior
 	aggressive_wild = true
+
+#Nulljaw Dragon Attributes
+[nulljaw]
+	#Core Attributes
+	#Range: 1.0 ~ 100000.0
+	max_health = 70.0
+	#Range: 0.0 ~ 100000.0
+	armor = 4.0
+
+#Other Configuration (NPCs, etc.)
+[others]
+	#Enable dragon-caused block destruction when mobGriefing is also enabled
+	dragon_griefing_enabled = true
+	#Enable dragon and ability-driven screen shake effects
+	screen_shake_enabled = true
+	#Enable rider-triggered barrel roll on flying dragons
+	barrel_roll_enabled = true
+	#Enable first-person banking and barrel-roll camera effects while riding dragons
+	first_person_banking_camera = true
+	#Enable Stegonaut passive aura buffs and portable binder buffs
+	stegonaut_buffs_enabled = true
+	#Enable tame dragon hunger decay
+	hunger_decay_enabled = true
+	#Enable tame dragon happiness decay
+	happiness_decay_enabled = true
+	#Ivy the Dragon Merchant
+	#Enable Ivy's house structure generation and Ivy spawning from that structure
+	ivy_house_enabled = true
+	#Ticks between Ivy's trade restocks (20 ticks = 1 second, 24000 = 20 minutes)
+	#Range: 20 ~ 72000
+	ivy_restock_interval = 24000
 
