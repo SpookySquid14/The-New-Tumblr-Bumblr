@@ -66725,6 +66725,10 @@ file = "config/chefsdelight-common.toml"
 hash = "8ebfbb7b6a212920031cc85b9d872a0f974fc704a30dcc39a7bdd0b10fe94aa6"
 
 [[files]]
+file = "config/chloride-client.json"
+hash = "2f21f365eb9ee9f6bd41997b8a892f63bf2b2d3d7d53c630ecb0ed797d8d93f5"
+
+[[files]]
 file = "config/chunky/config.json"
 hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
 
@@ -66903,6 +66907,14 @@ hash = "3903cd1fcf402a8c155f21bb581eb78d26e067537cb8af0b24bb8b8be63b3b30"
 [[files]]
 file = "config/curios-common.toml"
 hash = "541ee90994c1cf3d4e132df2ac3ff74004bc3952d3914ae843b5089a4dda8a95"
+
+[[files]]
+file = "config/curious-lanterns-client.toml"
+hash = "36c540187a411c120c37336dc78f58ab76c528c853c89ec7f8901aeb6f66e7ee"
+
+[[files]]
+file = "config/curious-lanterns-common.toml"
+hash = "ddc11db6ad6ee5437b08947505971772b7011f66a6353c3604015b7d4b0b8d01"
 
 [[files]]
 file = "config/damageindicator-client.toml"
@@ -67090,7 +67102,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "b48dfcafb89af5ed1f9b94efde81fa4e1666770d9c02b6bd5631611d01996f5b"
+hash = "f7297243c3fa47addf8a4957dd59469c4b4da700b42536c001f285dca954223a"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -67329,6 +67341,10 @@ file = "config/forgeendertech/Biomes/minecraft$lukewarm_ocean.cfg"
 hash = "310187161dc7ef557a895d3bb5edceacfbb8f37d394ec6580d1197ff36906beb"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$lush_caves.cfg"
+hash = "e4b130a68e94d87e07b143c714bc7f302792223402f01e63d8ec9465863bc4f0"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$mangrove_swamp.cfg"
 hash = "fadced09f170c426333d093f1f44a67452d718bdb49f95bc9fc9392e9d221c36"
 
@@ -67355,6 +67371,10 @@ hash = "889986622c92c7f763934e3ed388691557ef959fb2722992b335d00701a2185a"
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$pale_garden.cfg"
 hash = "4bec4fe9790415f4ba620d2e7553e3dd524a760704709fa7554c312c77c96ce8"
+
+[[files]]
+file = "config/forgeendertech/Biomes/minecraft$plains.cfg"
+hash = "6709771bec4192541aca6b5abdbb30f96f7c64dc703727c2dfdcc58184e6a26c"
 
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$river.cfg"
@@ -68718,7 +68738,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "33b4f1d50cc87a3f99d859a06b29075529eda7b839c98c94fc4e09c981d1f515"
+hash = "34d5d7f4072971abd26a595bfdfae7e681ea6885af7005f74f5ce562a59747c9"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68834,7 +68854,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "6f25ecbcef8a90692699bc64cb7a0a31407697820eecc9fad5eb045c566c9622"
+hash = "8020d811aeba1a308fc031fad628eacacf27ba6a69512a3738b1767a96169718"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68842,7 +68862,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "315c12dd8311ff69807b21539d4a587c53e153a60c279c65219cace9bfb4066b"
+hash = "0bc2cb7bb31e91ba3489f1578deb2a7856fe04ee5893c4f12049b01d03f3dc20"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69346,7 +69366,7 @@ hash = "5f85b2c857c2561cf720745f724d20befce7bb58732083259a798263c0af99f2"
 
 [[files]]
 file = "config/sodiumdynamiclights-client.toml"
-hash = "6bf8584810e5e49dafb155bf12b987ecd2300a95702216f1d2b02669aa901660"
+hash = "347434fce931147ef1b31896190829a06a857a561eab04e28354af67f3894564"
 
 [[files]]
 file = "config/sodiumextras-client.toml"
@@ -75677,6 +75697,11 @@ metafile = true
 [[files]]
 file = "mods/curious-armor-stands.pw.toml"
 hash = "2b55e6443353dae5eee79c2d9dfe8d8c2d146c510ee88d1f38cf1ef554c5845d"
+metafile = true
+
+[[files]]
+file = "mods/curious-lanterns.pw.toml"
+hash = "6c61648ebe4329b02ee9138e899345739584811e1b4c099b86d845925d0ae9dc"
 metafile = true
 
 [[files]]
