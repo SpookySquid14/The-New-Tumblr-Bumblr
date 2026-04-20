@@ -24,14 +24,8 @@
     "result": "default"
   },
   {
-    "spawntype": ["mob_summoned", "spawn_egg"],
-    "mob": ["saintsdragons:stegonaut","saintsdragons:cindervane","saintsdragons:ignivorus","saintsdragons:raevyx","saintsdragons:volitans","saintsdragons:varasuchus","saintsdragons:nulljaw"],
-    "when": "onjoin",
-    "result": "default"
-  },
-  {
     "phase": "after_day_15",
-    "mob": ["mebahelcreaturesdraugr:draugr","mebahelcreaturesdraugr:draugr_archer","mebahelcreaturesdraugr:skeleton_warrior","irons_spellbooks:necromancer","saintsdragons:stegonaut","saintsdragons:cindervane","born_in_chaos_v1:dark_vortex","born_in_chaos_v1:zombie_bruiser","born_in_chaos_v1:skeleton_thrasher"],
+    "mob": ["mebahelcreaturesdraugr:draugr","mebahelcreaturesdraugr:draugr_archer","mebahelcreaturesdraugr:skeleton_warrior","irons_spellbooks:necromancer","born_in_chaos_v1:dark_vortex","born_in_chaos_v1:zombie_bruiser","born_in_chaos_v1:skeleton_thrasher"],
     "when": "onjoin",
     "result": "default"
   },
@@ -43,19 +37,13 @@
   },
   {
     "phase": "after_day_50",
-    "mob": ["mebahelcreaturesdraugr:infernal_draugr","saintsdragons:volitans","saintsdragons:nulljaw","born_in_chaos_v1:fallen_chaos_knight"],
+    "mob": ["mebahelcreaturesdraugr:infernal_draugr","born_in_chaos_v1:fallen_chaos_knight"],
     "when": "onjoin",
     "result": "default"
   },
   {
     "phase": "after_day_75",
-    "mob": ["saintsdragons:raevyx","saintsdragons:varasuchus","born_in_chaos_v1:supreme_bonescaller"],
-    "when": "onjoin",
-    "result": "default"
-  },
-  {
-    "phase": "after_day_100",
-    "mob": ["saintsdragons:ignivorus"],
+    "mob": ["born_in_chaos_v1:supreme_bonescaller"],
     "when": "onjoin",
     "result": "default"
   },
@@ -64,10 +52,6 @@
         "irons_spellbooks:necromancer",
         "born_in_chaos_v1:dark_vortex","born_in_chaos_v1:zombie_bruiser","born_in_chaos_v1:skeleton_thrasher","born_in_chaos_v1:mother_spider","born_in_chaos_v1:fallen_chaos_knight"],
     "when": "onjoin",
-    "result": "deny"
-  },
-  {
-    "mob": ["saintsdragons:stegonaut","saintsdragons:cindervane","saintsdragons:ignivorus","saintsdragons:raevyx","saintsdragons:volitans","saintsdragons:varasuchus","saintsdragons:nulljaw"],
     "result": "deny"
   }
 ]

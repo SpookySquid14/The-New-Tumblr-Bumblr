@@ -19517,6 +19517,10 @@ file = "config/blockswap/known_states/goety/blackstone_soul_brazier.json5"
 hash = "5198249b989cc5584d3cf37bcdb0b13c277281c6fcc3af5e6e19a47f4c173ce4"
 
 [[files]]
+file = "config/blockswap/known_states/goety/blackstone_throne.json5"
+hash = "814c2d998434bdea92c8ba9a8bcce8e9bb6d2cd06f2171709040ad25910f7a7a"
+
+[[files]]
 file = "config/blockswap/known_states/goety/blazing_cage.json5"
 hash = "e85443c50edc469517899776ea6b67e599c954f4e4277c035ebcc9ad0686616c"
 
@@ -20133,6 +20137,10 @@ file = "config/blockswap/known_states/goety/deepslate_soul_brazier.json5"
 hash = "d7c90ff395e19efa223428f59cd31e378e811353010be8c85f22f18ea535b0d7"
 
 [[files]]
+file = "config/blockswap/known_states/goety/deepslate_throne.json5"
+hash = "df7b4732ebf3dde4d92ad71ed567738cb0e993cffe591f78217c5306ca0c0b56"
+
+[[files]]
 file = "config/blockswap/known_states/goety/detritus.json5"
 hash = "723b6c54cdc262802abae3ae6b7220e227b52b0be7b189c06acb7659eb77cc1b"
 
@@ -20371,6 +20379,10 @@ hash = "7b62ebb7aa0876ce6e444924ba131df8f825b9da0bdb2e2f9df1ea0dcd5af6e5"
 [[files]]
 file = "config/blockswap/known_states/goety/freezing_lamp.json5"
 hash = "4bd078c0de965b4b84172b81e90c61a3495f49840cdb06d0829e68c63e6d66f9"
+
+[[files]]
+file = "config/blockswap/known_states/goety/frosted_throne.json5"
+hash = "e81f8ba3716810845709f4cc94d326f1e8a2a30610e1132212f675b32d2f78da"
 
 [[files]]
 file = "config/blockswap/known_states/goety/frosty_carpet.json5"
@@ -20633,6 +20645,10 @@ file = "config/blockswap/known_states/goety/highrock_stairs.json5"
 hash = "d3f4a942fc4af619ed45b5d7e1f13542a276ec5555ae92beeff677c6d2240a3c"
 
 [[files]]
+file = "config/blockswap/known_states/goety/highrock_throne.json5"
+hash = "ece559d1a6de0aff48ff4c533af8b15d1df2726daccddf12ec0cd5f65bab356c"
+
+[[files]]
 file = "config/blockswap/known_states/goety/highrock_wall.json5"
 hash = "40ed084f53786b278f333508ba62e75318937d1ac738a837165afe481bff129c"
 
@@ -20753,6 +20769,10 @@ file = "config/blockswap/known_states/goety/marble_stairs.json5"
 hash = "6af0fb10555117fe752aba6e4d4b6c69b6b2e3d033b8f5377b2e6ef08e309d4d"
 
 [[files]]
+file = "config/blockswap/known_states/goety/marble_throne.json5"
+hash = "66488777069ef728693d19f0cd94352690614dba77de5f73efa4e30d9dbeda3f"
+
+[[files]]
 file = "config/blockswap/known_states/goety/marble_wind_blower.json5"
 hash = "9c432b5a5aced7d8261f44f192fa8abedaf62c853625dafd2e62ab606d5dbd08"
 
@@ -20815,6 +20835,10 @@ hash = "31bf8c2d8819ccf769b5d97ad688faeecd7c07fc64d0b0f94ff4493475047c07"
 [[files]]
 file = "config/blockswap/known_states/goety/necro_brazier.json5"
 hash = "3a38258ac70381fb541f4d5dfa5458a267c709e8d12e5445a0b7b292af0ededd"
+
+[[files]]
+file = "config/blockswap/known_states/goety/necrotic_gold_candlestick.json5"
+hash = "2966280126c178b9ff1b3dbbc2f8e64f784484c78ae5c3016928621d616e6765"
 
 [[files]]
 file = "config/blockswap/known_states/goety/nether_brick_brazier.json5"
@@ -20915,6 +20939,10 @@ hash = "4564e4ce0058d8fe70b9271c62b33a43e9e3662fed9fc6f66b2302aa646177ce"
 [[files]]
 file = "config/blockswap/known_states/goety/ominous_stone_tiles.json5"
 hash = "353a8630ede05b33682cbe3d1006228b2e898e45eaed6cc845a32d501b7dd2c5"
+
+[[files]]
+file = "config/blockswap/known_states/goety/ominous_throne.json5"
+hash = "6ef51122902ad3cf473723e5fa3d16642cc0fd19eac2e95fb0e3e84f3055631c"
 
 [[files]]
 file = "config/blockswap/known_states/goety/overgrown_roots.json5"
@@ -21325,6 +21353,10 @@ file = "config/blockswap/known_states/goety/royal_carpet_inner_corner.json5"
 hash = "2a3a03d5ef6ae9a8f5a5d2898c3091d1b01d455f1e8241ec6f62ff555321ed3f"
 
 [[files]]
+file = "config/blockswap/known_states/goety/royal_throne.json5"
+hash = "beb89167591c241e8bde6ba627d492dda92429c1ef715c1b05e89a0e41df0bc9"
+
+[[files]]
 file = "config/blockswap/known_states/goety/rusty_iron_bars.json5"
 hash = "5200d2efe4bf5f570af8da787cc97e55965bd94097089b471af0d634ef029cce"
 
@@ -21431,6 +21463,10 @@ hash = "1e8aefa520492892d815e5ca0ff7381aca102ccc9682c58b7752ae62d70484c1"
 [[files]]
 file = "config/blockswap/known_states/goety/shade_stone_stairs.json5"
 hash = "67f3e06ce37e35460c5d277d5bcee1ba13a29a869227c511da8e891ac4cb821b"
+
+[[files]]
+file = "config/blockswap/known_states/goety/shade_throne.json5"
+hash = "f411c30c5e11d8d9175a31017fa8eedbe39fda5455839c6d56ff63a7aaa7d747"
 
 [[files]]
 file = "config/blockswap/known_states/goety/shade_tiles.json5"
@@ -22013,6 +22049,10 @@ file = "config/blockswap/known_states/goety/stone_soul_brazier.json5"
 hash = "9392ad992c0ffc6bc6eb6ca7d2a8b2e75cd84aa5b44bde2f94857ba4de48d993"
 
 [[files]]
+file = "config/blockswap/known_states/goety/stone_throne.json5"
+hash = "5bc79f1a9a4f7a82506b2f1d26015bb4f4926e208eeeec393b216f9c57a4b432"
+
+[[files]]
 file = "config/blockswap/known_states/goety/stripped_haunted_log.json5"
 hash = "cb0734695494b34a6e2260f46e9ab0a451e2dc2cef401cb84d88d233807abb81"
 
@@ -22167,6 +22207,10 @@ hash = "9adf0499237385aa22e91deb5f9bdecea63970f232af298068372910f349fb3a"
 [[files]]
 file = "config/blockswap/known_states/goety/wall_iron_dungeon_torch.json5"
 hash = "fab0023191863880589b9b3d0ab22007060287aef964d1bcdb4f75ba058af15b"
+
+[[files]]
+file = "config/blockswap/known_states/goety/wall_necrotic_gold_candlestick.json5"
+hash = "10c9d393c3fc057dbec69b182c76941e0a3e5ea85c53dd36e182192a0e949968"
 
 [[files]]
 file = "config/blockswap/known_states/goety/wall_redstone_golem_skull.json5"
@@ -67106,7 +67150,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "5718fcc98b0005915357b4a8aa6041816952fc313d23fccebf4bd7265ec69967"
+hash = "3669bc8d10016f9d820100f12304a4560c7ba5237c0ca6df190ec2d65e62c358"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -67399,6 +67443,10 @@ hash = "5b7eb4d0b3154e2ef034d471caa776204214c4d06f1f0bc90d72d9e8e77a3c14"
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$snowy_slopes.cfg"
 hash = "1682eeeda61ff74431a882e990b4d299bbd832b1b2c90bc95f96dba3d2714ff3"
+
+[[files]]
+file = "config/forgeendertech/Biomes/minecraft$snowy_taiga.cfg"
+hash = "1a887c2ff5bb5233c2508defa19d723175d1d3bb8451edbb0eeb1330cee1af0e"
 
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$soul_sand_valley.cfg"
@@ -67950,7 +67998,7 @@ hash = "a8e8f41bdf903b5aa132089ee74ba7bc82cad974af4336379ae5c6c913b719d5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "bc435c22a784af61b8d7c3e8c29679a2bf38bfd5700bbecf2123dfedf553e925"
+hash = "5a017a42564adeaaa9b9354e7f861094e0dfbfaaeb5a306080ed89ed6481ada9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
@@ -68314,7 +68362,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "87516fe669977303fcccead8dce40735b11849075aae412e31abadb055a68798"
+hash = "b89feae0ffae0bb37d38694a307d86d2806a1a1d74a2af5196f4a56ee950de26"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -68519,6 +68567,10 @@ hash = "e51d2d3b75af4146de8a8007491c163757db601eb3bd4f21aff092cf9ca10bf7"
 [[files]]
 file = "config/jei/world/local/New_World__31/lookupHistory.ini"
 hash = "cfe4328bdfa12a0f4b8c006c029d8bc6b08691cca7badf84d1f77cc3514e887c"
+
+[[files]]
+file = "config/jei/world/local/New_World__35/lookupHistory.ini"
+hash = "6ee748a8660d51bf71cb99c12f2d2aaa315041833a7c0ea4d3ef15a1fb6ac7ba"
 
 [[files]]
 file = "config/jei/world/local/New_World__38/bookmarks.ini"
@@ -68742,7 +68794,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "475c44348c31d5921dd1b7e58608d60212a1b4c5cd34579efecf57d1bebd0de5"
+hash = "e6645d37019f87fe9483216e6b27401876a2d3d453216f3ae4ad0775ccb2a0b7"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68858,7 +68910,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "3c962fb990db27a90b8561333ae0d3523371db34c0e34bb336ef5844a736a026"
+hash = "c9d2b89f70c9d83f0d88f57a279dd2cb7ee29d1d59841a1a6b769b270e2ecaa2"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68866,7 +68918,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "be44ba44a5b763203a7670629dfabf4aec55025949f4515ad02d79e09984438b"
+hash = "425f067c38a0e20a8e56dc4eca095692a4cea3f63322b08da1d95a7bfa9134a1"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -68961,6 +69013,14 @@ file = "config/paxi/resourcepacks/Better SB Upgrades.zip"
 hash = "1c699bac1d953f076365cb30047da1072030b7d9a75868df12cf769b145f987d"
 
 [[files]]
+file = "config/paxi/resourcepacks/Better Villagers.zip"
+hash = "2cfb3c6b821a49e189da0e495640e2f86a1f3d6c86cee6781279a1f1fe55f25c"
+
+[[files]]
+file = "config/paxi/resourcepacks/Better illagers.zip"
+hash = "db3ac585283ee67d2659b9351d550e7af2fedadb35b3a0b2c0fd2ad20149c804"
+
+[[files]]
 file = "config/paxi/resourcepacks/Better_hunters_2.zip"
 hash = "e5a9a039b518f160a63f8969fd461e276920b80c142bf650cbf06af20247c532"
 
@@ -68979,6 +69039,10 @@ hash = "c7dd29c657c4e8a15661ac9283fa8749d92be0ee1c6eda5188262261e12cf3cb"
 [[files]]
 file = "config/paxi/resourcepacks/CreateSophBackpacks.zip"
 hash = "cb63a5a33c142ce588f1df020c7d4615f57f0e312064e03d4e7901060803905d"
+
+[[files]]
+file = "config/paxi/resourcepacks/Create_Styled_AdAstra_Plates.zip"
+hash = "b0ff9ec4d6512c8389b3666a8f5356f833ebb761f436e268ad745d855816b4f3"
 
 [[files]]
 file = "config/paxi/resourcepacks/Eternal Ancient Coins/assets/ancientcoins/lang/en_us.json"
@@ -69015,6 +69079,10 @@ hash = "d53bbc2a0bbf07c162dd37ab0e5cfb53ead97024c7ce782edab2e352abf5e0f6"
 [[files]]
 file = "config/paxi/resourcepacks/From-The-Fog-1.20-v1.9.2-Data-Resource-Pack.zip.zip"
 hash = "cc3cf6f0724a8fc3d5275f895a62fd2d785b6ae61185d2068c317f440890195b"
+
+[[files]]
+file = "config/paxi/resourcepacks/Hazardous Hoglins.zip"
+hash = "c5593e349068ad523d3d53f492707d1013d1dc5a3df47b1623115fabac1fa735"
 
 [[files]]
 file = "config/paxi/resourcepacks/ImmersiveResprites-1.1.zip"
@@ -69139,6 +69207,18 @@ hash = "06e6b0906b1d554f18101dc595672ed25883140aa2333e2ec6b69c7deffa306e"
 [[files]]
 file = "config/paxi/resourcepacks/waystones_1.20.1_update_5.zip"
 hash = "274db09c0cfeaba5c7c4ba2e55925e90e6642d4b519d1b819a91a8f93499a625"
+
+[[files]]
+file = "config/paxi/resourcepacks/§6Immersive§8_§6Interfaces§8.zip"
+hash = "56c76d73030fb50223560627caefa75e57ee9652c641da78cb7f2fcd2e194eae"
+
+[[files]]
+file = "config/paxi/resourcepacks/§6Immersive§8_§6Interfaces§8_§6Modded§8.zip"
+hash = "a604c71750ed8ec5dfab6f33122bfb8cd604fdb6b5bb3aac3ec46040ecc1dac4"
+
+[[files]]
+file = "config/paxi/resourcepacks/§dPolymorph §5Reforged 1.20.zip"
+hash = "d90ce28d220b274ac02a9e6f3328bb67dbbf0f47a69c467c474f700f34bdb3a4"
 
 [[files]]
 file = "config/perception.yaml"
@@ -69534,11 +69614,7 @@ hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
 
 [[files]]
 file = "config/structurify.json"
-hash = "1292a53631779c816574ce487a76d260edc7ca9628d79db993f9bab5d9f90bbf"
-
-[[files]]
-file = "config/structurify/structurify_backup_2026-04-15_15-32-58.json"
-hash = "8d29dbb3aa1c5cda99eecec9176c32a98511d17b4803d42b00f932d3043448c6"
+hash = "306f5f535d8d135a21edd87cc4bf5508cf63611a44078a292d7e5f5642a20fbe"
 
 [[files]]
 file = "config/structurify/structurify_backup_2026-04-15_17-59-58.json"
@@ -69555,6 +69631,10 @@ hash = "18da195aa33f3cc1c040129813ad6dca03c829bfd2ac0911443e7ec83aaa3534"
 [[files]]
 file = "config/structurify/structurify_backup_2026-04-17_20-02-43.json"
 hash = "7bf90b37a05777d01fcc60b49d7b4e5c509987803f73f684812a8c0f84eb99cf"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-04-20_11-52-06.json"
+hash = "1292a53631779c816574ce487a76d260edc7ca9628d79db993f9bab5d9f90bbf"
 
 [[files]]
 file = "config/structurify_dump.json"
@@ -76130,7 +76210,7 @@ metafile = true
 
 [[files]]
 file = "mods/goety.pw.toml"
-hash = "4154f931d7be9ec7b67087c5a20c1b65b30c497c1b436bb086ebec657de5a48a"
+hash = "614af4fe726be5a5d830a0765a195024e7b6b44a32331617af1c79191632a147"
 metafile = true
 
 [[files]]

@@ -1,25 +1,25 @@
-filename = 'goety-2.5.52.2.jar'
+filename = 'goety-2.5.52.3.jar'
 name = 'Goety'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Goety - 2.5.52.2'
+x-prismlauncher-version-number = 'Goety - 2.5.52.3'
 
 [download]
-hash = '7553d15e18e2ebda45fd38249d14d9da4444a63d'
+hash = '31ccfac1ecaa72fe3af391160a9654a80fdbab4a'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7935022
+file-id = 7953800
 project-id = 586095
 
 [[x-prismlauncher-dependencies]]
-addonId = '306770'
+addonId = '309927'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '309927'
+addonId = '306770'
 type = 'REQUIRED'

@@ -154,6 +154,7 @@
 						value: "minecraft:beds"
 					}
 				}
+				title: "Bed"
 				type: "item"
 			}]
 			title: "Cozy and Comfortable"
@@ -785,6 +786,30 @@
 			}]
 			x: 4.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["05B83606164A1853"]
+			description: [
+				"Did you know? By putting a banner in a crafting grid with your bed, you can apply the pattern to it, much like you can a shield. This is purely aesthetic, but really nice for giving your home just that much more personality."
+				"If you ever want to remove the banner, simply put the bed in a crafting grid on its own."
+			]
+			hide_until_deps_complete: true
+			id: "1B61076D52268600"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3995166A6E7BA481"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "238E587545CE1FAB"
+				item: "bedspreads:decorated_bed"
+				type: "item"
+			}]
+			title: "A Bit More Personality"
+			x: -1.0d
+			y: -2.5d
 		}
 	]
 	title: "Fresh Beginnings"
