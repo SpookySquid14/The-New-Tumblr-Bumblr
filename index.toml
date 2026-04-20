@@ -7113,6 +7113,10 @@ file = "config/blockswap/known_states/bbb/weathered_cut_copper_layer.json5"
 hash = "dd064b1739eead012eab148bbe113a927af9ff1395a0af26a7032af9ec777fa8"
 
 [[files]]
+file = "config/blockswap/known_states/bedspreads/decorated_bed.json5"
+hash = "bf62e61565f763b3509ff5a1d62241c6f838c1890a9939465f187626d489396c"
+
+[[files]]
 file = "config/blockswap/known_states/bellsandwhistles/andesite_bogie_steps.json5"
 hash = "b264ee831864ceec2fa285485357546d07eb5afa31a1a4754535f0adb5e8219e"
 
@@ -67102,7 +67106,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "f7297243c3fa47addf8a4957dd59469c4b4da700b42536c001f285dca954223a"
+hash = "5718fcc98b0005915357b4a8aa6041816952fc313d23fccebf4bd7265ec69967"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68738,7 +68742,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "34d5d7f4072971abd26a595bfdfae7e681ea6885af7005f74f5ce562a59747c9"
+hash = "475c44348c31d5921dd1b7e58608d60212a1b4c5cd34579efecf57d1bebd0de5"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68854,7 +68858,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "8020d811aeba1a308fc031fad628eacacf27ba6a69512a3738b1767a96169718"
+hash = "3c962fb990db27a90b8561333ae0d3523371db34c0e34bb336ef5844a736a026"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68862,7 +68866,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "0bc2cb7bb31e91ba3489f1578deb2a7856fe04ee5893c4f12049b01d03f3dc20"
+hash = "be44ba44a5b763203a7670629dfabf4aec55025949f4515ad02d79e09984438b"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -75200,6 +75204,11 @@ hash = "9d86fa7dc8e031e06368795ed2aa93ab0e5f61521089106cdeba6c5136cbde24"
 metafile = true
 
 [[files]]
+file = "mods/bedspreads.pw.toml"
+hash = "1e9011be1b5f06fbce773f0641ea56905c18f39efe878f04ddc82d3557829bd6"
+metafile = true
+
+[[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "dcb0a48a6c7389c885436acba9b5ed78fec041e1455de7d91dd62d7690d35d41"
 metafile = true
@@ -77781,6 +77790,10 @@ hash = "56c76d73030fb50223560627caefa75e57ee9652c641da78cb7f2fcd2e194eae"
 [[files]]
 file = "resourcepacks/§6Immersive§8_§6Interfaces§8_§6Modded§8.zip"
 hash = "a604c71750ed8ec5dfab6f33122bfb8cd604fdb6b5bb3aac3ec46040ecc1dac4"
+
+[[files]]
+file = "resourcepacks/§dPolymorph §5Reforged 1.20.zip"
+hash = "d90ce28d220b274ac02a9e6f3328bb67dbbf0f47a69c467c474f700f34bdb3a4"
 
 [[files]]
 file = "sync.sh"
