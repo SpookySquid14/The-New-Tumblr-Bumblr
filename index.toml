@@ -66994,7 +66994,7 @@ hash = "5714180eca7483d789b4aa0d01a69e82ccbb69c2cb687efc3f0c38ec8ed72a88"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "5672f2ca2542f1deea9682cbbc7ac7e5cb819299783b6b2ac531fb931209fb15"
+hash = "9101ef2e4464fdff0d17917dc62d9f33385416d94d387a9cb8de52ea9d0de6bb"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -67150,7 +67150,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "3669bc8d10016f9d820100f12304a4560c7ba5237c0ca6df190ec2d65e62c358"
+hash = "0b6dda6f93f268631cd694c1081a717b7aaec4b447e33aa1b6b3acb4bacbae74"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -67407,6 +67407,10 @@ hash = "bbd981f62d90335ea2335436a700ee18b78980740fe791a1f2b12e3e00f96c72"
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$ocean.cfg"
 hash = "9c7c2cb4db28d427bcd9d05a597e5310acf3e438af02b8a6905ce0a5df004c51"
+
+[[files]]
+file = "config/forgeendertech/Biomes/minecraft$old_growth_birch_forest.cfg"
+hash = "d5bee71b90718cce905fbcf4eb68e81bde2089d662e1ad2c8db9061cfa6a5bd6"
 
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$old_growth_pine_taiga.cfg"
@@ -68794,7 +68798,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "e6645d37019f87fe9483216e6b27401876a2d3d453216f3ae4ad0775ccb2a0b7"
+hash = "47171f9e9473799dbf5070e6676be8a80ffe77e9dd3823d50293bc3d88a5b9ba"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68910,7 +68914,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "c9d2b89f70c9d83f0d88f57a279dd2cb7ee29d1d59841a1a6b769b270e2ecaa2"
+hash = "4d8709b9eafe96c087507e8113cff63bdd9ff93e12559a4998113a21735af2ba"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68918,7 +68922,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "425f067c38a0e20a8e56dc4eca095692a4cea3f63322b08da1d95a7bfa9134a1"
+hash = "8f2f02a8eba8f10e471cefb5491f27ba34349721b5e20dbb602a339bbb6f1cf0"
 
 [[files]]
 file = "config/particular-common.toml"
