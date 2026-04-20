@@ -1481,6 +1481,10 @@ file = "config/betteroceanmonuments-forge-1_20.toml"
 hash = "3fc30fb36ba5fc5cabbecb82aa5a9800d7e30539212ec88246be179ede48f382"
 
 [[files]]
+file = "config/betterthirdperson-common.toml"
+hash = "1cae9855e777afbbdca5cd858bc66d10069c902fbd1b8d073cbedace3fa71779"
+
+[[files]]
 file = "config/biomemusic.json"
 hash = "4e1b2d5c7baa608724db6af8b788fa5fc32aaa0a9a55cd75aeca6bbf5efeb8c6"
 
@@ -67086,7 +67090,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "eae4d8f64e282254482f0778d4c24956b5eb7f7d3b0585c4248b1c10c49b1833"
+hash = "b48dfcafb89af5ed1f9b94efde81fa4e1666770d9c02b6bd5631611d01996f5b"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -67131,6 +67135,10 @@ hash = "29c354279f36049c2cda368882d498dc20d8fc9193899e42824b75f406e33ade"
 [[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "b48fa242f155a033ff8752de91fb483268763ce47eadc762db575b76eec53453"
+
+[[files]]
+file = "config/firstperson.json"
+hash = "6d9d8a3708ccf453fb710f4e10591cedd4d1767acde97c7da7bbc2cd2c4d4101"
 
 [[files]]
 file = "config/fishingreal-common.toml"
@@ -67315,6 +67323,10 @@ hash = "117c729f5df7529318eb8b8e0b7057570751f5ab2eaea6d03623b889b88c2900"
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$jungle.cfg"
 hash = "922cc1853936a3f43a6e28dbdc4803078a1810a70e34ddf03e8faa63186c8f78"
+
+[[files]]
+file = "config/forgeendertech/Biomes/minecraft$lukewarm_ocean.cfg"
+hash = "310187161dc7ef557a895d3bb5edceacfbb8f37d394ec6580d1197ff36906beb"
 
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$mangrove_swamp.cfg"
@@ -67531,6 +67543,10 @@ hash = "cf546d1f48ffd3390034d5473fefc3a0114401a2ae3b94f86916fdf09cc0c6de"
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$joshua_desert.cfg"
 hash = "e240996aaf4cf4976b5d1c33a0a7c6365ae3e7b350ea26b8f0ffac170403413a"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$magnolia_woodland.cfg"
+hash = "a439a53f18e476554f6b9e7e7cfb1130fed3fc7fdc7e8cd81b17d0cf6562651a"
 
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$marsh.cfg"
@@ -68274,7 +68290,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "cde665ea0ede2b7de3a68228fb1dcd227430aca05bc17ca594dae1b30b283205"
+hash = "87516fe669977303fcccead8dce40735b11849075aae412e31abadb055a68798"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -68478,7 +68494,7 @@ hash = "e51d2d3b75af4146de8a8007491c163757db601eb3bd4f21aff092cf9ca10bf7"
 
 [[files]]
 file = "config/jei/world/local/New_World__31/lookupHistory.ini"
-hash = "37fdef325484f9896b375be12bc50a7d1de4e8c2172cddbd3f9abcb7c60f426a"
+hash = "cfe4328bdfa12a0f4b8c006c029d8bc6b08691cca7badf84d1f77cc3514e887c"
 
 [[files]]
 file = "config/jei/world/local/New_World__38/bookmarks.ini"
@@ -68637,6 +68653,14 @@ file = "config/mebahelcreaturesdraugr/spawn_rate_config.json"
 hash = "d0014428f61961ffc41baebf61b7a63bbe313148d262689e538792e0c005acb7"
 
 [[files]]
+file = "config/mebahels-skeleton-revival/entity-type-that-should-spawn-head_config.json"
+hash = "0c441967944602dcf042266249ba22fbf337b86fc1ea07c52c98bbd16590a8e8"
+
+[[files]]
+file = "config/mebahels-skeleton-revival/mebahels-skeleton-revival_config.json"
+hash = "34721d1582bea70986c17fde4b5914f7c137cc1af37ccdebe279e470a11169f1"
+
+[[files]]
 file = "config/merequester-common.toml"
 hash = "30c82bc5cb0c8a1b855a57c15de4e5111bd334da0208da2154dcd969d9702c9d"
 
@@ -68694,7 +68718,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "637cb4ce4fb570d2d2db6e40da3bc6cbf4070542b8d7174091254ef4e141671e"
+hash = "33b4f1d50cc87a3f99d859a06b29075529eda7b839c98c94fc4e09c981d1f515"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68810,7 +68834,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "7addc15536815a1df45673196c2c8e2f76ddd59d818fd1bee278976150fa8340"
+hash = "6f25ecbcef8a90692699bc64cb7a0a31407697820eecc9fad5eb045c566c9622"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68818,7 +68842,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "e46af92f7801433193cf3d874888f0e6e3fb3a3fdbf2bb9b39fe18aae5be0e39"
+hash = "315c12dd8311ff69807b21539d4a587c53e153a60c279c65219cace9bfb4066b"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69174,7 +69198,7 @@ hash = "4e2e205c6801bd7f6cdbc7dbb98fb462108b4b9b5d26262b748659c5990a5f28"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "ad7f5768f45b93cbfc0ab0983523273dffefb64147e926d9a48b5a39fec675d2"
+hash = "9a705aa3a8d7ed5d119e91f46e5e70751f6ddc154d8385cb3fb89ff79f192b2f"
 
 [[files]]
 file = "config/quested-common.toml"
@@ -74853,6 +74877,10 @@ file = "kubejs/server_scripts/Modpack/Tags/weeping_angels.js"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "kubejs/server_scripts/Modpack/wolf_attack_skulls.js"
+hash = "a55031eb0b54685cb888f2e8a2501d9e64b027de4477a8048a43c9ca1a99e2fc"
+
+[[files]]
 file = "kubejs/server_scripts/Pet_Spheres/Recipes/pokeball.js"
 hash = "215cba56392dfa895ddd957a32ba28439bb091d3bb8e1a6a418d54a9c320f748"
 
@@ -75209,6 +75237,11 @@ metafile = true
 [[files]]
 file = "mods/better-mob-combat.pw.toml"
 hash = "890bee72ff6b9195926a5f809d0429eb0a2234470423edc17a8105079c10923b"
+metafile = true
+
+[[files]]
+file = "mods/better-third-person.pw.toml"
+hash = "e8d0dae12aaa8ec68a9820f6842fa54d1f9615a24326fce9463916b90471b495"
 metafile = true
 
 [[files]]
@@ -76984,6 +77017,11 @@ metafile = true
 [[files]]
 file = "mods/sinytra-connector.pw.toml"
 hash = "a6f1c215a654b26511a2e93aabe9f5f8479f8afdb98968083a10febc8d484b30"
+metafile = true
+
+[[files]]
+file = "mods/skeleton-uses-custom-bow.pw.toml"
+hash = "58c9b8be91e7561b96e152f0b4225a2e0e7ed1ebaa3ab2071466ecb1ff370df4"
 metafile = true
 
 [[files]]

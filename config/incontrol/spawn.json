@@ -37,7 +37,7 @@
   },
   {
     "phase": "after_day_25",
-    "mob": ["mebahelcreaturesdraugr:draugr_wight","mebahelcreaturesdraugr:draugr_scourge","born_in_chaos_v1:mother_spider"],
+    "mob": ["mebahelcreaturesdraugr:draugr_wight","mebahelcreaturesdraugr:draugr_scourge","born_in_chaos_v1:mother_spider","born_in_chaos_v1:bonescaller"],
     "when": "onjoin",
     "result": "default"
   },
@@ -49,7 +49,7 @@
   },
   {
     "phase": "after_day_75",
-    "mob": ["saintsdragons:raevyx","saintsdragons:varasuchus"],
+    "mob": ["saintsdragons:raevyx","saintsdragons:varasuchus","born_in_chaos_v1:supreme_bonescaller"],
     "when": "onjoin",
     "result": "default"
   },
