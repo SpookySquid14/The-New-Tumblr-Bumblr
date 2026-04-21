@@ -67150,7 +67150,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "7ef5915b95ec4cde0778fcc6713f978f128da6fda05d42420aa6ad5267d5bd9b"
+hash = "f02607639e5e5ee608c366d91c9d4b225242ece98641e7d1983cc9522ae7dad5"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68589,6 +68589,10 @@ file = "config/jei/world/local/New_World__38/lookupHistory.ini"
 hash = "6057476dbb8a353ea6dae27be942b72d5827c4631c8a09e6f78288b9a75e2204"
 
 [[files]]
+file = "config/jei/world/local/New_World__39/lookupHistory.ini"
+hash = "0c02da25326c6abff2342798c26bcb12136afabf804d5a8133c063b27a11a73d"
+
+[[files]]
 file = "config/jei/world/local/New_World__4/bookmarks.ini"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -68626,7 +68630,7 @@ hash = "469c6098497bd15c7a593866cf4bc0659834df7fc198524f62da7254523d886d"
 
 [[files]]
 file = "config/jei/world/local/Playtest_2/lookupHistory.ini"
-hash = "fc73978d0867aa0c35c4b86bfc1ee9bdd15c119303706bc396a9646993804d62"
+hash = "d6b05abf8de37d3649c2284f5fd2b84cb497150fe26f33a2363fd81433e5c618"
 
 [[files]]
 file = "config/jei/world/local/Structure_Hopping/lookupHistory.ini"
@@ -68802,7 +68806,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "19718f103068b1b867c06f7a273787054900ead584dd32428f63e4fe53d3c8fa"
+hash = "0c30494897ae65a9843e72e07dee0b40a1d5d422faea443c141869bbbf03623b"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68918,7 +68922,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "d70af04fb086c091172445ae80bf7987177e938128368d992cd9ab6a8f8b4fbb"
+hash = "ff688f1d8c81e0c17a6d92354000f3c63193513ec7dc23e9f101ee54c45ee0cb"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68926,7 +68930,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "6db7c716daea0eacf3e89cae759bd7007816ec81e1e03ef8d83f69f9078d8fbb"
+hash = "aecb7f0296053e99a20e8398e386509c2c295015c5d71aad9f32f7efe35b060b"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -68938,7 +68942,7 @@ hash = "31aad454733f156b1b1666989899b7fd86455308b3e0e7e3ce83098525108ef9"
 
 [[files]]
 file = "config/patchouli-client.toml"
-hash = "3b6236845f6a5ff8804487b63b0d74305b91316dc9a008362838607b0be3bd8e"
+hash = "937182b2813e129f5d05ae313d5321069eebd0350151b254e74b1560ed3d764d"
 
 [[files]]
 file = "config/paxi/datapack_load_order.json"
@@ -69023,10 +69027,6 @@ hash = "1c699bac1d953f076365cb30047da1072030b7d9a75868df12cf769b145f987d"
 [[files]]
 file = "config/paxi/resourcepacks/Better Villagers.zip"
 hash = "2cfb3c6b821a49e189da0e495640e2f86a1f3d6c86cee6781279a1f1fe55f25c"
-
-[[files]]
-file = "config/paxi/resourcepacks/Better illagers.zip"
-hash = "db3ac585283ee67d2659b9351d550e7af2fedadb35b3a0b2c0fd2ad20149c804"
 
 [[files]]
 file = "config/paxi/resourcepacks/Better_hunters_2.zip"
