@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enchanting"
+	group: "48841A8C395C40D5"
+	id: "23E8C54ACA2DB69B"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "750F9DC2755C097F"
+		tasks: [{
+			id: "01CF87005ACEC195"
+			item: "minecraft:enchanting_table"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Enchanting"
+}
