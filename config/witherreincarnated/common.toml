@@ -1,6 +1,6 @@
 
 ["WITHER: STATS"]
-	"Health (default: 600.0)" = 600.0
+	"Health (default: 600.0)" = 650.0
 	"Movement Speed (default: 0.0675)" = 0.0675
 	"Wither Skull Damage (default: 16.0)" = 16.0
 	"Wither Skull Explosion Damage (default: 12.0)" = 12.0
@@ -21,7 +21,7 @@
 	"Max Charge Cooldown (Final Phase) (in ticks, default: 200)" = 200
 	"Disable Laser Attack (default: false)" = false
 	"Min Laser Cooldown (in ticks, default: 300)" = 300
-	"Max Laser Cooldown (in ticks, default: 900)" = 900
+	"Max Laser Cooldown (in ticks, default: 900)" = 1200
 	"Max Laser Length (default: 128)" = 128
 	"Disable Barrage Attack (default: false)" = false
 	"Min Barrage Cooldown (in ticks, default: 1200)" = 1200
@@ -30,7 +30,7 @@
 ["WITHER: OTHER"]
 	"Changes Time (default: true)" = true
 	"Possesses Nearby Undead (default: true)" = true
-	"Attacks Produce Fire (default: true)" = true
+	"Attacks Produce Fire (default: true)" = false
 	"Fire Ignores Mob Griefing (default: false)" = false
 	"Vanilla Phases (default: false)" = false
 

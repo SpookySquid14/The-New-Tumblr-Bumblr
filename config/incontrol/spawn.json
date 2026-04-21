@@ -24,14 +24,27 @@
     "result": "default"
   },
   {
+    "phase": "after_day_5",
+    "mob": ["born_in_chaos_v1:siamese_skeletons"],
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
+    "phase": "after_day_10",
+    "mob": ["born_in_chaos_v1:door_knight","born_in_chaos_v1:zombie_clown","born_in_chaos_v1:zombie_fisherman","born_in_chaos_v1:zombie_lumberjack"],
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
     "phase": "after_day_15",
-    "mob": ["mebahelcreaturesdraugr:draugr","mebahelcreaturesdraugr:draugr_archer","mebahelcreaturesdraugr:skeleton_warrior","irons_spellbooks:necromancer","born_in_chaos_v1:dark_vortex","born_in_chaos_v1:zombie_bruiser","born_in_chaos_v1:skeleton_thrasher"],
+    "mob": ["mebahelcreaturesdraugr:draugr","mebahelcreaturesdraugr:draugr_archer","mebahelcreaturesdraugr:skeleton_warrior","irons_spellbooks:necromancer",
+    "born_in_chaos_v1:dark_vortex","born_in_chaos_v1:zombie_bruiser","born_in_chaos_v1:skeleton_thrasher","born_in_chaos_v1:bloody_gadlfy","born_in_chaos_v1:swarmer","born_in_chaos_v1:glutton_fish"],
     "when": "onjoin",
     "result": "default"
   },
   {
     "phase": "after_day_25",
-    "mob": ["mebahelcreaturesdraugr:draugr_wight","mebahelcreaturesdraugr:draugr_scourge","born_in_chaos_v1:mother_spider","born_in_chaos_v1:bonescaller"],
+    "mob": ["mebahelcreaturesdraugr:draugr_wight","mebahelcreaturesdraugr:draugr_scourge","born_in_chaos_v1:mother_spider","born_in_chaos_v1:bonescaller","born_in_chaos_v1:dire_hound_leader","born_in_chaos_v1:spiritof_chaos"],
     "when": "onjoin",
     "result": "default"
   },
@@ -50,7 +63,8 @@
   {
     "mob": ["mebahelcreaturesdraugr:draugr","mebahelcreaturesdraugr:draugr_archer","mebahelcreaturesdraugr:skeleton_warrior","mebahelcreaturesdraugr:draugr_wight","mebahelcreaturesdraugr:draugr_scourge","mebahelcreaturesdraugr:infernal_draugr",
         "irons_spellbooks:necromancer",
-        "born_in_chaos_v1:dark_vortex","born_in_chaos_v1:zombie_bruiser","born_in_chaos_v1:skeleton_thrasher","born_in_chaos_v1:mother_spider","born_in_chaos_v1:fallen_chaos_knight","born_in_chaos_v1:bonescaller","born_in_chaos_v1:supreme_bonescaller"],
+        "born_in_chaos_v1:dark_vortex","born_in_chaos_v1:zombie_bruiser","born_in_chaos_v1:skeleton_thrasher","born_in_chaos_v1:mother_spider","born_in_chaos_v1:fallen_chaos_knight","born_in_chaos_v1:bonescaller","born_in_chaos_v1:supreme_bonescaller",
+      "born_in_chaos_v1:siamese_skeletons","born_in_chaos_v1:door_knight","born_in_chaos_v1:zombie_clown","born_in_chaos_v1:zombie_fisherman","born_in_chaos_v1:zombie_lumberjack","born_in_chaos_v1:dire_hound_leader","born_in_chaos_v1:spiritof_chaos"],
     "when": "onjoin",
     "result": "deny"
   }

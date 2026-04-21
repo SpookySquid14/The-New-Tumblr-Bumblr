@@ -319,9 +319,9 @@
 	poison_breath_damage = 1.4
 	#Combat taming
 	#Range: 0.0 ~ 100.0
-	taming_chance_base = 5.0
+	taming_chance_base = 20.0
 	#Range: 0.0 ~ 100.0
-	taming_chance_hearty = 3.0
+	taming_chance_hearty = 30.0
 	#Range: 0.0 ~ 100000.0
 	taming_stun_health = 60.0
 	legacy_taming = false

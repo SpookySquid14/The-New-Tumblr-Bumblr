@@ -67150,7 +67150,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "f02607639e5e5ee608c366d91c9d4b225242ece98641e7d1983cc9522ae7dad5"
+hash = "cdb30ae1906dae156fe8a24c6191fb8fc2c4ad0d5a0b75af6150375bf6ebc640"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -67235,6 +67235,10 @@ hash = "26ccc59a64784c45ca5e87b05848a9b0bd0dcb02c8bcd420264a4e8a24e5c68b"
 [[files]]
 file = "config/forgeendertech/Biomes/ad_astra$infernal_venus_barrens.cfg"
 hash = "adada4bf9e99411de0ce49b8450eb9a391cf82b8f25cc5276965c19fb8c5b506"
+
+[[files]]
+file = "config/forgeendertech/Biomes/ad_astra$martian_canyon_creek.cfg"
+hash = "d94301611e49fb2d3cf24c01e7443b3efaae7d1e96fa4a18bdc22f3326be602d"
 
 [[files]]
 file = "config/forgeendertech/Biomes/ad_astra$martian_wastelands.cfg"
@@ -68370,7 +68374,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "34d5c41b895db53240bd295a64ccd69781a427c456d2193d06143cc0d4dea0d8"
+hash = "72f420c1b4245e01102e9f66b0139dd585c82f4c4eb492392ee7834dee82a8a5"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -68601,6 +68605,14 @@ file = "config/jei/world/local/New_World__4/lookupHistory.ini"
 hash = "bfd76c8b8be6c15b818b23126c96178ca6f8ebc4a69f1eb3bb457b0ffc45e7b1"
 
 [[files]]
+file = "config/jei/world/local/New_World__41/lookupHistory.ini"
+hash = "c5d3ae3aba448fe065ef951b1f3fb065a9deb2e0353f1a2cc1f155bf391d14a2"
+
+[[files]]
+file = "config/jei/world/local/New_World__42/lookupHistory.ini"
+hash = "6cd43684985f8cf0176bc31af1433a4ba593b16a60b7abf15cfcf0d4c5609b3c"
+
+[[files]]
 file = "config/jei/world/local/New_World__5/lookupHistory.ini"
 hash = "c82556b9d358c5b595955648371b88cd611e908cdf6d51b1f641debe1e8f0758"
 
@@ -68806,7 +68818,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "0c30494897ae65a9843e72e07dee0b40a1d5d422faea443c141869bbbf03623b"
+hash = "78b1a1109567468be7dcee9f8f91bccf919345d0bc035445f31e5d997d9c6266"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68922,7 +68934,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ff688f1d8c81e0c17a6d92354000f3c63193513ec7dc23e9f101ee54c45ee0cb"
+hash = "2dd68c3dc6aa0b38500f3d285ddc9879194ca40a6e9a1a358eb25c78aea2a52d"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68930,7 +68942,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "aecb7f0296053e99a20e8398e386509c2c295015c5d71aad9f32f7efe35b060b"
+hash = "272e32741d0b4b871ebe7b4d23812a6525c45bf8637a437005b9b3b867725b31"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -68977,6 +68989,10 @@ file = "config/paxi/datapacks/SkyVillages-WaystonesCompat-1.20.1-1.0.3-fabric.zi
 hash = "c86b69b0efccb8c56ab287b55d502ad4da7410b5f68c4ea6c986589bdc9ecd4d"
 
 [[files]]
+file = "config/paxi/datapacks/artifactory-datapack.zip"
+hash = "e9adce8677abb3b77dd76ef116a552680d2bf4231e637fc153e8c2866ad38f42"
+
+[[files]]
 file = "config/paxi/datapacks/cadpack-1.0.zip"
 hash = "09dfe845353e1db8097a4b9067ec5797b4201fa091d4124763fdd37a11df97e7"
 
@@ -69010,7 +69026,7 @@ hash = "8e41b8cc5e0e255f8639c0a1ee76aa37486fa0c7d406976983c53a6c56438bbb"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "12fb869cb5e450e4da690137480e571bdf13a298d6641a74abc121b09a4d1887"
+hash = "d61a236509072b182f3722372a55745978667f8cdd03eee6e8640c3e7b5d0dd0"
 
 [[files]]
 file = "config/paxi/resourcepacks/A Better GUI 2 - FTB.zip"
@@ -69386,7 +69402,7 @@ hash = "663b94c422aac951cdad68dadbd9551a7d0655cf717b75c8b0bdaa543ad2a01a"
 
 [[files]]
 file = "config/saintsdragons-attributes.toml"
-hash = "8d6dd6121ee64727985a29dab9b2941d8cc76e0ccfbe0128092c7f65033671fb"
+hash = "bed828550c8cfc2782881a86e12363bec26ca834b7ac5a1bc400f4cbd01ff579"
 
 [[files]]
 file = "config/saintsdragons/camera_tuning.json"
@@ -69913,6 +69929,14 @@ file = "config/visual_keybinder.toml"
 hash = "e7518f665703aadf28e362515617aa63d8ffc43aa2e864938e916d791c2b773c"
 
 [[files]]
+file = "config/visual_workbench.json"
+hash = "7885b862b10bf4b14d3103909971114a736d14a52e4a7994ace0d66a2474c14c"
+
+[[files]]
+file = "config/visualworkbench-client.toml"
+hash = "090cf77a65d58c12bc3e95d79f04a1f81f8859dd46cc66b82e92fcf2e2a995f1"
+
+[[files]]
 file = "config/watut-client.toml"
 hash = "a73212a23bab676fdc629005fc37f637cbb4afe5157d5fc6ff318fc3f6b9655a"
 
@@ -69978,7 +70002,7 @@ hash = "d1c9bedfc34f53675bac38c0191427175d15e3b748e1bf80e0af25d109fe9e1a"
 
 [[files]]
 file = "config/witherreincarnated/common.toml"
-hash = "f3a173996be7e6ef25843c695f56c50ba24d7b96f0cc4e6944aa19fca9be0446"
+hash = "3b25f159336b6b574647f32cd578b57f9f82f1db57c830a8edf7352caff7332a"
 
 [[files]]
 file = "config/workers-common.toml"
@@ -74209,6 +74233,10 @@ file = "kubejs/data/gateways/recipes/nether_invasion.json"
 hash = "27b988411a39513283c706a2a2fc3251f072f33c0580d67062ca1cc48cc1bd1c"
 
 [[files]]
+file = "kubejs/data/goety/artifactory/necro_staff.json"
+hash = "161bb06da9b6a6c1451088cdc49157fd2326c7f93f34c4739d2607096d8b6ce3"
+
+[[files]]
 file = "kubejs/data/guardvillagers/loot_tables/entities/guard_armor.json"
 hash = "f3872772ee6b63b69f5df1679cdf28834d5abf241a62ac6dd7e65c45eb217a79"
 
@@ -77494,6 +77522,11 @@ metafile = true
 [[files]]
 file = "mods/vista.pw.toml"
 hash = "ea2ac761ddca0a2b5082d14bebfc5475d2217ce60fa23d09e65a595efa22242c"
+metafile = true
+
+[[files]]
+file = "mods/visual-workbench.pw.toml"
+hash = "1cf12264601cef0cbc9d838043356187ab75e6a0de495d9598bfc709cbebe9c1"
 metafile = true
 
 [[files]]
