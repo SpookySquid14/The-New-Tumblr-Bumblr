@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".sync.sh"
+hash = "a03a693437e94a3479eccb9a220b8b797240081bee2527b23e2a9a163a201e30"
+
+[[files]]
 file = "config/ArmorDamageLimit.toml"
 hash = "f4531e8727cf33b87173157d0f578b4166bd979b64eafaf5f62ec7e5e8bfb95f"
 
@@ -66994,7 +66998,7 @@ hash = "5714180eca7483d789b4aa0d01a69e82ccbb69c2cb687efc3f0c38ec8ed72a88"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "9101ef2e4464fdff0d17917dc62d9f33385416d94d387a9cb8de52ea9d0de6bb"
+hash = "5a90963c6c76a82634d00f62ee96846ed9f43482adec02be60799d5e32f28e9d"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -67150,7 +67154,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "cdb30ae1906dae156fe8a24c6191fb8fc2c4ad0d5a0b75af6150375bf6ebc640"
+hash = "e279100524e19ffd6280406e838d75242fb902ba8e51220f9085443c6f327663"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68662,7 +68666,7 @@ hash = "b497bd5347383552517807b723e11184eb10f8e2ef7ce6c061cfa72ef769d4da"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_23ced690/lookupHistory.ini"
-hash = "4713974795815d8be6a950652c4f0fc74db79243b37f3d110b194fc424dc3735"
+hash = "bca6be8ef65db8ce06c86245fe24d03564a8d48f5bb522a4dd582a2ccc75a5c2"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_fbacacb7/lookupHistory.ini"
@@ -68818,7 +68822,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "78b1a1109567468be7dcee9f8f91bccf919345d0bc035445f31e5d997d9c6266"
+hash = "d30138f8bc177e5bedba31415853d32f29060799dab88eaee69387e4d2caa7f8"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68934,7 +68938,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "2dd68c3dc6aa0b38500f3d285ddc9879194ca40a6e9a1a358eb25c78aea2a52d"
+hash = "fa8e9e13c9daf93af6f782fd6a76abc94cf9152dc71ac8d95b4d714d05c77d89"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68942,7 +68946,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "272e32741d0b4b871ebe7b4d23812a6525c45bf8637a437005b9b3b867725b31"
+hash = "f52a7ec4c9903835d2aa230b8a50c5d52fd2f9b122c590066dce854cb8bd3dc9"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -70210,7 +70214,11 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/infernal_eye.aseprite"
-hash = "f2d126b6cf24a9c3479a750ed0cffc01c86e911d6d32ae1e8580eb9295d0ea43"
+hash = "d7cbc2e8d11622374d47a16c9a1ea78740565195879e559118fa62ded4958eaa"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/infernal_eye_2.aseprite"
+hash = "4f158618664f09700b03fb73f36cc469b6210fae2e72900c48fa24c40a58aee4"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/rusted_axe.png"
@@ -70721,11 +70729,15 @@ file = "kubejs/assets/occultism/textures/item/silver_dust.png"
 hash = "37e85f1c2d8161844c61ab19bfd2a2ffa517cb765efce851afbcb5a78a6d658d"
 
 [[files]]
-file = "kubejs/assets/petcapturetool/sounds/ball_capture.ogg"
+file = "kubejs/assets/petcapturetool/sounds.json"
+hash = "2b4adf89b1bea727a0a50583c11ab581144abfa623b9ed06f517b0769ac6f935"
+
+[[files]]
+file = "kubejs/assets/petcapturetool/sounds/item/petcapturetool/ball_capture.ogg"
 hash = "c42b0f43084c5990062ad80855cbd71e30d45a176cfc5aae88d9eff637f93f05"
 
 [[files]]
-file = "kubejs/assets/petcapturetool/sounds/ball_release.ogg"
+file = "kubejs/assets/petcapturetool/sounds/item/petcapturetool/ball_release.ogg"
 hash = "4b78144af15d940d1b67ab394a2b7b672bba0fadd425cf74701d301b859406bc"
 
 [[files]]
@@ -70803,6 +70815,10 @@ hash = "96125981d11efa25562a9029b061185c2b94d574a8684a5a1afba54b2490f555"
 [[files]]
 file = "kubejs/assets/solapplepie/textures/items/satchel_particle.png"
 hash = "0c60bb1080eacca44039bd7fe96acb5aa38523dc9171ef38115e163a4171d7cf"
+
+[[files]]
+file = "kubejs/assets/tconstruct/book/puny_smelting/en_us/movingfluids/copper_can_craft.json"
+hash = "8da9e04fdcaa2d348dbb3fa8167e46800b4f99cf979fc6c4d6b019a03fe633c5"
 
 [[files]]
 file = "kubejs/assets/tconstruct/textures/block/foundry/controller/foundry_active.png"
@@ -75450,6 +75466,16 @@ hash = "affbe1559c4f272c6331475aeed5c20365acc767f1533dbbeb1e002338137c13"
 metafile = true
 
 [[files]]
+file = "mods/boss-rifts-compat.pw.toml"
+hash = "85439c3ed94c9d75e3ba6f0f7bd2c5c28c8be7502a0022a9f7d7d0dd999ce53e"
+metafile = true
+
+[[files]]
+file = "mods/boss-rifts.pw.toml"
+hash = "960dd66646ce2d9850f726bc183afc60a23a9a8232fa1fc044e7961e01b591ad"
+metafile = true
+
+[[files]]
 file = "mods/bosses-of-mass-destruction-forge.pw.toml"
 hash = "f725563ee7b5b24ccd822ac83b868a9a48a3a6f3cc6daec082fd4b88b038b6fd"
 metafile = true
@@ -77350,16 +77376,6 @@ hash = "b53f7640f8d647c32df32c6a6dec3e9e8c15363fdeb5aecb864fb1057e7b3430"
 metafile = true
 
 [[files]]
-file = "mods/terralith-restoned.pw.toml"
-hash = "483dccdac556166ddf36e46525295c10d58f6e3d6cfb0a93159027b325381230"
-metafile = true
-
-[[files]]
-file = "mods/terralith.pw.toml"
-hash = "5e857d9b38e28c951ea37d975eb9a7e7467fc9303e00871f5449cabfda1a43b7"
-metafile = true
-
-[[files]]
 file = "mods/the-conjurer.pw.toml"
 hash = "4a2dae34aad5c373cc79e9b5b6151e6e839065cdeb809e26910925b7d3d484d2"
 metafile = true
@@ -77915,7 +77931,3 @@ hash = "a604c71750ed8ec5dfab6f33122bfb8cd604fdb6b5bb3aac3ec46040ecc1dac4"
 [[files]]
 file = "resourcepacks/§dPolymorph §5Reforged 1.20.zip"
 hash = "d90ce28d220b274ac02a9e6f3328bb67dbbf0f47a69c467c474f700f34bdb3a4"
-
-[[files]]
-file = "sync.sh"
-hash = "a03a693437e94a3479eccb9a220b8b797240081bee2527b23e2a9a163a201e30"
