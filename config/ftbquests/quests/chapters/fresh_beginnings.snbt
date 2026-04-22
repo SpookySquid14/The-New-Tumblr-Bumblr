@@ -169,7 +169,6 @@
 				"{image:modpack:textures/claim1.png width:156 height:90 align:center}"
 				"{image:modpack:textures/claim2.png width:156 height:90 align:center}"
 			]
-			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -195,7 +194,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			shape: "hexagon"
+			shape: "pentagon"
 			tasks: [{
 				id: "03F800E6AB0477FB"
 				title: "Learn about claims"
@@ -784,8 +783,8 @@
 				to_observe: "minecraft:spawner"
 				type: "observation"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["05B83606164A1853"]
@@ -810,6 +809,42 @@
 			title: "A Bit More Personality"
 			x: -1.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			description: [
+				"Upon defeating a boss, you'll notice the creation of a &o&6Boss Rift&r. These rifts, when activated by interacting with or throwing an ender pearl at it, will begin gathering energy before &6&oteleporting all nearby entities to the home of the player who interacted with it.&r"
+				"Very useful for the end of a long trip capped off by a boss fight."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "31C99151EAD7A26F"
+			rewards: [{
+				amount: 130L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "06BF2DA94E051F5C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "bossrifts:boss_rift"
+					}
+				}
+				id: "3516F180C3904AEE"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Boss Rift, a free ticket home"
+				to_observe: "bossrifts:boss_rift"
+				type: "observation"
+			}]
+			title: "A Rift In Time and Space"
+			x: -2.5d
+			y: -1.5d
 		}
 	]
 	title: "Fresh Beginnings"

@@ -67033,6 +67033,14 @@ file = "config/dynamic_fps.json"
 hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
 
 [[files]]
+file = "config/easyanvils-client.toml"
+hash = "681023a2d4145eddeb38912d5580f2616e7bcc1ccc6e44000f3073d045614d84"
+
+[[files]]
+file = "config/easyanvils-server.toml"
+hash = "327ca68c24f1facdd02e2a2863518074b5becee430bb0fe02d3614dd212fd997"
+
+[[files]]
 file = "config/easymagic-client.toml"
 hash = "b268f141e63cafc4c8a29847b7c8e0400e3060f4f1ec166fc0270b00a843df03"
 
@@ -67154,7 +67162,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "f5cec16aa2f1b7836cef74681b395e22a5d79abd28dd8a2659c3b04f26bed67e"
+hash = "a5ff8778a0747156bb5b054f0c5606ed3092fb88b696931b9de35470b5c75a7a"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -67347,6 +67355,10 @@ hash = "f4747426e9f8b1e9ef3da09812840656f1190c3247fc0a3f81a51c4306a45354"
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$deep_frozen_ocean.cfg"
 hash = "43971e0db63021653dd5f568e389884183c0a6ac6ef41ac22e5c96fdc7509a3e"
+
+[[files]]
+file = "config/forgeendertech/Biomes/minecraft$deep_lukewarm_ocean.cfg"
+hash = "ea7705264f12fe5583caea347fa02a5906a96eba7ceeaa0aa4ce7ff58ecc33cd"
 
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$desert.cfg"
@@ -67565,6 +67577,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$bioshroom_caves.cfg"
 hash = "a3bc7c321313ead60cc5c9f9dd55c175e5f72dd3992880fdebee3b4944c6c75c"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$blackstone_basin.cfg"
+hash = "03a2c8c1ae39f7add53cf1717848f035f5a54fd82e9e259305fa8c90f403b51a"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$blackwood_taiga.cfg"
 hash = "02ae81be235b7a7bcd1c043a8c5a05dc8d2ee895db0c515f5811f701cbde07ac"
 
@@ -67583,6 +67599,10 @@ hash = "bf61753bd5b45fe43b84da4b2f0672c472d5b89a65c10d22e018c01b29732f91"
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$cold_boreal_taiga.cfg"
 hash = "faf7a40649cdeaa741e3b7e16a10c753e1e5a615dcd6d1d5f90fa2e2e6559bf9"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$cold_deciduous_forest.cfg"
+hash = "7300e4c5a9b9acba64cbc351a17bbe22c469af5e099405c33e16ec00ec565560"
 
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$deciduous_forest.cfg"
@@ -68014,7 +68034,7 @@ hash = "a8e8f41bdf903b5aa132089ee74ba7bc82cad974af4336379ae5c6c913b719d5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "5a017a42564adeaaa9b9354e7f861094e0dfbfaaeb5a306080ed89ed6481ada9"
+hash = "a3468c5d5ddf612fbd1a6f3d18dada851860bc88347e2aef5def7c7d4acd5d6f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
@@ -68617,8 +68637,16 @@ file = "config/jei/world/local/New_World__42/lookupHistory.ini"
 hash = "6cd43684985f8cf0176bc31af1433a4ba593b16a60b7abf15cfcf0d4c5609b3c"
 
 [[files]]
+file = "config/jei/world/local/New_World__43/bookmarks.ini"
+hash = "c227558f3dceebd277108effe0676567436454dc8691adef22b7811325024784"
+
+[[files]]
 file = "config/jei/world/local/New_World__43/lookupHistory.ini"
-hash = "8346045f20f957a416c7d9b0c5de74a8316a7ff51820d11eeb30bf2b633cc739"
+hash = "71603fd2bd96b8f17d692e3f5e78f94af9829ff84309c61a9d37225e83c9a5e5"
+
+[[files]]
+file = "config/jei/world/local/New_World__44/lookupHistory.ini"
+hash = "2d89bd38c20c09fc7dcd46d041b3c1e33cf6d9a2d98b509eafbc517c039a7c52"
 
 [[files]]
 file = "config/jei/world/local/New_World__5/lookupHistory.ini"
@@ -68826,7 +68854,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "a998d27a78b50ec44601bb8993d49dbf9fa332d6926a2c0c33a5a8fccfcaa19c"
+hash = "bd6a09cb18e34afc45caba9a1f6ebc8bb1a2301537513de43d31c2e0dc4e6bc9"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68942,7 +68970,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "43b41c889827afe89b2ae0e2b47204960bb00e7f82e34e75c2192d6dd1e3baea"
+hash = "93e53ed5ea553d3dca8d2676d9580c5461110083e63d1779e52c47f5d02912b1"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68950,7 +68978,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "41519f658088933d7b4e944c95a55c478b303caf6fdb804dd89b7b0c9ee18ad6"
+hash = "cf0accd28dc66d1f77242b81fc722ecd38381760c4b7c8334a61335c21e4f22c"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69203,22 +69231,6 @@ hash = "c3fcadf445d99870f386e20b5f6463a04c550f5b28c9608227a79b08267c24e0"
 [[files]]
 file = "config/paxi/resourcepacks/Two-Moons-LexLim-1.18-1.21.7-v1.0.5-Resourcepack.zip"
 hash = "1ab0235e985ec7b18acaf19c1c3bfea504c4c17469b1f43a8f6b215a5292252b"
-
-[[files]]
-file = "config/paxi/resourcepacks/VampireUmbrellaLightCurio/assets/vampiresneedumbrellas/textures/curios.png"
-hash = "ee891123c4afa37d3f4e437a6a79d4c02afcdf8a24f9264eaf4e1cfa0def1291"
-
-[[files]]
-file = "config/paxi/resourcepacks/VampireUmbrellaLightCurio/assets/vampiresneedumbrellas/textures/curios.xcf"
-hash = "8e76d77c64d5a7930e2310b359a144827095f09c308928381092af36022b4dfd"
-
-[[files]]
-file = "config/paxi/resourcepacks/VampireUmbrellaLightCurio/pack.mcmeta"
-hash = "66dd67a591cd9500b64e1e630b2c566295b9eca7166c740038bd19507bbb9ac3"
-
-[[files]]
-file = "config/paxi/resourcepacks/VampireUmbrellaLightCurio/pack.png"
-hash = "49cf16d229ed775838a3b2e17e7d2431e064d6c655fd8805afbdf2cb06380f6a"
 
 [[files]]
 file = "config/paxi/resourcepacks/Vessel - From The Fog Skin Pack Creator.zip"
@@ -70115,6 +70127,26 @@ hash = "647988a0852dd8dad7fabb00d7fdd2a470308a151bb58c6cc34554b267086aeb"
 [[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/artifactory/textures/slot/artifactory_slot.png"
+hash = "69fd72c9663e38a3ea05b5fee4c17f427b1a55c045477c411517e5d7b1d47da6"
+
+[[files]]
+file = "kubejs/assets/crafting_on_a_stick/textures/item/curios_on_a_stick.png"
+hash = "6b56d5bd2f6e3829608e43dce94e97a034e5222a74cd037639906cda19d8cb8c"
+
+[[files]]
+file = "kubejs/assets/curios/textures/slot/an_focus_slot.png"
+hash = "a2ec5f488ede78554fd1bc0af46422e69fef1d9b7760c2b059273a976f9502c4"
+
+[[files]]
+file = "kubejs/assets/curios/textures/slot/bangle_slot.png"
+hash = "7c874c4c6942aef8f5dafc572e0fe5c0a5dd53f6c0f612a0f7958dfd42ed86fc"
+
+[[files]]
+file = "kubejs/assets/curios/textures/slot/familiar_trinket_slot.png"
+hash = "d0983fdbc52c0255ebd3bd4eeb165b8fbf9e5f2dff1affe45a886cd20fc8d6b1"
 
 [[files]]
 file = "kubejs/assets/endrem/lang/en_us.json"
@@ -73897,6 +73929,14 @@ file = "kubejs/assets/tinkersjewelry/textures/item/tool/ring/plain_ring_tconstru
 hash = "5d2a9966e69ad068002c9de15bc6b7a1278edc9b2e23e88c950dd698094bc49a"
 
 [[files]]
+file = "kubejs/assets/vampiresneedumbrellas/textures/curios.png"
+hash = "a9f7531ca362189a85df545f6f1b5a3e644549dc060a7613859196724eac4d13"
+
+[[files]]
+file = "kubejs/assets/vampiresneedumbrellas/textures/curios.xcf"
+hash = "8e76d77c64d5a7930e2310b359a144827095f09c308928381092af36022b4dfd"
+
+[[files]]
 file = "kubejs/assets/watching/models/item/herobrine/custom/1/body.json"
 hash = "a63b7ce625dc00462b18d0c02b7d72c7f7371bd382f6d21aabbc213304ca6459"
 
@@ -75388,6 +75428,11 @@ metafile = true
 [[files]]
 file = "mods/apothic-attributes.pw.toml"
 hash = "b8b7162e9f130663742b8505f63fbd91171fb6620be2e4cf156f5d97d79570e0"
+metafile = true
+
+[[files]]
+file = "mods/apothic-combat.pw.toml"
+hash = "73a03170999bca678f84e92534e1a7c4c79122b4ec72c049b621ce958c152a35"
 metafile = true
 
 [[files]]
@@ -76958,11 +77003,6 @@ metafile = true
 [[files]]
 file = "mods/multi-piston.pw.toml"
 hash = "2441b0ba36cec1d0fc54c5e3ca839378c33e68d307ed5def961f25b88e179eac"
-metafile = true
-
-[[files]]
-file = "mods/multiplayer-bosses.pw.toml"
-hash = "87dbecb7b95296957c4b9004d67564741f525a2fc2ec10efafc1115152c7131d"
 metafile = true
 
 [[files]]
