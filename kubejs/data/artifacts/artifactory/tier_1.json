@@ -1,0 +1,42 @@
+{
+  "slots_used": 1,
+  "use_without_attunement": false,
+  "apply_to_items": [
+    "artifacts:night_vision_goggles",
+    "artifacts:villager_house",
+    "artifacts:snorkel",
+    "artifacts:snowshoes",
+    "artifacts:golden_hook",
+    "artifacts:whoopee_cushion",
+    "artifacts:novelty_drinking_hat",
+    "artifacts:flippers",
+    "artifacts:power_glove",
+    "artifacts:novelty_drinking_hat"
+  ],
+  "attunement_levels": [
+    {
+      "requirements": {
+        "xp_levels_consumed": 20,
+        "xp_level_threshold": 35
+      }
+    },
+    {
+      "modifications": [
+        "invulnerable"
+      ],
+      "requirements": {
+        "xp_levels_consumed": 20,
+        "xp_level_threshold": 35
+      }
+    },
+    {
+      "modifications": [
+        "soulbound"
+      ],
+      "requirements": {
+        "xp_levels_consumed": 30,
+        "xp_level_threshold": 45
+      }
+    }
+  ]
+}

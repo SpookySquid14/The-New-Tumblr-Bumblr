@@ -1,0 +1,23 @@
+
+["Boss Rifts Compat+ - Disable Rift Generation"]
+	#Prevents boss rift generation for all listed mobs
+	"Disable rift generation for" = ["examplemod:examplemob1", "examplemod:examplemob2"]
+
+["Boss Rifts Compat+ - Disable Rift Generation (Extended mod support)"]
+	#Used for mods where the mobs supported by this mod don't come with their own registry IDs
+	"Disable for: Annihilation (Annihilation Recreated)" = false
+	"Disable for: Tower Guardian (Keebsz's Battle Towers)" = false
+	"Disable for: Empress of Light (Stellarity)" = false
+	"Disable for: Pharaoh (YUNG's Better Desert Temples)" = false
+	"Disable for: Corrupted Enderman (Ultris: Boss Expansion)" = false
+	"Disable for: Illusioner (Ultris: Boss Expansion)" = false
+	"Disable for: Phantom Swarm (Ultris: Boss Expansion)" = false
+	"Disable for: Blaze King (Ultris: Boss Expansion)" = false
+	"Disable for: Sanctum Keeper (Ultris: Boss Expansion)" = false
+	"Disable for: Shulker Stone (Ultris: Boss Expansion)" = false
+	"Disable for: Ser Marrow (Camps, Castles, Carriages)" = false
+	"Disable for: Hovering Inferno (Incendium)" = false
+	"Disable for: Ancient Remains (Vampirism)" = false
+	"Disable for: Cinderscourge (Harrowing Hells)" = false
+	"Disable for: Skeletal Techpriest (Mortality)" = false
+

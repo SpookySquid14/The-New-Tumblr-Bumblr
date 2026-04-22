@@ -6,7 +6,7 @@
         "invulnerable"
       ],
       "requirements": {
-        "xp_levels_consumed": 20,
+        "xp_levels_consumed": 30,
         "xp_level_threshold": 35,
         "items": [
           "goety:cursed_metal_block"
@@ -19,11 +19,11 @@
         "attribute/goety:necromancy_discount/addition/0.5/offhand"
       ],
       "requirements": {
-        "xp_levels_consumed": 25,
-        "xp_level_threshold": 35,
+        "xp_levels_consumed": 30,
+        "xp_level_threshold": 40,
         "items": [
           "goety:ectoplasm#16",
-          "goety:spirit_fabric#3"
+          "goety:forbidden_piece#3"
         ]
       }
     },

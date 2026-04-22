@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".sync.sh"
-hash = "a03a693437e94a3479eccb9a220b8b797240081bee2527b23e2a9a163a201e30"
-
-[[files]]
 file = "config/ArmorDamageLimit.toml"
 hash = "f4531e8727cf33b87173157d0f578b4166bd979b64eafaf5f62ec7e5e8bfb95f"
 
@@ -66673,6 +66669,10 @@ file = "config/borninconfiguration-general.toml"
 hash = "4f4a5ce1e30f59f0bed8f4c1b2bd38630609cd506862eeee3bab69189bab4535"
 
 [[files]]
+file = "config/boss rifts compat plus; common.toml"
+hash = "0a7f2a695d3d5d1ce37155b3033007f1339adae8774516d7763adb0abb5aaa54"
+
+[[files]]
 file = "config/bosses_of_mass_destruction.json5"
 hash = "5818449a65f69e2436c83bcc7d287f2a05070c7519b4300b70b2080acee8a09a"
 
@@ -67154,7 +67154,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "e279100524e19ffd6280406e838d75242fb902ba8e51220f9085443c6f327663"
+hash = "f5cec16aa2f1b7836cef74681b395e22a5d79abd28dd8a2659c3b04f26bed67e"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68617,6 +68617,10 @@ file = "config/jei/world/local/New_World__42/lookupHistory.ini"
 hash = "6cd43684985f8cf0176bc31af1433a4ba593b16a60b7abf15cfcf0d4c5609b3c"
 
 [[files]]
+file = "config/jei/world/local/New_World__43/lookupHistory.ini"
+hash = "8346045f20f957a416c7d9b0c5de74a8316a7ff51820d11eeb30bf2b633cc739"
+
+[[files]]
 file = "config/jei/world/local/New_World__5/lookupHistory.ini"
 hash = "c82556b9d358c5b595955648371b88cd611e908cdf6d51b1f641debe1e8f0758"
 
@@ -68822,7 +68826,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "d30138f8bc177e5bedba31415853d32f29060799dab88eaee69387e4d2caa7f8"
+hash = "a998d27a78b50ec44601bb8993d49dbf9fa332d6926a2c0c33a5a8fccfcaa19c"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68938,7 +68942,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "fa8e9e13c9daf93af6f782fd6a76abc94cf9152dc71ac8d95b4d714d05c77d89"
+hash = "43b41c889827afe89b2ae0e2b47204960bb00e7f82e34e75c2192d6dd1e3baea"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68946,7 +68950,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "f52a7ec4c9903835d2aa230b8a50c5d52fd2f9b122c590066dce854cb8bd3dc9"
+hash = "41519f658088933d7b4e944c95a55c478b303caf6fdb804dd89b7b0c9ee18ad6"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -68991,10 +68995,6 @@ hash = "0966c5088950f353b5b515ce92f41e39c2b7fb18d356559c5f42ec976de7c579"
 [[files]]
 file = "config/paxi/datapacks/SkyVillages-WaystonesCompat-1.20.1-1.0.3-fabric.zip"
 hash = "c86b69b0efccb8c56ab287b55d502ad4da7410b5f68c4ea6c986589bdc9ecd4d"
-
-[[files]]
-file = "config/paxi/datapacks/artifactory-datapack.zip"
-hash = "e9adce8677abb3b77dd76ef116a552680d2bf4231e637fc153e8c2866ad38f42"
 
 [[files]]
 file = "config/paxi/datapacks/cadpack-1.0.zip"
@@ -74137,6 +74137,18 @@ file = "kubejs/data/artifacts/artifactory/running_shoes.json"
 hash = "513e7887634829ba9ccb1ee5e850f21b88cf60222c17d7be08932e5757892c00"
 
 [[files]]
+file = "kubejs/data/artifacts/artifactory/tier_1.json"
+hash = "ebd01a1dbb3d9978da085563d4710dc37ff2180d93eafa1d21c91565f202c409"
+
+[[files]]
+file = "kubejs/data/artifacts/artifactory/tier_2.json"
+hash = "8f3fd2f4a3996de3cfc1fa1368b25d89b8ce63cb4d488b6bd5aeccf021056967"
+
+[[files]]
+file = "kubejs/data/artifacts/artifactory/tier_3.json"
+hash = "a2eb8f27a803202fb36ea41d89864494bf256b664904a360aac52952153d1955"
+
+[[files]]
 file = "kubejs/data/bosses_of_mass_destruction/loot_tables/chests/gauntlet.json"
 hash = "bb5c1287afe7bb014fa278cababc6eeff8488ac1b6027eaa5044f3712647b31c"
 
@@ -74249,12 +74261,176 @@ file = "kubejs/data/gateways/recipes/nether_invasion.json"
 hash = "27b988411a39513283c706a2a2fc3251f072f33c0580d67062ca1cc48cc1bd1c"
 
 [[files]]
+file = "kubejs/data/goety/artifactory/abyss_staff.json"
+hash = "4f08e6a130d1c995d6c328d9bbc302200ac10a5ca95b10c4943cf9b377d44aa6"
+
+[[files]]
+file = "kubejs/data/goety/artifactory/frost_staff.json"
+hash = "4f08e6a130d1c995d6c328d9bbc302200ac10a5ca95b10c4943cf9b377d44aa6"
+
+[[files]]
+file = "kubejs/data/goety/artifactory/geo_staff.json"
+hash = "86e18ac176f2664c67617d319e294ea7f1cb35a904ee744887b09de5551c6b39"
+
+[[files]]
+file = "kubejs/data/goety/artifactory/nameless_staff.json"
+hash = "246c0785b600f82d952d690db10a488a33242f43b82cdf6681ed4415b18cf3a9"
+
+[[files]]
 file = "kubejs/data/goety/artifactory/necro_staff.json"
-hash = "161bb06da9b6a6c1451088cdc49157fd2326c7f93f34c4739d2607096d8b6ce3"
+hash = "5490f2ca0674e1aeaff0f0dc505aaf67ef29a8e3641ba9b1f29328ee8bc8dc66"
+
+[[files]]
+file = "kubejs/data/goety/artifactory/nether_staff.json"
+hash = "4f08e6a130d1c995d6c328d9bbc302200ac10a5ca95b10c4943cf9b377d44aa6"
+
+[[files]]
+file = "kubejs/data/goety/artifactory/storm_staff.json"
+hash = "c82f6b4ac25d15a287f342966c6d69275ac7d16b4600a3336d6e6c25e527f951"
+
+[[files]]
+file = "kubejs/data/goety/artifactory/void_staff.json"
+hash = "4f08e6a130d1c995d6c328d9bbc302200ac10a5ca95b10c4943cf9b377d44aa6"
+
+[[files]]
+file = "kubejs/data/goety/artifactory/wild_staff.json"
+hash = "4f08e6a130d1c995d6c328d9bbc302200ac10a5ca95b10c4943cf9b377d44aa6"
+
+[[files]]
+file = "kubejs/data/goety/artifactory/wind_staff.json"
+hash = "857f8533e629ddb97f773fe0003e8350ecfaaff6ad92a03f8d20f420c140dcae"
 
 [[files]]
 file = "kubejs/data/guardvillagers/loot_tables/entities/guard_armor.json"
 hash = "f3872772ee6b63b69f5df1679cdf28834d5abf241a62ac6dd7e65c45eb217a79"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/archevoker_boots.json"
+hash = "0619d37a7e8c330aad3cc15fe5e8107fba1c80d3ca9f8ba5a65fb340139d86cc"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/archevoker_chestplate.json"
+hash = "fcf642a081c4c3cf00ba088f548a44a17934efa89b29184513d853eaee919a9a"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/archevoker_helmet.json"
+hash = "8cf0847383501362cc86a90b9037c5c2544af30bb8f90024a00f18118fdfa06c"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/archevoker_leggings.json"
+hash = "8d6fdfa63cbba2734ab1af9a87d33f4ceb5bc004aac920675e9ebe15f3271182"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/cryomancer_boots.json"
+hash = "5e551de4df769e5ea73334f754a5023774bb231f640a401ad8ae15db85609133"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/cryomancer_chestplate.json"
+hash = "20d482ffd2df780f9f2244b75e30330c37b83234e0631792c259b8331235d2e7"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/cryomancer_helmet.json"
+hash = "679b66a8c597306c8e9c6bea1f9b1329ccb952ace1a008d25ee614504d7c889b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/cryomancer_leggings.json"
+hash = "53dafb6a0bba344a30ac8c9bb9ffcde9d6a8c09ca5346075a08cfed6ff865ec9"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/cultist_boots.json"
+hash = "1ebeb1e171943ecb39cfae05072155fe18679a622c1fdf65761702b78f5da4d5"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/cultist_chestplate.json"
+hash = "c2379c911de14027d565d29df8ff38d642a56864464b0fa67447292fb89f671d"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/cultist_helmet.json"
+hash = "0d8d405bb9623cf8ac475d95947b77f1b0d665e3cff5e716a805eed0b457d44b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/cultist_leggings.json"
+hash = "49e4881d2f78041aa39f3a501ed01ea940bf23ad7af482bcab8dda8762b21255"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/electromancer_boots.json"
+hash = "a26a783bf0a722fad1669b4457e12354ec7310e9107d42bf4425662a8e6a39b7"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/electromancer_chestplate.json"
+hash = "a13a70e779eb0887970214fc1fc3ab66581ac94fc16183d191e8c8bf771c7caf"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/electromancer_helmet.json"
+hash = "383177ce55489e3102a0c28f2eb7cf53b366a4301b337e2f5518121af4775989"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/electromancer_leggings.json"
+hash = "812c6aefbe97077fca1377c27331c4289f558ca6fba1134da96469322000bbcc"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/plagued_boots.json"
+hash = "748edcb11e828cb7c4d4948c4e163ef3c74a7f7a77684f066382148d20dc3c89"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/plagued_chestplate.json"
+hash = "e86f2ecb37909ae289b9c77493b9e76575fbbac18086c154ef464309134ba4b7"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/plagued_helmet.json"
+hash = "add4ad38fda4313dc747403a37e7e92dd4c106b8459168aca3ff4a27de2265b2"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/plagued_leggings.json"
+hash = "d1035bc455fc04095221b9968c5c0ee4646f731c8c3e38f52ee27fb6e65dd771"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/priest_boots.json"
+hash = "405d561c90f653ac099e1e48383b00cf3b8e9b23240ea646be8f098071060d82"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/priest_chestplate.json"
+hash = "a2dc229134184d66b31ca7c4024350e35d67d831c078179ce3b91a7cbe7a1277"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/priest_helmet.json"
+hash = "90adfaab45dccfb5a54e713618d4dd7649929c8fde55d5043319a651bb63760b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/priest_leggings.json"
+hash = "b80b2065b2e56ff9158703cbe2b36d5ea4c0145a67c6c6858ab6ab3e640608b8"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/pyromancer_boots.json"
+hash = "240dadb95dba0016ab4578124c8bb5015e595698152b9468112962bedd19362a"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/pyromancer_chestplate.json"
+hash = "68a8c161bd4d107d328234c4732d52980730262208bb22650438bb7f1ef34f02"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/pyromancer_helmet.json"
+hash = "44a98dfbe7f05fb116fcb5af412f877eb6440c5ead0409ae3bc325a9e43c0186"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/pyromancer_leggings.json"
+hash = "7bd798212d88fa2f2ef90e3ddfefa512c3a8134a9be540aa661ccbc439321c0c"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/shadowwalker_boots.json"
+hash = "b72903afb4df303ddb7405788d327524aee98e59fe6d5e6a96bf19cb96c93ce9"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/shadowwalker_chestplate.json"
+hash = "b72903afb4df303ddb7405788d327524aee98e59fe6d5e6a96bf19cb96c93ce9"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/shadowwalker_helmet.json"
+hash = "b72903afb4df303ddb7405788d327524aee98e59fe6d5e6a96bf19cb96c93ce9"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/artifactory/shadowwalker_leggings.json"
+hash = "b72903afb4df303ddb7405788d327524aee98e59fe6d5e6a96bf19cb96c93ce9"
 
 [[files]]
 file = "kubejs/data/occultism/loot_tables/blocks/stable_wormhole.json"
@@ -74479,6 +74655,10 @@ hash = "bb1306ea613c73cf4a0840c8283cb8d183a1d36ad43d9b4ae37b539855d3b722"
 [[files]]
 file = "kubejs/data/tcintegrations/tinkering/materials/traits/manasteel.json"
 hash = "91f4ad3764e71e3488c8b0b305925ab8167260ecce8c455e5d9793cf76cc52cc"
+
+[[files]]
+file = "kubejs/data/tconstruct/artifactory/sword.json"
+hash = "0553fa15b6dd405deb1e2e1caae8b7f0e59b41ed8bc1ce97e6c8d25d101b96ad"
 
 [[files]]
 file = "kubejs/data/tconstruct/recipes/smeltery/diamond/shard.json"
@@ -77931,3 +78111,7 @@ hash = "a604c71750ed8ec5dfab6f33122bfb8cd604fdb6b5bb3aac3ec46040ecc1dac4"
 [[files]]
 file = "resourcepacks/§dPolymorph §5Reforged 1.20.zip"
 hash = "d90ce28d220b274ac02a9e6f3328bb67dbbf0f47a69c467c474f700f34bdb3a4"
+
+[[files]]
+file = "sync.sh"
+hash = "a03a693437e94a3479eccb9a220b8b797240081bee2527b23e2a9a163a201e30"

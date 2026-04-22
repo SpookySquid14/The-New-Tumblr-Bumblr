@@ -1,5 +1,5 @@
 {
-  "slots_used": 3,
+  "slots_used": 2,
   "attunement_levels": [
     {
       "modifications": [
@@ -9,37 +9,32 @@
         "xp_levels_consumed": 20,
         "xp_level_threshold": 35,
         "items": [
-          "goety:cursed_metal_block"
+          "irons_spellbooks:magic_cloth#16"
         ]
       }
     },
     {
       "modifications": [
-        "attribute/goety:necromancy_discount/addition/0.5/mainhand",
-        "attribute/goety:necromancy_discount/addition/0.5/offhand"
+        "attribute/minecraft:generic.armor_toughness/addition/2/feet"
       ],
       "requirements": {
-        "xp_levels_consumed": 25,
+        "xp_levels_consumed": 20,
         "xp_level_threshold": 35,
         "items": [
-          "goety:ectoplasm#16",
-          "goety:spirit_fabric#3"
+          "irons_spellbooks:blood_vial#8"
         ]
       }
     },
     {
       "modifications": [
-        "attribute/goety:necromancy_potency/addition/4/mainhand",
-        "attribute/goety:necromancy_potency/addition/4/offhand",
+        "unbreakable",
         "soulbound"
       ],
       "requirements": {
         "xp_levels_consumed": 35,
         "xp_level_threshold": 40,
         "items": [
-          "goety:shadow_essence#16",
-          "goety:awakened_emerald_block",
-          "minecraft:nether_star"
+          "irons_spellbooks:blood_rune#6"
         ]
       }
     }

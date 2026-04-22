@@ -15,22 +15,22 @@
     },
     {
       "modifications": [
-        "attribute/goety:necromancy_discount/addition/0.5/mainhand",
-        "attribute/goety:necromancy_discount/addition/0.5/offhand"
+        "attribute/goety:geomancy_discount/addition/0.5/mainhand",
+        "attribute/goety:geomancy_discount/addition/0.5/offhand"
       ],
       "requirements": {
         "xp_levels_consumed": 25,
         "xp_level_threshold": 35,
         "items": [
-          "goety:ectoplasm#16",
-          "goety:spirit_fabric#3"
+          "minecraft:amethyst_shard#16",
+          "minecraft:amethyst_block#3"
         ]
       }
     },
     {
       "modifications": [
-        "attribute/goety:necromancy_potency/addition/4/mainhand",
-        "attribute/goety:necromancy_potency/addition/4/offhand",
+        "attribute/goety:geomancy_potency/addition/4/mainhand",
+        "attribute/goety:geomancy_potency/addition/4/offhand",
         "soulbound"
       ],
       "requirements": {
