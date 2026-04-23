@@ -66837,6 +66837,10 @@ file = "config/comforts-server.toml"
 hash = "04e49bd0851cabb26a7177b014dc7f5622b4e817f6fbdeaf5c9f53030bed8a3a"
 
 [[files]]
+file = "config/commandaliases.txt"
+hash = "e910d9bfdbced11108d572ec8d308b2248eb8f81b4d04b67b454a45e3801564d"
+
+[[files]]
 file = "config/complicated_bees-common.toml"
 hash = "5585eddcee272947929f117afcd4c2ffdaba29e45f4eed6d273cfd4f655f8e8b"
 
@@ -67162,7 +67166,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "9ee8f88e9f18bfde483e60c6544ef049bdbb6216f09887afcf99263732dd255f"
+hash = "c4583bb6dedfdfb839f4b177d49a97e1e6e4a88bbaeb89c04c1bdd7b033b1f3f"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68646,7 +68650,7 @@ hash = "71603fd2bd96b8f17d692e3f5e78f94af9829ff84309c61a9d37225e83c9a5e5"
 
 [[files]]
 file = "config/jei/world/local/New_World__44/lookupHistory.ini"
-hash = "2d89bd38c20c09fc7dcd46d041b3c1e33cf6d9a2d98b509eafbc517c039a7c52"
+hash = "80fd8298445f76534784a61807ff5b60f856be501a1d173042fec44e864531ff"
 
 [[files]]
 file = "config/jei/world/local/New_World__5/lookupHistory.ini"
@@ -68854,7 +68858,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "cde3617544a6ce22c176531bb47d919566ec1f88cd15930313c34ab0ed67040f"
+hash = "e50e3daa66f9f1912eb45a027a22084a98be40ef43d3837009f35576ee044c36"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68970,7 +68974,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "021c8a63ead03ad077865a817ad72dfa6eb9ab5d838025e30cbb7088f45f5407"
+hash = "28a118709931d3d0547e9373ea0dc9bbad728ab4d6d50af94e3c93759621fcee"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68978,7 +68982,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "83fc3843e9c651ddf70b5754b17847b4d0b053785f61faba02b5039423ece859"
+hash = "104808acaf92280eb7906d575f30cf9a7d5df710d66ec47d42ab56cc907986ea"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69593,6 +69597,10 @@ file = "config/spark/tmp/spark-1a047370ed15-profile-data.jfr.tmp"
 hash = "c4ec8705f1b22b8623d8f4892dea332c86d4fbc0c170f866f28a08ecb0b7972f"
 
 [[files]]
+file = "config/spark/tmp/spark-1f5b8d37d919-profile-data.jfr.tmp"
+hash = "6c4bb9e07281cc9f31b1d06b3361c9f2c641939d6fdc8a4db1122f8e57ff8033"
+
+[[files]]
 file = "config/spark/tmp/spark-23b4e13897c-profile-data.jfr.tmp"
 hash = "090ef0be9fb13f40df63f0701826257ddde0c543b3300583f20cb239c19c4b13"
 
@@ -70062,11 +70070,11 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "9eaa97fe2265f88090e2f08befdd739020cbd18b167f683abe6b0ba3e41f45cd"
+hash = "9b9cc276b2ae637d2f8cc432b1c4c98304e6e738914003312ba78854b7237455"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "ab67dbfb6ec79d60189c0310c8f9fb7fd8c9695db6fd8f0d3a081eb0c1087e67"
+hash = "316eed053ff6286c7d48b1ea8d35da3b631871f8081f1d27bf34e784dab73165"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -75317,8 +75325,8 @@ file = "kubejs/server_scripts/Modpack/Tags/weeping_angels.js"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "kubejs/server_scripts/Modpack/dynamic_boss_hp.js"
-hash = "6021102e340b24f43e24c98b45dafe0631cff174dec7e74b0c20ad97fc503eb0"
+file = "kubejs/server_scripts/Modpack/dynamic_boss_hp_interact.js"
+hash = "006dfbae8fd7a98ae0dea51e2306ed2e3b46e9fce70c123ab0a25c9858b8c3a3"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/wolf_attack_skulls.js"

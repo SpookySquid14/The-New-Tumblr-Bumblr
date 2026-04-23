@@ -1,0 +1,2 @@
+resPData | kubejs persistent_data entity 0fccd810-2cd2-4601-93b4-3aa23f6625c6 remove *
+resHP | attribute 0fccd810-2cd2-4601-93b4-3aa23f6625c6 minecraft:generic.max_health base set 390
