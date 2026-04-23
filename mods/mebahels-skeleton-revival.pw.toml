@@ -1,0 +1,25 @@
+filename = 'mebahels-skeleton-revival-1.0.4-fabric-1.20.1.jar'
+name = "Mebahel's Skeleton Revival"
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mebahels-skeleton-revival-1.0.4-fabric-1.20.1'
+
+[download]
+hash = 'a692aeed1ff928cd49a2425c0d00b17f4f50e21b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6707740
+project-id = 1288515
+
+[[x-prismlauncher-dependencies]]
+addonId = '306612'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'

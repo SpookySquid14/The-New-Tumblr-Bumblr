@@ -1,0 +1,41 @@
+filename = 'adaptive_performance_tweaks_items_1.20.1-11.6.1.jar'
+name = 'Adaptive Performance Tweaks: Items'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'adaptive_performance_tweaks_items_1.20.1-11.6.1.jar'
+
+[download]
+hash = '52b58d36ca830d684119a4ae0a2c16d310b62ba3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7736364
+project-id = 561439
+
+[[x-prismlauncher-dependencies]]
+addonId = '602436'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '457570'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '561087'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '573708'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '561137'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '563963'
+type = 'OPTIONAL'
