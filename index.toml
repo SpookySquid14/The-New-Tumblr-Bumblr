@@ -70137,6 +70137,10 @@ file = "config/zillagersweararmor-common.toml"
 hash = "647988a0852dd8dad7fabb00d7fdd2a470308a151bb58c6cc34554b267086aeb"
 
 [[files]]
+file = "icon.png"
+hash = "fa55a0396fbf91d6037469b1a7f86d3b40b2dde1fbfe19787dddd5027aa0ecbf"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
