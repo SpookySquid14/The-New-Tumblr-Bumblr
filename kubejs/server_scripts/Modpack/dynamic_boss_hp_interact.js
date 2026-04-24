@@ -30,16 +30,19 @@ ItemEvents.entityInteracted(event => {
         console.log("Health Modifier is: " + healthModifier)
         
         let newMaxHealth = baseHealth * healthModifier
+
+        boss.maxHealth = newMaxHealth
+
         console.log("The new hp is: " + (newMaxHealth))
 
         //boss.modifyAttribute("generic.max_health","multiplayer_bonus",newMaxHealth - baseHealth,"addition")
-        boss.maxHealth = newMaxHealth
+        
 
-        let missingHealth = newMaxHealth - boss.health
-        console.log("Missing health: "+boss.health)
-        if (missingHealth > 0){
-            boss.health += missingHealth
-        }
+        // let missingHealth = newMaxHealth - boss.health
+        // console.log("Missing health: "+boss.health)
+        // if (missingHealth > 0){
+        //     boss.health += missingHealth
+        // }
     }
     
 

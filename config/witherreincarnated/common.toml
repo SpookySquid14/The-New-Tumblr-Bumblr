@@ -23,7 +23,7 @@
 	"Min Laser Cooldown (in ticks, default: 300)" = 300
 	"Max Laser Cooldown (in ticks, default: 900)" = 1200
 	"Max Laser Length (default: 128)" = 128
-	"Disable Barrage Attack (default: false)" = false
+	"Disable Barrage Attack (default: false)" = true
 	"Min Barrage Cooldown (in ticks, default: 1200)" = 1200
 	"Max Barrage Cooldown (in ticks, default: 3600)" = 3600
 
