@@ -25,7 +25,7 @@ ItemEvents.entityInteracted(event => {
 
         let baseHealth = boss.maxHealth
         console.log("Base HP is: " + baseHealth)
-        let healthModifier = (nearbyPlayers-1) * 0.5
+        let healthModifier = (nearbyPlayers)
         console.log("Health Modifier is: " + healthModifier)
         
         let newMaxHealth = baseHealth * healthModifier

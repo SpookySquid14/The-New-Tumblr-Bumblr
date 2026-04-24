@@ -6,15 +6,734 @@
 	id: "23E8C54ACA2DB69B"
 	order_index: 7
 	quest_links: [ ]
-	quests: [{
-		id: "750F9DC2755C097F"
-		tasks: [{
-			id: "01CF87005ACEC195"
-			item: "minecraft:enchanting_table"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: [
+				"When you open a crafting table for the first time, you'll be met with some new values. These are Eterna, Quanta, and Arcana. They are your primary attributes, and values you'll learn more of as you progress."
+				"{image:modpack:textures/enchanting.png width:156 height:90 align:center}"
+			]
+			id: "750F9DC2755C097F"
+			rewards: [
+				{
+					id: "2E8C1B3AB1B6E588"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "63AA1103DC3B949C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "01CF87005ACEC195"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			description: ["Cobwebs can be placed in an Anvil with an enchanted item to remove its enchantments. Prismatic Cobwebs are crafted with prismarine shards, and do the same for curses."]
+			id: "325CB4FC73144494"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6739889A83FD4FCE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "6CC021CAE76B8E11"
+					item: "minecraft:cobweb"
+					type: "item"
+				}
+				{
+					id: "39B74B084F42B36E"
+					item: "apotheosis:prismatic_web"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["750F9DC2755C097F"]
+			description: [
+				"&o&6Eterna&r is the most basic attribute. &6&oIt determines the max enchanting level&r. Think of it like regular enchanting. The more Eterna you have, the higher level your enchantments will be. Eterna is mostly increased by using stronger bookshelves, but some items such as magical crystals can also increase it when placed nearby."
+				"There are several different bookshelves, but for now, let's just use the basic wooden ones."
+				"{image:modpack:textures/eterna.png width:156 height:90 align:center}"
+			]
+			id: "0626E825BC0B0B77"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "60EB54309487C935"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2736DCABF4014019"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bookshelves"
+					}
+				}
+				title: "Wooden Bookshelf"
+				type: "item"
+			}]
+			title: "Eterna"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["750F9DC2755C097F"]
+			description: [
+				"&6&oQuanta is the stat that affects the randomness of your enchantments&r. A range is created based on your level and Quanta. The higher your Quanta, the larger this range is. This can be seen as both a good and bad thing, as you'll have access to stronger enchantments, but the strength will also become less consistent."
+				"Quanta can be increased by stronger bookshelves or &o&6by placing skulls near the enchanting table.&r"
+				"{image:modpack:textures/quanta.png width:156 height:90 align:center}"
+			]
+			id: "44A41664198FD457"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "438885B39C2F94DA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "10A1D99982BE02BE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:skeleton_skull"
+							}
+							{
+								Count: 1b
+								id: "minecraft:zombie_head"
+							}
+							{
+								Count: 1b
+								id: "minecraft:creeper_head"
+							}
+							{
+								Count: 1b
+								id: "goety:tall_skull"
+							}
+							{
+								Count: 1b
+								id: "minecraft:wither_skeleton_skull"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Quanta"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["750F9DC2755C097F"]
+			description: [
+				"Each enchantment has its own rarity. &6&oArcana is the stat that changes your chances of getting each rarity.&r In addition to this, higher Arcana also increases the amount of enchantments your item will receive, going from only 1 to a max of always getting 3 enchantments."
+				"Like other stats, Arcana is primarily increased by using bookshelves, however, &6&ocandles are another way to raise it&r."
+				"{image:modpack:textures/arcana.png width:156 height:90 align:center}"
+			]
+			id: "1BC55DD4CCAA97C0"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "36FB6E3594E51E0E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "6B400286515FDED2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:candles"
+					}
+				}
+				type: "item"
+			}]
+			title: "Arcana"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["44A41664198FD457"]
+			description: [
+				"In addition to the primary three attributes is &o&6Rectification&r. This is an extra attribute that lessens the negative chances of &o&6Quanta&r. Put simply, &6&omore Rectification is always good and increases the consistency of more powerful enchantments.&r"
+				"One way to increase Rectification outside of bookshelves is &o&6by placing Amethyst Clusters nearby.&r"
+			]
+			id: "4990D952610404AF"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "361E14EA513D0565"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2BD352225B2E9FA1"
+				item: "minecraft:amethyst_cluster"
+				type: "item"
+			}]
+			title: "Rectification"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0626E825BC0B0B77"]
+			description: [
+				"30 levels is all that's achievable using regular bookshelves. If you want to go further, &o&6you'll need to start crafting more special bookshelves&r."
+				"&6&oHellshelves&r and &o&6Seashelves&r are special bookshelves made with materials from The Nether and The Ocean respectively. Hellshelves will give extra &oQuanta&r while Seashelves will instead give &oArcana&r."
+				"&6&oUsing these bookshelves, you can reach enchantment level 45.&r"
+				"{image:modpack:textures/hellshelf_and_seashelf.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "2F2C58A19EE524BD"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "05FC0ED4404155DD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "3FE51D49E1BCC547"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:hellshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:seashelf"
+							}
+						]
+					}
+				}
+				title: "Hellshelf or Seashellf"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F2C58A19EE524BD"]
+			description: [
+				"You've reached level 45, good. Now it's time to learn about &6&oInfusing&r."
+				"Infusing is essentially enchanting a block, typically a bookshelf. Unlike regular enchanting, &o&6infusing requires specific amounts of Eterna, Quanta, and Arcana&r. Usually you only need to have at least the required amounts, but there are some cases where you must have less than a specific amount."
+				"&6&oUsing Infused Bookshelves, you will be able to reach Level 54 enchantments. But there is more to be done with them.&r"
+				"{image:modpack:textures/infusing.png width:156 height:90 align:center}"
+			]
+			hide_until_deps_visible: true
+			id: "774A7D8001A081E3"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "41D32EC5082963C3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "40A40A8D04C67395"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:infused_hellshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:infused_seashelf"
+							}
+						]
+					}
+				}
+				title: "Infused Hellshelf or Seashelf"
+				type: "item"
+			}]
+			title: "Potential Unleashed"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["774A7D8001A081E3"]
+			description: [
+				"The &6&oBlazing Hellshelf&r is an upgraded Hellshelf that &6&ooffers higher stats in exchange for lowering the amount of clues you can see&r."
+				"This can be rectified by using the Hellshelf of Sight"
+			]
+			hide_until_deps_visible: true
+			id: "4EB82837E3678D45"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6630338BA63FC33B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "6FF17F5B55B7036C"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["774A7D8001A081E3"]
+			description: ["The Hellshelf of Sight is a unique bookshelf that does not offer any boosts to the primary attributes. &6&oInstead, it increases the amount of clues you can see when enchanting.&r"]
+			hide_until_deps_visible: true
+			id: "5AFA8806FF39B731"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0B500FA15BB75102"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "6DDD1426D5077FA6"
+				item: "apotheosis:sightshelf"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5AFA8806FF39B731"]
+			description: ["&6&oThe Hellshelf of Masterful Sight&r is an upgraded form of the Hellshelf of Sight &6&othat increases the visible clues by 2 instead of 1&r."]
+			hide_until_deps_visible: true
+			id: "289249EDEB1AF17E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3598EFC0A247FC92"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "580318079E40F05B"
+				item: "apotheosis:sightshelf_t2"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["774A7D8001A081E3"]
+			description: [
+				"The &o&6Heart-Forged Seashelf&r is an upgraded Seashelf that &6&ooffers higher stats in exchange for lowering your Rectification&r."
+				"This can be rectified by using the Shelf of Seabound Rectification."
+			]
+			hide_until_deps_visible: true
+			id: "27BE86C707B9A681"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "33BD628E890C7548"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "602679476BCA97E3"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["774A7D8001A081E3"]
+			description: ["If you want to make sure you don't get a specific enchantment, you'll want to craft a Seashelf of Aquatic Filtration. This bookshelf does not provide any enchantment stats. &6&oInstead, by inserting enchanted books like with a chisled bookshelf, the enchantments on said books will not appear when enchanting&r."]
+			hide_until_deps_visible: true
+			id: "0EE6E21E6EDBC5B7"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "328A1FDD419727FA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7B36235C16D92637"
+				item: "apotheosis:filtering_shelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["774A7D8001A081E3"]
+			description: ["The Shelf of Seabound Rectification is a unique bookshelf that does not increase any of the three primary attributes. &6&oInstead, it raises Rectification by a large amount.&r"]
+			id: "7636F7B646A967FD"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "60C414775BDF5E45"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "007DB6C30B483DAD"
+				item: "apotheosis:rectifier"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7636F7B646A967FD"]
+			description: ["The Shelf of Hellbound Rectification is an upgraded form of the Shelf of Seabound Rectification &6&othat further increases the Rectification attribute&r."]
+			id: "6349B7742FE88ADF"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "62F885020AB12B5C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7D36E06EC444E9FA"
+				item: "apotheosis:rectifier_t2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["774A7D8001A081E3"]
+			description: [
+				"Once you've obtained some &o&6Infused Shelves&r, you can craft them into even more powerful variants. There are several, each with different pros and cons, but the simplest ones are the &o&6Glowing Hellshelf&r and &o&6Crystalline Seashelf&r."
+				"With these upgraded shelves, you will be able to reach level 60."
+			]
+			hide_until_deps_visible: true
+			id: "13D99A6985631F9C"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6C43B8C887A438BE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "39FE40FF7B51C807"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:crystal_seashelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:glowing_hellshelf"
+							}
+						]
+					}
+				}
+				title: "Glowing Hellshelf or Crystalline Seashelf"
+				type: "item"
+			}]
+			title: "And This Is To Go Even Further Beyond"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"13D99A6985631F9C"
+				"4EB82837E3678D45"
+				"27BE86C707B9A681"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Our enchanting can reach even greater heights, but doing so will require a new type of shelf. Using deepslate, one can create a &o&6Dormant Deepshelf&r. This shelf on its own is nothing special. &6&oIt must be infused first.&r"]
+			hide_until_deps_complete: true
+			id: "359B2C55DB0B7050"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "18AE86B2C04D0947"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "1DBF58857803F149"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			title: "A New Challenger Has Appeared"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["359B2C55DB0B7050"]
+			description: ["By infusing a Dormant Deepshelf, you will obtain a Deepshelf. This can be used to reach Level 70."]
+			id: "0D6CFA422E84AD0D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "656E41A5408DEDE9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "1867D76312FB80B4"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			title: "Dormant Potential Unleashed"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0D6CFA422E84AD0D"]
+			description: [
+				"Certain enchantments can not typically be obtained through an Enchanting Table. These are &o&6Treasure Enchantments&r. You probably know about the most popular treasure enchantment, &oMending&r."
+				"&o&6The Deepshelf of Arcane Treasures&r changes this, adding Treasure Enchantments to the list of enchantments one can obtain through the Enchanting Table. Do not celebrate too early, however, as many &o&4curses&r are also treasure enchantments, and will be added to the lists."
+			]
+			id: "66E6F27F50A996CB"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4847859127E1E8C4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "4294E45862EE010B"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0D6CFA422E84AD0D"]
+			description: ["&6&oOne must venture into the Deep Dark if they are to obtain even greater power&r. Requiring materials only found within the dark, and even from venturing into the Ancient Cities of the past, two of the three upgraded forms of the Deepshelf are &6&oThe Echoing Deepshelf&r and &6&oThe Soul-Touched Deepshelf&r. Each focuses on a specific stat, but both can be used to &6&oreach level 75 enchantments&r."]
+			id: "161435ADC63C307D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "401556C6E1E588A5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "58F66D67BEBE8082"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:echoing_deepshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:soul_touched_deepshelf"
+							}
+						]
+					}
+				}
+				title: "Echoing Deepshelf or Soul-Touched Deepshelf"
+				type: "item"
+			}]
+			title: "This Isn't Even Its Final Form"
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6349B7742FE88ADF"]
+			description: ["The ultimate form of the Rectification bookshelf is the Shelf of End-Touched Rectification. The Rectification is even further increased."]
+			id: "415E54E23D13D76F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4AC5AF54117FAC87"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "76C3206563599080"
+				item: "apotheosis:rectifier_t3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["161435ADC63C307D"]
+			description: [
+				"Diving into the Deep Dark is no simple task, but you've achieved it. Even moreso, you have likely discovered an Ancient City. &6&oBut to slay its ultimate protector, The Warden, is no simple task.&r That said, the rewards are great indeed."
+				"&6&oThe Sculkshelves&r are upgraded forms of Deepshelves utilizing the tendrils of a Warden, &6&oallowing one to reach enchantments of Level 80&r."
+			]
+			id: "69D9D1F047C4B892"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0B8AA5B77AD8EB04"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "1BCCD39A7636634B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:echoing_sculkshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:soul_touched_sculkshelf"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Behold Its True Power!"
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["69D9D1F047C4B892"]
+			description: [
+				"The penultimate enchanting power, &6&oinfusing Dragon's Breath is no simple task, requiring very specific amounts of Eterna, Quanta, and Arcana, along with access to Level 80 enchantment power&r."
+				"By using Infused Dragon's Breath, one can craft &6The Endshelf&r. With this shelf, along with its upgraded form, &6&oThe Pearlescent Endshelf&r, &6&oone can reach Level 90 enchanting&r."
+			]
+			hide_until_deps_complete: true
+			id: "405C9061EDF15427"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4563A2C6BBE57039"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "4BAF8CBA471706A9"
+					item: "apotheosis:endshelf"
+					type: "item"
+				}
+				{
+					id: "143F7A9E851F51F5"
+					item: "apotheosis:pearl_endshelf"
+					type: "item"
+				}
+			]
+			title: "The Eternal Shelving"
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["405C9061EDF15427"]
+			description: [
+				"At the very end of your enchanting journey is The Draconic Endshelf. &6&oCrafted using the head of an Ender Dragon, only 1 shelf is required to bridge the gap from Level 90 to Level 100.&r"
+				"At last, the pinacle of power is yours."
+				"Or is it?"
+			]
+			id: "1844A99E435F6E8E"
+			rewards: [{
+				amount: 270L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7F48FF09917DA1D3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "77546688F6AB164B"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			title: "The Shelf of Dreams"
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			id: "5AC7FC89785E464F"
+			tasks: [{
+				id: "59BD83671DEA4CEF"
+				item: "apotheosis:beeshelf"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			id: "0FB908A273181B76"
+			tasks: [{
+				id: "6108F3A6B0A1677D"
+				item: "apotheosis:melonshelf"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			id: "7D41A4F1AAAE5D89"
+			tasks: [{
+				id: "15429502455D2AC4"
+				item: "apotheosis:stoneshelf"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			id: "54434A0CA6214A3A"
+			tasks: [{
+				id: "0600839D57299B8F"
+				item: "apotheosis:other_tome"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			id: "377A0D66D50B77FC"
+			tasks: [{
+				id: "335A50B2AC19B055"
+				item: "apotheosis:helmet_tome"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+	]
 	title: "Enchanting"
 }

@@ -38,7 +38,7 @@ hash = "aded0937dff550c18f0656661333ad9f37990cc5d38e6840497cab3ff7a266fc"
 
 [[files]]
 file = "config/Mekanism/gear.toml"
-hash = "02d464d81e33020e6ad28e0021829f1727f02821014c251afef14cfc85c99660"
+hash = "e6fb3141ed6032e65fffb4e4a6705a9dcd36d64b0e2c7f9baaea2f1cc4c4e476"
 
 [[files]]
 file = "config/Mekanism/general.toml"
@@ -66718,7 +66718,7 @@ hash = "67df4b59a69f2f747a66b62f5fd388a06ca822915f2c0bdfa314c72b568b07b7"
 
 [[files]]
 file = "config/cataclysm-common.toml"
-hash = "a59a4c9fca43b7e46a3ad90878670f7e62c5a8e7f2a7213d674b26ef9653558d"
+hash = "967769b264fe828910a03d78699e459125ed3b749104d66b9569e0f21951be67"
 
 [[files]]
 file = "config/cataclysm.toml"
@@ -67166,7 +67166,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "c4583bb6dedfdfb839f4b177d49a97e1e6e4a88bbaeb89c04c1bdd7b033b1f3f"
+hash = "b2aaaad0a431461097c2e0ffec364fda003a6da5d3a3e05758a0afb4098d9fba"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68026,7 +68026,7 @@ hash = "d0f8f68717627b8f1bfd62b99ac06b057d49806a9ae8b048ec7af5c694481a36"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
-hash = "a9cbde0828b9cb6a92fe96fa29ad122de429edea6bb0389389bd5d86fc48346a"
+hash = "8e8692ffea20a968d9cd3e20fa0adf075c2a1e61bb631c43d8c9d4969669337f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farming.snbt"
@@ -68497,6 +68497,10 @@ file = "config/jei/recipe-category-sort-order.ini"
 hash = "569d08aadccf509bc368cae21a8bf42e34945f4d7fe6191b399b91c7c3b69a91"
 
 [[files]]
+file = "config/jei/world/local/Boss/lookupHistory.ini"
+hash = "1473b48a55a3212a5bfc4f018749d8d49943db6800dcf7a2ffde71a2bbce0d3e"
+
+[[files]]
 file = "config/jei/world/local/Boss_Rush/lookupHistory.ini"
 hash = "25a5155f939740bb579701947ee8e496026d8aa539c4de6751983e834f66a532"
 
@@ -68702,7 +68706,7 @@ hash = "b497bd5347383552517807b723e11184eb10f8e2ef7ce6c061cfa72ef769d4da"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_23ced690/lookupHistory.ini"
-hash = "bca6be8ef65db8ce06c86245fe24d03564a8d48f5bb522a4dd582a2ccc75a5c2"
+hash = "9ddd2742daab3723aab9d35cee7828b29febdf59c0fb308f2572ee083f17c664"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_fbacacb7/lookupHistory.ini"
@@ -68858,7 +68862,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "e50e3daa66f9f1912eb45a027a22084a98be40ef43d3837009f35576ee044c36"
+hash = "0a8b881a09520fbbb86954beba1af86eb881f43375ffdc99cdef977cea69def8"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68974,7 +68978,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "28a118709931d3d0547e9373ea0dc9bbad728ab4d6d50af94e3c93759621fcee"
+hash = "e5f1c79de84a95f4c9601b9a72b2fe708dfbfe85485b2bdc8ff141f1f9d409f9"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68982,7 +68986,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "104808acaf92280eb7906d575f30cf9a7d5df710d66ec47d42ab56cc907986ea"
+hash = "dc5947c97863c4ef0c3a86f400b3cc57537b867e2a9aad54e63a7e685bb74f4d"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -70070,11 +70074,11 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "9b9cc276b2ae637d2f8cc432b1c4c98304e6e738914003312ba78854b7237455"
+hash = "6993dd8e17615b92a266fd20af1ce69dd593d24b5702e075ca9d2fade8e369f2"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "316eed053ff6286c7d48b1ea8d35da3b631871f8081f1d27bf34e784dab73165"
+hash = "d5f8870edb3995ada064ef8cbb3cd99b065ed5f7f186f06badb37efef8d0e1dc"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -70425,6 +70429,10 @@ file = "kubejs/assets/modpack/textures/anglers-eye.png"
 hash = "102128a6d57f303b89fe5a8410643445e0b69136fa33564030a2b201979f9133"
 
 [[files]]
+file = "kubejs/assets/modpack/textures/arcana.png"
+hash = "cc2a8ec0c12e7a012cf887bfa32951965ca26349ced0e5417001c14adfcb563a"
+
+[[files]]
 file = "kubejs/assets/modpack/textures/arctic-fish.png"
 hash = "d77d73a3dc9546ec5edb0db60955750fb8a69a3e56e2bb821e0f23064b6f8039"
 
@@ -70461,6 +70469,10 @@ file = "kubejs/assets/modpack/textures/bioforge.png"
 hash = "0a810aed0c7aaffc750adae25013407a575cb59bfe04a30fa72d31ec0d22852e"
 
 [[files]]
+file = "kubejs/assets/modpack/textures/blazing_hellshelf.png"
+hash = "38269048843b667afe13d7cb1e92dac67e20badab62fccfd2e08662175382939"
+
+[[files]]
 file = "kubejs/assets/modpack/textures/bloomberry.png"
 hash = "0b1a3a6ec3e1857e1974651fa7e12d51504e1d33d642f5bf27223226771c8e0c"
 
@@ -70493,6 +70505,10 @@ file = "kubejs/assets/modpack/textures/claim2.png"
 hash = "cfee48304ca5edb792d60ae71a342d4efeb363eaa3530e3e619d5f69552bbf26"
 
 [[files]]
+file = "kubejs/assets/modpack/textures/cobweb_removal.png"
+hash = "b3a4ea6f2c9b4cbf1e0d82fa32c447037e80691edd8e27968e7d8e3ef5274da1"
+
+[[files]]
 file = "kubejs/assets/modpack/textures/collar-tag.png"
 hash = "313c250016febc65a545eaf3653bc43cdd05c0e2158233122d9b7356eb53597a"
 
@@ -70517,8 +70533,16 @@ file = "kubejs/assets/modpack/textures/empty-focus.png"
 hash = "9b00030b1497dc16c1aa7b0c3c07182f18c4198b536d3504737ffec6e20f473f"
 
 [[files]]
+file = "kubejs/assets/modpack/textures/enchanting.png"
+hash = "c66fd56cca8182d8061acef8b4d973c330e41da57e1cf153e25d857ab1c275ee"
+
+[[files]]
 file = "kubejs/assets/modpack/textures/essence-extractor.png"
 hash = "2d85748c77d38a3efd313615cc56cc134b125d3ba6ed7eb57aa25db581845f66"
+
+[[files]]
+file = "kubejs/assets/modpack/textures/eterna.png"
+hash = "c05b71a3ff520bcb912bc6bd443ab2ec3f6fa657f116aa940373f4a03e130cb6"
 
 [[files]]
 file = "kubejs/assets/modpack/textures/fabrics.png"
@@ -70573,6 +70597,18 @@ file = "kubejs/assets/modpack/textures/grenades.png"
 hash = "0b6ae6fac40f4c277f78caa75b1ac162520ce2eeb51fa0a61c43c4fb3e7dd24e"
 
 [[files]]
+file = "kubejs/assets/modpack/textures/hellshelf_and_seashelf.png"
+hash = "eda4365f921f93841f9ae80aa61881ce25bcb35e726b41407b2e086c8bb370ed"
+
+[[files]]
+file = "kubejs/assets/modpack/textures/hellshelf_of_masterful_sight.png"
+hash = "d2cd51c529c36dcd662bf3e5a7344e4a56048f69ce90521a704beca04c8bc7b1"
+
+[[files]]
+file = "kubejs/assets/modpack/textures/hellshelf_of_sight.png"
+hash = "dabd0d8e6f834f5c3cc3062a7ad8f893ce05917c3a48a6ffc7cf4a6716e28fe7"
+
+[[files]]
 file = "kubejs/assets/modpack/textures/ignited_revenant.png"
 hash = "54a265399a48e4fa320ddd0123e149ef02649a277213ece9e2699ca35023abfc"
 
@@ -70591,6 +70627,10 @@ hash = "70c19e67cae2f9ba4719faa0434582fa54d2dfd060fbdbbdd80985af1bd0080c"
 [[files]]
 file = "kubejs/assets/modpack/textures/impaler.png"
 hash = "3b1ba6e194b5f494cc70deac5477c3b2dee275666dbcfe965fa55d99692fc91c"
+
+[[files]]
+file = "kubejs/assets/modpack/textures/infusing.png"
+hash = "a30d4b9a577fbd0bcf774ba92bf781ca669e226efb930be8743fee19abb8c663"
 
 [[files]]
 file = "kubejs/assets/modpack/textures/jungle-fish.png"
@@ -70653,6 +70693,10 @@ file = "kubejs/assets/modpack/textures/primordial-cradle.png"
 hash = "2598815d9a195b7f0e531ba5860ff7b80910029faf5590cab66cc23b20db5cdf"
 
 [[files]]
+file = "kubejs/assets/modpack/textures/quanta.png"
+hash = "fc874f3737b475e5e16816cca482c779fa3da3bfe1c41c2e2a6d6c9a479a23a8"
+
+[[files]]
 file = "kubejs/assets/modpack/textures/ravenous-claws.png"
 hash = "b6cba970696aa8fb76b222ef1870e05bbdf59003363fff5cbac055ba43c00d30"
 
@@ -70671,6 +70715,10 @@ hash = "af842a6bd65963d35a692fdc9b63a22ff4cea9ac3afdb1208e8c5ad0b6aae66d"
 [[files]]
 file = "kubejs/assets/modpack/textures/saltwater-fish.png"
 hash = "e0e0eee61153ccf04e90e1c4adfc8e76348d1976d07448dd1834fa5711a20791"
+
+[[files]]
+file = "kubejs/assets/modpack/textures/seashell_of_aquatic_filtration.png"
+hash = "054a644b3bd5a66f838b3c6a3cc9502b77aed172576f4c855922668e8edc0ab7"
 
 [[files]]
 file = "kubejs/assets/modpack/textures/shipping-bin.png"
@@ -75326,7 +75374,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/dynamic_boss_hp_interact.js"
-hash = "006dfbae8fd7a98ae0dea51e2306ed2e3b46e9fce70c123ab0a25c9858b8c3a3"
+hash = "f3617f269edfe48aae300a18b92f2a3600e2238a53d465071106b51e0e9ba5a4"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/wolf_attack_skulls.js"

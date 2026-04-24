@@ -350,15 +350,15 @@
 		[mobs.ender_guardian.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 4.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 3.5
 
 		[mobs.ender_guardian.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 22.0
+			damage_cap = 52.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
 			dps_cap = 13.0
@@ -372,7 +372,7 @@
 		[mobs.ender_guardian.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 10.0
 
 		[mobs.ender_guardian.respawner_config]
 			#Respawner
@@ -390,10 +390,10 @@
 		[mobs.ender_golem.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 2.5
 
 		[mobs.ender_golem.cap_config]
 			#Damage Cap
@@ -446,15 +446,15 @@
 		[mobs.netherite_monstrosity.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 2.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 7.6
 
 		[mobs.netherite_monstrosity.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 25.0
+			damage_cap = 55.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
 			dps_cap = 20.0
@@ -468,7 +468,7 @@
 		[mobs.netherite_monstrosity.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 10.0
 
 		[mobs.netherite_monstrosity.respawner_config]
 			#Respawner
