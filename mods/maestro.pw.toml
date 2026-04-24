@@ -1,0 +1,21 @@
+filename = 'maestro-forge-1.20.1-3.0.0.jar'
+name = 'Maestro'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Maestro 3.0.0'
+
+[download]
+hash = 'f0546d53aa031e9b8576dd52e058a4f51fc829d0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7608487
+project-id = 1454351
+
+[[x-prismlauncher-dependencies]]
+addonId = '1123970'
+type = 'REQUIRED'

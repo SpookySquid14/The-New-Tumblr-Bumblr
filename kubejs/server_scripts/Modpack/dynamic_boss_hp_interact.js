@@ -4,6 +4,7 @@ const FORGE_BOSSES = $TagKey.create($Registries.ENTITY_TYPE, "forge:bosses")
 
 ItemEvents.entityInteracted(event => {
     const boss = event.target
+    console.log(boss)
     const bossData = event.target.persistentData
     //need to find a way to limit it to only one right click and check if the boss is actively fighting
     if (!(boss.isAlive() && boss.entityType.is(FORGE_BOSSES))) return

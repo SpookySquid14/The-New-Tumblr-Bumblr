@@ -1486,7 +1486,7 @@ hash = "1cae9855e777afbbdca5cd858bc66d10069c902fbd1b8d073cbedace3fa71779"
 
 [[files]]
 file = "config/biomemusic.json"
-hash = "4e1b2d5c7baa608724db6af8b788fa5fc32aaa0a9a55cd75aeca6bbf5efeb8c6"
+hash = "04ec8b02dba10211572e6aaf9d81d818dec4d4d834612b3e7f24e16b7303105f"
 
 [[files]]
 file = "config/biomeswevegone/mob_spawn.json"
@@ -66718,7 +66718,7 @@ hash = "67df4b59a69f2f747a66b62f5fd388a06ca822915f2c0bdfa314c72b568b07b7"
 
 [[files]]
 file = "config/cataclysm-common.toml"
-hash = "6c0e2a5186210dc5aab65713f98eeac3379e029861aacd5f005abd4b808a491d"
+hash = "d0d456ffc26fdd7ea80b4bd8dd0732e6e86fdfb226fe51d1940ce1435f09b843"
 
 [[files]]
 file = "config/cataclysm.toml"
@@ -66814,7 +66814,7 @@ hash = "8c5b1d5b21edcdf1d5e3fdfcf25c90b7dafe0727410b3d7d9d5394165b3a8c48"
 
 [[files]]
 file = "config/combatnouveau-server.toml"
-hash = "07237aec49e13fb951ed38f8ebc77af3842bcae6eb2f05ecea6548d175940419"
+hash = "6dd3adee4fe7195ee193546fa54db20be74778099d2b7c80fe246620fd3405e7"
 
 [[files]]
 file = "config/combatroll/client.json5"
@@ -67166,7 +67166,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "276c171fde62e1c60c1d60d727d6583e80e88157f5d4c03c728161b360dbc8e3"
+hash = "6df157326f52abe581a72ff53ef9b1dcb4d3eb47232c1c8d51225c6f6a0e8c4c"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68470,7 +68470,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "1739e848d0486126d3d4909da7b2aabf4cb5e7d40abbd21d347523983f0d6d96"
+hash = "f31ba780d1f367090e78a916d38814ad15e7a0a8bcaff4fdf5c8b96a14339e14"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -68498,7 +68498,7 @@ hash = "569d08aadccf509bc368cae21a8bf42e34945f4d7fe6191b399b91c7c3b69a91"
 
 [[files]]
 file = "config/jei/world/local/Boss/lookupHistory.ini"
-hash = "5b19bdcbf1321aae62315eba8afd590b5a8141936dd4a9a174c16cf7f8442435"
+hash = "d692fee8cfff6df0be096e8f736db82efdef33b643298b9a2c92fd16884b43db"
 
 [[files]]
 file = "config/jei/world/local/Boss_Rush/lookupHistory.ini"
@@ -68654,7 +68654,7 @@ hash = "71603fd2bd96b8f17d692e3f5e78f94af9829ff84309c61a9d37225e83c9a5e5"
 
 [[files]]
 file = "config/jei/world/local/New_World__44/lookupHistory.ini"
-hash = "80fd8298445f76534784a61807ff5b60f856be501a1d173042fec44e864531ff"
+hash = "e9daff5daa38bde9f1090893b4c575ece3592e66ff59b10799cd0bfc274c12a4"
 
 [[files]]
 file = "config/jei/world/local/New_World__5/lookupHistory.ini"
@@ -68862,7 +68862,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "49cfefa7067cfdaba044aa0d2501a4272c16f277075ab3bf6f70c27226365d51"
+hash = "55c443a6d421f38e4f9a202c5600c1e5f58e0bc325bd9e2ad510598cf4316883"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68978,7 +68978,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "a8d0aad3897a45a75de8ff7205c5ab8d50ce4981eaf529856fed50e5eae023f2"
+hash = "6ce57567ef740108c25f9a62556e1b4cdba4e4d63eb9012efe5ac4724b45af8b"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68986,7 +68986,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "86908ae448fed718a79d4fe12eabd2c57195adf9e61795b3c0ea64c44476f76d"
+hash = "cfcd7c9bd2dd15e3e6f3b3e99aadeadbe36fa63653e3fe4916b50a251231187e"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -70026,11 +70026,11 @@ hash = "d1c9bedfc34f53675bac38c0191427175d15e3b748e1bf80e0af25d109fe9e1a"
 
 [[files]]
 file = "config/witherreincarnated/client.toml"
-hash = "d1c9bedfc34f53675bac38c0191427175d15e3b748e1bf80e0af25d109fe9e1a"
+hash = "52b07917a2066b538aada9f548ff15e032b02fd5334e577b1506cba98355a031"
 
 [[files]]
 file = "config/witherreincarnated/common.toml"
-hash = "3b25f159336b6b574647f32cd578b57f9f82f1db57c830a8edf7352caff7332a"
+hash = "338712058f34385f812e6b6aefe020b5a8d4d03703afe7e9d7464131c888e552"
 
 [[files]]
 file = "config/workers-common.toml"
@@ -75378,7 +75378,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/dynamic_boss_hp_interact.js"
-hash = "f3617f269edfe48aae300a18b92f2a3600e2238a53d465071106b51e0e9ba5a4"
+hash = "3e1c73bb6ed4d443a751d58689675410be2c6c2854c653463f83292ca6284302"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/wolf_attack_skulls.js"
@@ -76549,6 +76549,11 @@ hash = "267a4aa427e264eae751a4646abc4c1cbf3d4d856319b4580d51854ce5970dab"
 metafile = true
 
 [[files]]
+file = "mods/fragmentum.pw.toml"
+hash = "7975572bc35627c4a93f849b803072e33586eefc1df7619d9b00e50867e426b8"
+metafile = true
+
+[[files]]
 file = "mods/framework.pw.toml"
 hash = "b65994104201b9414bdab2fb9c7d5c9c757aaa6c59046aef92a972f6e7bff593"
 metafile = true
@@ -77011,6 +77016,11 @@ metafile = true
 [[files]]
 file = "mods/macaws-trapdoors.pw.toml"
 hash = "5230f3bcbcad9ec68855949a85dc8e8c67c34ed62b28699c60b783e67126ff73"
+metafile = true
+
+[[files]]
+file = "mods/maestro.pw.toml"
+hash = "629f27fdce9623d4a55a84033ebab9fa52b12fdd30a0814cf33d6893d78a15a0"
 metafile = true
 
 [[files]]

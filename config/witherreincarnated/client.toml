@@ -17,7 +17,7 @@
 	"Max Distant Fire (default: 256)" = 256
 	"Max Smoke Columns (default: 256)" = 256
 	"Falling Ash Near Smoke Columns (default: true)" = true
-	"Distant Fire Detail (default: 1.0)" = 1.0
+	"Distant Fire Detail (default: 1.0)" = 0.1
 	"Wither Shine Detail (default: 1.0)" = 1.0
 	"Wither Death Flare Detail (default: 1.0)" = 1.0
 

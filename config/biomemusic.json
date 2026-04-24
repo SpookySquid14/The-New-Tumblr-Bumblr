@@ -48,7 +48,7 @@
   },
   "displayMusicPlayed": {
     "desc:": "Shows currently played music in chat/log, default = false",
-    "displayMusicPlayed": false
+    "displayMusicPlayed": true
   },
   "logloadedmusic": {
     "desc:": "Prints the music files getting loaded into the latest.log, default = false",

@@ -438,7 +438,7 @@
 		smash_hp_damage = 0.08
 		#Flame Jet Damage
 		#Range: 0.0 ~ 1000000.0
-		flame_jet_damage = 7.0
+		flame_jet_damage = 50.0
 		#Flare Bomb Damage
 		#Range: 0.0 ~ 1000000.0
 		flare_bomb_damage = 10.0
@@ -460,10 +460,10 @@
 			dps_cap = 20.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
-			dps_limit_time = 20
+			dps_limit_time = 10
 			#Range Cap
 			#Range: 1.0 ~ 1000000.0
-			range_cap = 18.0
+			range_cap = 60.0
 
 		[mobs.netherite_monstrosity.nature_heal_config]
 			#Nature Heal
@@ -545,7 +545,7 @@
 	[mobs.harbinger]
 		#Harbinger Auto Heal
 		#Range: 0.0 ~ 1000000.0
-		harbinger_auto_heal = 2.0
+		harbinger_auto_heal = 0.0
 		#Harbinger Life Steal
 		#Range: 0.0 ~ 1000000.0
 		harbinger_life_steal = 5.0
@@ -568,18 +568,18 @@
 		[mobs.harbinger.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 4.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 1.7
 
 		[mobs.harbinger.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 22.0
+			damage_cap = 52.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 44.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -729,15 +729,15 @@
 		[mobs.ancient_remnant.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 2.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 3.9
 
 		[mobs.ancient_remnant.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 21.0
+			damage_cap = 55.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
 			dps_cap = 14.0
@@ -746,7 +746,7 @@
 			dps_limit_time = 20
 			#Range Cap
 			#Range: 1.0 ~ 1000000.0
-			range_cap = 14.0
+			range_cap = 78.0
 
 		[mobs.ancient_remnant.nature_heal_config]
 			#Nature Heal
