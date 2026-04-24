@@ -66718,7 +66718,7 @@ hash = "67df4b59a69f2f747a66b62f5fd388a06ca822915f2c0bdfa314c72b568b07b7"
 
 [[files]]
 file = "config/cataclysm-common.toml"
-hash = "967769b264fe828910a03d78699e459125ed3b749104d66b9569e0f21951be67"
+hash = "6c0e2a5186210dc5aab65713f98eeac3379e029861aacd5f005abd4b808a491d"
 
 [[files]]
 file = "config/cataclysm.toml"
@@ -66814,7 +66814,7 @@ hash = "8c5b1d5b21edcdf1d5e3fdfcf25c90b7dafe0727410b3d7d9d5394165b3a8c48"
 
 [[files]]
 file = "config/combatnouveau-server.toml"
-hash = "6dd3adee4fe7195ee193546fa54db20be74778099d2b7c80fe246620fd3405e7"
+hash = "07237aec49e13fb951ed38f8ebc77af3842bcae6eb2f05ecea6548d175940419"
 
 [[files]]
 file = "config/combatroll/client.json5"
@@ -67166,7 +67166,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "b2aaaad0a431461097c2e0ffec364fda003a6da5d3a3e05758a0afb4098d9fba"
+hash = "276c171fde62e1c60c1d60d727d6583e80e88157f5d4c03c728161b360dbc8e3"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68498,7 +68498,7 @@ hash = "569d08aadccf509bc368cae21a8bf42e34945f4d7fe6191b399b91c7c3b69a91"
 
 [[files]]
 file = "config/jei/world/local/Boss/lookupHistory.ini"
-hash = "1473b48a55a3212a5bfc4f018749d8d49943db6800dcf7a2ffde71a2bbce0d3e"
+hash = "5b19bdcbf1321aae62315eba8afd590b5a8141936dd4a9a174c16cf7f8442435"
 
 [[files]]
 file = "config/jei/world/local/Boss_Rush/lookupHistory.ini"
@@ -68862,7 +68862,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "0a8b881a09520fbbb86954beba1af86eb881f43375ffdc99cdef977cea69def8"
+hash = "49cfefa7067cfdaba044aa0d2501a4272c16f277075ab3bf6f70c27226365d51"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -68978,7 +68978,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "e5f1c79de84a95f4c9601b9a72b2fe708dfbfe85485b2bdc8ff141f1f9d409f9"
+hash = "a8d0aad3897a45a75de8ff7205c5ab8d50ce4981eaf529856fed50e5eae023f2"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -68986,7 +68986,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "dc5947c97863c4ef0c3a86f400b3cc57537b867e2a9aad54e63a7e685bb74f4d"
+hash = "86908ae448fed718a79d4fe12eabd2c57195adf9e61795b3c0ea64c44476f76d"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -76411,6 +76411,11 @@ metafile = true
 [[files]]
 file = "mods/entityjs.pw.toml"
 hash = "0699afe097f614f5e9d71d9ac8ceb7aca9f3866a3680462d4595b8472dcd619f"
+metafile = true
+
+[[files]]
+file = "mods/entitymodelshaderfix.pw.toml"
+hash = "17d575a35c8d4d1eae592721123da87a82adfe553ab17cba9505b53864e92c47"
 metafile = true
 
 [[files]]
