@@ -66702,7 +66702,7 @@ hash = "0c042b32fc9f5b1a22879878b5126c7165f7efdd058981e7760c5b328be57a00"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "07fda1c73e82849df7b3492bf596816a03b3fd7fceb05d4c85eefb05886d9141"
+hash = "0fee13021fdfb94a8f2bb33bf5efe8f5c03357b835b61cc346612587f62aa08c"
 
 [[files]]
 file = "config/canary.properties"
@@ -67170,7 +67170,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "017e108cc838878172ac32ade6511f96f380d95148c514d49954a9c78545786a"
+hash = "3038bd228e96914a826503418b2c1ddb3349fe89e3ae811da092dffbbff24664"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68910,7 +68910,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "e30f251d7de782ed300d2ca414e6dc5ea72d1303c61f559ecfd887ce91403638"
+hash = "4d76c0d3f1e8262c8057aab8810bf60e6fe9e01e49b6bbc84c21754ff4cc485d"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69030,7 +69030,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "4a408e0accebe9353db22d0ef511fce29a18e0f1bb78c6cddcb3d838b7694e99"
+hash = "8b46bbcb5e4aacb4f0271c828a31d2df4f4e7f98fb0d1a8953c22fa0ad74b83e"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -69038,7 +69038,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "6f8641d342e7e98704522ca0bb67e50630caba2a65b582daf02c520605281b5d"
+hash = "2bd64ee503515249b24f62494880736a2ee6c2a3850bbcfa879e9edee0798ad4"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69630,7 +69630,7 @@ hash = "370cb0d795cd5143f878dbaa489ba2ec7cbd14228cafa07d4a86a27a2e08f923"
 
 [[files]]
 file = "config/spark/activity.json"
-hash = "599bcc802c87f51eac5bcd541a5a08a502aecc698ddec4004883913ff4d3b7aa"
+hash = "95d5375384b521a0810c7d8148f2e7b870cb62577a7cf57df187e0baa2723f37"
 
 [[files]]
 file = "config/spark/config.json"
@@ -69647,6 +69647,14 @@ hash = "8e9d5eb691f27659f8b6cd9365188b6b541c566757306c83fe06d151f1961795"
 [[files]]
 file = "config/spark/tmp/spark-12bd7a3befec-profile-data.jfr.tmp"
 hash = "edd0485b0550a165099c3810c5d661c9f8c7bf60e2a4eff6a8a446f89d10f010"
+
+[[files]]
+file = "config/spark/tmp/spark-16e0420e0ed7-libasyncProfiler.so.tmp"
+hash = "13c034cb1f6452de2892278de4c49df7d910499c37c275a32895e67a4fb2bc54"
+
+[[files]]
+file = "config/spark/tmp/spark-17501fd40e32-profile-data.jfr.tmp"
+hash = "8296c776322076474f6627382a9c0dd8cf4ae45e11726d40e411e5af25fddfbb"
 
 [[files]]
 file = "config/spark/tmp/spark-1895c24e856f-profile-data.jfr.tmp"
@@ -75513,6 +75521,10 @@ file = "kubejs/server_scripts/Wormhole Artifact/ender_nacre.js"
 hash = "449e828428a6a5dfdf0a319639a3047b3f65b75ea4c3892097c12b4d210e5e7c"
 
 [[files]]
+file = "kubejs/server_scripts/dynamic_boss_hp_spawn.js"
+hash = "351f7cce5e8a8bc9ec129fca3dc23c33dcaa0d52c7a8286ea2a236ac3d50f9fe"
+
+[[files]]
 file = "kubejs/server_scripts/from_the_fog/herobrine_config.js"
 hash = "c8db3744b805fb86d064d73ff6332e6f8aa279d466c41e5c0246274476790bc1"
 
@@ -75550,7 +75562,7 @@ hash = "31a1074ef1e231a996a764120389fcaba15f3a004632879e98cd0b9411787982"
 
 [[files]]
 file = "kubejs/startup_scripts/dynamic_boss_hp_tick.js"
-hash = "3b9c48941ea97bb2ccbc8eec2a8316eb30b7bbd253134acb05b0809b5aae4cd2"
+hash = "d2992feadd5b5a515396c6c7f71baba1b22a9c63e14788c46aa08ce74492c1c2"
 
 [[files]]
 file = "kubejs/startup_scripts/ender_eye_rarity_change.js"

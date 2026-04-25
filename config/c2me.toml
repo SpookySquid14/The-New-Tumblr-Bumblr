@@ -50,7 +50,7 @@ globalExecutorParallelism = "default"
 	# 
 	# Set to false for the following reasons: 
 	# Incompatible with architectury@9.2.14 (*) (defined in c2me) 
-	gcFreeChunkSerializer = "default"
+	gcFreeChunkSerializer = false
 	# (Default: true) Whether to use async chunk loading & unloading
 	async = "default"
 
