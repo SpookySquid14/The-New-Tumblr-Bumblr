@@ -1402,7 +1402,7 @@ hash = "ad0e43cd1d8fff16d76ff6036699bd67598ff8bc18220b7e8e951245c92cf139"
 
 [[files]]
 file = "config/betterchunkloading.json"
-hash = "5c77c279bb5b3f74ae8ecd8cace949ff87276f1a6753a0c5595721802b209c70"
+hash = "95bdbfe1263fb62be9951dbbe48f32683ad4da8d0084a17220e5f674325a3373"
 
 [[files]]
 file = "config/bettercombat/client.json5"
@@ -67170,7 +67170,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "9cc65b9c3a3b0896b39ae5bfb95ca9b05b0aeb191d297d021b086060b795f552"
+hash = "017e108cc838878172ac32ade6511f96f380d95148c514d49954a9c78545786a"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -67367,6 +67367,10 @@ hash = "622a6b6c3f375173d0e1aa0345a2e887c8350e49b1770cbff7e145e991db0b95"
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$dark_forest.cfg"
 hash = "d3af8b2cd817619d699e1909c7bc0c991810bc3452a7216a36b141c433aa0ab5"
+
+[[files]]
+file = "config/forgeendertech/Biomes/minecraft$deep_cold_ocean.cfg"
+hash = "9a019b6dbaad8083ab5269d0f57aef28689b5ccec054e4ad694f57c70c57bdba"
 
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$deep_dark.cfg"
@@ -67665,6 +67669,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$glistering_meadow.cfg"
 hash = "c8a82d6dcbddf1208aade480e56374ecb2deefd4c491de591f39e4bf6e576b6d"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$grassland.cfg"
+hash = "2cc0400342ec97d23bdccaa608826f568de7b69c953f21d0cc4181ccc6c1e06b"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$grassy_beach.cfg"
 hash = "ac08b3402528cacddbdd501c55e63306b839499a85da0bac56753fa518c25ffe"
 
@@ -67743,6 +67751,10 @@ hash = "8d99ed32bffd8234c0576dd87767600510cf1b74c9f38da3116241785dc51b86"
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$redstone_abyss.cfg"
 hash = "0f64501c52e9291de32a937218c634173185959d70df8ee4ac4b569b7397ddcc"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$redstone_caves.cfg"
+hash = "8468ba91e4aeb4332915185ceb51334055bdaeb1c784321f38b0e860ba7a658a"
 
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$redwoods.cfg"
@@ -68506,7 +68518,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "dd265a38b3a9ccd286128d147918fce1871b099832b8a03d691cd42ea1867a5e"
+hash = "a8e2c05aca2e14278ff122913c35146400c071bdf372bdd101d781bd4cd7f586"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -68898,7 +68910,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "5ddd77c19f51eb147fb6f94b57a4e1c5d15b5212f3e2fe1b614caa72323fe975"
+hash = "e30f251d7de782ed300d2ca414e6dc5ea72d1303c61f559ecfd887ce91403638"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69018,7 +69030,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "09ac0531584d772b663e07e20e87e45bbd43b9ccb04f12588bfde6d5d99102d9"
+hash = "4a408e0accebe9353db22d0ef511fce29a18e0f1bb78c6cddcb3d838b7694e99"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -69026,7 +69038,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "38c1a78634f2c82432489807bce584283c0b31026eb394988e946199921492de"
+hash = "6f8641d342e7e98704522ca0bb67e50630caba2a65b582daf02c520605281b5d"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69618,7 +69630,7 @@ hash = "370cb0d795cd5143f878dbaa489ba2ec7cbd14228cafa07d4a86a27a2e08f923"
 
 [[files]]
 file = "config/spark/activity.json"
-hash = "a93664fc354a8e9850f33a5279989f7996ab3d071a0df224160400e5dd525c14"
+hash = "599bcc802c87f51eac5bcd541a5a08a502aecc698ddec4004883913ff4d3b7aa"
 
 [[files]]
 file = "config/spark/config.json"
@@ -69631,6 +69643,10 @@ hash = "8057ccf4540ea269b0fc332225859f44d8f3a55d891fa2e7a3447b6202658d2a"
 [[files]]
 file = "config/spark/tmp/spark-1037ead72c54-profile-data.jfr.tmp"
 hash = "8e9d5eb691f27659f8b6cd9365188b6b541c566757306c83fe06d151f1961795"
+
+[[files]]
+file = "config/spark/tmp/spark-12bd7a3befec-profile-data.jfr.tmp"
+hash = "edd0485b0550a165099c3810c5d661c9f8c7bf60e2a4eff6a8a446f89d10f010"
 
 [[files]]
 file = "config/spark/tmp/spark-1895c24e856f-profile-data.jfr.tmp"
@@ -69657,6 +69673,30 @@ file = "config/spark/tmp/spark-2ac007468128-profile-data.jfr.tmp"
 hash = "c0727879f777254e8e01e61540209cee2701b8b5193cb857dc7d864432bd4e3e"
 
 [[files]]
+file = "config/spark/tmp/spark-2c296a818bed-libasyncProfiler.so.tmp"
+hash = "13c034cb1f6452de2892278de4c49df7d910499c37c275a32895e67a4fb2bc54"
+
+[[files]]
+file = "config/spark/tmp/spark-2d40ebc6512c-profile-data.jfr.tmp"
+hash = "77a0824286fd12e5d55a2526a38ca618a8ebd890761ae7c690910cdc39c54495"
+
+[[files]]
+file = "config/spark/tmp/spark-2e6ab00a694d-libasyncProfiler.so.tmp"
+hash = "13c034cb1f6452de2892278de4c49df7d910499c37c275a32895e67a4fb2bc54"
+
+[[files]]
+file = "config/spark/tmp/spark-2f7437240e80-profile-data.jfr.tmp"
+hash = "441ec4cb1b3b591994dedac85cb38168db54376d8dfd14864a756df689a96406"
+
+[[files]]
+file = "config/spark/tmp/spark-2fb01706bb1c-libasyncProfiler.so.tmp"
+hash = "13c034cb1f6452de2892278de4c49df7d910499c37c275a32895e67a4fb2bc54"
+
+[[files]]
+file = "config/spark/tmp/spark-308fb4b95898-profile-data.jfr.tmp"
+hash = "114f2c5d13aabc9e7ea6cc6c4bcb118cc2bd6ab7f3acec2586ed9deb0d657e08"
+
+[[files]]
 file = "config/spark/tmp/spark-665687f2ce9-libasyncProfiler.so.tmp"
 hash = "13c034cb1f6452de2892278de4c49df7d910499c37c275a32895e67a4fb2bc54"
 
@@ -69665,8 +69705,32 @@ file = "config/spark/tmp/spark-73010366937-profile-data.jfr.tmp"
 hash = "e92f992bca74682fbbb38baf3139e0c71c321c719f705fbfe1adf86dda869f3d"
 
 [[files]]
+file = "config/spark/tmp/spark-9572c90e91e-libasyncProfiler.so.tmp"
+hash = "13c034cb1f6452de2892278de4c49df7d910499c37c275a32895e67a4fb2bc54"
+
+[[files]]
+file = "config/spark/tmp/spark-9d4ffdb2924-profile-data.jfr.tmp"
+hash = "588c82c5be88401668fd2d54cf3defe5f125d54df2ac8cc5b07f862e86423809"
+
+[[files]]
 file = "config/spark/tmp/spark-9f9d8c6b6c4-profile-data.jfr.tmp"
 hash = "fe5620509d6efd1249b1deafba0d4b95d1e2dbfaab814e7edf51af5c95278e9d"
+
+[[files]]
+file = "config/spark/tmp/spark-a117e748b92-libasyncProfiler.so.tmp"
+hash = "13c034cb1f6452de2892278de4c49df7d910499c37c275a32895e67a4fb2bc54"
+
+[[files]]
+file = "config/spark/tmp/spark-a576f3da080-profile-data.jfr.tmp"
+hash = "b7fb7ec7f5c291a37bdcad41e8d5ef9c392a57d242bdbefa801fc9b43871772a"
+
+[[files]]
+file = "config/spark/tmp/spark-ad4c6103633-libasyncProfiler.so.tmp"
+hash = "13c034cb1f6452de2892278de4c49df7d910499c37c275a32895e67a4fb2bc54"
+
+[[files]]
+file = "config/spark/tmp/spark-c69fed55a77-profile-data.jfr.tmp"
+hash = "45edaf227640bd1de216ae8183d29e0e41767881d41f44001c964154b3328c2a"
 
 [[files]]
 file = "config/spark/tmp/spark-db62374fb39-profile-data.jfr.tmp"
@@ -74373,6 +74437,10 @@ file = "kubejs/data/forge/loot_modifiers/global_loot_modifiers.json"
 hash = "c25c68ad4679a2f3db4b9e880529c5782b7ab33aa792f7143a1276327ea1c024"
 
 [[files]]
+file = "kubejs/data/forge/tags/entity_type/bosses.json"
+hash = "909075791b62c0e70ad28ad5083c56c7477a2f19e4b1a3a78ee9f2f02acf55a1"
+
+[[files]]
 file = "kubejs/data/gateways.zip"
 hash = "f2f7ec5ac70c00e745958d65943c92a2a7fef5a261008a110d3eabf3e51b12d4"
 
@@ -75413,12 +75481,12 @@ file = "kubejs/server_scripts/Modpack/Tags/artifacts.js"
 hash = "aab33530cd87dfb5e94cee086664a382d28871072f2f6d71730247b19a175e84"
 
 [[files]]
-file = "kubejs/server_scripts/Modpack/Tags/weeping_angels.js"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "kubejs/server_scripts/Modpack/Tags/mowzies_bosses.js"
+hash = "1ce9535e9a82271f0c15f6ced244f817d5a702561c0f39c4c80e7781443584ca"
 
 [[files]]
-file = "kubejs/server_scripts/Modpack/dynamic_boss_hp_interact.js"
-hash = "b2df6cc53b06c6235dc13056ba329586805ce5f1017d8e6060237a9f1ac0921f"
+file = "kubejs/server_scripts/Modpack/Tags/weeping_angels.js"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/wolf_attack_skulls.js"
@@ -75479,6 +75547,10 @@ hash = "8e2497b4c5bfd7f8a10de6803ef486976881530226a9b5aa9b08cf401dae21fa"
 [[files]]
 file = "kubejs/startup_scripts/dirty_raw_emerald.js"
 hash = "31a1074ef1e231a996a764120389fcaba15f3a004632879e98cd0b9411787982"
+
+[[files]]
+file = "kubejs/startup_scripts/dynamic_boss_hp_tick.js"
+hash = "3b9c48941ea97bb2ccbc8eec2a8316eb30b7bbd253134acb05b0809b5aae4cd2"
 
 [[files]]
 file = "kubejs/startup_scripts/ender_eye_rarity_change.js"

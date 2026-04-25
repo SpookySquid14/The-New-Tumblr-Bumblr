@@ -9,7 +9,7 @@
   },
   "predictionarea": {
     "desc:": "Size of the area marked for preloading: default:7 chunks, max: 32, min: 2",
-    "predictionarea": 7
+    "predictionarea": 10
   },
   "enableSmartChunkLoading": {
     "desc:": "Enables smart chunkloading around the player, which dynamically loads the around the player : default:true",
@@ -29,7 +29,7 @@
   },
   "enableFasterChunkTasks": {
     "desc:": "Enables faster worldgen tasks: default:false",
-    "enableFasterChunkTasks": false
+    "enableFasterChunkTasks": true
   },
   "optimizeWaiting": {
     "desc:": "Optimizes time the world is stalled while waiting for a chunk: default:true",
