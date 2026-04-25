@@ -283,7 +283,10 @@
 			y: 0.0d
 		}
 		{
-			description: ["Obtained from The Harbinger"]
+			description: [
+				"Obtained from The Harbinger"
+				"The Wither was a primal force of pure darkness and destruction. Why they would ever think to build another one is beyond me. It seems as tho we won't find an answer, however."
+			]
 			id: "2E39C6C7A1BE0560"
 			subtitle: "The Mech"
 			tasks: [{

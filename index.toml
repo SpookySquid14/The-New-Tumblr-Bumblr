@@ -67170,7 +67170,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "3038bd228e96914a826503418b2c1ddb3349fe89e3ae811da092dffbbff24664"
+hash = "07205e8a3505a33e8ec6daac4b8e8538a24a8001259bfb271e97a1d779991fac"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68094,7 +68094,7 @@ hash = "b393a7615377203a6292c86aa1d09256cbb804c9edc8b442113a247a533ec1b0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/legendary_eyes.snbt"
-hash = "b217f8a280d7e4423a7f9182dd38fbb8f7c842b4b692d581a62a41a112ef52a7"
+hash = "340a3616bc50940dc35d81c947caa4d10f659410537fa341472ffa2fb00c764c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magics_and_madness.snbt"
@@ -68546,7 +68546,7 @@ hash = "569d08aadccf509bc368cae21a8bf42e34945f4d7fe6191b399b91c7c3b69a91"
 
 [[files]]
 file = "config/jei/world/local/Boss/lookupHistory.ini"
-hash = "d692fee8cfff6df0be096e8f736db82efdef33b643298b9a2c92fd16884b43db"
+hash = "b3426284d35750e7732c101523cd44831d6c819b451699d529ba3f46d2cabd12"
 
 [[files]]
 file = "config/jei/world/local/Boss_Rush/lookupHistory.ini"
@@ -68910,7 +68910,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "4d76c0d3f1e8262c8057aab8810bf60e6fe9e01e49b6bbc84c21754ff4cc485d"
+hash = "c7fe8747bd603f3b674d04216fec090dfa4c0417ae150093aa5b7201e5e89bfd"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69030,7 +69030,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "8b46bbcb5e4aacb4f0271c828a31d2df4f4e7f98fb0d1a8953c22fa0ad74b83e"
+hash = "716372842dc7d64497ce46af8ba0471fa0c0c8ad0d54e9a23b5a883dcad6336c"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -69038,7 +69038,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "2bd64ee503515249b24f62494880736a2ee6c2a3850bbcfa879e9edee0798ad4"
+hash = "d4832970ad4de3b3bf28db861caddd6577971ea0ab1889f845d6fbbe4f690eaf"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69630,7 +69630,7 @@ hash = "370cb0d795cd5143f878dbaa489ba2ec7cbd14228cafa07d4a86a27a2e08f923"
 
 [[files]]
 file = "config/spark/activity.json"
-hash = "95d5375384b521a0810c7d8148f2e7b870cb62577a7cf57df187e0baa2723f37"
+hash = "d04a126c23c76fd822c093052aac54952fed630951659fdc22844edbc3262472"
 
 [[files]]
 file = "config/spark/config.json"
@@ -70142,7 +70142,7 @@ hash = "52b07917a2066b538aada9f548ff15e032b02fd5334e577b1506cba98355a031"
 
 [[files]]
 file = "config/witherreincarnated/common.toml"
-hash = "f3b5b11b8b3d7c8187f3670a44b562696920641c67617ce5a6aad7e78cb28d27"
+hash = "f00286868338b579ea19a56e547289fd268c31d81c854a4408d51e399d00249a"
 
 [[files]]
 file = "config/workers-common.toml"
@@ -75522,7 +75522,7 @@ hash = "449e828428a6a5dfdf0a319639a3047b3f65b75ea4c3892097c12b4d210e5e7c"
 
 [[files]]
 file = "kubejs/server_scripts/dynamic_boss_hp_spawn.js"
-hash = "351f7cce5e8a8bc9ec129fca3dc23c33dcaa0d52c7a8286ea2a236ac3d50f9fe"
+hash = "7b6906cf32792695ad930c4321b7c13d474ca6fa5b9cadaaff57e048e1b7859b"
 
 [[files]]
 file = "kubejs/server_scripts/from_the_fog/herobrine_config.js"

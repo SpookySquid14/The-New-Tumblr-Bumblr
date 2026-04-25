@@ -9,7 +9,7 @@
 	"Dangerous Wither Skull Explosion Damage (default: 18.0)" = 18.0
 	"Dangerous Wither Skull Explosion Size (default: 5.0)" = 5.0
 	"Dangerous Wither Skull Deflected Damage (default: 30.0)" = 30.0
-	"Laser Damage (default: 3.0)" = 100.0
+	"Laser Damage (default: 3.0)" = 7.0
 	"Charge Damage (default: 30.0)" = 30.0
 	"Charge Disable Shield Time (in ticks, default: 400)" = 400
 

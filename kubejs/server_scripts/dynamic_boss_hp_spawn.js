@@ -28,7 +28,7 @@ EntityEvents.spawned(event => {
         let playerCount = boss.level.getPlayers().filter(player => !player.isSpectator() && player.distanceToEntitySqr(boss) <= 1500)
         console.log(playerCount)
 
-        let additionalPlayers = playerCount.length
+        let additionalPlayers = playerCount.length - 1
         if (additionalPlayers<0) additionalPlayers = 0
         console.log("There are "+additionalPlayers+" extra players")
 
