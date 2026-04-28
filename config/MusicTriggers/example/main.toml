@@ -1,0 +1,23 @@
+#  Main header!
+#  Line 2
+
+[songs]
+	[songs.harbinger]
+		location = "cataclysm:music_disc/harbinger_theme"
+		triggers = [ "Mob-harbinger_theme" ]
+
+[triggers]
+	[triggers.mob]
+		identifier = "harbinger_theme"
+		mob_targeting = false
+		resource_matcher = "regex"
+		resource_name = [ "any", "minecraft:zombie" ]
+	[triggers.universal]
+		active_cooldown = "0"
+		fade_in = "0"
+		fade_out = "0"
+		persistence = "0"
+		ticks_before_active = "0"
+		ticks_before_audio = "0"
+		ticks_between_audio = "0"
+

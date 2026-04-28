@@ -333,7 +333,7 @@
 			health_multiplier = 3.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 15.0
+			attack_multiplier = 12.0
 
 	[mobs.sculptor]
 		#How tall (in blocks) the Sculptor's test will be

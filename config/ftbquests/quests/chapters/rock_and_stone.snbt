@@ -49,6 +49,7 @@
 			y: -4.25d
 		}
 		{
+			dependency: "725FBF759BC307C8"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_six"
 			rotation: 0.0d
@@ -57,6 +58,7 @@
 			y: -2.25d
 		}
 		{
+			dependency: "725FBF759BC307C8"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
@@ -65,6 +67,7 @@
 			y: -2.25d
 		}
 		{
+			dependency: "725FBF759BC307C8"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
@@ -132,6 +135,7 @@
 			y: 0.75d
 		}
 		{
+			dependency: "128555C5E928F099"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_three"
 			rotation: 0.0d
@@ -140,6 +144,7 @@
 			y: -3.25d
 		}
 		{
+			dependency: "128555C5E928F099"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_five"
 			rotation: 0.0d
@@ -148,6 +153,7 @@
 			y: -3.25d
 		}
 		{
+			dependency: "128555C5E928F099"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
@@ -277,7 +283,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["725FBF759BC307C8"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: { Count: 8, id: "minecraft:iron_ingot" }
 			id: "5C13443DAF789830"
 			rewards: [{
@@ -364,7 +372,9 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["128555C5E928F099"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: { Count: 32, id: "minecraft:coal" }
 			id: "01FD933F1E52DA53"
 			rewards: [{

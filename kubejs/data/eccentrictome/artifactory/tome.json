@@ -1,0 +1,14 @@
+{
+  "attunement_levels": [
+    {
+      "modifications": [
+        "invulnerable",
+        "soulbound"
+      ],
+      "requirements": {
+        "xp_levels_consumed": 10,
+        "xp_level_threshold": 12
+      }
+    }
+  ]
+}

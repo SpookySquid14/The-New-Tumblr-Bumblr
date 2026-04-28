@@ -125,7 +125,7 @@
 			[Attributes."Summoned Mobs".Factory."Watcher Servant"]
 				#How much damage Watcher Servants range attack deals, Default: 7.0
 				#Range: 1.0 ~ 1.7976931348623157E308
-				watcherRangeDamage = 5.0
+				watcherRangeDamage = 7.0
 				#How much natural Armor Watcher Servants have, Default: 5.0
 				#Range: 0.0 ~ 1.7976931348623157E308
 				watcherArmor = 5.0
@@ -139,13 +139,13 @@
 			[Attributes."Summoned Mobs".Factory."Prowler Servant"]
 				#How much damage Prowler Servants melee attack deals, Default: 14.0
 				#Range: 1.0 ~ 1.7976931348623157E308
-				prowlerMeleeDamage = 14.0
+				prowlerMeleeDamage = 49.0
 				#How much Max Health Prowler Servants have, Default: 160.0
 				#Range: 1.0 ~ 1.7976931348623157E308
-				prowlerHealth = 160.0
+				prowlerHealth = 640.0
 				#How much damage Prowler Servants missiles deals, Default: 5.0
 				#Range: 1.0 ~ 1.7976931348623157E308
-				prowlerMissileDamage = 3.0
+				prowlerMissileDamage = 17.5
 				#How much natural Armor Prowler Servants have, Default: 10.0
 				#Range: 0.0 ~ 1.7976931348623157E308
 				prowlerArmor = 10.0

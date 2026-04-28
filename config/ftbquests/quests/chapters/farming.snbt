@@ -4,85 +4,222 @@
 	filename: "farming"
 	group: "48841A8C395C40D5"
 	id: "6616695BCAE96AB7"
+	images: [
+		{
+			height: 14.4d
+			image: "modpack:textures/cookbook.png"
+			rotation: 0.0d
+			width: 24.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 0.7d
+			image: "modpack:textures/snacks-and-small-meals.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			height: 0.7d
+			image: "modpack:textures/nourishing-meals.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			height: 0.7d
+			image: "modpack:textures/comforting-meals.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			height: 6.8d
+			image: "modpack:textures/note-paper.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			height: 0.7d
+			image: "modpack:textures/basic_ingredients.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 13.0d
+			y: -5.0d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Can carry up to 10 stacks of a single crop or seed, and can be used to plant its contents"]
+			dependencies: ["6E2846C32B27E04F"]
+			dependency_requirement: "all_started"
+			description: ["The seed pouch is a useful tool that acts like bundle for seeds and other plants such as saplings. Able to hold up to 10 stacks of a single seed, you can use it on soil or dirt and it will plant its contents as if you were holding them. What's more, any seeds you pick up will be immediately put inside the pouch if there's room."]
 			id: "5AA9BF164EF88E5F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5C37585FAC3F8473"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "29A0579E26C0FB4E"
 				item: "quark:seed_pouch"
 				type: "item"
 			}]
 			title: "A Sorta Seed Bank"
-			x: -3.0d
-			y: -1.0d
+			x: -5.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["2FF4A63F425B31BD"]
+			description: [
+				"Organic Compost is a special block that can be left to decompose over time, resulting in Rich Soil. There are a few factors that can speed up this process."
+				"Factors that accelerate the decomposition are nearby water sources, being exposed to bright light, and being surrounded by certain blocks like mushrooms, Podzol, Mycelium, existing Rich Soil, or more Organic Compost."
+			]
 			id: "2A90B8D5B22C1CED"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2B53C05924271DD5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "636BABF202DFBEE3"
 				item: "farmersdelight:organic_compost"
+				title: "Making Something From The Leftovers"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2A90B8D5B22C1CED"]
+			description: [
+				"The result of waiting for compost to decompose is Rich Soil, a very powerful block for growing plants. Any plant or fungi placed on rich soil will have its growth accelerated, with mushrooms resulting in something very unique."
+				"Unlike normal farmland, rich soil cannot be hydrated by methods such as rain, and require nearby water. Also unique to it, rich soil cannot be trampled by mobs or by blocks like pumpkins and melons."
+			]
 			id: "634ACDA4857B1A62"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "323E136D86AEE07F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "44D475023A24246D"
 				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.0d
+			title: "Pay to Play"
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			description: [
 				"&o&6Spice of Life: Apple Pie Edition&r is a mod that incentivizes eating a variety of different foods, encouraging the player to cook up meals more than a simple steak or loaf of bread."
 				"While not required, eating a diverse amount of food and &6&okeeping one's diversity level high will grant the player a variety of useful buffs, from extra health to more speed&r."
+				"Your active diversity level and eaten foods can be viewed through the food book."
 			]
 			id: "37043064988891A4"
+			rewards: [{
+				id: "3E23FC1219B84AF4"
+				item: {
+					Count: 1
+					id: "minecraft:bundle"
+					tag: {
+						Items: [
+							{
+								Count: 9b
+								id: "minecraft:apple"
+							}
+							{
+								Count: 2b
+								id: "minecraft:golden_apple"
+							}
+							{
+								Count: 1b
+								id: "domesticationinnovation:rotten_apple"
+							}
+						]
+						SelectedItem: -1
+						display: {
+							Name: "{\"text\":\"Bundle of Apples\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1AEF92D39C64DF12"
 				item: "solapplepie:food_book"
 				type: "item"
 			}]
 			title: "Travel Meals Don't Need to Be Simple"
-			x: 1.0d
-			y: -1.0d
+			x: -7.5d
+			y: 3.5d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "minecraft:iron_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "39807177697E390F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4E71B211A5689555"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6967B23E48B2522F"
 				item: {
 					Count: 1
-					id: "minecraft:iron_hoe"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
+						value: "minecraft:hoes"
 					}
 				}
+				title: "A Hoe of Any Kind"
 				type: "item"
 			}]
 			title: "Go Get Your—Nevermind"
-			x: -1.5d
-			y: 0.0d
+			x: -5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["634ACDA4857B1A62"]
+			description: ["A planter can be used to farm any plant or crop without requiring water. It is also unable to be trampled like Rich Soil"]
 			id: "60894743B2741EC1"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7FFB0B1D4E8CA383"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "4F605A021910B21F"
 				item: "supplementaries:planter"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.0d
+			title: "Decoration for The Rich"
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["37043064988891A4"]
@@ -92,6 +229,13 @@
 			]
 			hide_until_deps_visible: true
 			id: "6A9B9DB71F967F74"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2D69E1C58D28F0BD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "3E3E39625BCBF360"
 				item: {
@@ -107,8 +251,8 @@
 				type: "item"
 			}]
 			title: "Don't Forget Lunch!"
-			x: 1.0d
-			y: -2.0d
+			x: -7.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6A9B9DB71F967F74"]
@@ -118,6 +262,13 @@
 			]
 			hide_until_deps_visible: true
 			id: "39129615A6470D5C"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "40E9C7B527D75E26"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "7338D2812B5DFB7D"
 				item: {
@@ -154,14 +305,21 @@
 				type: "item"
 			}]
 			title: "A Food Carrying Fiend"
-			x: 1.0d
-			y: -3.0d
+			x: -7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["39129615A6470D5C"]
 			description: ["So the satchel is nice, but you want even &omore&r storage from your meals. Well, there is one last upgrade. By turning your satchel into a Picnic Basket, it gains 5 additional slots for food&r."]
 			hide_until_deps_visible: true
 			id: "6B733345FAD245D0"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "308574F4EF8AEFF2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "7744BBCB78F999C7"
 				item: {
@@ -177,10 +335,11 @@
 				type: "item"
 			}]
 			title: "Going Somewhere?"
-			x: 1.0d
-			y: -4.0d
+			x: -7.5d
+			y: 0.5d
 		}
 		{
+			dependencies: ["39807177697E390F"]
 			description: ["Wild Crops are naturally spawning plants that provide the seeds and starter materials needed to begin farming Farmer’s Delight crops. Seven different variants can be found across the Overworld, each in specific biomes: Wild Cabbages on beaches, Wild Onions in plains and forests, Wild Tomatoes in hot deserts and savannas, Wild Carrots in most biomes, Wild Potatoes in forests, Wild Beetroots on beaches and deserts, and Wild Rice growing in rivers and swamps."]
 			id: "6E2846C32B27E04F"
 			rewards: [{
@@ -229,29 +388,1563 @@
 				}
 			]
 			title: "The Seeds of Our Youth"
-			x: -3.0d
-			y: 0.0d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
-			id: "7AEC1ACFE5A654BD"
+			dependencies: ["5AA9BF164EF88E5F"]
+			description: ["By right clicking a fully grown crop, you can instantly replant it. No more needing to break the entire thing and put it all back. Harvesting with a hoe will also bulk harvest in a 3x3 area, making it much more convenient for large farms."]
+			id: "3A26F553422DC48B"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "77100186F2EF45EE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
-				id: "328948C194BBABFA"
-				item: "mynethersdelight:letios_compost"
+				icon: "minecraft:wheat"
+				id: "50D6C378220A275F"
+				key: "saw_crop"
+				title: "See a fully grown crop"
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			title: "It's a Grower, Not a Shower"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3A26F553422DC48B"]
+			description: ["Straw can be obtained by using a knife while harvesting grassy crops such as wheat or rice."]
+			id: "2FF4A63F425B31BD"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "653F24AFE357FEFB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 8L
+				id: "734B23615BA8645B"
+				item: "farmersdelight:straw"
 				type: "item"
 			}]
-			x: -1.5d
+			title: "Rough and Course"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["634ACDA4857B1A62"]
+			description: ["Mushroom Colonies are a renewable source of mushrooms created by placing a mushroom on rich soil. As the colony grows, extra mushrooms can be sheared off, and will regrow in time."]
+			id: "4A58FF0B04179B25"
+			rewards: [{
+				amount: 130L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7242381F89B7696D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					block: "farmersdelight:red_mushroom_colony"
+					block_type: 0
+					checkItem: true
+					id: "459424D629402BF9"
+					isItemInteraction: false
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Harvest From A Red Mushroom Colony by Using Shears"
+					type: "questsadditions:use"
+					value: 3L
+				}
+				{
+					block: "farmersdelight:brown_mushroom_colony"
+					block_type: 0
+					checkItem: true
+					id: "7FF3C6A81C890DB0"
+					isItemInteraction: false
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Harvest From a Brown Mushroom Colony"
+					type: "questsadditions:use"
+					value: 3L
+				}
+			]
+			title: "Fungus Amongus"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2FF4A63F425B31BD"]
+			description: ["Canvas is a crafting material used for several things, most being decorative in some shape or form."]
+			id: "7AB33365F5B6BD36"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5F06CE2C226D6425"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3FA3311FCB6791A4"
+				item: "farmersdelight:canvas"
+				type: "item"
+			}]
+			title: "It's a Sheet"
+			x: -6.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["7AEC1ACFE5A654BD"]
-			id: "551B32E93832E22A"
+			dependencies: ["7AB33365F5B6BD36"]
+			description: ["A basket acts like a cross between a chest and a hopper. It has the same amount of storage as a regular chest, but can also take in items throw at its open side, much like a hopper. Unlike a hopper, a basket can be placed in any direction."]
+			id: "7241CABB45AAAEE5"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5E0B90F9737FDFCA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
-				id: "38EAF869AC2125A1"
-				item: "mynethersdelight:resurgent_soil"
+				id: "06B680F8593C14EE"
+				item: "farmersdelight:basket"
 				type: "item"
 			}]
-			x: -1.5d
+			title: "Keeping Things Contained"
+			x: -6.0d
 			y: -2.0d
+		}
+		{
+			description: [
+				"Nourishment prevents a player's hunger from draining by continuously remove their exhaustion, allowing for longer actions at lesser costs."
+				"It's particularly useful before an expected combat encounter and other situations where you're losing a lot of hunger fast."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "farmersdelight:textures/mob_effect/nourishment.png"
+				}
+			}
+			id: "089C71D07FF6BB03"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6C1CA404468938DB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "farmersdelight:textures/mob_effect/nourishment.png"
+					}
+				}
+				id: "4234A929DD33C874"
+				nbt: {
+					ActiveEffects: [{
+						"forge:id": "farmersdelight:nourishment"
+					}]
+				}
+				title: "Get The Nourishment Effect"
+				type: "questsadditions:playernbt"
+			}]
+			title: "Nutritious and Delicious"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Comfort is an effect given when eating certain foods, primarily soups and stews. While active, your health will naturally regenerate, even if your saturation has run out and you're hungry."
+				"It's quite handy after a tough battle or before a long mining trip."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "farmersdelight:textures/mob_effect/comfort.png"
+				}
+			}
+			id: "6A83BFB164605950"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "468E7C3D202A9443"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "farmersdelight:textures/mob_effect/comfort.png"
+					}
+				}
+				id: "238E97D1EAA4C268"
+				nbt: {
+					ActiveEffects: [{
+						Amplifier: 0b
+						"forge:id": "farmersdelight:comfort"
+					}]
+				}
+				title: "Get The Comfort Effect"
+				type: "questsadditions:playernbt"
+			}]
+			title: "A Comforting Warmth"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"The stove is a staple of any kitchen. It's main feature is to act as a heat source for cooking. Similar to a campfire, pots and skillets can be placed on top to cook recipes through them. Also like a campfire, you can cook raw foods on the stove, up to 6 at a time."
+				"If you want to extinguish the stove, right click with a shovel or water bucket. To relight it, use a fire charge or flint and steel."
+			]
+			id: "4914BF08CA6748E0"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6FB026146C98D07F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "436D3A11A4BC57DD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:stove"
+							}
+							{
+								Count: 1b
+								id: "endersdelight:endstone_stove"
+							}
+							{
+								Count: 1b
+								id: "mynethersdelight:nether_bricks_stove"
+							}
+							{
+								Count: 1b
+								id: "vampiresdelight:dark_stone_stove"
+							}
+							{
+								Count: 1b
+								id: "trailandtales_delight:mud_stove"
+							}
+						]
+					}
+				}
+				title: "Stove"
+				type: "item"
+			}]
+			title: "Hot Stuff"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			icon: "farmersdelight:cutting_board"
+			id: "5E434AB9D29CACD9"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "47007FC311A79594"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "750AEBE0AFF65CA8"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "626CA55C249A7F75"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+					title: "Knife"
+					type: "item"
+				}
+			]
+			title: "Cutting Actions"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: ["The Skillet is a very versatile tool that acts as both a weapon &oand&r a portable cooking station. By holding raw food in your offhand while near a heatsource, you can cook the items by using the skillet. Alternatively, you can place the skillet down on a heat source, and use it as a much faster alternative to a campfire."]
+			id: "5382DC1F43B478F5"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "33C0DB668EDC8C78"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7F37F07FA6AB6EF6"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Whack"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5E434AB9D29CACD9"
+				"28DA5E5358D83D0F"
+			]
+			id: "11716B66D419C978"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2842BDF4A803C7FC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "7D553FA947812287"
+					item: "farmersdelight:bacon"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3372D97724265469"
+					item: "farmersdelight:minced_beef"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "20294547E1660F7F"
+					item: "farmersdelight:mutton_chops"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "10E30C516DDCAE40"
+					item: "farmersdelight:chicken_cuts"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "117A1666965540F8"
+					item: { Count: 2, id: "farmersdelight:cod_slice" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4169FF1B280277C1"
+					item: { Count: 2, id: "farmersdelight:salmon_slice" }
+					type: "item"
+				}
+				{
+					id: "24ED3F5EA3A45106"
+					item: "farmersdelight:raw_pasta"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "50BF61CFA1C4E448"
+					item: "farmersdelight:cabbage_leaf"
+					type: "item"
+				}
+			]
+			title: "Half The Meat It Used to Be"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			description: ["The Cooking Pot is a major utility for cooking, and is the primary source of most more complex recipes. When using it, you will be shown 6 slots for ingredients and one slot for a container, along with an icon to show if there is a required heat source below. When ingredients are placed in the pot according to a recipe, it will begin cooking said recipe without any input, similar to furnaces. The final item will appear on the right. If it requires a container, you will not be able to take the food until the right container is given. In most cases, these are bowls, but there are cases where it is not."]
+			id: "0E6BB4D44EFA29A9"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6E08AF5F5C38C604"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "109FFAC69B3E2B01"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Stirring It Up"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A26F553422DC48B"]
+			description: ["Dough can be made using either an egg or a bucket of water. With the latter, the bucket will remain."]
+			id: "28DA5E5358D83D0F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "568F61BB8419879E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 3L
+				id: "3350CC035B9A7FA5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dough"
+					}
+				}
+				title: "Dough"
+				type: "item"
+			}]
+			title: "All Wet and Sticky"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "07DCDC473ADFDFA8"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "52757AA5B2397ECB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "6D0A26A3BA9A054A"
+				item: "farmersdelight:fried_egg"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			id: "39CC9C2C1EE59D9D"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "68B1C5701CBBD7DE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "654C44B37D7CFE0D"
+				item: "farmersdelight:milk_bottle"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			id: "4DA22825F9481719"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7A1672CB746DF6A9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "4654AE4FC71F44DB"
+				item: "farmersdelight:tomato_sauce"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			id: "0A457EF00E403F64"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "19224FCC5E0CA17F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "244E73644E745AC9"
+				item: "farmersdelight:beef_patty"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			id: "4EE5A2249B2C6706"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "04FC7CC5614344EA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "232519DF5C685F5A"
+				item: "farmersdelight:cooked_chicken_cuts"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			id: "10C276F7B23F0A2A"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6D91F38662371756"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "65A3471B929DFBF8"
+				item: "farmersdelight:cooked_bacon"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			id: "2E5248FCBDDE574B"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2C68C9C64947203C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "25366BAB5FEF39FC"
+				item: "farmersdelight:cooked_cod_slice"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			id: "7B881B94EF7FAA89"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6CEA30714286AF13"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "5EFFB2D2BCACD4F3"
+				item: "farmersdelight:cooked_salmon_slice"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			id: "5AC6BF0820CA78B0"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "333ADBC667D09CD6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "5663BD48F52055E0"
+				item: "farmersdelight:cooked_mutton_chops"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			id: "5E6811E147460B32"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "732978BAFC1581A1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "56A962F470A9E619"
+				item: "farmersdelight:apple_pie"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "5238B35F858D13CF"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4649D45EA9EAE868"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B643D30F4DFE4EA"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			id: "639792ED6E26129E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5F66D1F308DF6445"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "75F48F8ECCEF90CB"
+				item: "farmersdelight:sweet_berry_cheesecake"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "41EBE02F54231293"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6AC9190C2514AB86"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "1D01C0AD2BFE3EF1"
+				item: "farmersdelight:chocolate_pie"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "5032E0FFF42D37F6"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1664DFB824A1FE28"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "609B4747A493A046"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "20B21386A9883ABC"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "64A2FE2CE73C5774"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "12B32A11C1FD0612"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "7C3100614FCFC580"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1556284AC18619CA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "024ACCBE905BD4E5"
+				item: "farmersdelight:melon_popsicle"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "611AB013085484D2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4ACD05D09B1A2B01"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "4C966DF6AE26A941"
+				item: "farmersdelight:glow_berry_custard"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			id: "6DE2795158095D4B"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "70E323E341777B1F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "761C1C78BE4187DF"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			id: "4603675E26F56E7B"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "44F25B39AE821F5B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "3E8C82A52F18D2E8"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			id: "2D2F15A5DE589EB5"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7061AD8675675273"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "3B204C59340E7AD9"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "1BEE274E0F2971D4"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2D90B9DF5CC3C1DA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "5C95666F469633A0"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "3EB1222277026AA0"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "79A9A67142557AD7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "3D577371ADBCDC8F"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "058F4065CBB5C458"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4DE02385CE181BB8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "1BADF99C1428D4CB"
+				item: "farmersdelight:chicken_sandwich"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "731651056A455D98"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "733B80064C377C70"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "605709DEBCA74D99"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "434291C385CE2E69"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "529A1F81E03F50D5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "76483A89FB9C5D32"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "0E65BF98FA039631"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3C7FFC976F3CC762"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "2B3A6101E3085E7B"
+				item: "farmersdelight:raw_pasta"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			id: "6E8F4335EC4F1C4A"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "38CE7C5E5C486CC7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "6B761FB968298893"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			id: "14019C91F727F378"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "367D62F7658FD06A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "439007F36B7FB0E1"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			id: "5EDBEF3CA083EE28"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "23C1C0F3ABE5898B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "50EA6EEA0411776B"
+				item: "farmersdelight:stuffed_potato"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "45D2CC64E300AA03"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "01EE01543D08D0CA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "620EEF36C289C11B"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "42A4DBA92B68A0BE"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "05D179DCB1F3526B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "4DEEB0B1D06E72A4"
+				item: "farmersdelight:salmon_roll"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "65962F4F13454FBE"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1B4CBBE1229A9CD0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "2A487FCE5CC27D83"
+				item: "farmersdelight:cod_roll"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "2EA5D83F67D39AAB"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3E87CF703595BE3C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2EAF8F2B58A23A6D"
+				item: "farmersdelight:cooked_rice"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "462D4A5A9BAF8D9C"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "049067B2FA8ACDA6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "08FE12687C384BBD"
+				item: "farmersdelight:kelp_roll"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "2888B78C3E296163"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0D3E52DDBA932E50"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "6F2D916BA26CDB31"
+				item: "farmersdelight:kelp_roll_slice"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "2B99FD2A13070B73"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1573A83CFDD324B3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3803278F347ABE32"
+				item: "farmersdelight:bone_broth"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "1EA7C5DB481E50A4"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "60A9784D26E8184F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "18C391DA074AC0E7"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "52E2C209C8627E3E"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "23F234A7D3D0D769"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "782D223AB2289DA6"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "60BC77EC004794D5"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "66A5521B1D9A1741"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "13D3690430B9710A"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "76C4CF39945851DB"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "07D5D0B124370E62"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "033748035922B767"
+				item: "farmersdelight:fish_stew"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "362A213D387BA709"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "57369C034583D147"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "131119EFBAA83538"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "058E6C557E742513"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "28C69809A2003DE9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C0EF4EE345D6DD9"
+				item: "farmersdelight:pumpkin_soup"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "2751E065221B92D4"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "03BA4D761DE3AA6E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "16E7870D2A03302C"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "273CF21FE2C07E5D"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "66C7F260A0A93362"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F6F8E25D593B257"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "473F2A7040A6AC75"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "348DA07235DD1929"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E76A6576BF78F7B"
+				item: "farmersdelight:bacon_and_eggs"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "525F2343B6466882"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "35E5C65699E6C2CD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "381A3089AFEFB11E"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "5E6E24A77C2443D0"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0E0351DC7DCC63A5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24A0F6105B71C721"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "73CF97381BA497E2"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7C1A9BAEEB82C5F5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36A337BFBCD2D3B4"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "76C6A29BAA9791BA"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7B3BFE125A11FD98"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "635537738687AFD9"
+				item: "farmersdelight:roasted_mutton_chops"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "5AC76A135E8D6DC7"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "520ED993AD6C54F2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A44400339A7B08E"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "6FB68F860490D7C3"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "30D5D2FE3E4B9E67"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B67EC176DCEDE6E"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "3B7586F747C3F519"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0B7B4FE5124C6C68"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3DBBCB5B3F39FDEE"
+				item: "farmersdelight:ratatouille"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "3396904615AD2753"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5396BE57D15D4F69"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "23C360A3DEC29498"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "1A159B9BA87F8AFA"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4B7437A31C63065E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7EA873014F015F9B"
+				item: "farmersdelight:grilled_salmon"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "39C9384BBB0DC1FB"
+			rewards: [{
+				amount: 160L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "332B309B24C1A5D0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48F06F98DA64C50E"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "6AB74CEFCF09F1B8"
+			rewards: [{
+				amount: 160L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0335E6B95594A0E7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "718792D0934354FA"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "0211D6D11A718CBC"
+			rewards: [{
+				amount: 160L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0C6FADBC03CE174B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "55D4ECE6B7D80F45"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "005BBDA2741AB9DA"
+			rewards: [{
+				amount: 160L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "454B1C6F3B928114"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "46613E19F2E30DE9"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E434AB9D29CACD9"]
+			description: ["Ham is special in that it rarely drops from pigs and hoglins &6&oonly when killed using a knife&r."]
+			id: "113B056476C3F324"
+			rewards: [{
+				amount: 120L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0677BF98086C6D67"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "646E524CECD87CBA"
+				item: "farmersdelight:ham"
+				type: "item"
+			}]
+			title: "T H I C C"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "1FC74C6DAE315D69"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "137827838E49ABE2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "322D87C05B79BBD8"
+				item: "farmersdelight:smoked_ham"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2FF4A63F425B31BD"]
+			description: ["Rope is made from straw and can be used for a few things. You can of course climb it like a ladder, but also, by placing it above a tomato vine, the vine will grow around it, reaching up to 3 blocks tall."]
+			id: "6E7C42A2001E3D7D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "55D0A8D3F1F67C07"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 4L
+				id: "35530DB7280C656F"
+				item: "farmersdelight:rope"
+				type: "item"
+			}]
+			title: "Rope: Everyone Loves It"
+			x: -4.0d
+			y: -1.5d
 		}
 	]
 	title: "Farming"

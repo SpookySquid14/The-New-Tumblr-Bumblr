@@ -7,27 +7,158 @@
 	filename: "debug"
 	group: ""
 	id: "5C41B2ABE23B698C"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		disable_toast: true
-		id: "673800544C41DE7D"
-		rewards: [{
-			auto: "invisible"
-			command: "/kubejs custom_command fog"
-			console: true
-			elevate_perms: true
-			id: "3AA200BEC1154308"
-			type: "command"
-		}]
-		tasks: [{
-			elapsedTime: 1L
-			id: "6AD75CBCE611918B"
-			secret: true
-			type: "questsadditions:time"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			disable_toast: true
+			id: "673800544C41DE7D"
+			rewards: [{
+				auto: "invisible"
+				command: "/kubejs custom_command fog"
+				console: true
+				elevate_perms: true
+				id: "3AA200BEC1154308"
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 1L
+				id: "6AD75CBCE611918B"
+				secret: true
+				type: "questsadditions:time"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "589978178B567097"
+			min_required_tasks: 1
+			rewards: [{
+				auto: "invisible"
+				id: "55061D22703FB719"
+				ignore: false
+				key: "saw_crop"
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [
+				{
+					disable_toast: true
+					id: "28AAF8797EABC2CA"
+					observe_type: 2
+					timer: 0L
+					to_observe: "minecraft:wheat[age=7]"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "19C041E3FD16FBEF"
+					observe_type: 2
+					timer: 0L
+					to_observe: "minecraft:melon_stem[age=7]"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "3CD9F0B1D7D5FE7E"
+					observe_type: 2
+					timer: 0L
+					to_observe: "minecraft:pumpkin_stem[age=7]"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "52CEFCD6B607E292"
+					observe_type: 2
+					timer: 0L
+					to_observe: "farmersdelight:cabbages[age=7]"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "08ED755F641CB672"
+					observe_type: 2
+					timer: 0L
+					to_observe: "supplementaries:flax[age=7]"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "513E252DC89F97C0"
+					observe_type: 2
+					timer: 0L
+					to_observe: "minecraft:torchflower_crop[age=7]"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "7DAA0F3BC809C69F"
+					observe_type: 2
+					timer: 0L
+					to_observe: "minecraft:beetroots[age=3]"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "55D2AB9E3A391FBE"
+					observe_type: 2
+					timer: 0L
+					to_observe: "farmersdelight:onions[age=7]"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "2E68CBE2AC91672D"
+					observe_type: 2
+					timer: 0L
+					to_observe: "miners_delight:cave_carrots[age=3]"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "061891909601E6B5"
+					observe_type: 2
+					timer: 0L
+					to_observe: "minecraft:carrots[age=7]"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "6D73FDFCE6DA6BC9"
+					observe_type: 2
+					timer: 0L
+					to_observe: "minecraft:potatoes[age=7]"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "338466C4E0E6641A"
+					observe_type: 2
+					timer: 0L
+					to_observe: "immersiveengineering:hemp[age=4]"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "24EA840EDFC66D86"
+					observe_type: 2
+					timer: 0L
+					to_observe: "farmersdelight:rice[age=7]"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "62E67B5C1881F721"
+					observe_type: 2
+					timer: 0L
+					to_observe: "farmersdelight:rice_panicles[age=3]"
+					type: "observation"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
 	title: "Debug"
 }
