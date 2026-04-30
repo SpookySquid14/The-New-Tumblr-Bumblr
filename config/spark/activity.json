@@ -5,6 +5,19 @@
       "name": "SpookiestOfSquid",
       "uniqueId": "af78c06d-e580-481b-b5fe-49ff1d817501"
     },
+    "time": 1777586329935,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/XkY5WiZJQJ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "SpookiestOfSquid",
+      "uniqueId": "af78c06d-e580-481b-b5fe-49ff1d817501"
+    },
     "time": 1777380793022,
     "type": "Profiler",
     "data": {

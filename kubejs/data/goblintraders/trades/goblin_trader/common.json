@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 2,
+        "item": "werewolves:silver_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "werewolves:raw_silver"
+      },
+      "price_multiplier": 0.0
+    }
+  ]
+}

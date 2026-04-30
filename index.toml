@@ -1426,7 +1426,7 @@ hash = "63f34caf47c465338b28a5661d3236aa71ea5e4774635bad54718c3edc7bbfec"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "ae26f7b5a78dc4b7812f740dff13b00031b19511c52cd7847cdcd40034191c08"
+hash = "1933d3c75dd95292690d316fa5abaf0ba926735ca8a6b4259acb60e1b978d337"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -67254,7 +67254,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "ab4bf15128a9e87af2259076d679127e0994c577fa1f53d6481b497dba18d362"
+hash = "add935ac46e6110e6deaa178302101251ac082ef9f0f6af9d2eda966745e61f5"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68194,7 +68194,7 @@ hash = "0e3ef014daf4c8509c2f5ac0aeec9bb6ea0b044479802ff419b863f4f6a9e8aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
-hash = "b393a7615377203a6292c86aa1d09256cbb804c9edc8b442113a247a533ec1b0"
+hash = "827043cf958883f0e8b2071e18e99b292b6c661868c2120ad1cb303130fd8c60"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/legendary_eyes.snbt"
@@ -68485,6 +68485,10 @@ file = "config/immersive_melodies.json"
 hash = "571b41f922ebc2d23c5239f9f8a4217875ad44b9a3183e1516b267101198618e"
 
 [[files]]
+file = "config/immersive_optimization.json"
+hash = "eb9877ca65a0f08665927d7b3d87ec1c54056d9f895434c23a47c167e3f063b5"
+
+[[files]]
 file = "config/immersive_paintings.json"
 hash = "65503c4720dd1017227041ee6ce26650a75a123af7331d66c5fac0a2cdace94c"
 
@@ -68590,7 +68594,7 @@ hash = "a56ae83d6d00ba04e2efa3a205da299a5532df1fe6921e9bc78d00483a1a12d7"
 
 [[files]]
 file = "config/irons_spellbooks_spell_config/irons_spellbooks/firebolt.json"
-hash = "8b768913716bb453f7f8e29ab9965c2a604d5495480673a4a4cf7ac7dcdf8235"
+hash = "d0342b1098abc94f81431b581bf9609fee000e386020f455b250896ac3714fa9"
 
 [[files]]
 file = "config/itemborders-common.toml"
@@ -68854,11 +68858,11 @@ hash = "d6b05abf8de37d3649c2284f5fd2b84cb497150fe26f33a2363fd81433e5c618"
 
 [[files]]
 file = "config/jei/world/local/Playtest_3/bookmarks.ini"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "46f024b646f75935dd37c0440d94115a63a0d5407ad7c02ca6016bb05e9b5c06"
 
 [[files]]
 file = "config/jei/world/local/Playtest_3/lookupHistory.ini"
-hash = "1240043b34262fd35e48a0f06119ab9bc1566ad5dbbd6ca518c14abdfdca55b4"
+hash = "4b92fa9ab880248e2969fe4cabc66587c53ceec05ae7a0f0749db3b827d90ea0"
 
 [[files]]
 file = "config/jei/world/local/Structure_Hopping/lookupHistory.ini"
@@ -69034,7 +69038,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "762f76f43bf4454b0e970edd31d5e2602f5adcb8b1c74a7deb6b92ef47a73329"
+hash = "3056b8b984e3ccc079eabd6a30e33d0b780b026238daab54ed98c9fa9781047d"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69150,7 +69154,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "dac6f7af9156ebf4731b0c7f388317348643b4a38e23b9f9dd9603f1a9ea977b"
+hash = "207e7e3d167935ff933acdda0d61b645161b74317d5c495c98a997ca62af30af"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -69158,7 +69162,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "cea33664b81d2bef5208c34f5b1a7680e34743fee3e3c75839b34be056014ec3"
+hash = "d71ab89bb2fc4d0c095a53871c32b94bc35561aa1517981acf1339aba355d5c4"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69486,7 +69490,7 @@ hash = "347434fce931147ef1b31896190829a06a857a561eab04e28354af67f3894564"
 
 [[files]]
 file = "config/sodiumextras-client.toml"
-hash = "664c3e4635392fc8d354d63535e2f8a2c900a174cd0241d592f8f14fdc986ccf"
+hash = "119170fa7eb5b677d255cdcafca4c221ca7a2f9e7f07fade0e3522cb048ee689"
 
 [[files]]
 file = "config/solapplepie-client.toml"
@@ -69562,7 +69566,7 @@ hash = "370cb0d795cd5143f878dbaa489ba2ec7cbd14228cafa07d4a86a27a2e08f923"
 
 [[files]]
 file = "config/spark/activity.json"
-hash = "aa1ead1405c22fd7b52a424b9e1c45edf5ee15c68c0bd5eb9a351692a97fe088"
+hash = "17488f4245a8be566d5c11e204ffe2ceca6ec8d8b21bb11bab5f66243b8ce213"
 
 [[files]]
 file = "config/spark/config.json"
@@ -70142,7 +70146,7 @@ hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
 
 [[files]]
 file = "config/xaero/world-map/profiles/default.cfg"
-hash = "0720b4a38b0f2e860160e04811453832bf0b716e6809b678786685f8464f2525"
+hash = "079f0702e6bd9a283ccc9c542f4316acb576ff3d971e975be61db4f73723753a"
 
 [[files]]
 file = "config/xaero/world-map/server_profiles/default.cfg"
@@ -70191,6 +70195,22 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 [[files]]
 file = "kubejs/assets/artifactory/textures/slot/artifactory_slot.png"
 hash = "69fd72c9663e38a3ea05b5fee4c17f427b1a55c045477c411517e5d7b1d47da6"
+
+[[files]]
+file = "kubejs/assets/cataclysmic_spellcasting/models/item/scroll_cyber.json"
+hash = "b8230c294cb033c3a8f45f53a917f28ffb900f30235d977fd637036f725a0b7b"
+
+[[files]]
+file = "kubejs/assets/cataclysmic_spellcasting/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/cataclysmic_spellcasting/textures/item/scroll_cyber.aseprite"
+hash = "02542b27f847363fe1ae9da79ab2cf3ba56e5c900161e9273c176adbd1b0a176"
+
+[[files]]
+file = "kubejs/assets/cataclysmic_spellcasting/textures/item/scroll_cyber.png"
+hash = "3139c26e432533b00ce7e4eaeafd48c24f10c0b56394770bcf90a34f5e514dcb"
 
 [[files]]
 file = "kubejs/assets/crafting_on_a_stick/textures/item/curios_on_a_stick.png"
@@ -70285,10 +70305,6 @@ file = "kubejs/assets/info.json"
 hash = "25960aa3751c55ff2014554cd460c3b33bd629cf5c8a65ad239dbdb368c38d6f"
 
 [[files]]
-file = "kubejs/assets/kubejs/models/item/scroll_cyber.json"
-hash = "d3987219675468088cf13e17a993fadf89ebb2c851599b7ccae7d766e10515cf"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
@@ -70323,14 +70339,6 @@ hash = "521d1727ae33d4c49c6d2ecfa9364476b0b92c0994f20ca8b15ccf48aa2c8753"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/scroll.psd"
 hash = "cd7130403655be7f61690d650a29bb09b45e40c7678e9630f25584b09d807cc3"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/scroll_cyber.aseprite"
-hash = "02542b27f847363fe1ae9da79ab2cf3ba56e5c900161e9273c176adbd1b0a176"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/scroll_cyber.png"
-hash = "3139c26e432533b00ce7e4eaeafd48c24f10c0b56394770bcf90a34f5e514dcb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/sunken_eye_shard_1.png"
@@ -74353,11 +74361,11 @@ file = "kubejs/data/bosses_of_mass_destruction/loot_tables/chests/gauntlet.json"
 hash = "bb5c1287afe7bb014fa278cababc6eeff8488ac1b6027eaa5044f3712647b31c"
 
 [[files]]
-file = "kubejs/data/cataclysm_spellcasting/damage_type/cyber_damage.json"
+file = "kubejs/data/cataclysmic_spellcasting/damage_type/cyber_damage.json"
 hash = "8c25bfe1f385de103cf0bc45256fb54abc4c4b93a20e52e994be9e6a40caba71"
 
 [[files]]
-file = "kubejs/data/cataclysm_spellcasting/tags/items/cyber_focus.json"
+file = "kubejs/data/cataclysmic_spellcasting/tags/items/cyber_focus.json"
 hash = "2d8d80b17852ce7147ca840177878a980a08398a69bd5a5199c6a5643edb70fb"
 
 [[files]]
@@ -74471,6 +74479,10 @@ hash = "f67dc1af613373f0a3114fb058d86d54988f636b91b2c8aa0c03e4c036898706"
 [[files]]
 file = "kubejs/data/gateways/recipes/nether_invasion.json"
 hash = "27b988411a39513283c706a2a2fc3251f072f33c0580d67062ca1cc48cc1bd1c"
+
+[[files]]
+file = "kubejs/data/goblintraders/trades/goblin_trader/common.json"
+hash = "747ce510b0767998f3f35b1044a80ab781954b4821ad8d39ef1ab1c7e707ef73"
 
 [[files]]
 file = "kubejs/data/goety/artifactory/abyss_staff.json"
@@ -74650,7 +74662,15 @@ hash = "b72903afb4df303ddb7405788d327524aee98e59fe6d5e6a96bf19cb96c93ce9"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/tags/items/school_focus.json"
-hash = "7833b195d91635b24424f59d1d0002c8958606a17efbeb216e094e2032fc790a"
+hash = "a77eae6b644ce6abb993137cec60a8002732a76ab1454d178168d8f37958084f"
+
+[[files]]
+file = "kubejs/data/loot_tables/entities/goblin_trader.json"
+hash = "a360ea2c0b00bdf02896147c63cf5b580722179d041b3e21913ca4e06954d8bf"
+
+[[files]]
+file = "kubejs/data/loot_tables/entities/vein_goblin_trader.json"
+hash = "73292284fcdafa498564d0227c850697867804e6b823bba0f553128822763646"
 
 [[files]]
 file = "kubejs/data/occultism/loot_tables/blocks/stable_wormhole.json"
@@ -75597,8 +75617,12 @@ file = "kubejs/server_scripts/waystones/recipes.js"
 hash = "25f86fbd2ac932512a33e8bbf994b8d2ac448ca52f55b9908c80b4c033463e2d"
 
 [[files]]
-file = "kubejs/startup_scripts/cataclysm_spellcastng/cyber_spell_school.js"
-hash = "c641c2e690026d65bd9aec3eb9d8bf0c04a544bfb05be6b675b637df45ec580c"
+file = "kubejs/startup_scripts/cataclysmic_spellcastng/cyber_spell_school.js"
+hash = "903902e9bd5b93a30096d2cad00102f616fbaf38938e72f81cbc05454ffe578a"
+
+[[files]]
+file = "kubejs/startup_scripts/cataclysmic_spellcastng/cyber_spell_school/laserbolt.js"
+hash = "13ec6608a7ad87a3f644290119abeee0af59557aa6af174e1638b8e483998278"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_item_creation.js"

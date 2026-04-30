@@ -1375,6 +1375,17 @@
         "value": 1024
       }
     },
+    "cataclysmic_spellcasting:cyber_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "irons_rpg_tweaks:natural_regen_amount": {
       "enabled": false,
       "min": {
@@ -1527,6 +1538,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "cataclysmic_spellcasting:cyber_spell_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "forge:nametag_distance": {

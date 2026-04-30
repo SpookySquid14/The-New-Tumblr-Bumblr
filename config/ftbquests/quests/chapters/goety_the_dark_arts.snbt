@@ -151,22 +151,15 @@
 			]
 			hide_until_deps_visible: true
 			id: "2BED66945BBA3836"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "3AF70DB38549114A"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 3
-					id: "4BC7513D63740755"
-					item: "goety:empty_focus"
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3AF70DB38549114A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				count: 4L
 				id: "51D2564F38F3CE5C"
 				item: "goety:empty_focus"
 				type: "item"
@@ -487,8 +480,69 @@
 				type: "observation"
 			}]
 			title: "Make a Neollager"
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			id: "4EE7637130ABFB0D"
+			tasks: [
+				{
+					id: "7D1715312191DCF5"
+					item: {
+						Count: 1
+						id: "goety:black_iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47F892F8DFE1FCB4"
+					item: {
+						Count: 1
+						id: "goety:black_iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "410385F131DEF060"
+					item: {
+						Count: 1
+						id: "goety:black_iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58156F637B5BFE46"
+					item: {
+						Count: 1
+						id: "goety:black_iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -9.5d
+		}
+		{
+			id: "2444BC79553C5720"
+			tasks: [{
+				id: "301E610A2F603320"
+				title: "Forge"
+				type: "custom"
+			}]
+			x: 3.0d
+			y: -10.5d
 		}
 	]
 	title: "Goety: The Dark Arts"

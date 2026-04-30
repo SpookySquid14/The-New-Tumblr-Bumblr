@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cataclysmic_spellcasting:item/scroll_cyber"
+  }
+}
