@@ -86,7 +86,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/MusicTriggers/example/main.toml"
-hash = "d5f1e0f24835ae58fca345a951bab58d386e3c061a0d204902e5089d5f49efac"
+hash = "3d809d3b2bc1f21bb58a8678492d97947bb7e2a4cba969d89cbcef370e9db9dc"
 
 [[files]]
 file = "config/MusicTriggers/example/redirect.txt"
@@ -99,6 +99,54 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "config/MusicTriggers/global.toml"
 hash = "9c4178c30c3e38332eabee567d52d6afcceecb4388ace10b696d6b445b2029a7"
+
+[[files]]
+file = "config/MusicTriggers/songs/enderguardian_theme_1.ogg"
+hash = "0bf4fedc33f28bd8b4e3e3c5c70f1a561eb9198faf912f341bfdb5882db8c111"
+
+[[files]]
+file = "config/MusicTriggers/songs/enderguardian_theme_2.ogg"
+hash = "87de5a40658ab975e8d17695d6f2d62eb5986c74ab84899fa45770b84e2e5899"
+
+[[files]]
+file = "config/MusicTriggers/songs/harbinger_theme.ogg"
+hash = "8fccb24cd7216ac42c258c4bcd416043e536d56f0e63b02cd2c88d9970ffa038"
+
+[[files]]
+file = "config/MusicTriggers/songs/ignis_theme_1.ogg"
+hash = "ef08e3390be02cd518e81d1d975ba0566fb0c318b7a40b2131049612aed98d2d"
+
+[[files]]
+file = "config/MusicTriggers/songs/ignis_theme_2.ogg"
+hash = "7135716862cceb17edc5860afbc532caa775c98bc4bce1698c251ecfbdd54f61"
+
+[[files]]
+file = "config/MusicTriggers/songs/ignis_theme_3.ogg"
+hash = "097002cafa7224ed51748d79b182b6e564e9bb3cf553d2841fa092bec5473553"
+
+[[files]]
+file = "config/MusicTriggers/songs/leviathan_theme_1.ogg"
+hash = "bae2f021e05d5987d99de19b6bad00f5ec6c7b2ebe9459448b7bd22b09e1e7d7"
+
+[[files]]
+file = "config/MusicTriggers/songs/leviathan_theme_2.ogg"
+hash = "ac64ab15f0328d6415c4852076ae034abdcddf12cd460bcd80f4035ca380bc4f"
+
+[[files]]
+file = "config/MusicTriggers/songs/maledictus_theme.ogg"
+hash = "99bb3fdc7d7bdabdd21a87aeb3fc4f4364d551513476a6f64d4d4294281f2dbc"
+
+[[files]]
+file = "config/MusicTriggers/songs/monstrosity_theme.ogg"
+hash = "26c0f2902bf7fa6ed91df99a82115841df49b439a5fb58425da5e2017ff7370a"
+
+[[files]]
+file = "config/MusicTriggers/songs/remnant_theme.ogg"
+hash = "10598612e778c6154d3383594313708d7288397b9eb101d28bcf976fa868d9ed"
+
+[[files]]
+file = "config/MusicTriggers/songs/scylla_theme.ogg"
+hash = "d0fa013b424e022d5d42a0ee83063d7ef7adfec9a3809bbf07d579c07bc24ad9"
 
 [[files]]
 file = "config/MusicTriggers/toggles.toml"
@@ -1378,7 +1426,7 @@ hash = "63f34caf47c465338b28a5661d3236aa71ea5e4774635bad54718c3edc7bbfec"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "c3bf08dc610b8658057b752306c6ab3ea70e9a2d8ce9b50c3918c1043d6544e3"
+hash = "ae26f7b5a78dc4b7812f740dff13b00031b19511c52cd7847cdcd40034191c08"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -66750,7 +66798,7 @@ hash = "b0969c40c02d1321437a636f0b47ed61cd0fd5806b315dae280d489532d23819"
 
 [[files]]
 file = "config/cataclysm-client.toml"
-hash = "67df4b59a69f2f747a66b62f5fd388a06ca822915f2c0bdfa314c72b568b07b7"
+hash = "31f993b7e67cb51db4ffc4e5dc40de7a7d0bfb269c91afaf40db857782d05812"
 
 [[files]]
 file = "config/cataclysm-common.toml"
@@ -67206,7 +67254,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "ec89d4e4d38b8d87587f369005403dfc1188e367e8b04003b57f48caf2170a07"
+hash = "ab4bf15128a9e87af2259076d679127e0994c577fa1f53d6481b497dba18d362"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -67837,6 +67885,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$sparse_rainforest.cfg"
 hash = "9633fb9fdc8bb537a17d1882b51e8088db310e78bfa7ee15aac29116d3928d54"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$sparse_redwoods.cfg"
+hash = "31d8745e19cdf130c2228cc43cf0bff8f45c7f0fc87596d1ac92fefaee0b39ff"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$spires.cfg"
 hash = "8526e49879668d479b2ce388b84ecec495cd99cd0b39cfbeb11cf0e8201dbc88"
 
@@ -68122,7 +68174,7 @@ hash = "c0f4d941b3844a3cb6068f8f3b662c02aaaefb2ead4d4e5b94cd3315d99c588c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/debug.snbt"
-hash = "1cfc9de0cb975866b696a783a1651b8c4c8a3f6d274fd4a6388bca3a1caf8dbb"
+hash = "d84c7c8f7ef2ca0019ec5c1fd34ddba573557d74831f142d7854a9575d9434f4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
@@ -68130,7 +68182,7 @@ hash = "8e8692ffea20a968d9cd3e20fa0adf075c2a1e61bb631c43d8c9d4969669337f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farming.snbt"
-hash = "60c3df8a35aa4014a60af9af8ff0aafb6cb1f8955e427dd1ef058d2204aed83a"
+hash = "01c679f28a9f3b98dd19ee4789a800569806dfb4452304e8987d5f49a46ba803"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fishing_2.snbt"
@@ -68138,7 +68190,7 @@ hash = "a8e8f41bdf903b5aa132089ee74ba7bc82cad974af4336379ae5c6c913b719d5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "a3468c5d5ddf612fbd1a6f3d18dada851860bc88347e2aef5def7c7d4acd5d6f"
+hash = "0e3ef014daf4c8509c2f5ac0aeec9bb6ea0b044479802ff419b863f4f6a9e8aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
@@ -68166,7 +68218,7 @@ hash = "412efae2b2946846303976b37cfc29447e9ce3bd977b746d746ac5a184fc4b21"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.snbt"
-hash = "721138d70071e47718c983360fb4eba65ee9797bd95f02483181305a9ba913e5"
+hash = "dbbcb48dd8b4a263155f63c6efcc163b696d725a04e26fe681c3266745240372"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/potions_and_poisons.snbt"
@@ -68537,6 +68589,10 @@ file = "config/irons_spellbooks_spell_config/irons_spellbooks/example.txt"
 hash = "a56ae83d6d00ba04e2efa3a205da299a5532df1fe6921e9bc78d00483a1a12d7"
 
 [[files]]
+file = "config/irons_spellbooks_spell_config/irons_spellbooks/firebolt.json"
+hash = "8b768913716bb453f7f8e29ab9965c2a604d5495480673a4a4cf7ac7dcdf8235"
+
+[[files]]
 file = "config/itemborders-common.toml"
 hash = "a6aae1e356c8388adce9a8107f1c31fb7af551b8cbfd736bd80e1387328c71eb"
 
@@ -68570,7 +68626,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "a8e2c05aca2e14278ff122913c35146400c071bdf372bdd101d781bd4cd7f586"
+hash = "562249557bf645df382a7f8b345be25be3b3934eb65f29b79b9fb5d6b59a1106"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -68769,6 +68825,10 @@ file = "config/jei/world/local/New_World__6/lookupHistory.ini"
 hash = "2ce13b8fc14d31591144567e16a4a0c131238c5ebb905a0da9f8d779b03d7227"
 
 [[files]]
+file = "config/jei/world/local/New_World__60/lookupHistory.ini"
+hash = "e7cef5c6922c693c2ef3860b3f2e813f554128a5dc25c43fcffb063fbe099758"
+
+[[files]]
 file = "config/jei/world/local/New_World__7/lookupHistory.ini"
 hash = "16a1e717099f872d4a7b63378dd3b009f81a4438daefa3d4ea9191267db689d6"
 
@@ -68791,6 +68851,14 @@ hash = "469c6098497bd15c7a593866cf4bc0659834df7fc198524f62da7254523d886d"
 [[files]]
 file = "config/jei/world/local/Playtest_2/lookupHistory.ini"
 hash = "d6b05abf8de37d3649c2284f5fd2b84cb497150fe26f33a2363fd81433e5c618"
+
+[[files]]
+file = "config/jei/world/local/Playtest_3/bookmarks.ini"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/jei/world/local/Playtest_3/lookupHistory.ini"
+hash = "1240043b34262fd35e48a0f06119ab9bc1566ad5dbbd6ca518c14abdfdca55b4"
 
 [[files]]
 file = "config/jei/world/local/Structure_Hopping/lookupHistory.ini"
@@ -68966,7 +69034,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "fbd00fafba8402d4f9db9916f641ba143d669e57f3ad1700301ec2e4e8417070"
+hash = "762f76f43bf4454b0e970edd31d5e2602f5adcb8b1c74a7deb6b92ef47a73329"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69082,7 +69150,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "403344ecdc916a022aa06bd46fef55d8fe4a69fb43c22a7d368cb2c65fec1e64"
+hash = "dac6f7af9156ebf4731b0c7f388317348643b4a38e23b9f9dd9603f1a9ea977b"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -69090,7 +69158,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "13f14b75acde73ead1949ee7001fd06f19bebe9bd8439b3a7078884b82d2b1e7"
+hash = "cea33664b81d2bef5208c34f5b1a7680e34743fee3e3c75839b34be056014ec3"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69102,115 +69170,15 @@ hash = "31aad454733f156b1b1666989899b7fd86455308b3e0e7e3ce83098525108ef9"
 
 [[files]]
 file = "config/patchouli-client.toml"
-hash = "937182b2813e129f5d05ae313d5321069eebd0350151b254e74b1560ed3d764d"
+hash = "3b6236845f6a5ff8804487b63b0d74305b91316dc9a008362838607b0be3bd8e"
 
 [[files]]
 file = "config/paxi/datapack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
-file = "config/paxi/datapacks/Create Immersive Aircrafts Datapack 1.21.1 - 3.0.zip"
-hash = "27a45db3887c74c7e0f5ed6b9f8886f80a5126e2ede6445a174ed7ccf6698f08"
-
-[[files]]
-file = "config/paxi/datapacks/Create Immersive Aircrafts Warship Recipe DataPack v1.0.zip"
-hash = "ec511627ad6f83312fbf003202ceca281a6e7104b9ac7b06e5b2b2d01cd4391f"
-
-[[files]]
-file = "config/paxi/datapacks/Farmer's Delight Cutting Compat 1.0.zip"
-hash = "e7444cde0a4df808545b1b89daab457516ff6d879ee969a98957c00c5f1923a3"
-
-[[files]]
-file = "config/paxi/datapacks/From-The-Fog-1.20-v1.9.2-Data-Resource-Pack.zip.zip"
-hash = "cc3cf6f0724a8fc3d5275f895a62fd2d785b6ae61185d2068c317f440890195b"
-
-[[files]]
-file = "config/paxi/datapacks/SkyVillages-FarmersDelightCompat-1.20.1-1.0.3.zip"
-hash = "20818ce82e68755bf55cd73e137fd4b871e1e3f57987297308980bfff5efcc76"
-
-[[files]]
-file = "config/paxi/datapacks/SkyVillages-SupplementariesCompat-1.20.1-1.0.3.1.zip"
-hash = "0966c5088950f353b5b515ce92f41e39c2b7fb18d356559c5f42ec976de7c579"
-
-[[files]]
-file = "config/paxi/datapacks/SkyVillages-WaystonesCompat-1.20.1-1.0.3-fabric.zip"
-hash = "c86b69b0efccb8c56ab287b55d502ad4da7410b5f68c4ea6c986589bdc9ecd4d"
-
-[[files]]
-file = "config/paxi/datapacks/cadpack-1.0.zip"
-hash = "09dfe845353e1db8097a4b9067ec5797b4201fa091d4124763fdd37a11df97e7"
-
-[[files]]
-file = "config/paxi/datapacks/curiosumbrella.zip"
-hash = "24e379fbb3e6471f9953d0e2266625e583c45efd2400c7436f497450b8626fbd"
-
-[[files]]
-file = "config/paxi/datapacks/idasalexsmobs-1.20.zip"
-hash = "8f1182f08d3b268fbaa4dbaea170d9c01fd70d2355854b6939e03ebb46029e77"
-
-[[files]]
-file = "config/paxi/datapacks/integrated_cataclysm_revert_recipes.zip"
-hash = "b836848ac7fcd43a12e75d83129d40c82616a6ff160877062b63431e921fd5e0"
-
-[[files]]
-file = "config/paxi/datapacks/integrated_stronghold_config_forge-1.1.1-1.20.1.zip"
-hash = "589d798e84c4ce71c7b6e3ec19f501963cdb2cc5220296a002b89c3a5e435c69"
-
-[[files]]
-file = "config/paxi/datapacks/integrated_villages_config-1.3.0-1.20.1.zip"
-hash = "eadf1d547321431cf04c27e5a840db0c4bd2f47537ec842e0b08109d4b137055"
-
-[[files]]
-file = "config/paxi/datapacks/intstrong_alexsmobs-1.0.0-1.20.1.zip"
-hash = "2eb5b0045b17d0988764940cf457e9eb60799e950cfb5f6eb4efa11ec537b168"
-
-[[files]]
-file = "config/paxi/datapacks/intstrong_endrem-1.0.0-1.18.2-1.19.2.zip"
-hash = "8e41b8cc5e0e255f8639c0a1ee76aa37486fa0c7d406976983c53a6c56438bbb"
-
-[[files]]
 file = "config/paxi/resourcepack_load_order.json"
 hash = "d61a236509072b182f3722372a55745978667f8cdd03eee6e8640c3e7b5d0dd0"
-
-[[files]]
-file = "config/paxi/resourcepacks/A Better GUI 2 - FTB.zip"
-hash = "87035e572242c8cf4ccba2aeb1d7f8ae455ee6904f1640b92febd4445b546ab3"
-
-[[files]]
-file = "config/paxi/resourcepacks/Alex's Titles 2.0.zip"
-hash = "48baead569c25d41f34d55cd37855305fd7a560b2bf21bf791a8b30d0d826853"
-
-[[files]]
-file = "config/paxi/resourcepacks/Better SB Upgrades.zip"
-hash = "1c699bac1d953f076365cb30047da1072030b7d9a75868df12cf769b145f987d"
-
-[[files]]
-file = "config/paxi/resourcepacks/Better Villagers.zip"
-hash = "2cfb3c6b821a49e189da0e495640e2f86a1f3d6c86cee6781279a1f1fe55f25c"
-
-[[files]]
-file = "config/paxi/resourcepacks/Better_hunters_2.zip"
-hash = "e5a9a039b518f160a63f8969fd461e276920b80c142bf650cbf06af20247c532"
-
-[[files]]
-file = "config/paxi/resourcepacks/CIA-AC-Compat-v1.1.0-1.18.2.zip"
-hash = "fdefec10db17c170abef478d58a2f4a65c13e3c6dc0346edada120ff46fbba8d"
-
-[[files]]
-file = "config/paxi/resourcepacks/Create Immersive Aircraft Warship ResoucePack v1.2.zip"
-hash = "dc15bc747c981b2eb238352681392a3e31c97a259f3748410a134c67a5db8df2"
-
-[[files]]
-file = "config/paxi/resourcepacks/Create Immersive Aircrafts Resource Pack 1.21.1 - 3.0.zip"
-hash = "c7dd29c657c4e8a15661ac9283fa8749d92be0ee1c6eda5188262261e12cf3cb"
-
-[[files]]
-file = "config/paxi/resourcepacks/CreateSophBackpacks.zip"
-hash = "cb63a5a33c142ce588f1df020c7d4615f57f0e312064e03d4e7901060803905d"
-
-[[files]]
-file = "config/paxi/resourcepacks/Create_Styled_AdAstra_Plates.zip"
-hash = "b0ff9ec4d6512c8389b3666a8f5356f833ebb761f436e268ad745d855816b4f3"
 
 [[files]]
 file = "config/paxi/resourcepacks/Eternal Ancient Coins/assets/ancientcoins/lang/en_us.json"
@@ -69227,46 +69195,6 @@ hash = "fc19086a041a679c7c01dabd18ace9ddb125d380a35a63dddd9982a2a7c310f8"
 [[files]]
 file = "config/paxi/resourcepacks/Eternal Ancient Coins/pack.mcmeta"
 hash = "867da8a4e610da33b01b74f542605b8c7b2b875680c8bd085cb3c0406484efab"
-
-[[files]]
-file = "config/paxi/resourcepacks/FTBQuestsShapesHeyKatu.zip"
-hash = "97a9a1a373fa03eb86442c6f900611c082c3fa33913d0c01010a4bcc17a2ef01"
-
-[[files]]
-file = "config/paxi/resourcepacks/FTF_Skinpack_by_LeYoshi.zip"
-hash = "42a0b37ad8c7982a42d96e7939c0086c59fe83accfd90039c59ccaa593365797"
-
-[[files]]
-file = "config/paxi/resourcepacks/Fitting XP Mana Bar for Iron's Spells 'n Spellbooks from 1.20.1 and above.zip"
-hash = "77cc8cb85bdf4e5add35b9ab811bd156ce8400079c736e8f253c151036239a2b"
-
-[[files]]
-file = "config/paxi/resourcepacks/Fresh Vampirism Pack V1.4.zip"
-hash = "d53bbc2a0bbf07c162dd37ab0e5cfb53ead97024c7ce782edab2e352abf5e0f6"
-
-[[files]]
-file = "config/paxi/resourcepacks/From-The-Fog-1.20-v1.9.2-Data-Resource-Pack.zip.zip"
-hash = "cc3cf6f0724a8fc3d5275f895a62fd2d785b6ae61185d2068c317f440890195b"
-
-[[files]]
-file = "config/paxi/resourcepacks/Hazardous Hoglins.zip"
-hash = "c5593e349068ad523d3d53f492707d1013d1dc5a3df47b1623115fabac1fa735"
-
-[[files]]
-file = "config/paxi/resourcepacks/ImmersiveResprites-1.1.zip"
-hash = "1506f684febbeabca1dcfc91e95c3b24c1d13f7bd2f2f11ce81915522febf5a0"
-
-[[files]]
-file = "config/paxi/resourcepacks/McwSquareRoofs_v1.0.zip"
-hash = "dabc565eb715364d62082e47d9b18e1da361306f3097b7e4e1720d9ea1620745"
-
-[[files]]
-file = "config/paxi/resourcepacks/Minecolonies Refreshed 4.0.0-1.21.1.zip"
-hash = "0d15bc32e49959e6cee825d219bbc32332554e0269262253fd8b6ae434af0f98"
-
-[[files]]
-file = "config/paxi/resourcepacks/Mob Grinding Utils Vanillafied.zip"
-hash = "c916eee0b86f98c1b9a32268fa4f06857e512b9b60e786fab4b88be2a40c863e"
 
 [[files]]
 file = "config/paxi/resourcepacks/Nether Redstone Golem/assets/goety/optifine/random/entity/servants/redstone_golem/Texture Ref.aseprite"
@@ -69323,54 +69251,6 @@ hash = "d0bda31643714b4b52628e8804c1ee68961225d532e17286cd83c8e973690599"
 [[files]]
 file = "config/paxi/resourcepacks/Nether Redstone Golem/pack.mcmeta"
 hash = "4010b9aa01f477417abfb32dd9a461cd5282fbe7bad929dd747cd00c9559c48e"
-
-[[files]]
-file = "config/paxi/resourcepacks/Slightly-Improved-Font-1.1.5.zip"
-hash = "b991537dd86f7dee818d8d059b8beb21d17d606ae797865e0c71b8cc9918c1de"
-
-[[files]]
-file = "config/paxi/resourcepacks/Spice of Life - Picnic!.zip"
-hash = "317f056ec19b8d30a8176d6e7ea43c5e07ac1c8ba8591f17e25de204b61c08d0"
-
-[[files]]
-file = "config/paxi/resourcepacks/TerralithBiomesNames.zip"
-hash = "a53490c62ec810488ada654211987a506c773fc1f62e862f31ef7a7650188fdd"
-
-[[files]]
-file = "config/paxi/resourcepacks/Tombstones redux 1.20 v3.zip"
-hash = "c3fcadf445d99870f386e20b5f6463a04c550f5b28c9608227a79b08267c24e0"
-
-[[files]]
-file = "config/paxi/resourcepacks/Two-Moons-LexLim-1.18-1.21.7-v1.0.5-Resourcepack.zip"
-hash = "1ab0235e985ec7b18acaf19c1c3bfea504c4c17469b1f43a8f6b215a5292252b"
-
-[[files]]
-file = "config/paxi/resourcepacks/Vessel - From The Fog Skin Pack Creator.zip"
-hash = "db76de69b5536203467466a71655966533350d4a45e2041d6924da84332704ca"
-
-[[files]]
-file = "config/paxi/resourcepacks/Visual Titles 1.3.zip"
-hash = "7a08d58bc4c31767d08c98f0b824433eaa4b842b1dd8695e9e2b1d7ee856598b"
-
-[[files]]
-file = "config/paxi/resourcepacks/updated_aquaculture-1.1-1.12.zip"
-hash = "06e6b0906b1d554f18101dc595672ed25883140aa2333e2ec6b69c7deffa306e"
-
-[[files]]
-file = "config/paxi/resourcepacks/waystones_1.20.1_update_5.zip"
-hash = "274db09c0cfeaba5c7c4ba2e55925e90e6642d4b519d1b819a91a8f93499a625"
-
-[[files]]
-file = "config/paxi/resourcepacks/§6Immersive§8_§6Interfaces§8.zip"
-hash = "56c76d73030fb50223560627caefa75e57ee9652c641da78cb7f2fcd2e194eae"
-
-[[files]]
-file = "config/paxi/resourcepacks/§6Immersive§8_§6Interfaces§8_§6Modded§8.zip"
-hash = "a604c71750ed8ec5dfab6f33122bfb8cd604fdb6b5bb3aac3ec46040ecc1dac4"
-
-[[files]]
-file = "config/paxi/resourcepacks/§dPolymorph §5Reforged 1.20.zip"
-hash = "d90ce28d220b274ac02a9e6f3328bb67dbbf0f47a69c467c474f700f34bdb3a4"
 
 [[files]]
 file = "config/perception.yaml"
@@ -70238,11 +70118,11 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "bdb6c03350477dd328af567420e18dd5f93b7b9dde35f977f9ae4d05672b019b"
+hash = "6993dd8e17615b92a266fd20af1ce69dd593d24b5702e075ca9d2fade8e369f2"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "657da702a05196ec5650e0fbbd0251095dee8fee93f7be9cd12d807539c3312d"
+hash = "447fe7ea3e72d38672ffe5639a848c49cd00e8719ffec4e6db0e426cc88c1dc0"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -70405,6 +70285,10 @@ file = "kubejs/assets/info.json"
 hash = "25960aa3751c55ff2014554cd460c3b33bd629cf5c8a65ad239dbdb368c38d6f"
 
 [[files]]
+file = "kubejs/assets/kubejs/models/item/scroll_cyber.json"
+hash = "d3987219675468088cf13e17a993fadf89ebb2c851599b7ccae7d766e10515cf"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
@@ -70435,6 +70319,18 @@ hash = "4f158618664f09700b03fb73f36cc469b6210fae2e72900c48fa24c40a58aee4"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/rusted_axe.png"
 hash = "521d1727ae33d4c49c6d2ecfa9364476b0b92c0994f20ca8b15ccf48aa2c8753"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/scroll.psd"
+hash = "cd7130403655be7f61690d650a29bb09b45e40c7678e9630f25584b09d807cc3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/scroll_cyber.aseprite"
+hash = "02542b27f847363fe1ae9da79ab2cf3ba56e5c900161e9273c176adbd1b0a176"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/scroll_cyber.png"
+hash = "3139c26e432533b00ce7e4eaeafd48c24f10c0b56394770bcf90a34f5e514dcb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/sunken_eye_shard_1.png"
@@ -74301,10 +74197,6 @@ file = "kubejs/config/probejs.json"
 hash = "eb0bfaed60482e4e159ff4e2452cc098de57689f7cc82b4c9d9f112548173da6"
 
 [[files]]
-file = "kubejs/data/FishingReal-Aquaculture.zip"
-hash = "97d60d42f0678766ade1fcde36badcf7832e371790ad15ee544c325abbdb7828"
-
-[[files]]
 file = "kubejs/data/apotheosis/enchanting_stats/crypt_bookshelf.json"
 hash = "b6cf1af2337de2756a723ede5d09de45214c2ba388f6ab5914cdf97c4a48b3d8"
 
@@ -74461,6 +74353,14 @@ file = "kubejs/data/bosses_of_mass_destruction/loot_tables/chests/gauntlet.json"
 hash = "bb5c1287afe7bb014fa278cababc6eeff8488ac1b6027eaa5044f3712647b31c"
 
 [[files]]
+file = "kubejs/data/cataclysm_spellcasting/damage_type/cyber_damage.json"
+hash = "8c25bfe1f385de103cf0bc45256fb54abc4c4b93a20e52e994be9e6a40caba71"
+
+[[files]]
+file = "kubejs/data/cataclysm_spellcasting/tags/items/cyber_focus.json"
+hash = "2d8d80b17852ce7147ca840177878a980a08398a69bd5a5199c6a5643edb70fb"
+
+[[files]]
 file = "kubejs/data/clanginghowl/worldgen/configured_feature/ex_steel_ore.json"
 hash = "d2f9b2c263d1fefa26c4e38c1e233749a796f82cfe704867573154c84f8bc911"
 
@@ -74547,10 +74447,6 @@ hash = "c25c68ad4679a2f3db4b9e880529c5782b7ab33aa792f7143a1276327ea1c024"
 [[files]]
 file = "kubejs/data/forge/tags/entity_type/bosses.json"
 hash = "909075791b62c0e70ad28ad5083c56c7477a2f19e4b1a3a78ee9f2f02acf55a1"
-
-[[files]]
-file = "kubejs/data/gateways.zip"
-hash = "f2f7ec5ac70c00e745958d65943c92a2a7fef5a261008a110d3eabf3e51b12d4"
 
 [[files]]
 file = "kubejs/data/gateways/gateways/eternal_nether_invasion.json"
@@ -74753,8 +74649,56 @@ file = "kubejs/data/irons_spellbooks/artifactory/shadowwalker_leggings.json"
 hash = "b72903afb4df303ddb7405788d327524aee98e59fe6d5e6a96bf19cb96c93ce9"
 
 [[files]]
+file = "kubejs/data/irons_spellbooks/tags/items/school_focus.json"
+hash = "7833b195d91635b24424f59d1d0002c8958606a17efbeb216e094e2032fc790a"
+
+[[files]]
 file = "kubejs/data/occultism/loot_tables/blocks/stable_wormhole.json"
 hash = "7c206a31cd2ead1a821eee35f3c491d797172bd9623f05895feb68ad517ef4ae"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/combat/category.json"
+hash = "a95fa28403ae58e259743ebb1129fe56245da0b207e9a4e05106b65886b6d551"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/combat/connections.json"
+hash = "fdbda2fc731a3d7882c7e563dac3f24cea631c44e9fe908318cd69d24bc2b476"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/combat/definitions.json"
+hash = "8a71a558ba5a99abe20bed8e29e02cd19f63c7caf507faba4073e03e9d268a04"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/combat/experience.json"
+hash = "283bfd4e86e48ddae7f7ca946f4612fb3366595f4035bc8a26dcad7452b3deb2"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/combat/skills.json"
+hash = "06aa22cbe62a0be5282a51da7f72a18793c6bf3d9ec579909a5c46b9e4c67863"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/mining/category.json"
+hash = "788662334d8d83afb3761ae974f0aada8fd6720de96e7594b7217e268cbf21fa"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/mining/connections.json"
+hash = "1098518de6d631a753631795275d88e29582b3815fc92103b5e4a08406e2d6e2"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/mining/definitions.json"
+hash = "fc75611b810c681f0cf0d57718e228bc2ab08437cc0c09866cc1c3e651bdada5"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/mining/experience.json"
+hash = "ba758b1e7dafaae0d3bbd02f672b3032637a354ba80ed252aaa996d9c981539e"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/mining/skills.json"
+hash = "8a4708ecb5b31b0a09f834257cce2c7ddac4b5bc29c2f91aa151a019b471cfbf"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/config.json"
+hash = "88ea850bf8d4b3c766cfe7fdfa7cbb7b0b8545b08b249d0fe2cc109c758bb7e2"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/amethyst.json"
@@ -75651,6 +75595,10 @@ hash = "ee5be54bf9eed748c1e69fce257412b8861e56c97febde4b6adaf3a0c9fae446"
 [[files]]
 file = "kubejs/server_scripts/waystones/recipes.js"
 hash = "25f86fbd2ac932512a33e8bbf994b8d2ac448ca52f55b9908c80b4c033463e2d"
+
+[[files]]
+file = "kubejs/startup_scripts/cataclysm_spellcastng/cyber_spell_school.js"
+hash = "c641c2e690026d65bd9aec3eb9d8bf0c04a544bfb05be6b675b637df45ec580c"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_item_creation.js"
@@ -76959,6 +76907,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-melodies.pw.toml"
 hash = "5aa503f2a0ca2bcc9ce6ebc8bfa69c863be781524cb643fb09271e755400de2b"
+metafile = true
+
+[[files]]
+file = "mods/immersive-optimization.pw.toml"
+hash = "b5ab7266e4bda1ed5e6b7ea52371ca12fcf03ca13bbf1cadc9e8355301195862"
 metafile = true
 
 [[files]]
@@ -78336,6 +78289,11 @@ hash = "303f1ee7b559de81cff9a7d17af0ed576d553e044b8cb7b8aa528e85f9695377"
 metafile = true
 
 [[files]]
+file = "resourcepacks/.index/ie-reimmersed.pw.toml"
+hash = "4ba51db04b53de34e5e5425f15eb9b39fdc35e474fbd4030005cfee14456dca2"
+metafile = true
+
+[[files]]
 file = "resourcepacks/.index/integrated-stronghold-alexs-mobs-integration.pw.toml"
 hash = "ff89c1a4415a39170e2a18898e9fc40e9537e6e835c2499cece9729e3c9fc7d4"
 metafile = true
@@ -78384,155 +78342,3 @@ metafile = true
 file = "resourcepacks/.index/vampire-hunters-and-crossbows-texture-pack-by.pw.toml"
 hash = "7c86d641e3d95a0bef7dafa8e57b54692dbf4ec12b38b6b15e2249f7f755eb5e"
 metafile = true
-
-[[files]]
-file = "resourcepacks/A Better GUI 2 - FTB.zip"
-hash = "87035e572242c8cf4ccba2aeb1d7f8ae455ee6904f1640b92febd4445b546ab3"
-
-[[files]]
-file = "resourcepacks/Alex's Titles 2.0.zip"
-hash = "48baead569c25d41f34d55cd37855305fd7a560b2bf21bf791a8b30d0d826853"
-
-[[files]]
-file = "resourcepacks/Better Villagers.zip"
-hash = "2cfb3c6b821a49e189da0e495640e2f86a1f3d6c86cee6781279a1f1fe55f25c"
-
-[[files]]
-file = "resourcepacks/Better illagers.zip"
-hash = "db3ac585283ee67d2659b9351d550e7af2fedadb35b3a0b2c0fd2ad20149c804"
-
-[[files]]
-file = "resourcepacks/Better_hunters_2.zip"
-hash = "e5a9a039b518f160a63f8969fd461e276920b80c142bf650cbf06af20247c532"
-
-[[files]]
-file = "resourcepacks/CIA-AC-Compat-v1.1.0-1.18.2.zip"
-hash = "fdefec10db17c170abef478d58a2f4a65c13e3c6dc0346edada120ff46fbba8d"
-
-[[files]]
-file = "resourcepacks/Create Immersive Aircraft Warship ResoucePack v1.2.zip"
-hash = "dc15bc747c981b2eb238352681392a3e31c97a259f3748410a134c67a5db8df2"
-
-[[files]]
-file = "resourcepacks/Create Immersive Aircrafts Datapack 1.21.1 - 3.0.zip"
-hash = "27a45db3887c74c7e0f5ed6b9f8886f80a5126e2ede6445a174ed7ccf6698f08"
-
-[[files]]
-file = "resourcepacks/Create Immersive Aircrafts Resource Pack 1.21.1 - 3.0.zip"
-hash = "c7dd29c657c4e8a15661ac9283fa8749d92be0ee1c6eda5188262261e12cf3cb"
-
-[[files]]
-file = "resourcepacks/Create Immersive Aircrafts Warship Recipe DataPack v1.0.zip"
-hash = "ec511627ad6f83312fbf003202ceca281a6e7104b9ac7b06e5b2b2d01cd4391f"
-
-[[files]]
-file = "resourcepacks/Create_Styled_AdAstra_Plates.zip"
-hash = "b0ff9ec4d6512c8389b3666a8f5356f833ebb761f436e268ad745d855816b4f3"
-
-[[files]]
-file = "resourcepacks/FTBQuestsShapesHeyKatu.zip"
-hash = "97a9a1a373fa03eb86442c6f900611c082c3fa33913d0c01010a4bcc17a2ef01"
-
-[[files]]
-file = "resourcepacks/Farmer's Delight Cutting Compat 1.0.zip"
-hash = "e7444cde0a4df808545b1b89daab457516ff6d879ee969a98957c00c5f1923a3"
-
-[[files]]
-file = "resourcepacks/Fitting XP Mana Bar for Iron's Spells 'n Spellbooks from 1.20.1 and above.zip"
-hash = "77cc8cb85bdf4e5add35b9ab811bd156ce8400079c736e8f253c151036239a2b"
-
-[[files]]
-file = "resourcepacks/Fresh Vampirism Pack V1.4.zip"
-hash = "d53bbc2a0bbf07c162dd37ab0e5cfb53ead97024c7ce782edab2e352abf5e0f6"
-
-[[files]]
-file = "resourcepacks/Hazardous Hoglins.zip"
-hash = "c5593e349068ad523d3d53f492707d1013d1dc5a3df47b1623115fabac1fa735"
-
-[[files]]
-file = "resourcepacks/McwSquareRoofs_v1.0.zip"
-hash = "dabc565eb715364d62082e47d9b18e1da361306f3097b7e4e1720d9ea1620745"
-
-[[files]]
-file = "resourcepacks/Minecolonies Refreshed 4.0.0-1.21.1.zip"
-hash = "0d15bc32e49959e6cee825d219bbc32332554e0269262253fd8b6ae434af0f98"
-
-[[files]]
-file = "resourcepacks/Mob Grinding Utils Vanillafied.zip"
-hash = "c916eee0b86f98c1b9a32268fa4f06857e512b9b60e786fab4b88be2a40c863e"
-
-[[files]]
-file = "resourcepacks/Quark Programmer Art.zip"
-hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
-
-[[files]]
-file = "resourcepacks/Slightly-Improved-Font-1.1.5.zip"
-hash = "b991537dd86f7dee818d8d059b8beb21d17d606ae797865e0c71b8cc9918c1de"
-
-[[files]]
-file = "resourcepacks/TerralithBiomesNames.zip"
-hash = "a53490c62ec810488ada654211987a506c773fc1f62e862f31ef7a7650188fdd"
-
-[[files]]
-file = "resourcepacks/Tombstones redux 1.20 v3.zip"
-hash = "c3fcadf445d99870f386e20b5f6463a04c550f5b28c9608227a79b08267c24e0"
-
-[[files]]
-file = "resourcepacks/Visual Titles 1.3.zip"
-hash = "7a08d58bc4c31767d08c98f0b824433eaa4b842b1dd8695e9e2b1d7ee856598b"
-
-[[files]]
-file = "resourcepacks/curiosumbrella.zip"
-hash = "24e379fbb3e6471f9953d0e2266625e583c45efd2400c7436f497450b8626fbd"
-
-[[files]]
-file = "resourcepacks/idasalexsmobs-1.20.zip"
-hash = "8f1182f08d3b268fbaa4dbaea170d9c01fd70d2355854b6939e03ebb46029e77"
-
-[[files]]
-file = "resourcepacks/integrated_cataclysm_revert_recipes.zip"
-hash = "b836848ac7fcd43a12e75d83129d40c82616a6ff160877062b63431e921fd5e0"
-
-[[files]]
-file = "resourcepacks/integrated_stronghold_config_forge-1.1.1-1.20.1.zip"
-hash = "589d798e84c4ce71c7b6e3ec19f501963cdb2cc5220296a002b89c3a5e435c69"
-
-[[files]]
-file = "resourcepacks/integrated_villages_config-1.3.0-1.20.1.zip"
-hash = "eadf1d547321431cf04c27e5a840db0c4bd2f47537ec842e0b08109d4b137055"
-
-[[files]]
-file = "resourcepacks/intstrong_alexsmobs-1.0.0-1.20.1.zip"
-hash = "2eb5b0045b17d0988764940cf457e9eb60799e950cfb5f6eb4efa11ec537b168"
-
-[[files]]
-file = "resourcepacks/intstrong_endrem-1.0.0-1.18.2-1.19.2.zip"
-hash = "8e41b8cc5e0e255f8639c0a1ee76aa37486fa0c7d406976983c53a6c56438bbb"
-
-[[files]]
-file = "resourcepacks/tconjeidark.zip"
-hash = "f6f084ae1df2f43e4a0e70b7d361ea766a0db9be9429ef43614d3d1ad8c20be4"
-
-[[files]]
-file = "resourcepacks/updated_aquaculture-1.1-1.12.zip"
-hash = "06e6b0906b1d554f18101dc595672ed25883140aa2333e2ec6b69c7deffa306e"
-
-[[files]]
-file = "resourcepacks/waystones_1.20.1_update_5.zip"
-hash = "274db09c0cfeaba5c7c4ba2e55925e90e6642d4b519d1b819a91a8f93499a625"
-
-[[files]]
-file = "resourcepacks/§6Immersive§8_§6Interfaces§8.zip"
-hash = "56c76d73030fb50223560627caefa75e57ee9652c641da78cb7f2fcd2e194eae"
-
-[[files]]
-file = "resourcepacks/§6Immersive§8_§6Interfaces§8_§6Modded§8.zip"
-hash = "a604c71750ed8ec5dfab6f33122bfb8cd604fdb6b5bb3aac3ec46040ecc1dac4"
-
-[[files]]
-file = "resourcepacks/§dPolymorph §5Reforged 1.20.zip"
-hash = "d90ce28d220b274ac02a9e6f3328bb67dbbf0f47a69c467c474f700f34bdb3a4"
-
-[[files]]
-file = "sync.sh"
-hash = "a03a693437e94a3479eccb9a220b8b797240081bee2527b23e2a9a163a201e30"

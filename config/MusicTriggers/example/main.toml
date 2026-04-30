@@ -2,16 +2,15 @@
 #  Line 2
 
 [songs]
-	[songs.harbinger]
-		location = "cataclysm:music_disc/harbinger_theme"
+	[songs.harbinger_theme]
 		triggers = [ "Mob-harbinger_theme" ]
 
 [triggers]
 	[triggers.mob]
 		identifier = "harbinger_theme"
-		mob_targeting = false
-		resource_matcher = "regex"
-		resource_name = [ "any", "minecraft:zombie" ]
+		mob_nbt = [ ]
+		resource_matcher = "exact"
+		resource_name = [ "cataclysm:the_harbinger" ]
 	[triggers.universal]
 		active_cooldown = "0"
 		fade_in = "0"

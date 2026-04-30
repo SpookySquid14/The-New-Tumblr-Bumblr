@@ -340,7 +340,7 @@
 		}
 		{
 			dependencies: ["39807177697E390F"]
-			description: ["Wild Crops are naturally spawning plants that provide the seeds and starter materials needed to begin farming Farmer’s Delight crops. Seven different variants can be found across the Overworld, each in specific biomes: Wild Cabbages on beaches, Wild Onions in plains and forests, Wild Tomatoes in hot deserts and savannas, Wild Carrots in most biomes, Wild Potatoes in forests, Wild Beetroots on beaches and deserts, and Wild Rice growing in rivers and swamps."]
+			description: ["Wild Crops are naturally spawning plants that provide the seeds and starter materials needed to begin farming Farmer’s Delight crops. Seven different variants can be found across the Overworld, each in specific biomes: &aWild Cabbages on beaches&r, &eWild Onions in plains and forests&r, &cWild Tomatoes in hot deserts and savannas&r, &6Wild Carrots in most biomes&r, &eWild Potatoes in forests&r, &cWild Beetroots on beaches and deserts&r, and &7Wild Rice growing in rivers and swamps&r."]
 			id: "6E2846C32B27E04F"
 			rewards: [{
 				amount: 100L
@@ -1945,6 +1945,22 @@
 			title: "Rope: Everyone Loves It"
 			x: -4.0d
 			y: -1.5d
+		}
+		{
+			id: "1695A3566E0C089D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "12517D8AED98DF26"
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "683584471F18B998"
+				item: "quark:feeding_trough"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
 		}
 	]
 	title: "Farming"

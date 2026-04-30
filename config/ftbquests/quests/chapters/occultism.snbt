@@ -43,8 +43,8 @@
 				}
 			]
 			title: "Items From Beyond The Veil"
-			x: 1.5d
-			y: -2.0d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -134,6 +134,138 @@
 			title: "A Fire That Doesn't Burn"
 			x: 0.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["28EBB69D972236AC"]
+			id: "10B025FE594CB756"
+			tasks: [{
+				id: "5ED93D7EBED079FB"
+				item: {
+					Count: 1
+					id: "occultism:divination_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			description: ["Make a butchers knife and kill large animals like pigs and cows to get tallow for special candles"]
+			id: "1A4D57B6CA4E5128"
+			tasks: [{
+				id: "2262B02015FBC55C"
+				item: "occultism:candle_white"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1908E5992649B221"]
+			description: [
+				"Requires you to have the demons dream effect when cutting down the tree"
+				"Due to a bug, HT's Treechop will not drop otherworld logs. You must be crouching to chop the tree down normally."
+			]
+			id: "58B0624C9BBA1796"
+			tasks: [{
+				count: 4L
+				id: "3A8D04D325165220"
+				item: "occultism:otherworld_log"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["58B0624C9BBA1796"]
+			id: "22D0DB7D7F40A723"
+			tasks: [
+				{
+					id: "270432A2CFDC8233"
+					item: "occultism:chalk_white_impure"
+					type: "item"
+				}
+				{
+					id: "70375FD1C29CD0EE"
+					item: {
+						Count: 1
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["28EBB69D972236AC"]
+			id: "4B523327BFD0F2D0"
+			tasks: [
+				{
+					id: "2816497A4D99AC86"
+					item: "occultism:awakened_feather"
+					type: "item"
+				}
+				{
+					id: "5EAC9866D1AF45D2"
+					item: "occultism:purified_ink"
+					type: "item"
+				}
+				{
+					id: "7BDDB93FA99B838F"
+					item: "occultism:taboo_book"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B523327BFD0F2D0"]
+			id: "577D5056DFB3FA69"
+			tasks: [
+				{
+					id: "59AA164724E13C7D"
+					item: "occultism:book_of_binding_foliot"
+					type: "item"
+				}
+				{
+					id: "6B7A52B1F8C0D160"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Trinthorder"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1908E5992649B221"]
+			id: "20CC0933DF2ACF2A"
+			tasks: [
+				{
+					count: 4L
+					id: "6B76128FF246E7DB"
+					item: { Count: 4, id: "occultism:sacrificial_bowl" }
+					type: "item"
+				}
+				{
+					id: "0784B9A0BF011429"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
 		}
 	]
 	title: "Occultism"
