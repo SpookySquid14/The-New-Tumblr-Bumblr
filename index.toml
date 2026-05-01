@@ -67254,7 +67254,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a0132248cd43acd9f30f1983f7abafed91f3f3ccf68e3252752a6bf4bf8425c6"
+hash = "2462987599e841d0b1cf077606e24280d527a33960e1526540b8180da6e766cb"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68834,7 +68834,7 @@ hash = "2ce13b8fc14d31591144567e16a4a0c131238c5ebb905a0da9f8d779b03d7227"
 
 [[files]]
 file = "config/jei/world/local/New_World__60/lookupHistory.ini"
-hash = "e7cef5c6922c693c2ef3860b3f2e813f554128a5dc25c43fcffb063fbe099758"
+hash = "9e0a8b6c31840c87a19f40e9ee7ec0fe578c4aa4471640d1f3e2d3a33d4a9a0c"
 
 [[files]]
 file = "config/jei/world/local/New_World__7/lookupHistory.ini"
@@ -69042,7 +69042,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "58f1e01148bfd00e0e76d7790ee13d7d10c3f612661124d4f3839ca80b37fc68"
+hash = "698ba13fe44a892e646b4a52f49b5d35f5a5b6957400900c2aa5e6e452a1850f"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69158,7 +69158,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "61e8b5de190a7b2f1f1284224a3e79f24f424c4f325b542e6e6c88e61dc1dc35"
+hash = "b86fc7146c016795a08a5d34d4fe7cd885841b71817b4d3ecfe8ecc5e73adbae"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -69166,7 +69166,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "6a448421fbef02afe57021179f0bf106e0556fb1eb5421b041422f1e6ec73c86"
+hash = "53756a15bfcb6e5f730a840e5644c91b8103c93c471ba4bb240af5ad02f28ac2"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69494,7 +69494,7 @@ hash = "347434fce931147ef1b31896190829a06a857a561eab04e28354af67f3894564"
 
 [[files]]
 file = "config/sodiumextras-client.toml"
-hash = "119170fa7eb5b677d255cdcafca4c221ca7a2f9e7f07fade0e3522cb048ee689"
+hash = "664c3e4635392fc8d354d63535e2f8a2c900a174cd0241d592f8f14fdc986ccf"
 
 [[files]]
 file = "config/solapplepie-client.toml"
@@ -75559,6 +75559,10 @@ hash = "3499727f1385c41a7cf75babe88768b63c471c5d1c5ccd86ce9e494389ca3268"
 [[files]]
 file = "kubejs/server_scripts/Modpack/Tags/artifacts.js"
 hash = "aab33530cd87dfb5e94cee086664a382d28871072f2f6d71730247b19a175e84"
+
+[[files]]
+file = "kubejs/server_scripts/Modpack/Tags/axes.js"
+hash = "d93e79799af2c17e4bbed0c9c3d05b569fba24977f9686ae5b0f97e2dc94f8d8"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/Tags/mowzies_bosses.js"
