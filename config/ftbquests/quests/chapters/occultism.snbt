@@ -158,8 +158,8 @@
 				item: "occultism:candle_white"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.5d
+			x: -2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1908E5992649B221"]
@@ -266,6 +266,43 @@
 			]
 			x: 0.0d
 			y: -5.0d
+		}
+		{
+			dependencies: [
+				"22D0DB7D7F40A723"
+				"20CC0933DF2ACF2A"
+				"1A4D57B6CA4E5128"
+				"577D5056DFB3FA69"
+			]
+			id: "7CC42784803FC670"
+			tasks: [
+				{
+					id: "778E3BD3BE598FE2"
+					title: "Make Aviars Circle"
+					type: "custom"
+				}
+				{
+					id: "3D6B47A6AD6F1608"
+					observe_type: 5
+					timer: 0L
+					title: "See a foliot"
+					to_observe: "occultism:foliot"
+					type: "observation"
+				}
+			]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["22D0DB7D7F40A723"]
+			id: "0E495CBE472C7124"
+			tasks: [{
+				id: "119EBB64DAF41EA7"
+				item: "occultism:brush"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
 		}
 	]
 	title: "Occultism"

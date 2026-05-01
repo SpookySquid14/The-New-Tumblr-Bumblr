@@ -66878,7 +66878,7 @@ hash = "0a41518641bbb4133fc61b934e8663ae5271ffd8190a281e5b35d1efd97fb3e3"
 
 [[files]]
 file = "config/clanginghowl.toml"
-hash = "8b933ef0d91c36d94ef1d5d25c70e3b711ab25bab43c1ae154b09fa0b9ed36f6"
+hash = "709f21c112cf923b185ee8d66fcba6257318ec3e1c0876b1e7250b7a5c19945c"
 
 [[files]]
 file = "config/clickadv.json"
@@ -66898,7 +66898,7 @@ hash = "8c5b1d5b21edcdf1d5e3fdfcf25c90b7dafe0727410b3d7d9d5394165b3a8c48"
 
 [[files]]
 file = "config/combatnouveau-server.toml"
-hash = "6dd3adee4fe7195ee193546fa54db20be74778099d2b7c80fe246620fd3405e7"
+hash = "02df2b3fb094183b55ee2c1792bd63ad3e5f121572f681e8c0f7aa8d82a86fea"
 
 [[files]]
 file = "config/combatroll/client.json5"
@@ -67254,7 +67254,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "add935ac46e6110e6deaa178302101251ac082ef9f0f6af9d2eda966745e61f5"
+hash = "a0132248cd43acd9f30f1983f7abafed91f3f3ccf68e3252752a6bf4bf8425c6"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -67765,6 +67765,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$glistering_meadow.cfg"
 hash = "c8a82d6dcbddf1208aade480e56374ecb2deefd4c491de591f39e4bf6e576b6d"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$golden_boreal_taiga.cfg"
+hash = "132e324ff13ade84e15b09ac856dfe8066ea5ab73a75df4b77bc49863030c64d"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$grassland.cfg"
 hash = "2cc0400342ec97d23bdccaa608826f568de7b69c953f21d0cc4181ccc6c1e06b"
 
@@ -68218,7 +68222,7 @@ hash = "412efae2b2946846303976b37cfc29447e9ce3bd977b746d746ac5a184fc4b21"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.snbt"
-hash = "dbbcb48dd8b4a263155f63c6efcc163b696d725a04e26fe681c3266745240372"
+hash = "a076b6ea2e36d5ef63381d135b93871ffbd1309eec8c79a059ccdcd9a482f85e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/potions_and_poisons.snbt"
@@ -68862,7 +68866,7 @@ hash = "46f024b646f75935dd37c0440d94115a63a0d5407ad7c02ca6016bb05e9b5c06"
 
 [[files]]
 file = "config/jei/world/local/Playtest_3/lookupHistory.ini"
-hash = "4b92fa9ab880248e2969fe4cabc66587c53ceec05ae7a0f0749db3b827d90ea0"
+hash = "d3da6522cc9c5db95c03526632517d95b85b674388837274e1725a3763f2d9e7"
 
 [[files]]
 file = "config/jei/world/local/Structure_Hopping/lookupHistory.ini"
@@ -69038,7 +69042,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "3056b8b984e3ccc079eabd6a30e33d0b780b026238daab54ed98c9fa9781047d"
+hash = "58f1e01148bfd00e0e76d7790ee13d7d10c3f612661124d4f3839ca80b37fc68"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69154,7 +69158,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "207e7e3d167935ff933acdda0d61b645161b74317d5c495c98a997ca62af30af"
+hash = "61e8b5de190a7b2f1f1284224a3e79f24f424c4f325b542e6e6c88e61dc1dc35"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -69162,7 +69166,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "d71ab89bb2fc4d0c095a53871c32b94bc35561aa1517981acf1339aba355d5c4"
+hash = "6a448421fbef02afe57021179f0bf106e0556fb1eb5421b041422f1e6ec73c86"
 
 [[files]]
 file = "config/particular-common.toml"

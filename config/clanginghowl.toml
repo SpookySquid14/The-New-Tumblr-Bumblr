@@ -4,7 +4,7 @@
 	["Mob Spawn"."Flesh Maiden"]
 		#How many days until Flesh Maiden can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		FleshMaidenDaySpawn = 15
+		FleshMaidenDaySpawn = 45
 		#Spawn minimum group count for Flesh Maiden, Default: 1
 		#Range: > 1
 		FleshMaidenSpawnMinCount = 1
@@ -24,7 +24,7 @@
 		ExReaperSpawnMinCount = 1
 		#How many days until Ex Reaper can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		ExReaperDaySpawn = 15
+		ExReaperDaySpawn = 45
 		#Spawn maximum group count for Ex Reaper, must be equal or higher than min count, Default: 2
 		#Range: > 1
 		ExReaperSpawnMaxCount = 2
@@ -41,7 +41,7 @@
 		HoDSpawnMaxCount = 3
 		#How many days until Heart of Decay can spawn, set to -1 to disable, Default: 0
 		#Range: > -1
-		HoDDaySpawn = 0
+		HoDDaySpawn = 20
 
 [General]
 	#Whether Technoflesh creatures gain buffs as game time goes by, Default: true
