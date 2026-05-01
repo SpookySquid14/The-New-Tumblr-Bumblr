@@ -67254,7 +67254,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "2462987599e841d0b1cf077606e24280d527a33960e1526540b8180da6e766cb"
+hash = "2153e8716bac21a648120e6c9e691f935660aad1cb1102816a26672566114cef"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68198,7 +68198,7 @@ hash = "0e3ef014daf4c8509c2f5ac0aeec9bb6ea0b044479802ff419b863f4f6a9e8aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
-hash = "827043cf958883f0e8b2071e18e99b292b6c661868c2120ad1cb303130fd8c60"
+hash = "efdbc806950021bba7d92c0882a720731fc5ba32371dd0adccbedc041a859df0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/legendary_eyes.snbt"
@@ -68634,7 +68634,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "562249557bf645df382a7f8b345be25be3b3934eb65f29b79b9fb5d6b59a1106"
+hash = "cfa66f77c680cc73044f269fd31eabed8fd8ba8f1158c54350e0e96c691be9ad"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -68834,7 +68834,7 @@ hash = "2ce13b8fc14d31591144567e16a4a0c131238c5ebb905a0da9f8d779b03d7227"
 
 [[files]]
 file = "config/jei/world/local/New_World__60/lookupHistory.ini"
-hash = "9e0a8b6c31840c87a19f40e9ee7ec0fe578c4aa4471640d1f3e2d3a33d4a9a0c"
+hash = "7973eb8060fee7b615f369daac636135a090b1d77212a7788055c033b327f227"
 
 [[files]]
 file = "config/jei/world/local/New_World__7/lookupHistory.ini"
@@ -69042,7 +69042,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "698ba13fe44a892e646b4a52f49b5d35f5a5b6957400900c2aa5e6e452a1850f"
+hash = "9c7ed03c04dafadd2292d3c67eda9baf47dd9ec852f9e01116dbb30bd56f8a89"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69158,7 +69158,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b86fc7146c016795a08a5d34d4fe7cd885841b71817b4d3ecfe8ecc5e73adbae"
+hash = "acf31d1e308c43688375cb544cb57f6719ac235868a2c187f6c2b6f682981a0f"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -69166,7 +69166,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "53756a15bfcb6e5f730a840e5644c91b8103c93c471ba4bb240af5ad02f28ac2"
+hash = "27aeca3b74164712860a7e6ff777f33d76b0065f2b814f644dc5311bd588eda1"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -75597,6 +75597,10 @@ file = "kubejs/server_scripts/Wormhole Artifact/ender_nacre.js"
 hash = "449e828428a6a5dfdf0a319639a3047b3f65b75ea4c3892097c12b4d210e5e7c"
 
 [[files]]
+file = "kubejs/server_scripts/cataclysm/deeperDarkerRecipes.js"
+hash = "9922a9ca79941097c90697f730985602d1e8865ad780658a514d893d0232deeb"
+
+[[files]]
 file = "kubejs/server_scripts/dynamic_boss_hp_spawn.js"
 hash = "7b6906cf32792695ad930c4321b7c13d474ca6fa5b9cadaaff57e048e1b7859b"
 
@@ -75655,6 +75659,10 @@ hash = "3d9691d4d55f6ceee19eb940d69aa2cf8c35d4bf3603380210b2cb824691d095"
 [[files]]
 file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+
+[[files]]
+file = "kubejs/startup_scripts/nobotaniaflowers.js"
+hash = "698f3ae95e99dd510ce528d305c7c1c4072b6b2a42c5c708e41e997630de23ae"
 
 [[files]]
 file = "mods/ad-astra-more-structures.pw.toml"
@@ -76444,11 +76452,6 @@ metafile = true
 [[files]]
 file = "mods/deeper-and-darker-spellbooks.pw.toml"
 hash = "955bc68eedd4c8c460de10d2ced5f3d86b2b82debb7b708198e0ff6b2e2a5cb4"
-metafile = true
-
-[[files]]
-file = "mods/deeper-and-darker-to-cataclysm-progression.pw.toml"
-hash = "6393ceef09d7c7fd188972b9f9b9b96f77be12fc32f9460435645ca4379544ab"
 metafile = true
 
 [[files]]

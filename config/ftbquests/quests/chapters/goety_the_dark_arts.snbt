@@ -544,6 +544,19 @@
 			x: 3.0d
 			y: -10.5d
 		}
+		{
+			id: "6E709CA5EA306336"
+			tasks: [{
+				entity: "goety:wight"
+				icon: "goety:shadow_essence"
+				id: "08306C02B4DF6B72"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hunter of Souls"
+			x: -2.0d
+			y: -9.0d
+		}
 	]
 	title: "Goety: The Dark Arts"
 }
