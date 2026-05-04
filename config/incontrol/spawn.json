@@ -64,7 +64,8 @@
     "mob": ["mebahelcreaturesdraugr:draugr","mebahelcreaturesdraugr:draugr_archer","mebahelcreaturesdraugr:skeleton_warrior","mebahelcreaturesdraugr:draugr_wight","mebahelcreaturesdraugr:draugr_scourge","mebahelcreaturesdraugr:infernal_draugr",
         "irons_spellbooks:necromancer",
         "born_in_chaos_v1:dark_vortex","born_in_chaos_v1:zombie_bruiser","born_in_chaos_v1:skeleton_thrasher","born_in_chaos_v1:mother_spider","born_in_chaos_v1:fallen_chaos_knight","born_in_chaos_v1:bonescaller","born_in_chaos_v1:supreme_bonescaller",
-      "born_in_chaos_v1:siamese_skeletons","born_in_chaos_v1:door_knight","born_in_chaos_v1:zombie_clown","born_in_chaos_v1:zombie_fisherman","born_in_chaos_v1:zombie_lumberjack","born_in_chaos_v1:dire_hound_leader","born_in_chaos_v1:spiritof_chaos"],
+      "born_in_chaos_v1:siamese_skeletons","born_in_chaos_v1:door_knight","born_in_chaos_v1:zombie_clown","born_in_chaos_v1:zombie_fisherman","born_in_chaos_v1:zombie_lumberjack","born_in_chaos_v1:dire_hound_leader","born_in_chaos_v1:spiritof_chaos",
+    "hybrid-aquatic:frilled_shark","hybrid-aquatic:hammerhead_shark","hybrid-aquatic:trout","hybrid-aquatic:carp","hybrid-aquatic:goldfish","hybrid-aquatic:herring","hybrid-aquatic:pupfish","hybrid-aquatic:tuna","hybrid-aquatic:lobster"],
     "when": "onjoin",
     "result": "deny"
   }

@@ -471,17 +471,22 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["36C4FFB47FCE8671"]
 			id: "00B0A750A72CAB66"
-			tasks: [{
-				id: "5F50734F074AC246"
-				observe_type: 0
-				timer: 0L
-				to_observe: "goety:neollager"
-				type: "observation"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2566134AFB47B151"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
-			title: "Make a Neollager"
-			x: 6.0d
-			y: -9.5d
+			tasks: [{
+				id: "31C8120B12ADA8AD"
+				item: "goety:ominous_pyre"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
 		}
 		{
 			id: "4EE7637130ABFB0D"
@@ -556,6 +561,570 @@
 			title: "Hunter of Souls"
 			x: -2.0d
 			y: -9.0d
+		}
+		{
+			id: "45224D0EDA996237"
+			tasks: [{
+				id: "482FB4DD40F1ED0C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:neollager{Magic:1b}"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["00B0A750A72CAB66"]
+			icon_scale: 0.8d
+			id: "3E0A8370ABD6904E"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "647B76006CFC294B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:pillager_servant"
+					}
+				}
+				id: "213C9F8CFF292665"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:pillager_servant"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["00B0A750A72CAB66"]
+			icon_scale: 0.8d
+			id: "05B28CA909012603"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "67063AAA0381AFF1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:piker_servant"
+					}
+				}
+				id: "500B5D41B0E35975"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:piker_servant"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["00B0A750A72CAB66"]
+			icon_scale: 0.8d
+			id: "5149DB63495995D3"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "37172B3C8EFE334C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:signaler_servant"
+					}
+				}
+				id: "70A6F1806A97F44D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:signaler_servant"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["00B0A750A72CAB66"]
+			icon_scale: 0.8d
+			id: "7C5D7671DAA986C6"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3E25BEFFE343A5F3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:vindicator_servant"
+					}
+				}
+				id: "2A5158AEAA4D230D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:vindicator_servant"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7C5D7671DAA986C6"]
+			icon_scale: 0.8d
+			id: "417A1F1B84878E7A"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "034A5C2B315D98E4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:vindicator_chef_servant"
+					}
+				}
+				id: "71B920DCE8B90C8A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:vindicator_chef_servant"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7C5D7671DAA986C6"]
+			icon_scale: 0.8d
+			id: "41A180FE45767E3F"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7AD674B356CDA5FD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:mountaineer_servant"
+					}
+				}
+				id: "7951A9107861DEBE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:mountaineer_servant"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7C5D7671DAA986C6"]
+			icon_scale: 0.8d
+			id: "3F473D51156B3134"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "257A1E721C452498"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:crusher_servant"
+					}
+				}
+				id: "3A1D509F06EA89B5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:crusher_servant"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["00B0A750A72CAB66"]
+			id: "217861ABFB5F79E4"
+			tasks: [{
+				checkItem: true
+				entity: "goety:neollager"
+				id: "07623F37D0A7972D"
+				item: "minecraft:white_banner"
+				nbt: { }
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["00B0A750A72CAB66"]
+			icon_scale: 0.8d
+			id: "1AC0003D5314863F"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4862D2A2E37C11A2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:evoker_servant"
+					}
+				}
+				id: "0B3BD1EBDB007F87"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:evoker_servant"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["00B0A750A72CAB66"]
+			icon_scale: 0.8d
+			id: "0F90B9F434BA6FC9"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4A5DBE2D3105A388"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:iceologer_servant"
+					}
+				}
+				id: "67EB28B01BEE5EBA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:iceologer_servant"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["00B0A750A72CAB66"]
+			icon_scale: 0.8d
+			id: "6D7A7C65979E593E"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2AED9E5C5610215A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:geomancer_servant"
+					}
+				}
+				id: "16B73A33EA64A85B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:geomancer_servant"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0F90B9F434BA6FC9"]
+			icon_scale: 0.8d
+			id: "1425467019EB591B"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0893FF8C4D3C0A9C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:cryologer_servant"
+					}
+				}
+				id: "0D23921947FEE72D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:cryologer_servant"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["00B0A750A72CAB66"]
+			icon_scale: 0.8d
+			id: "6B1E38F1DB5151CB"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7BA2328F40579609"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:wind_caller_servant"
+					}
+				}
+				id: "4D390DB52F396A72"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:wind_caller_servant"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"6D7A7C65979E593E"
+				"6B1E38F1DB5151CB"
+			]
+			icon_scale: 0.8d
+			id: "2D35DFE805B9164B"
+			min_required_dependencies: 1
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "696C631914EE11AC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:storm_caster_servant"
+					}
+				}
+				id: "5447F8C58CC1ECEA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:storm_caster_servant"
+				type: "observation"
+			}]
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "1B4811D656254675"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "69A9CB405E3C6A5C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:prisoner"
+					}
+				}
+				id: "0162F18C5A8FACB4"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:prisoner"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			id: "5446295418EB8A53"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "34642A6D06978904"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7606F113EC0A2535"
+				item: "goety:raiding_horn"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "36C4FFB47FCE8671"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "29AD2E3854F652DD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "goety:neollager"
+					}
+				}
+				id: "494C2D09F153C966"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:neollager"
+				type: "observation"
+			}]
+			title: "Make a Neollager"
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			id: "4050E263CF84966F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "60C20E90EC0F7980"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				block: "minecraft:banners"
+				block_type: 1
+				checkItem: true
+				id: "7DA9FEB66B9EE0FF"
+				isItemInteraction: true
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "goety:wands"
+					}
+				}
+				type: "questsadditions:use"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			id: "363ADCA456813957"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "350EDA5E468320DF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "31A2202388748AEE"
+				item: "goety:waystone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "1EAE09778AE41033"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6C87F34E5E1C07C5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "773E2EC632A148B8"
+				item: "goety:raiding_chest"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			id: "0C117A57B0910F1A"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0B9E2147C273C0CB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "25A638321A757F18"
+				item: "goety:ominous_idol"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			id: "21BED1D1B797AF6D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3AB31C2B60B1BD7C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				advancement: "goety:goety/servant_raid_victory"
+				criterion: ""
+				id: "73957EE8584DB3B2"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -8.5d
 		}
 	]
 	title: "Goety: The Dark Arts"

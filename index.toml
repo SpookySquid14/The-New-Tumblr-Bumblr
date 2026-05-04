@@ -22465,6 +22465,446 @@ file = "config/blockswap/known_states/golemoverhaul/clay_golem_statue.json5"
 hash = "41a0f0b348d21af4d0732c6f5f41a0eed9d200f800d5cc9f7bc222f28d3bb379"
 
 [[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/acacia_crate.json5"
+hash = "ac4e25e18e5e7b0dac76cb172f36cf14e427b5ab258966153ea15b7e82749296"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/anemone.json5"
+hash = "af526bd6c986b224e4a740efaa20ed820b14e48989ad95df5406bbeabb494cf6"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/bamboo_crate.json5"
+hash = "c8ad2e15d838e9b98ba5dc1380c1143b6d4ef9b0926d0850d42a64093c28cfbf"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/basking_shark_plushie.json5"
+hash = "b87ce8f06013be7aff47ba6bf6eee8103a017feb99934ff91f14a1fcf45b523f"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/birch_crate.json5"
+hash = "6e31a396485839e09e686d3e1ba358bd78441f13e662d13095f376df2aa0f456"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/black_pearl_block.json5"
+hash = "0511757795660961fdce791ebd40201e40609fc5058d56f53e0d38eb444491ac"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/bull_kelp.json5"
+hash = "8a1a16c5cecc6eeb4f3e90cd4a1af892b5ad191d9835553dc11384f91101659b"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/bull_kelp_plant.json5"
+hash = "59aac0b2f6865fd136b0dd0dc2fc5fe46e772ae0ffb0e8379b9e71dffed6a063"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/bull_shark_plushie.json5"
+hash = "8d42fe0539325b827ec0c8155aefd510c450c2fbbe743ec97c514aa116ccb4b8"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/buoy.json5"
+hash = "ed313aac15dd0c11336eb327f2a1eeebbbce05ffe26636726d86a1bc2c0aaf06"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/button_coral.json5"
+hash = "f4c932d6c91c5212e72b7595999275ef3104d521ea2820afa8750aac398036ec"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/button_coral_block.json5"
+hash = "464e5afc2b372836a633e05dbd03044a266cc97884c1542e6c2f6e03cba65d8d"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/button_coral_fan.json5"
+hash = "65bf9d0d1d6befb251e02a8d6de4b1c0d70af096a8fbf3a0a508b4adae96fd76"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/button_coral_wall_fan.json5"
+hash = "e640c520cad9e3cb85ff60229fd18d4481326ab87e677d751231ab57cc6b04d6"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/cattail.json5"
+hash = "d94f491f7a70abe93320f336053d7de8d16014a2a1705baab048a5a511b76299"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/cherry_crate.json5"
+hash = "f10829379410f021f21d13ec1da67a604c018666ba44d72950ae0be8d497eeba"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/crab_pot.json5"
+hash = "e848e2cff595f123756c93d92062fdb7fd738783792db5086e46dcb7cdce9538"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dark_oak_crate.json5"
+hash = "b2e662eef71284af0ddcbabb5d29457bf1ec87ea9ea1482b04c31963855a448c"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_button_coral.json5"
+hash = "e527908562d549a173fc89a7655ae3ba2a6974ac5b846dfd3d80d0c2ec604c8e"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_button_coral_block.json5"
+hash = "7bf61e9d87ba1e3f286dc2f5c0bf89dc40df62842226367f7280dd906129ffef"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_button_coral_fan.json5"
+hash = "477ffc290df4fdc78b9216bd11dacb1021fe0257ce6f53d666cdce1c99a2178f"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_button_coral_wall_fan.json5"
+hash = "a7487e8b71e9c9af3c76146991ea842b38f206f7cfb2944a619de227ed5182c0"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_leaf_coral.json5"
+hash = "a125d9e2bac4351c2ca4951028c28b611270ac8100a52006a38c8817cae27428"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_leaf_coral_block.json5"
+hash = "bee4c3cccdb907c1279918b333636071f088f041dd2ebcea98b6c6a92bbffcc1"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_leaf_coral_fan.json5"
+hash = "3dfbe202404e02a6f715c7eea5a85e6cd1ea0729a263369d5cc16cf103806f64"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_leaf_coral_wall_fan.json5"
+hash = "702a9283341c740000e4075c6f80d2786d8cdcbea722d508a1a54930a0454670"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_lophelia_coral.json5"
+hash = "62e8c6151c624379374f440f7d63a87f076ab678aaaf7c6489867e078ce28468"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_lophelia_coral_block.json5"
+hash = "ff23dda814b47eedebc4ff8c93da97b395680405f5972fc5d65b779e3ef3ba63"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_lophelia_coral_fan.json5"
+hash = "4b35eda419fd61bb19827e15c41d1331a7adf0f34c2d16a6beaa510e338a249c"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_lophelia_coral_wall_fan.json5"
+hash = "67733304db955902f136902bd3dfe6df7d1b008f7d977c50b4365bb1303f2a22"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_rose_coral.json5"
+hash = "b26a28e074d73722a41a2303108a622f7a388776840360d8fcb2615a30d73d52"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_rose_coral_block.json5"
+hash = "c125d6981d53b94cfa0216ea8a4e5442be6275ee4590723f8e739abae86b82fe"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_rose_coral_fan.json5"
+hash = "9753f9f9dd43e61fa9a05aa1f77f01adf59dce301ed8cdc3ddff9db3f214306a"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_rose_coral_wall_fan.json5"
+hash = "7cb00c098df517eeeea92ecc5181b6b6adbd86c4e114c2222f8e4861e4650b51"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_sun_coral.json5"
+hash = "dc489f2ba7dc81852ef17097c2c634f734af882583a5a18e068ccd15ff0801f7"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_sun_coral_block.json5"
+hash = "8f792c38a78708216085ccc0a61b338a595b45ddaae03fc453f9a42c470bb83f"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_sun_coral_fan.json5"
+hash = "d7dbbd2d637457a76adbc3c49e4ad971361206fdc6364a146a538b663be6bc14"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_sun_coral_wall_fan.json5"
+hash = "4d098996582ce9b749cf1ae5015ec3412d953bb78b6bd3a2c855a90f8ff129fe"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_thorn_coral.json5"
+hash = "f81c25da7d35f14057f49b268d7b2ef6c4ccf49791954a9812b331190a6b1bb8"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_thorn_coral_block.json5"
+hash = "d5d39a2b088ced8569a3630cd0237a3cb215e113261763ecb4266eb3d9ee421e"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_thorn_coral_fan.json5"
+hash = "dd1424d34a68f2583a2a8ed3ad096ab4584a6d22e2076601d6cc5241ddaaaad6"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dead_thorn_coral_wall_fan.json5"
+hash = "e71dbf2491b5286d92b02e40f06005d2e164f5aac9ea06aad39093b089069b76"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/driftwood_button.json5"
+hash = "01b38e1b579176bfe87ce1fc03b017b7b660b9f0acd349e7caad22b81ac77778"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/driftwood_door.json5"
+hash = "502c0960c7cc25535a877e13fcf8224252da1a244d31e997483d82d745d760c1"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/driftwood_fence.json5"
+hash = "bcfd715c9a67b33a175dc0011b100d28355e10b612c71ff4680823410da780b7"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/driftwood_fence_gate.json5"
+hash = "05aa6daf16db36e2dbca650f3d5931394aa072b57a92dc74bc51290c503a31c7"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/driftwood_log.json5"
+hash = "869c640195a7527046063d5c10866c0baa547af864c596898f89e54393b833db"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/driftwood_planks.json5"
+hash = "b5488a615fa7456c0f97c5a0c8fd0a49213e5808e1bb1560f37e3fb4a353eb2e"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/driftwood_pressure_plate.json5"
+hash = "b72c4a2b900eb2ef70cc8c2838c64ee29852cf3368188563e112384d1005b5b5"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/driftwood_slab.json5"
+hash = "fdd497959dca11f1b5a18fbef89e0e80225be4995e449c3f80d5e91a7caba192"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/driftwood_stairs.json5"
+hash = "d70d639cb1a1cdc79594d165e13d765136fb725ad773f019b54c0c2eb268cb97"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/driftwood_trapdoor.json5"
+hash = "9a39060b0d28c18a79d511ec65ac267afae22780a0374f2fbccacc7a2f8eb8fa"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/driftwood_wood.json5"
+hash = "a45b1aa380bb2db688a770ca041000c5fb296d9a6b3ed5e60532a05532cb0cb7"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/dunegrass.json5"
+hash = "a9750c15c412dee5e6b228e755ce9be36bb7838658fe6c687f4d5fc0d7c3cff5"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/floating_sargassum.json5"
+hash = "766788fbf0d8925b1afdfd61956109ec466552118160d4ef1d84ec399a8878a8"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/frilled_shark_plushie.json5"
+hash = "502564e6fa7454f130b3021835b5687a53cdcb541637da3960cbd7054c5c24ff"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/giant_clam.json5"
+hash = "e0c39827a9ab067caf0f6a78ea1d04048ba132b8577abb922fe2c2d10a8344c0"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/giant_green_anemone.json5"
+hash = "c73591b0f2d74bbf127f78c51a4ae8cf94b1bd4ecdfe7f4ef2d911efe7123544"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/glowing_plankton.json5"
+hash = "0d9ab59fd92419881a0fd868c0cc22ba11df4447ec69f8d14254bd9af778f7c4"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/glowslime_block.json5"
+hash = "14b4ced2a5f2d57d87ff2d18754a8f88d2e5ce631279f3a3083848742f6121e0"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/glowstick.json5"
+hash = "86f10258f92bef0651fb7df9cab1444378d83c7e811fbf1bcb0f35cb74f0f8eb"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/great_white_shark_plushie.json5"
+hash = "c6b39f31d175cf232e4475636265f9539f34a6580c7c2f1b351b62973188714e"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/hammerhead_shark_plushie.json5"
+hash = "7b81fecc1deca3042dcd83aaa28996b432bbc70a89beb5315d2442284044f87f"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/hybrid_crate.json5"
+hash = "6b926db8d7e97e19821921633513de89467f74574f2e13f19b6604f3270c8b00"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/hydrothermal_vent_shaft.json5"
+hash = "26dfc8e49936c93ec4cfc55584eba5b14c83785bb875a703fad36384d65d91df"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/jungle_crate.json5"
+hash = "603451530705d31eb25724ce85219eb2327977e230d18fe8dd0a66326bc760ac"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/jungle_lily_pad.json5"
+hash = "ff536664e24085d76529caadc5b2cd811d3d860b0aafd2d19a55af0c14f85b3d"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/leaf_coral.json5"
+hash = "d79057f15af189f47dd1bd4619e690e1edb8d1e544c4bc027beacab417ad87aa"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/leaf_coral_block.json5"
+hash = "e81317e321584ee823deb4a1da64c3aea0a25928cfba55afb26665d1acde6d76"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/leaf_coral_fan.json5"
+hash = "b6881881df17f3b3fa7625fe938fa85f39ac2a2f27bf11d314c8b7c929f5e50f"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/leaf_coral_wall_fan.json5"
+hash = "e4063f3de7c497bacdaea9195612415a4801139496fee77c2838848bdfb787c3"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/lophelia_coral.json5"
+hash = "877771ba55120584242966e62f4e52a0abc2345c9397dd25631a3e03f2828cb3"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/lophelia_coral_block.json5"
+hash = "64ee3a371d3d58ccc3e632af3732c1ff4e1874c9553f49dd3ab8b4b8ec4fde8c"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/lophelia_coral_fan.json5"
+hash = "24e6573a6fdc5d5aa7b818b0fd252349e9c74f2cb87c349fb207fa65d85ee46e"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/lophelia_coral_wall_fan.json5"
+hash = "bbfd400ff607f100b3504c02fd7f4d29dbaf31a04ef9af4e3d5c66323030caa5"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/mangrove_crate.json5"
+hash = "4fc8d0571465798e0f9e5eda767a92bb9e50547ec00590b4a377f1577b9c082f"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/message_in_a_bottle.json5"
+hash = "216db444b80ca2bfd4668d3c42517fec9d142e6c8c6023c9da1ae2d43914d37c"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/oak_crate.json5"
+hash = "d336cdab3dbcbea530c590e35a35308407e701024bf1692b7931d6f072ba0da9"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/pearl_block.json5"
+hash = "615607db2bc4d3afc8abe0491666201d421058790c1aa519c854368fbb608b6e"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/raft.json5"
+hash = "4221b0188663802725e1dbfd87f47c367acb4a9be9cd2b7c0d6c106f2b94be2d"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/red_algae.json5"
+hash = "4eac0d9fb960b85d8d20302b41f040831c47a81697633084c9b491167a2fed6d"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/rose_coral.json5"
+hash = "b4516ff4bdf7155edc62d1d99930032c5d4dcc89d88851ce42464735e2962dbe"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/rose_coral_block.json5"
+hash = "e09adad57df969c55122dcb92e59326375a75609cdce1c7c7365f7b635895e73"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/rose_coral_fan.json5"
+hash = "de63f4d9289379345932ec1788aeda2c784335706fcbb816987834089c3f2f8e"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/rose_coral_wall_fan.json5"
+hash = "3710ad6b84cc49b373b0a9a8c81177295768d6834119036b8a58877a299a6398"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/sargassum.json5"
+hash = "7cb6043e4af3a776db98e58ec7c821c290670457a187ed27e320b1d4479c3c32"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/sargassum_plant.json5"
+hash = "16a1d85a9209c1cd2b646e03d40ae4181a73cec9460b8db8ca8556288cbaa50e"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/sea_lettuce.json5"
+hash = "20b3e486c277751a855d67690061efb8cb2f4d4a7ad9d4b7312371c1ef4d352f"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/spruce_crate.json5"
+hash = "f0b5f1df795e6fa2c87d7fe7d9d6af85d42a00f42bf1d937eaeeb184e32f6f2d"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/strawberry_anemone.json5"
+hash = "92ee6f712682499bff901bc781598319125453f4004ee74cad8204fe9c4ae7fb"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/stripped_driftwood_log.json5"
+hash = "57f5e81c3ff78b227ba8fa63295509927cc5732c6d7a25813991aa8a24c4936e"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/stripped_driftwood_wood.json5"
+hash = "aed72afc67a19081960cc9787702332b71e77a3227375326a7163b1a8efabffb"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/sun_coral.json5"
+hash = "59861964fde29ab166115af95c411552aafea140119cffc0c9e56d107725feee"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/sun_coral_block.json5"
+hash = "7b8f9a3680965d5da5d50066a3511f00d8011eee2695692ecd0f02d4e37845c2"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/sun_coral_fan.json5"
+hash = "649a32b30bcb5f29746518544104b1f7eb1408d5e7dd45741ced22ee454d64c9"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/sun_coral_wall_fan.json5"
+hash = "b688c44a7423e85df404c55e6ad1e1462788ca0fc2403b6e3fedf461e73542d2"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/tall_dunegrass.json5"
+hash = "d8b7c021199c8463038b5c821783c930912fbf5c024e7a3dad153f08d68344b7"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/tall_red_algae.json5"
+hash = "8bf58ea43d62cdf5b6cf0b6e73843a657939993db18bca1878474b98e637c9ba"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/tall_sea_lettuce.json5"
+hash = "140e7226dc2bcf34c71f93e8734819b98d025fccfb17b32e05e620c7aaa721d4"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/thorn_coral.json5"
+hash = "91024f479e42646c432673f1661a3285e7c4904a157dab639c5c6df92ec81a2b"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/thorn_coral_block.json5"
+hash = "abf1cbd1ab218f9a23846f4ea5b1b24912c504e7f9d9d6669d5804d957f0255a"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/thorn_coral_fan.json5"
+hash = "26b9091db261d9391412ef8c5f810ca1bbd6f51f8f9f0283888579eb2e6bfc93"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/thorn_coral_wall_fan.json5"
+hash = "8ae636b15c88e2eb39b42244e5574eff7f33f5a3bae338ff3458cb32cb3f0dfa"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/thresher_shark_plushie.json5"
+hash = "cd07f42a951d6309afbf0dd1621e65d6889dffb99e8e6050ecac7b47f4e511cc"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/tiger_shark_plushie.json5"
+hash = "7e2259e28ad2a058989331b72a47d3a266142a7efb359d543b62eb571b844f3a"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/tube_sponge.json5"
+hash = "16870dd74ccdb9f065992aeff3ad25090417eaf12ba108368bd69ae44ac476cb"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/tube_worm.json5"
+hash = "aacba8bfbfa2731c34f01c7a7d767a1c695264d8b2a31a315ff9b7ae7c5854a9"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/wall_glowstick.json5"
+hash = "2e66dbcc58e0a3311228c37da674d3f303a08ce277b764bb5077dcf861ffbab1"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/water_lettuce.json5"
+hash = "fa0b4b706a6dadddb05424e5bb336d0bcc1b23fc6533d87140b7305fe77722c0"
+
+[[files]]
+file = "config/blockswap/known_states/hybrid-aquatic/whale_shark_plushie.json5"
+hash = "d18ab955b8cbe688df2d285c730af30c973965ad0a24dba9bf6e080e1e91bfe0"
+
+[[files]]
 file = "config/blockswap/known_states/immersive_weathering/acacia_leaf_pile.json5"
 hash = "9caa969a9589fa0a80e948efa2c149e60f5056aec5b82ed68a82784c8da8bd86"
 
@@ -67254,7 +67694,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "2153e8716bac21a648120e6c9e691f935660aad1cb1102816a26672566114cef"
+hash = "8e0e76f81a3a3aa6b80d4c75f4bda358740dbd9f7c9bd832efbde23f70bee216"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68198,7 +68638,7 @@ hash = "0e3ef014daf4c8509c2f5ac0aeec9bb6ea0b044479802ff419b863f4f6a9e8aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
-hash = "efdbc806950021bba7d92c0882a720731fc5ba32371dd0adccbedc041a859df0"
+hash = "924096ca772dd132ead2e851f90952832b91669c0096373adb08c69545c8ef15"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/legendary_eyes.snbt"
@@ -68562,7 +69002,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "72f420c1b4245e01102e9f66b0139dd585c82f4c4eb492392ee7834dee82a8a5"
+hash = "c2d67e3e9f0539529cd814ceb31394a93b370f401e6e01599fedf1da45e38a7a"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -68634,7 +69074,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "cfa66f77c680cc73044f269fd31eabed8fd8ba8f1158c54350e0e96c691be9ad"
+hash = "0d11eef606303c89cfc1a2c703df2c317bed54a835133af6d24a0f2b322a7ef3"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -68829,12 +69269,20 @@ file = "config/jei/world/local/New_World__5/lookupHistory.ini"
 hash = "c82556b9d358c5b595955648371b88cd611e908cdf6d51b1f641debe1e8f0758"
 
 [[files]]
+file = "config/jei/world/local/New_World__58/lookupHistory.ini"
+hash = "01a664234c04c58f223320f44df850180a939a1c02586ce0f7abca9e560541b9"
+
+[[files]]
 file = "config/jei/world/local/New_World__6/lookupHistory.ini"
 hash = "2ce13b8fc14d31591144567e16a4a0c131238c5ebb905a0da9f8d779b03d7227"
 
 [[files]]
 file = "config/jei/world/local/New_World__60/lookupHistory.ini"
-hash = "7973eb8060fee7b615f369daac636135a090b1d77212a7788055c033b327f227"
+hash = "c890af01ff58eedd39544809833986731980b6c105caa5088340665e7ef7604c"
+
+[[files]]
+file = "config/jei/world/local/New_World__61/lookupHistory.ini"
+hash = "33b3168d3f5da0687a7ac1f6f1d06c1332793e8f963ea70b7a8d5b2da88844f2"
 
 [[files]]
 file = "config/jei/world/local/New_World__7/lookupHistory.ini"
@@ -69042,7 +69490,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "9c7ed03c04dafadd2292d3c67eda9baf47dd9ec852f9e01116dbb30bd56f8a89"
+hash = "7beb6aa9bd843870d53c89f6c3d12ecc75644300be3308f19c932d396203544b"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69158,7 +69606,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "acf31d1e308c43688375cb544cb57f6719ac235868a2c187f6c2b6f682981a0f"
+hash = "23df5605cfde433e3cdda49638accb29cc0705361f9317cad248a2341de67783"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -69166,7 +69614,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "27aeca3b74164712860a7e6ff777f33d76b0065f2b814f644dc5311bd588eda1"
+hash = "131b0b8caa18f290dbbd27496fede811c9b1ea6cca391a119d03185687e72311"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69178,7 +69626,7 @@ hash = "31aad454733f156b1b1666989899b7fd86455308b3e0e7e3ce83098525108ef9"
 
 [[files]]
 file = "config/patchouli-client.toml"
-hash = "3b6236845f6a5ff8804487b63b0d74305b91316dc9a008362838607b0be3bd8e"
+hash = "937182b2813e129f5d05ae313d5321069eebd0350151b254e74b1560ed3d764d"
 
 [[files]]
 file = "config/paxi/datapack_load_order.json"
@@ -70007,6 +70455,18 @@ hash = "49a032d9a8945a52c10e5631684323b6ae86b005516f12780d532514877f1dbf"
 [[files]]
 file = "config/visual_keybinder.toml"
 hash = "e7518f665703aadf28e362515617aa63d8ffc43aa2e864938e916d791c2b773c"
+
+[[files]]
+file = "config/visual_loot_edit-common.toml"
+hash = "52b464f78f91a1480ccaacccd37d7d520c5b04f8b828de260fd14277c67f7b7b"
+
+[[files]]
+file = "config/visual_loot_edit/blacklists.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/visual_loot_edit/pack.mcmeta"
+hash = "e97e2f7cd4b3379d24ba4c7a5948125a71f01df9bdcb1fe2ded6b5857dbae6e5"
 
 [[files]]
 file = "config/visual_workbench.json"
@@ -74209,6 +74669,10 @@ file = "kubejs/config/probejs.json"
 hash = "eb0bfaed60482e4e159ff4e2452cc098de57689f7cc82b4c9d9f112548173da6"
 
 [[files]]
+file = "kubejs/data/alexsmobs/tags/items/komodo_dragon_tameables.json"
+hash = "fdcce44f9160e17a124a0a5a38d6d278ae7925919d9c0447137046ba5e4297df"
+
+[[files]]
 file = "kubejs/data/apotheosis/enchanting_stats/crypt_bookshelf.json"
 hash = "b6cf1af2337de2756a723ede5d09de45214c2ba388f6ab5914cdf97c4a48b3d8"
 
@@ -74537,6 +75001,18 @@ file = "kubejs/data/guardvillagers/loot_tables/entities/guard_armor.json"
 hash = "f3872772ee6b63b69f5df1679cdf28834d5abf241a62ac6dd7e65c45eb217a79"
 
 [[files]]
+file = "kubejs/data/hybrid-aquatic/tags/items/large_fish.json"
+hash = "ec63d319302677173b1e76193c9e7750a830181ea371c4bfae42f17b517bebea"
+
+[[files]]
+file = "kubejs/data/hybrid-aquatic/tags/items/medium_fish.json"
+hash = "353796a108918cfc235b90da2bfaad8aa5656729266c58319779654bc2d6ad66"
+
+[[files]]
+file = "kubejs/data/hybrid-aquatic/tags/items/small_fish.json"
+hash = "2e7b676e4184945f68f40fe63b268ebb556d62b7b117fa239a4b49c6f41d9db3"
+
+[[files]]
 file = "kubejs/data/irons_spellbooks/artifactory/archevoker_boots.json"
 hash = "0619d37a7e8c330aad3cc15fe5e8107fba1c80d3ca9f8ba5a65fb340139d86cc"
 
@@ -74675,6 +75151,10 @@ hash = "a360ea2c0b00bdf02896147c63cf5b580722179d041b3e21913ca4e06954d8bf"
 [[files]]
 file = "kubejs/data/loot_tables/entities/vein_goblin_trader.json"
 hash = "73292284fcdafa498564d0227c850697867804e6b823bba0f553128822763646"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_tables/gameplay/fishing.json"
+hash = "914c48475863043b567f14845f3325930a1c8a81881ba85aee5e7e59f60c8e99"
 
 [[files]]
 file = "kubejs/data/occultism/loot_tables/blocks/stable_wormhole.json"
@@ -74938,7 +75418,7 @@ hash = "ee3b0e294e9733bf4920a7d5e04dead3433bddbcfc4790a8220ff7c1576d2ab1"
 
 [[files]]
 file = "kubejs/data/stardew_fishing/loot_tables/treasure_chest.json"
-hash = "bb1306ea613c73cf4a0840c8283cb8d183a1d36ad43d9b4ae37b539855d3b722"
+hash = "afdaee217f325a92fa2646f71425527d6dcb1b2ab3c492980ab46b304790fb3b"
 
 [[files]]
 file = "kubejs/data/tcintegrations/tinkering/materials/traits/manasteel.json"
@@ -74966,11 +75446,11 @@ hash = "121ec9d7902090c050b096aa83792aeb7580946392785f5bae5f8e4bc6dbcce4"
 
 [[files]]
 file = "kubejs/probe/cache/cachedForgeEvents.json"
-hash = "4d1ac62746a999a93fd6b94f8f52b5364ebb9ae36604acab5c2691cbef0e8662"
+hash = "eb0aafad761682f08bff902cc2be65b737780080e1e741f8c6b231cc37c696c8"
 
 [[files]]
 file = "kubejs/probe/cache/cachedJava.json"
-hash = "dad3b3dfd152e516d9125ab936d522da3d15bf522bec158c89e46dc5e019c175"
+hash = "c6aa1d53db11124f498c0c92d0ecf8057250ddd6eea9bd6ca26c6c19c2afb328"
 
 [[files]]
 file = "kubejs/probe/cache/docs/dynamicjs.json"
@@ -75010,15 +75490,15 @@ hash = "a9dc113f527d7524da3c45b7a68b1af7b448f8f9c49e4e4b9ba14b8825c135ae"
 
 [[files]]
 file = "kubejs/probe/generated/constants.d.ts"
-hash = "b5358b47115d15c94adef088f655b3d3e6748ef2a79fe3bb61f190bff3188367"
+hash = "fdd9ec6e7e7f8820b42de9c18e75cc074930ec68837f0a3cc5a8198867355096"
 
 [[files]]
 file = "kubejs/probe/generated/events.d.ts"
-hash = "3da18f5ce2bf6471beff15548cc843352a3679e4972a21919d67672030c530c4"
+hash = "44990973d264b80b1fb3020a7a6a7b0ee845adf13d479368612a5caf2fa0ac13"
 
 [[files]]
 file = "kubejs/probe/generated/globals.d.ts"
-hash = "76e7534f665fe61497c1b3da75a856f67d13b834d82fb9181b72cccb1463bcab"
+hash = "46b792e85b1cbbcede8f232d14248f8cb936ffcc4779e700773449701e453091"
 
 [[files]]
 file = "kubejs/probe/generated/internals/index.d.ts"
@@ -75026,23 +75506,23 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_0.d.ts"
-hash = "6f0b552840e52d928d1f0733ad9ccf1f0494889b5a8a876e251d12a37f60ac9f"
+hash = "e12b3425de1f5e6c5aa5af09bb86106b10e8e5cf6952f19aa6182315283c7eda"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_1.d.ts"
-hash = "59abe83042fd7eb20ba4fec2b29fe85f0e636b49948e30f788f7f0d9bfea6381"
+hash = "f21f42cc33d2624b6e34614f8223bcf1468e5ef663fd78172db14947e5fd2d21"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_10.d.ts"
-hash = "c985958b561d290836f39d16f78231d5e6b9f03af48e5b374cde410c1a505d81"
+hash = "96c277a7790b0f0dfbef7fcc26694f8d455e19724e7157eb56779f2be19b0aa2"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_100.d.ts"
-hash = "b875cd069fbdcf5f533401ac619937dac46af7306b7d2648f79e86aa7da745f2"
+hash = "cb3ace9536e233b17e0598eacc219dba3919666231adfc3bf2148d45dfab5120"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_101.d.ts"
-hash = "651c370e5b4b13d9f18157355ac079d46447b1d1d6e3bbd69c7c9a153fd211a7"
+hash = "bfb3297d4a41dbab04fff38599346aaafd83d8dc0f24dba821b0c353ce150b4d"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_102.d.ts"
@@ -75078,7 +75558,7 @@ hash = "6559ae957b5c5eb6bf4318c05598b5c4b233a5b2d89b579f1aa7cea4204ca96a"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_11.d.ts"
-hash = "ace7824cdefe65e49d8fc766c6e8f586e07bc315d85bd370d45d0b984d69ad54"
+hash = "67b571ead0833df150a64961a806c82dc197cd50e62b018cd75dc611abc135a2"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_110.d.ts"
@@ -75118,387 +75598,387 @@ hash = "b9018e2a86358eb957365f0c84328e84a6ea02e31f58c2f631cfc2071aee7a94"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_12.d.ts"
-hash = "616a80c0389ed0d58bb43f583ab54d7c054597138eec0906c5cc6dc3ddc6cec0"
+hash = "de676c2aec1bcc38cdb989a0ff0bbe0bf892413dc74de214d92b95c230fd2e2a"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_13.d.ts"
-hash = "6b5bb49465b9d3c2c5e02203d8dea5cd53ad5a4cafa2081e66a55270bd17fb88"
+hash = "99b98bf128bdd994eb859e259af2b46f1d14b41900c3ea7bf123ffc9c068fa18"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_14.d.ts"
-hash = "63ba178f5a770a3da15e1ce4e49d606b2c69ac7c1ccec98531c949b97de050a9"
+hash = "0d2dfbeae49717dffc184cb317468e1dc784dc43f9d4fc1220960e8a5e44d867"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_15.d.ts"
-hash = "394633c3f983ddd22f571abbbfc95ee5238c94a5a64af27405cb2b535141c126"
+hash = "da48c9bb93fa71e711187916fc667c5cb6655c708f91f093a456639f16aa3616"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_16.d.ts"
-hash = "d42a8724dc93a97398a75265c647db91427c7145bfb82cd9ca81fb4829e0e370"
+hash = "aa37ef5892bf4328737a28bdbc4177e0475301262a1f0f0f7b561abc3a64543d"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_17.d.ts"
-hash = "117b05b29c1733b5570307f3d2397836351ab6cf82375d8a27f94229e2b751e5"
+hash = "040c8b18f5fd4b773c4f03672e405cfea7726bfe3b1c682d861ca3c1d15920b7"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_18.d.ts"
-hash = "2508c5bbb565cfec7883d0f4db8b1695802fda6d2762afc01d2a5c283322d5c9"
+hash = "6148904599936afca17f611c48dc967bd6b7e55ea99eb03c4e67c441ef3997d0"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_19.d.ts"
-hash = "8a6a7e41ba170adfa541efef18e292356994ba1438d9fe9c4d8fd3db511d982b"
+hash = "eca93f2c6afecd8af3a733cc5bd60e1c40d601e994435d04c66fb2ba676b8865"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_2.d.ts"
-hash = "3919e2749e85604992ec50aacc62dd8d9e55458361f8661f6986c8093b99a9bb"
+hash = "8984455c66b69d12a122476db0ff122312988da15ffc9c7845256e0987217c5a"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_20.d.ts"
-hash = "88bba1205b866debbbd1bf98ddbf10e2b97873c3259bb297ab22defae0fcc553"
+hash = "0bfebd2d30dd5380f6a21b616e985ec42a3296d350033390b3b2c63a3546484a"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_21.d.ts"
-hash = "86fb78ee91d6866334e6406893a5eda202f1508ccf27aa52fb58b31a9f5db175"
+hash = "a19451b4aed05af482cf833c9d6e268ee137e5000238f96ce0d8af139aa2826e"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_22.d.ts"
-hash = "6e9f5bb16533f33716b532ff9199b14d88c01e824dc880331eb3efc0f1ddeaf7"
+hash = "c988a064bf77edba6aa43f72b32a1914153368b90d5912a6e3c9a6c43fda9efb"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_23.d.ts"
-hash = "feababb42f0ff3cb6615d71ac57a81693ca087883c3a0c07c66ae34998955a2f"
+hash = "a75bb39e82d7fc1bb82ba68dd5913cbcf7c28e29f68d37ff941883619dd66740"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_24.d.ts"
-hash = "99b20421779eb0d6d9e92074a06343110e4f0c7cf88a6b5833c13aebf4502833"
+hash = "fb96e77833a19aab013f393c4ac04388bf47d136383a11e03ab1dfdee226d20b"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_25.d.ts"
-hash = "76e5941417c8f11438c8cb148393d857f33eff9d57393eacc7399bcf653cb60e"
+hash = "07790311296ed46f2d51eee4166f5e5cdf0c2e9f8896d3df018d1692b3d0dc0b"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_26.d.ts"
-hash = "d0cb80899631f0c943ab480e93e7b472c7953195e5a8f1debd7e43cb0849f211"
+hash = "dd632776ebe963039163912b2c4ef1634ebb1f98747ab97ea4c7757fcd79cfcd"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_27.d.ts"
-hash = "41039f56ca159d9b4a0682d0e95edbd2cc32354130b7a5a00519cd8413725bfa"
+hash = "c797d35ace60218904c7817c864858b1777243bfd7008fed047712a5a05af023"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_28.d.ts"
-hash = "94a0ee1a9f8a52ff17c6a203d02a4259ab8c808d8a6b3325080edb86efb98087"
+hash = "348112bc06056c473591b75c1d9289596c78d2b9b39c43cd90e1bc3ae8be87a7"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_29.d.ts"
-hash = "96b4786c26b83b1144a330acfb2110c526cfb594797a4ffdcf4403b8abeb22f2"
+hash = "f84b8afc4df3b8f91b8c6f6ba2c2c5b831a697ffbb87faebdd2e32debb11a316"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_3.d.ts"
-hash = "887cc974015dd101f319628a8df225dca7345e8b260b72a582fb111a3f4fdf14"
+hash = "2712e8a973fb76fae68d79a52f4d069686962f11d0227275b9c131527092d804"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_30.d.ts"
-hash = "878a6cca5d00c9b5239dd61a886056375ec7a068f0613ff4d8c60ef40981c72a"
+hash = "fb3cde39382a3ff9432fdea2b6284f19ddedfb45b9eafa6ece8096e63ab60a3a"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_31.d.ts"
-hash = "f440a74ed64e8bb138632e4708e8e31ed7586ccfa311c52b9cfdfd19dd78efe0"
+hash = "6d8862676c11fa96f1aa997b1836cb69bb535efa26c677c303efccd55b383d0e"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_32.d.ts"
-hash = "93edc5ca6629439f59a548fba4f0711dbde25f5b8c182c75778878ea9bcf3019"
+hash = "2c0774fb8cf7fb146fa8fc715a561bf2175c04cee5c78388c215f32dbd8ff0bd"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_33.d.ts"
-hash = "0a9905c8394f668ef684aede6abf9946334a1488752604cdd5c41dd87f616d42"
+hash = "37020366ba11cd990cd1bd0b940d040e13c49e0f25370e747ac1ee1c925a11b0"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_34.d.ts"
-hash = "f65f09cacb6f2a1f06c35cb0d0a81338644602887621644c80cac4a28a44d0b2"
+hash = "f6863fc77f12eec20f72a07bd3548a7fe981d77c192d7973a268f9b3c9687a7b"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_35.d.ts"
-hash = "a41978c60b0cef685d3001683d7d30c56c63397e418239c6c658b729dc51294f"
+hash = "b54cfa5a5cb885023c48ba9fd783e8050c137ad9b56b87e8153b86dadadc5882"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_36.d.ts"
-hash = "a8ffa34702a11f548cd1ccaea27faa655b837ac579425943ea257b960665753b"
+hash = "7461a4e5bb19ee92358921cb57361195c2f2b5f0e56aa7d27316229cb01411a5"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_37.d.ts"
-hash = "835cbfee4a213df6fdaf6b59f5b332e3b4bba8de182ad855374c85ba9bfbccf9"
+hash = "b7131b0b09a28b87753eb5c2659978cfaa2300a6e15ff1939cf4ed2fbc6a881f"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_38.d.ts"
-hash = "62361145c3077b3c1790447ec25eff31585132b50df4c433336e9d7474f28dc8"
+hash = "001ddce9505e53bd2d6b706da1792e9e53615d129c9eb7398d075e80df79130c"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_39.d.ts"
-hash = "321c3396c7d8314c9b5f45d30068b9541eab0ec2919e242a6960bc56ef56f329"
+hash = "2cd2c17c42225816e979fc8dc4569f6a3817226176ca0864c4d1fd4bc092725d"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_4.d.ts"
-hash = "411b5c5d798ed3d1031b4540a68bfcef8141879861d1d0ca2f3f01974f659fb3"
+hash = "c598958648e9968e6b569ad0b3443efa36d822ba77aae7ec8a93766b5be69ebd"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_40.d.ts"
-hash = "886a26ebd90175b96fe0a55d72819e37d51efe475a5c6ddbe862388e6a0e3bf9"
+hash = "b5e55f441bde4718c3e48fac20ec2edc3f70ede60c46643a4abf16fd8f20cc6f"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_41.d.ts"
-hash = "1992326fae02b6ed98b72b278fcbe2b19b7d3334307daebce93a6e78d708315b"
+hash = "1d6226a6779f38a888bf842ff6431e3623506adc0aa37a50020c4931ca6e7a78"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_42.d.ts"
-hash = "24f02f170de6d464f7b93843eb69d2b5d6488ce82b04cc588d00834ffd9eddd2"
+hash = "1ca6258dc9a58158db9bd982fe99982eb9e0f3315c304d4975a46a83860644e6"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_43.d.ts"
-hash = "cfda3eb88d3d22b7224dfa82be7f049bde9918c575119a47bacb2092ec7d775c"
+hash = "0e27154c340c6f869678e737fd5dc759eb940346d6c76081e2a29a3d9bca0565"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_44.d.ts"
-hash = "2ca2e506ff1e3410257a9ee73cc14b83b9fa7495f04fe458c0f48e2f5dc272d0"
+hash = "da2f0e07a626280905db8dd024cf17ff500125adc7c32426e80884c70743d577"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_45.d.ts"
-hash = "946922c34ceb4e6cbbc27fff28ede251012e633f9cf90fe8aaabbe72a5a6dc85"
+hash = "e8ae9c25244fbe4607c976abb4d1b129f64e003a39f08875bfa631fabe5fbacb"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_46.d.ts"
-hash = "e42a3b854ef37cf3b95f4b5da783de7f9d2aa35d44b8dffa7498bf470742ba02"
+hash = "86391516d23e3aca3d2902d1796fc4160cf98e3559fecac8f019d87d304c7df0"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_47.d.ts"
-hash = "130b865feb5d67100c4a267977ac0c5125ef89e5e0dfd9532e7824e275c69b76"
+hash = "8539a675dd33a9c0b29bfd29cc35c27f32dcc0a8e3c98426eaa2cfd3e1447f16"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_48.d.ts"
-hash = "5781825ba981ea85dcb967bc2bb069100285c9936ca4ddcce7dfc2d6f9a7ea55"
+hash = "bf1ec1157364a5157ef1821bc4cc2f3c73903840e4f8e9567354eb5cf51fabc1"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_49.d.ts"
-hash = "a1d100bd1e33bbafa9d2dab3e4a0c716b227b84d827a69f3658b650c87fbea60"
+hash = "d049e4c19e4dcf3e689bee99dba5b25f33933e563a0e1f7f4b4d6453479c1fa3"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_5.d.ts"
-hash = "ddcb77f982e291117ada0368bd397a5b9cdfac1a0e8ff485e8a3bb1326437cf1"
+hash = "e6c523f51828147c5c0dd5a91d0e5da4cfe14bcf0a1711463c12e61e6b4f24af"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_50.d.ts"
-hash = "0252f73d4fd2040e7a9c0a60af6a72ad80b59cea2a887ecfe258f3737020df87"
+hash = "2fe366d0df7a0a4811e0ec6c278deb51dafa0a35ae993b328f8a5ae518f607ef"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_51.d.ts"
-hash = "e25d942a87014a4ba69720acd17510db30a8fb8467cec95db49e6f0552154855"
+hash = "a39789458efa11bc48b20ae8728d2ca4cfbf3448b0b34971dc409a6e25f1708c"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_52.d.ts"
-hash = "93d999fda45c3cb5291c303f1d878ba4988e501f41ffa607cf460f080560d23d"
+hash = "96e6704add21fe8100097b0cdccc53bae1d38e001727d47cdb5cebb483fe23be"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_53.d.ts"
-hash = "d43eb7ca9edc269735929d4cef41ee3aef85776a89e936bb1f02dc0ba68928fa"
+hash = "3031a8512bfa1b8b90cbc66b2f8ec89f8067da252e02f4b9035d797d70b52bf6"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_54.d.ts"
-hash = "13836adf69bb31e56407aca973bc9e4dd756e2fad59125248a8eaf5ed85ad7bd"
+hash = "016446206707febbaf5d9bb36a1fa41bfafdb9dc4ec450170c67af63713d09b8"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_55.d.ts"
-hash = "a8be8d4ae1f3bd43af3afd777fa2fdcf647c052f511f54000f80d7853169e753"
+hash = "070c581deac166b427492fad9fafb0bbc6a87128b8bc4009673304cc63586cab"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_56.d.ts"
-hash = "3786d33ce1eec244b430e50f5a2121548eef12ad7cbcc6febd65061810ac23f9"
+hash = "40b3eb28ef4d76a3bda32ff7784ff8ce4ad9af29e0e79a92eac42c70efd7825d"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_57.d.ts"
-hash = "d0dd68fa9215af1c0e03308300e9566f8c0974c01aa761702c9650b8c0175a02"
+hash = "a56e3bf17bc5a43829198a2f381476dc03f1ff800c8c0478a130f760405c4265"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_58.d.ts"
-hash = "1c4650e6e972ecc8e73854d24702089ec3aa4605092d14715df5d9b1fa936a37"
+hash = "3382e42cc6ed7ca7b4e5e933329bb380f274f378e23040ff593f7912654f02d2"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_59.d.ts"
-hash = "c13aa031ed3341cac8d03dd8f4eaea04b55ecdae8b99d49e088201cfda69e6ee"
+hash = "b94fad98973b6a375ad1bd2ebffc1362e9b3a69a60dcbe49ea34e2c2c1280c4b"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_6.d.ts"
-hash = "9e3b93668c0fb63617726ef2d658d59646961b17c2ec8c84a4165aa67102c3eb"
+hash = "945e86fa0478dc8d18b164bdba7a54d368cd6c587a1e94090283b4cb661a9d8c"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_60.d.ts"
-hash = "a26bc6624c5de0319d2aeae435059e7e510aa0df7946d5fe1e28c2b7e7c4a7c2"
+hash = "0f4164bb65e1a0723cb3515d9623aba1d42c7b3122a730635ba68cf9e1e8da77"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_61.d.ts"
-hash = "8c5e0e248186ae366fe1e4a55835e12da434e4ecd7c0e37cbc46af45f3ea054b"
+hash = "501cb4387ef7cf9fdf9a188389f190160914e6a725d5bc0f5730442bf87c021f"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_62.d.ts"
-hash = "4cef6753c80089546ea98c96310a0a4d6fc93e1dcb9552bb27a6e3910bbbdaf8"
+hash = "64f75db3454a7e416bc5fac48b0407916a989a0e6ab190b89548d85960800f39"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_63.d.ts"
-hash = "5ad91bab7c9e79cc3e862b150e4a520a37521e6b752879bb8bec647a54332b70"
+hash = "7d005800cd1752a7f4b655decabf77c172f0c911a4f103e8d86a4bd5dee1906d"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_64.d.ts"
-hash = "5a8c972527c113e83811b0199d7775ad24dcc08045a7ec309c3e5b6c58b3b5d8"
+hash = "a0f8116b262bbf6eca8559437cc475803b9ae55297c2e6b6cccff9807513c389"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_65.d.ts"
-hash = "7ecac8fac5a84430c14b9d13ee23a665583763df6de35ea227861fb1f645a6cb"
+hash = "d45c243a02ffadc85be45b45646fa838d91ef97b87f3c270f7b65d069e45c630"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_66.d.ts"
-hash = "740f240aed394c6d81fe5a43d9f670630165b51719aae9e19b2ea73e77a28b39"
+hash = "192e37ffabab41c58a9aef8649effdc8b369d0b27075270e28f72cc094413460"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_67.d.ts"
-hash = "21b3d00fa3f1ce1d3c4a67d8183543a978b04db2ccb49535d9e4f7ac5afc0215"
+hash = "324fc7d0a9933cc5d12cf648c3ed82fbe66dd37ad29eff44add154d7ce926d0c"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_68.d.ts"
-hash = "7d6143acfa181c6edeb0f0eda39014be8f3db3c55d39dbb79490152c959b6a08"
+hash = "cc47ed13b0982cf5b4d263c6b14edb239f3f5af4f5b658f5220f8c11f6343ee1"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_69.d.ts"
-hash = "c1043db0a0eee3dd5f90d8ac8b7f7704e165e14b7d7c3be42c458f21374c0585"
+hash = "2d30b9d6b6f4533fa70b38ddf2fd5bd401fe2d71b9ed1ca80316f9420a49626e"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_7.d.ts"
-hash = "252c316d8e34a1363446ed80c1feb7484ca3875579f0da129087a1ba4b5d1d38"
+hash = "2e69a8a19db10cb8335bfde3501c9fd53bf57c40e2884dc97d96fae5508e4802"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_70.d.ts"
-hash = "23b862234e2e1b5061fe14d6dfb97d6831a720a3b9a89394aaca21de6a6fe0dc"
+hash = "0be6ac5878c137906cb8c264f133b86ffe07f5dbd8aa7fa42a666ec0d3064c1d"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_71.d.ts"
-hash = "eaf382b5a25543b78afe6224cc23c6aeeafe1321cddf8238b4222a89beef4a06"
+hash = "cad141c45d910c83780b279d0d628141c371f5e4877f93ed4d1c37f20e0af097"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_72.d.ts"
-hash = "253253c3dd44d70ff86bd3b11c629851236f8ca0896eab402ddf09997ec2f048"
+hash = "3fcb3ba1093237a6b23d70b147fcdaa559f1790f15cf689433798acd0206d6b5"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_73.d.ts"
-hash = "8e7bb0addd2ef470b19250052b075f6543f486051826beab6d7154ebcaeb0a04"
+hash = "b5f257817fdfe072e55da430cd5bffbe105941405d0b2e28ee73d52d1efb2b54"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_74.d.ts"
-hash = "270979649b8c4d83147b885d75831946e8076f2010f5f1b8bf996c80349b1cdd"
+hash = "45434abc9477e39d14f8e8d308219d21058940d49acb6e998d8aeddb6094efdc"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_75.d.ts"
-hash = "976aa3eb52ca352eaeab02cd02e017cf493ce3ccdf5cf6b74c936def1e60726b"
+hash = "c2947b4a44a974fcf065c27ab46d7853a01ec83e779c80c7004ce24f2aa66cca"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_76.d.ts"
-hash = "d05f176c301f7a7f8f91e925a7d1b3b63fb879adfba13d306858d680178c6284"
+hash = "fa326d2074c52417fab6a488bbaf1f66a04092938394e2826fa7cd3235a30c3c"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_77.d.ts"
-hash = "ba6b40c46ba630543f88a44db2d61ef93ec7062f2700b462922d00eccf27e1d6"
+hash = "aa55ad52302d95768716a0be97efd51502272face469173d8f10a97aa99dceac"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_78.d.ts"
-hash = "c56e9f74f1c3a7378f080dea35d21a5eefc1f27b12145621970569d5acfad827"
+hash = "2976b90480514afdb02c74d7a05cf1b726e7fa32ad9bf204d0a51826ee8d859e"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_79.d.ts"
-hash = "57dabc85043184e5224bd92933066cfe8abc24e482c0a63d95a3542fa22f6f12"
+hash = "55521411c7b4e2a93ed8620fa1d2e663d2bb79763cb3bb4c36589be1fe8fc447"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_8.d.ts"
-hash = "d3d06f5f656e5c3ad61a9af3c2d76a42b40b3386df1e46f503d194246702697c"
+hash = "cd79ba05db000aa12a20c735dd6abe0aa566f8d267287e832fe9596d5a1b8514"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_80.d.ts"
-hash = "2cca52b902967fc00c2c226068ed07299ee58eaf288abe39922d04d622739861"
+hash = "0272a6e46715c7233fe6f664b5dfc5f7ed14ca40ac92ac7ee5956066e5bde201"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_81.d.ts"
-hash = "6ca065b32906c10908a4f6217089deab5f3be600bac8a43d4276439c49d50654"
+hash = "159577bff04b950c96b3aaa45638243dc6afe04b04efa9baef3707ebd0f6fd87"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_82.d.ts"
-hash = "fc29ef521113be6d31354c09da660b0ab8a8568d4b6ba6a640faa99c14db907a"
+hash = "10f31774f396b06a4ce12dbb1d6d74f2ed37f938b16c9c29b7b3527e3bf57e5f"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_83.d.ts"
-hash = "67823fc743399ba1aadf26aa69c664c6b2e141487eb5ea30763dea020ccf127d"
+hash = "9c25d45b2116f612f7d8c0e316a07be8023b0fe0a8a3629fd2b2a27c9bb1c2eb"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_84.d.ts"
-hash = "f88f3582131025b35176c40462478e35e053216d26aa532e4c1a4c15decaa678"
+hash = "dd7fa76361df6088b6356e20c6905bc5dc42e625f5fa3dcabb392329e5049c70"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_85.d.ts"
-hash = "b95e057332a3f53f2c70fdc06354f9c066664d468dddbfa92a1a56261fca92ad"
+hash = "1a5d8996a8a960d7fe237613ff22566b3c62b830bc21d222034782c6155fce3b"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_86.d.ts"
-hash = "9cd89e19a2fefab14d32791a5dbdf71a446073d58d5601923677aaf1f059007b"
+hash = "455f297f5213b98c22bf469650570cd88f39da3260f553f720bda527c46b9e84"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_87.d.ts"
-hash = "73e9c689d19326e947fd294892e01e43a9c7e5e70d6edfbebb8f2d3b458f3353"
+hash = "783311dec33865816a7bc32788f18341ef93b2d3964d4bd85cd42763dd91fe65"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_88.d.ts"
-hash = "171b949145ff96e17cde288dd69f4722ac26429a4cb9776d43ea66a228b7e3d4"
+hash = "7f3e36a095d32f91f19e73979ebb0a736c12b2ba5c63e7af4e494cf3f8c3a9a5"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_89.d.ts"
-hash = "f56609b6a504c04d66a9b6cf5e329efffbcc962159864f8c369ddff9c92a9d81"
+hash = "840960b15b02d8de2a0293b996e4be2ead027e4fc4edfd5bac957ea82fb02edd"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_9.d.ts"
-hash = "541d2f4ff5f03ada70f94a50bf5389b6e589899bfc45f475a28e9afdecc5c03b"
+hash = "e19194c75fd89467dc328a7dc2125a7c6308c326cbc2ac4d41089aa26bca029e"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_90.d.ts"
-hash = "302f20dc05e90f07525712a8208af66397091fa041137fab2771ea0c03c24ef5"
+hash = "b8fafa34f9267473b6bb59e8105999d4f6acf59c79ccb38f0cb4999be9507f6a"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_91.d.ts"
-hash = "a81b0de5c73d2b5b6d5c9581279c818f1400c9753115856a8fcc77aceac95253"
+hash = "ee5b630d97e172bf5d5079d4b6f9a91323ec659e821135645a67037015494e8b"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_92.d.ts"
-hash = "29e31e3127cd56302b95541606979517350c28241b1c63062d46f4dbe5b51895"
+hash = "26715f09e9a2068a56489ff844a9f665d2d1b63d2c7dd016da4733ceb5faee66"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_93.d.ts"
-hash = "a7ba5839e64c36c6ed8759d4da03f8aede1a627b1555cb541c17eca7b9ae109f"
+hash = "39e5ec57a0cc19a68670bcb018b8b0e45d2bc74900b7b089d5308ded3a5000c9"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_94.d.ts"
-hash = "457445ef9d481cdf1da3fea1b3edf39e3fa73ccb32e632137b4cc5317f41e5f7"
+hash = "5b00673e5fb54eaba02440b5bd40e423f42d6df62713355d0eb9b0c64e509656"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_95.d.ts"
-hash = "88507b57f612c177bbe712264b5a854d3977a3085d95ec92729fa9b2c1e05910"
+hash = "23a0f1e59f1d784448f42b70313d4521813c121d65d9d1499a358a7a03bf1cc1"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_96.d.ts"
-hash = "7a6c8b4ca59cf58f2e28584ebd3043b0984bb0fac1bfb86f09b5c2a294d6a3cc"
+hash = "0a92655b6beaad340b47cd9885d04f17128bb8a3966bd57eaa6b964ddf484d5e"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_97.d.ts"
-hash = "715fc933680c91272a6a577d275151ce0ba9facdc5ed89ea2dbb9698f3b8376e"
+hash = "faaae066c56e76e9d54648000fe47b0e825e3b3d716f4168e3896ec8799cd76a"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_98.d.ts"
-hash = "2f5a3ff1f006fddd2b77dcc45a01c76d358cc32bd442161fae099fbfdb4a74c5"
+hash = "916705330264976773658549c8191c4284c8e6127bf4b44a3764444f22aab4d8"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_99.d.ts"
-hash = "8cea136b4fc598231386c46ab82c97409728157c06d3f3b0e62bfb754aec1719"
+hash = "d4d8fd2e0f23b3c72c76faac22ec426dbe7a9a4a4da3a7ccaefa7c6183bd4b7f"
 
 [[files]]
 file = "kubejs/probe/generated/names.d.ts"
@@ -75510,11 +75990,11 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/probe/generated/registries.d.ts"
-hash = "3d90c380edc272d270752057a5a3352dc621f7a863c343f1543e211d9afe80d8"
+hash = "cc1f05e77bffab175e8eb2d7719811fb3cac296d023ea789be85821e79825f69"
 
 [[files]]
 file = "kubejs/probe/generated/tag_events.d.ts"
-hash = "7761db3634c2eee5364ae61d9ad7f16a9268d6773b4b98f70183ba90cdcd05b5"
+hash = "7c6131fff9d1eccafbfc1eae3818e6f5fb57aa1c660659870c96bef2c961755a"
 
 [[files]]
 file = "kubejs/server_scripts/AlexsCaves/Recipes/uranium_recipe_mods.js"
@@ -75545,6 +76025,10 @@ file = "kubejs/server_scripts/Modpack/Recipes/fried_egg.js"
 hash = "b041f3828d9e31e437ac5356b8361ea80ccb9cde12eaee459c1dfb67548a61c8"
 
 [[files]]
+file = "kubejs/server_scripts/Modpack/Recipes/inert_trident.js"
+hash = "e803e1313884396b9026c57355ea05ed2bbbb7881b1983c3eacf2ab7459a7316"
+
+[[files]]
 file = "kubejs/server_scripts/Modpack/Recipes/rope_alt_recipes.js"
 hash = "e011d877af2c57c68420bbe59ec560d164d144e6ee9dbdacbe8c10fb19b43eed"
 
@@ -75565,8 +76049,16 @@ file = "kubejs/server_scripts/Modpack/Tags/axes.js"
 hash = "d93e79799af2c17e4bbed0c9c3d05b569fba24977f9686ae5b0f97e2dc94f8d8"
 
 [[files]]
+file = "kubejs/server_scripts/Modpack/Tags/foods.js"
+hash = "82ca6b6352dbd3bff9a7b07af3bf2784debe92164f900135211155adc2bea9ed"
+
+[[files]]
 file = "kubejs/server_scripts/Modpack/Tags/mowzies_bosses.js"
 hash = "1ce9535e9a82271f0c15f6ced244f817d5a702561c0f39c4c80e7781443584ca"
+
+[[files]]
+file = "kubejs/server_scripts/Modpack/Tags/shark_teeth.js"
+hash = "e9e9622e508d60e2995fe65943778b24e5d29f6dd7af8631f7ba7878ec792989"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/Tags/weeping_angels.js"
@@ -76462,11 +76954,6 @@ metafile = true
 [[files]]
 file = "mods/default-options.pw.toml"
 hash = "f1fe9959663a5584965de46d7c0a232a4c34c06a17560425461fd4b76362580d"
-metafile = true
-
-[[files]]
-file = "mods/default-skill-trees.pw.toml"
-hash = "640f6c739b69aa8198419e5a05e07f57ed23ac7c414ecf036d32002d1ad1b98f"
 metafile = true
 
 [[files]]
@@ -78127,6 +78614,11 @@ metafile = true
 [[files]]
 file = "mods/vista.pw.toml"
 hash = "ea2ac761ddca0a2b5082d14bebfc5475d2217ce60fa23d09e65a595efa22242c"
+metafile = true
+
+[[files]]
+file = "mods/visual-loot-edit.pw.toml"
+hash = "7ef1d52ebd06b64907455d5c14c98ff3328314267fdf54859e4b6c82cb6fe2ce"
 metafile = true
 
 [[files]]
