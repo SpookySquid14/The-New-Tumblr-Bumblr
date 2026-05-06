@@ -67526,7 +67526,7 @@ hash = "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "5714180eca7483d789b4aa0d01a69e82ccbb69c2cb687efc3f0c38ec8ed72a88"
+hash = "f0e41f27f1a1aa33dc45fe026b7599a896957cffc8ea1142c998502cdd78ba52"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -67694,7 +67694,7 @@ hash = "b4660c461873a4c409fb9619d5d9418ab6e233ce648e87391db773442f2a0c05"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "8e0e76f81a3a3aa6b80d4c75f4bda358740dbd9f7c9bd832efbde23f70bee216"
+hash = "5034d66e746e3fa46060bd3aac0f779d9425fdeffe5b6bf7ec20da4721650f23"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68594,7 +68594,7 @@ hash = "5ab406b57f74a7e9cbd892aaf00e4a58f5185333d37c146af68b700c9336c717"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "5470aa94c0a135f979917b0fbf0ea6c6005ab234f83d5b69410bf9b687861e94"
+hash = "a7c6813738c6aa0cddfca461cd6a4f61dc0a7e2f25de6e951311f904ec793651"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
@@ -68606,7 +68606,7 @@ hash = "af79d18b341afe310a23e248f664da169fc4119049b3ac3b7264d35ebdadc6ac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bonus.snbt"
-hash = "a8af52db89464426f1f96ac0422d4c6c5e0e7aa9431b32b1db879bf4aa52f6c3"
+hash = "b69e1c6d2b8458cd09fe23ef3b472ff22c5b1d6d404bd1a78b3996ce3bd98a86"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
@@ -68618,7 +68618,7 @@ hash = "c0f4d941b3844a3cb6068f8f3b662c02aaaefb2ead4d4e5b94cd3315d99c588c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/debug.snbt"
-hash = "d84c7c8f7ef2ca0019ec5c1fd34ddba573557d74831f142d7854a9575d9434f4"
+hash = "1cfc9de0cb975866b696a783a1651b8c4c8a3f6d274fd4a6388bca3a1caf8dbb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
@@ -68634,7 +68634,7 @@ hash = "a8e8f41bdf903b5aa132089ee74ba7bc82cad974af4336379ae5c6c913b719d5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "0e3ef014daf4c8509c2f5ac0aeec9bb6ea0b044479802ff419b863f4f6a9e8aa"
+hash = "26f152c174d12bda4edd57992b38acfb7fed11315702553f0035cdbfbfbc0fc3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
@@ -68650,7 +68650,7 @@ hash = "f931144444863801f989068c239140122ebc3d77dad3c0b269788e12bc4a0727"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/minecolonies.snbt"
-hash = "90c331300725bfb6183d77b3d56b662d9fc9ebc62aeb6b09c5547bd1bebb3c86"
+hash = "9fc95d281d92eaa2167763d7170262b08d56cbf48f4fdb766db8a8db8e136fac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mining.snbt"
@@ -68961,6 +68961,10 @@ file = "config/immersiveui.yaml"
 hash = "534f2120968484ac5a3a13aa0cb16eedf8c938bcf8476b657074a6e6ddd75328"
 
 [[files]]
+file = "config/immersiveuibridge-client.toml"
+hash = "bffccfa9cd836fa9502d5571c4d75007057e7fdc640ce91de286950fa9acd9c3"
+
+[[files]]
 file = "config/incontrol/areas.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
@@ -69074,7 +69078,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "0d11eef606303c89cfc1a2c703df2c317bed54a835133af6d24a0f2b322a7ef3"
+hash = "3249dbc0510d4b0bc0ac1226c2068723dff27ecd02af43495f54029c67ce4a4b"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69285,6 +69289,10 @@ file = "config/jei/world/local/New_World__61/lookupHistory.ini"
 hash = "33b3168d3f5da0687a7ac1f6f1d06c1332793e8f963ea70b7a8d5b2da88844f2"
 
 [[files]]
+file = "config/jei/world/local/New_World__67/lookupHistory.ini"
+hash = "04a263dd01b00282e8836635c12e82a99be06cb08bea90c9d1f85ef74fefaaf9"
+
+[[files]]
 file = "config/jei/world/local/New_World__7/lookupHistory.ini"
 hash = "16a1e717099f872d4a7b63378dd3b009f81a4438daefa3d4ea9191267db689d6"
 
@@ -69490,7 +69498,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "7beb6aa9bd843870d53c89f6c3d12ecc75644300be3308f19c932d396203544b"
+hash = "d144aa4d2619396dc9b3553b9180545367fd56b06d81b06967e0f59949826eda"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69606,7 +69614,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "23df5605cfde433e3cdda49638accb29cc0705361f9317cad248a2341de67783"
+hash = "62281495a5d94dd4c6deb87347ae72c4da6f87eb15523da8c73fae881119272f"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -69614,7 +69622,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "131b0b8caa18f290dbbd27496fede811c9b1ea6cca391a119d03185687e72311"
+hash = "fa309c2c81a16094c68da7cbb03282b5355a478c3e6fd70a6b4a9377de1822de"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69634,7 +69642,7 @@ hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "d61a236509072b182f3722372a55745978667f8cdd03eee6e8640c3e7b5d0dd0"
+hash = "098dce90f215d85eafa32ba8acd017a9872adbf5bc0a84faffcb4e1548cb6794"
 
 [[files]]
 file = "config/paxi/resourcepacks/Eternal Ancient Coins/assets/ancientcoins/lang/en_us.json"
@@ -70198,7 +70206,7 @@ hash = "a645acd9b281f0cff8a7ea27ad0b1b2c2ceec8de3b295300d70d548311270d99"
 
 [[files]]
 file = "config/stylisheffects-client.toml"
-hash = "9fb37894cdb3573066b06071fe328e6a90f424f6decc9c4b2c92b76d08abad25"
+hash = "c049cf63f05bd987b36098222688ce88db9d9c0bfb0b1dd0db86a7b1297cddb4"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -70422,7 +70430,7 @@ hash = "ec1221e7e2a807eb462e055b5bc526161452e371d70bf42e71786f16524b1af3"
 
 [[files]]
 file = "config/vampirism-common.toml"
-hash = "5b1bfefab01068acc76af89d5e5f6bb24e32a6621bf203de99e7b5d3d247ad8f"
+hash = "646bddf70de42eaa8eaa12308cd984640ee595df3df14300c913f4678e52d5e9"
 
 [[files]]
 file = "config/vanillabackport-client.toml"
@@ -70590,7 +70598,7 @@ hash = "6993dd8e17615b92a266fd20af1ce69dd593d24b5702e075ca9d2fade8e369f2"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "447fe7ea3e72d38672ffe5639a848c49cd00e8719ffec4e6db0e426cc88c1dc0"
+hash = "ab67dbfb6ec79d60189c0310c8f9fb7fd8c9695db6fd8f0d3a081eb0c1087e67"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -70655,6 +70663,166 @@ hash = "fa55a0396fbf91d6037469b1a7f86d3b40b2dde1fbfe19787dddd5027aa0ecbf"
 [[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/arrau_turtle.png"
+hash = "6c3962e1707a05898d20c622758ae1022b92227b2bcba9524162154dce89c41d"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/box_turtle.png"
+hash = "0bc0d6bfb43dbcb492162261c22931149f207e906a5af3564dd1ea514736e50c"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/arapaima.png"
+hash = "fce4b775246bbf7f573b061092231a8cd7010499833ab207ef50281dbb443f52"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/atlantic_cod.png"
+hash = "54f7e63cfa63890064dc75720d2082ab93f96df263c4b307f00ac7274d260f34"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/atlantic_halibut.png"
+hash = "24a3a93bfe8fffe16c9650751a1969c595e40aded2803dc762247b471f676189"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/atlantic_herring.png"
+hash = "3b89be719b62e4354e7d25d84f8357d4de913ed46108053f3698319629881889"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/bayad.png"
+hash = "3819eab4e6c339d7b3d7eed9782b55659169d83efb8012f2656115426a0157b4"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/blackfish.png"
+hash = "ac0dea0548e1463b92a6695aad8a39f268a5422d311243f0168c91e862192e91"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/bluegill.png"
+hash = "2b01fab47a88cc34595e70f7790891a8f7cd1443262d00b15bf7a9a826f867d5"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/boulti.png"
+hash = "86f4d046359365571ebb897b7360bc2a2a773951e8cda5010a2ee38ba562c0fa"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/brown_shrooma.png"
+hash = "4f39396fe21920f384e1b271a640ee7463fcb6265e6a3da48f11f35f74a7c34a"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/brown_trout.png"
+hash = "14e732eb0e0b892c3dd429535190d12135b5ed653a843b47b73cd13cd9290d28"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/capitaine.png"
+hash = "e198e5df4c9e13ed3b374326f94ca8407f72333d4a6294ea888996b5a743392b"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/carp.png"
+hash = "492529190195836aab108aa8ed4103ed12ca3fb801d42b376de0f2e7811292ec"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/catfish.png"
+hash = "cea6115842df7bbb57a06caca4493eb6cd7cd398c22712eeb9186527272430dc"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/gar.png"
+hash = "dd64ec70f8f0528e2e8f9845746a6edeefd7fe02fc17830461131b57eff62895"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/jellyfish.png"
+hash = "3711b06f6b4dce3020fbf8414763a0272ce725ea02bb82953132602a86325630"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/minnow.png"
+hash = "0e4c6d8ba5349a01760df54c65789bdc2cbde558b122b10409765e0152d1337c"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/muskellunge.png"
+hash = "9b93aba04995ca5a5420e6d04abec5f48ffdcebe34b38e7a463c00b3f044e9e6"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/pacific_halibut.png"
+hash = "9158bccafa724bd79bc459380d1358d21cdb3bd5aa6a571b100c188668089908"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/perch.png"
+hash = "f65bc313f94e20e0cdcd1665b88a465c6e7365ab3101c2f8d5e416aae45148e7"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/pink_salmon.png"
+hash = "d5875a03834702d9b00431bbe02982298c1b3dd24f35d6e8a1c6f0641544760c"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/piranha.png"
+hash = "1ae388ab402966af3e0ea83183f7754c22b4b414fe93c967850dcbac8b5a7d3e"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/pollock.png"
+hash = "0e74a21d4fabeae8d18c1b201b86d7f145fbb2a4e9eacc17893a42c5d7edc1e1"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/rainbow_trout.png"
+hash = "f0518bebc85b832ad9d85e4152f464df11cbc1aeef73f1afb02bfd11ea48d605"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/red_grouper.png"
+hash = "ce9c37d909789e9dce8e04276a142ba4f22c4c058c7874b7472713ea5df039c3"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/red_shrooma.png"
+hash = "c349f2e90ea1d1401b2717b6ea81e33aca42c85fa6ca7794dc194ceafdcb8862"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/smallmouth_bass.png"
+hash = "42f10b0f40975ab0c16e5e159e1529e322af2d31e3c3b7d5854faea43e74cdf0"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/synodontis.png"
+hash = "ff1f3e934a1b3b46411f7b9f60599e93b311c162e8b91073d2bfc51bff8de807"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/tambaqui.png"
+hash = "0d385c9e7f6e4975215454bd3590610fa4b73d6f26ef74d7a43381a1b2605119"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/bucket_content/tuna.png"
+hash = "daecdeadd2548d8313e4d44dd58e0430135bc87bc09e82328e4971908affe305"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/double_obsidian_hook.png"
+hash = "86319a2b2304b9476f8ed52dd811c9240d3be5c9ee9430d0724d41dedbfc99d1"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/frog.png"
+hash = "0e845ffcbdab113d16070b790521bb357bd0987279ae3673f576770ce02b61ae"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/glowstone_hook.png"
+hash = "a439a6debd34bae404eee150e4c929e711bd46fcafd9573e935c14c3eeb05e4a"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/obsidian_hook.png"
+hash = "34c2421abfd9dc7a9c75dcbfdcfba882b9d5e79b3ed1673ba17eba9ca39cdfe1"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/obsidian_note_hook.png"
+hash = "9236c1e3d2b93c5ee5148293dc5deb395c0890c013ecf15f01431d23b7527273"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/soul_sand_hook.png"
+hash = "0e5947a9da4c22ac9dda0c498798d5e61da6b64c9ddc8ca82435f76da91fbcbc"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/whale_burger.png"
+hash = "62dee466f8b5343110a8353acc807273060927e05dc53eabf060d907c8f50c40"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/whale_steak_cooked.png"
+hash = "e1f2c3612ec4228a4753af19a9921dd37e3d1480b8a988095ca611e7f07c6784"
+
+[[files]]
+file = "kubejs/assets/aquaculture/textures/item/whale_steak_raw.png"
+hash = "6ea44ba4a81cc6097de225172cd706b8bc8ef58f071d0ff101b8b56b23d5891c"
 
 [[files]]
 file = "kubejs/assets/artifactory/textures/slot/artifactory_slot.png"
@@ -74825,8 +74993,16 @@ file = "kubejs/data/artifacts/artifactory/tier_3.json"
 hash = "a2eb8f27a803202fb36ea41d89864494bf256b664904a360aac52952153d1955"
 
 [[files]]
+file = "kubejs/data/bosses_of_mass_destruction.mcfunction"
+hash = "00e50638ac247205979e04cf9c20eec82b297392ed1c43e3e0642bbcf58c9e59"
+
+[[files]]
 file = "kubejs/data/bosses_of_mass_destruction/loot_tables/chests/gauntlet.json"
 hash = "bb5c1287afe7bb014fa278cababc6eeff8488ac1b6027eaa5044f3712647b31c"
+
+[[files]]
+file = "kubejs/data/bosses_of_mass_destruction__1s.mcfunction"
+hash = "18c21205324538910e379cce2d4813fe7b920c2d616f6cc0a41c8af9f13f36bf"
 
 [[files]]
 file = "kubejs/data/cataclysmic_spellcasting/damage_type/cyber_damage.json"
@@ -75174,7 +75350,7 @@ hash = "8a71a558ba5a99abe20bed8e29e02cd19f63c7caf507faba4073e03e9d268a04"
 
 [[files]]
 file = "kubejs/data/puffish_skills/puffish_skills/categories/combat/experience.json"
-hash = "283bfd4e86e48ddae7f7ca946f4612fb3366595f4035bc8a26dcad7452b3deb2"
+hash = "e66e93574132e94bbe2beaef644f445ec0d54e378e43cea25ee8c2652351ad61"
 
 [[files]]
 file = "kubejs/data/puffish_skills/puffish_skills/categories/combat/skills.json"
@@ -75194,7 +75370,7 @@ hash = "fc75611b810c681f0cf0d57718e228bc2ab08437cc0c09866cc1c3e651bdada5"
 
 [[files]]
 file = "kubejs/data/puffish_skills/puffish_skills/categories/mining/experience.json"
-hash = "ba758b1e7dafaae0d3bbd02f672b3032637a354ba80ed252aaa996d9c981539e"
+hash = "196460aacc9d8ae1788204939e718f6391aa5a31f2de679878500147c13618b7"
 
 [[files]]
 file = "kubejs/data/puffish_skills/puffish_skills/categories/mining/skills.json"
@@ -75419,6 +75595,10 @@ hash = "ee3b0e294e9733bf4920a7d5e04dead3433bddbcfc4790a8220ff7c1576d2ab1"
 [[files]]
 file = "kubejs/data/stardew_fishing/loot_tables/treasure_chest.json"
 hash = "afdaee217f325a92fa2646f71425527d6dcb1b2ab3c492980ab46b304790fb3b"
+
+[[files]]
+file = "kubejs/data/stardew_fishing/loot_tables/treasure_chest_nether.json"
+hash = "d98e047629e49d592597dd4a219c39a21254d45a0b31a07a08cd81479d53c3bc"
 
 [[files]]
 file = "kubejs/data/tcintegrations/tinkering/materials/traits/manasteel.json"
@@ -76087,6 +76267,10 @@ hash = "bfac8ed8d4626f97835b2132017db31ad20d456fa1a1e10f1a2c803059825c79"
 [[files]]
 file = "kubejs/server_scripts/Wormhole Artifact/ender_nacre.js"
 hash = "449e828428a6a5dfdf0a319639a3047b3f65b75ea4c3892097c12b4d210e5e7c"
+
+[[files]]
+file = "kubejs/server_scripts/bosses_rift_alteration.js"
+hash = "be3987e15de4a9529e75e86cd6f3ca1963bbe51eade547ff64b1451fe95a358d"
 
 [[files]]
 file = "kubejs/server_scripts/cataclysm/deeperDarkerRecipes.js"
@@ -77439,6 +77623,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-paintings.pw.toml"
 hash = "5bb919967b3c4f7efb6cbf78ec75e559386cdd20e75fc550ee762d834754a7a8"
+metafile = true
+
+[[files]]
+file = "mods/immersive-ui-bridge.pw.toml"
+hash = "65f2028d2b3f3a39236fe0f87c9916523c94bdcaa739c270a499d3f2f770fd56"
 metafile = true
 
 [[files]]
@@ -78853,11 +79042,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/.index/slightly-improved-font.pw.toml"
 hash = "aa7ff4b62f4f42579a44a330aadbe1272d1d8f031013ccca0d1b3b6cd1ee8200"
-metafile = true
-
-[[files]]
-file = "resourcepacks/.index/terralith-incendium-nullscape-biomes-names.pw.toml"
-hash = "dc974a968bd9bcbbd1c18217945564ad2b8639de47c3727fb768c304df000c0b"
 metafile = true
 
 [[files]]

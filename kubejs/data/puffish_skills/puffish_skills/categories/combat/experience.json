@@ -28,7 +28,7 @@
 						]
 					}
 				},
-				"experience": "dropped_xp + max_health / 20",
+				"experience": "dropped_xp + max_health / 8",
 				"anti_farming": {
 					"limit_per_chunk": 15,
 					"reset_after_seconds": 300

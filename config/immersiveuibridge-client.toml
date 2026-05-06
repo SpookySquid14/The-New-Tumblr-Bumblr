@@ -1,0 +1,3 @@
+#Enable or disable the entire mod. If disabled, no compatibility patches will be applied, but may be helpful solving UI problems, especially since the mod is at its early stage.
+enableMod = true
+

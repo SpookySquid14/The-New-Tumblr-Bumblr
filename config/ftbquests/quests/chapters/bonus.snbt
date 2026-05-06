@@ -4,19 +4,38 @@
 	filename: "bonus"
 	group: ""
 	id: "4C4C449889077278"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "35FABD0FF6D68B76"
-		tasks: [{
-			id: "75F268D90B064129"
-			observe_type: 5
-			timer: 0L
-			to_observe: "biomancy:chroma_sheep"
-			type: "observation"
-		}]
-		x: -4.0d
-		y: -4.5d
-	}]
+	quests: [
+		{
+			id: "35FABD0FF6D68B76"
+			tasks: [{
+				id: "75F268D90B064129"
+				observe_type: 5
+				timer: 0L
+				to_observe: "biomancy:chroma_sheep"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "0158854552B126D5"
+			rewards: [{
+				id: "68421E8C1579D133"
+				item: "minecraft:oak_slab"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14CD55FF25A964AB"
+				observe_type: 0
+				timer: 0L
+				to_observe: "vampirism:remains"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+	]
 	title: "Bonus"
 }
