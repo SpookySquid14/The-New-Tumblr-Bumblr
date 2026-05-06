@@ -77626,11 +77626,6 @@ hash = "5bb919967b3c4f7efb6cbf78ec75e559386cdd20e75fc550ee762d834754a7a8"
 metafile = true
 
 [[files]]
-file = "mods/immersive-ui-bridge.pw.toml"
-hash = "65f2028d2b3f3a39236fe0f87c9916523c94bdcaa739c270a499d3f2f770fd56"
-metafile = true
-
-[[files]]
 file = "mods/immersive-ui.pw.toml"
 hash = "d9395ee3b1ac99cf4b169fd0a8a2570bff80c49343203b8bd6f9899cef052008"
 metafile = true
