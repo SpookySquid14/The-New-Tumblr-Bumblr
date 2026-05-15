@@ -1,5 +1,5 @@
 filename = 'siegeweapons-1.20.1-0.2.5.jar'
-name = 'Siege Weapons Mod'
+name = 'siegeweapons'
 side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

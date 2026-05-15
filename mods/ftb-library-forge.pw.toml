@@ -1,5 +1,5 @@
 filename = 'ftb-library-forge-2001.2.12.jar'
-name = 'FTB Library (Forge)'
+name = 'FTB Library (NeoForge)'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
@@ -15,3 +15,15 @@ url = ''
 [update.curseforge]
 file-id = 7296748
 project-id = 404465
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '310111'
+type = 'OPTIONAL'

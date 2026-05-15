@@ -1,5 +1,5 @@
 filename = 'floating_islands-1.4.9.jar'
-name = 'Floating Islands'
+name = "Ember's Floating Islands - Forge / Fabric"
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]

@@ -1,5 +1,5 @@
 filename = 'underground_rooms-2.1.9-1.20.1.jar'
-name = 'Underground Rooms'
+name = "Ember's Underground Rooms - Forge / Fabric - Ancient Dungeons"
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]

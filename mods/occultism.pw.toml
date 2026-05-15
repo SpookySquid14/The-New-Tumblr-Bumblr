@@ -15,3 +15,35 @@ url = ''
 [update.curseforge]
 file-id = 7429593
 project-id = 361026
+
+[[x-prismlauncher-dependencies]]
+addonId = '430636'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '538392'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '661293'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '449945'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '633823'
+type = 'OPTIONAL'

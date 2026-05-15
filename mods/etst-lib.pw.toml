@@ -1,5 +1,5 @@
 filename = 'etstlib-3.0.0-beta.20.jar'
-name = 'EtSTLib'
+name = 'EtST Lib'
 side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

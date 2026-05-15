@@ -1,6 +1,7 @@
 filename = 'puffish_attributes-0.8.2-1.20-forge.jar'
 name = "Pufferfish's Attributes [Fabric & Forge & NeoForge]"
 side = 'server'
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'

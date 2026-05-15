@@ -1,5 +1,5 @@
 filename = 'structurify-forge-2.0.22+mc1.20.1.jar'
-name = 'Structurify'
+name = 'Structurify – Structure Control'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
@@ -15,3 +15,7 @@ url = ''
 [update.curseforge]
 file-id = 7895127
 project-id = 1087551
+
+[[x-prismlauncher-dependencies]]
+addonId = '667299'
+type = 'REQUIRED'

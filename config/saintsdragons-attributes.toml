@@ -30,9 +30,6 @@
 	taming_chance_chicken = 33.3333
 	#Range: 0.0 ~ 100.0
 	taming_chance_hearty = 50.0
-	#Eggs (1 in N chance per random tick)
-	#Range: 1.0 ~ 200.0
-	egg_hatch_chance_normal = 2.0
 	#Egg drop chance (0-1)
 	#Range: 0.0 ~ 1.0
 	egg_drop_chance = 0.12
@@ -47,6 +44,9 @@
 	fire_body_self_damage_on_crash = 40.0
 	#Aggressive wild behavior
 	aggressive_wild = false
+	#Egg hatch timing in ticks (20 ticks = 1 second)
+	#Range: 20.0 ~ 72000.0
+	egg_hatch_time_ticks_normal = 12000.0
 
 #Raevyx Dragon Attributes
 [raevyx]
@@ -94,14 +94,6 @@
 	taming_stun_health = 60.0
 	#Legacy taming (true = simple food taming, false = special mechanics)
 	legacy_taming = false
-	#Eggs (1 in N chance per random tick)
-	#Range: 1.0 ~ 200.0
-	egg_hatch_chance_normal = 2.0
-	#Range: 1.0 ~ 200.0
-	egg_hatch_chance_thunder = 1.0
-	#1 in N chance to instantly hatch when placed during a storm
-	#Range: 1.0 ~ 10000.0
-	egg_storm_instant_chance = 100.0
 	#Egg loot chances (0-1)
 	#Range: 0.0 ~ 1.0
 	egg_loot_pillager_outpost = 0.2
@@ -115,6 +107,11 @@
 	scale_drop_chance_brush = 0.35
 	#Aggressive wild behavior
 	aggressive_wild = false
+	#Egg hatch timing in ticks (20 ticks = 1 second)
+	#Range: 20.0 ~ 72000.0
+	egg_hatch_time_ticks_normal = 18000.0
+	#Range: 20.0 ~ 72000.0
+	egg_hatch_time_ticks_thunder = 9600.0
 
 #Varasuchus Dragon Attributes
 [varasuchus]
@@ -149,9 +146,6 @@
 	taming_chance_tropical = 25.0
 	#Legacy taming (true = simple food taming, false = special mechanics)
 	legacy_taming = false
-	#Eggs (1 in N chance per random tick)
-	#Range: 1.0 ~ 200.0
-	egg_hatch_chance_normal = 3.0
 	#Egg drop chance (0-1)
 	#Range: 0.0 ~ 1.0
 	egg_drop_chance = 0.12
@@ -160,6 +154,9 @@
 	scale_drop_chance_brush = 0.3
 	#Aggressive wild behavior
 	aggressive_wild = true
+	#Egg hatch timing in ticks (20 ticks = 1 second)
+	#Range: 20.0 ~ 72000.0
+	egg_hatch_time_ticks_normal = 24000.0
 
 #Ignivorus Dragon Attributes
 [ignivorus]
@@ -235,9 +232,6 @@
 	taming_stun_health = 100.0
 	#Legacy taming (true = simple food taming, false = special mechanics)
 	legacy_taming = false
-	#Eggs (1 in N chance per random tick)
-	#Range: 1.0 ~ 300.0
-	egg_hatch_chance_normal = 9.0
 	#Egg loot chances (0-1)
 	#Range: 0.0 ~ 1.0
 	egg_loot_bastion_treasure = 0.15
@@ -253,6 +247,9 @@
 	scale_drop_chance_brush = 0.35
 	#Aggressive wild behavior
 	aggressive_wild = true
+	#Egg hatch timing in ticks (20 ticks = 1 second)
+	#Range: 20.0 ~ 72000.0
+	egg_hatch_time_ticks_normal = 36000.0
 
 #Stegonaut Dragon Attributes
 [stegonaut]
@@ -273,9 +270,6 @@
 	taming_chance_base = 25.0
 	#Range: 0.0 ~ 100.0
 	taming_chance_hearty = 40.0
-	#Eggs (1 in N chance per random tick)
-	#Range: 1.0 ~ 200.0
-	egg_hatch_chance_normal = 2.0
 	#Egg drop chance (0-1)
 	#Range: 0.0 ~ 1.0
 	egg_drop_chance = 0.12
@@ -284,6 +278,9 @@
 	scale_drop_chance_brush = 0.3
 	#Aggressive wild behavior
 	aggressive_wild = false
+	#Egg hatch timing in ticks (20 ticks = 1 second)
+	#Range: 20.0 ~ 72000.0
+	egg_hatch_time_ticks_normal = 30000.0
 
 #Volitans Dragon Attributes
 [volitans]
@@ -324,10 +321,8 @@
 	taming_chance_hearty = 30.0
 	#Range: 0.0 ~ 100000.0
 	taming_stun_health = 60.0
+	#Legacy taming (true = simple food taming, false = special mechanics)
 	legacy_taming = false
-	#Eggs (1 in N chance per random tick)
-	#Range: 1.0 ~ 200.0
-	egg_hatch_chance_normal = 3.0
 	#Egg loot chances (0-1)
 	#Range: 0.0 ~ 1.0
 	egg_loot_shipwreck_treasure = 0.12
@@ -373,6 +368,9 @@
 	roar_air_water_poison_level = 2.0
 	#Aggressive wild behavior
 	aggressive_wild = true
+	#Egg hatch timing in ticks (20 ticks = 1 second)
+	#Range: 20.0 ~ 72000.0
+	egg_hatch_time_ticks_normal = 18000.0
 
 #Nulljaw Dragon Attributes
 [nulljaw]

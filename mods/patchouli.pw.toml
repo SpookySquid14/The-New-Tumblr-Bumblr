@@ -1,6 +1,7 @@
 filename = 'Patchouli-1.20.1-85-FORGE.jar'
 name = 'Patchouli'
 side = 'server'
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'

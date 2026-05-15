@@ -1,6 +1,7 @@
 filename = 'ForgeEndertech-1.20.1-11.1.10.0-build.2048.jar'
 name = 'ForgeEndertech'
 side = 'server'
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'

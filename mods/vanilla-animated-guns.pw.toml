@@ -1,6 +1,7 @@
 filename = 'vag-1.0.0-1.20.1.jar'
 name = 'Vanilla Animated Guns'
 side = 'server'
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'

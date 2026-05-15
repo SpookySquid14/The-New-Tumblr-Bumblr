@@ -1,5 +1,5 @@
 filename = 'fastasyncworldsave-1.20.1-2.6.jar'
-name = 'Fast Async World Save[Forge/Fabric]'
+name = 'Fast Async World Save[Forge/Neo/Fabric]'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
@@ -15,3 +15,7 @@ url = ''
 [update.curseforge]
 file-id = 6935203
 project-id = 951499
+
+[[x-prismlauncher-dependencies]]
+addonId = '326652'
+type = 'REQUIRED'

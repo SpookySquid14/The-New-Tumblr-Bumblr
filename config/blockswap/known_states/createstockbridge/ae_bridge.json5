@@ -9,6 +9,13 @@ to make editing this file much easier.
 */
 [
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true"
+		},
+		"Name": "createstockbridge:ae_bridge"
+	},
+	{
 		"Name": "createstockbridge:ae_bridge"
 	}
 ]

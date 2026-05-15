@@ -1,6 +1,7 @@
 filename = 'allurement-1.20.1-4.0.0.jar'
 name = 'Allurement'
 side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'

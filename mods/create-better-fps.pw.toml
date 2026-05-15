@@ -1,5 +1,5 @@
 filename = 'createbetterfps-1.20.1-1.1.2.jar'
-name = 'CreateBetterFps'
+name = 'Create Better FPS'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]

@@ -1,6 +1,7 @@
 filename = 'fabric-api-0.92.6+1.11.14+1.20.1.jar'
 name = 'Forgified Fabric API'
 side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'

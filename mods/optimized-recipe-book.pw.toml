@@ -1,6 +1,7 @@
 filename = 'orb-neoforge-1.20.1-0.3.0.jar'
 name = 'Optimized Recipe Book (ORB)'
 side = 'server'
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'

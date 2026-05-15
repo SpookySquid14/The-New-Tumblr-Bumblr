@@ -1,6 +1,7 @@
 filename = 'responsiveshields-2.3-mc1.18-19-20.x.jar'
 name = 'Responsive Shields'
 side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [
     '1.18',

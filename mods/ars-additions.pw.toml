@@ -15,3 +15,15 @@ url = ''
 [update.curseforge]
 file-id = 5834672
 project-id = 974408
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306770'
+type = 'REQUIRED'

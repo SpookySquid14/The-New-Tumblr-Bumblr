@@ -1,6 +1,7 @@
 filename = 'knightlib-forge-1.20.1-1.4.3.jar'
 name = 'Knight Lib'
 side = 'server'
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'

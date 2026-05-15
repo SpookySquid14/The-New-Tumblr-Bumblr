@@ -1,6 +1,7 @@
 filename = 'SmartBrainLib-forge-1.20.1-1.15.jar'
 name = 'SmartBrainLib (Forge/Fabric/Quilt)'
 side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'

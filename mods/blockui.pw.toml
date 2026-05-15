@@ -1,6 +1,7 @@
 filename = 'blockui-1.20.1-1.0.194-snapshot.jar'
 name = 'BlockUI'
 side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'

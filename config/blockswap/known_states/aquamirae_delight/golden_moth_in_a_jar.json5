@@ -11,11 +11,571 @@ to make editing this file much easier.
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
-			"waterlogged": "true"
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "0"
 		},
 		"Name": "aquamirae_delight:golden_moth_in_a_jar"
 	},
 	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "0"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "0"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "0"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "1"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "1"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "1"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "1"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "2"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "2"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "2"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "2"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "3"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "3"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "3"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "3"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "4"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "4"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "4"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "4"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "5"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "5"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "5"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "5"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "6"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "6"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "6"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "6"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "7"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "7"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "7"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "7"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "8"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "8"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "8"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "9"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "9"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "9"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "9"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "10"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "10"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "10"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "10"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "11"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "11"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "11"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "11"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "12"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "12"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "12"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "12"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "13"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "13"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "13"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "13"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "14"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "14"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "14"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "14"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "true",
+			"light": "15"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "true",
+			"light": "15"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"replace": "false",
+			"light": "15"
+		},
+		"Name": "aquamirae_delight:golden_moth_in_a_jar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"replace": "false",
+			"light": "15"
+		},
 		"Name": "aquamirae_delight:golden_moth_in_a_jar"
 	}
 ]

@@ -1,5 +1,5 @@
 filename = 'naturalist-5.0pre5+forge-1.20.1.jar'
-name = 'Naturalist Lite'
+name = 'Naturalist'
 side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
@@ -15,3 +15,7 @@ url = ''
 [update.curseforge]
 file-id = 6863943
 project-id = 627986
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'

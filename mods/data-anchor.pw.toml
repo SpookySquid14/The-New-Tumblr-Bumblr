@@ -1,6 +1,7 @@
 filename = 'Data_Anchor-forge-1.20.1-1.0.0.20.jar'
 name = 'Data Anchor'
 side = 'server'
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
