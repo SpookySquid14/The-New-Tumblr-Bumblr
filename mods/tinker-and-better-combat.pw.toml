@@ -1,17 +1,18 @@
-filename = 'TinkerBetterCombat 0.11.jar'
-name = 'Tinker and Better Combat'
+filename = 'TinkerBetterCombat 0.14.jar'
+name = "Tinkers' Better Combat"
 side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'TinkerBetterCombat 0.11.jar'
+x-prismlauncher-version-number = 'TinkerBetterCombat 0.14.jar'
 
 [download]
-hash = '108a73bbb9a2c07d69bb49e6f3bac86c653fc86d'
+hash = '342e8a158fccb1a1bc8e3adbe3dcfb970b24fd98'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7734597
+file-id = 7932859
 project-id = 1061728

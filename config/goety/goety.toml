@@ -8,6 +8,8 @@
 	ironBuff = true
 	#If enabled, Ender Dragon's Fireballs will leave clouds that damages even undead and will not hit itself. Default: false
 	betterDragonFireball = false
+	#If there's a Block of Lapis Lazuli below, Lava interacting with water will generate Ominous Stone. Default: true
+	ominousStoneGenerator = true
 
 [Blocks]
 	#How many ticks until Void Frames returns back to Locked State after being used, Default: 24000

@@ -1,17 +1,33 @@
-filename = 'morerelics-1.7.2-1.20.1.jar'
+filename = 'morerelics-1.7.4.1-1.20.1.jar'
 name = 'More Relics'
 side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'morerelics-1.7.2-1.20.1.jar'
+x-prismlauncher-version-number = 'morerelics-1.7.4.1-1.20.1.jar'
 
 [download]
-hash = '95b7bc2e0993a48b027d7fa2f96502955f8393a1'
+hash = '1c35ff4f58b907afb98867b47db16396ae400b7f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7800772
+file-id = 8059741
 project-id = 1269280
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '916747'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '445274'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

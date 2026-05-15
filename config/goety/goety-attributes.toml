@@ -5,6 +5,9 @@
 		#How much Max Health Malghast have, Default: 20.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		malghastHealth = 20.0
+		#How much damage Malghasts' hell blasts/lavaballs deals, Default: 6.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		malghastDamage = 6.0
 
 		[Attributes.Cultists.Maverick]
 			#How much natural armor points Mavericks have, Default: 0.0
@@ -66,6 +69,14 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			hereticArmor = 0.0
 
+		[Attributes.Cultists.Reprobate]
+			#How much Max Health Reprobates have, Default: 26.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			reprobateHealth = 26.0
+			#How much natural armor points Reprobates have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			reprobateArmor = 0.0
+
 	[Attributes.Mini-Bosses]
 
 		[Attributes.Mini-Bosses.Crone]
@@ -119,6 +130,17 @@
 			#How much Max Health Bone Lord have, Default: 20.0
 			#Range: 1.0 ~ 1.7976931348623157E308
 			boneLordHealth = 20.0
+
+		[Attributes.Mini-Bosses.Heresiarch]
+			#How much Max Health Heresiarch have, Default: 130.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			heresiarchHealth = 130.0
+			#How much natural Armor Points Heresiarch have, Default: 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			heresiarchArmor = 4.0
+			#How much damage Heresiarch deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			heresiarchDamage = 2.0
 
 	[Attributes.General]
 

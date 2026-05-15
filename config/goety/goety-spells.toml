@@ -1749,6 +1749,23 @@
 		#Range: 0 ~ 72000
 		biomineTime = 40
 
+	[Spells."Hogging Spell"]
+		#Hogging Spell Cost, Default: 24
+		#Range: > 0
+		hoggingCost = 24
+		#Time to cast Hogging Spell, Default: 40
+		#Range: 0 ~ 72000
+		hoggingDuration = 40
+		#Hogging Spell Cooldown, Default: 300
+		#Range: > 0
+		hoggingCoolDown = 300
+		#Hogging Spell Summon Down, Default: 100
+		#Range: 0 ~ 72000
+		hoggingSummonDown = 100
+		#Number of Blazing Hoglins that can exist around the player, Default: 4
+		#Range: > 1
+		hoggingLimit = 4
+
 [Enchantments]
 	#Soul Eater Maximum Enchantment Level, Default: 5
 	#Range: 1 ~ 10

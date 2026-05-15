@@ -1,19 +1,19 @@
-filename = 'exposure_polaroid-forge-1.20.1-1.1.3.jar'
+filename = 'exposure_polaroid-forge-1.20.1-1.1.4.jar'
 name = 'Exposure Polaroid'
 side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Exposure Polaroid - Forge 1.20.1 - 1.1.3'
+x-prismlauncher-version-number = 'Exposure Polaroid - Forge 1.20.1 - 1.1.4'
 
 [download]
-hash = 'c36e71c3a88077373171d61d64a4d6d8af2276f9'
+hash = 'da0c148b1253f6b9cbf48217273f35b2eb5a9ecb'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7869111
+file-id = 8032489
 project-id = 1207005
 
 [[x-prismlauncher-dependencies]]

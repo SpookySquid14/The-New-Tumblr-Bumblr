@@ -1,18 +1,18 @@
-filename = 'notenoughanimations-forge-1.12.0-mc1.20.1.jar'
+filename = 'notenoughanimations-forge-1.12.2-mc1.20.1.jar'
 name = 'Not Enough Animations'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.12.0-1.20.1 - Forge'
+x-prismlauncher-version-number = '1.12.2-1.20.1 - Forge'
 
 [download]
-hash = 'bbf826c31cb40e495e88b8679463955afd944566'
+hash = 'dcb3cdb5688f2b8dfb5d2edc6327fdfe11ab3918'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7818948
+file-id = 7927745
 project-id = 433760

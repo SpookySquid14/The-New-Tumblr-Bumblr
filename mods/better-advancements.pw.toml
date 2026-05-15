@@ -1,17 +1,18 @@
-filename = 'BetterAdvancements-Forge-1.20.1-0.4.2.25.jar'
+filename = 'BetterAdvancements-Forge-1.20.1-0.4.2.59.jar'
 name = 'Better Advancements'
 side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'alpha'
-x-prismlauncher-version-number = 'BetterAdvancements-Forge-1.20.1-0.4.2.25.jar'
+x-prismlauncher-version-number = 'BetterAdvancements-Forge-1.20.1-0.4.2.59.jar'
 
 [download]
-hash = 'c747ebbb7654b67c2b62b669605bcda041970ca4'
+hash = '6ac10a48ae50b8b18141a893b298cc7c60e475c6'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6010300
+file-id = 8054511
 project-id = 272515

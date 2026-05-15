@@ -1,19 +1,19 @@
-filename = 'borninconfiguration-3.1.2-all.jar'
-name = 'Born In Configuration'
+filename = 'borninconfiguration-3.2.1[FORGE].jar'
+name = 'BornInConfiguration'
 side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Version 3.1.2 - 1.20.1 [FORGE]'
+x-prismlauncher-version-number = 'Version 3.2.1 [FORGE].jar'
 
 [download]
-hash = 'ee748e892859549c26bf7d3e7b75e362847c6786'
+hash = 'd3ec64ce3adef7ca0d2fec59695d9a73083a9ec1'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7232039
+file-id = 8007049
 project-id = 1019091
 
 [[x-prismlauncher-dependencies]]

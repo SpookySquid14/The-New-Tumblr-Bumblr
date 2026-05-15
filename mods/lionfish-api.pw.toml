@@ -1,17 +1,18 @@
-filename = 'lionfishapi-2.4-Fix.jar'
-name = 'Lionfish API'
+filename = 'lionfishapi-2.7.jar'
+name = 'LionfishAPI'
 side = 'server'
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'lionfishapi-2.4-Fix.jar'
+x-prismlauncher-version-number = 'lionfishapi-2.7.jar'
 
 [download]
-hash = 'b198f38fb27dfc6db490b496d56aa1622d5a5b87'
+hash = '73d64e7acbea5934617172a5210c1d2a53443812'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5922047
+file-id = 7923140
 project-id = 1001614

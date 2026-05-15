@@ -1,23 +1,23 @@
-filename = 'mebahel-creatures-draugr-1.6.0-fabric-1.20.1.jar'
+filename = 'mebahel-creatures-draugr-1.8.4-fabric-1.20.1.jar'
 name = 'mebahelcreaturesdraugr'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'mebahel-creatures-draugr-1.6.0-fabric-1.20.1'
+x-prismlauncher-version-number = 'mebahel-creatures-draugr-1.8.4-fabric-1.20.1'
 
 [download]
-hash = '21e4ecb6651adbf62e3b6f52ffed89cc0776cc0a'
+hash = 'b8b3d45de4e2ccdded1f00a0819eea42bef1b53f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7842352
+file-id = 8084503
 project-id = 1398924
 
 [[x-prismlauncher-dependencies]]
-addonId = '388172'
+addonId = '1463166'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
@@ -25,5 +25,5 @@ addonId = '306612'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '1463166'
+addonId = '388172'
 type = 'REQUIRED'

@@ -1,7 +1,18 @@
-EntityEvents.spawned('bossrifts:boss_rift', event => {
+// EntityEvents.spawned("bossrifts:boss_rift", e => {
+//     let entityAABB = e.entity.boundingBox.inflate(2) //argument is radius in blocks
+//     let entitiesNear = e.entity.level.getEntitiesWithin(entityAABB)
+//     // console.log(entitiesNear)
 
-    const rift = event.entity
-    const entitiesNear = rift.level.getNearestEntity
-    console.log(entitiesNear+" nearby")
-    //plan is to get all nearby entities, then filter through them to get the closest one
-})
+//     for (let ent = 0; ent < entitiesNear.length; ent++)
+//         console.log(entitiesNear[ent])
+// })
+
+// EntityEvents.spawned('minecraft:minecart', event => {
+
+//     const rift = event.entity
+//     const entLevel = rift.level
+//     console.log(entLevel)
+//     var entitiesNear = entLevel.getNearbyEntities('minecraft:zombie',rift.distanceToEntitySqr() < 100)
+//     // console.log("Nearby: "+entitiesNear)
+    
+// })

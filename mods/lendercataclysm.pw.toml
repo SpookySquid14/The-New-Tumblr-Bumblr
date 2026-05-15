@@ -1,25 +1,25 @@
-filename = 'L_Enders_Cataclysm-3.27.jar'
+filename = 'L_Enders_Cataclysm-3.27-curios-fix.jar'
 name = 'cataclysm'
 side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'L_Enders_Cataclysm-3.27.jar'
+x-prismlauncher-version-number = 'L_Enders_Cataclysm-3.27-curios-fix.jar'
 
 [download]
-hash = '0295db344682c14cf1843ee9adbfc58284e05a3e'
+hash = '1ff5cd8d5bf6d20e7ac979a18ad57eb7dd831e45'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7908487
+file-id = 7934870
 project-id = 551586
 
 [[x-prismlauncher-dependencies]]
-addonId = '309927'
+addonId = '1001614'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '1001614'
+addonId = '309927'
 type = 'REQUIRED'

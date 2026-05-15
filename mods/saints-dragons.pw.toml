@@ -1,19 +1,19 @@
-filename = 'saintsdragons-1.20.1-0.7.1-FORGE-ALPHA.jar'
+filename = 'saintsdragons-1.20.1-0.7.2-FORGE-ALPHA.jar'
 name = "Saint's Dragons"
 side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'saintsdragons-1.20.1-0.7.1-FORGE-ALPHA.jar'
+x-prismlauncher-version-number = 'saintsdragons-1.20.1-0.7.2-FORGE-ALPHA.jar'
 
 [download]
-hash = '3842b6043953d7aa19f6e6510bb0e62863107051'
+hash = '255a131f94c06b5a53cde356ae249de75103b912'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7924770
+file-id = 7948749
 project-id = 1358098
 
 [[x-prismlauncher-dependencies]]
