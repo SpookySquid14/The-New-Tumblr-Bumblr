@@ -67862,7 +67862,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "18489d8a79ae7308245abfd7f07f5b81c4f8cf6165d612b363986c5b0f48574c"
+hash = "844b0ea76c1e68f9a6743a2d2ac8d9e9295bcf1809f4ec05888f6407ccd029ed"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69213,10 +69213,6 @@ file = "config/irons_spellbooks_spell_config/irons_spellbooks/example.txt"
 hash = "a56ae83d6d00ba04e2efa3a205da299a5532df1fe6921e9bc78d00483a1a12d7"
 
 [[files]]
-file = "config/irons_spellbooks_spell_config/irons_spellbooks/firebolt.json"
-hash = "d0342b1098abc94f81431b581bf9609fee000e386020f455b250896ac3714fa9"
-
-[[files]]
 file = "config/itemborders-common.toml"
 hash = "a6aae1e356c8388adce9a8107f1c31fb7af551b8cbfd736bd80e1387328c71eb"
 
@@ -69250,7 +69246,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "8c0405edaf272e2a4fc770883a5489955193c4b9c56a61df07ff31d569d4e2cc"
+hash = "d0e657cd8fdc05cd19b3594f2fd0eb316171378381959bf5ab1f0bebc534a3d3"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69674,7 +69670,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "6594b95b93df112a26f296c9caed7c6ecf07889465b4dd594545e1a80c2c0670"
+hash = "8fca791302797da3161c2114581224b8d0db0a781e584a83d0df97d82987844b"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69790,7 +69786,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "6a87f61d2ed7ee23c8c7120b3f2608f3d08c6275cf6284cf97643ab943df60a7"
+hash = "a49cc1495857877f26691e5d333dcac764d853b1c03f1c1c396323201a099dee"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -69798,7 +69794,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "e081a7c5db667632b6e20c00f531a431facba6b18770828b094838e900113e06"
+hash = "da137ed5ebc8fc252caa2f0381062dcba3360a105f435e54cd71ce94337cdc7c"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -78441,6 +78437,11 @@ metafile = true
 [[files]]
 file = "mods/probejs.pw.toml"
 hash = "4c5e4fb5f97b85cdf384ace0ac0ca5a4cee90396021eb73545f33db20d5235f0"
+metafile = true
+
+[[files]]
+file = "mods/pufferfish-skills-leveling.pw.toml"
+hash = "0e45a8fe231e0d6d055600ec37374aa258fc827e3acb6628e1bafdc167aacbdd"
 metafile = true
 
 [[files]]

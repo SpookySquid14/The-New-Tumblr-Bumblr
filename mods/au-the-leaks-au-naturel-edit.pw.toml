@@ -1,0 +1,18 @@
+filename = 'alltheleaks-1.1.1+1.20.1-forge.jar'
+name = 'Au The Leaks - Au Naturel Edit'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'alltheleaks-1.1.1+1.20.1-forge.jar'
+
+[download]
+hash = '549cb70ca6d0f947241504be766ea3629a692e97'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7383504
+project-id = 1414213

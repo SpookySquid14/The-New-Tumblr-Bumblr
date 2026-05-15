@@ -1,0 +1,553 @@
+/// <reference path="./globals.d.ts" />
+declare namespace Registry {
+    class SoundEvent extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.SoundEventBuilder;
+        create(id: string): Internal.SoundEventBuilder;
+    }
+    class Fluid extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.FluidBuilder;
+        create(id: string): Internal.FluidBuilder;
+    }
+    class MobEffect extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.BasicMobEffect$Builder;
+        create(id: string): Internal.BasicMobEffect$Builder;
+    }
+    class Block extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.BasicBlockJS$Builder;
+        create(id: string, type: "detector"): Internal.DetectorBlock$Builder;
+        create(id: string, type: "slab"): Internal.SlabBlockBuilder;
+        create(id: string, type: "stairs"): Internal.StairBlockBuilder;
+        create(id: string, type: "fence"): Internal.FenceBlockBuilder;
+        create(id: string, type: "wall"): Internal.WallBlockBuilder;
+        create(id: string, type: "fence_gate"): Internal.FenceGateBlockBuilder;
+        create(id: string, type: "pressure_plate"): Internal.PressurePlateBlockBuilder;
+        create(id: string, type: "button"): Internal.ButtonBlockBuilder;
+        create(id: string, type: "falling"): Internal.FallingBlockBuilder;
+        create(id: string, type: "crop"): Internal.CropBlockBuilder;
+        create(id: string, type: "cardinal"): Internal.HorizontalDirectionalBlockBuilder;
+        create(id: string, type: "carpet"): Internal.CarpetBlockBuilder;
+        create(id: string): Internal.BasicBlockJS$Builder;
+    }
+    class Enchantment extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.EnchantmentBuilder;
+        create(id: string): Internal.EnchantmentBuilder;
+    }
+    class EntityType extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "irons_spells_js:spellcasting"): Internal.SpellCastingMobJSBuilder;
+        create(id: string, type: "irons_spells_js:spell_projectile"): Internal.SpellProjectileJSBuilder;
+        create(id: string, type: "entityjs:nonliving"): Internal.BaseEntityJSBuilder;
+        create(id: string, type: "entityjs:living"): Internal.BaseLivingEntityJSBuilder;
+        create(id: string, type: "entityjs:mob"): Internal.MobEntityJSBuilder;
+        create(id: string, type: "entityjs:animal"): Internal.AnimalEntityJSBuilder;
+        create(id: string, type: "entityjs:watercreature"): Internal.WaterEntityJSBuilder;
+        create(id: string, type: "entityjs:tamable"): Internal.TameableMobJSBuilder;
+        create(id: string, type: "entityjs:arrow"): Internal.ArrowEntityJSBuilder;
+        create(id: string, type: "entityjs:projectile"): Internal.ProjectileEntityJSBuilder;
+        create(id: string, type: "entityjs:geckolib_projectile"): Internal.ProjectileAnimatableJSBuilder;
+        create(id: string, type: "minecraft:zombie"): Internal.ZombieJSBuilder;
+        create(id: string, type: "minecraft:allay"): Internal.AllayJSBuilder;
+        create(id: string, type: "minecraft:axolotl"): Internal.AxolotlJSBuilder;
+        create(id: string, type: "minecraft:bat"): Internal.BatJSBuilder;
+        create(id: string, type: "minecraft:bee"): Internal.BeeJSBuilder;
+        create(id: string, type: "minecraft:blaze"): Internal.BlazeJSBuilder;
+        create(id: string, type: "minecraft:boat"): Internal.BoatJSBuilder;
+        create(id: string, type: "minecraft:camel"): Internal.CamelJSBuilder;
+        create(id: string, type: "minecraft:cat"): Internal.CatJSBuilder;
+        create(id: string, type: "minecraft:chicken"): Internal.ChickenJSBuilder;
+        create(id: string, type: "minecraft:cow"): Internal.CowJSBuilder;
+        create(id: string, type: "minecraft:creeper"): Internal.CreeperJSBuilder;
+        create(id: string, type: "minecraft:dolphin"): Internal.DolphinJSBuilder;
+        create(id: string, type: "minecraft:donkey"): Internal.DonkeyJSBuilder;
+        create(id: string, type: "minecraft:enderman"): Internal.EnderManJSBuilder;
+        create(id: string, type: "minecraft:evoker"): Internal.EvokerJSBuilder;
+        create(id: string, type: "minecraft:ghast"): Internal.GhastJSBuilder;
+        create(id: string, type: "minecraft:goat"): Internal.GoatJSBuilder;
+        create(id: string, type: "minecraft:guardian"): Internal.GuardianJSBuilder;
+        create(id: string, type: "minecraft:horse"): Internal.HorseJSBuilder;
+        create(id: string, type: "minecraft:illusioner"): Internal.IllusionerJSBuilder;
+        create(id: string, type: "minecraft:iron_golem"): Internal.IronGolemJSBuilder;
+        create(id: string, type: "minecraft:panda"): Internal.PandaJSBuilder;
+        create(id: string, type: "minecraft:parrot"): Internal.ParrotJSBuilder;
+        create(id: string, type: "minecraft:eye_of_ender"): Internal.EyeOfEnderJSBuilder;
+        create(id: string, type: "minecraft:piglin"): Internal.PiglinJSBuilder;
+        create(id: string, type: "minecraft:wither"): Internal.WitherJSBuilder;
+        create(id: string, type: "minecraft:slime"): Internal.SlimeJSBuilder;
+        create(id: string, type: "minecraft:skeleton"): Internal.SkeletonJSBuilder;
+        create(id: string, type: "minecraft:wolf"): Internal.WolfJSBuilder;
+        create(id: string, type: "minecraft:trident"): Internal.TridentJSBuilder;
+        create(id: string): Internal.SpellCastingMobJSBuilder;
+    }
+    class Item extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.BasicItemJS$Builder;
+        create(id: string, type: "sword"): Internal.SwordItemBuilder;
+        create(id: string, type: "pickaxe"): Internal.PickaxeItemBuilder;
+        create(id: string, type: "axe"): Internal.AxeItemBuilder;
+        create(id: string, type: "shovel"): Internal.ShovelItemBuilder;
+        create(id: string, type: "shears"): Internal.ShearsItemBuilder;
+        create(id: string, type: "hoe"): Internal.HoeItemBuilder;
+        create(id: string, type: "helmet"): Internal.ArmorItemBuilder$Helmet;
+        create(id: string, type: "chestplate"): Internal.ArmorItemBuilder$Chestplate;
+        create(id: string, type: "leggings"): Internal.ArmorItemBuilder$Leggings;
+        create(id: string, type: "boots"): Internal.ArmorItemBuilder$Boots;
+        create(id: string, type: "music_disc"): Internal.RecordItemJS$Builder;
+        create(id: string, type: "smithing_template"): Internal.SmithingTemplateItemBuilder;
+        create(id: string, type: "create:sequenced_assembly"): Internal.SequencedAssemblyItemBuilder;
+        create(id: string, type: "create:sandpaper"): Internal.SandpaperItemBuilder;
+        create(id: string, type: "biomancy:basic_serum"): Internal.SerumItemBuilder;
+        create(id: string, type: "occultism:ritual_dummy"): Internal.RitualDummyItemType;
+        create(id: string, type: "spellbook"): Internal.CustomSpellBook$Builder;
+        create(id: string, type: "irons_spells_js:spellbook"): Internal.CustomSpellBook$Builder;
+        create(id: string, type: "staff"): Internal.CustomStaff$Builder;
+        create(id: string, type: "irons_spells_js:staff"): Internal.CustomStaff$Builder;
+        create(id: string, type: "magic_sword"): Internal.CustomMagicSwordItem$Builder;
+        create(id: string, type: "irons_spells_js:magic_sword"): Internal.CustomMagicSwordItem$Builder;
+        create(id: string): Internal.BasicItemJS$Builder;
+    }
+    class Potion extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.PotionBuilder;
+        create(id: string): Internal.PotionBuilder;
+    }
+    class ParticleType extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.ParticleTypeBuilder;
+        create(id: string): Internal.ParticleTypeBuilder;
+    }
+    class BlockEntityType extends Internal.RegistryEventJS<any> {
+    }
+    class PaintingVariant extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.PaintingVariantBuilder;
+        create(id: string): Internal.PaintingVariantBuilder;
+    }
+    class CustomStat extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.CustomStatBuilder;
+        create(id: string): Internal.CustomStatBuilder;
+    }
+    class ChunkStatus extends Internal.RegistryEventJS<any> {
+    }
+    class RuleTest extends Internal.RegistryEventJS<any> {
+    }
+    class PosRuleTest extends Internal.RegistryEventJS<any> {
+    }
+    class Menu extends Internal.RegistryEventJS<any> {
+    }
+    class RecipeType extends Internal.RegistryEventJS<any> {
+    }
+    class RecipeSerializer extends Internal.RegistryEventJS<any> {
+    }
+    class Attribute extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "spell"): Internal.SpellAttributeBuilderJS;
+        create(id: string, type: "irons_spells_js:spell"): Internal.SpellAttributeBuilderJS;
+        create(id: string): Internal.SpellAttributeBuilderJS;
+    }
+    class GameEvent extends Internal.RegistryEventJS<any> {
+    }
+    class PositionSourceType extends Internal.RegistryEventJS<any> {
+    }
+    class StatType extends Internal.RegistryEventJS<any> {
+    }
+    class VillagerType extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.VillagerTypeBuilder;
+        create(id: string): Internal.VillagerTypeBuilder;
+    }
+    class VillagerProfession extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.VillagerProfessionBuilder;
+        create(id: string): Internal.VillagerProfessionBuilder;
+    }
+    class PointOfInterestType extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.PoiTypeBuilder;
+        create(id: string): Internal.PoiTypeBuilder;
+    }
+    class MemoryModuleType extends Internal.RegistryEventJS<any> {
+    }
+    class SensorType extends Internal.RegistryEventJS<any> {
+    }
+    class Schedule extends Internal.RegistryEventJS<any> {
+    }
+    class Activity extends Internal.RegistryEventJS<any> {
+    }
+    class LootPoolEntryType extends Internal.RegistryEventJS<any> {
+    }
+    class LootFunctionType extends Internal.RegistryEventJS<any> {
+    }
+    class LootConditionType extends Internal.RegistryEventJS<any> {
+    }
+    class LootNumberProviderType extends Internal.RegistryEventJS<any> {
+    }
+    class LootNbtProviderType extends Internal.RegistryEventJS<any> {
+    }
+    class LootScoreProviderType extends Internal.RegistryEventJS<any> {
+    }
+    class CommandArgumentType extends Internal.RegistryEventJS<any> {
+    }
+    class DimensionType extends Internal.RegistryEventJS<any> {
+    }
+    class Dimension extends Internal.RegistryEventJS<any> {
+    }
+    class FloatProviderType extends Internal.RegistryEventJS<any> {
+    }
+    class IntProviderType extends Internal.RegistryEventJS<any> {
+    }
+    class HeightProviderType extends Internal.RegistryEventJS<any> {
+    }
+    class BlockPredicateType extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenNoiseSettings extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenConfiguredCarver extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenConfiguredFeature extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenPlacedFeature extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenStructure extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenStructureSet extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenProcessorList extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenTemplatePool extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenBiome extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenNoise extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenDensityFunction extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenWorldPreset extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenFlatLevelGeneratorPreset extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenCarver extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenFeature extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenStructurePlacement extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenStructurePiece extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenStructureType extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenPlacementModifierType extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenBlockStateProviderType extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenFoliagePlacerType extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenTrunkPlacerType extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenTreeDecoratorType extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenRootPlacerType extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenFeatureSizeType extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenBiomeSource extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenChunkGenerator extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenMaterialCondition extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenMaterialRule extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenDensityFunctionType extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenStructureProcessor extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenStructurePoolElement extends Internal.RegistryEventJS<any> {
+    }
+    class ChatType extends Internal.RegistryEventJS<any> {
+    }
+    class CatVariant extends Internal.RegistryEventJS<any> {
+    }
+    class FrogVariant extends Internal.RegistryEventJS<any> {
+    }
+    class BannerPattern extends Internal.RegistryEventJS<any> {
+    }
+    class Instrument extends Internal.RegistryEventJS<any> {
+    }
+    class TrimMaterial extends Internal.RegistryEventJS<any> {
+    }
+    class TrimPattern extends Internal.RegistryEventJS<any> {
+    }
+    class CreativeModeTab extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.CreativeTabBuilder;
+        create(id: string): Internal.CreativeTabBuilder;
+    }
+    class DamageType extends Internal.RegistryEventJS<any> {
+    }
+    class RuleBlockEntityModifier extends Internal.RegistryEventJS<any> {
+    }
+    class DecoratedPotPatterns extends Internal.RegistryEventJS<any> {
+    }
+    class WorldgenMultiNoiseBiomeSourceParameterList extends Internal.RegistryEventJS<any> {
+    }
+    class Serum extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.SerumBuilder;
+        create(id: string): Internal.SerumBuilder;
+    }
+    class BioForgeTab extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.BioForgeTabBuilder;
+        create(id: string): Internal.BioForgeTabBuilder;
+    }
+    class Spells extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.CustomSpell$Builder;
+        create(id: string): Internal.CustomSpell$Builder;
+    }
+    class Schools extends Internal.RegistryEventJS<any> {
+        create(id: string, type: "basic"): Internal.SchoolTypeJSBuilder;
+        create(id: string): Internal.SchoolTypeJSBuilder;
+    }
+    class SpawnConditionType extends Internal.RegistryEventJS<any> {
+    }
+    class ContraptionType extends Internal.RegistryEventJS<any> {
+    }
+    class DisplaySource extends Internal.RegistryEventJS<any> {
+    }
+    class MountedFluidStorageType extends Internal.RegistryEventJS<any> {
+    }
+    class VillagerTradesItemListing extends Internal.RegistryEventJS<any> {
+    }
+    class ChickenVariant extends Internal.RegistryEventJS<any> {
+    }
+    class PotatoProjectileRenderMode extends Internal.RegistryEventJS<any> {
+    }
+    class CatVariant extends Internal.RegistryEventJS<any> {
+    }
+    class ArmInteractionPointType extends Internal.RegistryEventJS<any> {
+    }
+    class PotatoProjectileEntityHitAction extends Internal.RegistryEventJS<any> {
+    }
+    class WolfVariant extends Internal.RegistryEventJS<any> {
+    }
+    class WolfSoundVariant extends Internal.RegistryEventJS<any> {
+    }
+    class BlendingFunction extends Internal.RegistryEventJS<any> {
+    }
+    class PotatoProjectileBlockHitAction extends Internal.RegistryEventJS<any> {
+    }
+    class FrogVariant extends Internal.RegistryEventJS<any> {
+    }
+    class CowVariant extends Internal.RegistryEventJS<any> {
+    }
+    class MountedItemStorageType extends Internal.RegistryEventJS<any> {
+    }
+    class DisplayTarget extends Internal.RegistryEventJS<any> {
+    }
+    class Condition extends Internal.RegistryEventJS<any> {
+    }
+    class ItemAttributeType extends Internal.RegistryEventJS<any> {
+    }
+    class FanProcessingType extends Internal.RegistryEventJS<any> {
+    }
+    class PigVariant extends Internal.RegistryEventJS<any> {
+    }
+    class Keytypes extends Internal.RegistryEventJS<any> {
+    }
+    class TagModifier extends Internal.RegistryEventJS<any> {
+    }
+    class Brews extends Internal.RegistryEventJS<any> {
+    }
+    class BeeEffect extends Internal.RegistryEventJS<any> {
+    }
+    class Gene extends Internal.RegistryEventJS<any> {
+    }
+    class MutationCondition extends Internal.RegistryEventJS<any> {
+    }
+    class BlockRecipeSerializers extends Internal.RegistryEventJS<any> {
+    }
+    class BlockRecipeTypes extends Internal.RegistryEventJS<any> {
+    }
+    class CannonCastShapes extends Internal.RegistryEventJS<any> {
+    }
+    class ShopEntryTypes extends Internal.RegistryEventJS<any> {
+    }
+    class ShopRequirementTypes extends Internal.RegistryEventJS<any> {
+    }
+    class EntityTicker extends Internal.RegistryEventJS<any> {
+    }
+    class ConnectionType extends Internal.RegistryEventJS<any> {
+    }
+    class StringType extends Internal.RegistryEventJS<any> {
+    }
+    class BedrockAnimations extends Internal.RegistryEventJS<any> {
+    }
+    class BedrockModels extends Internal.RegistryEventJS<any> {
+    }
+    class BossBars extends Internal.RegistryEventJS<any> {
+    }
+    class Configs extends Internal.RegistryEventJS<any> {
+    }
+    class ModelAttachmentType extends Internal.RegistryEventJS<any> {
+    }
+    class RenderType extends Internal.RegistryEventJS<any> {
+    }
+    class ScreenEffect extends Internal.RegistryEventJS<any> {
+    }
+    class BiomeModifierSerializers extends Internal.RegistryEventJS<any> {
+    }
+    class DisplayContexts extends Internal.RegistryEventJS<any> {
+    }
+    class EntityDataSerializers extends Internal.RegistryEventJS<any> {
+    }
+    class FluidType extends Internal.RegistryEventJS<any> {
+    }
+    class GlobalLootModifierSerializers extends Internal.RegistryEventJS<any> {
+    }
+    class HolderSetType extends Internal.RegistryEventJS<any> {
+    }
+    class StructureModifierSerializers extends Internal.RegistryEventJS<any> {
+    }
+    class RitualFactory extends Internal.RegistryEventJS<any> {
+    }
+    class TimeEffect extends Internal.RegistryEventJS<any> {
+    }
+    class JsonConditions extends Internal.RegistryEventJS<any> {
+    }
+    class Gas extends Internal.RegistryEventJS<any> {
+    }
+    class InfuseType extends Internal.RegistryEventJS<any> {
+    }
+    class Module extends Internal.RegistryEventJS<any> {
+    }
+    class Pigment extends Internal.RegistryEventJS<any> {
+    }
+    class RobitSkinSerializer extends Internal.RegistryEventJS<any> {
+    }
+    class Slurry extends Internal.RegistryEventJS<any> {
+    }
+    class Buildingextensions extends Internal.RegistryEventJS<any> {
+    }
+    class Buildings extends Internal.RegistryEventJS<any> {
+    }
+    class Colonyeventdesctypes extends Internal.RegistryEventJS<any> {
+    }
+    class Colonyeventtypes extends Internal.RegistryEventJS<any> {
+    }
+    class Craftingtypes extends Internal.RegistryEventJS<any> {
+    }
+    class Equipmenttypes extends Internal.RegistryEventJS<any> {
+    }
+    class Guardtypes extends Internal.RegistryEventJS<any> {
+    }
+    class Happinessfactortypes extends Internal.RegistryEventJS<any> {
+    }
+    class Happinessfunction extends Internal.RegistryEventJS<any> {
+    }
+    class Interactionresponsehandlers extends Internal.RegistryEventJS<any> {
+    }
+    class Jobs extends Internal.RegistryEventJS<any> {
+    }
+    class Questanswerresults extends Internal.RegistryEventJS<any> {
+    }
+    class Questobjectives extends Internal.RegistryEventJS<any> {
+    }
+    class Questrewards extends Internal.RegistryEventJS<any> {
+    }
+    class Questtriggers extends Internal.RegistryEventJS<any> {
+    }
+    class Recipetypeentries extends Internal.RegistryEventJS<any> {
+    }
+    class Researchcosttypes extends Internal.RegistryEventJS<any> {
+    }
+    class Researcheffecttypes extends Internal.RegistryEventJS<any> {
+    }
+    class Researchrequirementtypes extends Internal.RegistryEventJS<any> {
+    }
+    class BrainFactory extends Internal.RegistryEventJS<any> {
+    }
+    class RitualFactory extends Internal.RegistryEventJS<any> {
+    }
+    class SpiritJobFactory extends Internal.RegistryEventJS<any> {
+    }
+    class Perks extends Internal.RegistryEventJS<any> {
+    }
+    class Actions extends Internal.RegistryEventJS<any> {
+    }
+    class ConvertingHandler extends Internal.RegistryEventJS<any> {
+    }
+    class Entityactions extends Internal.RegistryEventJS<any> {
+    }
+    class Miniontasks extends Internal.RegistryEventJS<any> {
+    }
+    class Oil extends Internal.RegistryEventJS<any> {
+    }
+    class Refinement extends Internal.RegistryEventJS<any> {
+    }
+    class RefinementSet extends Internal.RegistryEventJS<any> {
+    }
+    class Skills extends Internal.RegistryEventJS<any> {
+    }
+    class TaskRequirement extends Internal.RegistryEventJS<any> {
+    }
+    class TaskReward extends Internal.RegistryEventJS<any> {
+    }
+    class TaskRewardInstance extends Internal.RegistryEventJS<any> {
+    }
+    class TaskUnlocker extends Internal.RegistryEventJS<any> {
+    }
+    class BiomeModifier extends Internal.RegistryEventJS<any> {
+    }
+    class FurnaceFuels extends Internal.RegistryEventJS<any> {
+    }
+    class BlockPropertiesTransformer extends Internal.RegistryEventJS<any> {
+    }
+    class SeaMessage extends Internal.RegistryEventJS<any> {
+    }
+    class ModdedBiomeSlices extends Internal.RegistryEventJS<any> {
+    }
+    class Tasks extends Internal.RegistryEventJS<any> {
+    }
+    class Noise extends Internal.RegistryEventJS<any> {
+    }
+    class Compostables extends Internal.RegistryEventJS<any> {
+    }
+    class StructureModifier extends Internal.RegistryEventJS<any> {
+    }
+    class PotatoProjectileType extends Internal.RegistryEventJS<any> {
+    }
+    class SoftFluids extends Internal.RegistryEventJS<any> {
+    }
+    class Flower extends Internal.RegistryEventJS<any> {
+    }
+    class ModdedBiomeSlices extends Internal.RegistryEventJS<any> {
+    }
+    class LunarEvent extends Internal.RegistryEventJS<any> {
+    }
+    class ShopCategories extends Internal.RegistryEventJS<any> {
+    }
+    class Mutation extends Internal.RegistryEventJS<any> {
+    }
+    class UpgradeOrbType extends Internal.RegistryEventJS<any> {
+    }
+    class Lens extends Internal.RegistryEventJS<any> {
+    }
+    class ColorPalette extends Internal.RegistryEventJS<any> {
+    }
+    class Currencies extends Internal.RegistryEventJS<any> {
+    }
+    class Species extends Internal.RegistryEventJS<any> {
+    }
+    class Filter extends Internal.RegistryEventJS<any> {
+    }
+    class LunarDimensionSettings extends Internal.RegistryEventJS<any> {
+    }
+    class RobitSkin extends Internal.RegistryEventJS<any> {
+    }
+    class WispArcheology extends Internal.RegistryEventJS<any> {
+    }
+    class CassetteTape extends Internal.RegistryEventJS<any> {
+    }
+    class LunarEventDimensionChance extends Internal.RegistryEventJS<any> {
+    }
+    class BlockSoundTransformers extends Internal.RegistryEventJS<any> {
+    }
+    class MapMarkers extends Internal.RegistryEventJS<any> {
+    }
+    class BlockUseBehaviors extends Internal.RegistryEventJS<any> {
+    }
+    class BiomeReplacer extends Internal.RegistryEventJS<any> {
+    }
+    class Comb extends Internal.RegistryEventJS<any> {
+    }
+    class StructureRepaletters extends Internal.RegistryEventJS<any> {
+    }
+}

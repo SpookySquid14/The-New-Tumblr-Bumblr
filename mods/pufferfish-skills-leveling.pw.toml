@@ -1,0 +1,25 @@
+filename = 'puffish_skill_leveling-0.17.3-1.20-forge.jar'
+name = 'Pufferfish Skills Leveling'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'puffish_skill_leveling-0.17.3-1.20-forge_part_2'
+
+[download]
+hash = 'd7a76556c88c94b627c53dac7c8eb4de040f338c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7900362
+project-id = 1457871
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '835091'
+type = 'REQUIRED'

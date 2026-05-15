@@ -1,0 +1,18 @@
+filename = 'gnetum-2.4.3.jar'
+name = 'Gnetum'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'gnetum-2.4.3.jar'
+
+[download]
+hash = '930ad50535a52210cf4d742ac01e7e623ada3e3c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8021295
+project-id = 1220460
