@@ -1,0 +1,9 @@
+{
+    "unlocked_by_default": true,
+	"title": "Combat",
+    "icon": {
+        "type": "item",
+        "data": { "item": "minecraft:iron_sword" }
+    },
+    "background": "minecraft:textures/block/stone.png"
+}

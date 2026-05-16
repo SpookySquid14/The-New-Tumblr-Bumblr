@@ -35737,6 +35737,10 @@ file = "config/blockswap/known_states/pipeorgans/windchest_master.json5"
 hash = "800fcb0f9e399c7ff1ea75c353371ac6c5da81ca0e92000d360c466250ca0215"
 
 [[files]]
+file = "config/blockswap/known_states/puffish_skill_leveling/skill_scribe_table.json5"
+hash = "cc1f1275afe397fe02b9192e6daaf6cdb2d7d1bf92906a5e963a74acb9aab5ff"
+
+[[files]]
 file = "config/blockswap/known_states/quark/acacia_bookshelf.json5"
 hash = "f7177ee7e505e69b394faa5088cf77463e9de3143c4feebcc6f6ae8eac427e1a"
 
@@ -67682,7 +67686,7 @@ hash = "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "f0e41f27f1a1aa33dc45fe026b7599a896957cffc8ea1142c998502cdd78ba52"
+hash = "5ba28067270c7a443a1b0f53fdf843c762d1e692f1f8d4a99f39ad4b321abe9b"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -67862,7 +67866,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "844b0ea76c1e68f9a6743a2d2ac8d9e9295bcf1809f4ec05888f6407ccd029ed"
+hash = "2883cd90753eed10d7c0378af3a66563300b860d4fe71b68f4fef321dd8d3454"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69246,7 +69250,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "d0e657cd8fdc05cd19b3594f2fd0eb316171378381959bf5ab1f0bebc534a3d3"
+hash = "a4ea49d43e4e9a48bf4ac02a81d86e4a6909f3fa8bb03eccfefa202b42a22c5b"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69670,7 +69674,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "8fca791302797da3161c2114581224b8d0db0a781e584a83d0df97d82987844b"
+hash = "d946a2bc9d5b99ffc441d6bf0d6741bc54b16583939bdb40544d94ca02a8fcdd"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69786,7 +69790,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "a49cc1495857877f26691e5d333dcac764d853b1c03f1c1c396323201a099dee"
+hash = "4a4359b9c3e20fe436245816e7108589efe1ef16fb33cbeb0d83b3c078e0990e"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -69794,7 +69798,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "da137ed5ebc8fc252caa2f0381062dcba3360a105f435e54cd71ce94337cdc7c"
+hash = "3ab04b1916bce827c60cacc5d567d1ae542bf4a799401dc1401625bbcccd9897"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69951,6 +69955,10 @@ hash = "7508f3f5ceed80c7c606d01ee2dc93e2c72a8afa199ccb691fc5225c894d5bbd"
 [[files]]
 file = "config/prettyrain.json5"
 hash = "296e458f6d249eb09e69685077d38f6c67251c51f22cf14822793098364b462c"
+
+[[files]]
+file = "config/puffish_skill_leveling.json"
+hash = "797fbbb7c8edad959f750869a961bfbc81c06d38c421e9d4c08f542a197dfe25"
 
 [[files]]
 file = "config/puffish_skills/config.json"
@@ -75535,6 +75543,26 @@ hash = "e66e93574132e94bbe2beaef644f445ec0d54e378e43cea25ee8c2652351ad61"
 [[files]]
 file = "kubejs/data/puffish_skills/puffish_skills/categories/combat/skills.json"
 hash = "06aa22cbe62a0be5282a51da7f72a18793c6bf3d9ec579909a5c46b9e4c67863"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/leveling/category.json"
+hash = "5f05ae8f5d5937c6e7e2ba4309a3edc4a708c1e78dd19cbfab9e7cc03df6ba5e"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/leveling/connections.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/leveling/definitions.json"
+hash = "ca7df15f273e93feb76166de85142956f8690f655f4682a3f03f08406e4f5217"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/leveling/experience.json"
+hash = "e66e93574132e94bbe2beaef644f445ec0d54e378e43cea25ee8c2652351ad61"
+
+[[files]]
+file = "kubejs/data/puffish_skills/puffish_skills/categories/leveling/skills.json"
+hash = "20797ec4cc9e8d67eaeba980a7b55cd87a6da123680d76912c284b681a059b32"
 
 [[files]]
 file = "kubejs/data/puffish_skills/puffish_skills/categories/mining/category.json"
