@@ -914,7 +914,7 @@ hash = "557cc1b6ba1369f5d2459054cc2b9e9f91c58b9cdecb0a3023a911b435b1a9c8"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "46ae0f2b623c66bfda9ca254f3766edeb8f195830e8ef6489e7f8aefb6c7b507"
+hash = "b780cb2a7952edb664bed61bb1830400c29f77295d2e41d1902509dda219e015"
 
 [[files]]
 file = "config/apotheosis/garden.cfg"
@@ -1434,7 +1434,7 @@ hash = "63f34caf47c465338b28a5661d3236aa71ea5e4774635bad54718c3edc7bbfec"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "b7f88eaddfc4921e165ab63958b58bed0be0ab662322f0ac6fbb8f6ccfbbe604"
+hash = "159b5de7d0ba4c3fb07c8f55e142797879d7a5922e89c8fd24ef0f43a4a6e37e"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -35513,6 +35513,10 @@ file = "config/blockswap/known_states/oceansdelight/guardian_soup.json5"
 hash = "06993e53ecdcfd3ef42852d7db43bf5e3ecb11f8efd03df3881df538fa1af8b3"
 
 [[files]]
+file = "config/blockswap/known_states/origins/temporary_cobweb.json5"
+hash = "f0944c74d37e3c74c833de48b00dc2dafaf9056031562b468fa53d2a986ed522"
+
+[[files]]
 file = "config/blockswap/known_states/piglinproliferation/blackstone_fire_ring.json5"
 hash = "9bb4337caf24736c7edc960350cf334a4c4ad6f318ec8d9d27d14663c94d2abd"
 
@@ -67393,6 +67397,10 @@ file = "config/canary.properties"
 hash = "a37eb7f218ab61f3277a103a85c5bd14ff0abe0dff94e17883bcbb5ea28a3855"
 
 [[files]]
+file = "config/cardinal-components-api.properties"
+hash = "f7e7f346e0724cf9cfb77f44dec2e7d202ea2507729ec7b95ee6a8f089c82982"
+
+[[files]]
 file = "config/cat_loaf.json"
 hash = "b0969c40c02d1321437a636f0b47ed61cd0fd5806b315dae280d489532d23819"
 
@@ -67543,6 +67551,10 @@ hash = "6b95731807c56659d67f5c439439493834d0c42ad33baf23ef60d45bb7e73202"
 [[files]]
 file = "config/connector.json"
 hash = "060e296a5fddce603e50034e3cdb6059c3a0e122d0aae3d85a0523341c82ea22"
+
+[[files]]
+file = "config/connectorextras_energy_bridge-common.toml"
+hash = "a4d9eeb8806752eadbaf17d3072d1be28c508943814c5c14e2b85f936406758d"
 
 [[files]]
 file = "config/constructionwand-client.toml"
@@ -67866,7 +67878,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "2883cd90753eed10d7c0378af3a66563300b860d4fe71b68f4fef321dd8d3454"
+hash = "808e7cf9630490efc55dbc38d611ec67b47aaa6be7709178ca206201e0ae6e11"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69250,7 +69262,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "a4ea49d43e4e9a48bf4ac02a81d86e4a6909f3fa8bb03eccfefa202b42a22c5b"
+hash = "75b73ea952eb77003f31240958f66496fcec297813a72d26163bbcc55ceb03d6"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69674,7 +69686,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "d946a2bc9d5b99ffc441d6bf0d6741bc54b16583939bdb40544d94ca02a8fcdd"
+hash = "ed4d0badef32421b190cda5291c87817583f11d2a8d7ed95ec499b05cb2d559b"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69790,7 +69802,11 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "4a4359b9c3e20fe436245816e7108589efe1ef16fb33cbeb0d83b3c078e0990e"
+hash = "b612d5442fe65cc9d6b99b6b2488ff32a8e7548df6ae94e75f1bf1ffd91e4940"
+
+[[files]]
+file = "config/origins_server.json"
+hash = "b26e9f64a41731a9154ac4488becb0269b62da504e4d3f0819d19787ac62c089"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -69798,7 +69814,11 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "3ab04b1916bce827c60cacc5d567d1ae542bf4a799401dc1401625bbcccd9897"
+hash = "24875b2b3e5ded40259fb0c6b490042ca6256419b6765d4b027a2aa88361942d"
+
+[[files]]
+file = "config/pal.properties"
+hash = "4b178865259e23e2d820e6f534b28ba8cea8af79f0b98fc4d70afdfda2ff76cf"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -69951,6 +69971,10 @@ hash = "903bdc420ee4feea2efd90ad60c790d1e2f183152a8e42edc9b0dc19beaf7992"
 [[files]]
 file = "config/ponder-client.toml"
 hash = "7508f3f5ceed80c7c606d01ee2dc93e2c72a8afa199ccb691fc5225c894d5bbd"
+
+[[files]]
+file = "config/power_config.json5"
+hash = "4a0492a46ebe8c5870fccbd5451cfff5a6557779ae34270e33620024b0896245"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -77128,6 +77152,11 @@ hash = "aaf4ae248b738986c4f3203ae72bccbdd9fd5c870c0acae27eb5cdbb2dd15763"
 metafile = true
 
 [[files]]
+file = "mods/connector-extras.pw.toml"
+hash = "055ce100cd9110564b358191b5c1f65e655fd321a8550cbd8c84bac89e9458cb"
+metafile = true
+
+[[files]]
 file = "mods/construction-wand.pw.toml"
 hash = "592bc4f04268480ab88e930adbfa3fdc4ecc9f1756267263fa690c9816d5e517"
 metafile = true
@@ -78365,6 +78394,11 @@ metafile = true
 [[files]]
 file = "mods/optimized-recipe-book.pw.toml"
 hash = "37486b366525b4399221101ac45195a4d0988f70507ce7c3b4ea4f3802901d90"
+metafile = true
+
+[[files]]
+file = "mods/origins.pw.toml"
+hash = "5eae75bf45f77019967064b49dc7db1293ccd64e5499ecb6f9774ff53a8894f1"
 metafile = true
 
 [[files]]
