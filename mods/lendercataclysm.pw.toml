@@ -1,19 +1,19 @@
-filename = 'L_Enders_Cataclysm-3.27-curios-fix.jar'
+filename = 'L_Enders_Cataclysm-3.28-optimization.jar'
 name = 'cataclysm'
 side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'L_Enders_Cataclysm-3.27-curios-fix.jar'
+x-prismlauncher-version-number = "L_Ender's Cataclysm 1.20.1-3.28.jar"
 
 [download]
-hash = '1ff5cd8d5bf6d20e7ac979a18ad57eb7dd831e45'
+hash = 'fe62e07150eeb9e34a901a144cae074198d043b7'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7934870
+file-id = 8095632
 project-id = 551586
 
 [[x-prismlauncher-dependencies]]

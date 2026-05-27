@@ -59,7 +59,7 @@
 			warlockHealth = 26.0
 
 		[Attributes.Cultists.Heretic]
-			#How much damage Heretics deals, Default: 2.0
+			#How much damage Heretics deals, Default: 5.0
 			#Range: 1.0 ~ 1.7976931348623157E308
 			hereticDamage = 2.0
 			#How much Max Health Heretics have, Default: 26.0
@@ -1109,6 +1109,14 @@
 			#How much Max Health Mossy Skeleton Servants have, Default: 20.0
 			#Range: 1.0 ~ 1.7976931348623157E308
 			mossySkeletonServantHealth = 20.0
+
+		[Attributes."Summoned Mobs".Sprite]
+			#How much Max Health Sprites have, Default: 12.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			spriteHealth = 12.0
+			#How much damage Sprites deals, Default: 2.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			spriteDamage = 2.0
 
 	[Attributes.Illagers]
 		#How much Max Health Conquillager have, Default: 24.0

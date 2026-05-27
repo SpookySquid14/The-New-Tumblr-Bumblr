@@ -1,25 +1,25 @@
-filename = 'elytratrims-forge-3.9.3+1.20.1.jar'
+filename = 'elytratrims-forge-3.10.0+1.20.1.jar'
 name = 'Elytra Trims'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Elytra Trims Forge 3.9.3 for 1.20.1'
+x-prismlauncher-version-number = 'Elytra Trims Forge 3.10.0 for 1.20.1'
 
 [download]
-hash = 'b5c08f27ab121f1df24ca1f1086650f2db673cf3'
+hash = 'e04b441b3fd8789bf69eb82eae6c24e9aabc8075'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7218142
+file-id = 8011734
 project-id = 876199
-
-[[x-prismlauncher-dependencies]]
-addonId = '351264'
-type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = '667299'
 type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '351264'
+type = 'REQUIRED'

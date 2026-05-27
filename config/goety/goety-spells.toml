@@ -1766,6 +1766,23 @@
 		#Range: > 1
 		hoggingLimit = 4
 
+	[Spells."Sprightly Spell"]
+		#Sprightly Spell Cost, Default: 24
+		#Range: > 0
+		spriteCost = 24
+		#Time to cast Sprightly Spell, Default: 100
+		#Range: 0 ~ 72000
+		spriteDuration = 100
+		#Sprightly Spell Cooldown, Default: 200
+		#Range: > 0
+		spriteCoolDown = 200
+		#Sprightly Spell Summon Down, Default: 200
+		#Range: 0 ~ 72000
+		spriteSummonDown = 200
+		#Number of Sprites that can exist around the player, Default: 8
+		#Range: > 1
+		spriteLimit = 8
+
 [Enchantments]
 	#Soul Eater Maximum Enchantment Level, Default: 5
 	#Range: 1 ~ 10

@@ -1,18 +1,18 @@
-filename = 'stylecolonies-1.20.1-1.15.60.jar'
-name = 'Stylecolonies'
+filename = 'stylecolonies-1.20.1-1.15.63.jar'
+name = 'stylecolonies mod'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'stylecolonies-1.20.1-1.15.60.jar'
+x-prismlauncher-version-number = 'stylecolonies-1.20.1-1.15.63.jar'
 
 [download]
-hash = '6e9e61dd3377affba50216866d85d02f7b409989'
+hash = '1f6eb0c090ab6e25be648fe0989b8e54185394e8'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7816000
+file-id = 8108190
 project-id = 827507

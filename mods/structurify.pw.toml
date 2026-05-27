@@ -1,19 +1,19 @@
-filename = 'structurify-forge-2.0.22+mc1.20.1.jar'
-name = 'Structurify – Structure Control'
+filename = 'structurify-forge-2.0.25+mc1.20.1.jar'
+name = 'Structurify'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Structurify 2.0.22'
+x-prismlauncher-version-number = 'Structurify 2.0.25'
 
 [download]
-hash = '8a4bb82f8e6ab895dbdd1429c664e27435899aea'
+hash = '488cb9770e15d14b586db1c79bc84f420c606c86'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7895127
+file-id = 8108263
 project-id = 1087551
 
 [[x-prismlauncher-dependencies]]

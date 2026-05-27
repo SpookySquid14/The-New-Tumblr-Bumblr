@@ -30,4 +30,11 @@
 	#Should the GUI overlay with claim informations be disabled?""
 	#default: false
 	DisableClaimGUIOverlay = false
+	#----UpdateMapTiles----
+	#	(takes effect after restart)
+	#	
+	#Should the world map tiles be updated while the map is open?
+	#Disable this if you experience performance issues with the map.""
+	#default: true
+	UpdateMapTiles = true
 

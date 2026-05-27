@@ -1,24 +1,28 @@
-filename = 'goety_cataclysm-1.20-1.8.1.jar'
+filename = 'goety_cataclysm-1.20-1.8.2.jar'
 name = 'Goety Cataclysm'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Goety Cataclysm 1.20-1.8.1'
+x-prismlauncher-version-number = 'Goety Cataclysm 1.20-1.8.2'
 
 [download]
-hash = '7654114bff23ecda72220e6342ed4181fb330bb9'
+hash = 'da516b709fc3825d7b879a5767fa09cc5c506f4a'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7888550
+file-id = 8106815
 project-id = 1224214
 
 [[x-prismlauncher-dependencies]]
 addonId = '551586'
 type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306770'
+type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '1001614'
@@ -27,10 +31,6 @@ type = 'REQUIRED'
 [[x-prismlauncher-dependencies]]
 addonId = '309927'
 type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '306770'
-type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '586095'

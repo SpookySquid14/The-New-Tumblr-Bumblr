@@ -1,5 +1,5 @@
 filename = 'workers-1.20.1-1.7.9.1.jar'
-name = 'Villager Workers: Traveling Merchant Update!'
+name = 'Villager Workers 2.0.0'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]

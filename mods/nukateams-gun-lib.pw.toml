@@ -1,40 +1,20 @@
-filename = 'ntgl-1.20.1-3.1.0.jar'
+filename = 'ntgl-1.20.1-3.1.1.jar'
 name = "NukaTeam's Gun Lib"
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'ntgl-1.20.1-3.1.0.jar'
+x-prismlauncher-version-number = 'ntgl-1.20.1-3.1.1.jar'
 
 [download]
-hash = '2e46a85986a9ff4c5af8a199a838c22adcca1935'
+hash = 'e8dde07af3a595de274e596737833b0ead7f45b2'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7996959
+file-id = 8089291
 project-id = 998474
-
-[[x-prismlauncher-dependencies]]
-addonId = '422301'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '549225'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '388172'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '321117'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '317269'
-type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '1285177'
@@ -45,9 +25,25 @@ addonId = '1023913'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
+addonId = '321117'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
 addonId = '658587'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '352835'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '422301'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '317269'
 type = 'OPTIONAL'
