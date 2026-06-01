@@ -1,5 +1,5 @@
 {
-	"isHoldToAttackEnabled": false,
+	"isHoldToAttackEnabled": true,
 	"isMiningWithWeaponsEnabled": true,
 	"isSwingThruGrassEnabled": true,
 	"isAttackInsteadOfMineWhenEnemiesCloseEnabled": true,

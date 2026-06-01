@@ -1502,7 +1502,7 @@ hash = "95bdbfe1263fb62be9951dbbe48f32683ad4da8d0084a17220e5f674325a3373"
 
 [[files]]
 file = "config/bettercombat/client.json5"
-hash = "1bffc90fec6043609925092eb8c51209eebfb845aef8d9d4a20410ba0809967f"
+hash = "4acdc616f6e05b52374df3033fbda3862bca42270d71c44662218b0b61ba8377"
 
 [[files]]
 file = "config/bettercombat/fallback_compatibility.json"
@@ -68042,7 +68042,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "609b39fafaeff47d6890e4971ba0ba818b73d73111e5b4d5ccdda60ee1d5111c"
+hash = "455760f1f1bc0faa4ced28d39ec9ad8dc13ac3cf7a560c4df773f22b3a4e4a83"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69430,7 +69430,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "8c0405edaf272e2a4fc770883a5489955193c4b9c56a61df07ff31d569d4e2cc"
+hash = "5e6c735d2632aacbecc369a78bda225d50eb16b6fad32e6912d83a1e83ce8dff"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69566,7 +69566,7 @@ hash = "440c18ed809b7fb2e00477cbe7cdfe789ba3d6c7031093489fd1b9fde064270d"
 
 [[files]]
 file = "config/jei/world/local/New_World__3/lookupHistory.ini"
-hash = "1c6a1d9d15402202037bd0a4d6317442106fe8f26ed343e36b2d12680b8f0f56"
+hash = "4c6e763dc37d6d0058a7c0130274f353f68d6a80dfeb2783c972709a168485bc"
 
 [[files]]
 file = "config/jei/world/local/New_World__30/lookupHistory.ini"
@@ -69854,7 +69854,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "871b1e710ff45c870c2b9e46f552ee26ec38c88ae8fa39205504bd645db46f17"
+hash = "aa3397b8fabb6122df7b472493e1f42b1e8e80ecc1756c38714f7bb7a27741f2"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69970,7 +69970,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "d617c5851c0ca29c3a8544f0a29524570895432f5cf127946979235fb735fcd2"
+hash = "4caa8db08a781b1fae18ab3f01277067e2c514940888594e42a540d57396bf98"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -69986,7 +69986,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "cf79171aaf5b313115b2e3f1ddce1eaed7d5aa15d26e28a4c9d62007a217a430"
+hash = "abc4ccf3d92aaa11e28e1894c323c95880251a0322cca70215ff27cc8f47c3a5"
 
 [[files]]
 file = "config/pal.properties"
@@ -77035,11 +77035,6 @@ hash = "7b2cf8819f5a6086044ead7cdd9f8dd1f4e5ab957d1b4a7e5196511c9bddefbe"
 metafile = true
 
 [[files]]
-file = "mods/better-chunk-loading-forge-fabric.pw.toml"
-hash = "91ff605cc519091357f89f608cf468d54c5d57a69d14b4f424090c38887de7d9"
-metafile = true
-
-[[files]]
 file = "mods/better-combat-by-daedelus.pw.toml"
 hash = "c4cd3ab43b024716029e26c6fc5ec457ebc2e2c08adef64d950b118540b92931"
 metafile = true
@@ -77222,11 +77217,6 @@ metafile = true
 [[files]]
 file = "mods/cgs.pw.toml"
 hash = "f8b4d9df5d4210420549d121e0344a0c33147efdcae5380c7ce065299c9a6d7e"
-metafile = true
-
-[[files]]
-file = "mods/charging-gadgets.pw.toml"
-hash = "1a8288277d956e33f4a247126d94d408a76f02779326bfdd5831a4ca82258e18"
 metafile = true
 
 [[files]]
@@ -77635,16 +77625,6 @@ hash = "7a011257d751ae3fc942e9882348719fa7d94f6a0f43e939b9ca88e5f2c1d35f"
 metafile = true
 
 [[files]]
-file = "mods/elytra-trims-extensions.pw.toml"
-hash = "7178c5ca04970f6edef30bbfaaf9b93e86799294f0b6ee77d570a7bee8b15a6a"
-metafile = true
-
-[[files]]
-file = "mods/elytra-trims.pw.toml"
-hash = "a23a71ec36dd31e27d45f4a87b065731a292e6a6e69769a496c8ae102cc2f080"
-metafile = true
-
-[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "15fb9417f2bfd04f51b39677c954d867a1d0f7b9c013601c3a627879e732457e"
 metafile = true
@@ -78047,11 +78027,6 @@ metafile = true
 [[files]]
 file = "mods/immersive-engineering.pw.toml"
 hash = "17a9b025f39b47ae9f0c6b077536503993ddef1b7fd29cb0516cb9ab7e1916bc"
-metafile = true
-
-[[files]]
-file = "mods/immersive-machinery.pw.toml"
-hash = "80c6787c325511a66559a821208258e897eacaf37f9bf4017547a7e86d58ef48"
 metafile = true
 
 [[files]]
@@ -78680,11 +78655,6 @@ hash = "4c5e4fb5f97b85cdf384ace0ac0ca5a4cee90396021eb73545f33db20d5235f0"
 metafile = true
 
 [[files]]
-file = "mods/pufferfish-skills-leveling.pw.toml"
-hash = "0e45a8fe231e0d6d055600ec37374aa258fc827e3acb6628e1bafdc167aacbdd"
-metafile = true
-
-[[files]]
 file = "mods/pufferfishs-unofficial-additions.pw.toml"
 hash = "3dbda72c0ecd7ba428fcaa98d76bbfd32c5c8304312c7b2ce3a0d59ab0b4bcc8"
 metafile = true
@@ -78767,11 +78737,6 @@ metafile = true
 [[files]]
 file = "mods/recipe-essentials-forge-fabric.pw.toml"
 hash = "24ec63eebfde00b2da4e5c7001506a42f09fceacb2b476eff06898aa140800d1"
-metafile = true
-
-[[files]]
-file = "mods/recruits.pw.toml"
-hash = "be853e4ef6f16324ae7a85d89c656163eef9d07a28f298cc3427ffeed0e728e0"
 metafile = true
 
 [[files]]
@@ -78870,18 +78835,8 @@ hash = "fb06d6239898eac29b6ceb67addc922aa3dfb1d4018534d34e5909532451949b"
 metafile = true
 
 [[files]]
-file = "mods/siegeweapons.pw.toml"
-hash = "4543fa4b4530b9d3e07e54f95bb847bf937abba28ff521a72aa00be73ae47d71"
-metafile = true
-
-[[files]]
 file = "mods/simple-backups.pw.toml"
 hash = "b422352b130ad9084cdad90f9f346e3cbfa54e94f5aea27d68e076eb7dea9954"
-metafile = true
-
-[[files]]
-file = "mods/simply-tea.pw.toml"
-hash = "55c8f837256b55e4126d3a0859855dc306f1c06ba887539629b8006f616b29e9"
 metafile = true
 
 [[files]]
@@ -79220,11 +79175,6 @@ hash = "48a4c074f1d34321a50b8d6cfb8d2a440ee598774176ef1672dd98def96c5560"
 metafile = true
 
 [[files]]
-file = "mods/vanilla-animated-guns.pw.toml"
-hash = "626e3ca89e83c68d38dbb82bf79d0534c5b11210d5996ffe3f61bc0e57fbda24"
-metafile = true
-
-[[files]]
 file = "mods/vanillabackport.pw.toml"
 hash = "9c4585180798668e09a7e99bf0b90942bd824683c864999effcb6f856171b0e2"
 metafile = true
@@ -79287,11 +79237,6 @@ metafile = true
 [[files]]
 file = "mods/workers.pw.toml"
 hash = "bdbf04c0de750f8884c8de02e98bfadcc26a29418abead9320d892d2c5a998c0"
-metafile = true
-
-[[files]]
-file = "mods/wormhole-artifact.pw.toml"
-hash = "44c2b85d4cb55e7f6cd0a22007a986c977f519fd98b8d0e2f33bd4836f2128ce"
 metafile = true
 
 [[files]]
