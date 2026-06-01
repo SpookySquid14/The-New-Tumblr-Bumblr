@@ -1,0 +1,724 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "0",
+			"facing": "north",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "0",
+			"facing": "north",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "1",
+			"facing": "north",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "1",
+			"facing": "north",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "2",
+			"facing": "north",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "2",
+			"facing": "north",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "0",
+			"facing": "east",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "0",
+			"facing": "east",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "1",
+			"facing": "east",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "1",
+			"facing": "east",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "2",
+			"facing": "east",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "2",
+			"facing": "east",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "0",
+			"facing": "south",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "0",
+			"facing": "south",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "1",
+			"facing": "south",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "1",
+			"facing": "south",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "2",
+			"facing": "south",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "2",
+			"facing": "south",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "0",
+			"facing": "west",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "0",
+			"facing": "west",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "1",
+			"facing": "west",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "1",
+			"facing": "west",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "2",
+			"facing": "west",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "2",
+			"facing": "west",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "0",
+			"facing": "up",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "1",
+			"facing": "up",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "1",
+			"facing": "up",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "2",
+			"facing": "up",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "2",
+			"facing": "up",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "0",
+			"facing": "down",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "0",
+			"facing": "down",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "1",
+			"facing": "down",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "1",
+			"facing": "down",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "2",
+			"facing": "down",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "2",
+			"facing": "down",
+			"enabled": "true"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "0",
+			"facing": "north",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "0",
+			"facing": "north",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "1",
+			"facing": "north",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "1",
+			"facing": "north",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "2",
+			"facing": "north",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "2",
+			"facing": "north",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "0",
+			"facing": "east",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "0",
+			"facing": "east",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "1",
+			"facing": "east",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "1",
+			"facing": "east",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "2",
+			"facing": "east",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "2",
+			"facing": "east",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "0",
+			"facing": "south",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "0",
+			"facing": "south",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "1",
+			"facing": "south",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "1",
+			"facing": "south",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "2",
+			"facing": "south",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "2",
+			"facing": "south",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "0",
+			"facing": "west",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "0",
+			"facing": "west",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "1",
+			"facing": "west",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "1",
+			"facing": "west",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "2",
+			"facing": "west",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "2",
+			"facing": "west",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "0",
+			"facing": "up",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "0",
+			"facing": "up",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "1",
+			"facing": "up",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "1",
+			"facing": "up",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "2",
+			"facing": "up",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "2",
+			"facing": "up",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "0",
+			"facing": "down",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "0",
+			"facing": "down",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "1",
+			"facing": "down",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "1",
+			"facing": "down",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"trigger": "2",
+			"facing": "down",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"trigger": "2",
+			"facing": "down",
+			"enabled": "false"
+		},
+		"Name": "clanginghowl:redstone_steel_lamp"
+	}
+]

@@ -1,19 +1,19 @@
-filename = 'clanging-howl-[Forge]_1.20.1_1.0.4.jar'
+filename = 'clanging-howl-[Forge]_1.20.1_1.1.0.jar'
 name = 'Clanging Howl'
 side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'clanging-howl-[Forge]_1.20.1_1.0.4.jar'
+x-prismlauncher-version-number = 'clanging-howl-[Forge]_1.20.1_1.1.0.jar'
 
 [download]
-hash = '87e59f2b3a92d41ab192ce1c8275caccfde9df5c'
+hash = 'e88955b224e70c9ccf2854174f5e52475e2a9a9a'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7203667
+file-id = 8175977
 project-id = 1367022
 
 [[x-prismlauncher-dependencies]]
@@ -21,7 +21,7 @@ addonId = '388172'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '532286'
+addonId = '250419'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -29,5 +29,9 @@ addonId = '238222'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '250419'
+addonId = '532286'
 type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'REQUIRED'

@@ -12,426 +12,473 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "true",
+			"triggered": "true",
 			"facing": "north",
-			"age": "0"
+			"cylinders": "1"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
+			"triggered": "true",
 			"facing": "north",
-			"age": "0"
+			"cylinders": "1"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "true",
-			"facing": "east",
-			"age": "0"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "false",
-			"facing": "east",
-			"age": "0"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "south",
-			"age": "0"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "false",
-			"facing": "south",
-			"age": "0"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "west",
-			"age": "0"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "false",
-			"facing": "west",
-			"age": "0"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "up",
-			"age": "0"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "down",
-			"age": "0"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "false",
-			"facing": "down",
-			"age": "0"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
+			"triggered": "false",
 			"facing": "north",
-			"age": "1"
+			"cylinders": "1"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "true",
+			"facing": "south",
+			"cylinders": "1"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
+			"triggered": "true",
+			"facing": "south",
+			"cylinders": "1"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "false",
+			"facing": "south",
+			"cylinders": "1"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"triggered": "false",
+			"facing": "south",
+			"cylinders": "1"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "true",
+			"facing": "west",
+			"cylinders": "1"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"triggered": "true",
+			"facing": "west",
+			"cylinders": "1"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "false",
+			"facing": "west",
+			"cylinders": "1"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"triggered": "false",
+			"facing": "west",
+			"cylinders": "1"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "true",
+			"facing": "east",
+			"cylinders": "1"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"triggered": "true",
+			"facing": "east",
+			"cylinders": "1"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "false",
+			"facing": "east",
+			"cylinders": "1"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"triggered": "false",
+			"facing": "east",
+			"cylinders": "1"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "true",
 			"facing": "north",
-			"age": "1"
+			"cylinders": "2"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "east",
-			"age": "1"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
-			"facing": "east",
-			"age": "1"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "south",
-			"age": "1"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "false",
-			"facing": "south",
-			"age": "1"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "west",
-			"age": "1"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "false",
-			"facing": "west",
-			"age": "1"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "up",
-			"age": "1"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "false",
-			"facing": "up",
-			"age": "1"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "down",
-			"age": "1"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "false",
-			"facing": "down",
-			"age": "1"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
+			"triggered": "true",
 			"facing": "north",
-			"age": "2"
+			"cylinders": "2"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
-			"waterlogged": "false",
+			"waterlogged": "true",
+			"triggered": "false",
 			"facing": "north",
-			"age": "2"
+			"cylinders": "2"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "east",
-			"age": "2"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
-			"facing": "east",
-			"age": "2"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "south",
-			"age": "2"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "false",
-			"facing": "south",
-			"age": "2"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "west",
-			"age": "2"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "false",
-			"facing": "west",
-			"age": "2"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "up",
-			"age": "2"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "false",
-			"facing": "up",
-			"age": "2"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "down",
-			"age": "2"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "false",
-			"facing": "down",
-			"age": "2"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
+			"triggered": "false",
 			"facing": "north",
-			"age": "3"
+			"cylinders": "2"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "true",
+			"facing": "south",
+			"cylinders": "2"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
+			"triggered": "true",
+			"facing": "south",
+			"cylinders": "2"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "false",
+			"facing": "south",
+			"cylinders": "2"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"triggered": "false",
+			"facing": "south",
+			"cylinders": "2"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "true",
+			"facing": "west",
+			"cylinders": "2"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"triggered": "true",
+			"facing": "west",
+			"cylinders": "2"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "false",
+			"facing": "west",
+			"cylinders": "2"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"triggered": "false",
+			"facing": "west",
+			"cylinders": "2"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "true",
+			"facing": "east",
+			"cylinders": "2"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"triggered": "true",
+			"facing": "east",
+			"cylinders": "2"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "false",
+			"facing": "east",
+			"cylinders": "2"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"triggered": "false",
+			"facing": "east",
+			"cylinders": "2"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "true",
 			"facing": "north",
-			"age": "3"
+			"cylinders": "3"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"facing": "east",
-			"age": "3"
-		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
-			"facing": "east",
-			"age": "3"
+			"triggered": "true",
+			"facing": "north",
+			"cylinders": "3"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "true",
+			"triggered": "false",
+			"facing": "north",
+			"cylinders": "3"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"triggered": "false",
+			"facing": "north",
+			"cylinders": "3"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "true",
 			"facing": "south",
-			"age": "3"
+			"cylinders": "3"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
+			"triggered": "true",
 			"facing": "south",
-			"age": "3"
+			"cylinders": "3"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "true",
+			"triggered": "false",
+			"facing": "south",
+			"cylinders": "3"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"triggered": "false",
+			"facing": "south",
+			"cylinders": "3"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "true",
 			"facing": "west",
-			"age": "3"
+			"cylinders": "3"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
+			"triggered": "true",
 			"facing": "west",
-			"age": "3"
+			"cylinders": "3"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "true",
-			"facing": "up",
-			"age": "3"
+			"triggered": "false",
+			"facing": "west",
+			"cylinders": "3"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
-			"facing": "up",
-			"age": "3"
+			"triggered": "false",
+			"facing": "west",
+			"cylinders": "3"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "true",
-			"facing": "down",
-			"age": "3"
+			"triggered": "true",
+			"facing": "east",
+			"cylinders": "3"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
-			"facing": "down",
-			"age": "3"
+			"triggered": "true",
+			"facing": "east",
+			"cylinders": "3"
 		},
-		"Name": "clanginghowl:extraterrestrial_energy_cluster"
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"triggered": "false",
+			"facing": "east",
+			"cylinders": "3"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"triggered": "false",
+			"facing": "east",
+			"cylinders": "3"
+		},
+		"Name": "clanginghowl:blaze_fuel_cylinder"
 	}
 ]

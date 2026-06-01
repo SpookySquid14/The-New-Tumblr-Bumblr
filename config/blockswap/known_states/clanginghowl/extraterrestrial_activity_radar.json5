@@ -12,153 +12,138 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "true",
-			"axis_z": "true",
-			"axis_y": "true",
-			"axis_x": "true"
+			"powered": "true",
+			"facing": "north"
 		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
-			"axis_z": "true",
-			"axis_y": "true",
-			"axis_x": "true"
+			"powered": "true",
+			"facing": "north"
 		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "true",
-			"axis_z": "false",
-			"axis_y": "true",
-			"axis_x": "true"
+			"powered": "false",
+			"facing": "north"
 		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
+	},
+	{
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"powered": "true",
+			"facing": "south"
+		},
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
-			"axis_z": "false",
-			"axis_y": "true",
-			"axis_x": "true"
+			"powered": "true",
+			"facing": "south"
 		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "true",
-			"axis_z": "true",
-			"axis_y": "false",
-			"axis_x": "true"
+			"powered": "false",
+			"facing": "south"
 		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
-			"axis_z": "true",
-			"axis_y": "false",
-			"axis_x": "true"
+			"powered": "false",
+			"facing": "south"
 		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "true",
-			"axis_z": "false",
-			"axis_y": "false",
-			"axis_x": "true"
+			"powered": "true",
+			"facing": "west"
 		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
-			"axis_z": "false",
-			"axis_y": "false",
-			"axis_x": "true"
+			"powered": "true",
+			"facing": "west"
 		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "true",
-			"axis_z": "true",
-			"axis_y": "true",
-			"axis_x": "false"
+			"powered": "false",
+			"facing": "west"
 		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
-			"axis_z": "true",
-			"axis_y": "true",
-			"axis_x": "false"
+			"powered": "false",
+			"facing": "west"
 		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "true",
-			"axis_z": "false",
-			"axis_y": "true",
-			"axis_x": "false"
+			"powered": "true",
+			"facing": "east"
 		},
-		"Name": "clanginghowl:steel_rod"
-	},
-	{
-		"Name": "clanginghowl:steel_rod"
-	},
-	{
-		// Properties define the state of this block/fluid.
-		"Properties": {
-			"waterlogged": "true",
-			"axis_z": "true",
-			"axis_y": "false",
-			"axis_x": "false"
-		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
-			"axis_z": "true",
-			"axis_y": "false",
-			"axis_x": "false"
+			"powered": "true",
+			"facing": "east"
 		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "true",
-			"axis_z": "false",
-			"axis_y": "false",
-			"axis_x": "false"
+			"powered": "false",
+			"facing": "east"
 		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	},
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"waterlogged": "false",
-			"axis_z": "false",
-			"axis_y": "false",
-			"axis_x": "false"
+			"powered": "false",
+			"facing": "east"
 		},
-		"Name": "clanginghowl:steel_rod"
+		"Name": "clanginghowl:extraterrestrial_activity_radar"
 	}
 ]
