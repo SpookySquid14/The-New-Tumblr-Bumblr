@@ -161,7 +161,7 @@
 			}]
 			tasks: [{
 				id: "1AEF92D39C64DF12"
-				item: "solapplepie:food_book"
+				item: "solringopie:food_book"
 				type: "item"
 			}]
 			title: "Travel Meals Don't Need to Be Simple"
@@ -246,7 +246,7 @@
 							Size: 5
 						}
 					}
-					id: "solapplepie:lunchbag"
+					id: "solringopie:lunchbag"
 				}
 				type: "item"
 			}]
@@ -275,32 +275,11 @@
 					Count: 1
 					ForgeCaps: {
 						Parent: {
-							Items: [
-								{
-									Count: 64b
-									Slot: 2
-									id: "farmersdelight:egg_sandwich"
-								}
-								{
-									Count: 64b
-									Slot: 3
-									id: "brewinandchewin:ham_and_cheese_sandwich"
-								}
-								{
-									Count: 64b
-									Slot: 4
-									id: "farmersdelight:bacon_sandwich"
-								}
-								{
-									Count: 64b
-									Slot: 5
-									id: "alexsdelight:bunfungus_sandwich"
-								}
-							]
+							Items: [ ]
 							Size: 9
 						}
 					}
-					id: "solapplepie:lunchbox"
+					id: "solringopie:lunchbox"
 				}
 				type: "item"
 			}]
@@ -330,7 +309,7 @@
 							Size: 14
 						}
 					}
-					id: "solapplepie:golden_lunchbox"
+					id: "solringopie:golden_lunchbox"
 				}
 				type: "item"
 			}]

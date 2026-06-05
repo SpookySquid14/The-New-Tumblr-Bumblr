@@ -1,18 +1,18 @@
-filename = 'addonslib-1.20.1-1.8.jar'
-name = 'Addons Lib'
+filename = 'solringopie-1.20.1-2.3.7.jar'
+name = 'Spice of Life : Ringo Pie Edition'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'addonslib-1.20.1-1.8'
+x-prismlauncher-version-number = 'solringopie-1.20.1-2.3.7.jar'
 
 [download]
-hash = '565b6b1a453a090aa74fc31293c91470a41b9312'
+hash = '1e7ead99508497b93145c8c4b91928646064eafa'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7939525
-project-id = 1090999
+file-id = 7190308
+project-id = 1206490

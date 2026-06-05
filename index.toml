@@ -68042,7 +68042,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "455760f1f1bc0faa4ced28d39ec9ad8dc13ac3cf7a560c4df773f22b3a4e4a83"
+hash = "2fb03ea981b44ed79b7837f7f6960ef26bfcc2a73e5d8676d569be32e306df87"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68585,6 +68585,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$magnolia_woodland.cfg"
 hash = "a439a53f18e476554f6b9e7e7cfb1130fed3fc7fdc7e8cd81b17d0cf6562651a"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$maple_forest.cfg"
+hash = "edda2bfb0f69d3797bb44ee262d1a1715d80b11242f016d5f07428907cab8f6a"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$marsh.cfg"
 hash = "08fd173bc42ab46b23e87d8100065082b0393c47a0d287d7735e939f4e37455f"
 
@@ -68978,7 +68982,7 @@ hash = "8e8692ffea20a968d9cd3e20fa0adf075c2a1e61bb631c43d8c9d4969669337f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farming.snbt"
-hash = "01c679f28a9f3b98dd19ee4789a800569806dfb4452304e8987d5f49a46ba803"
+hash = "951d61073d61da2e0166ae29438c03ca6a1783363c33ea05a81391f22583d4c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fishing_2.snbt"
@@ -69430,7 +69434,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "5e6c735d2632aacbecc369a78bda225d50eb16b6fad32e6912d83a1e83ce8dff"
+hash = "e581f250182ae8055326ed179c9a063ff5262d0bfc28c3045b5434175b1c3c35"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69454,7 +69458,7 @@ hash = "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "9fbeb38364478e2b6ec8b727faa9506409a822046fe82c8b8383f224a78d4e27"
+hash = "1f10139beb3101122cb682ce8d2882912992c0aaecc932c2cceb87bc0e0a7120"
 
 [[files]]
 file = "config/jei/world/local/Boss/bookmarks.ini"
@@ -69598,7 +69602,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/world/local/New_World__4/lookupHistory.ini"
-hash = "bfd76c8b8be6c15b818b23126c96178ca6f8ebc4a69f1eb3bb457b0ffc45e7b1"
+hash = "03de5384f542b767ae300b4f82949281eeb787a516c3e3e7311b6c2c7169dd40"
 
 [[files]]
 file = "config/jei/world/local/New_World__41/lookupHistory.ini"
@@ -69854,7 +69858,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "aa3397b8fabb6122df7b472493e1f42b1e8e80ecc1756c38714f7bb7a27741f2"
+hash = "c20b18782d52c2b516fba6ac1f950d10938b463bf7482e4badccc35c3435c832"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -69970,7 +69974,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "4caa8db08a781b1fae18ab3f01277067e2c514940888594e42a540d57396bf98"
+hash = "30b73d60b9dbe61cec540c5fb665ad419af5812913f94ef5777609a2e944db8a"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -69986,7 +69990,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "abc4ccf3d92aaa11e28e1894c323c95880251a0322cca70215ff27cc8f47c3a5"
+hash = "6ca6ef3d293e596822d89c12f3062da684323a64472931f120933a5ab14a8d07"
 
 [[files]]
 file = "config/pal.properties"
@@ -70083,6 +70087,82 @@ hash = "d0bda31643714b4b52628e8804c1ee68961225d532e17286cd83c8e973690599"
 [[files]]
 file = "config/paxi/resourcepacks/Nether Redstone Golem/pack.mcmeta"
 hash = "4010b9aa01f477417abfb32dd9a461cd5282fbe7bad929dd747cd00c9559c48e"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/lang/en_us.json"
+hash = "4a9a72c4565016de596ebfea0911cb96bd9aeb342141516c91832dca473f2344"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/models/item/food_book.json"
+hash = "0965b7bffe12b96e56b62e7edd6a0ac3fca6d4238b424f4f2dec953d591f5195"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/models/item/golden_lunchbox.json"
+hash = "b839913982838935b5bcb30f53b6c599997ab5054d5b0d6328b902b5e73c705c"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/models/item/lunchbag.json"
+hash = "c8f8a0e1ac4c1f1ff7b2e3b6d5c1e0555f5ce9159ffe9cbfa3335e7b9238109b"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/models/item/lunchbox.json"
+hash = "6a814873edd16d636971aae049ef7c22b5f44e1f79635df6f4e1e1ca076aceb0"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/textures/gui/food_book.png"
+hash = "d41d32dbbed37878ef10aa2eaa28586cbd8f1f4127c4b506f770015b85024bac"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/textures/gui/food_book.psd"
+hash = "72fc2037aaa7ca7177932f524f47b5d55c4ac7464cbcd633781c255cef22ffee"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/textures/gui/inventory.png"
+hash = "035f42203d0592865cb4f4e5b3fd7f70a57a3f9d7a8da0c9814cd5d5eb02a80e"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/textures/gui/slot.png"
+hash = "2db817e5668716719bf5fb9779c7d3daf86e055afc5512fdbcfa0ea392f29141"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/textures/items/bag_particle.png"
+hash = "b79a2c4dcf1a4217e3a3a41608340ace7d181308e22811e376f79195af0cf536"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/textures/items/food_book.png"
+hash = "c2c326cbd58377352f5e0905ba14ee17c8810f4296d62ccd5c364c2fef8ef4a4"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/textures/items/food_book.psd"
+hash = "c06a14edced8ae09f11fce8d219e683c2b38d15bfe80029391d9e6bfad57ec2a"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/textures/items/golden_lunchbox.png"
+hash = "f7f41ea198aad799c1d170f0587a8e06def6b2bab2664d59c7f1192eaeb09f60"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/textures/items/lunchbag.png"
+hash = "98e5b7e60645c047d2b83cbf3c529117a76a954078cd79c70436b8ae3d52a3b7"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/textures/items/lunchbox.png"
+hash = "ba09c397fb65b83129c68fb853b6dcba7e97464f0635fcd875382b76a9d84661"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/textures/items/picnic_particle.png"
+hash = "96125981d11efa25562a9029b061185c2b94d574a8684a5a1afba54b2490f555"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/assets/solringopie/textures/items/satchel_particle.png"
+hash = "0c60bb1080eacca44039bd7fe96acb5aa38523dc9171ef38115e163a4171d7cf"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/pack.mcmeta"
+hash = "ce3e4a2bfe10eadbe7d6d460b3929d15e773b86a89746d4c0d05d6d80f6350c8"
+
+[[files]]
+file = "config/paxi/resourcepacks/Spice of Life - Picnic!/pack.png"
+hash = "58e1d1ccd156c17983d35d30b69cb3af3e14cee23b984c978e3658423d3b1561"
 
 [[files]]
 file = "config/perception.yaml"
@@ -70349,6 +70429,10 @@ file = "config/solapplepie-client.toml"
 hash = "22bc81053111881c2ce334b7cbb81756a1688a1a91f3dd7930fe102762f44fcf"
 
 [[files]]
+file = "config/solringopie-client.toml"
+hash = "22bc81053111881c2ce334b7cbb81756a1688a1a91f3dd7930fe102762f44fcf"
+
+[[files]]
 file = "config/sootychimneys-client.toml"
 hash = "b71472f6b07bc637392d53fb9a0266a6031ee031a116925134ba5348fd6504f8"
 
@@ -70418,7 +70502,7 @@ hash = "370cb0d795cd5143f878dbaa489ba2ec7cbd14228cafa07d4a86a27a2e08f923"
 
 [[files]]
 file = "config/spark/activity.json"
-hash = "17488f4245a8be566d5c11e204ffe2ceca6ec8d8b21bb11bab5f66243b8ce213"
+hash = "1021dd1f8a556d49d6148e5001d9c906edc3cd43b8e5186063860ad40f33aab0"
 
 [[files]]
 file = "config/spark/config.json"
@@ -76785,11 +76869,6 @@ hash = "caefdfd9f076b6443552179b567aee3922879e1adaeba3ef1be83e0d790c5c81"
 metafile = true
 
 [[files]]
-file = "mods/addonslib.pw.toml"
-hash = "589573c89592138508e2e0b56ee9e3b4bb1231cdb054359d33c1503d312698b4"
-metafile = true
-
-[[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "efb0ca240edb103c927dd435a64ff498f26dcfdc0d0f8a35b4543a1cf7ebf176"
 metafile = true
@@ -76975,11 +77054,6 @@ hash = "f2da51fcf7058bbd8eaea4c5e5e2cd73ffdf28f6143a6c08509adc02805c045f"
 metafile = true
 
 [[files]]
-file = "mods/athena.pw.toml"
-hash = "fc81795849c854d5c9ecaa01a66532e725dc25ab480bb5b59627af510eb6f85e"
-metafile = true
-
-[[files]]
 file = "mods/attributefix.pw.toml"
 hash = "135bad283c897952561c83bcfba998249197034ecc32c0bd852490d7f48289e6"
 metafile = true
@@ -76995,11 +77069,6 @@ hash = "58e4dff949963c4c27f7d1135a70f067d69e3de8bb6ddc8aca4705fa8ee5eab1"
 metafile = true
 
 [[files]]
-file = "mods/azurelib.pw.toml"
-hash = "cc2ce6f1cfa128637263249abbad31d6f4cb3c3c570fff4afe36ff7b435bf8e3"
-metafile = true
-
-[[files]]
 file = "mods/balm.pw.toml"
 hash = "f68abd6ed2418f493fce1a2203a444cf1b3baab9207c21b369e25a991effb53f"
 metafile = true
@@ -77007,6 +77076,11 @@ metafile = true
 [[files]]
 file = "mods/bartering-station.pw.toml"
 hash = "6b1334bed3a400d10c4396ebbe57a93b246e582aeed7d4ad5b0c241a0beef284"
+metafile = true
+
+[[files]]
+file = "mods/beautiful-enchanted-books.pw.toml"
+hash = "36997ba5bf8e80a05af8db39cf8c1ff706c64cbc81a2d402b5546831e153b1f3"
 metafile = true
 
 [[files]]
@@ -77250,11 +77324,6 @@ hash = "d4182cc326ade91353c6fddea10bdd76ff292825cff5a867a3db79caaa1b4368"
 metafile = true
 
 [[files]]
-file = "mods/clickable-advancements.pw.toml"
-hash = "c44a3d6930dbe5871724dd4e39da90780dcfc864bc4cfa08cd5f9a2e79440ded"
-metafile = true
-
-[[files]]
 file = "mods/clockwork.pw.toml"
 hash = "29d2e6cdeff3b7413a569a2c439b6bbd9fd29da384d109c9d4eeee01bdf8cb57"
 metafile = true
@@ -77325,11 +77394,6 @@ hash = "aaf4ae248b738986c4f3203ae72bccbdd9fd5c870c0acae27eb5cdbb2dd15763"
 metafile = true
 
 [[files]]
-file = "mods/construction-wand.pw.toml"
-hash = "592bc4f04268480ab88e930adbfa3fdc4ecc9f1756267263fa690c9816d5e517"
-metafile = true
-
-[[files]]
 file = "mods/constructs-casting.pw.toml"
 hash = "7ffa18603a392a2574742db9018779d126798e618d9f7442711227c02a7ad199"
 metafile = true
@@ -77342,11 +77406,6 @@ metafile = true
 [[files]]
 file = "mods/cooking-for-blockheads.pw.toml"
 hash = "990572bf907b3f3fc8e03feabe686e287cd1798aaf6bc0ffaefe92aefef79091"
-metafile = true
-
-[[files]]
-file = "mods/copycats.pw.toml"
-hash = "ac5f9c1d6fa7aae2122f1fdbaac6507c0f4e5881cb20841c3856c2defb93ae0d"
 metafile = true
 
 [[files]]
@@ -77395,11 +77454,6 @@ hash = "63a7e60a5c00965b7532a2ea2160fd9f5a4cc5dac56afaba411aa3be2002bbfc"
 metafile = true
 
 [[files]]
-file = "mods/create-big-cannons.pw.toml"
-hash = "26f51726a41c2c244c9c832f5438b31e6e1f76f2009f0101f9567895b2db9377"
-metafile = true
-
-[[files]]
 file = "mods/create-compatible-storage.pw.toml"
 hash = "6886c3249f0fc5f00b2c2201a4b363c580a2fe9da2cca2458379f6ba7313663d"
 metafile = true
@@ -77412,11 +77466,6 @@ metafile = true
 [[files]]
 file = "mods/create-curios-jetpack.pw.toml"
 hash = "566ab9855e62d3470d31721f21db33d49c3e215a3cab2e144ad35847d428abbd"
-metafile = true
-
-[[files]]
-file = "mods/create-gunpowder.pw.toml"
-hash = "f4cf4e19247738b18e1998a3c51361d60dcfac6e2c928f581c05ee4fa5d3f2f1"
 metafile = true
 
 [[files]]
@@ -77440,23 +77489,8 @@ hash = "5ef4736447f2e7a9402ec354f49febd5d9784daeaeeb0ca5eab35c5cf93b69e8"
 metafile = true
 
 [[files]]
-file = "mods/create-power-loader.pw.toml"
-hash = "0de4cc8944377ffbe56e2aeffcbc83421c3d77253a86014367cddd4685ba744b"
-metafile = true
-
-[[files]]
 file = "mods/create-rustic-structures.pw.toml"
 hash = "e75146f3bae7de3bcdd348bbe2a7014b19cde04a89d6c37777fc08f0e80ec9cf"
-metafile = true
-
-[[files]]
-file = "mods/create-simple-generator.pw.toml"
-hash = "99fd5ae421614804aaa4ad01e7bf446467503a2f518d6c857c43023b903cddb2"
-metafile = true
-
-[[files]]
-file = "mods/create-sound-of-steam.pw.toml"
-hash = "a7808beb5d45e657611d3148b9e4d4e0184c1e83eacec77647abbf46c1451310"
 metafile = true
 
 [[files]]
@@ -77497,11 +77531,6 @@ metafile = true
 [[files]]
 file = "mods/creeper-overhaul.pw.toml"
 hash = "6d9ab93ce0e7ff15c22f573f438bdae639ff5c31fdcadf8fce97c626198878b1"
-metafile = true
-
-[[files]]
-file = "mods/cucumber.pw.toml"
-hash = "a3b3b6d44e62c210b52b1d1709792585ec88c1706cfdf3085848148264208845"
 metafile = true
 
 [[files]]
@@ -77617,11 +77646,6 @@ metafile = true
 [[files]]
 file = "mods/elysium-api.pw.toml"
 hash = "a285e49e0423dea14cc054a1aeee38ab57d655c8f40dde7af20597aa01fcb1cf"
-metafile = true
-
-[[files]]
-file = "mods/elytra-slot.pw.toml"
-hash = "7a011257d751ae3fc942e9882348719fa7d94f6a0f43e939b9ca88e5f2c1d35f"
 metafile = true
 
 [[files]]
@@ -77840,11 +77864,6 @@ hash = "0602410b54bc1873b0b45418c446afd45d02bcdf6d3eec0423d854b52c9d1dfe"
 metafile = true
 
 [[files]]
-file = "mods/frights-delight.pw.toml"
-hash = "5e58e1a747fd5eded9ddea3ae8cd26975fab9bdb388361d4f53368cca7e47c37"
-metafile = true
-
-[[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
 hash = "8a9126f48da8f0bde03ef1be4d279bf6b6191f071ca99d8c37af770d782ecaca"
 metafile = true
@@ -77882,11 +77901,6 @@ metafile = true
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "d8cf75c5c1c12bf24d90c9f7dc6927e6d98b616e62e73868245c936086fd1ba5"
-metafile = true
-
-[[files]]
-file = "mods/fzzy-config.pw.toml"
-hash = "562b5971dfe4c8ce212be9d08062ba71c4b06cd341c980e592fc830dc279182f"
 metafile = true
 
 [[files]]
@@ -77942,11 +77956,6 @@ metafile = true
 [[files]]
 file = "mods/gone-fishin.pw.toml"
 hash = "adc5d8bc71fee1891629ea9d7e8a2fffd6d7b54334dc5bd64177ba864c9a06b5"
-metafile = true
-
-[[files]]
-file = "mods/gtbcs-spelllib.pw.toml"
-hash = "80f88158f22f46415db1cb4090c114c730076aa1aa6c9662f36f7cab49ad8796"
 metafile = true
 
 [[files]]
@@ -78065,16 +78074,6 @@ hash = "28b00f143039bc1fbabee5956ce9e272bdf20593048ec57e8dae327614ced579"
 metafile = true
 
 [[files]]
-file = "mods/infinitybuttons.pw.toml"
-hash = "05c462b095f89b09698c86c23cfdda1d6548dbbddab263e483df67b605c6b22f"
-metafile = true
-
-[[files]]
-file = "mods/inline.pw.toml"
-hash = "b9b570a61a17795125dbcc35c1f659158c355c7e7c754ad956c1b592d5d61b0b"
-metafile = true
-
-[[files]]
 file = "mods/integrated-api.pw.toml"
 hash = "d30c90bae2a6862ad25b3b895e98699de9febef2ccf89687968d24cec6af5b3c"
 metafile = true
@@ -78132,11 +78131,6 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "1fd343e56f6d6a911a62eb6392c564dd31d54c4618df6f9f16ff3254edc5ea2b"
-metafile = true
-
-[[files]]
-file = "mods/jadens-nether-expansion-delight.pw.toml"
-hash = "f18890140507c965fe131ffb3e7180b1aed6bba949409b2752ce57374bd3454a"
 metafile = true
 
 [[files]]
@@ -78490,11 +78484,6 @@ hash = "6a03f98fae96ea85ae0b89b2b6ddb38e02f9b2748001f7c5c9c901f233a8b7e6"
 metafile = true
 
 [[files]]
-file = "mods/nekos-enchanted-books.pw.toml"
-hash = "87e4ddac2763149c1cc20be8d5fd1f7bceff822dc3cc5cf88f06e7615e8ea8c6"
-metafile = true
-
-[[files]]
 file = "mods/nether-portal-configurator.pw.toml"
 hash = "df1203a59a76534286e1cb7e9948f3ef6df104183f61acf32d7ec737c735e692"
 metafile = true
@@ -78725,11 +78714,6 @@ hash = "aeec42b146639f592aaa33342243802978d8d80f592db6ca582cbee6aebff45f"
 metafile = true
 
 [[files]]
-file = "mods/rebroken-blade.pw.toml"
-hash = "e8746efbbce9774e16db01ab2d0321e53dd66daeb5710053e16ad12053b02b72"
-metafile = true
-
-[[files]]
 file = "mods/rechiseled.pw.toml"
 hash = "b7cbdc1310183d95c6b6ecae5f1a2a9c37a87a9b642c223f6f9374d11daf0e32"
 metafile = true
@@ -78782,11 +78766,6 @@ metafile = true
 [[files]]
 file = "mods/right-click-and-milk.pw.toml"
 hash = "ef9a77bec9f5a208ae022e457c358ec34cea92974b2337eaf3b76f711f188e2a"
-metafile = true
-
-[[files]]
-file = "mods/ritchies-projectile-library.pw.toml"
-hash = "3fcdfec444a90ecf6542bf9482e01bbafa5bc4ff37076083d3616b97a257e88e"
 metafile = true
 
 [[files]]
@@ -78935,8 +78914,8 @@ hash = "71e1bbc2b8efc500185daa522c513c2c26923288a4a96f8c66c3e262c0a51112"
 metafile = true
 
 [[files]]
-file = "mods/spice-of-life-apple-pie-edition.pw.toml"
-hash = "6eee3d343c0e3dd969b39544fa7132d8c272526ceb76edae4e6ce4b764487f17"
+file = "mods/spice-of-life-ringo-pie-edition.pw.toml"
+hash = "37aec7923d60137903feedfb17c66f2fb45dff692acfc0b44cc3924c7020f972"
 metafile = true
 
 [[files]]
@@ -79055,11 +79034,6 @@ hash = "bc0ac08b957c8cfb1484aeb618e14c70ea022f3305798f8b51bec130cf994959"
 metafile = true
 
 [[files]]
-file = "mods/tinker-delight.pw.toml"
-hash = "f13d848c5e0e7d82a1e43fc04f9f7100bc8ac125bb03b8c792122e4d5bd58a2f"
-metafile = true
-
-[[files]]
 file = "mods/tinker-in-caves.pw.toml"
 hash = "29cd82d3f9bcbe41f3bea097bbdcbc087f841515aa8edda026ec9c0139c4dcf0"
 metafile = true
@@ -79122,11 +79096,6 @@ metafile = true
 [[files]]
 file = "mods/trading-post.pw.toml"
 hash = "774ba2037f74e04bfb560aca267c23a30c28972c2c031905e4159a683d8e8efb"
-metafile = true
-
-[[files]]
-file = "mods/trail-tales-delight.pw.toml"
-hash = "09d98d7f618d9d68c7cbbf38515760effab230d67854c8993829e1d9968f1f1f"
 metafile = true
 
 [[files]]
