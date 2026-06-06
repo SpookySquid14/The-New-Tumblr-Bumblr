@@ -78154,11 +78154,6 @@ hash = "2de55a05661ce53440d330cc55b4d9dac06a2adceb32eaeb732bf4d4e953101e"
 metafile = true
 
 [[files]]
-file = "mods/joy-of-painting.pw.toml"
-hash = "a1ea68fff5ccce01e23d4a8f66830e5078079e6666acbc992fd0cd1d8f52c5c2"
-metafile = true
-
-[[files]]
 file = "mods/json-things.pw.toml"
 hash = "5922cd4f830a4b066e7303aa0e81575c309496e8de4ffa6dec7cdaa805d0e0e2"
 metafile = true
