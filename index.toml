@@ -77719,6 +77719,11 @@ hash = "643f9ad32549a2ab7764f0e256d20cdf1716e75515cdcc0274c5ae997fc4d219"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.pw.toml"
+hash = "bc37b41f1aa53ea2cf9ce013020652bdd7626b22bc99a69dcb329ce5a1f9973e"
+metafile = true
+
+[[files]]
 file = "mods/entityjs.pw.toml"
 hash = "0699afe097f614f5e9d71d9ac8ceb7aca9f3866a3680462d4595b8472dcd619f"
 metafile = true
