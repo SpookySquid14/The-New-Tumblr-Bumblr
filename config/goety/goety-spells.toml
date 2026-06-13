@@ -471,7 +471,7 @@
 		meteorShowerShots = 20
 
 	[Spells."Quaking Spell"]
-		#Earth Fist Spell Cooldown, Default: 100
+		#Earth Fist Spell Cooldown, Default: 60
 		#Range: > 0
 		earthFistCoolDown = 60
 		#How much base damage Earth Fists deals, Default: 6.0
@@ -1782,6 +1782,20 @@
 		#Number of Sprites that can exist around the player, Default: 8
 		#Range: > 1
 		spriteLimit = 8
+
+	[Spells."Smack Stone Spell"]
+		#Smack Stone Spell Cost, Default: 4
+		#Range: > 0
+		smackStoneCost = 4
+		#Time to cast Smack Stone Spell, Default: 0
+		#Range: 0 ~ 72000
+		smackStoneTime = 0
+		#Smack Stone Spell Cooldown, Default: 40
+		#Range: > 0
+		smackStoneCoolDown = 40
+		#How much base damage Smack Stones deals, Default: 4.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		smackStoneDamage = 4.0
 
 [Enchantments]
 	#Soul Eater Maximum Enchantment Level, Default: 5

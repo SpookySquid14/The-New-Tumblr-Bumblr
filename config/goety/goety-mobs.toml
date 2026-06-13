@@ -258,6 +258,10 @@
 		#Whether Apostles play their special death animation when in Nether, Default: true
 		apostleNetherFancyDeath = true
 
+	[Misc.Heresiarch]
+		#Whether Heresiarch has their after-image effect when they teleport. Disable can prevent frame drop. Default: true
+		heresiarchAfterImage = true
+
 [Servants]
 	#Owners can't attack or hurt their servants, Default: true
 	ownerAttackCancel = true

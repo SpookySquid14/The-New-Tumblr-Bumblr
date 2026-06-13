@@ -918,7 +918,7 @@ hash = "557cc1b6ba1369f5d2459054cc2b9e9f91c58b9cdecb0a3023a911b435b1a9c8"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "a5f086e30532356aff3712d3f6ffc84ce19c5e95c14cde3a28225e2bb7b3d7a0"
+hash = "bb2e72271bcb81a3091e7ff5ac2fc2cefc8a51bc2e5fe62ce2f8e4b8fa5891f8"
 
 [[files]]
 file = "config/apotheosis/garden.cfg"
@@ -20681,12 +20681,20 @@ file = "config/blockswap/known_states/goety/gold_candlestick.json5"
 hash = "b3ceef5e5b62353532f576bfbeb74c3ddfae9f2e04e1f3d650b7ffca655c47f2"
 
 [[files]]
+file = "config/blockswap/known_states/goety/gold_chandelier.json5"
+hash = "0343b76c294b145c7468aa85ff0f623e9b0ff5f7c64a06a9eeea9efa15b8a520"
+
+[[files]]
 file = "config/blockswap/known_states/goety/gold_chiseled_highrock_bricks.json5"
 hash = "bc072db26ba65880b8a236d8b3d09c4c15751dc001215b9affbe81f092678e9e"
 
 [[files]]
 file = "config/blockswap/known_states/goety/gold_covered_marble.json5"
 hash = "81af9a3d4788499039b896320dfc33b09e58e97a90627cec9b2ca9821d5ef978"
+
+[[files]]
+file = "config/blockswap/known_states/goety/gold_dungeon_chain.json5"
+hash = "70ffaa0935612cd6550535fafc78b6edf581a96221625a9adb9db5c001a7fda7"
 
 [[files]]
 file = "config/blockswap/known_states/goety/gold_dungeon_torch.json5"
@@ -20943,6 +20951,10 @@ hash = "afe1c55a3f4a551cd752977f30e63519e23393e685ee0fe4dedf867c9bc20515"
 [[files]]
 file = "config/blockswap/known_states/goety/infused_end_stone_pillar.json5"
 hash = "e9ff615532b0c877915bf245a8edc81b5cb7e5069439ff784916d9257806c646"
+
+[[files]]
+file = "config/blockswap/known_states/goety/iron_dungeon_chain.json5"
+hash = "4c5fd58af7d2d99249d3ad654cd818fef36eadedfa12ff075a3e4f69afdfe302"
 
 [[files]]
 file = "config/blockswap/known_states/goety/iron_dungeon_torch.json5"
@@ -21353,6 +21365,10 @@ file = "config/blockswap/known_states/goety/plushie_1.json5"
 hash = "7fb560f5cb75df5ea6de4d1d32178c97d83457e02975bfa28bdb8b292a5c719c"
 
 [[files]]
+file = "config/blockswap/known_states/goety/plushie_10.json5"
+hash = "6852ae62035162c9a87852b7b90a5ec0204b6b97e4a0227053b10afe9bbd0e4b"
+
+[[files]]
 file = "config/blockswap/known_states/goety/plushie_2.json5"
 hash = "549418c58ffb8c902ea18f6560e35dd9a3661ff1444cf1033a0382ae222c241e"
 
@@ -21367,6 +21383,22 @@ hash = "4d06f0d440db4b6364ae30ebb3b42c7a7a3ab809c3b090cf49dd7850c1509d73"
 [[files]]
 file = "config/blockswap/known_states/goety/plushie_5.json5"
 hash = "47e4afbb73e13a377397b43f5c820ae3ff8bccd59a05cfa042718c9beb9e8195"
+
+[[files]]
+file = "config/blockswap/known_states/goety/plushie_6.json5"
+hash = "92ed643fec99e8647d88d865941dad48b5baa3726a5b2c31b503ceffdee43d1c"
+
+[[files]]
+file = "config/blockswap/known_states/goety/plushie_7.json5"
+hash = "55e5b9c362ce13f585072fac3b11ac37569d4da1d2331ced8dd66a3a057e6ecc"
+
+[[files]]
+file = "config/blockswap/known_states/goety/plushie_8.json5"
+hash = "01e6be2c6ed4db602fd2e45bb1090a85ffd52ee638baf266f2181219c75f1568"
+
+[[files]]
+file = "config/blockswap/known_states/goety/plushie_9.json5"
+hash = "949847f62b7c97a3bead2e6266e429b60a94ccf5afb2d6b7db60f81378aec01e"
 
 [[files]]
 file = "config/blockswap/known_states/goety/polished_dark_ominous_stone.json5"
@@ -68214,7 +68246,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "0b0f01546125eb6cdeda270a593fd32b6b99b1cd2c2d2de9d3209a2516a32171"
+hash = "80eb4dca0cbf4cfbe3eda66c03d44bd0f43c2522af189669719bd5cf3cd24cd3"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69322,11 +69354,11 @@ hash = "a668751ba0f7728c7f23cd9474ed8d7abb1d7ba2719263b7ec0aa1724bdd7ca0"
 
 [[files]]
 file = "config/goety/goety-mobs.toml"
-hash = "ce40a7fa3b8e7cd5505dfaf26f63d8178735ad9deee21676d43caccafb02c9f5"
+hash = "dd8367c01ff751d50e8e95444852755825fd7cba04819f35a808704239a3fc90"
 
 [[files]]
 file = "config/goety/goety-spells.toml"
-hash = "7df3b9610a3c71d279d55aaeb0ed724f73fb45374a678ccef0be28324c28d66d"
+hash = "febf42543635e4bdfaf54bd5bb91c967ad53025ae08c0540ce8111c9295b88af"
 
 [[files]]
 file = "config/goety/goety.toml"
@@ -70078,7 +70110,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "ea5d2f5e15dc8d326861c691278577a847503b28dfa4926788807efddc6de793"
+hash = "c0e0baeb71510f81a9bb65cd55ec5e961fd2b124042955fefab9c6b56e13f484"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70194,7 +70226,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "4e0e3ea07a3002d1a2eb3500229d9f60a67f8c60543ddbadb6e6cda439b4d4d0"
+hash = "abc5db88d5ebed56255a67583dc9e71b17c2a722aad532a6e2ddfccd7e3d1c73"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70210,7 +70242,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "060405a4bf428727ce60c518e2a78fefe676e844933e8d48d14e9d41aaf22dbe"
+hash = "9dfa47bf432e3ddb4dd339c8e6d40360f66e95a0453d1fe2db8a9891c9977ab2"
 
 [[files]]
 file = "config/pal.properties"
@@ -78039,7 +78071,7 @@ metafile = true
 
 [[files]]
 file = "mods/goety.pw.toml"
-hash = "66afca542287b236f12850f386d39ffdd4505645fad3ac6a3c050f270e56539b"
+hash = "25e18777bc794f272895b81db92eb68047ecc47c8615dfcd5f5dc6b3b0be788d"
 metafile = true
 
 [[files]]
@@ -78859,7 +78891,7 @@ metafile = true
 
 [[files]]
 file = "mods/saints-dragons.pw.toml"
-hash = "33e99cadf155f51a6ba1a176641c6bc4dabf7fc9ed1afd3ff1fbbd97764a7789"
+hash = "62aa8e89ad818ef6580f9f3c05de0b098c8d7b08fb8145db48b7b32151fc66aa"
 metafile = true
 
 [[files]]
