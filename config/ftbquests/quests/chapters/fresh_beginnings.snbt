@@ -11,10 +11,12 @@
 	quests: [
 		{
 			description: [
-				"To whoever finds this, I welcome you to this wonderful world we call home. There will surely be much to discover, fight, learn, and avoid. By reading this book, you accept your reality. I will be in touch. If you ever need to find this menu again, &6&oyou can access it through your inventory in the top left corner or the tabs above the menu. You can also set a keybind in Controls&r."
-				"PS: You are never alone. &0Avoid &kthe entity&r&0 at all costs.&r"
+				"To whoever finds this, I welcome you to this wonderful world we call home. There will surely be much to discover, fight, learn, and avoid. By reading this book, you accept your reality. I will be in touch. If you ever need to find this menu again, &6&oyou can access it through your inventory in the top left corner or the tabs above the menu. You can also set a keybind in Controls&r. Of course, you can also choose to keep this book on you."
+				"PS: You are never alone."
+				""
+				"- &kThe Creator&r"
 			]
-			icon: "irons_spellbooks:chained_book"
+			icon: "ftbquests:book"
 			id: "15ACD993630984F4"
 			rewards: [{
 				amount: 150L
@@ -180,21 +182,12 @@
 			}
 			id: "36A6DDDCE75E7925"
 			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "74A6643D636405A1"
-					item: "minecraft:red_wool"
-					type: "item"
-				}
-				{
-					amount: 100L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "4611635B24F4A141"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+			rewards: [{
+				count: 3
+				id: "74A6643D636405A1"
+				item: "minecraft:red_wool"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "03F800E6AB0477FB"
@@ -250,7 +243,7 @@
 				stat: "minecraft:walk_one_cm"
 				title: "Walk 250 blocks"
 				type: "stat"
-				value: 750
+				value: 250
 			}]
 			title: "Don't lose your way(stone)"
 			x: 0.0d
@@ -847,6 +840,35 @@
 			title: "A Rift In Time and Space"
 			x: -2.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			description: [
+				"You've probably noticed some of the tabs above your inventory. I'd like to tell you about one in particular, The Skill Tree."
+				"{image:modpack:textures/skill-tree-tab.png width:150 height:90 align:center}"
+				"{@pagebreak}"
+				"Inside the Skill Tree, you will find a variety of boosts and abilities, or \"Skills\" if you'd like. When you level up, you'll gain &o&6Skill Points&r, which you can then spend on these Skills. Experience varies, but for the primary Skill Tree, &6&oit can be obtained through combat, enchanting, fishing, and mining&r."
+				"{image:modpack:textures/skill-tree.png width:225 height:135 align:center fit:true}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "modpack:textures/skill-icon.png"
+				}
+			}
+			id: "309BB2C3143443F6"
+			shape: "rsquare"
+			tasks: [{
+				id: "2E60C81A1F8CD20F"
+				title: "Learn About The Skill Tree"
+				type: "checkmark"
+			}]
+			title: "Skills and Thrills"
+			x: -2.5d
+			y: -3.5d
 		}
 	]
 	title: "Fresh Beginnings"

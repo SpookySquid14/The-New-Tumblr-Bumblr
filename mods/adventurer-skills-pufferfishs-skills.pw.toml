@@ -1,0 +1,25 @@
+filename = 'adventurerskills-EN-1.3-1.20.1-forge.jar'
+name = "Adventurer Skills [Pufferfish's Skills]"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Adventurer Skills 1.3 (ENGLISH) - Forge - 1.20.1'
+
+[download]
+hash = 'bc51e0eee720d89b2a67c9cd2acfbe1b87b7cf6c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8010904
+project-id = 1397003
+
+[[x-prismlauncher-dependencies]]
+addonId = '835091'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '991341'
+type = 'REQUIRED'

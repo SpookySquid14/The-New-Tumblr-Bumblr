@@ -1,0 +1,698 @@
+{
+  "enabled": {
+    "value": "OFF"
+  },
+  "showHudFps": {
+    "value": "ON"
+  },
+  "downscale": {
+    "value": "OFF"
+  },
+  "numberOfPasses": 3,
+  "maxFps": 60,
+  "screenMaxFps": 20,
+  "mapVanillaElements": {
+    "goety:static_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "vampirism:action_cooldown": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "ntgl:ammo": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "irons_spellbooks:spell_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "create_jetpack:jetpack_controls": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "mekanism:status_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "alexsmobsinteraction:farseer_text": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "relics:active_abilities": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "weeping_angels:angel": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "goety:current_focus_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "horseman:horseman_xp_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "clanginghowl:x_ray_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "ars_nouveau:spell_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "netherexp:agitated": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "alexsmobsinteraction:farseer_effects": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "ars_nouveau:mana_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "fairylights:overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:potion_icons": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "damageindicator:damage_indicator": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "gnetum:minecraft_hand": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "irons_spellbooks:screen_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "ars_nouveau:tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:item_name": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "vista:viewfinder": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:experience_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "fdlib:shattered_screen": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:scoreboard": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "biomancy:charge_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:subtitles": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:chat_panel": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:value_settings": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "patchouli:book_right_click": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "clanginghowl:overheat_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "mekanism:hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:frostbite": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "modonomicon:multiblock_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:boss_event_progress": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "ntgl:wheel": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "werewolves:fur_border": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "ars_nouveau:scry_camera": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:blueprint": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "forgeendertech:devinfo": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "supplementaries:cannon_charge_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "gnetum:status_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "relics:researching_hint": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "yungscavebiomes:buffeted": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "exposure:viewfinder": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "raidcounter:raiders": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "vampirism:action_duration": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "biomancy:inside_block": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:goggle_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "irons_spellbooks:recast_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "minecraft:record_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "ntgl:scope": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:portal": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:jump_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "create:toolbox": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:fps_graph": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "xaeroworldmap:xaero_wm_crosshair_message": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "patchouli:multiblock_progress": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "botania:hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "structure_gel:building_tool_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "biomancy:knowledge": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "treechop:chopping_indicator": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:hotbar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "artifacts:artifact_cooldowns": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "xaerominimap:xaero": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "biomancy:gun": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "ntgl:debug": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "goety:ravager_roar_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "sophisticatedstorage:storage_tool_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "supplementaries:slimed_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "fdlib:screen_effect": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "werewolves:form_duration": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "alshanex_familiars:monocle_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "irons_spellbooks:screen_effects": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:schematic": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "sophisticatedstorage:paintbrush_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "mekanism:radiation_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:train_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "minecraft:player_list": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "biomancy:frenzy": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:track_placement": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "fdlib:boss_bars": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:title_text": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "vampirism:faction_level": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "irons_spellbooks:cast_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "biomancy:injector": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "irons_spellbooks:spell_wheel": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:linked_controller": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:sleep_fade": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "supplementaries:quiver_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "goety:soul_energy_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "occultism:third_eye": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:spyglass": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:helmet": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:debug_text": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    }
+  },
+  "mapModdedElementsPre": {
+    "morerelics": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "connectormod": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "vampiricageing": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "sodiumextras": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "vampirism": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "werewolves": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    }
+  },
+  "mapModdedElementsPost": {
+    "combatroll": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "connectormod": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "watut": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "exposure": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "bettercombat": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "xaerominimap": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "architectury": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "fdlib": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "scholar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "platform": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    }
+  }
+}

@@ -1,0 +1,5257 @@
+{
+	autofocus_id: "3382A9EBAE939697"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "fine_fishing"
+	group: "48841A8C395C40D5"
+	icon: {
+		Count: 1
+		id: "tide:midas_fishing_rod"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "48C4631DC3828BC8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Fishing. It truly is something special, isn't it? Well, here you'll find there's much to do and much to find."
+				"But all fishermen need one item. What is it? Why, a fishing rod of course! So, why don't you craft one, and we can get this aquatic show on the road? &6&oThe next slides will describe the base mechanics.&r"
+				"{@pagebreak}"
+				"When you go to cast your rod, you will be met with a meter. &6&oWhen casting your rod, you must hold down right click. The longer you hold it, the farther you will cast your rod.&r"
+				""
+				"{@pagebreak}"
+				"Once you've caught a fish, you will be met with a &onew minigame&r. &o&6You must right click when the sliding bar is closest to the middle.&r"
+				""
+				"Your performance in this minigame will affect the chance of catching the fish, with &6&ochances increasing as you hit closer to the middle&r."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3382A9EBAE939697"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2D0F6D1D1516630D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 5
+					id: "5299C26C0BDE0F47"
+					item: "farmersdelight:cod_roll"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "17A371329BEC4E40"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a basic fishing rod"
+			tasks: [{
+				id: "6BACFE2B265D8D97"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:fishing_rod"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "tide:stone_fishing_rod"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Basic Fishing Rod"
+				type: "item"
+			}]
+			title: "Getting Fishy"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3382A9EBAE939697"]
+			description: ["Now that you've hopefully gotten some experience with basic fishing, it's time to take things up a notch. &6&oAt a smithing table, you can use string and various materials to upgrade your rod.&r For now, let's get your fishing rod to iron tier."]
+			hide_dependency_lines: false
+			id: "0200624FDF3F2367"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "51BEE6435AC980C3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2C06C240626E411C"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Upgrade to an iron fishing rod"
+			tasks: [{
+				id: "409B1FF5C269FBA9"
+				item: {
+					Count: 1
+					id: "tide:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Taking things to the next level"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0200624FDF3F2367"]
+			description: [
+				"Crafted with some wood, copper, and string, the &o&6Angling Table&r is your main method of customizing and upgrading your fishing rod."
+				"To the left is the slot to place your rod and to retrieve it once finished. To the right you'll find slots for &ofishing line, a bobber, and a hook&r."
+			]
+			hide_until_deps_visible: true
+			id: "12ABF5CAD1BBD4ED"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4FFE0E169B8C6A43"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "20B9A0372D1B6F16"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Angling Table"
+			tasks: [{
+				id: "464CCB53C17C1506"
+				item: "tide:angling_table"
+				type: "item"
+			}]
+			title: "Getting into the deep end."
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Hovering over your fishing rod, you'll notice &o&63 slots in its tooltip&r. These are used to store &6&ovarious bait&r to help you in your fishing journey. When multiple slots are filled, only the left most is used."
+				"[img]"
+				"Basic bait can be made with some compost and rotten flesh. It will increase the speed of your fishing similar to the &oLure&r enchantment."
+			]
+			id: "327017618D00C9D9"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "48BE84F081A0F795"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft Bait"
+			tasks: [{
+				count: 4L
+				id: "3BA5EE2AD1216804"
+				item: { Count: 4, id: "tide:bait" }
+				type: "item"
+			}]
+			title: "A Little Birdy Told Me"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["327017618D00C9D9"]
+			description: ["Your bait can be improved, used to craft two special types. One of these is magnetic bait. It increases fishing speed like your basic bait, but &6&oalso greatly increases the chance of fishing up a crate&r."]
+			id: "69248DB421B51F6E"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "49168A545FDDFE36"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2C29C2C970AA2CD6"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Craft Magnetic Bait"
+			tasks: [{
+				count: 4L
+				id: "15399670BFEF1E1F"
+				item: { Count: 4, id: "tide:magnetic_bait" }
+				type: "item"
+			}]
+			title: "Quite The Magnetic Personality"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["327017618D00C9D9"]
+			description: ["Your bait can be improved, used to craft two special types. One of these is lucky bait. While it doesn't increase fishing speed, &6&oit provides a good increase in luck, akin to the Luck Of The Sea enchantment&r."]
+			id: "666AC968E52F94F6"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "73A5BE119057142B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2265A62D18D63B0B"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Craft Lucky Bait"
+			tasks: [{
+				count: 16L
+				id: "51D8B5678F9EBAB1"
+				item: { Count: 16, id: "tide:lucky_bait" }
+				type: "item"
+			}]
+			title: "One Day It'll Run Out"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "3AED1BDAB4E81BF0"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "29598BA30F0F9118"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5CB0B793041F6C29"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55BF56D5A30CC09F"
+				item: "minecraft:torchflower"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "01DC854F3C7C8CB3"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "74C7150BC050067F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "35A7C3BD3E1CFCA9"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D30E837CE928B1A"
+				item: "minecraft:pitcher_pod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "0656D20CFD7B53D1"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "02F5D4369BA9FC37"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "67F38B2390B3ADDA"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D4EFB138EE3FAC3"
+				item: "naturalist:caterpillar"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "3B8840BA4062973D"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "587DDD94887143C1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7142B55F96E421D5"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "095E58A62DAED928"
+				item: "naturalist:butterfly"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "4D1F196542C2DB84"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "123F47C9433CEC44"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "14E759CC695FA926"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FA68568A7FF56EC"
+				item: {
+					Count: 1
+					id: "tide:incandescent_larva"
+					tag: {
+						FishLength: 3.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			description: ["Alongside crafted baits, you'll find there to be a number of other items that can be used. Keep an eye out for them. Could be good."]
+			id: "082C9456E689F116"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "171CDC1FCB08F73A"
+				table_id: 7663161819050656746L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5C677D08795C9E30"
+				title: "Read about other baits"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12ABF5CAD1BBD4ED"]
+			description: ["Bobbers are purely cosmetic in nature, but definitely give your fishing rod some personality. They can all be crafted with a slime ball, wooden planks, and an item specific to the bobber itself."]
+			hide_dependency_lines: true
+			id: "61C405313FC828E3"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7BB93E9AD8E2FDBE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0987E9745F658DA2"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Bobber"
+			tasks: [{
+				id: "7603B40853BC1D4E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tide:bobbers"
+					}
+				}
+				title: "Bobber"
+				type: "item"
+			}]
+			title: "Bob and Wave"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12ABF5CAD1BBD4ED"]
+			description: ["Hooks give various bonuses, and &6&osome are required to fish in specific areas&r."]
+			hide_dependency_lines: true
+			id: "6F26060A50069BF2"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "45F8B0295F3199B0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "15F371F015CF078A"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Fishing Hook"
+			tasks: [{
+				id: "7D8410A6F38EA98F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tide:hooks"
+					}
+				}
+				title: "Hook"
+				type: "item"
+			}]
+			title: "Are You Hooked Yet?"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F26060A50069BF2"]
+			description: ["The basic fishing hook, purely cosmetic."]
+			id: "2E17178A86A774BE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "72581B47FC9457A3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5EEA6A48E4B62D40"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Basic Fishing Hook"
+			tasks: [{
+				id: "27545D699581027E"
+				item: "tide:fishing_hook"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F26060A50069BF2"]
+			description: ["An Iron Fishing Hook will reduce the speed of the fishing minigame."]
+			id: "56C9F3BA861F9CA8"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "412738163EC1E0B0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "29B98AF653F65061"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Iron Fishing Hook"
+			tasks: [{
+				id: "46D41895DBF7CB8D"
+				item: "tide:iron_fishing_hook"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["12ABF5CAD1BBD4ED"]
+			description: ["Fishing lines can grant cosmetic and performance boosts. Although the basic line is purely cosmetic, it's needed to craft better ones."]
+			hide_dependency_lines: true
+			id: "48D9D8BC413CADEA"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3B0A5589F18ACA4E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5C96A580561E4D83"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B52552EFEBE561D"
+				item: "tide:fishing_line"
+				type: "item"
+			}]
+			title: "Line Em Up"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48D9D8BC413CADEA"]
+			description: ["The Braided Fishing Line will speed up the charge when you cast your rod."]
+			id: "48FF58C2F6B54BB3"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "26F6B4204B62EF3F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "794ADBF00AAAD7FC"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Braided Fishing Line"
+			tasks: [{
+				id: "21D8B39E898BDA30"
+				item: "tide:braided_line"
+				type: "item"
+			}]
+			title: "Can I Style Your Line?"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48D9D8BC413CADEA"]
+			description: ["A Reinforced Fishing Line gives your fishing rod a chance to not take any damage when used."]
+			id: "085BF7B7C082C75D"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7223D9D43CB546FC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "36A7ACA6C7EAA47D"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Reinforced Fishing Line"
+			tasks: [{
+				id: "550107A61E097684"
+				item: "tide:reinforced_line"
+				type: "item"
+			}]
+			title: "Your Bit of String in Your Hand"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["48D9D8BC413CADEA"]
+			description: ["The Golden Fishing Line increases your luck while fishing"]
+			id: "3F3F6F3926110E42"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "07E8A205DD144189"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7810D953EACD6301"
+					table_id: 5911687141636330101L
+					title: "Golden Nugget(s)"
+					type: "random"
+				}
+			]
+			subtitle: "Craft a Golden Fishing Rod"
+			tasks: [{
+				id: "6D20A61B5A601E9A"
+				item: "tide:golden_line"
+				type: "item"
+			}]
+			title: "Gonna be gonna be Golden"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			description: ["Did you know The Nether is home to some of its own fish? Indeed it is, but fishing in lava is no simple task. The heat will melt your hook the moment it hits. To circumvent this, you can craft a lava proof hook. When this hook's attached, fishing in lava is no different from water."]
+			id: "7F6C368A42506322"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "64B5CEDC57EEC8E5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a Lava-Proof Fishing Hook"
+			tasks: [{
+				id: "50814F533A25C54A"
+				item: "tide:lavaproof_fishing_hook"
+				type: "item"
+			}]
+			title: "A Reel Hot Catch"
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			description: ["I have nothing to say to you."]
+			id: "180555739861AF54"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7731711296A737FD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a Netherite Fishing Rod"
+			tasks: [{
+				id: "4F7D2DAFCE63B61E"
+				item: {
+					Count: 1
+					id: "tide:netherite_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Reel Dedication"
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"0200624FDF3F2367"
+				"3382A9EBAE939697"
+			]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			id: "00B0B704929E4C0E"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3D2045C1E67BBF5A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2C3B6B742023397A"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15DBBDE54DA88117"
+				item: {
+					Count: 1
+					id: "tide:golden_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3382A9EBAE939697"
+				"00B0B704929E4C0E"
+				"0200624FDF3F2367"
+			]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			id: "3A6F201ECE92A473"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "137D48DBD0BABA40"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0729A7052CBC8321"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "655522B2DB0C04B7"
+				item: {
+					Count: 1
+					id: "tide:crystal_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"00B0B704929E4C0E"
+				"3382A9EBAE939697"
+				"0200624FDF3F2367"
+			]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			id: "56E447B4AC656814"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0249943163E68287"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "51C33F3E8E0F1F62"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A4AA596202AE142"
+				item: {
+					Count: 1
+					id: "tide:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: ["If you're fishing, you're going to want a Fishing Journal. This beauty of a tracker takes note of every fish you've caught. In addition, it also tells you where it can be found and the conditions."]
+			id: "6A3B7FC7807367FE"
+			rewards: [
+				{
+					count: 3
+					id: "067BF8D4FF9D8114"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7B58F9604F0824BF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				id: "4B1F8ABE00823860"
+				item: "tide:fishing_journal"
+				type: "item"
+			}]
+			title: "Notetaker"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A3B7FC7807367FE"]
+			description: [
+				"Fishing is no easy task, and certainly no idle one. To find certain fish, &6&oyou'll need to track the time, weather, temperature, depth, or even the phases of the moon&r. Sometimes you might be tracking 2 or more to find what you're looking for."
+				"Fortunately, there are a variety of tools available to you, and reading the entry of a previously caught fish will show you its requirements. In addition to this, you may find &6&oscraps of old notes&r, giving you a hint of an unknown fish."
+			]
+			id: "3CE728FEC12012A3"
+			rewards: [
+				{
+					amount: 750L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "57C6C1BBD18E79CB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 5
+					id: "458C3183DFF04219"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Craft the Items to Help Track Fishing Conditions"
+			tasks: [
+				{
+					id: "018240D30EAB4D53"
+					item: "tide:pocket_watch"
+					type: "item"
+				}
+				{
+					id: "7D6103ECE1B65FC3"
+					item: "tide:weather_radio"
+					type: "item"
+				}
+				{
+					id: "01A5821265973DB8"
+					item: "tide:climate_gauge"
+					type: "item"
+				}
+				{
+					id: "3EE68D15A16D021A"
+					item: "tide:depth_meter"
+					type: "item"
+				}
+				{
+					id: "5069D42EC6984997"
+					item: "tide:lunar_calendar"
+					type: "item"
+				}
+			]
+			title: "Conditional"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6A3B7FC7807367FE"]
+			description: ["You're probably gonna be catching a lot of fish, right? In that case, you may want to get yourself a Fish Satchel. Open and close it by using the item, or put a fish in by right clicking in the gui. Best part? &6&oWhile it's open, the satchel will automatically store any fish you catch.&r"]
+			id: "671A213F5059C4E7"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "302488D9E189786A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "18C90935AB3E97AB"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16BC55872413DAC1"
+				item: "tide:fish_satchel"
+				type: "item"
+			}]
+			title: "Bags of Fish"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			description: ["So apparently you can fish in The End? That's new, I'll admit. Though with how &o&3my friend&r is talking about \"Void Liquid,\" I suppose it's not &othat&r crazy to imagine."]
+			id: "12630716213DB5CE"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4F5B773E6CA7213C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a Hook of The Depths"
+			tasks: [{
+				id: "321EDEB7AF25F7B6"
+				item: "tide:void_fishing_hook"
+				type: "item"
+			}]
+			title: "You Can Fish WHERE?!"
+			x: -5.5d
+			y: 14.5d
+		}
+		{
+			id: "2A06C19A15226A09"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "52E079104F6CE1C2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4531734BF07C0F74"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "0B51263F192F2271"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "5C7F01BFFD8A5057"
+				item: { Count: 32, id: "minecraft:salmon" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "7AB7E23B8A7D40FA"
+			tasks: [{
+				id: "6C103231A92E4E49"
+				title: "Rivers"
+				type: "custom"
+			}]
+			title: "Lakes and Rivers"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			id: "604EDEE379CA1ED7"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "1AD53C73B7C713EA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "73D4D4AE12FF9DBE"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "04DFF4E833FA1C30"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "1718DDF8C293130E"
+				item: {
+					Count: 1
+					id: "tide:brook_trout"
+					tag: {
+						FishLength: 40.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "70E81043731A9927"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "61C142514DA6D945"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "356FF32EC0CCED77"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "1AFA86C17D06136A"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "128CD779B0E7CAB5"
+				item: {
+					Count: 1
+					id: "tide:carp"
+					tag: {
+						FishLength: 60.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "68C32EEF7C68A981"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "592D75BE3674A4F6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3DED0A4A57565232"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "6FAC380E6D8C7230"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "6F850672305B2BEE"
+				item: {
+					Count: 1
+					id: "tide:bluegill"
+					tag: {
+						FishLength: 22.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "448A6BC3778672B1"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0F023039BD99DA97"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6F2A03816E3F9083"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "51B5062A7CB3ED44"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "6833A0F477BBE2AA"
+				item: {
+					Count: 1
+					id: "tide:walleye"
+					tag: {
+						FishLength: 55.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "001DE4CB1E7085EA"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2367455F9D8D2729"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "020E53762F187B54"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "0B40456695D38AB4"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "0AC0DD04295A0215"
+				item: {
+					Count: 1
+					id: "tide:black_crappie"
+					tag: {
+						FishLength: 30.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "5A62D4E15875B195"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3357449CF9162B79"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "640DDBBEB7CAF468"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "5AC91F4BB74D5918"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "35D7E1E69F3B5EAE"
+				item: {
+					Count: 1
+					id: "tide:largemouth_bass"
+					tag: {
+						FishLength: 50.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "272CAE202D0A280F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0B694BD207BFCB23"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "69DAD80E2C73231C"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "5BF5E6C901F169A2"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "5EC8C412901E9296"
+				item: {
+					Count: 1
+					id: "tide:yellow_perch"
+					tag: {
+						FishLength: 22.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "7607743891A8021E"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "27FCEF23A277A7E1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "440008956B763737"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7E8DCDFB0442BCCB"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "575B4E09BF2CD84F"
+				item: {
+					Count: 1
+					id: "tide:white_crappie"
+					tag: {
+						FishLength: 25.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "5E0A2ED6426B32A2"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "414B37EAF1B7C43F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "47ACA722CE68F19F"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7A4F2AFDDFAF9A25"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "32B45998458A1DC4"
+				item: {
+					Count: 1
+					id: "tide:pike"
+					tag: {
+						FishLength: 70.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "4268B80F1324D729"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "364D72CCD0B17EF3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "397EFFEBC7A30EEE"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "53160682A3482797"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "0CAD0364D30E3451"
+				item: {
+					Count: 1
+					id: "tide:catfish"
+					tag: {
+						FishLength: 57.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "415A7E2A442055F4"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4C3DDE68380F67ED"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "61E03781D58AED52"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "277824A1D285AB45"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "458F2AB8F06F35B6"
+				item: {
+					Count: 1
+					id: "tide:rainbow_trout"
+					tag: {
+						FishLength: 62.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "246D1C6CDC3406EF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "055AB7707EB1F259"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "65491D373D6ADEF4"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "04B8437239975A6E"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "614C68D49663B43A"
+				item: {
+					Count: 1
+					id: "tide:smallmouth_bass"
+					tag: {
+						FishLength: 43.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "63B05AF409913899"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "55DB545BC1A8E8AA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "655B0399E400FA66"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "01FA9C2B1DD52AB6"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "20F71C6261FA177F"
+				item: {
+					Count: 1
+					id: "tide:guppy"
+					tag: {
+						FishLength: 5.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			id: "2AE2C2707865B62B"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7C3BAECE8303C3AB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2005271D98B18594"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7E8CD1E80FB4AC45"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "4986E07AACCAC6CE"
+				item: {
+					Count: 1
+					id: "tide:blossom_bass"
+					tag: {
+						FishLength: 50.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "45C355AB9D8105E9"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7D6E4475EE4CC3C2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "305022D418789673"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "226C10157C8EE91C"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "7197CDDAD765CD43"
+				item: {
+					Count: 1
+					id: "tide:arapaima"
+					tag: {
+						FishLength: 290.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "21CBA7ABBA9133B0"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "6C1ADBAC6AB1F49D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3A50DAC10E08DC3C"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7E26B7C295679237"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "05DE869B10C72FEA"
+				item: {
+					Count: 1
+					id: "tide:mirage_catfish"
+					tag: {
+						FishLength: 57.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "646619120454F86E"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "05A4F0F834A0E2CA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "084E57CC511C8F10"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "00B6DE7AF819A667"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "736117A92FCAED4F"
+				item: {
+					Count: 1
+					id: "tide:frostbite_flounder"
+					tag: {
+						FishLength: 47.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "42CDAA2AE526C97A"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7056988334375471"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1F6859358C215E8D"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "3E2C740C06386932"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "22E12970AFB9DA58"
+				item: {
+					Count: 1
+					id: "tide:sand_tiger_shark"
+					tag: {
+						FishLength: 245.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "0BF890FDB2DAB1EE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "16F7587C16A0B3D7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "70155ACCFC1E1A96"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7F44ED878FC35486"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "10717DE657D8F45B"
+				item: {
+					Count: 1
+					id: "tide:sturgeon"
+					tag: {
+						FishLength: 195.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "7E0C9C0DB68B52A3"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "556F38462A5A88C9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4EA7EE39D7E40974"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "03937FE2742F105E"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "4A011FB1C3B818DA"
+				item: {
+					Count: 1
+					id: "tide:slimy_salmon"
+					tag: {
+						FishLength: 75.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "4F746F798215AF3A"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "1DB36013F6E6434F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0F43C4CF26304D6D"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "12519D82CAD7DE5F"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "6147AD8EBD2C27AC"
+				item: {
+					Count: 1
+					id: "tide:mooneye"
+					tag: {
+						FishLength: 29.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "62310B5891F6339F"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "16E9932DCA669DEA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "75CA45204A9A12A2"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "0F7FC5D6CBAA5A66"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "0A286B96877ABB8E"
+				item: {
+					Count: 1
+					id: "tide:bull_shark"
+					tag: {
+						FishLength: 237.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "7D77E89F21D92C84"
+			tasks: [{
+				id: "26B51D8109DAACB0"
+				title: "Ocean"
+				type: "custom"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			id: "1142448E6A0F1EC4"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7FD0B6779625FFD0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3B526934A032C149"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "20CE34F7B128241E"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "4823AACB1DC24CEB"
+				item: "aquamirae:spinefish"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			id: "74BD802065041524"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7EFC062AB84A8854"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5A683A8B1DEC7E90"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "0A4A2AC85CA1EC25"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "04EB2902CCFE09EA"
+				item: {
+					Count: 1
+					id: "tide:mackerel"
+					tag: {
+						FishLength: 37.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			id: "7D0CE36C2B1D1B48"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "38DCDFC5CAA2E0BF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "126CCDA42B4E1005"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "48875FB3D426F066"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "131B51BE7D5A090A"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "75D4E64011585877"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2EA2CD0382478B72"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7E7B0BD5E016C76D"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "49E00A20E2B6CB6C"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "6D7FC0657900AA76"
+				item: "minecraft:tropical_fish"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "58DEBBF325F96FB5"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0FE33F946FB4EBF5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4009A817F08AB243"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "1BCC712365CB01F8"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "0B94645F7D4748E7"
+				item: {
+					Count: 1
+					id: "tide:tuna"
+					tag: {
+						FishLength: 120.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "11BF37D3B1F778EF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0093CD532EAD40BF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "07AAA1502BA4EF86"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "17EF90F56F8A0C96"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "6EE96018A42992F8"
+				item: {
+					Count: 1
+					id: "tide:red_snapper"
+					tag: {
+						FishLength: 45.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "7C0FA1E9ABFC868C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "62D4E6F0FB027562"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0B186E8CBB1673D4"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "1D8578474FE44FFD"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "1EFBFC0E3E18E97F"
+				item: {
+					Count: 1
+					id: "tide:ocean_perch"
+					tag: {
+						FishLength: 45.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "12727D8905D45793"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5BD93D240C6068EC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4106E0BDBC3A9DCC"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "69A40DA2050354E2"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "00331DD0EDE47AF8"
+				item: {
+					Count: 1
+					id: "tide:snook"
+					tag: {
+						FishLength: 53.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "78F4D35A3E4969D1"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7750E8CB30657BAB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0178F438DA0FC4BC"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7059096D3D102117"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "337832AC57EA0A1D"
+				item: "miners_delight:squid"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "2D55F2E4A5E2188D"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "408587C2394374AA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "32C90358DE554D7A"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "2E45FC7371D294E5"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "5EC78D69FF17B536"
+				item: {
+					Count: 1
+					id: "tide:anchovy"
+					tag: {
+						FishLength: 9.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "6DD85A7410F8D997"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0DD7AF5ADD21675F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "15BB3947F99C772C"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7C27CF6EB189DA1B"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "31915215AC4E1348"
+				item: {
+					Count: 1
+					id: "tide:flounder"
+					tag: {
+						FishLength: 47.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "532EE61AF6A7360E"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "34AA63DE8FBB41BE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "51D1EA593E958D19"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "788CB0E906154B77"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "2FA08FE9FC420FB3"
+				item: "alexsmobs:flying_fish"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "3E5B42A9CD2A7021"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7EA9A59CA711DFAC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7D1A38CD38A33F7C"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7F602ED61390BD2C"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "3675EE07A483EF67"
+				item: {
+					Count: 1
+					id: "tide:angelfish"
+					tag: {
+						FishLength: 11.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			id: "286DCBD186F605B3"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3FC7758FF94BEFEF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6668AE3C17092B49"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7EA1D3A15988D19E"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "0B7CD60B3F83200E"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			id: "2BCE827ED7A4E70E"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "6A2A9F8A75663E8A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "294BFD9E58793788"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "1CF198E2C7467906"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "7514E12983941051"
+				item: "alexsmobs:blobfish"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			id: "16A4DA96F49593AF"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "1B8C414E735C43EF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F81BE17006052C9"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "1A792F471E3C9F7E"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "5107AB550DB39F99"
+				item: "alexscaves:sea_pig"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			id: "5E4CE86988BE3E73"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "649EF59D8D26E538"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0B229D3F59E5C376"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "4354CA2364263E38"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "092ADC95B30ACE72"
+				item: "alexscaves:lanternfish"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "30BD2CF6BEAECDC6"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0159A277CB3F8233"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2D8A0B1A84402B1D"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "70BA2F46C9AC29B6"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "063CD51DD8F9D7FE"
+				item: "cataclysm:lionfish"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "742FC717FD6C87B2"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "718398517233970F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "37D1E672F1A6C1E2"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "30AA7247F67CF6E3"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "6373075F475849B6"
+				item: "alexscaves:cooked_tripodfish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "79EB39543542FBE2"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "41C8F311F72E476D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3C5ECB51E4847DCF"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "48ED8AD5116BF900"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "25DEC3019ED2981F"
+				item: {
+					Count: 1
+					id: "tide:spore_stalker"
+					tag: {
+						FishLength: 45.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "450CB66D9D58E4E7"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "576EACF8FF3E5491"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "78DC3E5213C6F1C4"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "1D43111E86AA23C0"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "54B84A56A11DAEF9"
+				item: {
+					Count: 1
+					id: "tide:mahi_mahi"
+					tag: {
+						FishLength: 107.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "634F475819A3410C"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "1D50BA185A6D2225"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7526DD325A31C108"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "720010614BCB9E15"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "44D5EFE2C429E0F7"
+				item: {
+					Count: 1
+					id: "tide:sailfish"
+					tag: {
+						Damage: 0
+						FishLength: 225.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "3EFE778E1182DD59"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "45EEEED93D6C2BA0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "55C2F6A2EF5A5249"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "47C0E85E29D238C1"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "0673D7657B3476CF"
+				item: {
+					Count: 1
+					id: "tide:swordfish"
+					tag: {
+						Damage: 0
+						FishLength: 235.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			id: "2DE28F24163CE7CA"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2B69679D5A8F462D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "595B52D0C5F0D018"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "2346CA71AAEC1AF2"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "3B0392D927AB216C"
+				item: {
+					Count: 1
+					id: "tide:manta_ray"
+					tag: {
+						FishLength: 525.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			id: "0B758D0C80670BD7"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "603B7315FBD02083"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1977B49581FD337B"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "32E666E0EEAF6C4C"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "2927FFA2BFF5BED5"
+				item: {
+					Count: 1
+					id: "tide:aquathorn"
+					tag: {
+						FishLength: 38.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			id: "45B477A3A4AF70B1"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "25B63D39C777A00E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1743F228E773A742"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "6A404A0D37D4C6E7"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "3F90057D66406D1E"
+				item: {
+					Count: 1
+					id: "tide:neptune_koi"
+					tag: {
+						FishLength: 45.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			id: "0569891D5DBFB754"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "75B9C20659630821"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4BFD97FAE07ADF42"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "0BAEA8EA1D4E8F50"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "51F562F88E4C98A1"
+				item: {
+					Count: 1
+					id: "tide:pluto_snail"
+					tag: {
+						FishLength: 15.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			id: "4232C3945E9E0D20"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "37C1CBC0DDF1BAAE"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "440471B7B710EFF4"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "06FA78036FC1A3A3"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "3158549586AF6EEE"
+				item: {
+					Count: 1
+					id: "tide:sun_emblem"
+					tag: {
+						FishLength: 55.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "7E8849BB4D5B145D"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "183B53BC839D6038"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0C123E84BAF58352"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "3043D5E57C880341"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "516A0B661267FDBF"
+				item: {
+					Count: 1
+					id: "tide:saturn_cuttlefish"
+					tag: {
+						FishLength: 105.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			id: "2F6B7B242916412B"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7F32922B67618DC9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4D66CEDAE6D32DCC"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "61C6B01574AC0DB5"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "0EE17ED8303D5EBF"
+				item: {
+					Count: 1
+					id: "tide:marstilus"
+					tag: {
+						FishLength: 112.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			id: "49570E6B2DF173F1"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "671D985E24874D31"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "626AB1DAE237C39F"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "31D82B11C315B54B"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "2B7D74B987FC3B74"
+				item: {
+					Count: 1
+					id: "tide:uranias_pisces"
+					tag: {
+						FishLength: 200.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "07E04F8833C2B6CA"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "03CA6ECD34A5AD47"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0C92F82B374EB5EF"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "3627D2635503BFEC"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "272AE0467ED395D5"
+				item: {
+					Count: 1
+					id: "tide:great_white_shark"
+					tag: {
+						FishLength: 430.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "78A2EF15CDE66D0F"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4E30AFE8CF6925C0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "326246E623F39ECB"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "35A9D841AE602B37"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "06BA7CCB0BEC7D8A"
+				item: {
+					Count: 1
+					id: "tide:shooting_starfish"
+					tag: {
+						FishLength: 77.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			id: "7C954C946B54F953"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "527D1EA5A75CA27F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "72AF25E70E793EC0"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7EF6EC18D1448CAF"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "7683536B53F07C91"
+				item: {
+					Count: 1
+					id: "tide:coelacanth"
+					tag: {
+						FishLength: 165.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			id: "5392B83EA1E78748"
+			tasks: [{
+				id: "5E7A318324F9F8FC"
+				title: "Cave"
+				type: "custom"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			id: "051E1E245CF0576C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "41ED996A114A3E0C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0E317259980DFADC"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "0C2E9754B16EB4F5"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "21CA826A26555184"
+				item: {
+					Count: 1
+					id: "tide:cave_eel"
+					tag: {
+						FishLength: 102.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			id: "04E9F88822CA5E0B"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "6A482250B47AE149"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1D242BD65E60C5DB"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "79283B3C480B58CF"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "580977FA263053A0"
+				item: {
+					Count: 1
+					id: "tide:deep_grouper"
+					tag: {
+						FishLength: 65.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			id: "19E6CAA0D5539EF2"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "254F7D20386ED608"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3E2D97F926DCF9C3"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "599DAC0F131926DC"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "0232B1053F5AEE92"
+				item: {
+					Count: 1
+					id: "tide:cave_crawler"
+					tag: {
+						FishLength: 52.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			id: "1DC6FF9C38ED91A6"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3FACC28451C62187"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6BD53870BD41EA94"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "03017BA50356430B"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "3BCAE467C139A8A7"
+				item: {
+					Count: 1
+					id: "tide:shadow_snapper"
+					tag: {
+						FishLength: 50.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			id: "4C5EB0D5A85CF1C2"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0A7B654A924F0A94"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "00F15BCE135C030F"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "2EB98DF82CA0F135"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "45A1C8C5EFB82252"
+				item: "miners_delight:glow_squid"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			id: "3EAD4FC2BAFE4F9C"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5946FD8C7258986A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6C9AED738E50B0EC"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "6448AB84FA906184"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "6120AA157BA7F711"
+				item: {
+					Count: 1
+					id: "tide:glowfish"
+					tag: {
+						FishLength: 65.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			id: "48AF586AAB030CF3"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "21F1C26979F4CC56"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "03716A5A01E755A0"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "4C92D478CC799FB9"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "505268A74292EBC1"
+				item: {
+					Count: 1
+					id: "tide:anglerfish"
+					tag: {
+						FishLength: 27.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			id: "2B3D657E5D902465"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5B35BD820A4877D5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0842C39AAA094C09"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7D521C8AD0201182"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "25BFCD3B462CE4B4"
+				item: {
+					Count: 1
+					id: "tide:abyss_angler"
+					tag: {
+						FishLength: 27.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			id: "207B9D54D9E43642"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "08B459349656890F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "58ADE6874E2C6D2A"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "28754ABA7053F4D8"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "507955D56A7073BE"
+				item: {
+					Count: 1
+					id: "tide:iron_tetra"
+					tag: {
+						FishLength: 3.65d
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			id: "258CFA7D0D22CAE5"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "6894B13DA8815BC0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3C258A0D5F3B5F30"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "12E296D774855294"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "6B264FE8EDD98678"
+				item: {
+					Count: 1
+					id: "tide:dripstone_darter"
+					tag: {
+						FishLength: 45.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			id: "190993CB2010D486"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "43866B1DDB07C087"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3E4DFDC230EC2538"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "01DE21C07CEF7D05"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "543FF6131058082B"
+				item: {
+					Count: 1
+					id: "tide:lapis_lanternfish"
+					tag: {
+						FishLength: 10.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			id: "47F6ECC4C780D1DB"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "302CEFA8C1B77D73"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7290CCDEDD351946"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "58E92F68CA5F48AB"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "51537F921216E323"
+				item: "alexscaves:sweetish_fish_red"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			id: "1CFFC4A6EEDB0DB8"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "13A863EDD7B75CD9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "39E2448C69F88DFF"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "4C4E025D56D0297F"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "4D215AC32CD9A4F5"
+				item: "alexscaves:sweetish_fish_yellow"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			id: "5D2277FA97ECFCA0"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3E82670EB9AF6D02"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "151C09308C8DED5B"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "43F6AFAD23B35F32"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "73B1298482BE1DCB"
+				item: "alexscaves:sweetish_fish_pink"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			id: "16BAC491ED123815"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "1A611FADC9AE3215"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7D737FE794142D99"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "36E96B3BD9958820"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "7745C8E1176E28A6"
+				item: {
+					Count: 1
+					id: "tide:crystalline_carp"
+					tag: {
+						FishLength: 60.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			id: "0769EFB968218060"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "25F8358CCDBA200D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7C5873B3B333B6C5"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "17B1CFE15A55E079"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "723F85AAAC40FA3A"
+				item: "alexscaves:sweetish_fish_green"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			id: "76BB2612F110A3CE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0DB3E5D5BAA49B1A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2D1B9435DEE940A1"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "45E98ECAD57D522A"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "2DC0944A68F9CB9E"
+				item: "alexscaves:radgill"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			id: "5E479BE6C8FA1E46"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7DB31577F05C6D94"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7A504F023909264E"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "67232EBD8E9BDFAC"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "3D7B7B567CAABA10"
+				item: {
+					Count: 1
+					id: "tide:luminescent_jellyfish"
+					tag: {
+						FishLength: 45.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			id: "479C781B0AE902AD"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "72688952CFEF0E34"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7E6E2D4B4CC72E19"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "01A3FA97F49DD7F4"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "401CEE1D589E99D2"
+				item: "alexscaves:sweetish_fish_blue"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			id: "2B7F1DD3E75FAA51"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "29BD9A61D3E74F7D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "137FF5426944D6E0"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "5C9A439CF1D607BC"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "7A3D7543A5F8E853"
+				item: {
+					Count: 1
+					id: "tide:bedrock_tetra"
+					tag: {
+						FishLength: 3.65d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			id: "2D366F38625968E2"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "387766A008872B50"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "74407F621D3D6FB4"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "2E3881BC6AD40484"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "7B5308213D8F3B38"
+				item: {
+					Count: 1
+					id: "tide:gilded_minnow"
+					tag: {
+						FishLength: 11.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			id: "1F0C63FAE4C64D5D"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "31A09AC247E48178"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "490C58960033EA90"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "756B4F4F81B08B28"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "1571DD8E32A12368"
+				item: {
+					Count: 1
+					id: "tide:echo_snapper"
+					tag: {
+						FishLength: 75.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			id: "0188ABC4EDAD19B2"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4E1F5C0B13768D48"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "156731CDA49A7849"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "29BC522A67D8766D"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "12BA260084839BD5"
+				item: {
+					Count: 1
+					id: "tide:chasm_eel"
+					tag: {
+						FishLength: 150.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			id: "159D46215D05156F"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "6FEA6C28357B83AB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2AE59B0ADD6F28EB"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "257B56E8DF04FAF9"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "5CEEE63F4F0EE16F"
+				item: {
+					Count: 1
+					id: "tide:midas_fish"
+					tag: {
+						FishLength: 65.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			id: "5AF51A94D191FCC5"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4427E67B3FE6C5A7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "524903C2AA787C0B"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "0A57AD080ED0F324"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "7DE13394536BA176"
+				item: {
+					Count: 1
+					id: "tide:devils_hole_pupfish"
+					tag: {
+						FishLength: 2.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			id: "7D53558CBD9466CF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "50D093001FA38277"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "618B327D9FD6A4E3"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "13FE0AB1FFD1CBE8"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "75FDED64CE8D6A71"
+				item: {
+					Count: 1
+					id: "tide:magma_mackerel"
+					tag: {
+						FishLength: 37.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			id: "2F9F90B54D6ABA2C"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "28FDD249620E5255"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5EF0ACDAF1B2D859"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "3242817B8E24C486"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "7D42DA18C9A957AB"
+				item: {
+					Count: 1
+					id: "tide:ember_koi"
+					tag: {
+						FishLength: 45.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			id: "7FB77D4E0E807AEC"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4E832D42EEE0831D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4C652B9774CA9438"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "6D0A13AA1F4CBC1E"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "79D6A7A842591F49"
+				item: {
+					Count: 1
+					id: "tide:obsidian_pike"
+					tag: {
+						FishLength: 70.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			id: "76502CBAB6FF7977"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5CDA7CDE30A9B4FF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7D8FDCD787B50B18"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7A0EC34A14CC42A3"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "106866741221E9D4"
+				item: {
+					Count: 1
+					id: "tide:volcano_tuna"
+					tag: {
+						FishLength: 62.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			id: "7B4431DE58CECFAA"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "54E094F0B183E280"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4FCDFC01B181F8F8"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "776FFC3FCFD2FB36"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "666D20F3ACAEF4A3"
+				item: {
+					Count: 1
+					id: "tide:ash_perch"
+					tag: {
+						FishLength: 22.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			id: "6BF0665CA551E44A"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "73C6A30B0A63F847"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5D9E731526E9F56E"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "4335F55F68966003"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "73BB05B15498DDEC"
+				item: {
+					Count: 1
+					id: "tide:crimson_fangjaw"
+					tag: {
+						FishLength: 50.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			id: "422F4A62F897146A"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2D4FC372D73C1C12"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0CBDC737A59BAFEB"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "5FE484D0E707C367"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "349E40C7F3EA5529"
+				item: {
+					Count: 1
+					id: "tide:warped_guppy"
+					tag: {
+						FishLength: 5.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			id: "046DAAC98FE3E0EE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3784782AAD15AEB0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3DD40750E4423D75"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "437B698B5419E741"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "671125F77969068E"
+				item: {
+					Count: 1
+					id: "tide:soulscale"
+					tag: {
+						FishLength: 47.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			id: "57D15AA02D3E765D"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "1F40C01A7187E171"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "23D28D2959007007"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "2C4B2261EDF6C6CA"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "2894A0FF86ED3E55"
+				item: {
+					Count: 1
+					id: "tide:witherfin"
+					tag: {
+						FishLength: 32.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			id: "4141DA545EE1C681"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "12FF77F8157A747A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F825BF09F059A0B"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "531835E35FD45413"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "5E2E98D3B1E695CE"
+				item: {
+					Count: 1
+					id: "tide:inferno_guppy"
+					tag: {
+						FishLength: 5.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			id: "702DEF38FF54634C"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2133753213CED410"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2D4C1D95FDFD115C"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "692796DBF386956A"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "1879156EBF45B527"
+				item: {
+					Count: 1
+					id: "tide:blazing_swordfish"
+					tag: {
+						Damage: 0
+						FishLength: 235.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			id: "09AB89825D7822BF"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7DFE88EAB8E224B3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3D3E675E667800F2"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7FF1DF0BAB46F67D"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "46A08152591B7A27"
+				item: {
+					Count: 1
+					id: "tide:amber_rockfish"
+					tag: {
+						FishLength: 47.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			id: "517F73AD34C38147"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "37DA0EE9DD52DE35"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "03F4362C8B0CD836"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "3971C2203C875B94"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "71FF87F8E5040855"
+				item: {
+					Count: 1
+					id: "tide:pale_clubfish"
+					tag: {
+						FishLength: 52.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.5d
+		}
+		{
+			id: "56F066B2CA918A1F"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "739787D2F745779A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1278DD2DC0383661"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "14B47B96B10C9124"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "69FF99F43FC15BE3"
+				item: {
+					Count: 1
+					id: "tide:enderfin"
+					tag: {
+						FishLength: 45.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.5d
+		}
+		{
+			id: "68DFC408FC0D8855"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2CC55952C0A3DC10"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "62B6FBBFD8712AD3"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7984EC48E810D167"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "2CE12A2236386569"
+				item: {
+					Count: 1
+					id: "tide:incandescent_larva"
+					tag: {
+						FishLength: 3.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			id: "115F6591D5CE350D"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "55D1BE44478B6C5F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "100BFEDC4C3AC7A5"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "00943E3E761CE196"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "491142DDFA389449"
+				item: {
+					Count: 1
+					id: "tide:bedrock_bug"
+					tag: {
+						FishLength: 3.75d
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			id: "08DFC4725DB60875"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2224F55BF8483C34"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "094E3F0AB49CDE42"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7F9B1D8903663846"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "7A4E1E39178B5668"
+				item: {
+					Count: 1
+					id: "tide:sleepy_carp"
+					tag: {
+						FishLength: 60.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			id: "14134E072355D396"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "556CC7E668E34E42"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5BF51714442F81D3"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "4BBBBD1575735C5D"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "0B735261172B9A91"
+				item: "alexsmobs:cosmic_cod"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			id: "30E72DF8FDCD8677"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "16DCB33C0D18A3E3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "01E9E69E1EEAA9EB"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "60444F9AE8CD9E78"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "62D223FD97402832"
+				item: {
+					Count: 1
+					id: "tide:chorus_cod"
+					tag: {
+						FishLength: 65.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			id: "126385ECD9768760"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7E9CDAB2EF11F2D1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "49557631D32791D1"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "10F47C02E4514464"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "2FC71E929F83F91F"
+				item: {
+					Count: 1
+					id: "tide:ender_glider"
+					tag: {
+						FishLength: 59.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			id: "346218BAA0613319"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5FC0C403144F05E3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6A07B34307EF06B9"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "4984321DFA64D787"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "116F4816E88FC013"
+				item: {
+					Count: 1
+					id: "tide:endergazer"
+					tag: {
+						FishLength: 30.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			id: "0C391F91CD33999E"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "48AB9E93CAAFF435"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "04B5F5CF4BFB52A3"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "1DACFE46F552FDBC"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "42EEF50C428E4154"
+				item: {
+					Count: 1
+					id: "tide:blue_neonfish"
+					tag: {
+						FishLength: 27.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.5d
+		}
+		{
+			id: "4A3CC6670D5D86C4"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4011A377B051B51E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "005C7CCF1B5BEA41"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "58775A7AE3943F48"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "024D707BCD05B5B7"
+				item: {
+					Count: 1
+					id: "tide:judgment_fish"
+					tag: {
+						FishLength: 60.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.5d
+		}
+		{
+			id: "2CEEB7ED2FBB0EC4"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "13AB344275BF98DA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "17AB8EC2B9C1456B"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "4786988C8703C0B1"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "6B5A563335A32C74"
+				item: {
+					Count: 1
+					id: "tide:deep_blue"
+					tag: {
+						FishLength: 51.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 14.5d
+		}
+		{
+			id: "1A03FC9B90F05B3A"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "452FC426B01F6408"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "486B86F7D7BE8F0F"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "1E679EDB9A720E01"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "417AE8DE8A8724A5"
+				item: {
+					Count: 1
+					id: "tide:violet_carp"
+					tag: {
+						FishLength: 72.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 14.5d
+		}
+		{
+			id: "67A8FBA15B31DA64"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5FC40F958EF72075"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "205BE8FAF4E43576"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "0F0C7F7168F8B060"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "11A0E26055CA1C89"
+				item: {
+					Count: 1
+					id: "tide:nephrosilu"
+					tag: {
+						FishLength: 72.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 14.5d
+		}
+		{
+			id: "6D130A7B5DE3B0B5"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "68F55779EA5B9083"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "349CC830F2F8A674"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "63F3C48B0B4068F0"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "573DC7A14F8EED5B"
+				item: {
+					Count: 1
+					id: "tide:dutchman_sock"
+					tag: {
+						FishLength: 5.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 14.5d
+		}
+		{
+			id: "3F6DEC8469B2127B"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "024E9E882547E9BF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "250B96B8D30628D5"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "62B391CD446AC3A0"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "3DE9BD81D3AA5AB9"
+				item: {
+					Count: 1
+					id: "tide:vengeance"
+					tag: {
+						FishLength: 65.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			id: "28285A81865808EF"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4EA2F95D295522C9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "46CC256400A162A3"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "0DA0E45DBFC76E2F"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "03499772A18D63EE"
+				item: {
+					Count: 1
+					id: "tide:red_40"
+					tag: {
+						FishLength: 18.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.5d
+		}
+		{
+			id: "136F25F2604001A7"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "16E5CBF80D30EC20"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "17D2FAD9E1F50803"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "18525276767AEA98"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "5C33571AFDE04051"
+				item: {
+					Count: 1
+					id: "tide:elytrout"
+					tag: {
+						FishLength: 47.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			id: "7A908B4330F60439"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "35785303BB3CD0C1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "60DD3FF9F6595C07"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "54B587C09218C84A"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "21F459B349C2ECCE"
+				item: {
+					Count: 1
+					id: "tide:pentapus"
+					tag: {
+						FishLength: 60.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			id: "2C0184EBDB8A507A"
+			rewards: [
+				{
+					amount: 125L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4C128E7B600EBFA7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "64241648F19AD10F"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "7C0157F1B6D2C4B8"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "0BE298A67C1A85DB"
+				item: {
+					Count: 1
+					id: "tide:mantyvern"
+					tag: {
+						FishLength: 320.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			id: "5B3B1C09FB280992"
+			rewards: [
+				{
+					amount: 125L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "69E0B0D1F3C0656E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "607BCE36866D8CF4"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "142C8C30713B4864"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "32DCC05544C6C973"
+				item: {
+					Count: 1
+					id: "tide:darkness_eater"
+					tag: {
+						FishLength: 200.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.5d
+		}
+		{
+			id: "36E581F55D27F63F"
+			rewards: [
+				{
+					amount: 125L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "1A903B5A73D94F92"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "79F9448D24795AED"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "4CFDAF2FB6646756"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "03CA1CD147892F10"
+				item: {
+					Count: 1
+					id: "tide:snatcher_squid"
+					tag: {
+						FishLength: 140.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.5d
+		}
+		{
+			id: "2FA0F7A733E0065F"
+			rewards: [
+				{
+					amount: 125L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "32A72FFC600C545A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6E4A32313E152D1E"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "4E1F6AC5FE296E29"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "0B661009D49C0336"
+				item: {
+					Count: 1
+					id: "tide:shadow_shark"
+					tag: {
+						FishLength: 277.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.5d
+		}
+		{
+			id: "4A18E410253CE017"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "1C53C71EA130853C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3804436705F33527"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "1E182D4E0FC44C7C"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "4CF3D71C4E5F3D81"
+				item: {
+					Count: 1
+					id: "tide:voidseeker"
+					tag: {
+						FishLength: 52.5d
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 15.5d
+		}
+		{
+			id: "075CB2602449A220"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "33395197E5BFF974"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1498B500D3F9B9B8"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "037772324D8AFC4C"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "2CFFF59741687011"
+				item: {
+					Count: 1
+					id: "tide:alpha_fish"
+					tag: {
+						FishLength: 50.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 15.5d
+		}
+		{
+			id: "682AE4A214ECC2A8"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "474BFDDA063BE578"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7C7239DDC43F46E8"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+				{
+					id: "6B6EFA6C2741B9E5"
+					item: "tide:fish_display"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "1027D095E0F36019"
+				item: {
+					Count: 1
+					id: "tide:dragon_fish"
+					tag: {
+						FishLength: 650.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 15.5d
+		}
+	]
+	title: "Fine Fishing"
+}

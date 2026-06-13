@@ -1,10 +1,9 @@
 ServerEvents.recipes(event => {
-    event.remove({id:'hybrid-aquatic:trident'})
 
     event.replaceInput(
         {output:'apotheosis:inert_trident'},
         'minecraft:iron_ingot',
-        'hybrid-aquatic:prismarine_rod'
+        'minecraft:prismarine_shard'
     )
     event.replaceInput(
         {output:'apotheosis:inert_trident'},

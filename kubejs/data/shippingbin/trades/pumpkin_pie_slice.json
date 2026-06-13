@@ -1,0 +1,20 @@
+{
+   "input": {
+    "count": 54,
+    "ingredient": {
+      "item": "farmersdelight:pumpkin_slice"
+    }
+  },
+  "output": {
+    "count": 1,
+    "item": "eternalcurrencies:currency_item",
+    "nbt": {
+      "currencies": [
+        {
+          "currency": "eternalcurrencies:ancientcoins",
+          "amount":10
+        }
+      ]
+    }
+  }
+}

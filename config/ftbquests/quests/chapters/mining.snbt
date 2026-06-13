@@ -371,7 +371,7 @@
 					type: "item"
 				}
 				{
-					count: 32L
+					count: 64L
 					id: "6F814027B3EB6E56"
 					item: "minecraft:raw_copper"
 					type: "item"

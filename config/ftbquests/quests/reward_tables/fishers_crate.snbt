@@ -1,0 +1,30 @@
+{
+	id: "0EF514498339D6BB"
+	loot_size: 3
+	order_index: 12
+	rewards: [
+		{ item: "minecraft:salmon", weight: 85.0f }
+		{ item: "tide:cooked_fish", weight: 80.0f }
+		{
+			item: {
+				Count: 1
+				id: "tide:largemouth_bass"
+				tag: {
+					FishLength: 50.0d
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tide:smallmouth_bass"
+				tag: {
+					FishLength: 43.5d
+				}
+			}
+			weight: 25.0f
+		}
+	]
+	title: "Fisher's Crate"
+}

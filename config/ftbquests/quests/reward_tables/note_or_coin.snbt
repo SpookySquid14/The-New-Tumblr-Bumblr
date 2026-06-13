@@ -1,0 +1,15 @@
+{
+	id: "6A590512C0D9C3EA"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 3, item: "tide:fishy_note" }
+		{
+			amount: 300L
+			currency: "eternalcurrencies:ancientcoins"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+		}
+	]
+	title: "Note or Coin"
+}

@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	default_repeatable_quest: true
 	filename: "rock_and_stone"
 	group: "6DE537A3985C2BD8"
 	id: "0F23E7D50C581A52"
@@ -29,7 +30,7 @@
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
+			x: -1.0d
 			y: -4.25d
 		}
 		{
@@ -37,7 +38,7 @@
 			image: "fairylights:entity/letter/digit_two"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
+			x: -2.0d
 			y: -4.25d
 		}
 		{
@@ -45,34 +46,31 @@
 			image: "fairylights:entity/letter/digit_five"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
+			x: -1.5d
 			y: -4.25d
 		}
 		{
-			dependency: "725FBF759BC307C8"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_six"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
+			x: -2.0d
 			y: -2.25d
 		}
 		{
-			dependency: "725FBF759BC307C8"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
+			x: -1.5d
 			y: -2.25d
 		}
 		{
-			dependency: "725FBF759BC307C8"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
+			x: -1.0d
 			y: -2.25d
 		}
 		{
@@ -80,176 +78,224 @@
 			image: "fairylights:entity/letter/digit_one"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: -0.25d
+			x: 1.0d
+			y: 1.75d
 		}
 		{
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_six"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
-			y: -0.25d
+			x: 1.5d
+			y: 1.75d
 		}
 		{
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_five"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: -0.25d
+			x: 2.0d
+			y: 1.75d
 		}
 		{
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.0d
-			y: -0.25d
+			x: 2.5d
+			y: 1.75d
 		}
 		{
-			dependency: "08BE7B461CC437CA"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_four"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: 0.75d
+			x: 1.0d
+			y: -3.25d
 		}
 		{
-			dependency: "08BE7B461CC437CA"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_five"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
-			y: 0.75d
+			x: 1.5d
+			y: -3.25d
 		}
 		{
-			dependency: "08BE7B461CC437CA"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: 0.75d
+			x: 2.0d
+			y: -3.25d
 		}
 		{
-			dependency: "128555C5E928F099"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_three"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
+			x: -2.0d
 			y: -3.25d
 		}
 		{
-			dependency: "128555C5E928F099"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_five"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
+			x: -1.5d
 			y: -3.25d
 		}
 		{
-			dependency: "128555C5E928F099"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
+			x: -1.0d
 			y: -3.25d
 		}
 		{
-			dependency: "42B5D1A43C9C02AB"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_three"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: -1.25d
+			x: 1.0d
+			y: -4.25d
 		}
 		{
-			dependency: "42B5D1A43C9C02AB"
 			height: 1.0d
-			image: "fairylights:entity/letter/digit_five"
+			image: "fairylights:entity/letter/digit_eight"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
-			y: -1.25d
+			x: 1.5d
+			y: -4.25d
 		}
 		{
-			dependency: "42B5D1A43C9C02AB"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: -1.25d
+			x: 2.0d
+			y: -4.25d
 		}
 		{
-			dependency: "1908E5992649B221"
 			height: 1.0d
-			image: "fairylights:entity/letter/digit_three"
+			image: "fairylights:entity/letter/digit_eight"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: -1.25d
+			x: -2.0d
+			y: 0.75d
 		}
 		{
-			dependency: "1908E5992649B221"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_five"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
-			y: -1.25d
+			x: -1.5d
+			y: 0.75d
 		}
 		{
-			dependency: "1908E5992649B221"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: -1.25d
+			x: -1.0d
+			y: 0.75d
 		}
 		{
-			dependency: "2538D770008B1CD4"
 			height: 1.0d
-			image: "fairylights:entity/letter/digit_one"
+			image: "fairylights:entity/letter/digit_nine"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
+			x: -2.0d
 			y: 1.75d
 		}
 		{
-			dependency: "2538D770008B1CD4"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_two"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
+			x: -1.5d
 			y: 1.75d
 		}
 		{
-			dependency: "2538D770008B1CD4"
-			height: 1.0d
-			image: "fairylights:entity/letter/digit_five"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: 1.75d
-		}
-		{
-			dependency: "2538D770008B1CD4"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.0d
+			x: -1.0d
 			y: 1.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_six"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.25d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_two"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.25d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.25d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_three"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -0.25d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_five"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -0.25d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -0.25d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_seven"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_four"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_five"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.75d
 		}
 	]
 	order_index: 0
@@ -278,14 +324,14 @@
 				type: "eternalcurrencies:currency"
 			}]
 			title: "16x Cobblestone"
-			x: -1.5d
+			x: -3.0d
 			y: -4.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["725FBF759BC307C8"]
 			disable_toast: true
-			hide_until_deps_complete: true
+			hide_lock_icon: true
 			icon: { Count: 8, id: "minecraft:iron_ingot" }
 			id: "5C13443DAF789830"
 			rewards: [{
@@ -304,7 +350,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			title: "8x Iron Ingots"
-			x: -1.5d
+			x: -3.0d
 			y: -2.5d
 		}
 		{
@@ -341,14 +387,16 @@
 				type: "eternalcurrencies:currency"
 			}]
 			title: "Eerie Pickaxe"
-			x: -1.5d
-			y: -0.5d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["08BE7B461CC437CA"]
 			disable_toast: true
-			hide_until_deps_complete: true
+			hide_details_until_startable: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			icon: { Count: 16, id: "tconstruct:grout" }
 			id: "57383C95CC6678D3"
 			rewards: [{
@@ -367,19 +415,18 @@
 				type: "eternalcurrencies:currency"
 			}]
 			title: "16x Grout"
-			x: -1.5d
-			y: 0.5d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["128555C5E928F099"]
 			disable_toast: true
-			hide_until_deps_complete: true
-			icon: { Count: 32, id: "minecraft:coal" }
+			icon: { Count: 16, id: "minecraft:coal" }
 			id: "01FD933F1E52DA53"
 			rewards: [{
 				auto: "no_toast"
-				count: 32
+				count: 16
 				id: "6D873BB9A9DA5DDA"
 				item: "minecraft:coal"
 				team_reward: true
@@ -392,8 +439,8 @@
 				id: "109C8572399DA3CC"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "32x Coal"
-			x: -1.5d
+			title: "16x Coal"
+			x: -3.0d
 			y: -3.5d
 		}
 		{
@@ -404,7 +451,6 @@
 			]
 			dependency_requirement: "one_completed"
 			disable_toast: true
-			hide_until_deps_complete: true
 			icon: { Count: 16, id: "minecraft:andesite" }
 			id: "03C1FFF0D39BAEE5"
 			rewards: [{
@@ -417,20 +463,19 @@
 			}]
 			shape: "square"
 			tasks: [{
-				amount: 350L
+				amount: 380L
 				currency: "eternalcurrencies:ancientcoins"
 				disable_toast: true
 				id: "5142D2CC1F01547D"
 				type: "eternalcurrencies:currency"
 			}]
 			title: "16x Andesite"
-			x: -1.5d
-			y: -1.5d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["2538D770008B1CD4"]
-			hide_until_deps_complete: true
 			icon: { Count: 8, id: "minecraft:diamond" }
 			id: "4EA4C799624AA35F"
 			rewards: [{
@@ -443,14 +488,143 @@
 			}]
 			shape: "square"
 			tasks: [{
-				amount: 1250L
+				amount: 850L
 				currency: "eternalcurrencies:ancientcoins"
 				id: "6CF597AEDB531573"
 				type: "eternalcurrencies:currency"
 			}]
 			title: "8x Diamonds"
-			x: -1.5d
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2538D770008B1CD4"]
+			icon: { Count: 8, id: "minecraft:emerald" }
+			id: "4892EFBE1C7AB547"
+			rewards: [{
+				auto: "no_toast"
+				count: 8
+				id: "3AF77E0FCB7C7B30"
+				item: "minecraft:emerald"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				amount: 920L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5CC3F116901F0B63"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "8x Emeralds"
+			x: -3.0d
 			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["725FBF759BC307C8"]
+			disable_toast: true
+			icon: { Count: 8, id: "minecraft:gold_ingot" }
+			id: "37EFF85CF52A3935"
+			rewards: [{
+				auto: "no_toast"
+				count: 8
+				id: "5F43E08B60DBCB55"
+				item: "minecraft:gold_ingot"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				amount: 620L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2E46C84DA7DB0619"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "8x Gold Ingots"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["725FBF759BC307C8"]
+			disable_toast: true
+			icon: { Count: 8, id: "minecraft:copper_ingot" }
+			id: "3B8BF726CC11FBFB"
+			rewards: [{
+				auto: "no_toast"
+				count: 8
+				id: "6DB524073EB2758A"
+				item: "minecraft:gold_ingot"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				amount: 620L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4214E2F75C070165"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "8x Copper Ingots"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"Some random guy stopped by a while back. Well, I say that, but only 'cause I heard footsteps. Opened the door to find this strange metal I'd never seen before and a note. I fashioned it into this pickaxe, and it's pretty good, but I won' lie, sometimes I feel sick when I'm near it."
+				"I'll sell it 'o ya. Give you the note, too. Just... keep it away from me."
+			]
+			icon: {
+				Count: 1
+				id: "clanginghowl:extraterrestrial_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "49E5EB307780A00E"
+			rewards: [
+				{
+					id: "7D5BC4D11E986CDD"
+					item: {
+						Count: 1
+						id: "clanginghowl:extraterrestrial_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BF8F47637C5715B"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							AntiqueInk: 1b
+							author: ""
+							generation: 3
+							pages: ["{\"font\":\"supplementaries:antiquable\",\"text\":\"Decay is coming\\nDay 47\\nWatch out\"}"]
+							resolved: 1b
+							title: "Book"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				amount: 745L
+				currency: "eternalcurrencies:ancientcoins"
+				disable_toast: true
+				id: "70E66713669F28C2"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "Odd Pickaxe"
+			x: 0.0d
+			y: 0.5d
 		}
 	]
 	title: "Rock and Stone"

@@ -129,7 +129,6 @@
 			y: -1.75d
 		}
 		{
-			dependency: "2538D770008B1CD4"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_eight"
 			rotation: 0.0d
@@ -138,7 +137,6 @@
 			y: -0.75d
 		}
 		{
-			dependency: "2538D770008B1CD4"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
@@ -147,7 +145,6 @@
 			y: -0.75d
 		}
 		{
-			dependency: "2538D770008B1CD4"
 			height: 1.0d
 			image: "fairylights:entity/letter/digit_zero"
 			rotation: 0.0d
@@ -328,9 +325,7 @@
 			y: -5.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["2538D770008B1CD4"]
-			hide_until_deps_complete: true
 			icon: { Count: 16, id: "minecraft:lapis_lazuli" }
 			id: "1804F80D5B4FBD50"
 			rewards: [{

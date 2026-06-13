@@ -1,0 +1,21 @@
+{
+  "attribute": "shippingbin:meat_sell_multiplier",
+   "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "tide:largemouth_bass"
+    }
+  },
+  "output": {
+    "count": 1,
+    "item": "eternalcurrencies:currency_item",
+    "nbt": {
+      "currencies": [
+        {
+          "currency": "eternalcurrencies:ancientcoins",
+          "amount":100
+        }
+      ]
+    }
+  }
+}

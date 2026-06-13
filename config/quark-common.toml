@@ -347,7 +347,7 @@
 	"Endermosh Music Disc" = true
 	"Parrot Eggs" = true
 	"Pathfinder Maps" = true
-	Pickarang = true
+	Pickarang = false
 	"Seed Pouch" = true
 	"Skull Pikes" = true
 	"Slime In A Bucket" = true
@@ -519,7 +519,7 @@
 	"Coral On Cactus" = true
 	"Diamond Repair" = true
 	"Double Door Opening" = true
-	"Dragon Scales" = true
+	"Dragon Scales" = false
 	"Dyeable Item Frames" = true
 	Emotes = true
 	"Enhanced Ladders" = true
@@ -536,7 +536,7 @@
 	"More Note Block Sounds" = true
 	"More Villagers" = true
 	"No Durability On Cosmetics" = true
-	"Pat The Dogs" = false
+	"Pat The Dogs" = true
 	"Petals On Water" = true
 	"Pig Litters" = true
 	"Poison Potato Usage" = true

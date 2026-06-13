@@ -1,7 +1,7 @@
 
 [General]
 	#Gives you the ami wiki book at start
-	AMI_WIKI_ENABLED = true
+	AMI_WIKI_ENABLED = false
 	#Whether animals that target food recieve the effects of the food they grab
 	FOOD_FX_ENABLED = true
 	#Animals with eggs will be hostile to those seen holding their eggs
