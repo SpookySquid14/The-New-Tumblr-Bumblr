@@ -75662,11 +75662,11 @@ hash = "697354cbf18b79c63eb3c25d22f962d2d7562947223c5d0a42763ef14fb5f7ed"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/copper_block.json"
-hash = "f3e4d0211f55d3251a3f3fc7371ca336013c895bbef36c1968bb04e68a07d090"
+hash = "6565846d2d884890895d0bafe1c006c80f97c0afa47ce21408492e6565daf08d"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/copper_ingot.json"
-hash = "f1e7a2fa8f265383c2b5129c12e0719c94aeec673e9a04ce220569d103996edb"
+hash = "cfac456fdb1fb08b7c0443305a0a3bc9fe69f4cdfff546397482706664a0461e"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/cosmic_cod.json"
@@ -75702,11 +75702,11 @@ hash = "7fc8faee3034e9ec6cba3f6abc6fb9487e9ef95cccecb988d30de18ca04e85c3"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/diamond.json"
-hash = "1996d8929be71ffe54916fbbf41eafe611fe469c5f975e1a5014cc8ed0d3e0ff"
+hash = "cace8ce8981597c964ce4a434f1356aabd4cbbfde0562781be82ea51c2ad66d0"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/diamond_block.json"
-hash = "ffcd4b88f60593146db7f6b99a867ba8450d2bdf4d32417a8a2753afb6a68073"
+hash = "bcdae7c0897ea3705b8df4db6584c74793377925dbcb217bbca7cf312805a525"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/dragon_fish.json"
@@ -75738,7 +75738,11 @@ hash = "4a88f68b75d90e138ed2cd7fa665851bb5e62958bb7f1ec904a72bd92d489d3a"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/emerald.json"
-hash = "d6486c72cb44245e20dd7ba07818039bf00cce722566187c1444b45e7b1f937d"
+hash = "02174d00eb1b84b69274e03ec3d26453a98bfcf14b4c033caf0bde09a8ef2f4b"
+
+[[files]]
+file = "kubejs/data/shippingbin/trades/emerald_block.json"
+hash = "101ca54307c5fe9e0af7f4dd82a9a84034c0ea711736c0a226b354c4a4444605"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/ender_glider.json"
@@ -75782,11 +75786,11 @@ hash = "91f32302a13be0e717d3c3fabac0986ca2dce4b8b909d245cab24e2f871920be"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/gold_block.json"
-hash = "400a15e407bfbfb457687a93bad253cbbbd492e7221bfff7d712ad9b5b0b2e56"
+hash = "58b02b640a42625e726134c0338c6548d96496a8149569b9e735f72d036320f8"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/gold_ingot.json"
-hash = "056707c4e1c276410e052f843c283fd038293bf80726df8a00bca0f8ddfb68bb"
+hash = "e0264b92fedc7644aa87b52359c49f57bcd4c39a5cb444e1181a93f698276f89"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/golden_apple.json"
@@ -75822,11 +75826,11 @@ hash = "c9b9bd934661f1cd40babbf651c3b7095e0ba8c86b55b8305e039741c3c4c579"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/iron_block.json"
-hash = "93b667bb8619b4819df54e482d477355ae53df6e3bfd21dfc232bb593d5f08cf"
+hash = "334766df45a41b2b1fba9b6a45d7ff45e35807240b2c2875e9f3d2f4d59ecc44"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/iron_ingot.json"
-hash = "b1ca029588b25d1b0821ce0eb518563bc4db5ba0394a4067cccc359d215d74ef"
+hash = "6f5b87df23eaa8ff60d4e101349c3adf13925f92ed5b9fdc76d4fd5332c51ceb"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/iron_tetra.json"
@@ -75841,8 +75845,16 @@ file = "kubejs/data/shippingbin/trades/lanternfish.json"
 hash = "2c424be42519d3fdd5da34c0cce8c226fd12d92f044eea8de088aa0cdd7100be"
 
 [[files]]
+file = "kubejs/data/shippingbin/trades/lapis_block.json"
+hash = "d8e83f89fefa566de8142cd59ed03dc29c776427b0af9ecb7abd94e495320719"
+
+[[files]]
 file = "kubejs/data/shippingbin/trades/lapis_lanternfish.json"
 hash = "e8c0a04754050fb3c54df9652e0084c4fcf734fe2dd408b386884b50068bacbf"
+
+[[files]]
+file = "kubejs/data/shippingbin/trades/lapis_lazuli.json"
+hash = "a92c41bb03e4220c8daa964f18a3e8452b65200579179242a4e9afb51c61f16a"
 
 [[files]]
 file = "kubejs/data/shippingbin/trades/largemouth_bass.json"

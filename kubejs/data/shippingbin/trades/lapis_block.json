@@ -3,7 +3,7 @@
    "input": {
     "count": 1,
     "ingredient": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:lapis_block"
     }
   },
   "output": {
@@ -13,9 +13,9 @@
       "currencies": [
         {
           "currency": "eternalcurrencies:ancientcoins",
-          "amount":540
+          "amount":360
         }
       ]
     }
   }
-}
+} 
