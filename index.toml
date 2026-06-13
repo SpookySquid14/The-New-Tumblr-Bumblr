@@ -12889,10 +12889,6 @@ file = "config/blockswap/known_states/copycats/wrapped_copycat.json5"
 hash = "770ff16d1af45cb672b5763425ef7b4274b2478ca0107c46125c04e88586b5c7"
 
 [[files]]
-file = "config/blockswap/known_states/craftingautomat/autocrafter.json5"
-hash = "0306f87365afaccbec00ce8ae1f6905c52865cf85567f5d758e15e7dace67482"
-
-[[files]]
 file = "config/blockswap/known_states/create/acacia_window.json5"
 hash = "a433e119635237c17fae3b5f478237cd45a198f5a88616764ce2280a479ef3f6"
 
