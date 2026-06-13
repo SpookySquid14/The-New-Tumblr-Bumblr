@@ -12889,6 +12889,10 @@ file = "config/blockswap/known_states/copycats/wrapped_copycat.json5"
 hash = "770ff16d1af45cb672b5763425ef7b4274b2478ca0107c46125c04e88586b5c7"
 
 [[files]]
+file = "config/blockswap/known_states/craftingautomat/autocrafter.json5"
+hash = "0306f87365afaccbec00ce8ae1f6905c52865cf85567f5d758e15e7dace67482"
+
+[[files]]
 file = "config/blockswap/known_states/create/acacia_window.json5"
 hash = "a433e119635237c17fae3b5f478237cd45a198f5a88616764ce2280a479ef3f6"
 
@@ -70502,7 +70506,7 @@ hash = "4e2e205c6801bd7f6cdbc7dbb98fb462108b4b9b5d26262b748659c5990a5f28"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "3079d8682a7cab39a5bc96022957ff25d4304a6407a09632646ec3be6d29e5c2"
+hash = "a06ba2f0208cbfe5c53c9e20fba93454806f3ca0afb829d4a146ba1092f6e600"
 
 [[files]]
 file = "config/quested-common.toml"
@@ -77558,11 +77562,6 @@ metafile = true
 [[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
 hash = "249dc5b3e34310d5e2df2958b91e22e9f6a1330ba154ee9f00d67eb1bccb4f26"
-metafile = true
-
-[[files]]
-file = "mods/crafting-automat.pw.toml"
-hash = "07fdf05dc2e3f712d0760a169859fb574df92053810e1c2fb2ac7bf9bfe52d51"
 metafile = true
 
 [[files]]
