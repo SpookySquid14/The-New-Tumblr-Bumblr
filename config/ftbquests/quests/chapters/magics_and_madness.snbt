@@ -152,6 +152,30 @@
 			x: 0.5d
 			y: -0.75d
 		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_seven"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 0.25d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_six"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.25d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_zero"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.25d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -346,6 +370,39 @@
 			title: "16x Lapis Lazuli"
 			x: -1.5d
 			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["510E0EB270B43037"]
+			description: ["Hm? You recognize this tablet now, do you? Perhaps you have interest in the arcane arts. If so, you'll definitely be needing these. Not many ways to get some save for looting homes and old crypts."]
+			disable_toast: true
+			icon: { Count: 8, id: "irons_spellbooks:blank_rune" }
+			id: "4947377B74C7D158"
+			rewards: [{
+				auto: "no_toast"
+				count: 8
+				id: "0AFCCF655B81A348"
+				item: "irons_spellbooks:blank_rune"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				amount: 760L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ancientcoins:textures/currencies/ancient_coin.png"
+					}
+				}
+				id: "1D7BE27ADC110C2E"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "8x Blank Runestones"
+			x: -1.5d
+			y: 0.0d
 		}
 	]
 	title: "Magics And Madness"

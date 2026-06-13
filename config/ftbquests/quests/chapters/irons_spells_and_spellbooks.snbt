@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spells_and_spellbooks"
+	group: "2E5A9DABC49A0340"
+	id: "0EE178021329EB6B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "510E0EB270B43037"
+		tasks: [{
+			count: 8L
+			id: "29DE4DE70AB1EBEA"
+			item: { Count: 8, id: "irons_spellbooks:blank_rune" }
+			type: "item"
+		}]
+		title: "MMO"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Iron's Spells and Spellbooks"
+}

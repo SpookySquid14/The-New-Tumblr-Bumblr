@@ -910,7 +910,7 @@ hash = "56840e4c6a265049bce2846b6c11d0267a6fafa1b72a75b9d7b9a94dc55c5022"
 
 [[files]]
 file = "config/apotheosis/apotheosis.cfg"
-hash = "e9b76ee3c7bb3da4d16fdd1a62f09b0d525f3653718e3b541ea0f2964c9fc307"
+hash = "164a5519eecc3fcdb9eb08fc386ab9bf3a5774802d121f1b457bf86456a67b19"
 
 [[files]]
 file = "config/apotheosis/ench.cfg"
@@ -926,7 +926,7 @@ hash = "dea4d260e6eac868297c0f9cd80545fd6b54f7344c678b89edda980a3fc5e8cf"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "41904693c483ecc530d63ae3a0b9a0f45a719f81978d2af8ce0f081f779ac671"
+hash = "f57727acc41ab7d87f9daeca1e5bfe012885f6a0e86d2daa2300cd97942afac9"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -5041,12 +5041,20 @@ file = "config/blockswap/known_states/amethyst_tools/amethyst_torch.json5"
 hash = "f87fbbfae68b65192478f1afa4d24986e11275f707b44afbc277995b36be5e23"
 
 [[files]]
+file = "config/blockswap/known_states/apotheosis/augmenting_table.json5"
+hash = "39cc9599d4ba75f7f389e14af18bab66374b8b1b4cd4d3e4848300096d39e486"
+
+[[files]]
 file = "config/blockswap/known_states/apotheosis/beeshelf.json5"
 hash = "13b43e91361fa0ecd1c839297656de055d82c167cc6b442fb8254856bb9e3902"
 
 [[files]]
 file = "config/blockswap/known_states/apotheosis/blazing_hellshelf.json5"
 hash = "17f42682000f758494b843d15598197e884e291d230b673c74e71420ac859b1a"
+
+[[files]]
+file = "config/blockswap/known_states/apotheosis/boss_spawner.json5"
+hash = "4fcc18717ecd224ae01605ce4d5e04c9161ce8f6937a36f74b6c4f265c476907"
 
 [[files]]
 file = "config/blockswap/known_states/apotheosis/crystal_seashelf.json5"
@@ -5083,6 +5091,10 @@ hash = "875c685678d93b0f1cd86d3cc4f9264ab203e47fccd2d1397bbb64031eb4fe10"
 [[files]]
 file = "config/blockswap/known_states/apotheosis/filtering_shelf.json5"
 hash = "cc157b92dfcee2347c084b7527a45df108e4d8aa9ba795fe48ffd6cd8f817792"
+
+[[files]]
+file = "config/blockswap/known_states/apotheosis/gem_cutting_table.json5"
+hash = "08f6407eff66833160b71db90e81c3adb7801773b74e3216fbc6796838b75c16"
 
 [[files]]
 file = "config/blockswap/known_states/apotheosis/glowing_hellshelf.json5"
@@ -5129,6 +5141,14 @@ file = "config/blockswap/known_states/apotheosis/rectifier_t3.json5"
 hash = "208cc4bb6616de84f9addd8a3126ee56162d5219c885a87e5d7d4a247d8645e0"
 
 [[files]]
+file = "config/blockswap/known_states/apotheosis/reforging_table.json5"
+hash = "38bb56b3b98dbd9eed23405efbaf8ba1f24f4018513c545ddf1543660feab928"
+
+[[files]]
+file = "config/blockswap/known_states/apotheosis/salvaging_table.json5"
+hash = "def770b1322cd97aa8b3e14d942d5d25c935fd798c4da2e5c6fbfcb05f669bf9"
+
+[[files]]
 file = "config/blockswap/known_states/apotheosis/seashelf.json5"
 hash = "7570b91ec51791f3fec99e6e371b249fa3262a6479babe325a4fa683dc85c31d"
 
@@ -5139,6 +5159,10 @@ hash = "b4a7133ed73b631f32f5945d260b9df82aab2140468b60d1756101585201f2ba"
 [[files]]
 file = "config/blockswap/known_states/apotheosis/sightshelf_t2.json5"
 hash = "df728bedee4f18150b36b96a8eae153455d495cd884d221fb8193439d31570d4"
+
+[[files]]
+file = "config/blockswap/known_states/apotheosis/simple_reforging_table.json5"
+hash = "3412de0d1bde33d86fcfd0806c960920bc4c5734eb8874e58d226a3c01ba44f8"
 
 [[files]]
 file = "config/blockswap/known_states/apotheosis/soul_touched_deepshelf.json5"
@@ -68190,7 +68214,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "98b06403195028a504501ef97a8a4ff073b505ff5893348bc06f18a95c779788"
+hash = "0b0f01546125eb6cdeda270a593fd32b6b99b1cd2c2d2de9d3209a2516a32171"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69157,12 +69181,16 @@ file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
 hash = "924096ca772dd132ead2e851f90952832b91669c0096373adb08c69545c8ef15"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/irons_spells_and_spellbooks.snbt"
+hash = "566a15dfe0b9c452e36f21ed44ffb30eb121580a87fb4671c1df4974d48d80b9"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/legendary_eyes.snbt"
 hash = "340a3616bc50940dc35d81c947caa4d10f659410537fa341472ffa2fb00c764c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magics_and_madness.snbt"
-hash = "aa737d9dd5086aface96b3ba0a0d02f262c701d88b6ac84a5f4152716f334f52"
+hash = "02516de045495a0f2ee2eebc051d227d0dd6616b44336269ca8cbcf13ab461f1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/minecolonies.snbt"
@@ -69586,7 +69614,7 @@ hash = "8a9c0403b385ca106d0c0b541ea2f2128bf39e3f9b05b342b176ca11834857a4"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "6ef2c31992e2839195276d93c52febb50fc45a946fbad2f4e52bcca7c7828d6e"
+hash = "210f33b2672016749d2a53a8328d88ce4f2bcd2216a0117e49eb98f32821f357"
 
 [[files]]
 file = "config/jade/sort-order.json"
@@ -69602,7 +69630,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "85ae6de6c972e89d6a8eaca1ce6c2b1f3933a9f7021eaa76d04cb013b780de7f"
+hash = "77d1634c7629ac1617f521dc8e15d44aed2dc877843ec7ab822763767dd4c83b"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69626,7 +69654,11 @@ hash = "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "b17b9938c283a0303d630b91be39190428ba514a264356f07bfb76134b5167b5"
+hash = "d730cfc3b1180de49aae9b48e4454f9687d76cb59985d2c8f27f7192f49e3c53"
+
+[[files]]
+file = "config/jei/world/local/Apothic/lookupHistory.ini"
+hash = "054fbe6554e68cf29aa42dca8a85c6dc1f3235d3e2d470b1de22f5566a50bac7"
 
 [[files]]
 file = "config/jei/world/local/Boss/bookmarks.ini"
@@ -70046,7 +70078,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "a03da99f12900e0a9c99d099548df2e0fdbfa3a86c27c04cc79ccb14c4d1dd7b"
+hash = "ea5d2f5e15dc8d326861c691278577a847503b28dfa4926788807efddc6de793"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70162,7 +70194,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ac7f265373385fbfd4cab20672d48cffcb2f76df7b0326d74e00d5f2cc25c1fc"
+hash = "4e0e3ea07a3002d1a2eb3500229d9f60a67f8c60543ddbadb6e6cda439b4d4d0"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70178,7 +70210,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "0c9e078987ba7e0aec05d10026f017006983622384526e6c4d35a2bce2453b86"
+hash = "060405a4bf428727ce60c518e2a78fefe676e844933e8d48d14e9d41aaf22dbe"
 
 [[files]]
 file = "config/pal.properties"

@@ -86,6 +86,7 @@
     "mod_name": true
   },
   "apotheosis": {
+    "adventure": true,
     "ench": true
   },
   "complicated_bees": {
