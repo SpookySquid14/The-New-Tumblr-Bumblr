@@ -86,7 +86,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/MusicTriggers/example/main.toml"
-hash = "3d809d3b2bc1f21bb58a8678492d97947bb7e2a4cba969d89cbcef370e9db9dc"
+hash = "deaf6229488eb50c72a65d14d2a2eab0cd0735d6f44f4b5245a1b548e06bb3ec"
 
 [[files]]
 file = "config/MusicTriggers/example/redirect.txt"
@@ -1455,6 +1455,10 @@ hash = "5bfe02aedc8da01e2e5f821cd1d9303f487b8992866f5289c579b0101a0a7f73"
 [[files]]
 file = "config/barteringstation-server.toml"
 hash = "b3e95ff6dbb4cd08afb1db4de5f4a3647b7f3ec144e0507db92ff88c3d6ae492"
+
+[[files]]
+file = "config/battlemusic-client.toml"
+hash = "84e453916911511f62b113b419edc8af65e1f889d868503588e42f0c542d13c6"
 
 [[files]]
 file = "config/bbb.json"
@@ -68254,7 +68258,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "bd75febaed08ed136097dad2dda3f2a1888e4d9d2574421d818cd61838b5857f"
+hash = "a0f7ac148397792787c4300f1a7481eedb0a26bbf694048f1b19a8e493800424"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69674,7 +69678,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "60a2aa9788e0e627e1e4d0aa454184066f37494fb9794cc0ecbe286920ee248e"
+hash = "90a4b672db359d8a3d3ffce0e113cc24fa8520f80d3cffb2c688e76f43ffe16f"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -70126,7 +70130,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "11ef8eeaed4bf6a4a8ce3190f9339416839c17d23a414e78091065e4e30ae6c8"
+hash = "f5e4334de1b55062e46468d1436a8c4584cdfb3f6a85fd4131dede49ed8ebe11"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70242,7 +70246,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "a151df0a141bd485c09d678fadc602e704fff1e4afbf0ea57a9612396b3235c5"
+hash = "810f8c62497ce3af4e38bb5e9a2074efd67b9f5ecfabe934da68a18a07b92760"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70258,7 +70262,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "439eec1a3dd95d4051c94d9a78368b7a940fe63ab4d5b9b61245c2f7e05706b3"
+hash = "7f8130b0866fc76196a55046f46fa6e4e77b02cbff513d3fb66a9520affb6c22"
 
 [[files]]
 file = "config/pal.properties"
@@ -70802,11 +70806,7 @@ hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
 
 [[files]]
 file = "config/structurify.json"
-hash = "6483a804795ec806be2704badda56a4fa81feb17c0059b8dded3509f11eb28d1"
-
-[[files]]
-file = "config/structurify/structurify_backup_2026-06-10_11-00-37.json"
-hash = "5a9a98d19ff21cf665697da73de03c1bb4670b29e7745d96aaa4ecf72430e4d4"
+hash = "7c0820fd86aafcbca6eaa3a53bfe176370701b09657805879a2d2a5aafeb4583"
 
 [[files]]
 file = "config/structurify/structurify_backup_2026-06-14_12-29-15.json"
@@ -70823,6 +70823,10 @@ hash = "f63f9db0f93819117d023f0293f446fb308c6ddff84ae43aa56e365bc3b948bc"
 [[files]]
 file = "config/structurify/structurify_backup_2026-06-14_12-49-29.json"
 hash = "5cd4824de8fb36cdb953d9d310bc30eaa67a654e17525ba32f0fa0f047ea8a3d"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-06-14_17-29-34.json"
+hash = "6483a804795ec806be2704badda56a4fa81feb17c0059b8dded3509f11eb28d1"
 
 [[files]]
 file = "config/structurify_dump.json"

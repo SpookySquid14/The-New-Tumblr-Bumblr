@@ -9,8 +9,11 @@
 	[triggers.mob]
 		identifier = "harbinger_theme"
 		mob_nbt = [ ]
+		mob_targeting = false
+		play_when_paused = true
 		resource_matcher = "exact"
 		resource_name = [ "cataclysm:the_harbinger" ]
+		target_any_player = false
 	[triggers.universal]
 		active_cooldown = "0"
 		fade_in = "0"
