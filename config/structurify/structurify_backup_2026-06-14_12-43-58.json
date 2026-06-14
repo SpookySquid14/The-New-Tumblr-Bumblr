@@ -1,11 +1,11 @@
 {
-  "config_version": "2.0.22",
-  "config_datetime": "2026-04-16_16-53-35",
+  "config_version": "2.0.25",
+  "config_datetime": "2026-06-14_12-37-54",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
     "enable_global_spacing_and_separation_modifier": true,
-    "global_spacing_and_separation_modifier": 2.0
+    "global_spacing_and_separation_modifier": 4.0
   },
   "structure_namespaces": [
     {
@@ -16,23 +16,46 @@
       "max_distance_from_world_center": 0,
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
-      "flatness_check_allow_non_solid_blocks": true
+      "flatness_check_allow_non_solid_blocks": false
     }
   ],
   "structures": [
     {
       "name": "betterdungeons:zombie_dungeon",
-      "is_disabled": false,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "underground_structures",
-      "terrain_adaptation": "none",
       "override_global_flatness_check": false,
       "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "idas:redhorn_guild",
+      "terrain_adaptation": "beard_box"
     }
   ],
   "structure_sets": [
+    {
+      "spacing": 25,
+      "separation": 6,
+      "name": "tconstruct:end_sky_island",
+      "is_disabled": false,
+      "salt": 368963602,
+      "frequency": 0.374,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "tconstruct:end_slime_island": 1
+      }
+    },
+    {
+      "spacing": 15,
+      "separation": 7,
+      "name": "tconstruct:nether_ocean_island",
+      "is_disabled": false,
+      "salt": 65245622,
+      "frequency": 0.374,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "tconstruct:blood_island": 1
+      }
+    },
     {
       "spacing": 30,
       "separation": 9,
@@ -60,6 +83,19 @@
       }
     },
     {
+      "spacing": 32,
+      "separation": 8,
+      "name": "tombstone:abandoned_grave",
+      "is_disabled": true,
+      "salt": 41375816,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "tombstone:abandoned_grave_land": 1,
+        "tombstone:abandoned_grave_ocean": 1
+      }
+    },
+    {
       "spacing": 86,
       "separation": 60,
       "name": "vampirism:hunter_camp",
@@ -71,5 +107,6 @@
         "vampirism:hunter_camp": 1
       }
     }
-  ]
+  ],
+  "structure_template_pools": []
 }

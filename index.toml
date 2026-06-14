@@ -26637,6 +26637,10 @@ file = "config/blockswap/known_states/irons_spellbooks/blood_cauldron.json5"
 hash = "1d3c57dd0cc9454e066f6cfa70c236f8dba21b5fb04c32e408b4d3a99a3dae9c"
 
 [[files]]
+file = "config/blockswap/known_states/irons_spellbooks/bone_vault.json5"
+hash = "610da48afdd5b4b696e2b727bf4a31651e5681f814b357502f9926b62ca3405f"
+
+[[files]]
 file = "config/blockswap/known_states/irons_spellbooks/book_stack.json5"
 hash = "75ba5a13b2ec23be18bf9bb12a2d555459a270c4dd7a314b96de352091c01014"
 
@@ -26651,6 +26655,10 @@ hash = "d7c6b5e92728f3716877dcc5cfbdfff2b7529d35c826b10309ebda16869cb353"
 [[files]]
 file = "config/blockswap/known_states/irons_spellbooks/cinderous_soul_rune.json5"
 hash = "ed730f101275de22aa214bb539976710c8023f31fcc1bc34e1b02cf15da20960"
+
+[[files]]
+file = "config/blockswap/known_states/irons_spellbooks/cinderous_vault.json5"
+hash = "12e5dec3e25b0120dbdd3c5d3573ba37c15cb506f8373689a8d62386cce8d56a"
 
 [[files]]
 file = "config/blockswap/known_states/irons_spellbooks/deepslate_mithril_ore.json5"
@@ -68246,7 +68254,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "80eb4dca0cbf4cfbe3eda66c03d44bd0f43c2522af189669719bd5cf3cd24cd3"
+hash = "bd75febaed08ed136097dad2dda3f2a1888e4d9d2574421d818cd61838b5857f"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68523,6 +68531,10 @@ hash = "e4b130a68e94d87e07b143c714bc7f302792223402f01e63d8ec9465863bc4f0"
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$mangrove_swamp.cfg"
 hash = "fadced09f170c426333d093f1f44a67452d718bdb49f95bc9fc9392e9d221c36"
+
+[[files]]
+file = "config/forgeendertech/Biomes/minecraft$meadow.cfg"
+hash = "0280a30f5a4ca0efcb5610f126e5923c0a1367e94058d797299a5afa118470de"
 
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$mushroom_fields.cfg"
@@ -69618,7 +69630,7 @@ hash = "c1ef423d7f120999392d08eb9c1cf251da21d6bddeb400e36d66f17dd5344cab"
 
 [[files]]
 file = "config/irons_spellbooks-client.toml"
-hash = "b358e07be8cdca5dc297cc2b56394cf5b97747402fd4fa1bcda214d49161c46e"
+hash = "aff4451a22fba8b7f0c0477910858785e2f3fa353f4542dd84d3b9811f5703df"
 
 [[files]]
 file = "config/irons_spellbooks_spell_config/global_config.json"
@@ -69662,7 +69674,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "77d1634c7629ac1617f521dc8e15d44aed2dc877843ec7ab822763767dd4c83b"
+hash = "60a2aa9788e0e627e1e4d0aa454184066f37494fb9794cc0ecbe286920ee248e"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69750,7 +69762,7 @@ hash = "6d313e89b48baef206316c237587a07679ad37b613eddd5d777c13b6ae71de46"
 
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.ini"
-hash = "716baa83908266cff60aa99ee18bc3151caad1e95d9766df19cc4d8c56bbc36a"
+hash = "0f22903dde0bb6edd4f36f3519bae17fdcac2a784b98c6fce26a576fae8a67d1"
 
 [[files]]
 file = "config/jei/world/local/New_World__1/lookupHistory.ini"
@@ -69762,7 +69774,7 @@ hash = "8568268e6696704e58bb34b2bad9e512471a33c2450d2f841affe4c1d7569984"
 
 [[files]]
 file = "config/jei/world/local/New_World__11/lookupHistory.ini"
-hash = "e370306876dddf1bbe052bbca0f161de6009d0de084e8affa6f58e8d559a96af"
+hash = "3ecff983957798944d4154bbb0e2eb051080fda84414ebef77a6e663bf0bcb22"
 
 [[files]]
 file = "config/jei/world/local/New_World__12/bookmarks.ini"
@@ -69770,7 +69782,7 @@ hash = "febf9ed010d0f4232e66fa71dc79e64060c93c83533de0801c720a12d765d0fe"
 
 [[files]]
 file = "config/jei/world/local/New_World__12/lookupHistory.ini"
-hash = "f048987f2f94379f46d2b7b5ae5f1260647c690a904b59be58ead08edaf0586b"
+hash = "a455161e1b3cb57dce66a2ae2235fc9a4c3d19785c3e2d45d287e99b4e949927"
 
 [[files]]
 file = "config/jei/world/local/New_World__13/lookupHistory.ini"
@@ -69917,6 +69929,10 @@ file = "config/jei/world/local/Playtest_3/lookupHistory.ini"
 hash = "d3da6522cc9c5db95c03526632517d95b85b674388837274e1725a3763f2d9e7"
 
 [[files]]
+file = "config/jei/world/local/Spawn_test__4/lookupHistory.ini"
+hash = "bdc31b7a29ed4525c89f3a8e4dcf871434ab9ad869fcd7d3115ee1e411bfbc1f"
+
+[[files]]
 file = "config/jei/world/local/Structure_Hopping/lookupHistory.ini"
 hash = "3a576272da29ee611860f64eff56297aa30bdc175c49eb42e60934b220584590"
 
@@ -69942,7 +69958,7 @@ hash = "b497bd5347383552517807b723e11184eb10f8e2ef7ce6c061cfa72ef769d4da"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_23ced690/lookupHistory.ini"
-hash = "ba23debd338da09ec1a97f0bf9f339ae6ca4276649b59475c811beec143099c9"
+hash = "f17308b08f3bc99d143ae452a40c62f21aa631d54b1aa9521f410e37e08ebcaa"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_fbacacb7/lookupHistory.ini"
@@ -70110,7 +70126,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "c0e0baeb71510f81a9bb65cd55ec5e961fd2b124042955fefab9c6b56e13f484"
+hash = "11ef8eeaed4bf6a4a8ce3190f9339416839c17d23a414e78091065e4e30ae6c8"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70226,7 +70242,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "abc5db88d5ebed56255a67583dc9e71b17c2a722aad532a6e2ddfccd7e3d1c73"
+hash = "a151df0a141bd485c09d678fadc602e704fff1e4afbf0ea57a9612396b3235c5"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70242,7 +70258,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "9dfa47bf432e3ddb4dd339c8e6d40360f66e95a0453d1fe2db8a9891c9977ab2"
+hash = "439eec1a3dd95d4051c94d9a78368b7a940fe63ab4d5b9b61245c2f7e05706b3"
 
 [[files]]
 file = "config/pal.properties"
@@ -70786,27 +70802,27 @@ hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
 
 [[files]]
 file = "config/structurify.json"
-hash = "bf2c06b967dea6734447ebcb3b37a6076f3b3880ea3ea4ac724aefcc84d0b57c"
-
-[[files]]
-file = "config/structurify/structurify_backup_2026-04-16_16-55-55.json"
-hash = "18da195aa33f3cc1c040129813ad6dca03c829bfd2ac0911443e7ec83aaa3534"
-
-[[files]]
-file = "config/structurify/structurify_backup_2026-04-17_20-02-43.json"
-hash = "7bf90b37a05777d01fcc60b49d7b4e5c509987803f73f684812a8c0f84eb99cf"
-
-[[files]]
-file = "config/structurify/structurify_backup_2026-04-20_11-52-06.json"
-hash = "1292a53631779c816574ce487a76d260edc7ca9628d79db993f9bab5d9f90bbf"
-
-[[files]]
-file = "config/structurify/structurify_backup_2026-04-24_14-48-16.json"
-hash = "306f5f535d8d135a21edd87cc4bf5508cf63611a44078a292d7e5f5642a20fbe"
+hash = "6483a804795ec806be2704badda56a4fa81feb17c0059b8dded3509f11eb28d1"
 
 [[files]]
 file = "config/structurify/structurify_backup_2026-06-10_11-00-37.json"
 hash = "5a9a98d19ff21cf665697da73de03c1bb4670b29e7745d96aaa4ecf72430e4d4"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-06-14_12-29-15.json"
+hash = "bf2c06b967dea6734447ebcb3b37a6076f3b3880ea3ea4ac724aefcc84d0b57c"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-06-14_12-37-54.json"
+hash = "90462830f6d534cd81c602d62651c562fea90aacf118684bc7a0eaf077daca44"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-06-14_12-43-58.json"
+hash = "f63f9db0f93819117d023f0293f446fb308c6ddff84ae43aa56e365bc3b948bc"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-06-14_12-49-29.json"
+hash = "5cd4824de8fb36cdb953d9d310bc30eaa67a654e17525ba32f0fa0f047ea8a3d"
 
 [[files]]
 file = "config/structurify_dump.json"
@@ -71122,7 +71138,7 @@ hash = "4e9548b73bc700278d170f0a17948096a71f5d5c1008c589698b58941ad95a25"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "c00755c6264b011134e030ce866cecbc9d6b19ffbc455a663ded208472e5d2d3"
+hash = "c7c6b2ebd8e3d696460f79e2d3f207e590c8964b57a297f7e9370a9457966b25"
 
 [[files]]
 file = "config/weeping_angels-client.toml"
@@ -77310,11 +77326,6 @@ hash = "0c2de1a5cba8ef66f25a36e3c63da221a310e064fc3cb7df7819197d044d5db8"
 metafile = true
 
 [[files]]
-file = "mods/blighted-beasts.pw.toml"
-hash = "39082f5d2f1dde8ece7c93eeed1698b46234a9329088e959dbb0cf05dd232025"
-metafile = true
-
-[[files]]
 file = "mods/block-swap.pw.toml"
 hash = "924484d72d26f3b9e9a700e9a3e90934dcdd186cccd2b6c7bf978a4d546efeeb"
 metafile = true
@@ -77531,7 +77542,7 @@ metafile = true
 
 [[files]]
 file = "mods/constructs-casting.pw.toml"
-hash = "7ffa18603a392a2574742db9018779d126798e618d9f7442711227c02a7ad199"
+hash = "ae40c9bc11b13de659202c71df0e75170320f0ee6d4ea3298cc6596b674d02f3"
 metafile = true
 
 [[files]]
@@ -78226,7 +78237,7 @@ metafile = true
 
 [[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
-hash = "967799a57679b7ccd1aa08dc990ad2a1221890685bf8f91a6ac14d8bd3a63a33"
+hash = "ff08ae79d2997b24e40ed91f70a587e6d607055ac29f04d46dca355687729bd7"
 metafile = true
 
 [[files]]
