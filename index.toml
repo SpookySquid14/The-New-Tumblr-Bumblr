@@ -76970,7 +76970,7 @@ hash = "9922a9ca79941097c90697f730985602d1e8865ad780658a514d893d0232deeb"
 
 [[files]]
 file = "kubejs/server_scripts/cataclysm_boss_music.js"
-hash = "50a96d8c215fbda5a4ac10939c692358a8a737ea45d6562c78692b74e22a6541"
+hash = "80aac06511b01232ef12371d669a863e0cf3a48e71d7bf1c84733e00ab7d2700"
 
 [[files]]
 file = "kubejs/server_scripts/dynamic_boss_hp_spawn.js"
