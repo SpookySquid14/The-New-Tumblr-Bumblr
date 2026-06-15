@@ -11,7 +11,7 @@
 	#custombossbar(on/off)
 	"custombossbar(on/off)" = true
 	#custombossbar(on/off)
-	"BossMusic(on/off)" = false
+	"BossMusic(on/off)" = true
 	#BossMusicVolume
 	#Range: 1 ~ 100
 	BossMusicVolume = 1

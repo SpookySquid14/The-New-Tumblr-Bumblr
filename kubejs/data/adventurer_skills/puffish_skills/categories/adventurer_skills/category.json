@@ -1,0 +1,16 @@
+{
+    "unlocked_by_default": true,
+    "title": "Adventurer Skills",
+    "icon": {
+        "type": "item",
+        "data": {
+            "item": "writable_book"
+        }
+    },
+    "background": {
+        "texture": "textures/gui/advancements/backgrounds/bgtexture.png",
+        "width": 16,
+        "height": 16,
+        "position": "tile"
+    }
+}

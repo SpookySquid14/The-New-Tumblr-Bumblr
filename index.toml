@@ -67786,7 +67786,7 @@ hash = "b0969c40c02d1321437a636f0b47ed61cd0fd5806b315dae280d489532d23819"
 
 [[files]]
 file = "config/cataclysm-client.toml"
-hash = "31f993b7e67cb51db4ffc4e5dc40de7a7d0bfb269c91afaf40db857782d05812"
+hash = "67df4b59a69f2f747a66b62f5fd388a06ca822915f2c0bdfa314c72b568b07b7"
 
 [[files]]
 file = "config/cataclysm-common.toml"
@@ -68258,7 +68258,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a0f7ac148397792787c4300f1a7481eedb0a26bbf694048f1b19a8e493800424"
+hash = "de4b495d0751a2e1d2bdf79bcdd65f08faf4a4ab65528c5715bde86464fa8504"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68633,6 +68633,10 @@ file = "config/forgeendertech/Biomes/minecraft$swamp.cfg"
 hash = "9ca12ff20e26f26cab375513d0ab45af3d4d49b941b199408a377cb8006706b4"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$taiga.cfg"
+hash = "57e25fb5a55a0a52f5fbaee2ec987a25f2597a36cf18649f025d71741ec5161f"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$the_end.cfg"
 hash = "a6b43d2eddee021dfe9df05d3918fa3b875030f209789d5230b27ed6f22f7e9a"
 
@@ -68809,6 +68813,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$icy_heights.cfg"
 hash = "cf546d1f48ffd3390034d5473fefc3a0114401a2ae3b94f86916fdf09cc0c6de"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$infernal_holt.cfg"
+hash = "9c44a5faee15174ca5f9fb60eaf3bf0017eb08128877ba26a6742de736912007"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$joshua_desert.cfg"
 hash = "e240996aaf4cf4976b5d1c33a0a7c6365ae3e7b350ea26b8f0ffac170403413a"
 
@@ -68831,6 +68839,10 @@ hash = "2052ac28de1255480c2301a568242a451a047c92ffc07794eca04d3049a2111c"
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$mountains.cfg"
 hash = "89c968db984cbb6191b031ce57c3aad926f0cfa711653c3a7af882fa1b799ae7"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$muddy_river.cfg"
+hash = "baf6b34875b994d9092267f8f42e7ca1490622ce7998dd8f72317a242e7a54aa"
 
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$mycotoxic_undergrowth.cfg"
@@ -69678,7 +69690,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "90a4b672db359d8a3d3ffce0e113cc24fa8520f80d3cffb2c688e76f43ffe16f"
+hash = "08ba7cc78be3f74da6db3e6bb62781f288136548244a18f2d6899200de83a098"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69802,7 +69814,7 @@ hash = "6370242665a1a4389d811829af002543a7f8556d87aaec33df6144825764b68f"
 
 [[files]]
 file = "config/jei/world/local/New_World__2/lookupHistory.ini"
-hash = "daaeeae4c697d3e15b4b1b3de763b45019ed7e7b7aa2b170498393ec2be9346a"
+hash = "e29b1035d276559336e890a2eb6acd8f80495d95221bb826fbe44b8199d48aad"
 
 [[files]]
 file = "config/jei/world/local/New_World__23/bookmarks.ini"
@@ -70130,7 +70142,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "f5e4334de1b55062e46468d1436a8c4584cdfb3f6a85fd4131dede49ed8ebe11"
+hash = "f17cd6ec2a87d6eaf47bb462940305c2a7b4cfd1bea401283d2985728e21a224"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70246,7 +70258,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "810f8c62497ce3af4e38bb5e9a2074efd67b9f5ecfabe934da68a18a07b92760"
+hash = "5fddcf9f3c3c37948cc4f0667b25e6647e61a552c52d6cc6fe821fc4fa44c462"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70262,7 +70274,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "7f8130b0866fc76196a55046f46fa6e4e77b02cbff513d3fb66a9520affb6c22"
+hash = "1dad3d56277973252d24da44ddb2e064a9b518aa1ba1bf3d3f59fcf8f151f47f"
 
 [[files]]
 file = "config/pal.properties"
@@ -75349,6 +75361,26 @@ file = "kubejs/config/probejs.json"
 hash = "eb0bfaed60482e4e159ff4e2452cc098de57689f7cc82b4c9d9f112548173da6"
 
 [[files]]
+file = "kubejs/data/adventurer_skills/puffish_skills/categories/adventurer_skills/category.json"
+hash = "10192a8691c90a2b2cfd1dae6dc1badea0a28069034cbc75bd4364df8423f22a"
+
+[[files]]
+file = "kubejs/data/adventurer_skills/puffish_skills/categories/adventurer_skills/connections.json"
+hash = "87ed543045cb08e44b917d1af5dbb28592748e55dbdfb25141814f5e37bf4cbc"
+
+[[files]]
+file = "kubejs/data/adventurer_skills/puffish_skills/categories/adventurer_skills/definitions.json"
+hash = "a739c6777b211e8d3db432617bdc1beccdcceaf6502e2f2977c78f426387940d"
+
+[[files]]
+file = "kubejs/data/adventurer_skills/puffish_skills/categories/adventurer_skills/experience.json"
+hash = "2c3dab1af252e23e1d36e36d569ddd6039c4292ad661bce9a2d27f8a8673cd61"
+
+[[files]]
+file = "kubejs/data/adventurer_skills/puffish_skills/categories/adventurer_skills/skills.json"
+hash = "729c3f837ee95dbf3872e8f8f4be6fc2e06e93cfa9c4b778f097e6a99713c7a0"
+
+[[files]]
 file = "kubejs/data/alexsmobs/tags/items/komodo_dragon_tameables.json"
 hash = "fdcce44f9160e17a124a0a5a38d6d278ae7925919d9c0447137046ba5e4297df"
 
@@ -76890,7 +76922,7 @@ hash = "c2eca220db08f584f49b23c439d811f2b2897cb4b28b1d9ce1b565d8dea5e408"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/Tags/curios.js"
-hash = "c4a5c1dbf669551dc2c5c86b4f7580e3ae6af20f701f8b278f93e84da0493979"
+hash = "4819e4dec6a8951d31048aec88d0aafa112112313f51615c93edfaddf32c85f0"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/Tags/foods.js"
@@ -76937,6 +76969,10 @@ file = "kubejs/server_scripts/cataclysm/deeperDarkerRecipes.js"
 hash = "9922a9ca79941097c90697f730985602d1e8865ad780658a514d893d0232deeb"
 
 [[files]]
+file = "kubejs/server_scripts/cataclysm_boss_music.js"
+hash = "50a96d8c215fbda5a4ac10939c692358a8a737ea45d6562c78692b74e22a6541"
+
+[[files]]
 file = "kubejs/server_scripts/dynamic_boss_hp_spawn.js"
 hash = "7b6906cf32792695ad930c4321b7c13d474ca6fa5b9cadaaff57e048e1b7859b"
 
@@ -76967,6 +77003,10 @@ hash = "25f86fbd2ac932512a33e8bbf994b8d2ac448ca52f55b9908c80b4c033463e2d"
 [[files]]
 file = "kubejs/server_scripts/wilted_damage.js"
 hash = "d2cb4c6e33d3e516ff18ea14fb93b1d0464017dbd8a569f30d6f14ef04316a8d"
+
+[[files]]
+file = "kubejs/startup_scripts/cataclysm_dynamic_boss_music.js"
+hash = "13e14f6f6aac7b09ecf443fd7e2a3e100b24a8ed4bb8744e82e3a6952a0a056b"
 
 [[files]]
 file = "kubejs/startup_scripts/cataclysmic_spellcastng/cyber_spell_school.js"
