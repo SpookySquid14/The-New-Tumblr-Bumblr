@@ -486,7 +486,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -9.0d
+			y: -11.0d
 		}
 		{
 			id: "4EE7637130ABFB0D"
@@ -546,8 +546,8 @@
 				title: "Forge"
 				type: "custom"
 			}]
-			x: 3.0d
-			y: -10.5d
+			x: 2.0d
+			y: -10.0d
 		}
 		{
 			id: "6E709CA5EA306336"
@@ -571,8 +571,8 @@
 				to_observe: "goety:neollager{Magic:1b}"
 				type: "observation"
 			}]
-			x: 4.0d
-			y: -8.5d
+			x: 9.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
@@ -600,7 +600,7 @@
 				type: "observation"
 			}]
 			x: 7.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
@@ -628,7 +628,7 @@
 				type: "observation"
 			}]
 			x: 8.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
@@ -656,7 +656,7 @@
 				type: "observation"
 			}]
 			x: 8.0d
-			y: -9.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
@@ -684,7 +684,7 @@
 				type: "observation"
 			}]
 			x: 6.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["7C5D7671DAA986C6"]
@@ -712,7 +712,7 @@
 				type: "observation"
 			}]
 			x: 5.0d
-			y: -11.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["7C5D7671DAA986C6"]
@@ -740,7 +740,7 @@
 				type: "observation"
 			}]
 			x: 6.0d
-			y: -11.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["7C5D7671DAA986C6"]
@@ -768,7 +768,7 @@
 				type: "observation"
 			}]
 			x: 5.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
@@ -782,8 +782,8 @@
 				type: "questsadditions:interaction"
 				value: 1L
 			}]
-			x: 4.0d
-			y: -8.5d
+			x: 6.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
@@ -811,7 +811,7 @@
 				type: "observation"
 			}]
 			x: 6.0d
-			y: -9.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
@@ -839,7 +839,7 @@
 				type: "observation"
 			}]
 			x: 6.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
@@ -867,7 +867,7 @@
 				type: "observation"
 			}]
 			x: 8.0d
-			y: -12.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["0F90B9F434BA6FC9"]
@@ -895,7 +895,7 @@
 				type: "observation"
 			}]
 			x: 5.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
@@ -923,7 +923,7 @@
 				type: "observation"
 			}]
 			x: 8.0d
-			y: -11.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -955,7 +955,7 @@
 				type: "observation"
 			}]
 			x: 9.0d
-			y: -11.0d
+			y: -13.0d
 		}
 		{
 			icon_scale: 0.8d
@@ -982,7 +982,7 @@
 				type: "observation"
 			}]
 			x: 8.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			id: "5446295418EB8A53"
@@ -999,9 +999,10 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -9.0d
+			y: -11.0d
 		}
 		{
+			dependencies: ["60E5EA6F2E1A7502"]
 			icon_scale: 0.8d
 			id: "36C4FFB47FCE8671"
 			rewards: [{
@@ -1027,7 +1028,7 @@
 			}]
 			title: "Make a Neollager"
 			x: 7.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			id: "4050E263CF84966F"
@@ -1055,7 +1056,7 @@
 				value: 1L
 			}]
 			x: 9.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			id: "363ADCA456813957"
@@ -1089,7 +1090,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			id: "0C117A57B0910F1A"
@@ -1106,7 +1107,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -7.0d
+			y: -9.0d
 		}
 		{
 			id: "21BED1D1B797AF6D"
@@ -1124,7 +1125,131 @@
 				type: "advancement"
 			}]
 			x: 10.0d
-			y: -8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7CF531E5081C9D69"]
+			id: "60E5EA6F2E1A7502"
+			tasks: [{
+				id: "67E45832D21035AB"
+				item: {
+					Count: 1
+					id: "goety:rampaging_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7CF531E5081C9D69"]
+			id: "63CDE68EA6FC634C"
+			tasks: [{
+				id: "2FD80CF29F614D9A"
+				item: {
+					Count: 1
+					id: "goety:great_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["63CDE68EA6FC634C"]
+			id: "41AC2E40CC3C099C"
+			tasks: [{
+				id: "600F9DAC8F820E8F"
+				item: {
+					Count: 1
+					id: "goety:bonehead_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7CF531E5081C9D69"]
+			id: "5A82DB6A8913997F"
+			tasks: [{
+				id: "364637C801E8C94D"
+				item: {
+					Count: 1
+					id: "goety:dark_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5A82DB6A8913997F"]
+			id: "132158B6BF2E4012"
+			tasks: [{
+				id: "49116EE7964D3B5E"
+				item: {
+					Count: 1
+					id: "goety:dark_metal_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["132158B6BF2E4012"]
+			id: "1ADCEE5746EA1975"
+			tasks: [{
+				id: "032ECC880DEFD364"
+				item: {
+					Count: 1
+					id: "goety:death_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["63CDE68EA6FC634C"]
+			id: "61FD7B26E7ABBA76"
+			tasks: [{
+				id: "36866C17675C5A26"
+				item: "goety:thrash_glove"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5A82DB6A8913997F"]
+			id: "5D40E0A136A0EA38"
+			tasks: [{
+				id: "29966042DF6BD754"
+				item: "goety:grave_glove"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.0d
 		}
 	]
 	title: "Goety: The Dark Arts"

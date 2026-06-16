@@ -412,7 +412,7 @@
 			description: [
 				"We all need sleep, and that includes our little friends. A &6&opet bed&r will act the same way for your pet that your own bed does for you! I-it will let them respawn... if they die..."
 				"... &0I miss you.&r"
-				"Well, let's not get off track! You'll know your pet has taken the bed when Zs appear over their head."
+				"Well, let's not get off track! You'll know your pet has taken the bed when Zs appear over their head. Do note the pet will only respawn at dawn."
 				"{image:modpack:textures/pet-bed.png width:156 height:90 align:center}"
 			]
 			hide_until_deps_visible: true

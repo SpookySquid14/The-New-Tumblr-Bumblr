@@ -1,0 +1,256 @@
+{
+	autofocus_id: "2D969CC596421CAB"
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "saints_dragons"
+	group: "48841A8C395C40D5"
+	id: "533A9A274E0AFD57"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You've seen them around, haven't you? On the land, in the skies, in the seas. Yes, your eyes do not deceive you. Admist this world are the creatures known as &o&6dragons&r."
+				"There's more to learn if you want to truly know these creatures. And I'll tell you what I know if you show interest."
+			]
+			id: "2CDA1B09CD0AAB77"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "41C82C57BF2D671A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				advancement: "saintsdragons:encounter_dragon"
+				criterion: ""
+				id: "7FE7FFCC53E21F4B"
+				title: "Encounter a dragon"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CDA1B09CD0AAB77"]
+			description: [
+				"Well, you probably want to get into it, right? In that case, take a look around. Dragons are unique beings, and not all will be tamed so easily. &o&6Some stronger, more agressive dragons will need to be engaged in battle, weakened before any attempt to tame is possible.&r"
+				""
+				"There are many dragons, but the simplest of them all is the Stegonaut. These beings are no stranger to humans of a different time, &6&oso all one really needs is its favourite meal&r."
+			]
+			hide_until_deps_complete: true
+			id: "2D969CC596421CAB"
+			min_required_tasks: 1
+			progression_mode: "flexible"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "39A106D0C02EEE3A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					advancement: "saintsdragons:tame_stegonaut"
+					criterion: ""
+					id: "465D18AA1E097051"
+					title: "Tame a Stegonaut"
+					type: "advancement"
+				}
+				{
+					advancement: "saintsdragons:tame_volitans"
+					criterion: ""
+					id: "767EED593BAB99D2"
+					type: "advancement"
+				}
+				{
+					advancement: "saintsdragons:tame_cindervane"
+					criterion: ""
+					id: "65911CF7143A654B"
+					type: "advancement"
+				}
+				{
+					advancement: "saintsdragons:tame_varasuchus"
+					criterion: ""
+					id: "325A81E736A6E7A4"
+					type: "advancement"
+				}
+				{
+					advancement: "saintsdragons:tame_raevyx"
+					criterion: ""
+					id: "03497F9182874815"
+					type: "advancement"
+				}
+				{
+					advancement: "saintsdragons:tame_ignivorus"
+					criterion: ""
+					id: "37978D28A8A38E0E"
+					type: "advancement"
+				}
+			]
+			title: "How to Tame Your Dragon"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2D969CC596421CAB"]
+			description: [
+				"[ \"In your Codex, you can view a dragon's &oHunger&r and &oHealth&r. If you lack a codex, \", { \"text\": \"you should look here\", \"underlined\": \"true\", \"color\": \"gold\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79C4EC0B34AFD2E7\" } }, \".\" ]"
+				"Hunger is easy to understand, though it should be known that &o&6dragons have a preference for fish&r, though some may also eat other raw meats of common livestock."
+				"&oHappiness&r is an attribute that may confuse you at first, but no worries. While feeding your dragon also increases its happiness, &6&oa much more efficient way is to brush them.&r Doing so is a simple matter, all you need is to right click your dragon. If you'd like, you can even hold right click for faster brushing."
+			]
+			id: "7C8E3507744264CE"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4D9E1FE4C3573F0D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "5F444373FCC99446"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "saintsdragons:dragon_brushes"
+					}
+				}
+				type: "item"
+			}]
+			title: "How To Care For a Dragon"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2CDA1B09CD0AAB77"]
+			description: [
+				"Dragons are very special creatures. They are not a being you merely befriend and then call on when it's convenient. They have needs. And to see those needs, you'll want a &o&6Draconic Codex&r. Check the next page for a break down on it."
+				"{@pagebreak}"
+				"Upon opening it, you'll be met with a blank screen. If you've tamed a dragon already, you should see their entry on the left. Clicking on it, you'll be met with a similar screen to this."
+				"{image:tumblrbumblr:textures/draconic-codex.png width:170 height:90 align:center}"
+				"On the left page, you'll of course see your dragon. Underneath are its various &oattributes&r. &o&6Specifically, you can see its &dHealth,&r&o &7Armor,&r&o &aHunger,&r&o&6 and &eHappiness.&r The two noted at the bottom are its &3&ogender&r and &3&ovariant&r, but we don't need to worry about that right now. The other attributes can be further discussed at a later point."
+			]
+			hide_until_deps_complete: true
+			id: "79C4EC0B34AFD2E7"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "321C1D936DD14804"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "34E43FC1D73391EE"
+				item: "saintsdragons:draconic_codex"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CDA1B09CD0AAB77"]
+			description: ["While some simple fish may do the trick for dragons, nothing is better for the beasts than a Hearty Dragon Meal. &6&oMade from large and medium sized fish&r, taming dragons can be done with much less bloodshed thanks to these wonderful bundles."]
+			hide_until_deps_complete: true
+			id: "39974934D018A833"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "34497003CDBE60EA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 6L
+				id: "47CF299FC11BF98C"
+				item: "saintsdragons:hearty_dragon_meal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C8E3507744264CE"]
+			description: ["While brushing your dragon, you may obtain one of its scales. Yes, these little sheddings are a proof of bond rather than capture."]
+			id: "65B2E15BC9A87B9F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3B0EBBF847B85453"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7817F828E6AC8D54"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "saintsdragons:dragon_scales"
+					}
+				}
+				title: "Dragon Scale"
+				type: "item"
+			}]
+			title: "Scales of a Bond"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["65B2E15BC9A87B9F"]
+			description: [
+				"With the scales you've obtained and a happy dragon, it's time to make a binder. Binders can be made of various materials, but the one that is always present is &o&6the scale of the specific dragon's species&r."
+				"Once crafted, you can use the item to store your dragon by right clicking it. Right clicking again on the ground will release the dragon."
+			]
+			id: "61DEA5922331B371"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "38FF8994C0F1DFB5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "6B5EE10872843EA3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "saintsdragons:dragon_binders"
+					}
+				}
+				title: "Dragon Binder"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2CDA1B09CD0AAB77"]
+			hide_until_deps_complete: true
+			id: "2AB2D6756148BA8B"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "63C24628EEF2FDC1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2A47C0F0B5EC9F1E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "saintsdragons:dragon_eggs"
+					}
+				}
+				title: "Dragon Egg"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+	]
+	title: "Saint's Dragons"
+}

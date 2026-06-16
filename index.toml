@@ -68258,7 +68258,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "de4b495d0751a2e1d2bdf79bcdd65f08faf4a4ab65528c5715bde86464fa8504"
+hash = "0151da233f9c04eaba8e265340f8a08ad1b5a594cbcebffc6ee90374ab325213"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68322,7 +68322,7 @@ hash = "ee81d1578667e2c869c6f266c0564e952433f0a0e80a80ae84492d11f6a9609d"
 
 [[files]]
 file = "config/fml.toml"
-hash = "1ed9280977d03a3e6d0661ae5c7217b49a4c40e255c88c6811b12b1b28f69ea5"
+hash = "91f8d7300f51ccd4e34cacfad79634218ab901bf6ad99a572d32c16a5a8b8d74"
 
 [[files]]
 file = "config/forge-client.toml"
@@ -69234,11 +69234,11 @@ hash = "37bc8d9f6cf265f83c3bedede067f1c120acbee2d8c41752855dafd31e298073"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "44c6c4160034174f9a913a8b1f844c7132d778c0d1b1b30140623a05fb9ac40d"
+hash = "60978a4e6e28a4ac82561ee8cbc7f9d0048e87e2506a8100b3dbce0306441449"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
-hash = "924096ca772dd132ead2e851f90952832b91669c0096373adb08c69545c8ef15"
+hash = "de569fc4ea9d90306235e95e1b2c67fa6e182b447e15c116d3d6285d2afa4367"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells_and_spellbooks.snbt"
@@ -69275,6 +69275,10 @@ hash = "70bd313af26f1daf24ae3553c7720dbbb6e9557e44c2bbf1d063494a0ed944bf"
 [[files]]
 file = "config/ftbquests/quests/chapters/rock_and_stone.snbt"
 hash = "df71272033115d88741b5a2c9235d003ce324b5740747ac3e6199712de665654"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/saints_dragons.snbt"
+hash = "aac35ff4d3f2d35a877f90369ffbf89f54e4409dbc62e233f4ea1a3cf0c5201e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated_storage.snbt"
@@ -69866,7 +69870,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/world/local/New_World__4/lookupHistory.ini"
-hash = "03de5384f542b767ae300b4f82949281eeb787a516c3e3e7311b6c2c7169dd40"
+hash = "fcf1c8c049c713e43de178f03988e5e4c82903d056804f6605a339967707f838"
 
 [[files]]
 file = "config/jei/world/local/New_World__41/lookupHistory.ini"
@@ -70142,7 +70146,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "f17cd6ec2a87d6eaf47bb462940305c2a7b4cfd1bea401283d2985728e21a224"
+hash = "32a3297a17b7858fdddcbd784aca1cbc88649d1f194e53b216010d0e78027294"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70258,7 +70262,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "5fddcf9f3c3c37948cc4f0667b25e6647e61a552c52d6cc6fe821fc4fa44c462"
+hash = "54afdeaf4a1e952b41088e6134f1ec59a45dd41a6b557c1533e6dcfd2228c644"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70274,7 +70278,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "1dad3d56277973252d24da44ddb2e064a9b518aa1ba1bf3d3f59fcf8f151f47f"
+hash = "0650cfcd080af73bb021d60e30774217ccf1a66e54189bbf38390d39821a27be"
 
 [[files]]
 file = "config/pal.properties"
@@ -75245,6 +75249,10 @@ file = "kubejs/assets/tinkersjewelry/textures/item/tool/ring/plain_ring_tconstru
 hash = "5d2a9966e69ad068002c9de15bc6b7a1278edc9b2e23e88c950dd698094bc49a"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/draconic-codex.png"
+hash = "cc6ac83ae4621eb04a8e87898fdb4b5f9bfe39cc6139c1232675e9ace92a3de1"
+
+[[files]]
 file = "kubejs/assets/vampiresneedumbrellas/textures/curios.png"
 hash = "a05bdbff3ed4ac59d6f3d99fcd8b619c16b001e58f766ec43f7dfb1b786548bc"
 
@@ -76926,7 +76934,7 @@ hash = "4819e4dec6a8951d31048aec88d0aafa112112313f51615c93edfaddf32c85f0"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/Tags/foods.js"
-hash = "cec1afc0a91231df36ba970a95fd4a66e247fd29c1177e31ea0d7f85321a9984"
+hash = "06a9e4bcf19bf9e6592f196a63a81d7dcc84ff287fa62b435bc70b9b4c775030"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/Tags/mowzies_bosses.js"
