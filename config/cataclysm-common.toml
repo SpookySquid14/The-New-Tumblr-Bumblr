@@ -568,10 +568,10 @@
 		[mobs.harbinger.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 4.0
+			health_multiplier = 3.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 3.5
+			attack_multiplier = 2.5
 
 		[mobs.harbinger.cap_config]
 			#Damage Cap
@@ -617,10 +617,10 @@
 		[mobs.prowler.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 4.0
+			health_multiplier = 3.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 3.5
+			attack_multiplier = 2.5
 
 	[mobs.amethyst_crab]
 		#Earth Quake Damage

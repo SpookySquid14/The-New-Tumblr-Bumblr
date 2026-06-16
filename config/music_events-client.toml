@@ -1,0 +1,16 @@
+
+["Debug Screen Settings (F4)"]
+	#Display events that are physically valid but aren't playing due to lower priority.
+	showStandbyEvents = true
+	#Display background ghost timers (persistence).
+	showPersistenceTimers = true
+	#Display nearby tracked entities.
+	showNearbyMobs = true
+	#Display Mod CPU Tick Time.
+	showPerformanceMetrics = true
+
+["Performance Settings"]
+	#How often (in ticks) the mod should evaluate music events. 20 ticks = 1 second. Lower values make the mod more responsive but consume more CPU usage.
+	#Range: 1 ~ 20
+	evaluationTickRate = 20
+

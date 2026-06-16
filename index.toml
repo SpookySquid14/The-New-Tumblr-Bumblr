@@ -77,86 +77,6 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
-file = "config/MusicTriggers/example/commands.toml"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/MusicTriggers/example/jukebox.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/MusicTriggers/example/main.toml"
-hash = "deaf6229488eb50c72a65d14d2a2eab0cd0735d6f44f4b5245a1b548e06bb3ec"
-
-[[files]]
-file = "config/MusicTriggers/example/redirect.txt"
-hash = "95fe58f568c344bbec5f4c109b3b4f4dbd062c76ed70d70066ca89dd3af27fb2"
-
-[[files]]
-file = "config/MusicTriggers/example/renders.toml"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/MusicTriggers/global.toml"
-hash = "9c4178c30c3e38332eabee567d52d6afcceecb4388ace10b696d6b445b2029a7"
-
-[[files]]
-file = "config/MusicTriggers/songs/enderguardian_theme_1.ogg"
-hash = "0bf4fedc33f28bd8b4e3e3c5c70f1a561eb9198faf912f341bfdb5882db8c111"
-
-[[files]]
-file = "config/MusicTriggers/songs/enderguardian_theme_2.ogg"
-hash = "87de5a40658ab975e8d17695d6f2d62eb5986c74ab84899fa45770b84e2e5899"
-
-[[files]]
-file = "config/MusicTriggers/songs/harbinger_theme.ogg"
-hash = "8fccb24cd7216ac42c258c4bcd416043e536d56f0e63b02cd2c88d9970ffa038"
-
-[[files]]
-file = "config/MusicTriggers/songs/ignis_theme_1.ogg"
-hash = "ef08e3390be02cd518e81d1d975ba0566fb0c318b7a40b2131049612aed98d2d"
-
-[[files]]
-file = "config/MusicTriggers/songs/ignis_theme_2.ogg"
-hash = "7135716862cceb17edc5860afbc532caa775c98bc4bce1698c251ecfbdd54f61"
-
-[[files]]
-file = "config/MusicTriggers/songs/ignis_theme_3.ogg"
-hash = "097002cafa7224ed51748d79b182b6e564e9bb3cf553d2841fa092bec5473553"
-
-[[files]]
-file = "config/MusicTriggers/songs/leviathan_theme_1.ogg"
-hash = "bae2f021e05d5987d99de19b6bad00f5ec6c7b2ebe9459448b7bd22b09e1e7d7"
-
-[[files]]
-file = "config/MusicTriggers/songs/leviathan_theme_2.ogg"
-hash = "ac64ab15f0328d6415c4852076ae034abdcddf12cd460bcd80f4035ca380bc4f"
-
-[[files]]
-file = "config/MusicTriggers/songs/maledictus_theme.ogg"
-hash = "99bb3fdc7d7bdabdd21a87aeb3fc4f4364d551513476a6f64d4d4294281f2dbc"
-
-[[files]]
-file = "config/MusicTriggers/songs/monstrosity_theme.ogg"
-hash = "26c0f2902bf7fa6ed91df99a82115841df49b439a5fb58425da5e2017ff7370a"
-
-[[files]]
-file = "config/MusicTriggers/songs/remnant_theme.ogg"
-hash = "10598612e778c6154d3383594313708d7288397b9eb101d28bcf976fa868d9ed"
-
-[[files]]
-file = "config/MusicTriggers/songs/scylla_theme.ogg"
-hash = "d0fa013b424e022d5d42a0ee83063d7ef7adfec9a3809bbf07d579c07bc24ad9"
-
-[[files]]
-file = "config/MusicTriggers/toggles.toml"
-hash = "adf29a1f6920b9b0f88c1c5a495f8f136793a2d05835e9b9f49e938b4f974fa8"
-
-[[files]]
-file = "config/MusicTriggers/version.txt"
-hash = "a220468121d458a034dfb6838c3b2839c636b7a9d79b0a3426c2503569a09c99"
-
-[[files]]
 file = "config/Obscuria/Data/aquamirae_cover.png"
 hash = "86bec2df159c61ba721a71c7c951450332e3581ce3c8268611c140558989d5b9"
 
@@ -67786,11 +67706,11 @@ hash = "b0969c40c02d1321437a636f0b47ed61cd0fd5806b315dae280d489532d23819"
 
 [[files]]
 file = "config/cataclysm-client.toml"
-hash = "67df4b59a69f2f747a66b62f5fd388a06ca822915f2c0bdfa314c72b568b07b7"
+hash = "31f993b7e67cb51db4ffc4e5dc40de7a7d0bfb269c91afaf40db857782d05812"
 
 [[files]]
 file = "config/cataclysm-common.toml"
-hash = "7ee0fd509f464c82536ab56b6567ad41bd5981654d5c3a6e3b920333cfb870be"
+hash = "0832fe7801ca1b7ea5a3291838d01c8561da47c64106293602cc7e86a4407919"
 
 [[files]]
 file = "config/cataclysm.toml"
@@ -68258,7 +68178,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "0151da233f9c04eaba8e265340f8a08ad1b5a594cbcebffc6ee90374ab325213"
+hash = "a902b75a3551a3ddab28d48f2c4e2d0e0a001ee0d9ef25f29a766137392739ad"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69218,7 +69138,7 @@ hash = "c0f4d941b3844a3cb6068f8f3b662c02aaaefb2ead4d4e5b94cd3315d99c588c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/debug.snbt"
-hash = "b9e96f528378b2a2136e661965c058ea3c61500a3def3ddfc82590eef2876fb1"
+hash = "877ca0cf5da886c1ff2894e15f21df14d7f4163c6502264ab2bb0febbd2dcb87"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
@@ -69239,6 +69159,10 @@ hash = "60978a4e6e28a4ac82561ee8cbc7f9d0048e87e2506a8100b3dbce0306441449"
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
 hash = "de569fc4ea9d90306235e95e1b2c67fa6e182b447e15c116d3d6285d2afa4367"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/help.snbt"
+hash = "b3e3aaf765b5e6aa766857fb0a15b22d98feb957035bcca7d686867ac754175a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells_and_spellbooks.snbt"
@@ -69694,7 +69618,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "08ba7cc78be3f74da6db3e6bb62781f288136548244a18f2d6899200de83a098"
+hash = "90a4b672db359d8a3d3ffce0e113cc24fa8520f80d3cffb2c688e76f43ffe16f"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69775,6 +69699,10 @@ hash = "40d2c68fea408db27773a0022887365a87728ae07df6711d944ce19451b1512b"
 [[files]]
 file = "config/jei/world/local/Golem/lookupHistory.ini"
 hash = "e816d0d924d77adbcf75b31537e07f0f3ad229b083475488caeef045c444163b"
+
+[[files]]
+file = "config/jei/world/local/MUSIC/lookupHistory.ini"
+hash = "1a48573e86f96d6022747402a384d2cd8b290b083959ddf3a1a4fec0f66a97a0"
 
 [[files]]
 file = "config/jei/world/local/New_Uni/lookupHistory.ini"
@@ -70146,7 +70074,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "32a3297a17b7858fdddcbd784aca1cbc88649d1f194e53b216010d0e78027294"
+hash = "8f7ee6230c70c53eb7564232a557d6fe1c7e16e27e9db64d40ca512418df77b5"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70195,6 +70123,70 @@ hash = "9dbc0509c11fb03920e5a84751dc5112ab6435933d3a0ca912d8a7b91592da27"
 [[files]]
 file = "config/multiplayerspawners-client.toml"
 hash = "4172c21d843ea66c1ad9d97a27e57ee4cd2d1ee7002d902bf69197d38843909c"
+
+[[files]]
+file = "config/music_events-client.toml"
+hash = "640a2132dd15f7a1d5be71147479e3dcefaa56369926527cbfce52460e1daf60"
+
+[[files]]
+file = "config/music_events/audios/enderguardian_theme_1.ogg"
+hash = "0bf4fedc33f28bd8b4e3e3c5c70f1a561eb9198faf912f341bfdb5882db8c111"
+
+[[files]]
+file = "config/music_events/audios/enderguardian_theme_2.ogg"
+hash = "87de5a40658ab975e8d17695d6f2d62eb5986c74ab84899fa45770b84e2e5899"
+
+[[files]]
+file = "config/music_events/audios/harbinger_theme.ogg"
+hash = "8fccb24cd7216ac42c258c4bcd416043e536d56f0e63b02cd2c88d9970ffa038"
+
+[[files]]
+file = "config/music_events/audios/ignis_theme_1.ogg"
+hash = "ef08e3390be02cd518e81d1d975ba0566fb0c318b7a40b2131049612aed98d2d"
+
+[[files]]
+file = "config/music_events/audios/ignis_theme_2.ogg"
+hash = "7135716862cceb17edc5860afbc532caa775c98bc4bce1698c251ecfbdd54f61"
+
+[[files]]
+file = "config/music_events/audios/ignis_theme_3.ogg"
+hash = "097002cafa7224ed51748d79b182b6e564e9bb3cf553d2841fa092bec5473553"
+
+[[files]]
+file = "config/music_events/audios/leviathan_theme_1.ogg"
+hash = "bae2f021e05d5987d99de19b6bad00f5ec6c7b2ebe9459448b7bd22b09e1e7d7"
+
+[[files]]
+file = "config/music_events/audios/leviathan_theme_2.ogg"
+hash = "ac64ab15f0328d6415c4852076ae034abdcddf12cd460bcd80f4035ca380bc4f"
+
+[[files]]
+file = "config/music_events/audios/maledictus_theme.ogg"
+hash = "99bb3fdc7d7bdabdd21a87aeb3fc4f4364d551513476a6f64d4d4294281f2dbc"
+
+[[files]]
+file = "config/music_events/audios/monstrosity_theme.ogg"
+hash = "26c0f2902bf7fa6ed91df99a82115841df49b439a5fb58425da5e2017ff7370a"
+
+[[files]]
+file = "config/music_events/audios/remnant_theme.ogg"
+hash = "10598612e778c6154d3383594313708d7288397b9eb101d28bcf976fa868d9ed"
+
+[[files]]
+file = "config/music_events/audios/scylla_theme.ogg"
+hash = "d0fa013b424e022d5d42a0ee83063d7ef7adfec9a3809bbf07d579c07bc24ad9"
+
+[[files]]
+file = "config/music_events/memory_SP_MUSIC.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/music_events/memory_unknown.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/music_events/music_events.toml"
+hash = "6514e4ff91b07c12eddb0ba7e4e616d320f19278f09a4248cde10d8f23384b71"
 
 [[files]]
 file = "config/naturalist.json"
@@ -70262,7 +70254,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "54afdeaf4a1e952b41088e6134f1ec59a45dd41a6b557c1533e6dcfd2228c644"
+hash = "bba1323f23171a7c81e1e11c44d0a319c428d0f7163b1031420a4812f01b19fd"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70278,7 +70270,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "0650cfcd080af73bb021d60e30774217ccf1a66e54189bbf38390d39821a27be"
+hash = "c9394604dad03f7df77fd19139a9266ed42bc45ffa20f8528d3779e27a3b8414"
 
 [[files]]
 file = "config/pal.properties"
@@ -78633,8 +78625,8 @@ hash = "a62a041b90c35b2d0b5c97f75c537cb4760c6655e86f95c81aeea3a64936a493"
 metafile = true
 
 [[files]]
-file = "mods/music-triggers.pw.toml"
-hash = "6030bc8cbb4d54655d257d00821a9b98e68a9ec5729f9dc42c115ee3a9c1d1c3"
+file = "mods/music-events.pw.toml"
+hash = "d6200af5235b4cec42729cbbd3b5d2de58bb0a37b125a4796838283a7e97d602"
 metafile = true
 
 [[files]]

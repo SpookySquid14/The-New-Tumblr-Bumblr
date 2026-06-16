@@ -1,0 +1,148 @@
+# ==========================================
+# UNIVERSAL SETTINGS
+# ==========================================
+[universal]
+muffling_when_paused = 1.0
+play_when_paused = true
+
+# ==========================================
+# EVENTS (TRIGGERS)
+# ==========================================
+[[events.mobs]]
+event_name = "leviathan_phase_2"
+fade_in = 0.5
+fade_out = 5.0
+detection_range = 76.0
+nbt_match = ["{MeltDown:1b}"]
+resource_name = ["cataclysm:the_leviathan"]
+
+
+[[events.mobs]]
+event_name = "enderguardian_phase_2"
+fade_in = 0.5
+fade_out = 5.0
+detection_range = 76.0
+nbt_match = ["{is_Helmetless:1b}"]
+resource_name = ["cataclysm:ender_guardian"]
+
+
+[[events.mobs]]
+event_name = "scylla_battle"
+fade_out = 5.0
+detection_range = 76.0
+nbt_match = ["{Act:1b}"]
+resource_name = ["cataclysm:scylla"]
+
+
+[[events.mobs]]
+event_name = "leviathan_phase_1"
+fade_out = 0.5
+detection_range = 76.0
+nbt_match = ["{MeltDown:0b}"]
+resource_name = ["cataclysm:the_leviathan"]
+
+
+[[events.mobs]]
+event_name = "monstrosity_battle"
+fade_out = 3.0
+detection_range = 76.0
+nbt_match = ["{is_Awaken:1b}"]
+resource_name = ["cataclysm:netherite_monstrosity"]
+
+
+[[events.mobs]]
+event_name = "maledictus_battle"
+fade_out = 5.0
+detection_range = 76.0
+resource_name = ["cataclysm:maledictus"]
+
+
+[[events.mobs]]
+event_name = "harbinger_battle"
+fade_out = 5.0
+detection_range = 76.0
+nbt_match = ["{Is_Act:1b}"]
+resource_name = ["cataclysm:the_harbinger"]
+
+
+[[events.mobs]]
+event_name = "enderguardian_phase_1"
+fade_out = 0.5
+detection_range = 76.0
+nbt_match = ["{is_Helmetless:0b}"]
+resource_name = ["cataclysm:ender_guardian"]
+
+
+[[events.mobs]]
+event_name = "ignis_phase_3"
+fade_in = 0.5
+fade_out = 5.0
+detection_range = 76.0
+nbt_match = ["{BossPhase:2}"]
+resource_name = ["cataclysm:ignis"]
+
+
+[[events.mobs]]
+event_name = "remnant_battle"
+fade_out = 5.0
+detection_range = 76.0
+nbt_match = ["{has_necklace:1b}"]
+resource_name = ["cataclysm:ancient_remnant"]
+
+
+[[events.mobs]]
+event_name = "ignis_phase_2"
+fade_in = 0.5
+fade_out = 0.5
+detection_range = 76.0
+nbt_match = ["{BossPhase:1}"]
+resource_name = ["cataclysm:ignis"]
+
+
+[[events.mobs]]
+event_name = "ignis_phase_1"
+fade_out = 0.5
+detection_range = 76.0
+nbt_match = ["{BossPhase:0}"]
+resource_name = ["cataclysm:ignis"]
+
+
+# ==========================================
+# AUDIOS (SONGS)
+# ==========================================
+[[audios."harbinger_theme"]]
+target_events = ["harbinger_battle"]
+
+[[audios."scylla_theme"]]
+target_events = ["scylla_battle"]
+
+[[audios."leviathan_theme_1"]]
+target_events = ["leviathan_phase_1"]
+
+[[audios."leviathan_theme_2"]]
+target_events = ["leviathan_phase_2"]
+
+[[audios."monstrosity_theme"]]
+target_events = ["monstrosity_battle"]
+
+[[audios."remnant_theme"]]
+target_events = ["remnant_battle"]
+
+[[audios."ignis_theme_1"]]
+target_events = ["ignis_phase_1"]
+
+[[audios."maledictus_theme"]]
+target_events = ["maledictus_battle"]
+
+[[audios."ignis_theme_2"]]
+target_events = ["ignis_phase_2"]
+
+[[audios."ignis_theme_3"]]
+target_events = ["ignis_phase_3"]
+
+[[audios."enderguardian_theme_1"]]
+target_events = ["enderguardian_phase_1"]
+
+[[audios."enderguardian_theme_2"]]
+target_events = ["enderguardian_phase_2"]
+

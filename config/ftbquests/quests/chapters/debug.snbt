@@ -13,14 +13,25 @@
 		{
 			disable_toast: true
 			id: "673800544C41DE7D"
-			rewards: [{
-				auto: "invisible"
-				command: "/kubejs custom_command fog"
-				console: true
-				elevate_perms: true
-				id: "3AA200BEC1154308"
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/kubejs custom_command fog"
+					console: true
+					elevate_perms: true
+					id: "3AA200BEC1154308"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "14794A9F36810859"
+					ignore: false
+					key: "hello"
+					type: "extraquests:key_value"
+					value: 1L
+				}
+			]
 			tasks: [{
 				elapsedTime: 1L
 				id: "6AD75CBCE611918B"
