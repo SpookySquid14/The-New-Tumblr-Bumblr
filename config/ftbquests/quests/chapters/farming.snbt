@@ -382,12 +382,13 @@
 				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
-				icon: "minecraft:wheat"
-				id: "50D6C378220A275F"
-				key: "saw_crop"
-				title: "See a fully grown crop"
-				type: "extraquests:key_value"
-				value: 1L
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+				disable_toast: true
+				icon: "minecraft:wheat_seeds"
+				id: "4AA56CE8B14D947F"
+				title: "Plant Seeds And Watch Them Grow"
+				type: "advancement"
 			}]
 			title: "It's a Grower, Not a Shower"
 			x: -5.0d
