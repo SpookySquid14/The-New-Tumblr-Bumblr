@@ -806,7 +806,7 @@ hash = "1a5b84b18d3c947ab8d7fb24066bfa45d38951ce59f239e4452baac35c5b23de"
 
 [[files]]
 file = "config/ambientsounds-client.json"
-hash = "b134729a1058614b57b5f94ac06b6b5beff8823cb4c14d72dde0c3de21733e68"
+hash = "c42668da24624e7e885ff24b5a7d828377492493313d8f52142deca9d50414c7"
 
 [[files]]
 file = "config/amendments-client.toml"
@@ -826,7 +826,7 @@ hash = "94e633e170b101317b10447b0015fac4425c1f704ca0450baf429711c9127d2e"
 
 [[files]]
 file = "config/apotheosis/adventure.cfg"
-hash = "56840e4c6a265049bce2846b6c11d0267a6fafa1b72a75b9d7b9a94dc55c5022"
+hash = "f947d01e0f422edc591659ca17f168ab5dc6238e60339aacc6eac59f7a3be4bd"
 
 [[files]]
 file = "config/apotheosis/apotheosis.cfg"
@@ -67838,7 +67838,7 @@ hash = "5585eddcee272947929f117afcd4c2ffdaba29e45f4eed6d273cfd4f655f8e8b"
 
 [[files]]
 file = "config/configurableextramobdrops/mobdropconfig.txt"
-hash = "8214d30737e5a10ad66d6aeb36e259526445822a8ef3db3f5a38ee11e8c9a072"
+hash = "0e7c8b9b14b3a587b7e9ccc78a21eee67f382aa801134cb7e6b90b75b82353df"
 
 [[files]]
 file = "config/configured-client.toml"
@@ -68178,7 +68178,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "84c5b9faf4a7c02c7131f79cbf5242a56abba0bcd76487a2cd484f0bff3ea155"
+hash = "632319f65f82fe4ff79f8c03f57fb41e3a5d3150628ca11de967520c785faa47"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69154,7 +69154,7 @@ hash = "8e8692ffea20a968d9cd3e20fa0adf075c2a1e61bb631c43d8c9d4969669337f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farming.snbt"
-hash = "0839e4b8f517cc8105344eeee7429f5cb36d21d7a079809caa3f4c54bfa44653"
+hash = "1314032e12385c25e97fb755cc77e3d50e8dd80b258748d0c221ebfce561c9b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fine_fishing.snbt"
@@ -69626,7 +69626,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "bc4a5117e51b06fd3c0ef84c4078d07d7f40862ac4d2deba7d34857771fc493e"
+hash = "dd4ca602779307913b1eb82b831ae543d883d34525227a8bcf4dcd01ad88cef5"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69650,7 +69650,7 @@ hash = "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "6493f3d60f7786c5fb1d49d0b5be0ac5a4da332ec9129c8cce8915e87fcceff1"
+hash = "8c1bd9cd113a0f7043816d2b95c069eb61d4418add0f09ddf0d7392e195ce412"
 
 [[files]]
 file = "config/jei/world/local/Apothic/lookupHistory.ini"
@@ -69858,7 +69858,7 @@ hash = "16a1e717099f872d4a7b63378dd3b009f81a4438daefa3d4ea9191267db689d6"
 
 [[files]]
 file = "config/jei/world/local/New_World__8/lookupHistory.ini"
-hash = "705fcb5257f765ef8f08a12ec4655ba9675cf7c65e2f434c78fe435a2964c259"
+hash = "a70d51bd0c8988406a94a9c3b8cc6cbe06e6fcea325def99c01bc1362cc76089"
 
 [[files]]
 file = "config/jei/world/local/New_World__9/lookupHistory.ini"
@@ -69914,7 +69914,7 @@ hash = "b497bd5347383552517807b723e11184eb10f8e2ef7ce6c061cfa72ef769d4da"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_23ced690/lookupHistory.ini"
-hash = "f17308b08f3bc99d143ae452a40c62f21aa631d54b1aa9521f410e37e08ebcaa"
+hash = "d3c2d626fc8e3c307a7de2217465065da03ce945c9739e6ffcb1a9032461befd"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_fbacacb7/lookupHistory.ini"
@@ -70082,7 +70082,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "720c8e1e03fde14ad4f6f90d20d329c05ae92cdfb076c36f3c2a27fa5b8783e7"
+hash = "be86bb87c347ea011d45c77957d3c39abe6c33b0e204da7074f27c2a5e2717f3"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70185,6 +70185,10 @@ file = "config/music_events/audios/scylla_theme.ogg"
 hash = "d0fa013b424e022d5d42a0ee83063d7ef7adfec9a3809bbf07d579c07bc24ad9"
 
 [[files]]
+file = "config/music_events/memory_MP_100.102.54.46_25565.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
 file = "config/music_events/memory_SP_MUSIC.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
@@ -70266,7 +70270,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "f6b4eaf8b4675279f210b982ff781c0aaf06d975ce6a37b858b8a4427cdadf42"
+hash = "361fc387d906841f0cdb33141bd4c5045c2c54ee0b1c0e0ecba1e1a145076b55"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70282,7 +70286,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "760eee09c7e3323efef3bf2080ddef7bbd5c5d84b662f53e89ffafe950df9f4c"
+hash = "0d4e5ada7fa97e07987e33636771e1ec1b94f607c216b7fc6209dac75bab9924"
 
 [[files]]
 file = "config/pal.properties"
@@ -71329,6 +71333,10 @@ file = "kubejs/assets/artifactory/textures/slot/artifactory_slot.png"
 hash = "69fd72c9663e38a3ea05b5fee4c17f427b1a55c045477c411517e5d7b1d47da6"
 
 [[files]]
+file = "kubejs/assets/cataclysm/textures/item/empty_waist_slot.png"
+hash = "ada73f7c7197adf51b9643d86617af531d5732340927ed3ffff14aa43f90b4a6"
+
+[[files]]
 file = "kubejs/assets/cataclysmic_spellcasting/models/item/scroll_cyber.json"
 hash = "b8230c294cb033c3a8f45f53a917f28ffb900f30235d977fd637036f725a0b7b"
 
@@ -71343,6 +71351,22 @@ hash = "02542b27f847363fe1ae9da79ab2cf3ba56e5c900161e9273c176adbd1b0a176"
 [[files]]
 file = "kubejs/assets/cataclysmic_spellcasting/textures/item/scroll_cyber.png"
 hash = "3139c26e432533b00ce7e4eaeafd48c24f10c0b56394770bcf90a34f5e514dcb"
+
+[[files]]
+file = "kubejs/assets/clanginghowl/textures/slot/empty_feet_slot.png"
+hash = "418780bf017aaf188511a35aef1d405bfa43d8429f9f2e8dadcfd4843f6cd722"
+
+[[files]]
+file = "kubejs/assets/clanginghowl/textures/slot/empty_heart_slot.png"
+hash = "8a46a4d2b171ce7726eb0291c13ce477ebab7055b54b0031f921b782a4b31955"
+
+[[files]]
+file = "kubejs/assets/clanginghowl/textures/slot/empty_legs_slot.png"
+hash = "7525931c3bcc168aa5c54108f3841f07d6059e7e28154a92d4637684997386f3"
+
+[[files]]
+file = "kubejs/assets/curios/textures/slot/familiar_trinket_slot.png"
+hash = "f4c9366824f13ac788c6557914159303807c721f4fe8836e3b83e756c9c3ecec"
 
 [[files]]
 file = "kubejs/assets/endrem/lang/en_us.json"
@@ -75253,8 +75277,16 @@ file = "kubejs/assets/tinkersjewelry/textures/item/tool/ring/plain_ring_tconstru
 hash = "5d2a9966e69ad068002c9de15bc6b7a1278edc9b2e23e88c950dd698094bc49a"
 
 [[files]]
+file = "kubejs/assets/tombstone/textures/slot/bundle_slot.png"
+hash = "47ac07585ac944e028e4a3842d65447d365d3dd3cf577b6d8d5d78222471e57c"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/draconic-codex.png"
 hash = "cc6ac83ae4621eb04a8e87898fdb4b5f9bfe39cc6139c1232675e9ace92a3de1"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/nether_star_drained.png"
+hash = "b198599a536ce347b527db4ba4cb37872277882f377ddf7a80cf6ff986548519"
 
 [[files]]
 file = "kubejs/assets/vampiresneedumbrellas/textures/curios.png"
@@ -76913,6 +76945,10 @@ file = "kubejs/server_scripts/Modpack/Recipes/inert_trident.js"
 hash = "02d462b6eb1120701d3c4bf317743450c0452e9df2817863b15e5facf3cd7120"
 
 [[files]]
+file = "kubejs/server_scripts/Modpack/Recipes/infusing_recipes.js"
+hash = "54e98ec11e19f878eb99f91d18bb5ea17e7182a8b1b33a722f27566b0ffd7053"
+
+[[files]]
 file = "kubejs/server_scripts/Modpack/Recipes/rope_alt_recipes.js"
 hash = "dcbb4e9cd6a31c3f95cdaa41db64f874b41ddb407771493ff713cf7b98a74ebe"
 
@@ -76941,6 +76977,10 @@ file = "kubejs/server_scripts/Modpack/Tags/foods.js"
 hash = "06a9e4bcf19bf9e6592f196a63a81d7dcc84ff287fa62b435bc70b9b4c775030"
 
 [[files]]
+file = "kubejs/server_scripts/Modpack/Tags/items.js"
+hash = "e81988ceabdf704a4bb22b0096ded9dea7f272a5db1ad27b61caa4c5c25ffc85"
+
+[[files]]
 file = "kubejs/server_scripts/Modpack/Tags/mowzies_bosses.js"
 hash = "1ce9535e9a82271f0c15f6ced244f817d5a702561c0f39c4c80e7781443584ca"
 
@@ -76949,8 +76989,12 @@ file = "kubejs/server_scripts/Modpack/Tags/shark_teeth.js"
 hash = "e9e9622e508d60e2995fe65943778b24e5d29f6dd7af8631f7ba7878ec792989"
 
 [[files]]
-file = "kubejs/server_scripts/Modpack/Tags/weeping_angels.js"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "kubejs/server_scripts/Modpack/Tags/vampirism_zombies.js"
+hash = "3141b2128225b7e3fc321e154395d1a4f931a0602785559fc0ec5eb07721d543"
+
+[[files]]
+file = "kubejs/server_scripts/Modpack/gameplay/curios_slots.js"
+hash = "35b240893eb3dce08ff8d992ec1b32048b3df308e2e5c4f25dbc6213247835ea"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/wolf_attack_skulls.js"
@@ -77022,7 +77066,7 @@ hash = "13ec6608a7ad87a3f644290119abeee0af59557aa6af174e1638b8e483998278"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_item_creation.js"
-hash = "0c21c714642dd56235bea0b9003181abe5c7e45aa363d634f05508b9a6c646f2"
+hash = "08d3262fc68c70a7cf19a8d21eface25a59c84303f139aba8f0af2af2e861e66"
 
 [[files]]
 file = "kubejs/startup_scripts/dirty_raw_diamond.js"
@@ -78630,7 +78674,7 @@ metafile = true
 
 [[files]]
 file = "mods/music-events.pw.toml"
-hash = "d6200af5235b4cec42729cbbd3b5d2de58bb0a37b125a4796838283a7e97d602"
+hash = "d37a48e37393302edd721a5ddce7550108dc2fa2fc771b92634b59f25cc8dfcf"
 metafile = true
 
 [[files]]
