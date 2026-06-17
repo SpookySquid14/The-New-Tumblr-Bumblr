@@ -68178,7 +68178,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "632319f65f82fe4ff79f8c03f57fb41e3a5d3150628ca11de967520c785faa47"
+hash = "251fd57ceca64f33b722a7acdefb028c108e6eaccd0f8afcb63728bfa856d16c"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69114,7 +69114,7 @@ hash = "8e3dcd0193625aeea5be7b90e5bb935c822561a415836a997b54c4cf4a158b43"
 
 [[files]]
 file = "config/forgeendertech/cached.dat"
-hash = "63cf5f1646048021c20f6ec6c6ebe16f7eaf4848c453544a572666bc4a5ca353"
+hash = "b660bd0c215ef381cf2e56d81b999892d7d94407c8699a27e431304fc7c3c301"
 
 [[files]]
 file = "config/frightsdelight.json"
@@ -69610,11 +69610,11 @@ hash = "8a9c0403b385ca106d0c0b541ea2f2128bf39e3f9b05b342b176ca11834857a4"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "210f33b2672016749d2a53a8328d88ce4f2bcd2216a0117e49eb98f32821f357"
+hash = "293169afeb677d8dd1ef22b58a244224e669b2b0ecda8d884cadbacc3c13cd5c"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "e8156cfaf9c867ba86e33b23f4d88b884c69ea111f75f29e46df29a24f6f792d"
+hash = "59960fbe41cf125f914c41606fa754cd992d16e65e04ec11a343785fcfeb0376"
 
 [[files]]
 file = "config/jeed-client.toml"
@@ -69626,7 +69626,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "dd4ca602779307913b1eb82b831ae543d883d34525227a8bcf4dcd01ad88cef5"
+hash = "735b0b0daa284a680ec8ea1241ed55e743c08355ddd3e4ec34a3cf6bc3437c82"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69726,7 +69726,7 @@ hash = "bf12cd3a9fca75b03295cb0b2bf89a7a47cc2bbfb67b31ae079f7f839fa35540"
 
 [[files]]
 file = "config/jei/world/local/New_World__10/lookupHistory.ini"
-hash = "8568268e6696704e58bb34b2bad9e512471a33c2450d2f841affe4c1d7569984"
+hash = "76c9639b0cec895bcabbfbcd871aa461d1818001c2b9643f9c2eaab82017bfd7"
 
 [[files]]
 file = "config/jei/world/local/New_World__11/lookupHistory.ini"
@@ -70082,7 +70082,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "be86bb87c347ea011d45c77957d3c39abe6c33b0e204da7074f27c2a5e2717f3"
+hash = "7060ca7293cd85d0281dda61a7a734dd7610de0d87b393a8053283427fc1f208"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70270,7 +70270,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "361fc387d906841f0cdb33141bd4c5045c2c54ee0b1c0e0ecba1e1a145076b55"
+hash = "ae9b51ed993ab9161ef6c5f5ba35d77ede11f4e37579984c122c0b4b95fe4a80"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70286,7 +70286,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "0d4e5ada7fa97e07987e33636771e1ec1b94f607c216b7fc6209dac75bab9924"
+hash = "c0de3143a2d5138e65315ae7b33c5dbddbc62d6212c4e4a8531db0cd0553e163"
 
 [[files]]
 file = "config/pal.properties"
@@ -71095,6 +71095,10 @@ hash = "ec1221e7e2a807eb462e055b5bc526161452e371d70bf42e71786f16524b1af3"
 [[files]]
 file = "config/vampirism-common.toml"
 hash = "646bddf70de42eaa8eaa12308cd984640ee595df3df14300c913f4678e52d5e9"
+
+[[files]]
+file = "config/vampirism_integrations-common.toml"
+hash = "f2374f081737c5adfed4726ea255e164a494cc1d90b07ae72ac941d5944101e0"
 
 [[files]]
 file = "config/vanillabackport-client.toml"
@@ -76989,12 +76993,16 @@ file = "kubejs/server_scripts/Modpack/Tags/shark_teeth.js"
 hash = "e9e9622e508d60e2995fe65943778b24e5d29f6dd7af8631f7ba7878ec792989"
 
 [[files]]
-file = "kubejs/server_scripts/Modpack/Tags/vampirism_zombies.js"
-hash = "3141b2128225b7e3fc321e154395d1a4f931a0602785559fc0ec5eb07721d543"
-
-[[files]]
 file = "kubejs/server_scripts/Modpack/gameplay/curios_slots.js"
 hash = "35b240893eb3dce08ff8d992ec1b32048b3df308e2e5c4f25dbc6213247835ea"
+
+[[files]]
+file = "kubejs/server_scripts/Modpack/gameplay/vampirism_skeletons.js"
+hash = "678d317652deaef90f3833934630bf0eca37d4034750eabb224c1406fda4cc8c"
+
+[[files]]
+file = "kubejs/server_scripts/Modpack/gameplay/vampirism_zombies.js"
+hash = "a7f7f7789acc63ed4a9fae63f3eea617138cc49eee7867bf19b55fe0cf8b07e6"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/wolf_attack_skulls.js"
@@ -79355,6 +79363,11 @@ metafile = true
 [[files]]
 file = "mods/vampirism-become-a-vampire.pw.toml"
 hash = "48a4c074f1d34321a50b8d6cfb8d2a440ee598774176ef1672dd98def96c5560"
+metafile = true
+
+[[files]]
+file = "mods/vampirism-integrations.pw.toml"
+hash = "2b5cbc6289b13f22e87018012d744ad6bcee41d7990b80c4e6ff253509578b0b"
 metafile = true
 
 [[files]]
