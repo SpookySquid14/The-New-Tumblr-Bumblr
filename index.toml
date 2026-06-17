@@ -68178,7 +68178,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "251fd57ceca64f33b722a7acdefb028c108e6eaccd0f8afcb63728bfa856d16c"
+hash = "3ea8b816d04f00b2d80fa40e6f8efc80fc34354863bd5d79de23cfa8a82a3443"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69626,7 +69626,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "735b0b0daa284a680ec8ea1241ed55e743c08355ddd3e4ec34a3cf6bc3437c82"
+hash = "252206a6c30a0d084292723320b3ceb7cd17fe21d7a9c2f9d6990e2b9e046a4e"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69726,7 +69726,7 @@ hash = "bf12cd3a9fca75b03295cb0b2bf89a7a47cc2bbfb67b31ae079f7f839fa35540"
 
 [[files]]
 file = "config/jei/world/local/New_World__10/lookupHistory.ini"
-hash = "76c9639b0cec895bcabbfbcd871aa461d1818001c2b9643f9c2eaab82017bfd7"
+hash = "fee775c5830f897ef86fb39f2079b63a55d883db635e0f324b99ba434c820425"
 
 [[files]]
 file = "config/jei/world/local/New_World__11/lookupHistory.ini"
@@ -70082,7 +70082,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "7060ca7293cd85d0281dda61a7a734dd7610de0d87b393a8053283427fc1f208"
+hash = "60cf5b43cc1f3821ccb3c19a68bf2f796174524ad27d47c6430f5627b00d1fc4"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70270,7 +70270,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ae9b51ed993ab9161ef6c5f5ba35d77ede11f4e37579984c122c0b4b95fe4a80"
+hash = "0a6b037bfa1a009c1d60cab4562f06584fc678e11591575f2848e7210b42dc50"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70286,7 +70286,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "c0de3143a2d5138e65315ae7b33c5dbddbc62d6212c4e4a8531db0cd0553e163"
+hash = "5a2283f8d805344aed9efeae0cfd153ecc110d5bac7377f9a294b508092837c6"
 
 [[files]]
 file = "config/pal.properties"
@@ -71323,6 +71323,38 @@ hash = "4f5f0efc86011041ae3986a2b77f6a2050530b71bfbcce550a7744b32e8e646e"
 [[files]]
 file = "config/zillagersweararmor-common.toml"
 hash = "647988a0852dd8dad7fabb00d7fdd2a470308a151bb58c6cc34554b267086aeb"
+
+[[files]]
+file = "defaultconfigs/certain_questing_additions/client-config.snbt"
+hash = "c9bbba6f7f28ff51219fd10e38b1d981c48f9cc31f47bf272507e24e9de1b920"
+
+[[files]]
+file = "defaultconfigs/ftbchunks/client-config.snbt"
+hash = "6c791c980cacce7ca6baa5d9802969daac34b888045a0bd1d7c99ec3143c0509"
+
+[[files]]
+file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
+hash = "65562aaae1b17c5aba22253203b20e2b39a674870570157d155e58087e7e720c"
+
+[[files]]
+file = "defaultconfigs/ftbessentials-server.snbt"
+hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
+
+[[files]]
+file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+hash = "7cf44bc2b79d6798ac1b0bca7dc52ab570a14ade2c11eccf4e1272ce6e081001"
+
+[[files]]
+file = "defaultconfigs/ftbquests/client-config.snbt"
+hash = "9e81651d680291e2c8ab65f4a1168a9f8ccb974d688cf8203d9abf843c8bd346"
+
+[[files]]
+file = "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
+hash = "a16630bdc2fbecab73b939d2adb903481b3c1f84bf1bd02cc2bed1d1189f9770"
+
+[[files]]
+file = "defaultconfigs/sophisticatedbackpacks-server.toml"
+hash = "490655639ff41214f1fe871a10922f691bf6ea3ccd494ae68c5e49b96a59923e"
 
 [[files]]
 file = "icon.png"
@@ -77518,11 +77550,6 @@ metafile = true
 [[files]]
 file = "mods/cataclysmic-combat.pw.toml"
 hash = "66f6928b49d8e012454961f315d024989b186f0e7cf48d338a94ceeceba286df"
-metafile = true
-
-[[files]]
-file = "mods/cave-spider-spawn.pw.toml"
-hash = "3fc89c29af1c8c73e84731b588dbebcb7b301f5824cd27cc503435301fa1cb16"
 metafile = true
 
 [[files]]
