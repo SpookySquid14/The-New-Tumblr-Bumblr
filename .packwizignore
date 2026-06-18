@@ -5,3 +5,6 @@
 *.mrpack
 
 sync.sh
+
+# But keep zips in subfolders
+!*/

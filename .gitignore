@@ -1,10 +1,11 @@
 # Exclude exported CurseForge zip files
 *.zip
-# But keep zips used in configs and the like
-!/config
 
 # Exclude exported Modrinth modpacks
 *.mrpack
+
+# But keep zips in subfolders
+!*/
 
 sync.sh
 config/spark/profile-2026-06-08_17.08.59.sparkprofile
