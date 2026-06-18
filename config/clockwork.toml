@@ -4,12 +4,12 @@
 	#
 	#Default: 320
 	#Range: 0 ~ 100000
-	CLOCKWORK_WINGS_DEFAULT_DURABILITY = 320
+	CLOCKWORK_WINGS_DEFAULT_DURABILITY = 575
 	#Boost velocity multiplier
 	#
 	#Default: 1.0
 	#Range: 0.0 ~ 1000.0
-	CLOCKWORK_WINGS_BOOST_VELOCITY = 1.0
+	CLOCKWORK_WINGS_BOOST_VELOCITY = 5.0
 	#Default velocity reduction multiplier. This is multiplied each tick, so even high values can stop the entity
 	#
 	#Default: 0.97725
@@ -19,12 +19,12 @@
 	#
 	#Default: 0.004225
 	#Range: 0.0 ~ 1000.0
-	CLOCKWORK_WINGS_DEFAULT_SINK = 0.004225
+	CLOCKWORK_WINGS_DEFAULT_SINK = 0.002
 	#Boost cooldown ticks
 	#
 	#Default: 60
 	#Range: 0 ~ 1000
-	CLOCKWORK_WINGS_BOOST_COOLDOWN_TICKS = 60
+	CLOCKWORK_WINGS_BOOST_COOLDOWN_TICKS = 4
 
 [Dragonfly]
 	#Default health
