@@ -68178,7 +68178,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "3ea8b816d04f00b2d80fa40e6f8efc80fc34354863bd5d79de23cfa8a82a3443"
+hash = "24c0bf3880d990455d960ab1c5427a190265a99bf102de5d4d068e4c40ce6626"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70082,7 +70082,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "60cf5b43cc1f3821ccb3c19a68bf2f796174524ad27d47c6430f5627b00d1fc4"
+hash = "bc6b27e09e4d12d95e3979f0a7a46ac89e727c3dc974c6ac3a0e96bd435d8ec7"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70270,7 +70270,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "0a6b037bfa1a009c1d60cab4562f06584fc678e11591575f2848e7210b42dc50"
+hash = "135444371452c8991a40c52403ca46534145f9c9dc3e6d79f71a81608d4b2f25"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70286,7 +70286,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "5a2283f8d805344aed9efeae0cfd153ecc110d5bac7377f9a294b508092837c6"
+hash = "d8f2c21b3892dce7db56b6c07953dddc88e2d4163e74d70683f90e246d9f1833"
 
 [[files]]
 file = "config/pal.properties"
