@@ -11,14 +11,24 @@
 		}
 	}
 	id: "4A0E12C943429894"
-	images: [{
-		height: 1.0d
-		image: "modpack:textures/goety-first-steps.png"
-		rotation: 0.0d
-		width: 7.0d
-		x: 0.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			height: 1.0d
+			image: "modpack:textures/goety-first-steps.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			height: 8.0d
+			image: "vampirism:block/dark_steel"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -14.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -37,9 +47,15 @@
 				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
-				id: "04596653554AD36F"
-				title: "Learn the basics of Goety"
-				type: "checkmark"
+				id: "58836E83E9D50A4D"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:black_book"
+					}
+				}
+				type: "item"
 			}]
 			title: "Introduction to The Dark Arts"
 			x: 0.0d
@@ -52,7 +68,6 @@
 				"{image:modpack:textures/wraith.png width:156 height:90 align:center}"
 			]
 			hide_dependency_lines: false
-			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -91,7 +106,6 @@
 				"As I said before, there are two components we will want to acquire. The second of these are &6&ofabrics&r. Made from lapis and some string, a variety of different fabrics can be created by adding one addition ingredient. These all have their purposes, but for ours, we will want &o&6magic fabric&r, made by adding gold to the recipe."
 				"{image:modpack:textures/fabrics.png width:156 height:90 align:center}"
 			]
-			hide_until_deps_visible: true
 			id: "08E9141026F7F288"
 			rewards: [{
 				amount: 100L
@@ -149,7 +163,6 @@
 				"[ \"Oh, and if you're struggling to find amethyst, \", { \"text\": \"I believe my cousin may be able to help\", \"underlined\": \"true\", \"color\": \"light_purple\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"24D05EE5346105AD\" } }, \".\" ]"
 				"{image:modpack:textures/empty-focus.png width:156 height:90 align:center}"
 			]
-			hide_until_deps_visible: true
 			id: "2BED66945BBA3836"
 			rewards: [{
 				amount: 100L
@@ -174,7 +187,6 @@
 				"You've made your totem, now you must fill it. Fortunately, doing so is a simple matter. Merely killing mobs while a totem is either in your hotbar or equipped as a curio will fill the totem with that mob's energy. Different types of mobs have differing amounts of soul energy, with undead being one of the weakest, most likely due to their nature."
 				"The Totem of Roots can hold a max of &o&6100 souls&r. Before continuing, I suggest you fill it, as we will be needing that energy very soon."
 			]
-			hide_until_deps_visible: true
 			icon: "goety:ectoplasm"
 			id: "2AEACBC0748148A7"
 			optional: true
@@ -253,7 +265,7 @@
 					id: "51AA333D46C227F1"
 					item: {
 						Count: 1
-						id: "jadensnetherexpansiondelight:ecto_knife"
+						id: "mowziesmobs:naga_fang_dagger"
 						tag: {
 							Damage: 0
 						}
@@ -276,7 +288,6 @@
 				"With this, we have come to the end of our introduction. The Dark Arts will now open for you. Many powerful artifacts and spells lay there, waiting to be discovered. &8Necromancy&r, &2Nature&r, &1The Abyss&r, &bWinds&r, &eStorms&r, &dGeomancy&r."
 				"With so many options, what will &oyou&r choose? I look forward to finding out."
 			]
-			hide_until_deps_visible: true
 			id: "75F46ED3CD1FE1A7"
 			rewards: [
 				{
@@ -489,6 +500,8 @@
 			y: -11.0d
 		}
 		{
+			dependencies: ["31E5A46546ECB533"]
+			hide_dependency_lines: true
 			id: "4EE7637130ABFB0D"
 			tasks: [
 				{
@@ -536,8 +549,9 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -9.5d
+			title: "Blackened Steel"
+			x: 0.0d
+			y: -14.0d
 		}
 		{
 			id: "2444BC79553C5720"
@@ -1128,7 +1142,8 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["7CF531E5081C9D69"]
+			dependencies: ["31E5A46546ECB533"]
+			hide_dependency_lines: true
 			id: "60E5EA6F2E1A7502"
 			tasks: [{
 				id: "67E45832D21035AB"
@@ -1141,11 +1156,12 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -11.0d
+			x: 1.0d
+			y: -13.0d
 		}
 		{
-			dependencies: ["7CF531E5081C9D69"]
+			dependencies: ["31E5A46546ECB533"]
+			hide_dependency_lines: true
 			id: "63CDE68EA6FC634C"
 			tasks: [{
 				id: "2FD80CF29F614D9A"
@@ -1158,8 +1174,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -11.0d
+			x: 0.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["63CDE68EA6FC634C"]
@@ -1175,11 +1191,12 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -13.0d
 		}
 		{
-			dependencies: ["7CF531E5081C9D69"]
+			dependencies: ["31E5A46546ECB533"]
+			hide_dependency_lines: true
 			id: "5A82DB6A8913997F"
 			tasks: [{
 				id: "364637C801E8C94D"
@@ -1192,8 +1209,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -11.0d
+			x: -1.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["5A82DB6A8913997F"]
@@ -1209,7 +1226,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -13.0d
 		}
 		{
@@ -1226,7 +1243,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -14.0d
 		}
 		{
@@ -1237,7 +1254,7 @@
 				item: "goety:thrash_glove"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -12.0d
 		}
 		{
@@ -1248,8 +1265,76 @@
 				item: "goety:grave_glove"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -12.0d
+		}
+		{
+			dependencies: ["7CF531E5081C9D69"]
+			id: "31E5A46546ECB533"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3CB48F6E4FB97D49"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "420EAE68B0DD86C8"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:furnace"
+								}
+								{
+									Count: 1b
+									id: "quark:deepslate_furnace"
+								}
+								{
+									Count: 1b
+									id: "quark:blackstone_furnace"
+								}
+								{
+									Count: 1b
+									id: "minecraft:blast_furnace"
+								}
+							]
+						}
+					}
+					title: "Furnace or Blast Furnace"
+					type: "item"
+				}
+				{
+					id: "67CE416CB9C110EE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:anvil"
+						}
+					}
+					title: "Anvil"
+					type: "item"
+				}
+				{
+					id: "6C791DDE5E31D5B2"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "796EAF710EF44DA6"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			title: "Forged In Soulfire"
+			x: 0.0d
+			y: -11.0d
 		}
 	]
 	title: "Goety: The Dark Arts"

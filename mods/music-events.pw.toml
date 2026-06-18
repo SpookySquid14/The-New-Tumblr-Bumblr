@@ -1,18 +1,18 @@
-filename = 'music_events-1.0.4.jar'
+filename = 'music_events-1.0.5.jar'
 name = 'Music Events'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'music_events-1.0.4.jar'
+x-prismlauncher-version-number = 'music_events-1.0.5.jar'
 
 [download]
-hash = 'f577cb893e710b16e221d2598df8458ef7e13fe9'
+hash = '70caf8dd16e002b418b2576f9ab8a1916649ec62'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8259695
+file-id = 8270923
 project-id = 1563159

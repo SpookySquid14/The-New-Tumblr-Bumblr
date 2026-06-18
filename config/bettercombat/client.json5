@@ -8,7 +8,7 @@
 	"isShowingArmsInFirstPerson": false,
 	"isShowingOtherHandFirstPerson": true,
 	"isSweepingParticleEnabled": true,
-	"isTooltipAttackRangeEnabled": false,
+	"isTooltipAttackRangeEnabled": true,
 	"weaponSwingSoundVolume": 100,
 	"isDebugOBBEnabled": true,
 	"swingThruGrassBlacklist": "vampiresdelight:silver_knife",

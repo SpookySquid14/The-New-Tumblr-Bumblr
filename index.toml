@@ -1422,7 +1422,7 @@ hash = "95bdbfe1263fb62be9951dbbe48f32683ad4da8d0084a17220e5f674325a3373"
 
 [[files]]
 file = "config/bettercombat/client.json5"
-hash = "4acdc616f6e05b52374df3033fbda3862bca42270d71c44662218b0b61ba8377"
+hash = "cb15edc721eb79ae01a1e598bd38c92692eb1480b29dae8f98304457eb269064"
 
 [[files]]
 file = "config/bettercombat/fallback_compatibility.json"
@@ -68178,7 +68178,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "24c0bf3880d990455d960ab1c5427a190265a99bf102de5d4d068e4c40ce6626"
+hash = "724b99619ebec2f1dd33baae7ff3fb1cbbd1bd9b15ecb10897e2c6fd21f95aae"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69166,7 +69166,7 @@ hash = "60978a4e6e28a4ac82561ee8cbc7f9d0048e87e2506a8100b3dbce0306441449"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
-hash = "de569fc4ea9d90306235e95e1b2c67fa6e182b447e15c116d3d6285d2afa4367"
+hash = "a35f4dd0f8f9add935353a01556616ae11e123a3cb6d9de62b940e16bb8cb6ea"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/help.snbt"
@@ -69726,7 +69726,7 @@ hash = "bf12cd3a9fca75b03295cb0b2bf89a7a47cc2bbfb67b31ae079f7f839fa35540"
 
 [[files]]
 file = "config/jei/world/local/New_World__10/lookupHistory.ini"
-hash = "fee775c5830f897ef86fb39f2079b63a55d883db635e0f324b99ba434c820425"
+hash = "17fe5756a9b30dd6d8d3d0b3c34cf16cfbc49c7612420b1707aa073f89e2a2dc"
 
 [[files]]
 file = "config/jei/world/local/New_World__11/lookupHistory.ini"
@@ -69914,7 +69914,7 @@ hash = "b497bd5347383552517807b723e11184eb10f8e2ef7ce6c061cfa72ef769d4da"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_23ced690/lookupHistory.ini"
-hash = "d3c2d626fc8e3c307a7de2217465065da03ce945c9739e6ffcb1a9032461befd"
+hash = "131ada60d863a4cca2ebadbd658812f805265681cc51c9a54d82c58859486450"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_fbacacb7/lookupHistory.ini"
@@ -70082,7 +70082,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "bc6b27e09e4d12d95e3979f0a7a46ac89e727c3dc974c6ac3a0e96bd435d8ec7"
+hash = "20e04fcc530c4ba730d3da579a23e352186db3e54995465c742ea843f7cda1ee"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70270,7 +70270,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "135444371452c8991a40c52403ca46534145f9c9dc3e6d79f71a81608d4b2f25"
+hash = "de65e18a9bab8a2b014fe20c303b2ef8b4b3ddd924a950945fccab099aa4f4cc"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70286,7 +70286,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "d8f2c21b3892dce7db56b6c07953dddc88e2d4163e74d70683f90e246d9f1833"
+hash = "5d945deed4ebb13937a7da2f51da8ea75e2b7ec96a5cad242f3236835b330177"
 
 [[files]]
 file = "config/pal.properties"
@@ -78881,7 +78881,7 @@ metafile = true
 
 [[files]]
 file = "mods/music-events.pw.toml"
-hash = "d37a48e37393302edd721a5ddce7550108dc2fa2fc771b92634b59f25cc8dfcf"
+hash = "17aefd0f6c96c9deda26446561c553bd556a5e5ee6cb7b059a83b6e38773d2b1"
 metafile = true
 
 [[files]]
