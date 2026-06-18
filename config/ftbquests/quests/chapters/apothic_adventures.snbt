@@ -1,0 +1,317 @@
+{
+	autofocus_id: "4802FDF08E8A88E6"
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "apothic_adventures"
+	group: "1CE580FB33A3818E"
+	id: "266180B8179705EE"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Affixes are special properties given to items you'll find in chests or mob drops. There are 3 categories of affixes. &5&oStat Affixes&6&o give basic increases to things such as speed or health. &5Durability Affixes&6 decrease the damage taken by an item. Finally, &5Effect Affixes&6 give a range of unique abilities to an item.&r"
+				"{image:tumblrbumblr:textures/affixes.png width:156 height:90 align:center}"
+			]
+			id: "2B712988FC2E66C0"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2E6D8F4855ACFAF9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				advancement: "apotheosis:affix/root"
+				criterion: ""
+				id: "75CF3FBF11F04074"
+				title: "Find An Item With An Affix"
+				type: "advancement"
+			}]
+			title: "Affix To This"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Along with affixed items, you will come across a variety of &o&6Gems&r in your travels. &6&oThese gems, when inserted into a socket, will grant various boosts to your gear.&r"
+				"&oSockets&r are another type of Affix that can be found on items."
+				"Gems will have different compatibilities. Some may only work for armor while others may need a weapon or tool. &o&6Put a gem into a Smithing Table along with an item that is compatible and has an empty socket to insert the gem."
+				"{image:tumblrbumblr:textures/gems.png width:160 height:90 align:center}"
+			]
+			id: "5A97C15CA4463102"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "190603B06A75A6E6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				advancement: "apotheosis:affix/gem"
+				criterion: ""
+				id: "5FE6842CCC27A043"
+				title: "Find a Gem"
+				type: "advancement"
+			}]
+			title: "Shine Bright"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&o&6Boss Mobs&r are special mobs that have unique bonuses from their affixes. There are several ways to encounter them, such as in underground dungeons, but the most common way you'll find early on will be &o&6Invading Bosses&r."
+				"When a boss invades your world, you'll be alerted by a loud sound, a message, and a beacon that illuminates the boss."
+				"Killing a boss can be difficult depending on its strength, but in doing so, &o&6you are guaranteed to get an affixed item from it&r."
+				"{image:tumblrbumblr:textures/bosses.png width:156 height:90 align:center}"
+			]
+			id: "25927B5C8F23FCEA"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "296C9C7C8A69DFC1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				advancement: "apotheosis:affix/boss"
+				criterion: ""
+				id: "2084F80BA7C41D01"
+				title: "Kill a Boss Mob"
+				type: "advancement"
+			}]
+			title: "Promotion"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"43AE403E62C96F66"
+				"2B712988FC2E66C0"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"By now you've no doubt noticed your items have rarities. &o&6Rarity determines the strength of an affixed item as well as the types of affixes it can receive.&r For example, an uncommon and rare item can only have up to 1 gem socket, while higher rarities can have more. The rarities are &7Common&r, &aUncommon&r, &bRare&r, &dEpic&r, and &cMythic&r."
+				"By using a Salvaging Table, you can break down affixed items into raw material, which you can later use to upgrade your items."
+				"In addition to this, &6&oyou can also break gems down into gem dust&r. A much more elegant and efficient solution."
+				"{image:tumblrbumblr:textures/salvaging-table.png width:156 height:90 align:center}"
+			]
+			icon: "apotheosis:salvaging_table"
+			id: "1935CFAC6173A06F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "423D63B2E64A588F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "4140A073A74AA6E7"
+					item: "apotheosis:salvaging_table"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5F97C65EC427BC99"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "apotheosis:rarity_materials"
+						}
+					}
+					title: "Rarity Materials"
+					type: "item"
+				}
+			]
+			title: "What is This, A Gatcha Game?"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A97C15CA4463102"]
+			description: [
+				"&o&6Gem Dust&r is a very common crafting material used for affixes. It's created by crushing the various gems you find around the world. At first, you'll have to do this by &6&odropping an anvil on a gem thrown onto the ground&r. But don't worry, because another method will soon be possible."
+				"{image:tumblrbumblr:textures/gem-dust.png width:160 height:90 align:center}"
+			]
+			id: "43AE403E62C96F66"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7394149C034038F2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "5EB0B4B88C4457B4"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			title: "Ashes to Ashes, Dust to Dust"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Apotheosis adds several mechanics to the game that work at allowing you to reach greater heights than ever before while staying close to Vanilla Minecraft."
+				"The Chronicle of Shadows serves as the guide book for Apotheosis."
+			]
+			id: "4802FDF08E8A88E6"
+			optional: true
+			rewards: [{
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1DEE1A5B863FB314"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "5BE7307975AD6C11"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1935CFAC6173A06F"]
+			description: [
+				"Once you've gotten enough materials, you'll probably want to start upgrading your gear, right? That's where the &o&6Reforging Table&r comes into play, allowing you to change an item's rarity and affixes. The Simple variant allows you to reforge an item up to &9&oRare&r."
+				"Using the Reforging Table, you'll be met with 3 input slots. The center slot is for the item you are reforging. The bottom right slot holds &o&6Sigils of Rebirth&r, crafted with gem fused slates and gem dust. Finally, the top left slot is for your rarity materials. Once all items are placed inside, you will be given three random options, just like an enchanting table. These options all take experience, Sigils of Rebirth, and rarity materials."
+				"{image:tumblrbumblr:textures/simple-reforging-table.png width:156 height:90 align:center}"
+			]
+			icon: "apotheosis:simple_reforging_table"
+			id: "5B841122EFD8854C"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2DAA2E9F0388D767"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "5F67FBE4CFC0619A"
+					item: "apotheosis:simple_reforging_table"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "68B61B8FF205E5CD"
+					item: "apotheosis:sigil_of_rebirth"
+					type: "item"
+				}
+			]
+			title: "Given New Purpose"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43AE403E62C96F66"]
+			description: ["If you're ever in a situation where you'd like to &oremove&r a gem from one of your items, you can craft a &o&6Sigil of Withdrawal&r. &6&oPutting the sigil in a smithing table with your item will remove all the gems in its sockets.&r"]
+			id: "15324C27CC683196"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5B96FB9A3EA3F35C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2B83B91F2B25ACA1"
+				item: { Count: 6, id: "apotheosis:sigil_of_withdrawal" }
+				type: "item"
+			}]
+			title: "Gem Removal Service"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B841122EFD8854C"]
+			description: ["The Reforging Table is just like its predecessor, only now you will be able to reach &c&oMythic&r rarity."]
+			id: "18DC1665AD8C8EE9"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3B836CCA6264E30B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "5B9185469C8B1914"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			title: "Upgrading The Upgrader"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B841122EFD8854C"]
+			description: [
+				"At the very top of an affix's power is the &o&6Augmentation Table&r requiring the power of a &oNether Star&r to create. Using it, &o&6you are able to strengthen or reroll specific affixes&r."
+				"Using the table will show a UI with two slots on the left. These are for the item you wish to augment and &o&6Sigils of Enhancement&r, crafted with a &cGodforged Pearl&r. Once all the items are put in, a drop down menu will show, allowing you to select the affix you wish to augment. From there, you simply select the option you'd like at the bottom."
+				"{image:tumblrbumblr:textures/augmentation-table.png width:156 height:90 align:center}"
+			]
+			icon: "apotheosis:augmenting_table"
+			id: "35FF8397225F4952"
+			rewards: [{
+				amount: 250L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2575A39AAE24D12B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "4F71AB083448A6D5"
+					item: "apotheosis:augmenting_table"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00A4E4F8A0D2B3BD"
+					item: "apotheosis:sigil_of_enhancement"
+					type: "item"
+				}
+			]
+			title: "Augmentation's Peak"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["43AE403E62C96F66"]
+			description: [
+				"If you want to get the most out of your gems, or if you simply have duplicates, you may want to look at the &o&6Gem Cutting Table&r. When using it, you can increase a Gem's rarity, provided you have the necessary materials."
+				"While the exact materials will always be shown by putting your gem in the middle slot, a good rule of thumb is that &6&oyou'll need a second copy of the gem, the rarity material of the rarity you are upgrading it to, and gem dust&r."
+				"{image:tumblrbumblr:textures/gem-cutting-table.png width:160 height:90 align:center}"
+			]
+			id: "47532F7269B287FF"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0B7C0B63D746F716"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "517D13F74509B27D"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			title: "Jeweler in Training"
+			x: -1.0d
+			y: -3.0d
+		}
+	]
+	title: "Apothic Adventures"
+}

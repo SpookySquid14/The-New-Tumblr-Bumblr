@@ -2,9 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "enchanting"
-	group: "48841A8C395C40D5"
+	group: "1CE580FB33A3818E"
+	icon: "minecraft:enchanting_table"
 	id: "23E8C54ACA2DB69B"
-	order_index: 7
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -686,6 +687,13 @@
 		}
 		{
 			id: "5AC7FC89785E464F"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "67E8D3CF43C421CA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "59BD83671DEA4CEF"
 				item: "apotheosis:beeshelf"
@@ -696,6 +704,13 @@
 		}
 		{
 			id: "0FB908A273181B76"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4F304BDE10A473A7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "6108F3A6B0A1677D"
 				item: "apotheosis:melonshelf"
@@ -706,6 +721,13 @@
 		}
 		{
 			id: "7D41A4F1AAAE5D89"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "380B901E2992FF3B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "15429502455D2AC4"
 				item: "apotheosis:stoneshelf"
@@ -715,24 +737,133 @@
 			y: -5.5d
 		}
 		{
+			description: ["Unlike other tomes, the Tome of Scrapping serves a unique purpose. &o&6When placed in an anvil with an enchanted item, it will take half of the item's enchantments.&r The original item is lost in the process."]
 			id: "54434A0CA6214A3A"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3C59C03C050A103E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				count: 8L
 				id: "0600839D57299B8F"
-				item: "apotheosis:other_tome"
+				item: "apotheosis:scrap_tome"
 				type: "item"
 			}]
+			title: "Scrap It"
 			x: 3.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&oTomes&r are a special type of book that's limited in what it can be enchanted with based on the specific type, &osave for the scraping tomes&r&o."
+				"&6&oFor example, a Tome of Helmets can only be enchanted with helmet enchantments.&r The same with weapons and weapon enchantments."
+				"The Tome of The Others can be enchanted with any enchantments that don't fit in other lists."
+			]
+			id: "377A0D66D50B77FC"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "21FB5DAF1FA3EF71"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "335A50B2AC19B055"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:helmet_tome"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:chestplate_tome"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:leggings_tome"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:boots_tome"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:weapon_tome"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:bow_tome"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:pickaxe_tome"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:fishing_tome"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:other_tome"
+							}
+						]
+					}
+				}
+				title: "Tome"
+				type: "item"
+			}]
+			title: "One Tome At a Time"
+			x: 4.0d
 			y: -5.5d
 		}
 		{
-			id: "377A0D66D50B77FC"
+			dependencies: ["54434A0CA6214A3A"]
+			description: ["The Tome of Superior Scrapping is an upgraded form of the Tome of Scrapping. &6&oIt does the same as the Tome of Scrapping, but takes all the enchantments instead of just half.&r"]
+			id: "0762152EEDB62151"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "21D87DBB751169EB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
-				id: "335A50B2AC19B055"
-				item: "apotheosis:helmet_tome"
+				count: 4L
+				id: "2393C9C8BBFD4E0D"
+				item: "apotheosis:improved_scrap_tome"
 				type: "item"
 			}]
+			title: "Better Scraps"
 			x: 4.0d
-			y: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0762152EEDB62151"]
+			description: ["The Tome of Extraction is the ultimate form of a Tome of Scrapping, and the upgraded form of the Tome of Superior Scrapping. &6&oWhen used, it transfers all enchantments of an item, but does not destroy the original item.&r"]
+			id: "41D0937E584D2393"
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4DB6503C131AFD0C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 4L
+				id: "347F241C2EF6BE4C"
+				item: { Count: 4, id: "apotheosis:extraction_tome" }
+				type: "item"
+			}]
+			title: "Extraction Team"
+			x: 5.0d
+			y: -4.5d
 		}
 	]
 	title: "Enchanting"

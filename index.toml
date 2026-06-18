@@ -846,7 +846,7 @@ hash = "dea4d260e6eac868297c0f9cd80545fd6b54f7344c678b89edda980a3fc5e8cf"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "f57727acc41ab7d87f9daeca1e5bfe012885f6a0e86d2daa2300cd97942afac9"
+hash = "5564f213512065280e7d101aac281a0754d8a68cce8b7c8ad05ba248c6e054c1"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -67802,7 +67802,7 @@ hash = "b6243b955bf123f86c947510d9f8f3a4b5f7b8fe3775d834f458d60a3223847f"
 
 [[files]]
 file = "config/combatnouveau-client.toml"
-hash = "21ce7fc725db4d9c3022c8b84c6597b3acb05030cf5a47ca8b698e626c58f4c5"
+hash = "8c5b1d5b21edcdf1d5e3fdfcf25c90b7dafe0727410b3d7d9d5394165b3a8c48"
 
 [[files]]
 file = "config/combatnouveau-server.toml"
@@ -68178,7 +68178,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "724b99619ebec2f1dd33baae7ff3fb1cbbd1bd9b15ecb10897e2c6fd21f95aae"
+hash = "2b4964f52694ca4532b1d703984fe2e062d9a991d730bd132d4804ec627d7549"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69126,7 +69126,11 @@ hash = "5ab406b57f74a7e9cbd892aaf00e4a58f5185333d37c146af68b700c9336c717"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "a7c6813738c6aa0cddfca461cd6a4f61dc0a7e2f25de6e951311f904ec793651"
+hash = "46c287350facf19239fc9523d9bd50c662645fd104aa0c6bc0b6e531f03619e2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/apothic_adventures.snbt"
+hash = "d5f7891289f02105535a95d9fe852444f6b48f991ac8d728cd9b4865f3ca93ec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
@@ -69138,7 +69142,7 @@ hash = "af79d18b341afe310a23e248f664da169fc4119049b3ac3b7264d35ebdadc6ac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "66452ae77ee9c47113bf8116810df9a9d6f5032fbdcd75da554a48fb9b6270b7"
+hash = "e7e936a3accd2dab3f88e358cf6d1e48192b92b5e7ea385d8c8391f7357004c3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -69150,15 +69154,15 @@ hash = "877ca0cf5da886c1ff2894e15f21df14d7f4163c6502264ab2bb0febbd2dcb87"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
-hash = "8e8692ffea20a968d9cd3e20fa0adf075c2a1e61bb631c43d8c9d4969669337f"
+hash = "3dda1dc9bc69788b7c313be731eedc4e0e400d41ce32db5bb74ce5432fcdea64"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farming.snbt"
-hash = "1314032e12385c25e97fb755cc77e3d50e8dd80b258748d0c221ebfce561c9b9"
+hash = "29448a57fefe8b7ca7e9a23968ee6a12cbebb2e5e26e41f28463e53911a84862"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fine_fishing.snbt"
-hash = "37bc8d9f6cf265f83c3bedede067f1c120acbee2d8c41752855dafd31e298073"
+hash = "ebb31802b5012681dd2f9ad7b95eb916919b0b18de3ac53fbb6964843dd48877"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
@@ -69170,7 +69174,7 @@ hash = "a35f4dd0f8f9add935353a01556616ae11e123a3cb6d9de62b940e16bb8cb6ea"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/help.snbt"
-hash = "b3e3aaf765b5e6aa766857fb0a15b22d98feb957035bcca7d686867ac754175a"
+hash = "aec910743df2437ae2aa34835bf9b3ca9682b6e0895d8cf26d90022c237b1f1e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells_and_spellbooks.snbt"
@@ -69178,7 +69182,7 @@ hash = "566a15dfe0b9c452e36f21ed44ffb30eb121580a87fb4671c1df4974d48d80b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/legendary_eyes.snbt"
-hash = "340a3616bc50940dc35d81c947caa4d10f659410537fa341472ffa2fb00c764c"
+hash = "8ad6c8d613fcb5f798c9c0dae8be1618529efc6f5929df935e243ac28268e01c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magics_and_madness.snbt"
@@ -69190,7 +69194,7 @@ hash = "9fc95d281d92eaa2167763d7170262b08d56cbf48f4fdb766db8a8db8e136fac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mining.snbt"
-hash = "19d29a1f5d969f71c48333b38b418bb3d3b63ea07d780d62a0cd944c681c59b9"
+hash = "427f2b0bd8ea3267ce39122510a53f6e7ec883029624823cb7ddf937dddc1b29"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.snbt"
@@ -69210,7 +69214,7 @@ hash = "df71272033115d88741b5a2c9235d003ce324b5740747ac3e6199712de665654"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/saints_dragons.snbt"
-hash = "aac35ff4d3f2d35a877f90369ffbf89f54e4409dbc62e233f4ea1a3cf0c5201e"
+hash = "164b767751ea5d8e7f689fb2581cc0ddf8db81f89bc1185862cb894f82f01b1c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated_storage.snbt"
@@ -69218,7 +69222,7 @@ hash = "1067ddeb203e7b3e5d2021afab3448a5d3e2488e6965b41c60358add00fa2070"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkers_construct.snbt"
-hash = "f405dd2b41e1ca96cb2ad4de459807726a29ac2023113bec91caf2adb991e891"
+hash = "b210c055941cc7f2fe127d83acb81d4851e7cdbd64913e90f69b53c321a79167"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -69726,7 +69730,7 @@ hash = "bf12cd3a9fca75b03295cb0b2bf89a7a47cc2bbfb67b31ae079f7f839fa35540"
 
 [[files]]
 file = "config/jei/world/local/New_World__10/lookupHistory.ini"
-hash = "17fe5756a9b30dd6d8d3d0b3c34cf16cfbc49c7612420b1707aa073f89e2a2dc"
+hash = "f3202b165233cf3f9d1ca3cebd1d54cc2a4e59098cd8c2a3b955f14d49f3ecaf"
 
 [[files]]
 file = "config/jei/world/local/New_World__11/lookupHistory.ini"
@@ -70082,7 +70086,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "20e04fcc530c4ba730d3da579a23e352186db3e54995465c742ea843f7cda1ee"
+hash = "bb8bcf83e4ddd38e900b9a6bf52352bda402bfc876304d23b2c10737a4f3acf1"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70270,7 +70274,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "de65e18a9bab8a2b014fe20c303b2ef8b4b3ddd924a950945fccab099aa4f4cc"
+hash = "67ec41168fc618c06e1a3f482c2d3ee63730a2abea9a6fbcfb4a92bf37b63d6c"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70286,7 +70290,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "5d945deed4ebb13937a7da2f51da8ea75e2b7ec96a5cad242f3236835b330177"
+hash = "4cd3153800c68b7b87d58f8cec3a0079b0d2f842e9358eb6d60961b32335ae1c"
 
 [[files]]
 file = "config/pal.properties"
@@ -75489,12 +75493,44 @@ file = "kubejs/assets/tombstone/textures/slot/bundle_slot.png"
 hash = "47ac07585ac944e028e4a3842d65447d365d3dd3cf577b6d8d5d78222471e57c"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/affixes.png"
+hash = "a43cc584b6864a8d61fa671f11b5665aaa8556d36c6d442be767da2b440d6321"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/augmentation-table.png"
+hash = "2c6fc7b097bbe22bdef9dd18bd1eb244abbae7eaba12db479e8bc2b0e17629eb"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/bosses.png"
+hash = "dd64fdea42bdfc3af58f4f72f443fc629198d4ae3e4b1656fca81c30232a8633"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/draconic-codex.png"
 hash = "cc6ac83ae4621eb04a8e87898fdb4b5f9bfe39cc6139c1232675e9ace92a3de1"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/gem-cutting-table.png"
+hash = "184614972e6b8bb2cbedcecd0c29aa4d096456b4e0c6b42886fd26452b974c20"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/gem-dust.png"
+hash = "78b8172b2ee0c8cac026ac1ea74d49b3a31b554874e8e1efd589db7bad3637fe"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/gems.png"
+hash = "0592bacadbbb7544390d90ce83e5a69980c447f4766b4192f13c12b1643d66a5"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/item/nether_star_drained.png"
 hash = "b198599a536ce347b527db4ba4cb37872277882f377ddf7a80cf6ff986548519"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/salvaging-table.png"
+hash = "36da0708741a2158ef7a20f22ccf2eef17dc943dc6e25346412994313cf21ade"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/simple-reforging-table.png"
+hash = "e09ef64deb828298ec213f5b28c26f37caddea45e500f664a7ed372b868c0294"
 
 [[files]]
 file = "kubejs/assets/vampiresneedumbrellas/textures/curios.png"

@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "fine_fishing"
-	group: "48841A8C395C40D5"
+	group: "33FB9C2B7FFFEFE2"
 	icon: {
 		Count: 1
 		id: "tide:midas_fishing_rod"
@@ -12,7 +12,7 @@
 		}
 	}
 	id: "48C4631DC3828BC8"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

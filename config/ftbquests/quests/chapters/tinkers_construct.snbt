@@ -2,11 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tinkers_construct"
-	group: "48841A8C395C40D5"
+	group: "1CE580FB33A3818E"
 	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	id: "2248DCF95595D594"
-	order_index: 3
+	order_index: 0
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [

@@ -3,9 +3,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "pentagon"
 	filename: "saints_dragons"
-	group: "48841A8C395C40D5"
+	group: "1CE580FB33A3818E"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "saintsdragons:item/advancements/dragon_binders"
+		}
+	}
 	id: "533A9A274E0AFD57"
-	order_index: 8
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

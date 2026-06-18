@@ -60,7 +60,6 @@
 				"The dummy is a great way to test new weapons and abilities in a safe controlled manner. Once placed down, it will not be destroyed by your attacks, and will even display your damage dealt along with DPS."
 				"If you do find yourself wanting to move, simply crouch and hit the dummy to break it."
 			]
-			hide_until_deps_complete: true
 			icon_scale: 1.4d
 			id: "36F7B644F6DCB1BA"
 			rewards: [
@@ -95,7 +94,6 @@
 				"Have you noticed the blue arrow next to your hotbar? One of the most important things to know about combat in this pack is the ability to &6&oroll&r&r."
 				"Once assigned to any key in the controls menu (Default: R), pressing it will launch you in the direction you're moving, or forwards if you aren't. The meter will slowly recharge before allowing you to roll again. This is a very helpful skill, and can be key to avoiding some attacks."
 			]
-			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -126,7 +124,6 @@
 				"Rolling is great for avoiding many attacks, but there are times you simply need to take the blow. In these cases, a shield is your best ally. Simply holding one in your hands will decrease the damage you take from incoming attacks."
 				"But simply holding a shield is one thing. It's another to &6&oblock&r&r with it. Blocking with a shield will completely negate most attacks. Be careful, however, as weapons such as axes may damage your shield, disabling it for a small period of time."
 			]
-			hide_until_deps_visible: true
 			id: "63FE95E91D565AE0"
 			rewards: [
 				{
@@ -223,7 +220,6 @@
 				"In this pack, they've been upgraded to have &6&ocritical hits&r&r. Whenever you shoot an arrow that's been fully charged, there's a chance you'll deal &6&o50% more damage.&r&r Sneaking while firing an arrow also increases the chance of a critical hit."
 				"Guess stealth archers really are strong."
 			]
-			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "minecraft:bow"
@@ -283,7 +279,6 @@
 		{
 			dependencies: ["59E5F8A65B826B42"]
 			description: ["Swords and axes too slow for you? Daggers and Knives provide excellent fast damage. While on their own they may not seem too impressive, their true power comes to light when dual wielded."]
-			hide_until_deps_complete: true
 			id: "38E49C8AA7FD4DA3"
 			rewards: [{
 				amount: 100L
@@ -328,7 +323,6 @@
 		{
 			dependencies: ["63FE95E91D565AE0"]
 			description: ["They say the piglins have developed a special type of shield. Though the secrets to crafting such an item are lost to us, that doesn't stop one from acquiring it through... &oother means.&r"]
-			hide_until_deps_visible: true
 			id: "3D13CC5391A7277B"
 			rewards: [{
 				amount: 150L
