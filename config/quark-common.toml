@@ -545,7 +545,7 @@
 	"Replace Scaffolding" = true
 	"Safer Creatures" = true
 	"Shulker Packing" = true
-	"Simple Harvest" = true
+	"Simple Harvest" = false
 	"Slabs To Blocks" = true
 	"Slimes To Magma Cubes" = true
 	"Snow Golem Player Heads" = true
@@ -719,7 +719,7 @@
 		#Does harvesting crops with a hoe cost durability?
 		"Harvesting Costs Durability" = false
 		#Should Quark look for(nonvanilla) crops, and handle them?
-		"Do Harvesting Search" = true
+		"Do Harvesting Search" = false
 		#Should villagers use simple harvest instead of breaking crops?
 		"Villagers Use Simple Harvest" = true
 		#Which crops can be harvested?

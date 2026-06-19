@@ -1422,7 +1422,7 @@ hash = "95bdbfe1263fb62be9951dbbe48f32683ad4da8d0084a17220e5f674325a3373"
 
 [[files]]
 file = "config/bettercombat/client.json5"
-hash = "cb15edc721eb79ae01a1e598bd38c92692eb1480b29dae8f98304457eb269064"
+hash = "8fff568a0b57cb711b14f536dcd8ddbb6c1ad27c853cb46ab7901d8d8d621455"
 
 [[files]]
 file = "config/bettercombat/fallback_compatibility.json"
@@ -67794,7 +67794,7 @@ hash = "fef2a56ec39082f313fc9f3b947a200b1499d510ff031b041b61ae227ba6b211"
 
 [[files]]
 file = "config/clockwork.toml"
-hash = "614e6e39dee60e489a9c35341ca2187a7c5feb0fd10b69af61e7c2b0cc68a873"
+hash = "3875e038b8c993c352d3bb1383d017c821e93713d74cf4cf5c550a58ab993d5a"
 
 [[files]]
 file = "config/collective.json5"
@@ -68178,7 +68178,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "4b795043c436b1ec19478889de5f532847b5a24cd6aca9bbe4402c45071f3114"
+hash = "b068f8bba1a1e30008cbd286fafb5b7b55c772a33fb63f1a1897f7039ab83bda"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69654,7 +69654,7 @@ hash = "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "75896267a4f9c74a4d551d082f8b215c436eddb83b79e4020392bff3f6ea43b7"
+hash = "8c1bd9cd113a0f7043816d2b95c069eb61d4418add0f09ddf0d7392e195ce412"
 
 [[files]]
 file = "config/jei/world/local/Apothic/lookupHistory.ini"
@@ -69730,7 +69730,7 @@ hash = "bf12cd3a9fca75b03295cb0b2bf89a7a47cc2bbfb67b31ae079f7f839fa35540"
 
 [[files]]
 file = "config/jei/world/local/New_World__10/lookupHistory.ini"
-hash = "0c688612c38f251f63acfc11179cb2d9959437a99f2e4b941f35ebada00f8d7d"
+hash = "569efa7427375ed5cfab1b34487e7f18a84641eac3f496260c467d37643c8ce5"
 
 [[files]]
 file = "config/jei/world/local/New_World__11/lookupHistory.ini"
@@ -69918,7 +69918,7 @@ hash = "b497bd5347383552517807b723e11184eb10f8e2ef7ce6c061cfa72ef769d4da"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_23ced690/lookupHistory.ini"
-hash = "131ada60d863a4cca2ebadbd658812f805265681cc51c9a54d82c58859486450"
+hash = "748c8fffb52b2ff3828444ede6e8417676ceca6821b898b357f4c9f88f0c4bc3"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_fbacacb7/lookupHistory.ini"
@@ -70086,7 +70086,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "6fa8fb55e5579072dd97681ab3ce7a5f71f762d31ef23f9409e6b45d4867cba5"
+hash = "54d0d6c4b4401a8f060b86f4c4c09c19bb40842dd73fa1eb3e07a56c3f14913d"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70274,7 +70274,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "53e5a01d18c98e237c8766989e3da185953ebe276d2d6877d492246e29fb5f0c"
+hash = "a264b82b49d64cff846f4924de2a086a65cf11c525285c75e7e5db503061b4ac"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70290,7 +70290,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "8eaecb528ccf8566a4a9d24b99c3dd1fa8959b68061adf294c397ab0f969e107"
+hash = "f60884afb7bbf312e5d61de9a9220f8f55b267d055e3583e4d4c464f53680728"
 
 [[files]]
 file = "config/pal.properties"
@@ -70726,7 +70726,7 @@ hash = "4e2e205c6801bd7f6cdbc7dbb98fb462108b4b9b5d26262b748659c5990a5f28"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "a06ba2f0208cbfe5c53c9e20fba93454806f3ca0afb829d4a146ba1092f6e600"
+hash = "5f4152043621509b4665336a8bb7258157314554f48db76639a06a7e0b66a154"
 
 [[files]]
 file = "config/quested-common.toml"
@@ -76587,6 +76587,10 @@ hash = "7b54b2f23630cbebda471a90f361f815146993f95e2854c8d2939ef178b57426"
 [[files]]
 file = "kubejs/data/tombstone/tags/items/enchanted_grave_key_ingredients.json"
 hash = "624c32ac2ecd0ca44594343bc6850d65437f880d0499d9e369e6b96c7b74ce26"
+
+[[files]]
+file = "kubejs/data/vampiresdelight/loot_tables/blocks/vampire_orchid_crop.json"
+hash = "0c346f7248a229236372d86b688f09f759e1ff9479e362c219195ed6aedc3e63"
 
 [[files]]
 file = "kubejs/jsconfig.json"

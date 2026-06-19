@@ -1,12 +1,12 @@
 name = "The New Tumblr Bumblr"
 author = "SpookiestOfSquid"
-version = "0.16.6"
+version = "0.16.7"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1e472f17b318f5245e3d7eb2013a6cebcd590a64fb51bbee6ecd3623a6170b3d"
+hash = "0662f45e95b15619e8e7d39216322fe5166b47aee02ff8c91c8b9ccdd66c1afb"
 
 [versions]
 forge = "47.4.10"
