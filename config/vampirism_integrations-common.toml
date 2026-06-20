@@ -6,7 +6,7 @@
 		disable_integrations_version_check = false
 
 	[Compatibility.jade]
-		enable_compat_jade = true
+		enable_compat_jade = false
 
 	[Compatibility.guardvillagers]
 		enable_compat_guardvillagers = true

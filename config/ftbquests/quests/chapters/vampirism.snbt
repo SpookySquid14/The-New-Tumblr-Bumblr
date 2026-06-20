@@ -1,0 +1,674 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vampirism"
+	group: "1CE580FB33A3818E"
+	icon: "vampirism:vampire_fang"
+	id: "7116AFF3BB38E138"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"I've known Mr. Tepes for 3 years now, and as time has passed, I must admit he's grown on me. Recently, he told me something important. He's a &4&ovampire&r. I had heard the tales, but never have I seen one so up close. Though I initially came to him in search of medicine, &otrue&r medicine, I cannot act as if I am not curious about this vampirism. I hope to learn more as time passes."
+				"- Lisa"
+			]
+			id: "7DE3140D7B00471E"
+			rewards: [{
+				id: "323928D3EF80E528"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DB30DA03A94C842"
+				item: {
+					Count: 1
+					id: "guideapi_vp:vampirism-guidebook"
+					tag: {
+						G-API_Category_Page: 0
+						G-API_Page: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "A Journey of Knowledge"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The potion effect &o&4\"Sanguinare Vampiris\"&r is what converts you. &oSaid effect comes from the fangs of a vampire, either from being attacked by one, or by using their dropped fangs on yourself.&r &o&4If not cured, the effect's duration reaching 0, will turn you.&r"
+				"Being a vampire seems to have some nice advantages. It seems &o&4most undead will ignore you unless attacked&r. You no longer need to breathe underwater, but it weakens you."
+			]
+			id: "7211E9ED86A677EE"
+			rewards: [{
+				id: "2BCEAD583FA495A2"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tags: ["vampire"]
+			tasks: [{
+				advancement: "vampirism:vampire/become_vampire"
+				criterion: ""
+				id: "7BBFD91ECEC92AC0"
+				title: "Become a Vampire"
+				type: "advancement"
+			}]
+			title: "Infectious"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7211E9ED86A677EE"]
+			description: ["When first turned, you will be rather weak. At this stage, sunlight will not yet hurt you, and you'll gain a blood bar. The primary way to fill the bar is by drinking blood from mobs, holding the keybind (Default V) while looking at a mob. The symbol over the crosshair can show how much blood a mob has. Exhausting this supply can be fatal to the one drank from. If your blood bar is full, having a blood bottle in your hotbar will fill it when drinking"]
+			id: "28751771BB33158E"
+			rewards: [{
+				id: "181972D4CBDD5BDD"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					advancement: "vampirism:vampire/first_blood"
+					criterion: ""
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "attributeslib:textures/mob_effect/bleeding.png"
+						}
+					}
+					id: "3045AAA2EBD8AF5B"
+					title: "Suck a Mob's Blood"
+					type: "advancement"
+				}
+				{
+					id: "694E6591118BB495"
+					item: {
+						Count: 1
+						id: "vampirism:blood_bottle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blood Soaked Fangs"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4DFFAE7DF0E17F96"]
+			description: [
+				"Now you've got the basics down."
+				"To level up to level 4, one must fill this altar with several bottles of blood.&r The first time, you need 4000mb, or 40 units of blood. The numbers increase from there, to 70 units, then 100."
+			]
+			id: "5635D89E2594043D"
+			rewards: [{
+				id: "72381655F986211F"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "777A9C83D7EA5536"
+				item: "vampirism:altar_inspiration"
+				type: "item"
+			}]
+			title: "Lie in The Blood Where You Bathe"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["71A3C142D8A78EF7"]
+			description: [
+				"To grow stronger than level 4, you need the altar, a multiblock structure "
+				"The required structure depends on the level, you need a specific amount of \"structure points\". The actual value of the structure you build is calculated after the following rules:"
+				"The points each pillar piece add depend on the block inside: Stone Brick: 1, Iron Block: 2, Gold Block: 3."
+				"{@pagebreak}"
+				"List each level's requirements here"
+				"To Level | Structure Points | Pure Blood | Human Hearts"
+			]
+			id: "0CBBAA0351FD2EF2"
+			rewards: [{
+				id: "0EC31FDB6E135148"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "69ED68F7B3F17B0B"
+					item: "vampirism:altar_infusion"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "03055122D1E85479"
+					item: "vampirism:altar_pillar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2CD09F3220380B13"
+					item: "vampirism:altar_tip"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5635D89E2594043D"]
+			description: [
+				"When you level up as a vampire, you gain skill points that are used to gain various perks. It must be know, though, that you will not be able to obtain each and every one."
+				"In addition, as you grow stronger, so does your weakness to the sun. At level 2, it will weaken you; at level 3, you will grow nauseus; and at any levels above, you will take damage."
+			]
+			id: "71A3C142D8A78EF7"
+			rewards: [{
+				id: "73E82B101EBBF18E"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6063125D0CAD4311"
+				title: "Learn the skill tree"
+				type: "checkmark"
+			}]
+			title: "Learn Skills and Sun Weakness"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["28751771BB33158E"]
+			description: ["An easy way to carry around a large amount of blood without filling your inventory is to craft a &o&4Blood Container&r. It acts like a fluid tank, allowing you to add blood to it by right clicking with a bottle, and doing the same to extract it."]
+			id: "126E583A9A6E0B9F"
+			rewards: [{
+				id: "76BD916649A09E5E"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59545D677340ED57"
+				item: "vampirism:blood_container"
+				type: "item"
+			}]
+			title: "That's a Lot of Blood"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["741E225D8F31C175"]
+			description: ["Because the blood from a blood grinder is impure, it must be filtered through a blood sieve to become drinkable. Placing it with a blood case below and a case above with pure blood will let it act like a hopper"]
+			id: "75FCBE55E779DB8B"
+			rewards: [{
+				id: "4C48122C48C5B5B7"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78142B06A8BA0BEB"
+				item: "vampirism:blood_sieve"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["126E583A9A6E0B9F"]
+			description: ["You can use a blood grinder to extract blood from items, but it will be impure, and undrinkable at first"]
+			id: "741E225D8F31C175"
+			rewards: [{
+				id: "0B90BC82068D3CFE"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A7FBF9B7394AC50"
+				item: "vampirism:blood_grinder"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7211E9ED86A677EE"]
+			description: [
+				"As a vampire, you will receive buffs to your speed, health, and strength. You will also no longer need to breathe under water, but water will weaken you."
+				"Open the vampire menu either by clicking the button in your inventory or through the keybind (Default P)"
+			]
+			id: "7D797EC1976FD2E0"
+			rewards: [{
+				id: "7C3C98BB58FC9FA4"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30A49DDDA871E9B1"
+				title: "Learn about being a vampire"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7211E9ED86A677EE"]
+			id: "30350FD28F32BD90"
+			tasks: [{
+				id: "717A1EE1E59CD870"
+				title: "delight"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["217C93369948019D"]
+			id: "23CA48A4CC6590F1"
+			rewards: [{
+				id: "24F36633478F0A38"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "3BCE918A5FCE2DBA"
+				item: "vampirism:blood_infused_iron_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7211E9ED86A677EE"]
+			description: ["Umbrellas negate the sun's effect on you in exchange for lowering your speed. They can be equipped in either hand or a designated curios slot."]
+			id: "253503BACB844886"
+			rewards: [{
+				id: "7137416BC4DF3925"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69B98896FA3BEE98"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:umbrella"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["217C93369948019D"]
+			id: "6FBE86D644C6AAC7"
+			tasks: [{
+				count: 3L
+				id: "0044041EC3B075AE"
+				item: { Count: 3, id: "vampirism:blood_infused_enhanced_iron_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["00B1A061DC76882F"]
+			description: ["Pure Blood is obtained through killing vampire barons found in the vampire forest. It comes in 5 different purities and is a key crafting component and item for leveling up"]
+			id: "217C93369948019D"
+			rewards: [{
+				id: "3E469C0A3BC78FCB"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7691ACD474A72B11"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "vampirism:pure_blood"
+					}
+				}
+				type: "item"
+			}]
+			title: "Pure Blood"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7211E9ED86A677EE"]
+			description: ["A human heart is dropped by vampire hunters. It is used as a crafting material, an item for leveling up, and as food to replenish one's blood bar."]
+			id: "4E8F017564A2C581"
+			rewards: [{
+				id: "5DB161828F3A0E62"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DF477256F747B33"
+				item: "vampirism:human_heart"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D797EC1976FD2E0"]
+			description: [
+				"As a vampire, you won't die immediately. Instead, when taking fatal damage, you will enter a Downed state. Waiting long enough, you will be able to resurrect yourself, and your blood bar will be converted to health. Afterwards, you will receive a potion effect, during which you cannot revive."
+				"YOu can still be killed outright by fire and holy water, and vampire hunters often carry stakes to finish you off."
+			]
+			id: "4DFFAE7DF0E17F96"
+			rewards: [{
+				id: "1CCFDE08491425E9"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36CFED307F13BFC2"
+				title: "Learn about Ressurection"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E8F017564A2C581"]
+			description: ["The blood pedestal is used to charge vampire swords. It must be placed on top of a blood container to work."]
+			id: "00B1A061DC76882F"
+			tasks: [{
+				id: "79BD208161D241D2"
+				item: "vampirism:blood_pedestal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23CA48A4CC6590F1"]
+			description: [
+				"Using blood infused iron, you can craft two weapons, the heartseeker and heartstriker. These require charging via a blood pedestal, as well as training, which is simply done by killing mobs."
+				"The swords becomes faster the more trained you are with them"
+			]
+			id: "300DBCF9A7A1466F"
+			rewards: [{
+				id: "2B8ED140FB6EC98D"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B769F493AB60198"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "vampirism:heart_seeker_normal"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampirism:heart_striker_normal"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Beginner Weaponry: Vampire"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6FBE86D644C6AAC7"]
+			description: ["Enhanced items are stronger versions of the originals. They're charged and trained with the same way."]
+			id: "7D3AF71E3C776023"
+			tasks: [{
+				id: "2958BBB3B0BBD90F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "vampirism:heart_seeker_enhanced"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampirism:heart_striker_enhanced"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Upgrades People, Upgrades"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "786D983E45D03A2F"
+			tasks: [{
+				id: "40D7376CFC623580"
+				item: "vampirism:totem_base"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7211E9ED86A677EE"]
+			description: ["Found as rewards and as loot, they are bound to you once equipped and take damage when you die"]
+			id: "3776262630099D76"
+			tasks: [{
+				id: "5FA5308D896B1F35"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "vampirism:ring"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampirism:amulet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "vampirism:obi_belt"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Acessories"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "4202F14A15B1EE62"
+			tasks: [{
+				id: "737576AE3FF39C38"
+				stat: "werewolves:action_time_human_form"
+				type: "stat"
+				value: 1
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+	tags: ["vampiresquest"]
+	title: "Vampirism"
+}

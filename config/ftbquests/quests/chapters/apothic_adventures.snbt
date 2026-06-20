@@ -11,7 +11,7 @@
 		{
 			description: [
 				"Affixes are special properties given to items you'll find in chests or mob drops. There are 3 categories of affixes. &5&oStat Affixes&6&o give basic increases to things such as speed or health. &5Durability Affixes&6 decrease the damage taken by an item. Finally, &5Effect Affixes&6 give a range of unique abilities to an item.&r"
-				"{image:tumblrbumblr:textures/affixes.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/affixes.png width:156 height:90 align:center}"
 			]
 			id: "2B712988FC2E66C0"
 			rewards: [{
@@ -37,7 +37,7 @@
 				"Along with affixed items, you will come across a variety of &o&6Gems&r in your travels. &6&oThese gems, when inserted into a socket, will grant various boosts to your gear.&r"
 				"&oSockets&r are another type of Affix that can be found on items."
 				"Gems will have different compatibilities. Some may only work for armor while others may need a weapon or tool. &o&6Put a gem into a Smithing Table along with an item that is compatible and has an empty socket to insert the gem."
-				"{image:tumblrbumblr:textures/gems.png width:160 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/gems.png width:160 height:90 align:center}"
 			]
 			id: "5A97C15CA4463102"
 			rewards: [{
@@ -63,7 +63,7 @@
 				"&o&6Boss Mobs&r are special mobs that have unique bonuses from their affixes. There are several ways to encounter them, such as in underground dungeons, but the most common way you'll find early on will be &o&6Invading Bosses&r."
 				"When a boss invades your world, you'll be alerted by a loud sound, a message, and a beacon that illuminates the boss."
 				"Killing a boss can be difficult depending on its strength, but in doing so, &o&6you are guaranteed to get an affixed item from it&r."
-				"{image:tumblrbumblr:textures/bosses.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/bosses.png width:156 height:90 align:center}"
 			]
 			id: "25927B5C8F23FCEA"
 			rewards: [{
@@ -94,7 +94,7 @@
 				"By now you've no doubt noticed your items have rarities. &o&6Rarity determines the strength of an affixed item as well as the types of affixes it can receive.&r For example, an uncommon and rare item can only have up to 1 gem socket, while higher rarities can have more. The rarities are &7Common&r, &aUncommon&r, &bRare&r, &dEpic&r, and &cMythic&r."
 				"By using a Salvaging Table, you can break down affixed items into raw material, which you can later use to upgrade your items."
 				"In addition to this, &6&oyou can also break gems down into gem dust&r. A much more elegant and efficient solution."
-				"{image:tumblrbumblr:textures/salvaging-table.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/salvaging-table.png width:156 height:90 align:center}"
 			]
 			icon: "apotheosis:salvaging_table"
 			id: "1935CFAC6173A06F"
@@ -133,7 +133,7 @@
 			dependencies: ["5A97C15CA4463102"]
 			description: [
 				"&o&6Gem Dust&r is a very common crafting material used for affixes. It's created by crushing the various gems you find around the world. At first, you'll have to do this by &6&odropping an anvil on a gem thrown onto the ground&r. But don't worry, because another method will soon be possible."
-				"{image:tumblrbumblr:textures/gem-dust.png width:160 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/gem-dust.png width:160 height:90 align:center}"
 			]
 			id: "43AE403E62C96F66"
 			rewards: [{
@@ -185,7 +185,7 @@
 			description: [
 				"Once you've gotten enough materials, you'll probably want to start upgrading your gear, right? That's where the &o&6Reforging Table&r comes into play, allowing you to change an item's rarity and affixes. The Simple variant allows you to reforge an item up to &9&oRare&r."
 				"Using the Reforging Table, you'll be met with 3 input slots. The center slot is for the item you are reforging. The bottom right slot holds &o&6Sigils of Rebirth&r, crafted with gem fused slates and gem dust. Finally, the top left slot is for your rarity materials. Once all items are placed inside, you will be given three random options, just like an enchanting table. These options all take experience, Sigils of Rebirth, and rarity materials."
-				"{image:tumblrbumblr:textures/simple-reforging-table.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/simple-reforging-table.png width:156 height:90 align:center}"
 			]
 			icon: "apotheosis:simple_reforging_table"
 			id: "5B841122EFD8854C"
@@ -259,7 +259,7 @@
 			description: [
 				"At the very top of an affix's power is the &o&6Augmentation Table&r requiring the power of a &oNether Star&r to create. Using it, &o&6you are able to strengthen or reroll specific affixes&r."
 				"Using the table will show a UI with two slots on the left. These are for the item you wish to augment and &o&6Sigils of Enhancement&r, crafted with a &cGodforged Pearl&r. Once all the items are put in, a drop down menu will show, allowing you to select the affix you wish to augment. From there, you simply select the option you'd like at the bottom."
-				"{image:tumblrbumblr:textures/augmentation-table.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/augmentation-table.png width:156 height:90 align:center}"
 			]
 			icon: "apotheosis:augmenting_table"
 			id: "35FF8397225F4952"
@@ -293,7 +293,7 @@
 			description: [
 				"If you want to get the most out of your gems, or if you simply have duplicates, you may want to look at the &o&6Gem Cutting Table&r. When using it, you can increase a Gem's rarity, provided you have the necessary materials."
 				"While the exact materials will always be shown by putting your gem in the middle slot, a good rule of thumb is that &6&oyou'll need a second copy of the gem, the rarity material of the rarity you are upgrading it to, and gem dust&r."
-				"{image:tumblrbumblr:textures/gem-cutting-table.png width:160 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/gem-cutting-table.png width:160 height:90 align:center}"
 			]
 			id: "47532F7269B287FF"
 			rewards: [{

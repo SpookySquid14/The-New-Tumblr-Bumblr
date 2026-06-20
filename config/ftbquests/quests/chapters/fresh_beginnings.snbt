@@ -254,20 +254,13 @@
 			description: ["So you got some wood. Great job! You've done the mine, so now let's do the craft. I think you know how to make one of these, but if you don't, &o&6JEI&r can tell you virtually any recipe. Just go over to the right side of your screen."]
 			hide_until_deps_visible: true
 			id: "6D9C812CBC680546"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "43121A55EA6D8211"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "487AD76B38CAB41D"
-					item: "crafting_on_a_stick:crafting_table"
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "43121A55EA6D8211"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "454116EDEFD4CA87"
 				item: "minecraft:crafting_table"

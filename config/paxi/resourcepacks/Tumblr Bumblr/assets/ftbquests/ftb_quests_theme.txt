@@ -1,0 +1,7 @@
+[7116AFF3BB38E138]
+/quest_view_background: #faecca
+quest_view_title: #480000
+quest_view_border: #5c3b6f
+/text_color: #000000
+[vampire]
+quest_completed_color: #FF0000

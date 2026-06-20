@@ -30,7 +30,7 @@ hash = "c223ccc848a734915aef74ffcbebe2f6c3afe4e190fe873736c5600216bc2851"
 
 [[files]]
 file = "config/Mekanism/client.toml"
-hash = "fca8fa900edd0fb23b32b6227bcc6edae5531e8db9b6a4e298ff278c5f5a313d"
+hash = "096303223e1f1cb384f3fca3d0a825857aab63608013d4300d21486e2ea8e53a"
 
 [[files]]
 file = "config/Mekanism/common.toml"
@@ -1422,7 +1422,7 @@ hash = "95bdbfe1263fb62be9951dbbe48f32683ad4da8d0084a17220e5f674325a3373"
 
 [[files]]
 file = "config/bettercombat/client.json5"
-hash = "8fff568a0b57cb711b14f536dcd8ddbb6c1ad27c853cb46ab7901d8d8d621455"
+hash = "9433b5ab41f30cbeb77e6b5a4bdb8b183fa8f1d921c959a69b1007724fda822b"
 
 [[files]]
 file = "config/bettercombat/fallback_compatibility.json"
@@ -68178,7 +68178,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "b068f8bba1a1e30008cbd286fafb5b7b55c772a33fb63f1a1897f7039ab83bda"
+hash = "044725407f2f7e83f2e7128dd4bf8d50e21701a3a143c2878bf9d266feaa3b36"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68399,6 +68399,10 @@ hash = "43971e0db63021653dd5f568e389884183c0a6ac6ef41ac22e5c96fdc7509a3e"
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$deep_lukewarm_ocean.cfg"
 hash = "ea7705264f12fe5583caea347fa02a5906a96eba7ceeaa0aa4ce7ff58ecc33cd"
+
+[[files]]
+file = "config/forgeendertech/Biomes/minecraft$deep_ocean.cfg"
+hash = "0bf4a1784ac50d873bc289bf4658114660d792c57d09be07adb0511757b62642"
 
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$desert.cfg"
@@ -69130,7 +69134,7 @@ hash = "46c287350facf19239fc9523d9bd50c662645fd104aa0c6bc0b6e531f03619e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apothic_adventures.snbt"
-hash = "d5f7891289f02105535a95d9fe852444f6b48f991ac8d728cd9b4865f3ca93ec"
+hash = "9835d7f1a68a11a270e2be81d4149455db7acdb8d122c68fb5fd893034e0e9a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
@@ -69166,7 +69170,7 @@ hash = "ebb31802b5012681dd2f9ad7b95eb916919b0b18de3ac53fbb6964843dd48877"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "60978a4e6e28a4ac82561ee8cbc7f9d0048e87e2506a8100b3dbce0306441449"
+hash = "207f2c345050dde364507ddb4bc3b1fcf63019f7a8f9923180dd095b8d904551"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
@@ -69223,6 +69227,10 @@ hash = "1067ddeb203e7b3e5d2021afab3448a5d3e2488e6965b41c60358add00fa2070"
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkers_construct.snbt"
 hash = "b210c055941cc7f2fe127d83acb81d4851e7cdbd64913e90f69b53c321a79167"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/vampirism.snbt"
+hash = "d07859d3f2fa3d64378330dd991f9f7a26d0b250aa9aef1500d5d48d47ba5de7"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -69582,7 +69590,7 @@ hash = "270478924d8bc8bfb4aa2e6a2036682fc4b3e66caafd46da821ca812d84afa88"
 
 [[files]]
 file = "config/integrated_villages-forge-1_20.toml"
-hash = "c1ef423d7f120999392d08eb9c1cf251da21d6bddeb400e36d66f17dd5344cab"
+hash = "2d02629f9187816eeae29ccff0acda429179bbbea7df9eef5230a7179d460d29"
 
 [[files]]
 file = "config/irons_spellbooks-client.toml"
@@ -69730,7 +69738,7 @@ hash = "bf12cd3a9fca75b03295cb0b2bf89a7a47cc2bbfb67b31ae079f7f839fa35540"
 
 [[files]]
 file = "config/jei/world/local/New_World__10/lookupHistory.ini"
-hash = "569efa7427375ed5cfab1b34487e7f18a84641eac3f496260c467d37643c8ce5"
+hash = "450bd457c727e441cbfce9d9f63f7cd629b7f70e17d14757092bf4d8a38b7e33"
 
 [[files]]
 file = "config/jei/world/local/New_World__11/lookupHistory.ini"
@@ -69746,7 +69754,7 @@ hash = "a455161e1b3cb57dce66a2ae2235fc9a4c3d19785c3e2d45d287e99b4e949927"
 
 [[files]]
 file = "config/jei/world/local/New_World__13/lookupHistory.ini"
-hash = "71ab5f6ec79f94341c59be5e3013bbd2ce3896de6070e223baf9fcae59ea31f4"
+hash = "4d4d8349aa505b2a75823a0525ef7032c9c170fdb0b2100f6fbb0b07165c94d2"
 
 [[files]]
 file = "config/jei/world/local/New_World__14/lookupHistory.ini"
@@ -69755,6 +69763,10 @@ hash = "8296ebdf8144ead940408e1c4829b475ef81355e30844dc6a7e437babb7d3465"
 [[files]]
 file = "config/jei/world/local/New_World__15/lookupHistory.ini"
 hash = "6370242665a1a4389d811829af002543a7f8556d87aaec33df6144825764b68f"
+
+[[files]]
+file = "config/jei/world/local/New_World__17/lookupHistory.ini"
+hash = "63df601564dd2e563c3692c7357718d56f9930e80e47b46a0c85e02d9d01531a"
 
 [[files]]
 file = "config/jei/world/local/New_World__2/lookupHistory.ini"
@@ -70086,7 +70098,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "54d0d6c4b4401a8f060b86f4c4c09c19bb40842dd73fa1eb3e07a56c3f14913d"
+hash = "acea95cf073687d96d52c3f088fa26724ad9834714d70b78cedff48398188e26"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70201,6 +70213,10 @@ file = "config/music_events/memory_SP_New_World.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
+file = "config/music_events/memory_SP_Vampire.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
 file = "config/music_events/memory_unknown.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
@@ -70274,7 +70290,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "a264b82b49d64cff846f4924de2a086a65cf11c525285c75e7e5db503061b4ac"
+hash = "b4129386ef36e284b60b4e47a29a0f45ab87d4ed2d393e4ad923b30af168bbed"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70290,7 +70306,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "f60884afb7bbf312e5d61de9a9220f8f55b267d055e3583e4d4c464f53680728"
+hash = "89a29810592037b24151d1be16bc0d5d4675a8d4360f0c426ba7603c693fbdde"
 
 [[files]]
 file = "config/pal.properties"
@@ -70365,10 +70381,6 @@ file = "config/paxi/datapacks/integrated_stronghold_config_forge-1.1.1-1.20.1.zi
 hash = "589d798e84c4ce71c7b6e3ec19f501963cdb2cc5220296a002b89c3a5e435c69"
 
 [[files]]
-file = "config/paxi/datapacks/integrated_villages_config-1.3.0-1.20.1.zip"
-hash = "eadf1d547321431cf04c27e5a840db0c4bd2f47537ec842e0b08109d4b137055"
-
-[[files]]
 file = "config/paxi/datapacks/intstrong_alexsmobs-1.0.0-1.20.1.zip"
 hash = "2eb5b0045b17d0988764940cf457e9eb60799e950cfb5f6eb4efa11ec537b168"
 
@@ -70377,8 +70389,24 @@ file = "config/paxi/datapacks/intstrong_endrem-1.0.0-1.18.2-1.19.2.zip"
 hash = "8e41b8cc5e0e255f8639c0a1ee76aa37486fa0c7d406976983c53a6c56438bbb"
 
 [[files]]
+file = "config/paxi/datapacks/werewolf_test/data/werewolves/advancement/teen_wolf.json"
+hash = "91282bcda4b6cc2b1cb1caa624150b1b0e850a89f8ded120a9dba261d65e5bd6"
+
+[[files]]
+file = "config/paxi/datapacks/werewolf_test/pack.mcmeta"
+hash = "3e5c5742bd04af7ff01ed520ea1f04178360178eeb0c95208c2c6fe745ea1c43"
+
+[[files]]
+file = "config/paxi/datapacks/werewolf_test/werewolf_test.zip"
+hash = "5f202b45a4749e8c8054e6fc81c85f9fde8e33976a22f324d590dcc7e2e80684"
+
+[[files]]
+file = "config/paxi/integrated_villages_config-1.3.0-1.20.1.zip"
+hash = "eadf1d547321431cf04c27e5a840db0c4bd2f47537ec842e0b08109d4b137055"
+
+[[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "098dce90f215d85eafa32ba8acd017a9872adbf5bc0a84faffcb4e1548cb6794"
+hash = "9e078bcaaf6ef271b531e97fd1deaf9f8a0ed650c9390a26fe726ce2f541fbd5"
 
 [[files]]
 file = "config/paxi/resourcepacks/A Better GUI 2 - FTB.zip"
@@ -70603,6 +70631,14 @@ hash = "58e1d1ccd156c17983d35d30b69cb3af3e14cee23b984c978e3658423d3b1561"
 [[files]]
 file = "config/paxi/resourcepacks/Tombstones redux 1.20 v3.zip"
 hash = "c3fcadf445d99870f386e20b5f6463a04c550f5b28c9608227a79b08267c24e0"
+
+[[files]]
+file = "config/paxi/resourcepacks/Tumblr Bumblr/assets/ftbquests/ftb_quests_theme.txt"
+hash = "831a7e3dd4067c970cbea807f009fcd597aa37cbacfb9972e52fce2e174b4108"
+
+[[files]]
+file = "config/paxi/resourcepacks/Tumblr Bumblr/pack.mcmeta"
+hash = "b3d516969c27a215d54d49340d4c4e558bbfeab96e1807dbbdf4c08d7b5e13ad"
 
 [[files]]
 file = "config/paxi/resourcepacks/Two-Moons-LexLim-1.18-1.21.7-v1.0.5-Resourcepack.zip"
@@ -71266,15 +71302,15 @@ hash = "ec1221e7e2a807eb462e055b5bc526161452e371d70bf42e71786f16524b1af3"
 
 [[files]]
 file = "config/vampirism-client.toml"
-hash = "ec1221e7e2a807eb462e055b5bc526161452e371d70bf42e71786f16524b1af3"
+hash = "d5a816a0e35e4827e3cb9862ac7b2e808fa49870c69cdb21bfb731b02421a612"
 
 [[files]]
 file = "config/vampirism-common.toml"
-hash = "646bddf70de42eaa8eaa12308cd984640ee595df3df14300c913f4678e52d5e9"
+hash = "438085905818308a96e77c0203d6f6d2488fa37f71b41508e4463a79d7f70584"
 
 [[files]]
 file = "config/vampirism_integrations-common.toml"
-hash = "f2374f081737c5adfed4726ea255e164a494cc1d90b07ae72ac941d5944101e0"
+hash = "6f8c87dc09d2adb3b85528bb80a57f25aa29ccca5f7eee3b893b256d48c1cb99"
 
 [[files]]
 file = "config/vanillabackport-client.toml"
@@ -71438,15 +71474,15 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "6993dd8e17615b92a266fd20af1ce69dd593d24b5702e075ca9d2fade8e369f2"
+hash = "8dbbc7f4dbd08409926cda9f55af548473b95e5a04a279251289346c211f0f49"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "cc1d3a8837de194786028eec3025b8fb7bdef24ae4768fb0b7421b9a8f6f3382"
+hash = "316eed053ff6286c7d48b1ea8d35da3b631871f8081f1d27bf34e784dab73165"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
-hash = "7f51e96494d1af178d28eb6e5f998384334bbec0910d36766dc2dd9ec4e4e6c3"
+hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
 
 [[files]]
 file = "config/xaero/minimap/server_profiles/default.cfg"
@@ -71462,7 +71498,7 @@ hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
 
 [[files]]
 file = "config/xaero/world-map/profiles/default.cfg"
-hash = "14cab0e571eceffb31b5ed57bfcd9f2c3f88e0cfcf3dcc4ef4ff65f56791fe7a"
+hash = "0f5b1cb1bb7b73030f3e641ac19fd6bd37264f919922dc65782934446de33f25"
 
 [[files]]
 file = "config/xaero/world-map/server_profiles/default.cfg"
@@ -75493,44 +75529,72 @@ file = "kubejs/assets/tombstone/textures/slot/bundle_slot.png"
 hash = "47ac07585ac944e028e4a3842d65447d365d3dd3cf577b6d8d5d78222471e57c"
 
 [[files]]
-file = "kubejs/assets/tumblrbumblr/textures/affixes.png"
-hash = "a43cc584b6864a8d61fa671f11b5665aaa8556d36c6d442be767da2b440d6321"
-
-[[files]]
-file = "kubejs/assets/tumblrbumblr/textures/augmentation-table.png"
-hash = "2c6fc7b097bbe22bdef9dd18bd1eb244abbae7eaba12db479e8bc2b0e17629eb"
-
-[[files]]
-file = "kubejs/assets/tumblrbumblr/textures/bosses.png"
-hash = "dd64fdea42bdfc3af58f4f72f443fc629198d4ae3e4b1656fca81c30232a8633"
-
-[[files]]
-file = "kubejs/assets/tumblrbumblr/textures/draconic-codex.png"
-hash = "cc6ac83ae4621eb04a8e87898fdb4b5f9bfe39cc6139c1232675e9ace92a3de1"
-
-[[files]]
-file = "kubejs/assets/tumblrbumblr/textures/gem-cutting-table.png"
-hash = "184614972e6b8bb2cbedcecd0c29aa4d096456b4e0c6b42886fd26452b974c20"
-
-[[files]]
-file = "kubejs/assets/tumblrbumblr/textures/gem-dust.png"
-hash = "78b8172b2ee0c8cac026ac1ea74d49b3a31b554874e8e1efd589db7bad3637fe"
-
-[[files]]
-file = "kubejs/assets/tumblrbumblr/textures/gems.png"
-hash = "0592bacadbbb7544390d90ce83e5a69980c447f4766b4192f13c12b1643d66a5"
-
-[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/item/nether_star_drained.png"
 hash = "b198599a536ce347b527db4ba4cb37872277882f377ddf7a80cf6ff986548519"
 
 [[files]]
-file = "kubejs/assets/tumblrbumblr/textures/salvaging-table.png"
+file = "kubejs/assets/tumblrbumblr/textures/quests/affixes.png"
+hash = "a43cc584b6864a8d61fa671f11b5665aaa8556d36c6d442be767da2b440d6321"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/altar-of-infusion-chart.png"
+hash = "3d8158371ef084d3b9c6a37acfb9a91ce43cb9e16941252db8afa06bbe452141"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/augmentation-table.png"
+hash = "2c6fc7b097bbe22bdef9dd18bd1eb244abbae7eaba12db479e8bc2b0e17629eb"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/blood-grinder.png"
+hash = "a45288ead7e35140e463876dbae3f206c5f048b9ccbe3ee242d356ac3e0ac00f"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/blood-shieve.png"
+hash = "8f850fe753441c956f1a5a252689067d56967596e0f06e3f0fa10fc80e3a7198"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/bosses.png"
+hash = "dd64fdea42bdfc3af58f4f72f443fc629198d4ae3e4b1656fca81c30232a8633"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/draconic-codex.png"
+hash = "cc6ac83ae4621eb04a8e87898fdb4b5f9bfe39cc6139c1232675e9ace92a3de1"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/gem-cutting-table.png"
+hash = "184614972e6b8bb2cbedcecd0c29aa4d096456b4e0c6b42886fd26452b974c20"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/gem-dust.png"
+hash = "78b8172b2ee0c8cac026ac1ea74d49b3a31b554874e8e1efd589db7bad3637fe"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/gems.png"
+hash = "0592bacadbbb7544390d90ce83e5a69980c447f4766b4192f13c12b1643d66a5"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/salvaging-table.png"
 hash = "36da0708741a2158ef7a20f22ccf2eef17dc943dc6e25346412994313cf21ade"
 
 [[files]]
-file = "kubejs/assets/tumblrbumblr/textures/simple-reforging-table.png"
+file = "kubejs/assets/tumblrbumblr/textures/quests/simple-reforging-table.png"
 hash = "e09ef64deb828298ec213f5b28c26f37caddea45e500f664a7ed372b868c0294"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/skill-tree-vampire.png"
+hash = "9665611047f1b5fd6625767a82bb97bc3f121814d6f332f8b417b92ba2d59199"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/vampire-accessories.png"
+hash = "a153c2fd9f4f2f3e1b0742ab287f5ca27a9a0a6b1b35048cab7d5796d3bc3fd0"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/vampire-altar.png"
+hash = "6379792368120d914e50d7203b60e800e6c6b00aab8c96b694c4f244087d7e32"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/vampire-menu.png"
+hash = "22b6a348e1606b5a70e0baeb0c27f0ce1896051b210d72963737599f1050331a"
 
 [[files]]
 file = "kubejs/assets/vampiresneedumbrellas/textures/curios.png"
@@ -76589,8 +76653,20 @@ file = "kubejs/data/tombstone/tags/items/enchanted_grave_key_ingredients.json"
 hash = "624c32ac2ecd0ca44594343bc6850d65437f880d0499d9e369e6b96c7b74ce26"
 
 [[files]]
+file = "kubejs/data/tumblrbumblr/advancement/draft.json"
+hash = "9cd02d7b14375e37266e7a6e690fe90fc9ef7edccbc3058f9c4ab1df782f1b5f"
+
+[[files]]
+file = "kubejs/data/vampiresdelight/loot_modifiers/scavenging_eyes_from_humans.json"
+hash = "9cd36e96e61452f6326de89f79d349ac82d72dfda15c90733bbe2de45fe0f0cf"
+
+[[files]]
 file = "kubejs/data/vampiresdelight/loot_tables/blocks/vampire_orchid_crop.json"
 hash = "0c346f7248a229236372d86b688f09f759e1ff9479e362c219195ed6aedc3e63"
+
+[[files]]
+file = "kubejs/data/werewolves/advancement/teen_wolf.json"
+hash = "91282bcda4b6cc2b1cb1caa624150b1b0e850a89f8ded120a9dba261d65e5bd6"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -77301,12 +77377,16 @@ file = "kubejs/server_scripts/occultism/recipes.js"
 hash = "ee5be54bf9eed748c1e69fce257412b8861e56c97febde4b6adaf3a0c9fae446"
 
 [[files]]
+file = "kubejs/server_scripts/quest.js"
+hash = "12412ee28f52adab57d54197c189972e650b31e1a30887d2bc10ca2ce5b0d804"
+
+[[files]]
 file = "kubejs/server_scripts/waystones/recipes.js"
 hash = "25f86fbd2ac932512a33e8bbf994b8d2ac448ca52f55b9908c80b4c033463e2d"
 
 [[files]]
 file = "kubejs/server_scripts/wilted_damage.js"
-hash = "d2cb4c6e33d3e516ff18ea14fb93b1d0464017dbd8a569f30d6f14ef04316a8d"
+hash = "23194252ab615c27f8a333511f71932095aa9105359ad354841cb79680c06997"
 
 [[files]]
 file = "kubejs/startup_scripts/cataclysmic_spellcastng/cyber_spell_school.js"
