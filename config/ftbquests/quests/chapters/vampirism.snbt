@@ -5,51 +5,16 @@
 	group: "1CE580FB33A3818E"
 	icon: "vampirism:vampire_fang"
 	id: "7116AFF3BB38E138"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
-		{
-			description: [
-				"I've known Mr. Tepes for 3 years now, and as time has passed, I must admit he's grown on me. Recently, he told me something important. He's a &4&ovampire&r. I had heard the tales, but never have I seen one so up close. Though I initially came to him in search of medicine, &otrue&r medicine, I cannot act as if I am not curious about this vampirism. I hope to learn more as time passes."
-				"- Lisa"
-			]
-			id: "7DE3140D7B00471E"
-			rewards: [{
-				id: "323928D3EF80E528"
-				item: {
-					Count: 1
-					id: "eternalcurrencies:currency_item"
-					tag: {
-						currencies: [{
-							amount: 100L
-							currency: "eternalcurrencies:ancientcoins"
-						}]
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "6DB30DA03A94C842"
-				item: {
-					Count: 1
-					id: "guideapi_vp:vampirism-guidebook"
-					tag: {
-						G-API_Category_Page: 0
-						G-API_Page: 1
-					}
-				}
-				type: "item"
-			}]
-			title: "A Journey of Knowledge"
-			x: -1.0d
-			y: 1.0d
-		}
 		{
 			description: [
 				"The potion effect &o&4\"Sanguinare Vampiris\"&r is what converts you. &oSaid effect comes from the fangs of a vampire, either from being attacked by one, or by using their dropped fangs on yourself.&r &o&4If not cured, the effect's duration reaching 0, will turn you.&r"
 				"Being a vampire seems to have some nice advantages. It seems &o&4most undead will ignore you unless attacked&r. You no longer need to breathe underwater, but it weakens you."
 			]
 			id: "7211E9ED86A677EE"
+			invisible: true
 			rewards: [{
 				id: "2BCEAD583FA495A2"
 				item: {
@@ -73,8 +38,8 @@
 				type: "advancement"
 			}]
 			title: "Infectious"
-			x: -0.5d
-			y: -1.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7211E9ED86A677EE"]
@@ -122,8 +87,8 @@
 				}
 			]
 			title: "Blood Soaked Fangs"
-			x: -2.0d
-			y: -0.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4DFFAE7DF0E17F96"]
@@ -152,11 +117,11 @@
 				type: "item"
 			}]
 			title: "Lie in The Blood Where You Bathe"
-			x: 1.5d
-			y: -4.0d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["71A3C142D8A78EF7"]
+			dependencies: ["265ADD6A31E72A87"]
 			description: [
 				"To grow stronger than level 4, you need the altar, a multiblock structure "
 				"The required structure depends on the level, you need a specific amount of \"structure points\". The actual value of the structure you build is calculated after the following rules:"
@@ -199,7 +164,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 4.5d
 			y: -6.0d
 		}
 		{
@@ -229,8 +194,8 @@
 				type: "checkmark"
 			}]
 			title: "Learn Skills and Sun Weakness"
-			x: 1.5d
-			y: -5.0d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["28751771BB33158E"]
@@ -256,8 +221,8 @@
 				type: "item"
 			}]
 			title: "That's a Lot of Blood"
-			x: -3.0d
-			y: -0.5d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["741E225D8F31C175"]
@@ -282,8 +247,8 @@
 				item: "vampirism:blood_sieve"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["126E583A9A6E0B9F"]
@@ -308,8 +273,8 @@
 				item: "vampirism:blood_grinder"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -0.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7211E9ED86A677EE"]
@@ -337,22 +302,12 @@
 				title: "Learn about being a vampire"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7211E9ED86A677EE"]
-			id: "30350FD28F32BD90"
-			tasks: [{
-				id: "717A1EE1E59CD870"
-				title: "delight"
-				type: "custom"
-			}]
 			x: 1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["217C93369948019D"]
+			hide_dependency_lines: true
 			id: "23CA48A4CC6590F1"
 			rewards: [{
 				id: "24F36633478F0A38"
@@ -368,14 +323,22 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				count: 3L
-				id: "3BCE918A5FCE2DBA"
-				item: "vampirism:blood_infused_iron_ingot"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -5.0d
+			tasks: [
+				{
+					count: 4L
+					id: "3BCE918A5FCE2DBA"
+					item: "vampirism:blood_infused_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "493480CB73BF0218"
+					item: "vampirism:blood_infused_enhanced_iron_ingot"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7211E9ED86A677EE"]
@@ -406,23 +369,11 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["217C93369948019D"]
-			id: "6FBE86D644C6AAC7"
-			tasks: [{
-				count: 3L
-				id: "0044041EC3B075AE"
-				item: { Count: 3, id: "vampirism:blood_infused_enhanced_iron_ingot" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["00B1A061DC76882F"]
+			dependencies: ["0DCB98197E7C8069"]
 			description: ["Pure Blood is obtained through killing vampire barons found in the vampire forest. It comes in 5 different purities and is a key crafting component and item for leveling up"]
 			id: "217C93369948019D"
 			rewards: [{
@@ -451,8 +402,8 @@
 				type: "item"
 			}]
 			title: "Pure Blood"
-			x: -2.0d
-			y: -4.0d
+			x: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7211E9ED86A677EE"]
@@ -477,7 +428,7 @@
 				item: "vampirism:human_heart"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
@@ -506,26 +457,15 @@
 				title: "Learn about Ressurection"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["4E8F017564A2C581"]
-			description: ["The blood pedestal is used to charge vampire swords. It must be placed on top of a blood container to work."]
-			id: "00B1A061DC76882F"
-			tasks: [{
-				id: "79BD208161D241D2"
-				item: "vampirism:blood_pedestal"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -3.0d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["23CA48A4CC6590F1"]
 			description: [
 				"Using blood infused iron, you can craft two weapons, the heartseeker and heartstriker. These require charging via a blood pedestal, as well as training, which is simply done by killing mobs."
 				"The swords becomes faster the more trained you are with them"
+				"The blood pedestal is used to charge vampire swords. It must be placed on top of a blood container to work."
 			]
 			id: "300DBCF9A7A1466F"
 			rewards: [{
@@ -542,79 +482,88 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "3B769F493AB60198"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "vampirism:heart_seeker_normal"
-								tag: {
-									Damage: 0
+			tasks: [
+				{
+					id: "3B769F493AB60198"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "vampirism:heart_seeker_normal"
+									tag: {
+										Damage: 0
+									}
 								}
-							}
-							{
-								Count: 1b
-								id: "vampirism:heart_striker_normal"
-								tag: {
-									Damage: 0
+								{
+									Count: 1b
+									id: "vampirism:heart_striker_normal"
+									tag: {
+										Damage: 0
+									}
 								}
-							}
-						]
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "09AC3979296DBA8A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "vampirism:heart_seeker_enhanced"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "vampirism:heart_striker_enhanced"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D70E3F5A696CB7F"
+					item: "vampirism:blood_pedestal"
+					type: "item"
+				}
+			]
 			title: "Beginner Weaponry: Vampire"
-			x: -2.0d
-			y: -6.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["6FBE86D644C6AAC7"]
-			description: ["Enhanced items are stronger versions of the originals. They're charged and trained with the same way."]
-			id: "7D3AF71E3C776023"
-			tasks: [{
-				id: "2958BBB3B0BBD90F"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "vampirism:heart_seeker_enhanced"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "vampirism:heart_striker_enhanced"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			title: "Upgrades People, Upgrades"
-			x: -3.0d
-			y: -6.0d
-		}
-		{
+			dependencies: ["7211E9ED86A677EE"]
+			description: [
+				"&o&4Faction controlled villages&r are protected and occupied by one of the three factions. While exploring, you may find a village already with a fragile totem. If not, you can make a base and head yourself."
+				"When claimed by a faction, all workstations and beds will be claimed by that faction."
+			]
 			id: "786D983E45D03A2F"
 			tasks: [{
-				id: "40D7376CFC623580"
-				item: "vampirism:totem_base"
-				type: "item"
+				icon: "vampirism:totem_base"
+				id: "32804A68C6992AC0"
+				observe_type: 0
+				timer: 0L
+				title: "Find a totem base (Or make your own)"
+				to_observe: "vampirism:totem_base"
+				type: "observation"
 			}]
-			x: 0.0d
-			y: -2.0d
+			title: "Village of Vampires"
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7211E9ED86A677EE"]
@@ -654,21 +603,389 @@
 				type: "item"
 			}]
 			title: "Acessories"
-			x: -1.0d
+			x: 1.0d
 			y: -2.0d
 		}
 		{
-			id: "4202F14A15B1EE62"
+			dependencies: ["71A3C142D8A78EF7"]
+			description: ["At level 4, you become a proper vampire, and your skill tree opens up"]
+			id: "265ADD6A31E72A87"
 			tasks: [{
-				id: "737576AE3FF39C38"
-				stat: "werewolves:action_time_human_form"
+				block: "vampirism:altar_inspiration"
+				block_type: 0
+				checkItem: true
+				id: "69CBE2EEAAEDDD06"
+				isItemInteraction: false
+				item: {
+					Count: 1
+					id: "vampirism:blood_bottle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "questsadditions:use"
+				value: 24L
+			}]
+			title: "No longer a child"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["786D983E45D03A2F"]
+			description: [
+				"If you interact with a totem not belonging to your faction, &oa raid will occur&r. During this, your faction and the village's current faction will take time to gather troops before the fight ensues, shown by the colored bar at the top. Once the bar is fully one color, the raid will end with the faction of that color taking control of the village."
+				"Raids can also start at random points in time or by entering the village with Bad Omen of another faction."
+			]
+			id: "493816AC0FD1E26D"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "53C8A0F35B582710"
+				stat: "vampirism:win_village_capture"
+				title: "Lay claim"
 				type: "stat"
 				value: 1
 			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["493816AC0FD1E26D"]
+			description: ["In a controlled village, there will be a representative of the controlling faction. They will offer you tasks or missions to complete."]
+			id: "0551FA703A26C8C1"
+			tasks: [{
+				id: "2BCE029638EF4725"
+				stat: "vampirism:tasks_accepted"
+				type: "stat"
+				value: 1
+			}]
+			title: "Represent"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0CBBAA0351FD2EF2"]
+			id: "6B4B90EFD206B3A9"
+			tasks: [{
+				advancement: "vampirism:vampire/max_level"
+				criterion: ""
+				id: "7004450AD5AA5500"
+				type: "advancement"
+			}]
+			title: "Reach level 14"
 			x: 3.0d
-			y: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4E8F017564A2C581"]
+			description: ["Vampire clothing is armor that does not hinder your speed or strength while being fully enchantable."]
+			id: "227108006BB0F89B"
+			tasks: [
+				{
+					id: "356F721D990ECD1A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "vampirism:vampire_clothing_crown"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "vampirism:vampire_clothing_hat"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F2E9B44AE618BA2"
+					item: {
+						Count: 1
+						id: "vampirism:vampire_cloak_black_blue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B7B4FC8AFA1C65F"
+					item: {
+						Count: 1
+						id: "vampirism:vampire_clothing_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BC7B9602984B9DA"
+					item: {
+						Count: 1
+						id: "vampirism:vampire_clothing_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Vampiric Outfitter"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62B2D0D59FD90C2F"]
+			description: ["The fog diffuser spreads fog in a large area, allowing vampires to freely roam during the day."]
+			id: "7D645F0D269AB2EE"
+			tasks: [{
+				id: "776E469F761EED0B"
+				item: "vampirism:fog_diffuser"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7211E9ED86A677EE"]
+			id: "5A11292F3000B167"
+			tasks: [
+				{
+					count: 2L
+					id: "7652AC11AB0F997D"
+					item: "vampiresdelight:orchid_petals"
+					type: "item"
+				}
+				{
+					id: "71BF7E2F1881578A"
+					item: "vampiresdelight:orchid_seeds"
+					type: "item"
+				}
+			]
+			title: "Cut up an orchid"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A11292F3000B167"]
+			id: "21D3CEF1CFD1DE1C"
+			tasks: [
+				{
+					count: 8L
+					id: "5B457D400E844A42"
+					item: "vampiresdelight:orchid_cookie"
+					type: "item"
+				}
+				{
+					id: "3C4D7737C4FCA678"
+					item: "vampiresdelight:orchid_eclair"
+					type: "item"
+				}
+				{
+					id: "2560B4DDFE7D1E5A"
+					item: "vampiresdelight:orchid_tea"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["21D3CEF1CFD1DE1C"]
+			id: "43F8F018AC15794B"
+			tasks: [
+				{
+					id: "56D8E94BAF2CB59C"
+					item: "vampiresdelight:orchid_cake"
+					type: "item"
+				}
+				{
+					id: "6C7B204FC31022F0"
+					item: "vampiresdelight:weird_jelly_block"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43F8F018AC15794B"]
+			id: "092ED76B82A36363"
+			tasks: [
+				{
+					id: "2F1E0AD50E9CE948"
+					item: "vampiresdelight:orchid_curry"
+					type: "item"
+				}
+				{
+					id: "26BE5B4F26FAF494"
+					item: "vampiresdelight:orchid_cream_soup"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7211E9ED86A677EE"]
+			id: "0DDD39BD3B30F644"
+			tasks: [
+				{
+					id: "1C763C1BE8ED0597"
+					item: "vampiresdelight:blood_syrup"
+					type: "item"
+				}
+				{
+					id: "55E4ADB3BF3C2035"
+					item: {
+						Count: 1
+						id: "vampiresdelight:blood_wine_bottle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "219891B73D5AE81C"
+					item: "vampiresdelight:blood_dough"
+					type: "item"
+				}
+				{
+					id: "3D0EAAD434690242"
+					item: "vampiresdelight:human_eye"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DDD39BD3B30F644"]
+			id: "7A1F405A1E3AAB9C"
+			tasks: [
+				{
+					id: "7ECB9FFA249102FC"
+					item: "vampiresdelight:blood_wine_glass"
+					type: "item"
+				}
+				{
+					id: "63F139765A86F625"
+					item: "vampiresdelight:blood_sausage"
+					type: "item"
+				}
+				{
+					id: "1A8C66F4CA39979D"
+					item: "vampiresdelight:blood_bagel"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0EE10E7C5B1EE1F3"]
+			id: "7920F66CDCA89780"
+			tasks: [{
+				id: "1F4E49AE87C4C6D8"
+				item: "vampiresdelight:blood_pie"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A1F405A1E3AAB9C"]
+			id: "0EE10E7C5B1EE1F3"
+			tasks: [
+				{
+					id: "6F2D4D8D96A65309"
+					item: "vampiresdelight:blood_hot_dog"
+					type: "item"
+				}
+				{
+					id: "44B09316CB24C2D3"
+					item: "vampiresdelight:mulled_wine_glass"
+					type: "item"
+				}
+				{
+					id: "14E911A7F0C0C802"
+					item: "vampiresdelight:dark_ice_cream"
+					type: "item"
+				}
+				{
+					id: "7FB2E23F47E04220"
+					item: "vampiresdelight:cursed_cupcake"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7A3D9AF435C8F761"]
+			id: "62B2D0D59FD90C2F"
+			tasks: [{
+				id: "3311D266229CE4F7"
+				item: "vampirism:mother_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0551FA703A26C8C1"]
+			id: "0DCB98197E7C8069"
+			tasks: [{
+				biome: "vampirism:vampire_forest"
+				id: "3ACC87EA94D604E6"
+				title: "Visit the vampire forest"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["217C93369948019D"]
+			id: "3F6A62109E765935"
+			tasks: [{
+				advancement: "vampirism:minion/become_lord"
+				criterion: ""
+				id: "659F84A4C87F23C3"
+				title: "Become a Vampire Lord"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3F6A62109E765935"
+				"6B4B90EFD206B3A9"
+				"3ACC87EA94D604E6"
+			]
+			dependency_requirement: "all_started"
+			hide_until_deps_visible: true
+			id: "7A3D9AF435C8F761"
+			tasks: [{
+				id: "3EEB42AA10D5B4A3"
+				structure: "vampirism:mother"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -8.0d
 		}
 	]
 	tags: ["vampiresquest"]
-	title: "Vampirism"
+	title: "Vampirism: Vampires"
 }

@@ -1,7 +1,15 @@
 [7116AFF3BB38E138]
-/quest_view_background: #faecca
+quest_view_background: #faecca
 quest_view_title: #480000
 quest_view_border: #5c3b6f
-/text_color: #000000
+text_color: #000000
+dependency_line_uncompleted_color: #121319
+dependency_line_completed_color: #8b0606
+dependency_line_requires_color: #8b0606
+dependency_line_required_for_color: #2f0000
+quest_completed_color: #8b0606
+quest_started_color: #4b2828
+quest_not_started_color: #1c1e25
+quest_locked_color: #08090e
 [vampire]
 quest_completed_color: #FF0000

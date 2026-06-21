@@ -68178,7 +68178,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "044725407f2f7e83f2e7128dd4bf8d50e21701a3a143c2878bf9d266feaa3b36"
+hash = "09ff7826e582d445dac9920b35598405b7c9fd344dc6d4884517e677b0ea503e"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69134,7 +69134,7 @@ hash = "46c287350facf19239fc9523d9bd50c662645fd104aa0c6bc0b6e531f03619e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apothic_adventures.snbt"
-hash = "9835d7f1a68a11a270e2be81d4149455db7acdb8d122c68fb5fd893034e0e9a5"
+hash = "d5e3d852078ecea628aa1fc12d8210f03f5cfe86293128fd13dcf77dc1aa9626"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
@@ -69218,7 +69218,7 @@ hash = "df71272033115d88741b5a2c9235d003ce324b5740747ac3e6199712de665654"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/saints_dragons.snbt"
-hash = "164b767751ea5d8e7f689fb2581cc0ddf8db81f89bc1185862cb894f82f01b1c"
+hash = "a939e4834d2ac118168d1b4ce5a78072ab62ea962f23f9519b40e40d950cd3d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated_storage.snbt"
@@ -69230,7 +69230,11 @@ hash = "b210c055941cc7f2fe127d83acb81d4851e7cdbd64913e90f69b53c321a79167"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vampirism.snbt"
-hash = "d07859d3f2fa3d64378330dd991f9f7a26d0b250aa9aef1500d5d48d47ba5de7"
+hash = "6f30655d68e8db0bd295ad6395008a45abb1154bfa98775cbc9e3c87b32b25f4"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/vampirism_2.snbt"
+hash = "cf7d3e59f6edcae4cb10f15007deca170e75c447dfeb385fe151621ef2650d15"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -69738,7 +69742,7 @@ hash = "bf12cd3a9fca75b03295cb0b2bf89a7a47cc2bbfb67b31ae079f7f839fa35540"
 
 [[files]]
 file = "config/jei/world/local/New_World__10/lookupHistory.ini"
-hash = "450bd457c727e441cbfce9d9f63f7cd629b7f70e17d14757092bf4d8a38b7e33"
+hash = "7526dc36632b207688ad379aeb4a3384faf5e777858029d1726e8bdfd08979fe"
 
 [[files]]
 file = "config/jei/world/local/New_World__11/lookupHistory.ini"
@@ -70098,7 +70102,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "acea95cf073687d96d52c3f088fa26724ad9834714d70b78cedff48398188e26"
+hash = "2f6174b957b734994400d3e6926707247e818dd86893c702e5094f9fc3cefee8"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70217,6 +70221,10 @@ file = "config/music_events/memory_SP_Vampire.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
+file = "config/music_events/memory_SP_Vampirism_Qest.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
 file = "config/music_events/memory_unknown.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
@@ -70290,7 +70298,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b4129386ef36e284b60b4e47a29a0f45ab87d4ed2d393e4ad923b30af168bbed"
+hash = "b9b552f05a53973b451bceddd2d0c2087907f9ffd7ff99dd71218b336cfda0db"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70306,7 +70314,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "89a29810592037b24151d1be16bc0d5d4675a8d4360f0c426ba7603c693fbdde"
+hash = "d0a1206c011eaf0594ee3e7018eb39baf84c29a03421fa627610fcc11aa0cc94"
 
 [[files]]
 file = "config/pal.properties"
@@ -70387,18 +70395,6 @@ hash = "2eb5b0045b17d0988764940cf457e9eb60799e950cfb5f6eb4efa11ec537b168"
 [[files]]
 file = "config/paxi/datapacks/intstrong_endrem-1.0.0-1.18.2-1.19.2.zip"
 hash = "8e41b8cc5e0e255f8639c0a1ee76aa37486fa0c7d406976983c53a6c56438bbb"
-
-[[files]]
-file = "config/paxi/datapacks/werewolf_test/data/werewolves/advancement/teen_wolf.json"
-hash = "91282bcda4b6cc2b1cb1caa624150b1b0e850a89f8ded120a9dba261d65e5bd6"
-
-[[files]]
-file = "config/paxi/datapacks/werewolf_test/pack.mcmeta"
-hash = "3e5c5742bd04af7ff01ed520ea1f04178360178eeb0c95208c2c6fe745ea1c43"
-
-[[files]]
-file = "config/paxi/datapacks/werewolf_test/werewolf_test.zip"
-hash = "5f202b45a4749e8c8054e6fc81c85f9fde8e33976a22f324d590dcc7e2e80684"
 
 [[files]]
 file = "config/paxi/integrated_villages_config-1.3.0-1.20.1.zip"
@@ -70634,7 +70630,7 @@ hash = "c3fcadf445d99870f386e20b5f6463a04c550f5b28c9608227a79b08267c24e0"
 
 [[files]]
 file = "config/paxi/resourcepacks/Tumblr Bumblr/assets/ftbquests/ftb_quests_theme.txt"
-hash = "831a7e3dd4067c970cbea807f009fcd597aa37cbacfb9972e52fce2e174b4108"
+hash = "b2dfce617596fac9a5f1bd257e2a93630ac6923c799c3a396c46dc3cc43da038"
 
 [[files]]
 file = "config/paxi/resourcepacks/Tumblr Bumblr/pack.mcmeta"
@@ -70671,6 +70667,18 @@ hash = "d90ce28d220b274ac02a9e6f3328bb67dbbf0f47a69c467c474f700f34bdb3a4"
 [[files]]
 file = "config/paxi/resourcepacks/§lColourful Containers§8.zip"
 hash = "8d0e921a3fc7dd28ad0e0f11a94cfd549b66fda0fa37bac23103841bc0655380"
+
+[[files]]
+file = "config/paxi/werewolf_test/data/werewolves/advancement/teen_wolf.json"
+hash = "91282bcda4b6cc2b1cb1caa624150b1b0e850a89f8ded120a9dba261d65e5bd6"
+
+[[files]]
+file = "config/paxi/werewolf_test/pack.mcmeta"
+hash = "3e5c5742bd04af7ff01ed520ea1f04178360178eeb0c95208c2c6fe745ea1c43"
+
+[[files]]
+file = "config/paxi/werewolf_test/werewolf_test.zip"
+hash = "5f202b45a4749e8c8054e6fc81c85f9fde8e33976a22f324d590dcc7e2e80684"
 
 [[files]]
 file = "config/perception.yaml"
@@ -71566,7 +71574,7 @@ hash = "a16630bdc2fbecab73b939d2adb903481b3c1f84bf1bd02cc2bed1d1189f9770"
 
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
-hash = "490655639ff41214f1fe871a10922f691bf6ea3ccd494ae68c5e49b96a59923e"
+hash = "45b26deb5ab40db99defd1058bb3e92106c69c0d512b8b0e7189f3274cf8d3b2"
 
 [[files]]
 file = "icon.png"
@@ -76657,16 +76665,20 @@ file = "kubejs/data/tumblrbumblr/advancement/draft.json"
 hash = "9cd02d7b14375e37266e7a6e690fe90fc9ef7edccbc3058f9c4ab1df782f1b5f"
 
 [[files]]
+file = "kubejs/data/tumblrbumblr/advancement/teen_wolf.json"
+hash = "c580b23f566008a5d07853dbf5c4056a11f21599ed9defb86beb76dd7a76e788"
+
+[[files]]
+file = "kubejs/data/tumblrbumblr/advancement/test.json"
+hash = "2657b6b7367f92bc29bed7b54aa25c87595a4d7f59538bfb1973d983d8e26e7b"
+
+[[files]]
 file = "kubejs/data/vampiresdelight/loot_modifiers/scavenging_eyes_from_humans.json"
 hash = "9cd36e96e61452f6326de89f79d349ac82d72dfda15c90733bbe2de45fe0f0cf"
 
 [[files]]
 file = "kubejs/data/vampiresdelight/loot_tables/blocks/vampire_orchid_crop.json"
 hash = "0c346f7248a229236372d86b688f09f759e1ff9479e362c219195ed6aedc3e63"
-
-[[files]]
-file = "kubejs/data/werewolves/advancement/teen_wolf.json"
-hash = "91282bcda4b6cc2b1cb1caa624150b1b0e850a89f8ded120a9dba261d65e5bd6"
 
 [[files]]
 file = "kubejs/jsconfig.json"

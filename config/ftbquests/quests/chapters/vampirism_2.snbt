@@ -1,0 +1,63 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vampirism_2"
+	group: "1CE580FB33A3818E"
+	id: "201EB6B180822731"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "11A99823249B4587"
+			tasks: [{
+				advancement: "vampirism:vampire/become_vampire"
+				criterion: ""
+				disable_toast: true
+				id: "4FCB64AB04FB6717"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "42A519143FFF8DA7"
+			tasks: [{
+				id: "55DD97862B4888D2"
+				item: "guideapi_vp:vampirism-guidebook"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "35C75C417084A27E"
+			tasks: [{
+				advancement: "vampirism:hunter/become_hunter"
+				criterion: ""
+				id: "3277B0B7451DD298"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "385C574E48EB6DE7"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "werewolves:dark_pelt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2796564BEEED8763"
+				title: "Figure something out idk"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	title: "Vampirism"
+}

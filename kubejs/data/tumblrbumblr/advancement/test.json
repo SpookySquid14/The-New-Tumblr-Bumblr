@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_axe"
+    },
+    "title": "Tested and Tried",
+    "description": "This advancement is showing up",
+    "background": "minecraft:blocks/sponge",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": [
+              "cataclysm:ancient_metal_nugget"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "test"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
