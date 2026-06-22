@@ -1,0 +1,148 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vampirism_werewolves"
+	group: "1CE580FB33A3818E"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "werewolves:textures/skills/werewolf.png"
+		}
+	}
+	id: "4CE2E2A272BF6001"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Placeholder"
+				"By having a werewolf attack you and infect you with &oLupus Sanguinem, then sleeping while infected. When you wake up, you will be a werewolf.&r"
+				"Werewolves are unique in that they only show their true strength at night and that they are only treated as a werewolf while transformed. In human form, you are treated like you aren't in any faction."
+				"As a werewolf, you'll take reduced damage and can pierce armor with your attacks. Different forms gained later on will increase your abilities."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "werewolves:textures/actions/bite.png"
+				}
+			}
+			id: "1FED017AF22E96E9"
+			tasks: [{
+				id: "187C5A1CED260E73"
+				title: "Lupus"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1FED017AF22E96E9"]
+			description: [
+				"As a werewolf, you will receive buffs to your defense and attack, being able to pierce some armor in your base form. Your later werewolf forms can be used at any time, &obut you are weaker when using them during the day.&r"
+				"Open the werewolf menu either by clicking the button in your inventory or through the keybind (Default P)"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "werewolves:textures/skills/werewolf.png"
+				}
+			}
+			id: "4532D8D7E4963F89"
+			rewards: [{
+				id: "2C78741255EDD09D"
+				item: {
+					Count: 1
+					id: "eternalcurrencies:currency_item"
+					tag: {
+						currencies: [{
+							amount: 100L
+							currency: "eternalcurrencies:ancientcoins"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33262D77701C0076"
+				title: "Learn about being a werewolf"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4532D8D7E4963F89"]
+			description: [
+				"to level up you need to place a Stone Altar with 4 Stone Altar Fire Bowls (in a 3 block radius). You must lit the fire bowls with a torch or flint and steel. After that you can insert Liver \\& Cracked Bones into the altar. To start the ritual you must right-click the altar with Flint \\& Steel or a (Soul) Torch."
+				"For level 2, 3 livers and 2 cracked bones are required, and you must have killed 50 mobs."
+			]
+			id: "65D60C5290E5786B"
+			tasks: [
+				{
+					id: "4064DDEA3E153893"
+					item: "werewolves:stone_altar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1A7ACDFBFDA5BD34"
+					item: "werewolves:stone_altar_fire_bowl"
+					type: "item"
+				}
+			]
+			title: "Learn about the altar"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65D60C5290E5786B"]
+			description: [
+				"The werewolf menu shows you options for changing appearance, but more importantly, shows &oyour skill tree.&r"
+				"With every level you get, you earn 2 skill points. Now that you've gotten them, it's time to become more in tune and unlock partial transformation. "
+				"While in this form, you'll gain some light armor and armor toughness, as well as a boost to speed and damage. You will also gain the ability to &obite&r an enemy. Doing so penetrates some of their armor"
+			]
+			id: "034DBB22E2907A5E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "werewolves:textures/actions/human_form.png"
+					}
+				}
+				id: "3FA34078C62788D0"
+				stat: "werewolves:action_used_human_form"
+				type: "stat"
+				value: 1
+			}]
+			title: "Become a werewolf (kinda)"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["034DBB22E2907A5E"]
+			id: "1CFAF1433C2BE3AC"
+			tasks: [
+				{
+					count: 7L
+					id: "41FDBD504877CB9A"
+					item: { Count: 7, id: "werewolves:cracked_bone" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "014348CE2FF3D188"
+					item: { Count: 9, id: "werewolves:liver" }
+					type: "item"
+				}
+			]
+			title: "reach lvl 4"
+			x: 2.0d
+			y: -2.5d
+		}
+	]
+	title: "Vampirism: Werewolves"
+}

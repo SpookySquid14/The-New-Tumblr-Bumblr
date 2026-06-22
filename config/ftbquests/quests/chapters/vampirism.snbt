@@ -985,6 +985,20 @@
 			x: 0.0d
 			y: -8.0d
 		}
+		{
+			dependencies: ["7211E9ED86A677EE"]
+			description: ["Altar of Cleansing can be used to cure yourself of vampirism, but using it will kill you."]
+			id: "48CC4DEF7370FC2F"
+			optional: true
+			subtitle: "Optional"
+			tasks: [{
+				id: "732FCBD41B152632"
+				item: "vampirism:altar_cleansing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
 	]
 	tags: ["vampiresquest"]
 	title: "Vampirism: Vampires"

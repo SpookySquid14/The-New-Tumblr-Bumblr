@@ -2,7 +2,7 @@
 [common_server]
 	#Only considered if terrablender installed. Heigher values increase Werewolf region weight (likelyhood to appear)
 	#Range: 1 ~ 1000
-	werewolfBiomeWeightTerrablender = 5
+	werewolfBiomeWeightTerrablender = 16
 	#Disable werewolf forest generation
 	disableWerewolfForest = false
 	#Weight of silver ore spawning

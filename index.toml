@@ -846,7 +846,7 @@ hash = "dea4d260e6eac868297c0f9cd80545fd6b54f7344c678b89edda980a3fc5e8cf"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "5564f213512065280e7d101aac281a0754d8a68cce8b7c8ad05ba248c6e054c1"
+hash = "8d5f2205585ccc1a4427a06ae3a184dd97ad23673ff78673f43627db79146a50"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -68178,7 +68178,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "09ff7826e582d445dac9920b35598405b7c9fd344dc6d4884517e677b0ea503e"
+hash = "1fd85c145f848ffc35168a85df7b5564d619992948f4c22cb89ebae7321aa7ab"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68885,6 +68885,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$tropical_river.cfg"
 hash = "1fcd566b954eeaf5c6a9b4bc821185c3d599c371aea8d108bf101552acc6b293"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$tropics.cfg"
+hash = "65b9a1f386d5e8a712c498d77d565cc1df63b9fe97f582a7559c059865e06043"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$willow_forest.cfg"
 hash = "a52a735a608a71a2784b82fa895c8487cf8861147889d74601e7f1da1d75cdfd"
 
@@ -69230,11 +69234,15 @@ hash = "b210c055941cc7f2fe127d83acb81d4851e7cdbd64913e90f69b53c321a79167"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vampirism.snbt"
-hash = "6f30655d68e8db0bd295ad6395008a45abb1154bfa98775cbc9e3c87b32b25f4"
+hash = "da09fb30f3bad771daff079893c45a7f1dd55d03b43979172b7660f3c7b38755"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vampirism_2.snbt"
 hash = "cf7d3e59f6edcae4cb10f15007deca170e75c447dfeb385fe151621ef2650d15"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/vampirism_werewolves.snbt"
+hash = "3af6e0f644e07099aa327a5ec5c545b1d71fb50a2bc791a28d26813125970881"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -69933,6 +69941,10 @@ file = "config/jei/world/local/Waves/lookupHistory.ini"
 hash = "b497bd5347383552517807b723e11184eb10f8e2ef7ce6c061cfa72ef769d4da"
 
 [[files]]
+file = "config/jei/world/local/vampire_quest/lookupHistory.ini"
+hash = "7698fa2b8214ac6a9f3699a5876fa414749981eaf7eb47601f41e62f09b24a40"
+
+[[files]]
 file = "config/jei/world/server/Test_Server_23ced690/lookupHistory.ini"
 hash = "748c8fffb52b2ff3828444ede6e8417676ceca6821b898b357f4c9f88f0c4bc3"
 
@@ -70102,7 +70114,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "2f6174b957b734994400d3e6926707247e818dd86893c702e5094f9fc3cefee8"
+hash = "d4033d900fa0ebd1b3d795080735131229868b753bf394fe6fd6de68d56078e2"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70298,7 +70310,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b9b552f05a53973b451bceddd2d0c2087907f9ffd7ff99dd71218b336cfda0db"
+hash = "367a8ca1745d78ad7f686a90c5d4ec647ae3690e4d3084593cb6ce59c9f08f94"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70314,7 +70326,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "d0a1206c011eaf0594ee3e7018eb39baf84c29a03421fa627610fcc11aa0cc94"
+hash = "c9724368be82741ba1ca389f1da2125e6a7e5e912d0d1d7bd82f06df83661537"
 
 [[files]]
 file = "config/pal.properties"
@@ -70331,6 +70343,10 @@ hash = "31aad454733f156b1b1666989899b7fd86455308b3e0e7e3ce83098525108ef9"
 [[files]]
 file = "config/patchouli-client.toml"
 hash = "937182b2813e129f5d05ae313d5321069eebd0350151b254e74b1560ed3d764d"
+
+[[files]]
+file = "config/paxi/BlazeandCave's Advancements Pack 1.16.2.zip"
+hash = "3fc43b247203459de43b56efdf44f4e20b4a8418ee03d58250a2738ebbe1ed21"
 
 [[files]]
 file = "config/paxi/datapack_load_order.json"
@@ -70395,6 +70411,10 @@ hash = "2eb5b0045b17d0988764940cf457e9eb60799e950cfb5f6eb4efa11ec537b168"
 [[files]]
 file = "config/paxi/datapacks/intstrong_endrem-1.0.0-1.18.2-1.19.2.zip"
 hash = "8e41b8cc5e0e255f8639c0a1ee76aa37486fa0c7d406976983c53a6c56438bbb"
+
+[[files]]
+file = "config/paxi/datapacks/werewolf_test.zip"
+hash = "5f202b45a4749e8c8054e6fc81c85f9fde8e33976a22f324d590dcc7e2e80684"
 
 [[files]]
 file = "config/paxi/integrated_villages_config-1.3.0-1.20.1.zip"
@@ -70938,7 +70958,7 @@ hash = "347434fce931147ef1b31896190829a06a857a561eab04e28354af67f3894564"
 
 [[files]]
 file = "config/sodiumextras-client.toml"
-hash = "664c3e4635392fc8d354d63535e2f8a2c900a174cd0241d592f8f14fdc986ccf"
+hash = "7e14507f30770d3772a3bb74ad99ff3e6f48edb52ac50c007ac1c6a0395a10dd"
 
 [[files]]
 file = "config/solapplepie-client.toml"
@@ -71410,7 +71430,7 @@ hash = "49e26de557fbe1368195a709fcdd0f72ad3ccc1c307d66bdb3634856fc8672d6"
 
 [[files]]
 file = "config/werewolves-common.toml"
-hash = "8b95db69f0d7f78303672a631ddaf10f05b247b450c3c0fab799f65caca15f5a"
+hash = "bfd089d7be8dd51a30874482af2363274649bf854e5af3d494f872f4c152813b"
 
 [[files]]
 file = "config/witherreincarnated/client-1.toml.bak"
@@ -75617,66 +75637,6 @@ file = "kubejs/assets/vampirism/textures/entity/zombie_villager/profession/hunte
 hash = "d764a27682476e754e238461f60235a31b51cb29f6e598375ec528fd63f606be"
 
 [[files]]
-file = "kubejs/assets/watching/models/item/herobrine/custom/1/body.json"
-hash = "a63b7ce625dc00462b18d0c02b7d72c7f7371bd382f6d21aabbc213304ca6459"
-
-[[files]]
-file = "kubejs/assets/watching/models/item/herobrine/custom/1/emissive/body.json"
-hash = "383ed8535e47fa14518c8281e999a8bdb3887e04d5e5b889c270d10836a5d5b9"
-
-[[files]]
-file = "kubejs/assets/watching/models/item/herobrine/custom/1/emissive/head.json"
-hash = "1f8470615f84826dceb2f392353aeecc3aabcbc1a363d611b7c0d9ca13708ecb"
-
-[[files]]
-file = "kubejs/assets/watching/models/item/herobrine/custom/1/emissive/left_arm.json"
-hash = "f7185cbaea5c8aab2045e076d71cafd81927cb861e825e20c43f52b84c7b0ed1"
-
-[[files]]
-file = "kubejs/assets/watching/models/item/herobrine/custom/1/emissive/left_leg.json"
-hash = "3840d1ce86e4104678f974a8369506b2d738eb570efbb28129c10fbbb2c98f2c"
-
-[[files]]
-file = "kubejs/assets/watching/models/item/herobrine/custom/1/emissive/right_arm.json"
-hash = "48149afd0985550f137024d320d92051dc5f39100d5ec96b955310aa299bc1d8"
-
-[[files]]
-file = "kubejs/assets/watching/models/item/herobrine/custom/1/emissive/right_leg.json"
-hash = "bafc0b8a3139fda9d5ed5e226f93181fd1f972c3cc4c8296e5361db40451d394"
-
-[[files]]
-file = "kubejs/assets/watching/models/item/herobrine/custom/1/head.json"
-hash = "819152d449e4658bb5ad365bddf17e1c48be0639c80a06499fff9ccde27cd1cd"
-
-[[files]]
-file = "kubejs/assets/watching/models/item/herobrine/custom/1/left_arm.json"
-hash = "dce087a073ad4aae8b62e7a9049d57d8857c442370112cfbc7ebc435fa21f78d"
-
-[[files]]
-file = "kubejs/assets/watching/models/item/herobrine/custom/1/left_leg.json"
-hash = "264b9b1f77093f0c78cfe5b3485244a26ce7ff216700e40b2b41a0ea88ee67ad"
-
-[[files]]
-file = "kubejs/assets/watching/models/item/herobrine/custom/1/right_arm.json"
-hash = "bc949317e36fa6cdec0996b0e906e48f5b05c9d2adfdfc4fe3381152206c72df"
-
-[[files]]
-file = "kubejs/assets/watching/models/item/herobrine/custom/1/right_leg.json"
-hash = "1c1a45e15e679791cd9bbf5296b1c07555816c6b993cbea160bc6b75146740d6"
-
-[[files]]
-file = "kubejs/assets/watching/textures/font/watching_ui/icons/skins/custom/1.png"
-hash = "5592fbb0824da5a9cb75ea56fca5a3db79803caecabfe6d5cfc8467e3853ddba"
-
-[[files]]
-file = "kubejs/assets/watching/textures/item/herobrine/custom/1.png"
-hash = "1c07046b13ddcbc4362d8256a9d4bb179e258cf64c03eaaabc8244c93eb1ac11"
-
-[[files]]
-file = "kubejs/assets/watching/textures/item/herobrine/custom/1_emissive.png"
-hash = "813df528bf8203863be538c50a561869aebe74523a4525df6c1474e84bef6119"
-
-[[files]]
 file = "kubejs/assets/werewolves/textures/entity/villager/profession/werewolf_expert.png"
 hash = "d764a27682476e754e238461f60235a31b51cb29f6e598375ec528fd63f606be"
 
@@ -76665,6 +76625,14 @@ file = "kubejs/data/tumblrbumblr/advancement/draft.json"
 hash = "9cd02d7b14375e37266e7a6e690fe90fc9ef7edccbc3058f9c4ab1df782f1b5f"
 
 [[files]]
+file = "kubejs/data/tumblrbumblr/advancement/getting_wood.json"
+hash = "58a109c46d585e64060dabd44cfae9041b7ec7419a5030200a1060a09e863acf"
+
+[[files]]
+file = "kubejs/data/tumblrbumblr/advancement/root.json"
+hash = "8879250d7ae4d18af631bb8db53a005cbec296bb2d283932fbfbe42939fc1906"
+
+[[files]]
 file = "kubejs/data/tumblrbumblr/advancement/teen_wolf.json"
 hash = "c580b23f566008a5d07853dbf5c4056a11f21599ed9defb86beb76dd7a76e788"
 
@@ -77370,7 +77338,7 @@ hash = "7b6906cf32792695ad930c4321b7c13d474ca6fa5b9cadaaff57e048e1b7859b"
 
 [[files]]
 file = "kubejs/server_scripts/from_the_fog/herobrine_config.js"
-hash = "c8db3744b805fb86d064d73ff6332e6f8aa279d466c41e5c0246274476790bc1"
+hash = "dd386a0c0e1fd81e6e79aff51ef196e4fea18fa5f58c01187b59485a9b07b5e2"
 
 [[files]]
 file = "kubejs/server_scripts/from_the_fog/test.js"
@@ -78059,6 +78027,11 @@ metafile = true
 [[files]]
 file = "mods/create-rustic-structures.pw.toml"
 hash = "e75146f3bae7de3bcdd348bbe2a7014b19cde04a89d6c37777fc08f0e80ec9cf"
+metafile = true
+
+[[files]]
+file = "mods/create-sabers.pw.toml"
+hash = "c44572f5bd26c960330b395305a32416b9df0adc9d6df1271de7e83a5059685f"
 metafile = true
 
 [[files]]

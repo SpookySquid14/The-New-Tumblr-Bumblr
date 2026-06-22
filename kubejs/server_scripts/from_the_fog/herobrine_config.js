@@ -16,6 +16,7 @@ if(!event.server.persistentData.loaded){
   event.server.runCommand('function watching:config/creeping/false');
   event.server.runCommand('function watching:config/no_sleep/false');
   event.server.runCommand('function watching:config/nightmare/false');
+  event.server.runCommand('function watching:config/glowing_eyes/false')
   //console.log(event.server.overworld().time, event.server.overworld().time < 24000)
   if(event.server.overworld().time < 24000)
     event.server.runCommand('time set day');

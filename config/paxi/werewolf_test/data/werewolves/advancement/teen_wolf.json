@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "faction": {
+      "conditions": {
+        "type": "LEVEL",
+        "faction": "werewolves:werewolf",
+        "level": 1
+      },
+      "trigger": "vampirism:faction"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": true,
+    "background": "werewolves:textures/block/stripped_jacaranda_log.png",
+    "description": "Desc",
+    "icon": {
+      "item": "werewolves:dark_pelt_helmet"
+    },
+    "title":"Werewolves"
+  },
+  "requirements": [
+    [
+      "faction"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
