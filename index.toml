@@ -22597,6 +22597,506 @@ file = "config/blockswap/known_states/goety_cataclysm/wall_netherite_monstrosity
 hash = "4ad323a3bb07a0c33d980d016d9a052aea896aa5c81f6bd0f8f43ac244851372"
 
 [[files]]
+file = "config/blockswap/known_states/goetyhostility/basalt_tile_slab.json5"
+hash = "73d4dc64f6759cc4cbe39fd0d081cdef50108d66b4aecab9ff06860b4aaaf683"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/basalt_tile_stairs.json5"
+hash = "d09c6560166139c61ebe0cd0d87d3ccb8014f5691ec71badda21bc34b9037e83"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/basalt_tile_wall.json5"
+hash = "7aa5e9f74ceca980f9c78c438baa17e08532eb1febaf57b2a2f7d59b4642f586"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/basalt_tiles.json5"
+hash = "49dfbb42828e4e5d7db9f88d57cb204622cafa63c481b038a096bcbafdb32c63"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/blackstone_tiles.json5"
+hash = "b8b2f717b157fc416b71cb662dde03024efa339f822095793297d0ca524756bd"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/blackstone_tiles_slab.json5"
+hash = "8c6cca0ec581a2a35e4df1264e82d184607cbe4abe2c94d19d7ad5daf58d034d"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/blackstone_tiles_stairs.json5"
+hash = "e8a59ea438e2867d8cef09045bde72e65bec5c3bdcfbcd713de374faf541b21d"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/blackstone_tiles_wall.json5"
+hash = "3c51acdf220d126b60fddd770110444001b35ab2a3e11f86415849811b4a9776"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_basalt_tile_slab.json5"
+hash = "89b25f7624acd9b4f1cbea499b4b58314c23098a930f0ef0732f1883f74fabeb"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_basalt_tile_stairs.json5"
+hash = "5b66bbf058a781611517d0345ebcb071fb095eb03c354b08f9e78f0f10e19e3d"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_basalt_tile_wall.json5"
+hash = "b15e80fb5c213d6f4dc737623b8a3b9963f628b7f6773225db93b41ae2eb49b4"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_basalt_tiles.json5"
+hash = "2dee75449534c81b009cb64e8dd5a346247686eca6bf225b83a49160735abf2c"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_blackstone_tiles.json5"
+hash = "de1bce01f17ca5ce4f613d45c1a83580682f33451cbcfa55533c0ec8b470bb7c"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_blackstone_tiles_slab.json5"
+hash = "425ae588685dabbd3e9c8101a4f19cd347b94b705a7d287d591b509dda346cce"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_blackstone_tiles_stairs.json5"
+hash = "6e39fb8028720562088bc4221ba8881fa347003d9fd541b899e05427f8afa1b9"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_blackstone_tiles_wall.json5"
+hash = "a0ec7c53eda507d0f0153c65ab08f853c4ebbb1c5157c3ffd4eba98126fed1c5"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_nether_brick_tiles.json5"
+hash = "7fb6d15e2c99f045bbc8512ae438792c3cc493787391f7d4f7885d3b416388df"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_nether_brick_tiles_slab.json5"
+hash = "33fbe16b27fcb10b5f715c2b59506ab6ea60b6da36b1a694af6dd860c454bf3c"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_nether_brick_tiles_stairs.json5"
+hash = "abee4f923e35a74c17a98ef6726f582d3d8cb956a8fb26e057e77ae14990892a"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_nether_brick_tiles_wall.json5"
+hash = "0d0b53e03e93509a84d56837f8831cfaf61e30a056924507f05d65a50be202ea"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_red_nether_brick_tiles.json5"
+hash = "78793dbc61154f1c4f465109275f522b34cc62f12c756c458ff056c3f4be31f7"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_red_nether_brick_tiles_slab.json5"
+hash = "d0ef250ac4c674244ffb45745f7c8656a38ed2fd2dd6b4f14adad188d0cf4aa1"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_red_nether_brick_tiles_stairs.json5"
+hash = "6d16bf6c6b8d0b7d2c6ea61c2a44cab70a10156b1179317b1f603ced310882f3"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/broken_red_nether_brick_tiles_wall.json5"
+hash = "1f742e6bb4e78eb068f42bdb8867bcdae7a9e584204c2903c8d417f561213702"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/bumpy_nether_brick_tiles.json5"
+hash = "e47a782d4a0151bda38403f1b9b1da26cf422e82f711c922e8fbee2f27e0dfcb"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/bumpy_nether_brick_tiles_slab.json5"
+hash = "941478c6fbb33eead26ddf3823721fd25369dcc42f308ef314ee3a398cf8ad06"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/bumpy_nether_brick_tiles_stairs.json5"
+hash = "671f804a8a7fa92cb3127746dfc36a04902b436db6b9389d8d27087081f33108"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/bumpy_nether_brick_tiles_wall.json5"
+hash = "e44b1d2a58ec19a990c9325436f24116d8b66e8770c161738c0ecbee73fbfe38"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/chiseled_granite.json5"
+hash = "e9e636bb8a6d36ef66b34caea16e690f3702ebeb67f098ea63ffeaa07b1fc526"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/cooled_magma_block.json5"
+hash = "a43696a6174ae7db7650fec8fd2f0e80cfb0683a15ff24dd21ead859e3aec9c1"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/cracked_granite_bricks.json5"
+hash = "edb714bfac84b51d42baddd19fbc923494e347bb3f43f4350f8717fef3a5f2e2"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/cracked_granite_bricks_slab.json5"
+hash = "ad14af2c1e44830a01eeb4c87234b989ed33d8eea04f819203b179f2988044a4"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/cracked_granite_bricks_stairs.json5"
+hash = "0a7dd2d10ad1eecb59b2bebad83c4fb2b817d894067a48b3d6f886bfa1f9204a"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/cracked_granite_bricks_wall.json5"
+hash = "98d0d6c84201c20f0ee541f5351f658ef155d05e15cda2d6209d44d17df761cf"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/cracked_red_nether_brick_tiles.json5"
+hash = "4e8b54cf014322614f2736b9a92759c8bb621f4e46f424b8a32b7cfa4d735edf"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/cracked_red_nether_brick_tiles_slab.json5"
+hash = "269f8009a202a2fb246090c75a95046aba5c433f17891877dcc24d7fe3875814"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/cracked_red_nether_brick_tiles_stairs.json5"
+hash = "9582c7762fb89e9168823c843ee2a83127c01331e823e5a86fa8bcbc0b6b4fb4"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/cracked_red_nether_brick_tiles_wall.json5"
+hash = "9d8bf2078ef12bc0922d2dcfab4918f65d052d8f4be04201f3918bd2811adae4"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/damaged_nether_brick_tiles.json5"
+hash = "43df520b178197e335f2d3115bda7a28fed9c46c38615288aa6285984dfc117a"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/damaged_nether_brick_tiles_slab.json5"
+hash = "a329542c2257c6c90feca55807378a4d0aafecae361e071ed98ad5d1475b5cbc"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/damaged_nether_brick_tiles_stairs.json5"
+hash = "a5f26424b9689cae3caa96d4a0bf5fe31f7c3b6b122b2aa3a50190289bc7ef12"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/damaged_nether_brick_tiles_wall.json5"
+hash = "43ad8c07ecd014cb7d4e65bf3ba85a8a67431f301ea30d34b8ba4b8c4faab644"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/decayed_blackstone_tiles.json5"
+hash = "f84e056d5536a59e9c587227478aed45756445412cdfa98480b445f9b3b36007"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/decayed_blackstone_tiles_slab.json5"
+hash = "06abb975ccd9534deae782c97961877e4ce864990f8723a2dd38b171cf31d9b9"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/decayed_blackstone_tiles_stairs.json5"
+hash = "abf5452867d5a7cbc74dd25e5e95b4b7c36d15468eed6a905d0fbacdae150452"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/decayed_blackstone_tiles_wall.json5"
+hash = "34b0514ba23d690b1aa4934ef1d1f1e27fc2b171df2f2fb4d9ceed62fbc77114"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/decayed_gilded_basalt_tile_slab.json5"
+hash = "0b0beedbf7a5b9e7c78db7ce57cb8aa8a7d0d41ceafe5a67e7316ce837d8e454"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/decayed_gilded_basalt_tile_stairs.json5"
+hash = "4725a0f523390ed22ff7b1f4385b7cacf598f32be8b4cfe6b310a95d286de833"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/decayed_gilded_basalt_tile_wall.json5"
+hash = "f14556e774e48bcded634264b8042c18439909fa89d01b237a740997cd3d89de"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/decayed_gilded_basalt_tiles.json5"
+hash = "8794bfb5f2774a0465b95cc3d6cda632ef8254183e82174b838bea5664a7aabd"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/decayed_granite_tiles.json5"
+hash = "53e354457bf7b31f0be61cdd90b9b75c86d07c0ac841efedbdf1cb2216eb2eb4"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/decayed_granite_tiles_slab.json5"
+hash = "075fc8f24887b60b0094a72042ef79deffa85d5035d28727e4d23b2b5974d661"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/decayed_granite_tiles_stairs.json5"
+hash = "8d90a02f4bf0fab44ab0c558885fbfb88673f24218ef3fea154c032ce1ca09e5"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/decayed_granite_tiles_wall.json5"
+hash = "79f115f79e6c4ae21dae616f20c221de04010d9d7adb94cb83f655d2e1a4f538"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/gilded_basalt_tile_slab.json5"
+hash = "048c11340efcaefa202eb47831a3b3e9530310953f876a99ff999b6db7d630d6"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/gilded_basalt_tile_stairs.json5"
+hash = "1f715df3f989f110987ab05772a991115af421ec5057ffe3a4014a931ce4cd5b"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/gilded_basalt_tile_wall.json5"
+hash = "1c305b940322cc860589e872e1fe0a1779b257590f0d04371979578f95ae2afe"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/gilded_basalt_tiles.json5"
+hash = "405076b83ed7fbb28d7b8bc445d557941992591a20a425996fad3ec4b319bf48"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/golden_brick_slab.json5"
+hash = "e4520e5d58aa25ee2f3b785a1e1f43b468dc3ba0304dbce5195767efba77ba76"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/golden_brick_stairs.json5"
+hash = "12d7270130168f31468467072917d1103abe7b8de0ba2b02dc4cf1b90e2c762a"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/golden_brick_wall.json5"
+hash = "dbf64ba809190f7c7b10a9831ba7aacd2c60b46d22e838049a994f7dc0d81873"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/golden_bricks.json5"
+hash = "8c0945cf105a3587657c7b0ecadfb523408b6e597464dd4b2d0b157022f74fb7"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/granite_bricks.json5"
+hash = "17601a7540f5dc58f76ab2bcecbe64225534970816487a15ebba768c04061091"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/granite_bricks_slab.json5"
+hash = "9f174243abf2951901e8e00f07902ac398ed70ed43516289f226a455c94b5e84"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/granite_bricks_stairs.json5"
+hash = "55a06ac26c57adbb6cf24c460baabf886388b5fe9c260e1f273b07eb498e823a"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/granite_bricks_wall.json5"
+hash = "859ff1925b9d8b13a6509a5dde800cf7c0acc9946c3716fb7edb4f0cb3479236"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/granite_tiles.json5"
+hash = "492cf261dfad140c732d4b7e468b140fd1454ab412154ab3e7882168bb33bd6d"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/granite_tiles_slab.json5"
+hash = "b69abce19e5dcce2d29acfd86693c6e90d69782e9181dac7b64f14271136cadb"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/granite_tiles_stairs.json5"
+hash = "01799ca885a018cbcc4f7e42d6167c004697a1437cf8a39154c59f0cb0040aae"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/granite_tiles_wall.json5"
+hash = "453087d510ce120bfd19bdd12726cf9366f5296b3f0d33b5d42180b868bd51ab"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/grown_granite_tiles.json5"
+hash = "89e1f6aee83cc5de399374ac698db9c3aa15ebecdaa4b48c967feeca41f8f519"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/grown_granite_tiles_slab.json5"
+hash = "535dd4a25ca094173163784ccbb1ee7d056a0fdad7497026e334a26620af2df5"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/grown_granite_tiles_stairs.json5"
+hash = "0d386645a93830d4af734597b552cc5f12fbada268a452f184a3b016e6a89442"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/grown_granite_tiles_wall.json5"
+hash = "6a18c94ead075cb6962d7fc92de0801570eb208c37cb749b7e9f487f149f196d"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/grown_gravel.json5"
+hash = "3ceddcab67033e4a1f0f8a60e279cddf047c55c9d6182ccdf076b787492b07b7"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/heavily_warted_nether_brick_tiles.json5"
+hash = "5a0ae9e41af262cc2d617beed6654013ceb71cb9caf818c19ead4e4c4785aa9e"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/heavily_warted_nether_brick_tiles_slab.json5"
+hash = "94cf609eac1b0668286f3c242a0eb6c3057e3d264f920821f5358a30afa07a68"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/heavily_warted_nether_brick_tiles_stairs.json5"
+hash = "d0751c0739b6772eb2b148ff1bc679243f3fc7fbbde5f135fa1f2e826f853c2e"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/heavily_warted_nether_brick_tiles_wall.json5"
+hash = "06e84352fb6989b81751107753a8fda3f036c5e2319358f5b579c98f9ecc76ec"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/heavy_sandy_prismarine.json5"
+hash = "b839066f8bf5d3a22f5882cf4b5ae96abde8142144f37d89f204c6b1697c835e"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/heavy_sandy_prismarine_slab.json5"
+hash = "1e2da8067d9aead8e80bbbe3279a63f659a213ed832b9b782410580f7d70c827"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/heavy_sandy_prismarine_stairs.json5"
+hash = "946ff062deb702122fcd1f241827633795f4698b8b235242dd7f0a6c8c16c8fd"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/heavy_sandy_prismarine_wall.json5"
+hash = "f70a520030947d069ca048ed8ebeef7375ca65454aa7074db06322b16feac0fa"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/indented_red_nether_bricks.json5"
+hash = "ae90d84fa77f4370f02b2b0cdb0a45d41eb1a55ceb5b84f96284ce238fcb98b8"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/nether_brick_tiles.json5"
+hash = "f49403e4cf32065fbb960d729f44218f7055355a323c5a9710fc0a5eb6c8abbe"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/nether_brick_tiles_slab.json5"
+hash = "cb124506be7cd9caf6bbd213dc3fb26adc0c6b5b674f091146b7bee1854768c1"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/nether_brick_tiles_stairs.json5"
+hash = "644e23353ab148beaa25af216192af7cb8693687066a0c04ae9a2bbeac3b8efa"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/nether_brick_tiles_wall.json5"
+hash = "17f60dd5c886964eb4b6b7ba15fe7974330dcd9f114aec3363a872e4287abcc0"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/polished_basalt_tile_slab.json5"
+hash = "791086ac2e0e43c19fef6c69b2aa17e35b24cbcc3df0f50d928dc32dfa0dc3e7"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/polished_basalt_tile_stairs.json5"
+hash = "85974b0d1921d19d9e38a6a10ded85c490ddba39a733f9a64f4fbabe1025d826"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/polished_basalt_tile_wall.json5"
+hash = "e5d3e264bab44ae86ce588d7e29b7deb871087a672b32a7a4e1918aa3e10924c"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/polished_basalt_tiles.json5"
+hash = "7a2a8c52df50007793a4709ac00a668e7e2e57b5d7a0a240353981098db4b604"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/red_nether_brick_tiles.json5"
+hash = "7afd079d17a92b78213fc237495833cdb67e720ba5561455a947015780ea431c"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/red_nether_brick_tiles_slab.json5"
+hash = "8fd5d64596cd9e3f1d0f4ae3f73526fae910e17d582b0cd3a720ebb42130983c"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/red_nether_brick_tiles_stairs.json5"
+hash = "72fd4689ad84a6010ccd94c6be8dcd85a24eeccffb3e17770468346751cdbb5f"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/red_nether_brick_tiles_wall.json5"
+hash = "022574f2198b3677594baa4b036fab853b356e5cb18b8d97c82ba81a6046b397"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/ruined_basalt_tile_slab.json5"
+hash = "7ab4fb896ee5131c2c598b772ecc099fecbcb1e0ae299b9f51872bcf3068076c"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/ruined_basalt_tile_stairs.json5"
+hash = "4871df31f2eee2e656e5f75219eaa313acfaeabd4a580df11f0dd50a79b718ec"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/ruined_basalt_tile_wall.json5"
+hash = "ef33914297be56ec715fa2ff18f6833238880a501b5d1f5dd6822465a416c478"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/ruined_basalt_tiles.json5"
+hash = "f022559d88ca41b3cb0bb238225819215f0150a3c50687eb3e820fd90eff3f3f"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/ruined_gilded_basalt_tile_slab.json5"
+hash = "0ccd2a468df7d92eb622e1857d1fbe765a5227995154530e2a60ee2b37009fe6"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/ruined_gilded_basalt_tile_stairs.json5"
+hash = "3a8eda144d2efa487df90757510dc5d45fb9892283a972fcce0f8349c501b35d"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/ruined_gilded_basalt_tile_wall.json5"
+hash = "763c2b9f462f020f240e3fb3cb006dee2251441c27b30650dba247a86bef5677"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/ruined_gilded_basalt_tiles.json5"
+hash = "6f48479729ffa5a5a2b464349d962cde1c58909877303883c7cce2204a0c1db5"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_granite_bricks.json5"
+hash = "b2bdd2f884757745a4778cb0757f662aeaafbd1cdfb286b988d6eeacc94ac0ec"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_granite_bricks_slab.json5"
+hash = "87cb0b2949fca876cb838b9a9b14698b2d92dd205bcfd76bf0eaf2c6577b4319"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_granite_bricks_stairs.json5"
+hash = "173f57b8337eda517f80f095d6c16ab765dc1c380b249e4ed04ffc64a80e5b18"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_granite_bricks_wall.json5"
+hash = "aac635eab27343aa2cf7bcd77109fd4d1e08aaf39c5cf1f7f12f8be12a10f6ba"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_granite_tiles.json5"
+hash = "44e0a29ad2af50d63585503ceee1d0db1513fb21bd35db52d137112d99ef40f4"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_granite_tiles_slab.json5"
+hash = "aea8b57e8cecd3214f46460f7a11f04ceb12ece420ecb27fd1334d4733939cbb"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_granite_tiles_stairs.json5"
+hash = "c439d2ffb01fd5d8956f80801b308f0c7cf757f7408eba409243b945924657a8"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_granite_tiles_wall.json5"
+hash = "88555a54d513dea84987c89d61139e3b81986e720206e80f6e52c2369e8a870f"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_prismarine.json5"
+hash = "5cb10740af92fac49e9758331debb8e310587ce3a6781c68959551517b75cba4"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_prismarine_bricks.json5"
+hash = "f23275fb4d1fad2f2ddb6e3a372b9e6dcba654270c67ee1d68d9edfe97742ae1"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_prismarine_bricks_slab.json5"
+hash = "5c9cc39e976a17b8ff50e319b4a445cf5f94d70706e378c03b4b818fe16f6e70"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_prismarine_bricks_stairs.json5"
+hash = "031780984759c5113b99616326e32f2e012f64059929571ba35311ab0e44a560"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_prismarine_bricks_wall.json5"
+hash = "5fea6b97850dbf1c9df77a0103714bcea6452a042866df24056106e1a38a1c43"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_prismarine_slab.json5"
+hash = "141041b05012ac9bdd06b1bc951741278ea1676eb169853489a17df341de6388"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_prismarine_stairs.json5"
+hash = "77cbed2e596064958e8b785e86fe3c4601c2c2e9c99ae1ddad9f3878529856d0"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/sandy_prismarine_wall.json5"
+hash = "15a3b3956e1f126903d1a2f30ecfa5096d404776d7bf8ec03b5d42ecffd6d3e1"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/warted_nether_brick_tiles.json5"
+hash = "a4e2823ddbd808c173a7f1b6a8c0d5b99036a03cd077d165cbe4039f7e58b00a"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/warted_nether_brick_tiles_slab.json5"
+hash = "a8ebbbffdae647efda79aa591451bae238f430105215029bd19e812fe6798883"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/warted_nether_brick_tiles_stairs.json5"
+hash = "0bc6e6e82597fa2d3e875274e7238286ba44b1c5a1a1cf4360a4633e4f7ff68b"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/warted_nether_brick_tiles_wall.json5"
+hash = "91fc0e43b40ab9b37ef620ddf5eb256afbe46fd9e1c56ff2edb5b9b7275a53ca"
+
+[[files]]
+file = "config/blockswap/known_states/goetyhostility/wildfire_statue.json5"
+hash = "fd302964e1e0d47f4d280843c662b00655640d02e206e1fb4815bf31ba16a68e"
+
+[[files]]
 file = "config/blockswap/known_states/golemoverhaul/candle_golem_block.json5"
 hash = "555a1bea8f077d0558de2035ae2f46bf9084a7bee2882765be338b0d5ea43eab"
 
@@ -68178,7 +68678,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "1fd85c145f848ffc35168a85df7b5564d619992948f4c22cb89ebae7321aa7ab"
+hash = "4d651c5d89b514e6f3cb6c5ea0811c077518e17fd08f6f9994386a0d6f4bb4b9"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69234,15 +69734,15 @@ hash = "b210c055941cc7f2fe127d83acb81d4851e7cdbd64913e90f69b53c321a79167"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vampirism.snbt"
-hash = "da09fb30f3bad771daff079893c45a7f1dd55d03b43979172b7660f3c7b38755"
+hash = "d0a7e854299e4ac1b08d347f3886ac63c47e6726ac659ff80306d23be1e265c1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vampirism_2.snbt"
-hash = "cf7d3e59f6edcae4cb10f15007deca170e75c447dfeb385fe151621ef2650d15"
+hash = "107a480d3d7a68c80df0cbcb7c96da961e0051f69330e7b240337ff5290c85eb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vampirism_werewolves.snbt"
-hash = "3af6e0f644e07099aa327a5ec5c545b1d71fb50a2bc791a28d26813125970881"
+hash = "10ee53c5793c8dcc989562f6ce70ef0244c96b5e7e4aa0e46ae3775d178c3dde"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -69363,6 +69863,10 @@ hash = "bd6a2e3f7244a47df057bba4edb0eda1e7799d89723fdc1eb94899f9176469d7"
 [[files]]
 file = "config/goety_cataclysm/goety_cataclysm-spells.toml"
 hash = "7bb0e6225488642a1355ab13a3cad29cdb9e1bb0a3b396297751888cac9a337b"
+
+[[files]]
+file = "config/goetyhostility/goetyhostility-common.toml"
+hash = "fe120500f908ca99ff38c2ee10d4cc39e38c2ed99dc229f33575a3528a2aed43"
 
 [[files]]
 file = "config/golemoverhaul.jsonc"
@@ -69650,7 +70154,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "252206a6c30a0d084292723320b3ceb7cd17fe21d7a9c2f9d6990e2b9e046a4e"
+hash = "6cf1da9547ca620cf483155b6136588182362194d4931d454f9a923a9d216209"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -69941,8 +70445,12 @@ file = "config/jei/world/local/Waves/lookupHistory.ini"
 hash = "b497bd5347383552517807b723e11184eb10f8e2ef7ce6c061cfa72ef769d4da"
 
 [[files]]
+file = "config/jei/world/local/Wither_test/lookupHistory.ini"
+hash = "78010bf9674629440469a70c9a0fda0397d111800b191dcc6720c1f878118eec"
+
+[[files]]
 file = "config/jei/world/local/vampire_quest/lookupHistory.ini"
-hash = "7698fa2b8214ac6a9f3699a5876fa414749981eaf7eb47601f41e62f09b24a40"
+hash = "13b8ee49f07bab19828ce8c2218235305c1bfec9b9991fff3f145abbe4b1093d"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_23ced690/lookupHistory.ini"
@@ -70114,7 +70622,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "d4033d900fa0ebd1b3d795080735131229868b753bf394fe6fd6de68d56078e2"
+hash = "e89ba53911d9885a036b87980f4d805a0b61c7b74ba531f8b634897969e6507d"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70237,6 +70745,10 @@ file = "config/music_events/memory_SP_Vampirism_Qest.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
+file = "config/music_events/memory_SP_Wither_test.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
 file = "config/music_events/memory_unknown.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
@@ -70259,6 +70771,10 @@ hash = "12e21e8f6b4f99c727bf907935dbc7140cfd8e332f494e067f1c5fb7077b98d2"
 [[files]]
 file = "config/naturescompass-common.toml"
 hash = "e9f315861a5c0f7e2446dc6dc27a467dc540d0a454b831f650323bf3c9a96c57"
+
+[[files]]
+file = "config/nbtedit.toml"
+hash = "6dcb7b7cd9535fa48737b35818c68cc84c4f2784e9300a52ee0780e5148e74f7"
 
 [[files]]
 file = "config/nerb.yaml"
@@ -70310,7 +70826,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "367a8ca1745d78ad7f686a90c5d4ec647ae3690e4d3084593cb6ce59c9f08f94"
+hash = "20b8b2b7b2e8017191c2694a879633bbaca914738e0ebad1d7d6ae34c39b73b9"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70326,7 +70842,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "c9724368be82741ba1ca389f1da2125e6a7e5e912d0d1d7bd82f06df83661537"
+hash = "ee3d95a8a1c9c73e316358159c4cc676490957fe413d00d9376a759a04185817"
 
 [[files]]
 file = "config/pal.properties"
@@ -70563,6 +71079,10 @@ hash = "d0bda31643714b4b52628e8804c1ee68961225d532e17286cd83c8e973690599"
 [[files]]
 file = "config/paxi/resourcepacks/Nether Redstone Golem/pack.mcmeta"
 hash = "4010b9aa01f477417abfb32dd9a461cd5282fbe7bad929dd747cd00c9559c48e"
+
+[[files]]
+file = "config/paxi/resourcepacks/PS Shielded - Xaero Frame 1.0.0.zip"
+hash = "54e69ad8384c12328f0ab837b8ff8a5c81e1b7b21414326750f357e04fb767eb"
 
 [[files]]
 file = "config/paxi/resourcepacks/Slightly-Improved-Font-1.1.5.zip"
@@ -71330,7 +71850,7 @@ hash = "ec1221e7e2a807eb462e055b5bc526161452e371d70bf42e71786f16524b1af3"
 
 [[files]]
 file = "config/vampirism-client.toml"
-hash = "d5a816a0e35e4827e3cb9862ac7b2e808fa49870c69cdb21bfb731b02421a612"
+hash = "0e29bde161ea96edf0ef8d74183bacbae876f700f07ffc2fe34a767cc73e2152"
 
 [[files]]
 file = "config/vampirism-common.toml"
@@ -71506,7 +72026,7 @@ hash = "8dbbc7f4dbd08409926cda9f55af548473b95e5a04a279251289346c211f0f49"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "316eed053ff6286c7d48b1ea8d35da3b631871f8081f1d27bf34e784dab73165"
+hash = "ab67dbfb6ec79d60189c0310c8f9fb7fd8c9695db6fd8f0d3a081eb0c1087e67"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -71526,7 +72046,7 @@ hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
 
 [[files]]
 file = "config/xaero/world-map/profiles/default.cfg"
-hash = "0f5b1cb1bb7b73030f3e641ac19fd6bd37264f919922dc65782934446de33f25"
+hash = "34d10132bef98146f3bdf7ba8e2d925a1111679bac5af6038446d31a35a51e7f"
 
 [[files]]
 file = "config/xaero/world-map/server_profiles/default.cfg"
@@ -77865,11 +78385,6 @@ hash = "b851eeb36ea249bd3f30f025ad3694698625e8d7e727bcd01a4df204f4466d14"
 metafile = true
 
 [[files]]
-file = "mods/clean-swing-through-grass.pw.toml"
-hash = "d4182cc326ade91353c6fddea10bdd76ff292825cff5a867a3db79caaa1b4368"
-metafile = true
-
-[[files]]
 file = "mods/clickable-advancements.pw.toml"
 hash = "c44a3d6930dbe5871724dd4e39da90780dcfc864bc4cfa08cd5f9a2e79440ded"
 metafile = true
@@ -78027,11 +78542,6 @@ metafile = true
 [[files]]
 file = "mods/create-rustic-structures.pw.toml"
 hash = "e75146f3bae7de3bcdd348bbe2a7014b19cde04a89d6c37777fc08f0e80ec9cf"
-metafile = true
-
-[[files]]
-file = "mods/create-sabers.pw.toml"
-hash = "c44572f5bd26c960330b395305a32416b9df0adc9d6df1271de7e83a5059685f"
 metafile = true
 
 [[files]]
@@ -78477,6 +78987,11 @@ metafile = true
 [[files]]
 file = "mods/goety-cataclysm.pw.toml"
 hash = "7d11a3bfadc9afa8d3fc8a0f4a040f9b186c0841c2b43393391e9d9f8196b378"
+metafile = true
+
+[[files]]
+file = "mods/goety-hostility.pw.toml"
+hash = "9f97460a93f16afe7c6b29b0792933091772647f30420f411dbb3783cbd36ee4"
 metafile = true
 
 [[files]]

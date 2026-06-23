@@ -29,18 +29,21 @@
 				}
 			}
 			id: "1FED017AF22E96E9"
+			invisible: true
 			tasks: [{
-				id: "187C5A1CED260E73"
-				title: "Lupus"
-				type: "checkmark"
+				id: "276FC1DE7FF4C82C"
+				key: "is_wolf"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
+			title: "Lupus"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1FED017AF22E96E9"]
 			description: [
-				"As a werewolf, you will receive buffs to your defense and attack, being able to pierce some armor in your base form. Your later werewolf forms can be used at any time, &obut you are weaker when using them during the day.&r"
+				"As a werewolf, you will receive buffs to your defense and attack, being able to pierce some armor in your base form. &oWhile you will be transformed automatically at night, you can also transform during the day, but you will be weaker, and can only stay in them for a limited time, shown by the red bar over your hotbar.&r In addition, you will only be able to consume meat."
 				"Open the werewolf menu either by clicking the button in your inventory or through the keybind (Default P)"
 			]
 			icon: {
@@ -70,8 +73,8 @@
 				title: "Learn about being a werewolf"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4532D8D7E4963F89"]
@@ -94,8 +97,8 @@
 				}
 			]
 			title: "Learn about the altar"
-			x: 1.5d
-			y: -0.5d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["65D60C5290E5786B"]
@@ -119,28 +122,296 @@
 				value: 1
 			}]
 			title: "Become a werewolf (kinda)"
-			x: 1.5d
-			y: -1.5d
+			x: -6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["034DBB22E2907A5E"]
+			description: [
+				"While you grow stronger, you'll come across options with two choosable skills. These skills are &oexclusive&r and you can only choose one."
+				"At level 4, your skill tree opens up to 3 paths, these being &oBeast, Survivalist, and Human, focusing on combat, movement, and utilities respectively. While not exclusive, later skills such as forms cost more points, so be sure to think over your choices. &oYou cannot easily reset your perks.&r"
+			]
 			id: "1CFAF1433C2BE3AC"
+			tasks: [{
+				block: "werewolves:stone_altar"
+				block_type: 0
+				checkItem: false
+				id: "29F331500298CEDE"
+				isItemInteraction: true
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:flint_and_steel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:torch"
+							}
+							{
+								Count: 1b
+								id: "minecraft:fire_charge"
+							}
+						]
+					}
+				}
+				type: "questsadditions:use"
+				value: 4L
+			}]
+			title: "reach lvl 4"
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1CFAF1433C2BE3AC"]
+			description: [""]
+			id: "143F22ADA2229BF4"
+			tasks: [{
+				block: "werewolves:stone_altar"
+				block_type: 0
+				checkItem: false
+				id: "3FE93039416E2436"
+				isItemInteraction: true
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:flint_and_steel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:torch"
+							}
+							{
+								Count: 1b
+								id: "minecraft:fire_charge"
+							}
+						]
+					}
+				}
+				type: "questsadditions:use"
+				value: 14L
+			}]
+			title: "reach lvl 14"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FED017AF22E96E9"]
+			description: [
+				"&o&4Faction controlled villages&r are protected and occupied by one of the three factions. While exploring, you may find a village already with a fragile totem. If not, you can make a base and head yourself."
+				"When claimed by a faction, all workstations and beds will be claimed by that faction. Right clicking a village totem not belonging to you will start &oa raid&r wherein the attacking faction will begin spawning and must be fought off by the defending faction. Raids can also occur randomly, or by entering a village with the Bad Omen effect from another faction."
+			]
+			id: "0AEBCA228D3D7205"
+			tasks: [{
+				icon: "vampirism:totem_base"
+				id: "101713617B3E3D4A"
+				observe_type: 0
+				timer: 0L
+				title: "Find a totem base (Or make your own)"
+				to_observe: "vampirism:totem_base"
+				type: "observation"
+			}]
+			title: "Village of Werewolves"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0AEBCA228D3D7205"]
+			description: ["In a controlled village, there will be a representative of the controlling faction. They will offer you tasks or missions to complete. Once at max level, you can talk to them about becoming a Lord."]
+			id: "02CD43D7360146B2"
+			tasks: [{
+				id: "03D6731B67B02031"
+				stat: "vampirism:tasks_accepted"
+				type: "stat"
+				value: 1
+			}]
+			title: "Represent Wolf"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02CD43D7360146B2"]
+			description: ["After reaching max level, you can talk to the werewolf representative and accept a task to become a Werewolf Lord. One of the requirements are werewolf teeth, which only drop from Alpha werewolves in The Werewolf Heaven biome."]
+			id: "1BC30C22E89D0830"
 			tasks: [
 				{
-					count: 7L
-					id: "41FDBD504877CB9A"
-					item: { Count: 7, id: "werewolves:cracked_bone" }
+					count: 2L
+					id: "6554074924C2BE63"
+					item: "werewolves:werewolf_tooth"
 					type: "item"
 				}
 				{
-					count: 9L
-					id: "014348CE2FF3D188"
-					item: { Count: 9, id: "werewolves:liver" }
+					id: "177DBC696A1B7F0B"
+					stat: "vampirism:win_village_capture"
+					type: "stat"
+					value: 3
+				}
+				{
+					count: 32L
+					id: "5879E9C3CF4BBF5E"
+					item: { Count: 32, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+				{
+					entity: "vampirism:vampire_imob"
+					id: "29589CA795D201C1"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "vampirism:hunter"
+					id: "35DC74A5A255071C"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Become Werewolf Lord"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FED017AF22E96E9"]
+			description: ["To cure yourself of being a werewolf, use a syringe on another werewolf to acquire a &oStrange Injection&r then inject yourself by right clicking an injection chair."]
+			id: "2132D9E3E29FB05D"
+			optional: true
+			tasks: [{
+				id: "4EE9554A1B813F8D"
+				item: "werewolves:injection_un_werewolf"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FED017AF22E96E9"]
+			description: ["Found as rewards and as loot, they are bound to you once equipped, only being removable by destroying the item. They take damage when you die"]
+			id: "2D0037293AA421E0"
+			tasks: [
+				{
+					id: "13921B8DDE596C95"
+					item: {
+						Count: 1
+						id: "werewolves:dream_catcher"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2729874BE21C2629"
+					item: {
+						Count: 1
+						id: "werewolves:bone_necklace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49DE749D4B7B6FE6"
+					item: {
+						Count: 1
+						id: "werewolves:charm_bracelet"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
-			title: "reach lvl 4"
-			x: 2.0d
+			title: "Acessories"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1BC30C22E89D0830"]
+			description: ["Once you've become a lord, you can get a minion. &oYou can only have a number of minions equal to your lord level.&r To recruit a minion, find a weak werewolf npc and interact with them holding a Moon Charm. Moon charms are received as rewards for completing the task, &o\"Minion Control.\"&r"]
+			id: "1C7B5C5AA9263D78"
+			tasks: [{
+				id: "720634DA0C623751"
+				item: "werewolves:werewolf_minion_charm"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C7B5C5AA9263D78"]
+			description: [
+				"Interacting with minions shows their inventory menu and accessory slots. From there you can order them to follow you, defend you, Defend the area, Stay, or Collect resources. Alternatively, you can edit their appearance and lock them from accepting global commands, which you can do by accessing the command menu (default R)"
+				""
+				"Minions start out weak, but can grow stronger with the usage of more enhanced moon charms. The tasks required to obtain these charms become available as you level up in your lord status."
+			]
+			id: "4A73DC6507969015"
+			tasks: [{
+				id: "100DA68D4F055013"
+				item: "werewolves:werewolf_minion_upgrade_simple"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4A73DC6507969015"]
+			description: ["Minons will have 4 attribute: Inventory Size, Health, Strength, Resource Efficiency. When you level up your minion, they gain a skill point that you can spend to increase one of these attributes."]
+			id: "13D002D731503C1F"
+			tasks: [{
+				id: "3465C68AD78627FC"
+				item: "werewolves:werewolf_minion_upgrade_enhanced"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13D002D731503C1F"]
+			id: "6F0A377AFDFEDD93"
+			tasks: [{
+				id: "7CE8C87AB5A5DD0A"
+				item: "werewolves:werewolf_minion_upgrade_special"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["143F22ADA2229BF4"]
+			description: ["Once you've hit max level at 14, you can start to increase your age rank. You can do this by killing mobs with your bite attack. To check your progress on increasing your rank, interact with the stone altar fire bowls. As your age increases, you get more bite strength, damage, health, time to spend in your werewolf form during the day, and healing from your bite attack. However, you will also take more damage from silver oil and hunters, as well as having harsher prices from villagers."]
+			id: "58DC57C5FB7FE225"
+			tasks: [{
+				id: "065248AF27DED116"
+				title: "Learn about ageing"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FED017AF22E96E9"]
+			id: "3EED08264DB9E447"
+			optional: true
+			tasks: [{
+				biome: "werewolves:werewolf_heaven"
+				id: "41358AF0C64E63EA"
+				type: "biome"
+			}]
+			title: "Find the werewolf heaven"
+			x: -0.5d
 			y: -2.5d
 		}
 	]

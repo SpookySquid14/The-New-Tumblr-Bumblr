@@ -123,7 +123,7 @@
 		{
 			dependencies: ["265ADD6A31E72A87"]
 			description: [
-				"To grow stronger than level 4, you need the altar, a multiblock structure "
+				"At level 4, your skill tree opens up. To grow stronger than level 4, you need the altar, a multiblock structure "
 				"The required structure depends on the level, you need a specific amount of \"structure points\". The actual value of the structure you build is calculated after the following rules:"
 				"The points each pillar piece add depend on the block inside: Stone Brick: 1, Iron Block: 2, Gold Block: 3."
 				"{@pagebreak}"
@@ -199,7 +199,10 @@
 		}
 		{
 			dependencies: ["28751771BB33158E"]
-			description: ["An easy way to carry around a large amount of blood without filling your inventory is to craft a &o&4Blood Container&r. It acts like a fluid tank, allowing you to add blood to it by right clicking with a bottle, and doing the same to extract it."]
+			description: [
+				"An easy way to carry around a large amount of blood without filling your inventory is to craft a &o&4Blood Container&r. It acts like a fluid tank, allowing you to add blood to it by right clicking with a bottle, and doing the same to extract it."
+				"In addition, one can drink straight from it if they have a feeding adapter, gained through doing a quest."
+			]
 			id: "126E583A9A6E0B9F"
 			rewards: [{
 				id: "76BD916649A09E5E"
@@ -306,7 +309,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["217C93369948019D"]
+			dependencies: ["7211E9ED86A677EE"]
 			hide_dependency_lines: true
 			id: "23CA48A4CC6590F1"
 			rewards: [{
@@ -369,41 +372,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0DCB98197E7C8069"]
-			description: ["Pure Blood is obtained through killing vampire barons found in the vampire forest. It comes in 5 different purities and is a key crafting component and item for leveling up"]
-			id: "217C93369948019D"
-			rewards: [{
-				id: "3E469C0A3BC78FCB"
-				item: {
-					Count: 1
-					id: "eternalcurrencies:currency_item"
-					tag: {
-						currencies: [{
-							amount: 100L
-							currency: "eternalcurrencies:ancientcoins"
-						}]
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7691ACD474A72B11"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "vampirism:pure_blood"
-					}
-				}
-				type: "item"
-			}]
-			title: "Pure Blood"
-			x: -4.5d
-			y: -6.0d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7211E9ED86A677EE"]
@@ -549,7 +519,8 @@
 			dependencies: ["7211E9ED86A677EE"]
 			description: [
 				"&o&4Faction controlled villages&r are protected and occupied by one of the three factions. While exploring, you may find a village already with a fragile totem. If not, you can make a base and head yourself."
-				"When claimed by a faction, all workstations and beds will be claimed by that faction."
+				"When claimed by a faction, all workstations and beds will be claimed by that faction. Right clicking a totem head not belonging to you will start &oa raid&r in which some of the attacking faction will spawn and try to take out the current possessors."
+				"Right clicking a village totem not belonging to you will start &oa raid&r wherein the attacking faction will begin spawning and must be fought off by the defending faction. Raids can also occur randomly, or by entering a village with the Bad Omen effect from another faction."
 			]
 			id: "786D983E45D03A2F"
 			tasks: [{
@@ -562,46 +533,48 @@
 				type: "observation"
 			}]
 			title: "Village of Vampires"
-			x: -2.0d
-			y: -1.5d
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7211E9ED86A677EE"]
 			description: ["Found as rewards and as loot, they are bound to you once equipped and take damage when you die"]
 			id: "3776262630099D76"
-			tasks: [{
-				id: "5FA5308D896B1F35"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "vampirism:ring"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "vampirism:amulet"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "vampirism:obi_belt"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
+			tasks: [
+				{
+					id: "0C2F4F74DAB7FABF"
+					item: {
+						Count: 1
+						id: "vampirism:amulet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "42CC8842E6C800DF"
+					item: {
+						Count: 1
+						id: "vampirism:ring"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4326DC05F381F64C"
+					item: {
+						Count: 1
+						id: "vampirism:obi_belt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "Acessories"
 			x: 1.0d
 			y: -2.0d
@@ -632,25 +605,7 @@
 		}
 		{
 			dependencies: ["786D983E45D03A2F"]
-			description: [
-				"If you interact with a totem not belonging to your faction, &oa raid will occur&r. During this, your faction and the village's current faction will take time to gather troops before the fight ensues, shown by the colored bar at the top. Once the bar is fully one color, the raid will end with the faction of that color taking control of the village."
-				"Raids can also start at random points in time or by entering the village with Bad Omen of another faction."
-			]
-			id: "493816AC0FD1E26D"
-			progression_mode: "flexible"
-			tasks: [{
-				id: "53C8A0F35B582710"
-				stat: "vampirism:win_village_capture"
-				title: "Lay claim"
-				type: "stat"
-				value: 1
-			}]
-			x: -3.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["493816AC0FD1E26D"]
-			description: ["In a controlled village, there will be a representative of the controlling faction. They will offer you tasks or missions to complete."]
+			description: ["In a controlled village, there will be a representative of the controlling faction. They will offer you tasks or missions to complete. Once at max level, you can talk to them about becoming a Lord."]
 			id: "0551FA703A26C8C1"
 			tasks: [{
 				id: "2BCE029638EF4725"
@@ -658,9 +613,9 @@
 				type: "stat"
 				value: 1
 			}]
-			title: "Represent"
-			x: -4.0d
-			y: -3.5d
+			title: "Represent Vamp"
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0CBBAA0351FD2EF2"]
@@ -754,7 +709,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7211E9ED86A677EE"]
@@ -941,40 +896,12 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["0551FA703A26C8C1"]
-			id: "0DCB98197E7C8069"
-			tasks: [{
-				biome: "vampirism:vampire_forest"
-				id: "3ACC87EA94D604E6"
-				title: "Visit the vampire forest"
-				type: "biome"
-			}]
-			x: -3.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["217C93369948019D"]
-			id: "3F6A62109E765935"
-			tasks: [{
-				advancement: "vampirism:minion/become_lord"
-				criterion: ""
-				id: "659F84A4C87F23C3"
-				title: "Become a Vampire Lord"
-				type: "advancement"
-			}]
-			x: -3.5d
-			y: -7.0d
-		}
-		{
-			dependencies: [
-				"3F6A62109E765935"
-				"6B4B90EFD206B3A9"
-				"3ACC87EA94D604E6"
-			]
+			dependencies: ["739016F7702D61F7"]
 			dependency_requirement: "all_started"
+			hide_dependency_lines: false
 			hide_until_deps_visible: true
 			id: "7A3D9AF435C8F761"
 			tasks: [{
@@ -982,8 +909,8 @@
 				structure: "vampirism:mother"
 				type: "structure"
 			}]
-			x: 0.0d
-			y: -8.0d
+			x: -1.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7211E9ED86A677EE"]
@@ -996,8 +923,117 @@
 				item: "vampirism:altar_cleansing"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0551FA703A26C8C1"]
+			description: ["After reaching max level, you can talk to the vampire representative and accept a task to become a Vampire Lord. One of the requirements is pure blood, which only drops from Vampire Barons in the Vampire Forest"]
+			id: "7D9272CEE9C29156"
+			tasks: [
+				{
+					id: "114A90251B6A2C85"
+					item: "vampirism:pure_blood_4"
+					type: "item"
+				}
+				{
+					id: "534235E18DAB66EE"
+					stat: "vampirism:win_village_capture"
+					type: "stat"
+					value: 3
+				}
+				{
+					count: 32L
+					id: "09C57666BC46D4A1"
+					item: { Count: 32, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+				{
+					id: "544A92166F1C1FF7"
+					stat: "vampirism:infected_creatures"
+					type: "stat"
+					value: 25
+				}
+			]
+			title: "Become Vampire Lord"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D9272CEE9C29156"]
+			description: ["Once you've become a lord, you can get a minion. &oYou can only have a number of minions equal to your lord level.&r To recruit a minion, find a weak vampire npc and interact with them holding a Vampire Minion Binding. Moon charms are received as rewards for completing the task, &o\"Minion Control.\"&r"]
+			id: "0272168A10CD6E01"
+			tasks: [{
+				id: "76604174F27A8167"
+				item: "vampirism:vampire_minion_binding"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0272168A10CD6E01"]
+			description: [
+				"Interacting with minions shows their inventory menu and accessory slots. From there you can order them to follow you, defend you, Defend the area, Stay, or Collect resources. Alternatively, you can edit their appearance and lock them from accepting global commands, which you can do by accessing the command menu (default R)"
+				""
+				"Minions start out weak, but can grow stronger with the usage of more enhanced moon charms. The tasks required to obtain these charms become available as you level up in your lord status."
+			]
+			id: "2A6F2C6150FE049A"
+			tasks: [{
+				id: "0145BE9AC16A7E6C"
+				item: "vampirism:vampire_minion_upgrade_simple"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2A6F2C6150FE049A"]
+			description: ["Minons will have 4 attribute: Inventory Size, Health, Strength, Resource Efficiency. When you level up your minion, they gain a skill point that you can spend to increase one of these attributes."]
+			id: "312B3C60B1D25B21"
+			tasks: [{
+				id: "52A916128F991A72"
+				item: "vampirism:vampire_minion_upgrade_enhanced"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["312B3C60B1D25B21"]
+			id: "7060CA91C7A5740C"
+			tasks: [{
+				id: "203B17F97537DBBD"
+				item: "vampirism:vampire_minion_upgrade_special"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7211E9ED86A677EE"]
+			hide_dependency_lines: true
+			id: "739016F7702D61F7"
+			optional: true
+			tasks: [{
+				biome: "vampirism:vampire_forest"
+				id: "3C773CC895B77991"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["143F22ADA2229BF4"]
+			description: ["Once you've hit max level at 14, you can start to increase your age rank. You can do this by killing mobs with your bite attack. To check your progress on increasing your rank, interact with a coffin. As your age increases, you get more health, less sun damage, less blood drain, the ability to drain blood from attacks, and faster resurrection. However, you will also take more damage from fire, garlic, holy water, and hunters, as well as having harsher prices from villagers."]
+			id: "0CC9087813E5F33E"
+			tasks: [{
+				id: "0E1B5C297A6102F9"
+				title: "Learn about ageing"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -7.0d
 		}
 	]
 	tags: ["vampiresquest"]

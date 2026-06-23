@@ -43,17 +43,18 @@
 		}
 		{
 			id: "385C574E48EB6DE7"
+			rewards: [{
+				auto: "invisible"
+				id: "702C742AB400AE67"
+				ignore: false
+				key: "is_wolf"
+				type: "extraquests:key_value"
+				value: 1L
+			}]
 			tasks: [{
-				icon: {
-					Count: 1
-					id: "werewolves:dark_pelt_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "2796564BEEED8763"
-				title: "Figure something out idk"
-				type: "custom"
+				id: "5E93C90485D4ED23"
+				title: "Figure it out later"
+				type: "checkmark"
 			}]
 			x: 1.0d
 			y: -1.0d
