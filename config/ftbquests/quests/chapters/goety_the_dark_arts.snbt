@@ -11,24 +11,14 @@
 		}
 	}
 	id: "4A0E12C943429894"
-	images: [
-		{
-			height: 1.0d
-			image: "modpack:textures/goety-first-steps.png"
-			rotation: 0.0d
-			width: 7.0d
-			x: 0.0d
-			y: -5.0d
-		}
-		{
-			height: 8.0d
-			image: "vampirism:block/dark_steel"
-			rotation: 0.0d
-			width: 6.0d
-			x: 0.0d
-			y: -14.0d
-		}
-	]
+	images: [{
+		height: 1.0d
+		image: "modpack:textures/goety-first-steps.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: 0.0d
+		y: -5.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -55,6 +45,7 @@
 						"patchouli:book": "goety:black_book"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "Introduction to The Dark Arts"

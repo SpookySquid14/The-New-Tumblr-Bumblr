@@ -30,7 +30,7 @@ hash = "c223ccc848a734915aef74ffcbebe2f6c3afe4e190fe873736c5600216bc2851"
 
 [[files]]
 file = "config/Mekanism/client.toml"
-hash = "096303223e1f1cb384f3fca3d0a825857aab63608013d4300d21486e2ea8e53a"
+hash = "fca8fa900edd0fb23b32b6227bcc6edae5531e8db9b6a4e298ff278c5f5a313d"
 
 [[files]]
 file = "config/Mekanism/common.toml"
@@ -68678,7 +68678,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "4d651c5d89b514e6f3cb6c5ea0811c077518e17fd08f6f9994386a0d6f4bb4b9"
+hash = "8b11227128f3d53b7e48e2d30c9ff8a8d37ea95acf32142d3bcc012ab17a2adb"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69638,7 +69638,7 @@ hash = "46c287350facf19239fc9523d9bd50c662645fd104aa0c6bc0b6e531f03619e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apothic_adventures.snbt"
-hash = "d5e3d852078ecea628aa1fc12d8210f03f5cfe86293128fd13dcf77dc1aa9626"
+hash = "0d1ef5f44e06b7a1cc60fc2b26061e79c7212fa18e4fd947e1f404d564516b6f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
@@ -69678,7 +69678,7 @@ hash = "207f2c345050dde364507ddb4bc3b1fcf63019f7a8f9923180dd095b8d904551"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
-hash = "a35f4dd0f8f9add935353a01556616ae11e123a3cb6d9de62b940e16bb8cb6ea"
+hash = "9eccdaaa15a74bbffe0f56e16f669349b0c10c25045afcc5935c880ff38b5bd3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/help.snbt"
@@ -70086,7 +70086,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "36f0b553780c26a48532e85d5095ed9714d4b6e8b837aacea3f1fd55ac2fe262"
+hash = "0a3475cf47cfb24f4a4974c721d5541025033f4748c0ab1f9951fe1f56f28fad"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -70302,7 +70302,7 @@ hash = "465fa33408ebab36923f2c4e677369d93eb82806438120b62e19dc4e08ca4549"
 
 [[files]]
 file = "config/jei/world/local/New_World__27/lookupHistory.ini"
-hash = "440c18ed809b7fb2e00477cbe7cdfe789ba3d6c7031093489fd1b9fde064270d"
+hash = "ee4dc842a06582a1d2a680d8ad51640d71e4318394e2416fad58221c26ad2c3e"
 
 [[files]]
 file = "config/jei/world/local/New_World__3/lookupHistory.ini"
@@ -70453,8 +70453,12 @@ file = "config/jei/world/local/vampire_quest/lookupHistory.ini"
 hash = "13b8ee49f07bab19828ce8c2218235305c1bfec9b9991fff3f145abbe4b1093d"
 
 [[files]]
+file = "config/jei/world/server/Test_Server_23ced690/bookmarks.ini"
+hash = "5fba85e8f6c8fb389cce80a4d223fda4bc52b4013711c6ea4fe54993d5f6dbdf"
+
+[[files]]
 file = "config/jei/world/server/Test_Server_23ced690/lookupHistory.ini"
-hash = "748c8fffb52b2ff3828444ede6e8417676ceca6821b898b357f4c9f88f0c4bc3"
+hash = "83ab39ee2c4e960ed2aa1abb4932b5a8ac6704163ecea9fac678c37d46b2aeaa"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_fbacacb7/lookupHistory.ini"
@@ -70622,7 +70626,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "e89ba53911d9885a036b87980f4d805a0b61c7b74ba531f8b634897969e6507d"
+hash = "3fda6c07cac053eda2505d0e55eb74edac4d1838a953b1355ed9e7eb63cd6533"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70689,6 +70693,10 @@ file = "config/music_events/audios/harbinger_theme.ogg"
 hash = "8fccb24cd7216ac42c258c4bcd416043e536d56f0e63b02cd2c88d9970ffa038"
 
 [[files]]
+file = "config/music_events/audios/hk_dirtmouth.ogg"
+hash = "86bd085bc194bac2bc0da96f0e8e9d3998e705287606f4a990963c6dc14ab908"
+
+[[files]]
 file = "config/music_events/audios/ignis_theme_1.ogg"
 hash = "ef08e3390be02cd518e81d1d975ba0566fb0c318b7a40b2131049612aed98d2d"
 
@@ -70699,6 +70707,10 @@ hash = "7135716862cceb17edc5860afbc532caa775c98bc4bce1698c251ecfbdd54f61"
 [[files]]
 file = "config/music_events/audios/ignis_theme_3.ogg"
 hash = "097002cafa7224ed51748d79b182b6e564e9bb3cf553d2841fa092bec5473553"
+
+[[files]]
+file = "config/music_events/audios/let_the_battles_begin.ogg"
+hash = "bf1aba32bc127f125256093f90513452b96a7445061d548c06e6cc5fdfda6b9a"
 
 [[files]]
 file = "config/music_events/audios/leviathan_theme_1.ogg"
@@ -70717,12 +70729,24 @@ file = "config/music_events/audios/monstrosity_theme.ogg"
 hash = "26c0f2902bf7fa6ed91df99a82115841df49b439a5fb58425da5e2017ff7370a"
 
 [[files]]
+file = "config/music_events/audios/mother.ogg"
+hash = "703c1c47a886a84a6826e35a1b8e2d3485204e2e843f37333e7bfcbf189fe7fb"
+
+[[files]]
 file = "config/music_events/audios/remnant_theme.ogg"
 hash = "10598612e778c6154d3383594313708d7288397b9eb101d28bcf976fa868d9ed"
 
 [[files]]
 file = "config/music_events/audios/scylla_theme.ogg"
 hash = "d0fa013b424e022d5d42a0ee83063d7ef7adfec9a3809bbf07d579c07bc24ad9"
+
+[[files]]
+file = "config/music_events/audios/silence.ogg"
+hash = "48ef98472ad825c3cfae1687ad531a114bb2fa3f693a64fae1be2ad3519ae953"
+
+[[files]]
+file = "config/music_events/audios/vampire_forest.ogg"
+hash = "4f78014aac6346030011f7b3491f9a2271992816f299012dc4a8a519272ba019"
 
 [[files]]
 file = "config/music_events/memory_MP_100.102.54.46_25565.json"
@@ -70754,7 +70778,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/music_events/music_events.toml"
-hash = "6514e4ff91b07c12eddb0ba7e4e616d320f19278f09a4248cde10d8f23384b71"
+hash = "344c15483351e0c8e1151ab0c1f5997235741c5b20bbc40dcc2fd42d6cd6be3d"
 
 [[files]]
 file = "config/naturalist.json"
@@ -70826,7 +70850,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "20b8b2b7b2e8017191c2694a879633bbaca914738e0ebad1d7d6ae34c39b73b9"
+hash = "8812ea211dff6f24c6de681a59f60ea0d5ba0744cbb7c63faa2a511e295d05d6"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70842,7 +70866,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "ee3d95a8a1c9c73e316358159c4cc676490957fe413d00d9376a759a04185817"
+hash = "12050e70a6b8116e0f4ea6796166c2b1231099ae9a7750fd2e46193b911848ff"
 
 [[files]]
 file = "config/pal.properties"
@@ -71854,7 +71878,7 @@ hash = "0e29bde161ea96edf0ef8d74183bacbae876f700f07ffc2fe34a767cc73e2152"
 
 [[files]]
 file = "config/vampirism-common.toml"
-hash = "438085905818308a96e77c0203d6f6d2488fa37f71b41508e4463a79d7f70584"
+hash = "646bddf70de42eaa8eaa12308cd984640ee595df3df14300c913f4678e52d5e9"
 
 [[files]]
 file = "config/vampirism_integrations-common.toml"
@@ -72022,11 +72046,11 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "8dbbc7f4dbd08409926cda9f55af548473b95e5a04a279251289346c211f0f49"
+hash = "7f979f9fa27c25ea92f3eacf2513c68da924a1d2cc4371171ed48c2bbb201aac"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "ab67dbfb6ec79d60189c0310c8f9fb7fd8c9695db6fd8f0d3a081eb0c1087e67"
+hash = "cc1d3a8837de194786028eec3025b8fb7bdef24ae4768fb0b7421b9a8f6f3382"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -80387,6 +80411,10 @@ hash = "b991537dd86f7dee818d8d059b8beb21d17d606ae797865e0c71b8cc9918c1de"
 [[files]]
 file = "resourcepacks/Tombstones redux 1.20 v3.zip"
 hash = "c3fcadf445d99870f386e20b5f6463a04c550f5b28c9608227a79b08267c24e0"
+
+[[files]]
+file = "resourcepacks/Xray_Ultimate_1.21_v5.2.2.zip"
+hash = "ba22ae2ba81bdcc4f9c221536805e147d7b72922310e29d40fe767d18dd77afe"
 
 [[files]]
 file = "resourcepacks/[Forge] IE Reimmersed v1.1.zip"

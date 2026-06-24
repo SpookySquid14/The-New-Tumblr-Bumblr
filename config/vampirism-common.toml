@@ -13,7 +13,7 @@
 #Affects all worlds. This is only considered on server (or in singleplayer), but Forge requires us to put it here
 [common-server]
 	#Whether glass bottles should be automatically be converted to blood bottles when needed
-	autoConvertGlassBottles = false
+	autoConvertGlassBottles = true
 	#If enabled adds a craftable umbrella that can be used to slowly walk though sunlight without taking damage
 	umbrella = false
 	#Enable a custom vampirism log file that logs specific faction actions

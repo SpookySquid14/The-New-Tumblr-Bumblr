@@ -6,6 +6,12 @@
     "result": "deny"
   },
   {
+    "mod": "quark",
+    "when": "onjoin",
+    "biome": ["alexscaves:abyssal_chasm", "alexscaves:candy_cavity", "alexscaves:forlorn_hollows", "alexscaves:magnetic_caves", "alexscaves:primordial_caves", "alexscaves:toxic_caves"],
+    "result": "deny"
+  },
+  {
     "maxheight": 0,
     "mob": ["mebahelcreaturesdraugr:draugr","mebahelcreaturesdraugr:draugr_archer","mebahelcreaturesdraugr:skeleton_warrior","mebahelcreaturesdraugr:draugr_wight","mebahelcreaturesdraugr:draugr_scourge","mebahelcreaturesdraugr:infernal_draugr"],
     "when": "onjoin",
@@ -57,12 +63,6 @@
   {
     "phase": "after_day_50",
     "mob": ["mebahelcreaturesdraugr:infernal_draugr","born_in_chaos_v1:fallen_chaos_knight"],
-    "when": "onjoin",
-    "result": "default"
-  },
-  {
-    "phase": "after_day_75",
-    "mob": ["born_in_chaos_v1:supreme_bonescaller"],
     "when": "onjoin",
     "result": "default"
   },
