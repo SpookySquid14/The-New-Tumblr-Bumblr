@@ -487,8 +487,8 @@
 				item: "goety:ominous_pyre"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -11.0d
+			x: 5.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["31E5A46546ECB533"]
@@ -541,8 +541,8 @@
 				}
 			]
 			title: "Blackened Steel"
-			x: 0.0d
-			y: -14.0d
+			x: 0.5d
+			y: -14.5d
 		}
 		{
 			id: "2444BC79553C5720"
@@ -576,11 +576,12 @@
 				to_observe: "goety:neollager{Magic:1b}"
 				type: "observation"
 			}]
-			x: 9.5d
+			x: 12.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
+			hide_dependency_lines: true
 			icon_scale: 0.8d
 			id: "3E0A8370ABD6904E"
 			rewards: [{
@@ -604,11 +605,12 @@
 				to_observe: "goety:pillager_servant"
 				type: "observation"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
+			hide_dependency_lines: true
 			icon_scale: 0.8d
 			id: "05B28CA909012603"
 			rewards: [{
@@ -632,11 +634,12 @@
 				to_observe: "goety:piker_servant"
 				type: "observation"
 			}]
-			x: 8.0d
-			y: -12.0d
+			x: 7.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
+			hide_dependency_lines: true
 			icon_scale: 0.8d
 			id: "5149DB63495995D3"
 			rewards: [{
@@ -660,11 +663,12 @@
 				to_observe: "goety:signaler_servant"
 				type: "observation"
 			}]
-			x: 8.0d
-			y: -11.0d
+			x: 7.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
+			hide_dependency_lines: true
 			icon_scale: 0.8d
 			id: "7C5D7671DAA986C6"
 			rewards: [{
@@ -688,7 +692,7 @@
 				to_observe: "goety:vindicator_servant"
 				type: "observation"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: -12.0d
 		}
 		{
@@ -716,8 +720,8 @@
 				to_observe: "goety:vindicator_chef_servant"
 				type: "observation"
 			}]
-			x: 5.0d
-			y: -13.0d
+			x: 8.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["7C5D7671DAA986C6"]
@@ -744,7 +748,7 @@
 				to_observe: "goety:mountaineer_servant"
 				type: "observation"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: -13.0d
 		}
 		{
@@ -772,26 +776,12 @@
 				to_observe: "goety:crusher_servant"
 				type: "observation"
 			}]
-			x: 5.0d
+			x: 8.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
-			id: "217861ABFB5F79E4"
-			tasks: [{
-				checkItem: true
-				entity: "goety:neollager"
-				id: "07623F37D0A7972D"
-				item: "minecraft:white_banner"
-				nbt: { }
-				type: "questsadditions:interaction"
-				value: 1L
-			}]
-			x: 6.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["00B0A750A72CAB66"]
+			hide_dependency_lines: true
 			icon_scale: 0.8d
 			id: "1AC0003D5314863F"
 			rewards: [{
@@ -815,11 +805,12 @@
 				to_observe: "goety:evoker_servant"
 				type: "observation"
 			}]
-			x: 6.0d
-			y: -11.0d
+			x: 9.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
+			hide_dependency_lines: true
 			icon_scale: 0.8d
 			id: "0F90B9F434BA6FC9"
 			rewards: [{
@@ -843,11 +834,12 @@
 				to_observe: "goety:iceologer_servant"
 				type: "observation"
 			}]
-			x: 6.0d
-			y: -10.0d
+			x: 10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
+			hide_dependency_lines: true
 			icon_scale: 0.8d
 			id: "6D7A7C65979E593E"
 			rewards: [{
@@ -871,8 +863,8 @@
 				to_observe: "goety:geomancer_servant"
 				type: "observation"
 			}]
-			x: 8.0d
-			y: -14.0d
+			x: 10.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["0F90B9F434BA6FC9"]
@@ -899,11 +891,12 @@
 				to_observe: "goety:cryologer_servant"
 				type: "observation"
 			}]
-			x: 5.0d
-			y: -10.0d
+			x: 10.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["00B0A750A72CAB66"]
+			hide_dependency_lines: true
 			icon_scale: 0.8d
 			id: "6B1E38F1DB5151CB"
 			rewards: [{
@@ -927,7 +920,7 @@
 				to_observe: "goety:wind_caller_servant"
 				type: "observation"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: -13.0d
 		}
 		{
@@ -959,7 +952,7 @@
 				to_observe: "goety:storm_caster_servant"
 				type: "observation"
 			}]
-			x: 9.0d
+			x: 11.0d
 			y: -13.0d
 		}
 		{
@@ -986,8 +979,8 @@
 				to_observe: "goety:prisoner"
 				type: "observation"
 			}]
-			x: 8.0d
-			y: -10.0d
+			x: 4.5d
+			y: -11.0d
 		}
 		{
 			id: "5446295418EB8A53"
@@ -1003,11 +996,12 @@
 				item: "goety:raiding_horn"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 12.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["60E5EA6F2E1A7502"]
+			hide_until_deps_complete: true
 			icon_scale: 0.8d
 			id: "36C4FFB47FCE8671"
 			rewards: [{
@@ -1032,8 +1026,8 @@
 				type: "observation"
 			}]
 			title: "Make a Neollager"
-			x: 7.0d
-			y: -10.0d
+			x: 4.5d
+			y: -12.0d
 		}
 		{
 			id: "4050E263CF84966F"
@@ -1060,8 +1054,8 @@
 				type: "questsadditions:use"
 				value: 1L
 			}]
-			x: 9.0d
-			y: -12.0d
+			x: 12.5d
+			y: -12.5d
 		}
 		{
 			id: "363ADCA456813957"
@@ -1094,8 +1088,8 @@
 				item: "goety:raiding_chest"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -10.0d
+			x: 12.0d
+			y: -9.5d
 		}
 		{
 			id: "0C117A57B0910F1A"
@@ -1111,8 +1105,8 @@
 				item: "goety:ominous_idol"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -9.0d
+			x: 11.5d
+			y: -8.0d
 		}
 		{
 			id: "21BED1D1B797AF6D"
@@ -1129,7 +1123,7 @@
 				id: "73957EE8584DB3B2"
 				type: "advancement"
 			}]
-			x: 10.0d
+			x: 13.0d
 			y: -10.5d
 		}
 		{
@@ -1147,8 +1141,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -13.0d
+			x: 3.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["31E5A46546ECB533"]
@@ -1165,8 +1159,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -12.0d
+			x: 0.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["63CDE68EA6FC634C"]
@@ -1182,8 +1176,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -13.0d
+			x: 0.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["31E5A46546ECB533"]
@@ -1201,7 +1195,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -12.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["5A82DB6A8913997F"]
@@ -1218,7 +1212,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -13.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["132158B6BF2E4012"]
@@ -1235,7 +1229,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -14.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["63CDE68EA6FC634C"]
@@ -1245,8 +1239,8 @@
 				item: "goety:thrash_glove"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -12.0d
+			x: 1.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["5A82DB6A8913997F"]
@@ -1257,10 +1251,11 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -12.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["7CF531E5081C9D69"]
+			hide_until_deps_complete: true
 			id: "31E5A46546ECB533"
 			rewards: [{
 				amount: 100L

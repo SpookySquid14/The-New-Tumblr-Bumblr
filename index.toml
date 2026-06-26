@@ -30,7 +30,7 @@ hash = "c223ccc848a734915aef74ffcbebe2f6c3afe4e190fe873736c5600216bc2851"
 
 [[files]]
 file = "config/Mekanism/client.toml"
-hash = "fca8fa900edd0fb23b32b6227bcc6edae5531e8db9b6a4e298ff278c5f5a313d"
+hash = "096303223e1f1cb384f3fca3d0a825857aab63608013d4300d21486e2ea8e53a"
 
 [[files]]
 file = "config/Mekanism/common.toml"
@@ -1462,7 +1462,7 @@ hash = "ce07dcc8f1e6d751f1c79f03ea7132ad06cac0d21e2a5cfd01eb3a7dc265cb80"
 
 [[files]]
 file = "config/betterf3.toml"
-hash = "f24d1ad3ce742bd2fa3d17e65193bf94f79cfa27fe79ba801d1a4ef4bb45b769"
+hash = "00add02167529cdc32f44d77220baf3b6ea3b89082f91d849f16c80c5605651d"
 
 [[files]]
 file = "config/betterfortresses-forge-1_20.toml"
@@ -1502,7 +1502,7 @@ hash = "1cae9855e777afbbdca5cd858bc66d10069c902fbd1b8d073cbedace3fa71779"
 
 [[files]]
 file = "config/biomemusic.json"
-hash = "04ec8b02dba10211572e6aaf9d81d818dec4d4d834612b3e7f24e16b7303105f"
+hash = "fafbdccba1dad416764b2dad7066086e3d5f1dd18613bc02be293ee968c7bd12"
 
 [[files]]
 file = "config/biomeswevegone/mob_spawn.json"
@@ -68678,7 +68678,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "6eac72ed11db9ad8e9ff0169db6a4c48c1c07c48e76247398cc31b66831b0a62"
+hash = "6665055f1112c389dba3686138e0213c0c8c8eca6f790db6cb5627e6a4f8ce8b"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69678,7 +69678,7 @@ hash = "207f2c345050dde364507ddb4bc3b1fcf63019f7a8f9923180dd095b8d904551"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
-hash = "9eccdaaa15a74bbffe0f56e16f669349b0c10c25045afcc5935c880ff38b5bd3"
+hash = "e9ffa2ec008c6195d2dbd226a8cbc06b5a854b354242a7495b2ba54522c6f6a1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/help.snbt"
@@ -70242,7 +70242,7 @@ hash = "1a48573e86f96d6022747402a384d2cd8b290b083959ddf3a1a4fec0f66a97a0"
 
 [[files]]
 file = "config/jei/world/local/Music/lookupHistory.ini"
-hash = "eb33ccd4ff37cc7998e1c8b10f4676be4ee2d3d796556150fb521188cc6ce140"
+hash = "dc8f35f1f90143399505a19f2b9566988e8cd78935901249d86150620b9f899b"
 
 [[files]]
 file = "config/jei/world/local/New_Uni/lookupHistory.ini"
@@ -70630,7 +70630,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "47e7944b09c98def3d8ed3ffe041f472d8728b382236f8f865b4b345ebdc53bc"
+hash = "3d2ae93be6a4ad9e812f4e056a8ab9e6a49f51437960aaaf7a9ed502d81bb0b1"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70810,7 +70810,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/music_events/music_events.toml"
-hash = "86d5e5e0c01f96001a2448e6650af2f7ca7626c5b3a6fb82e98758378c1c3076"
+hash = "abd4ab0cd54a72f699ebb6e4e45895179c5f5876bd6e3aa5caa51483208c2596"
 
 [[files]]
 file = "config/naturalist.json"
@@ -70882,7 +70882,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "f3706b7a4f1600f21bc06a6a75fe8033fdc6483f392b2ac960cf157ae7a74dde"
+hash = "abc93581ff3db0cab72493702a8a65120abd71f71828d3c87a2703cc05442e48"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70898,7 +70898,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "86caea0e6c237b3196817c380aef104f599d1014100832bb76faf4f3feb63f48"
+hash = "f0efa1e4233276d15e691837a739a0d2016d092d18db32f85257184c44f5690c"
 
 [[files]]
 file = "config/pal.properties"
@@ -78319,6 +78319,11 @@ metafile = true
 [[files]]
 file = "mods/biomancy.pw.toml"
 hash = "0c2de1a5cba8ef66f25a36e3c63da221a310e064fc3cb7df7819197d044d5db8"
+metafile = true
+
+[[files]]
+file = "mods/biome-music.pw.toml"
+hash = "3bf40bdb5320776ef63bd0d6e7e5a129561b0cebfd05aa2a3adedfe0fb2ac10d"
 metafile = true
 
 [[files]]

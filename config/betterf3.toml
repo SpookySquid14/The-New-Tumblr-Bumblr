@@ -94,6 +94,18 @@
 		chunk_file = true
 
 [[modules_left]]
+	name = "sound"
+	name_color = 16755200
+	value_color = 5636095
+	maximum_color = 43690
+	enabled = true
+
+	[modules_left.lines]
+		sounds = true
+		ambient_sounds = true
+		mood = true
+
+[[modules_left]]
 	name = "location"
 	name_color = 43520
 	value_color = 5636095
@@ -136,18 +148,6 @@
 		vampirism_vampire = true
 		cave_creature = true
 		deep_sea_creature = true
-
-[[modules_left]]
-	name = "sound"
-	name_color = 16755200
-	value_color = 5636095
-	maximum_color = 43690
-	enabled = true
-
-	[modules_left.lines]
-		sounds = true
-		ambient_sounds = true
-		mood = true
 
 [[modules_left]]
 	name = "help"
