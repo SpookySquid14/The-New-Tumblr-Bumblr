@@ -170,6 +170,104 @@
 			x: 0.0d
 			y: -1.0d
 		}
+		{
+			id: "547383EEE81FD544"
+			tasks: [{
+				id: "1AEF8E53EAE6877E"
+				item: {
+					Count: 1
+					id: "alexsmobs:ghostly_pickaxe"
+					tag: {
+						Damage: 0
+						RepairCost: 1
+						affix_data: {
+							affixes: {
+								"apotheosis:breaker/attribute/destructive": 0.8639897f
+								"apotheosis:breaker/attribute/experienced": 0.13397062f
+								"apotheosis:breaker/attribute/lengthy": 1.0f
+								"apotheosis:breaker/attribute/lucky": 0.064525306f
+								"apotheosis:breaker/special/omnetic": 1.0f
+								"apotheosis:breaker/special/radial": 1.0f
+								"apotheosis:durable": 0.29f
+							}
+							gems: [
+								{
+									Count: 1b
+									id: "apotheosis:gem"
+									tag: {
+										affix_data: {
+											rarity: "apotheosis:ancient"
+										}
+										gem: "apotheosis:overworld/royalty"
+										uuids: [
+											[I;
+												64457665
+												2049723822
+												-1301586638
+												-642088370
+											]
+											[I;
+												468943654
+												-327464416
+												-2136063152
+												189924754
+											]
+											[I;
+												1957864417
+												1403863961
+												-1975514804
+												-766955513
+											]
+										]
+									}
+								}
+								{
+									Count: 1b
+									id: "apotheosis:gem"
+									tag: {
+										affix_data: {
+											rarity: "apotheosis:ancient"
+										}
+										gem: "apotheosis:overworld/earth"
+									}
+								}
+								{
+									Count: 1b
+									id: "apotheosis:gem"
+									tag: {
+										affix_data: {
+											rarity: "apotheosis:mythic"
+										}
+										gem: "apotheosis:core/ballast"
+										uuids: [[I;
+											-1275875957
+											-1228390038
+											-2031524462
+											1059419921
+										]]
+									}
+								}
+							]
+							name: "{\"color\":\"#ED7014\",\"translate\":\"%2$s\",\"with\":[\"\",\"\"]}"
+							rarity: "apotheosis:mythic"
+							sockets: 3
+							uuids: [[I;
+								320527704
+								786123138
+								-1915841850
+								-90103259
+							]]
+						}
+						display: {
+							Name: "{\"text\":\"Bergentrückung\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
 	]
 	title: "Debug"
 }

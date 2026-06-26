@@ -7,9 +7,9 @@ ServerEvents.recipes(event => {
     'DDD'
   ],
   {
-    A: 'minecraft:redstone',
-    B: 'minecraft:coal',  //arg 3: the mapping object
-    C: 'minecraft:stone_button',
+    A: 'minecraft:redstone_block',
+    B: '#forge:plates/steel',  //arg 3: the mapping object
+    C: 'quark:iron_button',
     D: 'minecraft:iron_ingot'
   }
 ),

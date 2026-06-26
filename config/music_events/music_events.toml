@@ -13,8 +13,8 @@ cooldown_group_events = ["forest", "desert"]
 # EVENTS (TRIGGERS)
 # ==========================================
 [[events.biomes]]
-event_name = "nether_crimson_forest"
-resource_name = ["regions_unexplored:blackstone_basin"]
+event_name = "otherside_deeplands"
+resource_name = ["deeperdarker:deeplands"]
 
 
 [[events.mobs]]
@@ -25,14 +25,198 @@ detection_range = 76.0
 resource_name = ["cataclysm:maledictus"]
 
 
+[[events.mobs]]
+event_name = "boss_ender_dragon"
+priority = 3
+detection_range = 192.0
+resource_name = ["minecraft:ender_dragon"]
+
+
+[[events.mobs]]
+event_name = "Luxtructosaurus"
+priority = 3
+fade_out = 5.0
+detection_range = 76.0
+resource_name = ["alexscaves:luxtructosaurus"]
+
+
+[[events.biomes]]
+event_name = "overworld_lush_caves"
+resource_name = ["regions_unexplored:ancient_delta", "regions_unexplored:bioshroom_caves", "minecraft:lush_caves"]
+
+
+[[events.mobs]]
+event_name = "monstrosity_battle"
+priority = 3
+detection_range = 76.0
+nbt_match = ["{is_Awaken:1b}"]
+resource_name = ["cataclysm:netherite_monstrosity"]
+
+
+[[events.biomes]]
+event_name = "overworld_old_growth_taiga"
+resource_name = ["regions_unexplored:blackwood_taiga", "regions_unexplored:boreal_taiga", "regions_unexplored:golden_boreal_taiga", "regions_unexplored:pine_taiga", "minecraft:old_growth_pine_taiga", "regions_unexplored:redwoods", "regions_unexplored:sparse_redwoods", "minecraft:old_growth_spruce_taiga", "minecraft:old_growth_birch_forest"]
+
+
+[[events.biomes]]
+event_name = "overworld_abyssal_chasm"
+resource_name = ["alexscaves:abyssal_chasm"]
+
+
+[[events.biomes]]
+event_name = "overworld_primordial_caves"
+resource_name = ["alexscaves:primordial_caves"]
+
+
+[[events.biomes]]
+event_name = "overworld_toxic_caves"
+resource_name = ["alexscaves:toxic_caves"]
+
+
+[[events.mobs]]
+event_name = "leviathan_phase_2"
+priority = 3
+fade_in = 0.5
+fade_out = 5.0
+detection_range = 76.0
+nbt_match = ["{MeltDown:1b}"]
+resource_name = ["cataclysm:the_leviathan"]
+
+
+[[events.mobs]]
+event_name = "leviathan_phase_1"
+priority = 3
+fade_out = 0.5
+detection_range = 76.0
+nbt_match = ["{MeltDown:0b}"]
+resource_name = ["cataclysm:the_leviathan"]
+
+
+[[events.biomes]]
+event_name = "nether_vent_mire"
+resource_name = ["netherexp:exhaust_mire"]
+
+
+[[events.biomes]]
+event_name = "nether_nether_wastes"
+resource_name = ["regions_unexplored:redstone_abyss", "minecraft:nether_wastes"]
+
+
+[[events.structure]]
+event_name = "in_catacombs"
+priority = 2
+resource_name = ["irons_spellbooks:catacombs"]
+
+
+[[events.biomes]]
+event_name = "overworld_candy_cavity"
+resource_name = ["alexscaves:candy_cavity"]
+
+
+[[events.biomes]]
+event_name = "overworld_jungle"
+resource_name = ["regions_unexplored:eucalyptus_forest", "regions_unexplored:rainforest", "regions_unexplored:sparse_rainforest", "regions_unexplored:tropics", "minecraft:jungle"]
+
+
+[[events.biomes]]
+event_name = "overworld_meadow"
+resource_name = ["regions_unexplored:highland_fields", "minecraft:meadow"]
+
+
+[[events.mobs]]
+event_name = "harbinger_battle"
+priority = 3
+fade_out = 5.0
+detection_range = 76.0
+nbt_match = ["{Is_Act:1b}"]
+resource_name = ["cataclysm:the_harbinger"]
+
+
+[[events.biomes]]
+event_name = "overworld_forlorn_hollows"
+resource_name = ["alexscaves:forlorn_hollows"]
+
+
+[[events.biomes]]
+event_name = "overworld_dripstone_caves"
+resource_name = ["regions_unexplored:prismachasm", "regions_unexplored:redstone_caves", "minecraft:dripstone_caves"]
+
+
+[[events.biomes]]
+event_name = "overworld_frozen_peaks"
+resource_name = ["regions_unexplored:icy_heights", "minecraft:frozen_peaks"]
+
+
+[[events.mobs]]
+event_name = "enderguardian_phase_2"
+priority = 3
+fade_in = 0.5
+fade_out = 5.0
+detection_range = 76.0
+nbt_match = ["{is_Helmetless:1b}"]
+resource_name = ["cataclysm:ender_guardian"]
+
+
+[[events.mobs]]
+event_name = "scylla_battle"
+priority = 3
+fade_out = 5.0
+detection_range = 76.0
+nbt_match = ["{Act:1b}"]
+resource_name = ["cataclysm:scylla"]
+
+
+[[events.biomes]]
+event_name = "alpha_grove"
+
+
+[[events.biomes]]
+event_name = "overworld_deep_dark"
+resource_name = ["minecraft:deep_dark", "regions_unexplored:scorching_caves"]
+
+
+[[events.mobs]]
+event_name = "enderguardian_phase_1"
+priority = 3
+fade_out = 0.5
+detection_range = 76.0
+nbt_match = ["{is_Helmetless:0b}"]
+resource_name = ["cataclysm:ender_guardian"]
+
+
+[[events.biomes]]
+event_name = "overworld_aria_biblio"
+resource_name = ["ars_nouveau:archwood_forest", "ars_elemental:flourishing_forest", "ars_elemental:flashing_forest", "ars_elemental:cascading_forest", "ars_elemental:blazing_forest"]
+
+
+[[events.biomes]]
+event_name = "nether_crimson_forest"
+resource_name = ["regions_unexplored:blackstone_basin", "minecraft:crimson_forest"]
+
+
 [[events.biomes]]
 event_name = "overworld_stony_peaks"
-resource_name = ["regions_unexplored:arid_mountains", "regions_unexplored:steppe"]
+resource_name = ["regions_unexplored:arid_mountains", "regions_unexplored:steppe", "minecraft:stony_peaks"]
+
+
+[[events.biomes]]
+event_name = "overworld_lost_caves"
+resource_name = ["yungscavebiomes:lost_caves"]
+
+
+[[events.biomes]]
+event_name = "nether_soul_sand_valley_black_ice_glaciers"
+resource_name = ["netherexp:black_ice_glaciers"]
+
+
+[[events.biomes]]
+event_name = "overworld_sparse_jungle"
+resource_name = ["minecraft:sparse_jungle"]
 
 
 [[events.biomes]]
 event_name = "nether_basalt_deltas"
-resource_name = ["regions_unexplored:infernal_holt"]
+resource_name = ["regions_unexplored:infernal_holt", "minecraft:basalt_deltas"]
 
 
 [[events.mobs]]
@@ -65,110 +249,63 @@ resource_name = ["cataclysm:ignis"]
 
 
 [[events.biomes]]
+event_name = "end_end"
+resource_name = ["minecraft:the_end", "minecraft:end_highlands", "minecraft:end_midlands", "minecraft:end_barrens", "minecraft:small_end_islands"]
+
+
+[[events.biomes]]
 event_name = "overworld_magnetic_caves"
 resource_name = ["alexscaves:magnetic_caves"]
 
 
 [[events.biomes]]
-event_name = "overworld_lush_caves"
-resource_name = ["regions_unexplored:ancient_delta", "regions_unexplored:bioshroom_caves"]
-
-
-[[events.mobs]]
-event_name = "monstrosity_battle"
-priority = 3
-detection_range = 76.0
-nbt_match = ["{is_Awaken:1b}"]
-resource_name = ["cataclysm:netherite_monstrosity"]
+event_name = "otherside_overcast_columns"
+resource_name = ["deeperdarker:overcast_columns"]
 
 
 [[events.biomes]]
-event_name = "overworld_old_growth_taiga"
-resource_name = ["regions_unexplored:blackwood_taiga", "regions_unexplored:boreal_taiga", "regions_unexplored:golden_boreal_taiga", "regions_unexplored:pine_taiga", "minecraft:old_growth_pine_taiga", "regions_unexplored:redwoods", "regions_unexplored:sparse_redwoods"]
+event_name = "overworld_bamboo_jungle"
+resource_name = ["minecraft:bamboo_jungle"]
 
 
 [[events.biomes]]
-event_name = "overworld_abyssal_chasm"
-resource_name = ["alexscaves:abyssal_chasm"]
+event_name = "overworld_cherry_grove"
+resource_name = ["minecraft:cherry_grove"]
+
+
+[[events.player]]
+event_name = "overworld_under_water"
+require_underwater = true
 
 
 [[events.biomes]]
-event_name = "overworld_primordial_caves"
-resource_name = ["alexscaves:primordial_caves"]
+event_name = "overworld_frosted_caves"
+resource_name = ["yungscavebiomes:frosted_caves"]
+
+
+[[events.biomes]]
+event_name = "otherside_echoing_forest"
+resource_name = ["deeperdarker:blooming_caverns", "deeperdarker:echoing_forest"]
 
 
 [[events.biomes]]
 event_name = "overworld_snowy_slopes"
-resource_name = ["regions_unexplored:cold_deciduous_forest", "regions_unexplored:spires"]
-
-
-[[events.mobs]]
-event_name = "leviathan_phase_2"
-priority = 3
-fade_in = 0.5
-fade_out = 5.0
-detection_range = 76.0
-nbt_match = ["{MeltDown:1b}"]
-resource_name = ["cataclysm:the_leviathan"]
+resource_name = ["regions_unexplored:cold_deciduous_forest", "regions_unexplored:spires", "minecraft:snowy_slopes"]
 
 
 [[events.biomes]]
-event_name = "overworld_toxic_caves"
-resource_name = ["alexscaves:toxic_caves"]
-
-
-[[events.mobs]]
-event_name = "leviathan_phase_1"
-priority = 3
-fade_out = 0.5
-detection_range = 76.0
-nbt_match = ["{MeltDown:0b}"]
-resource_name = ["cataclysm:the_leviathan"]
+event_name = "nether_soul_sand_valley"
+resource_name = ["minecraft:soul_sand_valley", "netherexp:sorrowsquash_pastures"]
 
 
 [[events.biomes]]
 event_name = "overworld_grove"
-resource_name = ["regions_unexplored:cold_boreal_taiga", "regions_unexplored:frozen_pine_taiga", "regions_unexplored:frozen_tundra", "regions_unexplored:hyacinth_deeps", "regions_unexplored:rocky_reef"]
-
-
-[[events.biomes]]
-event_name = "nether_nether_wastes"
-resource_name = ["regions_unexplored:redstone_abyss"]
-
-
-[[events.structure]]
-event_name = "in_catacombs"
-priority = 2
-resource_name = ["irons_spellbooks:catacombs"]
-
-
-[[events.biomes]]
-event_name = "overworld_candy_cavity"
-resource_name = ["alexscaves:candy_cavity"]
-
-
-[[events.biomes]]
-event_name = "overworld_jungle"
-resource_name = ["regions_unexplored:eucalyptus_forest", "regions_unexplored:rainforest", "regions_unexplored:sparse_rainforest", "regions_unexplored:tropics"]
+resource_name = ["regions_unexplored:cold_boreal_taiga", "regions_unexplored:frozen_pine_taiga", "regions_unexplored:frozen_tundra", "regions_unexplored:hyacinth_deeps", "regions_unexplored:rocky_reef", "minecraft:grove"]
 
 
 [[events.biomes]]
 event_name = "nether_warped_forest"
-resource_name = ["regions_unexplored:glistering_meadow", "regions_unexplored:mycotoxic_undergrowth"]
-
-
-[[events.biomes]]
-event_name = "overworld_meadow"
-resource_name = ["regions_unexplored:highland_fields"]
-
-
-[[events.mobs]]
-event_name = "harbinger_battle"
-priority = 3
-fade_out = 5.0
-detection_range = 76.0
-nbt_match = ["{Is_Act:1b}"]
-resource_name = ["cataclysm:the_harbinger"]
+resource_name = ["regions_unexplored:glistering_meadow", "regions_unexplored:mycotoxic_undergrowth", "minecraft:warped_forest"]
 
 
 [[events.biomes]]
@@ -177,23 +314,13 @@ resource_name = ["regions_unexplored:joshua_desert", "minecraft:desert", "region
 
 
 [[events.biomes]]
-event_name = "overworld_forlorn_hollows"
-resource_name = ["alexscaves:forlorn_hollows"]
-
-
-[[events.biomes]]
 event_name = "overworld_forest"
-resource_name = ["minecraft:forest", "regions_unexplored:ashen_woodland", "regions_unexplored:autumnal_maple_forest", "regions_unexplored:bamboo_forest", "regions_unexplored:barley_fields", "regions_unexplored:chalk_cliffs", "regions_unexplored:cold_river", "regions_unexplored:deciduous_forest", "regions_unexplored:gravel_beach", "regions_unexplored:grassland", "regions_unexplored:grassy_beach", "regions_unexplored:magnolia_woodland", "regions_unexplored:mauve_hills", "regions_unexplored:muddy_river", "regions_unexplored:orchard", "regions_unexplored:prairie", "regions_unexplored:pumpkin_fields", "regions_unexplored:shrubland", "regions_unexplored:silver_birch_forest", "regions_unexplored:temperate_grove", "regions_unexplored:tropical_river", "regions_unexplored:willow_forest"]
+resource_name = ["minecraft:forest", "regions_unexplored:ashen_woodland", "regions_unexplored:autumnal_maple_forest", "regions_unexplored:bamboo_forest", "regions_unexplored:barley_fields", "regions_unexplored:chalk_cliffs", "regions_unexplored:cold_river", "regions_unexplored:deciduous_forest", "regions_unexplored:gravel_beach", "regions_unexplored:grassland", "regions_unexplored:grassy_beach", "regions_unexplored:magnolia_woodland", "regions_unexplored:mauve_hills", "regions_unexplored:muddy_river", "regions_unexplored:orchard", "regions_unexplored:prairie", "regions_unexplored:pumpkin_fields", "regions_unexplored:shrubland", "regions_unexplored:silver_birch_forest", "regions_unexplored:temperate_grove", "regions_unexplored:tropical_river", "regions_unexplored:willow_forest", "minecraft:birch_forest", "minecraft:dark_forest", "minecraft:old_growth_birch_forest"]
 
 
 [[events.biomes]]
 event_name = "overworld_jagged_peaks"
-resource_name = ["regions_unexplored:mountains", "regions_unexplored:pine_slopes"]
-
-
-[[events.biomes]]
-event_name = "overworld_dripstone_caves"
-resource_name = ["regions_unexplored:prismachasm", "regions_unexplored:redstone_caves"]
+resource_name = ["regions_unexplored:mountains", "regions_unexplored:pine_slopes", "minecraft:jagged_peaks"]
 
 
 [[events.biomes]]
@@ -202,55 +329,13 @@ resource_name = ["vampirism:vampire_forest", "werewolves:werewolf_heaven"]
 
 
 [[events.biomes]]
-event_name = "overworld_frozen_peaks"
-resource_name = ["regions_unexplored:icy_heights"]
-
-
-[[events.mobs]]
-event_name = "enderguardian_phase_2"
-priority = 3
-fade_in = 0.5
-fade_out = 5.0
-detection_range = 76.0
-nbt_match = ["{is_Helmetless:1b}"]
-resource_name = ["cataclysm:ender_guardian"]
-
-
-[[events.mobs]]
-event_name = "scylla_battle"
-priority = 3
-fade_out = 5.0
-detection_range = 76.0
-nbt_match = ["{Act:1b}"]
-resource_name = ["cataclysm:scylla"]
-
-
-[[events.biomes]]
-event_name = "alpha_grove"
-
-
-[[events.biomes]]
-event_name = "overworld_deep_dark"
-resource_name = ["minecraft:deep_dark", "regions_unexplored:scorching_caves"]
-
-
-[[events.biomes]]
 event_name = "overworld_badlands"
-resource_name = ["regions_unexplored:baobab_savanna", "regions_unexplored:dry_bushland"]
+resource_name = ["regions_unexplored:baobab_savanna", "regions_unexplored:dry_bushland", "minecraft:eroded_badlands", "minecraft:badlands", "minecraft:wooded_badlands"]
 
 
 [[events.biomes]]
 event_name = "overworld_swamp"
-resource_name = ["regions_unexplored:bayou", "regions_unexplored:old_growth_bayou", "regions_unexplored:fen", "regions_unexplored:fungal_fen", "regions_unexplored:marsh"]
-
-
-[[events.mobs]]
-event_name = "enderguardian_phase_1"
-priority = 3
-fade_out = 0.5
-detection_range = 76.0
-nbt_match = ["{is_Helmetless:0b}"]
-resource_name = ["cataclysm:ender_guardian"]
+resource_name = ["regions_unexplored:bayou", "regions_unexplored:old_growth_bayou", "regions_unexplored:fen", "regions_unexplored:fungal_fen", "regions_unexplored:marsh", "minecraft:swamp", "minecraft:mangrove_swamp"]
 
 
 [[events.mobs]]
@@ -264,7 +349,7 @@ resource_name = ["cataclysm:ancient_remnant"]
 
 [[events.biomes]]
 event_name = "overworld_flower_forest"
-resource_name = ["regions_unexplored:clover_plains", "regions_unexplored:flower_fields", "minecraft:sunflower_plains", "regions_unexplored:poppy_fields", "regions_unexplored:rocky_meadow"]
+resource_name = ["regions_unexplored:clover_plains", "regions_unexplored:flower_fields", "minecraft:sunflower_plains", "regions_unexplored:poppy_fields", "regions_unexplored:rocky_meadow", "minecraft:flower_forest"]
 
 
 # ==========================================
@@ -400,4 +485,50 @@ target_events = ["overworld_forlorn_hollows"]
 
 [[audios."alexscaves:sounds/music/dulcet"]]
 target_events = ["overworld_candy_cavity"]
+
+[[audios."alexscaves:sounds/music/lux"]]
+volume = 1.2
+target_events = ["Luxtructosaurus"]
+
+[[audios."netherexp:sounds/music/game/nether/soul_sand_valley/black_ice_glaciers/sublimate"]]
+target_events = ["nether_soul_sand_valley_black_ice_glaciers"]
+
+[[audios."netherexp:sounds/music/game/nether/warped_forest/hospital"]]
+
+[[audios."minecraft:sounds/music/game/nether/nether1"]]
+target_events = ["nether_vent_mire"]
+
+[[audios."minecraft:sounds/music/game/nether/nether2"]]
+target_events = ["nether_vent_mire"]
+
+[[audios."minecraft:sounds/music/game/nether/nether3"]]
+target_events = ["nether_vent_mire"]
+
+[[audios."minecraft:sounds/music/game/nether/nether4"]]
+target_events = ["nether_vent_mire"]
+
+[[audios."sloping_mountains"]]
+target_events = ["overworld_frosted_caves"]
+
+[[audios."antique"]]
+target_events = ["overworld_lost_caves"]
+
+[[audios."minecraft:sounds/music/game/end/end"]]
+target_events = ["end_end"]
+
+[[audios."minecraft:sounds/music/game/end/boss"]]
+target_events = ["boss_ender_dragon"]
+
+[[audios."aria_biblio"]]
+volume = 0.75
+target_events = ["overworld_aria_biblio"]
+
+[[audios."echoing_forest"]]
+target_events = ["otherside_echoing_forest"]
+
+[[audios."overcast_columns"]]
+target_events = ["otherside_overcast_columns"]
+
+[[audios."deeplands"]]
+target_events = ["otherside_deeplands"]
 
