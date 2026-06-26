@@ -2,9 +2,6 @@
 # UNIVERSAL SETTINGS
 # ==========================================
 [universal]
-fade_in = 3.0
-fade_out = 3.0
-muffling_when_paused = 1.0
 seamless_handoff = true
 cooldown_group_time = 15.0
 cooldown_group_events = ["overworld_old_growth_taiga", "overworld_abyssal_chasm", "overworld_primordial_caves", "overworld_toxic_caves", "nether_vent_mire", "nether_nether_wastes", "overworld_candy_cavity", "overworld_jungle", "overworld_meadow", "overworld_forlorn_hollows", "overworld_dripstone_caves", "overworld_frozen_peaks", "alpha_grove", "overworld_deep_dark", "overworld_aria_biblio", "nether_crimson_forest", "overworld_lost_caves", "nether_soul_sand_valley_black_ice_glaciers", "overworld_stony_peaks", "overworld_sparse_jungle", "nether_basalt_deltas", "end_end", "overworld_magnetic_caves", "otherside_overcast_columns", "overworld_bamboo_jungle", "overworld_cherry_grove", "overworld_frosted_caves", "otherside_echoing_forest", "overworld_snowy_slopes", "nether_soul_sand_valley", "overworld_grove", "nether_warped_forest", "overworld_desert", "overworld_forest", "overworld_jagged_peaks", "vampirism_ambient_forest", "overworld_badlands", "overworld_swamp", "overworld_flower_forest", "overworld_lush_caves", "otherside_deeplands"]
@@ -193,6 +190,11 @@ resource_name = ["cataclysm:ender_guardian"]
 [[events.biomes]]
 event_name = "nether_crimson_forest"
 resource_name = ["regions_unexplored:blackstone_basin", "minecraft:crimson_forest"]
+
+
+[[events.dimensions]]
+event_name = "overworld_overworld"
+resource_name = ["minecraft:overworld"]
 
 
 [[events.biomes]]
@@ -411,40 +413,40 @@ target_events = ["overworld_forest", "overworld_lush_caves", "overworld_old_grow
 target_events = ["overworld_forest", "overworld_lush_caves", "overworld_old_growth_taiga", "overworld_swamp"]
 
 [[audios."minecraft:sounds/music/game/calm1"]]
-target_events = ["alpha_grove", "overworld_forest", "overworld_cherry_grove", "overworld_grove", "overworld_lush_caves", "overworld_old_growth_taiga"]
+target_events = ["alpha_grove", "overworld_forest", "overworld_cherry_grove", "overworld_grove", "overworld_lush_caves", "overworld_old_growth_taiga", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/calm2"]]
-target_events = ["overworld_forest", "alpha_grove", "overworld_cherry_grove", "overworld_grove", "overworld_lush_caves", "overworld_old_growth_taiga"]
+target_events = ["overworld_forest", "alpha_grove", "overworld_cherry_grove", "overworld_grove", "overworld_lush_caves", "overworld_old_growth_taiga", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/calm3"]]
-target_events = ["overworld_forest", "alpha_grove", "overworld_cherry_grove", "overworld_grove", "overworld_lush_caves", "overworld_old_growth_taiga"]
+target_events = ["overworld_forest", "alpha_grove", "overworld_cherry_grove", "overworld_grove", "overworld_lush_caves", "overworld_old_growth_taiga", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/hal1"]]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_flower_forest", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_sparse_jungle", "overworld_stony_peaks"]
+target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_flower_forest", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/hal2"]]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_flower_forest", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_sparse_jungle", "overworld_stony_peaks"]
+target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_flower_forest", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/hal3"]]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_flower_forest", "overworld_frozen_peaks", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_sparse_jungle", "overworld_stony_peaks"]
+target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_flower_forest", "overworld_frozen_peaks", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/hal4"]]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_frozen_peaks", "overworld_flower_forest", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks"]
+target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_frozen_peaks", "overworld_flower_forest", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/nuance1"]]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_flower_forest", "overworld_grove", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle"]
+target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_flower_forest", "overworld_grove", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/nuance2"]]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_flower_forest", "overworld_grove", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle"]
+target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_flower_forest", "overworld_grove", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/piano1"]]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks"]
+target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/piano2"]]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks"]
+target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/piano3"]]
-target_events = ["overworld_forest", "alpha_grove", "overworld_lush_caves", "overworld_badlands", "overworld_bamboo_jungle", "overworld_frozen_peaks", "overworld_grove", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks"]
+target_events = ["overworld_forest", "alpha_grove", "overworld_lush_caves", "overworld_badlands", "overworld_bamboo_jungle", "overworld_frozen_peaks", "overworld_grove", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/broken_clocks"]]
 target_events = ["overworld_forest"]
@@ -459,7 +461,7 @@ target_events = ["overworld_forest", "overworld_lush_caves"]
 target_events = ["overworld_forest", "overworld_lush_caves", "overworld_bamboo_jungle", "overworld_cherry_grove", "overworld_flower_forest", "overworld_meadow", "overworld_old_growth_taiga", "overworld_sparse_jungle"]
 
 [[audios."minecraft:sounds/music/game/one_more_day"]]
-target_events = ["overworld_forest", "overworld_lush_caves"]
+target_events = ["overworld_forest", "overworld_lush_caves", "overworld_overworld"]
 
 [[audios."vampire_forest"]]
 target_events = ["vampirism_ambient_forest"]
@@ -542,7 +544,7 @@ target_events = ["overworld_lush_caves"]
 target_events = ["overworld_lush_caves"]
 
 [[audios."minecraft:sounds/music/game/os_piano"]]
-target_events = ["overworld_lush_caves"]
+target_events = ["overworld_lush_caves", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/crescent_dunes"]]
 target_events = ["overworld_desert", "overworld_badlands"]
