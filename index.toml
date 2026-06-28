@@ -68574,7 +68574,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "d59ee44a6d274860ca3da8176f961cb7e327b94d7a63d4cf9b46ddf106b579f9"
+hash = "0363925ab10d5815329d645701cc84ff6d458c0c26e502aa3bd6d802b51645b0"
 
 [[files]]
 file = "config/enchdesc.json"
@@ -68678,7 +68678,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "bea06a41c28cf52c8628161888b3522b07c2a43297f813b9df38abd66cecdb0b"
+hash = "02d28f77cf7116143281a84b141b880e4fa14bdd76b1f4d913d8bfd92544941d"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70154,7 +70154,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "6cf1da9547ca620cf483155b6136588182362194d4931d454f9a923a9d216209"
+hash = "33c87d75c607d7a8c6739db170b79d1e8c2dadb44aa7e1db582d70d0208f4c71"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -70178,7 +70178,7 @@ hash = "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "8c1bd9cd113a0f7043816d2b95c069eb61d4418add0f09ddf0d7392e195ce412"
+hash = "94dc14a12192d8c9c0e58593e4dfcd99993457c5b4c6bded10289476eeea0191"
 
 [[files]]
 file = "config/jei/world/local/Apothic/lookupHistory.ini"
@@ -70211,6 +70211,10 @@ hash = "cae715823bb741729eb852a1b0e54d8d9bb0b332c4e8790f2ad27b54049d4cec"
 [[files]]
 file = "config/jei/world/local/Diamonds/lookupHistory.ini"
 hash = "399d8d40fb96ea742eafcfabc94fcbf0806565b42fbbc3b7af6c1d42c815b8b0"
+
+[[files]]
+file = "config/jei/world/local/Dungeons_Arise/lookupHistory.ini"
+hash = "4125520224d79c9e20a6b1c32d6136e2b39bcb594acd238acf68923fed52c1db"
 
 [[files]]
 file = "config/jei/world/local/Enchant/lookupHistory.ini"
@@ -70458,7 +70462,7 @@ hash = "41dd5b8b507ef7fdbde45a9a201f78b0146bf1453cd970caf9f90617bb63b09e"
 
 [[files]]
 file = "config/jei/world/local/shuttle/lookupHistory.ini"
-hash = "bfd8375ba9c94e6ef7e24d6f3ef7c374c4a2b411ca0178a9a3d27854cccd4f9e"
+hash = "7e324d8745595cf0d63f93f73836ffb4355a46350ccfedf24df8de06d85b3d11"
 
 [[files]]
 file = "config/jei/world/local/vampire_quest/lookupHistory.ini"
@@ -70638,7 +70642,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "9cea9cbff6d799db4c673a885ac3a13e5cf6fd1fd829fc88fd4d6cdbec076452"
+hash = "76f826282b4fb6dad1b7bf39f0d16112b68f80d3d2a11863a1f4f8c65a3064e0"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70890,7 +70894,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "81dc9ee6035bafb85dab23dd74186518db4ebcbd79841ec05ccc6abfe6cdfc00"
+hash = "4f2c3587d8f1c398308f0107c888fc00095a44f45418c7827163abdc1ebbd1a8"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70906,7 +70910,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "1449d03338aa70d608d08a3eb130a299e082c7445a43dd405e6ef0354652a325"
+hash = "dadf74301307c5b6356f5937bd24d44f01ad3b399cd26d703198532aaa333356"
 
 [[files]]
 file = "config/pal.properties"
@@ -71542,7 +71546,7 @@ hash = "347434fce931147ef1b31896190829a06a857a561eab04e28354af67f3894564"
 
 [[files]]
 file = "config/sodiumextras-client.toml"
-hash = "31c27da722c97e9734a5baa406dcdb404fe97cb8da1ec2ee00313aab63897d22"
+hash = "7e14507f30770d3772a3bb74ad99ff3e6f48edb52ac50c007ac1c6a0395a10dd"
 
 [[files]]
 file = "config/solapplepie-client.toml"
@@ -72518,7 +72522,7 @@ hash = "a19d088435d6334295d34fcf23fd2bd181a071a637ceb37cfd0dfdfb32312c56"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "7f4f2769d66651c1a0bbcea5534771c2ca99dbc14735486ed55e4f436f0c1b77"
+hash = "a92ef5e11048414c4085c848bb0b91c9311101a07f04e83a466a209c066198cf"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -72566,7 +72570,7 @@ hash = "7f979f9fa27c25ea92f3eacf2513c68da924a1d2cc4371171ed48c2bbb201aac"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "cc1d3a8837de194786028eec3025b8fb7bdef24ae4768fb0b7421b9a8f6f3382"
+hash = "657da702a05196ec5650e0fbbd0251095dee8fee93f7be9cd12d807539c3312d"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -76718,7 +76722,7 @@ hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
 [[files]]
 file = "kubejs/client_scripts/pokeball.js"
-hash = "a2b01a7143fc75662d4d94d0b4d945cc97e6da4d2697d7a2963294cf89273f23"
+hash = "563c6df70ef7348d41841e1b936c158d89d2405738186256f9f5e156da0b2546"
 
 [[files]]
 file = "kubejs/client_scripts/spice_of_life/jei_integration.js"
@@ -78325,6 +78329,10 @@ file = "kubejs/server_scripts/Modpack/Recipes/rope_alt_recipes.js"
 hash = "dcbb4e9cd6a31c3f95cdaa41db64f874b41ddb407771493ff713cf7b98a74ebe"
 
 [[files]]
+file = "kubejs/server_scripts/Modpack/Recipes/sophisticated_chests.js"
+hash = "3a95ed1279ce73166b195fa0ab0c0572e28c693f99cb75265e7bc814bbf19bb8"
+
+[[files]]
 file = "kubejs/server_scripts/Modpack/Recipes/tag_alt_recipes.js"
 hash = "bc866c2f0ee184d17e207b0d8cf4394d3ab7e797e0ee6d8c5106bacf55fde0b9"
 
@@ -78350,7 +78358,7 @@ hash = "731aabc50e8625ab1ad5c8b37e07c1361ece75f35063a96f1e444b475323b8de"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/Tags/items.js"
-hash = "e81988ceabdf704a4bb22b0096ded9dea7f272a5db1ad27b61caa4c5c25ffc85"
+hash = "af1f75622f4dce1c030333b38049e9eda0b8fcac119d37f69fac6a527041e17a"
 
 [[files]]
 file = "kubejs/server_scripts/Modpack/Tags/mowzies_bosses.js"
@@ -78803,11 +78811,6 @@ metafile = true
 [[files]]
 file = "mods/biomancy.pw.toml"
 hash = "0c2de1a5cba8ef66f25a36e3c63da221a310e064fc3cb7df7819197d044d5db8"
-metafile = true
-
-[[files]]
-file = "mods/biome-music.pw.toml"
-hash = "3bf40bdb5320776ef63bd0d6e7e5a129561b0cebfd05aa2a3adedfe0fb2ac10d"
 metafile = true
 
 [[files]]
@@ -80132,7 +80135,7 @@ metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "79ffd0e915048e397a84e1f7a601269958d195bdd97516890b0ec7b4353e3a3a"
+hash = "d2f01545623d135655e7f227ca0f82c45812e505fb48a9d94f053ee91fcd1912"
 metafile = true
 
 [[files]]
@@ -80766,11 +80769,6 @@ hash = "5d9c7d0e5a78babe5cfcf412ff1565be9b6d41efddb2cd59397e4c47317c9f0b"
 metafile = true
 
 [[files]]
-file = "mods/visual-loot-edit.pw.toml"
-hash = "7ef1d52ebd06b64907455d5c14c98ff3328314267fdf54859e4b6c82cb6fe2ce"
-metafile = true
-
-[[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "1cf12264601cef0cbc9d838043356187ab75e6a0de495d9598bfc709cbebe9c1"
 metafile = true
@@ -80793,6 +80791,11 @@ metafile = true
 [[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "f729d9375abdacc39fc939a18afd093d221257bf0ddd9c9bc0f5b5b49ba0259e"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise-lost-architects.pw.toml"
+hash = "a907f99969ecfa4091cb9a238659b415ef0b08a5ba93160f1b5f3b3925bdbb2f"
 metafile = true
 
 [[files]]
