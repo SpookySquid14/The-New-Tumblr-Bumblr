@@ -4,7 +4,7 @@
 [universal]
 seamless_handoff = true
 cooldown_group_time = 15.0
-cooldown_group_events = ["overworld_old_growth_taiga", "overworld_abyssal_chasm", "overworld_primordial_caves", "overworld_toxic_caves", "nether_vent_mire", "nether_nether_wastes", "overworld_candy_cavity", "overworld_jungle", "overworld_meadow", "overworld_forlorn_hollows", "overworld_dripstone_caves", "overworld_frozen_peaks", "alpha_grove", "overworld_deep_dark", "overworld_aria_biblio", "nether_crimson_forest", "overworld_lost_caves", "nether_soul_sand_valley_black_ice_glaciers", "overworld_stony_peaks", "overworld_sparse_jungle", "nether_basalt_deltas", "end_end", "overworld_magnetic_caves", "otherside_overcast_columns", "overworld_bamboo_jungle", "overworld_cherry_grove", "overworld_frosted_caves", "otherside_echoing_forest", "overworld_snowy_slopes", "nether_soul_sand_valley", "overworld_grove", "nether_warped_forest", "overworld_desert", "overworld_forest", "overworld_jagged_peaks", "vampirism_ambient_forest", "overworld_badlands", "overworld_swamp", "overworld_flower_forest", "overworld_lush_caves", "otherside_deeplands"]
+cooldown_group_events = ["overworld_primordial_caves", "overworld_toxic_caves", "overworld_lush_caves", "overworld_candy_cavity", "overworld_dripstone_caves", "overworld_lost_caves", "overworld_magnetic_caves", "overworld_frosted_caves", "overworld_deep_dark", "overworld_overworld", "overworld_desert"]
 
 # ==========================================
 # EVENTS (TRIGGERS)
@@ -39,6 +39,7 @@ resource_name = ["alexscaves:luxtructosaurus"]
 
 [[events.biomes]]
 event_name = "overworld_lush_caves"
+locked = true
 resource_name = ["regions_unexplored:ancient_delta", "regions_unexplored:bioshroom_caves", "minecraft:lush_caves"]
 
 
@@ -57,16 +58,20 @@ resource_name = ["regions_unexplored:blackwood_taiga", "regions_unexplored:borea
 
 [[events.biomes]]
 event_name = "overworld_abyssal_chasm"
+priority = 1
 resource_name = ["alexscaves:abyssal_chasm"]
 
 
 [[events.biomes]]
 event_name = "overworld_primordial_caves"
+priority = 1
+locked = true
 resource_name = ["alexscaves:primordial_caves"]
 
 
 [[events.biomes]]
 event_name = "overworld_toxic_caves"
+priority = 1
 resource_name = ["alexscaves:toxic_caves"]
 
 
@@ -136,6 +141,7 @@ resource_name = ["alexscaves:forlorn_hollows"]
 
 [[events.biomes]]
 event_name = "overworld_dripstone_caves"
+locked = true
 resource_name = ["regions_unexplored:prismachasm", "regions_unexplored:redstone_caves", "minecraft:dripstone_caves"]
 
 
@@ -204,6 +210,7 @@ resource_name = ["regions_unexplored:arid_mountains", "regions_unexplored:steppe
 
 [[events.biomes]]
 event_name = "overworld_lost_caves"
+priority = 1
 resource_name = ["yungscavebiomes:lost_caves"]
 
 
@@ -258,6 +265,7 @@ resource_name = ["cataclysm:ignis"]
 
 [[events.biomes]]
 event_name = "overworld_magnetic_caves"
+priority = 1
 resource_name = ["alexscaves:magnetic_caves"]
 
 
@@ -359,226 +367,305 @@ resource_name = ["regions_unexplored:clover_plains", "regions_unexplored:flower_
 # AUDIOS (SONGS)
 # ==========================================
 [[audios."harbinger_theme"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["harbinger_battle"]
 
 [[audios."scylla_theme"]]
-target_events = ["scylla_battle", "alphs_test"]
+interrupt_whitelist = ["harbinger_battle"]
+target_events = ["scylla_battle"]
 
 [[audios."leviathan_theme_1"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["leviathan_phase_1"]
 
 [[audios."leviathan_theme_2"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["leviathan_phase_2"]
 
 [[audios."monstrosity_theme"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["monstrosity_battle"]
 
 [[audios."remnant_theme"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["remnant_battle"]
 
 [[audios."ignis_theme_1"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["ignis_phase_1"]
 
 [[audios."maledictus_theme"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["maledictus_battle"]
 
 [[audios."ignis_theme_2"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["ignis_phase_2"]
 
 [[audios."ignis_theme_3"]]
-target_events = ["ignis_phase_3", "mush_test"]
+interrupt_whitelist = ["harbinger_battle"]
+target_events = ["ignis_phase_3"]
 
 [[audios."enderguardian_theme_1"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["enderguardian_phase_1"]
 
 [[audios."enderguardian_theme_2"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["enderguardian_phase_2"]
 
 [[audios."minecraft:sounds/music/game/memories"]]
 volume = 0.5
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["desert", "forest"]
 
 [[audios."hk_dirtmouth"]]
+interrupt_whitelist = ["harbinger_battle"]
 
 [[audios."silence"]]
-target_events = ["in_catacombs", "overworld_forest"]
+weight = 37
+target_events = ["in_catacombs", "overworld_forest", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/bromeliad"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forest", "overowlrd_cherry_grove", "overworld_bamboo_jungle", "overworld_flower_forest", "overworld_jungle", "overworld_sparse_jungle"]
 
 [[audios."minecraft:sounds/music/game/swamp/firebugs"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forest", "overworld_lush_caves", "overworld_old_growth_taiga", "overworld_swamp"]
 
 [[audios."minecraft:sounds/music/game/swamp/labyrinthine"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forest", "overworld_lush_caves", "overworld_old_growth_taiga", "overworld_swamp"]
 
-[[audios."minecraft:sounds/music/game/calm1"]]
-target_events = ["alpha_grove", "overworld_forest", "overworld_cherry_grove", "overworld_grove", "overworld_lush_caves", "overworld_old_growth_taiga", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/calm2"]]
-target_events = ["overworld_forest", "alpha_grove", "overworld_cherry_grove", "overworld_grove", "overworld_lush_caves", "overworld_old_growth_taiga", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/calm3"]]
-target_events = ["overworld_forest", "alpha_grove", "overworld_cherry_grove", "overworld_grove", "overworld_lush_caves", "overworld_old_growth_taiga", "overworld_overworld"]
-
 [[audios."minecraft:sounds/music/game/hal1"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_flower_forest", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/hal2"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_flower_forest", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/hal3"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_flower_forest", "overworld_frozen_peaks", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/hal4"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_frozen_peaks", "overworld_flower_forest", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/nuance1"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_flower_forest", "overworld_grove", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/nuance2"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_flower_forest", "overworld_grove", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/piano1"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/piano2"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/piano3"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forest", "alpha_grove", "overworld_lush_caves", "overworld_badlands", "overworld_bamboo_jungle", "overworld_frozen_peaks", "overworld_grove", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/broken_clocks"]]
-target_events = ["overworld_forest"]
+interrupt_whitelist = ["harbinger_battle"]
+target_events = ["overworld_forest", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/comforting_memories"]]
-target_events = ["overworld_forest", "overworld_grove", "overworld_old_growth_taiga"]
+interrupt_whitelist = ["harbinger_battle"]
+target_events = ["overworld_forest", "overworld_grove", "overworld_old_growth_taiga", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/floating_dream"]]
-target_events = ["overworld_forest", "overworld_lush_caves"]
+interrupt_whitelist = ["harbinger_battle"]
+target_events = ["overworld_forest", "overworld_lush_caves", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/left_to_bloom"]]
-target_events = ["overworld_forest", "overworld_lush_caves", "overworld_bamboo_jungle", "overworld_cherry_grove", "overworld_flower_forest", "overworld_meadow", "overworld_old_growth_taiga", "overworld_sparse_jungle"]
+interrupt_whitelist = ["harbinger_battle"]
+target_events = ["overworld_forest", "overworld_lush_caves", "overworld_bamboo_jungle", "overworld_cherry_grove", "overworld_flower_forest", "overworld_meadow", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/one_more_day"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forest", "overworld_lush_caves", "overworld_overworld"]
 
 [[audios."vampire_forest"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["vampirism_ambient_forest"]
 
 [[audios."alexscaves:sounds/music/alloy_allure"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_magnetic_caves"]
 
 [[audios."alexscaves:sounds/music/paleoverdant"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_primordial_caves"]
 
 [[audios."alexscaves:sounds/music/pristine_dawnrise"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_primordial_caves"]
 
 [[audios."alexscaves:sounds/music/forgotten_tides"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_abyssal_chasm"]
 
 [[audios."alexscaves:sounds/music/ray"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_toxic_caves"]
 
 [[audios."alexscaves:sounds/music/arid_reverie"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_forlorn_hollows"]
 
 [[audios."alexscaves:sounds/music/dulcet"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_candy_cavity"]
 
 [[audios."alexscaves:sounds/music/lux"]]
 volume = 1.2
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["Luxtructosaurus"]
 
 [[audios."netherexp:sounds/music/game/nether/soul_sand_valley/black_ice_glaciers/sublimate"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["nether_soul_sand_valley_black_ice_glaciers"]
 
 [[audios."netherexp:sounds/music/game/nether/warped_forest/hospital"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["nether_warped_forest"]
 
 [[audios."minecraft:sounds/music/game/nether/nether1"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["nether_vent_mire", "nether_basalt_deltas", "nether_nether_wastes", "nether_soul_sand_valley", "nether_crimson_forest"]
 
 [[audios."minecraft:sounds/music/game/nether/nether2"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["nether_vent_mire", "nether_basalt_deltas", "nether_nether_wastes", "nether_soul_sand_valley", "nether_crimson_forest"]
 
 [[audios."minecraft:sounds/music/game/nether/nether3"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["nether_vent_mire", "nether_basalt_deltas", "nether_nether_wastes", "nether_soul_sand_valley", "nether_crimson_forest"]
 
 [[audios."minecraft:sounds/music/game/nether/nether4"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["nether_vent_mire", "nether_basalt_deltas", "nether_nether_wastes", "nether_soul_sand_valley", "nether_crimson_forest"]
 
 [[audios."sloping_mountains"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_frosted_caves"]
 
 [[audios."antique"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_lost_caves"]
 
 [[audios."minecraft:sounds/music/game/end/end"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["end_end"]
 
 [[audios."minecraft:sounds/music/game/end/boss"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["boss_ender_dragon"]
 
 [[audios."aria_biblio"]]
 volume = 0.75
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_aria_biblio"]
 
 [[audios."echoing_forest"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["otherside_echoing_forest"]
 
 [[audios."overcast_columns"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["otherside_overcast_columns"]
 
 [[audios."deeplands"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["otherside_deeplands"]
 
 [[audios."minecraft:sounds/music/game/swamp/aerie"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_lush_caves"]
 
 [[audios."minecraft:sounds/music/game/an_ordinary_day"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_lush_caves"]
 
 [[audios."minecraft:sounds/music/game/echo_in_the_wind"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_lush_caves"]
 
 [[audios."minecraft:sounds/music/game/os_piano"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_lush_caves", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/crescent_dunes"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_desert", "overworld_badlands"]
 
 [[audios."minecraft:sounds/music/game/fireflies"]]
-target_events = ["overworld_desert"]
+interrupt_whitelist = ["harbinger_battle"]
+target_events = ["overworld_desert", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/infinite_amethyst"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_dripstone_caves", "overworld_grove"]
 
 [[audios."minecraft:sounds/music/game/lilypad"]]
-target_events = ["overworld_badlands", "overworld_desert", "overworld_forest", "overworld_lush_caves", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes"]
+interrupt_whitelist = ["harbinger_battle"]
+target_events = ["overworld_badlands", "overworld_desert", "overworld_forest", "overworld_lush_caves", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_overworld"]
 
 [[audios."minecraft:sounds/music/game/stand_tall"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_frozen_peaks", "jagged_peaks", "overworld_snowy_slopes", "stony_peaks"]
 
 [[audios."minecraft:sounds/music/game/wending"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_dripstone_caves", "overworld_grove", "jagged_peaks", "stony_peaks"]
 
 [[audios."minecraft:sounds/music/game/water/axolotl"]]
+interrupt_whitelist = ["harbinger_battle"]
 
 [[audios."minecraft:sounds/music/game/water/dragon_fish"]]
+interrupt_whitelist = ["harbinger_battle"]
 
 [[audios."minecraft:sounds/music/game/water/shuniji"]]
+interrupt_whitelist = ["harbinger_battle"]
 
 [[audios."minecraft:sounds/music/game/nether/crimson_forest/chrysopoeia"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["nether_crimson_forest"]
 
 [[audios."minecraft:sounds/music/game/nether/nether_wastes/rubedo"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["nether_nether_wastes"]
 
 [[audios."minecraft:sounds/music/game/nether/soulsand_valley/so_below"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["nether_soul_sand_valley", "nether_basalt_deltas"]
 
 [[audios."minecraft:sounds/music/game/ancestry"]]
+interrupt_whitelist = ["harbinger_battle"]
 target_events = ["overworld_deep_dark"]
+
+[[audios."minecraft:sounds/music/game/calm1"]]
+interrupt_whitelist = ["harbinger_battle"]
+target_events = ["overworld_overworld"]
+
+[[audios."minecraft:sounds/music/game/calm2"]]
+interrupt_whitelist = ["harbinger_battle"]
+target_events = ["overworld_overworld"]
+
+[[audios."minecraft:sounds/music/game/calm3"]]
+interrupt_whitelist = ["harbinger_battle"]
+target_events = ["overworld_overworld"]
+
+[[audios."minecraft:sounds/music/game/below_and_above"]]
+interrupt_whitelist = ["harbinger_battle"]
+target_events = ["overworld_overworld"]
 

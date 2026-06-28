@@ -4,6 +4,12 @@ ServerEvents.recipes(event => {
     '#forge:chests/wooden'
   ])
 
+  event.replaceInput(
+    {id:'farmersdelight:organic_compost_from_tree_bark'},
+    'farmersdelight:tree_bark',
+    '#immersive_weathering:bark'
+  )
+
   //Craft vanilla ladders from Sticks
   event.shaped(Item.of('minecraft:ladder', 3), [
     'P P',
