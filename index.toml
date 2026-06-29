@@ -1358,7 +1358,7 @@ hash = "63f34caf47c465338b28a5661d3236aa71ea5e4774635bad54718c3edc7bbfec"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "b8f14a240fff5c61ae4fe33a75d0bb47d1b4b3c590da48a47721f0af1c32f864"
+hash = "2531c2f26cc34f4866a8337ac639f9ebf3754916eb34a1984c82a8e1ad4169d2"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -1367,6 +1367,10 @@ hash = "d263933ee4b13ea18ca743e8648d0cf2bc0f69a7d8c3f0e55829d9597d8c0c62"
 [[files]]
 file = "config/azurelib.json"
 hash = "9f136b36f13fb0f7d0de277ecf6d933914c7dcc3f646136cd09a68e904659109"
+
+[[files]]
+file = "config/bandits.json"
+hash = "c9e07675ce57fcc09ed77f6063677f3212b524b48544862793b738dcded54451"
 
 [[files]]
 file = "config/barteringstation-client.toml"
@@ -1403,6 +1407,14 @@ hash = "caca7ec27174c71dfcaabc93724a2281950df979cfd6b7a40c5557c75e15438f"
 [[files]]
 file = "config/betterarcheology-common.toml"
 hash = "ad9e40f11ad0196f04edb97ed058148a207992d768137266d7279502d5186bf2"
+
+[[files]]
+file = "config/betterarcheology_structures/structure_settings.json5"
+hash = "38d7ba223179d5c572ab2b545501505a75bfd32acd4d3b2f558f8d7d9134c269"
+
+[[files]]
+file = "config/betterarcheology_structures/structure_toggle.json5"
+hash = "2e50e09b1315e4a45ae949f4b515fd29ed4fa2f307849eafe8cd4c5b7706dea0"
 
 [[files]]
 file = "config/bettercaves/README.txt"
@@ -1495,6 +1507,34 @@ hash = "3f4cfa3bf4fb4182aec2c461afbd8548ca92b8111cbe2ffd8963074f987223d0"
 [[files]]
 file = "config/betteroceanmonuments-forge-1_20.toml"
 hash = "3fc30fb36ba5fc5cabbecb82aa5a9800d7e30539212ec88246be179ede48f382"
+
+[[files]]
+file = "config/betterstrongholds-forge-1_20.toml"
+hash = "b1a6d4c96bbfc7bd824427d25bcf41a3e165f156c61eb5fa5351928474a7a635"
+
+[[files]]
+file = "config/betterstrongholds/README.txt"
+hash = "13c5f6bd52bf778533a100453d8b295802f923109e0a2951446a00674113700b"
+
+[[files]]
+file = "config/betterstrongholds/forge-1_20/README.txt"
+hash = "5aad271e60a03218eb5207dd78df8d1d36c676f212bf823701e33646010d2f19"
+
+[[files]]
+file = "config/betterstrongholds/forge-1_20/armorstands.json"
+hash = "0593dc6a2b0cc1fe42fbb4dc3e307a4b5f32fde07891b7f874ef658248c683ab"
+
+[[files]]
+file = "config/betterstrongholds/forge-1_20/itemframes.json"
+hash = "fb80f0352d9aa19eb63e3cde3a56d09c152f973bbf30a86b347ed28f65b1e192"
+
+[[files]]
+file = "config/betterstrongholds/forge-1_20/ores.json"
+hash = "6ea9b874bad3e1c8cda13cee330d95d153dbe70d6043f9c47938d4c3bb9188f8"
+
+[[files]]
+file = "config/betterstrongholds/forge-1_20/rareblocks.json"
+hash = "9358e97aff3e57ef45202cb319a6491e8ab7d0cedfa32f7383b1ea3d4d9814a8"
 
 [[files]]
 file = "config/betterthirdperson-common.toml"
@@ -15691,6 +15731,18 @@ hash = "872f735a318e8f321a45f4e7c1d933aea98830fd9fc90e0ca9813d787419f21d"
 [[files]]
 file = "config/blockswap/known_states/create_connected/wrapped_copycat_wall.json5"
 hash = "05e5ba7ea4d71fe0cdbfdf8db493bf29ef551398fed2f84db67fda92ef1e136d"
+
+[[files]]
+file = "config/blockswap/known_states/create_easy_structures/destroyedtrack_1.json5"
+hash = "af71c68267cfc0f1b4f694d04c16358c39bb2bd30a20b5859130e3af869e77e5"
+
+[[files]]
+file = "config/blockswap/known_states/create_easy_structures/destroyedtrack_2.json5"
+hash = "79c238a8c0fdd678fcd20ef7d14462f1e55a879d250e4eed12e530538f8ea9ba"
+
+[[files]]
+file = "config/blockswap/known_states/create_easy_structures/destroyedtrack_3.json5"
+hash = "e08c37ab5a53a28c420a1ef8cbfd768058bfef4b7b1c04ee9065deddd9a1b2f2"
 
 [[files]]
 file = "config/blockswap/known_states/create_enchantment_industry/blaze_enchanter.json5"
@@ -63549,6 +63601,30 @@ file = "config/blockswap/known_states/supplementaries/wind_vane.json5"
 hash = "6ee4db209a961a60470ee5ef41e8fb6b1cfc4bc80c12c03499437697fc25da64"
 
 [[files]]
+file = "config/blockswap/known_states/tacz/gun_smith_table.json5"
+hash = "aa08fab5d47c0b48bf623e23c1726552940be9e991d09fba2e62020ece31cfe1"
+
+[[files]]
+file = "config/blockswap/known_states/tacz/statue.json5"
+hash = "c4865c3d8bf56b5fd2d14a054e68f1f2699bac9d636d9eeb50aafd6799149a38"
+
+[[files]]
+file = "config/blockswap/known_states/tacz/target.json5"
+hash = "9a537989d2dfd76118080347c7253400c77f0e82d0e1400e6457d68fc553969f"
+
+[[files]]
+file = "config/blockswap/known_states/tacz/workbench_a.json5"
+hash = "a35642b99dea5ff1aad268c271ec802d9eb915b7a67e3c615da8109d1c5c3408"
+
+[[files]]
+file = "config/blockswap/known_states/tacz/workbench_b.json5"
+hash = "af02c6eea4b645fb97c8bf34325a3cca25544c327e16d3e6facf40728403903d"
+
+[[files]]
+file = "config/blockswap/known_states/tacz/workbench_c.json5"
+hash = "b7074cf5d4fb8b5c1f1f69e956fb740cc6591ca3d359d37aab1f3f6ce87e0706"
+
+[[files]]
 file = "config/blockswap/known_states/tcintegrations/bronze_block.json5"
 hash = "81723455d55fa74b82385c288be7f212181aa6a67ba62c3966fe1ee0db498e43"
 
@@ -68437,6 +68513,14 @@ file = "config/creeperoverhaul.jsonc"
 hash = "9d870b28f9a1479f952f258f7f01aebceb17fdc78c23014469c8ac055fad9bbb"
 
 [[files]]
+file = "config/cristellib/minecraftED.json5"
+hash = "8e01cc9b7e46f74fd60ce36d3459628b8198cb988051ae52f14cda36ef0fd869"
+
+[[files]]
+file = "config/cristellib/minecraftP.json5"
+hash = "8fe09b83f2fe6bf9d547e99b8d883aef42bf3d9e2e6f5bd43ec3fcd4c7f756da"
+
+[[files]]
 file = "config/cucumber-client.toml"
 hash = "27edf07a495f50c20a875e2dd0ef4455513c9449bffd545a5a6367b61d64269b"
 
@@ -68649,6 +68733,14 @@ file = "config/explorerscompass-common.toml"
 hash = "ba3efb04119e668e5814c670fb78e3017325c8976e45f353081106ce7fd67000"
 
 [[files]]
+file = "config/explorify/structure_settings.json5"
+hash = "e2a1d42272a5e112529bfddda0cbbda9890b7ef60d92f2e3b93674deb2e6f671"
+
+[[files]]
+file = "config/explorify/structure_toggles.json5"
+hash = "24778eafab43d7a4d742572aee3e1b85ee04b5c3fdd88cd713139b3ca7e82760"
+
+[[files]]
 file = "config/exposure-client-1.toml.bak"
 hash = "8d86e0483ca14c09cc1b059dba5df93b98d14279728e1ff536236e59db85a051"
 
@@ -68678,7 +68770,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "02d28f77cf7116143281a84b141b880e4fa14bdd76b1f4d913d8bfd92544941d"
+hash = "848ae7f20e2127593d3415a4f286469021cee0c52f1e71b897e4e9c70c22e361"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70154,7 +70246,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "33c87d75c607d7a8c6739db170b79d1e8c2dadb44aa7e1db582d70d0208f4c71"
+hash = "4a486ededb2a56a1a3eacf1f2278e93340d39ca7249e2fd13b7f403afdfe2c6a"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -70323,6 +70415,10 @@ hash = "e51d2d3b75af4146de8a8007491c163757db601eb3bd4f21aff092cf9ca10bf7"
 [[files]]
 file = "config/jei/world/local/New_World__31/lookupHistory.ini"
 hash = "cfe4328bdfa12a0f4b8c006c029d8bc6b08691cca7badf84d1f77cc3514e887c"
+
+[[files]]
+file = "config/jei/world/local/New_World__33/lookupHistory.ini"
+hash = "ecd6c7ab664545df2d68316c2c11c230bcc091db5de2118b800377a93c00c250"
 
 [[files]]
 file = "config/jei/world/local/New_World__35/lookupHistory.ini"
@@ -70642,7 +70738,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "76f826282b4fb6dad1b7bf39f0d16112b68f80d3d2a11863a1f4f8c65a3064e0"
+hash = "09e8e209aad7b314bb2cc40848fd5ecd7296fe0ad69dbc538ede3dd3b2a087cc"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70894,7 +70990,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "4f2c3587d8f1c398308f0107c888fc00095a44f45418c7827163abdc1ebbd1a8"
+hash = "6c142eb84235721ad3ab55dff696579999619e487a143c07de834a98a854c38b"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -70910,7 +71006,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "dadf74301307c5b6356f5937bd24d44f01ad3b399cd26d703198532aaa333356"
+hash = "fbe826793a40ab57d0a4a72b2206c84b92f96a3f3b69e180acb08736ed0f1d59"
 
 [[files]]
 file = "config/pal.properties"
@@ -70975,26 +71071,6 @@ hash = "09dfe845353e1db8097a4b9067ec5797b4201fa091d4124763fdd37a11df97e7"
 [[files]]
 file = "config/paxi/datapacks/curiosumbrella.zip"
 hash = "24e379fbb3e6471f9953d0e2266625e583c45efd2400c7436f497450b8626fbd"
-
-[[files]]
-file = "config/paxi/datapacks/idasalexsmobs-1.20.zip"
-hash = "8f1182f08d3b268fbaa4dbaea170d9c01fd70d2355854b6939e03ebb46029e77"
-
-[[files]]
-file = "config/paxi/datapacks/integrated_cataclysm_revert_recipes.zip"
-hash = "b836848ac7fcd43a12e75d83129d40c82616a6ff160877062b63431e921fd5e0"
-
-[[files]]
-file = "config/paxi/datapacks/integrated_stronghold_config_forge-1.1.1-1.20.1.zip"
-hash = "589d798e84c4ce71c7b6e3ec19f501963cdb2cc5220296a002b89c3a5e435c69"
-
-[[files]]
-file = "config/paxi/datapacks/intstrong_alexsmobs-1.0.0-1.20.1.zip"
-hash = "2eb5b0045b17d0988764940cf457e9eb60799e950cfb5f6eb4efa11ec537b168"
-
-[[files]]
-file = "config/paxi/datapacks/intstrong_endrem-1.0.0-1.18.2-1.19.2.zip"
-hash = "8e41b8cc5e0e255f8639c0a1ee76aa37486fa0c7d406976983c53a6c56438bbb"
 
 [[files]]
 file = "config/paxi/datapacks/werewolf_test.zip"
@@ -71725,6 +71801,14 @@ file = "config/tact-common.toml"
 hash = "92b88771dc8f5be427280edde23679d1acaff11044c51a4b5c722f0d9ab87ed3"
 
 [[files]]
+file = "config/tacz-client.toml"
+hash = "a4ff5c66e4af6374fa5734d5c6ecef2f656ee805d1dc950fa4493be61d7a1b2d"
+
+[[files]]
+file = "config/tacz-common.toml"
+hash = "3e4bd40eacba8df674a92b8b1cce1d71728da4a4909a468fcd5275d11cd3d1a6"
+
+[[files]]
 file = "config/tconjei-client.toml"
 hash = "7f9393fffeb8147d26a653e0cd98fd160a3960c243499be270bd96df9f04cce0"
 
@@ -71829,6 +71913,14 @@ file = "config/tombstone/version.info"
 hash = "87572bfcba3cd25600af9033513ba06d8c47aa8e762e052afaa44d7d29e33226"
 
 [[files]]
+file = "config/towns_and_towers/structure_enable_or_disable_new.json5"
+hash = "3aaa6ac8835dbbce97928c4d0d03f9957749a7a57a3f1668597310e9227900da"
+
+[[files]]
+file = "config/towns_and_towers/structure_rarity_new.json5"
+hash = "1f6cddbcb2d89fbcc774d7bdae9987ccb031ba8fe024307357076ca617b17eeb"
+
+[[files]]
 file = "config/tradingpost-server.toml"
 hash = "f8e08cdf664d3e5fa2805eddbdeef0e2b46bbe94cf1e5ef86ed70f29fea54add"
 
@@ -71926,7 +72018,7 @@ hash = "646bddf70de42eaa8eaa12308cd984640ee595df3df14300c913f4678e52d5e9"
 
 [[files]]
 file = "config/vampirism_integrations-common.toml"
-hash = "6f8c87dc09d2adb3b85528bb80a57f25aa29ccca5f7eee3b893b256d48c1cb99"
+hash = "ee141d59b19911f3a67a7afbbbf2efd85b3e87a7f9502792ab155295dd89f3ab"
 
 [[files]]
 file = "config/vanillabackport-client.toml"
@@ -72522,7 +72614,7 @@ hash = "a19d088435d6334295d34fcf23fd2bd181a071a637ceb37cfd0dfdfb32312c56"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "a92ef5e11048414c4085c848bb0b91c9311101a07f04e83a466a209c066198cf"
+hash = "3d003c3cbc6ae66253a8b8282d26fcde52b8a83ccf4a7faf16f04ce63cbcefe8"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -78934,6 +79026,11 @@ hash = "19dd06680c61d00856df8b1233c1fc606061d2a53b59269f6bc1c09d50d8a9ed"
 metafile = true
 
 [[files]]
+file = "mods/choicetheorems-overhauled-village.pw.toml"
+hash = "3e2aa9371058181db2ab4d052f160e08c638e683181170e6d76f42d7f3bf040f"
+metafile = true
+
+[[files]]
 file = "mods/chunky-pregenerator-forge.pw.toml"
 hash = "a4c2206ce91cb09d931c842b56ad0c5301170e8fc2f91618b7c88e9a07faa0fa"
 metafile = true
@@ -79089,6 +79186,11 @@ hash = "566ab9855e62d3470d31721f21db33d49c3e215a3cab2e144ad35847d428abbd"
 metafile = true
 
 [[files]]
+file = "mods/create-easy-structures.pw.toml"
+hash = "02381ebf319d6687be43472d9247cc0ada85978c7104e8abf44142a868079405"
+metafile = true
+
+[[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "0a56060dae5d25d87abb4edf5291acf8e049fb95913db6ef0fb4a3fa9da8af05"
 metafile = true
@@ -79136,6 +79238,11 @@ metafile = true
 [[files]]
 file = "mods/creeper-overhaul.pw.toml"
 hash = "6d9ab93ce0e7ff15c22f573f438bdae639ff5c31fdcadf8fce97c626198878b1"
+metafile = true
+
+[[files]]
+file = "mods/cristel-lib.pw.toml"
+hash = "0a0a1518705effc560678673a797ee5c370c4c370a2a6edcb411bb81b7cc3a59"
 metafile = true
 
 [[files]]
@@ -79229,8 +79336,8 @@ hash = "f19ff2d307d82199659495fbda56f96877136f9f4ca7deaa3f1f8c060c533215"
 metafile = true
 
 [[files]]
-file = "mods/dungeonsenhanced.pw.toml"
-hash = "ef8f6010b4c32290d594c850a3cc610418e9a54e6ca30ec05a005ec97439edba"
+file = "mods/dungeon-and-taverns.pw.toml"
+hash = "53b42b3fb8a13ac0bc24c28f662cd0f55b10bb337aeec543a6c3ee517eaefce8"
 metafile = true
 
 [[files]]
@@ -79619,11 +79726,6 @@ hash = "25b9a99bbd4235f827267479d394acdd292b7943f370ad1694f93c1c59c33e30"
 metafile = true
 
 [[files]]
-file = "mods/idas.pw.toml"
-hash = "f59f305af6b3cace81fac961dbe7cd8a5f77fa5e32d4e03c9220038206cf7cc0"
-metafile = true
-
-[[files]]
 file = "mods/illagers-wear-armor.pw.toml"
 hash = "94d4ace609ce8e78b75a6365bb700418ab7c3dc80e62a444da890d459c68e4de"
 metafile = true
@@ -79681,26 +79783,6 @@ metafile = true
 [[files]]
 file = "mods/in-control.pw.toml"
 hash = "28b00f143039bc1fbabee5956ce9e272bdf20593048ec57e8dae327614ced579"
-metafile = true
-
-[[files]]
-file = "mods/integrated-api.pw.toml"
-hash = "d30c90bae2a6862ad25b3b895e98699de9febef2ccf89687968d24cec6af5b3c"
-metafile = true
-
-[[files]]
-file = "mods/integrated-cataclysm.pw.toml"
-hash = "bbac056f47675955be6d28fc43e17351cbd421b6caf94a9abb56bac395b35f06"
-metafile = true
-
-[[files]]
-file = "mods/integrated-stronghold.pw.toml"
-hash = "34acda869bc73460fb9cbeb1185e51865ab71ea7cd1565ebf72487f0fd917d18"
-metafile = true
-
-[[files]]
-file = "mods/integrated-villages.pw.toml"
-hash = "70dfff050ef2c53f9e9f4e3a6a1d087b5d4b48ccc3d3d657e792497e34ac44d3"
 metafile = true
 
 [[files]]
@@ -80629,6 +80711,11 @@ hash = "aa3c18d1e2958f9cdc76d76e4fadb15860ff07152642854f56c322c74a2b61e6"
 metafile = true
 
 [[files]]
+file = "mods/tidal-towns.pw.toml"
+hash = "d8db3cf0db947d1a359bb11c90515d2172c035c4269ef545cf4985880ea6ba43"
+metafile = true
+
+[[files]]
 file = "mods/tide.pw.toml"
 hash = "0ea02a0f8ce2de1ccb51f809c59ce3a877023f309a8a8fe00b48fea5c798cbda"
 metafile = true
@@ -80691,6 +80778,11 @@ metafile = true
 [[files]]
 file = "mods/towering-townscape-style-pack-for-minecolonies.pw.toml"
 hash = "1a400120208fa6f97a8147eaf45434d8ea30471e2674996b8180f55034364f45"
+metafile = true
+
+[[files]]
+file = "mods/towns-and-towers.pw.toml"
+hash = "fb96780273ff38190065cca728cee8e2f5f63b47943c8959dd5ef99d606e27cf"
 metafile = true
 
 [[files]]
@@ -80886,6 +80978,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-ocean-monuments.pw.toml"
 hash = "6c91aaa02d41c7a69cacc2b60e1fa803555814746f0f7136738c4eacffe06446"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-strongholds.pw.toml"
+hash = "6790ffea005c4e2ed35932c111d2d0802862af054ff78a0b3f102302de02a6b0"
 metafile = true
 
 [[files]]

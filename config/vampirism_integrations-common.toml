@@ -11,3 +11,6 @@
 	[Compatibility.guardvillagers]
 		enable_compat_guardvillagers = true
 
+	[Compatibility.ctov]
+		enable_compat_ctov = true
+
