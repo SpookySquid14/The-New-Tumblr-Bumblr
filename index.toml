@@ -68770,7 +68770,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "848ae7f20e2127593d3415a4f286469021cee0c52f1e71b897e4e9c70c22e361"
+hash = "958381e631bcb30a9422d7bd6616602e6d92afa6890f54cbff663a37787540a8"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70738,7 +70738,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "09e8e209aad7b314bb2cc40848fd5ecd7296fe0ad69dbc538ede3dd3b2a087cc"
+hash = "c37deb99f6e7dd6bd50fc557be92d896536370b755a220a3d804e9badd4ec245"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70990,7 +70990,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "6c142eb84235721ad3ab55dff696579999619e487a143c07de834a98a854c38b"
+hash = "a3301055e8a6203a382cbd651184f2936cf8c35c5f84acec571cd70d2fb702a0"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71006,7 +71006,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "fbe826793a40ab57d0a4a72b2206c84b92f96a3f3b69e180acb08736ed0f1d59"
+hash = "5e44712ceb048bcd989232f6d3d262fde3a3688fdcfc31b8ba41a0c0428b7014"
 
 [[files]]
 file = "config/pal.properties"
@@ -79193,11 +79193,6 @@ metafile = true
 [[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "0a56060dae5d25d87abb4edf5291acf8e049fb95913db6ef0fb4a3fa9da8af05"
-metafile = true
-
-[[files]]
-file = "mods/create-occult-engineering.pw.toml"
-hash = "c20c6d21e1e99a6de34bed9867da6c4e1b85c62c6f97c8f0a0508eb68b32ca8c"
 metafile = true
 
 [[files]]
