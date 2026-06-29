@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_backpacks"
+	group: "60036678430AC30B"
+	id: "518F639E2B95BFFB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Sophisticated Backpacks"
+}

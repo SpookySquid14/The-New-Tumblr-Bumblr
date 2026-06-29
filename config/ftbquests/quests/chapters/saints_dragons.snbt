@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "pentagon"
 	filename: "saints_dragons"
-	group: "1CE580FB33A3818E"
+	group: "44D6198450F74D4C"
 	icon: {
 		Count: 1
 		id: "ftbquests:custom_icon"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "533A9A274E0AFD57"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

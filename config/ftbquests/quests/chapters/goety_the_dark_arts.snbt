@@ -319,7 +319,7 @@
 			}]
 			title: "A More Efficient Source"
 			x: 0.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -361,7 +361,7 @@
 			]
 			title: "The Start of Rituals"
 			x: 0.0d
-			y: -9.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["75F46ED3CD1FE1A7"]
@@ -375,7 +375,7 @@
 			}]
 			title: "A Special Shade of Green"
 			x: 1.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["75F46ED3CD1FE1A7"]
@@ -433,7 +433,7 @@
 			}]
 			title: "Darkened Steel"
 			x: -1.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["506D131D4A0F6CE8"]
@@ -451,7 +451,7 @@
 				}
 			]
 			x: 0.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["7CF531E5081C9D69"]
@@ -470,7 +470,7 @@
 			}]
 			title: "Make a Totem of Souls"
 			x: 0.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["36C4FFB47FCE8671"]
@@ -541,8 +541,8 @@
 				}
 			]
 			title: "Blackened Steel"
-			x: 0.5d
-			y: -14.5d
+			x: 1.0d
+			y: -15.0d
 		}
 		{
 			id: "2444BC79553C5720"
@@ -551,21 +551,20 @@
 				title: "Forge"
 				type: "custom"
 			}]
-			x: 2.0d
+			title: "Path of nether"
+			x: 6.0d
 			y: -10.0d
 		}
 		{
 			id: "6E709CA5EA306336"
 			tasks: [{
-				entity: "goety:wight"
-				icon: "goety:shadow_essence"
-				id: "08306C02B4DF6B72"
-				type: "kill"
-				value: 1L
+				id: "4D7F75F6055E48EF"
+				item: "goety:shadow_essence"
+				type: "item"
 			}]
 			title: "Hunter of Souls"
 			x: -2.0d
-			y: -9.0d
+			y: -9.5d
 		}
 		{
 			id: "45224D0EDA996237"
@@ -1141,7 +1140,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -12.0d
 		}
 		{
@@ -1159,7 +1158,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: -12.5d
 		}
 		{
@@ -1176,7 +1175,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: -13.5d
 		}
 		{
@@ -1194,11 +1193,14 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -13.0d
+			x: 0.0d
+			y: -15.0d
 		}
 		{
-			dependencies: ["5A82DB6A8913997F"]
+			dependencies: [
+				"5A82DB6A8913997F"
+				"4A725E741485566D"
+			]
 			id: "132158B6BF2E4012"
 			tasks: [{
 				id: "49116EE7964D3B5E"
@@ -1211,8 +1213,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -14.0d
+			x: 0.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["132158B6BF2E4012"]
@@ -1229,7 +1231,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -15.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["63CDE68EA6FC634C"]
@@ -1239,7 +1241,7 @@
 				item: "goety:thrash_glove"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -12.5d
 		}
 		{
@@ -1250,8 +1252,8 @@
 				item: "goety:grave_glove"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -13.0d
+			x: -1.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["7CF531E5081C9D69"]
@@ -1320,7 +1322,392 @@
 			]
 			title: "Forged In Soulfire"
 			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"0B0523BE06F0E8EA"
+				"32EC632AA30E0823"
+			]
+			description: ["Use thes sabbath ritual to summon the Apostle, a boss that won't be easy."]
+			id: "02E941103844339B"
+			tasks: [
+				{
+					count: 16L
+					id: "7C50BB49BF7A6D6C"
+					item: { Count: 16, id: "minecraft:obsidian" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "690D415D996F671C"
+					item: { Count: 8, id: "minecraft:crying_obsidian" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "278E93570184E24D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:soul_fire_base_blocks"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sabbath'"
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			id: "0B0523BE06F0E8EA"
+			tasks: [{
+				id: "501CBB105566E2C4"
+				item: {
+					Count: 1
+					id: "goety:malefic_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			id: "0A659F035FB1296F"
+			tasks: [{
+				id: "69FD43037DBDC6C8"
+				item: "goety:necro_brazier"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0A659F035FB1296F"]
+			id: "4A725E741485566D"
+			tasks: [{
+				id: "5E05D57CE32DC345"
+				item: "goety:dark_ingot"
+				type: "item"
+			}]
+			title: "Very Very Interesting"
+			x: 0.5d
+			y: -17.0d
+		}
+		{
+			id: "32EC632AA30E0823"
+			tasks: [{
+				id: "140F8118D5772E4C"
+				item: "goety:crone_hat"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4A725E741485566D"]
+			id: "4EC31168490064D6"
+			tasks: [
+				{
+					id: "2888B2293F92E07F"
+					item: {
+						Count: 1
+						id: "goety:dark_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "376FE3DD2BFF3856"
+					item: {
+						Count: 1
+						id: "goety:dark_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F0A774A46A45D92"
+					item: {
+						Count: 1
+						id: "goety:dark_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "440DDBF76FAA1745"
+					item: {
+						Count: 1
+						id: "goety:dark_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "418862C660E4BD68"
+					item: {
+						Count: 1
+						id: "goety:dark_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "A fine addition to my collection"
+			x: 1.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["6E709CA5EA306336"]
+			id: "10E67B4DE2E86D4E"
+			tasks: [{
+				entity: "goety:skull_lord"
+				id: "3E0D5384112918C2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
 			y: -11.0d
+		}
+		{
+			id: "10D9B50C2029A75A"
+			tasks: [{
+				id: "2C5F79C3D3191F86"
+				title: "Path of Illagers"
+				type: "custom"
+			}]
+			x: 7.5d
+			y: -14.5d
+		}
+		{
+			id: "41EC10903B63F556"
+			tasks: [{
+				id: "75F5AB55AC76BB52"
+				title: "Path of necromancy"
+				type: "custom"
+			}]
+			x: -7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"498F02A60A22B5E1"
+				"7CF531E5081C9D69"
+			]
+			id: "3FF41B2811BC191C"
+			tasks: [
+				{
+					count: 8L
+					id: "6BA5F99B73DCE8D5"
+					item: {
+						Count: 8
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:basalt"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4118066ECD7C37EC"
+					item: {
+						Count: 16
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:blackstone"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "35C620943AD6887B"
+					item: { Count: 4, id: "minecraft:glowstone" }
+					type: "item"
+				}
+			]
+			title: "Adept Nether Ritual"
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3FF41B2811BC191C"]
+			id: "6FB0E468899D6C54"
+			tasks: [{
+				id: "716B8A9F08ABC585"
+				item: "goety:blazing_horn"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6FB0E468899D6C54"]
+			id: "7F6CCD0F5E1C02C3"
+			tasks: [{
+				id: "08CC921C46ADE006"
+				item: "goety:withered_manuscript"
+				type: "item"
+			}]
+			title: "Kill the Wither Necromancer"
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3FF41B2811BC191C"]
+			id: "60C544DE193C1953"
+			tasks: [
+				{
+					count: 4L
+					id: "0378E2C3A0211288"
+					item: { Count: 4, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "17D449D50FC62984"
+					item: {
+						Count: 32
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:nether_bricks"
+								}
+								{
+									Count: 1b
+									id: "minecraft:red_nether_bricks"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7B9CA4DBFD5A8E6C"
+					item: { Count: 8, id: "minecraft:nether_wart" }
+					type: "item"
+				}
+			]
+			title: "Expert Nether Ritual"
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"60C544DE193C1953"
+				"7F6CCD0F5E1C02C3"
+			]
+			id: "1973F90FE848F08C"
+			tasks: [{
+				id: "2775D5BB65521EB5"
+				item: "goety:bygone_scroll"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["02E941103844339B"]
+			description: ["Do the sabbath ritual to fight and kill the apostle"]
+			id: "0348441116732FB4"
+			tasks: [{
+				id: "69A480445DE66B47"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"4EE7637130ABFB0D"
+				"4A725E741485566D"
+			]
+			id: "6FBCDD5B1BF4D3FD"
+			tasks: [
+				{
+					id: "6DB4FEE7305B34C6"
+					item: {
+						Count: 1
+						id: "goety:dark_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A004F35E74879D4"
+					item: {
+						Count: 1
+						id: "goety:dark_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58F4C8E5803E9EDA"
+					item: {
+						Count: 1
+						id: "goety:dark_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59C1169F18F76D96"
+					item: {
+						Count: 1
+						id: "goety:dark_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"7EF2EEABBBAFC489"
+				"3DFD93D35624B7A1"
+			]
+			description: ["Requires Haunting Scroll"]
+			hide_until_deps_complete: true
+			id: "61758C232C6FC42C"
+			tasks: [{
+				id: "3FCE8745B6852EE9"
+				item: "goety:grim_infuser"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
 		}
 	]
 	title: "Goety: The Dark Arts"

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "brewing_and_chewing"
+	group: "33FB9C2B7FFFEFE2"
+	id: "3B840AD4AF9EC139"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Brewing and Chewing"
+}

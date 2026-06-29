@@ -1,0 +1,64 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquamirae"
+	group: "44D6198450F74D4C"
+	id: "050DD1992B5F3DF5"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4A47FB945C0C4886"
+			tasks: [{
+				biome: "#aquamirae:ice_maze"
+				id: "6DE19F82A1C9D371"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Dropped by Maw"]
+			id: "249DA5D96492686E"
+			tasks: [{
+				id: "13FDCB0B0C163D2B"
+				item: "aquamirae:fin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "43F02218C2BBA0ED"
+			optional: true
+			tasks: [{
+				id: "0B0EA508DEA9772F"
+				item: "aquamirae:pirate_pouch"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "0AA41689D2813E46"
+			tasks: [{
+				id: "4F128C2756B06978"
+				title: "Find structures"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "5B9504A69D9C9FE6"
+			tasks: [{
+				id: "5FC05C87B2D42E8E"
+				title: "Get horn"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+	]
+	title: "Aquamirae"
+}

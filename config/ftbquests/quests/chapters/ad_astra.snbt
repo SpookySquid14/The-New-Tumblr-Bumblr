@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "43386B27669D2B6A"
+	id: "08F268816AF40F84"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ad Astra"
+}

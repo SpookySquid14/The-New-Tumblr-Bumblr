@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "clanging_howl"
+	group: "44D6198450F74D4C"
+	id: "00721BC12ED1CD3F"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Clanging Howl"
+}

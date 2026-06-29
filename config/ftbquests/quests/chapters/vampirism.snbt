@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "vampirism"
-	group: "1CE580FB33A3818E"
+	group: "44D6198450F74D4C"
 	icon: "vampirism:vampire_fang"
 	id: "7116AFF3BB38E138"
-	order_index: 6
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

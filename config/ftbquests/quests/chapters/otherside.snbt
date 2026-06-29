@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "otherside"
+	group: "43386B27669D2B6A"
+	id: "0009EAE9F893A5ED"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Otherside (DeeperDarker)"
+}

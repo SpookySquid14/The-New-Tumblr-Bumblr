@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "vampirism_werewolves"
-	group: "1CE580FB33A3818E"
+	group: "44D6198450F74D4C"
 	icon: {
 		Count: 1
 		id: "ftbquests:custom_icon"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "4CE2E2A272BF6001"
-	order_index: 7
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

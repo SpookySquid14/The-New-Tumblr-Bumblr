@@ -12,10 +12,9 @@
     "hidden": false
   },
   "criteria": {
-    "test": {
+    "minecraft:nugget": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": [
@@ -28,7 +27,7 @@
   },
   "requirements": [
     [
-      "test"
+      "minecraft:nugget"
     ]
   ],
   "sends_telemetry_event": true

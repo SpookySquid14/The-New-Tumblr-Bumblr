@@ -4,7 +4,7 @@
 	filename: "apothic_adventures"
 	group: "1CE580FB33A3818E"
 	id: "266180B8179705EE"
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

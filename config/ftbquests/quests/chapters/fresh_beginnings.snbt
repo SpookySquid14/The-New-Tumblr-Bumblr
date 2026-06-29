@@ -18,14 +18,21 @@
 			]
 			icon: "ftbquests:book"
 			id: "15ACD993630984F4"
-			rewards: [{
-				amount: 150L
-				currency: "eternalcurrencies:ancientcoins"
-				id: "50664CB77E417D8A"
-				ignore_reward_blocking: true
-				title: "Some pocket change for the journey ahead"
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "50664CB77E417D8A"
+					ignore_reward_blocking: true
+					title: "Some pocket change for the journey ahead"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "298EA9CC88E69116"
+					item: "ftbquests:book"
+					type: "item"
+				}
+			]
 			subtitle: "Who wrote this?"
 			tasks: [{
 				id: "7C62070C3730C721"

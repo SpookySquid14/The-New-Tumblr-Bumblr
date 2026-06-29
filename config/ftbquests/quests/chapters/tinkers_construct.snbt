@@ -6,7 +6,7 @@
 	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	id: "2248DCF95595D594"
-	order_index: 0
+	order_index: 2
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [

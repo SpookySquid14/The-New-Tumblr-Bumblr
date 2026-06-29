@@ -68770,7 +68770,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "958381e631bcb30a9422d7bd6616602e6d92afa6890f54cbff663a37787540a8"
+hash = "b5801d1ed9aae4f4db2ea30930ed8e0bea6a506da776c78c6f25273066fee3fc"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69726,23 +69726,55 @@ hash = "5ab406b57f74a7e9cbd892aaf00e4a58f5185333d37c146af68b700c9336c717"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "46c287350facf19239fc9523d9bd50c662645fd104aa0c6bc0b6e531f03619e2"
+hash = "80ab7d65d31ded4b08fef7549cd331fa7f49335edc89c32bda32b66386ee452c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/ad_astra.snbt"
+hash = "60c5487d9a7261275a3d5d9c7386e950f3aeb6e8944e915006074da5fe2be5f3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apothic_adventures.snbt"
-hash = "0d1ef5f44e06b7a1cc60fc2b26061e79c7212fa18e4fd947e1f404d564516b6f"
+hash = "3b2e07121e3f16b6061008ee6065d3ae31bb022ffc4732178317154e543d1917"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
+hash = "553271f7d9a9ae5ffe65934154ae794f07b485f26a443ab724ba617f7b64332c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/aquamirae.snbt"
+hash = "b05c436cf14ece8a9a7075edb302963c76ade85f395e1d095f9e2298cb96117c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
 hash = "b2353a642d3bea1712cacbbef7ac3b4e4d03842d740d6739ee62f84270f1d926"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/better_archeology.snbt"
+hash = "edc89519177a723f92ca1088df812bfa0f084be24dd0ddb14e4b86f5a2d8a141"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/biomancy.snbt"
 hash = "af79d18b341afe310a23e248f664da169fc4119049b3ac3b7264d35ebdadc6ac"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/born_in_chaos.snbt"
+hash = "6b8e513dd61486dfcaf0fd11c6d38fc2b552f5c3926283a43300272efec870a3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/brewing_and_chewing.snbt"
+hash = "e49c1dca7154f098dc5cb6574bfa378e9ca5f8370503ecd8eccc8633a7f2b5eb"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/clanging_howl.snbt"
+hash = "73bffdf98d5040852ea2610e13146103fe581adc71e1ac6e215de4bef24ab748"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
 hash = "e7e936a3accd2dab3f88e358cf6d1e48192b92b5e7ea385d8c8391f7357004c3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/complicated_bees.snbt"
+hash = "25fd0b7f0cc331ff268f5dde6a9d5e726ded2a7544c0d9c37ca73e3c214449dc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -69750,7 +69782,7 @@ hash = "c0f4d941b3844a3cb6068f8f3b662c02aaaefb2ead4d4e5b94cd3315d99c588c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/debug.snbt"
-hash = "7e41a72c585d4a082208f9c3127ce243bcd7246d9dd29d2ea184b6b35ae08354"
+hash = "f4079f93876b2ab8d5c860fd067ae9e067ada0db2e4cede03fc1b58223a32c9b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
@@ -69766,15 +69798,19 @@ hash = "ebb31802b5012681dd2f9ad7b95eb916919b0b18de3ac53fbb6964843dd48877"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "207f2c345050dde364507ddb4bc3b1fcf63019f7a8f9923180dd095b8d904551"
+hash = "2e6509e5bc2c82df2833461b27f882d7a891e4fc0c8bffb14e89f6a17f55a4fa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
-hash = "e9ffa2ec008c6195d2dbd226a8cbc06b5a854b354242a7495b2ba54522c6f6a1"
+hash = "d8780da1dcd4dfda34964ab99a9a58ed81ccf78f7f2aeb8b73980ae6ed5991ed"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/help.snbt"
-hash = "aec910743df2437ae2aa34835bf9b3ca9682b6e0895d8cf26d90022c237b1f1e"
+file = "config/ftbquests/quests/chapters/immersive_aircraft.snbt"
+hash = "efe3acc0d2e92afad8de744f99172b951c3d61ed29426d3692ca00dcdf29f322"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/immersive_engineering.snbt"
+hash = "a48458f4d22df85797e67d48dfc22371732e2d4c107b3f9aeee26426bf49ab2e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells_and_spellbooks.snbt"
@@ -69789,6 +69825,10 @@ file = "config/ftbquests/quests/chapters/magics_and_madness.snbt"
 hash = "02516de045495a0f2ee2eebc051d227d0dd6616b44336269ca8cbcf13ab461f1"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/mekanism.snbt"
+hash = "b37c193566a7ef0f43b49b6087b1c8980fcbd3d360bf0274d7b3f675fb2e4a35"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/minecolonies.snbt"
 hash = "9fc95d281d92eaa2167763d7170262b08d56cbf48f4fdb766db8a8db8e136fac"
 
@@ -69797,12 +69837,20 @@ file = "config/ftbquests/quests/chapters/mining.snbt"
 hash = "427f2b0bd8ea3267ce39122510a53f6e7ec883029624823cb7ddf937dddc1b29"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/mob_grinding_utils.snbt"
+hash = "5621f041ae7b8bacde559a574254ffc02ad47899171e3d314d9b8faef4c78754"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/nether.snbt"
 hash = "412efae2b2946846303976b37cfc29447e9ce3bd977b746d746ac5a184fc4b21"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.snbt"
 hash = "a076b6ea2e36d5ef63381d135b93871ffbd1309eec8c79a059ccdcd9a482f85e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/otherside.snbt"
+hash = "9d20003ffdac15ef35fc1f6b09752370c37e59fb389d064ed81f97bea17c127c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/potions_and_poisons.snbt"
@@ -69814,27 +69862,39 @@ hash = "df71272033115d88741b5a2c9235d003ce324b5740747ac3e6199712de665654"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/saints_dragons.snbt"
-hash = "a939e4834d2ac118168d1b4ce5a78072ab62ea962f23f9519b40e40d950cd3d0"
+hash = "204f541cc2db79f859a2e768351c94a859dd470204df3df2e614017ad9642668"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/sophisticated_backpacks.snbt"
+hash = "6a890358194da97476f672c6f0ecbef4f234c0543dc49e029200f34cb9ce298b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated_storage.snbt"
 hash = "1067ddeb203e7b3e5d2021afab3448a5d3e2488e6965b41c60358add00fa2070"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/the_end.snbt"
+hash = "9b810db8db31248432d62d4675a2f567247bdb16ce8b99de8494146de6ea7741"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/tinkers_construct.snbt"
-hash = "b210c055941cc7f2fe127d83acb81d4851e7cdbd64913e90f69b53c321a79167"
+hash = "fb48c2b1ecf61f9636ebc3d812bb436e106f47f1eb1665bf1a9a92524ae20ee1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/tombstone.snbt"
+hash = "8876cfc45c6786fc163947acdc570f97db68d251893519f95254b6ddfb0549cf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vampirism.snbt"
-hash = "d0a7e854299e4ac1b08d347f3886ac63c47e6726ac659ff80306d23be1e265c1"
+hash = "3605f4a1ea3414e6491c0de9c24430ac9abb9fa54538091b4e614050302b455d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vampirism_2.snbt"
-hash = "107a480d3d7a68c80df0cbcb7c96da961e0051f69330e7b240337ff5290c85eb"
+hash = "cacf351bd62773b87a0bb81f9cf00c8c65d6f15a31609d7ffc1eae83e4cf3e4a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vampirism_werewolves.snbt"
-hash = "10ee53c5793c8dcc989562f6ce70ef0244c96b5e7e4aa0e46ae3775d178c3dde"
+hash = "45220f6f02fa24c4ae4071f85312383034c1001908947594bc1bec48f9e39f74"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -70178,7 +70238,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "0a3475cf47cfb24f4a4974c721d5541025033f4748c0ab1f9951fe1f56f28fad"
+hash = "c2fbc986b6f4ea54f2f7741fada80186afbd81f129d8483d92e2aa45d58229f1"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -70275,6 +70335,10 @@ hash = "94dc14a12192d8c9c0e58593e4dfcd99993457c5b4c6bded10289476eeea0191"
 [[files]]
 file = "config/jei/world/local/Apothic/lookupHistory.ini"
 hash = "054fbe6554e68cf29aa42dca8a85c6dc1f3235d3e2d470b1de22f5566a50bac7"
+
+[[files]]
+file = "config/jei/world/local/Aquamirae/lookupHistory.ini"
+hash = "7b97c474b2b9868d7b645332c7dcb2990b16248302d3c50de3ef984a21113509"
 
 [[files]]
 file = "config/jei/world/local/Boss/bookmarks.ini"
@@ -70419,6 +70483,10 @@ hash = "cfe4328bdfa12a0f4b8c006c029d8bc6b08691cca7badf84d1f77cc3514e887c"
 [[files]]
 file = "config/jei/world/local/New_World__33/lookupHistory.ini"
 hash = "ecd6c7ab664545df2d68316c2c11c230bcc091db5de2118b800377a93c00c250"
+
+[[files]]
+file = "config/jei/world/local/New_World__34/lookupHistory.ini"
+hash = "ea349cfc0bca6cb979ecca1a951e3d7155abc10f474430bd77bf8fa8f22e7568"
 
 [[files]]
 file = "config/jei/world/local/New_World__35/lookupHistory.ini"
@@ -70738,7 +70806,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "c37deb99f6e7dd6bd50fc557be92d896536370b755a220a3d804e9badd4ec245"
+hash = "ebcf28c4697a049b417cc5c4b9d7ed79ab5f23f4e4fdbc0dd60ff0c936120049"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -70990,7 +71058,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "a3301055e8a6203a382cbd651184f2936cf8c35c5f84acec571cd70d2fb702a0"
+hash = "ba454f591e2001eb9b1f5cefb2ac10441cfbfe2ee905ca92a5f891721d92fbba"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71006,7 +71074,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "5e44712ceb048bcd989232f6d3d262fde3a3688fdcfc31b8ba41a0c0428b7014"
+hash = "6206d90a29113084dd59348efb3733e9b84928b238de3250c545f2e8c97f1fcc"
 
 [[files]]
 file = "config/pal.properties"
@@ -71734,11 +71802,7 @@ hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
 
 [[files]]
 file = "config/structurify.json"
-hash = "7c0820fd86aafcbca6eaa3a53bfe176370701b09657805879a2d2a5aafeb4583"
-
-[[files]]
-file = "config/structurify/structurify_backup_2026-06-14_12-29-15.json"
-hash = "bf2c06b967dea6734447ebcb3b37a6076f3b3880ea3ea4ac724aefcc84d0b57c"
+hash = "43c5d5aa0c565895a1cde6cfe447f5e2d1c478feb2bb92971f075d6849856acb"
 
 [[files]]
 file = "config/structurify/structurify_backup_2026-06-14_12-37-54.json"
@@ -71755,6 +71819,10 @@ hash = "5cd4824de8fb36cdb953d9d310bc30eaa67a654e17525ba32f0fa0f047ea8a3d"
 [[files]]
 file = "config/structurify/structurify_backup_2026-06-14_17-29-34.json"
 hash = "6483a804795ec806be2704badda56a4fa81feb17c0059b8dded3509f11eb28d1"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-06-29_17-43-28.json"
+hash = "7c0820fd86aafcbca6eaa3a53bfe176370701b09657805879a2d2a5aafeb4583"
 
 [[files]]
 file = "config/structurify_dump.json"
@@ -72614,7 +72682,7 @@ hash = "a19d088435d6334295d34fcf23fd2bd181a071a637ceb37cfd0dfdfb32312c56"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "3d003c3cbc6ae66253a8b8282d26fcde52b8a83ccf4a7faf16f04ce63cbcefe8"
+hash = "990c5adea3afb0f7d49999897f3db7068a8ec9dee5c5a760ecfa48c2e546da86"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -77802,7 +77870,7 @@ hash = "c580b23f566008a5d07853dbf5c4056a11f21599ed9defb86beb76dd7a76e788"
 
 [[files]]
 file = "kubejs/data/tumblrbumblr/advancement/test.json"
-hash = "2657b6b7367f92bc29bed7b54aa25c87595a4d7f59538bfb1973d983d8e26e7b"
+hash = "2ef2b0cbc44346bb216c96c60daba0fb4d4cca9d31f2018c343e3a3dc209c476"
 
 [[files]]
 file = "kubejs/data/vampiresdelight/loot_modifiers/scavenging_eyes_from_humans.json"
@@ -79656,11 +79724,6 @@ hash = "7d11a3bfadc9afa8d3fc8a0f4a040f9b186c0841c2b43393391e9d9f8196b378"
 metafile = true
 
 [[files]]
-file = "mods/goety-hostility.pw.toml"
-hash = "9f97460a93f16afe7c6b29b0792933091772647f30420f411dbb3783cbd36ee4"
-metafile = true
-
-[[files]]
 file = "mods/goety.pw.toml"
 hash = "25e18777bc794f272895b81db92eb68047ecc47c8615dfcd5f5dc6b3b0be788d"
 metafile = true
@@ -79693,11 +79756,6 @@ metafile = true
 [[files]]
 file = "mods/harium.pw.toml"
 hash = "1185ffaf6c0462d87e3554ccb704c9718ab8e9c1cc64ab20786330288c59426f"
-metafile = true
-
-[[files]]
-file = "mods/hc-harichunk.pw.toml"
-hash = "f8f5dc0f52cd643ed54360e970d1af35e5cef287a30114528910e4bbfca6e908"
 metafile = true
 
 [[files]]
