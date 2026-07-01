@@ -8,56 +8,679 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Ice mazes show up in the deepest of frozen oceans. Be careful, as the water underneath the ice is &ofreezing&r so you'll want leather armor"]
 			id: "4A47FB945C0C4886"
 			tasks: [{
 				biome: "#aquamirae:ice_maze"
+				icon: "minecraft:packed_ice"
 				id: "6DE19F82A1C9D371"
+				title: "Find an Ice Maze"
 				type: "biome"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			description: ["Dropped by Maw"]
-			id: "249DA5D96492686E"
-			tasks: [{
-				id: "13FDCB0B0C163D2B"
-				item: "aquamirae:fin"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.0d
-		}
-		{
+			dependencies: ["4A47FB945C0C4886"]
+			description: ["Gives leather armor to combat the cold"]
 			id: "43F02218C2BBA0ED"
-			optional: true
 			tasks: [{
 				id: "0B0EA508DEA9772F"
 				item: "aquamirae:pirate_pouch"
 				type: "item"
 			}]
 			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A47FB945C0C4886"]
+			description: ["Find a shipwreck and kill its captain (Pillager inside captain's quarters) to obtain the shell horn"]
+			id: "085A943345602261"
+			tasks: [{
+				id: "728D9656ED295802"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			x: 0.0d
 			y: -1.0d
 		}
 		{
-			id: "0AA41689D2813E46"
+			dependencies: ["085A943345602261"]
+			description: ["A terrible sword could strike her down quick"]
+			id: "10E83B5B468FEF3B"
 			tasks: [{
-				id: "4F128C2756B06978"
-				title: "Find structures"
-				type: "custom"
+				id: "7984AD177A65B683"
+				item: "aquamirae:frozen_key"
+				type: "item"
 			}]
+			title: "Dying Once More"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A47FB945C0C4886"]
+			description: ["Mother of The Maze is a miniboss that may show up with a message of feeling vibrations under the ice. A powerful mob that can break the ice in its pursuit, it is the primary source of Abyssal Amethyst."]
+			id: "47116E8A4D078C0B"
+			tasks: [{
+				count: 2L
+				id: "33BFE9CE79959E22"
+				item: "aquamirae:abyssal_amethyst"
+				type: "item"
+			}]
+			title: "Kill mother of maze"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A47FB945C0C4886"]
+			description: [
+				"Dropped by several mobs in the Ice Maze and from cutting Spinefish on a cutting board"
+				"Fins are dropped by most mobs, including Maws and Angler fish. They can be used to craft some strong armor"
+			]
+			id: "3D23AD9F4C0A2BE3"
+			rewards: [{
+				amount: 180L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "58B57B2D6FA640E2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "3F6E61B359723382"
+					item: "aquamirae:sharp_bones"
+					type: "item"
+				}
+				{
+					id: "3E488A437257162E"
+					item: "aquamirae:fin"
+					type: "item"
+				}
+				{
+					id: "515A1AF5202237E2"
+					item: "aquamirae:ship_graveyard_echo"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D23AD9F4C0A2BE3"]
+			description: ["Remnant's Saber is a sword with a unique ability to do 100% more damage underwater"]
+			id: "602B6817D394000D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "306D1BA9D4CE5AAE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2FDC0D03839D82D1"
+				item: {
+					Count: 1
+					id: "aquamirae:remnants_saber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A47FB945C0C4886"]
+			description: ["The angler fish seem to have evolved in the frozen depths of the ice maze, now much larger, and much more hostile.}"]
+			id: "37C14B09CE0D87C5"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "09847729D18E79EE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "65B5681D5C09BD20"
+				item: "aquamirae:anglers_fang"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["545D5F860554697A"]
+			description: ["Like gems, the rune can be added to your weapon in a smithing table. Doing so will cause it to deal 33% more damage in cold biomes"]
+			id: "056C6D7E2CDF2E85"
+			tasks: [{
+				id: "4F81961D397E6EF5"
+				item: "aquamirae:rune_of_the_storm"
+				type: "item"
+			}]
+			title: "Not Quite a Gem"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["341343B9369306A6"]
+			description: ["The helmet is only obtained by killing Captain Cornelia"]
+			id: "4A79D125A5C0F8F7"
+			tasks: [
+				{
+					id: "6A8F5E3E3EA799BC"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3593C5254137E029"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "545EAA8394A100B8"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "1000 dpeths under the sea"
 			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["545D5F860554697A"]
+			description: ["Not guaranteed, it makes illagers and villagers drop their emeralds"]
+			id: "4FC86601AD55B185"
+			tasks: [{
+				id: "59023CB1D5302CDE"
+				item: {
+					Count: 1
+					id: "aquamirae:dagger_of_greed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37C14B09CE0D87C5"]
+			id: "17171CE78EEE17E1"
+			tasks: [{
+				id: "147B26CF180FA57A"
+				item: {
+					Count: 1
+					id: "aquamirae:terrible_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["37C14B09CE0D87C5"]
+			id: "3D6C03222564265E"
+			tasks: [
+				{
+					id: "4AE18D97E24E60BA"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C0B272239C56866"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C0FB79F3305B935"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D8AA5ADFFAD948A"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37C14B09CE0D87C5"]
+			id: "6B2AC9F66E18B5C6"
+			tasks: [{
+				id: "02C9360D10FE5D8E"
+				item: {
+					Count: 1
+					id: "aquamirae:poisoned_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37C14B09CE0D87C5"]
+			id: "708195DB8305AD2B"
+			tasks: [{
+				id: "5983DF24010AB909"
+				item: {
+					Count: 1
+					id: "aquamirae:poisoned_chakra"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E3580D10FB8FC76"]
+			description: ["Astral dust is found in frozen chests"]
+			id: "49033A134A6F1B8D"
+			tasks: [
+				{
+					id: "3ADFDEA034EEB48F"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "190CC09C7531CE43"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7908A82A2C7BB751"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Complete the set"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47116E8A4D078C0B"]
+			description: ["Each gives a different full set bonus"]
+			id: "4E3580D10FB8FC76"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "43524DB73017B271"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0B27F0A9C49A3922"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aquamirae:abyssal_heaume"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aquamirae:abyssal_tiara"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Helm of The Blinding Abyss"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10E83B5B468FEF3B"]
+			description: ["Dropped by Captain cornealia"]
+			id: "341343B9369306A6"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1E27E9979F10D989"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2EB08F1E9B0A3D51"
+				item: {
+					Count: 1
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A Captain's Helm"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47116E8A4D078C0B"]
+			id: "69AC45062CE49F4F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3DDBBFD0D144355E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "524073980108D6D3"
+				item: {
+					Count: 1
+					id: "aquamirae:divider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47116E8A4D078C0B"]
+			id: "07842779FB6DF756"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6EB1C50E4D993C86"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7B0CC86371FAFCAB"
+				item: {
+					Count: 1
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
 			y: -1.5d
 		}
 		{
-			id: "5B9504A69D9C9FE6"
-			tasks: [{
-				id: "5FC05C87B2D42E8E"
-				title: "Get horn"
-				type: "custom"
+			dependencies: ["47116E8A4D078C0B"]
+			id: "4E3AA16B4C7C40B8"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0605FD4757BC2B68"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
+			tasks: [{
+				id: "57EBCADE579F7FC6"
+				item: {
+					Count: 1
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D23AD9F4C0A2BE3"]
+			id: "36F0F40F5D746782"
+			tasks: [{
+				id: "3B07ED7EF1DE8AB6"
+				item: {
+					Count: 1
+					id: "aquamirae:fin_cutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43F02218C2BBA0ED"]
+			description: ["Worth its value, sometimes containing maps to various structures"]
+			id: "4759A40CA643929B"
+			tasks: [{
+				id: "7A405387EC540334"
+				item: "aquamirae:treasure_pouch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["10E83B5B468FEF3B"]
+			id: "545D5F860554697A"
+			tasks: [{
+				icon: "aquamirae:frozen_chest"
+				id: "670CA762798ACE86"
+				structure: "aquamirae:shelter"
+				title: "Find a shelter"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10E83B5B468FEF3B"]
+			id: "18EA0376064C6E68"
+			rewards: [{
+				amount: 500L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "71689DD2DCAE99EB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "5D11746BAFAE191B"
+				item: {
+					Count: 1
+					id: "aquamirae:coral_lance"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A47FB945C0C4886"]
+			id: "2D6EB90AB01FC332"
+			tasks: [
+				{
+					id: "4AA655ADD0FC819D"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							"aquamirae:author": "book.aquamirae.pillager_ship_logbook.author"
+							author: "Unknown"
+							display: {
+								Name: "{\"translate\":\"book.aquamirae.pillager_ship_logbook.title\"}"
+							}
+							generation: 3
+							pages: [
+								"{\"translate\":\"book.aquamirae.pillager_ship_logbook.page_1\"}"
+								"{\"translate\":\"book.aquamirae.pillager_ship_logbook.page_2\"}"
+							]
+							resolved: 1b
+							title: "Logbook"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0725E147B2F3506A"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							"aquamirae:author": "book.aquamirae.pillager_outpost_logbook.author"
+							author: "Unknown"
+							display: {
+								Name: "{\"translate\":\"book.aquamirae.pillager_outpost_logbook.title\"}"
+							}
+							generation: 3
+							pages: [
+								"{\"translate\":\"book.aquamirae.pillager_outpost_logbook.page_1\"}"
+								"{\"translate\":\"book.aquamirae.pillager_outpost_logbook.page_2\"}"
+								"{\"extra\":[{\"translate\":\"book.aquamirae.pillager_outpost_logbook.page_3.start\"},{\"color\":\"dark_green\",\"translate\":\"book.aquamirae.pillager_outpost_logbook.page_3.accent\"},{\"translate\":\"book.aquamirae.pillager_outpost_logbook.page_3.end\"}],\"text\":\"\"}"
+								"{\"translate\":\"book.aquamirae.pillager_outpost_logbook.page_4\"}"
+								"{\"extra\":[{\"translate\":\"book.aquamirae.pillager_outpost_logbook.page_5.start\"},{\"color\":\"dark_green\",\"translate\":\"book.aquamirae.pillager_outpost_logbook.page_5.accent\"},{\"translate\":\"book.aquamirae.pillager_outpost_logbook.page_5.end\"}],\"text\":\"\"}"
+							]
+							resolved: 1b
+							title: "Logbook"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5BD71D2EA0DEBA65"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							"aquamirae:author": "book.aquamirae.pillager_shelter_logbook.author"
+							author: "Unknown"
+							display: {
+								Name: "{\"translate\":\"book.aquamirae.pillager_shelter_logbook.title\"}"
+							}
+							generation: 3
+							pages: [
+								"{\"translate\":\"book.aquamirae.pillager_shelter_logbook.page_1\"}"
+								"{\"translate\":\"book.aquamirae.pillager_shelter_logbook.page_2\"}"
+								"{\"translate\":\"book.aquamirae.pillager_shelter_logbook.page_3\"}"
+								"{\"translate\":\"book.aquamirae.pillager_shelter_logbook.page_4\"}"
+							]
+							resolved: 1b
+							title: "Logbook"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Finally, I have them all."
 			x: -1.0d
-			y: -2.5d
+			y: 1.5d
 		}
 	]
 	title: "Aquamirae"

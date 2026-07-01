@@ -42,6 +42,21 @@
     "result": "default"
   },
   {
+    "mob": ["vampirism:vampire","vampirism:vampire_imob"],
+    "mincount": {
+      "amount": 30,
+    "perchunk": true},
+    "result": "deny"
+  },
+  {
+    "mob": ["vampirism:advanced_vampire","vampirism:advanced_vampire_imob"],
+    "mincount": {
+      "amount": 5,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
     "phase": "after_day_5",
     "mob": ["born_in_chaos_v1:siamese_skeletons"],
     "when": "onjoin",

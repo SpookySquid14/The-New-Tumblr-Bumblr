@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "tinkers_construct"
 	group: "1CE580FB33A3818E"
-	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	id: "2248DCF95595D594"
 	order_index: 2
@@ -26,14 +25,16 @@
 					type: "item"
 				}
 				{
-					id: "1C2C720402C83415"
-					item: "tconstruct:cast_chest"
-					type: "item"
-				}
-				{
 					id: "3AC529DB4D8C56C3"
 					item: "tconstruct:part_chest"
 					type: "item"
+				}
+				{
+					amount: 25L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "32E0537056D773C2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "A Blacksmith is Born"
@@ -79,6 +80,13 @@
 					id: "62507DF015BC400A"
 					item: "minecraft:bone"
 					type: "item"
+				}
+				{
+					amount: 25L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "127E17118F63F603"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Primitive, Shmimitive"
@@ -128,9 +136,11 @@
 					type: "item"
 				}
 				{
-					id: "5CE2FAA3CA472A1B"
-					type: "xp_levels"
-					xp_levels: 2
+					amount: 125L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5C75F3045DD32F0F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Melter Skelter"
@@ -188,15 +198,16 @@
 					type: "item"
 				}
 				{
-					count: 32
-					id: "431D49B74570D48C"
-					item: "minecraft:redstone"
-					type: "item"
-				}
-				{
 					id: "722F0E1186AA69AD"
 					item: "tconstruct:puny_smelting"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "76A50494D160C8C5"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "The Forge Awaits"
@@ -215,14 +226,14 @@
 				}
 				{
 					count: 64L
-					id: "3D129FA357632FE0"
-					item: { Count: 64, id: "minecraft:clay" }
+					id: "4681742933CC5790"
+					item: { Count: 64, id: "tconstruct:grout" }
 					type: "item"
 				}
 				{
 					count: 64L
-					id: "4681742933CC5790"
-					item: { Count: 64, id: "tconstruct:grout" }
+					id: "47C6CED903BCF5C3"
+					item: { Count: 64, id: "minecraft:clay_ball" }
 					type: "item"
 				}
 			]
@@ -256,6 +267,13 @@
 					id: "74DA490FD54001C5"
 					item: "tconstruct:seared_bricks"
 					type: "item"
+				}
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2DB0D2BA261B032E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Hot Swapping"
@@ -293,15 +311,17 @@
 			id: "508F4A0DC217F01F"
 			rewards: [
 				{
-					id: "7F368952BC39ED3F"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					count: 3
 					id: "67F25AE4490B3252"
 					item: "minecraft:diamond"
 					type: "item"
+				}
+				{
+					amount: 200L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "670A0F53F2AF03F4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Cheaper, Better, Stronger"
@@ -337,9 +357,11 @@
 					type: "item"
 				}
 				{
-					id: "4BEDEE396ED6AC9B"
-					type: "xp_levels"
-					xp_levels: 2
+					amount: 50L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "07BBAA55BDACED88"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "But still Unbreakable!"
@@ -388,9 +410,11 @@
 					type: "item"
 				}
 				{
-					id: "683BB5CC182F889C"
-					type: "xp_levels"
-					xp_levels: 5
+					amount: 250L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "43EEE9C2F2891AC7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Apprentice Blacksmith"
@@ -453,11 +477,6 @@
 					type: "item"
 				}
 				{
-					id: "79D495ADF144E6C4"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					id: "5C4369DCD6B098EE"
 					item: {
 						Count: 1
@@ -472,15 +491,16 @@
 					}
 					type: "item"
 				}
+				{
+					amount: 300L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "01D8570CE647385E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
 			]
 			subtitle: "Mixing Metals"
 			tasks: [
-				{
-					count: 5L
-					id: "46ABF03F2A6F4194"
-					item: { Count: 5, id: "tcintegrations:bronze_ingot" }
-					type: "item"
-				}
 				{
 					count: 5L
 					id: "36151634CC2F827C"
@@ -491,6 +511,12 @@
 					count: 5L
 					id: "0CA92C0C575E67D3"
 					item: { Count: 5, id: "tconstruct:pig_iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "089079F10C354EE8"
+					item: { Count: 5, id: "mekanism:ingot_bronze" }
 					type: "item"
 				}
 			]
@@ -514,9 +540,11 @@
 					type: "item"
 				}
 				{
-					id: "371BE51CE2ECE07B"
-					type: "xp_levels"
-					xp_levels: 2
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4C14EA5234D5AFB3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Craft a Modifier Worktable"
@@ -532,9 +560,11 @@
 		{
 			id: "2F719A48ECA78904"
 			rewards: [{
-				id: "1C7D03E6F9265E94"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "59052B64ECE09230"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "0C0397558C267F76"
@@ -547,9 +577,11 @@
 		{
 			id: "09D59EB8A167ECAD"
 			rewards: [{
-				id: "42735D33EDEADD1B"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "40C54B4AF6483AD2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "3C669301888F5B6A"
@@ -562,9 +594,11 @@
 		{
 			id: "772E0FF2405F822C"
 			rewards: [{
-				id: "6C468D2F9D33D285"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0B04FFBF0C285A00"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "0F1C947716AC8893"
@@ -577,9 +611,11 @@
 		{
 			id: "36522E8C51182157"
 			rewards: [{
-				id: "1F7DF8B08BCE0639"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5C2C73B8FB72B8D8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "5B1175BD720FE988"
@@ -592,9 +628,11 @@
 		{
 			id: "3428838980B287DC"
 			rewards: [{
-				id: "6D56827CAC9A5882"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2324B8E9AADCE3A3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "7E63B7314B50B11C"
@@ -607,9 +645,11 @@
 		{
 			id: "025AC27DCBA8D736"
 			rewards: [{
-				id: "656ABA16F762F4D7"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0BAFBE2BA2CB5422"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "0BDBE6AB37BCA4AF"
@@ -622,9 +662,11 @@
 		{
 			id: "2161C29C65652940"
 			rewards: [{
-				id: "5E065C09C995C942"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2FE11BD6A85EB4D8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "1550D4E3562AAFC1"
@@ -637,9 +679,11 @@
 		{
 			id: "1F1B487A6FDC7438"
 			rewards: [{
-				id: "7D960675B81794EA"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 25L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6927AD7DF98BA2CC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "0AB0C2F070D56339"
@@ -652,9 +696,11 @@
 		{
 			id: "6C7A21DE92062369"
 			rewards: [{
-				id: "6E4A7861ACCA546C"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 25L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5E1B5AD427551D0C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "095E3D2F21C8F8BF"
@@ -667,9 +713,11 @@
 		{
 			id: "10772D447BDED1F5"
 			rewards: [{
-				id: "7CBE0F86F3735B6F"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 25L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7ACFDD49F7B1DBF1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "753F95AF61B424F4"
@@ -682,9 +730,11 @@
 		{
 			id: "5ECE659C93517BAC"
 			rewards: [{
-				id: "6578CD6D4D94127A"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 25L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1876310F86DE9536"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "5903115A986B0B0C"
@@ -697,9 +747,11 @@
 		{
 			id: "6C5E9F5545733E5E"
 			rewards: [{
-				id: "211CBF67234A1AF9"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0A42FDB162AA2435"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "424C658904F24773"
@@ -712,9 +764,11 @@
 		{
 			id: "653D5E71E4719056"
 			rewards: [{
-				id: "013FA257480B00A9"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "56B994E08E783FA3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "1CE1791692DC50BE"
@@ -727,9 +781,11 @@
 		{
 			id: "1572AE099DE32E53"
 			rewards: [{
-				id: "61393E15BFBF4A6A"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7F6F1C1665DB90A4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "6EE364B2F6FB84AE"
@@ -742,9 +798,11 @@
 		{
 			id: "1096F974AC40A67A"
 			rewards: [{
-				id: "7BE2EF99B776D218"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "79E5875AD6BEA200"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "5DADCC721FE70BD6"
@@ -757,9 +815,11 @@
 		{
 			id: "1DE841992983D331"
 			rewards: [{
-				id: "6A35C18A68FB8E63"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3D8CB216B8D007FB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "0632742C0AE0845A"
@@ -772,9 +832,11 @@
 		{
 			id: "235E193633D5DF06"
 			rewards: [{
-				id: "6F03F115518623E0"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "433E87A40B39C9A8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "2C3B5E67356AE7BC"
@@ -787,9 +849,11 @@
 		{
 			id: "1FF40B4369CEA872"
 			rewards: [{
-				id: "2236EA6316FB44B1"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "295FB7E3F93DB2C0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "1018B12DAA63F2FE"
@@ -802,9 +866,11 @@
 		{
 			id: "4AC5B27E4C25FA8A"
 			rewards: [{
-				id: "3DA2CBC38CD325B9"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3CE4671373C8BCDB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "472E0BAE8A27429F"
@@ -817,9 +883,11 @@
 		{
 			id: "383E08B47AC91DBB"
 			rewards: [{
-				id: "21A53D9F45650F61"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "41607077BA35564C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "2524B6B948488DE0"
@@ -832,9 +900,11 @@
 		{
 			id: "132E411CA61A2AAF"
 			rewards: [{
-				id: "03EAFF95524DD6AB"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6DC9A8CA838C01BC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "2A9A427EB111D08C"
@@ -847,9 +917,11 @@
 		{
 			id: "5C67F68081E3AFF3"
 			rewards: [{
-				id: "48D6A7628ABB880D"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7E398626D154AA93"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "588D1C0F0FAC6B4B"
@@ -862,9 +934,11 @@
 		{
 			id: "285AF5E3EDAC9055"
 			rewards: [{
-				id: "726ACAA7833EC8A5"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "39968D9713D63F5B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "0F4C05592D243ED1"
@@ -877,9 +951,11 @@
 		{
 			id: "0237B658A0B7F120"
 			rewards: [{
-				id: "1C16CCEAF21855C3"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3D8AD0EA21A37948"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "2D0D5532180C4548"
@@ -892,9 +968,11 @@
 		{
 			id: "043B0BAF1FB900A3"
 			rewards: [{
-				id: "50A960DFBF5B2138"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4CB83BA8958C78E8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "127E255FCA36C532"
@@ -907,9 +985,11 @@
 		{
 			id: "1ABC3FE948A2F3F8"
 			rewards: [{
-				id: "316C1C69DA1D3D0C"
-				type: "xp_levels"
-				xp_levels: 5
+				amount: 20L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2F33B47F26BDD1F0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				id: "1FC6318F8175C1B4"
@@ -949,9 +1029,11 @@
 					type: "item"
 				}
 				{
-					id: "7DA45ED992322B4D"
-					type: "xp_levels"
-					xp_levels: 3
+					amount: 200L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "74F68F4FF12DCE0B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Gross, But Useful"
@@ -984,14 +1066,16 @@
 			id: "3695D8779498D171"
 			rewards: [
 				{
-					id: "79109CEFDEBC0833"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					id: "1FA287AB6C9ED261"
 					item: "tconstruct:slimesteel_block"
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "34CFB6A8A7B7FF10"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Hard and Squishy?"
@@ -1013,9 +1097,11 @@
 					type: "item"
 				}
 				{
-					id: "7DCAC2987A2C244D"
-					type: "xp_levels"
-					xp_levels: 5
+					amount: 150L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "06AD832571285F7C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Lava Eater"
@@ -1040,9 +1126,11 @@
 					type: "item"
 				}
 				{
-					id: "1AA5805157707885"
-					type: "xp_levels"
-					xp_levels: 5
+					amount: 200L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "31CA87C40B96B24E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Motherslime"
@@ -1074,6 +1162,13 @@
 					id: "0D45976D0EC6E146"
 					item: "minecraft:crying_obsidian"
 					type: "item"
+				}
+				{
+					amount: 200L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0B80395681E422FD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Good Student!"
@@ -1108,13 +1203,9 @@
 		{
 			dependencies: ["26391C42E91CA9F7"]
 			description: ["The Nether is home to some of this world's hottest... most volitile substances."]
+			hide_until_deps_complete: true
 			id: "5482C9C8A1CF524C"
 			rewards: [
-				{
-					id: "04D144B4C71D2EF3"
-					type: "xp_levels"
-					xp_levels: 5
-				}
 				{
 					count: 3
 					id: "5AAEAB3ADF86CE86"
@@ -1131,6 +1222,13 @@
 					id: "48A56A7B212878E1"
 					item: "tconstruct:fantastic_foundry"
 					type: "item"
+				}
+				{
+					amount: 400L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "6039EBD4FBE1E6F3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Treated with Hellfire"
@@ -1151,14 +1249,16 @@
 			id: "507322CB01827F36"
 			rewards: [
 				{
-					id: "7B533243292B11F9"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
 					id: "50D50456C18AEC6B"
 					item: "tconstruct:raw_cobalt_block"
 					type: "item"
+				}
+				{
+					amount: 200L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "3A02B6EF56FC7680"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Nether Iron"
@@ -1191,9 +1291,11 @@
 					type: "item"
 				}
 				{
-					id: "5FF9298748E0E11F"
-					type: "xp_levels"
-					xp_levels: 10
+					amount: 400L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "10CEA7E973BA68F1"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "I Wonder Who Left It?"
@@ -1227,9 +1329,11 @@
 					type: "item"
 				}
 				{
-					id: "47F43A65E7608FFC"
-					type: "xp_levels"
-					xp_levels: 10
+					amount: 400L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "16808594361718A0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Improved, Maybe"
@@ -1285,15 +1389,17 @@
 					type: "item"
 				}
 				{
-					id: "21F9EE1DA241A18A"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					count: 2
 					id: "1D3EBCFCED27CF69"
 					item: "minecraft:ancient_debris"
 					type: "item"
+				}
+				{
+					amount: 400L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "6C14D17F5438B6DB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Deep Purple"
@@ -1310,17 +1416,20 @@
 		{
 			dependencies: ["44A93A794D4165FC"]
 			description: ["Of all the slimes, Earthslime is the most well known, being bright green and the slime itself being found in many places of the world. Though hardened crystals can be found underground in geodes. much like ameythyst."]
+			hide_until_deps_complete: true
 			id: "5356973CA8AF15BB"
 			rewards: [
-				{
-					id: "40513EC711DFFD0F"
-					type: "xp_levels"
-					xp_levels: 5
-				}
 				{
 					id: "287D4904FD9D0BD8"
 					item: "minecraft:slime_block"
 					type: "item"
+				}
+				{
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "06EDDAA28F30DBC0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Green Slime"
@@ -1335,6 +1444,7 @@
 		{
 			dependencies: ["44A93A794D4165FC"]
 			description: ["Skyslime is the type of slime found upon the island's floating far above even the tallest mountains, known for it's pale blue color, unlike Earthslime, it's properties are more condusive to mixing into metal."]
+			hide_until_deps_complete: true
 			id: "31F7CCE1B74248B2"
 			rewards: [
 				{
@@ -1343,9 +1453,11 @@
 					type: "item"
 				}
 				{
-					id: "1768EBD8C4B5A9F0"
-					type: "xp_levels"
-					xp_levels: 5
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7EC0E8EE054326A2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Blue Slime"
@@ -1360,6 +1472,7 @@
 		{
 			dependencies: ["44A93A794D4165FC"]
 			description: ["Ichor is the Nether's own Earthslime counterpart. Found in large geodes scattered between the lava seas"]
+			hide_until_deps_complete: true
 			id: "2E156E0FF61C3646"
 			rewards: [
 				{
@@ -1368,9 +1481,11 @@
 					type: "item"
 				}
 				{
-					id: "0175FCC507CEB466"
-					type: "xp_levels"
-					xp_levels: 5
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7772D0ED496372A9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Tangy!"
@@ -1390,6 +1505,7 @@
 				""
 				"Knowing the End? It might behave more like Skyslime."
 			]
+			hide_until_deps_complete: true
 			id: "35F1010EA8C338CE"
 			rewards: [
 				{
@@ -1398,9 +1514,11 @@
 					type: "item"
 				}
 				{
-					id: "462A02B42E74063D"
-					type: "xp_levels"
-					xp_levels: 5
+					amount: 75L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "74AAC254EFFDC821"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "End Slime"
@@ -1428,9 +1546,11 @@
 					type: "item"
 				}
 				{
-					id: "066ACD5F1C350891"
-					type: "xp_levels"
-					xp_levels: 5
+					amount: 300L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "23D68AD6217FB323"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			subtitle: "Blazing Blood"
@@ -1459,11 +1579,20 @@
 				"Now, Get out there, and show the world your creations!"
 			]
 			id: "779A26C471E80278"
-			rewards: [{
-				id: "4474113B9AB32AFA"
-				type: "xp_levels"
-				xp_levels: 15
-			}]
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7EA23853F4BA2642"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "51ACB08FE30C62CA"
+					item: "tinkers_advanced:voltaic_crystal"
+					type: "item"
+				}
+			]
 			subtitle: "You HAVE, Earned the Rank of Master"
 			tasks: [
 				{
@@ -1524,11 +1653,6 @@
 			id: "360A8263D9C40DF2"
 			rewards: [
 				{
-					id: "477E8802AF7B10CF"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
 					count: 2
 					id: "718BDD92FE0B05EF"
 					item: "minecraft:gold_block"
@@ -1539,6 +1663,13 @@
 					item: "minecraft:diamond_block"
 					type: "item"
 				}
+				{
+					amount: 1000L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "20303918B154B0BD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
 			]
 			subtitle: "Hey there's a lot and some of them obscure; BITE ME"
 			tasks: [{
@@ -1547,7 +1678,7 @@
 			}]
 			title: "You Got (Most of them-)"
 			x: -14.0d
-			y: 5.0d
+			y: -3.0d
 		}
 	]
 	title: "Tinker's Construct"

@@ -253,6 +253,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "Bows and Arrows"
 			tasks: [
 				{
 					id: "1C8DCE75482938D4"
