@@ -1430,7 +1430,7 @@ hash = "ad0e43cd1d8fff16d76ff6036699bd67598ff8bc18220b7e8e951245c92cf139"
 
 [[files]]
 file = "config/betterchunkloading.json"
-hash = "95bdbfe1263fb62be9951dbbe48f32683ad4da8d0084a17220e5f674325a3373"
+hash = "06fca334e6e55a0334199b0a3bba2fd5102270baf76a11c3a516fdd526d7cbe4"
 
 [[files]]
 file = "config/bettercombat/client.json5"
@@ -62373,6 +62373,166 @@ file = "config/blockswap/known_states/siegeweapons/siege_table_block.json5"
 hash = "f2c4302cde575e6c431a565d5c03705633ec68456ebcbec17fbf78e680c58f6a"
 
 [[files]]
+file = "config/blockswap/known_states/simplylight/edge_light.json5"
+hash = "0e03244dba32046e19fe4f0dd74305b45f95e61bf6e44117bee59beacaa32ed1"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/edge_light_top.json5"
+hash = "cc10ee7aea2186e0dc86c09ad01672ebe2c0e92f20a498149b91c9bf7a6fd305"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_black_block.json5"
+hash = "b5bbc3a310c31ddc30574d375f860d000cde76bfd6686419965e78583ec47083"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_black_block_on.json5"
+hash = "5eb8f74f44181fc5924f4b47c868cd8253938eaaac6cfe97e70c53c1bbb0272c"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_block.json5"
+hash = "abb4a16d2d40c6bf1403666540c24ce574ace242c80a5f14e49e29d419815d3e"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_block_on.json5"
+hash = "4a3463fd50d8470a8ce0b8fdc4e71b059e5880faa338baf72467e6c752d8d8af"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_blue_block.json5"
+hash = "40e737ef1e72e6b73043c7d4082104097f19645893f3da59ec6d4d4dc3378185"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_blue_block_on.json5"
+hash = "26928ec0df3a2a00959f5b57fa116ca1bcaf34d9fd3feecf01b7d7be7641a28a"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_brown_block.json5"
+hash = "4c7954970fca60f6ad92bc9074a25bee65bdec212af94f55417c6dbd0fffef0e"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_brown_block_on.json5"
+hash = "78c8feb1e01be4d8ae0d2f1285971a8c0701f0882fa27ce5838ed7d08adbc710"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_cyan_block.json5"
+hash = "615516594b75533ef5e39df70a763af32e9b9dc0739eaa6e1dcaf43947781e61"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_cyan_block_on.json5"
+hash = "d48b7435b68e76afa72acaf16de624be6959968a3ee8c774a247a7b4f2723137"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_gray_block.json5"
+hash = "a682afe804e7c05d3fb60ab7a2ae745f4cf14b41530bbe242931d19032127303"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_gray_block_on.json5"
+hash = "f8ff2c483b5b76caf99e580feb66d6df49515b0c4aa5045dd3a3d07b41bc9018"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_green_block.json5"
+hash = "ec92bdf1e9b35a6db8696215ca516ca39ce3eccaf6efc4182140c91981670fb0"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_green_block_on.json5"
+hash = "0db3d37d7fb099adf100a9967a6926745866873c82a1158ddfdf75648ae66f39"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_light_blue_block.json5"
+hash = "9439485b12ca0c5a1c54fd7e01ed1d9d6b179ca05edb7ec4df60ab54d9f39efb"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_light_blue_block_on.json5"
+hash = "d368efdaa07da191226782a30952c1a877a8265652639cf3e9f8afb36c727a2f"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_light_gray_block.json5"
+hash = "1652bf03be0201d809b70a6d6075474e97908ac31bf0e5eb6c2d45fbae61adfd"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_light_gray_block_on.json5"
+hash = "70b0032e99f737fbab07f6959d87af0c2216493cb96aa645367994dc83fc98cf"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_lime_block.json5"
+hash = "9949e2dfec483de72beed16084b218048750f296767734ac0c7307b02cdeba7f"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_lime_block_on.json5"
+hash = "cdbefadb201c3857d7d78a1d1c79e9ac2475b3fc97a34346f8b30b7e093d1e32"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_magenta_block.json5"
+hash = "87913d0a545696978efb5bf83534f1dc28739c02b1918b5460255f4744155520"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_magenta_block_on.json5"
+hash = "779d8535704a58e013a2c4dfe19647d413b5c4a2013ac6646cc4a42528fe1010"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_orange_block.json5"
+hash = "5a96b7a6c524a9127874b64315162c281d3c0c960e0dfd79a6311ff62f272021"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_orange_block_on.json5"
+hash = "ce4b50429f1c62d36107c80e47e16cad666ddbd95fd1f67d672a3f63a279b1a2"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_panel.json5"
+hash = "dce8877b5fa815836972c4a1ef0b83fc951d1dbf743c9436b9feb3a8f157b0be"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_pink_block.json5"
+hash = "f4772cd86699f0d1e2ebe35bbebf3b1a0b0c7d894f15402d473f8108648d0f00"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_pink_block_on.json5"
+hash = "23a96ff648f978b5111082b3cc7899b1ce51bf717458aaccc30a16cb63fb5db6"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_purple_block.json5"
+hash = "8c84e066cc2b16a70f036e43bc711a29dd8ecbd9817cd6a63eb023befd38415f"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_purple_block_on.json5"
+hash = "0bb012811acb2404d427a6ae0da244373d0d339f196e11f90152d337a7680855"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_red_block.json5"
+hash = "6a94d3286c356e864b3bc12bbfef0be7c6891679a98b5c5535c88776f80e5a9c"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_red_block_on.json5"
+hash = "8064ef500ef25c1837ae7fbfbbafbde4f1d4ef22e8e0ca4359bb1cab2016061d"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_slab.json5"
+hash = "087ce265be41f05070d2d0d42479aad33500a5aaccefe4c1635631ceb5b280e4"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_yellow_block.json5"
+hash = "859581c3b121f6e8e1a401d0c0f6f5f88bf0e6bdfd8db9a8a7435216e2d5dcdf"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/illuminant_yellow_block_on.json5"
+hash = "87b0a5dc6f8339171db72013238b8af89bf86b25560bcda2804d55c051950fed"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/lamp_post.json5"
+hash = "49afacc810bf8f4477663292ed3dce322d6a3fe85e6c6d3f03de47e022b95517"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/lightbulb.json5"
+hash = "9de26e2b6bda25554f060f18a60959160d76ac8b195dbc89b3fcbe80b0f5c90b"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/rodlamp.json5"
+hash = "37c8965af6b3c03a6fba8c7e541c0908e11ba197606218e1485409b091ef3e2a"
+
+[[files]]
+file = "config/blockswap/known_states/simplylight/wall_lamp.json5"
+hash = "e373d1e00b3de2eab34c7dc0ab34b5cb177e7e062557d3b675ba5d79aa790fd1"
+
+[[files]]
 file = "config/blockswap/known_states/simplytea/potted_tea_sapling.json5"
 hash = "1f85e7046809b83f21d463ff18b95a8ef563b2c0880346039f32626b6b22fd6d"
 
@@ -68770,7 +68930,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "27834cb5cec7dd2aec58e387968744fbc3c477781b7c960d6fd43d985a7dfa4e"
+hash = "dfd530d4c467e59d2ebf81353055858fdba471b9c244006f69f63d69e2586a20"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68875,6 +69035,10 @@ hash = "20057523eb6efccf7586c36f4fb41bc844dbfe18c940cde54295c80314200166"
 [[files]]
 file = "config/forgeendertech/Biomes/ad_astra$martian_canyon_creek.cfg"
 hash = "d94301611e49fb2d3cf24c01e7443b3efaae7d1e96fa4a18bdc22f3326be602d"
+
+[[files]]
+file = "config/forgeendertech/Biomes/ad_astra$martian_polar_caps.cfg"
+hash = "8bb59a95d7365d9ff09e94f338bcae0d03df8b2122d088dcdf4de08bfe5d6721"
 
 [[files]]
 file = "config/forgeendertech/Biomes/ad_astra$martian_wastelands.cfg"
@@ -69773,6 +69937,10 @@ file = "config/ftbquests/quests/chapters/biomancy.snbt"
 hash = "af79d18b341afe310a23e248f664da169fc4119049b3ac3b7264d35ebdadc6ac"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/boats_and_planes.snbt"
+hash = "b2d7083de2025cec93c1151fe0d0a7584c977f8fec92777d670503f56da76117"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/born_in_chaos.snbt"
 hash = "13ff8d69a42ce158fafc952a6522a2804046f81b7619a3d72af2d0dcb6402319"
 
@@ -70318,7 +70486,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "78e13e95151d201b6c738961243358a85f6d7d938a63e6635ea6dce60ebfd03e"
+hash = "df5481caf0cde80e4b671bd644570d7a244255d112ded002976bac91f4cc2ce0"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -70826,7 +70994,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "0d316bb900958216e1ae04a96d3c3db2e1de312f3514a8d260085434960239ba"
+hash = "0fc54c480f033d16fcd0321b951841a5d9f4afc6bb0de0f39a30f3891a8924a8"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71078,7 +71246,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "11748ca7cffacdde07e6ab8ec416411b104f7f85871bf6f3ccfd1e5dce8c32e5"
+hash = "427f84bf2ef90b91fee17aa0185ae15c381ac89f57f2cf69f72496370c35d564"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71094,7 +71262,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "728d41bf35057b6187ba8f9187527d03b16279cb3e2902a511a3d3911cbf4c91"
+hash = "106c4986c789274019808279950800198af8801791ab50b3180999cd87b07a25"
 
 [[files]]
 file = "config/pal.properties"
@@ -72702,7 +72870,7 @@ hash = "a19d088435d6334295d34fcf23fd2bd181a071a637ceb37cfd0dfdfb32312c56"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "8e08641d804c9a5767e866aed0ca84836d1a550d909b4f86f9554b341ef48128"
+hash = "21089710235aaa4843bc94d9f8ad3a5ccbaaae464d37853d061e4b54be05e009"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -72961,12 +73129,16 @@ file = "kubejs/assets/eternalcurrencies/textures/item/ancient_bag.png"
 hash = "5a602ee95c8ceaf5b66ff834c77a5d8f3ce4cb7a6e8ba7254095387a592ffc2e"
 
 [[files]]
+file = "kubejs/assets/ftbquests/lang/en_us.json"
+hash = "cb5ad79a32becffe3dd7e117d57e0ad5f36303716637895a955a1dd94ccd2587"
+
+[[files]]
 file = "kubejs/assets/ftbquests/textures/item/book.ase"
-hash = "868ee51106e0842b45a82f5a88073f34fc8a7d2fb4d5569a938ac5db10fdaa52"
+hash = "20817ed900dcccfd0303583d636d710972199fc5790cf108c7af30c0fa2e6ae4"
 
 [[files]]
 file = "kubejs/assets/ftbquests/textures/item/book.png"
-hash = "d7bcefa41763f0fbbfb2f10d95356808edfda3434d1f3b848fa91ecc3f1b27e6"
+hash = "ea1e816566d18e031f8c0b3ce6983531ad32105a58bc57b336feb301eb60b503"
 
 [[files]]
 file = "kubejs/assets/gateways/lang/en_us.json"
@@ -73039,6 +73211,10 @@ hash = "22dc8a9706669c43341901dacb3e9e4a2bb31db1435e913a26bb819f2d10d961"
 [[files]]
 file = "kubejs/assets/lavafishing/textures/entity/yeti_crab_modify.png"
 hash = "5c4aecf3760dfb6d3d5b8543b7ba103bf7f0c38f1f0c64b15efd583feb4b7a49"
+
+[[files]]
+file = "kubejs/assets/legendarytabs/textures/gui/tab_menu_buttons.png"
+hash = "7fb77d48a4a2596b2d7319378103ff279762f817ec4363f7095886a6484b3c74"
 
 [[files]]
 file = "kubejs/assets/minecraft/lang/cs_cz.json"
@@ -78941,6 +79117,11 @@ hash = "7b2cf8819f5a6086044ead7cdd9f8dd1f4e5ab957d1b4a7e5196511c9bddefbe"
 metafile = true
 
 [[files]]
+file = "mods/better-chunk-loading-forge-fabric.pw.toml"
+hash = "b6ad27fd4199b76602055621520a60efa12663ff916854538311bf89456fd963"
+metafile = true
+
+[[files]]
 file = "mods/better-combat-by-daedelus.pw.toml"
 hash = "c4cd3ab43b024716029e26c6fc5ec457ebc2e2c08adef64d950b118540b92931"
 metafile = true
@@ -80603,6 +80784,11 @@ metafile = true
 [[files]]
 file = "mods/simple-backups.pw.toml"
 hash = "b422352b130ad9084cdad90f9f346e3cbfa54e94f5aea27d68e076eb7dea9954"
+metafile = true
+
+[[files]]
+file = "mods/simply-light.pw.toml"
+hash = "381567eae6eeac7bbefed509deadbc26f49dd190c14e734b0387fbed2bbaa9f5"
 metafile = true
 
 [[files]]

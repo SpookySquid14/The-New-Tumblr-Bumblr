@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boats_and_planes"
+	group: "1CE580FB33A3818E"
+	id: "2A86CB58B0C9B847"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Boats and Planes"
+}
