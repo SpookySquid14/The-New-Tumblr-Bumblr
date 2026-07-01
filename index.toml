@@ -68818,7 +68818,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "0363925ab10d5815329d645701cc84ff6d458c0c26e502aa3bd6d802b51645b0"
+hash = "24727b424eaa1ba003a8fbc4e11ec5a1bdbeae4661161cfbdbe0a825f165b901"
 
 [[files]]
 file = "config/enchdesc.json"
@@ -68930,7 +68930,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "c2a56b2c9a479390cee88d9f910b9703ba3ac13260c2793588aef9cfd9aee7bd"
+hash = "4cd669c7f416f4a6e387eef87f9bd226d5ee8ed6aa1c60ac5f361d91e56dd70a"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68998,7 +68998,7 @@ hash = "6cf6e1bb97e59a4fd48420cd792f68799e17066dd6a6469e16bf703d7edef62a"
 
 [[files]]
 file = "config/flerovium.json"
-hash = "f8f7b6978ff358427c0e3ca886513abe22cbb782bdda63b1634fa6d304098ca6"
+hash = "27367f3bdfb5429f34a3a45fb1f2c09e9604b691670fb118af3e2a424c9dbc07"
 
 [[files]]
 file = "config/flywheel-client.toml"
@@ -70154,7 +70154,7 @@ hash = "26b271c6f01b80c24236ebba92b216048abf4651172b8fd932bb59b59acd60fe"
 
 [[files]]
 file = "config/gnetum.json"
-hash = "b2a6681c99ce44d3aaf26581b6282b9e7d7babc92a0c4dc131e66ecb3e8423e3"
+hash = "6e74f75281a5aedc5ae200049f16bd50f9f4a489eb66c6c51e3c77266ff12e3d"
 
 [[files]]
 file = "config/goblintraders-entities.toml"
@@ -70418,7 +70418,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "d7c566e523fe1af0a2f2a05cc6e290f8fb5e144f35eec66dc96b8259bc1c7ab3"
+hash = "e101d3c274afef18beddef9a142ce2bf0e5266742697b55f0a1bd69bce6569f5"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -70486,7 +70486,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "7056d063e3e596a47d8b2b81968e30dc6fe51917be1414411f0d67e90e8f6a1b"
+hash = "df5481caf0cde80e4b671bd644570d7a244255d112ded002976bac91f4cc2ce0"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -70998,7 +70998,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "341e18dbeaac2b93014c1bc036ffc48085daa4bb058666f0b907faf5d136b061"
+hash = "0b4148c348a1af991e3cc7a01cd91b1c8d59e5fe80322e7ecf43912b0f9e19dd"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71250,7 +71250,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "8471cb220f7e3d245e011a82e59c946a6240fc2ef053ffcbc6c1788fb9c9a3a6"
+hash = "975f12c9ea548f83d1c53df3d5d92de91b82de52f2eda58ace6318ed05303569"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71266,15 +71266,27 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "a01e2cd6e6dfa6a5530d1716cdcb798da32d2021166c31c37d7802d30119caa6"
+hash = "9d6d555c2f97ba5de1446e3f55b2aa18e38852f00d0c21b3648d550731fd9f48"
 
 [[files]]
 file = "config/pal.properties"
 hash = "4b178865259e23e2d820e6f534b28ba8cea8af79f0b98fc4d70afdfda2ff76cf"
 
 [[files]]
+file = "config/particle_core_config.toml"
+hash = "91b0940e165d6f1ba79cdefd0d73cbaf1f20fc90ea41918672eb3cd56d7b3cd6"
+
+[[files]]
+file = "config/particle_core_disabled_optimizations_v2.json"
+hash = "7189bb61c58cb1030b8ee486e66abf694d257192248b9b3ac4978df2b1366f7d"
+
+[[files]]
 file = "config/particular-common.toml"
 hash = "1d88a8a8d049e39f9e286052a75e8ab2dead54fe49c88a1341bccb5ad17c941a"
+
+[[files]]
+file = "config/particull-client.toml"
+hash = "070a8b10406653056075f6bf33f015a0d47f624db6afe8bfc9c0fe3799504311"
 
 [[files]]
 file = "config/passiveshield.json5"
@@ -71347,6 +71359,10 @@ hash = "9e078bcaaf6ef271b531e97fd1deaf9f8a0ed650c9390a26fe726ce2f541fbd5"
 [[files]]
 file = "config/paxi/resourcepacks/A Better GUI 2 - FTB.zip"
 hash = "87035e572242c8cf4ccba2aeb1d7f8ae455ee6904f1640b92febd4445b546ab3"
+
+[[files]]
+file = "config/paxi/resourcepacks/AL's Dragon Egg Revamped 2.0.zip"
+hash = "dbd3e7b547c97fe05a84b07e1351d71c0d7a90c3940a4a5ba98c312d29e64c38"
 
 [[files]]
 file = "config/paxi/resourcepacks/Alex's Titles 2.0.zip"
@@ -72874,7 +72890,7 @@ hash = "a19d088435d6334295d34fcf23fd2bd181a071a637ceb37cfd0dfdfb32312c56"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "1b9ab6d444f74e3c429ed2ccdc01b9d9f0f0148821218d5b8db421ff32db3bb1"
+hash = "dd170db61608851ab2d139f47b27e7e974598e8fdd1f57a658da41dcbdbc24b5"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -78885,11 +78901,6 @@ hash = "caefdfd9f076b6443552179b567aee3922879e1adaeba3ef1be83e0d790c5c81"
 metafile = true
 
 [[files]]
-file = "mods/advancement-plaques.pw.toml"
-hash = "efb0ca240edb103c927dd435a64ff498f26dcfdc0d0f8a35b4543a1cf7ebf176"
-metafile = true
-
-[[files]]
 file = "mods/adventurer-skills-pufferfishs-skills.pw.toml"
 hash = "8e5366cc50e738c7df24b75ebc7b62154eaff0f9e0362d98d215b2ddd7c64a20"
 metafile = true
@@ -79910,6 +79921,11 @@ hash = "d8cf75c5c1c12bf24d90c9f7dc6927e6d98b616e62e73868245c936086fd1ba5"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "562b5971dfe4c8ce212be9d08062ba71c4b06cd341c980e592fc830dc279182f"
+metafile = true
+
+[[files]]
 file = "mods/game-stages.pw.toml"
 hash = "888d490b109723a3b7ec802a99602a8bbf1151c4c145b386b3ba1e821096aa7d"
 metafile = true
@@ -79982,11 +79998,6 @@ metafile = true
 [[files]]
 file = "mods/harium.pw.toml"
 hash = "1185ffaf6c0462d87e3554ccb704c9718ab8e9c1cc64ab20786330288c59426f"
-metafile = true
-
-[[files]]
-file = "mods/hc-harichunk.pw.toml"
-hash = "f8f5dc0f52cd643ed54360e970d1af35e5cef287a30114528910e4bbfca6e908"
 metafile = true
 
 [[files]]
@@ -80530,6 +80541,11 @@ hash = "77e6c0888cedfd9b61e5973c16fd7ab718b4813a3a5bbb32cca075c3d204f336"
 metafile = true
 
 [[files]]
+file = "mods/particle-core.pw.toml"
+hash = "a5faaa25a93671b6a0dcbc441cca9045cd6031889201a72017c9cdc0c4a3b5b1"
+metafile = true
+
+[[files]]
 file = "mods/particular-reforged.pw.toml"
 hash = "ad9beddc3b654337427c3e2d0807d39379f52b68be0df967c4147c706749e97f"
 metafile = true
@@ -80647,11 +80663,6 @@ metafile = true
 [[files]]
 file = "mods/quark.pw.toml"
 hash = "906407a4a5a32d03ff499fd4d778e9cc7483af576c1658b2b01322b7c40c145d"
-metafile = true
-
-[[files]]
-file = "mods/quested-revived.pw.toml"
-hash = "3cf6ec9f930b54ef9d2efda87605c773cfee586016b2a8a78749c2a3921e9e68"
 metafile = true
 
 [[files]]
