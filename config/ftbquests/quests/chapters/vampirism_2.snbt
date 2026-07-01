@@ -8,12 +8,21 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"The potion effect &o&4\"Sanguinare Vampiris\"&r is what converts you. &oSaid effect comes from the fangs of a vampire, either from being attacked by one, or by using their dropped fangs on yourself.&r &o&4If not cured, the effect's duration reaching 0, will turn you.&r"
 				"Being a vampire seems to have some nice advantages. It seems &o&4most undead will ignore you unless attacked&r. You no longer need to breathe underwater, but it weakens you."
 			]
 			disable_toast: true
+			hide_until_deps_complete: true
 			id: "11A99823249B4587"
+			rewards: [{
+				amount: 40L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "28343339542C8858"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				advancement: "vampirism:vampire/become_vampire"
 				criterion: ""
@@ -25,7 +34,16 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "42A519143FFF8DA7"
+			rewards: [{
+				amount: 40L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "039FF391943C6377"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "55DD97862B4888D2"
 				item: "guideapi_vp:vampirism-guidebook"
@@ -35,8 +53,17 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: ["To become a Hunter, you must find garlic in the world, either from villages or in the wild. Combine is with a syringe to craft a Garlic Injection, then right click an injection chair, which can also be found in villages or crafted. You will become immune to Vampire's \"Sanguinare Vampiris\" bite."]
+			hide_until_deps_complete: true
 			id: "35C75C417084A27E"
+			rewards: [{
+				amount: 40L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "252A3FF895B06FF9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				advancement: "vampirism:hunter/become_hunter"
 				criterion: ""
@@ -47,21 +74,32 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"Placeholder"
 				"By having a werewolf attack you and infect you with &oLupus Sanguinem, then sleeping while infected. When you wake up, you will be a werewolf.&r"
 				"Werewolves are unique in that they only show their true strength at night and that they are only treated as a werewolf while transformed. In human form, you are treated like you aren't in any faction."
 				"As a werewolf, you'll take reduced damage and can pierce armor with your attacks. Different forms gained later on will increase your abilities."
 			]
+			hide_until_deps_complete: true
 			id: "385C574E48EB6DE7"
-			rewards: [{
-				auto: "invisible"
-				id: "702C742AB400AE67"
-				ignore: false
-				key: "is_wolf"
-				type: "extraquests:key_value"
-				value: 1L
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					id: "702C742AB400AE67"
+					ignore: false
+					key: "is_wolf"
+					type: "extraquests:key_value"
+					value: 1L
+				}
+				{
+					amount: 40L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "7648BC9F5D046326"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			tasks: [{
 				id: "5E93C90485D4ED23"
 				title: "Figure it out later"

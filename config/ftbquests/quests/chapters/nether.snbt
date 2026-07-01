@@ -75,11 +75,13 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"You've gotten this far, huh? The Overworld truly is amazing, but to see all there is, one must go deeper. It's time... for The Nether."
 				"Entering The Nether should be a simple matter. &6&oA frame of 10 Obsidian lit with Flint and Steel.&r That's what must be done."
 				"It uh... actually sounds pretty simple, huh?"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

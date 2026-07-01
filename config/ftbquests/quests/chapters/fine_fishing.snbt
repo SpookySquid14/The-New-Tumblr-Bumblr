@@ -16,6 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"Fishing. It truly is something special, isn't it? Well, here you'll find there's much to do and much to find."
 				"But all fishermen need one item. What is it? Why, a fishing rod of course! So, why don't you craft one, and we can get this aquatic show on the road? &6&oThe next slides will describe the base mechanics.&r"
@@ -27,6 +28,7 @@
 				""
 				"Your performance in this minigame will affect the chance of catching the fish, with &6&ochances increasing as you hit closer to the middle&r."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "minecraft:fishing_rod"
@@ -86,10 +88,10 @@
 			}]
 			title: "Getting Fishy"
 			x: -0.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["3382A9EBAE939697"]
+			dependencies: ["671A213F5059C4E7"]
 			description: ["Now that you've hopefully gotten some experience with basic fishing, it's time to take things up a notch. &6&oAt a smithing table, you can use string and various materials to upgrade your rod.&r For now, let's get your fishing rod to iron tier."]
 			hide_dependency_lines: false
 			id: "0200624FDF3F2367"
@@ -158,11 +160,13 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3382A9EBAE939697"]
 			description: [
 				"Hovering over your fishing rod, you'll notice &o&63 slots in its tooltip&r. These are used to store &6&ovarious bait&r to help you in your fishing journey. When multiple slots are filled, only the left most is used."
 				"[img]"
 				"Basic bait can be made with some compost and rotten flesh. It will increase the speed of your fishing similar to the &oLure&r enchantment."
 			]
+			hide_dependency_lines: true
 			id: "327017618D00C9D9"
 			rewards: [{
 				amount: 100L
@@ -241,6 +245,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["327017618D00C9D9"]
+			hide_dependency_lines: true
 			id: "3AED1BDAB4E81BF0"
 			rewards: [
 				{
@@ -265,6 +271,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["327017618D00C9D9"]
+			hide_dependency_lines: true
 			id: "01DC854F3C7C8CB3"
 			rewards: [
 				{
@@ -289,6 +297,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["327017618D00C9D9"]
+			hide_dependency_lines: true
 			id: "0656D20CFD7B53D1"
 			rewards: [
 				{
@@ -313,6 +323,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["327017618D00C9D9"]
+			hide_dependency_lines: true
 			id: "3B8840BA4062973D"
 			rewards: [
 				{
@@ -337,6 +349,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["327017618D00C9D9"]
+			hide_dependency_lines: true
 			id: "4D1F196542C2DB84"
 			rewards: [
 				{
@@ -362,23 +376,6 @@
 					}
 				}
 				type: "item"
-			}]
-			x: -3.0d
-			y: -4.0d
-		}
-		{
-			description: ["Alongside crafted baits, you'll find there to be a number of other items that can be used. Keep an eye out for them. Could be good."]
-			id: "082C9456E689F116"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "171CDC1FCB08F73A"
-				table_id: 7663161819050656746L
-				type: "choice"
-			}]
-			tasks: [{
-				id: "5C677D08795C9E30"
-				title: "Read about other baits"
-				type: "checkmark"
 			}]
 			x: -3.0d
 			y: -3.0d
@@ -623,7 +620,9 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: ["Did you know The Nether is home to some of its own fish? Indeed it is, but fishing in lava is no simple task. The heat will melt your hook the moment it hits. To circumvent this, you can craft a lava proof hook. When this hook's attached, fishing in lava is no different from water."]
+			hide_until_deps_complete: true
 			id: "7F6C368A42506322"
 			rewards: [{
 				amount: 150L
@@ -643,7 +642,9 @@
 			y: 11.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: ["I have nothing to say to you."]
+			hide_until_deps_complete: true
 			id: "180555739861AF54"
 			rewards: [{
 				amount: 200L
@@ -779,6 +780,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["3382A9EBAE939697"]
 			description: ["If you're fishing, you're going to want a Fishing Journal. This beauty of a tracker takes note of every fish you've caught. In addition, it also tells you where it can be found and the conditions."]
 			id: "6A3B7FC7807367FE"
 			rewards: [
@@ -802,8 +804,8 @@
 				type: "item"
 			}]
 			title: "Notetaker"
-			x: 0.0d
-			y: -3.5d
+			x: -1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6A3B7FC7807367FE"]
@@ -856,11 +858,11 @@
 				}
 			]
 			title: "Conditional"
-			x: -1.0d
-			y: -4.5d
+			x: -2.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["6A3B7FC7807367FE"]
+			dependencies: ["3382A9EBAE939697"]
 			description: ["You're probably gonna be catching a lot of fish, right? In that case, you may want to get yourself a Fish Satchel. Open and close it by using the item, or put a fish in by right clicking in the gui. Best part? &6&oWhile it's open, the satchel will automatically store any fish you catch.&r"]
 			id: "671A213F5059C4E7"
 			rewards: [
@@ -883,11 +885,13 @@
 				type: "item"
 			}]
 			title: "Bags of Fish"
-			x: 1.0d
-			y: -4.5d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: ["So apparently you can fish in The End? That's new, I'll admit. Though with how &o&3my friend&r is talking about \"Void Liquid,\" I suppose it's not &othat&r crazy to imagine."]
+			hide_until_deps_complete: true
 			id: "12630716213DB5CE"
 			rewards: [{
 				amount: 150L
@@ -907,6 +911,8 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2A06C19A15226A09"
 			rewards: [
 				{
@@ -938,6 +944,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7AB7E23B8A7D40FA"
 			tasks: [{
 				id: "6C103231A92E4E49"
@@ -949,6 +957,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "604EDEE379CA1ED7"
 			rewards: [
 				{
@@ -986,6 +996,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "70E81043731A9927"
 			rewards: [
 				{
@@ -1023,6 +1035,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "68C32EEF7C68A981"
 			rewards: [
 				{
@@ -1060,6 +1074,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "448A6BC3778672B1"
 			rewards: [
 				{
@@ -1097,6 +1113,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "001DE4CB1E7085EA"
 			rewards: [
 				{
@@ -1134,6 +1152,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5A62D4E15875B195"
 			rewards: [
 				{
@@ -1171,6 +1191,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "272CAE202D0A280F"
 			rewards: [
 				{
@@ -1208,6 +1230,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7607743891A8021E"
 			rewards: [
 				{
@@ -1245,6 +1269,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5E0A2ED6426B32A2"
 			rewards: [
 				{
@@ -1282,6 +1308,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "4268B80F1324D729"
 			rewards: [
 				{
@@ -1319,6 +1347,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "415A7E2A442055F4"
 			rewards: [
 				{
@@ -1356,6 +1386,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "246D1C6CDC3406EF"
 			rewards: [
 				{
@@ -1393,6 +1425,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "63B05AF409913899"
 			rewards: [
 				{
@@ -1430,6 +1464,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2AE2C2707865B62B"
 			rewards: [
 				{
@@ -1467,6 +1503,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "45C355AB9D8105E9"
 			rewards: [
 				{
@@ -1504,6 +1542,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "21CBA7ABBA9133B0"
 			rewards: [
 				{
@@ -1541,6 +1581,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "646619120454F86E"
 			rewards: [
 				{
@@ -1578,6 +1620,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "42CDAA2AE526C97A"
 			rewards: [
 				{
@@ -1615,6 +1659,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "0BF890FDB2DAB1EE"
 			rewards: [
 				{
@@ -1652,6 +1698,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7E0C9C0DB68B52A3"
 			rewards: [
 				{
@@ -1689,6 +1737,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "4F746F798215AF3A"
 			rewards: [
 				{
@@ -1726,6 +1776,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "62310B5891F6339F"
 			rewards: [
 				{
@@ -1763,6 +1815,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7D77E89F21D92C84"
 			tasks: [{
 				id: "26B51D8109DAACB0"
@@ -1773,6 +1827,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1142448E6A0F1EC4"
 			rewards: [
 				{
@@ -1804,6 +1860,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "74BD802065041524"
 			rewards: [
 				{
@@ -1841,6 +1899,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7D0CE36C2B1D1B48"
 			rewards: [
 				{
@@ -1872,6 +1932,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "75D4E64011585877"
 			rewards: [
 				{
@@ -1903,6 +1965,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "58DEBBF325F96FB5"
 			rewards: [
 				{
@@ -1940,6 +2004,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "11BF37D3B1F778EF"
 			rewards: [
 				{
@@ -1977,6 +2043,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7C0FA1E9ABFC868C"
 			rewards: [
 				{
@@ -2014,6 +2082,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "12727D8905D45793"
 			rewards: [
 				{
@@ -2051,6 +2121,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "78F4D35A3E4969D1"
 			rewards: [
 				{
@@ -2082,6 +2154,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2D55F2E4A5E2188D"
 			rewards: [
 				{
@@ -2119,6 +2193,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "6DD85A7410F8D997"
 			rewards: [
 				{
@@ -2156,6 +2232,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "532EE61AF6A7360E"
 			rewards: [
 				{
@@ -2187,6 +2265,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "3E5B42A9CD2A7021"
 			rewards: [
 				{
@@ -2224,6 +2304,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "286DCBD186F605B3"
 			rewards: [
 				{
@@ -2255,6 +2337,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2BCE827ED7A4E70E"
 			rewards: [
 				{
@@ -2286,6 +2370,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "16A4DA96F49593AF"
 			rewards: [
 				{
@@ -2317,6 +2403,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5E4CE86988BE3E73"
 			rewards: [
 				{
@@ -2348,6 +2436,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "30BD2CF6BEAECDC6"
 			rewards: [
 				{
@@ -2379,6 +2469,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "742FC717FD6C87B2"
 			rewards: [
 				{
@@ -2410,6 +2502,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "79EB39543542FBE2"
 			rewards: [
 				{
@@ -2447,6 +2541,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "450CB66D9D58E4E7"
 			rewards: [
 				{
@@ -2484,6 +2580,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "634F475819A3410C"
 			rewards: [
 				{
@@ -2522,6 +2620,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "3EFE778E1182DD59"
 			rewards: [
 				{
@@ -2560,6 +2660,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2DE28F24163CE7CA"
 			rewards: [
 				{
@@ -2597,6 +2699,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "0B758D0C80670BD7"
 			rewards: [
 				{
@@ -2634,6 +2738,8 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "45B477A3A4AF70B1"
 			rewards: [
 				{
@@ -2671,6 +2777,8 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "0569891D5DBFB754"
 			rewards: [
 				{
@@ -2708,6 +2816,8 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "4232C3945E9E0D20"
 			rewards: [
 				{
@@ -2745,6 +2855,8 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7E8849BB4D5B145D"
 			rewards: [
 				{
@@ -2782,6 +2894,8 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2F6B7B242916412B"
 			rewards: [
 				{
@@ -2819,6 +2933,8 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "49570E6B2DF173F1"
 			rewards: [
 				{
@@ -2856,6 +2972,8 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "07E04F8833C2B6CA"
 			rewards: [
 				{
@@ -2893,6 +3011,8 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "78A2EF15CDE66D0F"
 			rewards: [
 				{
@@ -2929,6 +3049,8 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7C954C946B54F953"
 			rewards: [
 				{
@@ -2965,6 +3087,8 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5392B83EA1E78748"
 			tasks: [{
 				id: "5E7A318324F9F8FC"
@@ -2975,6 +3099,8 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "051E1E245CF0576C"
 			rewards: [
 				{
@@ -3012,6 +3138,8 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "04E9F88822CA5E0B"
 			rewards: [
 				{
@@ -3049,6 +3177,8 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "19E6CAA0D5539EF2"
 			rewards: [
 				{
@@ -3086,6 +3216,8 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1DC6FF9C38ED91A6"
 			rewards: [
 				{
@@ -3123,6 +3255,8 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "4C5EB0D5A85CF1C2"
 			rewards: [
 				{
@@ -3154,6 +3288,8 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "3EAD4FC2BAFE4F9C"
 			rewards: [
 				{
@@ -3191,6 +3327,8 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "48AF586AAB030CF3"
 			rewards: [
 				{
@@ -3228,6 +3366,8 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2B3D657E5D902465"
 			rewards: [
 				{
@@ -3265,6 +3405,8 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "207B9D54D9E43642"
 			rewards: [
 				{
@@ -3302,6 +3444,8 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "258CFA7D0D22CAE5"
 			rewards: [
 				{
@@ -3339,6 +3483,8 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "190993CB2010D486"
 			rewards: [
 				{
@@ -3376,6 +3522,8 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "47F6ECC4C780D1DB"
 			rewards: [
 				{
@@ -3407,6 +3555,8 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1CFFC4A6EEDB0DB8"
 			rewards: [
 				{
@@ -3438,6 +3588,8 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5D2277FA97ECFCA0"
 			rewards: [
 				{
@@ -3469,6 +3621,8 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "16BAC491ED123815"
 			rewards: [
 				{
@@ -3506,6 +3660,8 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "0769EFB968218060"
 			rewards: [
 				{
@@ -3537,6 +3693,8 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "76BB2612F110A3CE"
 			rewards: [
 				{
@@ -3568,6 +3726,8 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5E479BE6C8FA1E46"
 			rewards: [
 				{
@@ -3605,6 +3765,8 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "479C781B0AE902AD"
 			rewards: [
 				{
@@ -3636,6 +3798,8 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2B7F1DD3E75FAA51"
 			rewards: [
 				{
@@ -3673,6 +3837,8 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2D366F38625968E2"
 			rewards: [
 				{
@@ -3710,6 +3876,8 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1F0C63FAE4C64D5D"
 			rewards: [
 				{
@@ -3747,6 +3915,8 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "0188ABC4EDAD19B2"
 			rewards: [
 				{
@@ -3784,6 +3954,8 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "159D46215D05156F"
 			rewards: [
 				{
@@ -3820,6 +3992,8 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5AF51A94D191FCC5"
 			rewards: [
 				{
@@ -3856,6 +4030,8 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7D53558CBD9466CF"
 			rewards: [
 				{
@@ -3893,6 +4069,8 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2F9F90B54D6ABA2C"
 			rewards: [
 				{
@@ -3930,6 +4108,8 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7FB77D4E0E807AEC"
 			rewards: [
 				{
@@ -3967,6 +4147,8 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "76502CBAB6FF7977"
 			rewards: [
 				{
@@ -4004,6 +4186,8 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7B4431DE58CECFAA"
 			rewards: [
 				{
@@ -4041,6 +4225,8 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "6BF0665CA551E44A"
 			rewards: [
 				{
@@ -4078,6 +4264,8 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "422F4A62F897146A"
 			rewards: [
 				{
@@ -4115,6 +4303,8 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "046DAAC98FE3E0EE"
 			rewards: [
 				{
@@ -4152,6 +4342,8 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "57D15AA02D3E765D"
 			rewards: [
 				{
@@ -4189,6 +4381,8 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "4141DA545EE1C681"
 			rewards: [
 				{
@@ -4226,6 +4420,8 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "702DEF38FF54634C"
 			rewards: [
 				{
@@ -4263,6 +4459,8 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "09AB89825D7822BF"
 			rewards: [
 				{
@@ -4300,6 +4498,8 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "517F73AD34C38147"
 			rewards: [
 				{
@@ -4337,6 +4537,8 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "56F066B2CA918A1F"
 			rewards: [
 				{
@@ -4374,6 +4576,8 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "68DFC408FC0D8855"
 			rewards: [
 				{
@@ -4411,6 +4615,8 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "115F6591D5CE350D"
 			rewards: [
 				{
@@ -4448,6 +4654,8 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "08DFC4725DB60875"
 			rewards: [
 				{
@@ -4485,6 +4693,8 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "14134E072355D396"
 			rewards: [
 				{
@@ -4516,6 +4726,8 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "30E72DF8FDCD8677"
 			rewards: [
 				{
@@ -4553,6 +4765,8 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "126385ECD9768760"
 			rewards: [
 				{
@@ -4590,6 +4804,8 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "346218BAA0613319"
 			rewards: [
 				{
@@ -4627,6 +4843,8 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "0C391F91CD33999E"
 			rewards: [
 				{
@@ -4664,6 +4882,8 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "4A3CC6670D5D86C4"
 			rewards: [
 				{
@@ -4701,6 +4921,8 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2CEEB7ED2FBB0EC4"
 			rewards: [
 				{
@@ -4738,6 +4960,8 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1A03FC9B90F05B3A"
 			rewards: [
 				{
@@ -4775,6 +4999,8 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "67A8FBA15B31DA64"
 			rewards: [
 				{
@@ -4812,6 +5038,8 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "6D130A7B5DE3B0B5"
 			rewards: [
 				{
@@ -4849,6 +5077,8 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "3F6DEC8469B2127B"
 			rewards: [
 				{
@@ -4886,6 +5116,8 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "28285A81865808EF"
 			rewards: [
 				{
@@ -4923,6 +5155,8 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "136F25F2604001A7"
 			rewards: [
 				{
@@ -4960,6 +5194,8 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7A908B4330F60439"
 			rewards: [
 				{
@@ -4997,6 +5233,8 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2C0184EBDB8A507A"
 			rewards: [
 				{
@@ -5034,6 +5272,8 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5B3B1C09FB280992"
 			rewards: [
 				{
@@ -5071,6 +5311,8 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "36E581F55D27F63F"
 			rewards: [
 				{
@@ -5108,6 +5350,8 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2FA0F7A733E0065F"
 			rewards: [
 				{
@@ -5145,6 +5389,8 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "4A18E410253CE017"
 			rewards: [
 				{
@@ -5181,6 +5427,8 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "075CB2602449A220"
 			rewards: [
 				{
@@ -5217,6 +5465,8 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "682AE4A214ECC2A8"
 			rewards: [
 				{

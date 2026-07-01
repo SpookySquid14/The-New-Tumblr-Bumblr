@@ -8,7 +8,9 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: ["Ice mazes show up in the deepest of frozen oceans. Be careful, as the water underneath the ice is &ofreezing&r so you'll want leather armor"]
+			hide_until_deps_complete: true
 			id: "4A47FB945C0C4886"
 			tasks: [{
 				biome: "#aquamirae:ice_maze"

@@ -53,11 +53,13 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"{\"extra\":[{\"text\":\"H\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ell\"},{\"text\":\"o? Ah, fi\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"nally, \"},{\"text\":\"contact. I was beginning to l\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"os\"},{\"text\":\"e \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ho\"},{\"text\":\"pe. Listen, I d\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"on't kn\"},{\"text\":\"ow how muc\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"h longe\"},{\"text\":\"r there \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"is f\"},{\"text\":\"or me, so I'll \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"keep\"},{\"text\":\" it brief.\"}],\"text\":\"\"}"
 				"{\"extra\":[{\"text\":\"I've m\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ade\"},{\"text\":\" breakthroughs on life, its \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ver\"},{\"text\":\"y nature. But n\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ow I'\"},{\"text\":\"m lost. I need \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"you\"},{\"text\":\" to take in w\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"hat\"},{\"text\":\" I've learned, c\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ar\"},{\"text\":\"ry it on.\"}],\"text\":\"\"}"
 				"{\"text\":\"Please.\"}"
 			]
+			hide_until_deps_complete: true
 			icon: "biomancy:tab_icon"
 			id: "53A31A5C0C000C7B"
 			rewards: [

@@ -15,10 +15,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"You've seen them around, haven't you? On the land, in the skies, in the seas. Yes, your eyes do not deceive you. Admist this world are the creatures known as &o&6dragons&r."
 				"There's more to learn if you want to truly know these creatures. And I'll tell you what I know if you show interest."
 			]
+			hide_until_deps_complete: true
 			id: "2CDA1B09CD0AAB77"
 			rewards: [{
 				amount: 100L

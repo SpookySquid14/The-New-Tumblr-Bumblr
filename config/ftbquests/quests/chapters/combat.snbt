@@ -15,10 +15,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"You may quickly notice that combat here is a little... different than average worlds. The first thing you'll likely notice is the moveset of your weapon. Indeed, each weapon has its own set of attacks and combos, from large sweeping motions to powerful slams. Even the simple knife is deadly when dual wielded."
 				"This chapter aims to teach you about combat and its changes, to help you in your future endeavours."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "minecraft:iron_sword"

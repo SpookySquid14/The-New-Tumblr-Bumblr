@@ -12,27 +12,20 @@
 		{
 			description: [
 				"To whoever finds this, I welcome you to this wonderful world we call home. There will surely be much to discover, fight, learn, and avoid. By reading this book, you accept your reality. I will be in touch. If you ever need to find this menu again, &6&oyou can access it through your inventory in the top left corner or the tabs above the menu. You can also set a keybind in Controls&r. Of course, you can also choose to keep this book on you."
-				"PS: You are never alone."
+				"And always remember, you're never alone."
 				""
-				"- &kThe Creator&r"
+				"{\"extra\":[{\"text\":\"- \"},{\"font\": \"alt\",\"text\":\"\\\"The Vessel\\\"\"}],\"text\":\"\"}"
 			]
 			icon: "ftbquests:book"
 			id: "15ACD993630984F4"
-			rewards: [
-				{
-					amount: 150L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "50664CB77E417D8A"
-					ignore_reward_blocking: true
-					title: "Some pocket change for the journey ahead"
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "298EA9CC88E69116"
-					item: "ftbquests:book"
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 150L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "50664CB77E417D8A"
+				ignore_reward_blocking: true
+				title: "Some pocket change for the journey ahead"
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Who wrote this?"
 			tasks: [{
 				id: "7C62070C3730C721"
@@ -610,6 +603,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["{\"font\": \"alt\",\"text\":\"I won't let you, not yet.\"}"]
 			id: "6582DCB124CE4A9F"
 			rewards: [{
 				id: "332401932C4398FF"
@@ -619,7 +613,6 @@
 			}]
 			secret: true
 			shape: "none"
-			subtitle: "Not Yet"
 			tasks: [{
 				advancement: "tombstone:adventure/first_grave"
 				criterion: ""
@@ -850,7 +843,6 @@
 				"Inside the Skill Tree, you will find a variety of boosts and abilities, or \"Skills\" if you'd like. When you level up, you'll gain &o&6Skill Points&r, which you can then spend on these Skills. Experience varies, but for the primary Skill Tree, &6&oit can be obtained through combat, enchanting, fishing, and mining&r."
 				"{image:modpack:textures/skill-tree.png width:225 height:135 align:center fit:true}"
 			]
-			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -867,8 +859,8 @@
 				type: "checkmark"
 			}]
 			title: "Skills and Thrills"
-			x: -2.5d
-			y: -3.5d
+			x: 1.0d
+			y: 1.0d
 		}
 	]
 	title: "Fresh Beginnings"

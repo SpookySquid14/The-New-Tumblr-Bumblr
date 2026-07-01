@@ -281,6 +281,42 @@
 			x: 1.0d
 			y: -0.5d
 		}
+		{
+			id: "15757B216B5D7237"
+			tasks: [{
+				id: "430EE2FC4E62352D"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 1
+			}]
+			title: "Waystone 1"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "2B0FCAC7E8CFFC40"
+			tasks: [{
+				id: "62B431A08B0C0EED"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 2
+			}]
+			title: "Waystone 2"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "56B565694503D9C4"
+			tasks: [{
+				id: "48323746EBADC356"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 5
+			}]
+			title: "Waystone 5"
+			x: 1.0d
+			y: 1.5d
+		}
 	]
 	title: "Debug"
 }

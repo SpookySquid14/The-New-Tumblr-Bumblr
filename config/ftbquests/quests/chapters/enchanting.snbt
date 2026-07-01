@@ -9,10 +9,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"When you open a crafting table for the first time, you'll be met with some new values. These are Eterna, Quanta, and Arcana. They are your primary attributes, and values you'll learn more of as you progress."
 				"{image:modpack:textures/enchanting.png width:156 height:90 align:center}"
 			]
+			hide_until_deps_complete: true
 			id: "750F9DC2755C097F"
 			rewards: [
 				{
@@ -43,7 +45,9 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: ["Cobwebs can be placed in an Anvil with an enchanted item to remove its enchantments. Prismatic Cobwebs are crafted with prismarine shards, and do the same for curses."]
+			hide_until_deps_complete: true
 			id: "325CB4FC73144494"
 			rewards: [{
 				amount: 100L
@@ -686,6 +690,8 @@
 			y: -10.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5AC7FC89785E464F"
 			rewards: [{
 				amount: 50L
@@ -703,6 +709,8 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "0FB908A273181B76"
 			rewards: [{
 				amount: 50L
@@ -720,6 +728,8 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7D41A4F1AAAE5D89"
 			rewards: [{
 				amount: 50L
@@ -737,7 +747,9 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: ["Unlike other tomes, the Tome of Scrapping serves a unique purpose. &o&6When placed in an anvil with an enchanted item, it will take half of the item's enchantments.&r The original item is lost in the process."]
+			hide_until_deps_complete: true
 			id: "54434A0CA6214A3A"
 			rewards: [{
 				amount: 100L
@@ -757,11 +769,13 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"&oTomes&r are a special type of book that's limited in what it can be enchanted with based on the specific type, &osave for the scraping tomes&r&o."
 				"&6&oFor example, a Tome of Helmets can only be enchanted with helmet enchantments.&r The same with weapons and weapon enchantments."
 				"The Tome of The Others can be enchanted with any enchantments that don't fit in other lists."
 			]
+			hide_until_deps_complete: true
 			id: "377A0D66D50B77FC"
 			rewards: [{
 				amount: 100L

@@ -89,7 +89,9 @@
 	quests: [
 		{
 			can_repeat: true
+			dependencies: ["15ACD993630984F4"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "minecraft:potion"

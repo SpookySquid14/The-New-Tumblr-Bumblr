@@ -8,12 +8,14 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"Howdy! You can call be the Quartermaster! I am fluent in all things storage- well maybe not all things, there are some wizard's an' shit that can do the same... but if it's made out of wood, it's my specialty!"
 				""
 				""
 				"First, Just make a chest to toss yer shit."
 			]
+			hide_until_deps_complete: true
 			id: "25B20970F2E51E30"
 			rewards: [
 				{
@@ -1134,6 +1136,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "230A514F4CE41017"
 			tasks: [{
 				id: "731C40C584A5E411"
@@ -1144,7 +1148,9 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: ["Just like Chests, Barrels can be upgraded in the same way. But also in a unique way too."]
+			hide_until_deps_complete: true
 			id: "4987607027AD1D38"
 			rewards: [
 				{

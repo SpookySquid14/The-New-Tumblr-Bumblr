@@ -303,8 +303,10 @@
 	quests: [
 		{
 			can_repeat: true
+			dependencies: ["15ACD993630984F4"]
 			description: ["Not one for mining, ay? Well, I'd say it can be worth the trouble most times, but if you need a little push, I can cover ya, for a fee of coure."]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: { Count: 16, id: "minecraft:cobblestone" }
 			id: "7790867215971C3C"
 			rewards: [{
@@ -355,9 +357,11 @@
 		}
 		{
 			can_repeat: false
+			dependencies: ["15ACD993630984F4"]
 			description: ["I'll uh... I'll be real with ya for a momen'. I... do not remember where this thing came from. I just found it while cleaning. It's certainly a good tool, don't get me wrong. But something about it just feels... off."]
 			disable_toast: true
 			hide_dependency_lines: false
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "goety:eerie_pickaxe"
@@ -451,6 +455,7 @@
 			]
 			dependency_requirement: "one_completed"
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: { Count: 16, id: "minecraft:andesite" }
 			id: "03C1FFF0D39BAEE5"
 			rewards: [{
@@ -573,10 +578,12 @@
 		}
 		{
 			can_repeat: false
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"Some random guy stopped by a while back. Well, I say that, but only 'cause I heard footsteps. Opened the door to find this strange metal I'd never seen before and a note. I fashioned it into this pickaxe, and it's pretty good, but I won' lie, sometimes I feel sick when I'm near it."
 				"I'll sell it 'o ya. Give you the note, too. Just... keep it away from me."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "clanginghowl:extraterrestrial_pickaxe"

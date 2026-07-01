@@ -8,10 +8,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"Affixes are special properties given to items you'll find in chests or mob drops. There are 3 categories of affixes. &5&oStat Affixes&6&o give basic increases to things such as speed or health. &5Durability Affixes&6 decrease the damage taken by an item. Finally, &5Effect Affixes&6 give a range of unique abilities to an item.&r"
 				"{image:tumblrbumblr:textures/quests/affixes.png width:156 height:90 align:center}"
 			]
+			hide_until_deps_complete: true
 			id: "2B712988FC2E66C0"
 			rewards: [{
 				amount: 100L
@@ -32,12 +34,14 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"Along with affixed items, you will come across a variety of &o&6Gems&r in your travels. &6&oThese gems, when inserted into a socket, will grant various boosts to your gear.&r"
 				"&oSockets&r are another type of Affix that can be found on items."
 				"Gems will have different compatibilities. Some may only work for armor while others may need a weapon or tool. &o&6Put a gem into a Smithing Table along with an item that is compatible and has an empty socket to insert the gem."
 				"{image:tumblrbumblr:textures/quests/gems.png width:160 height:90 align:center}"
 			]
+			hide_until_deps_complete: true
 			id: "5A97C15CA4463102"
 			rewards: [{
 				amount: 100L
@@ -58,12 +62,14 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"&o&6Boss Mobs&r are special mobs that have unique bonuses from their affixes. There are several ways to encounter them, such as in underground dungeons, but the most common way you'll find early on will be &o&6Invading Bosses&r."
 				"When a boss invades your world, you'll be alerted by a loud sound, a message, and a beacon that illuminates the boss."
 				"Killing a boss can be difficult depending on its strength, but in doing so, &o&6you are guaranteed to get an affixed item from it&r."
 				"{image:tumblrbumblr:textures/quests/bosses.png width:156 height:90 align:center}"
 			]
+			hide_until_deps_complete: true
 			id: "25927B5C8F23FCEA"
 			rewards: [{
 				amount: 100L
@@ -152,10 +158,12 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"Apotheosis adds several mechanics to the game that work at allowing you to reach greater heights than ever before while staying close to Vanilla Minecraft."
 				"The Chronicle of Shadows serves as the guide book for Apotheosis."
 			]
+			hide_until_deps_complete: true
 			id: "4802FDF08E8A88E6"
 			optional: true
 			rewards: [{

@@ -23,11 +23,13 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"You wish to harness the dark arts you've witnessed from those around you? Or perhaps you've found a scroll that piqued your interest. Either way, I welcome you into my dark embrace."
 				"&6Goety: The Dark Arts&r is a magic mod with a focus on dark or black magic. You as the caster utilize &6&osoul energy&r and wield &6&ofocuses&r to cast a variety of different spells."
 				"Now then, follow me, my new apprentice. We have much to learn."
 			]
+			hide_until_deps_complete: true
 			id: "09A68ADF45EC8501"
 			rewards: [{
 				amount: 150L
@@ -299,6 +301,7 @@
 				title: "Complete the basics of Goety"
 				type: "checkmark"
 			}]
+			title: "A Dark Graduation"
 			x: -0.5d
 			y: -0.5d
 		}
@@ -541,21 +544,24 @@
 				}
 			]
 			title: "Blackened Steel"
-			x: 1.0d
-			y: -15.0d
+			x: 0.0d
+			y: -13.0d
 		}
 		{
 			id: "2444BC79553C5720"
+			secret: true
 			tasks: [{
 				id: "301E610A2F603320"
 				title: "Forge"
 				type: "custom"
 			}]
 			title: "Path of nether"
-			x: 6.0d
-			y: -10.0d
+			x: 5.5d
+			y: -7.0d
 		}
 		{
+			dependencies: ["75F46ED3CD1FE1A7"]
+			hide_dependency_lines: true
 			id: "6E709CA5EA306336"
 			tasks: [{
 				id: "4D7F75F6055E48EF"
@@ -955,33 +961,6 @@
 			y: -13.0d
 		}
 		{
-			icon_scale: 0.8d
-			id: "1B4811D656254675"
-			rewards: [{
-				amount: 70L
-				currency: "eternalcurrencies:ancientcoins"
-				id: "69A9CB405E3C6A5C"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "alexsmobs:tab_icon"
-					tag: {
-						DisplayEntityType: "goety:prisoner"
-					}
-				}
-				id: "0162F18C5A8FACB4"
-				observe_type: 5
-				timer: 0L
-				to_observe: "goety:prisoner"
-				type: "observation"
-			}]
-			x: 4.5d
-			y: -11.0d
-		}
-		{
 			id: "5446295418EB8A53"
 			rewards: [{
 				amount: 100L
@@ -1193,8 +1172,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -15.0d
+			x: -1.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -1213,8 +1192,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -16.0d
+			x: -1.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["132158B6BF2E4012"]
@@ -1230,8 +1209,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -16.0d
+			x: -2.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["63CDE68EA6FC634C"]
@@ -1252,8 +1231,8 @@
 				item: "goety:grave_glove"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -14.5d
+			x: -2.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["7CF531E5081C9D69"]
@@ -1362,6 +1341,9 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["75F46ED3CD1FE1A7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "0B0523BE06F0E8EA"
 			tasks: [{
 				id: "501CBB105566E2C4"
@@ -1384,8 +1366,8 @@
 				item: "goety:necro_brazier"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -18.0d
+			x: -0.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["0A659F035FB1296F"]
@@ -1396,10 +1378,13 @@
 				type: "item"
 			}]
 			title: "Very Very Interesting"
-			x: 0.5d
-			y: -17.0d
+			x: -0.5d
+			y: -15.0d
 		}
 		{
+			dependencies: ["75F46ED3CD1FE1A7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "32EC632AA30E0823"
 			tasks: [{
 				id: "140F8118D5772E4C"
@@ -1470,8 +1455,8 @@
 				}
 			]
 			title: "A fine addition to my collection"
-			x: 1.5d
-			y: -16.5d
+			x: 0.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["6E709CA5EA306336"]
@@ -1494,16 +1479,6 @@
 			}]
 			x: 7.5d
 			y: -14.5d
-		}
-		{
-			id: "41EC10903B63F556"
-			tasks: [{
-				id: "75F5AB55AC76BB52"
-				title: "Path of necromancy"
-				type: "custom"
-			}]
-			x: -7.5d
-			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -1690,8 +1665,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -16.0d
+			x: 0.0d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -1708,6 +1683,39 @@
 			}]
 			x: 0.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["7F06FB2A64E173E7"]
+			hide_dependency_lines: true
+			id: "7344913F87F8F4A3"
+			tasks: [{
+				id: "138A6919C82B6F30"
+				item: "goety:ominous_shackles"
+				type: "item"
+			}]
+			title: "Taking Prisoners"
+			x: 4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["370F8CDB9335BC67"]
+			id: "7F06FB2A64E173E7"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "59EEE8E72137A214"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4119544FEFDC446D"
+				item: "goety:pale_steel_ingot"
+				type: "item"
+			}]
+			title: "Pale Steel"
+			x: -1.0d
+			y: -10.0d
 		}
 	]
 	title: "Goety: The Dark Arts"

@@ -47,12 +47,14 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"So, you wish to learn the art of occultism? You wish to summon demons to do your bidding? Very well. I will teach you what I know."
 				"&o&6Occultism&r is a mod based around drawing pentacles and sacrifcing items to summon demons for a variety of different tasks. It allows for a unique form of automation utilizing mobs and not blocks. The mod also features ways to get specific drops earlier than usual."
 				"{@pagebreak}"
 				"To begin, you will want &oDemon's Dream&r, a new crop that forms a base for future actions. Seeds can be found by breaking grass."
 			]
+			hide_until_deps_complete: true
 			id: "4479AB901F8621D9"
 			rewards: [
 				{
@@ -151,15 +153,17 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: ["Make a butchers knife and kill large animals like pigs and cows to get tallow for special candles"]
+			hide_until_deps_complete: true
 			id: "1A4D57B6CA4E5128"
 			tasks: [{
 				id: "2262B02015FBC55C"
 				item: "occultism:candle_white"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.0d
+			x: -1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1908E5992649B221"]

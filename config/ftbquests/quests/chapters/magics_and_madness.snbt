@@ -182,37 +182,10 @@
 	quests: [
 		{
 			can_repeat: false
+			dependencies: ["56B565694503D9C4"]
 			description: ["Now this is where we get interesting. This scroll will let you teleport to &oany&r known waystone, almost like you're using one yourself. It'll even negate the experience cost for you. One use though, so make it count."]
 			disable_toast: true
-			icon: "waystones:warp_scroll"
-			id: "201D9D19102FEC86"
-			repeatable: true
-			rewards: [{
-				auto: "no_toast"
-				id: "7EA9EFD312A41926"
-				item: {
-					Count: 1
-					id: "waystones:warp_scroll"
-					tag: { }
-				}
-				team_reward: true
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				amount: 1500L
-				currency: "eternalcurrencies:ancientcoins"
-				id: "1DB3B9329967977C"
-				type: "eternalcurrencies:currency"
-			}]
-			title: "Warp Scroll"
-			x: -2.5d
-			y: -2.0d
-		}
-		{
-			can_repeat: false
-			description: ["Now this is where we get interesting. This scroll will let you teleport to &oany&r known waystone, almost like you're using one yourself. It'll even negate the experience cost for you. One use though, so make it count."]
-			disable_toast: true
+			hide_until_deps_complete: true
 			icon: "waystones:warp_scroll"
 			id: "5554564CABF86018"
 			repeatable: true
@@ -235,13 +208,15 @@
 				type: "eternalcurrencies:currency"
 			}]
 			title: "Warp Scroll"
-			x: -2.0d
+			x: -2.5d
 			y: -2.0d
 		}
 		{
 			can_repeat: false
+			dependencies: ["56B565694503D9C4"]
 			description: ["Now this is where we get interesting. This scroll will let you teleport to &oany&r known waystone, almost like you're using one yourself. It'll even negate the experience cost for you. One use though, so make it count."]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: "waystones:warp_scroll"
 			id: "5C4476807C0C4A7B"
 			repeatable: true
@@ -264,13 +239,15 @@
 				type: "eternalcurrencies:currency"
 			}]
 			title: "Warp Scroll"
-			x: -1.5d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
 			can_repeat: true
+			dependencies: ["15757B216B5D7237"]
 			description: ["This little scroll of mine's simple but powerful. It'll instantly teleport you to the closest known waystone available. Pretty useful for a quick escape, no?"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: "waystones:return_scroll"
 			id: "2767F0ACA0E05A29"
 			repeatable: true
@@ -294,8 +271,10 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2B0FCAC7E8CFFC40"]
 			description: ["This nifty little scroll requires you bind the scroll to a waystone first, but then you can warp back there any time you want. I'd say it's quite useful after a long day's travel."]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: "waystones:bound_scroll"
 			id: "200D96871A6421D8"
 			repeatable: true
@@ -319,6 +298,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["6582DCB124CE4A9F"]
 			description: ["Ah, that catch your eye? Yes, soul gems may be somewhat plentiful to those practicing the arts, but it takes a... special touch to imbue one as I have. If you want one, I'll gladly sell it to you. Perhaps it can be useful next time you die."]
 			disable_toast: true
 			icon: "kubejs:enchanted_soul_gem"
@@ -403,6 +383,37 @@
 			title: "8x Blank Runestones"
 			x: -1.5d
 			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["56B565694503D9C4"]
+			description: ["Now this is where we get interesting. This scroll will let you teleport to &oany&r known waystone, almost like you're using one yourself. It'll even negate the experience cost for you. One use though, so make it count."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "waystones:warp_scroll"
+			id: "4124EA310604F4D0"
+			repeatable: true
+			rewards: [{
+				auto: "no_toast"
+				id: "604CFC07FD7D030F"
+				item: {
+					Count: 1
+					id: "waystones:warp_scroll"
+					tag: { }
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				amount: 1500L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1B310AD0AD2EAE16"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "Warp Scroll"
+			x: -1.5d
+			y: -2.0d
 		}
 	]
 	title: "Magics And Madness"

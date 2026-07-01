@@ -61,6 +61,7 @@
 			dependencies: ["3A26F553422DC48B"]
 			dependency_requirement: "all_started"
 			description: ["The seed pouch is a useful tool that acts like bundle for seeds and other plants such as saplings. Able to hold up to 10 stacks of a single seed, you can use it on soil or dirt and it will plant its contents as if you were holding them. What's more, any seeds you pick up will be immediately put inside the pouch if there's room."]
+			hide_until_deps_visible: true
 			id: "5AA9BF164EF88E5F"
 			rewards: [{
 				amount: 100L
@@ -125,11 +126,13 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"&o&6Spice of Life: Ringo Pie Edition&r is a mod that incentivizes eating a variety of different foods, encouraging the player to cook up meals more than a simple steak or loaf of bread."
 				"While not required, eating a diverse amount of food and &6&okeeping one's diversity level high will grant the player a variety of useful buffs, from extra health to more speed&r."
 				"Your active diversity level and eaten foods can be viewed through the food book."
 			]
+			hide_until_deps_complete: true
 			id: "37043064988891A4"
 			rewards: [{
 				id: "3E23FC1219B84AF4"
@@ -169,6 +172,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "minecraft:iron_hoe"
@@ -317,7 +322,9 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: ["Wild Crops are naturally spawning plants that provide the seeds and starter materials needed to begin farming Farmer’s Delight crops. Seven different variants can be found across the Overworld, each in specific biomes: &aWild Cabbages on beaches&r, &eWild Onions in plains and forests&r, &cWild Tomatoes in hot deserts and savannas&r, &6Wild Carrots in most biomes&r, &eWild Potatoes in forests&r, &cWild Beetroots on beaches and deserts&r, and &7Wild Rice growing in rivers and swamps&r."]
+			hide_until_deps_complete: true
 			id: "6E2846C32B27E04F"
 			rewards: [{
 				amount: 100L
@@ -511,10 +518,12 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"Nourishment prevents a player's hunger from draining by continuously remove their exhaustion, allowing for longer actions at lesser costs."
 				"It's particularly useful before an expected combat encounter and other situations where you're losing a lot of hunger fast."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -553,10 +562,12 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"Comfort is an effect given when eating certain foods, primarily soups and stews. While active, your health will naturally regenerate, even if your saturation has run out and you're hungry."
 				"It's quite handy after a tough battle or before a long mining trip."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -596,10 +607,12 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"The stove is a staple of any kitchen. It's main feature is to act as a heat source for cooking. Similar to a campfire, pots and skillets can be placed on top to cook recipes through them. Also like a campfire, you can cook raw foods on the stove, up to 6 at a time."
 				"If you want to extinguish the stove, right click with a shovel or water bucket. To relight it, use a fire charge or flint and steel."
 			]
+			hide_until_deps_complete: true
 			id: "4914BF08CA6748E0"
 			rewards: [{
 				amount: 100L
@@ -646,6 +659,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			icon: "farmersdelight:cutting_board"
 			id: "5E434AB9D29CACD9"
 			rewards: [{
@@ -679,7 +694,9 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: ["The Skillet is a very versatile tool that acts as both a weapon &oand&r a portable cooking station. By holding raw food in your offhand while near a heatsource, you can cook the items by using the skillet. Alternatively, you can place the skillet down on a heat source, and use it as a much faster alternative to a campfire."]
+			hide_until_deps_complete: true
 			id: "5382DC1F43B478F5"
 			rewards: [{
 				amount: 100L
@@ -770,7 +787,9 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: ["The Cooking Pot is a major utility for cooking, and is the primary source of most more complex recipes. When using it, you will be shown 6 slots for ingredients and one slot for a container, along with an icon to show if there is a required heat source below. When ingredients are placed in the pot according to a recipe, it will begin cooking said recipe without any input, similar to furnaces. The final item will appear on the right. If it requires a container, you will not be able to take the food until the right container is given. In most cases, these are bowls, but there are cases where it is not."]
+			hide_until_deps_complete: true
 			id: "0E6BB4D44EFA29A9"
 			rewards: [{
 				amount: 100L
@@ -817,6 +836,8 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "07DCDC473ADFDFA8"
 			rewards: [{
 				amount: 50L
@@ -836,6 +857,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "39CC9C2C1EE59D9D"
 			rewards: [{
 				amount: 50L
@@ -855,6 +878,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "4DA22825F9481719"
 			rewards: [{
 				amount: 50L
@@ -874,6 +899,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "0A457EF00E403F64"
 			rewards: [{
 				amount: 50L
@@ -893,6 +920,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "4EE5A2249B2C6706"
 			rewards: [{
 				amount: 50L
@@ -912,6 +941,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "10C276F7B23F0A2A"
 			rewards: [{
 				amount: 50L
@@ -931,6 +962,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2E5248FCBDDE574B"
 			rewards: [{
 				amount: 50L
@@ -950,6 +983,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7B881B94EF7FAA89"
 			rewards: [{
 				amount: 50L
@@ -969,6 +1004,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5AC6BF0820CA78B0"
 			rewards: [{
 				amount: 50L
@@ -988,6 +1025,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5E6811E147460B32"
 			rewards: [{
 				amount: 100L
@@ -1006,6 +1045,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5238B35F858D13CF"
 			rewards: [{
 				amount: 50L
@@ -1024,6 +1065,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "639792ED6E26129E"
 			rewards: [{
 				amount: 100L
@@ -1042,6 +1085,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "41EBE02F54231293"
 			rewards: [{
 				amount: 100L
@@ -1060,6 +1105,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5032E0FFF42D37F6"
 			rewards: [{
 				amount: 100L
@@ -1078,6 +1125,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "20B21386A9883ABC"
 			rewards: [{
 				amount: 100L
@@ -1096,6 +1145,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "7C3100614FCFC580"
 			rewards: [{
 				amount: 100L
@@ -1114,6 +1165,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "611AB013085484D2"
 			rewards: [{
 				amount: 100L
@@ -1132,6 +1185,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "6DE2795158095D4B"
 			rewards: [{
 				amount: 100L
@@ -1150,6 +1205,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "4603675E26F56E7B"
 			rewards: [{
 				amount: 100L
@@ -1168,6 +1225,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2D2F15A5DE589EB5"
 			rewards: [{
 				amount: 100L
@@ -1186,6 +1245,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1BEE274E0F2971D4"
 			rewards: [{
 				amount: 100L
@@ -1204,6 +1265,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "3EB1222277026AA0"
 			rewards: [{
 				amount: 100L
@@ -1222,6 +1285,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "058F4065CBB5C458"
 			rewards: [{
 				amount: 100L
@@ -1240,6 +1305,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "731651056A455D98"
 			rewards: [{
 				amount: 100L
@@ -1258,6 +1325,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "434291C385CE2E69"
 			rewards: [{
 				amount: 100L
@@ -1276,6 +1345,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "0E65BF98FA039631"
 			rewards: [{
 				amount: 50L
@@ -1295,6 +1366,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "6E8F4335EC4F1C4A"
 			rewards: [{
 				amount: 100L
@@ -1313,6 +1386,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "14019C91F727F378"
 			rewards: [{
 				amount: 100L
@@ -1331,6 +1406,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5EDBEF3CA083EE28"
 			rewards: [{
 				amount: 100L
@@ -1349,6 +1426,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "45D2CC64E300AA03"
 			rewards: [{
 				amount: 100L
@@ -1367,6 +1446,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "42A4DBA92B68A0BE"
 			rewards: [{
 				amount: 100L
@@ -1385,6 +1466,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "65962F4F13454FBE"
 			rewards: [{
 				amount: 100L
@@ -1403,6 +1486,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2EA5D83F67D39AAB"
 			rewards: [{
 				amount: 120L
@@ -1421,6 +1506,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "462D4A5A9BAF8D9C"
 			rewards: [{
 				amount: 100L
@@ -1439,6 +1526,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2888B78C3E296163"
 			rewards: [{
 				amount: 100L
@@ -1457,6 +1546,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2B99FD2A13070B73"
 			rewards: [{
 				amount: 120L
@@ -1475,6 +1566,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1EA7C5DB481E50A4"
 			rewards: [{
 				amount: 120L
@@ -1493,6 +1586,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "52E2C209C8627E3E"
 			rewards: [{
 				amount: 120L
@@ -1511,6 +1606,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "60BC77EC004794D5"
 			rewards: [{
 				amount: 120L
@@ -1529,6 +1626,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "76C4CF39945851DB"
 			rewards: [{
 				amount: 120L
@@ -1547,6 +1646,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "362A213D387BA709"
 			rewards: [{
 				amount: 120L
@@ -1565,6 +1666,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "058E6C557E742513"
 			rewards: [{
 				amount: 120L
@@ -1583,6 +1686,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2751E065221B92D4"
 			rewards: [{
 				amount: 120L
@@ -1601,6 +1706,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "273CF21FE2C07E5D"
 			rewards: [{
 				amount: 120L
@@ -1619,6 +1726,8 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "473F2A7040A6AC75"
 			rewards: [{
 				amount: 120L
@@ -1637,6 +1746,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "525F2343B6466882"
 			rewards: [{
 				amount: 120L
@@ -1655,6 +1766,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5E6E24A77C2443D0"
 			rewards: [{
 				amount: 120L
@@ -1673,6 +1786,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "73CF97381BA497E2"
 			rewards: [{
 				amount: 120L
@@ -1691,6 +1806,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "76C6A29BAA9791BA"
 			rewards: [{
 				amount: 120L
@@ -1709,6 +1826,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5AC76A135E8D6DC7"
 			rewards: [{
 				amount: 120L
@@ -1727,6 +1846,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "6FB68F860490D7C3"
 			rewards: [{
 				amount: 120L
@@ -1745,6 +1866,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "3B7586F747C3F519"
 			rewards: [{
 				amount: 120L
@@ -1763,6 +1886,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "3396904615AD2753"
 			rewards: [{
 				amount: 120L
@@ -1781,6 +1906,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1A159B9BA87F8AFA"
 			rewards: [{
 				amount: 120L
@@ -1799,6 +1926,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "39C9384BBB0DC1FB"
 			rewards: [{
 				amount: 160L
@@ -1817,6 +1946,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "6AB74CEFCF09F1B8"
 			rewards: [{
 				amount: 160L
@@ -1835,6 +1966,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "0211D6D11A718CBC"
 			rewards: [{
 				amount: 160L
@@ -1853,6 +1986,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "005BBDA2741AB9DA"
 			rewards: [{
 				amount: 160L
@@ -1891,6 +2026,8 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1FC74C6DAE315D69"
 			rewards: [{
 				amount: 50L
@@ -1930,6 +2067,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1695A3566E0C089D"
 			rewards: [{
 				amount: 100L
@@ -1943,7 +2082,25 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
+			id: "5F9342FE92753F28"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0F1ECE168918963B"
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "25573ED7A39245D0"
+				item: "farmingforblockheads:chicken_nest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
 		}
 	]
 	title: "Farming"

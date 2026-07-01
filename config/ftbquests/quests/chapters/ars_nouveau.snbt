@@ -74,7 +74,9 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: ["Ars Noveau is a magic mod focused around spell creation and automation"]
+			hide_until_deps_complete: true
 			id: "732DDBE332DE607F"
 			tasks: [{
 				id: "1C90CCFE6E2B0A6C"
@@ -85,6 +87,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["39D2C7E79A2A575C"]
 			id: "175CC2FC98270934"
 			tasks: [{
 				id: "4D86AA41BB835B49"
@@ -95,16 +98,18 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["639F18460A94F794"]
 			id: "056F9909CD8A4F4D"
 			tasks: [{
 				id: "7E0A7D69ABD35831"
 				item: "ars_nouveau:source_jar"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["39D2C7E79A2A575C"]
 			id: "7B911BD477A5F0A0"
 			tasks: [{
 				id: "3AB98373B8FCECE7"

@@ -10,12 +10,14 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["15ACD993630984F4"]
 			description: [
 				"Tinker's Contruct allows you to create tools out of (Almost) Any Material! YOU have complete control over your tools! This Questline will guide you from basic tinkering to a Master Smith!"
 				""
 				""
 				"Sit down, and let this old dwarf teach you how it's done."
 			]
+			hide_until_deps_complete: true
 			id: "2D65D038AF3F9654"
 			rewards: [
 				{
@@ -558,6 +560,8 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2F719A48ECA78904"
 			rewards: [{
 				amount: 20L
@@ -575,6 +579,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "09D59EB8A167ECAD"
 			rewards: [{
 				amount: 20L
@@ -592,6 +598,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "772E0FF2405F822C"
 			rewards: [{
 				amount: 20L
@@ -609,6 +617,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "36522E8C51182157"
 			rewards: [{
 				amount: 20L
@@ -626,6 +636,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "3428838980B287DC"
 			rewards: [{
 				amount: 20L
@@ -643,6 +655,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "025AC27DCBA8D736"
 			rewards: [{
 				amount: 20L
@@ -660,6 +674,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "2161C29C65652940"
 			rewards: [{
 				amount: 20L
@@ -677,6 +693,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1F1B487A6FDC7438"
 			rewards: [{
 				amount: 25L
@@ -694,6 +712,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "6C7A21DE92062369"
 			rewards: [{
 				amount: 25L
@@ -711,6 +731,8 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "10772D447BDED1F5"
 			rewards: [{
 				amount: 25L
@@ -728,6 +750,8 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5ECE659C93517BAC"
 			rewards: [{
 				amount: 25L
@@ -745,6 +769,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "6C5E9F5545733E5E"
 			rewards: [{
 				amount: 20L
@@ -762,6 +788,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "653D5E71E4719056"
 			rewards: [{
 				amount: 20L
@@ -779,6 +807,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1572AE099DE32E53"
 			rewards: [{
 				amount: 20L
@@ -796,6 +826,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1096F974AC40A67A"
 			rewards: [{
 				amount: 20L
@@ -813,6 +845,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1DE841992983D331"
 			rewards: [{
 				amount: 20L
@@ -830,6 +864,8 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "235E193633D5DF06"
 			rewards: [{
 				amount: 20L
@@ -847,6 +883,8 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1FF40B4369CEA872"
 			rewards: [{
 				amount: 20L
@@ -864,6 +902,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "4AC5B27E4C25FA8A"
 			rewards: [{
 				amount: 20L
@@ -881,6 +921,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "383E08B47AC91DBB"
 			rewards: [{
 				amount: 20L
@@ -898,6 +940,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "132E411CA61A2AAF"
 			rewards: [{
 				amount: 20L
@@ -915,6 +959,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "5C67F68081E3AFF3"
 			rewards: [{
 				amount: 20L
@@ -932,6 +978,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "285AF5E3EDAC9055"
 			rewards: [{
 				amount: 20L
@@ -949,6 +997,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "0237B658A0B7F120"
 			rewards: [{
 				amount: 20L
@@ -966,6 +1016,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "043B0BAF1FB900A3"
 			rewards: [{
 				amount: 20L
@@ -983,6 +1035,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
 			id: "1ABC3FE948A2F3F8"
 			rewards: [{
 				amount: 20L
