@@ -6,6 +6,351 @@
 	id: "2A86CB58B0C9B847"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["2B10426B62B49B13"]
+			description: [
+				"While sitting in your ship, let down the sails with the necessary keybind (Default R). From there, you can increase the speed with W and decrease it with S."
+				"For some extra personality, you can dye the sails of your ship."
+			]
+			id: "14DC4E0A7614FE76"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2F0E9A8A2E7AC20D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BCF8032F1273B5A"
+					table_id: 6973036257904381121L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "4F1E0CACAE88AE58"
+				item: "smallships:sail"
+				type: "item"
+			}]
+			title: "Sailing Strong"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B10426B62B49B13"]
+			description: ["Ships are separated by temperatures. While you could use the same boat everywhere, sailing in the appropriate biomes give a 10% speed boost in the right waters and a 10% speed &odecreease&r in the wrong waters."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/water_bucket"
+				}
+			}
+			id: "777005851A20471C"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3C43E9D2DE104A9A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "25B610768C4AB5BB"
+				title: "Waters Hot and Cold"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			description: [
+				"Small Ships adds 4 different boats to the game for various purposes, but above all, transportation. To get started, you'll want three boats of the appropriate wood type. Some boats require chests as well."
+				"Your ships will be able to hold some cargo, but putting too much in it could reduce its overall speed by up to 10%. To access the cargo from outside the ship, use it while crouching."
+				"I don't want to overwhelm you, so I'll finish with telling you that a damaged hull can be repaired with wooden planks and iron nuggets."
+			]
+			hide_until_deps_complete: true
+			id: "2B10426B62B49B13"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "30AF4F338DA1203A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 3L
+				id: "4C34BE42B5F5DC9A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "goety:boats"
+					}
+				}
+				title: "3x Boat"
+				type: "item"
+			}]
+			title: "Small But Strong"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B10426B62B49B13"]
+			description: ["If you want to be sure your ship is safe and not going anywhere, I'd suggest a lead. Just like with animals, your ship can be tied to a fence post."]
+			id: "2D8E30F73790F5C8"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5A3745D0C4C2BB31"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "033688721F6B2CF6"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			title: "Docking Station"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B10426B62B49B13"]
+			description: [
+				"The oceans aren't exactly safe, and the last thing you want is to be left defenseless under attack. For this, I'd recommend adding a cannon or two. It's as simple as right clicking your ship with the cannon in hand. With that done and dusted, you simply need to add some cannon balls to your ship's cargo, then fire by pressing the keybind (Default Space) while looking in the cannon's direction."
+				"Cannon's aren't light, though, and each one will lower your ship's speed by 2.5%. Fortunately, removal is as simple as hitting it with a pickaxe."
+			]
+			id: "0AB1E6FBCB9E81EC"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "253193AEAE43E511"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "5B527BEAC307F601"
+					item: "smallships:cannon"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "36D05908D8D76E3E"
+					item: { Count: 2, id: "smallships:cannon_ball" }
+					type: "item"
+				}
+			]
+			title: "Cannons Armed and Ready"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B10426B62B49B13"]
+			description: ["The cog is a medieval trade ship suited for cold waters and up to 5 passengers. It does its job well enough, and might be all you'll really need, with average speed and decent strength."]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "719D4457588528C8"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2E16908057F935AC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "08E5E1FD4871DF34"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:cogs"
+					}
+				}
+				title: "Cog"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B10426B62B49B13"]
+			description: ["Briggs are large medieval trade ships suited to cold waters. Their increased size makes it good for transporting a lot of cargo and up to 11 passengers. It's speed and strength are both good as well."]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7A7BB1012C68BD96"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "03197E4AEAA91546"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "702A21AE00DEEF3C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:briggs"
+					}
+				}
+				title: "Cog"
+				type: "item"
+			}]
+			title: "Brigg"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B10426B62B49B13"]
+			description: ["The galley is a naval warfare ship suited to warm waters. It's got average speed and strength, but can carry up to 9 passengers."]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7980B96B5E47711B"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "729491A427A96048"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "240334D15354871F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:galleys"
+					}
+				}
+				title: "Galley"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B10426B62B49B13"]
+			description: ["The Drakkar is a massive viking-style ship for up to 11 passengers, with slow speed and average strength, but the ability to break through the ice of frozen waters. Up to 10 shields can be added to its side for increased defense."]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5CC74FC9F8E587B1"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "325F0BAB656CFEE3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "67459175C40D82A9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:drakkars"
+					}
+				}
+				title: "Drakkar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			description: ["Immersive Aircraft adds a variety of flying vehicles to your arsenal. For starters, you're going to want an advanced engine. All but one of the vehicles use one."]
+			hide_until_deps_complete: true
+			id: "6F0F1C8DF581DC8C"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3DF47990A7B9B0C8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "12F8A4427CC62E34"
+				item: "immersive_aircraft:engine"
+				type: "item"
+			}]
+			title: "To Power a Flying Wonder"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F0F1C8DF581DC8C"]
+			description: ["Got your engine? Good, now let me introduce two key crafting components, &6&othe hull and large sail&r. These will be the bulding blocks of your ships, save an exception."]
+			id: "7DA024433105259D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3A9661340CD7B2AE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "3277B3D3E8756F0C"
+					item: "immersive_aircraft:hull"
+					type: "item"
+				}
+				{
+					id: "06B042F90F052AD0"
+					item: "immersive_aircraft:sail"
+					type: "item"
+				}
+			]
+			title: "Building Blocks of The Brothers"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "505E518C4BC2EC39"
+			tasks: [{
+				id: "5B622FDE2B9F6784"
+				title: "Hu{grade"
+				type: "custom"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			id: "20870E5A39F2CAD2"
+			tasks: [{
+				id: "48AB3217A1FAD5E8"
+				item: "irons_spellbooks:weapon_parts"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"The airship is a fairly simple vehicle. Opening its inventory, you'll see a slot on the left for fuel. You'll also see some for various upgrades, but they'll have their own moment. For now, just know that fuel can be anything you can use in a furnace."
+				"Controlling the ship is simple. Holding space raises you into the air, while shift lowers you. To leave, use the assinged keybind (Default R). Holding A or D turn left and right respectively."
+			]
+			id: "0148D140EF1045FA"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "501F6BD0C8B86DC0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "28A00384174955E0"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			title: "Henri's Handiwork"
+			x: 0.5d
+			y: -5.0d
+		}
+	]
 	title: "Boats and Planes"
 }
