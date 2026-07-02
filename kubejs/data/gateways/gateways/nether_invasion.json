@@ -5,16 +5,18 @@
         {
     "entities": [
         {
-            "entity": "cataclysm:draugr",
+            "entity": "minecraft:piglin",
             "nbt": {
-                "Team": "Nether_Gateway"
+                "IsImmuneToZombification": true,
+                "IsBaby": false
             },
+            "finalize_spawn": false,
             "count": 2
         },
         {
-            "entity": "cataclysm:elite_draugr",
+            "entity": "minecraft:piglin_brute",
             "nbt": {
-                "Team": "Nether_Gateway"
+                "IsImmuneToZombification": true
             },
             "count": 1
         }
@@ -25,31 +27,30 @@
     "rewards": [
         {
             "type": "gateways:entity_loot",
-            "entity": "zombified_piglin"
-        },
-        {
-            "type":"gateways:entity_loot",
-            "entity": "wither_skeleton"
+            "entity": "piglin",
+            "rolls": 2
         }
     ],
     "max_wave_time": 3840,
-    "setup_time": 200
+    "setup_time": 1200
 },
         {
     "entities": [
         {
-            "entity": "cataclysm:draugr",
+            "entity": "minecraft:piglin",
             "nbt": {
-                "Team": "Nether_Gateway"
+                "IsImmuneToZombification": true,
+                "IsBaby": false
             },
+            "finalize_spawn": false,
             "count": 3
         },
         {
-            "entity": "cataclysm:elite_draugr",
+            "entity": "minecraft:piglin_brute",
             "nbt": {
-                "Team": "Nether_Gateway"
+                "IsImmuneToZombification": true
             },
-            "count": 2
+            "count": 1
         }
     ],              
     "modifiers": [
@@ -58,79 +59,37 @@
     "rewards": [
         {
     "type": "gateways:entity_loot",
-    "entity": "zombified_piglin"
-        },
-        {
-            "type":"gateways:entity_loot",
-            "entity": "wither_skeleton"
+    "entity": "minecraft:piglin",
+    "rolls": 3
         }
     ],
     "max_wave_time": 3840,
-    "setup_time": 200
+    "setup_time": 1200
 },
         {
     "entities": [
-        {
-            "entity": "cataclysm:royal_draugr",
-            "nbt": {
-                "Team": "Nether_Gateway"
-            },
-            "count": 2
-        },
-        {
-            "entity": "goety:inferno",
-            "nbt": {
-                "Team": "Nether_Gateway"
-            },
-            "count": 2
-        }
-    ],              
-    "modifiers": [
-        
-    ],
-    "rewards": [
-        {
-    "type": "gateways:entity_loot",
-    "entity": "zombified_piglin",
-    "rolls": 2
-        },
-        {
-            "type":"gateways:entity_loot",
-            "entity": "wither_skeleton",
-            "rolls": 2
-        },
-        {
-            "type":"gateways:entity_loot",
-            "entity":"mebahelcreaturesdraugr:flame_atronach"
-        }
-    ],
-    "max_wave_time": 3840,
-    "setup_time": 200
-},
-        {
-    "entities": [
-        {
-            "entity": "irons_spellbooks:citadel_keeper",
-            "nbt": {
-                "Team": "Nether_Gateway",
-                "DeathLootTable": "minecraft:empty"
-            },
-            "modifiers": [
                 {
-                    "type":"gateways:attribute",
-                    "attribute": "minecraft:generic.attack_damage",
-                    "operation": "multiply_total",
-                    "value": -0.4
-                }
-            ],
+            "entity": "minecraft:piglin",
+            "nbt": {
+                "IsImmuneToZombification": true,
+                "IsBaby": false
+            },
+            "finalize_spawn": false,
+            "count": 3
+        },
+                {
+            "entity": "minecraft:piglin_brute",
+            "nbt": {
+                "IsImmuneToZombification": true
+            },
             "count": 1
         },
-        {
-            "entity": "goety:inferno",
+                {
+            "entity": "piglinproliferation:piglin_alchemist",
             "nbt": {
-                "Team": "Nether_Gateway"
+                "IsImmuneToZombification": true
             },
-            "count": 2
+            "count": 1
         }
     ],              
     "modifiers": [
@@ -138,41 +97,41 @@
     ],
     "rewards": [
         {
-            "type":"gateways:entity_loot",
-            "entity": "wither_skeleton",
-            "rolls": 2
+    "type": "gateways:entity_loot",
+    "entity": "minecraft:piglin",
+    "rolls": 3
         },
         {
             "type":"gateways:entity_loot",
-            "entity":"mebahelcreaturesdraugr:flame_atronach",
-            "rolls": 2
+            "entity": "blaze",
+            "rolls": 1
         }
     ],
     "max_wave_time": 3840,
-    "setup_time": 300
+    "setup_time": 2100
 },
         {
     "entities": [
         {
-            "entity": "irons_spellbooks:citadel_keeper",
+            "entity": "minecraft:piglin",
             "nbt": {
-                "Team": "Nether_Gateway",
-                "DeathLootTable": "minecraft:empty"
+                "IsImmuneToZombification": true,
+                "IsBaby": false
             },
-            "modifiers": [
-                {
-                    "type":"gateways:attribute",
-                    "attribute": "minecraft:generic.attack_damage",
-                    "operation": "multiply_total",
-                    "value": -0.4
-                }
-            ],
+            "finalize_spawn": false,
             "count": 2
         },
         {
-            "entity": "mebahelcreaturesdraugr:flame_atronach",
+            "entity": "minecraft:piglin_brute",
             "nbt": {
-                "Team": "Nether_Gateway"
+                "IsImmuneToZombification": true
+            },
+            "count": 2
+        },
+        {
+            "entity": "piglinproliferation:piglin_alchemist",
+            "nbt": {
+                "IsImmuneToZombification": true
             },
             "count": 2
         }
@@ -182,18 +141,50 @@
     ],
     "rewards": [
         {
-            "type":"gateways:entity_loot",
-            "entity": "wither_skeleton",
-            "rolls": 3
+            "type":"gateways:loot_table",
+            "loot_table":"minecraft:chests/bastion_other",
+            "rolls": 1,
+            "desc": "Bastion Chest"
         },
         {
             "type":"gateways:entity_loot",
-            "entity":"blaze",
-            "rolls": 2
+            "entity": "blaze",
+            "rolls": 1
+        }
+    ],
+    "max_wave_time": 3840,
+    "setup_time": 2100
+},
+        {
+    "entities": [
+        {
+            "entity": "minecraft:piglin_brute",
+            "nbt": {
+                "IsImmuneToZombification": true
+            },
+            "count": 4
+        },
+        {
+            "entity": "piglinproliferation:piglin_alchemist",
+            "nbt": {
+                "IsImmuneToZombification": true
+            },
+            "count": 3
+        }
+    ],              
+    "modifiers": [
+        
+    ],
+    "rewards": [
+        {
+            "type":"gateways:loot_table",
+            "loot_table":"minecraft:chests/bastion_other",
+            "rolls": 1,
+            "desc": "Bastion Chest"
         }
     ],
     "max_wave_time": 6240,
-    "setup_time": 300
+    "setup_time": 2100
 },
         {
     "entities": [
@@ -201,30 +192,25 @@
             "entity": "goety:hostile_redstone_golem",
             "desc": "Ancient Golem",
             "nbt": {
-                "Team": "Nether_Gateway",
                 "CustomNameVisible": 0,
-                "CustomName": "{\"text\":\"Ancient Golem\",\"color\":\"#443A3B\"}"
+                "CustomName": "{\"text\":\"Ancient Golem\",\"color\":\"#443A3B\"}",
+                "DeathLootTable": "minecraft:empty"
             },
             "count": 1
         }
-    ],              
+    ],
     "modifiers": [
         
     ],
     "rewards": [
         {
             "type":"gateways:entity_loot",
-            "entity": "irons_spellbooks:citadel_keeper",
-            "rolls": 2
-        },
-        {
-            "type":"gateways:entity_loot",
-            "entity":"blaze",
-            "rolls":3
+            "entity": "golemoverhaul:netherite_golem",
+            "rolls": 4
         }
     ],
     "max_wave_time": 6240,
-    "setup_time": 300
+    "setup_time": 2700
 }
     ],
     "rewards": [
@@ -233,11 +219,6 @@
         "stack": {
             "item": "kubejs:burned_tablet"
         }
-    },
-    {
-        "type":"gateways:command",
-        "command": "team remove Nether_Gateway",
-        "desc": ""
     }
         
     ],

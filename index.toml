@@ -68930,7 +68930,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "4cd669c7f416f4a6e387eef87f9bd226d5ee8ed6aa1c60ac5f361d91e56dd70a"
+hash = "f2066fe9fc9b7c2456f0556733877a6e96c84e86ed00fbf9351fadf0ce3c06af"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69906,7 +69906,7 @@ hash = "5ab406b57f74a7e9cbd892aaf00e4a58f5185333d37c146af68b700c9336c717"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "80ab7d65d31ded4b08fef7549cd331fa7f49335edc89c32bda32b66386ee452c"
+hash = "c23c78e9f51ae08d8899db327a493b951b235d817dee927e5d9c5cc574673c3e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ad_astra.snbt"
@@ -69982,7 +69982,7 @@ hash = "c5b2a4350fe887f784b4a8efbb9b4211bc4171033534e13ebf062194ec2145c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "e406e0422e6386d40bd2fe7cf9a5972bb0c9d81e83fa84dde483fbb23ec86e6f"
+hash = "7b06dd14caa16f3b76f9f8091814ed89f582145bed4923c1e9766adf5d31237f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
@@ -69994,7 +69994,7 @@ hash = "a48458f4d22df85797e67d48dfc22371732e2d4c107b3f9aeee26426bf49ab2e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells_and_spellbooks.snbt"
-hash = "566a15dfe0b9c452e36f21ed44ffb30eb121580a87fb4671c1df4974d48d80b9"
+hash = "9ff9a5ea3b7af2dab8f81f2c41ad0366c545cb1b0249cdc22931ea68e15d2f9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/legendary_eyes.snbt"
@@ -70002,7 +70002,7 @@ hash = "8ad6c8d613fcb5f798c9c0dae8be1618529efc6f5929df935e243ac28268e01c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magics_and_madness.snbt"
-hash = "03814292e02563e331065c7982e282cf0aa4b37d87206e5443af3a37f766722d"
+hash = "488d679f630ca8d5d67d174b734c964246e7008fcc78bc19a287c5ce9eded1bd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
@@ -70034,11 +70034,11 @@ hash = "9d20003ffdac15ef35fc1f6b09752370c37e59fb389d064ed81f97bea17c127c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/potions_and_poisons.snbt"
-hash = "c4dc676122b6fd442cb5485fda20f0edad3f878693c579620a78e6e5bd9d872a"
+hash = "8b1be068bca8978c9607eb5f112bde3a4d51c1469ecdb69aef12bd68140acf76"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rock_and_stone.snbt"
-hash = "bd8dca03ea2727112fe025f9aa991e72e21a6929f777a1010adcafbbb9b91b7e"
+hash = "4787adbc93f8d54387061c966eef4431a45c10ce8515885191904f3d00592cd5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/saints_dragons.snbt"
@@ -70537,6 +70537,10 @@ file = "config/jei/world/local/Boss_Rush/lookupHistory.ini"
 hash = "25a5155f939740bb579701947ee8e496026d8aa539c4de6751983e834f66a532"
 
 [[files]]
+file = "config/jei/world/local/Briney/lookupHistory.ini"
+hash = "6850269e1fe4f4dc2cf5e5b06f09733417de1b0a83f52e5ebaf650aff9e79cca"
+
+[[files]]
 file = "config/jei/world/local/Corpse/lookupHistory.ini"
 hash = "9b6819a6d56eafabd51a63d830f4317279b408898282ddc2608163b512116b5a"
 
@@ -70755,6 +70759,10 @@ hash = "a70d51bd0c8988406a94a9c3b8cc6cbe06e6fcea325def99c01bc1362cc76089"
 [[files]]
 file = "config/jei/world/local/New_World__9/lookupHistory.ini"
 hash = "2f5763cab224905c49863157296459bbd9f839f11bb075afd85c9a46a349bdfb"
+
+[[files]]
+file = "config/jei/world/local/Particle_Core_and_Cull_Test/lookupHistory.ini"
+hash = "d0d2c765a0c6ae6f236af7b8de827c955d2245a0283f1561cf25ae9ca0a9363d"
 
 [[files]]
 file = "config/jei/world/local/Playtest/lookupHistory.ini"
@@ -70998,7 +71006,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "0b4148c348a1af991e3cc7a01cd91b1c8d59e5fe80322e7ecf43912b0f9e19dd"
+hash = "05e87675b151211e491dfd862cb80cfa08e978df02b994a2db3a8b8fb1b33a6c"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71250,7 +71258,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "975f12c9ea548f83d1c53df3d5d92de91b82de52f2eda58ace6318ed05303569"
+hash = "20c5dee8dd575fd0e856c00ef961a257d14e4f60ed916657df826fe0ef4b712e"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71266,7 +71274,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "9d6d555c2f97ba5de1446e3f55b2aa18e38852f00d0c21b3648d550731fd9f48"
+hash = "3e2e2d678a1bd6bd17f662bedc89b3b427532376b7c0218039620737272098bd"
 
 [[files]]
 file = "config/pal.properties"
@@ -73699,6 +73707,10 @@ hash = "b6cba970696aa8fb76b222ef1870e05bbdf59003363fff5cbac055ba43c00d30"
 [[files]]
 file = "kubejs/assets/modpack/textures/respawn-anchor.png"
 hash = "48ee0a2b1539319c5247d01978c62d6db0660b59ef0cd367671acb16af4bbcb8"
+
+[[files]]
+file = "kubejs/assets/modpack/textures/return.png"
+hash = "680e0a5f8fd0a7e0142c93926461c4197d84330477c1fb08b9b00cca6b76ea10"
 
 [[files]]
 file = "kubejs/assets/modpack/textures/rock-and-stone.png"
@@ -77318,7 +77330,7 @@ hash = "390c3a3bc90a1c51c89001d9e6a928050f5ad8f204d5bc9867ec65c3036b3a28"
 
 [[files]]
 file = "kubejs/data/gateways/gateways/nether_invasion.json"
-hash = "336dfcecc93766ae28e971cefe0f6cc68b7ba4bad6f9f8cb2395583e61044ae0"
+hash = "305f31f8ae6092e0f22e09c1bee1387fc4b6caa01e390216155d2cb52cc8cc4b"
 
 [[files]]
 file = "kubejs/data/gateways/gateways/test_gateway.json"
@@ -77326,11 +77338,27 @@ hash = "bfd47d38593cac670af5f97c4ebf22478cf40a4280cc8db342448df1cd9ac0c4"
 
 [[files]]
 file = "kubejs/data/gateways/gear_sets/ancient.json"
-hash = "37bcb66be30d61da99c6027e01a430c2e79c9ddc300e556f6f95d20e53176cd2"
+hash = "f85b652a97f10d32a962a9a4ef90b432fd5a901644407ab22292133953b1b2d3"
+
+[[files]]
+file = "kubejs/data/gateways/gear_sets/brute_commander.json"
+hash = "7f09e76e01223f7d7d9a987fcbe17c99d322e01cfa2aaf4e02346e12d9d29bb6"
+
+[[files]]
+file = "kubejs/data/gateways/gear_sets/brute_soldier.json"
+hash = "59d46b4ddc645c5bd73ed0bcd1efd24f1bcc295517f2fc983b9c032bc39b52a9"
 
 [[files]]
 file = "kubejs/data/gateways/gear_sets/eternal.json"
 hash = "f67dc1af613373f0a3114fb058d86d54988f636b91b2c8aa0c03e4c036898706"
+
+[[files]]
+file = "kubejs/data/gateways/gear_sets/piglin_foot_soldier.json"
+hash = "e07e67802fafd87a698e319f5cb3e4f6d359bc22c20840c52ca9dee6805efe48"
+
+[[files]]
+file = "kubejs/data/gateways/gear_sets/piglin_soldier.json"
+hash = "80bcf9383a8af36894f02d46fa425f7827dc961880f01c4a0a67d8e6b266f00b"
 
 [[files]]
 file = "kubejs/data/gateways/recipes/nether_invasion.json"
@@ -78818,11 +78846,7 @@ hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
 
 [[files]]
 file = "kubejs/server_scripts/from_the_fog/herobrine_config.js"
-hash = "dd386a0c0e1fd81e6e79aff51ef196e4fea18fa5f58c01187b59485a9b07b5e2"
-
-[[files]]
-file = "kubejs/server_scripts/gateways/unstable_portal_team.js"
-hash = "29ce2d09e880836f6d9d34aff5cebd823e0a70b74422c26993ec14ed5edbeafd"
+hash = "7e49bc5d505f8361751ff928b443dc92cca4452e1d8d27fb936387830b6507ea"
 
 [[files]]
 file = "kubejs/server_scripts/occultism/occultism_util.js"

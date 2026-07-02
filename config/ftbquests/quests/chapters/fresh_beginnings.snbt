@@ -6,6 +6,40 @@
 	group: "48841A8C395C40D5"
 	icon: "minecraft:red_bed"
 	id: "3387B25D1A4A376F"
+	images: [
+		{
+			click: "#0F23E7D50C581A52"
+			dependency: "15ACD993630984F4"
+			height: 0.5d
+			image: "modpack:textures/rock-and-stone.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.5d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			click: "#2D34FF035F596DF7"
+			dependency: "15ACD993630984F4"
+			height: 0.5d
+			image: "modpack:textures/magics-and-madness.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			click: "#6A973C6CC334168D"
+			dependency: "15ACD993630984F4"
+			height: 0.5d
+			image: "modpack:textures/potions-and-poisons.png"
+			rotation: 0.0d
+			width: 5.5d
+			x: -3.0d
+			y: 2.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -629,8 +663,8 @@
 				type: "advancement"
 			}]
 			title: "You Won't Die"
-			x: -1.5d
-			y: 1.5d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["58E6B0A4E1DEA998"]

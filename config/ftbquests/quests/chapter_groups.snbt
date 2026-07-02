@@ -1,6 +1,5 @@
 {
 	chapter_groups: [
-		{ id: "6DE537A3985C2BD8", title: "Shop" }
 		{ id: "48841A8C395C40D5", title: "First Steps" }
 		{ id: "1CE580FB33A3818E", title: "Next Steps" }
 		{ id: "33FB9C2B7FFFEFE2", title: "Foodstuffs" }
@@ -10,5 +9,6 @@
 		{ id: "60036678430AC30B", title: "Storage" }
 		{ id: "453245C6A3A61454", title: "Technology" }
 		{ id: "3E90B2146B0C702E", title: "Misc" }
+		{ id: "6DE537A3985C2BD8", title: "Shop" }
 	]
 }

@@ -83,6 +83,15 @@
 			x: -3.0d
 			y: -7.75d
 		}
+		{
+			click: "#3387B25D1A4A376F"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -7.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]

@@ -7,6 +7,8 @@
 	order_index: 3
 	quest_links: [ ]
 	quests: [{
+		dependencies: ["15ACD993630984F4"]
+		hide_until_deps_complete: true
 		id: "510E0EB270B43037"
 		tasks: [{
 			count: 8L

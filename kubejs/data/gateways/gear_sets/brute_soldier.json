@@ -1,0 +1,12 @@
+{
+	"weight": 10,
+    "mainhands": [{
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:golden_axe"
+            }
+        }
+    ],
+	"tags": [
+	]
+}
