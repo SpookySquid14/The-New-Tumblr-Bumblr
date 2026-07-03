@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.25",
-  "config_datetime": "2026-06-29_17-43-28",
+  "config_datetime": "2026-07-03_17-47-13",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -68,6 +68,65 @@
       "override_global_spacing_and_separation_modifier": true,
       "structure_weights": {
         "aquamirae:ship": 1
+      }
+    },
+    {
+      "spacing": 1024,
+      "separation": 640,
+      "name": "dungeons_arise:major_structures",
+      "is_disabled": false,
+      "salt": 88371663,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "dungeons_arise:keep_kayra": 1,
+        "dungeons_arise:mushroom_village": 1,
+        "dungeons_arise:aviary": 1,
+        "dungeons_arise:typhon": 1,
+        "dungeons_arise:undead_pirate_ship": 1,
+        "dungeons_arise:coliseum": 1,
+        "dungeons_arise:monastery": 1,
+        "dungeons_arise:heavenly_challenger": 1,
+        "dungeons_arise:mushroom_house": 2,
+        "dungeons_arise:bandit_towers": 1,
+        "dungeons_arise:mining_system": 1,
+        "dungeons_arise:ceryneian_hind": 1,
+        "dungeons_arise:illager_windmill": 1,
+        "dungeons_arise:illager_corsair": 2,
+        "dungeons_arise:illager_galley": 2,
+        "dungeons_arise:foundry": 1,
+        "dungeons_arise:heavenly_conqueror": 1,
+        "dungeons_arise:merchant_campsite": 3,
+        "dungeons_arise:mechanical_nest": 1,
+        "dungeons_arise:infested_temple": 1,
+        "dungeons_arise:heavenly_rider": 1,
+        "dungeons_arise:illager_campsite": 3,
+        "dungeons_arise:illager_fort": 1,
+        "dungeons_arise:mushroom_mines": 1,
+        "dungeons_arise:plague_asylum": 1,
+        "dungeons_arise:bandit_village": 1,
+        "dungeons_arise:greenwood_pub": 2,
+        "dungeons_arise:scorched_mines": 1,
+        "dungeons_arise:small_blimp": 3,
+        "dungeons_arise:thornborn_towers": 1,
+        "dungeons_arise:shiraz_palace": 1
+      }
+    },
+    {
+      "spacing": 315,
+      "separation": 225,
+      "name": "dungeons_arise:minor_structures",
+      "is_disabled": false,
+      "salt": 342415935,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "dungeons_arise:lighthouse": 2,
+        "dungeons_arise:fishing_hut": 1,
+        "dungeons_arise:wishing_well": 1,
+        "dungeons_arise:jungle_tree_house": 1,
+        "dungeons_arise:abandoned_temple": 1,
+        "dungeons_arise:bathhouse": 2
       }
     },
     {

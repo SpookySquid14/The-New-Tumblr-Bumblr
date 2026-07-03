@@ -838,7 +838,7 @@ hash = "557cc1b6ba1369f5d2459054cc2b9e9f91c58b9cdecb0a3023a911b435b1a9c8"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "bb2e72271bcb81a3091e7ff5ac2fc2cefc8a51bc2e5fe62ce2f8e4b8fa5891f8"
+hash = "e4a8d8454ec35f196b9a4e9c3094a2ae6753ef5259bb1894f7daff04ee5e0e67"
 
 [[files]]
 file = "config/apotheosis/garden.cfg"
@@ -846,7 +846,7 @@ hash = "dea4d260e6eac868297c0f9cd80545fd6b54f7344c678b89edda980a3fc5e8cf"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "1c536d851a5abc5885f87e5384435d71b7c46bdb0100f69c49a7c9cddc3d065a"
+hash = "f817095b5c42d78960f16bad96b80f560f237686331cf79e17b88db0f0ad989f"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -68930,7 +68930,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "38b6e77474cbe3de094ab907d93383068b176c573899f17319f039f409638836"
+hash = "2cc9278333073a31fa9676a1ef0ce629a5c7285a9bfc45721f7c1a77cea0ab80"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70081,6 +70081,10 @@ file = "config/ftbquests/quests/chapters/vampirism_werewolves.snbt"
 hash = "45220f6f02fa24c4ae4071f85312383034c1001908947594bc1bec48f9e39f74"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/when_dungeons_arise.snbt"
+hash = "63f6f15a4b192e3d0d44add07bfedf748937eaf7c0465aabf5122d400d24a659"
+
+[[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "0fef376c367cb165e7b886c03ada2a3d32abee8abce89b7bf351edd0d6e196aa"
 
@@ -70139,6 +70143,10 @@ hash = "bda3fc1a79b3d90eaca239bad2b93c8a1e44f62dbd79c8a3e5754e4ebda47bc8"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/note_or_coin.snbt"
 hash = "78f057feea0e29b249b805e219a01e190d112eace47f4836d8ee353cefbd8559"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/wda_food.snbt"
+hash = "c65575d64cc13817b9f806d64dd74fad706243a7865c8000c5a8ab8251aa67b8"
 
 [[files]]
 file = "config/ftbxmodcompat.snbt"
@@ -70510,7 +70518,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "32831904735af78166facd0c5445bc6b127b03133173b84be86c43d1c1bc9e37"
+hash = "e14417f7c3eaf85eae065e6a0e82f131d9e503fe54724609aafa5b0278f27d73"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -70813,12 +70821,20 @@ file = "config/jei/world/local/Playtest_3/lookupHistory.ini"
 hash = "d3da6522cc9c5db95c03526632517d95b85b674388837274e1725a3763f2d9e7"
 
 [[files]]
+file = "config/jei/world/local/Simple_Weapons/lookupHistory.ini"
+hash = "9c8cc92955111745c6d41ccfae5a923ced07e73bbdfb02be2a3de6fc7562e490"
+
+[[files]]
 file = "config/jei/world/local/Simply_Swords/lookupHistory.ini"
-hash = "4d27beaebb52429d8b2e7709bf4dfef0ef9ee04d17c4ad222a4f397f5438ef78"
+hash = "24bb3c5c2dad39eb938f5c8ddce9c898ed29615049112a1aeacbda671eb772f2"
 
 [[files]]
 file = "config/jei/world/local/Spawn_test__4/lookupHistory.ini"
 hash = "bdc31b7a29ed4525c89f3a8e4dcf871434ab9ad869fcd7d3115ee1e411bfbc1f"
+
+[[files]]
+file = "config/jei/world/local/Spears/lookupHistory.ini"
+hash = "881611a30a7cd58f51f8f9db8bd8a6d72b8c5a37cbbb425990eefd81deed9f57"
 
 [[files]]
 file = "config/jei/world/local/Structure_Hopping/lookupHistory.ini"
@@ -71046,7 +71062,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "5d0d2a46b55dd13e7c9c8ddfc729dfca05a35678006a5a8131368044ba1e53a3"
+hash = "88cdbf5dc4ac97d32977edecd8d2c0b72eb8c4323c941e921864bf604e3785f0"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71298,7 +71314,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "bf5d1bc42d6f0d93e943e3c62ac717573391176723265edbf49dc32e66088f69"
+hash = "25b73a9ba509cf942ea4eec0e348b7f609b469fc7b40c45867c99ab7adbaa3f3"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71314,7 +71330,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "b3d7e6f2e05e92328e65129d4532dadec7560ca9661d3d0dda6ccdbef158c5a0"
+hash = "474d9d2de46af3e1105eed5b10d52d4664c7db68cfac87a020483889094f5de7"
 
 [[files]]
 file = "config/pal.properties"
@@ -71934,7 +71950,7 @@ hash = "e0c4e649ecd0932e5e66534cd6eb34beb3c3954ca6f985646879cd7775c24718"
 
 [[files]]
 file = "config/simplyswords_main/loot.json5"
-hash = "6dd8d790a6301b06d3dfa54c550f9a9c912034e3e4674084d95cbae5adcccb48"
+hash = "9c3866812dae9e9b6ae460167097c13c820d075ed344f751430109f59a0d1c1d"
 
 [[files]]
 file = "config/simplyswords_main/runic_effects.json5"
@@ -72098,11 +72114,7 @@ hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
 
 [[files]]
 file = "config/structurify.json"
-hash = "43c5d5aa0c565895a1cde6cfe447f5e2d1c478feb2bb92971f075d6849856acb"
-
-[[files]]
-file = "config/structurify/structurify_backup_2026-06-14_12-37-54.json"
-hash = "90462830f6d534cd81c602d62651c562fea90aacf118684bc7a0eaf077daca44"
+hash = "b802e58488e2ddd22689375ef913621328240b71dd4dd499aaf4c80f14ed26da"
 
 [[files]]
 file = "config/structurify/structurify_backup_2026-06-14_12-43-58.json"
@@ -72119,6 +72131,10 @@ hash = "6483a804795ec806be2704badda56a4fa81feb17c0059b8dded3509f11eb28d1"
 [[files]]
 file = "config/structurify/structurify_backup_2026-06-29_17-43-28.json"
 hash = "7c0820fd86aafcbca6eaa3a53bfe176370701b09657805879a2d2a5aafeb4583"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-07-03_17-47-13.json"
+hash = "43c5d5aa0c565895a1cde6cfe447f5e2d1c478feb2bb92971f075d6849856acb"
 
 [[files]]
 file = "config/structurify_dump.json"
@@ -72194,7 +72210,7 @@ hash = "753ee030f6f7d23bb7d83adfeba6add24b41f96fd979b74d98ad9b904235b6cf"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "d294782abf31644684a011ece2e1158ef6f8ca2acb09145bdab3c84348b4f726"
+hash = "b64589c5f919973be9b79332c0e3d3c05a8f8627ac9f7243fc5d394caccdf99a"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -77210,7 +77226,7 @@ hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
-hash = "f8a0a8126e426e5eac5d54d5ceeca44579ae88b3a88fd23e3fda75f8b3dde48c"
+hash = "f4222f72e79d1ce4a7dd81ed39d1445cd6044d2493f9eb9b0a4f56f6658493bf"
 
 [[files]]
 file = "kubejs/client_scripts/pokeball.js"
@@ -78938,7 +78954,7 @@ hash = "7e49bc5d505f8361751ff928b443dc92cca4452e1d8d27fb936387830b6507ea"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
-hash = "8b5bbf7da13645288cc92dc2ad8219e75150811f9df97fd74a482e45469eb815"
+hash = "947011ccc9e61b8263311f457c5bb7bb2d0972da82259f65bfdf28bf8a89d9b0"
 
 [[files]]
 file = "kubejs/server_scripts/occultism/occultism_util.js"
@@ -78994,7 +79010,7 @@ hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
-hash = "3e8682050e4b1be10321b92fdee3b3d1a6b4803b84dc243c26cf614cde0dee78"
+hash = "05f6a4e69652c5aad9eff76fc2634036e3a30f8c85d98552a337fe721b1a2aac"
 
 [[files]]
 file = "kubejs/startup_scripts/nobotaniaflowers.js"
@@ -80211,11 +80227,6 @@ hash = "28b00f143039bc1fbabee5956ce9e272bdf20593048ec57e8dae327614ced579"
 metafile = true
 
 [[files]]
-file = "mods/integrated-simply-swords.pw.toml"
-hash = "607712ad5066cda4695db6cf75a1bc784e84e4523ac3c72d6b56f9a1042c30ce"
-metafile = true
-
-[[files]]
 file = "mods/interiors.pw.toml"
 hash = "0cc83b2a9bb26e446a5d62d05390e965f4d62615549a5fef16b16f4ecc11855b"
 metafile = true
@@ -80328,11 +80339,6 @@ metafile = true
 [[files]]
 file = "mods/justenoughbreeding.pw.toml"
 hash = "91076cc0e381b882efed62ad5431766d8b2f4857f0cd86db7f30ccfc8c1e5f77"
-metafile = true
-
-[[files]]
-file = "mods/knaves-needs.pw.toml"
-hash = "9aed6d72395ab6f504a6d8591e040bfdb686cd3f42130f580cd12d6978c75847"
 metafile = true
 
 [[files]]
@@ -80951,21 +80957,6 @@ hash = "381567eae6eeac7bbefed509deadbc26f49dd190c14e734b0387fbed2bbaa9f5"
 metafile = true
 
 [[files]]
-file = "mods/simply-swords-overhaul.pw.toml"
-hash = "a68f47d6727ca9726d6ecdadcaa87cb948a580acb722cef8ff3ba2761a00bcb5"
-metafile = true
-
-[[files]]
-file = "mods/simply-swords.pw.toml"
-hash = "0aec913c503b66b7072322b65a0b40ec8a649444a19ee53788da3371824d5aa8"
-metafile = true
-
-[[files]]
-file = "mods/simplycataclysm.pw.toml"
-hash = "8c0c2af32c842254817a000556d0eec6ce4ae1f2abf6d0357bdcb5096874bc11"
-metafile = true
-
-[[files]]
 file = "mods/sinytra-connector.pw.toml"
 hash = "50bb1303d1ccc1e53640c7307052b88b2ee06f2c86c8c3e9f19cd50a99e38a99"
 metafile = true
@@ -81348,6 +81339,16 @@ metafile = true
 [[files]]
 file = "mods/when-dungeons-arise-lost-architects.pw.toml"
 hash = "a907f99969ecfa4091cb9a238659b415ef0b08a5ba93160f1b5f3b3925bdbb2f"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise-seven-seas.pw.toml"
+hash = "0c54cdd181c2489ce0b5bf9efda71837e354f7d308afb4b7aa598e2547481b7f"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise.pw.toml"
+hash = "b74210622d69fda122971bb749e2fc132bc99c0eeca7f822582b00d1804de1c5"
 metafile = true
 
 [[files]]

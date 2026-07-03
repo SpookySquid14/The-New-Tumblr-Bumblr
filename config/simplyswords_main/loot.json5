@@ -1,6 +1,6 @@
 {
 	"enableLootDrops": true,
-	"enableLootInVillages": false,
+	"enableLootInVillages": true,
 	"enableTheWatcher": true,
 	"standardLootTableWeight": 0.009999999776482582,
 	"rareLootTableWeight": 0.004000000189989805,
