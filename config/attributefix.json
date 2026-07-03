@@ -1958,6 +1958,17 @@
         "value": 100
       }
     },
+    "fallen_gems_affixes:max_health_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "attributeslib:dodge_chance": {
       "enabled": false,
       "min": {

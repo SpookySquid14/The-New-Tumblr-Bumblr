@@ -310,30 +310,8 @@
 			y: -4.0d
 		}
 		{
-			id: "505E518C4BC2EC39"
-			tasks: [{
-				id: "5B622FDE2B9F6784"
-				title: "Hu{grade"
-				type: "custom"
-			}]
-			x: -2.5d
-			y: -3.5d
-		}
-		{
-			id: "20870E5A39F2CAD2"
-			tasks: [{
-				id: "48AB3217A1FAD5E8"
-				item: "irons_spellbooks:weapon_parts"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -4.0d
-		}
-		{
-			description: [
-				"The airship is a fairly simple vehicle. Opening its inventory, you'll see a slot on the left for fuel. You'll also see some for various upgrades, but they'll have their own moment. For now, just know that fuel can be anything you can use in a furnace."
-				"Controlling the ship is simple. Holding space raises you into the air, while shift lowers you. To leave, use the assinged keybind (Default R). Holding A or D turn left and right respectively."
-			]
+			dependencies: ["04FF0DDDE96513F2"]
+			description: ["The airship is a fairly simple vehicle. Opening its inventory, you'll see a slot on the left for fuel. You'll also see some for various upgrades, but they'll have their own moment. For now, just know that fuel can be anything you can use in a furnace."]
 			id: "0148D140EF1045FA"
 			rewards: [{
 				amount: 100L
@@ -348,7 +326,229 @@
 				type: "item"
 			}]
 			title: "Henri's Handiwork"
-			x: 0.5d
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0148D140EF1045FA"]
+			description: ["The Cargo Airship works the same as its predecessor, only it requires more fuel to operate."]
+			id: "13D221AFA2707A46"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "78D549B171785844"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "066202C3F7090BB7"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			title: "Mobile Cargo Shipment"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7DA024433105259D"]
+			description: [
+				"Rotorcraft such as the airship can hover in place and move much like a boat in many cases, using the left and right keys to turn around. Holding &o&6The Space Bar&r will lift you into the air, while holding shift lowers you. Unlike many vehicles and mounts, &o&6exiting the aircraft is done via a keybind (Default: R)&r."
+				"The vehicles will require time to take off. You can view this via the meter above your hotbar."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:item/game_controller"
+				}
+			}
+			id: "04FF0DDDE96513F2"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5E7AC2A38DAC9AD0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "70D712148899AB72"
+				title: "Learn The Rotary Controls"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7DA024433105259D"]
+			description: [
+				"Fixed-Wing aircrafts such as the Biplane cannot hover and must build up lift through forward motion. When flying one of these aircrafts, &o&6The Space Bar will increase throttle&r, the power of your engine. &o&6Shift does the opposite, lowering throttle. To angle yourself upwards, hold S, and to angle yourself downwards, hold W. A and D will turn your vehicle left or right respectively.&r"
+				"These aircrafts require a long strip of flat land to build up enough throttle to take off. You can see the throttle above your hotbar."
+				"&6&oIn addition to this, you can load fireworks and use them to boost yourself, much like an elytra, using the designated keybind (Default B).&r"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:item/game_controller"
+				}
+			}
+			id: "34D66284E2A560FD"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "318A1CFCE8E89474"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "6C4CA39561EED29C"
+				title: "Learn The Fixed-Wing Controls"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13D221AFA2707A46"]
+			description: ["The Warship is a massive vehicle that is undettered by winds but consumes fuel rapidly. To combat this, it has three fuel slots. Up to 4 people can ride it, with one having access to the gunner slot to use available weapons."]
+			id: "397D7A84533F7361"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1634C357E033DCD4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0BCA95685C139A57"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			title: "To War"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["04FF0DDDE96513F2"]
+			description: [
+				"Unlike many other aircrafts, The Gyrodyne is powered by the player's own body. When first taking off, you will be prompted to hold W to build up power. Once power has reached 100%, you  can control the aircraft like any other rotary vehicle."
+				"Being that it is muscle based, flying will gradually drain your own hunger, so keep an eye out."
+			]
+			id: "3F2169DF8F96D8A3"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7D15C3CE379D0823"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "482D22DADE34D8B8"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			title: "Push the pedal to the floor"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["04FF0DDDE96513F2"]
+			description: ["The Quadrocopter is a small aircraft designed to aid in building. It is unique in that it does not follow the same side to side controls that other rotary aircrafts do. Instead, holding A and D will simply move you to the left and right respectively. Turning is done via the mouse like normal gameplay."]
+			id: "6B43C3734794C3D7"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "02AC2174D1BE77F2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "40A0D665A72C86D9"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["34D66284E2A560FD"]
+			description: ["A simple aircraft in design, the Biplane is designed to move fast. Its storage allows for great use in supply runs or ventures where items need to be brought along."]
+			id: "532C02B55492142D"
+			tasks: [{
+				id: "43B9A35E03A532FF"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			title: "The Brothers' Creation"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["34D66284E2A560FD"]
+			description: ["The Economy Plane has better fuel consumption than its alternatives, but in doing so, sacrifices speed and all slots other than simple upgrades."]
+			id: "43DB027C382D0466"
+			tasks: [{
+				id: "3FF41AF3687AE99C"
+				item: "man_of_many_planes:economy_plane"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["532C02B55492142D"]
+			id: "77FDC8207C043848"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "71D18E0B54DA002B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "29D4A191E4879607"
+				item: "man_of_many_planes:scarlet_biplane"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			id: "75FC9F4AB4245047"
+			tasks: [{
+				id: "687F1DC90E5DD8EB"
+				item: "immersive_aircraft:heavy_crossbow"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["34D66284E2A560FD"]
+			id: "263538C5E0C9204C"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "319093D73BF6DCE1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "19CF1F90DEF399CB"
+				item: "immersive_aircraft:bamboo_hopper"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			id: "73E4167FD392B736"
+			tasks: [{
+				id: "0E64F5AE7A9A15BF"
+				item: "immersive_aircraft:enhanced_propeller"
+				type: "item"
+			}]
+			x: -3.0d
 			y: -5.0d
 		}
 	]

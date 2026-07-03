@@ -477,6 +477,18 @@
 			x: 0.5d
 			y: -3.0d
 		}
+		{
+			id: "4D88C96EE88FCB2A"
+			secret: true
+			tasks: [{
+				id: "77E60C0A37015EAB"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			title: "I am Become Death"
+			x: 0.0d
+			y: 4.5d
+		}
 	]
 	title: "Mining"
 }

@@ -3,7 +3,7 @@
     "mainhands": [{
             "weight": 1,
             "stack": {
-                "item": "minecraft:golden_axe"
+                "item": "minecraft:bow"
             }
         }
     ],
@@ -14,8 +14,8 @@
 			"item": "minecraft:golden_boots",
             "nbt": {
                 "Trim": {
-                    "pattern":"silence",
-                    "material":"netherite"
+                    "pattern":"netherexp:rift",
+                    "material":"minecraft:lapis"
                 }
             }
 		},
@@ -27,8 +27,8 @@
 			"item": "minecraft:golden_leggings",
             "nbt": {
                 "Trim": {
-                    "pattern":"silence",
-                    "material":"netherite"
+                    "pattern":"netherexp:rift",
+                    "material":"minecraft:lapis"
                 }
             }
 		},
@@ -40,21 +40,8 @@
 			"item": "minecraft:golden_chestplate",
             "nbt": {
                 "Trim": {
-                    "pattern":"silence",
-                    "material":"netherite"
-                }
-            }
-		},
-        "drop_chance": 0
-	}],
-	"helmets": [{
-		"weight": 1,
-		"stack": {
-			"item": "minecraft:golden_helmet",
-            "nbt": {
-                "Trim": {
-                    "pattern":"silence",
-                    "material":"netherite"
+                    "pattern":"netherexp:rift",
+                    "material":"minecraft:lapis"
                 }
             }
 		},

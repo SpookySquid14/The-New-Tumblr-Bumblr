@@ -1358,7 +1358,7 @@ hash = "63f34caf47c465338b28a5661d3236aa71ea5e4774635bad54718c3edc7bbfec"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "2531c2f26cc34f4866a8337ac639f9ebf3754916eb34a1984c82a8e1ad4169d2"
+hash = "f3518b8c678fb5a03047bd0638ce3175ded90d1d2f45843c977f8fce9a6f4a61"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -68930,7 +68930,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "27071adfe84acb8060335a75d415bd277fd36ef072389f84cd932438d2c81693"
+hash = "38b6e77474cbe3de094ab907d93383068b176c573899f17319f039f409638836"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68939,6 +68939,10 @@ hash = "d568d3c8beeed677569ad556c0b20c063e8e0554bc30b7804652b4b4328cb1bf"
 [[files]]
 file = "config/fairylights-common.toml"
 hash = "850a9086091e593f9c5546cad289ca781604ef4175d0d9e76c41c1560945b195"
+
+[[files]]
+file = "config/fallen_gems_affixes-common.toml"
+hash = "154ca8f373e8e38dcd3ef91cbb8a4a056924e9abffc6445346b24c9f6f54f3fa"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -69938,7 +69942,7 @@ hash = "6239cbc877247638fc5c5e42d99f4152357587c9907327869a33d63895d75167"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/boats_and_planes.snbt"
-hash = "f68edac26b3a2fca3d1d9c4cf498667683a1b4434605789f4bcdc619d9be9e35"
+hash = "27de7b15c88b07f6ba2ad7fe178184a1980f5b07d3655b834211cedaac84380b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/born_in_chaos.snbt"
@@ -70014,7 +70018,7 @@ hash = "9fc95d281d92eaa2167763d7170262b08d56cbf48f4fdb766db8a8db8e136fac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mining.snbt"
-hash = "3086a7c2f617f853dc47e78ce07d5c1c9f8191d4581168e1f286996c6369193b"
+hash = "b4f73d49e702552df9040bc41bc80a42769ca51cada69630aa7bc2061ef65bc7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mob_grinding_utils.snbt"
@@ -70506,7 +70510,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "4dd9104a8418cff4da17d489f04001c034f398cbe21d46df10adbd4217e5f814"
+hash = "32831904735af78166facd0c5445bc6b127b03133173b84be86c43d1c1bc9e37"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -70530,7 +70534,7 @@ hash = "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "94dc14a12192d8c9c0e58593e4dfcd99993457c5b4c6bded10289476eeea0191"
+hash = "c2b967685224f2fffda180cee8f503cc5fd395286bb4c0bea0032f966f3acec9"
 
 [[files]]
 file = "config/jei/world/local/Apothic/lookupHistory.ini"
@@ -70575,6 +70579,10 @@ hash = "cae715823bb741729eb852a1b0e54d8d9bb0b332c4e8790f2ad27b54049d4cec"
 [[files]]
 file = "config/jei/world/local/Diamonds/lookupHistory.ini"
 hash = "399d8d40fb96ea742eafcfabc94fcbf0806565b42fbbc3b7af6c1d42c815b8b0"
+
+[[files]]
+file = "config/jei/world/local/Dump/lookupHistory.ini"
+hash = "3640a833c3f7591238f193ac819a5c0dc0079f1644b19810b4226642ac3c3438"
 
 [[files]]
 file = "config/jei/world/local/Dungeons_Arise/lookupHistory.ini"
@@ -70806,7 +70814,7 @@ hash = "d3da6522cc9c5db95c03526632517d95b85b674388837274e1725a3763f2d9e7"
 
 [[files]]
 file = "config/jei/world/local/Simply_Swords/lookupHistory.ini"
-hash = "03ca055b8feb4ab747f8ff654c43a144a9bcf61d6387b2a1f932b533b552929b"
+hash = "4d27beaebb52429d8b2e7709bf4dfef0ef9ee04d17c4ad222a4f397f5438ef78"
 
 [[files]]
 file = "config/jei/world/local/Spawn_test__4/lookupHistory.ini"
@@ -70887,6 +70895,14 @@ hash = "9bfd764bcda85168d91aaa8bb637ea61f5f5793738a0c5e0ed8d1e6f43ba1a12"
 [[files]]
 file = "config/justenoughbreeding-offsets.json"
 hash = "a1d6c7261526c48721e40fa1b9380f4a7da1be0e7e149ce2672705509e3203b6"
+
+[[files]]
+file = "config/knavesneeds/deeperdarker.json5"
+hash = "982ffb3fdfa163eb8e0600099b95e30f328a8b674bef08f94283ce5792625288"
+
+[[files]]
+file = "config/knavesneeds/general.json5"
+hash = "a57684d2e3cf31cd2da4f35f89e27b0e50e20e0868770fd25b5ed1a1be8381cd"
 
 [[files]]
 file = "config/knightlib.toml"
@@ -71030,7 +71046,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "57ff959f650b35ec8e6e4700642d9127e89eccd2ad48cc22491233e69c5f89de"
+hash = "5d0d2a46b55dd13e7c9c8ddfc729dfca05a35678006a5a8131368044ba1e53a3"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71282,7 +71298,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "473e44c7f39aa0ab4ab539e0e27e1eca9b668772ddc0e2ad0244e6e01c0a8e57"
+hash = "bf5d1bc42d6f0d93e943e3c62ac717573391176723265edbf49dc32e66088f69"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71298,7 +71314,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "e8ae43a0cfb61f7d65f23922811e440a8a984c2fe5be7e83a72fbff460b85874"
+hash = "b3d7e6f2e05e92328e65129d4532dadec7560ca9661d3d0dda6ccdbef158c5a0"
 
 [[files]]
 file = "config/pal.properties"
@@ -73234,7 +73250,7 @@ hash = "ea1e816566d18e031f8c0b3ce6983531ad32105a58bc57b336feb301eb60b503"
 
 [[files]]
 file = "kubejs/assets/gateways/lang/en_us.json"
-hash = "527477ba145c2c6dc19ffc33d65b0c8a3b88444cf2c84b12cc246ecef2de7723"
+hash = "8409a0ef98ad1986b242ca7e2d6f4e44e99b5becab2c94164a6aac747bca61fc"
 
 [[files]]
 file = "kubejs/assets/info.json"
@@ -77101,6 +77117,10 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/affixes.png"
 hash = "a43cc584b6864a8d61fa671f11b5665aaa8556d36c6d442be767da2b440d6321"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/aircraft-motor.png"
+hash = "03a5f55c2f09bfb662c845022467a1ca0c206c1f593fca16ca1c2587b4b070ee"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/altar-of-infusion-chart.png"
 hash = "3d8158371ef084d3b9c6a37acfb9a91ce43cb9e16941252db8afa06bbe452141"
 
@@ -77187,6 +77207,10 @@ hash = "726bfb419fd506663e627b165ff7569f1dcabaeb6e7ab1587192b40100a7eedf"
 [[files]]
 file = "kubejs/client_scripts/example.js"
 hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+
+[[files]]
+file = "kubejs/client_scripts/jsconfig.json"
+hash = "f8a0a8126e426e5eac5d54d5ceeca44579ae88b3a88fd23e3fda75f8b3dde48c"
 
 [[files]]
 file = "kubejs/client_scripts/pokeball.js"
@@ -77398,35 +77422,31 @@ hash = "390c3a3bc90a1c51c89001d9e6a928050f5ad8f204d5bc9867ec65c3036b3a28"
 
 [[files]]
 file = "kubejs/data/gateways/gateways/nether_invasion.json"
-hash = "305f31f8ae6092e0f22e09c1bee1387fc4b6caa01e390216155d2cb52cc8cc4b"
+hash = "ad98542b9931b9b1a9e7497e46855c06b992796420d33434604cf5211fbc5908"
 
 [[files]]
 file = "kubejs/data/gateways/gateways/test_gateway.json"
 hash = "bfd47d38593cac670af5f97c4ebf22478cf40a4280cc8db342448df1cd9ac0c4"
 
 [[files]]
+file = "kubejs/data/gateways/gear_sets/alchemist_soldier.json"
+hash = "0db229da165ede56ee10c2ffbc9485d671f66b855c76980e353bfc1d349d75d7"
+
+[[files]]
 file = "kubejs/data/gateways/gear_sets/ancient.json"
 hash = "f85b652a97f10d32a962a9a4ef90b432fd5a901644407ab22292133953b1b2d3"
 
 [[files]]
-file = "kubejs/data/gateways/gear_sets/brute_commander.json"
-hash = "7f09e76e01223f7d7d9a987fcbe17c99d322e01cfa2aaf4e02346e12d9d29bb6"
-
-[[files]]
 file = "kubejs/data/gateways/gear_sets/brute_soldier.json"
-hash = "59d46b4ddc645c5bd73ed0bcd1efd24f1bcc295517f2fc983b9c032bc39b52a9"
+hash = "999b6a1529dae0a035d46b3900f24d8e98496fcd034ea7dcb939a97accc934e7"
 
 [[files]]
 file = "kubejs/data/gateways/gear_sets/eternal.json"
 hash = "f67dc1af613373f0a3114fb058d86d54988f636b91b2c8aa0c03e4c036898706"
 
 [[files]]
-file = "kubejs/data/gateways/gear_sets/piglin_foot_soldier.json"
-hash = "e07e67802fafd87a698e319f5cb3e4f6d359bc22c20840c52ca9dee6805efe48"
-
-[[files]]
 file = "kubejs/data/gateways/gear_sets/piglin_soldier.json"
-hash = "80bcf9383a8af36894f02d46fa425f7827dc961880f01c4a0a67d8e6b266f00b"
+hash = "c52f8df05987d5fcd25f994eba4c97562ca8c47acfc770ee84b27c547e5392de"
 
 [[files]]
 file = "kubejs/data/gateways/recipes/nether_invasion.json"
@@ -78209,10 +78229,6 @@ file = "kubejs/data/vampiresdelight/loot_tables/blocks/vampire_orchid_crop.json"
 hash = "0c346f7248a229236372d86b688f09f759e1ff9479e362c219195ed6aedc3e63"
 
 [[files]]
-file = "kubejs/jsconfig.json"
-hash = "121ec9d7902090c050b096aa83792aeb7580946392785f5bae5f8e4bc6dbcce4"
-
-[[files]]
 file = "kubejs/probe/cache/cachedForgeEvents.json"
 hash = "eb0aafad761682f08bff902cc2be65b737780080e1e741f8c6b231cc37c696c8"
 
@@ -78877,6 +78893,10 @@ file = "kubejs/server_scripts/Modpack/gameplay/vampirism_zombies.js"
 hash = "a7f7f7789acc63ed4a9fae63f3eea617138cc49eee7867bf19b55fe0cf8b07e6"
 
 [[files]]
+file = "kubejs/server_scripts/Modpack/test.js"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "kubejs/server_scripts/Modpack/wolf_attack_skulls.js"
 hash = "a55031eb0b54685cb888f2e8a2501d9e64b027de4477a8048a43c9ca1a99e2fc"
 
@@ -78910,11 +78930,15 @@ hash = "7b6906cf32792695ad930c4321b7c13d474ca6fa5b9cadaaff57e048e1b7859b"
 
 [[files]]
 file = "kubejs/server_scripts/example.js"
-hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
+hash = "d822d8e129859e2585c442280320ed6edf471493d05ccd3aa8e19a4b04f382c5"
 
 [[files]]
 file = "kubejs/server_scripts/from_the_fog/herobrine_config.js"
 hash = "7e49bc5d505f8361751ff928b443dc92cca4452e1d8d27fb936387830b6507ea"
+
+[[files]]
+file = "kubejs/server_scripts/jsconfig.json"
+hash = "8b5bbf7da13645288cc92dc2ad8219e75150811f9df97fd74a482e45469eb815"
 
 [[files]]
 file = "kubejs/server_scripts/occultism/occultism_util.js"
@@ -78967,6 +78991,10 @@ hash = "3d9691d4d55f6ceee19eb940d69aa2cf8c35d4bf3603380210b2cb824691d095"
 [[files]]
 file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
+
+[[files]]
+file = "kubejs/startup_scripts/jsconfig.json"
+hash = "3e8682050e4b1be10321b92fdee3b3d1a6b4803b84dc243c26cf614cde0dee78"
 
 [[files]]
 file = "kubejs/startup_scripts/nobotaniaflowers.js"
@@ -79893,6 +79921,16 @@ hash = "84e6b110a62cafd8f51dba8faf9fa828559e406089c85280c96470dfa1019891"
 metafile = true
 
 [[files]]
+file = "mods/fallen-gems-affixes.pw.toml"
+hash = "38b714d2656d616b0566950a39bc4376b86b248a9e42c46ccceb4678994e3687"
+metafile = true
+
+[[files]]
+file = "mods/fallen-lib.pw.toml"
+hash = "bd9d13f4db8433e3fcda00ef6c01011112dafa1737c865635bcf6d7f796dbf80"
+metafile = true
+
+[[files]]
 file = "mods/familiarslib.pw.toml"
 hash = "c38d5656692cc5d7cee75549d2e223e5a34c037126869964879df0af974c1aef"
 metafile = true
@@ -80290,6 +80328,11 @@ metafile = true
 [[files]]
 file = "mods/justenoughbreeding.pw.toml"
 hash = "91076cc0e381b882efed62ad5431766d8b2f4857f0cd86db7f30ccfc8c1e5f77"
+metafile = true
+
+[[files]]
+file = "mods/knaves-needs.pw.toml"
+hash = "9aed6d72395ab6f504a6d8591e040bfdb686cd3f42130f580cd12d6978c75847"
 metafile = true
 
 [[files]]
@@ -80730,11 +80773,6 @@ metafile = true
 [[files]]
 file = "mods/probejs-legacy.pw.toml"
 hash = "cdfd8292411d65b3e3eed8de16ae1d7d290d45427ac893632dbded185102f730"
-metafile = true
-
-[[files]]
-file = "mods/probejs.pw.toml"
-hash = "4c5e4fb5f97b85cdf384ace0ac0ca5a4cee90396021eb73545f33db20d5235f0"
 metafile = true
 
 [[files]]

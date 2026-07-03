@@ -1,0 +1,18 @@
+filename = 'fallen_lib-1.3.2.jar'
+name = 'Fallen Lib'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'fallen_lib-1.3.2.jar'
+
+[download]
+hash = 'cc207a1fe171bea314b8f0fbde75ef46abcdf8c3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7854995
+project-id = 1404737

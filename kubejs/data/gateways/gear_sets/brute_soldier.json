@@ -7,6 +7,53 @@
             }
         }
     ],
+    "offhands": [{
+            "weight": 1,
+            "stack": {
+                "item": "piglinproliferation:buckler"
+            }
+        }
+    ],
+	
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:golden_boots",
+            "nbt": {
+                "Trim": {
+                    "pattern":"netherexp:rift",
+                    "material":"minecraft:netherite"
+                }
+            }
+		},
+        "drop_chance": 0
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:golden_leggings",
+            "nbt": {
+                "Trim": {
+                    "pattern":"netherexp:rift",
+                    "material":"minecraft:netherite"
+                }
+            }
+		},
+        "drop_chance": 0
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:golden_chestplate",
+            "nbt": {
+                "Trim": {
+                    "pattern":"netherexp:rift",
+                    "material":"minecraft:netherite"
+                }
+            }
+		},
+        "drop_chance": 0
+	}],
 	"tags": [
 	]
 }
