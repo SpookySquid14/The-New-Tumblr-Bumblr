@@ -197,7 +197,7 @@
 		}
 		{
 			description: [
-				"{image:modpack:textures/dead-king.png width:160 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/dead-king.png width:160 height:90 align:center}"
 				"The Dead King was once a powerful necromancer. Now his body sits atop his throne, waiting with the eye it guards hidden away. Dark magic can bind this king's soul to a compass, leading you to his catacombs. Take care of yourself and your surroundings, and this lord of the dead will fall before you."
 				"PS: Don't think you've won after killing him once. The dead always come back."
 			]
@@ -517,5 +517,5 @@
 			y: -4.5d
 		}
 	]
-	title: "Legendary Eyes"
+	title: "Legendary Eyes (Remake Later)"
 }

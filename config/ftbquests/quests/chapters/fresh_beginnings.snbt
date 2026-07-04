@@ -11,7 +11,7 @@
 			click: "#0F23E7D50C581A52"
 			dependency: "15ACD993630984F4"
 			height: 0.5d
-			image: "modpack:textures/rock-and-stone.png"
+			image: "tumblrbumblr:textures/quests/rock-and-stone.png"
 			order: 1
 			rotation: 0.0d
 			width: 3.5d
@@ -22,7 +22,7 @@
 			click: "#2D34FF035F596DF7"
 			dependency: "15ACD993630984F4"
 			height: 0.5d
-			image: "modpack:textures/magics-and-madness.png"
+			image: "tumblrbumblr:textures/quests/magics-and-madness.png"
 			order: 1
 			rotation: 0.0d
 			width: 4.0d
@@ -33,7 +33,7 @@
 			click: "#6A973C6CC334168D"
 			dependency: "15ACD993630984F4"
 			height: 0.5d
-			image: "modpack:textures/potions-and-poisons.png"
+			image: "tumblrbumblr:textures/quests/potions-and-poisons.png"
 			rotation: 0.0d
 			width: 5.5d
 			x: -3.0d
@@ -84,7 +84,7 @@
 			dependencies: ["15ACD993630984F4"]
 			description: [
 				"Let's get you fitted with basics, shall we? Any and all good journeys start the same way, by punching a tree."
-				"{image:modpack:textures/tree-chopping.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/tree-chopping.png width:156 height:90 align:center}"
 				"Something you'll notice upon approaching one of these wooded wonders is the counter at the top of your screen. Yes, in this world, you need only break the bottom block of a tree to knock it down. It will still take a few hits, but it's far more convenient, no? You will also see the amount of logs and any other drops you'll receive from chopping."
 			]
 			hide_until_deps_complete: true
@@ -213,8 +213,8 @@
 			description: [
 				"With the addition of FTB Chunks, you have the ability to &o&6claim land&r. Accessing the menu through your inventory will bring you to a small map of the immediate area. Using the left mouse button will let you claim chunks, and the right will unclaim them."
 				"Claimed chunks have a number of advantages, with one of the biggest being the inability for mobs to grief them. Perfect for a house you don't want broken down."
-				"{image:modpack:textures/claim1.png width:156 height:90 align:center}"
-				"{image:modpack:textures/claim2.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/claim1.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/claim2.png width:156 height:90 align:center}"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -450,7 +450,7 @@
 				"We all need sleep, and that includes our little friends. A &6&opet bed&r will act the same way for your pet that your own bed does for you! I-it will let them respawn... if they die..."
 				"... &0I miss you.&r"
 				"Well, let's not get off track! You'll know your pet has taken the bed when Zs appear over their head. Do note the pet will only respawn at dawn."
-				"{image:modpack:textures/pet-bed.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/pet-bed.png width:156 height:90 align:center}"
 			]
 			hide_until_deps_visible: true
 			id: "5B9D08BF34A3396B"
@@ -542,7 +542,7 @@
 				"Do you have an excess of items, even with a nice bag and some chests? Well, have you considered selling your goods?"
 				"The &o&6shipping bin&r is a helpful block. By interacting with it, you can deposit all sorts of items and receive ancient coins in return. When midnight hits, you'll be alerted that the contents of the box have been bought and shipped off. Checking the box afterwards, you will see your earnings in its contents."
 				"Note that &onot all items are sellable&r, and some items like common ingredients may require more than one before receiving any purchase."
-				"{image:modpack:textures/shipping-bin.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/shipping-bin.png width:156 height:90 align:center}"
 			]
 			id: "30ABD0E686F62848"
 			rewards: [{
@@ -882,17 +882,17 @@
 			dependencies: ["15ACD993630984F4"]
 			description: [
 				"You've probably noticed some of the tabs above your inventory. I'd like to tell you about one in particular, The Skill Tree."
-				"{image:modpack:textures/skill-tree-tab.png width:150 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/skill-tree-tab.png width:150 height:90 align:center}"
 				"{@pagebreak}"
 				"Inside the Skill Tree, you will find a variety of boosts and abilities, or \"Skills\" if you'd like. When you level up, you'll gain &o&6Skill Points&r, which you can then spend on these Skills. Experience varies, but for the primary Skill Tree, &6&oit can be obtained through combat, enchanting, fishing, and mining&r."
-				"{image:modpack:textures/skill-tree.png width:225 height:135 align:center fit:true}"
+				"{image:tumblrbumblr:textures/quests/skill-tree.png width:225 height:135 align:center fit:true}"
 			]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
+				id: "farmersdelight:skillet"
 				tag: {
-					Icon: "modpack:textures/skill-icon.png"
+					Damage: 0
 				}
 			}
 			id: "309BB2C3143443F6"

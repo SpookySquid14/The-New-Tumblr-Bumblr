@@ -295,7 +295,7 @@
     {
         "type": "gateways:stack",
         "stack": {
-            "item": "kubejs:burned_tablet"
+            "item": "tumblrbumblr:burned_tablet"
         }
     }
         

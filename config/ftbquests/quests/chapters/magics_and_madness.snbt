@@ -8,7 +8,7 @@
 		{
 			click: "command:/eternalcurrencies checkbalance eternalcurrencies:ancientcoins @s"
 			height: 0.5d
-			image: "modpack:textures/check-balance.png"
+			image: "tumblrbumblr:textures/quests/check-balance.png"
 			order: 1
 			rotation: 0.0d
 			width: 4.5d
@@ -17,7 +17,7 @@
 		}
 		{
 			height: 1.0d
-			image: "modpack:textures/magics-and-madness.png"
+			image: "tumblrbumblr:textures/quests/magics-and-madness.png"
 			order: 1
 			rotation: 0.0d
 			width: 8.0d
@@ -315,7 +315,7 @@
 			rewards: [{
 				auto: "no_toast"
 				id: "7FC06E8BA9401F50"
-				item: "kubejs:enchanted_soul_gem"
+				item: "tumblrbumblr:enchanted_soul_gem"
 				team_reward: true
 				type: "item"
 			}]

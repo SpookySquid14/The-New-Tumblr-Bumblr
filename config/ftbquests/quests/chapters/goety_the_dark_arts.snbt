@@ -13,7 +13,7 @@
 	id: "4A0E12C943429894"
 	images: [{
 		height: 1.0d
-		image: "modpack:textures/goety-first-steps.png"
+		image: "tumblrbumblr:textures/quests/goety-first-steps.png"
 		rotation: 0.0d
 		width: 7.0d
 		x: 0.0d
@@ -58,7 +58,7 @@
 			dependencies: ["09A68ADF45EC8501"]
 			description: [
 				"&6&oSoul Energy&r is the driving force of the dark arts, so naturally, your first step as a fledgling caster is to harness this energy for yourself. To do this, a &o&6totem&r will be required. The craft the &6&ototem of roots&r, &oectoplasm&r is required. There are many ways to obtain it, but for yourself, I suggest seeking out a &4&owraith&r."
-				"{image:modpack:textures/wraith.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/wraith.png width:156 height:90 align:center}"
 			]
 			hide_dependency_lines: false
 			icon: {
@@ -97,7 +97,7 @@
 			dependencies: ["2BED66945BBA3836"]
 			description: [
 				"As I said before, there are two components we will want to acquire. The second of these are &6&ofabrics&r. Made from lapis and some string, a variety of different fabrics can be created by adding one addition ingredient. These all have their purposes, but for ours, we will want &o&6magic fabric&r, made by adding gold to the recipe."
-				"{image:modpack:textures/fabrics.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/fabrics.png width:156 height:90 align:center}"
 			]
 			id: "08E9141026F7F288"
 			rewards: [{
@@ -154,7 +154,7 @@
 			description: [
 				"There are two other components we will want to acquire. One of those is an &6&oempty focus&r. For now, the simplest method of obtaining one would be to use your totem and some amethyst. Once you have that, then we can begin."
 				"[ \"Oh, and if you're struggling to find amethyst, \", { \"text\": \"I believe my cousin may be able to help\", \"underlined\": \"true\", \"color\": \"light_purple\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"24D05EE5346105AD\" } }, \".\" ]"
-				"{image:modpack:textures/empty-focus.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/empty-focus.png width:156 height:90 align:center}"
 			]
 			id: "2BED66945BBA3836"
 			rewards: [{
@@ -211,7 +211,7 @@
 			description: [
 				"You've obtained your wand at last, but you should not go off trying to cast a spell so quickly. To do so, one requires &6&oa focus&r. There are many different focuses, but a simple one to start with is the &o&6Soul Light Focus&r. With some sticks, coal of any kind, and an empty focus, you will be able to create it."
 				"Now armed with a focus, inset it into your wand with the appropriate binding (Default: Z). You can now cast the spell and shoot a projectile that upon hitting a surface with leave a small but ever present light."
-				"{image:modpack:textures/soul-light.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/soul-light.png width:156 height:90 align:center}"
 			]
 			id: "7DC5F505120655C1"
 			rewards: [
@@ -243,7 +243,7 @@
 			description: [
 				"You've created a powerful utility in the Soul Light Focus, but if you wish to take things further, then we shall look at creating a &o&6Soul Bolt Focus&r. This focus serves as a simple projectile, and not much more. Still, it can be amplified later through enchantments and powerful items. You will need some arrows and ectoplasm, along with the Soul Light Focus you crafted earlier. I also recommend making a second Soul Light Focus, as to not strip away a useful tool to gain a weapon."
 				""
-				"{image:modpack:textures/soul-bolt.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/soul-bolt.png width:156 height:90 align:center}"
 			]
 			id: "7D6F2EC87AA8F366"
 			rewards: [

@@ -68574,7 +68574,7 @@ hash = "5585eddcee272947929f117afcd4c2ffdaba29e45f4eed6d273cfd4f655f8e8b"
 
 [[files]]
 file = "config/configurableextramobdrops/mobdropconfig.txt"
-hash = "0e7c8b9b14b3a587b7e9ccc78a21eee67f382aa801134cb7e6b90b75b82353df"
+hash = "cd041c0476c59e5a2178c592eb7e64f370f17a8925fe4305d29bfbe6eaebe077"
 
 [[files]]
 file = "config/configured-client.toml"
@@ -68930,7 +68930,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "dc6f80ade94c0d872d6cce008eb6cc3c6ac4aa17d8a275f275a25c7ba46d76d9"
+hash = "9c842120c5284d49d868836831b3bfb70c6db8933a365cf60c19fa9118379624"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69938,7 +69938,7 @@ hash = "edc89519177a723f92ca1088df812bfa0f084be24dd0ddb14e4b86f5a2d8a141"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/biomancy.snbt"
-hash = "6239cbc877247638fc5c5e42d99f4152357587c9907327869a33d63895d75167"
+hash = "063f0b38ef1e58b1893758665685ae7a3351c55760470bf0dac100ee80bab413"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/boats_and_planes.snbt"
@@ -69958,7 +69958,7 @@ hash = "c9823a8bef036749d2553ca65d39ac458216aa913a87b8a4814f8721794ee927"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "8ef5dcf920cd5051393ebcf3d031e8bfa0431dacd9f3c17410a9d94fb1f95d0c"
+hash = "ecac9c6cdbe35dfd79ba63e28ad3f7cbf2c178dbcbc64135119f44299bedd074"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/complicated_bees.snbt"
@@ -69978,7 +69978,7 @@ hash = "2fd5b82fa6bd5092039eab8849fc407f59eaf29af569ca9c6171d9c77c517cd9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farming.snbt"
-hash = "88f49564530f1eac2462c04e945c31a53cb2777ebeb843b70b58d1669f461c09"
+hash = "209f7d82aa3c3c8ead2b4d7e8600a79638bb6401bc5655687b07045720f0559f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fine_fishing.snbt"
@@ -69986,11 +69986,11 @@ hash = "c5b2a4350fe887f784b4a8efbb9b4211bc4171033534e13ebf062194ec2145c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "36f7dbd71a216edf99f1688dedbdaa11ee0dbdf769fb5b92944a01c8f5208950"
+hash = "15df7f5a52e3f46845e40ffb8cd0d2e4e68e337f50f7e6855f3d0222b63a78ec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
-hash = "a20105fb4fa554095e81ca422b922011c220bf505c194bb530d61cd85d37e68f"
+hash = "efdfd1a8fa9e2c4d45d23dfc40288ccf61aa05a6373d8f65ef656c657589d734"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive_engineering.snbt"
@@ -70002,11 +70002,11 @@ hash = "9ff9a5ea3b7af2dab8f81f2c41ad0366c545cb1b0249cdc22931ea68e15d2f9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/legendary_eyes.snbt"
-hash = "8ad6c8d613fcb5f798c9c0dae8be1618529efc6f5929df935e243ac28268e01c"
+hash = "6e736cc2fb5c83a9b86f0b76a8df5f626ea696a69d71bf90114b32dea3c1c324"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magics_and_madness.snbt"
-hash = "488d679f630ca8d5d67d174b734c964246e7008fcc78bc19a287c5ce9eded1bd"
+hash = "9acaccb6f9fd58abffaa60136fbcce6f1467b07db709c3d05fc2548762939015"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
@@ -70026,7 +70026,7 @@ hash = "5621f041ae7b8bacde559a574254ffc02ad47899171e3d314d9b8faef4c78754"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.snbt"
-hash = "39ffd0edd5ae0bc32c461dfd1c04b05177ed002a0b34a30ac5ab77a2d406f339"
+hash = "d0bac7e42976d8be5a98bf0b8706e73dfa7a7483c60729927b80689db7ae53bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.snbt"
@@ -70038,11 +70038,11 @@ hash = "9d20003ffdac15ef35fc1f6b09752370c37e59fb389d064ed81f97bea17c127c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/potions_and_poisons.snbt"
-hash = "8b1be068bca8978c9607eb5f112bde3a4d51c1469ecdb69aef12bd68140acf76"
+hash = "ec08bde638121b876a2830f3dfdb0e0f7271c95ff886e583da8ddbdf0fbd9f27"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rock_and_stone.snbt"
-hash = "4787adbc93f8d54387061c966eef4431a45c10ce8515885191904f3d00592cd5"
+hash = "5b3634e650b16d4b4fc7b20c34d1825810ec00b70e0692e299c7a152e99675b3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/saints_dragons.snbt"
@@ -70514,7 +70514,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "e14417f7c3eaf85eae065e6a0e82f131d9e503fe54724609aafa5b0278f27d73"
+hash = "f88560f85ee445a771ff496aa8843f0018c4c06e6a442b4803ae79276b64a3ad"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -70817,6 +70817,10 @@ file = "config/jei/world/local/Playtest_3/lookupHistory.ini"
 hash = "d3da6522cc9c5db95c03526632517d95b85b674388837274e1725a3763f2d9e7"
 
 [[files]]
+file = "config/jei/world/local/Reorganized/lookupHistory.ini"
+hash = "31cfca30c1d300b804e37bb16a1e2da79951ff5496229000760863e2097e3dc1"
+
+[[files]]
 file = "config/jei/world/local/Simple_Weapons/lookupHistory.ini"
 hash = "9c8cc92955111745c6d41ccfae5a923ced07e73bbdfb02be2a3de6fc7562e490"
 
@@ -71062,7 +71066,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "41b109dddcced6e6e74c99620baf9ef69574f9508a408dde7afeb8b7d1fb66cb"
+hash = "bdedd715de44763dd30258befdedb1959604100a9aaadebe6fd90f8cf36ce9e5"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71314,7 +71318,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "7f40a655a5216bc5731fa31fbeb8cf6628c440f34b90e01c5785bd4678449c3e"
+hash = "70137c16f7d0755e191c9fd0d92f911ba6eca66b3ef63f38f091d256e1e20e25"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71330,7 +71334,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "2b945a9d59509fa78da697600178833da59b7a79ce2360ae2837b0d48b52b969"
+hash = "5c5ab66a7dbc61c374cc44ec6418fa5c23dffe0dd547e021e974232e5f0a3eba"
 
 [[files]]
 file = "config/pal.properties"
@@ -73145,10 +73149,6 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
-file = "kubejs/assets/artifactory/textures/slot/artifactory_slot.png"
-hash = "69fd72c9663e38a3ea05b5fee4c17f427b1a55c045477c411517e5d7b1d47da6"
-
-[[files]]
 file = "kubejs/assets/cataclysm/textures/item/empty_waist_slot.png"
 hash = "ada73f7c7197adf51b9643d86617af531d5732340927ed3ffff14aa43f90b4a6"
 
@@ -73279,62 +73279,6 @@ hash = "9c9924bff1d041c7983358c085bcc0f3d5c827cb3d1b0f154bc66f4559e3fff2"
 [[files]]
 file = "kubejs/assets/jadeaddons/jade/target_modifier/born_in_chaos_v1/infected_diamond_ore.json"
 hash = "eca13ce34ed4c6b6115c2d6d28544c466b76a892da1d439d36048554010b4988"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/example_block.png"
-hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/burned_tablet.png"
-hash = "994827cf087d710f25ba2352a02ba2315c443ac57c8eeaaa19a8c79c3d25cb67"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/dirty_raw_diamond.png"
-hash = "988ecbfde39a14e3508f735f6720cd6e280ae4f99196663b71b0f4385475e7e2"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/dirty_raw_emerald.png"
-hash = "2caf39623c1d16c93e88dd071800a9c536e3262cc7c0c48469f00b8e5abbe927"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/example_item.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/infernal_eye.aseprite"
-hash = "d7cbc2e8d11622374d47a16c9a1ea78740565195879e559118fa62ded4958eaa"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/infernal_eye_2.aseprite"
-hash = "4f158618664f09700b03fb73f36cc469b6210fae2e72900c48fa24c40a58aee4"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/rusted_axe.png"
-hash = "521d1727ae33d4c49c6d2ecfa9364476b0b92c0994f20ca8b15ccf48aa2c8753"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/scroll.psd"
-hash = "cd7130403655be7f61690d650a29bb09b45e40c7678e9630f25584b09d807cc3"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/sunken_eye_shard_1.png"
-hash = "1065562c341333c9be8ee52b570d6cee22c5273846d125456976795f002cdd9c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/sunken_eye_shard_2.png"
-hash = "5d275c1ca24c5d2ee5529d81d79d9a7b51607b4d69876e55a396006616ef170a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/sunken_eye_shards.aseprite"
-hash = "f2cc00947bd5fd5efdea8a52e1dc53130743f71b019b5b51b767c49ef6945645"
-
-[[files]]
-file = "kubejs/assets/lavafishing/textures/entity/yeti_crab.png"
-hash = "22dc8a9706669c43341901dacb3e9e4a2bb31db1435e913a26bb819f2d10d961"
-
-[[files]]
-file = "kubejs/assets/lavafishing/textures/entity/yeti_crab_modify.png"
-hash = "5c4aecf3760dfb6d3d5b8543b7ba103bf7f0c38f1f0c64b15efd583feb4b7a49"
 
 [[files]]
 file = "kubejs/assets/legendarytabs/textures/gui/tab_menu_buttons.png"
@@ -73475,474 +73419,6 @@ hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
 [[files]]
 file = "kubejs/assets/minecraft/lang/tr_tr.json"
 hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/alchemist-set.png"
-hash = "db519ca9e0623696f43d7f007eaa2492e934a643f5a5db4af4421d1c16220533"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/altar-of-fire.png"
-hash = "fe8d62cd029916455c7992019b8a2b192aa5373f0cc709c3dcfbb46a755816ff"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/anglers-eye.png"
-hash = "102128a6d57f303b89fe5a8410643445e0b69136fa33564030a2b201979f9133"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/apotheosis.png"
-hash = "de5ad91ede91acc226f8c7dd168e79901bb2abde63877a7811b44e5b8d36cfc7"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/arcana.png"
-hash = "cc2a8ec0c12e7a012cf887bfa32951965ca26349ced0e5417001c14adfcb563a"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/arctic-fish.png"
-hash = "d77d73a3dc9546ec5edb0db60955750fb8a69a3e56e2bb821e0f23064b6f8039"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/arid-fish.png"
-hash = "e00c4fb0c12fdf3fa4eaaacda21ec25a6eeb5bb99f659bcf24a8055707cb0a28"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/armors-and-weapons.png"
-hash = "c23267db0f888c4ba0e478e49fcebe892d18ed8a7a167e05a4c26228a0ff5485"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/basic_ingredients.png"
-hash = "fbc957b211224c44bc183f9794f8113e5fb0910ed5f4019b0305da89d2691205"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/bio-alchemy.png"
-hash = "26039b98e9aa267ef6d034f410db98985a859f4dd99298142a2026c26eb401be"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/bio-injector.png"
-hash = "b0aac523e22fa4bf4ffd11b13b4377c4b054c29d471b11b79a43e6b91f21fb8b"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/bio-lab-gui.png"
-hash = "daf466c4688fbfdd473686d0b30b2d872a837463c4d8bba7d9efb6b4a31e571f"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/bio-lab.png"
-hash = "bed4e2bfd405d7772886e7d7483db5e5a96726b9d35650f549731608320e9806"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/bioforge-and-decomposer.png"
-hash = "610af2d24027e29289d91b3bc232e79ec8badab8c10eda918af44b171f202304"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/bioforge.png"
-hash = "0a810aed0c7aaffc750adae25013407a575cb59bfe04a30fa72d31ec0d22852e"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/blazing_hellshelf.png"
-hash = "38269048843b667afe13d7cb1e92dac67e20badab62fccfd2e08662175382939"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/bloomberry.png"
-hash = "0b1a3a6ec3e1857e1974651fa7e12d51504e1d33d642f5bf27223226771c8e0c"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/bobbers.png"
-hash = "cfbff42a5bd8f828fa8db25072e7055ecc29bce7b0161afa30f380f62091da41"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/burning-arena.png"
-hash = "962f84ad9b23c53a0958f0e76223ed75e0bbb920b28c34493a737e8bb3b2069d"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/casting_rod.png"
-hash = "d64386aa2a29ee2ab669c871cabad06efd96a60e8f23176a28292958d6f4df0f"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/caustic-gunblade.png"
-hash = "ef4a8dc44b2b8aa9d752c1522ee129c0366db1aa57cf3a929963627276c2a5ca"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/check-balance.png"
-hash = "41d77128ca54f322becdbc487ed7ffa499feda0e97048ff274b7d0cd14e31edd"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/chrysalis.png"
-hash = "b4d4bf1dca95b8d2504f4126d424e7b7ea989de8700f22e85f02c64805c6a2d2"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/claim1.png"
-hash = "8dbe0cdf2461a587394f4dd2fdd02699eb42f6d542069095fd779dd66f5eaa09"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/claim2.png"
-hash = "cfee48304ca5edb792d60ae71a342d4efeb363eaa3530e3e619d5f69552bbf26"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/cobweb_removal.png"
-hash = "b3a4ea6f2c9b4cbf1e0d82fa32c447037e80691edd8e27968e7d8e3ef5274da1"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/collar-tag.png"
-hash = "313c250016febc65a545eaf3653bc43cdd05c0e2158233122d9b7356eb53597a"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/comforting-meals.aseprite"
-hash = "630b2df95a21610c9a89d885cefebecdccd31c90e47872c51c9a2dde981b31c6"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/comforting-meals.png"
-hash = "570903bcf23e9bda37625eca530d16610472ed670cfd00192bc4bb510dbaaf5a"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/cookbook.png"
-hash = "317c9ae5a61e333d2c89ebb48325c32c3e486977c63e110af85554e335c21f9e"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/dead-king.png"
-hash = "6775a01769ab3f17771201cbb19883ac7ce01dc525a2efcc50b3a7e148bd9eed"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/decomposer.png"
-hash = "f25cae95f326df4de002c796beb82fe7d36f8db68237f128efb77bbb464f81ae"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/dictionary-of-spirits.png"
-hash = "0ce59ea12340367cfc341827c9dc485833c635bea4155208a111cf29723d4895"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/digester.png"
-hash = "a9f51c05fa38014622a30c1ed711dd0bb94140cd2ea34daee868a0841676222f"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/empty-focus.png"
-hash = "9b00030b1497dc16c1aa7b0c3c07182f18c4198b536d3504737ffec6e20f473f"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/enchanting.png"
-hash = "c66fd56cca8182d8061acef8b4d973c330e41da57e1cf153e25d857ab1c275ee"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/essence-extractor.png"
-hash = "2d85748c77d38a3efd313615cc56cc134b125d3ba6ed7eb57aa25db581845f66"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/eterna.png"
-hash = "c05b71a3ff520bcb912bc6bd443ab2ec3f6fa657f116aa940373f4a03e130cb6"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/fabrics.png"
-hash = "93fe6d3d77600c6b26e9ae35bea9efcf5355f3a77a19ae52674c2559f399b470"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/ferrous-wroughtnaut.png"
-hash = "aff49b33c82ad4b7364d10eb292fb5375a7aa2df437bcb86f009bcc7e94a9ce5"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/find-the-fishies-ii.png"
-hash = "e4ca64488f3b2629d8daeb5c2446b6b007a1d35ce1beb76f9e110177fc3c1dbf"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/find-the-fishies.png"
-hash = "57af4beadcd66cb6e036966912e7df85b48a63a6cc1ce62737086940e9e52704"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/fishing-minigame.png"
-hash = "6bd41373548536ea63e705cc505f2216cd7ba609a92b54d387c39ed7858ca20d"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/fishing.png"
-hash = "280129809705881f2db71e46630073fa1badc13b0364ac90f74ffd6ec17e8aa1"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/flesh-blob.png"
-hash = "7d76ed7c387d697940c458f25f5e6e27ad04407839a9cd922fd230ce9c595be0"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/flesh-plunderer.png"
-hash = "b315e50f70a372c8eda596da22a9e86f7510382e443114d980c049cdc604972a"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/fleshkin-chest.png"
-hash = "2490f9e95f472bf3e797e23dce187f417dcddc5b8db50216488b7c6612f5a261"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/freshwater-fish.png"
-hash = "bf78633acef32298fe83edb8a9a05be305cc3ecd5dca1ea8ee86d2a3c9f7d21e"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/frostmaw.png"
-hash = "a63b906939c02eaa35fba300f3e9fbf9e19ef98e176bb2abaa1c8edf08329424"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/gauntlet_arena.png"
-hash = "c536e286c53b7b7b6f878ffc691e297ef0033c81a3ec429c52eba31a569101fd"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/goety-first-steps.png"
-hash = "9970c5a51f9951c91da41934cbf6ed62934b158340aa3b6c9cf38e6b1349db8c"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/grenades.png"
-hash = "0b6ae6fac40f4c277f78caa75b1ac162520ce2eeb51fa0a61c43c4fb3e7dd24e"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/hellshelf_and_seashelf.png"
-hash = "eda4365f921f93841f9ae80aa61881ce25bcb35e726b41407b2e086c8bb370ed"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/hellshelf_of_masterful_sight.png"
-hash = "d2cd51c529c36dcd662bf3e5a7344e4a56048f69ce90521a704beca04c8bc7b1"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/hellshelf_of_sight.png"
-hash = "dabd0d8e6f834f5c3cc3062a7ad8f893ce05917c3a48a6ffc7cf4a6716e28fe7"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/ignited_revenant.png"
-hash = "54a265399a48e4fa320ddd0123e149ef02649a277213ece9e2699ca35023abfc"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/immersive-enchanting-1.png"
-hash = "eee8f720e4e4e7269b7db1aadc33bb7425830825ad2a1d20fd29cc09ddbe4596"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/immersive-enchanting-2.png"
-hash = "699d2085c4783d0ff2c7ebe9e23120c1d12235f9a4e8a5c363a5bce3db9fcfc8"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/immersive-enchanting-3.png"
-hash = "70c19e67cae2f9ba4719faa0434582fa54d2dfd060fbdbbdd80985af1bd0080c"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/impaler.png"
-hash = "3b1ba6e194b5f494cc70deac5477c3b2dee275666dbcfe965fa55d99692fc91c"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/infusing.png"
-hash = "a30d4b9a577fbd0bcf774ba92bf781ca669e226efb930be8743fee19abb8c663"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/jungle-fish.png"
-hash = "1fd2406db480f1f9d3fa481f3f72c845912b97783276f0c01d0cd20e35f766ee"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/lava-fishing.png"
-hash = "cc7b4c7932e503837cc75c172d7190bec1b5345ef0ac5b36f4b737b2248904e9"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/library.png"
-hash = "e82d08c5a0a2e0a9efa6ea52ab23adb83ea8b129168ade49b0958ee887049aa5"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/magics-and-madness.png"
-hash = "f56e157422b2a6c857c48da1e0a6e49bffaffc180f0a997c8e584b0dfa7deecc"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/malignant-veins.png"
-hash = "7669700d14e39f0572daef5d3b6a60794c637ef898cb43ce3542991993b581ec"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/maw-hopper.png"
-hash = "8e3af2c906e34c1f3a01499ab70ac09f1997dfea7e1f9093247d5f16477b021f"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/nether-fortress.png"
-hash = "6e0c19b9f76ee224afd3257b06cebce6a392a06d3b0a058731ec88926253b048"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/netherite-fishing-rod.png"
-hash = "637e5419159ec7e532ff5e70d1ccaf0fe40a2388fdb3ec11bc628882542323ed"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/note-paper.png"
-hash = "47f5a49551bdf41b28aa423055d63e03beb9aa90a931f1179971c31ee31dd43c"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/nourishing-meals.aseprite"
-hash = "ee85a2ab8a41c9fd90f9bc2f90e5277bf8fcd374c4bc4396f47358d71c770984"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/nourishing-meals.png"
-hash = "51a88f922d7e6dcdcc3a1cd06eb5ba035812f79899469e75d563d0b9e608bbac"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/occultism.png"
-hash = "892c8961b9e388f08dced787c84c5f88467446f435eae718d33a564fc9da27c2"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/otherstone-and-sapling.png"
-hash = "cc4e0f01a9549a4ee625bc65b42d1f144ff327e2f3a1347872f98df432c7eda9"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/otherworld-tree.png"
-hash = "1ffc90215e61396a28e17969b57229ae799ec119e9410b7c6ae649cabe6d3895"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/pet-bed.png"
-hash = "7ad0ca1f4f746eadce5e5dd844c3578bcdd1e4d2422b7fdc339661d509f8b169"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/potions-and-poisons.png"
-hash = "974532e83aabe6289300d8c7ce20dee8f50b7ec008d07c994895e0ca62df8233"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/primal-orifice.png"
-hash = "b05037c85ada3ee20395be092d32e62eefc726778e99fe05c7761a479b5e551d"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/primordial-core.png"
-hash = "29e2a8f3c346b00acb78af0c474a34be6101bda11003f7cf3cfea2d9f1be1f33"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/primordial-cradle.png"
-hash = "2598815d9a195b7f0e531ba5860ff7b80910029faf5590cab66cc23b20db5cdf"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/quanta.png"
-hash = "fc874f3737b475e5e16816cca482c779fa3da3bfe1c41c2e2a6d6c9a479a23a8"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/ravenous-claws.png"
-hash = "b6cba970696aa8fb76b222ef1870e05bbdf59003363fff5cbac055ba43c00d30"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/respawn-anchor.png"
-hash = "48ee0a2b1539319c5247d01978c62d6db0660b59ef0cd367671acb16af4bbcb8"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/return.png"
-hash = "680e0a5f8fd0a7e0142c93926461c4197d84330477c1fb08b9b00cca6b76ea10"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/rock-and-stone.png"
-hash = "c2ef8fb11488849988ae20962d9c880801132432da31ccba9f16f1430794cc90"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/ruined-portal.png"
-hash = "af842a6bd65963d35a692fdc9b63a22ff4cea9ac3afdb1208e8c5ad0b6aae66d"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/saltwater-fish.png"
-hash = "e0e0eee61153ccf04e90e1c4adfc8e76348d1976d07448dd1834fa5711a20791"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/seashell_of_aquatic_filtration.png"
-hash = "054a644b3bd5a66f838b3c6a3cc9502b77aed172576f4c855922668e8edc0ab7"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/shipping-bin.png"
-hash = "3b980b0e82b46d59ecb1f611364545ff87abb39ee37da20971c3b4119d4f949c"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/skill-icon.png"
-hash = "4160b97afa4ecd0c5c80623c070d5e7d1090c36e1681e3e6b3660a794dd88cbe"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/skill-tree-tab.png"
-hash = "f59e9e80f1aefae3f28e0bbcf60306d92525dd55b75a7058a9a2b6689e0f5f64"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/skill-tree.png"
-hash = "36b233cbcdb9b5e245b35d1a2ca573b2ffbd5ac28ab51eee71d132286ea19b7e"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/snacks-and-small-meals.aseprite"
-hash = "acf636d1e865d148037f15a901d933d5b019935e54b3f55453f9ade5b79282b0"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/snacks-and-small-meals.png"
-hash = "317e71afe46b5d0f5e6c665f936cf32256b512c318c98c734026fe148d0e9a3f"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/soul-blacksmith.png"
-hash = "962f84ad9b23c53a0958f0e76223ed75e0bbb920b28c34493a737e8bb3b2069d"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/soul-bolt.png"
-hash = "7db837dd8a9453b379cdb5cccbb3f620b94557fde657a242d1af117674d0f7a8"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/soul-light.png"
-hash = "363928eaeaafeb25a05043516842786656b9e7a3fc70c4051eee6e31b344b6d5"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/special-fish.png"
-hash = "be58e45aa1dfb4cf14d70aa89c898cf3b6d9f078f8636ecb79e2a1213803b8d4"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/spiritfire.png"
-hash = "b113bf88b40d4d2c8eb3cbc6aeb664c424bf9078d19e4ef3d1d9c84d922d90d3"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/storage-and-machines.png"
-hash = "301fe2f29f51a8e7093108ef65c1b82d7264696e2da3fe2dfbc0b36fb7e03914"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/storage-sac.png"
-hash = "47eccabf49c1c8d0103d92814ea49c227714e11cf5d44cb007136cc116a440f1"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/stove.png"
-hash = "764e66042e41b927e4d275b6bed52de5c05b42999ed8e647d6568f9661b439b1"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/tackle-box-menu.png"
-hash = "e2b61851cffd8694effc851c8267f4896e0d4c1180193a3f33236375c1543904"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/the-thorn.png"
-hash = "cce8efe94bbb2c7155221b0b21c729edb50e27ac7ff92fa7d76a59a76967de56"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/tongue.png"
-hash = "c2b0aa4c31f7c029af2877acb2908e15f795c2287b2cf8d59533e7b94adf5f2a"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/trading-post.png"
-hash = "88840d2d32f71031ae5780e18c9703c59af372dbfb501f9281b36dfcebe424f9"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/tree-chopping.png"
-hash = "296f32a5b5bcf76534d6beacd74824c106be8e9422b69cd5e6e2f053033db19a"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/umvuthi-throne.png"
-hash = "fee95619420c3925f86f83d1df709a3880b70bf6ffe0a54dc404745f87ab696d"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/upgrading-rod.png"
-hash = "dee171b111bd8549fc2c59016a29016e8e4a1d796bba32f10e18d7223b872abe"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/vizier.png"
-hash = "8328ff6913b3ba0a49fa220e4935c0fa674d9cb4e226d1273ef042308ff94dac"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/void-blossom.png"
-hash = "34ec39a1153e5bd0b5fa192ecf49c49a996fbfa08fa3165ef8131ca67ce3ba94"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/warrior-set.png"
-hash = "2a24c0240c51ef76be026ea31c05c44974e762668bf0a4517642a5d64fe4bb99"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/waystone-menu.png"
-hash = "c261ffcc8658426171c426b2f6e8792fcc17e52c2a9c7163b73bef3cd8460822"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/wither-skeleton-skull.png"
-hash = "cf4b70d3bfaf53243576b4b34a2295267d3a639b07d44b087a4cd72772cea563"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/wither-skeleton.png"
-hash = "d619f01ce8e929456aaa8d92b107454749fcad250782dcca2ae7ea1d65759f6c"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/worm-farm.png"
-hash = "939a76db8ab489406bc34e434ad01fbe92cad681d4409741b30034c7866292eb"
-
-[[files]]
-file = "kubejs/assets/modpack/textures/wraith.png"
-hash = "6397aee21877f93e76896113747729e8799081753e24ec3f5f5284f954ba1e36"
 
 [[files]]
 file = "kubejs/assets/moremekanismprocessing/lang/en_us.json"
@@ -77129,8 +76605,56 @@ file = "kubejs/assets/tombstone/textures/slot/bundle_slot.png"
 hash = "47ac07585ac944e028e4a3842d65447d365d3dd3cf577b6d8d5d78222471e57c"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/burned_tablet.png"
+hash = "994827cf087d710f25ba2352a02ba2315c443ac57c8eeaaa19a8c79c3d25cb67"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/dirty_raw_diamond.png"
+hash = "988ecbfde39a14e3508f735f6720cd6e280ae4f99196663b71b0f4385475e7e2"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/dirty_raw_emerald.png"
+hash = "2caf39623c1d16c93e88dd071800a9c536e3262cc7c0c48469f00b8e5abbe927"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/example_item.png"
+hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/infernal_eye.aseprite"
+hash = "d7cbc2e8d11622374d47a16c9a1ea78740565195879e559118fa62ded4958eaa"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/infernal_eye_2.aseprite"
+hash = "4f158618664f09700b03fb73f36cc469b6210fae2e72900c48fa24c40a58aee4"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/item/nether_star_drained.png"
 hash = "b198599a536ce347b527db4ba4cb37872277882f377ddf7a80cf6ff986548519"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/rusted_axe.png"
+hash = "521d1727ae33d4c49c6d2ecfa9364476b0b92c0994f20ca8b15ccf48aa2c8753"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/scroll.psd"
+hash = "cd7130403655be7f61690d650a29bb09b45e40c7678e9630f25584b09d807cc3"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/sunken_eye_shard_1.png"
+hash = "1065562c341333c9be8ee52b570d6cee22c5273846d125456976795f002cdd9c"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/sunken_eye_shard_2.png"
+hash = "5d275c1ca24c5d2ee5529d81d79d9a7b51607b4d69876e55a396006616ef170a"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/sunken_eye_shards.aseprite"
+hash = "f2cc00947bd5fd5efdea8a52e1dc53130743f71b019b5b51b767c49ef6945645"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/affixes.png"
@@ -77141,16 +76665,80 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/aircraft-motor.png"
 hash = "03a5f55c2f09bfb662c845022467a1ca0c206c1f593fca16ca1c2587b4b070ee"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/alchemist-set.png"
+hash = "db519ca9e0623696f43d7f007eaa2492e934a643f5a5db4af4421d1c16220533"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/altar-of-fire.png"
+hash = "fe8d62cd029916455c7992019b8a2b192aa5373f0cc709c3dcfbb46a755816ff"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/altar-of-infusion-chart.png"
 hash = "3d8158371ef084d3b9c6a37acfb9a91ce43cb9e16941252db8afa06bbe452141"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/anglers-eye.png"
+hash = "102128a6d57f303b89fe5a8410643445e0b69136fa33564030a2b201979f9133"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/apotheosis.png"
+hash = "de5ad91ede91acc226f8c7dd168e79901bb2abde63877a7811b44e5b8d36cfc7"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/apothic-adventures.png"
 hash = "1120973f2cf1feaf6699b8cf2a2e6c3127d9a0c79aab34a027c8877e09996657"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/arcana.png"
+hash = "cc2a8ec0c12e7a012cf887bfa32951965ca26349ced0e5417001c14adfcb563a"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/arctic-fish.png"
+hash = "d77d73a3dc9546ec5edb0db60955750fb8a69a3e56e2bb821e0f23064b6f8039"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/arid-fish.png"
+hash = "e00c4fb0c12fdf3fa4eaaacda21ec25a6eeb5bb99f659bcf24a8055707cb0a28"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/armors-and-weapons.png"
+hash = "c23267db0f888c4ba0e478e49fcebe892d18ed8a7a167e05a4c26228a0ff5485"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/augmentation-table.png"
 hash = "2c6fc7b097bbe22bdef9dd18bd1eb244abbae7eaba12db479e8bc2b0e17629eb"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/basic_ingredients.png"
+hash = "fbc957b211224c44bc183f9794f8113e5fb0910ed5f4019b0305da89d2691205"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/bio-alchemy.png"
+hash = "26039b98e9aa267ef6d034f410db98985a859f4dd99298142a2026c26eb401be"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/bio-injector.png"
+hash = "b0aac523e22fa4bf4ffd11b13b4377c4b054c29d471b11b79a43e6b91f21fb8b"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/bio-lab-gui.png"
+hash = "daf466c4688fbfdd473686d0b30b2d872a837463c4d8bba7d9efb6b4a31e571f"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/bio-lab.png"
+hash = "bed4e2bfd405d7772886e7d7483db5e5a96726b9d35650f549731608320e9806"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/bioforge-and-decomposer.png"
+hash = "610af2d24027e29289d91b3bc232e79ec8badab8c10eda918af44b171f202304"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/bioforge.png"
+hash = "0a810aed0c7aaffc750adae25013407a575cb59bfe04a30fa72d31ec0d22852e"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/blazing_hellshelf.png"
+hash = "38269048843b667afe13d7cb1e92dac67e20badab62fccfd2e08662175382939"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/blood-grinder.png"
@@ -77161,12 +76749,148 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/blood-shieve.png"
 hash = "8f850fe753441c956f1a5a252689067d56967596e0f06e3f0fa10fc80e3a7198"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/bloomberry.png"
+hash = "0b1a3a6ec3e1857e1974651fa7e12d51504e1d33d642f5bf27223226771c8e0c"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/bobbers.png"
+hash = "cfbff42a5bd8f828fa8db25072e7055ecc29bce7b0161afa30f380f62091da41"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/bosses.png"
 hash = "dd64fdea42bdfc3af58f4f72f443fc629198d4ae3e4b1656fca81c30232a8633"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/burning-arena.png"
+hash = "962f84ad9b23c53a0958f0e76223ed75e0bbb920b28c34493a737e8bb3b2069d"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/casting_rod.png"
+hash = "d64386aa2a29ee2ab669c871cabad06efd96a60e8f23176a28292958d6f4df0f"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/caustic-gunblade.png"
+hash = "ef4a8dc44b2b8aa9d752c1522ee129c0366db1aa57cf3a929963627276c2a5ca"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/check-balance.png"
+hash = "41d77128ca54f322becdbc487ed7ffa499feda0e97048ff274b7d0cd14e31edd"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/chrysalis.png"
+hash = "b4d4bf1dca95b8d2504f4126d424e7b7ea989de8700f22e85f02c64805c6a2d2"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/claim1.png"
+hash = "8dbe0cdf2461a587394f4dd2fdd02699eb42f6d542069095fd779dd66f5eaa09"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/claim2.png"
+hash = "cfee48304ca5edb792d60ae71a342d4efeb363eaa3530e3e619d5f69552bbf26"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/cobweb_removal.png"
+hash = "b3a4ea6f2c9b4cbf1e0d82fa32c447037e80691edd8e27968e7d8e3ef5274da1"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/collar-tag.png"
+hash = "313c250016febc65a545eaf3653bc43cdd05c0e2158233122d9b7356eb53597a"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/comforting-meals.aseprite"
+hash = "630b2df95a21610c9a89d885cefebecdccd31c90e47872c51c9a2dde981b31c6"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/comforting-meals.png"
+hash = "570903bcf23e9bda37625eca530d16610472ed670cfd00192bc4bb510dbaaf5a"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/cookbook.png"
+hash = "317c9ae5a61e333d2c89ebb48325c32c3e486977c63e110af85554e335c21f9e"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/dead-king.png"
+hash = "6775a01769ab3f17771201cbb19883ac7ce01dc525a2efcc50b3a7e148bd9eed"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/decomposer.png"
+hash = "f25cae95f326df4de002c796beb82fe7d36f8db68237f128efb77bbb464f81ae"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/dictionary-of-spirits.png"
+hash = "0ce59ea12340367cfc341827c9dc485833c635bea4155208a111cf29723d4895"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/digester.png"
+hash = "a9f51c05fa38014622a30c1ed711dd0bb94140cd2ea34daee868a0841676222f"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/draconic-codex.png"
 hash = "cc6ac83ae4621eb04a8e87898fdb4b5f9bfe39cc6139c1232675e9ace92a3de1"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/empty-focus.png"
+hash = "9b00030b1497dc16c1aa7b0c3c07182f18c4198b536d3504737ffec6e20f473f"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/enchanting.png"
+hash = "c66fd56cca8182d8061acef8b4d973c330e41da57e1cf153e25d857ab1c275ee"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/essence-extractor.png"
+hash = "2d85748c77d38a3efd313615cc56cc134b125d3ba6ed7eb57aa25db581845f66"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/eterna.png"
+hash = "c05b71a3ff520bcb912bc6bd443ab2ec3f6fa657f116aa940373f4a03e130cb6"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/fabrics.png"
+hash = "93fe6d3d77600c6b26e9ae35bea9efcf5355f3a77a19ae52674c2559f399b470"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/ferrous-wroughtnaut.png"
+hash = "aff49b33c82ad4b7364d10eb292fb5375a7aa2df437bcb86f009bcc7e94a9ce5"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/find-the-fishies-ii.png"
+hash = "e4ca64488f3b2629d8daeb5c2446b6b007a1d35ce1beb76f9e110177fc3c1dbf"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/find-the-fishies.png"
+hash = "57af4beadcd66cb6e036966912e7df85b48a63a6cc1ce62737086940e9e52704"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/fishing-minigame.png"
+hash = "6bd41373548536ea63e705cc505f2216cd7ba609a92b54d387c39ed7858ca20d"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/fishing.png"
+hash = "280129809705881f2db71e46630073fa1badc13b0364ac90f74ffd6ec17e8aa1"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/flesh-blob.png"
+hash = "7d76ed7c387d697940c458f25f5e6e27ad04407839a9cd922fd230ce9c595be0"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/flesh-plunderer.png"
+hash = "b315e50f70a372c8eda596da22a9e86f7510382e443114d980c049cdc604972a"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/fleshkin-chest.png"
+hash = "2490f9e95f472bf3e797e23dce187f417dcddc5b8db50216488b7c6612f5a261"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/freshwater-fish.png"
+hash = "bf78633acef32298fe83edb8a9a05be305cc3ecd5dca1ea8ee86d2a3c9f7d21e"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/frostmaw.png"
+hash = "a63b906939c02eaa35fba300f3e9fbf9e19ef98e176bb2abaa1c8edf08329424"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/gauntlet_arena.png"
+hash = "c536e286c53b7b7b6f878ffc691e297ef0033c81a3ec429c52eba31a569101fd"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/gem-cutting-table.png"
@@ -77181,12 +76905,128 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/gems.png"
 hash = "0592bacadbbb7544390d90ce83e5a69980c447f4766b4192f13c12b1643d66a5"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/goety-first-steps.png"
+hash = "9970c5a51f9951c91da41934cbf6ed62934b158340aa3b6c9cf38e6b1349db8c"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/grenades.png"
+hash = "0b6ae6fac40f4c277f78caa75b1ac162520ce2eeb51fa0a61c43c4fb3e7dd24e"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/hellshelf_and_seashelf.png"
+hash = "eda4365f921f93841f9ae80aa61881ce25bcb35e726b41407b2e086c8bb370ed"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/hellshelf_of_masterful_sight.png"
+hash = "d2cd51c529c36dcd662bf3e5a7344e4a56048f69ce90521a704beca04c8bc7b1"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/hellshelf_of_sight.png"
+hash = "dabd0d8e6f834f5c3cc3062a7ad8f893ce05917c3a48a6ffc7cf4a6716e28fe7"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/advanced_chainsaw.png"
+hash = "beda4c43a271fb0cefe897af9b54f08cc7b1ac7bde5d03349233d2466cad3586"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/advanced_chainsword.png"
+hash = "a171312066bf70fafc2b2ac72969f491313f74584126b8dfa95537aa11144576"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/advanced_electronics.png"
+hash = "3780825d71c3cd14a0c3c239fe1ede522f9c2caf03d3d7abb59f0a1eb194ad19"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/advanced_energy_battery.png"
+hash = "8b3f387734c5ef1a40da39bf8c877c2dacd67aad27ad82622f17e2af8389e0fe"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/advanced_energy_battery_discharged.png"
+hash = "5d6d78f9d931cbec4c34faab80e2c5b988cb4d5c57ff17ef7f1478bdd2fd82e7"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/advanced_hand_drill.png"
+hash = "cf185438d78e416d9d39f699d654f45a520e6c8d8360f2169dfd2c1544d481dc"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/attraction_device.png"
+hash = "9b8fa25e87f705f5207927551c4091288f433ce731b20d6c67209d8349299c7f"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/battery_panel.png"
+hash = "f79452c4883fe2b37a416ce54705facde776c9b91046679a173f27668c41a97e"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/blaze_burner.png"
+hash = "0ab04e7ec3e0da63400c4b43f92cb37e994233b7d4ec481001808c97326c214d"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/blaze_fuel.png"
+hash = "c1637aba161d5d3e836ee15273564e248e9b698c2cef4d78bf77cced25c45993"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/blaze_fuel_cylinder.png"
+hash = "42eecb1906f1d000be9c421d11d694ca177a07b32b07541a9499841d63a85b55"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/blood_spreader.png"
 hash = "c6eda98bf216ff526c782e7c72c0c54de8efc5c5c6b62c5b98afef624acf2cc2"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/bloody_battery.png"
+hash = "5d9a6e408a3f7b1c545ec59992ea61ef5adde564cbbe0fb5d19034eed124f431"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/carcass.png"
 hash = "92d57abcc2bacb30e1a2130a653cce71a2368321d6850b14fe97a826583f2c38"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/chainsaw_teeth.png"
+hash = "770ec26748530da3de61ad1892db0281bb3d8b978e28a929369138e33b7d2345"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/chunk_of_technoflesh.png"
+hash = "55e040ac360e42c5111035d139be2e0b2e014c33bb78c2db7130cb43240cbf76"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/cryogenic_fuel.png"
+hash = "3fc81af5ab9e68426aacd5f9bfe34a711b1a3bf56eaf08e70537b627404696d0"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/diamond_diode.png"
+hash = "74449d40373703ed466ada88d6682f1940e02524b46b04a7af2af5a96dce79aa"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/drill_bit.png"
+hash = "81599afc782e8f4ec33197a88be3a2434c11dd3feaa30d8bd3de0d4c3692daaa"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/energy_barrier_generator.png"
+hash = "c1dc8b727044bb4d3d744b77686e4e69233d198a5820a3c27739089720869b6b"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/energy_battery.png"
+hash = "362fc2b498f73b5d7f5336fe565b3bd201125d5c9ca0d864eb8924a507e440fb"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/energy_fiber.png"
+hash = "f0d1fbce46533f958c0c65220e85ef5c1e1b7d8407623cfff70e35eabf63ce41"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/energy_glove.png"
+hash = "1ed150be194608f2fdae50ddb84f3e8fc9e5c5316790c59852ba49735d5835fd"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/energy_intensive_battery.png"
+hash = "4190728bac09cd01550f5312a5f08aa66bebd1d14631019b992eec8ca9f883b7"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_activity_radar.png"
+hash = "079a32901a6d1046b38416c5bc6523a6959b04a0ca4cbc7ffea1f1baeeb19f96"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_energy_crystal.png"
+hash = "6d694942053a292e7b4145c5af96208088e86a1af8f0ad749c9a56df862d6be4"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_pebble.png"
@@ -77195,6 +77035,18 @@ hash = "cb4ad4d5cb904e6cc8d5a1d75e67f2b9b1dac13cc42935a6f5f723b140c1c723"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_reaper.png"
 hash = "fe218d1c868f09e4ac027c5d10bd0f6039856a8f4eba152d4c12f00d79a00b9d"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_steel.png"
+hash = "50cd6a15294a3b485e68932d6c48aed913600befec05add7c972f038b93ad732"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_steel_ingot.png"
+hash = "4ca6eb781a964ef9e1d9c820d031fc60541d914837170153c15281e65eb8a01b"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/flamethrower.png"
+hash = "aeaf49cb5c69d9acc0ad38e73362f953e030a67d39ef70af826b2b40a2988b55"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/flesh_maiden.png"
@@ -77209,20 +77061,272 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/icons/hematoma.png"
 hash = "e366aab0b159490416e1395bb810348c4db8223c11dd95cdf123939ff30bb25e"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/hematoma_lump.png"
+hash = "7c7b5f18336043b25079ca1b1f38154234564647175a669f0f55fe01ace00371"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/jet_boots.png"
+hash = "20ea5d75999ec6821c5046fe661399a4726e62686f6f64b5433fb1119ce46a3c"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/motion_sensor.png"
+hash = "2807b6f04004edf01c045dc8b77b33c96c76db670c5a0d30e743d37e7c200f09"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/prowler.png"
 hash = "ec3791170b0a274a231df59f0124bdbb41723f8db5f9820932d542f62fb9e2aa"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/reanimation.png"
+hash = "70a84d241d0511236585c36f6be8848b83770b964db1c6874963548670c1474d"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/reanimator.png"
+hash = "fd0d0593767a801827c35678a71873c3852c5df2338adeeed7b7a93332d1b264"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/skill-icon.png"
+hash = "4160b97afa4ecd0c5c80623c070d5e7d1090c36e1681e3e6b3660a794dd88cbe"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/techno_heart.png"
+hash = "fc86d68ea3c264ab13e5a3639862aea051d4d99abf76fcab5054a3159560080c"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/techno_optics.png"
+hash = "2e0631985977129785d1c5314b21843e7508bc31835a3da2e23e623d37f063b6"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/tendon_strengthener.png"
+hash = "e3dc654d0b88dc02ac38eaadfafa63489673a5507e193c747f6c96ae4a0c8511"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/x_ray_goggles.png"
+hash = "f6c5e4fac3d5434da5714c2b9475c54c17a88bc9b90d83ede829961e459522b2"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/ignited_revenant.png"
+hash = "54a265399a48e4fa320ddd0123e149ef02649a277213ece9e2699ca35023abfc"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/immersive-enchanting-1.png"
+hash = "eee8f720e4e4e7269b7db1aadc33bb7425830825ad2a1d20fd29cc09ddbe4596"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/immersive-enchanting-2.png"
+hash = "699d2085c4783d0ff2c7ebe9e23120c1d12235f9a4e8a5c363a5bce3db9fcfc8"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/immersive-enchanting-3.png"
+hash = "70c19e67cae2f9ba4719faa0434582fa54d2dfd060fbdbbdd80985af1bd0080c"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/impaler.png"
+hash = "3b1ba6e194b5f494cc70deac5477c3b2dee275666dbcfe965fa55d99692fc91c"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/infusing.png"
+hash = "a30d4b9a577fbd0bcf774ba92bf781ca669e226efb930be8743fee19abb8c663"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/jungle-fish.png"
+hash = "1fd2406db480f1f9d3fa481f3f72c845912b97783276f0c01d0cd20e35f766ee"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/lava-fishing.png"
+hash = "cc7b4c7932e503837cc75c172d7190bec1b5345ef0ac5b36f4b737b2248904e9"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/library.png"
+hash = "e82d08c5a0a2e0a9efa6ea52ab23adb83ea8b129168ade49b0958ee887049aa5"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/magics-and-madness.png"
+hash = "f56e157422b2a6c857c48da1e0a6e49bffaffc180f0a997c8e584b0dfa7deecc"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/malignant-veins.png"
+hash = "7669700d14e39f0572daef5d3b6a60794c637ef898cb43ce3542991993b581ec"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/maw-hopper.png"
+hash = "8e3af2c906e34c1f3a01499ab70ac09f1997dfea7e1f9093247d5f16477b021f"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/nether-fortress.png"
+hash = "6e0c19b9f76ee224afd3257b06cebce6a392a06d3b0a058731ec88926253b048"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/netherite-fishing-rod.png"
+hash = "637e5419159ec7e532ff5e70d1ccaf0fe40a2388fdb3ec11bc628882542323ed"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/note-paper.png"
+hash = "47f5a49551bdf41b28aa423055d63e03beb9aa90a931f1179971c31ee31dd43c"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/nourishing-meals.aseprite"
+hash = "ee85a2ab8a41c9fd90f9bc2f90e5277bf8fcd374c4bc4396f47358d71c770984"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/nourishing-meals.png"
+hash = "51a88f922d7e6dcdcc3a1cd06eb5ba035812f79899469e75d563d0b9e608bbac"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/occultism.png"
+hash = "892c8961b9e388f08dced787c84c5f88467446f435eae718d33a564fc9da27c2"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/otherstone-and-sapling.png"
+hash = "cc4e0f01a9549a4ee625bc65b42d1f144ff327e2f3a1347872f98df432c7eda9"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/otherworld-tree.png"
+hash = "1ffc90215e61396a28e17969b57229ae799ec119e9410b7c6ae649cabe6d3895"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/pet-bed.png"
+hash = "7ad0ca1f4f746eadce5e5dd844c3578bcdd1e4d2422b7fdc339661d509f8b169"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/potions-and-poisons.png"
+hash = "974532e83aabe6289300d8c7ce20dee8f50b7ec008d07c994895e0ca62df8233"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/primal-orifice.png"
+hash = "b05037c85ada3ee20395be092d32e62eefc726778e99fe05c7761a479b5e551d"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/primordial-core.png"
+hash = "29e2a8f3c346b00acb78af0c474a34be6101bda11003f7cf3cfea2d9f1be1f33"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/primordial-cradle.png"
+hash = "2598815d9a195b7f0e531ba5860ff7b80910029faf5590cab66cc23b20db5cdf"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/quanta.png"
+hash = "fc874f3737b475e5e16816cca482c779fa3da3bfe1c41c2e2a6d6c9a479a23a8"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/ravenous-claws.png"
+hash = "b6cba970696aa8fb76b222ef1870e05bbdf59003363fff5cbac055ba43c00d30"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/respawn-anchor.png"
+hash = "48ee0a2b1539319c5247d01978c62d6db0660b59ef0cd367671acb16af4bbcb8"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/return.png"
+hash = "680e0a5f8fd0a7e0142c93926461c4197d84330477c1fb08b9b00cca6b76ea10"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/rock-and-stone.png"
+hash = "c2ef8fb11488849988ae20962d9c880801132432da31ccba9f16f1430794cc90"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/ruined-portal.png"
+hash = "af842a6bd65963d35a692fdc9b63a22ff4cea9ac3afdb1208e8c5ad0b6aae66d"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/saltwater-fish.png"
+hash = "e0e0eee61153ccf04e90e1c4adfc8e76348d1976d07448dd1834fa5711a20791"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/salvaging-table.png"
 hash = "36da0708741a2158ef7a20f22ccf2eef17dc943dc6e25346412994313cf21ade"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/seashell_of_aquatic_filtration.png"
+hash = "054a644b3bd5a66f838b3c6a3cc9502b77aed172576f4c855922668e8edc0ab7"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/shipping-bin.png"
+hash = "3b980b0e82b46d59ecb1f611364545ff87abb39ee37da20971c3b4119d4f949c"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/simple-reforging-table.png"
 hash = "e09ef64deb828298ec213f5b28c26f37caddea45e500f664a7ed372b868c0294"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/skill-tree-tab.png"
+hash = "f59e9e80f1aefae3f28e0bbcf60306d92525dd55b75a7058a9a2b6689e0f5f64"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/skill-tree-vampire.png"
 hash = "9665611047f1b5fd6625767a82bb97bc3f121814d6f332f8b417b92ba2d59199"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/skill-tree.png"
+hash = "36b233cbcdb9b5e245b35d1a2ca573b2ffbd5ac28ab51eee71d132286ea19b7e"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/snacks-and-small-meals.aseprite"
+hash = "acf636d1e865d148037f15a901d933d5b019935e54b3f55453f9ade5b79282b0"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/snacks-and-small-meals.png"
+hash = "317e71afe46b5d0f5e6c665f936cf32256b512c318c98c734026fe148d0e9a3f"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/soul-blacksmith.png"
+hash = "962f84ad9b23c53a0958f0e76223ed75e0bbb920b28c34493a737e8bb3b2069d"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/soul-bolt.png"
+hash = "7db837dd8a9453b379cdb5cccbb3f620b94557fde657a242d1af117674d0f7a8"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/soul-light.png"
+hash = "363928eaeaafeb25a05043516842786656b9e7a3fc70c4051eee6e31b344b6d5"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/special-fish.png"
+hash = "be58e45aa1dfb4cf14d70aa89c898cf3b6d9f078f8636ecb79e2a1213803b8d4"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/spiritfire.png"
+hash = "b113bf88b40d4d2c8eb3cbc6aeb664c424bf9078d19e4ef3d1d9c84d922d90d3"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/storage-and-machines.png"
+hash = "301fe2f29f51a8e7093108ef65c1b82d7264696e2da3fe2dfbc0b36fb7e03914"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/storage-sac.png"
+hash = "47eccabf49c1c8d0103d92814ea49c227714e11cf5d44cb007136cc116a440f1"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/stove.png"
+hash = "764e66042e41b927e4d275b6bed52de5c05b42999ed8e647d6568f9661b439b1"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/tackle-box-menu.png"
+hash = "e2b61851cffd8694effc851c8267f4896e0d4c1180193a3f33236375c1543904"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/the-thorn.png"
+hash = "cce8efe94bbb2c7155221b0b21c729edb50e27ac7ff92fa7d76a59a76967de56"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/tongue.png"
+hash = "c2b0aa4c31f7c029af2877acb2908e15f795c2287b2cf8d59533e7b94adf5f2a"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/trading-post.png"
+hash = "88840d2d32f71031ae5780e18c9703c59af372dbfb501f9281b36dfcebe424f9"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/tree-chopping.png"
+hash = "296f32a5b5bcf76534d6beacd74824c106be8e9422b69cd5e6e2f053033db19a"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/umvuthi-throne.png"
+hash = "fee95619420c3925f86f83d1df709a3880b70bf6ffe0a54dc404745f87ab696d"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/upgrading-rod.png"
+hash = "dee171b111bd8549fc2c59016a29016e8e4a1d796bba32f10e18d7223b872abe"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/vampire-accessories.png"
@@ -77235,6 +77339,38 @@ hash = "6379792368120d914e50d7203b60e800e6c6b00aab8c96b694c4f244087d7e32"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/vampire-menu.png"
 hash = "22b6a348e1606b5a70e0baeb0c27f0ce1896051b210d72963737599f1050331a"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/vizier.png"
+hash = "8328ff6913b3ba0a49fa220e4935c0fa674d9cb4e226d1273ef042308ff94dac"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/void-blossom.png"
+hash = "34ec39a1153e5bd0b5fa192ecf49c49a996fbfa08fa3165ef8131ca67ce3ba94"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/warrior-set.png"
+hash = "2a24c0240c51ef76be026ea31c05c44974e762668bf0a4517642a5d64fe4bb99"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/waystone-menu.png"
+hash = "c261ffcc8658426171c426b2f6e8792fcc17e52c2a9c7163b73bef3cd8460822"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/wither-skeleton-skull.png"
+hash = "cf4b70d3bfaf53243576b4b34a2295267d3a639b07d44b087a4cd72772cea563"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/wither-skeleton.png"
+hash = "d619f01ce8e929456aaa8d92b107454749fcad250782dcca2ae7ea1d65759f6c"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/worm-farm.png"
+hash = "939a76db8ab489406bc34e434ad01fbe92cad681d4409741b30034c7866292eb"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/wraith.png"
+hash = "6397aee21877f93e76896113747729e8799081753e24ec3f5f5284f954ba1e36"
 
 [[files]]
 file = "kubejs/assets/vampiresneedumbrellas/textures/curios.png"
@@ -77257,8 +77393,8 @@ file = "kubejs/assets/werewolves/textures/entity/zombie_villager/profession/were
 hash = "d764a27682476e754e238461f60235a31b51cb29f6e598375ec528fd63f606be"
 
 [[files]]
-file = "kubejs/client_scripts/burned_tablet.js"
-hash = "726bfb419fd506663e627b165ff7569f1dcabaeb6e7ab1587192b40100a7eedf"
+file = "kubejs/client_scripts/custom_item_registry.js"
+hash = "8d74440f539182e8c592cc0f29df4273b20f8269f8ad80aa0012566cbf38ee86"
 
 [[files]]
 file = "kubejs/client_scripts/example.js"
@@ -77266,22 +77402,14 @@ hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
-hash = "f8a0a8126e426e5eac5d54d5ceeca44579ae88b3a88fd23e3fda75f8b3dde48c"
+hash = "f4222f72e79d1ce4a7dd81ed39d1445cd6044d2493f9eb9b0a4f56f6658493bf"
 
 [[files]]
-file = "kubejs/client_scripts/pokeball.js"
+file = "kubejs/client_scripts/lang_changes/pokeball.js"
 hash = "563c6df70ef7348d41841e1b936c158d89d2405738186256f9f5e156da0b2546"
 
 [[files]]
-file = "kubejs/client_scripts/spice_of_life/jei_integration.js"
-hash = "c9614e0a3ae04e1b6741b92c7ad0e00b490ebc07b93fe509dae5cf5e777e7713"
-
-[[files]]
-file = "kubejs/client_scripts/sunken_eye_shards.js"
-hash = "673c3f827a1577f9885950bf8adc982e5ea4d5685be0de90c4b2deb826596198"
-
-[[files]]
-file = "kubejs/client_scripts/tooltips.js"
+file = "kubejs/client_scripts/lang_changes/tooltips.js"
 hash = "17ac7c4b48ac7be67829a8f4bda2157d4380544fa6c1c400b3f034450dffdbbc"
 
 [[files]]
@@ -77478,7 +77606,7 @@ hash = "390c3a3bc90a1c51c89001d9e6a928050f5ad8f204d5bc9867ec65c3036b3a28"
 
 [[files]]
 file = "kubejs/data/gateways/gateways/nether_invasion.json"
-hash = "ad98542b9931b9b1a9e7497e46855c06b992796420d33434604cf5211fbc5908"
+hash = "7e809f77a38cce8e262760b196f2e7bc1f3b5ba7690a1dbb1ef002e859a857cf"
 
 [[files]]
 file = "kubejs/data/gateways/gateways/test_gateway.json"
@@ -78254,7 +78382,7 @@ hash = "7b54b2f23630cbebda471a90f361f815146993f95e2854c8d2939ef178b57426"
 
 [[files]]
 file = "kubejs/data/tombstone/tags/items/enchanted_grave_key_ingredients.json"
-hash = "624c32ac2ecd0ca44594343bc6850d65437f880d0499d9e369e6b96c7b74ce26"
+hash = "9dcc7d459ff0ca149d08a95be3ae2619d65c847468f2c33a60a4028da11b1a6f"
 
 [[files]]
 file = "kubejs/data/tumblrbumblr/advancement/draft.json"
@@ -78837,148 +78965,40 @@ file = "kubejs/probe/generated/tag_events.d.ts"
 hash = "7c6131fff9d1eccafbfc1eae3818e6f5fb57aa1c660659870c96bef2c961755a"
 
 [[files]]
-file = "kubejs/server_scripts/AlexsCaves/Recipes/uranium_recipe_mods.js"
-hash = "a00aad4f1e96728dafb8cad898a0724f471e644c90704db3ddcbc2d33ba29d32"
-
-[[files]]
-file = "kubejs/server_scripts/Create/Ore Excavation/diamond.js"
-hash = "2179abb44c5e9eed783694f63de81aacc4b78f51b98228fe3633b0da06299748"
-
-[[files]]
-file = "kubejs/server_scripts/Create/Ore Excavation/emerald.js"
-hash = "87d70dfd1872efdcf16a3c1b45769864d032879b593bea1c343313c6be98c33a"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/Loot/fishing_treasure.js"
-hash = "17a44ad0954ae60a45582cbdf4baddcadf4892140bb107e08d90112b21a2ed4f"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/Recipes/draconium_recipes.js"
-hash = "34bdbeeef5bc1370f55f9cdb397110b3f17cbf40772fba2ea26bfac9a605a33d"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/Recipes/dragon_meal.js"
-hash = "fd1b1e3f020239ea5258e46fe97b801ca9e4e10f262e59fa1e9e21967880e323"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/Recipes/elytra_dupe.js"
-hash = "30cda1d81483f3df647cd8340ec715f97e9a932e43061e16b7e4624e00bad683"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/Recipes/eyes.js"
-hash = "0d3c300bd6044539e4d051c625eab55c0ab296c653ed329038dda33bccb56ff3"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/Recipes/fish_slices.js"
-hash = "43f92455f33cf11a87444baea4859cc79e66fb41faf353a3b37a67a60b97795a"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/Recipes/fried_egg.js"
-hash = "b041f3828d9e31e437ac5356b8361ea80ccb9cde12eaee459c1dfb67548a61c8"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/Recipes/inert_trident.js"
-hash = "02d462b6eb1120701d3c4bf317743450c0452e9df2817863b15e5facf3cd7120"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/Recipes/infusing_recipes.js"
-hash = "54e98ec11e19f878eb99f91d18bb5ea17e7182a8b1b33a722f27566b0ffd7053"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/Recipes/rope_alt_recipes.js"
-hash = "dcbb4e9cd6a31c3f95cdaa41db64f874b41ddb407771493ff713cf7b98a74ebe"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/Recipes/sophisticated_chests.js"
-hash = "3a95ed1279ce73166b195fa0ab0c0572e28c693f99cb75265e7bc814bbf19bb8"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/Recipes/tag_alt_recipes.js"
-hash = "bc866c2f0ee184d17e207b0d8cf4394d3ab7e797e0ee6d8c5106bacf55fde0b9"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/Tags/aquamirae_tag_removal.js"
+file = "kubejs/server_scripts/Tags/aquamirae_tag_removal.js"
 hash = "3499727f1385c41a7cf75babe88768b63c471c5d1c5ccd86ce9e494389ca3268"
 
 [[files]]
-file = "kubejs/server_scripts/Modpack/Tags/artifacts.js"
+file = "kubejs/server_scripts/Tags/artifacts.js"
 hash = "aab33530cd87dfb5e94cee086664a382d28871072f2f6d71730247b19a175e84"
 
 [[files]]
-file = "kubejs/server_scripts/Modpack/Tags/axes.js"
+file = "kubejs/server_scripts/Tags/axes.js"
 hash = "c2eca220db08f584f49b23c439d811f2b2897cb4b28b1d9ce1b565d8dea5e408"
 
 [[files]]
-file = "kubejs/server_scripts/Modpack/Tags/curios.js"
+file = "kubejs/server_scripts/Tags/curios.js"
 hash = "4819e4dec6a8951d31048aec88d0aafa112112313f51615c93edfaddf32c85f0"
 
 [[files]]
-file = "kubejs/server_scripts/Modpack/Tags/foods.js"
+file = "kubejs/server_scripts/Tags/foods.js"
 hash = "731aabc50e8625ab1ad5c8b37e07c1361ece75f35063a96f1e444b475323b8de"
 
 [[files]]
-file = "kubejs/server_scripts/Modpack/Tags/items.js"
+file = "kubejs/server_scripts/Tags/items.js"
 hash = "af1f75622f4dce1c030333b38049e9eda0b8fcac119d37f69fac6a527041e17a"
 
 [[files]]
-file = "kubejs/server_scripts/Modpack/Tags/mowzies_bosses.js"
+file = "kubejs/server_scripts/Tags/mowzies_bosses.js"
 hash = "1ce9535e9a82271f0c15f6ced244f817d5a702561c0f39c4c80e7781443584ca"
 
 [[files]]
-file = "kubejs/server_scripts/Modpack/Tags/shark_teeth.js"
+file = "kubejs/server_scripts/Tags/shark_teeth.js"
 hash = "e9e9622e508d60e2995fe65943778b24e5d29f6dd7af8631f7ba7878ec792989"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/gameplay/curios_slots.js"
-hash = "35b240893eb3dce08ff8d992ec1b32048b3df308e2e5c4f25dbc6213247835ea"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/gameplay/give_questbook.js"
-hash = "e197034c3f47ff2bb93c048b1903d7374b00eb962067d8ffdae2d9a1d7ef631f"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/gameplay/pokeball.js"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/gameplay/vampirism_skeletons.js"
-hash = "678d317652deaef90f3833934630bf0eca37d4034750eabb224c1406fda4cc8c"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/gameplay/vampirism_zombies.js"
-hash = "a7f7f7789acc63ed4a9fae63f3eea617138cc49eee7867bf19b55fe0cf8b07e6"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/test.js"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "kubejs/server_scripts/Modpack/wolf_attack_skulls.js"
-hash = "a55031eb0b54685cb888f2e8a2501d9e64b027de4477a8048a43c9ca1a99e2fc"
-
-[[files]]
-file = "kubejs/server_scripts/Pet_Spheres/Recipes/pokeball.js"
-hash = "c25c7ceec595c8544279ef7bdc88fcb38f3da3145e2edb135c50dbc747c321de"
-
-[[files]]
-file = "kubejs/server_scripts/Tinkers/Recipes/copper_can.js"
-hash = "cf075ab6bae3a7f68f7b1cdfc1d5cfda9c6d3f3e6616a3eef3741cad48fc281f"
-
-[[files]]
-file = "kubejs/server_scripts/Tinkers/Recipes/foundry_controller.js"
-hash = "fd6b389b3d28e85d4b324fcadf1a05f1ea2684ca35886d79942cfbb463570965"
-
-[[files]]
-file = "kubejs/server_scripts/Tinkers/Recipes/tinkers_util.js"
-hash = "bfac8ed8d4626f97835b2132017db31ad20d456fa1a1e10f1a2c803059825c79"
 
 [[files]]
 file = "kubejs/server_scripts/bosses_rift_alteration.js"
 hash = "c0a9effcffa0cfa9f2e4f247f9dae5984755162d2a7b5f1e5708abd9c17f4f7b"
-
-[[files]]
-file = "kubejs/server_scripts/cataclysm/deeperDarkerRecipes.js"
-hash = "9922a9ca79941097c90697f730985602d1e8865ad780658a514d893d0232deeb"
 
 [[files]]
 file = "kubejs/server_scripts/dynamic_boss_hp_spawn.js"
@@ -78993,24 +79013,108 @@ file = "kubejs/server_scripts/from_the_fog/herobrine_config.js"
 hash = "1e53579be91d7086990aeaf111d4b215166a79afefea377c40ed9f47ee5ddf74"
 
 [[files]]
+file = "kubejs/server_scripts/gameplay/curios_slots.js"
+hash = "35b240893eb3dce08ff8d992ec1b32048b3df308e2e5c4f25dbc6213247835ea"
+
+[[files]]
+file = "kubejs/server_scripts/gameplay/give_questbook.js"
+hash = "e197034c3f47ff2bb93c048b1903d7374b00eb962067d8ffdae2d9a1d7ef631f"
+
+[[files]]
+file = "kubejs/server_scripts/gameplay/vampirism_skeletons.js"
+hash = "678d317652deaef90f3833934630bf0eca37d4034750eabb224c1406fda4cc8c"
+
+[[files]]
+file = "kubejs/server_scripts/gameplay/vampirism_zombies.js"
+hash = "a7f7f7789acc63ed4a9fae63f3eea617138cc49eee7867bf19b55fe0cf8b07e6"
+
+[[files]]
+file = "kubejs/server_scripts/gameplay/wolf_attack_skulls.js"
+hash = "a55031eb0b54685cb888f2e8a2501d9e64b027de4477a8048a43c9ca1a99e2fc"
+
+[[files]]
 file = "kubejs/server_scripts/jsconfig.json"
-hash = "8b5bbf7da13645288cc92dc2ad8219e75150811f9df97fd74a482e45469eb815"
-
-[[files]]
-file = "kubejs/server_scripts/occultism/occultism_util.js"
-hash = "d24b672f3a1b1be16096bf979fdb61cac7827790e3c6f8d2433a51d26b35be61"
-
-[[files]]
-file = "kubejs/server_scripts/occultism/recipes.js"
-hash = "ee5be54bf9eed748c1e69fce257412b8861e56c97febde4b6adaf3a0c9fae446"
+hash = "947011ccc9e61b8263311f457c5bb7bb2d0972da82259f65bfdf28bf8a89d9b0"
 
 [[files]]
 file = "kubejs/server_scripts/quest.js"
 hash = "12412ee28f52adab57d54197c189972e650b31e1a30887d2bc10ca2ce5b0d804"
 
 [[files]]
-file = "kubejs/server_scripts/waystones/recipes.js"
+file = "kubejs/server_scripts/recipe_changes/alexscaves_recipes_mod.js"
+hash = "a00aad4f1e96728dafb8cad898a0724f471e644c90704db3ddcbc2d33ba29d32"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/apotheosis_recipes.js"
+hash = "18fff98ff02e88310fb4d9385854811699d8b7799b3cc666a3fd4a112e7ce703"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/cataclysm_recipes.js"
+hash = "9922a9ca79941097c90697f730985602d1e8865ad780658a514d893d0232deeb"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/endrem_recipes.js"
+hash = "154b8b5cde6f6b7116bd58a51dbbad506dfcd89c3354a7754997816cce77a2fc"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/fried_egg.js"
+hash = "b041f3828d9e31e437ac5356b8361ea80ccb9cde12eaee459c1dfb67548a61c8"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/occultism_recipes.js"
+hash = "ee5be54bf9eed748c1e69fce257412b8861e56c97febde4b6adaf3a0c9fae446"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/ore_excavation_diamond.js"
+hash = "dd39133a9feaebfb8855da44e4f7eda28e74ef95c6369d797cc7f9854ec2c233"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/ore_excavation_emerald.js"
+hash = "02a549fbb07933f097b04d177abffb975d6dacdafb1ee4321e731f2c7ab00995"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/pokeball_recipe.js"
+hash = "c25c7ceec595c8544279ef7bdc88fcb38f3da3145e2edb135c50dbc747c321de"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/rope_alt_recipes.js"
+hash = "dcbb4e9cd6a31c3f95cdaa41db64f874b41ddb407771493ff713cf7b98a74ebe"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/saintsdragons_recipes.js"
+hash = "fd1b1e3f020239ea5258e46fe97b801ca9e4e10f262e59fa1e9e21967880e323"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/sophisticatedstorage_recipes.js"
+hash = "3a95ed1279ce73166b195fa0ab0c0572e28c693f99cb75265e7bc814bbf19bb8"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/tag_alt_recipes.js"
+hash = "bc866c2f0ee184d17e207b0d8cf4394d3ab7e797e0ee6d8c5106bacf55fde0b9"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/tconstruct_recipes.js"
+hash = "22a2bfc3f7b3c508a5f58a069ab27669c4da616537370a686e1b55d65c7252c2"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/tide_recipes.js"
+hash = "43f92455f33cf11a87444baea4859cc79e66fb41faf353a3b37a67a60b97795a"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/tumblrbumblr_recipes.js"
+hash = "61f4f1dac91038133dbe031b25cca1085b436563a956644548f92d1d5b2f1988"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/waystones_recipes.js"
 hash = "25f86fbd2ac932512a33e8bbf994b8d2ac448ca52f55b9908c80b4c033463e2d"
+
+[[files]]
+file = "kubejs/server_scripts/util/occultism_util.js"
+hash = "d24b672f3a1b1be16096bf979fdb61cac7827790e3c6f8d2433a51d26b35be61"
+
+[[files]]
+file = "kubejs/server_scripts/util/tinkers_util.js"
+hash = "bfac8ed8d4626f97835b2132017db31ad20d456fa1a1e10f1a2c803059825c79"
 
 [[files]]
 file = "kubejs/server_scripts/wilted_damage.js"
@@ -79023,18 +79127,6 @@ hash = "903902e9bd5b93a30096d2cad00102f616fbaf38938e72f81cbc05454ffe578a"
 [[files]]
 file = "kubejs/startup_scripts/cataclysmic_spellcastng/cyber_spell_school/laserbolt.js"
 hash = "13ec6608a7ad87a3f644290119abeee0af59557aa6af174e1638b8e483998278"
-
-[[files]]
-file = "kubejs/startup_scripts/custom_item_creation.js"
-hash = "08d3262fc68c70a7cf19a8d21eface25a59c84303f139aba8f0af2af2e861e66"
-
-[[files]]
-file = "kubejs/startup_scripts/dirty_raw_diamond.js"
-hash = "8e2497b4c5bfd7f8a10de6803ef486976881530226a9b5aa9b08cf401dae21fa"
-
-[[files]]
-file = "kubejs/startup_scripts/dirty_raw_emerald.js"
-hash = "31a1074ef1e231a996a764120389fcaba15f3a004632879e98cd0b9411787982"
 
 [[files]]
 file = "kubejs/startup_scripts/dynamic_boss_hp_tick.js"
@@ -79050,11 +79142,15 @@ hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
-hash = "3e8682050e4b1be10321b92fdee3b3d1a6b4803b84dc243c26cf614cde0dee78"
+hash = "05f6a4e69652c5aad9eff76fc2634036e3a30f8c85d98552a337fe721b1a2aac"
 
 [[files]]
 file = "kubejs/startup_scripts/nobotaniaflowers.js"
 hash = "698f3ae95e99dd510ce528d305c7c1c4072b6b2a42c5c708e41e997630de23ae"
+
+[[files]]
+file = "kubejs/startup_scripts/tumblrbumblr/custom_item_creation.js"
+hash = "da9b83382516de964225feebb6b120cbce827aca6a6a73c445a090c7e449a9d6"
 
 [[files]]
 file = "mods/ad-astra-more-structures.pw.toml"

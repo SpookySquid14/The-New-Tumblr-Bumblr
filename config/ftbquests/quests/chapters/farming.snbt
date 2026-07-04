@@ -7,7 +7,7 @@
 	images: [
 		{
 			height: 14.4d
-			image: "modpack:textures/cookbook.png"
+			image: "tumblrbumblr:textures/quests/cookbook.png"
 			rotation: 0.0d
 			width: 24.0d
 			x: 0.0d
@@ -15,7 +15,7 @@
 		}
 		{
 			height: 0.7d
-			image: "modpack:textures/snacks-and-small-meals.png"
+			image: "tumblrbumblr:textures/quests/snacks-and-small-meals.png"
 			rotation: 0.0d
 			width: 7.0d
 			x: 5.0d
@@ -23,7 +23,7 @@
 		}
 		{
 			height: 0.7d
-			image: "modpack:textures/nourishing-meals.png"
+			image: "tumblrbumblr:textures/quests/nourishing-meals.png"
 			rotation: 0.0d
 			width: 7.0d
 			x: 4.5d
@@ -31,7 +31,7 @@
 		}
 		{
 			height: 0.7d
-			image: "modpack:textures/comforting-meals.png"
+			image: "tumblrbumblr:textures/quests/comforting-meals.png"
 			rotation: 0.0d
 			width: 7.0d
 			x: 4.5d
@@ -39,7 +39,7 @@
 		}
 		{
 			height: 6.8d
-			image: "modpack:textures/note-paper.png"
+			image: "tumblrbumblr:textures/quests/note-paper.png"
 			rotation: 0.0d
 			width: 6.0d
 			x: 13.0d
@@ -47,7 +47,7 @@
 		}
 		{
 			height: 0.7d
-			image: "modpack:textures/basic_ingredients.png"
+			image: "tumblrbumblr:textures/quests/basic_ingredients.png"
 			rotation: 0.0d
 			width: 7.0d
 			x: 13.0d

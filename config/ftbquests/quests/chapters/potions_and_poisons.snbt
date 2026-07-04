@@ -7,7 +7,7 @@
 	images: [
 		{
 			height: 1.0d
-			image: "modpack:textures/potions-and-poisons.png"
+			image: "tumblrbumblr:textures/quests/potions-and-poisons.png"
 			rotation: 0.0d
 			width: 11.0d
 			x: -0.5d
@@ -76,7 +76,7 @@
 		{
 			click: "command:/eternalcurrencies checkbalance eternalcurrencies:ancientcoins @s"
 			height: 0.5d
-			image: "modpack:textures/check-balance.png"
+			image: "tumblrbumblr:textures/quests/check-balance.png"
 			order: 1
 			rotation: 0.0d
 			width: 4.5d
