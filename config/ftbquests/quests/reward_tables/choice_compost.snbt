@@ -1,7 +1,7 @@
 {
 	id: "7ACE4BD2F80103E3"
 	loot_size: 1
-	order_index: 4
+	order_index: 5
 	rewards: [
 		{ item: "minecolonies:barrel_block" }
 		{ count: 16, item: "minecolonies:compost" }

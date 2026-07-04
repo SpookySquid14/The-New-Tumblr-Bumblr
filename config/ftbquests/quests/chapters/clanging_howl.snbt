@@ -1,11 +1,278 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_hide_dependency_lines: true
+	default_min_width: 300
+	default_quest_shape: "none"
 	filename: "clanging_howl"
 	group: "44D6198450F74D4C"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "tumblrbumblr:textures/quests/icons/heart_of_decay.png"
+		}
+	}
 	id: "00721BC12ED1CD3F"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["15ACD993630984F4"]
+			description: [
+				"Welcome to Tubumbu 42.04.4 LTS"
+				"*** System restart required ***"
+				"Last login: Fri May 25 1979 from 189.26.60.236"
+				"bishop@romulus:~$ cat clanging_howl.jv"
+				"Project Clanging Howl"
+				"-------------------"
+				"Following a recent meteor shower, reports of strange sounds led to a throrough search of the report's location. Though most of the search resulted in nothing but pebbles and bits of an unknown metal, one living specimen was captured and taken into custody. Weather reports indicated that a similar event may occur &levery 15 days&r."
+				"Subject ch-001 is believed to be the first step into the cosmos, and how we may better understand its workings."
+			]
+			id: "0B2C4ACAE75F106F"
+			min_width: 300
+			tasks: [{
+				id: "3060B863D679CBB4"
+				item: "clanginghowl:extraterrestrial_pebble"
+				type: "item"
+			}]
+			title: "clanging_howl.jv"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Old school terminal"
+				"icons are the spawn eggs but black and white like programs"
+			]
+			id: "0A7B7E9FE70A69F8"
+			tasks: [{
+				id: "783570D69395701D"
+				title: "Theme"
+				type: "custom"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"bishop@romulus:~$ cat ch-001.jv"
+				"Indentifier: ch-001 | Informal Name: Heart of Decay"
+				"-------------------------------------------"
+				"Subject ch-001 was delivered to the station hard frozen in ice until it could be moved to a secure lcoation."
+				"Controlled durability tests showed thickened skin &lresistant to even diamond grade tools&r, though scans suggest it could be integrated technology."
+				"In addition to its strong defense, one worker was spat at by a strange &lneurotoxin which seemed to slowly eat away at the his health. Active movement seemed to increase only its effect.&r"
+			]
+			id: "1121523438B3BF2B"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/heart_of_decay.png"
+					}
+				}
+				id: "767EA18EB3A517DB"
+				observe_type: 5
+				timer: 0L
+				title: "Encounter a Heart of Decay"
+				to_observe: "clanginghowl:heart_of_decay"
+				type: "observation"
+			}]
+			title: "ch-001 \"Heart Of Decay\""
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"bishop@romulus:~$ cat ch-002.jv"
+				"Indentifier: ch-002 | Informal Name: Extraterrestrial Reaper"
+				"-------------------------------------------"
+				"Entering the lab, Dr. Carpenter was found slouched against the wall close by ch-001's containment. Further inspection revealed ch-001 had escaped and dug its way into Dr. Carpenter's chest. Fearing the worst, he requested he be contained until further tests could be performed."
+				"Not long after his requested containment, Dr. Carpenter began convulsing. A matter of seconds later, he died as subject ch-002 emerged from within him."
+				"Extra caution was taken during the following days. Testing revealed &lthe same resistant properties as ch-001&r."
+				"The blade on the end of ch-002's arm appears highly sharp, much more so than the average sword. Test subjects attacked with it appeared to have large cuts that did not heal naturally, &las if it had temporarily lowered their maximum health&r."
+				"Some are wondering if it may be possible to create something harnessable using the metal from subjects ch-001 and ch-002."
+			]
+			id: "0DD280488B9BE843"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/extraterrestrial_reaper.png"
+					}
+				}
+				id: "4836E7E956984E47"
+				observe_type: 5
+				timer: 0L
+				title: "Encounter an Extraterrestrial Reaper"
+				to_observe: "clanginghowl:extraterrestrial_reaper"
+				type: "observation"
+			}]
+			title: "ch-002 \"Extraterrestrial Reaper\""
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"bishop@romulus:~$ cat ch-003.jv"
+				"Indentifier: ch-003 | Informal Name: Flesh Maiden"
+				"-------------------------------------------"
+				"When presented with a captured zombie, ch-002 showed an odd shift in behavior. Initially hostile, it showed no malice towards the zombie after its initial attacks. Scans showed an infection in the undead, and soon after, ch-003 emerged from it."
+				"Initial durability tests confirmed the same durability as its predecessors."
+				"Completely hostile, ch-003 attempted to attack the team members with its arms. When that had no visible result, Dr. Weaver attempted a better look through the glass, only for ch-003 to &lstrike with what resembled a long whip-like tongue&r."
+			]
+			id: "1428DFC072CD4426"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/flesh_maiden.png"
+					}
+				}
+				id: "2A6D0A4C2D12F033"
+				observe_type: 5
+				timer: 0L
+				title: "Encounter a Flesh Maiden"
+				to_observe: "clanginghowl:flesh_maiden"
+				type: "observation"
+			}]
+			title: "ch-003 \"Flesh Maiden\""
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"bishop@romulus:~$ cat ext_steel.jv"
+				"------------------------------"
+				"___Report Date: 1982-06-25___"
+				"Unknown metal taken from sites of meteor showers alongside rocks. Analysis of small samples reveal a structure similar in shape to that of steel. Properties yet to be fully analyzed. A larger sample may be required."
+			]
+			id: "74B74B738FDAA691"
+			tasks: [{
+				id: "3C3BC4D57CF547C1"
+				item: "clanginghowl:piece_of_extraterrestrial_steel"
+				type: "item"
+			}]
+			title: "ext_steel.jv"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"bishop@romulus:~$ cat ch-004.jv"
+				"Indentifier: ch-004 | Informal Name: Hematoma"
+				"-------------------------------------------"
+				"We were given a rather odd subject. A pig who had reportedly been infected by another ch-001. Already in containment, we watched it for changes. After enough time had passed, ch-004 emerged."
+				"An odd subject next to its bretheren, ch-004 does not portray any substancial resistance to outside damage. It appears rather weak in comparison. Instead, chemical analysis shows a gas emitted by ch-004 that appears to attract animals and mobs towards it. What's interesting is that the gas causes hostility in those capable. It's almost as if this creature is meant to die."
+				""
+				"___Report Date: 1986-07-18___"
+				"Previous theories proved true when ch-004 was killed by a captured skeleton. Upon its death, ch-004 exploded, relasing a splash of blood that came into contact with a researcher's wolf, infecting it, and giving birth to ch-005"
+			]
+			id: "7CF4BBE81E1A7D4A"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/hematoma.png"
+					}
+				}
+				id: "65128D432DC8A182"
+				observe_type: 5
+				timer: 0L
+				title: "Encounter a Hematoma"
+				to_observe: "clanginghowl:hematoma"
+				type: "observation"
+			}]
+			title: "ch-004 \"Hematoma\""
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat ch-005.jv"
+				"Indentifier: ch-005 | Informal Name: Blood Spreader"
+				"-------------------------------------------"
+				"After being infected during an accident with ch-004, Dr. ███'s pet wolf was infected. Immediately following this, the wolf was quaranteened, and ch-005 later emerged."
+				"ch-005 is more in line with the other subjects, showcasing a strong defense to traditional weaponry."
+				"Dr. ███ fell into hysterics trying to get to the subject. His actions resulted in its escape, and the site was put into immediate lockdown. Following extraction showed the location itself greatly infected and in ruin. The large amounts of ch-002 and ch-003 were either captured or disposed of, and any natural lifeforms were put down."
+				"Reviewed security footage showed ch-005 attacking researchers, often retreating after each attack before returning. Reviewers noticed that &lwhen it attacked or took damage, ch-005 released what appeared to be blood clots.&r After a small collection had been left and not destroyed, &lit howled and the clots took on a life of their own as copies of the original&r. Designated ch-005-1, these copies were weaker than the original, but also showed the ability to leave blood clots, though it was unable to create more ch-005-1. &lThe ability seems to only be present in the original cs-005.&r"
+			]
+			id: "5B76548804FFB620"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/blood_spreader.png"
+					}
+				}
+				id: "55EC78A5237C09FC"
+				observe_type: 5
+				timer: 0L
+				title: "Encounter a Blood Spreader"
+				to_observe: "clanginghowl:blood_spreader"
+				type: "observation"
+			}]
+			title: "ch-005 \"Blood Spreader\""
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat ch-006.jv"
+				"Indentifier: ch-006 | Informal Name: Prowler"
+				"-------------------------------------------"
+				"At site Remus, researches managed to infect a horse through contact with a ch-001. It seemed to be curious, and that intelligence was shown when it had been thought to have escaped. Upon entering its containment, however, ch-006 revealed itself, &lhaving turned invisble to the naked eye&r, and struck a powerful blow to one of the armed researchers, &lseemingly reducing their armor's strength&r."
+				"ch-006's body contains canisters with a substance similar to that of ch-001's projectiles, &lapplying the same neurotoxin effect to another when slashed with its claws or tail&r."
+			]
+			id: "708BF47743F07494"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/prowler.png"
+					}
+				}
+				id: "4072DAE8F5088AE7"
+				observe_type: 5
+				timer: 0L
+				title: "Encounter a Prowler"
+				to_observe: "clanginghowl:prowler"
+				type: "observation"
+			}]
+			title: "ch-006 \"Prowler\""
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat ch-007.jv"
+				"Indentifier: ch-007 | Informal Name: Carcass"
+				"-------------------------------------------"
+			]
+			id: "47932CAA0EC704F4"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/carcass.png"
+					}
+				}
+				id: "087FEFD328A1F989"
+				observe_type: 5
+				timer: 0L
+				title: "Encounter a Carcass"
+				to_observe: "clanginghowl:carcass"
+				type: "observation"
+			}]
+			title: "ch-007 \"Carcass\""
+			x: -5.5d
+			y: -7.0d
+		}
+	]
 	title: "Clanging Howl"
 }

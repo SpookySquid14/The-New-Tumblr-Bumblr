@@ -39,6 +39,16 @@
 			x: -3.0d
 			y: 2.0d
 		}
+		{
+			click: "#266180B8179705EE"
+			dependency: "15ACD993630984F4"
+			height: 1.0d
+			image: "apotheosis:items/potion_charm"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -1.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]

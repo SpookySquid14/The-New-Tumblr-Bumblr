@@ -1,7 +1,7 @@
 {
 	id: "0EF514498339D6BB"
 	loot_size: 3
-	order_index: 12
+	order_index: 13
 	rewards: [
 		{ item: "minecraft:salmon", weight: 85.0f }
 		{ item: "tide:cooked_fish", weight: 80.0f }

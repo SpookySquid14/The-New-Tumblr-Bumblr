@@ -78,9 +78,17 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				advancement: "apotheosis:affix/boss"
 				criterion: ""
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cataclysm:textures/gui/boss_bar/life_remain_skull.png"
+					}
+				}
 				id: "2084F80BA7C41D01"
 				title: "Kill a Boss Mob"
 				type: "advancement"

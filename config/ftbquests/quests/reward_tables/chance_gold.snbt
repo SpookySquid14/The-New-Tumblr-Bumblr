@@ -1,7 +1,7 @@
 {
 	id: "520A8822447A5275"
 	loot_size: 1
-	order_index: 10
+	order_index: 11
 	rewards: [
 		{ item: "minecraft:gold_nugget" }
 		{ count: 3, item: "minecraft:gold_nugget" }

@@ -1,7 +1,7 @@
 {
 	id: "51397E2E23B368B5"
 	loot_size: 1
-	order_index: 9
+	order_index: 10
 	rewards: [
 		{ count: 16, item: "minecraft:bone" }
 		{ count: 16, item: "minecraft:spider_eye" }

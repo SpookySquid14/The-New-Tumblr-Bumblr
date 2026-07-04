@@ -40,4 +40,5 @@ ServerEvents.customCommand('fog', event => {
   event.server.runCommandSilent('function watching:config/creeping/false');
   event.server.runCommandSilent('function watching:config/no_sleep/false');
   event.server.runCommandSilent('function watching:config/nightmare/false');
+  event.server.runCommandSilent('function watching:config/fearful_footsteps/false');
 })

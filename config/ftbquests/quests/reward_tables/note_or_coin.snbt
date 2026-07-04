@@ -1,7 +1,7 @@
 {
 	id: "6A590512C0D9C3EA"
 	loot_size: 1
-	order_index: 11
+	order_index: 12
 	rewards: [
 		{ count: 3, item: "tide:fishy_note" }
 		{

@@ -826,7 +826,7 @@ hash = "94e633e170b101317b10447b0015fac4425c1f704ca0450baf429711c9127d2e"
 
 [[files]]
 file = "config/apotheosis/adventure.cfg"
-hash = "f947d01e0f422edc591659ca17f168ab5dc6238e60339aacc6eac59f7a3be4bd"
+hash = "ef8952c0d32900193259466ad01b90e2b2971c4d20c88f6a983355333338ae57"
 
 [[files]]
 file = "config/apotheosis/apotheosis.cfg"
@@ -68930,7 +68930,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "2cc9278333073a31fa9676a1ef0ce629a5c7285a9bfc45721f7c1a77cea0ab80"
+hash = "dc6f80ade94c0d872d6cce008eb6cc3c6ac4aa17d8a275f275a25c7ba46d76d9"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69898,7 +69898,7 @@ hash = "8e3dcd0193625aeea5be7b90e5bb935c822561a415836a997b54c4cf4a158b43"
 
 [[files]]
 file = "config/forgeendertech/cached.dat"
-hash = "dabe01a5ae5c6945a6feb50b837c302216784cf462a9fa07f784f329731f003d"
+hash = "4725dd77f11a13a661a6a25dc5d15537f1c92f3267c21d2cb9ca3f4db2e85726"
 
 [[files]]
 file = "config/frightsdelight.json"
@@ -69918,7 +69918,7 @@ hash = "60c5487d9a7261275a3d5d9c7386e950f3aeb6e8944e915006074da5fe2be5f3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apothic_adventures.snbt"
-hash = "b6a00a8668061e6048ff15584f4d23a155701c917f0fd42b0445d6ec8c50660d"
+hash = "47ff4b6f91f34f94df515555ade90b65a2ad2d732da83eeab595893206e05de3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
@@ -69954,7 +69954,7 @@ hash = "e49c1dca7154f098dc5cb6574bfa378e9ca5f8370503ecd8eccc8633a7f2b5eb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/clanging_howl.snbt"
-hash = "73bffdf98d5040852ea2610e13146103fe581adc71e1ac6e215de4bef24ab748"
+hash = "c9823a8bef036749d2553ca65d39ac458216aa913a87b8a4814f8721794ee927"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
@@ -69986,7 +69986,7 @@ hash = "c5b2a4350fe887f784b4a8efbb9b4211bc4171033534e13ebf062194ec2145c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "7b06dd14caa16f3b76f9f8091814ed89f582145bed4923c1e9766adf5d31237f"
+hash = "36f7dbd71a216edf99f1688dedbdaa11ee0dbdf769fb5b92944a01c8f5208950"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
@@ -70081,28 +70081,24 @@ file = "config/ftbquests/quests/chapters/vampirism_werewolves.snbt"
 hash = "45220f6f02fa24c4ae4071f85312383034c1001908947594bc1bec48f9e39f74"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/when_dungeons_arise.snbt"
-hash = "63f6f15a4b192e3d0d44add07bfedf748937eaf7c0465aabf5122d400d24a659"
-
-[[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "0fef376c367cb165e7b886c03ada2a3d32abee8abce89b7bf351edd0d6e196aa"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/chance_gold.snbt"
-hash = "846e289e0e51538b3b6cb7bfd4b423f84fd5ebb87569a4a9a4e92d9c06b8c788"
+hash = "ee14b152609f0632ad995b354e792e4829c198b8a9558d4b901dad93fc47f144"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/choice_compost.snbt"
-hash = "48c00f1d1fde221958e02c70d1e7a2da3c3220dc049df2f2bd2319423413bd38"
+hash = "e701c54d405072d7ecc237c8ab42474ab28445c833ebda5ac85e2ba99fb2a274"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/choice_crush.snbt"
-hash = "5496f6a25c17f5b4b52b1f478f0e3512e32881d85581c312935e796600f0c2bb"
+hash = "1f3d1c725f76449f51f70320d72961afd835c0d1f79ac10869d0ca98471f690e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/choice_dye.snbt"
-hash = "3dd8612ed7c52304cfb60b8de25c1cc3cc868b30a2235a78de1406659711faaf"
+hash = "861a1c55011eba4da91c5cb3f9078e304a6f68e82c1064a9bd37722692d774aa"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/choice_flowers.snbt"
@@ -70110,31 +70106,31 @@ hash = "3c73f883ad35b0501685f600da1cf7d792816666a90efc64a0700c373d773848"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/choice_food.snbt"
-hash = "5b495c980d23ee8d556b176ed18cec2ea95381d2b7f3132a0013b011821dc556"
+hash = "a372237bb57d9c1dd90063dbdb19e80fe64e472c10e9b3e4f3f921b3c8c2afa2"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/choice_hospital.snbt"
-hash = "e42d10dc3d54464950a37011fa7264e6220070e5522ddcc559bbf4f418aa525a"
+hash = "6267522572f767427c05b2dc58e7bc59250d7bf26e51244c3ca803a9081aa08b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/choice_logs.snbt"
-hash = "d3225d691fc13ebdcb1173b29cc200016fa4390c625fe6b2ed1f326ead2fcf62"
+hash = "7f047bd591d8ba55566207caf04ca2bf3a19fb1e2fa4966c1d35fe0b442c63e2"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/choice_mob_drop.snbt"
-hash = "15c299f95c674d7696e8087eba2200ee9a778742d2cb65638beed89237fa4233"
+hash = "0868f2e030118a275c039040b0740026c43223046ec1573634d2e79dfdc7f403"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/choice_sapling.snbt"
-hash = "948f0c8cf77dda7cd5d4ca3fef2e540606862a987e0f7399ca0936c6ef80d65a"
+hash = "990962ace6b47b31212835767e6dd2f7254e0e6c1cd0169cc4398eb35a424b30"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/choice_stone.snbt"
-hash = "4ea53cc5a5325e1fdadddec97b8542a5c1805adb1cc6689faa1b31678537cf50"
+hash = "3d24245d2f70f23b982324aa89e4ba01176ba435e9ac009c702df42995f76cbf"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/fishers_crate.snbt"
-hash = "975ab64e9da3e251e52f501822d4716a6f3d590261e11ad9615b2ed4138e1a61"
+hash = "6f4029838dcf5653916fe73dd0ef16cbf12e3941bc0ed630b0d55bbf5304beb8"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/minecolonies_common.snbt"
@@ -70142,11 +70138,11 @@ hash = "bda3fc1a79b3d90eaca239bad2b93c8a1e44f62dbd79c8a3e5754e4ebda47bc8"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/note_or_coin.snbt"
-hash = "78f057feea0e29b249b805e219a01e190d112eace47f4836d8ee353cefbd8559"
+hash = "71d2db68c868c54fd6bdd47fe1ea366562df80530d1160fe2ed2c70a7ad1ea09"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/wda_food.snbt"
-hash = "c65575d64cc13817b9f806d64dd74fad706243a7865c8000c5a8ab8251aa67b8"
+hash = "7d85e1eb9a70954792534346dbb1c0aa95cd104716f935229aa380c061dafde0"
 
 [[files]]
 file = "config/ftbxmodcompat.snbt"
@@ -70857,6 +70853,10 @@ file = "config/jei/world/local/Tectonic_Test/lookupHistory.ini"
 hash = "41b573c5fc5b16ece5b5d727cf2d68d8b98e9e85c0f7952bd0f030311829fcea"
 
 [[files]]
+file = "config/jei/world/local/Testing/lookupHistory.ini"
+hash = "46670e0a9faa789ac619adbe6bf63dc47b04c66239ee032270e23251d8fe5217"
+
+[[files]]
 file = "config/jei/world/local/Unification/lookupHistory.ini"
 hash = "0bb0d1b2ede4a3dd0e1d8d1bf4ea280e9c8b33b8c7267486b989ff7246fff18a"
 
@@ -71062,7 +71062,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "88cdbf5dc4ac97d32977edecd8d2c0b72eb8c4323c941e921864bf604e3785f0"
+hash = "41b109dddcced6e6e74c99620baf9ef69574f9508a408dde7afeb8b7d1fb66cb"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71314,7 +71314,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "25b73a9ba509cf942ea4eec0e348b7f609b469fc7b40c45867c99ab7adbaa3f3"
+hash = "7f40a655a5216bc5731fa31fbeb8cf6628c440f34b90e01c5785bd4678449c3e"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71330,7 +71330,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "474d9d2de46af3e1105eed5b10d52d4664c7db68cfac87a020483889094f5de7"
+hash = "2b945a9d59509fa78da697600178833da59b7a79ce2360ae2837b0d48b52b969"
 
 [[files]]
 file = "config/pal.properties"
@@ -71654,7 +71654,7 @@ hash = "c3fcadf445d99870f386e20b5f6463a04c550f5b28c9608227a79b08267c24e0"
 
 [[files]]
 file = "config/paxi/resourcepacks/Tumblr Bumblr/assets/ftbquests/ftb_quests_theme.txt"
-hash = "b2dfce617596fac9a5f1bd257e2a93630ac6923c799c3a396c46dc3cc43da038"
+hash = "926130a117fc2ab0b5b36290f0044f6ef17bb35b502448ab48bbf7ca95de1bc0"
 
 [[files]]
 file = "config/paxi/resourcepacks/Tumblr Bumblr/pack.mcmeta"
@@ -73487,6 +73487,10 @@ hash = "fe8d62cd029916455c7992019b8a2b192aa5373f0cc709c3dcfbb46a755816ff"
 [[files]]
 file = "kubejs/assets/modpack/textures/anglers-eye.png"
 hash = "102128a6d57f303b89fe5a8410643445e0b69136fa33564030a2b201979f9133"
+
+[[files]]
+file = "kubejs/assets/modpack/textures/apotheosis.png"
+hash = "de5ad91ede91acc226f8c7dd168e79901bb2abde63877a7811b44e5b8d36cfc7"
 
 [[files]]
 file = "kubejs/assets/modpack/textures/arcana.png"
@@ -77141,6 +77145,10 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/altar-of-infusion-chart.png"
 hash = "3d8158371ef084d3b9c6a37acfb9a91ce43cb9e16941252db8afa06bbe452141"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/apothic-adventures.png"
+hash = "1120973f2cf1feaf6699b8cf2a2e6c3127d9a0c79aab34a027c8877e09996657"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/augmentation-table.png"
 hash = "2c6fc7b097bbe22bdef9dd18bd1eb244abbae7eaba12db479e8bc2b0e17629eb"
 
@@ -77171,6 +77179,38 @@ hash = "78b8172b2ee0c8cac026ac1ea74d49b3a31b554874e8e1efd589db7bad3637fe"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/gems.png"
 hash = "0592bacadbbb7544390d90ce83e5a69980c447f4766b4192f13c12b1643d66a5"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/blood_spreader.png"
+hash = "c6eda98bf216ff526c782e7c72c0c54de8efc5c5c6b62c5b98afef624acf2cc2"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/carcass.png"
+hash = "92d57abcc2bacb30e1a2130a653cce71a2368321d6850b14fe97a826583f2c38"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_pebble.png"
+hash = "cb4ad4d5cb904e6cc8d5a1d75e67f2b9b1dac13cc42935a6f5f723b140c1c723"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_reaper.png"
+hash = "fe218d1c868f09e4ac027c5d10bd0f6039856a8f4eba152d4c12f00d79a00b9d"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/flesh_maiden.png"
+hash = "eccee34f777a9c1589ddb7d0da0996d038422985b823d318fbfa81b92ca12348"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/heart_of_decay.png"
+hash = "7cae42652c433bd2666cd969ff89d643d2515436bb68d69917f95995a24035d4"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/hematoma.png"
+hash = "e366aab0b159490416e1395bb810348c4db8223c11dd95cdf123939ff30bb25e"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/prowler.png"
+hash = "ec3791170b0a274a231df59f0124bdbb41723f8db5f9820932d542f62fb9e2aa"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/salvaging-table.png"
@@ -77226,7 +77266,7 @@ hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
-hash = "f4222f72e79d1ce4a7dd81ed39d1445cd6044d2493f9eb9b0a4f56f6658493bf"
+hash = "f8a0a8126e426e5eac5d54d5ceeca44579ae88b3a88fd23e3fda75f8b3dde48c"
 
 [[files]]
 file = "kubejs/client_scripts/pokeball.js"
@@ -78950,11 +78990,11 @@ hash = "d822d8e129859e2585c442280320ed6edf471493d05ccd3aa8e19a4b04f382c5"
 
 [[files]]
 file = "kubejs/server_scripts/from_the_fog/herobrine_config.js"
-hash = "7e49bc5d505f8361751ff928b443dc92cca4452e1d8d27fb936387830b6507ea"
+hash = "1e53579be91d7086990aeaf111d4b215166a79afefea377c40ed9f47ee5ddf74"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
-hash = "947011ccc9e61b8263311f457c5bb7bb2d0972da82259f65bfdf28bf8a89d9b0"
+hash = "8b5bbf7da13645288cc92dc2ad8219e75150811f9df97fd74a482e45469eb815"
 
 [[files]]
 file = "kubejs/server_scripts/occultism/occultism_util.js"
@@ -79010,7 +79050,7 @@ hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
-hash = "05f6a4e69652c5aad9eff76fc2634036e3a30f8c85d98552a337fe721b1a2aac"
+hash = "3e8682050e4b1be10321b92fdee3b3d1a6b4803b84dc243c26cf614cde0dee78"
 
 [[files]]
 file = "kubejs/startup_scripts/nobotaniaflowers.js"
