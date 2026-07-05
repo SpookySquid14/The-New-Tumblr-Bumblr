@@ -4,7 +4,7 @@
 	["Mob Spawn"."Flesh Maiden"]
 		#How many days until Flesh Maiden can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		FleshMaidenDaySpawn = 47
+		FleshMaidenDaySpawn = 20
 		#Spawn minimum group count for Flesh Maiden, Default: 1
 		#Range: > 1
 		FleshMaidenSpawnMinCount = 1
@@ -24,7 +24,7 @@
 		ExReaperSpawnMinCount = 1
 		#How many days until Ex Reaper can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		ExReaperDaySpawn = 47
+		ExReaperDaySpawn = 20
 		#Spawn maximum group count for Ex Reaper, must be equal or higher than min count, Default: 2
 		#Range: > 1
 		ExReaperSpawnMaxCount = 2
@@ -41,7 +41,7 @@
 		HoDSpawnMaxCount = 3
 		#How many days until Heart of Decay can spawn, set to -1 to disable, Default: 0
 		#Range: > -1
-		HoDDaySpawn = 23
+		HoDDaySpawn = 17
 
 	["Mob Spawn".Hematoma]
 		#Spawn Weight for Hematoma, Default: 19
@@ -52,10 +52,10 @@
 		HematomaSpawnMinCount = 1
 		#Spawn maximum group count for Hematoma, must be equal or higher than min count, Default: 2
 		#Range: > 1
-		HematomaSpawnMaxCount = 2
+		HematomaSpawnMaxCount = 1
 		#How many days until Hematoma can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		HematomaDaySpawn = 47
+		HematomaDaySpawn = 27
 
 	["Mob Spawn"."Blood Spreader"]
 		#Spawn Weight for Blood Spreader, Default: 15
@@ -69,7 +69,7 @@
 		BloodSpreaderSpawnMaxCount = 3
 		#How many days until Blood Spreader can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		BloodSpreaderDaySpawn = 47
+		BloodSpreaderDaySpawn = 20
 
 	["Mob Spawn".Prowler]
 		#Spawn Weight for Prowler, Default: 10
@@ -83,7 +83,7 @@
 		ProwlerSpawnMaxCount = 1
 		#How many days until Prowler can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		ProwlerDaySpawn = 47
+		ProwlerDaySpawn = 27
 
 	["Mob Spawn".Carcass]
 		#Spawn Weight for Carcass, Default: 10
@@ -97,13 +97,13 @@
 		CarcassSpawnMaxCount = 1
 		#How many days until Carcass can spawn, set to -1 to disable, Default: 15
 		#Range: > -1
-		CarcassDaySpawn = 47
+		CarcassDaySpawn = 27
 
 [General]
 	#Whether Technoflesh creatures gain buffs as game time goes by, Default: true
 	TechnoFleshBuff = true
 	#If 'TechnoFleshBuff' is set to true, whether it gains buffs via minecraft days instead of game time, Default: false
-	TechnoFleshBuffDayTime = true
+	TechnoFleshBuffDayTime = false
 	#If set above 0 and 'TechnoFleshBuff' is set to true, Technoflesh creatures will always be buffed as though the 'TechnoFleshBuffDayTime' is enabled and the input amount of days have passed, set to 0 to disable, Default: 0
 	#Range: > 0
 	FixedAdaptationStage = 0

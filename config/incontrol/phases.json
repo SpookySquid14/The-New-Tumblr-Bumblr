@@ -1,5 +1,11 @@
 [
   {
+    "name": "after_day_3",
+    "conditions": {
+      "mindaycount": 3
+    }
+  },
+  {
     "name": "after_day_5",
     "conditions": {
       "mindaycount": 5
@@ -27,6 +33,12 @@
     "name": "after_day_50",
     "conditions": {
       "mindaycount": 50
+    }
+  },
+  {
+    "name": "after_day_45",
+    "conditions": {
+      "mindaycount": 45
     }
   },
   {

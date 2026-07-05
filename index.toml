@@ -68386,7 +68386,7 @@ hash = "54b999cd4b8859787eec9d1b8df99b5e318030961fe7bf444dc31727de8a69f6"
 
 [[files]]
 file = "config/borninconfiguration-general.toml"
-hash = "f7d092c114872b4becf7cb4b3ee86e6d7451eee072e50da5cd764c761e0d3553"
+hash = "af8290a623508485f86d8b9f1d35e09125247003977954e31a9f4a427eecc895"
 
 [[files]]
 file = "config/boss rifts compat plus; common.toml"
@@ -68522,7 +68522,7 @@ hash = "0a41518641bbb4133fc61b934e8663ae5271ffd8190a281e5b35d1efd97fb3e3"
 
 [[files]]
 file = "config/clanginghowl.toml"
-hash = "d3210008a70e1b7322ef1bd2edd9e70d257f652cea18522d2c5c576fa0507386"
+hash = "14477bc01dcaf9b7fe318ff1414e57ec8f84e860beb4c0327d21365ab8a85b28"
 
 [[files]]
 file = "config/clickadv.json"
@@ -68930,7 +68930,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "9c842120c5284d49d868836831b3bfb70c6db8933a365cf60c19fa9118379624"
+hash = "89450b6c7696c9fe04e73c128a68f535cfe5b8f5c4f5b8687f2e41395b9f7af6"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70418,7 +70418,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/phases.json"
-hash = "b782e420c5ef365ea4c80e6364cb95b0e952b63f4213753faf67e5dd7467a6ed"
+hash = "bb74d00109b7327ccfa43ee90d6356451125feb51738c6cea56569fa01a17494"
 
 [[files]]
 file = "config/incontrol/placeevents.json"
@@ -70430,7 +70430,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "e101d3c274afef18beddef9a142ce2bf0e5266742697b55f0a1bd69bce6569f5"
+hash = "a05be3127d4db66ddb1d8a229edce935ef46e2edb09350cdc69180f18cdb0373"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -70818,7 +70818,7 @@ hash = "d3da6522cc9c5db95c03526632517d95b85b674388837274e1725a3763f2d9e7"
 
 [[files]]
 file = "config/jei/world/local/Reorganized/lookupHistory.ini"
-hash = "31cfca30c1d300b804e37bb16a1e2da79951ff5496229000760863e2097e3dc1"
+hash = "d82d9411825b36d3f11f03d8e40beeaf40b881375527b268cda8bd68576e6def"
 
 [[files]]
 file = "config/jei/world/local/Simple_Weapons/lookupHistory.ini"
@@ -71066,7 +71066,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "bdedd715de44763dd30258befdedb1959604100a9aaadebe6fd90f8cf36ce9e5"
+hash = "1fc9d3a51f9bb5378216879e9a9d9d013e9bab90507eec902e6f8a5be91f1199"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71318,7 +71318,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "70137c16f7d0755e191c9fd0d92f911ba6eca66b3ef63f38f091d256e1e20e25"
+hash = "0ab1f34ede2b580c125fb607caa86450ce43a1926a223479dc07457fa45f8497"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71334,7 +71334,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "5c5ab66a7dbc61c374cc44ec6418fa5c23dffe0dd547e021e974232e5f0a3eba"
+hash = "0d6a603e364613561ccc3d810863585cb323325d3de9f8f968febdeebc2c04d2"
 
 [[files]]
 file = "config/pal.properties"
@@ -71870,7 +71870,7 @@ hash = "3ae4ba2f6dfae54304299481ecf706b911bc854421e08efd8f45f7461414f7e7"
 
 [[files]]
 file = "config/rootoffear/common.toml"
-hash = "663b94c422aac951cdad68dadbd9551a7d0655cf717b75c8b0bdaa543ad2a01a"
+hash = "12ac2a83e07284f655ca47ad32f852e8bd876689a128e930a8361174df0d58e0"
 
 [[files]]
 file = "config/saintsdragons-attributes.toml"
