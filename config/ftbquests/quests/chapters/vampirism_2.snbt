@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "vampirism_2"
 	group: "44D6198450F74D4C"
+	icon: "vampirism:vampire_fang"
 	id: "201EB6B180822731"
 	order_index: 1
 	quest_links: [ ]

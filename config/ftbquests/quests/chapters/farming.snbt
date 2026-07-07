@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "farming"
 	group: "33FB9C2B7FFFEFE2"
+	icon: "minecraft:wheat"
 	id: "6616695BCAE96AB7"
 	images: [
 		{

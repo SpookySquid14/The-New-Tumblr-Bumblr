@@ -4,6 +4,7 @@
 	filename: "tinkers_construct"
 	group: "1CE580FB33A3818E"
 	hide_quest_until_deps_visible: true
+	icon: "tconstruct:smeltery_controller"
 	id: "2248DCF95595D594"
 	order_index: 2
 	progression_mode: "linear"

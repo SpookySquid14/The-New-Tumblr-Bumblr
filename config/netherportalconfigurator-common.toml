@@ -1,5 +1,5 @@
 
 [portal]
 	#Item required to activate a Nether Portal)
-	requiredItemId = "kubejs:burned_tablet"
+	requiredItemId = "tumblrbumblr:burned_tablet"
 

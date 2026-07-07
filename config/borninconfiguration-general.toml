@@ -991,7 +991,7 @@
 			RIDEABLE_LORD_FELSTEED_KNOCKBACK_RESISTANCE = 0.6
 			#.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			RIDEABLE_LORD_FELSTEED_SPEED = 3.6
+			RIDEABLE_LORD_FELSTEED_SPEED = 0.68
 
 		[Weapons.Mobs."Scarlet Prosecuter"]
 			#Amount of Scarlet Prosecuters (setting it to 0 will cause non to spawn)

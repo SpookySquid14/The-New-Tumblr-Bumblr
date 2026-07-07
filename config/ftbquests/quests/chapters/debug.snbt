@@ -38,6 +38,7 @@
 				secret: true
 				type: "questsadditions:time"
 			}]
+			title: "Fog"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -316,6 +317,107 @@
 			title: "Waystone 5"
 			x: 1.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["75DE50143D701A56"]
+			id: "6728C3AC474508DF"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p {\"text\":\"Are you there?\",\"font\":\"minecraft:illageralt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"Are you there?\"}]}}"
+				id: "53190D15CB53AF1D"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 5L
+				id: "4BC3FBE2AE1330AC"
+				type: "questsadditions:time"
+			}]
+			title: "time 1"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6728C3AC474508DF"]
+			id: "2B15416FD329E64F"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p {\"text\":\"Are we connected?\",\"font\":\"minecraft:illageralt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"Are we connected?\"}]}}"
+				id: "084CC25F9211A399"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 5L
+				id: "7D5BD2295A3A8E4F"
+				type: "questsadditions:time"
+			}]
+			title: "time 2"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B15416FD329E64F"]
+			id: "025FD7C068AD4C7E"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p {\"text\":\"Excellent.\",\"font\":\"minecraft:illageralt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"Excellent.\"}]}}"
+				id: "087653D9657A4537"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 5L
+				id: "013FD0629425CCFB"
+				type: "questsadditions:time"
+			}]
+			title: "time 3"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["025FD7C068AD4C7E"]
+			id: "51505202836EF091"
+			rewards: [
+				{
+					command: "/tellraw @p {\"text\":\"Now, take the book, and begin.\",\"font\":\"minecraft:illageralt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"Now, take the book, and begin.\"}]}}"
+					id: "301EB485553714FF"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					id: "2FAF0218698726FE"
+					ignore: true
+					key: "Directed"
+					type: "extraquests:key_value"
+					value: 1L
+				}
+			]
+			tasks: [{
+				elapsedTime: 5L
+				id: "01C5B6532BF439EE"
+				type: "questsadditions:time"
+			}]
+			title: "Time 4"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "75DE50143D701A56"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @p {\"text\":\"Hello?\",\"font\":\"minecraft:illageralt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"Hello?\"}]}}"
+				id: "4854F4DDFD745B80"
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 5L
+				id: "13754F18CC0D174A"
+				title: "time 0"
+				type: "questsadditions:time"
+			}]
+			x: -2.0d
+			y: 3.0d
 		}
 	]
 	title: "Debug"

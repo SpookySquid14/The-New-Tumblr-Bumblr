@@ -863,7 +863,7 @@
 		}
 		{
 			dependencies: ["3382A9EBAE939697"]
-			description: ["You're probably gonna be catching a lot of fish, right? In that case, you may want to get yourself a Fish Satchel. Open and close it by using the item, or put a fish in by right clicking in the gui. Best part? &6&oWhile it's open, the satchel will automatically store any fish you catch.&r"]
+			description: ["You're probably gonna be catching a lot of fish, right? With all the different sizes you'll get, you may want to nab yourself a Fish Satchel. Open and close it by using the item, or put a fish in by right clicking in the gui. Best part? &6&oWhile it's open, the satchel will automatically store any fish you catch.&r"]
 			id: "671A213F5059C4E7"
 			rewards: [
 				{

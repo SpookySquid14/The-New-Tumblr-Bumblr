@@ -310,7 +310,7 @@
 			dependencies: ["6582DCB124CE4A9F"]
 			description: ["Ah, that catch your eye? Yes, soul gems may be somewhat plentiful to those practicing the arts, but it takes a... special touch to imbue one as I have. If you want one, I'll gladly sell it to you. Perhaps it can be useful next time you die."]
 			disable_toast: true
-			icon: "kubejs:enchanted_soul_gem"
+			icon: "tumblrbumblr:enchanted_soul_gem"
 			id: "221F955B1421EC0C"
 			rewards: [{
 				auto: "no_toast"

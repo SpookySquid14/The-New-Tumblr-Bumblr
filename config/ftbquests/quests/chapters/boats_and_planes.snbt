@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "boats_and_planes"
 	group: "1CE580FB33A3818E"
+	icon: "immersive_aircraft:gyrodyne"
 	id: "2A86CB58B0C9B847"
 	order_index: 4
 	quest_links: [ ]

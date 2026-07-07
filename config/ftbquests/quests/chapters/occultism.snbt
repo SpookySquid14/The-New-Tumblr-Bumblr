@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "occultism"
 	group: "2E5A9DABC49A0340"
+	icon: {
+		Count: 1
+		id: "occultism:dictionary_of_spirits"
+		tag: {
+			"modonomicon:book_id": "occultism:dictionary_of_spirits"
+		}
+	}
 	id: "617637544D025A7F"
 	order_index: 1
 	quest_links: [ ]

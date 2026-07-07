@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "mining"
 	group: "48841A8C395C40D5"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "7548472196D95D7C"
 	order_index: 2
 	quest_links: [ ]

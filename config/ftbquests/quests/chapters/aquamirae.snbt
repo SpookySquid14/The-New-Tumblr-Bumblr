@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "aquamirae"
 	group: "44D6198450F74D4C"
+	icon: "aquamirae:rune_of_the_storm"
 	id: "050DD1992B5F3DF5"
 	order_index: 5
 	quest_links: [ ]

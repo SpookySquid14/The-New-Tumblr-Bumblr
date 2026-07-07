@@ -22,6 +22,14 @@
 					"value": 0.03,
 					"operation": "multiply_total"
 				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:distance",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
 			}
 		],
 		"metadata": {
@@ -48,6 +56,14 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.stamina",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
 					"value": 0.02,
 					"operation": "multiply_total"
 				}
@@ -380,6 +396,14 @@
 				}
 			},
 			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			},
+			{
 				"type": "puffish_skills:command",
 				"data": {
 					"command": "give @s diamond 6"
@@ -436,6 +460,14 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
+					"attribute": "combatroll:distance",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
 					"attribute": "puffish_skills:player.jump",
 					"value": 0.1,
 					"operation": "multiply_total"
@@ -453,6 +485,14 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
 					"value": 0.05,
 					"operation": "multiply_total"
 				}
@@ -691,6 +731,14 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "minecraft:generic.movement_speed",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:distance",
 					"value": 0.03,
 					"operation": "multiply_total"
 				}

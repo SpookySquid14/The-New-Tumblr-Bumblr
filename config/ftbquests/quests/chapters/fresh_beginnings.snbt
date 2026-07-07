@@ -1,6 +1,7 @@
 {
 	autofocus_id: "15ACD993630984F4"
 	default_hide_dependency_lines: false
+	default_min_width: 300
 	default_quest_shape: ""
 	filename: "fresh_beginnings"
 	group: "48841A8C395C40D5"
@@ -15,8 +16,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 3.5d
-			x: -3.0d
-			y: 1.0d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			click: "#2D34FF035F596DF7"
@@ -26,8 +27,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 4.0d
-			x: -3.0d
-			y: 1.5d
+			x: -6.0d
+			y: -1.5d
 		}
 		{
 			click: "#6A973C6CC334168D"
@@ -36,18 +37,28 @@
 			image: "tumblrbumblr:textures/quests/potions-and-poisons.png"
 			rotation: 0.0d
 			width: 5.5d
-			x: -3.0d
-			y: 2.0d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			click: "#266180B8179705EE"
 			dependency: "15ACD993630984F4"
-			height: 1.0d
-			image: "apotheosis:items/potion_charm"
+			height: 4.0d
+			image: "tumblrbumblr:textures/quests/apotheosis-logo.png"
 			rotation: 0.0d
-			width: 1.0d
-			x: 5.0d
-			y: -1.5d
+			width: 4.0d
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			click: "#266180B8179705EE"
+			dependency: "15ACD993630984F4"
+			height: 0.5d
+			image: "tumblrbumblr:textures/quests/apotheosis.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: 5.5d
+			y: 0.0d
 		}
 	]
 	order_index: 0
@@ -55,10 +66,10 @@
 	quests: [
 		{
 			description: [
-				"To whoever finds this, I welcome you to this wonderful world we call home. There will surely be much to discover, fight, learn, and avoid. By reading this book, you accept your reality. I will be in touch. If you ever need to find this menu again, &6&oyou can access it through your inventory in the top left corner or the tabs above the menu. You can also set a keybind in Controls&r. Of course, you can also choose to keep this book on you."
-				"And always remember, you're never alone."
+				"[\"\",{\"text\":\"Welcome, traveler. I do not know your name, but neither do you mine. What matters is that we've met, talked... understood one another.\",\"font\": \"alt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Welcome, traveler. I do not know your name, but neither do you mine. What matters is that we've met, talked... understood one another.\"}},{\"text\":\"\\n\\n\",\"font\": \"alt\"},{\"text\":\"This world is full of wonders, but also danger. Many gears move in the clockwork of reality, and time is something nobody can escape. So the question is, what will you do with yours?\",\"font\": \"alt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"This world is full of wonders, but also danger. Many gears move in the clockwork of reality, and time is something nobody can escape. So the question is, what will you do with yours?\"}},{\"text\":\"\\n\\n\",\"font\": \"alt\"},{\"text\":\"Within the contents of this book are a collection of people's notes, their journeys, and for some, their life's work. I'm certain it will prove useful to you.\",\"font\": \"alt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Within the contents of this book are a collection of people's notes, their journeys, and for some, their life's work. I'm certain it will prove useful to you.\"}},{\"text\":\"\\n\\n\",\"font\": \"alt\"},{\"text\":\"Ah, but be not afraid if you lose this book. Its contents will always be accessible through your inventory.\",\"font\": \"alt\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Ah, but be not afraid if you lose this book. Its contents will always be accessible through your inventory.\"}}]"
+				"{image:tumblrbumblr:textures/quests/quest-book.png width:156 height:90 align:center}"
 				""
-				"{\"extra\":[{\"text\":\"- \"},{\"font\": \"alt\",\"text\":\"\\\"The Vessel\\\"\"}],\"text\":\"\"}"
+				"Now, go forth, and carve your tale."
 			]
 			icon: "ftbquests:book"
 			id: "15ACD993630984F4"
@@ -67,28 +78,46 @@
 				currency: "eternalcurrencies:ancientcoins"
 				id: "50664CB77E417D8A"
 				ignore_reward_blocking: true
-				title: "Some pocket change for the journey ahead"
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Who wrote this?"
-			tasks: [{
-				id: "7C62070C3730C721"
-				title: "Listen to the one who came before"
-				type: "checkmark"
-			}]
+			subtitle: "Hovering Can Discern The Unreadable"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "tumblrbumblr:textures/quests/icons/vessel.png"
+						}
+					}
+					id: "13760FD3FD137BCB"
+					key: "Directed"
+					secret: true
+					title: "Go on, open it."
+					type: "extraquests:key_value"
+					value: 1L
+				}
+				{
+					id: "7C62070C3730C721"
+					title: "Accept Responsibility of What Comes Next"
+					type: "checkmark"
+				}
+			]
 			title: "A book?"
-			x: 0.0d
-			y: 2.0d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
 			description: [
-				"Let's get you fitted with basics, shall we? Any and all good journeys start the same way, by punching a tree."
+				"So, you've been introduced to a world of creativity and challenges. I, Professor Larch, welcome you with open arms."
+				"Now then, let's get you fitted with the basics, shall we? As a wise man once said, it all begins with a tree, then an upgrade. We'll get started on that first one now."
 				"{image:tumblrbumblr:textures/quests/tree-chopping.png width:156 height:90 align:center}"
-				"Something you'll notice upon approaching one of these wooded wonders is the counter at the top of your screen. Yes, in this world, you need only break the bottom block of a tree to knock it down. It will still take a few hits, but it's far more convenient, no? You will also see the amount of logs and any other drops you'll receive from chopping."
+				"When you go to cut down a tree, you'll likely notice something. Indeed, not all trees are chopped at the same speed. Some may take longer than others. But, as long as you keep going, all trees, big or small, will fall. After they do, you'll be given their blocks and any other items from them at the base of the stump you destroyed. Quite convenient. But do be aware that felling a tree will use the same durability as if you had destroyed all the blocks manually yourself."
 			]
 			hide_until_deps_complete: true
 			id: "5FF18EB0CE40B71B"
+			min_width: 300
 			rewards: [
 				{
 					amount: 100L
@@ -104,14 +133,25 @@
 					type: "item"
 				}
 				{
-					id: "4E852A9A6ABAD2DC"
+					id: "3F6554B8570B6F4A"
 					item: {
 						Count: 1
-						id: "minecraft:iron_axe"
+						id: "immersiveengineering:axe_steel"
 						tag: {
-							Damage: 176
+							Damage: 261
+							affix_data: {
+								affixes: {
+									"apotheosis:durable": 0.1f
+								}
+								uuids: [[I;
+									-1687727154
+									-2008856970
+									-1437516203
+									-725029477
+								]]
+							}
 							display: {
-								Name: "{\"text\":\"Rusty Axe\"}"
+								Name: "{\"text\":\"Old Woodcutter's Axe\"}"
 							}
 						}
 					}
@@ -132,15 +172,15 @@
 				type: "item"
 			}]
 			title: "How much wood"
-			x: 0.0d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5FF18EB0CE40B71B"]
 			description: [
-				"So, you've gotten your bearings and some materials. Great job! But it's probably getting dark, isn't it? You'll want to keep your space lit. Not only will it help prevent &6&oeerie nightmares&r, but it will also be crucial when &4&o&lit&r comes for you."
-				"By far the easiest way to find light is &6&otorches&r, which you can craft with a stick and any sort of coal."
-				"You can make charcoal simply by burning logs. How convenient!"
+				"You've done well and gotten your bearings, but it's likely beginning to get dark, no? In this case, you'll want to keep your surroundings lit. Not only will it prevent hostile mobs from spawning, but it will also keep The Wilted at bay."
+				"I, Professor Larch, recommend &o&6torches&r as the quickest and easiest method. A stick and some sort of coal is the easiest way to craft them. &6&oIf you've not gone underground yet, charcoal can be made by burning wooden logs.&r"
+				"Something you will immediately notice is that holding items like torches visibly light the area around you without needing to be placed. Do note that this only helps you, and will not prevent things such as mobs."
 			]
 			hide_until_deps_visible: true
 			id: "4DFD059C412284D5"
@@ -157,6 +197,11 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					id: "3FD012A6F04F8F90"
+					item: "minecraft:lantern"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 4L
@@ -165,14 +210,15 @@
 				type: "item"
 			}]
 			title: "Light em up up up"
-			x: 0.0d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4DFD059C412284D5"]
 			description: [
-				"So, you've got wood and you've got light. Well done! I think we're safe to say you're about ready to make a home. Or maybe you don't wanna. Either way, a &o&6bed&r is important for sleeping through the harsh nights. But don't forget, sleeping out in the open or in dimly lit caverns is a recipe for &o&4nightmares&r."
-				"Here's a tip for you! You may find &o&6flax&r growing around your world. This nifty little plant can be used to make string, which can be used to make wool. Isn't that just cool?"
+				"Have you found a place to settle down? Even if temporary, a home is not a home without &6&oa bed to set your spawn and sleep through the night&r. Do note that &6&osleep is not always possible, whether from an event occuring that prevents it, or from nightmares,&r though that second one is easily combatted with a proper home and some light, maybe even a pet or two."
+				"Regardless, I, Professor Larch, am certain you will find your way through these harsh nights, and emerge from them even stronger than before."
+				"If you're struggling to find wool, I suggest you look for &6&owild flax or industrial hemp seeds&r. Both make for a plentiful supply of string."
 			]
 			hide_until_deps_visible: true
 			id: "05B83606164A1853"
@@ -205,14 +251,14 @@
 				type: "item"
 			}]
 			title: "Cozy and Comfortable"
-			x: 0.0d
+			x: -0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4DFD059C412284D5"]
 			description: [
-				"With the addition of FTB Chunks, you have the ability to &o&6claim land&r. Accessing the menu through your inventory will bring you to a small map of the immediate area. Using the left mouse button will let you claim chunks, and the right will unclaim them."
-				"Claimed chunks have a number of advantages, with one of the biggest being the inability for mobs to grief them. Perfect for a house you don't want broken down."
+				"[With the addition of FTB Chunks, you have the ability to &o&6claim land&r. Accessing the menu through your inventory will bring you to a small map of the immediate area. Using the left mouse button will let you claim chunks, and the right will unclaim them.]"
+				"[Claimed chunks have a number of advantages, with one of the biggest being the inability for mobs to grief them. Perfect for a house you don't want broken down.]"
 				"{image:tumblrbumblr:textures/quests/claim1.png width:156 height:90 align:center}"
 				"{image:tumblrbumblr:textures/quests/claim2.png width:156 height:90 align:center}"
 			]
@@ -233,22 +279,26 @@
 				type: "item"
 			}]
 			shape: "pentagon"
-			tasks: [{
-				id: "03F800E6AB0477FB"
-				title: "Learn about claims"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					amount: 300L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2A6FD4609EA73013"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "03F800E6AB0477FB"
+					title: "Learn about claims"
+					type: "checkmark"
+				}
+			]
 			title: "Home is where the claim is"
-			x: -1.0d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["05B83606164A1853"]
-			description: [
-				"You will no doubt encounter many structures along your adventures, some big, some small. With so much to find, it may feel like you're lost at times, and we don't want that."
-				"&o&6Waystones&r are a fantastic relic of old that allow for quick travel across large distances. Using one will allow you to travel to any other waystone you've discovered... for a modest fee, of course. But don't worry. It gets cheaper the farther you go."
-				"I &omay&r have one spare that I'd be willing to gift you, but I'd like to be sure you're the type to use it first. That's only fair, no?"
-			]
+			description: ["You've truly found your footing now. I, Professor Larch, could not be more proud. With that said, you can only experience so much in one place. Yes, you will no doubt want to explore the world, finding structures big and small. Still, the length of travel may be intimidating, but that is where &o&6Waystones&r will come in handy. An elegant relic for a more civilized age, you will be able to &6&oquickly travel between any waystones you've discovered&r. Still, doing so will cost you, though the cost will lessen the further away you are from your destination. With that said, I may have one to spare, if you'd show that you're the type who would get good use out of it."]
 			hide_until_deps_visible: true
 			icon: "waystones:waystone"
 			id: "149BF56B98224AAF"
@@ -290,12 +340,15 @@
 				value: 250
 			}]
 			title: "Don't lose your way(stone)"
-			x: 0.0d
+			x: -0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5FF18EB0CE40B71B"]
-			description: ["So you got some wood. Great job! You've done the mine, so now let's do the craft. I think you know how to make one of these, but if you don't, &o&6JEI&r can tell you virtually any recipe. Just go over to the right side of your screen."]
+			description: [
+				"If you're reading this, then you've gotten yourself a fair bit of wood. If not, stop reading ahead, and go back and get some."
+				"Now then, provided you've gotten the wood you were supposed to, I, Professor Larch, implore you to &6&ocreate a crafting table&r. You likely know how to make one of these, but if you don't, &o&6Just Enough Items, or JEI, can tell you virtually any recipe.&r Just go over to the right side of your screen. The bar at the bottom can be used to search for particular items."
+			]
 			hide_until_deps_visible: true
 			id: "6D9C812CBC680546"
 			rewards: [{
@@ -305,6 +358,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
+			subtitle: "Craft The Crafting Table To Craft More"
 			tasks: [{
 				id: "454116EDEFD4CA87"
 				item: "minecraft:crafting_table"
@@ -315,39 +369,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4DFD059C412284D5"]
-			description: ["One nice convenience of many lightsources is their &o&6dynamic nature&r. What this means is simple: When you hold a torch, lantern, or other light sources in your hands, the area around you will be lit, no need to place the block down!"]
-			hide_until_deps_visible: true
-			icon: "minecraft:lantern"
-			id: "6EEDE4E1054D5ABF"
-			optional: true
-			rewards: [
-				{
-					amount: 50L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "5E03B84D6DAE78E4"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "153223874AAD890C"
-					item: "minecraft:lantern"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				id: "4ED4E000CD2C572F"
-				title: "Learn about dynamic lights"
-				type: "checkmark"
-			}]
-			title: "Bonus: Light in your hands"
-			x: 1.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["6D9C812CBC680546"]
-			description: ["Another well known item you'll want to be sure to have is a furnace. This will let you cook food, smelt ores, and maybe even more. Who knew a ring of cobblestone could turn into such a useful tool."]
+			description: ["A crafting table is an excellent and vital block for sure, but you can only do so much with a 3x3 grid. Many times, you'll find you need something heated. That's where &o&6The Furnace&r comes into play. You'll want to have mined a ring of stone to craft it, and an entire world of possibilities will open for you. Will you cook? Smelt? Perhaps do more? I, Professor Larch, am excited to find out, even if this is a book I've pre-written for you."]
 			hide_until_deps_visible: true
 			id: "257AD50176950053"
 			rewards: [
@@ -394,10 +417,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["257AD50176950053"]
+			dependencies: ["3B7DF82593D5E9F1"]
 			description: [
-				"By now, I'm sure you've probably gotten a pretty full inventory, huh? Well not to worry, for we have the magical solution that is... &6&obackpacks&r."
-				"Indeed, these wonderful devices allow for portable storage, and can be upgraded as you grow stronger. Hopefully you've found some cows by now. If not, you'll need to find some source of leather. I've heard tales of shadowy wolves whose hide makes for a good base."
+				"Bundles are fantastic, but they can only do so much. At some point, you'll want more than they provide, perhaps an entirely new inventory? Well, I, Professor Larch, know of a way to achieve this. The solution you're looking for is &o&6A Backpack.&r"
+				"While more costly than a bundle, a basic backpack is like a chest you can carry around. Wait, those exist, don't they? In that other dimension? Well, not matter. Unlike said boxes, your backpack can be carried on, well, your back via the curios slot. You can quickly deposit an item by hovering the backpack over it and right clicking."
+				"Backpacks are capable of so much, but that isn't my subject to teach."
 			]
 			hide_until_deps_visible: true
 			id: "083FB6BC2C2D9609"
@@ -413,15 +437,15 @@
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			title: "Pockets? What are those?"
-			x: 2.0d
-			y: -1.0d
+			title: "Bags Of Holding"
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
 			description: [
-				"Feeling lonely in your travels? Perhaps it's time to find a friend. &m&0I miss my friend.&r"
-				"Well, it all starts with finding someone. I hear people like wolves."
+				"Feeling lonely in your travels? Perhaps a companion is what you need. For many, this means a pet, though for some it means... other entities."
+				"However, I, Professor Larch, am not one to judge another on their tastes. I will, however, suggest a wolf as a companion. They are very loyal creatures, and iconic for a reason."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -441,15 +465,14 @@
 				type: "advancement"
 			}]
 			title: "Need a friend?"
-			x: -1.5d
-			y: 0.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["51489406A1269085"]
 			description: [
-				"We all need sleep, and that includes our little friends. A &6&opet bed&r will act the same way for your pet that your own bed does for you! I-it will let them respawn... if they die..."
-				"... &0I miss you.&r"
-				"Well, let's not get off track! You'll know your pet has taken the bed when Zs appear over their head. Do note the pet will only respawn at dawn."
+				"We all need sleep, and that includes our little, or big, friends. A &6&opet bed&r will act the same way for your pet that your own bed does for you, &6&oletting them respawn if they die&r."
+				"I, Professor Larch, find this to be a true life saver. You'll know your pet has claimed the bed when Zs appear over their head. Do note the pet will only respawn at dawn."
 				"{image:tumblrbumblr:textures/quests/pet-bed.png width:156 height:90 align:center}"
 			]
 			hide_until_deps_visible: true
@@ -474,14 +497,14 @@
 				type: "item"
 			}]
 			title: "Pets Need Sleep, Too "
-			x: -2.5d
-			y: 0.0d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5B9D08BF34A3396B"]
 			description: [
-				"All good pets need a fitting name! While name tags get the job done, they aren't exactly accessible. To remedy this, we can craft a &6&ocollar tag&r. Not only does this act as a cheaper alternative to name tags, they can also be &oenchanted&r to give your pet a boost. Crouching will let you see the enchantments on your pet's current collar tag."
-				"{image: width:100 height:100 align:center}"
+				"All good pets need a fitting name! While name tags get the job done, they aren't exactly accessible. To remedy this, we can craft a &6&ocollar tag&r. Not only does this act as a cheaper alternative to name tags, they can also be &oenchanted&r to give your pet a boost. I, Professor Larch, am rather fond of the Charisma enchantment. Crouching will let you see the enchantments on your pet's current collar tag, and exchanging them is as simple as interacting with a second tag."
+				"{image:tumblrbumblr:textures/quests/collar-tag.png width:156 height:90 align:center}"
 			]
 			hide_until_deps_visible: true
 			id: "6DEED125538775FD"
@@ -498,16 +521,12 @@
 				type: "item"
 			}]
 			title: "Do They Have A Name?"
-			x: -3.5d
-			y: -0.5d
+			x: -5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
-			description: [
-				"Did you know there are other people in this world?"
-				""
-				"Villages are home to villagers. I guess that makes sense now, doesn't it? There are many types of villages in this world. Perhaps you can find one."
-			]
+			description: ["Nobody is truly alone in the world. Why, just look at the many settlements, villages, dotted around the world. I, Professor Larch, am amazed at the varrying style and scale some of these villages have. They tend to have Waystones, so you don't need to worry too much about the closest one being far, far away."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -533,17 +552,20 @@
 				type: "structure"
 			}]
 			title: "Villages to Venture"
-			x: 3.5d
-			y: 0.5d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["083FB6BC2C2D9609"]
+			dependencies: ["15ACD993630984F4"]
+			dependency_requirement: "one_completed"
 			description: [
-				"Do you have an excess of items, even with a nice bag and some chests? Well, have you considered selling your goods?"
-				"The &o&6shipping bin&r is a helpful block. By interacting with it, you can deposit all sorts of items and receive ancient coins in return. When midnight hits, you'll be alerted that the contents of the box have been bought and shipped off. Checking the box afterwards, you will see your earnings in its contents."
-				"Note that &onot all items are sellable&r, and some items like common ingredients may require more than one before receiving any purchase."
+				"I hear you. Even with a nice bag and some chests, the items just keep piling up. At some point, you need to get rid of them, so have you considered &o&6selling your goods?&r If you have, then I, Professor Larch, recommend investing in a &o&6shipping bin&r."
+				"Opening the bin, you'll find its inventory is much like a chest. &6&oSimply put in what you wish to sell, and when the clock strikes midnight, you will be notified of your earnings, which you can pick up next time you open it.&r"
+				"Note that &onot all items are sellable&r, and some items like common ingredients may require more than one to receive any profit."
 				"{image:tumblrbumblr:textures/quests/shipping-bin.png width:156 height:90 align:center}"
 			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "30ABD0E686F62848"
 			rewards: [{
 				amount: 130L
@@ -559,13 +581,13 @@
 			}]
 			title: "Ship It Off!"
 			x: 1.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["64084A2EAFBE2B7F"]
 			description: [
 				"Have you heard about illagers? Strange cousins to the villagers, and much less peaceful. You might come across a group of pillagers, but beware the one with a banner, for it will give you a nasty omen with its dying breath."
-				"&6&oVillage raids&r begin when a player with the Bad Omen effect enters a village. Waves of illagers will come seeking naught but destruction and death, and you'll need to help fend them off. Doing so has its rewards, as you'll be seen a hero in the eyes of the traders."
+				"&6&oVillage raids&r begin when a player with the Bad Omen effect enters a village. Waves of illagers will come seeking naught but destruction and death, and you'll need to help fend them off. Doing so has its rewards, as you'll be seen a hero in the eyes of the traders. I, Professor Larch, have received many a discount and gift for doing such a feat."
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -598,8 +620,8 @@
 				value: 1
 			}]
 			title: "Village Defense Squad"
-			x: 4.5d
-			y: 0.5d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7727C53B1B821455"]
@@ -620,14 +642,14 @@
 				value: 5
 			}]
 			title: "A True Hero of Green"
-			x: 5.5d
-			y: 0.5d
+			x: 6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["64084A2EAFBE2B7F"]
 			description: [
-				"Do you ever find yourself scouring the town to find that one specific villager you want to trade with? Well, no more!"
-				"The &o&6Trading Post&r is a block that connects to all nearby villagers, allowing you to access any trade from it. What's best is that you can even filter and search for more specific wants."
+				"Do you ever find yourself scouring the town to find that one specific villager you want to trade with? I, Professor Larch, know I do. And to that, I say, \"No more!\""
+				"The &o&6Trading Post&r is a block that connects to all nearby villagers, allowing you to access any trade from it. What's best is that you can even filter and search for more specific desires."
 			]
 			hide_until_deps_visible: true
 			id: "2CF72976CE0FE008"
@@ -643,7 +665,7 @@
 				type: "item"
 			}]
 			title: "Trading Central"
-			x: 3.0d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -651,7 +673,7 @@
 			id: "6582DCB124CE4A9F"
 			rewards: [{
 				id: "332401932C4398FF"
-				item: "kubejs:enchanted_soul_gem"
+				item: "tumblrbumblr:enchanted_soul_gem"
 				title: "It Won't Let You"
 				type: "item"
 			}]
@@ -673,12 +695,12 @@
 				type: "advancement"
 			}]
 			title: "You Won't Die"
-			x: 1.0d
-			y: 2.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["58E6B0A4E1DEA998"]
-			description: ["Notes? Yeah, you probably want to take some. Fortunately, a clip board makes that easy."]
+			description: ["With so much to do, even I, Professor Larch, struggle at times to keep track of things. Fortunately for people like us, there is the mighty &6&oClipboard&r. Using it is a simple matter and rather intuitive."]
 			hide_until_deps_visible: true
 			id: "3BEEBD80625364E4"
 			rewards: [{
@@ -693,12 +715,17 @@
 				item: "create:clipboard"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["257AD50176950053"]
-			description: ["There are &oa lot&r of mods in this pack, and many have guidebooks that you probably don't want to be carrying around all the time. That's where the &o&6Eccentric Tome&r comes into play. &6&oWith it, you can combine all your guide books into one by putting the tome and book in a crafting grid.&r I've gone ahead and put something together for you, so when you make yours, we can trade."]
+			dependencies: ["15ACD993630984F4"]
+			description: [
+				"You'll find many a guide book in your adventures. Even with quests, sometimes you want a bit of more traditional reading. But carrying all those books around can be a hassle. Luckily for you, I, Professor Larch, know of a quite... &6&oEccentric Tome&r."
+				"&6&oYou can combine this tome with any of your guide books in a crafting grid, and it will be added to the tome's chapters.&r From there, you simply right click with the tome to select the book you'd like to read. Hitting the air with the book in hand will return it to the tome.&r"
+				"I suggest you make your own, then if you'd like, I've gone ahead and put something together for you to trade."
+			]
+			hide_until_deps_complete: true
 			id: "58E6B0A4E1DEA998"
 			rewards: [{
 				id: "6A863A9B1787A9A3"
@@ -779,14 +806,15 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			title: "The Book of Babel"
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
 			description: [
-				"You may notice the gold rim around naturally found spawners. These are &oMultiplayer Spawners&r, and they have some interesting effects. Namely, &o&6when you break the spawner, it will disable it for you and you only.&r In other words, if someone new comes along, the spawner will still be active for them."
-				"Another thing to be aware of is that &o&6torches you place near spawners will extinguish after 10 minutes.&r"
+				"Exploring the world, you may notice a gold trim around Spawners. Indeed, these are Multiplayer Spawners, and they have some interesting effects. You will find that breaking it removes the trim, but not the block itself. In doing so, you have &o&6de-activated the spawner&r for yourself. It will no longer activate when you are around, but will still do so for others until they, too, deactivate it for themselves."
+				"I, Professor Larch, would also like to tell you that &o&6torches you place near spawners will extinguish after 10 minutes.&r Also, if you'd like to truly break the block for any reason, break it a second time and use the prompt in Chat."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -815,38 +843,14 @@
 				to_observe: "minecraft:spawner"
 				type: "observation"
 			}]
-			x: -2.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["05B83606164A1853"]
-			description: [
-				"Did you know? By putting a banner in a crafting grid with your bed, you can apply the pattern to it, much like you can a shield. This is purely aesthetic, but really nice for giving your home just that much more personality."
-				"If you ever want to remove the banner, simply put the bed in a crafting grid on its own."
-			]
-			hide_until_deps_complete: true
-			id: "1B61076D52268600"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:ancientcoins"
-				id: "3995166A6E7BA481"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "238E587545CE1FAB"
-				item: "bedspreads:decorated_bed"
-				type: "item"
-			}]
-			title: "A Bit More Personality"
-			x: -1.0d
+			x: -3.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
 			description: [
-				"Upon defeating a boss, you'll notice the creation of a &o&6Boss Rift&r. These rifts, when activated by interacting with or throwing an ender pearl at it, will begin gathering energy before &6&oteleporting all nearby entities to the home of the player who interacted with it.&r"
-				"Very useful for the end of a long trip capped off by a boss fight."
+				"If you've defeated a boss, you may notice the creation of a &o&6Boss Rift&r. These special rifts in space are activated by interacting with them, where they will gather energy before &6&oteleporting all nearby entities to the home of the player who interacted with it.&r"
+				"I, Professor Larch, find it to be very useful when capping off a long trip with a rather large fight."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -875,27 +879,45 @@
 				type: "observation"
 			}]
 			title: "A Rift In Time and Space"
-			x: -2.5d
+			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
 			description: [
-				"You've probably noticed some of the tabs above your inventory. I'd like to tell you about one in particular, The Skill Tree."
+				"[\"\",{\"text\":\"You want to get stronger, don't you? In that case, \",\"font\":\"alt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"You want to get stronger, don't you? In that case, look to the Skill Tree tab in your inventory, or press the assigned keybind (Default K).\"}},{\"font\":\"alt\",\"text\":\"look to the Skill Tree tab in your inventory\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"You want to get stronger, don't you? In that case, look to the Skill Tree tab in your inventory, or press the assigned keybind (Default K).\"}},{\"text\":\", or press the assigned keybind (Default K).\",\"font\":\"alt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"You want to get stronger, don't you? In that case, look to the Skill Tree tab in your inventory, or press the assigned keybind (Default K).\"}}]"
 				"{image:tumblrbumblr:textures/quests/skill-tree-tab.png width:150 height:90 align:center}"
 				"{@pagebreak}"
-				"Inside the Skill Tree, you will find a variety of boosts and abilities, or \"Skills\" if you'd like. When you level up, you'll gain &o&6Skill Points&r, which you can then spend on these Skills. Experience varies, but for the primary Skill Tree, &6&oit can be obtained through combat, enchanting, fishing, and mining&r."
+				"[\"\",{\"text\":\"Within the Skill Tree, you will find a variety of abilities, or \\\"Skills\\\" if you'd like. When you level up, you'll gain \",\"font\":\"alt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Within the Skill Tree, you will find a variety of abilities, or \\\"Skills\\\" if you'd like. When you level up, you'll gain Skill Points, which you can then spend on these Skills. Experience varies, but for the primary Skill Tree, it can be obtained through combat, enchanting, fishing, and mining.\"}},{\"text\":\"Skill Points\",\"font\":\"alt\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Within the Skill Tree, you will find a variety of abilities, or \\\"Skills\\\" if you'd like. When you level up, you'll gain Skill Points, which you can then spend on these Skills. Experience varies, but for the primary Skill Tree, it can be obtained through combat, enchanting, fishing, and mining.\"}},{\"text\":\", which you can then spend on these Skills. Experience varies, but for the primary Skill Tree, \",\"font\":\"alt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Within the Skill Tree, you will find a variety of abilities, or \\\"Skills\\\" if you'd like. When you level up, you'll gain Skill Points, which you can then spend on these Skills. Experience varies, but for the primary Skill Tree, it can be obtained through combat, enchanting, fishing, and mining.\"}},{\"text\":\"it can be obtained through combat, enchanting, fishing, and mining\",\"font\":\"alt\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Within the Skill Tree, you will find a variety of abilities, or \\\"Skills\\\" if you'd like. When you level up, you'll gain Skill Points, which you can then spend on these Skills. Experience varies, but for the primary Skill Tree, it can be obtained through combat, enchanting, fishing, and mining.\"}},{\"text\":\".\",\"font\":\"alt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Within the Skill Tree, you will find a variety of abilities, or \\\"Skills\\\" if you'd like. When you level up, you'll gain Skill Points, which you can then spend on these Skills. Experience varies, but for the primary Skill Tree, it can be obtained through combat, enchanting, fishing, and mining.\"}}]"
 				"{image:tumblrbumblr:textures/quests/skill-tree.png width:225 height:135 align:center fit:true}"
 			]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
-				id: "farmersdelight:skillet"
+				id: "ftbquests:custom_icon"
 				tag: {
-					Damage: 0
+					Icon: "tumblrbumblr:textures/quests/icons/skill-icon.png"
 				}
 			}
 			id: "309BB2C3143443F6"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4FB60872C8D22DFC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/puffish_skills points add @p adventurer_skills:adventurer_skills 1"
+					elevate_perms: true
+					icon: "goety:void_echo"
+					id: "1AD09E9DC9DDBF52"
+					silent: true
+					title: "A bit of power, passed on from another."
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "2E60C81A1F8CD20F"
@@ -903,8 +925,108 @@
 				type: "checkmark"
 			}]
 			title: "Skills and Thrills"
-			x: 1.0d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D9C812CBC680546"]
+			description: [
+				"Earlier, you'll recall that I, Professor Larch, talked about a wise man's quote, \"It all started with a tree, then an upgrade.\""
+				"Well, by now you've crafted a crafting table, and you've likely crafted a wooden pickaxe. But that's only going to get you so far, so now it is time for that upgrade. Three stones and two sticks will give you a stone pickaxe, capable of mining much more."
+				"Indeed, this is the progression of tiers. You'll find many cases of upgrades in forms such as this. Your next upgrade will likely be Iron, but that isn't for certain. After all, the beauty of this world comes from its freedom."
+			]
+			id: "1F64A9564AC6EC77"
+			optional: true
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7CF4FC65FBAFA9FC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft a Stone pickaxe"
+			tasks: [{
+				id: "5C7D41F240F8E9BA"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tree Finished, Now An Upgrade"
+			x: 1.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			description: [
+				"I'm sure you've filled your pockets with all sorts of blocks and knick knacks. Well, do not fear, for I, Professor Larch, will teach you about &6&obundles&r."
+				"Bundles are fantastic little pouches that can hold up to a stack's worth of items. &6&oTo store an item hover the bundle over it and left click, or do the opposite and click the bundle with an item. To retrieve an item, hover over the bundle and scroll to the item you wish to take, then right click.&r"
+				"It should be known, however, that bundles have their limits. &6&oItems with stack sizes of less than 64 will take up more space in a bundle, such as a potion taking 4 of bundle's 64 slots due to its stack size of 16.&r A bundle can only carry one of any item that does not stack."
+				"Bundles are very useful, and you can carry up to two on your person via the curios slots."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3B7DF82593D5E9F1"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "43751CBC261139C2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0F7513BD5A887ABF"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			title: "Extra Pockets"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["257AD50176950053"]
+			description: ["There are two possible \"upgrades\" for the furnace, each pertaining to a certain function. The &6&oBlast Furnace&r is one of these upgrades, pertaining to smelting down ores and metals. With the Blast Furnace, &6&oany raw metals or ores you put in will be processed much quicker than a typical furnace&r, but you will not be able to put any other items in, such as food. For that, you need the other option."]
+			id: "0A8BB0E2C6DB515A"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "30DA0B354EBEE4B4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0F3F1A2845367FE7"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "What a Blast!"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["257AD50176950053"]
+			description: ["There are two possible \"upgrades\" for the furnace, each pertaining to a certain function. The &6&oSmoker&r is one of these upgrades, pertaining to cooking various meat and vegetables. With a Smoker, &6&oany raw foods you put in will be processed much quicker than a typical furnace&r, but you will not be able to put any other items in, such as stone or ores. For that, you need the other option."]
+			id: "2DDC9022F2D0B78E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1B7AE174AD8017DB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "I don't name my own lessons, okay?"
+			tasks: [{
+				id: "5FEC899CFE5C738B"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			title: "Smoking Sexy Style"
+			x: 3.0d
+			y: -0.5d
 		}
 	]
 	title: "Fresh Beginnings"

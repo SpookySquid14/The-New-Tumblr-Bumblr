@@ -3,6 +3,13 @@
 	default_quest_shape: "pentagon"
 	filename: "apothic_adventures"
 	group: "1CE580FB33A3818E"
+	icon: {
+		Count: 1
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "apotheosis:apoth_chronicle"
+		}
+	}
 	id: "266180B8179705EE"
 	order_index: 0
 	quest_links: [ ]
