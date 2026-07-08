@@ -81050,11 +81050,6 @@ hash = "f0a916198024b86d1ace79df7a7f3062f241639b6a3a42638bef98669ed098dc"
 metafile = true
 
 [[files]]
-file = "mods/pretty-rain.pw.toml"
-hash = "6f8fdc8cca43e30ff9820778c8f61b288bebc33747a0333114cdb5f390c0b9aa"
-metafile = true
-
-[[files]]
 file = "mods/prism-lib.pw.toml"
 hash = "fadcf45176d1c63d89bbb820a376ef7af2cb1ddd83e36456c5d8b809d2116e8e"
 metafile = true
