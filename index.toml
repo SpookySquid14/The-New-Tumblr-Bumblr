@@ -834,7 +834,7 @@ hash = "94e633e170b101317b10447b0015fac4425c1f704ca0450baf429711c9127d2e"
 
 [[files]]
 file = "config/apotheosis/adventure.cfg"
-hash = "ef8952c0d32900193259466ad01b90e2b2971c4d20c88f6a983355333338ae57"
+hash = "92f765deadde559927e89cb7169890a22e3daecc906ba54db3b9c3ade49d31e4"
 
 [[files]]
 file = "config/apotheosis/apotheosis.cfg"
@@ -68942,7 +68942,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a1bdea71534347eddd95b74c832ff6aaf3b756fbc523a445a969485b8600f209"
+hash = "b35a9559f5dbde601bdcf08c9dc0df7307936cbafaed5d0b29e29d652592acfe"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69974,7 +69974,7 @@ hash = "e49c1dca7154f098dc5cb6574bfa378e9ca5f8370503ecd8eccc8633a7f2b5eb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/clanging_howl.snbt"
-hash = "c9823a8bef036749d2553ca65d39ac458216aa913a87b8a4814f8721794ee927"
+hash = "afd2c786539fcabcdf53e05c1897492587f9b5e117c294ef86a2c679aad567ad"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
@@ -70006,7 +70006,7 @@ hash = "a843c9125a6fae849cbb87da64b7b7a267c05f352dfb06534ebf3b668000823b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "3f44543e16d4bc00d7a2e59f3ad05a669d61b2c6f568f73c5c582c2346a753fe"
+hash = "e792b180bfa7d428813497d567694072a86f6c90b3f8dead021662f7ac047755"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
@@ -70886,7 +70886,7 @@ hash = "5d7a1f57418d691316d231b686a799c24f370b7c7a1b45bdf4fd737c4d06aad5"
 
 [[files]]
 file = "config/jei/world/local/TREE/lookupHistory.ini"
-hash = "5aafe24ff384104fab69042e1df6cc413e10c7a0b8c031c92bbdf0a4f12afa49"
+hash = "98ae62c71cd575f408a5fcf0a8ee7c9cbab6ddb91fe6e355eec82506cf84c144"
 
 [[files]]
 file = "config/jei/world/local/Tectonic_1/lookupHistory.ini"
@@ -71106,7 +71106,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "3bf81fcbf5951ff5df5172543c3878fecd5ee329656a35a5b9fb48570dfd3abf"
+hash = "c89bd7a594ce4bbebef3aca01bc970350e475aab97349225191f4d4350f97387"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71358,7 +71358,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "eabe9e554cc1e658c60cc0590f23bf7d1d0c0d579f9772c48c1d231458c8d165"
+hash = "eb0dae9c86bdc42cc413824afc1ef90af0a15341b1aae862e5f5a06fa127f4bb"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71374,7 +71374,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "3eb994b7910c6cb3f1ec32a82860303ce3db91932bcde8d2bd34072e59da3979"
+hash = "dcb41f48c4ad638d71e6df847f9c8302d17f67676a0186a0322d99cec17e7ad5"
 
 [[files]]
 file = "config/pal.properties"
@@ -73038,7 +73038,7 @@ hash = "a19d088435d6334295d34fcf23fd2bd181a071a637ceb37cfd0dfdfb32312c56"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "830a50713f3d3582a9cad5bbd9f7e46fef35e8943aa020c64e9fadbb7f728aa5"
+hash = "d09e1907bfc37728a2db6769b8e37e0a83da532bbd53500b0a681a7cdaa03caf"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -73462,7 +73462,7 @@ hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/copper_boots.json"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "5fc798af4b7d55b6889b2b7984dcde9686a2088f4bb9917c08bbea125eaa47f5"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/copper_chestplate.json"
@@ -73474,7 +73474,7 @@ hash = "c9c05a9ad9905d0134722792e723b0a0a31b03cb26fb3d736ed1c9bf1d1cc439"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/copper_leggings.json"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "8a509f5e0c07a79ed20607cefcb391e8440daa0bf3e745c18c2199a163b38700"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/items/copper_axe.png"

@@ -434,7 +434,39 @@
 			}]
 			tasks: [{
 				id: "1D31C6B22E0DE734"
-				item: "sophisticatedbackpacks:backpack"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:copper_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:iron_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:gold_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:diamond_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:netherite_backpack"
+							}
+						]
+					}
+				}
+				title: "Backpack"
 				type: "item"
 			}]
 			title: "Bags Of Holding"

@@ -30,13 +30,20 @@
 			id: "0B2C4ACAE75F106F"
 			min_width: 300
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/extraterrestrial_pebble.png"
+					}
+				}
 				id: "3060B863D679CBB4"
 				item: "clanginghowl:extraterrestrial_pebble"
 				type: "item"
 			}]
 			title: "clanging_howl.jv"
-			x: -4.5d
-			y: 0.0d
+			x: -6.5d
+			y: -8.0d
 		}
 		{
 			description: [
@@ -62,6 +69,11 @@
 				"In addition to its strong defense, one worker was spat at by a strange &lneurotoxin which seemed to slowly eat away at the his health. Active movement seemed to increase only its effect.&r"
 			]
 			id: "1121523438B3BF2B"
+			rewards: [{
+				id: "6C7A180895B0B76E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -78,8 +90,8 @@
 				type: "observation"
 			}]
 			title: "ch-001 \"Heart Of Decay\""
-			x: -5.5d
-			y: -1.0d
+			x: -6.5d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -109,8 +121,8 @@
 				type: "observation"
 			}]
 			title: "ch-002 \"Extraterrestrial Reaper\""
-			x: -5.5d
-			y: -2.0d
+			x: -6.5d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -138,15 +150,15 @@
 				type: "observation"
 			}]
 			title: "ch-003 \"Flesh Maiden\""
-			x: -5.5d
-			y: -3.0d
+			x: -6.5d
+			y: -5.0d
 		}
 		{
 			description: [
-				"bishop@romulus:~$ cat ext_steel.jv"
+				"bishop@romulus:~$ cat ext_stl_smp.jv"
 				"------------------------------"
 				"___Report Date: 1982-06-25___"
-				"Unknown metal taken from sites of meteor showers alongside rocks. Analysis of small samples reveal a structure similar in shape to that of steel. Properties yet to be fully analyzed. A larger sample may be required."
+				"An unknown metal was taken from sites of meteor showers alongside small rocks and a living specimen. Analysis of small samples revealed a structure similar in shape to that of steel. Properties have yet to be fully analyzed. A larger sample may be required."
 			]
 			id: "74B74B738FDAA691"
 			tasks: [{
@@ -154,9 +166,9 @@
 				item: "clanginghowl:piece_of_extraterrestrial_steel"
 				type: "item"
 			}]
-			title: "ext_steel.jv"
-			x: -3.5d
-			y: 0.0d
+			title: "ext_stl_smp.jv"
+			x: -5.5d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -186,7 +198,7 @@
 				type: "observation"
 			}]
 			title: "ch-004 \"Hematoma\""
-			x: -5.5d
+			x: -6.5d
 			y: -4.0d
 		}
 		{
@@ -216,8 +228,8 @@
 				type: "observation"
 			}]
 			title: "ch-005 \"Blood Spreader\""
-			x: -5.5d
-			y: -5.0d
+			x: -6.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -244,14 +256,16 @@
 				type: "observation"
 			}]
 			title: "ch-006 \"Prowler\""
-			x: -5.5d
-			y: -6.0d
+			x: -6.5d
+			y: -2.0d
 		}
 		{
 			description: [
 				"kane@remus:~$ cat ch-007.jv"
 				"Indentifier: ch-007 | Informal Name: Carcass"
 				"-------------------------------------------"
+				"After infecting a polar bear at site Remus, the resulting ch-007 showed to be passive at first. Unlike its cousin, ch-006, ch-007 did not outright attack researchers. Instead, it showed interest in infection, &lattempting to cover other creatures with a large volley of what appeared to be blood&r. When this did not work, or when presented with something immune to infection, its projectiles &ltook on a new, more directly dangerous form&r."
+				"Over time, researchers began to notice growth in ch-007. While not immediately noticed, the timing was shown to line up with the deaths of other subjects. It appeared that &lwhen a technoflesh creature died near ch-007, it would increase in size and strength&r."
 			]
 			id: "47932CAA0EC704F4"
 			tasks: [{
@@ -270,8 +284,668 @@
 				type: "observation"
 			}]
 			title: "ch-007 \"Carcass\""
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74B74B738FDAA691"]
+			description: [
+				"bishop@romulus:~$ cat ext_stl.jv"
+				"------------------------------"
+				"A rather large sample of the unknown metal was brought in to be investigated. Research showed more similarities to our own steel ore, however its structure does not appear to resemble an alloy of any kind known to us. We expect more samples in the future as more meteor showers occur."
+			]
+			id: "39F18BD5E09298CE"
+			tasks: [{
+				id: "67C34BF01EC577C4"
+				item: "clanginghowl:extraterrestrial_steel"
+				type: "item"
+			}]
+			title: "ext_stl.jv"
 			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["39F18BD5E09298CE"]
+			description: [
+				"bishop@romulus:~$ cat ext_steel_ingot.jv"
+				"------------------------------"
+				"Researchers managed to gather enough of the unknown metal to forge into an ingot. The heat appeared to have set off some sort of chemical reaction. Those working on the project have been recorded as feeling sick. For safety reasons, they have since been quarantined."
+			]
+			id: "4E17A7CEDA5CA534"
+			tasks: [{
+				id: "325CB19D1CADC1E3"
+				item: "clanginghowl:extraterrestrial_steel_ingot"
+				type: "item"
+			}]
+			title: "ext_stl_ing.jv"
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E17A7CEDA5CA534"]
+			description: [
+				"bishop@romulus:~$ cat ext_steel_tool.jv"
+				"------------------------------"
+				"Researchers and forges worked to put together a complete set of tools using the unknown metal, ch-101, informally referred to as Extraterrestrial Steel. Like the weapons also forged, the metal proved effective in &lbypassing the natural resistance of technoflesh organisms&r."
+				"The tools themselves prove powerful, easily matching diamond tools in strength but not in durability."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "clanginghowl:item/extraterrestrial_pickaxe"
+				}
+			}
+			id: "61D9F90B24B0679C"
+			tasks: [
+				{
+					id: "6798D259189F1541"
+					item: {
+						Count: 1
+						id: "clanginghowl:extraterrestrial_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7495AF8312B91ABC"
+					item: {
+						Count: 1
+						id: "clanginghowl:extraterrestrial_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FA7E594073226DF"
+					item: {
+						Count: 1
+						id: "clanginghowl:extraterrestrial_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "336532235674A5B9"
+					item: {
+						Count: 1
+						id: "clanginghowl:extraterrestrial_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "ext_steel_tool.jv"
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4E17A7CEDA5CA534"]
+			description: [
+				"bishop@romulus:~$ cat ext_steel_weapon.jv"
+				"------------------------------"
+				"Researchers and forges worked to put together a sword using the unknown metal, ch-101, informally referred to as Extraterrestrial Steel. The sword's irradiating effect was contained, only truly affected those it damaged. A hammer was also forged, and proved to be rather powerful."
+				"In addition to its raw strength and irradiating effects, the weapons &lbypassed the natural armor of technoflesh organisms&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "clanginghowl:item/extraterrestrial_sword"
+				}
+			}
+			id: "38AF1FEE0E819D16"
+			tasks: [
+				{
+					id: "573C184ADFBBFE2C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fallen_gems_affixes:augment_capability": {
+								Augments: [{
+									Test: "test"
+								}]
+							}
+						}
+						id: "clanginghowl:extraterrestrial_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75AE3BCDDC97D370"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fallen_gems_affixes:augment_capability": {
+								Augments: [{
+									Test: "test"
+								}]
+							}
+						}
+						id: "clanginghowl:extraterrestrial_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "ext_steel_weapon.jv"
+			x: -3.5d
 			y: -7.0d
+		}
+		{
+			dependencies: ["4E17A7CEDA5CA534"]
+			description: [
+				"kane@remus:~$ cat ext_stl_nug.jv"
+				"------------------------------"
+				"Researchers have begun trialing new ways to use the extraterrestrial steel. In this pursuit, they have carved away at the ingots forged to make more use out of it."
+			]
+			id: "1E85DF6B80F62A89"
+			tasks: [{
+				id: "4792320CB68A8D32"
+				item: "clanginghowl:extraterrestrial_steel_nugget"
+				type: "item"
+			}]
+			title: "ext_stl_nug.jv"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat bat-adv.jv"
+				"------------------------------"
+				"A rechargeable battery, the extraction team found several on the persons of deceased researchers and tecnicians from Site Romulus. There were no traces of prints describing their creation, but also nothing to suggest they were created on-site. &lIt is possible other facilities may have these.&r"
+			]
+			id: "57E6AD8682F2624A"
+			tasks: [{
+				id: "1B46CD8224992EED"
+				item: {
+					Count: 1
+					id: "clanginghowl:advanced_energy_battery"
+					tag: {
+						Energy: 12000
+						"Max Energy": 12000
+					}
+				}
+				type: "item"
+			}]
+			title: "bat-adv.jv"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat cry-nrg.jv"
+				"------------------------------"
+				"At the site of a large meteor, researchers were able to extract crystals that seemed to glow with energy. Large samples have been taken, and more continue to as more meteors are found."
+			]
+			id: "3607F8E9C8F3C7FF"
+			tasks: [{
+				count: 5L
+				id: "0B78C7D84F828B39"
+				item: "clanginghowl:extraterrestrial_energy_crystal"
+				type: "item"
+			}]
+			title: "cry-nrg.jv"
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3607F8E9C8F3C7FF"]
+			description: [
+				"kane@remus:~$ cat crys_gen.jv"
+				"------------------------------"
+				"After numerous failed attempts, researchers succeeded in cryogenically creating a renewable source of the energy crystals required to create many of the newer creations. The area around the machine was deathly cold, however, and required careful extraction. This has opened up a new realm of possibilities."
+			]
+			id: "03D9CFFF0388FBE2"
+			tasks: [{
+				id: "72F4BECEEABE16D6"
+				item: "clanginghowl:crystal_former"
+				type: "item"
+			}]
+			title: "crs_gen.jv"
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat adv-elc.jv"
+				"------------------------------"
+				"During the cleanup of Site Romulus, extraction team members found various electronics, fragile and of which the notes to recreate seem to have perished with its creators."
+			]
+			id: "144A97870616A8AC"
+			tasks: [{
+				id: "305A60003FE1AE3E"
+				item: "clanginghowl:advanced_electronics"
+				type: "item"
+			}]
+			title: "adv_elc.jv"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3607F8E9C8F3C7FF"]
+			description: [
+				"kane@remus:~$ cat bat-sml.jv"
+				"------------------------------"
+				"Using the energy crystals recovered from fallen meteorites and extraterrestrial steel, technicians have put together a special type of battery capable of charging devices made with these extraterrestrial materials."
+			]
+			id: "08DB736B07836F38"
+			tasks: [{
+				id: "3AF83400A1A79D47"
+				item: {
+					Count: 1
+					id: "clanginghowl:energy_battery"
+					tag: {
+						Energy: 2000
+						"Max Energy": 2000
+					}
+				}
+				type: "item"
+			}]
+			title: "bat-sml.jv"
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["08DB736B07836F38"]
+			description: [
+				"kane@remus:~$ cat bat-lrg.jv"
+				"------------------------------"
+				"Using the energy crystals recovered from fallen meteorites and extraterrestrial steel, researchers have put together a special type of battery capable of charging "
+			]
+			id: "38452E4AC25370A3"
+			tasks: [{
+				id: "123D6EA3D627C546"
+				item: {
+					Count: 1
+					id: "clanginghowl:energy_intensive_battery"
+					tag: {
+						Energy: 7000
+						"Max Energy": 7000
+					}
+				}
+				type: "item"
+			}]
+			title: "bat-lrg.jv"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat chah-06.jv"
+				"------------------------------"
+			]
+			id: "09D3034F4376724E"
+			tasks: [{
+				id: "40D1BAFB030A2991"
+				item: {
+					Count: 1
+					id: "clanginghowl:advanced_hand_drill"
+					tag: {
+						Energy: 3000
+						"Max Energy": 3000
+					}
+				}
+				type: "item"
+			}]
+			title: "CHAH-06 \"Advanced Hand Drill\""
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat chac-10.jv"
+				"------------------------------"
+			]
+			id: "0CBA6857AD661F3C"
+			tasks: [{
+				id: "4965D82F7599692B"
+				item: {
+					Count: 1
+					id: "clanginghowl:advanced_chainsaw"
+					tag: {
+						Energy: 3000
+						"Max Energy": 3000
+					}
+				}
+				type: "item"
+			}]
+			title: "CHAC-10 \"Advanced Chainsaw\""
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat chac-7.5.jv"
+				"------------------------------"
+			]
+			id: "00B6C41B39C403E9"
+			tasks: [{
+				id: "26B12E699C228BEA"
+				item: {
+					Count: 1
+					id: "clanginghowl:advanced_chainsword"
+					tag: {
+						Energy: 1500
+						"Max Energy": 1500
+					}
+				}
+				type: "item"
+			}]
+			title: "CHAC-7.5 \"Advanced Chainsword\""
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat .jv"
+				"------------------------------"
+			]
+			id: "550F3C0585F44DCC"
+			tasks: [{
+				id: "6550A63C1B2050C9"
+				item: "clanginghowl:stationary_charging_station"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat ptb_chr.jv"
+				"------------------------------"
+				"Due to the power hungry nature of the Advanced Series of items, technicians were tasked with creating a portable power source. The finalized design was a success. &lBy depositing batteries inside the charger's inventory, it will passively recharge any advanced items in inventory.&r"
+			]
+			id: "48DE59E5EA690CE1"
+			tasks: [{
+				id: "6C67DC728567C6D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 6
+						}
+					}
+					id: "clanginghowl:portable_charger"
+				}
+				type: "item"
+			}]
+			title: "ptb_chr.jv"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat .jv"
+				"------------------------------"
+			]
+			id: "5E209C436D651716"
+			tasks: [{
+				id: "68CE0D77AE221BA1"
+				item: "clanginghowl:barrier_of_extraterrestrial_activity"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat .jv"
+				"------------------------------"
+			]
+			id: "54EDC18D9EC77ADA"
+			tasks: [{
+				id: "3DE8739F05F5ED4A"
+				item: "clanginghowl:flame_spewer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat .jv"
+				"------------------------------"
+			]
+			id: "781F913DAC8B393B"
+			tasks: [{
+				id: "1FB7039F7D65FC69"
+				item: "clanginghowl:extraterrestrial_activity_radar"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat .jv"
+				"------------------------------"
+			]
+			id: "7911F84EA2E2FDA6"
+			tasks: [{
+				id: "4D314BE3670C7387"
+				item: "clanginghowl:motion_sensor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3607F8E9C8F3C7FF"]
+			description: [
+				"kane@remus:~$ cat ful-blz.jv"
+				"------------------------------"
+				"Created by combining an energy crystal with blaze powder, &lBlaze Fuel&r harnesses the energy of The Nether itself to burn at extrodinarily high temperatures"
+			]
+			id: "4654D02DBE4CCB87"
+			tasks: [{
+				id: "3B466B6B5B9467F5"
+				item: "clanginghowl:blaze_fuel"
+				type: "item"
+			}]
+			title: "ful-blz.jv"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3607F8E9C8F3C7FF"]
+			description: [
+				"kane@remus:~$ cat ful-cry.jv"
+				"------------------------------"
+				"Researchers noticed the energy crystals had an affinity towards colder climate. When fully encased, they provided Cryogenic Fuel, a deathly cold substance."
+			]
+			id: "77CF8C796B164B27"
+			tasks: [{
+				id: "39504DE214905462"
+				item: "clanginghowl:cryogenic_fuel"
+				type: "item"
+			}]
+			title: "ful-cry.jv"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat .jv"
+				"------------------------------"
+			]
+			id: "236A8CD55E52C733"
+			tasks: [{
+				id: "306F9F8D0E01D2CD"
+				item: "clanginghowl:blaze_fuel_cylinder"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"kane@remus:~$ cat .jv"
+				"------------------------------"
+			]
+			id: "3E70BA3755614508"
+			tasks: [{
+				id: "426B1A2AD19E2438"
+				item: {
+					Count: 1
+					id: "clanginghowl:flamethrower"
+					tag: {
+						Fuel: 1600
+						"Max Fuel": 1600
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "20691A89F76AAF2A"
+			tasks: [{
+				id: "32EE8B7E1D2B202E"
+				title: "Reminder to go back theough file anmes"
+				type: "custom"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "4EE9E84C828A9D70"
+			tasks: [{
+				id: "25CAAD96563C65F4"
+				item: "clanginghowl:battery_panel"
+				type: "item"
+			}]
+			title: "bat_pnl"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "517C023BA8F2CE58"
+			tasks: [{
+				id: "33CEA1BFC2DEC097"
+				item: {
+					Count: 1
+					id: "clanginghowl:x_ray_goggles"
+					tag: {
+						Activated: 1b
+						Energy: 2000
+						"Max Energy": 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			id: "3D0C52219AD8860E"
+			tasks: [{
+				id: "1163C120519FDEAA"
+				item: {
+					Count: 1
+					id: "clanginghowl:energy_barrier_generator"
+					tag: {
+						Energy: 1500
+						"Max Energy": 1500
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "44FC5F13D63E4BD2"
+			tasks: [{
+				id: "2F9D0EA60667CB8B"
+				item: {
+					Count: 1
+					id: "clanginghowl:tendon_strengthener"
+					tag: {
+						Energy: 2000
+						"Max Energy": 2000
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "731B4F00F1A94F19"
+			tasks: [{
+				id: "05E30C01429038B9"
+				item: {
+					Count: 1
+					id: "clanginghowl:energy_glove"
+					tag: {
+						Energy: 1500
+						"Max Energy": 1500
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "3ACC16304CD0C121"
+			tasks: [{
+				id: "5BC2694D4577E7DC"
+				item: {
+					Count: 1
+					id: "clanginghowl:jet_boots"
+					tag: {
+						Fuel: 1500
+						"Max Fuel": 1500
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "0A02AC6534B3BE3F"
+			tasks: [{
+				id: "4C833F270ED34E6D"
+				item: "clanginghowl:bloody_battery"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "513C7D4E29043CD5"
+			tasks: [{
+				id: "28AF7407B670CACC"
+				item: {
+					Count: 1
+					id: "clanginghowl:reanimator"
+					tag: {
+						Energy: 1000
+						"Max Energy": 1000
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
 		}
 	]
 	title: "Clanging Howl"
