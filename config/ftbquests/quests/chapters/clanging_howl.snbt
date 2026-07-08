@@ -29,6 +29,21 @@
 			]
 			id: "0B2C4ACAE75F106F"
 			min_width: 300
+			rewards: [{
+				amount: 10L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "6A199CAD5099F577"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -47,20 +62,6 @@
 		}
 		{
 			description: [
-				"Old school terminal"
-				"icons are the spawn eggs but black and white like programs"
-			]
-			id: "0A7B7E9FE70A69F8"
-			tasks: [{
-				id: "783570D69395701D"
-				title: "Theme"
-				type: "custom"
-			}]
-			x: -6.0d
-			y: 1.5d
-		}
-		{
-			description: [
 				"bishop@romulus:~$ cat ch-001.jv"
 				"Indentifier: ch-001 | Informal Name: Heart of Decay"
 				"-------------------------------------------"
@@ -70,9 +71,19 @@
 			]
 			id: "1121523438B3BF2B"
 			rewards: [{
-				id: "6C7A180895B0B76E"
-				type: "xp"
-				xp: 100
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "2ECE67B9D072E38D"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
 				icon: {
@@ -105,6 +116,21 @@
 				"Some are wondering if it may be possible to create something harnessable using the metal from subjects ch-001 and ch-002."
 			]
 			id: "0DD280488B9BE843"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "0FA87E049105DB6C"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -134,6 +160,21 @@
 				"Completely hostile, ch-003 attempted to attack the team members with its arms. When that had no visible result, Dr. Weaver attempted a better look through the glass, only for ch-003 to &lstrike with what resembled a long whip-like tongue&r."
 			]
 			id: "1428DFC072CD4426"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "6BF975D4A93B318A"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -161,7 +202,29 @@
 				"An unknown metal was taken from sites of meteor showers alongside small rocks and a living specimen. Analysis of small samples revealed a structure similar in shape to that of steel. Properties have yet to be fully analyzed. A larger sample may be required."
 			]
 			id: "74B74B738FDAA691"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "45DC589B28B68A79"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/extraterrestrial_steel_nugget.png"
+					}
+				}
 				id: "3C3BC4D57CF547C1"
 				item: "clanginghowl:piece_of_extraterrestrial_steel"
 				type: "item"
@@ -182,6 +245,21 @@
 				"Previous theories proved true when ch-004 was killed by a captured skeleton. Upon its death, ch-004 exploded, relasing a splash of blood that came into contact with a researcher's wolf, infecting it, and giving birth to ch-005"
 			]
 			id: "7CF4BBE81E1A7D4A"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "3A614BAF858AACBC"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -212,6 +290,21 @@
 				"Reviewed security footage showed ch-005 attacking researchers, often retreating after each attack before returning. Reviewers noticed that &lwhen it attacked or took damage, ch-005 released what appeared to be blood clots.&r After a small collection had been left and not destroyed, &lit howled and the clots took on a life of their own as copies of the original&r. Designated ch-005-1, these copies were weaker than the original, but also showed the ability to leave blood clots, though it was unable to create more ch-005-1. &lThe ability seems to only be present in the original cs-005.&r"
 			]
 			id: "5B76548804FFB620"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "4F0A14AD2DB5A2F1"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -240,6 +333,21 @@
 				"ch-006's body contains canisters with a substance similar to that of ch-001's projectiles, &lapplying the same neurotoxin effect to another when slashed with its claws or tail&r."
 			]
 			id: "708BF47743F07494"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "15CD82034032DED9"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -268,6 +376,21 @@
 				"Over time, researchers began to notice growth in ch-007. While not immediately noticed, the timing was shown to line up with the deaths of other subjects. It appeared that &lwhen a technoflesh creature died near ch-007, it would increase in size and strength&r."
 			]
 			id: "47932CAA0EC704F4"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "016EDC50B340D136"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -295,7 +418,29 @@
 				"A rather large sample of the unknown metal was brought in to be investigated. Research showed more similarities to our own steel ore, however its structure does not appear to resemble an alloy of any kind known to us. We expect more samples in the future as more meteor showers occur."
 			]
 			id: "39F18BD5E09298CE"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "3F06EDC5C8E8B6CD"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/extraterrestrial_steel.png"
+					}
+				}
 				id: "67C34BF01EC577C4"
 				item: "clanginghowl:extraterrestrial_steel"
 				type: "item"
@@ -307,12 +452,34 @@
 		{
 			dependencies: ["39F18BD5E09298CE"]
 			description: [
-				"bishop@romulus:~$ cat ext_steel_ingot.jv"
+				"bishop@romulus:~$ cat ext_stl_ing.jv"
 				"------------------------------"
 				"Researchers managed to gather enough of the unknown metal to forge into an ingot. The heat appeared to have set off some sort of chemical reaction. Those working on the project have been recorded as feeling sick. For safety reasons, they have since been quarantined."
 			]
 			id: "4E17A7CEDA5CA534"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "681170FF09DF2B76"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/extraterrestrial_steel_ingot.png"
+					}
+				}
 				id: "325CB19D1CADC1E3"
 				item: "clanginghowl:extraterrestrial_steel_ingot"
 				type: "item"
@@ -324,7 +491,7 @@
 		{
 			dependencies: ["4E17A7CEDA5CA534"]
 			description: [
-				"bishop@romulus:~$ cat ext_steel_tool.jv"
+				"bishop@romulus:~$ cat ext_stl_tol.jv"
 				"------------------------------"
 				"Researchers and forges worked to put together a complete set of tools using the unknown metal, ch-101, informally referred to as Extraterrestrial Steel. Like the weapons also forged, the metal proved effective in &lbypassing the natural resistance of technoflesh organisms&r."
 				"The tools themselves prove powerful, easily matching diamond tools in strength but not in durability."
@@ -333,10 +500,25 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "clanginghowl:item/extraterrestrial_pickaxe"
+					Icon: "tumblrbumblr:textures/quests/icons/extraterrestrial_pickaxe.png"
 				}
 			}
 			id: "61D9F90B24B0679C"
+			rewards: [{
+				amount: 300L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "477B55892578A1FA"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [
 				{
 					id: "6798D259189F1541"
@@ -383,14 +565,14 @@
 					type: "item"
 				}
 			]
-			title: "ext_steel_tool.jv"
+			title: "ext_stl_tol.jv"
 			x: -3.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["4E17A7CEDA5CA534"]
 			description: [
-				"bishop@romulus:~$ cat ext_steel_weapon.jv"
+				"bishop@romulus:~$ cat ext_stl_wpn.jv"
 				"------------------------------"
 				"Researchers and forges worked to put together a sword using the unknown metal, ch-101, informally referred to as Extraterrestrial Steel. The sword's irradiating effect was contained, only truly affected those it damaged. A hammer was also forged, and proved to be rather powerful."
 				"In addition to its raw strength and irradiating effects, the weapons &lbypassed the natural armor of technoflesh organisms&r."
@@ -399,10 +581,17 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "clanginghowl:item/extraterrestrial_sword"
+					Icon: "tumblrbumblr:textures/quests/icons/extraterrestrial_sword.png"
 				}
 			}
 			id: "38AF1FEE0E819D16"
+			rewards: [{
+				amount: 160L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "56881D11E31EB39F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [
 				{
 					id: "573C184ADFBBFE2C"
@@ -441,7 +630,7 @@
 					type: "item"
 				}
 			]
-			title: "ext_steel_weapon.jv"
+			title: "ext_stl_wpn.jv"
 			x: -3.5d
 			y: -7.0d
 		}
@@ -453,7 +642,29 @@
 				"Researchers have begun trialing new ways to use the extraterrestrial steel. In this pursuit, they have carved away at the ingots forged to make more use out of it."
 			]
 			id: "1E85DF6B80F62A89"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "14BB2993FEBD9B68"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/extraterrestrial_steel_nugget.png"
+					}
+				}
 				id: "4792320CB68A8D32"
 				item: "clanginghowl:extraterrestrial_steel_nugget"
 				type: "item"
@@ -469,7 +680,29 @@
 				"A rechargeable battery, the extraction team found several on the persons of deceased researchers and tecnicians from Site Romulus. There were no traces of prints describing their creation, but also nothing to suggest they were created on-site. &lIt is possible other facilities may have these.&r"
 			]
 			id: "57E6AD8682F2624A"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "7BC98E60C8BC6EF0"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/advanced_energy_battery_discharged.png"
+					}
+				}
 				id: "1B46CD8224992EED"
 				item: {
 					Count: 1
@@ -492,8 +725,30 @@
 				"At the site of a large meteor, researchers were able to extract crystals that seemed to glow with energy. Large samples have been taken, and more continue to as more meteors are found."
 			]
 			id: "3607F8E9C8F3C7FF"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "6370112785425C1F"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				count: 5L
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/extraterrestrial_energy_crystal.png"
+					}
+				}
 				id: "0B78C7D84F828B39"
 				item: "clanginghowl:extraterrestrial_energy_crystal"
 				type: "item"
@@ -503,14 +758,39 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["3607F8E9C8F3C7FF"]
+			dependencies: [
+				"3607F8E9C8F3C7FF"
+				"77CF8C796B164B27"
+			]
 			description: [
 				"kane@remus:~$ cat crys_gen.jv"
 				"------------------------------"
 				"After numerous failed attempts, researchers succeeded in cryogenically creating a renewable source of the energy crystals required to create many of the newer creations. The area around the machine was deathly cold, however, and required careful extraction. This has opened up a new realm of possibilities."
 			]
 			id: "03D9CFFF0388FBE2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "1498241C5B2D34C3"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/crystal_generator.png"
+					}
+				}
 				id: "72F4BECEEABE16D6"
 				item: "clanginghowl:crystal_former"
 				type: "item"
@@ -521,12 +801,34 @@
 		}
 		{
 			description: [
-				"kane@remus:~$ cat adv-elc.jv"
+				"kane@remus:~$ cat adv_elc.jv"
 				"------------------------------"
-				"During the cleanup of Site Romulus, extraction team members found various electronics, fragile and of which the notes to recreate seem to have perished with its creators."
+				"During the cleanup of Site Romulus, extraction team members found various electronics, fragile and of which the notes to recreate seem to have perished with its creators. It's possible &lmore may be found in other sites&r with connection to Romulus"
 			]
 			id: "144A97870616A8AC"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "524EFD6D55BEFE0B"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/advanced_electronics.png"
+					}
+				}
 				id: "305A60003FE1AE3E"
 				item: "clanginghowl:advanced_electronics"
 				type: "item"
@@ -543,7 +845,29 @@
 				"Using the energy crystals recovered from fallen meteorites and extraterrestrial steel, technicians have put together a special type of battery capable of charging devices made with these extraterrestrial materials."
 			]
 			id: "08DB736B07836F38"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "0621A61FB315FB75"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/energy_battery.png"
+					}
+				}
 				id: "3AF83400A1A79D47"
 				item: {
 					Count: 1
@@ -564,10 +888,32 @@
 			description: [
 				"kane@remus:~$ cat bat-lrg.jv"
 				"------------------------------"
-				"Using the energy crystals recovered from fallen meteorites and extraterrestrial steel, researchers have put together a special type of battery capable of charging "
+				"A larger battery, capable of charging advanced tools for much longer than its predecessor. Like its predecessor, however, &lits charge is limited&r."
 			]
 			id: "38452E4AC25370A3"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "0B281C1CC9B7ACD2"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/energy_intensive_battery.png"
+					}
+				}
 				id: "123D6EA3D627C546"
 				item: {
 					Count: 1
@@ -584,12 +930,36 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["4EE9E84C828A9D70"]
 			description: [
 				"kane@remus:~$ cat chah-06.jv"
 				"------------------------------"
+				"The CHAH-06 Advanced Hand Drill is capable of breaking through rock and metal at extreme speeds compared to that of a traditional pickaxe. Being that it is an advanced machine in nature, &lit lacks a traditional durability&r, and must instead rely on a consistent stream of energy."
 			]
 			id: "09D3034F4376724E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "6A2B968BD0C8DD9A"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/advanced_hand_drill.png"
+					}
+				}
 				id: "40D1BAFB030A2991"
 				item: {
 					Count: 1
@@ -603,15 +973,39 @@
 			}]
 			title: "CHAH-06 \"Advanced Hand Drill\""
 			x: -3.5d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["4EE9E84C828A9D70"]
 			description: [
 				"kane@remus:~$ cat chac-10.jv"
 				"------------------------------"
+				"The CHAC-10 Advanced Chainsaw is capable of shredding through wood at extreme speeds compared to those of a traditional axe. Being that it is an advanced machine in nature, &lit lacks a traditional durability&r, and must instead rely on a consistent stream of energy."
 			]
 			id: "0CBA6857AD661F3C"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "52F7D17F93A10DDD"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/advanced_chainsaw.png"
+					}
+				}
 				id: "4965D82F7599692B"
 				item: {
 					Count: 1
@@ -628,12 +1022,37 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["4EE9E84C828A9D70"]
 			description: [
 				"kane@remus:~$ cat chac-7.5.jv"
 				"------------------------------"
+				"The CHAC-7.5 Advanced Chainsword utilizes serated blades in its attacks, reducing the target's total health. Subsequent attacks reduce this even further. In addition, the blade's extraterrestrial steel material makes it deal extra damage to technoflesh creatures."
+				"Being that it is a machine in nature, it must have a constant source of energy."
 			]
 			id: "00B6C41B39C403E9"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "274422B3DF2BD965"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/advanced_chainsword.png"
+					}
+				}
 				id: "26B12E699C228BEA"
 				item: {
 					Count: 1
@@ -647,30 +1066,78 @@
 			}]
 			title: "CHAC-7.5 \"Advanced Chainsword\""
 			x: -3.5d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["4EE9E84C828A9D70"]
 			description: [
-				"kane@remus:~$ cat .jv"
+				"kane@remus:~$ cat sta_crg_stn.jv"
 				"------------------------------"
+				"Due to the increase energy requirements of the advanced tools, a new source of power was required. To this end, the mechanics, chemists, and technicians worked to develop the Station"
 			]
 			id: "550F3C0585F44DCC"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "1D55FA077AB83661"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/stationary_charger.png"
+					}
+				}
 				id: "6550A63C1B2050C9"
 				item: "clanginghowl:stationary_charging_station"
 				type: "item"
 			}]
+			title: "sta_crg_stn.jv"
 			x: -2.5d
 			y: -6.0d
 		}
 		{
+			dependencies: ["38452E4AC25370A3"]
 			description: [
 				"kane@remus:~$ cat ptb_chr.jv"
 				"------------------------------"
 				"Due to the power hungry nature of the Advanced Series of items, technicians were tasked with creating a portable power source. The finalized design was a success. &lBy depositing batteries inside the charger's inventory, it will passively recharge any advanced items in inventory.&r"
 			]
 			id: "48DE59E5EA690CE1"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "0EA961C7289DAF00"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/portable_charger.png"
+					}
+				}
 				id: "6C67DC728567C6D3"
 				item: {
 					Count: 1
@@ -689,58 +1156,158 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["4EE9E84C828A9D70"]
 			description: [
-				"kane@remus:~$ cat .jv"
+				"kane@remus:~$ cat ext_bar.jv"
 				"------------------------------"
+				"Using the energy of extraterrestrial crystals and phantom membrane, technicians were able to create a barrier generator that protected the site and its surroundings from meteor showers."
 			]
 			id: "5E209C436D651716"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "25EFB4987A958D54"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/shield_generator.png"
+					}
+				}
 				id: "68CE0D77AE221BA1"
 				item: "clanginghowl:barrier_of_extraterrestrial_activity"
 				type: "item"
 			}]
+			title: "ext_bar.jv"
 			x: -2.5d
 			y: -5.0d
 		}
 		{
+			dependencies: ["236A8CD55E52C733"]
 			description: [
-				"kane@remus:~$ cat .jv"
+				"kane@remus:~$ cat fla_spw.jv"
 				"------------------------------"
+				"The Flame Spewer is capable of releasing high amounts of superheated energy from the Blaze Fuel Cylinder held within. Unlike the Flamethrower, its stationary positioning allows it to never run out of fuel."
 			]
 			id: "54EDC18D9EC77ADA"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "2B40236F9A39A404"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/flame_vent.png"
+					}
+				}
 				id: "3DE8739F05F5ED4A"
 				item: "clanginghowl:flame_spewer"
 				type: "item"
 			}]
+			title: "fla_spw.jv"
 			x: -2.5d
 			y: -4.0d
 		}
 		{
+			dependencies: ["4E17A7CEDA5CA534"]
 			description: [
-				"kane@remus:~$ cat .jv"
+				"kane@remus:~$ cat ext_act_rdr.jv"
 				"------------------------------"
+				"In order to better understand and obtain sample data, the site technicians and scientists created a radar capable of putting out a redstone signal when detecting extraterrestrial movement in the sky, effectively &ldetecting meteor showers&r."
 			]
 			id: "781F913DAC8B393B"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "540B48A8B9719FE2"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/extraterrestrial_activity_radar.png"
+					}
+				}
 				id: "1FB7039F7D65FC69"
 				item: "clanginghowl:extraterrestrial_activity_radar"
 				type: "item"
 			}]
+			title: "ext_act_rdr.jv"
 			x: -2.5d
 			y: -3.0d
 		}
 		{
+			dependencies: ["0DD280488B9BE843"]
 			description: [
-				"kane@remus:~$ cat .jv"
+				"kane@remus:~$ cat mtn_sns.jv"
 				"------------------------------"
+				"Utilizing cybernetic optics found in the mouths of [REAPER], researchers were able to create a new type of sensor that can detect entities within 15 blocks of its field of vision, and let out a redstone signal of corresponding strength."
 			]
 			id: "7911F84EA2E2FDA6"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "14F6223629DA1DEF"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/motion_sensor.png"
+					}
+				}
 				id: "4D314BE3670C7387"
 				item: "clanginghowl:motion_sensor"
 				type: "item"
 			}]
+			title: "mtn_sns.jv"
 			x: -2.5d
 			y: -2.0d
 		}
@@ -752,7 +1319,30 @@
 				"Created by combining an energy crystal with blaze powder, &lBlaze Fuel&r harnesses the energy of The Nether itself to burn at extrodinarily high temperatures"
 			]
 			id: "4654D02DBE4CCB87"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "7386573BA30F3BEE"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				count: 4L
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/blaze_fuel.png"
+					}
+				}
 				id: "3B466B6B5B9467F5"
 				item: "clanginghowl:blaze_fuel"
 				type: "item"
@@ -766,10 +1356,33 @@
 			description: [
 				"kane@remus:~$ cat ful-cry.jv"
 				"------------------------------"
-				"Researchers noticed the energy crystals had an affinity towards colder climate. When fully encased, they provided Cryogenic Fuel, a deathly cold substance."
+				"Researchers noticed the energy crystals had an affinity towards colder climate. When fully encased, they resulted in what's now known informally as &lCryogenic Fuel&r, a deathly cold substance."
 			]
 			id: "77CF8C796B164B27"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "103F1E402D35156C"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				count: 4L
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/cryogenic_fuel.png"
+					}
+				}
 				id: "39504DE214905462"
 				item: "clanginghowl:cryogenic_fuel"
 				type: "item"
@@ -779,26 +1392,78 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["4654D02DBE4CCB87"]
 			description: [
-				"kane@remus:~$ cat .jv"
+				"kane@remus:~$ cat ful-blz_cyl.jv"
 				"------------------------------"
+				"Chemists and Technicians were able to convert Blaze Fuel into a more malleable and transportable source of thermal energy. The casing requires plating coated in Netherrack to contain such energy."
 			]
 			id: "236A8CD55E52C733"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "4A3895E88772F7FC"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/blaze_fuel_cylinder.png"
+					}
+				}
 				id: "306F9F8D0E01D2CD"
 				item: "clanginghowl:blaze_fuel_cylinder"
 				type: "item"
 			}]
+			title: "ful-blz_cyl.jv"
 			x: -4.5d
 			y: -3.0d
 		}
 		{
+			dependencies: [
+				"236A8CD55E52C733"
+				"4654D02DBE4CCB87"
+			]
 			description: [
-				"kane@remus:~$ cat .jv"
+				"kane@remus:~$ cat flmr-16.jv"
 				"------------------------------"
+				"Utilizing the best in Blaze Fuel and Heat Protectant Metal, the FLMR-160 Flamethrower is capable of releasing high energy bursts of flames capable of burning even the most heat resistant creatures. Its extremely high temperature leaves those affected with immense burns, making them more susceptible to future fire based damage."
 			]
 			id: "3E70BA3755614508"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "36A30FEFB74D6DFE"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/flamethrower.png"
+					}
+				}
 				id: "426B1A2AD19E2438"
 				item: {
 					Count: 1
@@ -810,33 +1475,84 @@
 				}
 				type: "item"
 			}]
+			title: "FLMR-16 \"Flamethrower\""
 			x: -3.5d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
-			id: "20691A89F76AAF2A"
-			tasks: [{
-				id: "32EE8B7E1D2B202E"
-				title: "Reminder to go back theough file anmes"
-				type: "custom"
-			}]
-			x: -5.5d
-			y: 1.5d
-		}
-		{
+			dependencies: ["08DB736B07836F38"]
+			description: [
+				"kane@remus:~$ cat bat_pnl.jv"
+				"-------------------------"
+				"With batteries capable of containing the extraterrestrial energy created, the next step was to connect them with basic electronics to be used in more complex creations."
+			]
 			id: "4EE9E84C828A9D70"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "539A695BF910A353"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/battery_panel.png"
+					}
+				}
 				id: "25CAAD96563C65F4"
 				item: "clanginghowl:battery_panel"
 				type: "item"
 			}]
-			title: "bat_pnl"
+			title: "bat_pnl.jv"
 			x: -4.5d
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"0DD280488B9BE843"
+				"08DB736B07836F38"
+				"144A97870616A8AC"
+			]
+			description: [
+				"kane@remus:~$ cat xry_ggl.jv"
+				"------------------------------"
+				"Created as the first in the Techointegration Project, The X-Ray goggles were created in response to CH-006's camouflage abilities. &lIn addition to improved vision in the dark, the goggles also highlight an entity's weak spots, making them take more damage from the wearer's attacks.&r"
+			]
 			id: "517C023BA8F2CE58"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "4DB7C7CA866DBDE1"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/x_ray_goggles.png"
+					}
+				}
 				id: "33CEA1BFC2DEC097"
 				item: {
 					Count: 1
@@ -849,12 +1565,44 @@
 				}
 				type: "item"
 			}]
+			title: "xry_ggl.jv"
 			x: -1.5d
 			y: -7.0d
 		}
 		{
+			dependencies: [
+				"144A97870616A8AC"
+				"4EE9E84C828A9D70"
+			]
+			description: [
+				"kane@remus:~$ cat nrg_bar_gen.jv"
+				"------------------------------"
+				"Created as part of the Technointegration Project, The Energy Barrier Generator uses the same technology as the Barrier of Extraterrestrial Activity, compacted down into a wearable alternative. While it &lreduces incoming damage by 50%&r, doing so depletes a large amount of stored energy, with the consumption scaled to the damage reduced."
+			]
 			id: "3D0C52219AD8860E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "1F00F766174BA78B"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/energy_barrier_generator.png"
+					}
+				}
 				id: "1163C120519FDEAA"
 				item: {
 					Count: 1
@@ -866,12 +1614,45 @@
 				}
 				type: "item"
 			}]
+			title: "nrg_bar_gen.jv"
 			x: -1.5d
 			y: -6.0d
 		}
 		{
+			dependencies: [
+				"144A97870616A8AC"
+				"4EE9E84C828A9D70"
+			]
+			description: [
+				"kane@remus:~$ cat tdn_str.jv"
+				"------------------------------"
+				"Created as part of the Techointegration Project, the Tendon Strengthers are a set of mechanical exoskeletal legs that can &lincrease the wearer's speed by 10%&r. When sprinting, they provide a boost to muscle and pushing force, allowing the wearer to &ljump 50% higher&r."
+				"Being that they are mechanical in nature, they require energy to function."
+			]
 			id: "44FC5F13D63E4BD2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "64E1178BB1019C75"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/tendon_strengthener.png"
+					}
+				}
 				id: "2F9D0EA60667CB8B"
 				item: {
 					Count: 1
@@ -883,12 +1664,45 @@
 				}
 				type: "item"
 			}]
+			title: "tdn_str.jv"
 			x: -1.5d
 			y: -5.0d
 		}
 		{
+			dependencies: [
+				"144A97870616A8AC"
+				"38452E4AC25370A3"
+			]
+			description: [
+				"kane@remus:~$ cat nrg_glv.jv"
+				"------------------------------"
+				"Created as part of the Techointegration Project, the Energy Glove is capable of storing up energy within itself, allowing a user's critical attacks create an electrical surge, stunning entities hit and charging the user's other electronic devices."
+				"Due to its heavy firepower and small form factor, the glove must recharge after every usage of its surge."
+			]
 			id: "731B4F00F1A94F19"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "4171002799D9A96D"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/energy_glove.png"
+					}
+				}
 				id: "05E30C01429038B9"
 				item: {
 					Count: 1
@@ -900,12 +1714,46 @@
 				}
 				type: "item"
 			}]
+			title: "nrg_glv.jv"
 			x: -1.5d
 			y: -4.0d
 		}
 		{
+			dependencies: [
+				"144A97870616A8AC"
+				"236A8CD55E52C733"
+			]
+			description: [
+				"kane@remus:~$ cat jet_bot.jv"
+				"------------------------------"
+				"Created as part of the Techointegration Project, Jet Boots are unique in that they do not consume energy, instead relying on Blaze Fuel Cylinders to fuel its abilities."
+				"When worn, the boots give a passive reduction to fall damage. Their active ability is a second, rocket powered jump. After performing such an action, the boots must cool down."
+				"If out of fuel, the boots will refill automatically from any Blaze Fuel Cylinders the wearer posseses."
+			]
 			id: "3ACC16304CD0C121"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "1FF59749F9059569"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/jet_boots.png"
+					}
+				}
 				id: "5BC2694D4577E7DC"
 				item: {
 					Count: 1
@@ -917,22 +1765,97 @@
 				}
 				type: "item"
 			}]
+			title: "jet_bot.jv"
 			x: -1.5d
 			y: -3.0d
 		}
 		{
+			dependencies: [
+				"47932CAA0EC704F4"
+				"708BF47743F07494"
+				"1428DFC072CD4426"
+				"38452E4AC25370A3"
+				"144A97870616A8AC"
+			]
+			description: [
+				"kane@remus:~$ cat bat-bld.jv"
+				"------------------------------"
+				"Created as part of the Techointegration Project, the informally known \"Bloody Battery\" charges in response to physical trauma. While in posession of it, the user is made more vulnerable as the battery takes in the organic energy that triggered it and spreads it out amongst the various advanced tools and machinery on the wearer, &lturning damage into energy&r."
+			]
 			id: "0A02AC6534B3BE3F"
+			min_required_dependencies: 3
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "5A81F1429E9B8750"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/bloody_battery.png"
+					}
+				}
 				id: "4C833F270ED34E6D"
 				item: "clanginghowl:bloody_battery"
 				type: "item"
 			}]
+			title: "bat-bld.jv"
 			x: -1.5d
 			y: -2.0d
 		}
 		{
+			dependencies: [
+				"47932CAA0EC704F4"
+				"708BF47743F07494"
+				"08DB736B07836F38"
+				"144A97870616A8AC"
+				"1428DFC072CD4426"
+			]
+			description: [
+				"kane@remus:~$ cat &kReanimator&r.jv"
+				"cat: &kReanimator&r.jv: Permission denied"
+				"kane@remus~$ sudo cat &kReanimator&r.jv"
+				"[sudo: authenticate] Password:"
+				"------------------------------"
+				"Created as part of the Techointegration Project, the Reanimator has the ability to save its user from lethal damage by expelling all stored energy, entering a temporary cooldown afterwards. After usage, it must be recharged full before possible activation."
+			]
 			id: "513C7D4E29043CD5"
+			min_required_dependencies: 3
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "333DCE6BB5B1CA65"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/reanimator.png"
+					}
+				}
 				id: "28AF7407B670CACC"
 				item: {
 					Count: 1
@@ -944,8 +1867,52 @@
 				}
 				type: "item"
 			}]
+			title: "&kReanimator&r.jv"
 			x: -1.5d
 			y: -1.0d
+		}
+		{
+			description: [
+				"bishop@romulus:~$ cat ind_adj_wrn.jv"
+				"------------------------------"
+				"Since its invention, researchers on site near always carried with them the Industrial Adjustable Wrench. It has let them repair certain damaged objects, as well as tweak, disable, or enable specific machinery, including golems."
+			]
+			id: "6F740DA7B65AAEF6"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				icon: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						map: 2
+					}
+				}
+				id: "2DD26EE990771613"
+				ignore_reward_blocking: true
+				title: "Crypto Invoice"
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tumblrbumblr:textures/quests/icons/industrial_adjustable_wrench.png"
+					}
+				}
+				id: "2B339FA0CD43F910"
+				item: {
+					Count: 1
+					id: "clanginghowl:industrial_adjustable_wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
 		}
 	]
 	title: "Clanging Howl"

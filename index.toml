@@ -854,7 +854,7 @@ hash = "dea4d260e6eac868297c0f9cd80545fd6b54f7344c678b89edda980a3fc5e8cf"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "9a2a205e876594b914bfca940666ddcffa79c31ee7cade6dcb5d3fcf44fe0007"
+hash = "090de8daf0d3ca16613019189e761b4ad6fe137676d3f5ac9f92e97fbf9b9fe0"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -68942,7 +68942,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "b35a9559f5dbde601bdcf08c9dc0df7307936cbafaed5d0b29e29d652592acfe"
+hash = "a256d0750c9746ed2ae6ae859c6d7e7536ed379f3bda3ad68471ef2143bac50f"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -68962,7 +68962,7 @@ hash = "999a84563549e098978ef10d8cc7e3fc5f71145d44095097625154b4de8e73c8"
 
 [[files]]
 file = "config/fallingtrees_common.json"
-hash = "7e55389203c18572491a025db2392fc67ebb4e167a1c617679445210aa88757a"
+hash = "f77c98f18e1fed1633b3d803123dd78362389083be6935bb62e04f7295cda7b7"
 
 [[files]]
 file = "config/fancytoasts/general.json"
@@ -69083,6 +69083,10 @@ hash = "e2d97cfef280caede871865d5304a7832ea86908d3f1f30b9a4acc9629b61654"
 [[files]]
 file = "config/forgeendertech/Biomes/ae2$spatial_storage.cfg"
 hash = "acca102608284cb654149d94e04702652835c54c73c94eb993110de64b2ab294"
+
+[[files]]
+file = "config/forgeendertech/Biomes/alexscaves$abyssal_chasm.cfg"
+hash = "bfedaaa4183b01c1f95660ed9ac0c1285632e1dad8794f95b8a58dbc837e43e1"
 
 [[files]]
 file = "config/forgeendertech/Biomes/alexscaves$candy_cavity.cfg"
@@ -69973,8 +69977,12 @@ file = "config/ftbquests/quests/chapters/brewing_and_chewing.snbt"
 hash = "e49c1dca7154f098dc5cb6574bfa378e9ca5f8370503ecd8eccc8633a7f2b5eb"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/candy_canyon.snbt"
+hash = "754f11d599292d6f8c8c4906f428403999b3c90763d3cdae8ad8b23f0c13b90a"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/clanging_howl.snbt"
-hash = "afd2c786539fcabcdf53e05c1897492587f9b5e117c294ef86a2c679aad567ad"
+hash = "c61255ae8a9410b44b6d6fcc2e09191033370951dca3dcd9ad63ae8716c793fa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
@@ -70886,7 +70894,7 @@ hash = "5d7a1f57418d691316d231b686a799c24f370b7c7a1b45bdf4fd737c4d06aad5"
 
 [[files]]
 file = "config/jei/world/local/TREE/lookupHistory.ini"
-hash = "98ae62c71cd575f408a5fcf0a8ee7c9cbab6ddb91fe6e355eec82506cf84c144"
+hash = "bbaddf9d0da1329279328d2429dd84c27b77c1addb2ef7e3eaff8af96cb9e4e3"
 
 [[files]]
 file = "config/jei/world/local/Tectonic_1/lookupHistory.ini"
@@ -71106,7 +71114,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "c89bd7a594ce4bbebef3aca01bc970350e475aab97349225191f4d4350f97387"
+hash = "1681b9d7bd32c0775985b4b207dee564a47ea7aef9982d943f89d039cbe4736b"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71358,7 +71366,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "eb0dae9c86bdc42cc413824afc1ef90af0a15341b1aae862e5f5a06fa127f4bb"
+hash = "1040cd8d43398d8b8264ea217088424f84886d4253c4ab493ccb369f6844b3ac"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71374,7 +71382,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "dcb41f48c4ad638d71e6df847f9c8302d17f67676a0186a0322d99cec17e7ad5"
+hash = "ca3ef11020572af7e1b83550596d5ba668e86113cebce97966c932bfbbb27545"
 
 [[files]]
 file = "config/pal.properties"
@@ -71387,6 +71395,10 @@ hash = "17dc9b585cecd37bf16a6b605a060f68a92b0749163fc6e6cfec51d8cce1fe78"
 [[files]]
 file = "config/particle_core_disabled_optimizations_v2.json"
 hash = "7189bb61c58cb1030b8ee486e66abf694d257192248b9b3ac4978df2b1366f7d"
+
+[[files]]
+file = "config/particlerain/config.json"
+hash = "bd8abf7000e1cd681b090d8425b808f196297b6af473826405321d037e6fdd3a"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -73038,7 +73050,7 @@ hash = "a19d088435d6334295d34fcf23fd2bd181a071a637ceb37cfd0dfdfb32312c56"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "d09e1907bfc37728a2db6769b8e37e0a83da532bbd53500b0a681a7cdaa03caf"
+hash = "d5fcc539d43c011a1d5691fd7e6706cd0236888a569919296764b5b169aaab81"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -73323,202 +73335,6 @@ hash = "eca13ce34ed4c6b6115c2d6d28544c466b76a892da1d439d36048554010b4988"
 [[files]]
 file = "kubejs/assets/legendarytabs/textures/gui/tab_menu_buttons.png"
 hash = "7fb77d48a4a2596b2d7319378103ff279762f817ec4363f7095886a6484b3c74"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/cs_cz.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/de_at.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/de_ch.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/de_de.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/en_au.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/en_ca.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/en_gb.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/en_nz.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/en_pt.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/en_ud.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/en_us.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/enws.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/es_ar.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/es_cl.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/es_ec.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/es_es.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/es_mx.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/es_uy.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/es_ve.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/fi_fi.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/fr_fr.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/hr_hr.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/hu_hu.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/lol_us.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/lt_lt.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/nl_be.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/nl_nl.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/pl_pl.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/pt_br.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/ro_ro.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/ru_ru.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/sv_se.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/th_th.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/lang/tr_tr.json"
-hash = "b8f036fb632320b06e7786ea2194d797f677dd0ac0fe2c24992558d44038e38a"
-
-[[files]]
-file = "kubejs/assets/minecraft/models/copper_boots.json"
-hash = "5fc798af4b7d55b6889b2b7984dcde9686a2088f4bb9917c08bbea125eaa47f5"
-
-[[files]]
-file = "kubejs/assets/minecraft/models/copper_chestplate.json"
-hash = "407574d361ee337de059b3e30a2e745017daa96cb04cfd3237517b7e9f3764cd"
-
-[[files]]
-file = "kubejs/assets/minecraft/models/copper_helmet.json"
-hash = "c9c05a9ad9905d0134722792e723b0a0a31b03cb26fb3d736ed1c9bf1d1cc439"
-
-[[files]]
-file = "kubejs/assets/minecraft/models/copper_leggings.json"
-hash = "8a509f5e0c07a79ed20607cefcb391e8440daa0bf3e745c18c2199a163b38700"
-
-[[files]]
-file = "kubejs/assets/minecraft/textures/items/copper_axe.png"
-hash = "8c699e57325bb3b8d1c0b184af9a71978a6dfec5abcd3290603dc779c70542f3"
-
-[[files]]
-file = "kubejs/assets/minecraft/textures/items/copper_boots.png"
-hash = "ec8de55067ad02a5fd06213d19cb5ab4c2f78982379bd6608c56b5cce5dce9aa"
-
-[[files]]
-file = "kubejs/assets/minecraft/textures/items/copper_chestplate.png"
-hash = "fede7c1a2475390ca23afce3ad20a7a8008d7c0a5aa1e32cde744a0c42eb8a75"
-
-[[files]]
-file = "kubejs/assets/minecraft/textures/items/copper_helmet.png"
-hash = "71a338903ac5e50527daf24fc41b3d60480d773c5213551e9deefcada442d4ea"
-
-[[files]]
-file = "kubejs/assets/minecraft/textures/items/copper_hoe.png"
-hash = "3abaeab0886aafe846aebb5f3197aa9da295b2e698fb41b746b7dcde477a3786"
-
-[[files]]
-file = "kubejs/assets/minecraft/textures/items/copper_leggings.png"
-hash = "98096be03f3c21fead51d94a4c1696c8cde2da9ecebd11f5cd48a02136fd84fd"
-
-[[files]]
-file = "kubejs/assets/minecraft/textures/items/copper_pickaxe.png"
-hash = "8b6bb9d584776bb5bde28247d909901d0b36cf10105185bee78d5955071744da"
-
-[[files]]
-file = "kubejs/assets/minecraft/textures/items/copper_shovel.png"
-hash = "e2d56eb3540cb04d4ca5d71f05bbf2a5dcab744b787220afc850499b72699c09"
-
-[[files]]
-file = "kubejs/assets/minecraft/textures/items/copper_sword.png"
-hash = "f02e82444b6d9450e0c311a056ebf882f80363b70bf01eeb69a4ed4465e96550"
-
-[[files]]
-file = "kubejs/assets/minecraft/textures/models/armor/copper_layer_1.png"
-hash = "1ab6f7f3d87cc1ad183f08afe585a57cc81f0e9404e5593b43b4d622c7d8736b"
-
-[[files]]
-file = "kubejs/assets/minecraft/textures/models/armor/copper_layer_2.png"
-hash = "b8a66b3d7f6a71dfc004a5cbc15aae844aa58715a366d42e21258db9315e040b"
 
 [[files]]
 file = "kubejs/assets/mob_grinding_utils/textures/item/absorption_downgrade.png"
@@ -76865,6 +76681,42 @@ file = "kubejs/assets/tumblrbumblr/textures/item/burned_tablet.png"
 hash = "994827cf087d710f25ba2352a02ba2315c443ac57c8eeaaa19a8c79c3d25cb67"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/copper_axe.png"
+hash = "8c699e57325bb3b8d1c0b184af9a71978a6dfec5abcd3290603dc779c70542f3"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/copper_boots.png"
+hash = "ec8de55067ad02a5fd06213d19cb5ab4c2f78982379bd6608c56b5cce5dce9aa"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/copper_chestplate.png"
+hash = "fede7c1a2475390ca23afce3ad20a7a8008d7c0a5aa1e32cde744a0c42eb8a75"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/copper_helmet.png"
+hash = "71a338903ac5e50527daf24fc41b3d60480d773c5213551e9deefcada442d4ea"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/copper_hoe.png"
+hash = "3abaeab0886aafe846aebb5f3197aa9da295b2e698fb41b746b7dcde477a3786"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/copper_leggings.png"
+hash = "98096be03f3c21fead51d94a4c1696c8cde2da9ecebd11f5cd48a02136fd84fd"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/copper_pickaxe.png"
+hash = "8b6bb9d584776bb5bde28247d909901d0b36cf10105185bee78d5955071744da"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/copper_shovel.png"
+hash = "e2d56eb3540cb04d4ca5d71f05bbf2a5dcab744b787220afc850499b72699c09"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/copper_sword.png"
+hash = "f02e82444b6d9450e0c311a056ebf882f80363b70bf01eeb69a4ed4465e96550"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/item/dirty_raw_diamond.png"
 hash = "988ecbfde39a14e3508f735f6720cd6e280ae4f99196663b71b0f4385475e7e2"
 
@@ -76907,6 +76759,14 @@ hash = "5d275c1ca24c5d2ee5529d81d79d9a7b51607b4d69876e55a396006616ef170a"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/item/sunken_eye_shards.aseprite"
 hash = "f2cc00947bd5fd5efdea8a52e1dc53130743f71b019b5b51b767c49ef6945645"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/models/armor/copper_layer_1.png"
+hash = "1ab6f7f3d87cc1ad183f08afe585a57cc81f0e9404e5593b43b4d622c7d8736b"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/models/armor/copper_layer_2.png"
+hash = "b8a66b3d7f6a71dfc004a5cbc15aae844aa58715a366d42e21258db9315e040b"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/affixes.png"
@@ -77182,47 +77042,39 @@ hash = "dabd0d8e6f834f5c3cc3062a7ad8f893ce05917c3a48a6ffc7cf4a6716e28fe7"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/advanced_chainsaw.png"
-hash = "beda4c43a271fb0cefe897af9b54f08cc7b1ac7bde5d03349233d2466cad3586"
+hash = "c7ad987082135a0da344241ebecc0c0a93f23448a0e1494ecc1c2a41098b1ab2"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/advanced_chainsword.png"
-hash = "a171312066bf70fafc2b2ac72969f491313f74584126b8dfa95537aa11144576"
+hash = "e1e579926ccc168083680faec30b3e6b113ce9ba9261c463613911078e0317a4"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/advanced_electronics.png"
-hash = "3780825d71c3cd14a0c3c239fe1ede522f9c2caf03d3d7abb59f0a1eb194ad19"
-
-[[files]]
-file = "kubejs/assets/tumblrbumblr/textures/quests/icons/advanced_energy_battery.png"
-hash = "8b3f387734c5ef1a40da39bf8c877c2dacd67aad27ad82622f17e2af8389e0fe"
+hash = "4a87204cab850a6897119117bafc677732c42ecf620d9883197b964be0672b8e"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/advanced_energy_battery_discharged.png"
-hash = "5d6d78f9d931cbec4c34faab80e2c5b988cb4d5c57ff17ef7f1478bdd2fd82e7"
+hash = "5aeaa5432f4afd9b5360a3a07fc0288f209787bbc776b5ea8911c216e8ee5787"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/advanced_hand_drill.png"
-hash = "cf185438d78e416d9d39f699d654f45a520e6c8d8360f2169dfd2c1544d481dc"
+hash = "2be6203698404d3ef60a7249715eeba527f3785bb47c2a1c642ed90a58339316"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/attraction_device.png"
-hash = "9b8fa25e87f705f5207927551c4091288f433ce731b20d6c67209d8349299c7f"
+hash = "40ca30970726eeaceaf8808aa8b2c03da75a54ac1f3034bb0a530c8ab5ca0f64"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/battery_panel.png"
-hash = "f79452c4883fe2b37a416ce54705facde776c9b91046679a173f27668c41a97e"
-
-[[files]]
-file = "kubejs/assets/tumblrbumblr/textures/quests/icons/blaze_burner.png"
-hash = "0ab04e7ec3e0da63400c4b43f92cb37e994233b7d4ec481001808c97326c214d"
+hash = "811264c556fc4a2d3f773657b7d0467121effe79678e505d5834cf5fe1486176"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/blaze_fuel.png"
-hash = "c1637aba161d5d3e836ee15273564e248e9b698c2cef4d78bf77cced25c45993"
+hash = "4c7639228f5c9f6b958b0a7131d89017c7deef606ff77715d2857a15d73a17da"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/blaze_fuel_cylinder.png"
-hash = "42eecb1906f1d000be9c421d11d694ca177a07b32b07541a9499841d63a85b55"
+hash = "4f17aa79b0f849bb97c8ce422bcd3f164b5102a6b7dec14d42d6b03ee9d23168"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/blood_spreader.png"
@@ -77230,55 +77082,39 @@ hash = "c6eda98bf216ff526c782e7c72c0c54de8efc5c5c6b62c5b98afef624acf2cc2"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/bloody_battery.png"
-hash = "5d9a6e408a3f7b1c545ec59992ea61ef5adde564cbbe0fb5d19034eed124f431"
+hash = "0e7114c47b2599fd9b2bcc85f2ec894817f9fd36682bcefac417cfdb275b073b"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/carcass.png"
 hash = "92d57abcc2bacb30e1a2130a653cce71a2368321d6850b14fe97a826583f2c38"
 
 [[files]]
-file = "kubejs/assets/tumblrbumblr/textures/quests/icons/chainsaw_teeth.png"
-hash = "770ec26748530da3de61ad1892db0281bb3d8b978e28a929369138e33b7d2345"
-
-[[files]]
-file = "kubejs/assets/tumblrbumblr/textures/quests/icons/chunk_of_technoflesh.png"
-hash = "55e040ac360e42c5111035d139be2e0b2e014c33bb78c2db7130cb43240cbf76"
-
-[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/cryogenic_fuel.png"
-hash = "3fc81af5ab9e68426aacd5f9bfe34a711b1a3bf56eaf08e70537b627404696d0"
+hash = "a428b5a39365111fe296d018a0be29d68d09d27b6dcbf37c44c9c64211dafd8a"
 
 [[files]]
-file = "kubejs/assets/tumblrbumblr/textures/quests/icons/diamond_diode.png"
-hash = "74449d40373703ed466ada88d6682f1940e02524b46b04a7af2af5a96dce79aa"
-
-[[files]]
-file = "kubejs/assets/tumblrbumblr/textures/quests/icons/drill_bit.png"
-hash = "81599afc782e8f4ec33197a88be3a2434c11dd3feaa30d8bd3de0d4c3692daaa"
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/crystal_generator.png"
+hash = "13112816fd95bf3b78512d2d1810ed19e756f344ed3cc81c0467823695e514fe"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/energy_barrier_generator.png"
-hash = "c1dc8b727044bb4d3d744b77686e4e69233d198a5820a3c27739089720869b6b"
+hash = "c8657ebb5bbb9e6534d53099ea6d865ce31acdc00dfaa4af508bedd7c84bd2d2"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/energy_battery.png"
-hash = "362fc2b498f73b5d7f5336fe565b3bd201125d5c9ca0d864eb8924a507e440fb"
-
-[[files]]
-file = "kubejs/assets/tumblrbumblr/textures/quests/icons/energy_fiber.png"
-hash = "f0d1fbce46533f958c0c65220e85ef5c1e1b7d8407623cfff70e35eabf63ce41"
+hash = "ab0654afee02177118d0d1840d41c322e895422868fdd7593501e5bd90b643cf"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/energy_glove.png"
-hash = "1ed150be194608f2fdae50ddb84f3e8fc9e5c5316790c59852ba49735d5835fd"
+hash = "2c093ef3cf1ac3b5491c3eade532b73be62798f51bbb43dcf39ea0daf635e45d"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/energy_intensive_battery.png"
-hash = "4190728bac09cd01550f5312a5f08aa66bebd1d14631019b992eec8ca9f883b7"
+hash = "760edfa30710444f9f86c98edc0dc8cc69da6281a1bddc0bc2a58f52345550ff"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_activity_radar.png"
-hash = "079a32901a6d1046b38416c5bc6523a6959b04a0ca4cbc7ffea1f1baeeb19f96"
+hash = "a418b95e964fc655a8608f8b333c147668e9aa928a919fb75a3ba3fc4982ed60"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_energy_crystal.png"
@@ -77287,6 +77123,10 @@ hash = "6d694942053a292e7b4145c5af96208088e86a1af8f0ad749c9a56df862d6be4"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_pebble.png"
 hash = "cb4ad4d5cb904e6cc8d5a1d75e67f2b9b1dac13cc42935a6f5f723b140c1c723"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_pickaxe.png"
+hash = "25284a49d180de766df56ba892ca15eb225d54601ef91afa67524134f29a8cc0"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_reaper.png"
@@ -77299,6 +77139,18 @@ hash = "50cd6a15294a3b485e68932d6c48aed913600befec05add7c972f038b93ad732"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_steel_ingot.png"
 hash = "4ca6eb781a964ef9e1d9c820d031fc60541d914837170153c15281e65eb8a01b"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_steel_nugget.png"
+hash = "1e85836e18184c253d88edb74c965e3501c45d96d6fa1b2b221386fd83ba648e"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/extraterrestrial_sword.png"
+hash = "aa228cbb6edfe026818c02654bed9c16672f7aa08fbf15b96474a1529708ea0c"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/flame_vent.png"
+hash = "938e8bc62e80881350781e62242f691bb0a71fb6d18726adff8027c4d29ccc7a"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/flamethrower.png"
@@ -77317,44 +77169,44 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/icons/hematoma.png"
 hash = "e366aab0b159490416e1395bb810348c4db8223c11dd95cdf123939ff30bb25e"
 
 [[files]]
-file = "kubejs/assets/tumblrbumblr/textures/quests/icons/hematoma_lump.png"
-hash = "7c7b5f18336043b25079ca1b1f38154234564647175a669f0f55fe01ace00371"
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/industrial_adjustable_wrench.png"
+hash = "e8acc7eacfc40e416c2cc1c3b6ae329edf991878d9c8138d4a74561a36b2922f"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/jet_boots.png"
-hash = "20ea5d75999ec6821c5046fe661399a4726e62686f6f64b5433fb1119ce46a3c"
+hash = "9a0c677631a281a7322c070a69630c518c106e98e5c6bc8ca2285dd69dda0720"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/motion_sensor.png"
-hash = "2807b6f04004edf01c045dc8b77b33c96c76db670c5a0d30e743d37e7c200f09"
+hash = "2c3c6606d3134b14cd3c5a2d7bd829166cdec2931992accac1546a3b0ac35fc9"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/portable_charger.png"
+hash = "c8624e888ce7833ae3ff82391721566759ad313c891bbc2c43140f3502d2fef1"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/prowler.png"
 hash = "ec3791170b0a274a231df59f0124bdbb41723f8db5f9820932d542f62fb9e2aa"
 
 [[files]]
-file = "kubejs/assets/tumblrbumblr/textures/quests/icons/reanimation.png"
-hash = "70a84d241d0511236585c36f6be8848b83770b964db1c6874963548670c1474d"
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/reanimator.png"
+hash = "87b66583f2568ab5603c5d3268cbfb43523d81878a698ed6044c5529c14e3f66"
 
 [[files]]
-file = "kubejs/assets/tumblrbumblr/textures/quests/icons/reanimator.png"
-hash = "fd0d0593767a801827c35678a71873c3852c5df2338adeeed7b7a93332d1b264"
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/shield_generator.png"
+hash = "338b09dfd54288069d139bc317ede3f51c1fa664600a35c747e2556506f90e63"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/skill-icon.png"
 hash = "4160b97afa4ecd0c5c80623c070d5e7d1090c36e1681e3e6b3660a794dd88cbe"
 
 [[files]]
-file = "kubejs/assets/tumblrbumblr/textures/quests/icons/techno_heart.png"
-hash = "fc86d68ea3c264ab13e5a3639862aea051d4d99abf76fcab5054a3159560080c"
-
-[[files]]
-file = "kubejs/assets/tumblrbumblr/textures/quests/icons/techno_optics.png"
-hash = "2e0631985977129785d1c5314b21843e7508bc31835a3da2e23e623d37f063b6"
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/stationary_charger.png"
+hash = "7bfb7643c336fc57c214e8ea82bd538abc140b5fc827028f754a1ce0ac983cfe"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/tendon_strengthener.png"
-hash = "e3dc654d0b88dc02ac38eaadfafa63489673a5507e193c747f6c96ae4a0c8511"
+hash = "bc084a6bf31eafae26e6fe65b582c59b5d60ed57988fe0f86e834907482c72c1"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/vessel.png"
@@ -79245,10 +79097,6 @@ file = "kubejs/server_scripts/Tags/artifacts.js"
 hash = "aab33530cd87dfb5e94cee086664a382d28871072f2f6d71730247b19a175e84"
 
 [[files]]
-file = "kubejs/server_scripts/Tags/axes.js"
-hash = "c2eca220db08f584f49b23c439d811f2b2897cb4b28b1d9ce1b565d8dea5e408"
-
-[[files]]
 file = "kubejs/server_scripts/Tags/curios.js"
 hash = "4819e4dec6a8951d31048aec88d0aafa112112313f51615c93edfaddf32c85f0"
 
@@ -79267,6 +79115,10 @@ hash = "1ce9535e9a82271f0c15f6ced244f817d5a702561c0f39c4c80e7781443584ca"
 [[files]]
 file = "kubejs/server_scripts/Tags/shark_teeth.js"
 hash = "e9e9622e508d60e2995fe65943778b24e5d29f6dd7af8631f7ba7878ec792989"
+
+[[files]]
+file = "kubejs/server_scripts/Tags/tools.js"
+hash = "3019f54244db693b9e8fca6ac801d33738fdcc65dbb3ba0471e3ed272982e0fe"
 
 [[files]]
 file = "kubejs/server_scripts/bosses_rift_alteration.js"
@@ -79319,6 +79171,10 @@ hash = "a00aad4f1e96728dafb8cad898a0724f471e644c90704db3ddcbc2d33ba29d32"
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/apotheosis_recipes.js"
 hash = "18fff98ff02e88310fb4d9385854811699d8b7799b3cc666a3fd4a112e7ce703"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/backported_recipes.js"
+hash = "6995a35692e7ea1c5203c860ee5644633027774e318a306ee2a454445c7aa7b5"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/cataclysm_recipes.js"
@@ -79422,7 +79278,7 @@ hash = "698f3ae95e99dd510ce528d305c7c1c4072b6b2a42c5c708e41e997630de23ae"
 
 [[files]]
 file = "kubejs/startup_scripts/tumblrbumblr/copper_tier_registry.js"
-hash = "d4866e0b34a6cbe4e0b9d49f2b5f592d649e174ced775ed40a935c75b8128830"
+hash = "8045d9a7888ffb49d6bf80f5d492fd0917fdc762e1ebea226d3b511f9021a553"
 
 [[files]]
 file = "kubejs/startup_scripts/tumblrbumblr/custom_item_creation.js"
@@ -81111,6 +80967,11 @@ metafile = true
 [[files]]
 file = "mods/particle-core.pw.toml"
 hash = "a5faaa25a93671b6a0dcbc441cca9045cd6031889201a72017c9cdc0c4a3b5b1"
+metafile = true
+
+[[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "c8165027e25e8a9e33ebfcf70bb5d2a16ac680a78528b4e9083632f713ea862a"
 metafile = true
 
 [[files]]

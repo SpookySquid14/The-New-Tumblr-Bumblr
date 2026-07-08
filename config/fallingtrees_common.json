@@ -35,7 +35,9 @@
         "whitelistedTags": [
           "minecraft:axes"
         ],
-        "whitelist": [],
+        "whitelist": [
+          "clanginghowl:advanced_chainsaw"
+        ],
         "blacklist": []
       }
     },

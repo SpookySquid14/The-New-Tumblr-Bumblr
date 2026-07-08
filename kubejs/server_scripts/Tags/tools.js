@@ -4,9 +4,10 @@ ServerEvents.tags("item", event => {
         "cataclysm:black_steel_axe",
         "werewolves:silver_axe",
         "amethyst_tools:amethyst_axe",
-        "mebahelcreaturesdraugr:ebony_axe"
+        "mebahelcreaturesdraugr:ebony_axe",
+        "tumblrbumblr:copper_axe"
     ]),
     event.add("forge:tools/pickaxes", [
-        "gonefishing:sunken_pickaxe"
+        "tumblrbumblr:copper_pickaxe"
     ])
 })
