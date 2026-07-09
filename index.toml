@@ -834,7 +834,7 @@ hash = "94e633e170b101317b10447b0015fac4425c1f704ca0450baf429711c9127d2e"
 
 [[files]]
 file = "config/apotheosis/adventure.cfg"
-hash = "92f765deadde559927e89cb7169890a22e3daecc906ba54db3b9c3ade49d31e4"
+hash = "c52ea22c9fb5391115eacf3159d9451ddfa6b1c7b6e81274d23c07600ec41f89"
 
 [[files]]
 file = "config/apotheosis/apotheosis.cfg"
@@ -68942,7 +68942,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a256d0750c9746ed2ae6ae859c6d7e7536ed379f3bda3ad68471ef2143bac50f"
+hash = "ea8bcf5df264c626fd5db2c235c4421d1d448ea703c86a3c61e92e78d42da344"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69950,7 +69950,7 @@ hash = "57d3c5cca09d1af389197e548e28699f027050e15355c70248a9c2faba0e25b1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aquamirae.snbt"
-hash = "b78e2e887ae120100bbb592c065323d2f50dfc031fd0b1d1c23c4efd2f9578dd"
+hash = "6e0b22e3416b64aad454af3ea9121265f999f9b154ef6d8af15a85fc55cd8b5d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
@@ -70030,7 +70030,7 @@ hash = "9ff9a5ea3b7af2dab8f81f2c41ad0366c545cb1b0249cdc22931ea68e15d2f9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/legendary_eyes.snbt"
-hash = "6e736cc2fb5c83a9b86f0b76a8df5f626ea696a69d71bf90114b32dea3c1c324"
+hash = "31ecb3851b43e6a90d989c1de1551e167587c2e3a8aaec20e317a356bbab7a21"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magics_and_madness.snbt"
@@ -70546,7 +70546,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "f9cc20ed049101ced8acc9e98c28fbafa0a20db8ace20b087af730241ff0d0ba"
+hash = "389cb49a773ab74f5d07e6508658d7baddef968c56ff47b3ec0c2fe329df2cc7"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -70877,6 +70877,10 @@ file = "config/jei/world/local/Spawn_test__4/lookupHistory.ini"
 hash = "bdc31b7a29ed4525c89f3a8e4dcf871434ab9ad869fcd7d3115ee1e411bfbc1f"
 
 [[files]]
+file = "config/jei/world/local/Spear_Test/lookupHistory.ini"
+hash = "962bcc27bf132b1c036b2466a688a299259c9c28b1ccdb56d938a6c4245e110a"
+
+[[files]]
 file = "config/jei/world/local/Spears/lookupHistory.ini"
 hash = "881611a30a7cd58f51f8f9db8bd8a6d72b8c5a37cbbb425990eefd81deed9f57"
 
@@ -70894,7 +70898,7 @@ hash = "5d7a1f57418d691316d231b686a799c24f370b7c7a1b45bdf4fd737c4d06aad5"
 
 [[files]]
 file = "config/jei/world/local/TREE/lookupHistory.ini"
-hash = "bbaddf9d0da1329279328d2429dd84c27b77c1addb2ef7e3eaff8af96cb9e4e3"
+hash = "8bf0297605d2f5bda3b615252f30e06b2f779794b10c146afe46001c47097247"
 
 [[files]]
 file = "config/jei/world/local/Tectonic_1/lookupHistory.ini"
@@ -71114,7 +71118,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "1681b9d7bd32c0775985b4b207dee564a47ea7aef9982d943f89d039cbe4736b"
+hash = "9ac71ac4042d52eb748552dd85922dea9f76ae9c7dc7cba22100d81c0793c6b3"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71353,6 +71357,10 @@ file = "config/nyfsspiders.toml"
 hash = "d3677ed2cee0a1837f12ce661727a7b2eeda9eaad2ff6c5e398ae95b477165a4"
 
 [[files]]
+file = "config/obscuria/obscure_tooltips-client.toml"
+hash = "cb94292192d00ec02479bb58d409195e224709e8823438d62fc4c666e8d4b7b3"
+
+[[files]]
 file = "config/observable.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
@@ -71366,7 +71374,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "1040cd8d43398d8b8264ea217088424f84886d4253c4ab493ccb369f6844b3ac"
+hash = "3c357e8d27a60f0686fda6354a0ebbf209291f41030db6baecc35fabc3a3b6e8"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71382,7 +71390,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "ca3ef11020572af7e1b83550596d5ba668e86113cebce97966c932bfbbb27545"
+hash = "19fa6e878fdfc5ec7bb6e6b233082bc6c383089283f67189893100fe6736bdbe"
 
 [[files]]
 file = "config/pal.properties"
@@ -71390,7 +71398,7 @@ hash = "4b178865259e23e2d820e6f534b28ba8cea8af79f0b98fc4d70afdfda2ff76cf"
 
 [[files]]
 file = "config/particle_core_config.toml"
-hash = "17dc9b585cecd37bf16a6b605a060f68a92b0749163fc6e6cfec51d8cce1fe78"
+hash = "9b2bc3bd68d454d0cf87f3878def3e409e5630441cfd0a3181af4666ebee46e1"
 
 [[files]]
 file = "config/particle_core_disabled_optimizations_v2.json"
@@ -71406,7 +71414,7 @@ hash = "1d88a8a8d049e39f9e286052a75e8ab2dead54fe49c88a1341bccb5ad17c941a"
 
 [[files]]
 file = "config/particull-client.toml"
-hash = "070a8b10406653056075f6bf33f015a0d47f624db6afe8bfc9c0fe3799504311"
+hash = "0af7eee528a395ac978822dd114a3591b1d0dcfa5bce96ab4c1310edfe87e230"
 
 [[files]]
 file = "config/passiveshield.json5"
@@ -71710,7 +71718,7 @@ hash = "c3fcadf445d99870f386e20b5f6463a04c550f5b28c9608227a79b08267c24e0"
 
 [[files]]
 file = "config/paxi/resourcepacks/Tumblr Bumblr/assets/ftbquests/ftb_quests_theme.txt"
-hash = "926130a117fc2ab0b5b36290f0044f6ef17bb35b502448ab48bbf7ca95de1bc0"
+hash = "35a11a00c5f32a9f761af090fe9791ad775d8f179f2db4a99946dca247418508"
 
 [[files]]
 file = "config/paxi/resourcepacks/Tumblr Bumblr/pack.mcmeta"
@@ -73050,7 +73058,7 @@ hash = "a19d088435d6334295d34fcf23fd2bd181a071a637ceb37cfd0dfdfb32312c56"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "d5fcc539d43c011a1d5691fd7e6706cd0236888a569919296764b5b169aaab81"
+hash = "f8374e7055688cc538a2b2e59670837126cad7c31077271a2d31e1d50818c371"
 
 [[files]]
 file = "config/worldeditcui.config.json"
@@ -73549,12 +73557,8 @@ file = "kubejs/assets/solapplepie/textures/items/satchel_particle.png"
 hash = "0c60bb1080eacca44039bd7fe96acb5aa38523dc9171ef38115e163a4171d7cf"
 
 [[files]]
-file = "kubejs/assets/spears/models/item/boreal_blade.json"
-hash = "6d6f193455f67058f6ad91bb531ef9361474e5525089346ef046e8cc6cb80b70"
-
-[[files]]
 file = "kubejs/assets/spears/models/item/copper_spear.json"
-hash = "ed97ed1d8d4b5446cbdb40852e5f1783cdbad41fdb542992648d908af9218f22"
+hash = "076ef5050337950d00b14029a5e68cd9518cb625be7d532b8754075629c15c84"
 
 [[files]]
 file = "kubejs/assets/spears/models/item/diamond_spear.json"
@@ -73562,27 +73566,55 @@ hash = "fbb55414754689ae8b7095d4f9c5d36f713cf2c9617bb7ceabb1d2ceeefa4a14"
 
 [[files]]
 file = "kubejs/assets/spears/models/item/golden_spear.json"
-hash = "857af7949819b05a66d74edb97a49a44675064605ab3b071067891eaa58f59fa"
+hash = "44a9e2e5668fee64fc29129eb5668fa3bde60fcfbd3e813cdbab3edda6d48f41"
 
 [[files]]
 file = "kubejs/assets/spears/models/item/iron_spear.json"
-hash = "797d009ad80596df0fd73ff3ec866b8221f1208024b21c7a12620599eefb3ae0"
+hash = "fe4f951d5f491ab14287fff4fb4d78dac061e41513df64abe07c2326a3b40b3e"
 
 [[files]]
 file = "kubejs/assets/spears/models/item/netherite_spear.json"
-hash = "fa7debe3cc6a1a34073d02fd412a0cf0c3deca5adbf09260d42b39febcb80f6c"
+hash = "25f5e583ac543837d8c25f0f792ee6a5614742659f32924235277c17849965e2"
 
 [[files]]
 file = "kubejs/assets/spears/models/item/stone_spear.json"
-hash = "8f3efc6300340fb7bcd5d6c921e5835848256c794248d4193a0f2f3422073f7c"
+hash = "8da9da5759a15e26e10cafb04b90493a3301634b3e55a2de62ac4f9d6e2c89a4"
 
 [[files]]
 file = "kubejs/assets/spears/models/item/template_spear_in_hand.json"
-hash = "a87d6456f2e8bd76090bad3d271177b131cb5dd367a557a06400e9452b883882"
+hash = "34bf9ab0a48b4a59b901d7cfbab41f8ae6cd274fb193b5a70d83e535dc55feed"
 
 [[files]]
 file = "kubejs/assets/spears/models/item/wooden_spear.json"
-hash = "c1edd90be0ab2bcc3a90ac0d8d0a7ac800e8d4ae633d524d89ac00906a305132"
+hash = "f4d579507523076b6f8946ee1d5edc6da30940df7820e206036bb98dad68c7c8"
+
+[[files]]
+file = "kubejs/assets/spears/textures/item/copper_spear_in_hand.png"
+hash = "08240b59e4b73e75147b3394a220e96ca180043d42f01f2c16b2e5cf12f9804e"
+
+[[files]]
+file = "kubejs/assets/spears/textures/item/diamond_spear_in_hand.png"
+hash = "9552e544bb2b216870905546a41ce32325d97b0774ce942c59141c3690c0612a"
+
+[[files]]
+file = "kubejs/assets/spears/textures/item/golden_spear_in_hand.png"
+hash = "af76625d2e43a5bef0e4c021592d0adc9e8787fbf00086ce70214a2f7bef0bd7"
+
+[[files]]
+file = "kubejs/assets/spears/textures/item/iron_spear_in_hand.png"
+hash = "208c6a7bcbe895ac272cb9c62e9b0e62fa17a8863f651f0011f7bf81bd95e9e1"
+
+[[files]]
+file = "kubejs/assets/spears/textures/item/netherite_spear_in_hand.png"
+hash = "949e578883665fccfea5446ed291d01bd4cd9c65312b86791f2738065f7d3297"
+
+[[files]]
+file = "kubejs/assets/spears/textures/item/stone_spear_in_hand.png"
+hash = "b58d344c72fc0067125095a2c0ce8c416a10a721cebcc03d204dd50a7642d472"
+
+[[files]]
+file = "kubejs/assets/spears/textures/item/wooden_spear_in_hand.png"
+hash = "f8e16242d77fdbcc6d307d05f8ace931a915e691263e2ba73256960bd03ad694"
 
 [[files]]
 file = "kubejs/assets/tconstruct/book/puny_smelting/en_us/movingfluids/copper_can_craft.json"
@@ -77573,6 +77605,10 @@ file = "kubejs/data/apotheosis/enchanting_stats/crypt_bookshelf.json"
 hash = "b6cf1af2337de2756a723ede5d09de45214c2ba388f6ab5914cdf97c4a48b3d8"
 
 [[files]]
+file = "kubejs/data/born_in_chaos_v1/weapon_attributes/shell_mace.json"
+hash = "836ca2ab7f95088f3d1edac658921228f205c8e23e06acb35967ef5e40c69d3c"
+
+[[files]]
 file = "kubejs/data/bosses_of_mass_destruction.mcfunction"
 hash = "00e50638ac247205979e04cf9c20eec82b297392ed1c43e3e0642bbcf58c9e59"
 
@@ -79945,11 +79981,6 @@ hash = "a3b3b6d44e62c210b52b1d1709792585ec88c1706cfdf3085848148264208845"
 metafile = true
 
 [[files]]
-file = "mods/cull-leaves.pw.toml"
-hash = "c46ac3ba7ece152ed9548e813f27131d2ce0663083d218aea3bf4a19927f1bfc"
-metafile = true
-
-[[files]]
 file = "mods/culllessleaves-reforged.pw.toml"
 hash = "8d4fd690cf05108e3e448e8f6960b55d2047e5310a5363ce4cddf9dc0674df05"
 metafile = true
@@ -80287,6 +80318,11 @@ metafile = true
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "16a411b7b612a4411d110053bbd10a0b8fd4c6a71734584eb3a2c06b21fe2377"
+metafile = true
+
+[[files]]
+file = "mods/fragmentum.pw.toml"
+hash = "9a833bb16d8d8822117ddbc66627a5a1b710d8acab0064360213fcdc5da29367"
 metafile = true
 
 [[files]]
@@ -80640,11 +80676,6 @@ hash = "272a090a083eeed4509341ea213ddf98e53c36726df157b4c13ba6d5a9d94030"
 metafile = true
 
 [[files]]
-file = "mods/legendary-tooltips.pw.toml"
-hash = "4911b5d9be1eb80305ae942d6bbcba911d45ae8024aaf27cd3339f4623772f98"
-metafile = true
-
-[[files]]
 file = "mods/lendercataclysm.pw.toml"
 hash = "0fa5029b25ff6a3a826d19ed027dbf7d72429a8cdcf10401751f8ff45cb6ac9d"
 metafile = true
@@ -80915,6 +80946,11 @@ hash = "e3541419236e0e2f63931a46330a5b0b10836b6bdad434c3d9fa4d8bfa623632"
 metafile = true
 
 [[files]]
+file = "mods/obscure-tooltips.pw.toml"
+hash = "d0949db4dc1876a43f1ea4977318c4bd3b36ee00089a40f324c901638e5e95d0"
+metafile = true
+
+[[files]]
 file = "mods/observable.pw.toml"
 hash = "3f9bb5fbf13379566e6c59d47aaf7211a6cef49b40464c2808674ab22db50bfb"
 metafile = true
@@ -80977,6 +81013,11 @@ metafile = true
 [[files]]
 file = "mods/particular-reforged.pw.toml"
 hash = "ad9beddc3b654337427c3e2d0807d39379f52b68be0df967c4147c706749e97f"
+metafile = true
+
+[[files]]
+file = "mods/particull.pw.toml"
+hash = "b0ee7154b87db9c1755a84ac92dace80d33cf8cd16cca6900d5e1ddf6e9a5351"
 metafile = true
 
 [[files]]
@@ -81635,11 +81676,6 @@ hash = "d27e0c341f5b2ea599fb846283e502af5c091cefa0c0eb8d3668383dc5e6e9c8"
 metafile = true
 
 [[files]]
-file = "mods/worldedit.pw.toml"
-hash = "ad2ddf1cc345b53b6b6289f537ed503267ba1b65b7dfdfbd73b49f39031336aa"
-metafile = true
-
-[[files]]
 file = "mods/worldeditcui-forge.pw.toml"
 hash = "592d50fd62274bfcd9013d2979ac0bd97365bca5a639e5ce83c3761569903e72"
 metafile = true
@@ -81667,11 +81703,6 @@ metafile = true
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "d84d5fc39f78bff6e179422e3849b7ad40ee9adb4c04d31a596beee1ea6f0375"
-metafile = true
-
-[[files]]
-file = "mods/yori3os-grappling-hooks.pw.toml"
-hash = "172dc8127a0474c900be3a144009e766593034ffc64f5d743353aee6fd85829b"
 metafile = true
 
 [[files]]
@@ -81734,21 +81765,12 @@ file = "quests_structures/nether_portal_frame_base.nbt"
 hash = "06d7773b22798af4b6ba22f50666726b937ca506894ad3e645a27a90d6826837"
 
 [[files]]
-file = "resourcepacks/.index/motschens-better-leaves.pw.toml"
-hash = "8ff6af52c28d92520fe63b27866b15fa5d5c8d3a637b71f311af082d6bc658bf"
-metafile = true
-
-[[files]]
 file = "resourcepacks/A Better GUI 2 - FTB.zip"
 hash = "87035e572242c8cf4ccba2aeb1d7f8ae455ee6904f1640b92febd4445b546ab3"
 
 [[files]]
 file = "resourcepacks/Alex's Titles 2.0.zip"
 hash = "48baead569c25d41f34d55cd37855305fd7a560b2bf21bf791a8b30d0d826853"
-
-[[files]]
-file = "resourcepacks/Better-Leaves-9.5.zip"
-hash = "5480640cb2f7674da4f2897ebc48b29a436706614160f4d4d8ad0ead5150fea6"
 
 [[files]]
 file = "resourcepacks/Better_hunters_2.zip"

@@ -10,9 +10,16 @@
 	quests: [
 		{
 			dependencies: ["15ACD993630984F4"]
-			description: ["Ice mazes show up in the deepest of frozen oceans. Be careful, as the water underneath the ice is &ofreezing&r so you'll want leather armor"]
+			description: ["They say that long, long ago, the gods grew bored with the world they'd created. In search of something that may entertain them, the god of the storm transformed the deepest of the oceans covered with ice into a maze. Now a truly cursed place where those who venture in never return, it's said that even the water itself freezes you down to the very bone. Perhaps that's why so many wear leather."]
 			hide_until_deps_complete: true
 			id: "4A47FB945C0C4886"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3655C33BD3A1D3E5"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				biome: "#aquamirae:ice_maze"
 				icon: "minecraft:packed_ice"
@@ -20,18 +27,20 @@
 				title: "Find an Ice Maze"
 				type: "biome"
 			}]
+			title: "Legends Carved in Ice"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4A47FB945C0C4886"]
-			description: ["Gives leather armor to combat the cold"]
+			description: ["To any mad enough to enter the graveyard of frost, heed this warning. As the oceans freeze over, and the gods play with its shape, its form, combat the cold with leather, or else meet a sub-zero end like the pirates before thee."]
 			id: "43F02218C2BBA0ED"
 			tasks: [{
 				id: "0B0EA508DEA9772F"
 				item: "aquamirae:pirate_pouch"
 				type: "item"
 			}]
+			title: "Overdue Hand-Me-Downs"
 			x: 1.0d
 			y: 1.5d
 		}
@@ -62,7 +71,10 @@
 		}
 		{
 			dependencies: ["4A47FB945C0C4886"]
-			description: ["Mother of The Maze is a miniboss that may show up with a message of feeling vibrations under the ice. A powerful mob that can break the ice in its pursuit, it is the primary source of Abyssal Amethyst."]
+			description: [
+				"Tales speak of a gem found in the deepest of the ocean, forged by frost and fear."
+				"If you wander the maze in search of this &6&oAbyssal Amethyst&r, and hear vibrations under the icey ground below, beware, for &6&oThe Mother of The Maze&r has come for you. Powerful in her persuit, and said to be capable of breaking the very ice that separates you, killing her is said to be hard... but &6&operhaps not impossible&r."
+			]
 			id: "47116E8A4D078C0B"
 			tasks: [{
 				count: 2L
@@ -77,8 +89,8 @@
 		{
 			dependencies: ["4A47FB945C0C4886"]
 			description: [
-				"Dropped by several mobs in the Ice Maze and from cutting Spinefish on a cutting board"
-				"Fins are dropped by most mobs, including Maws and Angler fish. They can be used to craft some strong armor"
+				"Just what is &o&6the Maw&r if not a trap of sharp teeth and malformed fins. The sightings of these creatures, and the findings of those slain, many find only their fins and bones to be of use, although some say they've heard &6&oechoes of those killed in the icey depths&r. Some sightings claim to see items within the mouths of the Maws, as if to lure in adventurers to a sharp and cold end."
+				"It seems like The Maw is &6&onot the only source of these&r, however, and they may make for some useful crafting material."
 			]
 			id: "3D23AD9F4C0A2BE3"
 			rewards: [{
@@ -106,12 +118,13 @@
 					type: "item"
 				}
 			]
+			title: "Into The Beast's Maw"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["3D23AD9F4C0A2BE3"]
-			description: ["Remnant's Saber is a sword with a unique ability to do 100% more damage underwater"]
+			description: ["There's the question, that in this world and all that it contains, all the weapons forged from nothing, can even bone be turned into a weapon. Perhaps something sharp may do the trick, if not on land, then certainly in the sea. &6&oUnder the water, such a serrated blade is sure to do more harm.&r"]
 			id: "602B6817D394000D"
 			rewards: [{
 				amount: 100L
@@ -131,12 +144,13 @@
 				}
 				type: "item"
 			}]
+			title: "A Serrated Sword"
 			x: -0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4A47FB945C0C4886"]
-			description: ["The angler fish seem to have evolved in the frozen depths of the ice maze, now much larger, and much more hostile.}"]
+			description: ["They say the depths have a way of changing life, making it... evolve. Some say this is what happened to the &o&6Angler Fish&r of the Ice Maze. Larger, sharper, more hostile, they are no longer like their more passive sisters on the outside. The venom of their fangs are said to make for some truly &6&oterrible&r equipment."]
 			id: "37C14B09CE0D87C5"
 			rewards: [{
 				amount: 100L
@@ -150,6 +164,7 @@
 				item: "aquamirae:anglers_fang"
 				type: "item"
 			}]
+			title: "Evolution's Toll"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -229,7 +244,15 @@
 		}
 		{
 			dependencies: ["37C14B09CE0D87C5"]
+			description: ["A Terrible Weapon, its cost of blood is often seen as fair for its high critical damage."]
 			id: "17171CE78EEE17E1"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4749029A4B90F90B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "147B26CF180FA57A"
 				item: {
@@ -241,8 +264,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["37C14B09CE0D87C5"]
@@ -293,11 +316,12 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 1.0d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["37C14B09CE0D87C5"]
+			description: ["A rather simple weapon, merely poisoning those hit."]
 			id: "6B2AC9F66E18B5C6"
 			tasks: [{
 				id: "02C9360D10FE5D8E"
@@ -310,11 +334,12 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["37C14B09CE0D87C5"]
+			description: ["The chakram is said to be hard to master, but its passive damage can be very helpful for those keeping their distance."]
 			id: "708195DB8305AD2B"
 			tasks: [{
 				id: "5983DF24010AB909"
@@ -337,8 +362,9 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: -0.5d
+			title: "Toxic Circles"
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4E3580D10FB8FC76"]
@@ -534,7 +560,15 @@
 		}
 		{
 			dependencies: ["3D23AD9F4C0A2BE3"]
+			description: ["Tales speak of warriors who turned their pain into strength, but not many speak of those who do so out of revenge. Turning their lost health into something more, something truly damaging."]
 			id: "36F0F40F5D746782"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "560B501916BA460D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "3B07ED7EF1DE8AB6"
 				item: {
@@ -546,18 +580,20 @@
 				}
 				type: "item"
 			}]
+			title: "Revenge Served Frozen"
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["43F02218C2BBA0ED"]
-			description: ["Worth its value, sometimes containing maps to various structures"]
+			description: ["Those commited may find themselves more interested in treasure than old clothing, and those before have certainly stashed such items away in pouches of their own. Armor, gold, gems, &6&operhaps even a map or two&r."]
 			id: "4759A40CA643929B"
 			tasks: [{
 				id: "7A405387EC540334"
 				item: "aquamirae:treasure_pouch"
 				type: "item"
 			}]
+			title: "Treasure no longer needed"
 			x: 1.5d
 			y: 2.5d
 		}
@@ -604,7 +640,15 @@
 		}
 		{
 			dependencies: ["4A47FB945C0C4886"]
+			description: ["Those that traverse the icy mazes are said to lose their very minds as they are lost in its depths. It only makes sense that they would write down journal logs, kept safe in their &o&6shelters and cabins.&r"]
 			id: "2D6EB90AB01FC332"
+			rewards: [{
+				amount: 360L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7047058C6AA96524"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [
 				{
 					id: "4AA655ADD0FC819D"

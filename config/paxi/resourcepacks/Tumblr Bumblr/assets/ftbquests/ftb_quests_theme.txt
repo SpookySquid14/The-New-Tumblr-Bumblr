@@ -27,5 +27,3 @@ quest_started_color: #66ff66
 quest_not_started_color: #282828
 quest_locked_color: #282828
 background: #282828
-[vampire]
-quest_completed_color: #FF0000

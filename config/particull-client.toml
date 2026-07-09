@@ -2,11 +2,11 @@
 #=== PartiCull V2 ===
 [Master]
 	#Global on/off
-	modEnabled = true
+	modEnabled = false
 	#Hard kill: no particles at all
 	disableAllParticles = false
 	#Verbose debug logging + stats every 10s
-	debugMode = true
+	debugMode = false
 
 [Pipeline]
 	#Manual density dial (0.0-1.0). 1.0 = vanilla density.
@@ -18,10 +18,10 @@
 	enabled = true
 	#Target FPS - below this, reduction kicks in. Auto-detected on first launch.
 	#Range: 0 ~ 360
-	targetFps = 80
+	targetFps = 165
 	#Floor FPS - at this level, max reduction applies
 	#Range: 0 ~ 360
-	floorFps = 20
+	floorFps = 30
 	#Min spawn probability at floor FPS
 	#Range: 0.0 ~ 1.0
 	minProbability = 0.15
@@ -70,7 +70,7 @@
 	#Per-particle-type spawn control
 	enabled = true
 	#Rules: 'modid:particle=probability'. Example: 'minecraft:smoke=0.3'
-	rules = ["particlerain:rain=1.0"]
+	rules = []
 
 [Presets]
 	#Disable entity_effect / ambient_entity_effect
@@ -81,7 +81,7 @@
 	enabled = true
 	#Extra margin beyond FOV (%). 20 = 20% wider cone.
 	#Range: 0.0 ~ 100.0
-	fovMarginPercent = 100.0
+	fovMarginPercent = 20.0
 	#Spawn probability for particles behind camera
 	#Range: 0.0 ~ 1.0
 	behindCameraProbability = 0.05

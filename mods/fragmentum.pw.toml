@@ -1,0 +1,18 @@
+filename = 'fragmentum-forge-1.20.1-1.3.0.jar'
+name = 'Fragmentum [Forge Edition]'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Fragmentum 1.3.0'
+
+[download]
+hash = '4d3c7ff7d0281713b92506dc4e4a358c549d3cf1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8099907
+project-id = 1123970

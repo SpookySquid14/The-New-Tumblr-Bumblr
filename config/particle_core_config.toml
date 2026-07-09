@@ -11,12 +11,8 @@ turnOffPotionParticlesV2 = [
 ]
 
 [byTypeReductions]
-"particlerain:rain" = 0.8970588235294118
+"minecraft:smoke" = 0.8970588235294118
 "minecraft:rain" = 0.8995098039215687
-"particlerain:dust" = 0.7965686274509803
-"particlerain:dust_mote" = 0.803921568627451
-"particlerain:fog" = 0.9019607843137255
-"particlerain:ground_fog" = 0.9019607843137255
-"particlerain:snow" = 0.9044117647058824
 "particlerain:streak" = 0.8995098039215687
 "minecraft:tinted_leaves" = 0.6029411764705882
+"minecraft:snowflake" = 0.6029411764705882

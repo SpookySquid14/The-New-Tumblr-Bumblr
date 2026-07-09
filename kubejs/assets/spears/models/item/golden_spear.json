@@ -1,6 +1,18 @@
 {
     "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "spears:item/template_spear_in_hand",
     "textures": {
-        "layer0": "spears:item/golden_spear"
+      "layer0": "spears:item/golden_spear_in_hand"
     }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/handheld",
+      "textures": {
+        "layer0": "spears:item/golden_spear"
+      }
+    }
+  }
 }
