@@ -181,7 +181,7 @@
 	ultimate_trigger_health_fraction = 0.5
 	#Fire Breath Tuning
 	#Range: 0.0 ~ 1.0
-	fire_breath_drain_per_tick = 0.00625
+	fire_breath_drain_per_tick = 0.0063
 	#Range: 0.0 ~ 1.0
 	fire_breath_regen_per_tick = 0.0025
 	#Range: 0.0 ~ 5.0
@@ -217,7 +217,7 @@
 	#Legacy taming (true = simple food taming, false = special mechanics)
 	legacy_taming = false
 	#Aggressive wild behavior
-	aggressive_wild = false
+	aggressive_wild = true
 
 #Stegonaut Dragon Attributes
 [stegonaut]

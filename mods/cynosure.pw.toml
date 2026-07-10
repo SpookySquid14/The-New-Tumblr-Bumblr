@@ -1,0 +1,21 @@
+filename = 'cynosure-0.1.16-forge.jar'
+name = 'Cynosure'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Cynosure 0.1.16 Forge'
+
+[download]
+hash = '2baabcd3fefbaf428a5080e894458f55c97e45d1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7894327
+project-id = 1259952
+
+[[x-prismlauncher-dependencies]]
+addonId = '351264'
+type = 'REQUIRED'

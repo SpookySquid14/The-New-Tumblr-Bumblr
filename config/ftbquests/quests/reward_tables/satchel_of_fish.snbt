@@ -1,0 +1,22 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "tide:item/fish_satchel_two_fish"
+		}
+	}
+	id: "4DB89F2C472492C1"
+	loot_size: 3
+	order_index: 15
+	rewards: [
+		{ item: "minecraft:salmon" }
+		{ item: "minecraft:salmon" }
+		{ item: "minecraft:salmon" }
+		{ item: "minecraft:cod" }
+		{ item: "minecraft:cod" }
+		{ item: "minecraft:cod" }
+	]
+	title: "Satchel of Fish"
+	use_title: true
+}

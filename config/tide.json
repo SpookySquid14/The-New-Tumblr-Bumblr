@@ -28,8 +28,8 @@
     "logDataErrors": false
   },
   "items": {
-    "fishItemSizes": "IN_JOURNAL",
-    "bucketableFishItems": "NEVER",
+    "fishItemSizes": "ALWAYS",
+    "bucketableFishItems": "ALWAYS",
     "fishItemLifespan": 180,
     "enableBedrockBreakingItems": true,
     "pocketWatchBlacklist": []
@@ -40,7 +40,7 @@
     "showUnread": true,
     "useAmPm": true,
     "useFahrenheit": false,
-    "useRealDate": false
+    "useRealDate": true
   },
   "minigame": {
     "doMinigame": true,

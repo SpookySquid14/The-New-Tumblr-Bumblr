@@ -6,7 +6,7 @@ ServerEvents.tags("item", event => {
     event.add("tumbrbumblr:dragon_meal_fish_med", '#tide:cookable/cooked_fish')
     event.add("tumbrbumblr:dragon_meal_fish_med", 'minecraft:cod')
 
-    const dragon_food_tags = ['saintsdragons:dragon_food','saintsdragons:foods/varasuchus','saintsdragons:foods/cindervane','saintsdragons:foods/raevyx','saintsdragons:foods/ignivorus','saintsdragons:foods/stegonaut','saintsdragons:foods/volitans']
+    const dragon_food_tags = ['saintsdragons:dragon_food']
 
     dragon_food_tags.forEach(food_tag => {
         event.add(food_tag,"#tide:fish")

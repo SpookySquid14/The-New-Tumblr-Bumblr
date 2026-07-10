@@ -846,7 +846,7 @@ hash = "557cc1b6ba1369f5d2459054cc2b9e9f91c58b9cdecb0a3023a911b435b1a9c8"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "e4a8d8454ec35f196b9a4e9c3094a2ae6753ef5259bb1894f7daff04ee5e0e67"
+hash = "115528e1b192259c1af123a691526170e17ade418994f18c080161037c1dc91d"
 
 [[files]]
 file = "config/apotheosis/garden.cfg"
@@ -1366,7 +1366,7 @@ hash = "63f34caf47c465338b28a5661d3236aa71ea5e4774635bad54718c3edc7bbfec"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "f3518b8c678fb5a03047bd0638ce3175ded90d1d2f45843c977f8fce9a6f4a61"
+hash = "fb21a249ce8f8d22728ada42c33e69b7e72b8ff93e482a6486345e7af21c866f"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -16437,6 +16437,14 @@ file = "config/blockswap/known_states/createbigcannons/yaw_controller.json5"
 hash = "4c9fac5284a64a286df2fe369bcf89adf55c1e90832e75214e2e91bdb6660f4c"
 
 [[files]]
+file = "config/blockswap/known_states/createestrogen/centrifuge.json5"
+hash = "45be7b21a07437f8b75ec44a3dcafd0e8f1e9346c006d0be1ada28d8204835a1"
+
+[[files]]
+file = "config/blockswap/known_states/createestrogen/moth_seat.json5"
+hash = "d2a6ac1a41b3504e358fcdad9896186fda31882e9682f7acfacd132abd69027b"
+
+[[files]]
 file = "config/blockswap/known_states/createoreexcavation/drilling_machine.json5"
 hash = "5f42741977b247af5744c6a896a1d49f9f8aa107a59366729b37002b745b4027"
 
@@ -18863,6 +18871,102 @@ hash = "3005943e665bc01df61335e6992cdfe57992ef329dd49dc33003f8a5ac84fd25"
 [[files]]
 file = "config/blockswap/known_states/endrem/ancient_portal_frame.json5"
 hash = "e04812ca280273a5aaf106c302313c0ad84f533a54054de5b5e49758c8286edf"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/centrifuge.json5"
+hash = "cca07466af962f5ec2bcbe445166b9b19b1178869e8a4e61aa82386baf0204d7"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/colon_three.json5"
+hash = "36baafe00709e1cc66b9bee5053724fe5ffc5fb99acd1cf0259dbfb6f6ae8d25"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/cookie_jar.json5"
+hash = "0aeeffcc83adca7c620274d607f35826839eadd9c0492434ea3e17ee6fb1b1d5"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/dormant_dream_block.json5"
+hash = "68255c046e9a512ca3d4859bbf8c2aa8b43f1b6408f9414e25d4b6d3f385374e"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/dream_block.json5"
+hash = "66c2ad389e36048fbeccb3efade4f256a8310993978777c9a888c6525eff3285"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/dreamcatcher.json5"
+hash = "d8b715a290521b869797078ce63bca4e29c871b15746c5d16514a463a64f1135"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/estrogen_pill_block.json5"
+hash = "089271f737e6fbc4770a19f295aa350b400b278d0c0002fe8b15a0a792576eba"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/filtrated_horse_urine.json5"
+hash = "542c0f6b6f7880841edd288be43b3e53d9327e4edec2c74a5062700787b81cd0"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/filtrated_horse_urine_cauldron.json5"
+hash = "3cfeee9b8302800984b73808d6cfd28d25c1e80b81f647d501e3ba528a00c1b5"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/gender_fluid.json5"
+hash = "57a283a5dd775ea7f7e138cdad5d119b989d202b911a0818c6a11d0bb48df937"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/horse_urine.json5"
+hash = "678ecaa70ce44db4fe355fd6ccd279cccd948e0118119ad5ae67bef0ddd704fb"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/horse_urine_cauldron.json5"
+hash = "5fb527cfaf26956543d2744bf3349e8788a46e5a0bdf7272c3d6197e35ab6572"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/liquid_estrogen.json5"
+hash = "094be978f2e1742cdd373f74076ce2a0a557b7373c97a17f2c692137b6021ca7"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/liquid_estrogen_cauldron.json5"
+hash = "9088ada2a41a8198f812bc7bfdd1c3eb0278769df174ae4f81ea868d3a6a22a2"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/memorial.json5"
+hash = "25b62fcf15b16d161e70290fe0a9270b00f29493fa04a96f02770265c6b83289"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/molten_amethyst.json5"
+hash = "c435337b5d16ac6ac7180e48d1758b996574645862f33e7bdf9a8e9094e430a2"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/molten_slime.json5"
+hash = "beaacbc02b61a028b3be084d444fc105fbb62b55715890bb1fa673585bb6d49c"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/moth_bed.json5"
+hash = "8ecbcfed80e23bb7772d9c3aa42fe3986299215369a15a4fd64fd0348f8f055a"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/moth_wool.json5"
+hash = "08af1b9e029423bcc3340ac30b20a690b4b30109f127ae15673b27c8595ad11b"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/moth_wool_carpet.json5"
+hash = "32d3551f1e81b75d7aa2e6b01f7f344415b28abfa22cb9a6eea346c6fe89a898"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/quilted_moth_bed.json5"
+hash = "1dfcc916d34bd87c39aef7d31f46b59f27a066f3e44045294983912fdd9326ae"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/quilted_moth_wool.json5"
+hash = "85dc7369fabf835eb0ce784b27392e2fad8dc3108fcf2b4760c7cf62f8b1c06c"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/quilted_moth_wool_carpet.json5"
+hash = "e6d3fc279fe342ebb32b52cb3e0906e58ed787ef6b10cbe00aad37313e5f22fc"
+
+[[files]]
+file = "config/blockswap/known_states/estrogen/testosterone_mixture.json5"
+hash = "a9f6f8421917e75b29ea60c6f371f83c56081c582002dd7fe24887a5241e5856"
 
 [[files]]
 file = "config/blockswap/known_states/etched/album_jukebox.json5"
@@ -68673,6 +68777,18 @@ file = "config/createbigcannons-client.toml"
 hash = "58ed1300f27b253ea819426c739a4baa88fe776932f527905a513562e3b96f1a"
 
 [[files]]
+file = "config/createestrogen/client.toml"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/createestrogen/common.toml"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/createestrogen/server.toml"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/createoreexcavation-common.toml"
 hash = "dcd212e6fc8f5a0ec5f7be4c8f4cf7916ddf4bb4c0d082401ed7dda4371055ca"
 
@@ -68869,6 +68985,18 @@ file = "config/entityculling.json"
 hash = "da13c5bbd33e17050270f49fd151443f7aa8d16115c038c8d047c8844615b4d8"
 
 [[files]]
+file = "config/estrogen/client.toml"
+hash = "97a60e2f7951eeb0e9e81dac5420b927ac653a2cc8c6e528793ed08b15d5c7a0"
+
+[[files]]
+file = "config/estrogen/common.toml"
+hash = "ea926a143339dae0a4a02d77438167b721970ba90e21c06a77082927095ec9b8"
+
+[[files]]
+file = "config/estrogen/server.toml"
+hash = "57aad23ddc0dad4cf6142337357b38a9aba484676302d4903d47dcced80328a4"
+
+[[files]]
 file = "config/etched-client.toml"
 hash = "ba628db88f7a3fcfa91d37552cc15e3b37f5c3574e736cb54a1f018e3bfeaa7a"
 
@@ -68942,7 +69070,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "ea8bcf5df264c626fd5db2c235c4421d1d448ea703c86a3c61e92e78d42da344"
+hash = "ddbffe660e8f5d961becedb07d8c4d63e499dd12eb76c6ad4fa1893bd687d2b0"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70074,7 +70202,7 @@ hash = "5b3634e650b16d4b4fc7b20c34d1825810ec00b70e0692e299c7a152e99675b3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/saints_dragons.snbt"
-hash = "ae482133d276adc176a7c16641ec226aa611d94a48dea1981c1e7cbdbac64272"
+hash = "a2eb9f4151d8c0c4d2e5be25d43b2f63b67d2e2848db4dbe7cc821c24bb3b8c3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated_backpacks.snbt"
@@ -70167,6 +70295,10 @@ hash = "bda3fc1a79b3d90eaca239bad2b93c8a1e44f62dbd79c8a3e5754e4ebda47bc8"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/note_or_coin.snbt"
 hash = "71d2db68c868c54fd6bdd47fe1ea366562df80530d1160fe2ed2c70a7ad1ea09"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/satchel_of_fish.snbt"
+hash = "fe7abd485a7f39a00883fee8a5cb8b06e21ef63832679869304e2506e309abd2"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/wda_food.snbt"
@@ -70546,7 +70678,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "389cb49a773ab74f5d07e6508658d7baddef968c56ff47b3ec0c2fe329df2cc7"
+hash = "bede5ffdf24dd556c555763101a6a411f8fae296867951db9f96d65e1c5d25b4"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -70570,7 +70702,7 @@ hash = "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "c2b967685224f2fffda180cee8f503cc5fd395286bb4c0bea0032f966f3acec9"
+hash = "4813708213f476bf13e69d58f2d9462c02fd705a3223728d79f564368b550e4b"
 
 [[files]]
 file = "config/jei/world/local/Apothic/lookupHistory.ini"
@@ -70623,6 +70755,10 @@ hash = "3640a833c3f7591238f193ac819a5c0dc0079f1644b19810b4226642ac3c3438"
 [[files]]
 file = "config/jei/world/local/Dungeons_Arise/lookupHistory.ini"
 hash = "4125520224d79c9e20a6b1c32d6136e2b39bcb594acd238acf68923fed52c1db"
+
+[[files]]
+file = "config/jei/world/local/E/lookupHistory.ini"
+hash = "d50832e6144685e3edf1966da2eec777baf9d45873e0e910d32b3ed044b88bf9"
 
 [[files]]
 file = "config/jei/world/local/Enchant/lookupHistory.ini"
@@ -70898,7 +71034,7 @@ hash = "5d7a1f57418d691316d231b686a799c24f370b7c7a1b45bdf4fd737c4d06aad5"
 
 [[files]]
 file = "config/jei/world/local/TREE/lookupHistory.ini"
-hash = "8bf0297605d2f5bda3b615252f30e06b2f779794b10c146afe46001c47097247"
+hash = "0ee999d69fab6daa1c075b9494a59c5c7992fab38e949e9aa5023de6269bd4ff"
 
 [[files]]
 file = "config/jei/world/local/Tectonic_1/lookupHistory.ini"
@@ -70967,6 +71103,10 @@ hash = "9bfd764bcda85168d91aaa8bb637ea61f5f5793738a0c5e0ed8d1e6f43ba1a12"
 [[files]]
 file = "config/justenoughbreeding-offsets.json"
 hash = "a1d6c7261526c48721e40fa1b9380f4a7da1be0e7e149ce2672705509e3203b6"
+
+[[files]]
+file = "config/kittyconfig.json5"
+hash = "f9d8b19427481460b03ad1d129ba842ee54d257ca1329f20ddbcc63eb0ea6548"
 
 [[files]]
 file = "config/knavesneeds/deeperdarker.json5"
@@ -71118,7 +71258,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "9ac71ac4042d52eb748552dd85922dea9f76ae9c7dc7cba22100d81c0793c6b3"
+hash = "5d84e842708776d059a8ac0aa41d3d5465200f491dcbf686a885bd9f27d86461"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71374,7 +71514,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "3c357e8d27a60f0686fda6354a0ebbf209291f41030db6baecc35fabc3a3b6e8"
+hash = "0f34423da30b87a4ced3d941c5bfdbf79cfdc3c0e323a9ec71bd0f87292779a9"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71390,7 +71530,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "19fa6e878fdfc5ec7bb6e6b233082bc6c383089283f67189893100fe6736bdbe"
+hash = "d333a60112fc42843ab10a25574ee6a41ff161d1e178d6d106022599c28e28e7"
 
 [[files]]
 file = "config/pal.properties"
@@ -71718,7 +71858,7 @@ hash = "c3fcadf445d99870f386e20b5f6463a04c550f5b28c9608227a79b08267c24e0"
 
 [[files]]
 file = "config/paxi/resourcepacks/Tumblr Bumblr/assets/ftbquests/ftb_quests_theme.txt"
-hash = "35a11a00c5f32a9f761af090fe9791ad775d8f179f2db4a99946dca247418508"
+hash = "db18664bb9ed3eedb9a9be9d97411cb657738a0bca8a950a963aa3460902a142"
 
 [[files]]
 file = "config/paxi/resourcepacks/Tumblr Bumblr/pack.mcmeta"
@@ -71946,7 +72086,7 @@ hash = "d84083cbde0089eae65f24d5ce86087421163e76282dd3fff6a47862090795d1"
 
 [[files]]
 file = "config/saintsdragons/server/attributes.toml"
-hash = "1742900daec604cf523694aab393643da63c82ceab9fea4e79c6ad864c5394db"
+hash = "2715305146074d741b5237cbfa50ad6797821a8d978a583b4779250e8d3b1841"
 
 [[files]]
 file = "config/saintsdragons/server/servercommon.toml"
@@ -72282,7 +72422,7 @@ hash = "c73292a81a8409d74edb12b0bb9226bda03f39e11afc8abfe6bff52cc30ef480"
 
 [[files]]
 file = "config/tide.json"
-hash = "0db8b97f9d2d8befe88977980c1c07a870e90c50860dd20d8f9bb468ca2a2eee"
+hash = "d9530a7ec7b67e16003e4b5d066ccd1918bf585d7ce64f6ae8d116c4180154dc"
 
 [[files]]
 file = "config/tinkers_advanced-common.toml"
@@ -76929,6 +77069,10 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/chrysalis.png"
 hash = "b4d4bf1dca95b8d2504f4126d424e7b7ea989de8700f22e85f02c64805c6a2d2"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/cindervane.png"
+hash = "4678fdf45b3eb774555b6d288f92b33df33fdecccd85c7473cdf5d9e22aea1e8"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/claim1.png"
 hash = "8dbe0cdf2461a587394f4dd2fdd02699eb42f6d542069095fd779dd66f5eaa09"
 
@@ -77205,6 +77349,10 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/icons/industrial_adjustable_w
 hash = "e8acc7eacfc40e416c2cc1c3b6ae329edf991878d9c8138d4a74561a36b2922f"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/icons/ivy_portrait.png"
+hash = "eed6492f5834e26879d9f1b00f10aba88c058e64496ac8735f4956b6fd1f2a5a"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/jet_boots.png"
 hash = "9a0c677631a281a7322c070a69630c518c106e98e5c6bc8ca2285dd69dda0720"
 
@@ -77251,6 +77399,10 @@ hash = "f6c5e4fac3d5434da5714c2b9475c54c17a88bc9b90d83ede829961e459522b2"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/ignited_revenant.png"
 hash = "54a265399a48e4fa320ddd0123e149ef02649a277213ece9e2699ca35023abfc"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/ignivorus.png"
+hash = "98871354c5bc76cb13c984d5b1bc5546d6725073a1cc9bd516880ed9651d3524"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/immersive-enchanting-1.png"
@@ -77321,6 +77473,10 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/nourishing-meals.png"
 hash = "51a88f922d7e6dcdcc3a1cd06eb5ba035812f79899469e75d563d0b9e608bbac"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/nulljaw.png"
+hash = "d0a6d8637c1f0942433d08e085a8a701711d60ab6f5e3d6b17f23f823f81c023"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/occultism.png"
 hash = "892c8961b9e388f08dced787c84c5f88467446f435eae718d33a564fc9da27c2"
 
@@ -77359,6 +77515,18 @@ hash = "fc874f3737b475e5e16816cca482c779fa3da3bfe1c41c2e2a6d6c9a479a23a8"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/quest-book.png"
 hash = "4ddb6a7cdd8e0d987d50146c67ee030ee9eb64517a2828b3bc9f604cb3e91ab4"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/raevyx-egg.png"
+hash = "52c2594defb129bcf4beb3fb0bf8bf805344af8b2d64261007447ca305012522"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/raevyx-portrait.png"
+hash = "53b7dda4770ca02af8169b7eea75bd0a574ea0eb6626400bd066f676c95c53e9"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/raevyx.png"
+hash = "1d812118d9552ded69798b4c661a7cd1ed7db01ad75c4821642b46bdd24ab1b7"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/ravenous-claws.png"
@@ -77441,6 +77609,10 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/spiritfire.png"
 hash = "b113bf88b40d4d2c8eb3cbc6aeb664c424bf9078d19e4ef3d1d9c84d922d90d3"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/stegonaut.png"
+hash = "e2cc986069aaada476d688283f77be0b5c159e3a3517d13767f60f4584df41d4"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/storage-and-machines.png"
 hash = "301fe2f29f51a8e7093108ef65c1b82d7264696e2da3fe2dfbc0b36fb7e03914"
 
@@ -77493,12 +77665,20 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/vampire-menu.png"
 hash = "22b6a348e1606b5a70e0baeb0c27f0ce1896051b210d72963737599f1050331a"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/varasuchus.png"
+hash = "48fbe3d1fb8439afd207b52e915704321294015119673b06e5a9b8fe3aae52ef"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/vizier.png"
 hash = "8328ff6913b3ba0a49fa220e4935c0fa674d9cb4e226d1273ef042308ff94dac"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/void-blossom.png"
 hash = "34ec39a1153e5bd0b5fa192ecf49c49a996fbfa08fa3165ef8131ca67ce3ba94"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/volitans.png"
+hash = "0ae9ec5794186093781217f4e709735a1e119581ddf79b4ce9f49ea142109bb3"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/warrior-set.png"
@@ -79138,7 +79318,7 @@ hash = "4819e4dec6a8951d31048aec88d0aafa112112313f51615c93edfaddf32c85f0"
 
 [[files]]
 file = "kubejs/server_scripts/Tags/foods.js"
-hash = "731aabc50e8625ab1ad5c8b37e07c1361ece75f35063a96f1e444b475323b8de"
+hash = "d4f1f583e1b7605ec26555b67115f3d618f6126de7e773f6c4d51248cbb537af"
 
 [[files]]
 file = "kubejs/server_scripts/Tags/items.js"
@@ -79926,6 +80106,11 @@ hash = "02381ebf319d6687be43472d9247cc0ada85978c7104e8abf44142a868079405"
 metafile = true
 
 [[files]]
+file = "mods/create-estrogen.pw.toml"
+hash = "58cbdb174405802f6d2e9e76dd180e81f78b93067bb595ae98c92a1df6a5b059"
+metafile = true
+
+[[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "0a56060dae5d25d87abb4edf5291acf8e049fb95913db6ef0fb4a3fa9da8af05"
 metafile = true
@@ -80003,6 +80188,11 @@ metafile = true
 [[files]]
 file = "mods/curious-lanterns.pw.toml"
 hash = "6c61648ebe4329b02ee9138e899345739584811e1b4c099b86d845925d0ae9dc"
+metafile = true
+
+[[files]]
+file = "mods/cynosure.pw.toml"
+hash = "6e027b48a28d35350f3ebb1e66b2c52c7abcf0146f66d4df06fc0c7e30ade77b"
 metafile = true
 
 [[files]]
@@ -80178,6 +80368,11 @@ metafile = true
 [[files]]
 file = "mods/entitymodelshaderfix.pw.toml"
 hash = "17d575a35c8d4d1eae592721123da87a82adfe553ab17cba9505b53864e92c47"
+metafile = true
+
+[[files]]
+file = "mods/estrogen.pw.toml"
+hash = "7e3611593e74aaa5cfe6355e27ad0511937f0f3befa58a4141166721ae406b9d"
 metafile = true
 
 [[files]]
@@ -81633,11 +81828,6 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "8c3796c34cd00f93ad0d8e40894689428b618e26ffc5ec469a623b61cb0f7de2"
-metafile = true
-
-[[files]]
-file = "mods/weeping-angels-mod.pw.toml"
-hash = "e68bab49f7d8561d58c3df8704037a0a65474bf8b5a531d65c105ba4733ae919"
 metafile = true
 
 [[files]]

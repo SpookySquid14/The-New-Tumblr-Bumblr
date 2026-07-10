@@ -27,3 +27,10 @@ quest_started_color: #66ff66
 quest_not_started_color: #282828
 quest_locked_color: #282828
 background: #282828
+
+[533A9A274E0AFD57]
+quest_view_background: #f6d684
+quest_view_border: #643519
+text_color: #000000
+[019E4643C7FA74EF]
+quest_view_background: #faecca
