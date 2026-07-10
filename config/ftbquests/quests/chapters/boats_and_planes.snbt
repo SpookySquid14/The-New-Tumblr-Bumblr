@@ -515,6 +515,16 @@
 			y: -6.5d
 		}
 		{
+			dependencies: [
+				"6B43C3734794C3D7"
+				"0148D140EF1045FA"
+				"3F2169DF8F96D8A3"
+				"532C02B55492142D"
+				"263538C5E0C9204C"
+				"43DB027C382D0466"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "75FC9F4AB4245047"
 			rewards: [{
 				amount: 100L
@@ -550,6 +560,16 @@
 			y: -5.5d
 		}
 		{
+			dependencies: [
+				"6B43C3734794C3D7"
+				"0148D140EF1045FA"
+				"3F2169DF8F96D8A3"
+				"532C02B55492142D"
+				"263538C5E0C9204C"
+				"43DB027C382D0466"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "73E4167FD392B736"
 			rewards: [{
 				amount: 100L
@@ -567,6 +587,16 @@
 			y: -8.0d
 		}
 		{
+			dependencies: [
+				"6B43C3734794C3D7"
+				"0148D140EF1045FA"
+				"3F2169DF8F96D8A3"
+				"532C02B55492142D"
+				"263538C5E0C9204C"
+				"43DB027C382D0466"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "7E19C44A34094D3F"
 			rewards: [{
 				amount: 100L
@@ -584,6 +614,16 @@
 			y: -7.0d
 		}
 		{
+			dependencies: [
+				"6B43C3734794C3D7"
+				"0148D140EF1045FA"
+				"3F2169DF8F96D8A3"
+				"532C02B55492142D"
+				"263538C5E0C9204C"
+				"43DB027C382D0466"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "254D405F16D20BD2"
 			rewards: [{
 				amount: 100L
@@ -601,6 +641,16 @@
 			y: -6.0d
 		}
 		{
+			dependencies: [
+				"6B43C3734794C3D7"
+				"0148D140EF1045FA"
+				"3F2169DF8F96D8A3"
+				"532C02B55492142D"
+				"263538C5E0C9204C"
+				"43DB027C382D0466"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "14AC1508DFD0D0F0"
 			rewards: [{
 				amount: 100L
@@ -618,6 +668,16 @@
 			y: -5.0d
 		}
 		{
+			dependencies: [
+				"6B43C3734794C3D7"
+				"0148D140EF1045FA"
+				"3F2169DF8F96D8A3"
+				"532C02B55492142D"
+				"263538C5E0C9204C"
+				"43DB027C382D0466"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "535647CA39B48B8D"
 			rewards: [{
 				amount: 100L
@@ -635,6 +695,16 @@
 			y: -6.0d
 		}
 		{
+			dependencies: [
+				"6B43C3734794C3D7"
+				"0148D140EF1045FA"
+				"3F2169DF8F96D8A3"
+				"532C02B55492142D"
+				"263538C5E0C9204C"
+				"43DB027C382D0466"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			dependencies: ["7DA024433105259D"]
 			hide_dependency_lines: true
 			id: "75873ECB2C254951"
@@ -654,6 +724,16 @@
 			y: -5.0d
 		}
 		{
+			dependencies: [
+				"6B43C3734794C3D7"
+				"0148D140EF1045FA"
+				"3F2169DF8F96D8A3"
+				"532C02B55492142D"
+				"263538C5E0C9204C"
+				"43DB027C382D0466"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "41CEB6DE137EE936"
 			rewards: [{
 				amount: 100L
@@ -707,7 +787,17 @@
 			y: -7.0d
 		}
 		{
-			id: "174688EA099A17CC"
+			dependencies: [
+				"6B43C3734794C3D7"
+				"0148D140EF1045FA"
+				"3F2169DF8F96D8A3"
+				"532C02B55492142D"
+				"263538C5E0C9204C"
+				"43DB027C382D0466"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "174688EA099A17CC" 
 			rewards: [{
 				amount: 100L
 				currency: "eternalcurrencies:ancientcoins"
@@ -751,6 +841,16 @@
 			y: -4.0d
 		}
 		{
+			dependencies: [
+				"6B43C3734794C3D7"
+				"0148D140EF1045FA"
+				"3F2169DF8F96D8A3"
+				"532C02B55492142D"
+				"263538C5E0C9204C"
+				"43DB027C382D0466"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "1B5F5A6562867FA6"
 			rewards: [{
 				amount: 100L
@@ -768,6 +868,16 @@
 			y: -6.5d
 		}
 		{
+			dependencies: [
+				"6B43C3734794C3D7"
+				"0148D140EF1045FA"
+				"3F2169DF8F96D8A3"
+				"532C02B55492142D"
+				"263538C5E0C9204C"
+				"43DB027C382D0466"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "3F50A4960DCA5258"
 			rewards: [{
 				amount: 100L
@@ -785,6 +895,16 @@
 			y: -5.5d
 		}
 		{
+			dependencies: [
+				"6B43C3734794C3D7"
+				"0148D140EF1045FA"
+				"3F2169DF8F96D8A3"
+				"532C02B55492142D"
+				"263538C5E0C9204C"
+				"43DB027C382D0466"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "1425D518632690BE"
 			rewards: [{
 				amount: 100L
