@@ -69126,7 +69126,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "445830d9ace490fddd8cc5f47c4571144522b078e7153fc69565a60d57822f2e"
+hash = "262c4443c0920074abd4b48a4ab782d4bb2a7f6000f986d454e05e23f8a1c815"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70186,7 +70186,7 @@ hash = "41329e81e6dab5a8d60757e33f55446d69c5aa7a4a86d5260bb0873ecbc8861b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/debug.snbt"
-hash = "67e9c0c1c4625b6a3e71be3efe47c567390bcb5ed1ac38c797bd0addec440974"
+hash = "d7f0d36ec3e97eaa53455145570eb7243810a2fb536a007eeb3449227f934d95"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
@@ -70738,7 +70738,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "352cf26faa5d175161b6136d671436ae74d1b4a0f4cafe89b2253f90549f4547"
+hash = "bede5ffdf24dd556c555763101a6a411f8fae296867951db9f96d65e1c5d25b4"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -71326,7 +71326,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "f20f26b46bb94e8b72077fde6ebd61be694b94b2871faf0f40297eab5fc178f2"
+hash = "7514a70923393dc6ddc22912085bbb869dd86cccad3377d66627c97e439e08b8"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71582,7 +71582,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "fc547cddc049a952e98fe27a271eadb7d3e729f2d35aa52303c283a6624dc69e"
+hash = "3b3f4e7db64d207a76359d11517bc1cf1bad2e7e77cd7c0d2cbbb7d5aa881583"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71598,7 +71598,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "c1ca625d68366b93ad704bbd0a303e09c8dd1352c05422e42ea248c1cfe396e3"
+hash = "49dbef4e89721b19e5289fc31c486dc5c517d56e79c854da5dcf3fc404c09548"
 
 [[files]]
 file = "config/pal.properties"
@@ -72386,11 +72386,7 @@ hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
 
 [[files]]
 file = "config/structurify.json"
-hash = "8a36a029e57b3f08376f66590cae41fb61b1d5d7a2686c31212b51b97d52be9f"
-
-[[files]]
-file = "config/structurify/structurify_backup_2026-06-14_12-49-29.json"
-hash = "5cd4824de8fb36cdb953d9d310bc30eaa67a654e17525ba32f0fa0f047ea8a3d"
+hash = "822f284bb166cc16d05acf86d06e53aa9f293c27a833ae9a8a7af734caee2337"
 
 [[files]]
 file = "config/structurify/structurify_backup_2026-06-14_17-29-34.json"
@@ -72407,6 +72403,10 @@ hash = "43c5d5aa0c565895a1cde6cfe447f5e2d1c478feb2bb92971f075d6849856acb"
 [[files]]
 file = "config/structurify/structurify_backup_2026-07-10_11-38-24.json"
 hash = "b802e58488e2ddd22689375ef913621328240b71dd4dd499aaf4c80f14ed26da"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-07-10_17-10-48.json"
+hash = "8a36a029e57b3f08376f66590cae41fb61b1d5d7a2686c31212b51b97d52be9f"
 
 [[files]]
 file = "config/structurify_dump.json"
@@ -79677,11 +79677,6 @@ hash = "7826315ea3c111bd14114f65edee5924ec63b65bd8617df45f6bb3afc2ebf50f"
 metafile = true
 
 [[files]]
-file = "mods/alshanexs-familiars.pw.toml"
-hash = "97c3689bb086be88561209d6526af760c2977148e3bcb5e024bc573a3eca2317"
-metafile = true
-
-[[files]]
 file = "mods/ambient-environment.pw.toml"
 hash = "aacd782f62baeb0389fcd6c3aa4dccb2b4dd1809613327b19d4ce9b63117e5b0"
 metafile = true
@@ -80502,11 +80497,6 @@ hash = "fc60d2f15eefb75868812672919b802430c2d22dd23422d2000cba061b87a946"
 metafile = true
 
 [[files]]
-file = "mods/exposure-village-chest-addon.pw.toml"
-hash = "9e6436a4ceef03c31e3b5a4f2c695094af93fce0c9e0c2d685393f1c413eec01"
-metafile = true
-
-[[files]]
 file = "mods/exposure.pw.toml"
 hash = "80aa02c634f2042c652c8048fb2b315c3712a9578888d4349158d0b25a34f391"
 metafile = true
@@ -80534,11 +80524,6 @@ metafile = true
 [[files]]
 file = "mods/fallen-lib.pw.toml"
 hash = "bd9d13f4db8433e3fcda00ef6c01011112dafa1737c865635bcf6d7f796dbf80"
-metafile = true
-
-[[files]]
-file = "mods/familiarslib.pw.toml"
-hash = "c38d5656692cc5d7cee75549d2e223e5a34c037126869964879df0af974c1aef"
 metafile = true
 
 [[files]]

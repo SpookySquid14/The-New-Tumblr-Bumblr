@@ -403,6 +403,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["673800544C41DE7D"]
 			id: "75DE50143D701A56"
 			rewards: [{
 				auto: "invisible"
