@@ -10,5 +10,12 @@ to make editing this file much easier.
 [
 	{
 		"Name": "sophisticatedstorage:storage_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"opaque": "false"
+		},
+		"Name": "sophisticatedstorage:storage_input"
 	}
 ]

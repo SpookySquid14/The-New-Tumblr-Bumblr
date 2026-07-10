@@ -12,7 +12,8 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"level": "0",
-			"failed": "true"
+			"failed": "true",
+			"crafting": "true"
 		},
 		"Name": "goety:witch_cauldron"
 	},
@@ -20,7 +21,8 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"level": "1",
-			"failed": "true"
+			"failed": "true",
+			"crafting": "true"
 		},
 		"Name": "goety:witch_cauldron"
 	},
@@ -28,7 +30,8 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"level": "2",
-			"failed": "true"
+			"failed": "true",
+			"crafting": "true"
 		},
 		"Name": "goety:witch_cauldron"
 	},
@@ -36,7 +39,8 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"level": "3",
-			"failed": "true"
+			"failed": "true",
+			"crafting": "true"
 		},
 		"Name": "goety:witch_cauldron"
 	},
@@ -44,7 +48,98 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"level": "4",
-			"failed": "true"
+			"failed": "true",
+			"crafting": "true"
+		},
+		"Name": "goety:witch_cauldron"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"level": "0",
+			"failed": "false",
+			"crafting": "true"
+		},
+		"Name": "goety:witch_cauldron"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"level": "1",
+			"failed": "false",
+			"crafting": "true"
+		},
+		"Name": "goety:witch_cauldron"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"level": "2",
+			"failed": "false",
+			"crafting": "true"
+		},
+		"Name": "goety:witch_cauldron"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"level": "3",
+			"failed": "false",
+			"crafting": "true"
+		},
+		"Name": "goety:witch_cauldron"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"level": "4",
+			"failed": "false",
+			"crafting": "true"
+		},
+		"Name": "goety:witch_cauldron"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"level": "0",
+			"failed": "true",
+			"crafting": "false"
+		},
+		"Name": "goety:witch_cauldron"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"level": "1",
+			"failed": "true",
+			"crafting": "false"
+		},
+		"Name": "goety:witch_cauldron"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"level": "2",
+			"failed": "true",
+			"crafting": "false"
+		},
+		"Name": "goety:witch_cauldron"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"level": "3",
+			"failed": "true",
+			"crafting": "false"
+		},
+		"Name": "goety:witch_cauldron"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"level": "4",
+			"failed": "true",
+			"crafting": "false"
 		},
 		"Name": "goety:witch_cauldron"
 	},
@@ -55,7 +150,8 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"level": "1",
-			"failed": "false"
+			"failed": "false",
+			"crafting": "false"
 		},
 		"Name": "goety:witch_cauldron"
 	},
@@ -63,7 +159,8 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"level": "2",
-			"failed": "false"
+			"failed": "false",
+			"crafting": "false"
 		},
 		"Name": "goety:witch_cauldron"
 	},
@@ -71,7 +168,8 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"level": "3",
-			"failed": "false"
+			"failed": "false",
+			"crafting": "false"
 		},
 		"Name": "goety:witch_cauldron"
 	},
@@ -79,7 +177,8 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"level": "4",
-			"failed": "false"
+			"failed": "false",
+			"crafting": "false"
 		},
 		"Name": "goety:witch_cauldron"
 	}

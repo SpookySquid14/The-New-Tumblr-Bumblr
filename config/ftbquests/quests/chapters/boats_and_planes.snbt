@@ -695,17 +695,8 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"6B43C3734794C3D7"
-				"0148D140EF1045FA"
-				"3F2169DF8F96D8A3"
-				"532C02B55492142D"
-				"263538C5E0C9204C"
-				"43DB027C382D0466"
-			]
-			dependency_requirement: "one_completed"
-			hide_dependency_lines: true
 			dependencies: ["7DA024433105259D"]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "75873ECB2C254951"
 			rewards: [{
@@ -797,7 +788,7 @@
 			]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
-			id: "174688EA099A17CC" 
+			id: "174688EA099A17CC"
 			rewards: [{
 				amount: 100L
 				currency: "eternalcurrencies:ancientcoins"

@@ -1,18 +1,18 @@
-filename = 'underground_rooms-2.1.9-1.20.1.jar'
-name = "Ember's Underground Rooms - Forge / Fabric - Ancient Dungeons"
+filename = 'underground_rooms-2.2.1-1.20.1.jar'
+name = 'Underground Rooms'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'underground_rooms-2.1.9-1.20.1.jar'
+x-prismlauncher-version-number = 'underground_rooms-2.2.1-1.20.1.jar'
 
 [download]
-hash = 'b04e8b2bd8ca5a9e64f050f0fe469baf3743ca56'
+hash = '6f555cc357654d7cd0552bb81e687f8f5e763983'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7902178
+file-id = 8368305
 project-id = 1197753

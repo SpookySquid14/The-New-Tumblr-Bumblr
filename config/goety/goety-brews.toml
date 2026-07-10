@@ -6,7 +6,7 @@
 	#Harming Extra Capacity, Default: 1
 	#Range: > 0
 	harmingCapacity = 1
-	#Resistance Extra Capacity, Default: 6
+	#Resistance Extra Capacity, Default: 8
 	#Range: > 0
 	resistanceCapacity = 6
 	#Healing Extra Capacity, Default: 1
@@ -261,6 +261,9 @@
 		#Strip Armor Soul Cost, Default: 100
 		#Range: > 1
 		stripArmorCost = 100
+		#Exchange Soul Cost, Default: 25
+		#Range: > 1
+		exchangeCost = 25
 
 [Curable]
 	#Whether Snow Skin is curable via Milk or Wartful Egg, Default: false
@@ -372,7 +375,7 @@
 	maxBottlingLevel = 5
 
 ["Modded Capacity"]
-	#How much Capacity is given initially, Default: 4
+	#How much Capacity is given initially, Default: 1
 	#Range: > 1
 	initialCapacity = 4
 	#How much Capacity is given for first level, Default: 2
@@ -390,6 +393,9 @@
 	#How much Capacity is given for fifth level, Default: 4
 	#Range: > 0
 	level5Capacity = 4
+	#How much Capacity is given for sixth level, Default: 6
+	#Range: > 0
+	level6Capacity = 6
 
 	["Modded Capacity"."Status Effects"]
 		#Bottling Extra Capacity, Default: 4

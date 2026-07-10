@@ -693,6 +693,17 @@
         "value": 1000
       }
     },
+    "irons_lib:arrow_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "irons_rpg_tweaks:natural_regen_speed": {
       "enabled": false,
       "min": {
@@ -746,6 +757,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "irons_lib:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "goety:void_discount": {
@@ -1166,6 +1188,17 @@
         "value": 1
       }
     },
+    "irons_lib:armor_pierce": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "tconstruct:generic.knockback_multiplier": {
       "enabled": false,
       "min": {
@@ -1364,6 +1397,17 @@
         "value": 100
       }
     },
+    "irons_lib:healing_received": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:air_drag_modifier": {
       "enabled": true,
       "min": {
@@ -1483,6 +1527,17 @@
       "max": {
         "default": 40000,
         "value": 40000
+      }
+    },
+    "irons_lib:experience_gained": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "shippingbin:crop_sell_multiplier": {
@@ -1736,6 +1791,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "irons_lib:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "estrogen:boob_initial_size": {
@@ -2308,6 +2374,17 @@
       "max": {
         "default": 128,
         "value": 128
+      }
+    },
+    "irons_lib:crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "tconstruct:player.use_item_speed": {

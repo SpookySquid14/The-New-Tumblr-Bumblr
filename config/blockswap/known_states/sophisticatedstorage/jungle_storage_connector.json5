@@ -10,5 +10,12 @@ to make editing this file much easier.
 [
 	{
 		"Name": "sophisticatedstorage:jungle_storage_connector"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"opaque": "false"
+		},
+		"Name": "sophisticatedstorage:jungle_storage_connector"
 	}
 ]

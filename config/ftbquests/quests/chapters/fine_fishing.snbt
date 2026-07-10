@@ -131,7 +131,7 @@
 			dependencies: ["0200624FDF3F2367"]
 			description: [
 				"Crafted with some wood, copper, and string, the &o&6Angling Table&r is your main method of customizing and upgrading your fishing rod."
-				"To the left is the slot to place your rod and to retrieve it once finished. To the right you'll find slots for &ofishing line, a bobber, and a hook&r."
+				"To the left is the slot to place your rod and to retrieve it once finished. To the right you'll find slots for &o&6fishing line, a bobber, and a hook&r."
 			]
 			hide_until_deps_visible: true
 			id: "12ABF5CAD1BBD4ED"
@@ -162,8 +162,7 @@
 		{
 			dependencies: ["3382A9EBAE939697"]
 			description: [
-				"Hovering over your fishing rod, you'll notice &o&63 slots in its tooltip&r. These are used to store &6&ovarious bait&r to help you in your fishing journey. When multiple slots are filled, only the left most is used."
-				"[img]"
+				"Hovering over your fishing rod, you'll notice &o&6 a slot in its tooltip&r, perhaps more depending on the rod. These are used to store &6&ovarious bait&r to aid you in your fishing journey, as they generally have effects that modify your stats outside of the fishing minigame."
 				"Basic bait can be made with some compost and rotten flesh. It will increase the speed of your fishing similar to the &oLure&r enchantment."
 			]
 			hide_dependency_lines: true
@@ -183,8 +182,8 @@
 				type: "item"
 			}]
 			title: "A Little Birdy Told Me"
-			x: -3.0d
-			y: 0.0d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["327017618D00C9D9"]
@@ -212,8 +211,8 @@
 				type: "item"
 			}]
 			title: "Quite The Magnetic Personality"
-			x: -3.5d
-			y: -1.0d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["327017618D00C9D9"]
@@ -241,60 +240,8 @@
 				type: "item"
 			}]
 			title: "One Day It'll Run Out"
-			x: -2.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["327017618D00C9D9"]
-			hide_dependency_lines: true
-			id: "3AED1BDAB4E81BF0"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "29598BA30F0F9118"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "5CB0B793041F6C29"
-					item: "tide:fishy_note"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "55BF56D5A30CC09F"
-				item: "minecraft:torchflower"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["327017618D00C9D9"]
-			hide_dependency_lines: true
-			id: "01DC854F3C7C8CB3"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "74C7150BC050067F"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "35A7C3BD3E1CFCA9"
-					item: "tide:fishy_note"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3D30E837CE928B1A"
-				item: "minecraft:pitcher_pod"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -3.0d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["327017618D00C9D9"]
@@ -319,8 +266,8 @@
 				item: "naturalist:caterpillar"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.0d
+			x: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["327017618D00C9D9"]
@@ -345,8 +292,8 @@
 				item: "naturalist:butterfly"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["327017618D00C9D9"]
@@ -367,18 +314,13 @@
 				}
 			]
 			tasks: [{
+				count: 4L
 				id: "0FA68568A7FF56EC"
-				item: {
-					Count: 1
-					id: "tide:incandescent_larva"
-					tag: {
-						FishLength: 3.0d
-					}
-				}
+				item: "tide:incandescent_bait"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["12ABF5CAD1BBD4ED"]
@@ -418,7 +360,10 @@
 		}
 		{
 			dependencies: ["12ABF5CAD1BBD4ED"]
-			description: ["Hooks give various bonuses, and &6&osome are required to fish in specific areas&r."]
+			description: [
+				"Hooks generally alter the types of fish available to you, allowing you to find certain ones when not quite meeting their conditions naturally. &6&oSome are required to fish in specific areas&r."
+				"The basic hook, however, is purely cosmetic."
+			]
 			hide_dependency_lines: true
 			id: "6F26060A50069BF2"
 			rewards: [
@@ -438,14 +383,7 @@
 			subtitle: "Craft a Fishing Hook"
 			tasks: [{
 				id: "7D8410A6F38EA98F"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "tide:hooks"
-					}
-				}
-				title: "Hook"
+				item: "tide:fishing_hook"
 				type: "item"
 			}]
 			title: "Are You Hooked Yet?"
@@ -454,7 +392,7 @@
 		}
 		{
 			dependencies: ["6F26060A50069BF2"]
-			description: ["The basic fishing hook, purely cosmetic."]
+			description: ["The fiery hook warms up the temperature of the water, making it good for when you're not in the warmest of areas."]
 			id: "2E17178A86A774BE"
 			rewards: [
 				{
@@ -470,18 +408,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Basic Fishing Hook"
+			subtitle: "Craft a Firey Hook"
 			tasks: [{
 				id: "27545D699581027E"
-				item: "tide:fishing_hook"
+				item: "tide:fiery_hook"
 				type: "item"
 			}]
-			x: 3.5d
+			title: "Nice and Warm"
+			x: 4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6F26060A50069BF2"]
-			description: ["An Iron Fishing Hook will reduce the speed of the fishing minigame."]
+			description: ["A rather unique ability, the Twilight hook inverts the time preference of a fish, letting you find night fish in the day and day fish at night."]
 			id: "56C9F3BA861F9CA8"
 			rewards: [
 				{
@@ -497,18 +436,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft an Iron Fishing Hook"
+			subtitle: "Craft a Twilight Hook"
 			tasks: [{
 				id: "46D41895DBF7CB8D"
-				item: "tide:iron_fishing_hook"
+				item: "tide:twilight_hook"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			title: "Forest Magic"
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["12ABF5CAD1BBD4ED"]
-			description: ["Fishing lines can grant cosmetic and performance boosts. Although the basic line is purely cosmetic, it's needed to craft better ones."]
+			description: ["Fishing lines alter the difficulty of the fishing minigame. Although the basic line is purely cosmetic, it's needed to craft better ones."]
 			hide_dependency_lines: true
 			id: "48D9D8BC413CADEA"
 			rewards: [
@@ -525,18 +465,19 @@
 					type: "item"
 				}
 			]
+			subtitle: "Craft a Fishing Line"
 			tasks: [{
 				id: "4B52552EFEBE561D"
 				item: "tide:fishing_line"
 				type: "item"
 			}]
 			title: "Line Em Up"
-			x: 4.5d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["48D9D8BC413CADEA"]
-			description: ["The Braided Fishing Line will speed up the charge when you cast your rod."]
+			description: ["The Copper Fishing Line lowers a fish's speed, causing the slider in the fishing minigame to move slower."]
 			id: "48FF58C2F6B54BB3"
 			rewards: [
 				{
@@ -552,19 +493,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Braided Fishing Line"
+			subtitle: "Craft a Copper Fishing Line"
 			tasks: [{
 				id: "21D8B39E898BDA30"
-				item: "tide:braided_line"
+				item: "tide:copper_line"
 				type: "item"
 			}]
-			title: "Can I Style Your Line?"
-			x: 5.5d
-			y: 0.0d
+			title: "Steampunk Era"
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["48D9D8BC413CADEA"]
-			description: ["A Reinforced Fishing Line gives your fishing rod a chance to not take any damage when used."]
+			description: ["An Iron Line increases the size of the bar during the fishing minigame, lowering difficulty."]
 			id: "085BF7B7C082C75D"
 			rewards: [
 				{
@@ -580,19 +521,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Reinforced Fishing Line"
+			subtitle: "Craft an Iron Fishing Line"
 			tasks: [{
 				id: "550107A61E097684"
-				item: "tide:reinforced_line"
+				item: "tide:iron_line"
 				type: "item"
 			}]
 			title: "Your Bit of String in Your Hand"
-			x: 5.5d
-			y: -1.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["48D9D8BC413CADEA"]
-			description: ["The Golden Fishing Line increases your luck while fishing"]
+			description: ["While not decreasing speed as much as the copper line, The Golden Fishing Line also increses luck when fishing."]
 			id: "3F3F6F3926110E42"
 			rewards: [
 				{
@@ -609,14 +550,14 @@
 					type: "random"
 				}
 			]
-			subtitle: "Craft a Golden Fishing Rod"
+			subtitle: "Craft a Golden Fishing Line"
 			tasks: [{
 				id: "6D20A61B5A601E9A"
 				item: "tide:golden_line"
 				type: "item"
 			}]
 			title: "Gonna be gonna be Golden"
-			x: 5.5d
+			x: 7.5d
 			y: 1.0d
 		}
 		{
@@ -634,7 +575,7 @@
 			subtitle: "Craft a Lava-Proof Fishing Hook"
 			tasks: [{
 				id: "50814F533A25C54A"
-				item: "tide:lavaproof_fishing_hook"
+				item: "tide:lavaproof_hook"
 				type: "item"
 			}]
 			title: "A Reel Hot Catch"
@@ -643,7 +584,7 @@
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
-			description: ["I have nothing to say to you."]
+			description: ["I have nothing to say to you. I guess it &odoes&r let you fish in lava with any hook."]
 			hide_until_deps_complete: true
 			id: "180555739861AF54"
 			rewards: [{
@@ -748,7 +689,7 @@
 				"3382A9EBAE939697"
 				"0200624FDF3F2367"
 			]
-			dependency_requirement: "one_started"
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "56E447B4AC656814"
 			rewards: [
@@ -780,8 +721,8 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["3382A9EBAE939697"]
-			description: ["If you're fishing, you're going to want a Fishing Journal. This beauty of a tracker takes note of every fish you've caught. In addition, it also tells you where it can be found and the conditions."]
+			dependencies: ["2C744F74C1147FF4"]
+			description: ["If you're truly into fishing, you're going to want a &6&oFishing Journal&r. This beauty of a tracker takes note of every fish you've caught, along with the conditions required to catch more. What's even better, &6&oyou'll find the details of all previously read Fishy Notes&r. No need to carry around so many papers when you've got it all sorted out in here."]
 			id: "6A3B7FC7807367FE"
 			rewards: [
 				{
@@ -804,62 +745,8 @@
 				type: "item"
 			}]
 			title: "Notetaker"
-			x: -1.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["6A3B7FC7807367FE"]
-			description: [
-				"Fishing is no easy task, and certainly no idle one. To find certain fish, &6&oyou'll need to track the time, weather, temperature, depth, or even the phases of the moon&r. Sometimes you might be tracking 2 or more to find what you're looking for."
-				"Fortunately, there are a variety of tools available to you, and reading the entry of a previously caught fish will show you its requirements. In addition to this, you may find &6&oscraps of old notes&r, giving you a hint of an unknown fish."
-			]
-			id: "3CE728FEC12012A3"
-			rewards: [
-				{
-					amount: 750L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "57C6C1BBD18E79CB"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 5
-					id: "458C3183DFF04219"
-					item: "tide:fishy_note"
-					type: "item"
-				}
-			]
-			subtitle: "Craft the Items to Help Track Fishing Conditions"
-			tasks: [
-				{
-					id: "018240D30EAB4D53"
-					item: "tide:pocket_watch"
-					type: "item"
-				}
-				{
-					id: "7D6103ECE1B65FC3"
-					item: "tide:weather_radio"
-					type: "item"
-				}
-				{
-					id: "01A5821265973DB8"
-					item: "tide:climate_gauge"
-					type: "item"
-				}
-				{
-					id: "3EE68D15A16D021A"
-					item: "tide:depth_meter"
-					type: "item"
-				}
-				{
-					id: "5069D42EC6984997"
-					item: "tide:lunar_calendar"
-					type: "item"
-				}
-			]
-			title: "Conditional"
 			x: -2.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3382A9EBAE939697"]
@@ -903,7 +790,7 @@
 			subtitle: "Craft a Hook of The Depths"
 			tasks: [{
 				id: "321EDEB7AF25F7B6"
-				item: "tide:void_fishing_hook"
+				item: "tide:void_hook"
 				type: "item"
 			}]
 			title: "You Can Fish WHERE?!"
@@ -5501,6 +5388,461 @@
 			}]
 			x: -2.5d
 			y: 15.5d
+		}
+		{
+			dependencies: ["3382A9EBAE939697"]
+			description: [
+				"You've been given a few already, but let me tell you about Fishy Notes."
+				"They're quite simple, really. Along with a silhouette of then fish in question, a note will tell you its rarity and any requirements needed to catch it."
+			]
+			id: "2C744F74C1147FF4"
+			tasks: [{
+				id: "0D49B0DAB2D6B094"
+				item: "tide:fishy_note"
+				type: "item"
+			}]
+			title: "Notes Torn By Waves"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["327017618D00C9D9"]
+			hide_dependency_lines: true
+			id: "16740D1B6A395336"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "40DD3F42E7AC4196"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "51EFE9426442253D"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "0FCA5EE8907B9D31"
+				item: "tide:abyss_bait"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6F26060A50069BF2"]
+			description: ["The permafrost hook cools down the temperature of the water, making it good for when you're not in the coldest of areas."]
+			id: "09274D26D87B7EEE"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0736687A587B9B4E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4630B890BF5B5828"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Permafrost Hook"
+			tasks: [{
+				id: "03FBBA60789D5FAF"
+				item: "tide:permafrost_hook"
+				type: "item"
+			}]
+			title: "Water Cooler"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48D9D8BC413CADEA"]
+			description: ["The Diamond Fishing Line massively lowers a fish's speed, causing the slider in the fishing minigame to move much slower."]
+			id: "671F5E4584CD5C25"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0589A2AA3DD1C1A8"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "078FA0AA7FA8C8A9"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Diamond Fishing Line"
+			tasks: [{
+				id: "49770A8A6C279574"
+				item: "tide:diamond_line"
+				type: "item"
+			}]
+			title: "Diamonds Sparkling in The Sea"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3382A9EBAE939697"]
+			description: ["An &oAncient&r rod, you can see what fish is currently hooked when using it."]
+			hide_dependency_lines: true
+			id: "38A80A30CD4BD3F4"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5FD54655653438F4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "179DEC0D2745718D"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "581EFA13D2A7A93E"
+				item: {
+					Count: 1
+					id: "tide:echo_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3382A9EBAE939697"]
+			description: ["A &oGuardian&r rod, fishing luck is increased in the rain."]
+			hide_dependency_lines: true
+			id: "6C751E7948299C82"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0A4A67FED1D4D579"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6656CD877F1C4156"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07925DEF10EA2CF5"
+				item: {
+					Count: 1
+					id: "tide:prismarine_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3382A9EBAE939697"]
+			description: ["A &oPlain&r rod, fishing luck is increased in sunlight."]
+			hide_dependency_lines: true
+			id: "606A9C8CAB93DE34"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "66E88B2A0111B9BA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1A681BC80CFFB0F0"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24D88D5EE1893D6C"
+				item: {
+					Count: 1
+					id: "tide:sunflower_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3382A9EBAE939697"]
+			description: ["An &oHeroic&r rod, you can sometimes catch extra loot with it."]
+			hide_dependency_lines: true
+			id: "646B634356763676"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "41C9BB5EE77ED05D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1C8A5009C46336E2"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FEC5EA95008EA6D"
+				item: {
+					Count: 1
+					id: "tide:village_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3382A9EBAE939697"]
+			description: ["An &oAncient&r rod, you can see what fish is currently hooked when using it."]
+			hide_dependency_lines: true
+			id: "3FC913EFE89A720B"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "40FFFEFFC09BE6A9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6605CB96438ADED2"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01DF675E888AFF1C"
+				item: {
+					Count: 1
+					id: "tide:blazing_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3382A9EBAE939697"]
+			description: ["A &oBee&r rod, you can put many types of bait on it."]
+			hide_dependency_lines: true
+			id: "6FB8ADE0C08B5542"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "399E1BE878F4E9DB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "718B4D3DAB4650FD"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5581E620E4CF6E83"
+				item: {
+					Count: 1
+					id: "tide:honeycomb_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3382A9EBAE939697"]
+			description: ["Made with the power of the &oMidas Fish&r, this rod can catch golden items alongside fish."]
+			hide_dependency_lines: true
+			id: "2458D0D81AE5F2B1"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "17C4B61F91206FF0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4C6A691DD2CAB63E"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "344A12D1814E01ED"
+				item: {
+					Count: 1
+					id: "tide:midas_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A3B7FC7807367FE"]
+			description: ["Some fish can only be found underground or in very deep waters. For these, a &o&6Depth Meter&r is a valuable tool. Holding it in your hand, offhand, or in the Informational curios slot, the current depth will be visible in the bottom left corner of the screen."]
+			hide_dependency_lines: true
+			id: "5932AE4458E58E8A"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "198BEB685EB61892"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "473C70B6E049C62D"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "316096AC024F6AA6"
+				item: "tide:depth_meter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6A3B7FC7807367FE"]
+			description: ["Climate and temperature can play a big role in a fish's presence. From hot oceans to frozen lakes, it's never bad to have a &o&6Climate Gauge&r on hand. Alternatively, you can put it in the Informational curios slot. Regardless of how you hold it, the temperature becomes clear as day in the bottom left corner of the screen."]
+			hide_dependency_lines: true
+			id: "134225C47C55A718"
+			tasks: [{
+				id: "304A42EDAE538117"
+				item: "tide:climate_gauge"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6A3B7FC7807367FE"]
+			description: ["Some fish only reveal themselves in the dark, and some at daylight. There are many ways to view &oTime&r, but one of the more convenient ones would be the &6&oPocket Watch&r. Whether held in either of your hands or put in the Informational curios slot, the time becomes clear, shown in the bottom left of your screen."]
+			hide_dependency_lines: true
+			id: "7B93B2FF22CFFC5F"
+			tasks: [{
+				id: "70A33F30B3EB7F3E"
+				item: "tide:pocket_watch"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6A3B7FC7807367FE"]
+			description: ["For whatever reason, there are some fish that only come out during a certain phase of the moon. You could keep track of this yourself, or you can get yourself a &o&6Lunar Calendar&r to show you. Once hung up on a wall, standing nearby will tell you the moon's current phase."]
+			hide_dependency_lines: true
+			id: "1E77333D8A12F3E6"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "566D454C3E63BBE2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F6BEE9E4C3B3637"
+					item: "tide:fishy_note"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "327036286AB5FDF1"
+				item: "tide:lunar_calendar"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6A3B7FC7807367FE"]
+			description: ["Rain has an interesting effect on fishing, huh? Well, it's not the only one. But weather can be unpredictable. That's where the &6&oWeather Radio&r comes in to save the day. Once placed down, standing nearby will let you see the coming forecast on the bottom left corner of your screen."]
+			hide_dependency_lines: true
+			id: "54B5AFEFE66E574B"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "545EADA72006D1E9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0F38D8EBE702DC26"
+				item: "tide:weather_radio"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5932AE4458E58E8A"
+				"134225C47C55A718"
+				"7B93B2FF22CFFC5F"
+				"1E77333D8A12F3E6"
+				"54B5AFEFE66E574B"
+			]
+			description: ["So you've tracked temperature, you've tracked depth, you've checked the time of day and the moon, even listened daily to the radio for the weather. That must be quite a lot of items to keep track of. Fortunately, they can all be combined into the one size fits all &o&6Fish Tracker&r. Simply holding it, or more conveniently, putting it in the Informational curios slot, you'll be shown all current conditions in the bottom left of the screen."]
+			id: "12D2C0A03089FE7E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "41309138419A59FC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "1F31485BF23C0DA4"
+				item: "tide:fish_finder"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
 		}
 	]
 	title: "Fine Fishing"

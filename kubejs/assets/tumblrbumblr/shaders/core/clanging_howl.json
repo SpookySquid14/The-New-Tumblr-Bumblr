@@ -5,7 +5,7 @@
     "dstrgb": "zero"
   },
   "vertex": "minecraft:position_tex",
-  "fragment": "certain_questing_additions:custom_background",
+  "fragment": "tumblrbumblr:clanging_howl",
   "samplers": [],
   "attributes": ["Position", "UV0"],
   "uniforms": [

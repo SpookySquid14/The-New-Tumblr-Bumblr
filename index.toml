@@ -1002,7 +1002,7 @@ hash = "2194f62a28a57efb75165bf79b33985a366203e212f7a45e1b7f72eedf2925da"
 
 [[files]]
 file = "config/ars_elemental/glyph_spike.toml"
-hash = "c1c3cd98aad01bd985d686294820bd965592e56275f9207cd756f30df38ff15f"
+hash = "d11eea3c64ff4e345d3d365d432cf6dd049f132a30d259e27ad15081ec4292d7"
 
 [[files]]
 file = "config/ars_elemental/glyph_summon_filter.toml"
@@ -1366,7 +1366,7 @@ hash = "63f34caf47c465338b28a5661d3236aa71ea5e4774635bad54718c3edc7bbfec"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "fb21a249ce8f8d22728ada42c33e69b7e72b8ff93e482a6486345e7af21c866f"
+hash = "00a83a8d4b6bbfeed6a343a5ecfc9fec271b26d7bd8a0fcace96480960cc8fc8"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -19881,6 +19881,10 @@ file = "config/blockswap/known_states/goety/bottom_soiled_end_basalt.json5"
 hash = "8fb7f24bdf4b82f88b0667381424bd622c5d306b437dbc1795ee0c5d7e645988"
 
 [[files]]
+file = "config/blockswap/known_states/goety/braced_crag_tile_pillar.json5"
+hash = "cb09342ea84f177b751539111715d23a2e82238954fe1b88825d05a79bbb901a"
+
+[[files]]
 file = "config/blockswap/known_states/goety/brick_brazier.json5"
 hash = "634667fa96124df8a776c51a67ed7d492b675a97e87dc3f7cc46ca3cc415463b"
 
@@ -20477,6 +20481,10 @@ file = "config/blockswap/known_states/goety/dark_pressure_plate.json5"
 hash = "3a0d01c46a90145fbd57a3915fe07483629aa59baf858ac0de680b68c9e174f9"
 
 [[files]]
+file = "config/blockswap/known_states/goety/deadly_nightshade.json5"
+hash = "c5212db476dbaae13c24c4fad9cd5b6ac1ff73f8f257694144af99249b5d81ac"
+
+[[files]]
 file = "config/blockswap/known_states/goety/deepslate_brazier.json5"
 hash = "a0bed93aaed54fa5da1a76ee86320611ebb55ad214f1c0cba77d18261e08f4e6"
 
@@ -20487,6 +20495,14 @@ hash = "d7c90ff395e19efa223428f59cd31e378e811353010be8c85f22f18ea535b0d7"
 [[files]]
 file = "config/blockswap/known_states/goety/deepslate_throne.json5"
 hash = "df7b4732ebf3dde4d92ad71ed567738cb0e993cffe591f78217c5306ca0c0b56"
+
+[[files]]
+file = "config/blockswap/known_states/goety/dense_banded_steep_planks.json5"
+hash = "54958a278b132d3575b49dbaa60622b376d6dcfaccdf805e2fe969231211e0cf"
+
+[[files]]
+file = "config/blockswap/known_states/goety/dense_steep_planks.json5"
+hash = "9a20a580161e50325ea8f11ed30d7fad710bac0987e37e987d324f2c6bbd9edb"
 
 [[files]]
 file = "config/blockswap/known_states/goety/detritus.json5"
@@ -20865,6 +20881,10 @@ file = "config/blockswap/known_states/goety/grown_end_rock.json5"
 hash = "b5ec2527d9a0ff1d0c1d5021de9b6f95415f503e28ebdf58fadc5d732bef5d6d"
 
 [[files]]
+file = "config/blockswap/known_states/goety/half_jade_crystal_lamp.json5"
+hash = "6e69b750f5ba40bef7a00658241af920203af0e36ed1a6b196f773f09e69ad9c"
+
+[[files]]
 file = "config/blockswap/known_states/goety/hardened_leaves.json5"
 hash = "8a37f285dea28cb6a35c67ef1984aa9bb43d2e7f943997098bf4ea08ff45daa7"
 
@@ -20969,6 +20989,10 @@ file = "config/blockswap/known_states/goety/haunted_wood.json5"
 hash = "bd6b3fc32b1854942ff8aed859772ceafd8edf2ad43b1167b7de256b2fce80c8"
 
 [[files]]
+file = "config/blockswap/known_states/goety/henbane.json5"
+hash = "43f941de0b6cf386004af72c4b11cd05ca8b963d0bfe22fe76e1d18ffef5a2b2"
+
+[[files]]
 file = "config/blockswap/known_states/goety/highrock.json5"
 hash = "e83c41bbd146c8ebbe7001423b280a702101c2da6d7dbdc293d353d63274863b"
 
@@ -21051,6 +21075,10 @@ hash = "cabba2c96183f343647fabf62b7832eee9809626ee54e85631b92fd66091cb65"
 [[files]]
 file = "config/blockswap/known_states/goety/jade_block.json5"
 hash = "866c95ab06595b2b1cf3e3f7429912f931094e68160ab31a430ceff9a44a1523"
+
+[[files]]
+file = "config/blockswap/known_states/goety/jade_crystal_lamp.json5"
+hash = "b439e7b44ffb1b30a318ed7f0020edf98b1872a0661f8ea60c9a0d40994a9203"
 
 [[files]]
 file = "config/blockswap/known_states/goety/jade_light.json5"
@@ -21385,6 +21413,10 @@ file = "config/blockswap/known_states/goety/pine_fence_gate.json5"
 hash = "6d6a05cecf2d7cc66e16dee10c43c8255610695f5998d9e8324a68ee40e65bfc"
 
 [[files]]
+file = "config/blockswap/known_states/goety/pine_firewood.json5"
+hash = "2fefa6682f7c6398a98b3f9a53fa0b2490ba03d25ae001fd962d9dd68b1415bb"
+
+[[files]]
 file = "config/blockswap/known_states/goety/pine_hanging_sign.json5"
 hash = "65b1b088ced720dda52a2d4d6848d78ca5916a5ad964437c329db4f8346cb10a"
 
@@ -21549,8 +21581,16 @@ file = "config/blockswap/known_states/goety/potted_chorus_stalk.json5"
 hash = "faa814c788c6c829598c087113bf55b68d40819adf6a4fef305d8e6a4cb6db2e"
 
 [[files]]
+file = "config/blockswap/known_states/goety/potted_deadly_nightshade.json5"
+hash = "610d7e0f66d3bbdf3fad1a3c1ec0c2db7c6816e646a19db251c20eae53649ee5"
+
+[[files]]
 file = "config/blockswap/known_states/goety/potted_haunted_sapling.json5"
 hash = "5e17fe40dde53f477dae7947c5ea6168c238a184eca282038bb10273fbd9296e"
+
+[[files]]
+file = "config/blockswap/known_states/goety/potted_henbane.json5"
+hash = "040d399cafc9c58ec6c9272f7fa7daa6fcbe6caede8c88f26028d09fb16b9c70"
 
 [[files]]
 file = "config/blockswap/known_states/goety/potted_pine_sapling.json5"
@@ -22185,6 +22225,10 @@ file = "config/blockswap/known_states/goety/snowy_jade_tiles.json5"
 hash = "c5f777b1ee973aa35f2922c2c00a220d1d9b20d06831959e4b2feea70dd3bfc6"
 
 [[files]]
+file = "config/blockswap/known_states/goety/snowy_pine_pillar.json5"
+hash = "aec205c88fbf60704fbfbd9b6e3bf592b9d8176e7e7559b6e383fef005ea3c80"
+
+[[files]]
 file = "config/blockswap/known_states/goety/snowy_red_moss_block.json5"
 hash = "c1e8b7ef129623691ae4e57bfab12b13a9e41990f49cd2cb7bb06b4d69c9e06a"
 
@@ -22387,6 +22431,10 @@ hash = "b8805b5fc25ed78dd2193e60991318eeaf27722b2ddd400848026186668ba73a"
 [[files]]
 file = "config/blockswap/known_states/goety/steep_fence_gate.json5"
 hash = "6efba947df478c24a991a8f3baddb905bfb547920179b146b324e992aed541cb"
+
+[[files]]
+file = "config/blockswap/known_states/goety/steep_firewood.json5"
+hash = "3d5d90db71a0d5429cbe4c0c35c595c379f00329494864c43bef3375cf6ed148"
 
 [[files]]
 file = "config/blockswap/known_states/goety/steep_lamp.json5"
@@ -22714,7 +22762,7 @@ hash = "4fb84faadc251bb5c7c76176c5a80c3aa37fbaa34c33f9f899fd9434d13942c5"
 
 [[files]]
 file = "config/blockswap/known_states/goety/witch_cauldron.json5"
-hash = "bcebbf019b944be31bf6bc3daef6472a1c44349bacfc12f314ffe2f0c97a2712"
+hash = "2dcc76e865599119309c9c6257d4a59d26c1471c9154bb37ecb93d9fc8ad4724"
 
 [[files]]
 file = "config/blockswap/known_states/goety/witch_pole.json5"
@@ -62762,23 +62810,23 @@ hash = "4827c22199c9fe1703ac320c8c0bc1c6222f409d35499445e9979324706c6e42"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/acacia_storage_connector.json5"
-hash = "6f5a6a86867094dc9dcaafe389b28054e768b7e8522c48e99cd2325f960c825b"
+hash = "ca18e473c574291ceac0416400e3a92df2793abfbec5b44a87516c0aa59d96e7"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/bamboo_storage_connector.json5"
-hash = "13162c2a818aa0d309fcf362b812aaf37c1edae4ffe93b6342c3e6a84caec045"
+hash = "04bc9b5d408ddf4ab102e41c015faad88558ecdfce3e0d3f679fc7eb6f7237b2"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/barrel.json5"
-hash = "e993212ed85fd5eafb80fb2248d6a433d7c0a5a7859dd91a419de569a2eeed12"
+hash = "225b2e3179394a37d6e7d24e3ccf8b0ef346a0588084fb05bba70a4b43e5384f"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/birch_storage_connector.json5"
-hash = "bf1d63da1e39bc20950a34245bbad3bfc69187148bd38e87119a29695475b9c8"
+hash = "804f645c0205e72a5bdc86a521a2c369d9121e24cb1b3f6e1c903dc9b253daca"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/cherry_storage_connector.json5"
-hash = "b0b67aff8ff4e3d5446eae73be81ae08a4e9c86f9d80362b1eba790371754024"
+hash = "c534b5b500ccfc4ef0182ff72187074df4cbaea1ebf35248edc95b727e6ffa62"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/chest.json5"
@@ -62786,11 +62834,11 @@ hash = "5b59412f0eb72891f153146777f0fe20f95ace5cbc007f1c9c9e8ed2f7cc70ba"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/controller.json5"
-hash = "632d676641716344c4e1e5785a0740259d4ebed84b30a61d89c9bdbd9ebc422c"
+hash = "78a7ce73ef7d0e2c2beb09003c1fb3e51a404b45bfc11921c0924912f3bab5b3"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/copper_barrel.json5"
-hash = "e8b17f75f7db9ab5b93134513f32a847ce2ea4d1da7095a8544bf33dedc3e634"
+hash = "07505cfdc1c6bbbab27e5f936a500b53554342af829ef80eb029c314e3a70214"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/copper_chest.json5"
@@ -62802,11 +62850,11 @@ hash = "c7116e09f7db2e080f4ad61d5723a28a7495992be4193339f453352f829dbc16"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/crimson_storage_connector.json5"
-hash = "82c4f085e73db9b31e20751a3aeaabeb294245f830278efa168696e680ba936a"
+hash = "9a7780296989a8511e83a3ee806f4c1e8032564c94e3d6bc9b6ad852542c387d"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/dark_oak_storage_connector.json5"
-hash = "5d18cb7f2060ea97adc203ecb3cae13b2b12d29144cc9ecfb932085bcb19d1fc"
+hash = "c8a2555caa4b97f0392127ed23a569aedefb2a86aede039454ffe9cff77ebe98"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/decoration_table.json5"
@@ -62814,7 +62862,7 @@ hash = "ca68889284564c145f738f001061a32852a72076d8e41fd0a42773e842e8152b"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/diamond_barrel.json5"
-hash = "beed71933d5d89c27954569687d2d28ca1037ae386fd30db4a4dd9800f9be9cb"
+hash = "306e83774c419d95df69fb78a4e13199675909520a61ea73465a5bc8cb043eea"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/diamond_chest.json5"
@@ -62826,7 +62874,7 @@ hash = "74c38c3b0a85d10ac679615b38dbced9b1941bf3958152a14c1de2cea0d66006"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/gold_barrel.json5"
-hash = "6dd35d20960f81604b4e4e3142784b0066e012b73250a2c3460b846f594e72c3"
+hash = "658b2356a088b6a5caa52bb18b284a57f86aa04420685fb7c35c023d9f2c4435"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/gold_chest.json5"
@@ -62838,7 +62886,7 @@ hash = "8299f25b6cb3b9bb441f7973dbb3e3f5c77ec7ddcb3eb532cc971534f560cc07"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/iron_barrel.json5"
-hash = "12f8a495aefd9c0c27869ed86d65e883e1fb3c863e948bac161f21e4af513543"
+hash = "4e7d90c9e06aa278e5cdf440ce328026572a278f0cc6c0b953b58261ecd76060"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/iron_chest.json5"
@@ -62850,111 +62898,111 @@ hash = "d3373f3b992bd646d84fd19b3795427b1bcf29cf40ad716101fdf89f7e24bb42"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/jungle_storage_connector.json5"
-hash = "245c7773edbd35c9b2f409197a921accff390cebdf9b4818183414e6e835b645"
+hash = "45d14d40fcc8f9b7c75ae7162e7b5babd7ba7e51ac5d6f9e36cce7ef4638e711"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_barrel_1.json5"
-hash = "ae2c30881556c54231fa503d5659df8c87295b47ff46efed4a3a2c04f1c50562"
+hash = "a60c08866080b07ebc6e2c032d299b67ce4a9f386c70aa4ec85f6e4c3a0c0f9d"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_barrel_2.json5"
-hash = "41a4c97a23eab93c107f075147be58e4b9dbf5ed3578ad7e278c2379df31f028"
+hash = "9f92753c159eb4dcbe04f1173f93fc9f905ca3b020c9429b967ef2467d68cc6a"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_barrel_3.json5"
-hash = "f36db5b99fbfd7995539884f75c9746c45f928acfc72e6f2f56a42cafc0d86e7"
+hash = "b0685d33d3bcfc6292ecae6025522611a0c090d47a09197c71c5de7de2f7c074"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_barrel_4.json5"
-hash = "bbba938c28296186ab953cc202771b01cff8e6e4d30aeb6c4b644f56d8174435"
+hash = "c0e45d79551b94862e7d18b6ca49dbdc8da75f0d44087e9bc72ce4163393830b"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_copper_barrel_1.json5"
-hash = "6027571bc69c26a3e15d9e53092ad7ad82cb1e918a081707ccafd13b39eb9859"
+hash = "b77f36b22bce01fd9fe7aa78081ebae0034b5da630a91c3e3daab1f6b1ffa2ec"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_copper_barrel_2.json5"
-hash = "daa3d44b4b2817ee08da49c18ddc99679644f3231733683eb208c5192963f454"
+hash = "6c2b7a8a2480970e8f4c3ebc5c4cfea98f7742926fe3fce3f7e95c7c36d4ce41"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_copper_barrel_3.json5"
-hash = "3e48d8fb723e54c4fe6f011ae279a8cf8cd9912bcb561fc74f63b7c564c4c0ee"
+hash = "4e19184a6b6705bacfe3488a74b9340cd1c3d65b07c0d1aa662d9a0ba6557df0"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_copper_barrel_4.json5"
-hash = "3072f618787ed761533eb21c83acd49d9a916f245f9075786cafd0a07bacfced"
+hash = "05c87d507c5e0e23199d49b7de99963ea975c0558fbc67b4a43d4c03714f3de0"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_diamond_barrel_1.json5"
-hash = "17a6789f4877cb6976d0f7d9ac128c4b8dcd11be4f9ec63a086247a402c572f0"
+hash = "5f7c5d84cc2f36fa89708301760e6215305d90d4e2a88b5c266841c4bb7ca89c"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_diamond_barrel_2.json5"
-hash = "a61cae631f14af59675295adbc9bf5002895fc8dd141b7f9608d8f7266784b11"
+hash = "fcfbeff3b142e6e7af122e9d17b534fc4655b31ab5c9954d908e1dbf5640b128"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_diamond_barrel_3.json5"
-hash = "f6955032202d74f04e2b5f1f3a434cc29bd9de69407d89b2a31b23e8978a03bd"
+hash = "709d8b1e9708b07506c80414010a382ef2ccead4b1a99d85ac0352b42123cf61"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_diamond_barrel_4.json5"
-hash = "f519e8a311f8e02f9c867f5f6d17af6316eaa541cc7e6d2f83af3294ca532fa2"
+hash = "e5511d58022789b41e63beb5fcb9dfb2bed87c78dbda65cf184bbe8f591709f6"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_gold_barrel_1.json5"
-hash = "610efd19a07336ff5d8f393330f1ec60d534bd2ccc4aa1b4e8f822f5b5f67439"
+hash = "df2f2bd50eb2ec76638b4f538f3049d8ddd68179b508e1abae3430b8b7b7c253"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_gold_barrel_2.json5"
-hash = "fde8be27de1aacfa87dd7dfe70d9846fe4decb3436fa33c4138445a0df981d28"
+hash = "ed8b82bdd7bda34ce500859c7e84bb68be930f5c08e36530e460c6cf17904c71"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_gold_barrel_3.json5"
-hash = "6a3969483c9d039af6183e92639bb9103342efd938692f0fa1a92d8c1727060d"
+hash = "3a102402b49fd5fe41590a62386edbf02e9f97bda0b98d2b8464b3943d4eac57"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_gold_barrel_4.json5"
-hash = "0ed8c0f48fb38e732b39b1d8497f49aa79f646c06dc2d2a95b6e1083c1116f2b"
+hash = "7214fd7759a8cc570202214551cd50645db67f0bf053ed5ff3427435ca0136cb"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_iron_barrel_1.json5"
-hash = "67766738df631584f502f6b5ed2218403c5a4c3018a2990c76a7535aee204221"
+hash = "8c26eb8ee7cc9aa5b25c2f336c02ef5a31f1166b860fde8dfb2c8163907f5f43"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_iron_barrel_2.json5"
-hash = "e7f2f8728277081647d023f1234102f331b87f8d2d469765623942ec0834b9e6"
+hash = "948f092a07094d622bce7108602b59f30d760296135fa33ef0532e6a9c7912c1"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_iron_barrel_3.json5"
-hash = "415fbb25e88337f200a560dc609a88e86f4b0260afaeb9969e7d48f6cd4d75fb"
+hash = "8a5807b544dee2fa87db4cd5c2b152a9c51e8e98b038285dd3688a7e56ec9747"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_iron_barrel_4.json5"
-hash = "a231a565bbd3de5960a2d8ea4caa173115dc1c586358e1c00b77649d1e3b9e2a"
+hash = "df9d5633e2895d7ef0a0c77d71eb923d6d3c4352451d2b5824d5bf4a43529bde"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_netherite_barrel_1.json5"
-hash = "131e11334b29cb01783d7937b9df56ed3af95100112f975be1e4e7b8fb549868"
+hash = "4e09d1e63b043a021841ad530b2bbeac7162cca2f6d7db5a40099774e8c82497"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_netherite_barrel_2.json5"
-hash = "25079c2bd8a21d27c3de20aca4bc86284b3e38eb1d27e97f129dbd22771e0b0b"
+hash = "59ad3413f5dbfc95c7e05ad58e1dbc31dca5a6af1a6033a554e7474c46106550"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_netherite_barrel_3.json5"
-hash = "b74d9a01fffe7bf584d96ba07760f4047cc392f8162710fe970c03aa7956caef"
+hash = "1ae6aa6851ce11307149eda7c68ff258fb68448f42c35ac654fcdfebc8fd43c1"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/limited_netherite_barrel_4.json5"
-hash = "2f19f66998ab66f52c3034a8a99c260b27bda7769960d59aa0e998926ba6745b"
+hash = "9630a60f0009174eeeb6df07b84b24ac508f48b0c6d7a1c6c3cc4e9e274a0e7f"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/mangrove_storage_connector.json5"
-hash = "eeea3da859196ae4f714bd1ed19e1645905c2fc7d7c83f4a3b06e62d900aef5c"
+hash = "3353e3bd4b142f29e838e6896af0615b4d8476001507ea101025ff8aa346c39c"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/netherite_barrel.json5"
-hash = "311d6d16d728f26e09dc7c24d4ef218fbff8cb67e27e34fde18f78221bd4483f"
+hash = "aaa0c3ebecc8fa44c94611bc1fcd8284e19ad368b549e7dded6ce7fb31556193"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/netherite_chest.json5"
@@ -62966,7 +63014,7 @@ hash = "320e1599b446b110c52fd3d03581cfa847248b814535145bda7b8b5704b07971"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/oak_storage_connector.json5"
-hash = "7bfcefb7fc429aff139600bd25aa3a87462759bac1c6416f6fce34b78192e582"
+hash = "a9833b23378ddb71517825b85d624d483fced41e950b5f994e27490dfd14bd6e"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/shulker_box.json5"
@@ -62974,27 +63022,27 @@ hash = "13ba089a05f4e9a4f528b3ca054ff3ca3af640bf4ed3ebdc33c8267973f867ab"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/spruce_storage_connector.json5"
-hash = "04c85d2dbde7e86ee1f5484a0727e759dd0a7108b2df1b44f4f4bb69bb5aa91d"
+hash = "8f7caa73f168355cee7b8800e71c27d48d5d266b0e04e74ad3dd2ce818f52760"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/storage_input.json5"
-hash = "f06f01181c7bf657af8065c1340538d63385d6b6d9d395dd61e05fe5a336909e"
+hash = "20d96244e727b37972b3d370efffe26736979e343bd7b1615f9efa5ce925af9f"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/storage_io.json5"
-hash = "17f0caa06a729b3601112f3b56fee5eec5421fd42c918b6df45b90a9d5604532"
+hash = "79e1ce79ea407d52fec361fa1d94f5e2cfeab4c441de3ddd4a4105863a6dbe8a"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/storage_link.json5"
-hash = "efff264136ba7011be0f7a7b3a9ec620c654cd36bb5cb4ce55e2aaec27468e46"
+hash = "a1af085c5fa2679710a61c145c955a9ecd1f7acc759989273a465e3e74a479f2"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/storage_output.json5"
-hash = "f75969ca53d43bc407350400bf3243110d502aaff79f13bb038eeac1930d11a6"
+hash = "42f6c25cce6976ce6e1249e175b946797e2172cda88b24251063120add10cb8d"
 
 [[files]]
 file = "config/blockswap/known_states/sophisticatedstorage/warped_storage_connector.json5"
-hash = "7b462f6ce265a8dd5488a081a761e99b8f109bd59a5ce515be7e776407b748ac"
+hash = "a8fb1975f2aea0860d7a19d3d389ee37c5565dfba3b794be10724c632d82dd3b"
 
 [[files]]
 file = "config/blockswap/known_states/stardew_fishing/fish_display.json5"
@@ -65805,12 +65853,20 @@ file = "config/blockswap/known_states/tide/jelly_wall_torch.json5"
 hash = "f35d5143d72e83279e55a5c72621eefa9c11cf493c2066c8eebc6e2ce0d5403b"
 
 [[files]]
+file = "config/blockswap/known_states/tide/lunar_calendar.json5"
+hash = "6680f5e5e6526579f4bf4a2c70204de71ef88b359fee445513296c662dd47040"
+
+[[files]]
 file = "config/blockswap/known_states/tide/obsidian_crate.json5"
 hash = "30d1067155a6f3a455943ec9cc617d6e5ae774d1603935aa6694be1ec842bce9"
 
 [[files]]
 file = "config/blockswap/known_states/tide/purpur_crate.json5"
 hash = "3f98d41a8af88764234df36a68e383e1663a442f0449b9e01127ed9b3994ecb4"
+
+[[files]]
+file = "config/blockswap/known_states/tide/weather_radio.json5"
+hash = "e27fb21c052ae52be87bc8efd9efe16c54b333e4ba18b428bfd338e6401d0347"
 
 [[files]]
 file = "config/blockswap/known_states/tide/wooden_crate.json5"
@@ -68554,7 +68610,7 @@ hash = "b0969c40c02d1321437a636f0b47ed61cd0fd5806b315dae280d489532d23819"
 
 [[files]]
 file = "config/cataclysm-client.toml"
-hash = "31f993b7e67cb51db4ffc4e5dc40de7a7d0bfb269c91afaf40db857782d05812"
+hash = "36c692c6a40b721d8200be99964b660a4787a19ff99e2a77e7488efb0a76d5be"
 
 [[files]]
 file = "config/cataclysm-common.toml"
@@ -68982,7 +69038,7 @@ hash = "d8d72a9ac49bbe45921f1ace5a22c30b65802c5e70829343cf7acfd25f79b8dc"
 
 [[files]]
 file = "config/entityculling.json"
-hash = "da13c5bbd33e17050270f49fd151443f7aa8d16115c038c8d047c8844615b4d8"
+hash = "48527836eabbda32f541d1e44b718a3a384e7aaa4a377b70666bc4f1dabfadde"
 
 [[files]]
 file = "config/estrogen/client.toml"
@@ -69070,7 +69126,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "0f7909b3bd8510c5777b7b41409a4af8665f17bc479c1119729857cd5f524d64"
+hash = "445830d9ace490fddd8cc5f47c4571144522b078e7153fc69565a60d57822f2e"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69665,6 +69721,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$gravel_beach.cfg"
 hash = "37604a8bc32c472adc8d097de63e4da87e8ae013d85b9dc79e39c16a19fd378a"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$highland_fields.cfg"
+hash = "a398202541deab9df1b9b67e439307485c9343386c3f81f6e2e594040c6f4e51"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$hyacinth_deeps.cfg"
 hash = "869e1c5925640cec4b9108bbb99d8b1bd157e59f55ae1e4253f4e4703348ee4d"
 
@@ -70094,7 +70154,7 @@ hash = "063f0b38ef1e58b1893758665685ae7a3351c55760470bf0dac100ee80bab413"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/boats_and_planes.snbt"
-hash = "2453b81ad0695c06a46681ede068e5502b4f35961d17c7b9fb029cf0f9f84a9c"
+hash = "33a8e28676fb5c8ffcabdd777cc493fe6ebfcec3fe382cc20cd4d9cb2c4bc340"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/born_in_chaos.snbt"
@@ -70110,7 +70170,7 @@ hash = "754f11d599292d6f8c8c4906f428403999b3c90763d3cdae8ad8b23f0c13b90a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/clanging_howl.snbt"
-hash = "c61255ae8a9410b44b6d6fcc2e09191033370951dca3dcd9ad63ae8716c793fa"
+hash = "141fd55eb8d78eacef11969d67e96fb6cc3a18faa87633b46a53f0a72d1d50c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
@@ -70130,7 +70190,7 @@ hash = "67e9c0c1c4625b6a3e71be3efe47c567390bcb5ed1ac38c797bd0addec440974"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
-hash = "7989b128fa9da75d301f0e511c76b83e8bf2bd1ef0aa09fa0780bc1a4d2d10da"
+hash = "e74f8f6d214e012fa3b264469b8546fde1a22a2f3d5acc56964ebe4deae3becf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farming.snbt"
@@ -70138,7 +70198,7 @@ hash = "92d36130cd5f8a189d40ed131d9426cf36c003bcf8462eefa2ad62b56aa64e8b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fine_fishing.snbt"
-hash = "a843c9125a6fae849cbb87da64b7b7a267c05f352dfb06534ebf3b668000823b"
+hash = "74c7ffe73c263974c5b4dbe069b48e0bd1ea54d6dcd9897af88901e3fb33fe54"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
@@ -70342,11 +70402,11 @@ hash = "9ab6e393585734bf49b451517f6a975751a2ff460c504593031081b422713c4b"
 
 [[files]]
 file = "config/goety/goety-brews.toml"
-hash = "669ec12e46881eb9a55bf9fc36609a24c7c3109b3c78d82d209cbb1a61f18d00"
+hash = "40c39fc0acedba69976b55aa188693cfa9424a223362b3382018281c4589b7f9"
 
 [[files]]
 file = "config/goety/goety-items.toml"
-hash = "a668751ba0f7728c7f23cd9474ed8d7abb1d7ba2719263b7ec0aa1724bdd7ca0"
+hash = "d5b6545c84a55ca200d401c7e4fb38c648b0efa169ca2c78f8d3d827e7c6d45e"
 
 [[files]]
 file = "config/goety/goety-mobs.toml"
@@ -70354,11 +70414,11 @@ hash = "dd8367c01ff751d50e8e95444852755825fd7cba04819f35a808704239a3fc90"
 
 [[files]]
 file = "config/goety/goety-spells.toml"
-hash = "febf42543635e4bdfaf54bd5bb91c967ad53025ae08c0540ce8111c9295b88af"
+hash = "c7ed6c6062b805123e08a00879be23ad83c95530910c13c803ac62b3c079238b"
 
 [[files]]
 file = "config/goety/goety.toml"
-hash = "72e8df5e3007c5069dc4df36749f866cfaaf3feb854ec90b9c49f85771b034be"
+hash = "0fb1787092110d704011524132b9750e23081926201e70b5473692c1f13fa1ab"
 
 [[files]]
 file = "config/goety_cataclysm/goety_cataclysm-attributes.toml"
@@ -70678,7 +70738,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "bede5ffdf24dd556c555763101a6a411f8fae296867951db9f96d65e1c5d25b4"
+hash = "352cf26faa5d175161b6136d671436ae74d1b4a0f4cafe89b2253f90549f4547"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -70702,7 +70762,7 @@ hash = "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "4813708213f476bf13e69d58f2d9462c02fd705a3223728d79f564368b550e4b"
+hash = "b16267cbebaf17b6352b87b01657b9d3f3db4474e0377856c338d7b20cdebb93"
 
 [[files]]
 file = "config/jei/world/local/Apothic/lookupHistory.ini"
@@ -70775,6 +70835,10 @@ hash = "8748ac57f9b6da00fdbe1312fd3025bdb882ad97c4ce4ccb2163c172651e8aef"
 [[files]]
 file = "config/jei/world/local/FISH/lookupHistory.ini"
 hash = "023c9701ecce8745c887f405959987487a776dc6f0761f658cc1d5c2d01493ed"
+
+[[files]]
+file = "config/jei/world/local/Fish_2/lookupHistory.ini"
+hash = "6ca08928707e65b3b623d19d177266b01b4d77bbf9ac5b49e1a56e2024849d94"
 
 [[files]]
 file = "config/jei/world/local/Goety_Quests/lookupHistory.ini"
@@ -71133,6 +71197,10 @@ file = "config/letmedespawn.json"
 hash = "6af411644e22ede34383135509cb96b2a636d8ed45494b28976514a95537105e"
 
 [[files]]
+file = "config/lightspeed-common.toml"
+hash = "1c8bd2b827def2c2f6a335c4ebe80b193f7c405f4e430d489da8512f3bff9a81"
+
+[[files]]
 file = "config/lithium.properties"
 hash = "b87ee52fdc722ce1497e7ff55fdbd0660fc9df40c8f2f8167465cab55a388f0d"
 
@@ -71250,7 +71318,7 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "ff5ce98b908c6949e217e24f7d850c0f8bc86e6f4975e082f5e5121b3d1b60c0"
+hash = "720ad313a5d0bd55cdf40dc870383cb66081ffe687d9107d1622c7868d023a8f"
 
 [[files]]
 file = "config/modernstartupqol-client.toml"
@@ -71258,7 +71326,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "28ae294fbc0efd244f836546e6d27ebe4213d1d6f32787c983f945e82a8f6557"
+hash = "f20f26b46bb94e8b72077fde6ebd61be694b94b2871faf0f40297eab5fc178f2"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71514,7 +71582,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "7ebf6b1b57d546b2aba70f90a3cf38468a0ef0e6b602f49840eeb082b819b846"
+hash = "fc547cddc049a952e98fe27a271eadb7d3e729f2d35aa52303c283a6624dc69e"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71530,7 +71598,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "9245b56184a6271f3480fccf6a45dc165f2aa03902147f128ee3c0b1fb9ad05d"
+hash = "c1ca625d68366b93ad704bbd0a303e09c8dd1352c05422e42ea248c1cfe396e3"
 
 [[files]]
 file = "config/pal.properties"
@@ -71550,7 +71618,7 @@ hash = "bd8abf7000e1cd681b090d8425b808f196297b6af473826405321d037e6fdd3a"
 
 [[files]]
 file = "config/particular-common.toml"
-hash = "1d88a8a8d049e39f9e286052a75e8ab2dead54fe49c88a1341bccb5ad17c941a"
+hash = "7ae86d6e79661fabfdefe399395f2a4623d06a46d0fef4fe6252a783fb61a39c"
 
 [[files]]
 file = "config/particull-client.toml"
@@ -72250,7 +72318,7 @@ hash = "37e17f7a791ead5769721a8c746c1be19c635771fcf09b8e272f93c0b6de9d5d"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "00c8812e23c2c3c0cee584c0aa311d1587647e9b8fccf0fbb4e3844231adc2f2"
+hash = "e19cd362ed8954ad17ce0cdb93782e1e85ddc2ce820887d2bc3c03ba67dc33e6"
 
 [[files]]
 file = "config/sophisticatedstorage-client.toml"
@@ -72318,11 +72386,7 @@ hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
 
 [[files]]
 file = "config/structurify.json"
-hash = "b802e58488e2ddd22689375ef913621328240b71dd4dd499aaf4c80f14ed26da"
-
-[[files]]
-file = "config/structurify/structurify_backup_2026-06-14_12-43-58.json"
-hash = "f63f9db0f93819117d023f0293f446fb308c6ddff84ae43aa56e365bc3b948bc"
+hash = "8a36a029e57b3f08376f66590cae41fb61b1d5d7a2686c31212b51b97d52be9f"
 
 [[files]]
 file = "config/structurify/structurify_backup_2026-06-14_12-49-29.json"
@@ -72339,6 +72403,10 @@ hash = "7c0820fd86aafcbca6eaa3a53bfe176370701b09657805879a2d2a5aafeb4583"
 [[files]]
 file = "config/structurify/structurify_backup_2026-07-03_17-47-13.json"
 hash = "43c5d5aa0c565895a1cde6cfe447f5e2d1c478feb2bb92971f075d6849856acb"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-07-10_11-38-24.json"
+hash = "b802e58488e2ddd22689375ef913621328240b71dd4dd499aaf4c80f14ed26da"
 
 [[files]]
 file = "config/structurify_dump.json"
@@ -72423,6 +72491,14 @@ hash = "c73292a81a8409d74edb12b0bb9226bda03f39e11afc8abfe6bff52cc30ef480"
 [[files]]
 file = "config/tide.json"
 hash = "d9530a7ec7b67e16003e4b5d066ccd1918bf585d7ce64f6ae8d116c4180154dc"
+
+[[files]]
+file = "config/tide.json5"
+hash = "bb5497224c15ce84dc0aec71f34dbd1d4d0c3b9170eed747d35960a9a01e8dee"
+
+[[files]]
+file = "config/tide_client.json5"
+hash = "e2836ce2e8d2a466762754401edb8c4d264bc3da39cb8f2526008a004270cc80"
 
 [[files]]
 file = "config/tinkers_advanced-common.toml"
@@ -72610,7 +72686,7 @@ hash = "220a0472c5ede33812e23940950b9fcfe8653906a711a69a45c78a31bb00bb35"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
-hash = "dd46a94d12441ad2da6f194e0dd66b96015b07fd82924b2e5ab7bb474552d6f4"
+hash = "a9eeee04155d3fa0fbf6920bbc93a35c6a084d606d0b244ecce4c3d9c6208716"
 
 [[files]]
 file = "config/veinmining-client.toml"
@@ -73298,7 +73374,7 @@ hash = "b5ae0f1685b3136c29758855f06e1eb4fa9878ef78d25b7adcbcd88391074c86"
 
 [[files]]
 file = "config/zillagersweararmor-client.toml"
-hash = "4f5f0efc86011041ae3986a2b77f6a2050530b71bfbcce550a7744b32e8e646e"
+hash = "9b9014c57c5f1abf2f8fea7e46dfc31729a0972dbfc64cbeb44e739a0588d2b2"
 
 [[files]]
 file = "config/zillagersweararmor-common.toml"
@@ -73370,7 +73446,7 @@ hash = "3139c26e432533b00ce7e4eaeafd48c24f10c0b56394770bcf90a34f5e514dcb"
 
 [[files]]
 file = "kubejs/assets/certain_questing_additions/chapter_shaders.json"
-hash = "1bea92798277222d9e3bbfd2da6de8daf43b082b2475dab49d2b1deaee74cb68"
+hash = "31daf7e3a3088a2acb15307943ab39172e229dd8b5207aeb5c35429ebb1d474a"
 
 [[files]]
 file = "kubejs/assets/clanginghowl/textures/slot/empty_feet_slot.png"
@@ -76849,12 +76925,20 @@ file = "kubejs/assets/tombstone/textures/slot/bundle_slot.png"
 hash = "47ac07585ac944e028e4a3842d65447d365d3dd3cf577b6d8d5d78222471e57c"
 
 [[files]]
-file = "kubejs/assets/tumblrbumblr/shaders/clanging_howl.fsh"
-hash = "fc7bbdef030f50cea878c8a7921526a99902ba8701e2933bb4936e347cee0ea0"
+file = "kubejs/assets/tumblrbumblr/shaders/core/clanging_howl.fsh"
+hash = "b1f0d07c51779ac641d807591189936e3ee78646940ec351e76c5644f2e948ed"
 
 [[files]]
-file = "kubejs/assets/tumblrbumblr/shaders/clanging_howl.json"
-hash = "45c669cb1fbfd338b8b5da226c8eb97e8e8907a36be09a0a8cfc4822039f23e4"
+file = "kubejs/assets/tumblrbumblr/shaders/core/clanging_howl.json"
+hash = "21d9963a416568cdcf72c7bdb04d47fb484ab77925e0992bf400650f93857fcb"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/shaders/core/end_portal.fsh"
+hash = "913560b11d44f5f6ad95ec102513ad370fc0b101e1744bcde3759d9d5bfcf419"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/shaders/core/end_portal.json"
+hash = "83cb3a3c10c75982310778963b2656de1792c9fc745f2d712a88dedf752bd2fe"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/block/example_block.png"
@@ -79346,7 +79430,7 @@ hash = "e9e9622e508d60e2995fe65943778b24e5d29f6dd7af8631f7ba7878ec792989"
 
 [[files]]
 file = "kubejs/server_scripts/Tags/tools.js"
-hash = "3019f54244db693b9e8fca6ac801d33738fdcc65dbb3ba0471e3ed272982e0fe"
+hash = "7dd4c784cba6629b25f7c7f65e1407ce30a582bd325620a77da58166ffd528cb"
 
 [[files]]
 file = "kubejs/server_scripts/bosses_rift_alteration.js"
@@ -79694,7 +79778,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-elemental.pw.toml"
-hash = "f8d0eacc02117e7db2a980912367d823a0729b7601721e46b1861b0bd2a5822e"
+hash = "4312ea891a5a26bcb5d88576125c78cf60afbc39a6968f91ad4e7cb6a3709438"
 metafile = true
 
 [[files]]
@@ -79879,7 +79963,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania.pw.toml"
-hash = "5134712868dca77fde99f5e23109b30cf9cda5e7d4a6584eda852fe1f0f87361"
+hash = "626e88fcf6fc36f37a026aeac420849303e6f3aadbc5c21ddfaa01af1aaecf7a"
 metafile = true
 
 [[files]]
@@ -79939,7 +80023,7 @@ metafile = true
 
 [[files]]
 file = "mods/cgs.pw.toml"
-hash = "f8b4d9df5d4210420549d121e0344a0c33147efdcae5380c7ce065299c9a6d7e"
+hash = "86135cee802fc19893df4fc055cb52c58f00fb60a0eed704c88fd62fa9d2e979"
 metafile = true
 
 [[files]]
@@ -79999,7 +80083,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "6f83a913d43ebfc968822b93208c301cabe274f16275c87f196783f0042d5b6e"
+hash = "181abae310a5c80d322008d9176fd3fdf5e4452dae154b01103714b1eb83e6c8"
 metafile = true
 
 [[files]]
@@ -80029,7 +80113,7 @@ metafile = true
 
 [[files]]
 file = "mods/complicated-bees.pw.toml"
-hash = "99498679588b8dbebf984e9ae44180409231a50d52f67e627d1db1f322c19ddb"
+hash = "8816c73188abf6d9e9eeceedab53fea23af84aa50b964e90cd1fdb09f3c7eb3a"
 metafile = true
 
 [[files]]
@@ -80159,7 +80243,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "7d5f6692ac065ee08a614887379bcc9791d66ab5fbdfc4c9000546c3de866c0b"
+hash = "071ca591de0db3209b46c21edfe5b67bc7c33d29a17a3511b179dc240505b311"
 metafile = true
 
 [[files]]
@@ -80304,12 +80388,12 @@ metafile = true
 
 [[files]]
 file = "mods/embers-castles-and-keeps.pw.toml"
-hash = "2735ad018fede48076e161a0d4e8bf20d4420c7b309e5a02501df2685c0e7787"
+hash = "c966ac3f6551c1ab66c39d0792d4ffcda1cce2bbcf9e8d93bd02033dfa68c03f"
 metafile = true
 
 [[files]]
 file = "mods/embers-floating-islands.pw.toml"
-hash = "7e355b5c862fa35f5c4c30b74ea57c8115dfc9487527ff32b0792b87fb0eb225"
+hash = "b689a3c8b7f367685f2457e9e1a5fd42b1f7d88f7455b6786d9a04ef024de93d"
 metafile = true
 
 [[files]]
@@ -80319,7 +80403,7 @@ metafile = true
 
 [[files]]
 file = "mods/embers-underground-rooms.pw.toml"
-hash = "a713ec3f24e45aae6c1b468b9ae123aefb92656481aa3e4fefaee4ffb71f61df"
+hash = "80e38c642070253324514d8c889e0bd0a1b18d3e70fc6cc6e1b1fd6e42c260e9"
 metafile = true
 
 [[files]]
@@ -80369,7 +80453,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "bc37b41f1aa53ea2cf9ce013020652bdd7626b22bc99a69dcb329ce5a1f9973e"
+hash = "45af78a9565abdf62e423cbf5251a77a88e31b3124d1a1842c865a42da3f1e23"
 metafile = true
 
 [[files]]
@@ -80429,7 +80513,7 @@ metafile = true
 
 [[files]]
 file = "mods/extralib.pw.toml"
-hash = "a9028dccae5818edc631df557b5b600a6ea2a80b383908f946b771e6b799dc6c"
+hash = "fac04c6f76bc957c9d76054781728f37f0f165460668869b3796e38abf3d9a06"
 metafile = true
 
 [[files]]
@@ -80519,7 +80603,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgeendertech.pw.toml"
-hash = "3b1a0986c6197a39a7406a4b4f7bfaaec5184baf384cda3a53d5c5127e02c0e2"
+hash = "4c664b3720dca21585366a571ada59e6a11a79aca5cfdca97336d2292ba234ec"
 metafile = true
 
 [[files]]
@@ -80574,7 +80658,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "d8cf75c5c1c12bf24d90c9f7dc6927e6d98b616e62e73868245c936086fd1ba5"
+hash = "f484659480d4ef0b8e34f77978bb758f030999df0c7bc321daa52e9a37e1791f"
 metafile = true
 
 [[files]]
@@ -80599,7 +80683,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "e162728becb60131c73ae9c84c2eea6448fab4181705c578bbf8c72bfcf0ff56"
+hash = "1adf3bca3456fae856b411cc29f51f08600d4d8c89eebbf9ae0b41563ecce7bb"
 metafile = true
 
 [[files]]
@@ -80619,7 +80703,7 @@ metafile = true
 
 [[files]]
 file = "mods/goety.pw.toml"
-hash = "25e18777bc794f272895b81db92eb68047ecc47c8615dfcd5f5dc6b3b0be788d"
+hash = "2f991ca4c9b17763fd12cf02f34b10e8681271565551aba7b025ab6431f2b1a6"
 metafile = true
 
 [[files]]
@@ -80629,7 +80713,7 @@ metafile = true
 
 [[files]]
 file = "mods/guard-villagers.pw.toml"
-hash = "ef0fde5eaa82fe8ab8ae3b4ced0d112e68f3a01fd3a7979ae09ec59b70cff722"
+hash = "fc10c2e017dd549550f98f34aedff7ae0fa8506999291127469286667e0054e3"
 metafile = true
 
 [[files]]
@@ -80639,7 +80723,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "20375ffb0a0049a43911a5339927a45806109174b9594e2abc0f905871beb655"
+hash = "1734968528dab31d8377e236dc59958f721b5b2bc090fe63c40c5fe951ebd10d"
 metafile = true
 
 [[files]]
@@ -80674,17 +80758,17 @@ metafile = true
 
 [[files]]
 file = "mods/illagers-wear-armor.pw.toml"
-hash = "94d4ace609ce8e78b75a6365bb700418ab7c3dc80e62a444da890d459c68e4de"
+hash = "dc9b2172e62c414ebd4197dbf1edb227b468d01184360ef89748aa1dcbea196d"
 metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "f0472483e06fab95c37a2c0e107f28831951cbe4c5e79756dae4b30ecd002101"
+hash = "49adf9c18fa681c2cc2f0eed2c990a0105d99f43b0f842e85b350a302b0a19ad"
 metafile = true
 
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
-hash = "5a2509cf6d38747bc7a7f343ec19e7e29bb11a295e5efe582dec9471a2b6f364"
+hash = "d51d068ef5bc13c89c565ff47d1c00b1f449606ccc72ade9737735ff3e2edb2e"
 metafile = true
 
 [[files]]
@@ -80704,7 +80788,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-optimization.pw.toml"
-hash = "5620cfad59510bdffd42f295a00aa592d1279ebf086ff6e10383f62fe2c50b0b"
+hash = "21da2ec641a29b15781506220531dd9133dee8ea1e5d001489145725d9737155"
 metafile = true
 
 [[files]]
@@ -80720,6 +80804,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-weathering-forge.pw.toml"
 hash = "634b9bdad3971bfe3063bdc5bce04d33f84553a3221afd63f24de3051775c1b9"
+metafile = true
+
+[[files]]
+file = "mods/immersive-weathering-pandas-compat.pw.toml"
+hash = "bc193139e9a3f49261b47ddfa9c3146db133ef4a5a27d3a01e1cd44e2f10caad"
 metafile = true
 
 [[files]]
@@ -80739,7 +80828,7 @@ metafile = true
 
 [[files]]
 file = "mods/irons-lib.pw.toml"
-hash = "b53a247aad7ba62cd57ef6ea6a2cbc122e863d24184f6a335dab62e77c20c724"
+hash = "df70a8957c1aad2bae9dc52a73df10ce837b5908f5b0c9bc71061547ed3de3ff"
 metafile = true
 
 [[files]]
@@ -80749,7 +80838,7 @@ metafile = true
 
 [[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
-hash = "ff08ae79d2997b24e40ed91f70a587e6d607055ac29f04d46dca355687729bd7"
+hash = "40d733da558489529e57721da90e23f26e7d207484053b3c8ea4f6c0c24f84ed"
 metafile = true
 
 [[files]]
@@ -80884,7 +80973,7 @@ metafile = true
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"
-hash = "0fa5029b25ff6a3a826d19ed027dbf7d72429a8cdcf10401751f8ff45cb6ac9d"
+hash = "1907b5745ded711045d982efc1c8d7bb3cd71d90f366c15db86b9ea147b5b3fa"
 metafile = true
 
 [[files]]
@@ -80899,7 +80988,7 @@ metafile = true
 
 [[files]]
 file = "mods/lightspeedre-launch-optimizations.pw.toml"
-hash = "f65057b2f96c10176f62c802c14b570264d365b7b38a2026c752bee54e5ee4bc"
+hash = "ce9dc0c551b3df6fbb186ffce82f03fdedb07d9d8ec8ef01a9dc7e5215f070ea"
 metafile = true
 
 [[files]]
@@ -81044,7 +81133,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "1c698c670a4cee7dcf817d5782806429d66fa995d7fa90de1a5062119555733a"
+hash = "ad5fa590cf0157ca3fc3511ca9a6061f5fafd0ce9c762dde4e0075e5c7626d5b"
 metafile = true
 
 [[files]]
@@ -81064,7 +81153,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-relics.pw.toml"
-hash = "60870efc0672e071a5ed001d94c2ee37d2ecba821a2114308eca881d01bdd50f"
+hash = "80f8e8b8b1c749a711174c8f76d8cd09030f67c3a1c39522f7eb4abbb727dbe4"
 metafile = true
 
 [[files]]
@@ -81094,7 +81183,7 @@ metafile = true
 
 [[files]]
 file = "mods/music-events.pw.toml"
-hash = "17aefd0f6c96c9deda26446561c553bd556a5e5ee6cb7b059a83b6e38773d2b1"
+hash = "ce092df8f8fd47d4c0977152b800a0484f6ae7d53a29c29675b38d0251614271"
 metafile = true
 
 [[files]]
@@ -81135,6 +81224,11 @@ metafile = true
 [[files]]
 file = "mods/no-animal-tempt-delay.pw.toml"
 hash = "833f03795ca06dfff9b9f0318fd4629d0971e121ef8eaaef798a3b531ceaaf8d"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "ca57af822be3ef0934f94664c6d1743a91b8bb851aca48ee4163c0ad3cda02a8"
 metafile = true
 
 [[files]]
@@ -81219,7 +81313,7 @@ metafile = true
 
 [[files]]
 file = "mods/particular-reforged.pw.toml"
-hash = "ad9beddc3b654337427c3e2d0807d39379f52b68be0df967c4147c706749e97f"
+hash = "8b86e151ee7696291081a3e46a6999f740f03962a31ab7c2f0a9861a8a4d984b"
 metafile = true
 
 [[files]]
@@ -81274,7 +81368,7 @@ metafile = true
 
 [[files]]
 file = "mods/platform.pw.toml"
-hash = "0ae733680b61ca4e4063239f1010f8db2215df76e1705b91224814c98ba08cec"
+hash = "3e94874ae7102e63faecdc5008b022593e7144271c4fd3b174c86b4d1c5c6a96"
 metafile = true
 
 [[files]]
@@ -81319,7 +81413,7 @@ metafile = true
 
 [[files]]
 file = "mods/puffish-skills.pw.toml"
-hash = "80981b8966aeb2de049dec1c234bf54fc3e7f7527ac6fe17a7b4333e9d88a1f6"
+hash = "9f8e19d045723174ebc421a97089e1934676969173cef29a66f832f5c4aade45"
 metafile = true
 
 [[files]]
@@ -81459,7 +81553,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "b195d5966b35ab087a8d9c9293c031177ca3f1f215fd805cd2419f94cf62a1b0"
+hash = "dca4834734a87b30649db61b3e3d0efcc4856b10adb8595fa4e4e51c68edd4be"
 metafile = true
 
 [[files]]
@@ -81544,17 +81638,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "9ff0c0359ac9b66e2a6147c6f325ff4b09a18007c6a1af71779929d833db4e14"
+hash = "0f60aab456fd4a3b9643fe7191ce6585b89d1a230d0043bbd53dae5376379e39"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "30ad4199b776d4c64e9a3cbc0da981cc79cd16b15f19843a2f170b7e9752b847"
+hash = "87eee21db6cc1cf73ad4875771923273d364ddef7d52ec6af02ab34d099ae260"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "c5bc31b9e9cf51165974c525262cc6d92f899a014d82b285e1b75cf64dd52372"
+hash = "d222475ba52327afee29abd95136f928b8e1e12916e270e1bd3f97afa4e6ca25"
 metafile = true
 
 [[files]]
@@ -81573,8 +81667,13 @@ hash = "926b174b18579f1266194d936a28b08bd81fb5289fc046b716a7e5d452bec04d"
 metafile = true
 
 [[files]]
+file = "mods/spears-spears-plus.pw.toml"
+hash = "47964991307384bfc1a3a176e3a1f10b4b5650f8a1b93bc28bf1c7a920c94cb8"
+metafile = true
+
+[[files]]
 file = "mods/spells-gone-wrong.pw.toml"
-hash = "71e1bbc2b8efc500185daa522c513c2c26923288a4a96f8c66c3e262c0a51112"
+hash = "494994b608ab2d6337731cfb5eaf4e3ba49fa250fcd3d237e02201b20d0b68d9"
 metafile = true
 
 [[files]]
@@ -81599,7 +81698,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurify.pw.toml"
-hash = "b2cc80fff902244b0aa7967720eaec00c05b8100f8b07bb17355f433282053a1"
+hash = "8de6c87bc3c948253d081d70382eb17e21de53c46109cd531496a80e39369c94"
 metafile = true
 
 [[files]]
@@ -81614,7 +81713,7 @@ metafile = true
 
 [[files]]
 file = "mods/stylish-effects.pw.toml"
-hash = "844af3469e3566c04beb3737ba1d1f204d728e6592dfddf4c857097b0c49441f"
+hash = "ccc62310652939124e129b564612e05a4287d5f1693a709022cbff3617f6a295"
 metafile = true
 
 [[files]]
@@ -81689,7 +81788,7 @@ metafile = true
 
 [[files]]
 file = "mods/tide.pw.toml"
-hash = "0ea02a0f8ce2de1ccb51f809c59ce3a877023f309a8a8fe00b48fea5c798cbda"
+hash = "34cacb839689865834bff43d4a0436762800dc55c649d76b04f716b911a164e4"
 metafile = true
 
 [[files]]
@@ -81809,7 +81908,7 @@ metafile = true
 
 [[files]]
 file = "mods/vampirism-become-a-vampire.pw.toml"
-hash = "48a4c074f1d34321a50b8d6cfb8d2a440ee598774176ef1672dd98def96c5560"
+hash = "734b97060c43081ef9cbd2646ebef5f2707dd404aa7be42cec227554c180a943"
 metafile = true
 
 [[files]]
@@ -81819,7 +81918,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillabackport.pw.toml"
-hash = "9c4585180798668e09a7e99bf0b90942bd824683c864999effcb6f856171b0e2"
+hash = "6eceed7c1070f3f9cceffae69c0d788a66e5aa9c4daccac0412a7f41225be477"
 metafile = true
 
 [[files]]

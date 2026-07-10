@@ -11,6 +11,7 @@ to make editing this file much easier.
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
+			"opaque": "true",
 			"facing": "north"
 		},
 		"Name": "sophisticatedstorage:storage_link"
@@ -18,6 +19,15 @@ to make editing this file much easier.
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
+			"opaque": "false",
+			"facing": "north"
+		},
+		"Name": "sophisticatedstorage:storage_link"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"opaque": "true",
 			"facing": "east"
 		},
 		"Name": "sophisticatedstorage:storage_link"
@@ -25,6 +35,15 @@ to make editing this file much easier.
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
+			"opaque": "false",
+			"facing": "east"
+		},
+		"Name": "sophisticatedstorage:storage_link"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"opaque": "true",
 			"facing": "south"
 		},
 		"Name": "sophisticatedstorage:storage_link"
@@ -32,6 +51,23 @@ to make editing this file much easier.
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
+			"opaque": "false",
+			"facing": "south"
+		},
+		"Name": "sophisticatedstorage:storage_link"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"opaque": "true",
+			"facing": "west"
+		},
+		"Name": "sophisticatedstorage:storage_link"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"opaque": "false",
 			"facing": "west"
 		},
 		"Name": "sophisticatedstorage:storage_link"
@@ -42,6 +78,23 @@ to make editing this file much easier.
 	{
 		// Properties define the state of this block/fluid.
 		"Properties": {
+			"opaque": "false",
+			"facing": "up"
+		},
+		"Name": "sophisticatedstorage:storage_link"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"opaque": "true",
+			"facing": "down"
+		},
+		"Name": "sophisticatedstorage:storage_link"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"opaque": "false",
 			"facing": "down"
 		},
 		"Name": "sophisticatedstorage:storage_link"

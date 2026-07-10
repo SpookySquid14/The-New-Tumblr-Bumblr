@@ -13,6 +13,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "north"
 		},
@@ -23,6 +24,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "north"
 		},
@@ -33,6 +35,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "north"
 		},
@@ -43,6 +46,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "north"
 		},
@@ -53,6 +57,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "north"
 		},
@@ -63,6 +68,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "north"
 		},
@@ -73,6 +79,73 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "north"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "north"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "north"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "north"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "north"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "north"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "north"
 		},
@@ -83,6 +156,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "north"
 		},
@@ -93,6 +167,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "north"
 		},
@@ -106,6 +181,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "north"
 		},
@@ -116,6 +192,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "north"
 		},
@@ -126,6 +203,73 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "north"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "north"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "north"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "north"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "north"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "north"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "south"
 		},
@@ -136,6 +280,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "south"
 		},
@@ -146,6 +291,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "south"
 		},
@@ -156,6 +302,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "south"
 		},
@@ -166,6 +313,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "south"
 		},
@@ -176,6 +324,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "south"
 		},
@@ -186,6 +335,73 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "south"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "south"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "south"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "south"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "south"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "south"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "south"
 		},
@@ -196,6 +412,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "south"
 		},
@@ -206,6 +423,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "south"
 		},
@@ -216,6 +434,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "south"
 		},
@@ -226,6 +445,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "south"
 		},
@@ -236,6 +456,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "south"
 		},
@@ -246,6 +467,73 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "south"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "south"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "south"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "south"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "south"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "south"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "west"
 		},
@@ -256,6 +544,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "west"
 		},
@@ -266,6 +555,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "west"
 		},
@@ -276,6 +566,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "west"
 		},
@@ -286,6 +577,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "west"
 		},
@@ -296,6 +588,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "west"
 		},
@@ -306,6 +599,73 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "west"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "west"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "west"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "west"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "west"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "west"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "west"
 		},
@@ -316,6 +676,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "west"
 		},
@@ -326,6 +687,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "west"
 		},
@@ -336,6 +698,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "west"
 		},
@@ -346,6 +709,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "west"
 		},
@@ -356,6 +720,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "west"
 		},
@@ -366,6 +731,73 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "west"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "west"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "west"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "west"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "west"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "west"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "east"
 		},
@@ -376,6 +808,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "east"
 		},
@@ -386,6 +819,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "east"
 		},
@@ -396,6 +830,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "east"
 		},
@@ -406,6 +841,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "east"
 		},
@@ -416,6 +852,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "true",
 			"facing": "east"
 		},
@@ -426,6 +863,73 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "east"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "east"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "east"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "east"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "east"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "true",
+			"facing": "east"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "east"
 		},
@@ -436,6 +940,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "east"
 		},
@@ -446,6 +951,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "true",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "east"
 		},
@@ -456,6 +962,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "no",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "east"
 		},
@@ -466,6 +973,7 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "up",
 			"ticking": "false",
+			"opaque": "true",
 			"flat_top": "false",
 			"facing": "east"
 		},
@@ -476,6 +984,73 @@ to make editing this file much easier.
 		"Properties": {
 			"vertical_facing": "down",
 			"ticking": "false",
+			"opaque": "true",
+			"flat_top": "false",
+			"facing": "east"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "east"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "east"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "true",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "east"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "no",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "east"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "up",
+			"ticking": "false",
+			"opaque": "false",
+			"flat_top": "false",
+			"facing": "east"
+		},
+		"Name": "sophisticatedstorage:limited_iron_barrel_1"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vertical_facing": "down",
+			"ticking": "false",
+			"opaque": "false",
 			"flat_top": "false",
 			"facing": "east"
 		},

@@ -1,18 +1,18 @@
-filename = 'lightspeed-1.20.1-1.1.2hotfix.jar'
-name = 'LightSpeedRe - Launch optimizations'
+filename = 'lightspeed-1.20.1-1.2.0hotfix2.jar'
+name = 'Lightspeed'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'lightspeed-1.20.1-1.1.2hotfix.jar'
+x-prismlauncher-version-number = 'lightspeed-1.20.1-1.2.0hotfix2.jar'
 
 [download]
-hash = '9d9ac4e588d27bc51b33498172e95539d03f9381'
+hash = '7d54deef01ed103b7633bc45a1f780376aa26034'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7274648
+file-id = 8356344
 project-id = 1388941

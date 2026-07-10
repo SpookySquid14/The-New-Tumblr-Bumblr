@@ -1,19 +1,19 @@
-filename = 'particular-1.20.1-Forge-1.5.0.jar'
-name = 'Particular'
+filename = 'particular-1.20.1-Forge-1.5.5.jar'
+name = 'Particular Reforged'
 side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'particular-1.20.1-Forge-1.5.0.jar'
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'particular-1.20.1-Forge-1.5.5.jar'
 
 [download]
-hash = '595635d029ec59980d9f9c1cc4e6af33f546af3a'
+hash = 'e3017bc0fda90f90cf55c96fa020b52420d8c80e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8089914
+file-id = 8275089
 project-id = 1219053
 
 [[x-prismlauncher-dependencies]]

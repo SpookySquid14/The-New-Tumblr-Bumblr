@@ -27,6 +27,7 @@
 				"Following a recent meteor shower, reports of strange sounds led to a throrough search of the report's location. Though most of the search resulted in nothing but pebbles and bits of an unknown metal, one living specimen was captured and taken into custody. Weather reports indicated that a similar event may occur &levery 15 days&r."
 				"Subject ch-001 is believed to be the first step into the cosmos, and how we may better understand its workings."
 			]
+			hide_until_deps_complete: true
 			id: "0B2C4ACAE75F106F"
 			min_width: 300
 			rewards: [{
@@ -61,6 +62,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["0B2C4ACAE75F106F"]
 			description: [
 				"bishop@romulus:~$ cat ch-001.jv"
 				"Indentifier: ch-001 | Informal Name: Heart of Decay"
@@ -105,6 +107,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["0B2C4ACAE75F106F"]
 			description: [
 				"bishop@romulus:~$ cat ch-002.jv"
 				"Indentifier: ch-002 | Informal Name: Extraterrestrial Reaper"
@@ -151,6 +154,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["0B2C4ACAE75F106F"]
 			description: [
 				"bishop@romulus:~$ cat ch-003.jv"
 				"Indentifier: ch-003 | Informal Name: Flesh Maiden"
@@ -195,6 +199,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["0B2C4ACAE75F106F"]
 			description: [
 				"bishop@romulus:~$ cat ext_stl_smp.jv"
 				"------------------------------"
@@ -234,6 +239,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["0B2C4ACAE75F106F"]
 			description: [
 				"bishop@romulus:~$ cat ch-004.jv"
 				"Indentifier: ch-004 | Informal Name: Hematoma"
@@ -280,6 +286,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["0B2C4ACAE75F106F"]
 			description: [
 				"kane@remus:~$ cat ch-005.jv"
 				"Indentifier: ch-005 | Informal Name: Blood Spreader"
@@ -325,6 +332,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["0B2C4ACAE75F106F"]
 			description: [
 				"kane@remus:~$ cat ch-006.jv"
 				"Indentifier: ch-006 | Informal Name: Prowler"
@@ -368,6 +376,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["0B2C4ACAE75F106F"]
 			description: [
 				"kane@remus:~$ cat ch-007.jv"
 				"Indentifier: ch-007 | Informal Name: Carcass"
@@ -674,6 +683,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["0B2C4ACAE75F106F"]
 			description: [
 				"kane@remus:~$ cat bat-adv.jv"
 				"------------------------------"
@@ -719,6 +729,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["0B2C4ACAE75F106F"]
 			description: [
 				"kane@remus:~$ cat cry-nrg.jv"
 				"------------------------------"
@@ -800,6 +811,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["0B2C4ACAE75F106F"]
 			description: [
 				"kane@remus:~$ cat adv_elc.jv"
 				"------------------------------"
@@ -1529,6 +1541,7 @@
 				"------------------------------"
 				"Created as the first in the Techointegration Project, The X-Ray goggles were created in response to CH-006's camouflage abilities. &lIn addition to improved vision in the dark, the goggles also highlight an entity's weak spots, making them take more damage from the wearer's attacks.&r"
 			]
+			hide_until_deps_visible: true
 			id: "517C023BA8F2CE58"
 			rewards: [{
 				amount: 100L
@@ -1579,6 +1592,7 @@
 				"------------------------------"
 				"Created as part of the Technointegration Project, The Energy Barrier Generator uses the same technology as the Barrier of Extraterrestrial Activity, compacted down into a wearable alternative. While it &lreduces incoming damage by 50%&r, doing so depletes a large amount of stored energy, with the consumption scaled to the damage reduced."
 			]
+			hide_until_deps_visible: true
 			id: "3D0C52219AD8860E"
 			rewards: [{
 				amount: 100L
@@ -1629,6 +1643,7 @@
 				"Created as part of the Techointegration Project, the Tendon Strengthers are a set of mechanical exoskeletal legs that can &lincrease the wearer's speed by 10%&r. When sprinting, they provide a boost to muscle and pushing force, allowing the wearer to &ljump 50% higher&r."
 				"Being that they are mechanical in nature, they require energy to function."
 			]
+			hide_until_deps_visible: true
 			id: "44FC5F13D63E4BD2"
 			rewards: [{
 				amount: 100L
@@ -1679,6 +1694,7 @@
 				"Created as part of the Techointegration Project, the Energy Glove is capable of storing up energy within itself, allowing a user's critical attacks create an electrical surge, stunning entities hit and charging the user's other electronic devices."
 				"Due to its heavy firepower and small form factor, the glove must recharge after every usage of its surge."
 			]
+			hide_until_deps_visible: true
 			id: "731B4F00F1A94F19"
 			rewards: [{
 				amount: 100L
@@ -1730,6 +1746,7 @@
 				"When worn, the boots give a passive reduction to fall damage. Their active ability is a second, rocket powered jump. After performing such an action, the boots must cool down."
 				"If out of fuel, the boots will refill automatically from any Blaze Fuel Cylinders the wearer posseses."
 			]
+			hide_until_deps_visible: true
 			id: "3ACC16304CD0C121"
 			rewards: [{
 				amount: 100L
@@ -1782,6 +1799,7 @@
 				"------------------------------"
 				"Created as part of the Techointegration Project, the informally known \"Bloody Battery\" charges in response to physical trauma. While in posession of it, the user is made more vulnerable as the battery takes in the organic energy that triggered it and spreads it out amongst the various advanced tools and machinery on the wearer, &lturning damage into energy&r."
 			]
+			hide_until_deps_visible: true
 			id: "0A02AC6534B3BE3F"
 			min_required_dependencies: 3
 			rewards: [{
@@ -1831,6 +1849,7 @@
 				"------------------------------"
 				"Created as part of the Techointegration Project, the Reanimator has the ability to save its user from lethal damage by expelling all stored energy, entering a temporary cooldown afterwards. After usage, it must be recharged full before possible activation."
 			]
+			hide_until_deps_visible: true
 			id: "513C7D4E29043CD5"
 			min_required_dependencies: 3
 			rewards: [{
@@ -1872,6 +1891,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["08DB736B07836F38"]
 			description: [
 				"bishop@romulus:~$ cat ind_adj_wrn.jv"
 				"------------------------------"
