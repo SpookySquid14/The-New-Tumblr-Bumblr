@@ -12,7 +12,7 @@
 			dependencies: ["15ACD993630984F4"]
 			description: [
 				"When you open a crafting table for the first time, you'll be met with some new values. These are Eterna, Quanta, and Arcana. They are your primary attributes, and values you'll learn more of as you progress."
-				"{image:modpack:textures/enchanting.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/enchanting.png width:156 height:90 align:center}"
 			]
 			hide_until_deps_complete: true
 			id: "750F9DC2755C097F"
@@ -76,7 +76,7 @@
 			description: [
 				"&o&6Eterna&r is the most basic attribute. &6&oIt determines the max enchanting level&r. Think of it like regular enchanting. The more Eterna you have, the higher level your enchantments will be. Eterna is mostly increased by using stronger bookshelves, but some items such as magical crystals can also increase it when placed nearby."
 				"There are several different bookshelves, but for now, let's just use the basic wooden ones."
-				"{image:modpack:textures/eterna.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/eterna.png width:156 height:90 align:center}"
 			]
 			id: "0626E825BC0B0B77"
 			rewards: [{
@@ -107,7 +107,7 @@
 			description: [
 				"&6&oQuanta is the stat that affects the randomness of your enchantments&r. A range is created based on your level and Quanta. The higher your Quanta, the larger this range is. This can be seen as both a good and bad thing, as you'll have access to stronger enchantments, but the strength will also become less consistent."
 				"Quanta can be increased by stronger bookshelves or &o&6by placing skulls near the enchanting table.&r"
-				"{image:modpack:textures/quanta.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/quanta.png width:156 height:90 align:center}"
 			]
 			id: "44A41664198FD457"
 			rewards: [{
@@ -158,7 +158,7 @@
 			description: [
 				"Each enchantment has its own rarity. &6&oArcana is the stat that changes your chances of getting each rarity.&r In addition to this, higher Arcana also increases the amount of enchantments your item will receive, going from only 1 to a max of always getting 3 enchantments."
 				"Like other stats, Arcana is primarily increased by using bookshelves, however, &6&ocandles are another way to raise it&r."
-				"{image:modpack:textures/arcana.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/arcana.png width:156 height:90 align:center}"
 			]
 			id: "1BC55DD4CCAA97C0"
 			rewards: [{
@@ -212,7 +212,7 @@
 				"30 levels is all that's achievable using regular bookshelves. If you want to go further, &o&6you'll need to start crafting more special bookshelves&r."
 				"&6&oHellshelves&r and &o&6Seashelves&r are special bookshelves made with materials from The Nether and The Ocean respectively. Hellshelves will give extra &oQuanta&r while Seashelves will instead give &oArcana&r."
 				"&6&oUsing these bookshelves, you can reach enchantment level 45.&r"
-				"{image:modpack:textures/hellshelf_and_seashelf.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/hellshelf_and_seashelf.png width:156 height:90 align:center}"
 			]
 			hide_until_deps_complete: true
 			id: "2F2C58A19EE524BD"
@@ -253,7 +253,7 @@
 				"You've reached level 45, good. Now it's time to learn about &6&oInfusing&r."
 				"Infusing is essentially enchanting a block, typically a bookshelf. Unlike regular enchanting, &o&6infusing requires specific amounts of Eterna, Quanta, and Arcana&r. Usually you only need to have at least the required amounts, but there are some cases where you must have less than a specific amount."
 				"&6&oUsing Infused Bookshelves, you will be able to reach Level 54 enchantments. But there is more to be done with them.&r"
-				"{image:modpack:textures/infusing.png width:156 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/infusing.png width:156 height:90 align:center}"
 			]
 			hide_until_deps_visible: true
 			id: "774A7D8001A081E3"
@@ -878,6 +878,27 @@
 			title: "Extraction Team"
 			x: 5.0d
 			y: -4.5d
+		}
+		{
+			id: "5DB70BF3CCF1E5C9"
+			tasks: [{
+				id: "5E5977A7E0D7CCE8"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5DB70BF3CCF1E5C9"]
+			id: "5FFB17F64270A154"
+			tasks: [{
+				id: "574FE138153D5B0C"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
 		}
 	]
 	title: "Enchanting"

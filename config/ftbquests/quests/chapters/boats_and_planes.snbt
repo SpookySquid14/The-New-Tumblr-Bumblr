@@ -516,13 +516,20 @@
 		}
 		{
 			id: "75FC9F4AB4245047"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5054BB99A9B9FFCD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "687F1DC90E5DD8EB"
 				item: "immersive_aircraft:heavy_crossbow"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.0d
+			x: 4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["34D66284E2A560FD"]
@@ -544,13 +551,255 @@
 		}
 		{
 			id: "73E4167FD392B736"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0A1F6908F29AE8DC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "0E64F5AE7A9A15BF"
 				item: "immersive_aircraft:enhanced_propeller"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			id: "7E19C44A34094D3F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7C3A6D40233727F0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2A5AF035871A242B"
+				item: "immersive_aircraft:eco_engine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			id: "254D405F16D20BD2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1447A0357EF1D7AF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7CCF33D98789EEE6"
+				item: "immersive_aircraft:nether_engine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			id: "14AC1508DFD0D0F0"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6B2C32B32D4FC65C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "46A665335639F524"
+				item: "immersive_aircraft:steel_boiler"
+				type: "item"
+			}]
+			x: -4.5d
 			y: -5.0d
+		}
+		{
+			id: "535647CA39B48B8D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6C967CDCBDF918AF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "51BD660D03CB6A8D"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7DA024433105259D"]
+			hide_dependency_lines: true
+			id: "75873ECB2C254951"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3AC8539A0F121592"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7515B493FEA309AB"
+				item: "immersive_aircraft:sturdy_pipes"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "41CEB6DE137EE936"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "30458AD320BC50C6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "20962B8787B6E9F4"
+				item: "immersive_aircraft:gyroscope"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["41CEB6DE137EE936"]
+			id: "223FD6A9D7C0F6E1"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "766456F7908AF1E6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "53028E3416C00248"
+				item: "immersive_aircraft:gyroscope_hud"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["41CEB6DE137EE936"]
+			id: "0DE083554B72F5C9"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "643C2A6D0678E6B4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "28BBB1DFB5DDDD79"
+				item: "immersive_aircraft:gyroscope_dials"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			id: "174688EA099A17CC"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2CBF9A78D173F9F2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "651849DC83495914"
+				item: "immersive_aircraft:hull_reinforcement"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"6B43C3734794C3D7"
+				"0148D140EF1045FA"
+				"3F2169DF8F96D8A3"
+				"532C02B55492142D"
+				"263538C5E0C9204C"
+				"43DB027C382D0466"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "0672006EE4AFB88F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3FEE882256460D6E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "28416B2D01A1293F"
+				item: "immersive_aircraft:improved_landing_gear"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			id: "1B5F5A6562867FA6"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "33D3C8E748659F6C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "190AB7CAEE5210E2"
+				item: "immersive_aircraft:rotary_cannon"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			id: "3F50A4960DCA5258"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "003B9E5FE795842B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2B590F0D3540A740"
+				item: "immersive_aircraft:telescope"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			id: "1425D518632690BE"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "734B065A30D8ADB1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0C8285D060809E8C"
+				item: "immersive_aircraft:bomb_bay"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
 		}
 	]
 	title: "Boats and Planes"

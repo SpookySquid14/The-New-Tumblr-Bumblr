@@ -69070,7 +69070,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "ddbffe660e8f5d961becedb07d8c4d63e499dd12eb76c6ad4fa1893bd687d2b0"
+hash = "6bc24409bb4ca3e568a3c61d4946db14c475e8e5e60276321f4aef17026b3d8d"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70094,7 +70094,7 @@ hash = "063f0b38ef1e58b1893758665685ae7a3351c55760470bf0dac100ee80bab413"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/boats_and_planes.snbt"
-hash = "b0677a9af7276ab14d9527ac5a3c74ae992b1ac3e770b8fb65b06fc9f149e85a"
+hash = "8efdd83a54e563474d1e66a6491eb5f3ada9cdcf9f033f4ef9e6c3a5913108fd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/born_in_chaos.snbt"
@@ -70130,7 +70130,7 @@ hash = "67e9c0c1c4625b6a3e71be3efe47c567390bcb5ed1ac38c797bd0addec440974"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
-hash = "2fd5b82fa6bd5092039eab8849fc407f59eaf29af569ca9c6171d9c77c517cd9"
+hash = "7989b128fa9da75d301f0e511c76b83e8bf2bd1ef0aa09fa0780bc1a4d2d10da"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farming.snbt"
@@ -70594,7 +70594,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "c52477cbf9d3f0c8f5bd09562fc5fc6d7514a94ed8f5de3825a0957e597a1822"
+hash = "2ff35ace91818916026568905beadee5d7ad46ab6a4f5b7ccfe7d04a0530cb7f"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -70758,7 +70758,7 @@ hash = "4125520224d79c9e20a6b1c32d6136e2b39bcb594acd238acf68923fed52c1db"
 
 [[files]]
 file = "config/jei/world/local/E/lookupHistory.ini"
-hash = "d50832e6144685e3edf1966da2eec777baf9d45873e0e910d32b3ed044b88bf9"
+hash = "757ba1232d532193706b8825d47023c6caeea787d62220fa8821cfa03953e4d1"
 
 [[files]]
 file = "config/jei/world/local/Enchant/lookupHistory.ini"
@@ -71242,7 +71242,7 @@ hash = "3c3dbb5384f89d1524024bcf61b4c9475e5ba2fc03f2f3971251c4bb1c4f0871"
 
 [[files]]
 file = "config/modelfix-client.toml"
-hash = "cff0c57568bcbf52ac52dc94417e8907ccb083b92df34db0e2e6c612686126de"
+hash = "611eb63229b9dc688d4058094cebda6b77a2671a5ccc7f6786b044d46ab723d6"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -71258,7 +71258,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "5d84e842708776d059a8ac0aa41d3d5465200f491dcbf686a885bd9f27d86461"
+hash = "25f0ab07a4526fedfe4d11947074328028df50c19f6fe671d192c25a3a40fbe3"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71514,7 +71514,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "0f34423da30b87a4ced3d941c5bfdbf79cfdc3c0e323a9ec71bd0f87292779a9"
+hash = "74bfc0db86dff2bae37228ecda5ef44af3c47cbd2ed2af71b97a6ac1e756c655"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71530,7 +71530,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "d333a60112fc42843ab10a25574ee6a41ff161d1e178d6d106022599c28e28e7"
+hash = "249030b256368064703183c87a1a5cc5fe39ca12d524e06216f0d2367c50ecf5"
 
 [[files]]
 file = "config/pal.properties"
@@ -73367,6 +73367,10 @@ hash = "02542b27f847363fe1ae9da79ab2cf3ba56e5c900161e9273c176adbd1b0a176"
 [[files]]
 file = "kubejs/assets/cataclysmic_spellcasting/textures/item/scroll_cyber.png"
 hash = "3139c26e432533b00ce7e4eaeafd48c24f10c0b56394770bcf90a34f5e514dcb"
+
+[[files]]
+file = "kubejs/assets/certain_questing_additions/chapter_shaders.json"
+hash = "1bea92798277222d9e3bbfd2da6de8daf43b082b2475dab49d2b1deaee74cb68"
 
 [[files]]
 file = "kubejs/assets/clanginghowl/textures/slot/empty_feet_slot.png"
@@ -76843,6 +76847,14 @@ hash = "5d2a9966e69ad068002c9de15bc6b7a1278edc9b2e23e88c950dd698094bc49a"
 [[files]]
 file = "kubejs/assets/tombstone/textures/slot/bundle_slot.png"
 hash = "47ac07585ac944e028e4a3842d65447d365d3dd3cf577b6d8d5d78222471e57c"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/shaders/clanging_howl.fsh"
+hash = "fc7bbdef030f50cea878c8a7921526a99902ba8701e2933bb4936e347cee0ea0"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/shaders/clanging_howl.json"
+hash = "45c669cb1fbfd338b8b5da226c8eb97e8e8907a36be09a0a8cfc4822039f23e4"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/block/example_block.png"
@@ -81022,7 +81034,7 @@ metafile = true
 
 [[files]]
 file = "mods/model-gap-fix.pw.toml"
-hash = "f732b493cbddd7960ac623f9110ff788143438125939b0cbd9f0aec1297507f9"
+hash = "2f782cf44f3cd98e55975f43366ca00919c450c7c8ceb4016d7724e6c6a9512c"
 metafile = true
 
 [[files]]
