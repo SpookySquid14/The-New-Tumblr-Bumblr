@@ -21,11 +21,6 @@
 	#Maximum number of Augment Slots an item can have
 	#Range: 0 ~ 4
 	maxAugmentSlots = 1
-	#If true, natural spawners have a chance to convert into Apotheosis boss spawners on first discovery.
-	enableBossSpawnerConversion = true
-	#Chance for a natural spawner to become a boss spawner (0.0 = never, 1.0 = always)
-	#Range: 0.0 ~ 1.0
-	bossSpawnerChance = 0.15
 	#Chance for a universal boss to drop an Affix Scroll on death (0.0 = never, 1.0 = always)
 	#Range: 0.0 ~ 1.0
 	affixScrollDropChance = 0.05
@@ -46,4 +41,20 @@
 	#Example: modid:itemid|modid:schoolid
 	#You can also set multiple schools: modid:itemid|modid:schoolid|modid:schoolid
 	irons_items = ["celestisynth:crescentia|irons_spellbooks:ender", "celestisynth:solaris|irons_spellbooks:fire", "celestisynth:aquaflora|irons_spellbooks:nature", "celestisynth:breezebreaker|irons_spellbooks:evocation", "celestisynth:poltergeist|irons_spellbooks:eldritch", "celestisynth:rainfall_serenity|irons_spellbooks:lightning", "celestisynth:keres|irons_spellbooks:blood", "celestisynth:frostbound|irons_spellbooks:ice"]
+	#Tiered Socket Mode – controls gem-socket compatibility at the smithing table.
+	#ON       - A gem of equal or LOWER tier may be placed in a higher-tier socket
+	#           (e.g. a Common gem can go into an Epic socket).
+	#HARDCORE - Only a gem of the EXACT same tier fits the socket
+	#           (e.g. only an Epic gem can go into an Epic socket).
+	#
+	#To disable tiered sockets entirely, remove or empty the socket tier datapack folder
+	#When no tier definitions are loaded all sockets behave as plain Apotheosis sockets.
+	#Allowed Values: ON, HARDCORE
+	tiered_socket_mode = "ON"
+	#Chance for a Fabled universal boss to drop a random Augment on death (0.0 = never, 1.0 = always)
+	#Range: 0.0 ~ 1.0
+	fabledAugmentDropChance = 0.05
+	#Use vanilla check for enchanting book drops, unobtainable books / treasure books will be excluded
+	#If you want more fine-grained control, see data file located at data/fallen_gems_affixes/loot_modifiers/universal_boss_loot.json
+	strictUniversalBoosEnchantDrop = false
 

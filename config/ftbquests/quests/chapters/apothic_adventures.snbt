@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 500
 	default_quest_shape: "pentagon"
 	filename: "apothic_adventures"
 	group: "1CE580FB33A3818E"
@@ -17,8 +18,9 @@
 		{
 			dependencies: ["15ACD993630984F4"]
 			description: [
-				"Affixes are special properties given to items you'll find in chests or mob drops. There are 3 categories of affixes. &5&oStat Affixes&6&o give basic increases to things such as speed or health. &5Durability Affixes&6 decrease the damage taken by an item. Finally, &5Effect Affixes&6 give a range of unique abilities to an item.&r"
-				"{image:tumblrbumblr:textures/quests/affixes.png width:156 height:90 align:center}"
+				"Now, I'm sure in your travels you've come across some items with rather unique properties. Found in chests or dropped by mobs, these special properties are known as &6&oAffixes&r."
+				"Affixes come in various categories, each with many possible effects. &o&6Stat Affixes&r change attributes such as speed or health; &6&oDurability Affixes&r decrease the damage taken by an item, often through negating it; &o&6Effect Affixes&r give a wide range of unique abilities such as applying a potion effect when striking an enemy or making the attack AOE; and both &o&6Gem Sockets and Augment Sockets&r give you slots to put gems and augments into, but more on that later."
+				"{image:tumblrbumblr:textures/quests/affixes.png width:237 height:135 align:center}"
 			]
 			hide_until_deps_complete: true
 			id: "2B712988FC2E66C0"
@@ -43,10 +45,11 @@
 		{
 			dependencies: ["15ACD993630984F4"]
 			description: [
-				"Along with affixed items, you will come across a variety of &o&6Gems&r in your travels. &6&oThese gems, when inserted into a socket, will grant various boosts to your gear.&r"
-				"&oSockets&r are another type of Affix that can be found on items."
-				"Gems will have different compatibilities. Some may only work for armor while others may need a weapon or tool. &o&6Put a gem into a Smithing Table along with an item that is compatible and has an empty socket to insert the gem."
-				"{image:tumblrbumblr:textures/quests/gems.png width:160 height:90 align:center}"
+				"Affixes will certainly not be the only item you come across in your travles. What is that shine in the dungeon's chest? The shimmering from within your enemy's bag? Why, it a &o&6Gem&r of course."
+				"Gems are items that can add various effects to items they are slotted into. They can be found in several states, each with a corresponding rarity. These are &8Cracked&r, &2Chipped&r, &9Flawed&r, &5Normal&r, &cFlawless&r, and &6Perfect&r."
+				"&6&oNot all gems work with all item types.&r You may find one that can only be used on armor, or perhaps everything but swords. In addition, &6&omost slots you'll find on Affixed items will be tiered&r, and will only accept a gem &6&oof the same or lower rarity&r."
+				"If all of these match, then inserting the gem is as simple as putting both the item and the gem inside a &o&6smithing table&r."
+				"{image:tumblrbumblr:textures/quests/gems.png width:237 height:135 align:center}"
 			]
 			hide_until_deps_complete: true
 			id: "5A97C15CA4463102"
@@ -65,16 +68,18 @@
 				type: "advancement"
 			}]
 			title: "Shine Bright"
-			x: -1.0d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
 			description: [
-				"&o&6Boss Mobs&r are special mobs that have unique bonuses from their affixes. There are several ways to encounter them, such as in underground dungeons, but the most common way you'll find early on will be &o&6Invading Bosses&r."
-				"When a boss invades your world, you'll be alerted by a loud sound, a message, and a beacon that illuminates the boss."
-				"Killing a boss can be difficult depending on its strength, but in doing so, &o&6you are guaranteed to get an affixed item from it&r."
-				"{image:tumblrbumblr:textures/quests/bosses.png width:156 height:90 align:center}"
+				"Not all mobs are made equal. For some, power has been grasped in some way. These are &o&6Bosses&r. Stronger variants of mobs wielding special equipment unique to them."
+				"Most often, you'll come across these variants when one &o&6invades your world&r, shown through a sound playing alongside text notifying you and a beacon of light illuminating them from afar. "
+				"You may also come across &o&6Mini Bosses&r while exploring, rare wandering mobs who have tapped into the power of Affixes."
+				"Finally, they speak of &6&odungeons&r hidden under the dirt and rock of the world, treasure and knowledge stored away, guarded by a Boss."
+				"When slain, a Boss will always drop &6&oits unique Affixed item&r. These are typically stronger than most other affixed items you'll come across. And as a memento of the one who held it before you, the boss's name with be added to the item."
+				"{image:tumblrbumblr:textures/quests/bosses.png width:237 height:135 align:center}"
 			]
 			hide_until_deps_complete: true
 			id: "25927B5C8F23FCEA"
@@ -101,8 +106,8 @@
 				type: "advancement"
 			}]
 			title: "Promotion"
-			x: 1.0d
-			y: -2.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -111,10 +116,10 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"By now you've no doubt noticed your items have rarities. &o&6Rarity determines the strength of an affixed item as well as the types of affixes it can receive.&r For example, an uncommon and rare item can only have up to 1 gem socket, while higher rarities can have more. The rarities are &7Common&r, &aUncommon&r, &bRare&r, &dEpic&r, and &cMythic&r."
-				"By using a Salvaging Table, you can break down affixed items into raw material, which you can later use to upgrade your items."
-				"In addition to this, &6&oyou can also break gems down into gem dust&r. A much more elegant and efficient solution."
-				"{image:tumblrbumblr:textures/quests/salvaging-table.png width:156 height:90 align:center}"
+				"I've no doubt you've noticed your items aren't their normal colors. That, my dear friend, is from the item's &6&oRarity&r"
+				"Rarity is important, as it determiens the strength of an item and what kinds of affixes it can have. A good example is that an uncommon and rare item can only have up to 1 gem socket, while higher rarities can have &6&oup to 3&r The rarities are &7Common&r, &2Uncommon&r, &9Rare&r, &5Epic&r, and &6Mythic&r."
+				"To increase rarity or craft certain items, you will want to get your hands on some &6&oRarity Materials&r. To do this, you must use Gem Dust to craft a &6&oSalvaging Table&r. Putting an item into the GUI, you will see the amount of Rarity Materials you'll get from salvaging any item. In addition to salvaging items, you can also &o&6salvage gems&r for a much more elegant and efficient method of obtaining it. "
+				"{image:tumblrbumblr:textures/quests/salvaging-table.png width:308 height:180 align:center}"
 			]
 			icon: "apotheosis:salvaging_table"
 			id: "1935CFAC6173A06F"
@@ -153,7 +158,7 @@
 			dependencies: ["5A97C15CA4463102"]
 			description: [
 				"&o&6Gem Dust&r is a very common crafting material used for affixes. It's created by crushing the various gems you find around the world. At first, you'll have to do this by &6&odropping an anvil on a gem thrown onto the ground&r. But don't worry, because another method will soon be possible."
-				"{image:tumblrbumblr:textures/quests/gem-dust.png width:160 height:90 align:center}"
+				"{image:tumblrbumblr:textures/quests/gem-dust.png width:237 height:135 align:center}"
 			]
 			id: "43AE403E62C96F66"
 			rewards: [{
@@ -169,7 +174,7 @@
 				type: "item"
 			}]
 			title: "Ashes to Ashes, Dust to Dust"
-			x: -1.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -206,9 +211,10 @@
 		{
 			dependencies: ["1935CFAC6173A06F"]
 			description: [
-				"Once you've gotten enough materials, you'll probably want to start upgrading your gear, right? That's where the &o&6Reforging Table&r comes into play, allowing you to change an item's rarity and affixes. The Simple variant allows you to reforge an item up to &9&oRare&r."
-				"Using the Reforging Table, you'll be met with 3 input slots. The center slot is for the item you are reforging. The bottom right slot holds &o&6Sigils of Rebirth&r, crafted with gem fused slates and gem dust. Finally, the top left slot is for your rarity materials. Once all items are placed inside, you will be given three random options, just like an enchanting table. These options all take experience, Sigils of Rebirth, and rarity materials."
-				"{image:tumblrbumblr:textures/quests/simple-reforging-table.png width:156 height:90 align:center}"
+				"Whether you've wanted to take an existing piece of armor to the next level or add on to a freshly forged weapon, at one point or another, a &o&6Simple Reforging Table&r will be something to look at crafting."
+				"Using it, you will be met with three slots. The Reforging Table works much like an enchanting table. In the center goes the item you wish to reforge, the bottom right holds your &6&oSigils of Rebirth&r, think of it as your Lapis Lazuli, and the top left holds the rarity material corresponding to your desired rarity. The base table can only reforge items up to &9&oRare&r For more than that, you'll need to upgrade it."
+				"With all items in place, you will be presented with three options, again like an enchanting table. Each option &6&oconsumes experience, Sigils of Rebirth, and Rarity Materials&r. No option is inherently better than the other, so pick your favourite, and you can always reroll again."
+				"{image:tumblrbumblr:textures/quests/simple-reforging-table.png width:237 height:135 align:center}"
 			]
 			icon: "apotheosis:simple_reforging_table"
 			id: "5B841122EFD8854C"
@@ -238,7 +244,11 @@
 		}
 		{
 			dependencies: ["43AE403E62C96F66"]
-			description: ["If you're ever in a situation where you'd like to &oremove&r a gem from one of your items, you can craft a &o&6Sigil of Withdrawal&r. &6&oPutting the sigil in a smithing table with your item will remove all the gems in its sockets.&r"]
+			description: [
+				"Tell me, have you ever made the choice to insert one gem into an item only for you to later find a different gem, or perhaps just a better version of the one in your item? Well, don't worry."
+				""
+				"If you're ever in a situation where you'd like to &oremove&r a gem from one of your items, you can craft a &o&6Sigil of Withdrawal&r. &6&oPutting the sigil in a smithing table with your item will remove all the gems in its sockets.&r"
+			]
 			id: "15324C27CC683196"
 			rewards: [{
 				amount: 100L
@@ -254,12 +264,12 @@
 				type: "item"
 			}]
 			title: "Gem Removal Service"
-			x: -2.0d
-			y: -2.5d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5B841122EFD8854C"]
-			description: ["The Reforging Table is just like its predecessor, only now you will be able to reach &c&oMythic&r rarity."]
+			description: ["You've ventured into the nether and returned with some spectacular materials. I believe it's time we upgrade our Reforging from a simple one to a proper one. While all functions remain the same, you'll now be capable of Reforging all the way up to &o&6Mythic&r tier."]
 			id: "18DC1665AD8C8EE9"
 			rewards: [{
 				amount: 100L
@@ -274,15 +284,15 @@
 				type: "item"
 			}]
 			title: "Upgrading The Upgrader"
-			x: -0.5d
+			x: 0.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["5B841122EFD8854C"]
+			dependencies: ["18DC1665AD8C8EE9"]
 			description: [
-				"At the very top of an affix's power is the &o&6Augmentation Table&r requiring the power of a &oNether Star&r to create. Using it, &o&6you are able to strengthen or reroll specific affixes&r."
-				"Using the table will show a UI with two slots on the left. These are for the item you wish to augment and &o&6Sigils of Enhancement&r, crafted with a &cGodforged Pearl&r. Once all the items are put in, a drop down menu will show, allowing you to select the affix you wish to augment. From there, you simply select the option you'd like at the bottom."
-				"{image:tumblrbumblr:textures/quests/augmentation-table.png width:156 height:90 align:center}"
+				"When reforging is no longer enough, the energy of a &oNether Star&r allows for the creation of the &o&6Augmentation Table&r. Through this, you'll be able to take your item's existing affixes and reroll or upgrade certain ones for the cost of &6&oSigils of Enhancement&r."
+				"When using the table, you will be shown a UI with two slots on the left: one for your item and one for your Sigils of Enhancement. Clicking the drop down menu in the middle will let you select a specific Affix, which you can then either upgrade or re-roll. When upgrading, the new stat will be shown on the left, and when re-rolling a list of possible outcomes will be shown on the left instead."
+				"{image:tumblrbumblr:textures/quests/augmentation-table.png width:237 height:135 align:center}"
 			]
 			icon: "apotheosis:augmenting_table"
 			id: "35FF8397225F4952"
@@ -308,7 +318,7 @@
 				}
 			]
 			title: "Augmentation's Peak"
-			x: 0.0d
+			x: 0.5d
 			y: -5.0d
 		}
 		{
@@ -332,8 +342,306 @@
 				type: "item"
 			}]
 			title: "Jeweler in Training"
-			x: -1.0d
+			x: -2.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["47532F7269B287FF"]
+			description: [
+				"The Gem Case is a container useful for storing all types of gems. In its UI, you can insert gems through the blue slot. Retrieving stored gems is as simple as clicking the gem you use to take out."
+				"Gem Dust and Rarity Materials can be stored in the slots on the left of the UI. With them, you can easily upgrade a gem using the copies stored in the case."
+			]
+			id: "2D846DFCA9F7CE9B"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "73EB2D877E333CF6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2DB2860DD8A5E625"
+				item: "fallen_gems_affixes:gem_case"
+				type: "item"
+			}]
+			title: "A Case for your Jewelry, Dear?"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			description: [
+				"&o&6Universal Bosses&r are ordinary mobs that spawn as an Apothic Boss. Unlike normal bosses, Universal Bosses don't have any special equipment, only increased stats and sometimes &6&oEntity Affixes&r."
+				"When killed, Universal Bosses can drop gem dust, enchanted books, and on rare occasions, an Affix Scroll. These scrolls can be &6&ocombined with items in an anvil&r to give that item up to two scroll affixes or broken down at a Salvaging Table for rarity materials."
+			]
+			id: "14A6246E24E675A9"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "575771204C0AAEF2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "352ED3BD4B66AF7B"
+				item: "fallen_gems_affixes:affix_scroll"
+				type: "item"
+			}]
+			title: "Bosses Risen"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D846DFCA9F7CE9B"]
+			description: ["An enhanced version of the Gem Case, this can store much more."]
+			id: "0A91740322B9BEC2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "348B5718BFD2DD7B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "3AAD09A1ED1996D6"
+				item: "fallen_gems_affixes:ender_gem_case"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["43AE403E62C96F66"]
+			description: ["Using a Sigil of Socketing, you can add tierless gem sockets to your items. Being that they are tierless, any gem can be inserted into them, provided they're compatible with the item type."]
+			id: "4A5169146F81C5AF"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "575D1C0C3AC99CC2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 3L
+				id: "59960D403C569321"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			title: "Socket Rocket?"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18DC1665AD8C8EE9"]
+			description: [
+				"At the top of the reforging hierchy is the &6&oFabled Reforging Table&r. Unlike the tables before it, the Fabled Reforging table is only able to reforge an item to Fabled rarity. In doing so, it also gives the item a &o&4Set Affix&r."
+				"Set Affixes add on top of existing affixes and &6&ogrow stronger when multiple items within the same set are used&r."
+				"{image:tumblrbumblr:textures/quests/fabled.png width:237 height:135 align:center}"
+			]
+			id: "14E521ADAD4C9D6E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3DB9395B447AE581"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "5E54D409827E98DF"
+				item: "fallen_gems_affixes:fabled_reforging_table"
+				type: "item"
+			}]
+			title: "Tales and Fables"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4A5169146F81C5AF"]
+			description: [
+				"&6&oAugments&r are a tier above gems that are inserted into &oCrest Slots&r. Using an Augment can grant various general bonuses, such as &6&ostrengthening the power of gems or affixes&r in a piece of gear."
+				"Sigils of Ascension are an infused version of Sigils of Socketing, used to convert an &oUntiered Gem Socket&r to an &6&oAugment Socket&r."
+			]
+			id: "24A3D813751D0FBD"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1778D7C957A51D4C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "179FE74E7142E5AD"
+					item: "fallen_gems_affixes:sigil_of_ascension"
+					type: "item"
+				}
+				{
+					id: "266CD7578E5F703A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "fallen_gems_affixes:augment"
+									tag: {
+										AugmentId: "fallen_gems_affixes:gem_power"
+									}
+								}
+								{
+									Count: 1b
+									id: "fallen_gems_affixes:augment"
+									tag: {
+										AugmentId: "fallen_gems_affixes:supremacy"
+									}
+								}
+								{
+									Count: 1b
+									id: "fallen_gems_affixes:augment"
+									tag: {
+										AugmentId: "fallen_gems_affixes:genesis"
+									}
+								}
+								{
+									Count: 1b
+									id: "fallen_gems_affixes:augment"
+									tag: {
+										AugmentId: "fallen_gems_affixes:cascade"
+									}
+								}
+								{
+									Count: 1b
+									id: "fallen_gems_affixes:augment"
+									tag: {
+										AugmentId: "fallen_gems_affixes:duality"
+									}
+								}
+								{
+									Count: 1b
+									id: "fallen_gems_affixes:augment"
+									tag: {
+										AugmentId: "fallen_gems_affixes:malice"
+									}
+								}
+								{
+									Count: 1b
+									id: "fallen_gems_affixes:augment"
+									tag: {
+										AugmentId: "fallen_gems_affixes:convergence"
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ascended Augmentation"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["24A3D813751D0FBD"]
+			id: "33B40D6E7F1E511F"
+			tasks: [{
+				count: 3L
+				id: "08AF677057D8CED2"
+				item: "fallen_gems_affixes:sigil_of_severance"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["18DC1665AD8C8EE9"]
+			description: [
+				"At this stage in the game, you've probably gathered a stash of items, yes? Well, rather than constantly breaking everything down, why not try transfering more notable affixes to newer or better gear?"
+				"The Sigil of Transmutation takes &6&oall affixes, gems, and sockets&r from one source item and transfers them to another base item when all three items are set inside a smithing table. &4&lBe warned, the source item will be destroyed in the process.&r"
+				"{image:tumblrbumblr:textures/quests/sigil-of-transmutation.png width:237 height:135 align:center}"
+			]
+			id: "3DFFC6565E661655"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5E5BDE8731A07D3C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "360E75593B42C309"
+				item: "fallen_gems_affixes:sigil_of_transmutation"
+				type: "item"
+			}]
+			title: "Old Becomes New"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19DC21F62A5164A3"]
+			description: ["Power is seeked by all, and there are many ways to achieve it. If you aren't interested in using various gems, you may be interested in a &6Sigil of Prismatic Conversion&r."]
+			hide_dependent_lines: true
+			id: "40E6822922724098"
+			tasks: [{
+				id: "5F74C8D0F5D3E52A"
+				item: "fallen_gems_affixes:sigil_of_prismatic_conversion"
+				type: "item"
+			}]
+			title: "The Catalyst of Power"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4A5169146F81C5AF"]
+			id: "19DC21F62A5164A3"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4A1DE35C7C9121BC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7B34CF24EDC84E48"
+				item: "fallen_gems_affixes:sigil_of_elevation"
+				type: "item"
+			}]
+			title: "Climbing The Tiered Ladder"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["14A6246E24E675A9"]
+			description: ["So, you're not quite fond of the Scroll Affixes you've given your items? Well, you can certainly remove them."]
+			id: "6D0FB5D28DED4EB6"
+			tasks: [{
+				id: "1860FB3D68CE1966"
+				item: "fallen_gems_affixes:sigil_of_erasure"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B712988FC2E66C0"]
+			description: ["I get it. The sword you tore from your enemy's hands is nice, but you aren't particularly fond of its descriptive name, and would rather it not be there. That's where a Sigil of Unnaming comes into play. Putting it into an anvil with an Affixed item will removed the prefixes and suffixes of its name."]
+			id: "13CB873C91B6BB8E"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "32E52971D192C237"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 6L
+				id: "47D1148F77F3191D"
+				item: "apotheosis:sigil_of_unnaming"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
 		}
 	]
 	title: "Apothic Adventures"

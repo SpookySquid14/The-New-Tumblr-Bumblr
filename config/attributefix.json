@@ -1331,17 +1331,6 @@
         "value": 100
       }
     },
-    "familiarslib:sound_spell_power": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "obscure_api:regeneration": {
       "enabled": false,
       "min": {
@@ -1354,6 +1343,17 @@
       }
     },
     "irons_spellbooks:lightning_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "familiarslib:sound_spell_power": {
       "enabled": false,
       "min": {
         "default": -100,

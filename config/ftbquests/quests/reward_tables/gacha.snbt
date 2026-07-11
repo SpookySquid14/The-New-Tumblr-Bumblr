@@ -1,0 +1,22 @@
+{
+	id: "6385DC52C7A3EC23"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "gacha"
+	}
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ item: "apotheosis:common_material", weight: 70.0f }
+		{ item: "apotheosis:uncommon_material", weight: 58.0f }
+		{ item: "apotheosis:rare_material", weight: 30.0f }
+		{ item: "apotheosis:epic_material", weight: 18.0f }
+		{ item: "apotheosis:mythic_material", weight: 3.0f }
+	]
+	title: "Gacha"
+}

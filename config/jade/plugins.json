@@ -55,11 +55,6 @@
     "egg_timer": true,
     "dragon_info": true
   },
-  "treechop": {
-    "plugin": true,
-    "show_tree_block_counts": true,
-    "show_num_chops_remaining": true
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -69,6 +64,10 @@
     "exact_block": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "fallen_gems_affixes": {
+    "entity_affixes": true,
+    "deadeye_marked": true
   },
   "tombstone": {
     "decorative_graves": true,

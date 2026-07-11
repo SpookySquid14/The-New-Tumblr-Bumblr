@@ -888,6 +888,7 @@
 				item: "apotheosis:library"
 				type: "item"
 			}]
+			title: "Custom Order Coming Up"
 			x: 3.0d
 			y: -6.5d
 		}
@@ -899,6 +900,7 @@
 				item: "apotheosis:ender_library"
 				type: "item"
 			}]
+			title: "Vault of Enchantments"
 			x: 5.0d
 			y: -6.5d
 		}

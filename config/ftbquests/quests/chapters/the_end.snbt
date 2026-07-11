@@ -6,6 +6,40 @@
 	id: "00997547CB1C3635"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "69EC2EDD0C613AA2"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "0E72EE93E689B5C6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "04604D2DD5997F79"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "2BE694BB508DB5DB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "3F6E0243958F7308"
+			tasks: [{
+				entity: "goety:ender_keeper"
+				id: "5F22EC99BD70E00E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+	]
 	title: "The End"
 }

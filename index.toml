@@ -1366,7 +1366,7 @@ hash = "63f34caf47c465338b28a5661d3236aa71ea5e4774635bad54718c3edc7bbfec"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "00a83a8d4b6bbfeed6a343a5ecfc9fec271b26d7bd8a0fcace96480960cc8fc8"
+hash = "4253a3c2f7c7882f196417797c0db625dd4875620fe3794bfdbc936ed1d34ee3"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -19071,6 +19071,18 @@ hash = "15dd2c6fe272d18a87facf61b4aba1a81e892819809efc682bedcbe395a2b1d1"
 [[files]]
 file = "config/blockswap/known_states/fairylights/witch_light.json5"
 hash = "f9b6d03226c04d9fd97ac29e99d75b5720a83b10538509c4b277b7a77fe5371b"
+
+[[files]]
+file = "config/blockswap/known_states/fallen_gems_affixes/ender_gem_case.json5"
+hash = "22361b665d4a9473690b72454a67c61e460dad2ea3da74f40ca23d0f972ed324"
+
+[[files]]
+file = "config/blockswap/known_states/fallen_gems_affixes/fabled_reforging_table.json5"
+hash = "1bcb6a6f128d1b99c0702ed8505f9a5a654ec6932cbf75466fabb7457ad953ce"
+
+[[files]]
+file = "config/blockswap/known_states/fallen_gems_affixes/gem_case.json5"
+hash = "7aa65ed43797a5ed3e411ae9d75e0bad99fe90c2e0aa3f929b496550271c9c7a"
 
 [[files]]
 file = "config/blockswap/known_states/farmersdelight/acacia_cabinet.json5"
@@ -69126,7 +69138,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "262c4443c0920074abd4b48a4ab782d4bb2a7f6000f986d454e05e23f8a1c815"
+hash = "947bc6693cd00e97e5e3cc6047dddcf3ed0e1004e61ee79bd374a8162bccef4b"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69138,7 +69150,7 @@ hash = "850a9086091e593f9c5546cad289ca781604ef4175d0d9e76c41c1560945b195"
 
 [[files]]
 file = "config/fallen_gems_affixes-common.toml"
-hash = "154ca8f373e8e38dcd3ef91cbb8a4a056924e9abffc6445346b24c9f6f54f3fa"
+hash = "c7cf20051e47335abb571a2751e8c21dce45715beecaaec26b755d15efbda9d8"
 
 [[files]]
 file = "config/fallingtrees_client.json"
@@ -70130,7 +70142,7 @@ hash = "60c5487d9a7261275a3d5d9c7386e950f3aeb6e8944e915006074da5fe2be5f3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apothic_adventures.snbt"
-hash = "749100acdb56fa6ba190c1d42f3d8a653e8ba9ee6270b03a26d268915b80a958"
+hash = "601ebedc6be4aac466d2916b82ba326a353eaa7ede06a560be8acbffbe784469"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
@@ -70190,7 +70202,7 @@ hash = "d7f0d36ec3e97eaa53455145570eb7243810a2fb536a007eeb3449227f934d95"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
-hash = "e74f8f6d214e012fa3b264469b8546fde1a22a2f3d5acc56964ebe4deae3becf"
+hash = "4b6a82f7d67b62ebb2d36da4e0ed2d2bf91efbc3b0119a7f215756853febb0ab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farming.snbt"
@@ -70274,7 +70286,7 @@ hash = "67372fe19217321f7b5e7a95fcf580e007e08901c04257865d8f19fd84b3a7c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_end.snbt"
-hash = "9b810db8db31248432d62d4675a2f567247bdb16ce8b99de8494146de6ea7741"
+hash = "11acfa71f1582c9edef54ab8065f11d2f55bf9c0a233d721590d53d498126c59"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkers_construct.snbt"
@@ -70347,6 +70359,10 @@ hash = "3d24245d2f70f23b982324aa89e4ba01176ba435e9ac009c702df42995f76cbf"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/fishers_crate.snbt"
 hash = "6f4029838dcf5653916fe73dd0ef16cbf12e3941bc0ed630b0d55bbf5304beb8"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/gacha.snbt"
+hash = "2810dc38869c60714d46e3fac70c54462ca292ccd22d2c0e3d3d4d4b96cb4618"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/minecolonies_common.snbt"
@@ -70722,11 +70738,11 @@ hash = "8a9c0403b385ca106d0c0b541ea2f2128bf39e3f9b05b342b176ca11834857a4"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "293169afeb677d8dd1ef22b58a244224e669b2b0ecda8d884cadbacc3c13cd5c"
+hash = "96ec14d94ab1423aa9e4e76f6ab56bca05c71981b1389cf821dc4f909ea5c778"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "59960fbe41cf125f914c41606fa754cd992d16e65e04ec11a343785fcfeb0376"
+hash = "8279b3abcf9890c088ddd25724df35ab6dfefda698427892fc8de3aa8c761e3a"
 
 [[files]]
 file = "config/jeed-client.toml"
@@ -70738,7 +70754,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "bede5ffdf24dd556c555763101a6a411f8fae296867951db9f96d65e1c5d25b4"
+hash = "aeb94744c77256f5f187b7eb5000ca3768cef8f43764f31411957d3aa983dca3"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -70762,7 +70778,7 @@ hash = "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "b16267cbebaf17b6352b87b01657b9d3f3db4474e0377856c338d7b20cdebb93"
+hash = "cb05e6cc88fe5cc5ce29306131944833ac7a0e112f2b0f4bf37bd41fe4edeadf"
 
 [[files]]
 file = "config/jei/world/local/Apothic/lookupHistory.ini"
@@ -70835,6 +70851,14 @@ hash = "8748ac57f9b6da00fdbe1312fd3025bdb882ad97c4ce4ccb2163c172651e8aef"
 [[files]]
 file = "config/jei/world/local/FISH/lookupHistory.ini"
 hash = "023c9701ecce8745c887f405959987487a776dc6f0761f658cc1d5c2d01493ed"
+
+[[files]]
+file = "config/jei/world/local/Fallen/lookupHistory.ini"
+hash = "710d0196ba7a4fcec41976989dd445c29c936f62932924d733d172244c2b9f61"
+
+[[files]]
+file = "config/jei/world/local/Fallen_2/lookupHistory.ini"
+hash = "d2b0ca06a55248e841aa411eb368ea75d7036550365246ed7cc05f85c6f5e3ed"
 
 [[files]]
 file = "config/jei/world/local/Fish_2/lookupHistory.ini"
@@ -71071,6 +71095,10 @@ hash = "9c8cc92955111745c6d41ccfae5a923ced07e73bbdfb02be2a3de6fc7562e490"
 [[files]]
 file = "config/jei/world/local/Simply_Swords/lookupHistory.ini"
 hash = "24bb3c5c2dad39eb938f5c8ddce9c898ed29615049112a1aeacbda671eb772f2"
+
+[[files]]
+file = "config/jei/world/local/Spark_Test_1/lookupHistory.ini"
+hash = "1437688577ee5bf3eb43c5972f45502971e92fef773c10823eef3b53894f5a0a"
 
 [[files]]
 file = "config/jei/world/local/Spawn_test__4/lookupHistory.ini"
@@ -71326,7 +71354,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "7514a70923393dc6ddc22912085bbb869dd86cccad3377d66627c97e439e08b8"
+hash = "9478ea96a6bb423d5241d68febcae3c2e4790e2e269b8d8ae4fb60986d735929"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71582,7 +71610,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "3b3f4e7db64d207a76359d11517bc1cf1bad2e7e77cd7c0d2cbbb7d5aa881583"
+hash = "b36d84ef837338f80dfa588b82477b4f31883666258390d5a1f11bc1ee6f4903"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71598,7 +71626,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "49dbef4e89721b19e5289fc31c486dc5c517d56e79c854da5dcf3fc404c09548"
+hash = "b683306d92712d6fef1f265165c7b5ea05789ac27f1659211d1d50a7a3229a26"
 
 [[files]]
 file = "config/pal.properties"
@@ -72386,15 +72414,7 @@ hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
 
 [[files]]
 file = "config/structurify.json"
-hash = "822f284bb166cc16d05acf86d06e53aa9f293c27a833ae9a8a7af734caee2337"
-
-[[files]]
-file = "config/structurify/structurify_backup_2026-06-14_17-29-34.json"
-hash = "6483a804795ec806be2704badda56a4fa81feb17c0059b8dded3509f11eb28d1"
-
-[[files]]
-file = "config/structurify/structurify_backup_2026-06-29_17-43-28.json"
-hash = "7c0820fd86aafcbca6eaa3a53bfe176370701b09657805879a2d2a5aafeb4583"
+hash = "466557f9f68a426189b67de94bb14dc8731498437ce69d430e1a5aecc01f5421"
 
 [[files]]
 file = "config/structurify/structurify_backup_2026-07-03_17-47-13.json"
@@ -72407,6 +72427,14 @@ hash = "b802e58488e2ddd22689375ef913621328240b71dd4dd499aaf4c80f14ed26da"
 [[files]]
 file = "config/structurify/structurify_backup_2026-07-10_17-10-48.json"
 hash = "8a36a029e57b3f08376f66590cae41fb61b1d5d7a2686c31212b51b97d52be9f"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-07-11_08-08-38.json"
+hash = "822f284bb166cc16d05acf86d06e53aa9f293c27a833ae9a8a7af734caee2337"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-07-11_08-09-04.json"
+hash = "2fabd606ebc1870d519986a238c088db18b36de525dcea8f6dd79e4c8c0b26ed"
 
 [[files]]
 file = "config/structurify_dump.json"
@@ -73446,7 +73474,7 @@ hash = "3139c26e432533b00ce7e4eaeafd48c24f10c0b56394770bcf90a34f5e514dcb"
 
 [[files]]
 file = "kubejs/assets/certain_questing_additions/chapter_shaders.json"
-hash = "31daf7e3a3088a2acb15307943ab39172e229dd8b5207aeb5c35429ebb1d474a"
+hash = "1bea92798277222d9e3bbfd2da6de8daf43b082b2475dab49d2b1deaee74cb68"
 
 [[files]]
 file = "kubejs/assets/clanginghowl/textures/slot/empty_feet_slot.png"
@@ -77233,6 +77261,10 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/eterna.png"
 hash = "c05b71a3ff520bcb912bc6bd443ab2ec3f6fa657f116aa940373f4a03e130cb6"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/fabled.png"
+hash = "1c1727b9f473978a73a44a9d7292771678a9586391c98bb363be959cf3565827"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/fabrics.png"
 hash = "93fe6d3d77600c6b26e9ae35bea9efcf5355f3a77a19ae52674c2559f399b470"
 
@@ -77279,6 +77311,10 @@ hash = "a63b906939c02eaa35fba300f3e9fbf9e19ef98e176bb2abaa1c8edf08329424"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/gauntlet_arena.png"
 hash = "c536e286c53b7b7b6f878ffc691e297ef0033c81a3ec429c52eba31a569101fd"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/gem-case.png"
+hash = "d1e4c344aed21741b4ffada852eba148a763d02328c52a0ab95cc7a3770fca6d"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/gem-cutting-table.png"
@@ -77659,6 +77695,14 @@ hash = "054a644b3bd5a66f838b3c6a3cc9502b77aed172576f4c855922668e8edc0ab7"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/shipping-bin.png"
 hash = "3b980b0e82b46d59ecb1f611364545ff87abb39ee37da20971c3b4119d4f949c"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/sigil-of-prismatic-conversion.png"
+hash = "6ac89a3f3bf6a35a23fc191e6274050f73ca0130e4236382b8561d72c6ecd473"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/sigil-of-transmutation.png"
+hash = "71a6771e058b5804490c5160dd7bb405023454d8264191d874dfc2364077c64d"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/simple-reforging-table.png"
@@ -80518,12 +80562,12 @@ metafile = true
 
 [[files]]
 file = "mods/fallen-gems-affixes.pw.toml"
-hash = "38b714d2656d616b0566950a39bc4376b86b248a9e42c46ccceb4678994e3687"
+hash = "0160bd05591afb80befbc8d9b712ef721b97c272c1b46190ed3f65109b79979f"
 metafile = true
 
 [[files]]
 file = "mods/fallen-lib.pw.toml"
-hash = "bd9d13f4db8433e3fcda00ef6c01011112dafa1737c865635bcf6d7f796dbf80"
+hash = "eb0b2f61b02a8fd2e260dbe74191f5424ee1d3feeaf0f05077fcca3493dfcf6c"
 metafile = true
 
 [[files]]
