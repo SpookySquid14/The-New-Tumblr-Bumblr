@@ -2,79 +2,15 @@
 # UNIVERSAL SETTINGS
 # ==========================================
 [universal]
+interruptible = false
 seamless_handoff = true
-cooldown_group_time = 15.0
-cooldown_group_events = ["overworld_primordial_caves", "overworld_toxic_caves", "overworld_lush_caves", "overworld_candy_cavity", "overworld_dripstone_caves", "overworld_lost_caves", "overworld_magnetic_caves", "overworld_frosted_caves", "overworld_deep_dark", "overworld_overworld", "overworld_desert"]
+interrupt_whitelist = ["test_draugr", "leviathan_phase_2", "leviathan_phase_1", "maledictus_battle", "harbinger_battle", "boss_ender_dragon", "ignis_phase_3", "Luxtructosaurus", "ignis_phase_2", "ignis_phase_1", "enderguardian_phase_2", "scylla_battle", "monstrosity_battle", "enderguardian_phase_1", "remnant_battle"]
+cooldown_group_time = "0:10"
+cooldown_group_events = ["overworld_game"]
 
 # ==========================================
 # EVENTS (TRIGGERS)
 # ==========================================
-[[events.biomes]]
-event_name = "otherside_deeplands"
-resource_name = ["deeperdarker:deeplands"]
-
-
-[[events.mobs]]
-event_name = "maledictus_battle"
-priority = 3
-fade_out = 5.0
-detection_range = 76.0
-resource_name = ["cataclysm:maledictus"]
-
-
-[[events.mobs]]
-event_name = "boss_ender_dragon"
-priority = 3
-detection_range = 192.0
-resource_name = ["minecraft:ender_dragon"]
-
-
-[[events.mobs]]
-event_name = "Luxtructosaurus"
-priority = 3
-fade_out = 5.0
-detection_range = 76.0
-resource_name = ["alexscaves:luxtructosaurus"]
-
-
-[[events.biomes]]
-event_name = "overworld_lush_caves"
-locked = true
-resource_name = ["regions_unexplored:ancient_delta", "regions_unexplored:bioshroom_caves", "minecraft:lush_caves"]
-
-
-[[events.mobs]]
-event_name = "monstrosity_battle"
-priority = 3
-detection_range = 76.0
-nbt_match = ["{is_Awaken:1b}"]
-resource_name = ["cataclysm:netherite_monstrosity"]
-
-
-[[events.biomes]]
-event_name = "overworld_old_growth_taiga"
-resource_name = ["regions_unexplored:blackwood_taiga", "regions_unexplored:boreal_taiga", "regions_unexplored:golden_boreal_taiga", "regions_unexplored:pine_taiga", "minecraft:old_growth_pine_taiga", "regions_unexplored:redwoods", "regions_unexplored:sparse_redwoods", "minecraft:old_growth_spruce_taiga", "minecraft:old_growth_birch_forest"]
-
-
-[[events.biomes]]
-event_name = "overworld_abyssal_chasm"
-priority = 1
-resource_name = ["alexscaves:abyssal_chasm"]
-
-
-[[events.biomes]]
-event_name = "overworld_primordial_caves"
-priority = 1
-locked = true
-resource_name = ["alexscaves:primordial_caves"]
-
-
-[[events.biomes]]
-event_name = "overworld_toxic_caves"
-priority = 1
-resource_name = ["alexscaves:toxic_caves"]
-
-
 [[events.mobs]]
 event_name = "leviathan_phase_2"
 priority = 3
@@ -94,35 +30,18 @@ nbt_match = ["{MeltDown:0b}"]
 resource_name = ["cataclysm:the_leviathan"]
 
 
-[[events.biomes]]
-event_name = "nether_vent_mire"
-resource_name = ["netherexp:exhaust_mire"]
-
-
-[[events.biomes]]
-event_name = "nether_nether_wastes"
-resource_name = ["regions_unexplored:redstone_abyss", "minecraft:nether_wastes"]
+[[events.mobs]]
+event_name = "maledictus_battle"
+priority = 3
+fade_out = 5.0
+detection_range = 76.0
+resource_name = ["cataclysm:maledictus"]
 
 
 [[events.structure]]
 event_name = "in_catacombs"
 priority = 2
 resource_name = ["irons_spellbooks:catacombs"]
-
-
-[[events.biomes]]
-event_name = "overworld_candy_cavity"
-resource_name = ["alexscaves:candy_cavity"]
-
-
-[[events.biomes]]
-event_name = "overworld_jungle"
-resource_name = ["regions_unexplored:eucalyptus_forest", "regions_unexplored:rainforest", "regions_unexplored:sparse_rainforest", "regions_unexplored:tropics", "minecraft:jungle"]
-
-
-[[events.biomes]]
-event_name = "overworld_meadow"
-resource_name = ["regions_unexplored:highland_fields", "minecraft:meadow"]
 
 
 [[events.mobs]]
@@ -134,20 +53,54 @@ nbt_match = ["{Is_Act:1b}"]
 resource_name = ["cataclysm:the_harbinger"]
 
 
-[[events.biomes]]
-event_name = "overworld_forlorn_hollows"
-resource_name = ["alexscaves:forlorn_hollows"]
+[[events.mobs]]
+event_name = "boss_ender_dragon"
+priority = 3
+detection_range = 192.0
+resource_name = ["minecraft:ender_dragon"]
+
+
+[[events.mobs]]
+event_name = "ignis_phase_3"
+priority = 3
+fade_in = 0.5
+fade_out = 5.0
+detection_range = 76.0
+nbt_match = ["{BossPhase:2}"]
+resource_name = ["cataclysm:ignis"]
+
+
+[[events.mobs]]
+event_name = "Luxtructosaurus"
+priority = 3
+fade_out = 5.0
+detection_range = 76.0
+resource_name = ["alexscaves:luxtructosaurus"]
+
+
+[[events.mobs]]
+event_name = "ignis_phase_2"
+priority = 3
+fade_in = 0.5
+fade_out = 0.5
+detection_range = 76.0
+nbt_match = ["{BossPhase:1}"]
+resource_name = ["cataclysm:ignis"]
+
+
+[[events.mobs]]
+event_name = "ignis_phase_1"
+priority = 3
+fade_out = 0.5
+detection_range = 76.0
+nbt_match = ["{BossPhase:0}"]
+resource_name = ["cataclysm:ignis"]
 
 
 [[events.biomes]]
-event_name = "overworld_dripstone_caves"
-locked = true
-resource_name = ["regions_unexplored:prismachasm", "regions_unexplored:redstone_caves", "minecraft:dripstone_caves"]
-
-
-[[events.biomes]]
-event_name = "overworld_frozen_peaks"
-resource_name = ["regions_unexplored:icy_heights", "minecraft:frozen_peaks"]
+event_name = "overworld_game"
+remember_track = true
+resume_from_timestamp = true
 
 
 [[events.mobs]]
@@ -169,19 +122,12 @@ nbt_match = ["{Act:1b}"]
 resource_name = ["cataclysm:scylla"]
 
 
-[[events.biomes]]
-event_name = "alpha_grove"
-resource_name = ["regions_unexplored:alpha_grove"]
-
-
-[[events.biomes]]
-event_name = "overworld_deep_dark"
-resource_name = ["minecraft:deep_dark", "regions_unexplored:scorching_caves"]
-
-
-[[events.biomes]]
-event_name = "overworld_aria_biblio"
-resource_name = ["ars_nouveau:archwood_forest", "ars_elemental:flourishing_forest", "ars_elemental:flashing_forest", "ars_elemental:cascading_forest", "ars_elemental:blazing_forest"]
+[[events.mobs]]
+event_name = "monstrosity_battle"
+priority = 3
+detection_range = 76.0
+nbt_match = ["{is_Awaken:1b}"]
+resource_name = ["cataclysm:netherite_monstrosity"]
 
 
 [[events.mobs]]
@@ -193,162 +139,6 @@ nbt_match = ["{is_Helmetless:0b}"]
 resource_name = ["cataclysm:ender_guardian"]
 
 
-[[events.biomes]]
-event_name = "nether_crimson_forest"
-resource_name = ["regions_unexplored:blackstone_basin", "minecraft:crimson_forest"]
-
-
-[[events.dimensions]]
-event_name = "overworld_overworld"
-resource_name = ["minecraft:overworld"]
-
-
-[[events.biomes]]
-event_name = "overworld_stony_peaks"
-resource_name = ["regions_unexplored:arid_mountains", "regions_unexplored:steppe", "minecraft:stony_peaks"]
-
-
-[[events.biomes]]
-event_name = "overworld_lost_caves"
-priority = 1
-resource_name = ["yungscavebiomes:lost_caves"]
-
-
-[[events.biomes]]
-event_name = "nether_soul_sand_valley_black_ice_glaciers"
-resource_name = ["netherexp:black_ice_glaciers"]
-
-
-[[events.biomes]]
-event_name = "overworld_sparse_jungle"
-resource_name = ["minecraft:sparse_jungle"]
-
-
-[[events.biomes]]
-event_name = "nether_basalt_deltas"
-resource_name = ["regions_unexplored:infernal_holt", "minecraft:basalt_deltas"]
-
-
-[[events.mobs]]
-event_name = "ignis_phase_3"
-priority = 3
-fade_in = 0.5
-fade_out = 5.0
-detection_range = 76.0
-nbt_match = ["{BossPhase:2}"]
-resource_name = ["cataclysm:ignis"]
-
-
-[[events.mobs]]
-event_name = "ignis_phase_2"
-priority = 3
-fade_in = 0.5
-fade_out = 0.5
-detection_range = 76.0
-nbt_match = ["{BossPhase:1}"]
-resource_name = ["cataclysm:ignis"]
-
-
-[[events.biomes]]
-event_name = "end_end"
-resource_name = ["minecraft:the_end", "minecraft:end_highlands", "minecraft:end_midlands", "minecraft:end_barrens", "minecraft:small_end_islands"]
-
-
-[[events.mobs]]
-event_name = "ignis_phase_1"
-priority = 3
-fade_out = 0.5
-detection_range = 76.0
-nbt_match = ["{BossPhase:0}"]
-resource_name = ["cataclysm:ignis"]
-
-
-[[events.biomes]]
-event_name = "overworld_magnetic_caves"
-priority = 1
-resource_name = ["alexscaves:magnetic_caves"]
-
-
-[[events.biomes]]
-event_name = "otherside_overcast_columns"
-resource_name = ["deeperdarker:overcast_columns"]
-
-
-[[events.biomes]]
-event_name = "overworld_bamboo_jungle"
-resource_name = ["minecraft:bamboo_jungle"]
-
-
-[[events.biomes]]
-event_name = "overworld_cherry_grove"
-resource_name = ["minecraft:cherry_grove"]
-
-
-[[events.biomes]]
-event_name = "overworld_frosted_caves"
-resource_name = ["yungscavebiomes:frosted_caves"]
-
-
-[[events.player]]
-event_name = "overworld_under_water"
-require_underwater = true
-
-
-[[events.biomes]]
-event_name = "otherside_echoing_forest"
-resource_name = ["deeperdarker:blooming_caverns", "deeperdarker:echoing_forest"]
-
-
-[[events.biomes]]
-event_name = "overworld_snowy_slopes"
-resource_name = ["regions_unexplored:cold_deciduous_forest", "regions_unexplored:spires", "minecraft:snowy_slopes"]
-
-
-[[events.biomes]]
-event_name = "nether_soul_sand_valley"
-resource_name = ["minecraft:soul_sand_valley", "netherexp:sorrowsquash_pastures"]
-
-
-[[events.biomes]]
-event_name = "overworld_grove"
-resource_name = ["regions_unexplored:cold_boreal_taiga", "regions_unexplored:frozen_pine_taiga", "regions_unexplored:frozen_tundra", "regions_unexplored:hyacinth_deeps", "regions_unexplored:rocky_reef", "minecraft:grove"]
-
-
-[[events.biomes]]
-event_name = "nether_warped_forest"
-resource_name = ["regions_unexplored:glistering_meadow", "regions_unexplored:mycotoxic_undergrowth", "minecraft:warped_forest"]
-
-
-[[events.biomes]]
-event_name = "overworld_desert"
-resource_name = ["regions_unexplored:joshua_desert", "minecraft:desert", "regions_unexplored:saguaro_desert", "regions_unexplored:outback"]
-
-
-[[events.biomes]]
-event_name = "overworld_forest"
-resource_name = ["minecraft:forest", "regions_unexplored:ashen_woodland", "regions_unexplored:autumnal_maple_forest", "regions_unexplored:bamboo_forest", "regions_unexplored:barley_fields", "regions_unexplored:chalk_cliffs", "regions_unexplored:cold_river", "regions_unexplored:deciduous_forest", "regions_unexplored:gravel_beach", "regions_unexplored:grassland", "regions_unexplored:grassy_beach", "regions_unexplored:magnolia_woodland", "regions_unexplored:mauve_hills", "regions_unexplored:muddy_river", "regions_unexplored:orchard", "regions_unexplored:prairie", "regions_unexplored:pumpkin_fields", "regions_unexplored:shrubland", "regions_unexplored:silver_birch_forest", "regions_unexplored:temperate_grove", "regions_unexplored:tropical_river", "regions_unexplored:willow_forest", "minecraft:birch_forest", "minecraft:dark_forest", "minecraft:old_growth_birch_forest", "regions_unexplored:maple_forest"]
-
-
-[[events.biomes]]
-event_name = "overworld_jagged_peaks"
-resource_name = ["regions_unexplored:mountains", "regions_unexplored:pine_slopes", "minecraft:jagged_peaks"]
-
-
-[[events.biomes]]
-event_name = "vampirism_ambient_forest"
-resource_name = ["vampirism:vampire_forest", "werewolves:werewolf_heaven"]
-
-
-[[events.biomes]]
-event_name = "overworld_badlands"
-resource_name = ["regions_unexplored:baobab_savanna", "regions_unexplored:dry_bushland", "minecraft:eroded_badlands", "minecraft:badlands", "minecraft:wooded_badlands"]
-
-
-[[events.biomes]]
-event_name = "overworld_swamp"
-resource_name = ["regions_unexplored:bayou", "regions_unexplored:old_growth_bayou", "regions_unexplored:fen", "regions_unexplored:fungal_fen", "regions_unexplored:marsh", "minecraft:swamp", "minecraft:mangrove_swamp"]
-
-
 [[events.mobs]]
 event_name = "remnant_battle"
 priority = 3
@@ -358,314 +148,161 @@ nbt_match = ["{has_necklace:1b}"]
 resource_name = ["cataclysm:ancient_remnant"]
 
 
-[[events.biomes]]
-event_name = "overworld_flower_forest"
-resource_name = ["regions_unexplored:clover_plains", "regions_unexplored:flower_fields", "minecraft:sunflower_plains", "regions_unexplored:poppy_fields", "regions_unexplored:rocky_meadow", "minecraft:flower_forest"]
-
-
 # ==========================================
 # AUDIOS (SONGS)
 # ==========================================
 [[audios."harbinger_theme"]]
-interrupt_whitelist = ["harbinger_battle"]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
 target_events = ["harbinger_battle"]
 
 [[audios."scylla_theme"]]
-interrupt_whitelist = ["harbinger_battle"]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
 target_events = ["scylla_battle"]
 
 [[audios."leviathan_theme_1"]]
-interrupt_whitelist = ["harbinger_battle"]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
 target_events = ["leviathan_phase_1"]
 
 [[audios."leviathan_theme_2"]]
-interrupt_whitelist = ["harbinger_battle"]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
 target_events = ["leviathan_phase_2"]
 
 [[audios."monstrosity_theme"]]
-interrupt_whitelist = ["harbinger_battle"]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
 target_events = ["monstrosity_battle"]
 
 [[audios."remnant_theme"]]
-interrupt_whitelist = ["harbinger_battle"]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
 target_events = ["remnant_battle"]
 
-[[audios."ignis_theme_1"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["ignis_phase_1"]
-
 [[audios."maledictus_theme"]]
-interrupt_whitelist = ["harbinger_battle"]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
 target_events = ["maledictus_battle"]
 
-[[audios."ignis_theme_2"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["ignis_phase_2"]
-
-[[audios."ignis_theme_3"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["ignis_phase_3"]
-
 [[audios."enderguardian_theme_1"]]
-interrupt_whitelist = ["harbinger_battle"]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
 target_events = ["enderguardian_phase_1"]
 
 [[audios."enderguardian_theme_2"]]
-interrupt_whitelist = ["harbinger_battle"]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
 target_events = ["enderguardian_phase_2"]
 
-[[audios."minecraft:sounds/music/game/memories"]]
-volume = 0.5
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["desert", "forest"]
-
-[[audios."hk_dirtmouth"]]
-interrupt_whitelist = ["harbinger_battle"]
-
-[[audios."silence"]]
-weight = 37
-target_events = ["in_catacombs", "overworld_forest", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/bromeliad"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "overowlrd_cherry_grove", "overworld_bamboo_jungle", "overworld_flower_forest", "overworld_jungle", "overworld_sparse_jungle"]
-
-[[audios."minecraft:sounds/music/game/swamp/firebugs"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "overworld_lush_caves", "overworld_old_growth_taiga", "overworld_swamp"]
-
-[[audios."minecraft:sounds/music/game/swamp/labyrinthine"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "overworld_lush_caves", "overworld_old_growth_taiga", "overworld_swamp"]
-
-[[audios."minecraft:sounds/music/game/hal1"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_flower_forest", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/hal2"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_flower_forest", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/hal3"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_flower_forest", "overworld_frozen_peaks", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/hal4"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_frozen_peaks", "overworld_flower_forest", "overworld_jungle", "overworld_meadow", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/nuance1"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_flower_forest", "overworld_grove", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/nuance2"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "bamboo_jungle", "overworld_desert", "overworld_dripstone_caves", "overworld_flower_forest", "overworld_grove", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/piano1"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/piano2"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "alpha_grove", "overworld_badlands", "overworld_bamboo_jungle", "overworld_frozen_peaks", "overworld_jagged_peaks", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/piano3"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "alpha_grove", "overworld_lush_caves", "overworld_badlands", "overworld_bamboo_jungle", "overworld_frozen_peaks", "overworld_grove", "overworld_jungle", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_stony_peaks", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/broken_clocks"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/comforting_memories"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "overworld_grove", "overworld_old_growth_taiga", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/floating_dream"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "overworld_lush_caves", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/left_to_bloom"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "overworld_lush_caves", "overworld_bamboo_jungle", "overworld_cherry_grove", "overworld_flower_forest", "overworld_meadow", "overworld_old_growth_taiga", "overworld_sparse_jungle", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/one_more_day"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forest", "overworld_lush_caves", "overworld_overworld"]
-
-[[audios."vampire_forest"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["vampirism_ambient_forest"]
-
-[[audios."alexscaves:sounds/music/alloy_allure"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_magnetic_caves"]
-
-[[audios."alexscaves:sounds/music/paleoverdant"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_primordial_caves"]
-
-[[audios."alexscaves:sounds/music/pristine_dawnrise"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_primordial_caves"]
-
-[[audios."alexscaves:sounds/music/forgotten_tides"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_abyssal_chasm"]
-
-[[audios."alexscaves:sounds/music/ray"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_toxic_caves"]
-
-[[audios."alexscaves:sounds/music/arid_reverie"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_forlorn_hollows"]
-
-[[audios."alexscaves:sounds/music/dulcet"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_candy_cavity"]
-
-[[audios."alexscaves:sounds/music/lux"]]
-volume = 1.2
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["Luxtructosaurus"]
-
-[[audios."netherexp:sounds/music/game/nether/soul_sand_valley/black_ice_glaciers/sublimate"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["nether_soul_sand_valley_black_ice_glaciers"]
-
-[[audios."netherexp:sounds/music/game/nether/warped_forest/hospital"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["nether_warped_forest"]
-
-[[audios."minecraft:sounds/music/game/nether/nether1"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["nether_vent_mire", "nether_basalt_deltas", "nether_nether_wastes", "nether_soul_sand_valley", "nether_crimson_forest"]
-
-[[audios."minecraft:sounds/music/game/nether/nether2"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["nether_vent_mire", "nether_basalt_deltas", "nether_nether_wastes", "nether_soul_sand_valley", "nether_crimson_forest"]
-
-[[audios."minecraft:sounds/music/game/nether/nether3"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["nether_vent_mire", "nether_basalt_deltas", "nether_nether_wastes", "nether_soul_sand_valley", "nether_crimson_forest"]
-
-[[audios."minecraft:sounds/music/game/nether/nether4"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["nether_vent_mire", "nether_basalt_deltas", "nether_nether_wastes", "nether_soul_sand_valley", "nether_crimson_forest"]
-
-[[audios."sloping_mountains"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_frosted_caves"]
-
-[[audios."antique"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_lost_caves"]
-
-[[audios."minecraft:sounds/music/game/end/end"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["end_end"]
-
 [[audios."minecraft:sounds/music/game/end/boss"]]
-interrupt_whitelist = ["harbinger_battle"]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
 target_events = ["boss_ender_dragon"]
 
-[[audios."aria_biblio"]]
-volume = 0.75
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_aria_biblio"]
-
-[[audios."echoing_forest"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["otherside_echoing_forest"]
-
-[[audios."overcast_columns"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["otherside_overcast_columns"]
-
-[[audios."deeplands"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["otherside_deeplands"]
-
-[[audios."minecraft:sounds/music/game/swamp/aerie"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_lush_caves"]
-
-[[audios."minecraft:sounds/music/game/an_ordinary_day"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_lush_caves"]
-
-[[audios."minecraft:sounds/music/game/echo_in_the_wind"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_lush_caves"]
-
-[[audios."minecraft:sounds/music/game/os_piano"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_lush_caves", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/crescent_dunes"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_desert", "overworld_badlands"]
-
-[[audios."minecraft:sounds/music/game/fireflies"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_desert", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/infinite_amethyst"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_dripstone_caves", "overworld_grove"]
-
-[[audios."minecraft:sounds/music/game/lilypad"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_badlands", "overworld_desert", "overworld_forest", "overworld_lush_caves", "overworld_meadow", "overworld_old_growth_taiga", "overworld_snowy_slopes", "overworld_overworld"]
-
-[[audios."minecraft:sounds/music/game/stand_tall"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_frozen_peaks", "jagged_peaks", "overworld_snowy_slopes", "stony_peaks"]
-
-[[audios."minecraft:sounds/music/game/wending"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_dripstone_caves", "overworld_grove", "jagged_peaks", "stony_peaks"]
-
-[[audios."minecraft:sounds/music/game/water/axolotl"]]
-interrupt_whitelist = ["harbinger_battle"]
-
-[[audios."minecraft:sounds/music/game/water/dragon_fish"]]
-interrupt_whitelist = ["harbinger_battle"]
-
-[[audios."minecraft:sounds/music/game/water/shuniji"]]
-interrupt_whitelist = ["harbinger_battle"]
-
-[[audios."minecraft:sounds/music/game/nether/crimson_forest/chrysopoeia"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["nether_crimson_forest"]
-
-[[audios."minecraft:sounds/music/game/nether/nether_wastes/rubedo"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["nether_nether_wastes"]
-
-[[audios."minecraft:sounds/music/game/nether/soulsand_valley/so_below"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["nether_soul_sand_valley", "nether_basalt_deltas"]
-
-[[audios."minecraft:sounds/music/game/ancestry"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_deep_dark"]
-
 [[audios."minecraft:sounds/music/game/calm1"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_overworld"]
+interrupt_whitelist = []
+biomes = ["werewolves:werewolf_heaven"]
+target_events = ["overworld_game"]
 
 [[audios."minecraft:sounds/music/game/calm2"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_overworld"]
+interrupt_whitelist = []
+biomes = ["werewolves:werewolf_heaven"]
+target_events = ["overworld_game"]
 
 [[audios."minecraft:sounds/music/game/calm3"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_overworld"]
+interrupt_whitelist = []
+biomes = ["werewolves:werewolf_heaven"]
+target_events = ["overworld_game"]
 
-[[audios."minecraft:sounds/music/game/below_and_above"]]
-interrupt_whitelist = ["harbinger_battle"]
-target_events = ["overworld_overworld"]
+[[audios."minecraft:sounds/music/game/piano1"]]
+interrupt_whitelist = []
+
+[[audios."minecraft:sounds/music/game/piano2"]]
+interrupt_whitelist = []
+target_events = ["overworld_game"]
+
+[[audios."minecraft:sounds/music/game/piano3"]]
+interrupt_whitelist = []
+target_events = ["overworld_game"]
+
+[[audios."aria_biblio"]]
+interrupt_whitelist = []
+
+[[audios."silence"]]
+interrupt_whitelist = []
+target_events = ["overworld_game", "in_catacombs"]
+
+[[audios."alexscaves:sounds/music/lux"]]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
+target_events = ["Luxtructosaurus"]
+
+[[audios."ignis_theme_1"]]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
+target_events = ["ignis_phase_1"]
+
+[[audios."ignis_theme_2"]]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
+target_events = ["ignis_phase_2"]
+
+[[audios."ignis_theme_3"]]
+play_once = 1
+interruptible = true
+interrupt_whitelist = []
+target_events = ["ignis_phase_3"]
+
+[[audios."minecraft:sounds/music/game/piano1"]]
+interrupt_whitelist = []
+target_events = ["overworld_game"]
+
+[[audios."minecraft:sounds/music/game/hal1"]]
+interrupt_whitelist = []
+target_events = ["overworld_game"]
+
+[[audios."minecraft:sounds/music/game/hal2"]]
+interrupt_whitelist = []
+target_events = ["overworld_game"]
+
+[[audios."minecraft:sounds/music/game/hal3"]]
+interrupt_whitelist = []
+target_events = ["overworld_game"]
+
+[[audios."minecraft:sounds/music/game/hal4"]]
+interrupt_whitelist = []
+target_events = ["overworld_game"]
+
+[[audios."minecraft:sounds/music/game/nuance1"]]
+interrupt_whitelist = []
+target_events = ["overworld_game"]
+
+[[audios."minecraft:sounds/music/game/nuance2"]]
+interrupt_whitelist = []
+target_events = ["overworld_game"]
+
+[[audios."minecraft:sounds/music/game/piano1"]]
+interrupt_whitelist = []
+biomes = ["minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga", "regions_unexplored:blackwood_taiga", "regions_unexplored:boreal_taiga", "regions_unexplored:golden_boreal_taiga", "regions_unexplored:pine_taiga", "regions_unexplored:redwoods", "regions_unexplored:sparse_redwoods", "minecraft:old_growth_birch_forest"]
+target_events = ["overworld_game"]
+
+[[audios."minecraft:sounds/music/game/piano1"]]
+interrupt_whitelist = []
+biomes = ["minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga", "regions_unexplored:blackwood_taiga", "regions_unexplored:boreal_taiga", "regions_unexplored:golden_boreal_taiga", "regions_unexplored:pine_taiga", "regions_unexplored:redwoods", "regions_unexplored:sparse_redwoods", "minecraft:old_growth_birch_forest"]
+target_events = ["overworld_game"]
 

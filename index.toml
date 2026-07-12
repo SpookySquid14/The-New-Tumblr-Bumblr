@@ -1502,7 +1502,7 @@ hash = "f9616237b0d43c79785604221a2f5f628f7b970ff1cc1884734ca70143cb9de5"
 
 [[files]]
 file = "config/betterfpsdist.json"
-hash = "7410aa05bb28180a3d5389fe955affffa7e7842e330385d042eb78e7a73db017"
+hash = "dd437d1a2ccc0adea260a1cb56cd0c43aefae9c529b4be571f802588d7534afe"
 
 [[files]]
 file = "config/bettermineshafts-forge-1_20.toml"
@@ -68694,7 +68694,11 @@ hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
 
 [[files]]
 file = "config/chunky/tasks/minecraft/overworld.properties"
-hash = "ff1dd3be42a4f3b4fe47d873471167fa8582c1d9764d7d682cb0ccadd6314a56"
+hash = "297009e2b4fb125be2f3c0586ff3076b4b437fb155997a4689aaa77e11590b31"
+
+[[files]]
+file = "config/cinematic_respawn.properties"
+hash = "ac94591e726f041858568f757438bf74dbd5ccb307a6c4022fe0bda5339102d5"
 
 [[files]]
 file = "config/citadel-common.toml"
@@ -68714,7 +68718,7 @@ hash = "3875e038b8c993c352d3bb1383d017c821e93713d74cf4cf5c550a58ab993d5a"
 
 [[files]]
 file = "config/collective.json5"
-hash = "b6243b955bf123f86c947510d9f8f3a4b5f7b8fe3775d834f458d60a3223847f"
+hash = "92809d098b5efeca95c37ec4fef9184bd169160d18efecf81f395c4030c0f83f"
 
 [[files]]
 file = "config/combatnouveau-client.toml"
@@ -69138,7 +69142,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "947bc6693cd00e97e5e3cc6047dddcf3ed0e1004e61ee79bd374a8162bccef4b"
+hash = "a3b79bcf1cf62bcc70aa0a62a0efadb0fb8ec8d84aeece8b3c1d00336b1b35d0"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69403,6 +69407,10 @@ hash = "0bf4a1784ac50d873bc289bf4658114660d792c57d09be07adb0511757b62642"
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$desert.cfg"
 hash = "a29cb5ba7e6510c85fb3e41bb217771cd2c75d8042fd5e2f77f4ed8d0f70240b"
+
+[[files]]
+file = "config/forgeendertech/Biomes/minecraft$dripstone_caves.cfg"
+hash = "d92995189ebfc1d36ed06a76b9a152ca7b1693a4865074271d30c0c371eef47f"
 
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$end_highlands.cfg"
@@ -70122,7 +70130,7 @@ hash = "8e3dcd0193625aeea5be7b90e5bb935c822561a415836a997b54c4cf4a158b43"
 
 [[files]]
 file = "config/forgeendertech/cached.dat"
-hash = "4725dd77f11a13a661a6a25dc5d15537f1c92f3267c21d2cb9ca3f4db2e85726"
+hash = "b8a20dd5f160b8898e20ba5298c90db848199f69905503c9f5b56e76e02aecf8"
 
 [[files]]
 file = "config/frightsdelight.json"
@@ -70142,7 +70150,7 @@ hash = "60c5487d9a7261275a3d5d9c7386e950f3aeb6e8944e915006074da5fe2be5f3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apothic_adventures.snbt"
-hash = "601ebedc6be4aac466d2916b82ba326a353eaa7ede06a560be8acbffbe784469"
+hash = "8e6f8e00c839cd8c7169821074a58945f0543d2e60d76c67c79cd2be6ca31184"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
@@ -70198,7 +70206,7 @@ hash = "41329e81e6dab5a8d60757e33f55446d69c5aa7a4a86d5260bb0873ecbc8861b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/debug.snbt"
-hash = "d7f0d36ec3e97eaa53455145570eb7243810a2fb536a007eeb3449227f934d95"
+hash = "9a433a047f040fd95b5fc6798bd2420846906a944288bff6656f15d8688f5ffc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
@@ -70858,7 +70866,7 @@ hash = "710d0196ba7a4fcec41976989dd445c29c936f62932924d733d172244c2b9f61"
 
 [[files]]
 file = "config/jei/world/local/Fallen_2/lookupHistory.ini"
-hash = "d2b0ca06a55248e841aa411eb368ea75d7036550365246ed7cc05f85c6f5e3ed"
+hash = "eb67fb10247a78f74729c1dfb834636f61f7ddac816f77441620e4be3d9ae307"
 
 [[files]]
 file = "config/jei/world/local/Fish_2/lookupHistory.ini"
@@ -70879,6 +70887,10 @@ hash = "dbb19fdc83bc69c44a1e661d07b1257328d79f45fe36e5d37e7a35997eb970b8"
 [[files]]
 file = "config/jei/world/local/MUSIC/lookupHistory.ini"
 hash = "1a48573e86f96d6022747402a384d2cd8b290b083959ddf3a1a4fec0f66a97a0"
+
+[[files]]
+file = "config/jei/world/local/Moosic/lookupHistory.ini"
+hash = "278e049de05a907dc48fa563d5159b41c7d0de1e7202e436848c2452e630a667"
 
 [[files]]
 file = "config/jei/world/local/Music/lookupHistory.ini"
@@ -71354,7 +71366,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "9478ea96a6bb423d5241d68febcae3c2e4790e2e269b8d8ae4fb60986d735929"
+hash = "f0d98ace2f49c27751d21517e87615dc26feae8cd0a74bbf4d11a3464e957dda"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71509,6 +71521,10 @@ file = "config/music_events/memory_SP_MUSIC.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
+file = "config/music_events/memory_SP_Moosic.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
 file = "config/music_events/memory_SP_Music.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
@@ -71534,7 +71550,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/music_events/music_events.toml"
-hash = "8eafa75b13a545567867c4c34e750928c56fefddccbc72141b74d1bf0efc78b0"
+hash = "75d55d68d9b5709ee48d4a3dea77a5f5041dca3751efe56739f4165f69d48ddf"
 
 [[files]]
 file = "config/naturalist.json"
@@ -71610,7 +71626,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b36d84ef837338f80dfa588b82477b4f31883666258390d5a1f11bc1ee6f4903"
+hash = "4c5a6efb71edd2d0418aa304c686c2a46e54387d227b5677077bd7731e18aedf"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71626,7 +71642,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "b683306d92712d6fef1f265165c7b5ea05789ac27f1659211d1d50a7a3229a26"
+hash = "683cd0b33041833477f2c27f40105e74a90469f1de0156986a4e8319a3886109"
 
 [[files]]
 file = "config/pal.properties"
@@ -72761,6 +72777,10 @@ file = "config/visualworkbench-client.toml"
 hash = "090cf77a65d58c12bc3e95d79f04a1f81f8859dd46cc66b82e92fcf2e2a995f1"
 
 [[files]]
+file = "config/voxy-config.json"
+hash = "dc4080da5b7d489e64ab966a0fe613e5b25fb3443a2156a128df357f938f2692"
+
+[[files]]
 file = "config/watut-client.toml"
 hash = "a73212a23bab676fdc629005fc37f637cbb4afe5157d5fc6ff318fc3f6b9655a"
 
@@ -73718,15 +73738,15 @@ hash = "37e85f1c2d8161844c61ab19bfd2a2ffa517cb765efce851afbcb5a78a6d658d"
 
 [[files]]
 file = "kubejs/assets/petcapturetool/sounds.json"
-hash = "2b4adf89b1bea727a0a50583c11ab581144abfa623b9ed06f517b0769ac6f935"
+hash = "a6877834b60c56be247b7f5ef86b9c69f859cfec8f7e4c07fba8ed6d5268bc42"
 
 [[files]]
 file = "kubejs/assets/petcapturetool/sounds/item/petcapturetool/ball_capture.ogg"
-hash = "c42b0f43084c5990062ad80855cbd71e30d45a176cfc5aae88d9eff637f93f05"
+hash = "7dab7ec64bb42ed7196d666ac608adc5a61c5e8f37291dd6bb8749a01e69caf5"
 
 [[files]]
 file = "kubejs/assets/petcapturetool/sounds/item/petcapturetool/ball_release.ogg"
-hash = "4b78144af15d940d1b67ab394a2b7b672bba0fadd425cf74701d301b859406bc"
+hash = "e4aa7424c4fc7a0791c1e0e8ef55f98591763b9a10b1d1f859e228382cdbb5e7"
 
 [[files]]
 file = "kubejs/assets/petcapturetool/textures/item/pet_sphere_active.png"
@@ -76969,6 +76989,14 @@ file = "kubejs/assets/tumblrbumblr/shaders/core/end_portal.json"
 hash = "83cb3a3c10c75982310778963b2656de1792c9fc745f2d712a88dedf752bd2fe"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/sounds.json"
+hash = "090130f6caf3179fb2a6f87e4e69a36a83e5192eee4777cc26f2944e9756b783"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/sounds/boss_summon.ogg"
+hash = "da7f62acc72ff2ab363f336b565c086628871de3bcf1dd6b4a893be13b187568"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
@@ -77179,6 +77207,10 @@ hash = "962f84ad9b23c53a0958f0e76223ed75e0bbb920b28c34493a737e8bb3b2069d"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/casting_rod.png"
 hash = "d64386aa2a29ee2ab669c871cabad06efd96a60e8f23176a28292958d6f4df0f"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/catalyst-socket.png"
+hash = "7462080d40f36a4c3723e445c85d24893a71d86dcd2d87ef3e7db0de64425e9c"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/caustic-gunblade.png"
@@ -80083,6 +80115,11 @@ metafile = true
 [[files]]
 file = "mods/chunky-pregenerator-forge.pw.toml"
 hash = "a4c2206ce91cb09d931c842b56ad0c5301170e8fc2f91618b7c88e9a07faa0fa"
+metafile = true
+
+[[files]]
+file = "mods/cinematic-respawn.pw.toml"
+hash = "77a09dc6f4cce9f6d372ec8c46b26d79391771615c586d3fa6eb63fccb5881da"
 metafile = true
 
 [[files]]

@@ -420,6 +420,24 @@
 			x: -2.0d
 			y: 3.0d
 		}
+		{
+			can_repeat: true
+			id: "1965D4FFD3833A81"
+			rewards: [{
+				id: "35E6904CECA6D22D"
+				ignore: false
+				key: "Directed"
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "14CBD33B36705AE8"
+				title: "Set Directed to 1"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
 	]
 	title: "Debug"
 }

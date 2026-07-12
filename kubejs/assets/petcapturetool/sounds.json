@@ -1,8 +1,10 @@
 {
   "item.petcapturetool.pick_up": {
+    "replace": true,
     "sounds": ["petcapturetool:item/petcapturetool/ball_capture"]
   },
   "item.petcapturetool.release": {
+    "replace": true,
     "sounds": ["petcapturetool:item/petcapturetool/ball_release"]
   }
 }

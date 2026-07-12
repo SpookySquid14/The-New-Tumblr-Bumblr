@@ -157,7 +157,7 @@
 		{
 			dependencies: ["5A97C15CA4463102"]
 			description: [
-				"&o&6Gem Dust&r is a very common crafting material used for affixes. It's created by crushing the various gems you find around the world. At first, you'll have to do this by &6&odropping an anvil on a gem thrown onto the ground&r. But don't worry, because another method will soon be possible."
+				"If you plan to get anywhere with this kind of power, you will require plenty of &6&oGem Dust&r. As the name implies, this dust is sourced by &6&ocrushing the gems&r found scattered around the world. The best, albeit least efficient, way to do this is with&6 the natural force of a falling anvil&r."
 				"{image:tumblrbumblr:textures/quests/gem-dust.png width:237 height:135 align:center}"
 			]
 			id: "43AE403E62C96F66"
@@ -169,6 +169,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
+				count: 2L
 				id: "5EB0B4B88C4457B4"
 				item: "apotheosis:gem_dust"
 				type: "item"
@@ -324,9 +325,8 @@
 		{
 			dependencies: ["43AE403E62C96F66"]
 			description: [
-				"If you want to get the most out of your gems, or if you simply have duplicates, you may want to look at the &o&6Gem Cutting Table&r. When using it, you can increase a Gem's rarity, provided you have the necessary materials."
-				"While the exact materials will always be shown by putting your gem in the middle slot, a good rule of thumb is that &6&oyou'll need a second copy of the gem, the rarity material of the rarity you are upgrading it to, and gem dust&r."
-				"{image:tumblrbumblr:textures/quests/gem-cutting-table.png width:160 height:90 align:center}"
+				"So, you wish to become a sort of jeweler, now do you? Alright, in that case, I suggest you look into making a &o&6Gem Cutting Table&r. With it, you can combine &6&ocopies of gems&r, taking apart the bad and leaving only the good, higher quality behind. Along with this, &o&6Rarity Material&r is needed to reach the next stage, and &6&oGem Dust&r to fill in the cracks of the craft."
+				"{image:tumblrbumblr:textures/quests/gem-cutting-table.png width:237 height:135 align:center}"
 			]
 			id: "47532F7269B287FF"
 			rewards: [{
@@ -412,7 +412,7 @@
 		}
 		{
 			dependencies: ["43AE403E62C96F66"]
-			description: ["Using a Sigil of Socketing, you can add tierless gem sockets to your items. Being that they are tierless, any gem can be inserted into them, provided they're compatible with the item type."]
+			description: ["Using a Sigil of Socketing, you can add tierless gem sockets to your items. Being that they are tierless, &6&oany gem can be inserted into them&r, provided they're compatible with the item type. These are also the only types of sockets that can later be &oAscended&r."]
 			id: "4A5169146F81C5AF"
 			rewards: [{
 				amount: 100L
@@ -580,7 +580,11 @@
 		}
 		{
 			dependencies: ["19DC21F62A5164A3"]
-			description: ["Power is seeked by all, and there are many ways to achieve it. If you aren't interested in using various gems, you may be interested in a &6Sigil of Prismatic Conversion&r."]
+			description: [
+				"Power is seeked by all, and many find ways to achieve it. Typically, multiple gems can create a concotion of unique effects when inset together, but for some, a simpler approach is preferred."
+				"If you are such a person, then your future lies with the &6&oSigil of Prismatic Conversion&r. When put in a smithing table with &6an item that has no gems inset inside it&r, all present sockets will combine into one &6&oCatalyst Socket&r. This single socket will be stronger depending on the number of Gem Sockets used to create it, and will apply that strength to whatever gem is inset in it."
+				"[catalyst-socket]"
+			]
 			hide_dependent_lines: true
 			id: "40E6822922724098"
 			tasks: [{
@@ -589,11 +593,15 @@
 				type: "item"
 			}]
 			title: "The Catalyst of Power"
-			x: -4.0d
-			y: -4.5d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["4A5169146F81C5AF"]
+			dependencies: ["1935CFAC6173A06F"]
+			description: [
+				"As most sockets have tiers, you'll find that eventually, your gems may outstrengthen your gear. But do not be afraid, for there is always a solution."
+				"A &o&6Sigil of Elevation&r is crafted with only the best materials, and when placed into a smithing table with your gear, will increase the tier of all present sockets."
+			]
 			id: "19DC21F62A5164A3"
 			rewards: [{
 				amount: 100L
@@ -608,8 +616,8 @@
 				type: "item"
 			}]
 			title: "Climbing The Tiered Ladder"
-			x: -4.0d
-			y: -3.5d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["14A6246E24E675A9"]
