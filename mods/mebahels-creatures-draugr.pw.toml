@@ -1,5 +1,5 @@
 filename = 'mebahel-creatures-draugr-1.8.4-fabric-1.20.1.jar'
-name = 'mebahelcreaturesdraugr'
+name = "Mebahel's Creatures - Draugr Invasion"
 side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]

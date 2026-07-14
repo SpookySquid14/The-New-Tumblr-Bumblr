@@ -1,19 +1,19 @@
-filename = 'fallen_gems_affixes-1.20.1-2.1.0.jar'
+filename = 'fallen_gems_affixes-1.20.1-2.1.1.jar'
 name = 'Fallen Gems & Affixes'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'FallenGemsAffixes-1.20.1-2.1.0.jar'
+x-prismlauncher-version-number = 'FallenGemsAffixes-1.20.1-2.1.1.jar'
 
 [download]
-hash = '271473327019d6fce08c3e29ba4d64900430e484'
+hash = '1b0ddb10e77d55d165d662ba21c18fa953b7657b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8406973
+file-id = 8414953
 project-id = 1286177
 
 [[x-prismlauncher-dependencies]]

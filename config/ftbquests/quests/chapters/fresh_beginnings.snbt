@@ -136,23 +136,9 @@
 					id: "3F6554B8570B6F4A"
 					item: {
 						Count: 1
-						id: "immersiveengineering:axe_steel"
+						id: "tumblrbumblr:copper_axe"
 						tag: {
-							Damage: 261
-							affix_data: {
-								affixes: {
-									"apotheosis:durable": 0.1f
-								}
-								uuids: [[I;
-									-1687727154
-									-2008856970
-									-1437516203
-									-725029477
-								]]
-							}
-							display: {
-								Name: "{\"text\":\"Old Woodcutter's Axe\"}"
-							}
+							Damage: 0
 						}
 					}
 					type: "item"

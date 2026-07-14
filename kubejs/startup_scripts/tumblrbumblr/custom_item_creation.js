@@ -1,5 +1,5 @@
 StartupEvents.registry('item', event => {
- event.create('tumblrbumblr:burned_tablet').displayName('Burned Tablet'),
+ event.create('tumblrbumblr:inscribed_tablet').displayName('Inscribed Blackstone Tablet'),
  event.create('tumblrbumblr:sunken_eye_shard_1').displayName('Greater Sunken Eye Shard').rarity('RARE'),
  event.create('tumblrbumblr:sunken_eye_shard_2').displayName('Lesser Sunken Eye Shard').rarity('RARE'),
  event.create('tumblrbumblr:enchanted_soul_gem').texture('occultism:item/soul_gem_empty').color(0,'#303266').glow(true).rarity("epic").displayName('Enchanted Soul Gem')

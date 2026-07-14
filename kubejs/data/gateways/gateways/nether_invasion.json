@@ -295,7 +295,7 @@
     {
         "type": "gateways:stack",
         "stack": {
-            "item": "tumblrbumblr:burned_tablet"
+            "item": "tumblrbumblr:inscribed_tablet"
         }
     }
         

@@ -9,9 +9,9 @@ ItemEvents.tooltip(event => {
             Text.of('This shard of the Sunken Eye was guarded by Scylla. Its sibling cries from the abyss of The Sunken City')
         ])
     })
-    event.addAdvanced(['tumblrbumblr:burned_tablet'], (item, advanced, text) => {
+    event.addAdvanced(['tumblrbumblr:inscribed_tablet'], (item, advanced, text) => {
         text.add(1,[
-            Text.of('A tablet found embedded in the netherite golem. Its inscription bears instructions on stable nether portals.')
+            Text.of('A tablet found in the remains of the golem\'s creator. Its inscription bears instructions on creating a stable nether portal.')
         ])
     })
 })

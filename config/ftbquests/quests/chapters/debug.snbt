@@ -329,7 +329,7 @@
 				type: "command"
 			}]
 			tasks: [{
-				elapsedTime: 5L
+				elapsedTime: 3L
 				id: "4BC3FBE2AE1330AC"
 				type: "questsadditions:time"
 			}]
@@ -348,7 +348,7 @@
 				type: "command"
 			}]
 			tasks: [{
-				elapsedTime: 5L
+				elapsedTime: 3L
 				id: "7D5BD2295A3A8E4F"
 				type: "questsadditions:time"
 			}]
@@ -367,7 +367,7 @@
 				type: "command"
 			}]
 			tasks: [{
-				elapsedTime: 5L
+				elapsedTime: 3L
 				id: "013FD0629425CCFB"
 				type: "questsadditions:time"
 			}]
@@ -394,7 +394,7 @@
 				}
 			]
 			tasks: [{
-				elapsedTime: 5L
+				elapsedTime: 3L
 				id: "01C5B6532BF439EE"
 				type: "questsadditions:time"
 			}]
@@ -412,7 +412,7 @@
 				type: "command"
 			}]
 			tasks: [{
-				elapsedTime: 5L
+				elapsedTime: 3L
 				id: "13754F18CC0D174A"
 				title: "time 0"
 				type: "questsadditions:time"
