@@ -68702,7 +68702,7 @@ hash = "297009e2b4fb125be2f3c0586ff3076b4b437fb155997a4689aaa77e11590b31"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "bd9508b3cbb4a398b58d3c4d9b5bd7e34bef2ca9f9cd7e678c74971f48cdec1e"
+hash = "6fc3045d0735f91cbd29db7dda61d5dca833fe0166e6dbed8e9209670c2c3ab8"
 
 [[files]]
 file = "config/citadel-common.toml"
@@ -69146,7 +69146,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "03756fe0a544dcb01faee4bf5bbf37182ffec71c57279d9fab3dd6a70978aed4"
+hash = "424ca572ab82af3bf906f5a7a714d23e03b01e1684b8a6d75647095eed21ea22"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70766,7 +70766,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "0b6dc5965eaf11f13ef2c40223f45732ac958316e07a50d959a32b478e7c7d4d"
+hash = "aeb94744c77256f5f187b7eb5000ca3768cef8f43764f31411957d3aa983dca3"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -71186,7 +71186,7 @@ hash = "854f408ba2cc5fa240233a2a73bc7e4b7f6b4586628f5a0bb7d0f2faa997165f"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_23ced690/lookupHistory.ini"
-hash = "a9f170872ac300ae602c472f0a18acbd03b3cbafaa94ffc9641b98b84fe61bfe"
+hash = "082f5fe756a797768d15c072bae345a278518dadf7a83439fdf1b7378640cd69"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_fbacacb7/lookupHistory.ini"
@@ -71370,7 +71370,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "16959c72b7e8adc98e1d7651ae76bf6551d904ed7b40f4d3f8ffff6909ace6ea"
+hash = "19c5c0840ac1d04ffec4893764207167e752fc9d6d59d259e511c3f7f2a75485"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71630,7 +71630,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "475c52880c165c8769d56a04a6dba514f81765c02fe3be23422f91b05cb01d25"
+hash = "b05d92ed37a15426db0148d505fee0a4ad40e7a52b56242793b5e0fd4fea25b1"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71646,7 +71646,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "08a4ab42198ec55bce9374cc59eedb7d029af0995498fa127457cdbb2170331c"
+hash = "e3883164c2ac3810230cdd94b1cd6fdb6adbe648d5422d6ac7dcb2db71f1ae45"
 
 [[files]]
 file = "config/pal.properties"
@@ -81251,6 +81251,11 @@ metafile = true
 [[files]]
 file = "mods/mru.pw.toml"
 hash = "6fa68e501b1e0587e2de1f4e0c7259f349c074450acd4f3482b0c1dbc00e8e3c"
+metafile = true
+
+[[files]]
+file = "mods/multi-mine.pw.toml"
+hash = "b72dc00bbe3c4a272c30adc925f84d5b977ad72b03625c6a60fe01d909656d44"
 metafile = true
 
 [[files]]
