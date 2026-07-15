@@ -12,6 +12,19 @@ ServerEvents.recipes(event => {
     C: "minecraft:elytra"
   }
     ).keepIngredient('minecraft:elytra')
+
+    event.shaped("tumblrbumblr:pale_totem",
+          [
+    'BAB',
+    'ACA', // arg 2: the shape (array of strings)
+    ' A '
+  ],
+  {
+    A: 'minecraft:pale_oak_sapling',
+    B: "minecraft:resin_clump",
+    C: "minecraft:creaking_heart"
+  }
+    )
     
     event.shaped("moremekanismprocessing:crystal_draconium",[
         'AAA',

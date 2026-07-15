@@ -68702,7 +68702,7 @@ hash = "297009e2b4fb125be2f3c0586ff3076b4b437fb155997a4689aaa77e11590b31"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "6fc3045d0735f91cbd29db7dda61d5dca833fe0166e6dbed8e9209670c2c3ab8"
+hash = "ff3911f1a9ffb81161d0dbfe5c1fccd026710f936c33426a22ec5d9e1b0c820b"
 
 [[files]]
 file = "config/citadel-common.toml"
@@ -69146,7 +69146,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "424ca572ab82af3bf906f5a7a714d23e03b01e1684b8a6d75647095eed21ea22"
+hash = "20f78a2eaf348ac9dc46c19940c97be31e97be5f7a08df2c0a4cb47e95a7b083"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70210,7 +70210,7 @@ hash = "41329e81e6dab5a8d60757e33f55446d69c5aa7a4a86d5260bb0873ecbc8861b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/debug.snbt"
-hash = "07b12e3f7750c95261bc28a3f7fcc6bbaaad93f691645d58c683fdf49a98893d"
+hash = "149b51ac82ee9d53e3a47971f69385b8d488ac8e1a418bcd4fe0139a84dd303b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
@@ -70682,7 +70682,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "2ff35ace91818916026568905beadee5d7ad46ab6a4f5b7ccfe7d04a0530cb7f"
+hash = "6ed8cd71e6002cc8671a25a9af01c0abc64e32d8ab7b31c3fa06dfa2ee6da28a"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -70766,7 +70766,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "aeb94744c77256f5f187b7eb5000ca3768cef8f43764f31411957d3aa983dca3"
+hash = "0b6dc5965eaf11f13ef2c40223f45732ac958316e07a50d959a32b478e7c7d4d"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -71073,6 +71073,10 @@ file = "config/jei/world/local/New_World__9/lookupHistory.ini"
 hash = "2f5763cab224905c49863157296459bbd9f839f11bb075afd85c9a46a349bdfb"
 
 [[files]]
+file = "config/jei/world/local/Pale/lookupHistory.ini"
+hash = "6b4e5752974361a7a230071a3332da18906422f67f81082388e420e5df43f9e4"
+
+[[files]]
 file = "config/jei/world/local/Particle_Core_and_Cull_Test/lookupHistory.ini"
 hash = "d0d2c765a0c6ae6f236af7b8de827c955d2245a0283f1561cf25ae9ca0a9363d"
 
@@ -71370,7 +71374,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "19c5c0840ac1d04ffec4893764207167e752fc9d6d59d259e511c3f7f2a75485"
+hash = "79c5f0fe962fce0a15eda4d629b253e2a578064eca4e531f2544ce3775774cbc"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71630,7 +71634,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b05d92ed37a15426db0148d505fee0a4ad40e7a52b56242793b5e0fd4fea25b1"
+hash = "8ea94746fd3b4905603c54937fab2aa2ac9f3186596e2f57eea6b447fe7958b5"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71646,7 +71650,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "e3883164c2ac3810230cdd94b1cd6fdb6adbe648d5422d6ac7dcb2db71f1ae45"
+hash = "4b88dcc955e407f6002ada8e87f6fac5bc9fc44895771658642978135b79a9d1"
 
 [[files]]
 file = "config/pal.properties"
@@ -72186,7 +72190,7 @@ hash = "3ae4ba2f6dfae54304299481ecf706b911bc854421e08efd8f45f7461414f7e7"
 
 [[files]]
 file = "config/rootoffear/common.toml"
-hash = "12ac2a83e07284f655ca47ad32f852e8bd876689a128e930a8361174df0d58e0"
+hash = "433152dee6b305c6241e02582f801e07e43bda82e17ae7d3c7b2b7bc2b16f34d"
 
 [[files]]
 file = "config/saintsdragons-attributes.toml"
@@ -77081,6 +77085,18 @@ file = "kubejs/assets/tumblrbumblr/textures/item/nether_star_drained.png"
 hash = "b198599a536ce347b527db4ba4cb37872277882f377ddf7a80cf6ff986548519"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/pale_totem.ase"
+hash = "0c6075f584a9ec58f19b7fe0a24bed4c91966b1f39b8ed96c00879047eef9d29"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/pale_totem.aseprite"
+hash = "63d10a6d9496ae69b4fa152edf553ae7eae44779651adc2574df12b394adfd3b"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/pale_totem.png"
+hash = "e88805b7eaf727ad7d4ff229c4b26713fa3442305e4c97dd4f8f5ba9b8c4401a"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/item/rusted_axe.png"
 hash = "521d1727ae33d4c49c6d2ecfa9364476b0b92c0994f20ca8b15ccf48aa2c8753"
 
@@ -77914,7 +77930,7 @@ hash = "d764a27682476e754e238461f60235a31b51cb29f6e598375ec528fd63f606be"
 
 [[files]]
 file = "kubejs/client_scripts/custom_item_registry.js"
-hash = "8264fdda7207121e595a24fd129138e6895e450b29be4503065c0bf2f17b85b8"
+hash = "98cf465e9771bc1b8e2223edc8b9cd5129ea33d24c4e93100aa327b3eea6692a"
 
 [[files]]
 file = "kubejs/client_scripts/example.js"
@@ -79549,6 +79565,10 @@ file = "kubejs/server_scripts/gameplay/give_questbook.js"
 hash = "e197034c3f47ff2bb93c048b1903d7374b00eb962067d8ffdae2d9a1d7ef631f"
 
 [[files]]
+file = "kubejs/server_scripts/gameplay/pale_totem_interaction.js"
+hash = "73912506ffb352ff8c01802d99357380f76d30153cc5c37ef776c784b882903f"
+
+[[files]]
 file = "kubejs/server_scripts/gameplay/vampirism_skeletons.js"
 hash = "678d317652deaef90f3833934630bf0eca37d4034750eabb224c1406fda4cc8c"
 
@@ -79634,7 +79654,7 @@ hash = "43f92455f33cf11a87444baea4859cc79e66fb41faf353a3b37a67a60b97795a"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/tumblrbumblr_recipes.js"
-hash = "61f4f1dac91038133dbe031b25cca1085b436563a956644548f92d1d5b2f1988"
+hash = "24f01b98b12ae63fb9fbca3b001d27bfa19952fa01044eb78a6568e488a2f1f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/waystones_recipes.js"
@@ -79686,7 +79706,7 @@ hash = "8045d9a7888ffb49d6bf80f5d492fd0917fdc762e1ebea226d3b511f9021a553"
 
 [[files]]
 file = "kubejs/startup_scripts/tumblrbumblr/custom_item_creation.js"
-hash = "f5ee3dcf68677f3f34f5ba02a478eefbf3fd18c9c3bacf9aff83b11265b1600c"
+hash = "db567d65f4a8bec345e3f401207a7a9cfcb01171b9fe9030f39b224f979defd2"
 
 [[files]]
 file = "mods/ad-astra-more-structures.pw.toml"
@@ -81251,11 +81271,6 @@ metafile = true
 [[files]]
 file = "mods/mru.pw.toml"
 hash = "6fa68e501b1e0587e2de1f4e0c7259f349c074450acd4f3482b0c1dbc00e8e3c"
-metafile = true
-
-[[files]]
-file = "mods/multi-mine.pw.toml"
-hash = "b72dc00bbe3c4a272c30adc925f84d5b977ad72b03625c6a60fe01d909656d44"
 metafile = true
 
 [[files]]

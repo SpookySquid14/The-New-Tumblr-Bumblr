@@ -14,4 +14,9 @@ ItemEvents.tooltip(event => {
             Text.of('A tablet found in the remains of the golem\'s creator. Its inscription bears instructions on creating a stable nether portal.')
         ])
     })
+    event.addAdvanced(['tumblrbumblr:pale_totem'], (item, advanced, text) => {
+        text.add(1,[
+            Text.of('A crude totem of wilted branches held together by resin. It feels wrong just looking at it.')
+        ])
+    })
 })
