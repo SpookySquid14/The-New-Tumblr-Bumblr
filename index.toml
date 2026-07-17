@@ -68702,7 +68702,7 @@ hash = "297009e2b4fb125be2f3c0586ff3076b4b437fb155997a4689aaa77e11590b31"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "ff3911f1a9ffb81161d0dbfe5c1fccd026710f936c33426a22ec5d9e1b0c820b"
+hash = "5382f4440b8d3fe9d278da7e641ffb0a7b9acf76c02e0c80adf49562ebd90df1"
 
 [[files]]
 file = "config/citadel-common.toml"
@@ -69146,7 +69146,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "20f78a2eaf348ac9dc46c19940c97be31e97be5f7a08df2c0a4cb47e95a7b083"
+hash = "565fc120f0db3a8d3871d1ff106345af4146298459e35349ba1ba111cb16d65a"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70766,7 +70766,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "0b6dc5965eaf11f13ef2c40223f45732ac958316e07a50d959a32b478e7c7d4d"
+hash = "aeb94744c77256f5f187b7eb5000ca3768cef8f43764f31411957d3aa983dca3"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -71190,7 +71190,7 @@ hash = "854f408ba2cc5fa240233a2a73bc7e4b7f6b4586628f5a0bb7d0f2faa997165f"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_23ced690/lookupHistory.ini"
-hash = "082f5fe756a797768d15c072bae345a278518dadf7a83439fdf1b7378640cd69"
+hash = "683346fd931715b08d003a1a4fbd35b39d2fb4c1636b948523d6032b57d626e1"
 
 [[files]]
 file = "config/jei/world/server/Test_Server_fbacacb7/lookupHistory.ini"
@@ -71374,7 +71374,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "79c5f0fe962fce0a15eda4d629b253e2a578064eca4e531f2544ce3775774cbc"
+hash = "391defc0c71f457090507d987f7424bb830997ae330c68d5e620e51cb421ccbe"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71415,6 +71415,10 @@ hash = "0d0fde65203e5b0a005a62d118623bab1ee2133b60cd4f4db20c20a2e8b9a0e7"
 [[files]]
 file = "config/mowziesmobs-common.toml"
 hash = "13dd5a80ebae1f7d44271dbec55884dae4652e121b501d87bb22d130525cdc46"
+
+[[files]]
+file = "config/multimine.cfg"
+hash = "8718301a7d87ef5c8cdb6b943c682308bd7ad6df47e1e1530a0049a61315dbe9"
 
 [[files]]
 file = "config/multiplayerbosses-common.toml"
@@ -71634,7 +71638,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "8ea94746fd3b4905603c54937fab2aa2ac9f3186596e2f57eea6b447fe7958b5"
+hash = "35b82b7b6926ac514a52432b0f09c5b29f8f6b776a647cbee69401a76602963f"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71650,7 +71654,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "4b88dcc955e407f6002ada8e87f6fac5bc9fc44895771658642978135b79a9d1"
+hash = "b295264680ee6cfd14ddb373ee309d7f30c4c4f4705e50d0c234c91c4e3c348c"
 
 [[files]]
 file = "config/pal.properties"
@@ -73517,10 +73521,6 @@ file = "kubejs/assets/clanginghowl/textures/slot/empty_legs_slot.png"
 hash = "7525931c3bcc168aa5c54108f3841f07d6059e7e28154a92d4637684997386f3"
 
 [[files]]
-file = "kubejs/assets/curios/textures/slot/familiar_trinket_slot.png"
-hash = "f4c9366824f13ac788c6557914159303807c721f4fe8836e3b83e756c9c3ecec"
-
-[[files]]
 file = "kubejs/assets/endrem/lang/en_us.json"
 hash = "1a1a37cb564c22ff74ba4ebd1afc0bd3d026a19bb45ffb213f40fceb035802dd"
 
@@ -73567,6 +73567,10 @@ hash = "31c44446060ea0d9e323e3f35de4e5e3f0d02b123c490fb13cdb3410df1f251c"
 [[files]]
 file = "kubejs/assets/endrem/textures/item/witch_eye.png"
 hash = "f7be23b4b45b3bdb619b55e1a6d64a107e121c60b94f9964813e8554533e37f6"
+
+[[files]]
+file = "kubejs/assets/estrogen/textures/slot/thighs.png"
+hash = "bf7f9ff8661c90fa03216b27d81893619f0659f76efb93f32cba050f49da075a"
 
 [[files]]
 file = "kubejs/assets/eternalcurrencies/lang/en_us.json"
@@ -79538,7 +79542,7 @@ hash = "e9e9622e508d60e2995fe65943778b24e5d29f6dd7af8631f7ba7878ec792989"
 
 [[files]]
 file = "kubejs/server_scripts/Tags/tools.js"
-hash = "7dd4c784cba6629b25f7c7f65e1407ce30a582bd325620a77da58166ffd528cb"
+hash = "b2ec30870343378fb5a696b1f0855134d512a32697a8e8154c5d84f0942933e9"
 
 [[files]]
 file = "kubejs/server_scripts/bosses_rift_alteration.js"
@@ -81271,6 +81275,11 @@ metafile = true
 [[files]]
 file = "mods/mru.pw.toml"
 hash = "6fa68e501b1e0587e2de1f4e0c7259f349c074450acd4f3482b0c1dbc00e8e3c"
+metafile = true
+
+[[files]]
+file = "mods/multi-mine.pw.toml"
+hash = "c4fa8dac3b4129463066cb781c44b34c7e243fabe59fbdd95c57ccb4691394ad"
 metafile = true
 
 [[files]]

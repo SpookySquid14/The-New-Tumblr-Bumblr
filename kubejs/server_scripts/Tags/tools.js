@@ -7,13 +7,13 @@ ServerEvents.tags("item", event => {
         "mebahelcreaturesdraugr:ebony_axe",
         "tumblrbumblr:copper_axe"
     ]),
-    event.add("forge:tools/pickaxes", [
+    event.add('minecraft:pickaxes', [
         "tumblrbumblr:copper_pickaxe"
     ])
-    event.add("forge:tools/shovel", [
+    event.add('minecraft:shovels', [
         "tumblrbumblr:copper_shovel"
     ])
-    event.add("forge:tools/hoe", [
+    event.add('minecraft:hoes', [
         "tumblrbumblr:copper_hoe"
     ])
     event.add("forge:chestplates", [
