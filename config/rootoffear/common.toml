@@ -5,9 +5,9 @@
 "Tamed Wolves Attack Wilted (default: true)" = false
 "Wilted Prevents Portal Travel (default: true)" = true
 "Wilted Immune To Damage (default: true)" = true
-"Wilted First Spawn Day (default: 1)" = 1
-"Minimum Wilted Spawn Cooldown (in days, default: false)" = 17
-"Maximum Wilted Spawn Cooldown (in days, default: false)" = 33
+"Wilted First Spawn Day (default: 1)" = 76
+"Minimum Wilted Spawn Cooldown (in days, default: false)" = 20
+"Maximum Wilted Spawn Cooldown (in days, default: false)" = 100
 "Wilted Bonus Behaviour Amount (default: 3)" = 3
 "Wilted Spawn Dimensions (default: \"minecraft:overworld\")" = ["minecraft:overworld"]
 "Wilted Warning Sounds (default: true)" = true

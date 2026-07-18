@@ -68702,7 +68702,7 @@ hash = "297009e2b4fb125be2f3c0586ff3076b4b437fb155997a4689aaa77e11590b31"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "9f7d632bcac7e7fca586715b945be6f068f1c0fb4082b17245b4103c279044a3"
+hash = "17cad356d12330e7df76b9f66d3af26e787e365828c431832eafc1f5b50946e8"
 
 [[files]]
 file = "config/citadel-common.toml"
@@ -69146,7 +69146,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "fed180f915adb694646110f700fa7a160e2ca02a75e56451d58d8f1924ca1e2d"
+hash = "afdd007ef40ad2a4a043d6ff02f2d888dcebf4bba97019f87de5376ca0f442e1"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70682,7 +70682,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "8da5e84d90e54b3803695c9ddf34d1ff1b56198336a340f80b1571e8e0b161da"
+hash = "0296737a17a896983a39162db341b89a084d3dcae1746a7f403e87c857a6a50a"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -71374,7 +71374,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "c37f60d364a33d3dd9250b26571b149e7519f73854f60c4ec97f5fc562b5b8ce"
+hash = "c477875a81d2674927e048285092571a18517bb6ff4eaec51ce4af4065a7e43e"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71638,7 +71638,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "74a39cce4061ae056e2ab747396714a07bbeaba3bfa0859adddaa83dd6773a8a"
+hash = "bf9b099604ffd5d69280dd0bd013cf1a8fef28b45dffeda0dc2a5120c9bd3fe4"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71654,7 +71654,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "8bcffbc52d2bf2e9e904db0bfea4859efade501b65a801961af969fefadd5e50"
+hash = "6f179e5d8e921a459a1deb5033ca6542742a58c6332bc9bf9f8a8d6d5edbdf2f"
 
 [[files]]
 file = "config/pal.properties"
@@ -72194,7 +72194,7 @@ hash = "3ae4ba2f6dfae54304299481ecf706b911bc854421e08efd8f45f7461414f7e7"
 
 [[files]]
 file = "config/rootoffear/common.toml"
-hash = "38d8308ccf0d39ed626e90907415cb1ae9b05fa700cf560f6335f01709e2f5e7"
+hash = "bb22150f9082e2bb88cbb72a1e5151d42e328197eebd1d280d64cd0b7d4983e0"
 
 [[files]]
 file = "config/saintsdragons-attributes.toml"
@@ -82019,7 +82019,7 @@ metafile = true
 
 [[files]]
 file = "mods/vampirism-become-a-vampire.pw.toml"
-hash = "734b97060c43081ef9cbd2646ebef5f2707dd404aa7be42cec227554c180a943"
+hash = "0c4b311f7f71d398fd30e83d8faf40b109dd8c157da24ebdf69b04ddde7db0ab"
 metafile = true
 
 [[files]]
