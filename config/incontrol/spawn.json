@@ -44,16 +44,19 @@
   {
     "mob": ["vampirism:vampire","vampirism:vampire_imob"],
     "mincount": {
-      "amount": 30,
-    "perchunk": true},
+      "amount": 50,
+      "hostile": true
+    },
+    "when": "onjoin",
     "result": "deny"
   },
   {
     "mob": ["vampirism:advanced_vampire","vampirism:advanced_vampire_imob"],
     "mincount": {
-      "amount": 5,
-      "perchunk": true
+      "amount": 30,
+      "hostile": true
     },
+    "when": "onjoin",
     "result": "deny"
   },
   {
@@ -119,6 +122,27 @@
     "mob":"rootoffear:wilted",
     "result":"deny",
     "when": "onjoin"
+  },
+  {
+    "mob": ["mebahelcreaturesdraugr:draugr","mebahelcreaturesdraugr:draugr_archer","mebahelcreaturesdraugr:draugr_wight","mebahelcreaturesdraugr:draugr_scourge","mebahelcreaturesdraugr:infernal_draugr",
+      "born_in_chaos_v1:zombie_bruiser","born_in_chaos_v1:swarmer","born_in_chaos_v1:door_knight","born_in_chaos_v1:zombie_clown","born_in_chaos_v1:zombie_fisherman","born_in_chaos_v1:zombie_lumberjack"
+    ],
+    "customevent": "normal_zombie",
+    "when": "onjoin",
+    "result": "deny_with_actions"
+  },
+  {
+    "mob": ["mebahelcreaturesdraugr:skeleton_warrior","irons_spellbooks:necromancer","born_in_chaos_v1:skeleton_thrasher","born_in_chaos_v1:bonescaller","born_in_chaos_v1:supreme_bonescaller","born_in_chaos_v1:siamese_skeletons"
+    ],
+    "customevent": "normal_skeleton",
+    "when": "onjoin",
+    "result": "deny_with_actions"
+  },
+  {
+    "mob": ["born_in_chaos_v1:mother_spider"],
+    "customevent":"normal_spider",
+    "when": "onjoin",
+    "result": "deny_with_actions"
   },
   {
     "mob": ["mebahelcreaturesdraugr:draugr","mebahelcreaturesdraugr:draugr_archer","mebahelcreaturesdraugr:skeleton_warrior","mebahelcreaturesdraugr:draugr_wight","mebahelcreaturesdraugr:draugr_scourge","mebahelcreaturesdraugr:infernal_draugr",
