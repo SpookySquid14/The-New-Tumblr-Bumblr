@@ -1717,6 +1717,56 @@
 			x: -1.0d
 			y: -10.0d
 		}
+		{
+			id: "45537146E45FDABA"
+			tasks: [{
+				id: "0645587B228B5BC5"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:witches_brew"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			id: "1BF47C2CA8EB589F"
+			tasks: [
+				{
+					id: "798B736B30F7A6FD"
+					item: "goety:witch_cauldron"
+					type: "item"
+				}
+				{
+					id: "6EEA3287878C2DA6"
+					item: "goety:cauldron_ladle"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BF47C2CA8EB589F"]
+			id: "13D124FE634B09D1"
+			tasks: [{
+				id: "2E9523C46AAD5B1A"
+				item: {
+					Count: 1
+					id: "goety:wicked_boline"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
 	]
 	title: "Goety: The Dark Arts"
 }

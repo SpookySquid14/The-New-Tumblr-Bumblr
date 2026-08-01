@@ -19621,6 +19621,70 @@ file = "config/blockswap/known_states/farmingforblockheads/market.json5"
 hash = "9a4bb512647ad4b4e5777ecd2cd6b8cd7b6bc9bb2f837875d3f2c8ac3b9f9b54"
 
 [[files]]
+file = "config/blockswap/known_states/fdbosses/chesed_trophy.json5"
+hash = "64d62d1c41f494b5c940a494118914f7ce4af9371a548e48a480ed1ca0d6a482"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/chiseled_justicestone_bricks.json5"
+hash = "3817bbbd43e36b4c082c21a6a461329a2544cf4cf998f3b171c98d7b2ced6465"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/geburah_respite_point.json5"
+hash = "b146983adf238974f4d4ce240fec25c76ed49e00cc24220f761c03e8a8061487"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/geburah_trophy.json5"
+hash = "6c340fee94d9a42d4997009c0137e5bf744aee1ced9173d44afa6e910e94fd97"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/justicestone_beam.json5"
+hash = "9aeb2c7682737a5818d642726aceb779d174b43a32adddea78be2d1f042c2c84"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/justicestone_bricks.json5"
+hash = "50baa4c134c642af7ce318ba5397a7746f64e739a45956eed68d7f9ebc8ca5b7"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/justicestone_bricks_slab.json5"
+hash = "ae90623bd2063044b1af973704d6def6fa479f7eb3bf55d07ccec9844078305d"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/justicestone_column.json5"
+hash = "40074ff3aa67ed761e0e6c84df9ded10d8d0c39b37918ee152aa94afc488ad88"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/justicestone_column_wall.json5"
+hash = "611180fab3d3620713dce8152541b1242ec9592bb0121dae3963f6d3d09287f5"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/justicestone_stairs.json5"
+hash = "97b819d46ba0622d470bbe7f96a5ab200733a0fd8df4ac5a82834d10186fd499"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/justicestone_wall.json5"
+hash = "3ec8c57555e1ba0644aaf37df9ae661237933f88dbce7e994aee6458dba3e5bd"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/malkuth_trophy.json5"
+hash = "faf40b66d8c18ac090cf57bb55a884967b783cb974d22b169768201f30514666"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/no_entity_spawn_block.json5"
+hash = "fcc63842af1bacc7ab968dd5958e7ff876e38c7f3e8959e2b4a12319baa0ce00"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/polished_justicestone.json5"
+hash = "d3d0077d7db178f13089fdf0ad2988350f7bb297c7ee7b2ee3794d71d25c9548"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/polished_justicestone_slab.json5"
+hash = "37b4c01161d83a3b47f5a35d8544a512cbd78def2aff47cd3d771b11a6104baa"
+
+[[files]]
+file = "config/blockswap/known_states/fdbosses/polished_justicestone_stairs.json5"
+hash = "e1eca14a1644b85f017ab08a2abe6ae2dab39417911fc1af2e8e0f9cdef5e95e"
+
+[[files]]
 file = "config/blockswap/known_states/fdlib/test.json5"
 hash = "953149c01686c101ecfbd9bae6cff7f7bfad350167d0758f160e8e637cb6040c"
 
@@ -68702,7 +68766,7 @@ hash = "297009e2b4fb125be2f3c0586ff3076b4b437fb155997a4689aaa77e11590b31"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "17cad356d12330e7df76b9f66d3af26e787e365828c431832eafc1f5b50946e8"
+hash = "79ade118981fc27a71b62f92b8645099ab2390cbc28166c160e33852b4855510"
 
 [[files]]
 file = "config/citadel-common.toml"
@@ -69146,7 +69210,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "afdd007ef40ad2a4a043d6ff02f2d888dcebf4bba97019f87de5376ca0f442e1"
+hash = "c0b4d39fdbe8a26c10942475322a0ecaef574bd4457cbd7bd8d7bc7561682193"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -69203,6 +69267,14 @@ hash = "98a9f53e1e21247108a90e80b9cf4141fd7b432e219a262672ffedd5730afbab"
 [[files]]
 file = "config/fastsuite.cfg"
 hash = "4d26b4c93838e3e912a8e09f9be0395cd0b7a264f250ea8aa72d68507ce12250"
+
+[[files]]
+file = "config/fdbosses/bosses.json"
+hash = "f6cb0da1b6fe1b5361412a24baed516e6588d8987cbdeb7105f3a47b9c1ca7c0"
+
+[[files]]
+file = "config/fdbosses/bosses_clientside.json"
+hash = "a32dfa5bacd322d47027982526032009768744ba768a53763231b9836eac64f8"
 
 [[files]]
 file = "config/fdlib/fdlib_client.json"
@@ -70134,7 +70206,7 @@ hash = "8e3dcd0193625aeea5be7b90e5bb935c822561a415836a997b54c4cf4a158b43"
 
 [[files]]
 file = "config/forgeendertech/cached.dat"
-hash = "b8a20dd5f160b8898e20ba5298c90db848199f69905503c9f5b56e76e02aecf8"
+hash = "3653003ce121cc83a0a48071f8786a3b66cd486255da7a845a8ca09ba0f4d313"
 
 [[files]]
 file = "config/frightsdelight.json"
@@ -70182,7 +70254,7 @@ hash = "33a8e28676fb5c8ffcabdd777cc493fe6ebfcec3fe382cc20cd4d9cb2c4bc340"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/born_in_chaos.snbt"
-hash = "7adfeba008a5c53985c69f5f2d506ccba7b9c53ea37eed9f177af890f5ddccf0"
+hash = "989eaf41bb17b16fe99c57b0510b7296ff25ce08fe7c79f048c89f1337dbf138"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brewing_and_chewing.snbt"
@@ -70210,7 +70282,7 @@ hash = "41329e81e6dab5a8d60757e33f55446d69c5aa7a4a86d5260bb0873ecbc8861b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/debug.snbt"
-hash = "149b51ac82ee9d53e3a47971f69385b8d488ac8e1a418bcd4fe0139a84dd303b"
+hash = "07b12e3f7750c95261bc28a3f7fcc6bbaaad93f691645d58c683fdf49a98893d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
@@ -70230,7 +70302,7 @@ hash = "0b21cd9b2f4257616923fa47e5a41c942f8d525e2e4136aee9ef6e892c1a48ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
-hash = "efdfd1a8fa9e2c4d45d23dfc40288ccf61aa05a6373d8f65ef656c657589d734"
+hash = "61f2318b1d946c0fac78bacdb2fdef66a0faf00b4628a48f8b7445aeb44a4438"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive_engineering.snbt"
@@ -70270,7 +70342,7 @@ hash = "d0bac7e42976d8be5a98bf0b8706e73dfa7a7483c60729927b80689db7ae53bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.snbt"
-hash = "60f46a64fc5f6c22031082812ada240e242ed6621e0370a676deaaf25cf131d3"
+hash = "bef184ce971473691f7e075bc4ab6930a48f5cf90246b1ac1ebdcd7ca1e42cd7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/otherside.snbt"
@@ -70766,7 +70838,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "aeb94744c77256f5f187b7eb5000ca3768cef8f43764f31411957d3aa983dca3"
+hash = "ea2def4e14800ec7c9fe0660d82b5eb7133b52b929ed383aceb6a8041a76e0f0"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -71073,6 +71145,10 @@ file = "config/jei/world/local/New_World__9/lookupHistory.ini"
 hash = "2f5763cab224905c49863157296459bbd9f839f11bb075afd85c9a46a349bdfb"
 
 [[files]]
+file = "config/jei/world/local/Night_Test_5/lookupHistory.ini"
+hash = "eefabcef88af48f19621eb36b1526dbced2341c07996b4f14b2345a64aa4ff8e"
+
+[[files]]
 file = "config/jei/world/local/Pale/lookupHistory.ini"
 hash = "6b4e5752974361a7a230071a3332da18906422f67f81082388e420e5df43f9e4"
 
@@ -71103,6 +71179,14 @@ hash = "46f024b646f75935dd37c0440d94115a63a0d5407ad7c02ca6016bb05e9b5c06"
 [[files]]
 file = "config/jei/world/local/Playtest_3/lookupHistory.ini"
 hash = "d3da6522cc9c5db95c03526632517d95b85b674388837274e1725a3763f2d9e7"
+
+[[files]]
+file = "config/jei/world/local/Qlipoth/bookmarks.ini"
+hash = "f25baba72b1fb08ec9940e8926e13aa9c024ee1db1833cd16a66816452dbebf3"
+
+[[files]]
+file = "config/jei/world/local/Qlipoth/lookupHistory.ini"
+hash = "d653a5a010b31c3af4497322bd31b22d8c1a8cfd1d2f3fd4e406ab5732a6062f"
 
 [[files]]
 file = "config/jei/world/local/Reorganized/lookupHistory.ini"
@@ -71374,7 +71458,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "c477875a81d2674927e048285092571a18517bb6ff4eaec51ce4af4065a7e43e"
+hash = "8be0f7d4178b95c901a70b1753a484bb7dfcb6da2b36ff7565b2e7815ad54cd4"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71418,7 +71502,7 @@ hash = "13dd5a80ebae1f7d44271dbec55884dae4652e121b501d87bb22d130525cdc46"
 
 [[files]]
 file = "config/multimine.cfg"
-hash = "8718301a7d87ef5c8cdb6b943c682308bd7ad6df47e1e1530a0049a61315dbe9"
+hash = "d0a0e833bca98024e2fbe92c66075aa650e05d3bbfc39251d01122cedc8f87e5"
 
 [[files]]
 file = "config/multiplayerbosses-common.toml"
@@ -71638,7 +71722,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "bf9b099604ffd5d69280dd0bd013cf1a8fef28b45dffeda0dc2a5120c9bd3fe4"
+hash = "9e0a751912790522de8e635eb75c7d3f619c91cf55fc6112ca11a3b6b4b92b53"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71654,7 +71738,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "6f179e5d8e921a459a1deb5033ca6542742a58c6332bc9bf9f8a8d6d5edbdf2f"
+hash = "876609e4f258859f7cdd08d5ae4c15a94e1b7f6b15996a4f9638d593631de543"
 
 [[files]]
 file = "config/pal.properties"
@@ -77089,6 +77173,14 @@ file = "kubejs/assets/tumblrbumblr/textures/item/nether_star_drained.png"
 hash = "b198599a536ce347b527db4ba4cb37872277882f377ddf7a80cf6ff986548519"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/owl_pellet.aseprite"
+hash = "c22b357619034138048fc192b488d5d1ea8fe6d2eba6ef1639dd00a7571a86a6"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/owl_skull.aseprite"
+hash = "48429483534b6d5b97478c47e50d8d198706fb5be7031c9ceb4beb29c8e49c98"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/item/pale_totem.ase"
 hash = "0c6075f584a9ec58f19b7fe0a24bed4c91966b1f39b8ed96c00879047eef9d29"
 
@@ -81530,6 +81622,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "c8924fa90a27618c2cfa75bd844cdf225eecd684ad00b839c849e157f93694d4"
+metafile = true
+
+[[files]]
+file = "mods/qliphoth-awakening.pw.toml"
+hash = "3cf9714032dadac56e568b25da90ec40e656f0aac40610c370198724e9e5cd37"
 metafile = true
 
 [[files]]

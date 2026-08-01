@@ -438,55 +438,6 @@
 			x: 2.5d
 			y: 1.0d
 		}
-		{
-			id: "5216A617559FEB9F"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/tellraw @a {\"text\":\"You shouldn't have done that. You've woken up a monster. Keep your lights well lit, vessel.\",\"font\":\"alt\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"You shouldn't have done that. You've woken up a monster. Keep your lights well lit, vessel.\"}}"
-					id: "5B2C4EC7252D8BD7"
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/gamestage add @a desecrated"
-					elevate_perms: true
-					id: "44456CB24A5F9415"
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [
-				{
-					block: "minecraft:creaking_heart"
-					block_type: 0
-					checkItem: true
-					id: "36005B35DAEF4B6E"
-					item: "tumblrbumblr:rooted_heart"
-					type: "questsadditions:break"
-					value: 1L
-				}
-				{
-					icon: "tumblrbumblr:pale_totem"
-					id: "189ECE40F6B5C450"
-					title: "Desecrate The Pale Garden"
-					type: "custom"
-				}
-				{
-					block: "minecraft:creaking_heart"
-					block_type: 0
-					checkItem: true
-					id: "3785F7E9A3D0F88F"
-					isItemInteraction: false
-					item: "tumblrbumblr:pale_totem"
-					type: "questsadditions:use"
-					value: 100L
-				}
-			]
-			x: 1.5d
-			y: 0.5d
-		}
 	]
 	title: "Debug"
 }

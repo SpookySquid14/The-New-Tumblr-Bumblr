@@ -15,127 +15,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"They say the Nightmare Stalker is one of the most dangerous spirits to invade the Overworld, but I've seen it, the transformation all those years ago."
-				"If you become its target, be alert, for you will see nothing of its presence through your vision alone, save for its two glowing eyes."
-				""
-				"{image:tumblrbumblr:textures/quests/nightmare-stalker.png width:114 height:100 align:center}"
-			]
-			id: "73BFADBA56CB64AC"
-			tasks: [{
-				days: 12
-				icon: "born_in_chaos_v1:nightmare_stalker_skull"
-				id: "6A9EA896AE0F0FC8"
-				secret: true
-				title: "The Nightmare Stalker Invades"
-				type: "questsadditions:days"
-			}]
-			x: -3.5d
-			y: -3.5d
-		}
-		{
-			id: "1D4F137E671CEB2A"
-			tasks: [{
-				days: 23
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "born_in_chaos_v1:item/missionaryicon"
-					}
-				}
-				id: "5D3435AD4BC726AB"
-				title: "The Missionary Invades"
-				type: "questsadditions:days"
-			}]
-			x: -4.5d
-			y: -0.5d
-		}
-		{
-			id: "06D68A7205245471"
-			tasks: [{
-				days: 66
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "born_in_chaos_v1:textures/mob_effect/lifesteal.png"
-					}
-				}
-				id: "7FBCE5FACDDDB8B4"
-				secret: true
-				title: "The Lifestealer Invades"
-				type: "questsadditions:days"
-			}]
-			x: -4.0d
-			y: 2.5d
-		}
-		{
-			id: "692496D6CB2FEB32"
-			tasks: [
-				{
-					icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
-					id: "29A0F658081CCB20"
-					observe_type: 0
-					timer: 0L
-					title: "Find the Infernal Evil Pumpkin"
-					to_observe: "born_in_chaos_v1:infernal_evil_pumpkin_s"
-					type: "observation"
-				}
-				{
-					id: "7552E1B2E08CB599"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:pumpkinstaffa"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"692496D6CB2FEB32"
-				"663022ABC71F924C"
-			]
-			id: "37D19505130E5FFE"
-			tasks: [{
-				id: "60F88E02E605CCDB"
-				item: "born_in_chaos_v1:transmuting_elixir"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["37D19505130E5FFE"]
-			id: "1699199B947758C2"
-			tasks: [{
-				id: "32A493DFDF3AABAF"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"fallen_gems_affixes:augment_capability": {
-							Augments: [{
-								Test: "test"
-							}]
-						}
-					}
-					id: "born_in_chaos_v1:soulbane"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: -0.5d
-		}
-		{
 			description: ["You will no doubt find many pieces of dark metal dropped by mobs. They can be blasted into dark metal nuggets or packed into piles of dark metal."]
 			id: "0C901BEB8C3CACDD"
 			tasks: [{
@@ -143,31 +22,22 @@
 				item: "born_in_chaos_v1:pieceofdarkmetal"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 1.0d
+			y: -5.0d
 		}
 		{
-			id: "49276E6F7B62CF3C"
-			tasks: [{
-				id: "57AF582C853AA319"
-				item: "born_in_chaos_v1:seedof_chaos"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["49276E6F7B62CF3C"]
+			description: ["The Chaos Component serves as a base for most elixirs, created with seeds of chaos and water"]
 			id: "663022ABC71F924C"
 			tasks: [{
 				id: "1ECFD5A59F010EF4"
 				item: "born_in_chaos_v1:chaos_component"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: 12.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["663022ABC71F924C"]
 			icon: "born_in_chaos_v1:transmuting_elixir"
 			id: "41D1F6B3F2D922FE"
 			subtitle: "Brew all elixirs"
@@ -199,22 +69,12 @@
 				}
 			]
 			title: "The Mad Alchemist"
-			x: 4.5d
-			y: -1.5d
+			x: 13.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["0C97DDE29130A92D"]
-			id: "4B4DDC36B8563E9D"
-			tasks: [{
-				id: "7BDD9E60BB98A9E9"
-				item: "born_in_chaos_v1:elixir_of_vampirism"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["06D68A7205245471"]
+			dependencies: ["201741943D9BE0ED"]
+			description: ["The Lifestealer was once a vampire lord that swore his loyalty to the Lord of Chaos so he might become even more powerful."]
 			id: "0C97DDE29130A92D"
 			rewards: [{
 				amount: 100L
@@ -224,18 +84,18 @@
 				type: "eternalcurrencies:currency"
 			}]
 			tasks: [{
-				count: 2L
+				count: 3L
 				id: "313D2C7C8DFB3B5D"
 				item: "born_in_chaos_v1:lifestealer_bone"
 				type: "item"
 			}]
 			title: "Steal Back What's Yours"
-			x: -3.0d
-			y: 2.5d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["73BFADBA56CB64AC"]
-			description: ["Nightmare armor is strong armor that when worn as a full set will give certain bonuses to specific weapons"]
+			dependencies: ["1EA90A9C45478CB7"]
+			description: ["Nightmare armor is strong armor that when worn as a full set will give certain bonuses to specific weapons. They hardest component to obtain is the Nightmare stalker's skull"]
 			id: "4363881A9797B749"
 			tasks: [
 				{
@@ -284,8 +144,8 @@
 				}
 			]
 			title: "The Costume of Terror"
-			x: -2.0d
-			y: -3.5d
+			x: 5.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0C901BEB8C3CACDD"]
@@ -295,8 +155,8 @@
 				item: "born_in_chaos_v1:pileof_dark_metal"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1E4020744B666A0C"]
@@ -306,8 +166,8 @@
 				item: "born_in_chaos_v1:dark_metal_ingot"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -321,14 +181,11 @@
 				item: "born_in_chaos_v1:evilometer"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: 9.5d
+			y: -4.0d
 		}
 		{
-			dependencies: [
-				"2A85CB4C7A375C10"
-				"4423745A40F6AC11"
-			]
+			dependencies: ["584B0BD24BD79AEA"]
 			dependency_requirement: "one_completed"
 			description: ["Whether you did so slowly over time or consciously to summon him, accumulating 100 naughtiness points will summon Krampus himself, a very strong spirit. If not killed, he will appear to judge you with every future naughty action you take until he is slain."]
 			id: "51FDF5A788044E71"
@@ -337,50 +194,23 @@
 				item: "born_in_chaos_v1:krampus_horn"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: 12.5d
+			y: -4.0d
 		}
 		{
+			dependencies: ["4423745A40F6AC11"]
 			description: ["Once you've gotten enough naughtiness, two Krampus Henchmen will spawn and attack. Use this as your warning."]
-			id: "2A85CB4C7A375C10"
-			tasks: [{
-				entity: "born_in_chaos_v1:krampus_henchman"
-				id: "60B574DB6A97643C"
-				title: "Kill Krampus's Henchmen"
-				type: "kill"
-				value: 2L
-			}]
-			title: "Naughty, Naughty"
-			x: -1.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["2A85CB4C7A375C10"]
 			id: "584B0BD24BD79AEA"
 			tasks: [{
 				id: "2741F54C02D79999"
 				item: "born_in_chaos_v1:permafrost_shard"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: 11.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["584B0BD24BD79AEA"]
-			id: "2C0CDCBCFDDA232B"
-			tasks: [{
-				id: "6DA81314F8283B2B"
-				item: "born_in_chaos_v1:elixirof_ice_barrier"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"51FDF5A788044E71"
-				"584B0BD24BD79AEA"
-			]
+			dependencies: ["51FDF5A788044E71"]
 			id: "363E3EE2F872A047"
 			tasks: [{
 				id: "7399E7C94349A168"
@@ -393,11 +223,14 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 13.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["1D4F137E671CEB2A"]
+			description: [
+				"The Missionary is said to be a spirit created by the Lord of Chaos himself and scattered throughout the overworld. I'm afraid their seal won't last forever, and they'll find a way to return once again."
+				"The Missionary is a powerful foe with strong control over the undead. Though primarily support, that does not stop it from attacking you itself."
+			]
 			id: "384F40B2B8912122"
 			tasks: [
 				{
@@ -457,7 +290,7 @@
 				}
 			]
 			title: "A Collector of Sorts"
-			x: -3.5d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -516,8 +349,8 @@
 				}
 			]
 			title: "A Tip of The Hats"
-			x: 4.5d
-			y: -2.5d
+			x: 12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0C97DDE29130A92D"]
@@ -534,56 +367,30 @@
 				item: "born_in_chaos_v1:dark_atrium"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.5d
-		}
-		{
-			description: ["Dark Metal Armor is powerful armor"]
-			id: "66F66DB0AC8E59C5"
-			tasks: [{
-				entity: "born_in_chaos_v1:fallen_chaos_knight"
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "born_in_chaos_v1:textures/mob_effect/cursed_mark.png"
-					}
-				}
-				id: "12407533F1A8E80B"
-				type: "kill"
-				value: 1L
-			}]
-			title: "A Knight of (Dis)Honor"
-			x: 4.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["66F66DB0AC8E59C5"]
-			id: "407C7E8C9ED8229E"
-			tasks: [{
-				id: "3D185EBF3875DD0D"
-				item: "born_in_chaos_v1:dark_upgrade"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 2.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["008C58AF1AF19548"]
-			id: "1B1AEF630A844C70"
-			tasks: [{
-				id: "5EFC649C9F78B9BA"
-				item: "born_in_chaos_v1:armor_plate_from_dark_metal"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 3.0d
+			description: ["Fallen Chaos Knights are revenants of servants of chaos, serving their masters until their dying breath. They are a force to be reckoned with, but killing one is rewarding, giving you the smithing template for Dark Metal Armor"]
+			id: "407C7E8C9ED8229E"
+			tasks: [
+				{
+					id: "3D185EBF3875DD0D"
+					item: "born_in_chaos_v1:dark_upgrade"
+					type: "item"
+				}
+				{
+					id: "208B25C43B0CAF32"
+					item: "born_in_chaos_v1:armor_plate_from_dark_metal"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -5.0d
 		}
 		{
-			dependencies: [
-				"1B1AEF630A844C70"
-				"407C7E8C9ED8229E"
-			]
+			dependencies: ["407C7E8C9ED8229E"]
 			id: "67AD287F9977F50E"
 			tasks: [
 				{
@@ -631,8 +438,511 @@
 					type: "item"
 				}
 			]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0C901BEB8C3CACDD"]
+			id: "30D04445E1B0C66E"
+			tasks: [{
+				id: "73261A64765B8E33"
+				item: "born_in_chaos_v1:dark_metal_nugget"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2396C57A6CDEC65A"]
+			description: ["The Scythe of Nightmares has a powerful lifesteal and wither effect strengthened by wearing a full set of Nightmare Armor"]
+			id: "3742CEF52C525920"
+			tasks: [{
+				id: "76A064075434E784"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:nightmare_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"They say the Nightmare Stalker is one of the most dangerous spirits to invade the Overworld, but I've seen it, the transformation all those years ago."
+				"If you become its target, be alert, for you will see nothing of its presence through your vision alone, save for its two glowing eyes."
+				""
+				"{image:tumblrbumblr:textures/quests/nightmare-stalker.png width:114 height:100 align:center}"
+			]
+			id: "2396C57A6CDEC65A"
+			tasks: [{
+				id: "65AF2F990038AAB2"
+				item: "born_in_chaos_v1:nightmare_claw"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2396C57A6CDEC65A"]
+			id: "28FF333F4380DB00"
+			tasks: [{
+				id: "0D823E5F214FD55D"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:dark_ritual_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2396C57A6CDEC65A"]
+			id: "3DABD6FE4AF9A45B"
+			tasks: [{
+				id: "78410B292B87EE46"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:soul_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2396C57A6CDEC65A"]
+			id: "1EA90A9C45478CB7"
+			tasks: [{
+				id: "00AF0F1AD3535048"
+				item: "born_in_chaos_v1:nightmare_stalker_skull"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			id: "68C25279F34E9D3C"
+			tasks: [{
+				id: "210FC66E902CD330"
+				title: "Stuff of nightmares"
+				type: "custom"
+			}]
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			id: "1FF15A6533B96274"
+			tasks: [{
+				id: "441822C6B763D3C2"
+				title: "Darkened Knight"
+				type: "custom"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "5816C5BF2BD239CB"
+			tasks: [{
+				id: "5CE2FF116C8D1069"
+				title: "naughty naughty"
+				type: "custom"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["008C58AF1AF19548"]
+			id: "3002317B4356F01A"
+			tasks: [{
+				id: "64EDE923A61609A8"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			x: 4.0d
-			y: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["008C58AF1AF19548"]
+			id: "696F0A02095C6A00"
+			tasks: [{
+				id: "0F127218BE739927"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:great_reaper_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["008C58AF1AF19548"]
+			id: "6450D4B4E9A90BF2"
+			tasks: [{
+				id: "50334579A647636A"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:skullbreaker_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["008C58AF1AF19548"]
+			id: "459666B595330671"
+			tasks: [{
+				id: "58D652D90EB6C128"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:darkwarblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "2AC24F9CD613C1CD"
+			tasks: [{
+				id: "08892A52ECD06B93"
+				title: "Dark Magic"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: ["Fused bones drop from siamese skeletons"]
+			id: "201741943D9BE0ED"
+			tasks: [{
+				id: "68C4B0D9FF6677B5"
+				item: "born_in_chaos_v1:bone_heart"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47C9946CED93B3E5"]
+			id: "0E8687627D0325DF"
+			tasks: [{
+				id: "4BD741496393A1B0"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:staff_of_magic_arrows"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Kill the bonescaller"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "47C9946CED93B3E5"
+			tasks: [{
+				id: "253D64356CCFF02F"
+				item: "born_in_chaos_v1:seedof_chaos"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E8687627D0325DF"]
+			id: "68DA08FB4647A681"
+			tasks: [{
+				id: "1449EA0993FA23F3"
+				item: "born_in_chaos_v1:death_totem"
+				type: "item"
+			}]
+			title: "Kill supreme b0onescaller"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "4BD937D56EAE1D5D"
+			tasks: [{
+				id: "5BFCA46CBB319491"
+				title: "Pumpkinhead get all candies"
+				type: "custom"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47C9946CED93B3E5"]
+			id: "2F69692C80F5A997"
+			tasks: [{
+				id: "21AC6747F23F3423"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:spiritual_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["584B0BD24BD79AEA"]
+			id: "45D3DAB40E95DDF0"
+			tasks: [{
+				id: "1972575B25DC35B9"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:frostbitten_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["45D3DAB40E95DDF0"]
+			id: "7CCAB3D312F5408B"
+			tasks: [{
+				id: "39E15C80AF9992E1"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:icy_sweetness"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			id: "2B4A600190F438AF"
+			subtitle: "Kill Sir Pumpkin heafd"
+			tasks: [{
+				id: "503AE392764577A6"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:pumpkinstaffa"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B4A600190F438AF"]
+			id: "2F7A45A76EED6B35"
+			subtitle: "Get the Fel Lamp from Lord Pumpkinhead"
+			tasks: [{
+				id: "22699B7C8741FF2B"
+				item: "born_in_chaos_v1:fel_lamp"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B4A600190F438AF"]
+			id: "2261D4FD553ECCFA"
+			rewards: [{
+				amount: 60L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4818DE2DDD05DA25"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "5167B240BAFF6447"
+				item: "born_in_chaos_v1:holiday_candy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B4A600190F438AF"]
+			description: ["Carve one to get the evil carved pumpkin"]
+			id: "205582225EA06E0E"
+			tasks: [{
+				id: "34D80E91FB6C6064"
+				item: "born_in_chaos_v1:cultivated_pumpkin"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2261D4FD553ECCFA"]
+			id: "0DE17B43DD0BE6C6"
+			tasks: [{
+				id: "0CA148A4952E7DDA"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:sweet_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["205582225EA06E0E"]
+			id: "17D18EAA5A49F5C4"
+			tasks: [
+				{
+					id: "5C93EA1B9CA1E436"
+					item: "born_in_chaos_v1:transmuting_elixir"
+					type: "item"
+				}
+				{
+					id: "2FE4B4044E10E968"
+					item: "born_in_chaos_v1:infernal_evil_pumpkin"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DE17B43DD0BE6C6"]
+			id: "798C6F8C3E4D8EAB"
+			tasks: [{
+				id: "793740C2C77E3BC8"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:carrot_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2261D4FD553ECCFA"]
+			id: "2E33FB46525688BA"
+			tasks: [
+				{
+					id: "5964B28E19B4A211"
+					item: "born_in_chaos_v1:mint_ice_cream"
+					type: "item"
+				}
+				{
+					id: "387BBBF1AEA03F0B"
+					item: "born_in_chaos_v1:gummy_vampire_teeth"
+					type: "item"
+				}
+				{
+					id: "0D85AE4912C28E13"
+					item: "born_in_chaos_v1:coffee_candy"
+					type: "item"
+				}
+				{
+					id: "65D4D7720AD83C50"
+					item: "born_in_chaos_v1:chocolate_heart"
+					type: "item"
+				}
+				{
+					id: "00C0859CCC0AB54E"
+					item: "born_in_chaos_v1:mint_candy"
+					type: "item"
+				}
+				{
+					id: "63437EB27601525E"
+					item: "born_in_chaos_v1:caramel_pepper"
+					type: "item"
+				}
+			]
+			title: "Candy Chaos"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17D18EAA5A49F5C4"]
+			description: ["Pistol fires Pumpkin Bullets"]
+			id: "7FCF8AE2E8F60EDF"
+			tasks: [
+				{
+					id: "6D57068711D5FCD5"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:soulbane"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BCC0ADF7108A8ED"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:pumpkinhandgun"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Kill lord pumpkinhead"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7FCF8AE2E8F60EDF"]
+			id: "6A4AA18AF37EF98B"
+			tasks: [{
+				id: "23E7780FA6856917"
+				item: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
 		}
 	]
 	title: "Born in Chaos"

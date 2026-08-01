@@ -1,5 +1,7 @@
 {
+	autofocus_id: "20CC0933DF2ACF2A"
 	default_hide_dependency_lines: false
+	default_min_width: 400
 	default_quest_shape: ""
 	filename: "occultism"
 	group: "2E5A9DABC49A0340"
@@ -15,7 +17,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["28EBB69D972236AC"]
+			dependencies: ["51AB4D8CC9052211"]
 			description: ["Now, throw &o&6some andesite and oak saplings into the fire&r. The flames will alter them, and you will be given &oOtherstone and an Otherworld Sapling&r, though the latter may not look the part."]
 			id: "1908E5992649B221"
 			rewards: [{
@@ -51,7 +53,7 @@
 			]
 			title: "Items From Beyond The Veil"
 			x: 0.0d
-			y: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
@@ -116,36 +118,8 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["51AB4D8CC9052211"]
-			description: [
-				"You've obtained your book and some Demon's Dream. Now you are ready to gain materials from &othe Otherworld&r."
-				"&o&6Ignite a Demon's Dream with Flint and Steel&r to create Spiritfire. Worry not about burns, for these purple flames have no heat. Rather, they will connect you to the Otherworld and &o&6exchange items thrown in&r."
-				"I suggest you spark this flame somewhere you will have easy access to, as we will be using it often."
-			]
-			id: "28EBB69D972236AC"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:ancientcoins"
-				id: "1232518D6691C19F"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				icon: "occultism:spirit_fire"
-				id: "0189164F35FF1E85"
-				observe_type: 0
-				timer: 0L
-				title: "Ignite a Demon's Dream to create Spiritfire"
-				to_observe: "occultism:spirit_fire"
-				type: "observation"
-			}]
-			title: "A Fire That Doesn't Burn"
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["28EBB69D972236AC"]
+			dependencies: ["4BFB2D892CC29D6D"]
+			description: ["The Divination Wand is used to find common Otherworld materials not visible to the human eye, such as otherstone that appears as andesite to a normal viewer. It's most useful application is finding Iesnium Ore disguised as ordinary Netherrack"]
 			id: "10B025FE594CB756"
 			tasks: [{
 				id: "5ED93D7EBED079FB"
@@ -156,11 +130,11 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.5d
+			x: -2.0d
+			y: -10.5d
 		}
 		{
-			dependencies: ["15ACD993630984F4"]
+			dependencies: ["24E837D70C2A4762"]
 			description: ["Make a butchers knife and kill large animals like pigs and cows to get tallow for special candles"]
 			hide_until_deps_complete: true
 			id: "1A4D57B6CA4E5128"
@@ -170,7 +144,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1908E5992649B221"]
@@ -186,7 +160,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["58B0624C9BBA1796"]
@@ -209,11 +183,12 @@
 					type: "item"
 				}
 			]
+			title: "Chalk It Up to Spirits"
 			x: 1.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["28EBB69D972236AC"]
+			dependencies: ["51AB4D8CC9052211"]
 			id: "4B523327BFD0F2D0"
 			tasks: [
 				{
@@ -233,7 +208,7 @@
 				}
 			]
 			x: -1.0d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4B523327BFD0F2D0"]
@@ -257,7 +232,7 @@
 				}
 			]
 			x: -1.0d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1908E5992649B221"]
@@ -276,7 +251,7 @@
 				}
 			]
 			x: 0.0d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -285,24 +260,35 @@
 				"1A4D57B6CA4E5128"
 				"577D5056DFB3FA69"
 			]
+			description: [
+				"With all needed supplies, draw aviars circle and summon a foliot crusher"
+				"Hint: You can use the dictionary to make a visible ghost of the pentacle"
+			]
 			id: "7CC42784803FC670"
 			tasks: [
 				{
-					id: "778E3BD3BE598FE2"
-					title: "Make Aviars Circle"
-					type: "custom"
+					id: "04F4A6F49086FC69"
+					item: "werewolves:raw_silver"
+					type: "item"
 				}
 				{
-					id: "3D6B47A6AD6F1608"
-					observe_type: 5
-					timer: 0L
-					title: "See a foliot"
-					to_observe: "occultism:foliot"
-					type: "observation"
+					id: "48CE01F57DD833FB"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "6F2E20F8B1FB2AA4"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "76424519924D5BD2"
+					item: "minecraft:raw_copper"
+					type: "item"
 				}
 			]
 			x: 0.0d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["22D0DB7D7F40A723"]
@@ -313,7 +299,3034 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4479AB901F8621D9"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "24E837D70C2A4762"
+			tasks: [{
+				id: "43928082C9CC4DD2"
+				item: {
+					Count: 1
+					id: "occultism:butcher_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CC42784803FC670"]
+			description: ["With a Foliot Crusher, you'll be able to have raw ores and ingots crushed down into dusts, which can then be smelted into ingots. Crushing an ingot will only give an ingot's worth of dust, but raw materials can give double what normally smelting would give you."]
+			id: "1DDD484C05B10A38"
+			tasks: [{
+				id: "2EBCDD168117879D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts"
+					}
+				}
+				title: "Dust"
+				type: "item"
+			}]
+			title: "Let's Get Crushing"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1DDD484C05B10A38"]
+			description: ["For more advanced rituals, you'll need gold chalk. This is crafted like white chalk, and processed through the same method of throwing the impure chalk into spirit fire"]
+			hide_until_deps_complete: true
+			id: "72FFC043391FC449"
+			tasks: [
+				{
+					id: "36D2CE27FBDB0F36"
+					item: "occultism:chalk_gold_impure"
+					type: "item"
+				}
+				{
+					id: "31E7A2BDFC57C565"
+					item: {
+						Count: 1
+						id: "occultism:chalk_gold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Chalk 2.0"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["72FFC043391FC449"]
+			description: [
+				"Possession rituals are rituals where the summoned demon takes control of a particular mob. Their main purpose is usually to obtain rarer or harder to obtain items through killing them."
+				"Most advanced rituals you'll make will need purple chalk, requiring end stone, which can be obtained by killing a posessed endermite."
+				"Draw Hedryn's Lure and &6&obegin the ritual by placing the book of binding in the golden bowl, then throwing an egg&r."
+			]
+			id: "0C74A1D72E10D754"
+			tasks: [{
+				id: "375FF0778466AD2A"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			title: "The Mite of The End"
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0C74A1D72E10D754"]
+			description: ["By combining crushed obsidian and end stone, you can create purple chalk, the second strongest chalk"]
+			id: "52DA17035C75DEBE"
+			tasks: [
+				{
+					id: "7AC6AB0A3BB386EC"
+					item: "occultism:chalk_purple_impure"
+					type: "item"
+				}
+				{
+					id: "4B743A43712BD02F"
+					item: {
+						Count: 1
+						id: "occultism:chalk_purple"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1908E5992649B221"]
+			description: ["Created from tossing a diamond into Spirit Fire, Spirit Attuned Gems are used in a variety of recipes, the most notable being Spirit Attuned Crystals. Like candles and skulls, these are used in the creation of certain pentacles used during rituals,"]
+			id: "41E213E02CC541E2"
+			tasks: [{
+				count: 2L
+				id: "65EE06A78A699AE0"
+				item: { Count: 4, id: "occultism:spirit_attuned_crystal" }
+				type: "item"
+			}]
+			title: "Bring In The Crystals"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["72FFC043391FC449"]
+			description: ["An elegant solution for the need to eat Demon's Dream in order to get the Third Eye effect are Otherworld Goggles. Before you obtain these, however, you must craft Lenses"]
+			id: "76E6E295FDCA2A3D"
+			tasks: [
+				{
+					id: "37858AA9BBB31C91"
+					item: "occultism:lenses"
+					type: "item"
+				}
+				{
+					id: "34C9CB0A188D4158"
+					item: "occultism:lens_frame"
+					type: "item"
+				}
+			]
+			title: "Seeing Things a Bit Clearer"
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["76E6E295FDCA2A3D"]
+			description: ["With the pentacle Eziveus's Spectral Repulsion, some silver, and a bit of gold, your glass lenses can be bound to a foliot, allowing you to then craft otherworld goggles. While these goggles allow one to &osee&r otherworld materials, they are unable to &omine&r the materials. For that, a special pickaxe is required."]
+			id: "1E0F68CE39E46A81"
+			tasks: [{
+				id: "3047B25C8960C87D"
+				item: {
+					Count: 1
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"52DA17035C75DEBE"
+				"1E0F68CE39E46A81"
+			]
+			description: ["To mine otherworld materials, one must make a pickaxe of said materials. Iesnium is the go-to material, but to obtain it, you need to make an Infused Pickaxe first."]
+			id: "4BFB2D892CC29D6D"
+			tasks: [{
+				id: "6BDF9CB275EFBCE8"
+				item: {
+					Count: 1
+					id: "occultism:infused_pickaxe"
+					tag: {
+						Damage: 0
+						spiritName: "Creofelldryn"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4BFB2D892CC29D6D"]
+			description: ["Iesnium looks like Netherrack at first, but with otherworld goggles, it can be seen and mined with an infused pickaxe. The material is very spiritually charged, and used in many expert recipes and rituals."]
+			id: "707A51B4CC38F5F1"
+			tasks: [{
+				id: "11E151F95484AF16"
+				item: "occultism:raw_iesnium"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["707A51B4CC38F5F1"]
+			id: "268BA371BFD876E9"
+			tasks: [{
+				id: "267FFB2DCD92604B"
+				item: {
+					Count: 1
+					id: "occultism:iesnium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["52DA17035C75DEBE"]
+			id: "32F1BBAF9B0E9231"
+			tasks: [{
+				id: "75749ED55DEB1F6B"
+				item: "occultism:afrit_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["32F1BBAF9B0E9231"]
+			id: "226E685EBF424C80"
+			tasks: [
+				{
+					id: "1FC67242902B6D20"
+					item: "occultism:chalk_red_impure"
+					type: "item"
+				}
+				{
+					id: "0B06E7F48C13B93A"
+					item: {
+						Count: 1
+						id: "occultism:chalk_red"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Final Chalk"
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["1DDD484C05B10A38"]
+			description: ["Perhaps the most straightforward rituals, Summoning Rituals, well, summon a spirit from the Otherworld to do your bidding. For your first ritual, you summoned a Foliot Crusher, but there are plenty more such spirits can do."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "349C149AE25E469C"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "63F1E0BFDC32BBC3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "68576BFAA76D7BED"
+				title: "Learn About Summoning"
+				type: "checkmark"
+			}]
+			title: "Summoning"
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["349C149AE25E469C"]
+			description: [
+				"The Djinni Crusher is a stronger spirit than its Foliot counterpart, and can crush any raw ore into 3 of its corresponding dusts."
+				"Create Ophyx' Calling and summon one to further your ore processing goals."
+			]
+			icon: "occultism:silver_dust"
+			id: "1722CCBB8755EF0A"
+			tasks: [
+				{
+					id: "1D68E83E84BE4F36"
+					item: "occultism:iron_dust"
+					type: "item"
+				}
+				{
+					id: "1C022A4971F61723"
+					item: "occultism:silver_dust"
+					type: "item"
+				}
+				{
+					id: "72FB435F34CF0ACE"
+					item: "occultism:gold_dust"
+					type: "item"
+				}
+				{
+					id: "475C88F86D039870"
+					item: "occultism:copper_dust"
+					type: "item"
+				}
+				{
+					id: "237641490EBA56FC"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "EqisEdu"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Djinni to Win"
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1722CCBB8755EF0A"]
+			description: [
+				"The Afrit Crusher is faster than its Djinni counterpart and can give up to 4 of a raw ore's corresponding dust, and can do so quickly to boot."
+				"Abras' Conjure"
+			]
+			icon: "occultism:iesnium_dust"
+			id: "452157A246B3BF7C"
+			tasks: [
+				{
+					count: 2L
+					id: "7C9D94946DB5166A"
+					item: { Count: 2, id: "occultism:iesnium_dust" }
+					type: "item"
+				}
+				{
+					id: "19F0C46CB1788DC5"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "118AC9C690B6C0A2"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6F2BAE19FFAA693E"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_afrit"
+						tag: {
+							spiritName: "Firirure"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Grit From Afrit"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["452157A246B3BF7C"]
+			description: [
+				"At the very top of the crusher hierchy is the Marid Crusher, boasting incredible speeds and crushing ores into six of their respective dusts."
+				"Summoning one requries the usage of Fatma's Incentivized Attraction, so it is not a ritual for the unexperienced."
+			]
+			icon: "occultism:iesnium_block"
+			id: "4BCD060E27C56554"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "3A29E599E893F3F6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "443A86428A525A58"
+					item: "occultism:iesnium_block"
+					type: "item"
+				}
+				{
+					id: "35117D0274D7F83C"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "3281CA2AB3C14A8D"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "0905898B0086542F"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "1777D17F725B3595"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_marid"
+						tag: {
+							spiritName: "Firmyldorne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pinacle of Crushing"
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["349C149AE25E469C"]
+			description: ["To make harvesting Otherwood easier, one can summon a Foliot Sapling Trader, who will take an ordinary oak sapling and exchange it for a Stable Otherworld Sapling. These saplings will grow into trees that do not require the Third Eye effect to break and will even give normal Otherworld Saplings."]
+			icon: "occultism:otherworld_sapling"
+			id: "78646EB5642CD915"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4E9351535786568F"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "36C1A9DF7EC7C780"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6F77433F0801F947"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "6591E3B9D1E3FEAA"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "7B84CC8F300EDF2A"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "6AEEB39908A00F24"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+			]
+			title: "Otherworldly Trees For Sale"
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["78646EB5642CD915"]
+			description: ["If one wants to easily obtain a large amount of Otherstone, summoning an Otherstone Trader is essential. They will take one of any kind of stone and exchange it for 2 Otherstone, a very good deal."]
+			icon: "occultism:otherstone"
+			id: "319328B8B24413DB"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "49B285B9D61E0361"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7D39501E851CD600"
+					item: "minecraft:stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B5F1DE4D0725642"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "07B53960E2A790D5"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "71EE65E5363D5C0C"
+					item: "minecraft:granite"
+					type: "item"
+				}
+				{
+					id: "342C81B1733B3BC6"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					id: "423AFCA0447D72C2"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Fenirryne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Otherwordly Stones For Sale"
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["349C149AE25E469C"]
+			description: [
+				"A Foliot Transporter is a Foliot bound to a book of calling with the purpose of taking items from one inventory, such as a chest, and putting them in another inventory, such as that of a crusher spirit."
+				"Shift Right Clicking the spirit will let you change its filter, which by default is set to only allow items added to its list, but that can be changed to the opposite if you desire. To set its inventories, right click the Book of Calling obtained by the ritual, then make sure you have either Set Extract or Set Deposit selected. After that, shift right click the container or mob you want the spirit to take from or give to. It should be known that for blocks like furnaces, it's important you right click the correct face. For example, right clicking the back of a furnace will have the transporter deposit items into the fuel slot of a furnace."
+			]
+			icon: "minecraft:chest_minecart"
+			id: "3064519CF5EDABDD"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5FDF2B0D66E7CAC2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "4BF758AF812BAB0C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:chests"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E6759AB77A011EF"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+				{
+					id: "284B737F073F6542"
+					item: "minecraft:dispenser"
+					type: "item"
+				}
+				{
+					id: "657D3663705A629E"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "4D39685F150C59C7"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Fenirryne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Transporting The Goods"
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3064519CF5EDABDD"]
+			description: [
+				"Much like the transporter, a Foliot Janitor is a Foliot bound to a book of calling. Whereas the transporter moved items from one inventory to the next, janitors will pick up any items in their filters and deposit them in a designated container."
+				"Shift Right Clicking the spirit will let you change its filter, which by default is set to only allow items added to its list, but that can be changed to the opposite if you desire. Right clicking with the book of calling will let you choose to either set the janitor's work position and radius that it will search, or choose the container for it to deposit items it picks up."
+			]
+			icon: "occultism:brush"
+			id: "15E23B6FFCCBEFD2"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "66D02711B658C033"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "7BDE2067AEE57CA0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:chests"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EA2D481B2BFFAFD"
+					item: "occultism:brush"
+					type: "item"
+				}
+				{
+					id: "6ACEF60077B3817A"
+					item: "minecraft:dispenser"
+					type: "item"
+				}
+				{
+					id: "16E06C80CFCEB7AF"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "653EDEA7CCF1A84A"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Fenirryne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cleanup on Isle 13"
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["15E23B6FFCCBEFD2"]
+			description: ["Once you've obtained a Dimensional Storage Actuator, you can set up a Djinni to operate machines such as furnaces. Using the book of calling, you can set the machine, along with an optional extraction side, useful for blocks like furnaces, alongside the Storage Actuator to take from. Once that's done,"]
+			icon: "minecraft:furnace"
+			id: "07337A0A95423EB2"
+			tasks: [
+				{
+					id: "084B95D556390BD0"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "59039CEADE5AC519"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					id: "65AA19617A799E1B"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "5EB2229421739788"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "579B02E1493A4181"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "EqisEdu"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Feed The Machine"
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["349C149AE25E469C"]
+			description: ["Need the weather cleared? Then look no further than The Occult. With the catalyst of crops, a Djinni is summoned to clear the skies."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ad_astra:textures/gui/sprites/sun.png"
+				}
+			}
+			id: "29EF96BD531FE5F0"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "47FD727FB4947D98"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "536FD92C0831D81B"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					id: "00957DB630AE4313"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "4EA1736D8205AC6B"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "61850D59D2F00EC9"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "235CBF8FE3FD0FE2"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "EqisEdu"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Clear Skies Ahead"
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["29EF96BD531FE5F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cataclysm:textures/particle/rain_cloud_6.png"
+				}
+			}
+			id: "3E90E0D630633F39"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2F402F58C09E4225"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "4D19D828B9EBA3AF"
+					item: "minecraft:dead_bush"
+					type: "item"
+				}
+				{
+					id: "6A79A401B48BFF03"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "7511D7E569F4B61C"
+					item: "minecraft:cactus"
+					type: "item"
+				}
+				{
+					id: "1DE3677ACDD57DD0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:sand"
+						}
+					}
+					title: "Sand"
+					type: "item"
+				}
+				{
+					id: "3116150BB3E44DDC"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_afrit"
+						tag: {
+							spiritName: "Firirure"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Stormy Summons"
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3E90E0D630633F39"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "createaddition:textures/mob_effect/shocking.png"
+				}
+			}
+			id: "7B36440BC7FD9165"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2C022240CEB13060"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "6031A49E55791E75"
+					item: { Count: 2, id: "minecraft:gunpowder" }
+					type: "item"
+				}
+				{
+					id: "7BEF61958A7899B7"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "5F6CB8F281958322"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "25BE646F9E107509"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_afrit"
+						tag: {
+							spiritName: "Firirure"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Thunderous Applause"
+			x: -5.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["349C149AE25E469C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/clock_44"
+				}
+			}
+			id: "40E25305BFD59E52"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "22E31145DB8470BF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "65B1A52B2D0881D4"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "1AB154DF38446573"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:saplings"
+						}
+					}
+					title: "Sapling"
+					type: "item"
+				}
+				{
+					id: "077E3FB763BA8932"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dyes/yellow"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06BC3056B33A4EFF"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "77F3EDCF04E078D7"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "EqisEdu"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dawnbreak"
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["40E25305BFD59E52"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/clock_14"
+				}
+			}
+			id: "00B0676CC76BDDC4"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "29F166E4B999DA8C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "14DBA011114F9E96"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					id: "4C4D61C6573AA0DD"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "7452664418C7DA42"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					id: "275B92F04EAAA674"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+					title: "Bed"
+					type: "item"
+				}
+			]
+			title: "To Dusk"
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1DDD484C05B10A38"]
+			description: ["Possession Rituals involve the, well, possessing of different creatures to allow for easier obtaining of rarer drops. You've likely already performed one to kill a possessed endermite and obtain end stone used for chalks."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "71C633AEF69F91A6"
+			rewards: [{
+				amount: 60L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "16C13F2EB46F9BCC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "252A609617465937"
+				title: "Learn About Posession Rituals"
+				type: "checkmark"
+			}]
+			title: "Possession"
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["71C633AEF69F91A6"]
+			icon: "minecraft:end_stone"
+			id: "22026A936EDB2C5A"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "72EA2CC76DBC51C0"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_endermite"
+				id: "53C0CA9857CC6882"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["71C633AEF69F91A6"]
+			icon: "minecraft:ghast_tear"
+			id: "5527B492B9A22A4B"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "31D739CDACADF90F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_ghast"
+				id: "6499FBE5BFCF741D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["71C633AEF69F91A6"]
+			icon: "minecraft:heart_of_the_sea"
+			id: "3450BE6166DDB52C"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6D4C7CDE95369038"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_elder_guardian"
+				id: "62180389388C38BB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["71C633AEF69F91A6"]
+			icon: "minecraft:shulker_shell"
+			id: "0B8C6A506F4D2EED"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "10CD8CB855CC7FF6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_shulker"
+				id: "68D97D0726A5B0D7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["71C633AEF69F91A6"]
+			icon: "minecraft:ender_pearl"
+			id: "7B1AA9B3F1D0B54F"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7572046E5881685A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				id: "42E0DF176B5F14BF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["71C633AEF69F91A6"]
+			icon: "minecraft:skeleton_skull"
+			id: "08CE020472A9766E"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2F6F25A1C3A8CC1C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_skeleton"
+				id: "7C0314F0DA3065AB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["71C633AEF69F91A6"]
+			icon: "minecraft:phantom_membrane"
+			id: "6A562D5D0DA4CEF9"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "753054507B3FDBC4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_phantom"
+				id: "7BE5FDE9C2F30600"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["71C633AEF69F91A6"]
+			icon: "minecraft:chorus_fruit"
+			id: "2EC165A1E97069B7"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1C57671EB4334179"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_shulker"
+				id: "23B1C2E7688C4411"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["71C633AEF69F91A6"]
+			icon: "minecraft:echo_shard"
+			id: "5F7A8652E98997B6"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "78A107AEC3596350"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_warden"
+				id: "320CF7214567658E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["71C633AEF69F91A6"]
+			icon: "minecraft:netherite_upgrade_smithing_template"
+			id: "1C961593A106CD26"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0702E8B27C37CF32"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_hoglin"
+				id: "34B3812BC5C0763A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["71C633AEF69F91A6"]
+			icon: "occultism:afrit_essence"
+			id: "23360E2F7E112EE6"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "647D7CF38C51F362"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "occultism:afrit_wild"
+				id: "7CA490339C40CDE0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["71C633AEF69F91A6"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "5D0618C385372CBC"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "37232048BEC7001D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_wither_skeleton"
+				id: "26E42189E8098187"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["52DA17035C75DEBE"]
+			id: "21AFB6E4BAD5EC6B"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5F25CEBE03C5D9FA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "229ABAB1D8F252A2"
+					item: "occultism:storage_controller_base"
+					type: "item"
+				}
+				{
+					id: "38481C9EBD946C97"
+					item: {
+						Count: 1
+						id: "occultism:dimensional_matrix"
+						tag: {
+							spiritName: "Camurzirn"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62C97380A8738B94"
+					item: "occultism:storage_controller"
+					type: "item"
+				}
+			]
+			title: "Spiritual Storage Solutions"
+			x: 1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["21AFB6E4BAD5EC6B"]
+			description: ["A step towards remote access, by shift right clicking a storage actuator, the wormhole is bound to it, and placing it down will allow access to said actuator through it. Be warned, however, that breaking it will no give the wormhole back, so be careful when choosing where to put one."]
+			id: "6E4F3993219B451E"
+			tasks: [{
+				id: "4D7F5949FF6B1D4E"
+				item: {
+					Count: 1
+					id: "occultism:stable_wormhole"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6E4F3993219B451E"]
+			id: "3A9CD738270A126D"
+			tasks: [{
+				id: "3341E4498D039407"
+				item: {
+					Count: 1
+					id: "occultism:storage_remote"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["21AFB6E4BAD5EC6B"]
+			id: "36DA54C04945FC82"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "02EF045AFC9DC99D"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "534E4D72E84963F5"
+				item: "occultism:storage_stabilizer_tier1"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["36DA54C04945FC82"]
+			id: "4C808E65885DBF7D"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "00719D2BDC612CA3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "5A9C8E1C2B30A8A9"
+				item: "occultism:storage_stabilizer_tier2"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4C808E65885DBF7D"]
+			id: "28CBAD3793B10132"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "63A37D965CDE87A7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "7A438396BB38199B"
+				item: "occultism:storage_stabilizer_tier3"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["28CBAD3793B10132"]
+			id: "1D40F78FE30D6F31"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4683163E72F25875"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "4E5BFD4A943A3568"
+				item: "occultism:storage_stabilizer_tier4"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["268BA371BFD876E9"]
+			description: [
+				"The Dimensional Mineshaft is a portal housed by a Djinni with access to an uninhabited dimension with a plethora of materials. Due to its small size, humanoid beings cannot enter it, but spirits can use the usage of a lamp."
+				"Lamps with spirits housing them can be inserted into the mineshaft through its top, and materials and findings can be extracted through its sides."
+			]
+			icon: "occultism:dimensional_mineshaft"
+			id: "6494A9980556064A"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2311DD796B2EA9C0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6E8B7830CF3B7B7D"
+					item: "occultism:iesnium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "560F9822C449A04A"
+					item: { Count: 4, id: "occultism:otherstone" }
+					type: "item"
+				}
+				{
+					id: "0706617BD5425E84"
+					item: "occultism:iesnium_block"
+					type: "item"
+				}
+				{
+					id: "2966D0D6D5403E08"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "284F9FEAC5642E9A"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					id: "5368EEE7B3992E2C"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "EqisEdu"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Miner Spirits"
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6494A9980556064A"]
+			description: ["Due to them not being the brightest, Foliot Miners will mine almost anything found in the mineshaft, bringing back all their contents. Due to the spirit's weaker strength, this is a slow process, and the lamp housing it will also decay slowly."]
+			icon: {
+				Count: 1
+				id: "occultism:miner_djinni_ores"
+				tag: {
+					Damage: 0
+					maxMiningTime: 300
+					rollsPerOperation: 1
+					spiritName: "Zurjorure"
+				}
+			}
+			id: "0AD58CA90772F0B5"
+			tasks: [
+				{
+					id: "197C23958AA7E888"
+					item: "occultism:magic_lamp_empty"
+					type: "item"
+				}
+				{
+					id: "3052DD0D9EEC7939"
+					item: {
+						Count: 1
+						id: "occultism:iesnium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "073B22A8C5D6A60E"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "6240BE58B4A54ECC"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "2F70AABB9EB800BB"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Fenirryne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Foliot Miner"
+			x: -2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0AD58CA90772F0B5"]
+			description: ["A more powerful and intelligent spirit, the Djinni Miner discards most useless blocks, only bringing back the more valuable materials. While it is faster than a Foliot, due to its stronger presence, the lamp housing it will also degrade faster."]
+			icon: {
+				Count: 1
+				id: "occultism:miner_djinni_ores"
+				tag: {
+					Damage: 0
+					maxMiningTime: 300
+					rollsPerOperation: 1
+					spiritName: "Zurjorure"
+				}
+			}
+			id: "0A6C0D80401D7D17"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "531AF00A3E68E16F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "3F6CCFBBF798A2A0"
+					item: {
+						Count: 1
+						id: "occultism:miner_foliot_unspecialized"
+						tag: {
+							Damage: 0
+							maxMiningTime: 400
+							rollsPerOperation: 1
+							spiritName: "Thrfellthorn"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A077AB5740BECB5"
+					item: {
+						Count: 1
+						id: "occultism:iesnium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37CED614C757EA70"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "3AE8A2CA9B6D009A"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					id: "50A9AC2970E434BA"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					id: "34DE39F2106DB50E"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "EqisEdu"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Djinni Miner"
+			x: -3.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0A6C0D80401D7D17"]
+			description: ["An Afrit Miner will not only dig up normal ores, but it will also mine the deepslate variants of ores. Despite its immense power, an Afrit Miner's lamp will deteriorate at a much slower pace, making them excellent helpers."]
+			icon: {
+				Count: 1
+				id: "occultism:miner_afrit_deeps"
+				tag: {
+					Damage: 0
+					maxMiningTime: 200
+					rollsPerOperation: 1
+					spiritName: "Zedjyrrine"
+				}
+			}
+			id: "01C8FAA27461B5EB"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0EB456C0B51C0711"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "771B3B7276345BE6"
+					item: {
+						Count: 1
+						id: "occultism:miner_djinni_ores"
+						tag: {
+							Damage: 0
+							maxMiningTime: 300
+							rollsPerOperation: 1
+							spiritName: "Zurjorure"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E292335B5AC0641"
+					item: {
+						Count: 1
+						id: "occultism:iesnium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "682A7CDF7C13457A"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "0F27FC83E41AB1A1"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "4734221916FE3485"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					id: "7117884FDD46837B"
+					item: "occultism:afrit_essence"
+					type: "item"
+				}
+				{
+					id: "39F1C19154FA959C"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_afrit"
+						tag: {
+							spiritName: "Firirure"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Afrit Miner"
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["01C8FAA27461B5EB"]
+			description: ["The quickest and most powerful miner spirit, a Marid Miner is not only able to mine common and uncommon ores, but even the rarest ores like Iesnium and Ancient Debris are obtainable through this spirit's work."]
+			icon: {
+				Count: 1
+				id: "occultism:miner_marid_master"
+				tag: {
+					Damage: 0
+					maxMiningTime: 100
+					rollsPerOperation: 1
+					spiritName: "Erllorisyrn"
+				}
+			}
+			id: "2909AA079114656F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "642DFCC4E08EBAD3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "55D2E74682B92516"
+					item: {
+						Count: 1
+						id: "occultism:miner_afrit_deeps"
+						tag: {
+							Damage: 0
+							maxMiningTime: 200
+							rollsPerOperation: 1
+							spiritName: "Zedjyrrine"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A7865A9AFA8C2BA"
+					item: {
+						Count: 1
+						id: "occultism:iesnium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05D1F5B7B0068E35"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B608E757ED4694D"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					id: "34914FD15F93DD55"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "335F3F40881EC057"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					id: "50343A1FA75F6FA2"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "3F3BBD51F980D584"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_marid"
+						tag: {
+							spiritName: "Firmyldorne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Marid Miner"
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1DDD484C05B10A38"]
+			description: [
+				"Familiars are like pets, but rather than being tamed, they are bound to your very being. They give their owner buffs, and at times will fight for them. These buffs often require the familiar be close to their owner."
+				"When hurt, familiars can be healed with Demon's Dream, Demon's Dream Essence, or Otherworldly Essence"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "64DB6AB811975E9A"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1EBCDC65072E672C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "58F70F36D236733C"
+				title: "Learn About Familiars"
+				type: "checkmark"
+			}]
+			title: "Familiars"
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["Dragon familiars give extra xp to their owner. If upgraded, they will attack enemies with swords"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:dragon_familiar"
+				}
+			}
+			id: "16F672CB45B8DBAC"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "15FC2F17A7DC539B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "0B30C8DBE6164379"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:storage_blocks/quartz"
+						}
+					}
+					title: "Block of Quartz"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "72C8C7CB7B2A68D8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:obsidians"
+						}
+					}
+					title: "Obsidian"
+					type: "item"
+				}
+				{
+					id: "775D8C7B77EA8830"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					id: "6B1FB7A2F37E2A15"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "493B2D9BE9F21A8E"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "1F87599D27DFED71"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AE762F5769A6A97"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "5668A927C2999B8B"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Vallorithorne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dragon Familiar"
+			x: -1.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["A parrot familiar is no different from a regular tamed parrot, and its main use, besides company, is to aid in the summoning of a Drikwing. There are two ways of obtaining a parrot. Using string, the parrot is summoned as a bound familiar, but using an egg, it is summoned untamed."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "minecraft:parrot"
+				}
+			}
+			id: "60926B401C87CB94"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "06BB7489501B329F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "164E36B7BEDD12FC"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					id: "5CAC64A08AAB734B"
+					item: "minecraft:green_dye"
+					type: "item"
+				}
+				{
+					id: "4A945962749EF5CC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "balm:yellow_dyes"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5832563919DB73B6"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					id: "7165838CD43257AF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:tag"
+									tag: {
+										value: "c:string"
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:tag"
+									tag: {
+										value: "c:eggs"
+									}
+								}
+							]
+						}
+					}
+					title: "String or Egg"
+					type: "item"
+				}
+				{
+					id: "351DB060B63E1AD3"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Haflymzirn"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Parrot Familiar"
+			x: -0.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["60926B401C87CB94"]
+			description: [
+				"With the sacrifice of a parrot, tamed or otherwise, one can summon a Drikwing. Like with the parrot, a drikwing can be summoned either as a familiar or an untamed spirit depending on whether string or an egg is used."
+				"Drikwings grant their owner partial flight, allowing multiple high jumps and slow falling."
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:otherworld_bird"
+				}
+			}
+			id: "1C15A3A4E31745DE"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7934FA53C366C57A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "1A4BEA8FEE54F474"
+					item: { Count: 2, id: "minecraft:feather" }
+					type: "item"
+				}
+				{
+					id: "4674F3579411D74F"
+					item: "minecraft:cobweb"
+					type: "item"
+				}
+				{
+					id: "2B63DA9848CB2F22"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:leaves"
+						}
+					}
+					title: "Leaves"
+					type: "item"
+				}
+				{
+					id: "6C41EEF9BD9B30ED"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:tag"
+									tag: {
+										value: "c:string"
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:tag"
+									tag: {
+										value: "c:eggs"
+									}
+								}
+							]
+						}
+					}
+					title: "String or Egg"
+					type: "item"
+				}
+				{
+					id: "247B5A443BB78580"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Vallorithorne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Drikwing Familiar"
+			x: -0.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The Bat Familiar gives night vision when nearby or in a familiar ring. If upgraded, it can give its owner a lifesteal effect"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:bat_familiar"
+				}
+			}
+			id: "141564E14017FEA6"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "60D30A984F27B0BF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "39E586DD57AAD5DC"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					id: "4C389E8364A25F02"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "564D796B7A8EC22C"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "07D4C2D35860A344"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "6F0C07C8151107D5"
+					item: "minecraft:spider_eye"
+					type: "item"
+				}
+				{
+					id: "298A962A2B1AF36E"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Vallorithorne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bat Familiar"
+			x: 1.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The Fairy familiar aids other familiars with beneficial effects and can prevent familiar death. It also drains the life force of its owner's enemies."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:fairy_familiar"
+				}
+			}
+			id: "0B8F9662721646F8"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1022BB603AD78EC1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "716E2E66B790A8B3"
+					item: { Count: 2, id: "minecraft:golden_apple" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "453E6B2AEB78C842"
+					item: { Count: 2, id: "minecraft:gunpowder" }
+					type: "item"
+				}
+				{
+					id: "35C55D34428C482F"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "66E844FDA92611F0"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					id: "6089DFDB6C935DF1"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Vallorithorne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fairy Familiar"
+			x: 1.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The Beaver familiar gives its owner increase speed when breaking wooden blocks. In addition, it will cut down any newly grown trees, provided the tree is small enough. When upgraded, it can give its owners snacks by right clicking."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:beaver_familiar"
+				}
+			}
+			id: "4A65E698C5C2306C"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2AA5059C8E4BE6E8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "2C56C72E3D3EA8D0"
+					item: {
+						Count: 4
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7182123643871A56"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Haflymzirn"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Beaver Familiar"
+			x: 1.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The Beholder familiar highlights nearby mobs and attacks enemies with lasers. It can also eat Shub Niggurath's babies to gain a boost in speed. When upgraded, it can make its owner immune to blindness."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:beholder_familiar"
+				}
+			}
+			id: "07A6C9A92D352300"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "704CB35935998960"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "0B5C3FDE9C512074"
+					item: { Count: 4, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7F1018A58AD1DD54"
+					item: { Count: 4, id: "minecraft:spider_eye" }
+					type: "item"
+				}
+				{
+					id: "70B9627D9FA482EF"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Vallorithorne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Beholder Familiar"
+			x: -1.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The Chimera Familiar fights its owner's enemies, and when fed meat, grows in size and strength. At its max size, it can be ridden by the player until it shrinks over time, requiring it to be fed once more."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:chimera_familiar"
+				}
+			}
+			id: "1D75D3EE37934DAE"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1B4C0CEF6DA028AD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "69B7C737C8879F27"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					id: "29C14116F86633BE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:leather"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24CD87F98027A7E5"
+					item: { Count: 2, id: "minecraft:mutton" }
+					type: "item"
+				}
+				{
+					id: "27DE0DAAEA35BC3C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wool"
+						}
+					}
+					title: "Wool"
+					type: "item"
+				}
+				{
+					id: "6915B801E22A5915"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					id: "439C8F9958B79B8C"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "1274A10C30071D64"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					id: "5E010FD08FDFC1F1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:string"
+						}
+					}
+					title: "String"
+					type: "item"
+				}
+				{
+					id: "7CCCC51E8862D5BC"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "0037BC0D3D1C7608"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Vallorithorne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Chimera Familiar"
+			x: 0.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1D75D3EE37934DAE"]
+			description: [
+				"To obtain Shub Niggurath, one must first use a golden apple on a chimera familiar to seperate the goat from its body. Then once in a forest biome, the goat must be right clicked with black dye, flint, and an eye of ender. Doing so will convert it to Shub Niggurath."
+				"Shub Niggurath summons its children to fight enemies. When upgraded, a warning bell is given to it, and hitting it will ring the bell, attracting nearby enemies."
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:shub_niggurath_familiar"
+				}
+			}
+			id: "4D867CCB572BFFA9"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5333959915F259B8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "6DD17D82DC6B7B92"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "2BF21D07DF7D84E9"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					id: "1889BA5B0BCD655D"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "2DC3B3A3480FFFAE"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Shub Niggurath"
+			x: 0.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The Greedy familiar will pick up nearby items for its master. When in a Familiar Ring, it increases its holder's pick up range. In addition, it can ride a Dragon Familiar, giving the dragon the same abilities. When upgraded, it can be given a block to search for more of the same block."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:greedy_familiar"
+				}
+			}
+			id: "69F42AC6CA4A0032"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0BAF9B93834C8DFA"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "2E96AB97F0A78844"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:chests"
+						}
+					}
+					title: "Chest"
+					type: "item"
+				}
+				{
+					id: "03B244FA10B13CB4"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "579EC90F76FBD31B"
+					item: "minecraft:dispenser"
+					type: "item"
+				}
+				{
+					id: "799CF832598885D3"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "364B43BE2D197735"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Haflymzirn"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Greedy Familiar"
+			x: -1.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The Guardian Familiar is summoned with a random number of limbs. Upon its user taking fatal damage, it will sacrifice one of its limbs to prevent the user's death. Once all limbs are used up, the familiar dies. A blacksmith familiar can repair a single limb, bringing it back."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:guardian_familiar"
+				}
+			}
+			id: "75ADCF86A6F6B50C"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7969893C2995B72A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "6D2661CE4B2762B0"
+					item: { Count: 2, id: "minecraft:golden_apple" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1049BEB445E2BAB8"
+					item: { Count: 4, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					id: "5503B40CDA893A05"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_afrit"
+						tag: {
+							spiritName: "Hyrarczirn"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Guardian Familiar"
+			x: -0.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The Blacksmith Familiar has a chance of repairing its master's tools when stone is picked up. In addition, giving it iron ingots or blocks will allow it to upgrade another familiar, providing them with addition effects."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:blacksmith_familiar"
+				}
+			}
+			id: "542299DFDB714816"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0264A82676163E4C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "61804DEC28486E9D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "balm:stones"
+						}
+					}
+					title: "4x Stone"
+					type: "item"
+				}
+				{
+					id: "76918CA73623AB03"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25D1680C5838FF74"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D50E1DF3AF17529"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "644021096852D3E5"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					id: "752B81A10C7CF5CA"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Haflymzirn"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blacksmith Familiar"
+			x: 0.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The Headless Ratman familiar will steal the heads of mobs killed nearby and give its master increased damage against that mob. When brought down to 50% of its health, the rider will die, but can be \"rebuilt\" with 2 sticks, 2 wheat, 1 haybale, and 1 carved pumpkin."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:headless_familiar"
+				}
+			}
+			id: "4B341E2EB276866A"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7C6172F15F487F3C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "162E9A89C58544A4"
+					item: {
+						Count: 2
+						id: "itemfilters:tag"
+						tag: {
+							value: "balm:wooden_rods"
+						}
+					}
+					title: "2x Stick"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0AA8F30E0C2D0C91"
+					item: { Count: 2, id: "minecraft:wheat" }
+					type: "item"
+				}
+				{
+					id: "33E0FA55F490D1BD"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					id: "4C5775B39E6ACACD"
+					item: "minecraft:carved_pumpkin"
+					type: "item"
+				}
+			]
+			title: "Headless Ratman"
+			x: -0.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The Mummy familiar is a powerful combative spirit that will attack hostile mobs. Upgrading it increases the damage it deals."]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:mummy_familiar"
+				}
+			}
+			id: "482194464FFFE2DE"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "4491D80C567DB735"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "37639C3DF2A57CCC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wool"
+						}
+					}
+					title: "4x Wool"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1A16073B74BB589D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:slimeballs"
+						}
+					}
+					title: "2x Slimeballs"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0C8C37B1008A2E9A"
+					item: { Count: 2, id: "minecraft:paper" }
+					type: "item"
+				}
+				{
+					id: "6EE195D3E4DF9AC2"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Vallorithorne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mummy Familiar"
+			x: 0.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The Cthulhu familiar grants its owner Water Breathing when nearby or in a ring. When upgraded, it also acts as a mobile light source."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:cthulhu_familiar"
+				}
+			}
+			id: "701FB25B9128CD42"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "1136A86A0722EDAD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "567C5D147541D57D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:fishes"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61A42607A4E9A4C0"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Vallorithorne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cthulhu Familiar"
+			x: -1.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The Deer Familiar grants its owner jump boost. When upgraded, it attacks mobs with a hammer."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:deer_familiar"
+				}
+			}
+			id: "7F07053E02B170CB"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "49F2A44A7726F2CD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "095BD65630D26A6D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "balm:wooden_rods"
+						}
+					}
+					title: "4x Stick"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0A49673B5A9FD642"
+					item: {
+						Count: 2
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:string"
+						}
+					}
+					title: "3x String"
+					type: "item"
+				}
+				{
+					id: "5D684D1C67F0AFF1"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Haflymzirn"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Deer Familiar"
+			x: 1.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The Devil Familiar grants its master fire resistance while attacking hostile mobs."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:devil_familiar"
+				}
+			}
+			id: "29213AC500A39A04"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "705F18FDC73651E6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "69C3D6F20CDAA531"
+					item: { Count: 4, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5F6B2DA021D30830"
+					item: { Count: 4, id: "minecraft:bone" }
+					type: "item"
+				}
+				{
+					id: "71F87B04E9A494D2"
+					item: {
+						Count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+						tag: {
+							spiritName: "Vallorithorne"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Devil Familiar"
+			x: 0.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: [
+				"Technically not a familiar, the Demonic Wife and Husband are bound to their partner through a marriage contract."
+				"If given a raw food item, they will cook it. If given a potion, they will grant the effect to their partner for a greater period of time. In addition, they will fight alongside their partner."
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:demonic_wife"
+				}
+			}
+			id: "124B54C326D8BCBD"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "60CB1D899BAA04DB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "heart"
+			tasks: [
+				{
+					id: "5C8F3DB7503E61D7"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "51175236A01AF60E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5FF0B9D3E3C94E12"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:swords"
+						}
+					}
+					title: "Sword"
+					type: "item"
+				}
+				{
+					id: "5C593FEFDC137AFF"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "00C7DCADDFB57AC6"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					id: "03359ED6C801A587"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			title: "Demonic Wife"
+			x: 1.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: [
+				"Technically not a familiar, the Demonic Wife and Husband are bound to their partner through a marriage contract."
+				"If given a raw food item, they will cook it. If given a potion, they will grant the effect to their partner for a greater period of time. In addition, they will fight alongside their partner."
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "occultism:demonic_husband"
+				}
+			}
+			id: "79AEECE2AD7C75C1"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6162271B01573828"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "heart"
+			tasks: [
+				{
+					id: "6BCE5D79B67FFEAF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "5442FDF58DDBEB5D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1BEE70483AF57308"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:swords"
+						}
+					}
+					title: "Sword"
+					type: "item"
+				}
+				{
+					id: "1E63AFE12CEF6840"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "1607B08D90E5D103"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					id: "61BC8E968202B2FB"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			title: "Demonic Husband"
+			x: -1.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["The familiar ring is used to store familiars. When worn, it can often grant the effect of the stored familiar to its wearer. In addition, if another player unleashes the familiar, they will begin to serve them."]
+			id: "5050429C5EBE871F"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2AE5F16607887B50"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "2FD8686B722077A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							hasFamiliar: 0b
+						}
+					}
+					id: "occultism:familiar_ring"
+					tag: {
+						spiritName: "Sigfirryth"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["64DB6AB811975E9A"]
+			description: ["Upon death, A familiar will leave behind a shard of its soul. This shard, when powered by Otherworld Essence, can be used to revive the familiar."]
+			id: "01DF52F555D662F0"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "534706EBF26592F8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "4DD0E9C2F283BC99"
+				item: {
+					Count: 1
+					id: "occultism:soul_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -15.0d
 		}
 	]
 	title: "Occultism"
