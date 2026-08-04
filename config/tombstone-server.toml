@@ -65,17 +65,17 @@
 #Allows to customize or disable the potions
 [potions]
 	#Allows Earthly Garden [false/true|default:true]
-	allow_earthly_garden = false
+	allow_earthly_garden = true
 	#Allows Bait [false/true|default:true]
-	allow_bait = false
+	allow_bait = true
 	#Allows Frostbite [false/true|default:true]
-	allow_frostbite = false
+	allow_frostbite = true
 	#Allows Darkness [false/true|default:true]
-	allow_darkness = false
+	allow_darkness = true
 	#Allows Discretion [false/true|default:true]
-	allow_discretion = false
+	allow_discretion = true
 	#Allows Restoration [false/true|default:true]
-	allow_restoration = false
+	allow_restoration = true
 
 #For settings related to magic items
 [magic_item]
@@ -109,83 +109,83 @@
 #Allows to disable some magic items
 [allowedMagicItems]
 	#Voodoo Poppet [false/true|default:true]
-	allow_voodoo_poppet = false
+	allow_voodoo_poppet = true
 	#Receptacle of Familiar [false/true|default:true]
-	allow_receptacle_of_familiar = false
+	allow_receptacle_of_familiar = true
 	#Book of Disenchantment [false/true|default:true]
-	allow_book_of_disenchantment = false
+	allow_book_of_disenchantment = true
 	#Scroll of Preservation [false/true|default:true]
-	allow_scroll_of_preservation = false
+	allow_scroll_of_preservation = true
 	#Grave's Key [false/true|default:true]
 	allow_grave_key = true
 	#Scroll of Knowledge [false/true|default:true]
-	allow_scroll_of_knowledge = false
+	allow_scroll_of_knowledge = true
 	#Tablet of Recall [false/true|default:true]
-	allow_tablet_of_recall = false
+	allow_tablet_of_recall = true
 	#Tablet of Home [false/true|default:true]
-	allow_tablet_of_home = false
+	allow_tablet_of_home = true
 	#Tablet of Assistance [false/true|default:true]
-	allow_tablet_of_assistance = false
+	allow_tablet_of_assistance = true
 	#Tablet of Guard [false/true|default:true]
-	allow_tablet_of_guard = false
+	allow_tablet_of_guard = true
 	#Tablet of Cupidity [false/true|default:true]
-	allow_tablet_of_cupidity = false
+	allow_tablet_of_cupidity = true
 	#Scroll of Unstable Intangibility [false/true|default:true]
-	allow_scroll_of_unstable_intangibility = false
+	allow_scroll_of_unstable_intangibility = true
 	#Scroll of Feather Fall [false/true|default:true]
-	allow_scroll_of_feather_fall = false
+	allow_scroll_of_feather_fall = true
 	#Scroll of Purification [false/true|default:true]
-	allow_scroll_of_purification = false
+	allow_scroll_of_purification = true
 	#Scroll of True Sight [false/true|default:true]
-	allow_scroll_of_true_sight = false
+	allow_scroll_of_true_sight = true
 	#Lost Tablet [false/true|default:true]
-	allow_lost_tablet = false
+	allow_lost_tablet = true
 	#Scroll of Reach [false/true|default:true]
-	allow_scroll_of_reach = false
+	allow_scroll_of_reach = true
 	#Scroll of Lightning Resistance [false/true|default:true]
-	allow_scroll_of_lightning_resistance = false
+	allow_scroll_of_lightning_resistance = true
 	#Scroll of Frost Resistance [false/true|default:true]
-	allow_scroll_of_frost_resistance = false
+	allow_scroll_of_frost_resistance = true
 	#Scroll of Aquatic Life [false/true|default:true]
-	allow_scroll_of_aquatic_life = false
+	allow_scroll_of_aquatic_life = true
 	#Scroll of Mercy [false/true|default:true]
-	allow_scroll_of_mercy = false
+	allow_scroll_of_mercy = true
 	#Dust of Vanishing [false/true|default:true]
-	allow_dust_of_vanishing = false
+	allow_dust_of_vanishing = true
 	#Dust of Frost [false/true|default:true]
-	allow_dust_of_frost = false
+	allow_dust_of_frost = true
 	#Enchanted Bundle [false/true|default:true]
-	allow_enchanted_bundle = false
+	allow_enchanted_bundle = true
 	#Book of Recycling [false/true|default:true]
-	allow_book_of_recycling = false
+	allow_book_of_recycling = true
 	#Book of Repairing [false/true|default:true]
-	allow_book_of_repairing = false
+	allow_book_of_repairing = true
 	#Book of Magic Impregnation [false/true|default:true]
-	allow_book_of_magic_impregnation = false
+	allow_book_of_magic_impregnation = true
 	#Book of Scribe [false/true|default:true]
-	allow_book_of_scribe = false
+	allow_book_of_scribe = true
 	#Book of Soulbound [false/true|default:true]
-	allow_book_of_soulbound = false
+	allow_book_of_soulbound = true
 	#Book of Oblivion [false/true|default:true]
-	allow_book_of_oblivion = false
+	allow_book_of_oblivion = true
 	#Smoke Ball [false/true|default:true]
-	allow_smoke_ball = false
+	allow_smoke_ball = true
 	#Seeker Rod [false/true|default:true]
-	allow_seeker_rod = false
+	allow_seeker_rod = true
 	#Christmas Hat [false/true|default:true]
-	allow_christmas_hat = false
+	allow_christmas_hat = true
 	#Bag of Seeds [false/true|default:true]
-	allow_bag_of_seeds = false
+	allow_bag_of_seeds = true
 	#Magic Scroll [false/true|default:true]
-	allow_magic_scroll = false
+	allow_magic_scroll = true
 	#Gemstone of Familiar [false/true|default:true]
-	allow_gemstone_of_familiar = false
+	allow_gemstone_of_familiar = true
 	#Gemstone of Merchant [false/true|default:true]
-	allow_gemstone_of_merchant = false
+	allow_gemstone_of_merchant = true
 	#Gemstone of Prayer [false/true|default:true]
-	allow_gemstone_of_prayer = false
+	allow_gemstone_of_prayer = true
 	#Gemstone of Guardian [false/true|default:true]
-	allow_gemstone_of_guardian = false
+	allow_gemstone_of_guardian = true
 
 #Allows to enable some features related to others mods
 [compatibility]

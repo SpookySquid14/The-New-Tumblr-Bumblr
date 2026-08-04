@@ -68766,7 +68766,7 @@ hash = "297009e2b4fb125be2f3c0586ff3076b4b437fb155997a4689aaa77e11590b31"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "79ade118981fc27a71b62f92b8645099ab2390cbc28166c160e33852b4855510"
+hash = "85e97a0c9dec1b6bf855be4234668cf40d346df15838876acfe775d9e4240b85"
 
 [[files]]
 file = "config/citadel-common.toml"
@@ -69210,7 +69210,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "c0b4d39fdbe8a26c10942475322a0ecaef574bd4457cbd7bd8d7bc7561682193"
+hash = "14dcc57a8e55a8b50e2760f7dc07b5660b978e0d0dd9282232497f3a2e3f6927"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70206,7 +70206,7 @@ hash = "8e3dcd0193625aeea5be7b90e5bb935c822561a415836a997b54c4cf4a158b43"
 
 [[files]]
 file = "config/forgeendertech/cached.dat"
-hash = "3653003ce121cc83a0a48071f8786a3b66cd486255da7a845a8ca09ba0f4d313"
+hash = "e90256e2ca61ed420213b7e13535a7ef7c3dfd7b4dd79f138fdfb5c36172cc36"
 
 [[files]]
 file = "config/frightsdelight.json"
@@ -70378,7 +70378,7 @@ hash = "dba5ba70cd482ae67419ae7b0c8f01782732dc11107d0b155cd3bb78ce9021b6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tombstone.snbt"
-hash = "8876cfc45c6786fc163947acdc570f97db68d251893519f95254b6ddfb0549cf"
+hash = "a8039976ecbdfab5983de244af82bfd5886be34ae773854b2abed9754cc9c656"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vampirism.snbt"
@@ -71106,7 +71106,11 @@ hash = "9d01818364eb1f77ab0ea00083ce0f291d419e12919c91430d8eea46ff282cdb"
 
 [[files]]
 file = "config/jei/world/local/New_World__44/lookupHistory.ini"
-hash = "e9daff5daa38bde9f1090893b4c575ece3592e66ff59b10799cd0bfc274c12a4"
+hash = "5e40e980a5c11933d19e589c221ec493772fb150022404ad9277c1003df278fa"
+
+[[files]]
+file = "config/jei/world/local/New_World__45/lookupHistory.ini"
+hash = "a5e339148255acd97f3d2d22c53ff09d663d18359ad77a3754dde7817d5d02ed"
 
 [[files]]
 file = "config/jei/world/local/New_World__5/lookupHistory.ini"
@@ -71186,7 +71190,7 @@ hash = "f25baba72b1fb08ec9940e8926e13aa9c024ee1db1833cd16a66816452dbebf3"
 
 [[files]]
 file = "config/jei/world/local/Qlipoth/lookupHistory.ini"
-hash = "d653a5a010b31c3af4497322bd31b22d8c1a8cfd1d2f3fd4e406ab5732a6062f"
+hash = "52b63194727e24db2fb6ac8b8be02eab310139713848a9c4ea7c7532089ae2c9"
 
 [[files]]
 file = "config/jei/world/local/Reorganized/lookupHistory.ini"
@@ -71458,7 +71462,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "8be0f7d4178b95c901a70b1753a484bb7dfcb6da2b36ff7565b2e7815ad54cd4"
+hash = "023d03846cee20253a69d9f5dacfca99b06911f20a5ede0348b51f3c6e3e9a61"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71722,7 +71726,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "9e0a751912790522de8e635eb75c7d3f619c91cf55fc6112ca11a3b6b4b92b53"
+hash = "cd95475fd27adc341d77294597703d45ea89fc36134e6b549416d9d13af38e13"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71738,7 +71742,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "876609e4f258859f7cdd08d5ae4c15a94e1b7f6b15996a4f9638d593631de543"
+hash = "f3423257e1ae87ac61b950bc0f489c6110b4310c08f8cc65f0e776f00edba22e"
 
 [[files]]
 file = "config/pal.properties"
@@ -71979,6 +71983,18 @@ hash = "4010b9aa01f477417abfb32dd9a461cd5282fbe7bad929dd747cd00c9559c48e"
 [[files]]
 file = "config/paxi/resourcepacks/PS Shielded - Xaero Frame 1.0.0.zip"
 hash = "54e69ad8384c12328f0ab837b8ff8a5c81e1b7b21414326750f357e04fb767eb"
+
+[[files]]
+file = "config/paxi/resourcepacks/Secretary Ivy/assets/saintsdragons/optifine/random/entity/ivy_oleander.properties"
+hash = "3db1a840e2438a0c253e741446b9c4241d2d1e061458fbfb44f3b28e41d57387"
+
+[[files]]
+file = "config/paxi/resourcepacks/Secretary Ivy/assets/saintsdragons/optifine/random/entity/ivy_oleander2.png"
+hash = "22f88641df6237aa43bb7a019b3b10c6c2cc3a94ec0d66ed14f65cef05a7fae4"
+
+[[files]]
+file = "config/paxi/resourcepacks/Secretary Ivy/pack.mcmeta"
+hash = "83fce4fe145db1b298d25b3a61046d2cf9b7520218fbbd256515e1e50fdbafdb"
 
 [[files]]
 file = "config/paxi/resourcepacks/Slightly-Improved-Font-1.1.5.zip"
@@ -72666,7 +72682,7 @@ hash = "46e510f1e8e47fbba41fcbcab3c05f15f8e6f64dc7bcc73d75872561f3857c16"
 
 [[files]]
 file = "config/tombstone-server.toml"
-hash = "3c4266212a3e835fcc535f68f5fee4017d19bbb5a30148b8c8c9d71953258dbe"
+hash = "a1dda5af435a9f1a1095cca084c8b0216a966d868106af6c6f3f187ae6723874"
 
 [[files]]
 file = "config/tombstone/loottables/tombstone-pool-abandoned_grave.json"
@@ -79622,7 +79638,7 @@ hash = "d4f1f583e1b7605ec26555b67115f3d618f6126de7e773f6c4d51248cbb537af"
 
 [[files]]
 file = "kubejs/server_scripts/Tags/items.js"
-hash = "af1f75622f4dce1c030333b38049e9eda0b8fcac119d37f69fac6a527041e17a"
+hash = "af4dbf8aa29e355a738d152b6edf6927ae8c6d77d93b3da3da7476ce61e3d2e5"
 
 [[files]]
 file = "kubejs/server_scripts/Tags/mowzies_bosses.js"
