@@ -1,0 +1,341 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "next_steps"
+	group: "48841A8C395C40D5"
+	id: "059C8E3BA11BD516"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["57B0727D357856C6"]
+			id: "7756E05A9E7AB29F"
+			tasks: [{
+				count: 2L
+				id: "46F95B3F44E41A2B"
+				item: "saintsdragons:worldroot_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "57B0727D357856C6"
+			tasks: [{
+				id: "24FD1F7D49D434CF"
+				item: "saintsdragons:draconic_crucible"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "4B812A16C2D3CA0F"
+			tasks: [{
+				id: "334C764FADD530C2"
+				title: "Add something that leads to other structures like ancient cities"
+				type: "custom"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			description: ["Hearty Dragon Meal is a universally loved food for all dragons and often has stronger effects than other preferred food. &4&nIt can also be made with almost any fish and eggs.&r"]
+			hide_until_deps_complete: true
+			id: "197A51AEA89A7FF8"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "250F67631AA9D398"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 6L
+				id: "1A1F8A7F828893F5"
+				item: "saintsdragons:hearty_dragon_meal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "29DC1FEF1871089D"
+			tasks: [{
+				id: "08D79CA9CD1280FF"
+				title: "Find IVy"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "4B8DF1E0E921CA44"
+			tasks: [{
+				id: "60DBCF388E4C64AF"
+				title: "tame cindervane"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "27B101C923BEA1FD"
+			tasks: [{
+				id: "3C257CB275D3932A"
+				item: "saintsdragons:varasuchus_egg"
+				type: "item"
+			}]
+			title: "Givr ivy an egg"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["149BF56B98224AAF"]
+			description: [
+				"Vestige"
+				"You've done well to make it this far. My hope in your actions grows ever more with each block you break, each item you craft, each entity you interact with."
+				"Things will only get harder from here. Time is something nobody can avoid, and the clock is forever ticking."
+				"For now, celebrate as you venture forwards evermore."
+			]
+			id: "3A6E403F44FFE7AA"
+			tasks: [{
+				id: "11DA5FF0BBE82DCD"
+				title: "E"
+				type: "checkmark"
+			}]
+			title: "Onwards"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			id: "2A670EEA2FB3A5B0"
+			tasks: [{
+				id: "695812BA6402630F"
+				title: "dragon alloy"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: ["Taverns are small buildings offering rest and food via the villagers housed there. Most notably, however, they are a source of structure maps, each showing the location of a specific structure. For an explorer, there's no better method, except maybe special eyes."]
+			id: "70A04C140ADBC630"
+			tasks: [{
+				advancement: "nova_structures:adventure/find_tavern"
+				criterion: ""
+				id: "539C3C1E75448562"
+				title: "Find a Tavern"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			description: ["Frostmaws do not take up a traditional den or cave. Instead, they are found often in large and open snowy biomes."]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3AAB0E864C590306"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "26E503FE1E36277B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "41903BAE9D79805A"
+					structure: "mowziesmobs:frostmaw_spawn"
+					title: "Locate a Frostmaw"
+					type: "structure"
+				}
+				{
+					entity: "mowziesmobs:frostmaw"
+					icon: {
+						Count: 1
+						id: "mowziesmobs:ice_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0F5E4C1AA171CF6D"
+					title: "Slay The Frostmaw"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Frosted Furs"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3AAB0E864C590306"]
+			description: ["The tower of The Night Lich is a large and forboding. While one may discover it naturally along their travels, an easier way of locating one would be to use Soul Stars, dropped from killing undead mobs. Do be aware, however, that you need 4 soul stars to place in each Chiseled Stone Alter, summoning the boss. Be careful."]
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			id: "3CDD48DCA161A352"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "7D472196578D7541"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "716230490ABC2E58"
+					item: { Count: 4, id: "bosses_of_mass_destruction:soul_star" }
+					type: "item"
+				}
+				{
+					id: "0C0450A7C0D1F67B"
+					structure: "bosses_of_mass_destruction:lich_tower"
+					title: "Find The Lich's Tower"
+					type: "structure"
+				}
+				{
+					id: "70829D0D7091419E"
+					item: "bosses_of_mass_destruction:ancient_anima"
+					type: "item"
+				}
+			]
+			title: "Cold as Death"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3CDD48DCA161A352"]
+			description: ["The Frosted Prison is a gargantuan structure that houses the cursed soul of Maledictus. If you aim to conquer it, come prepared, less you meet a similar demise."]
+			id: "4CE580B31A397745"
+			tasks: [{
+				icon: "cataclysm:cursed_eye"
+				id: "20765BA2026DC729"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			title: "Cursed Crypt"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CE580B31A397745"]
+			description: ["The door to Maledictus's chamber is guarded by powerful draugr known as Aptgangr. On death, they will drop you the key to the chamber. Be ready."]
+			id: "059DDAA627A824B9"
+			tasks: [{
+				id: "63C0EB56365D61B4"
+				item: "cataclysm:strange_key"
+				type: "item"
+			}]
+			title: "Master Key"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["059DDAA627A824B9"]
+			description: ["The time has come. Approach the tombstone and slay the cursed king, sealing him for the next millenia."]
+			id: "67E1F1698D957610"
+			rewards: [{
+				amount: 200L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "5CEAC4CA80BC3B5A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:cursium_helmet"
+				id: "25898EDB4CB7415F"
+				title: "Slay Maledictus"
+				type: "kill"
+				value: 1L
+			}]
+			title: "To Seal a King's Soul"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"The Atroxiia is an ancient cryomancy-adapted lindworm species inhabiting frozen mountain ranges, glacial valleys, and polar frontiers. Rather than overwhelming prey through relentless pursuit, Atroxiia establish dominance by exerting precise control over the terrain itself, reshaping the battlefield through specialized cryomantic abilities channeled primarily through the tail. Their composed temperament, territorial discipline, and unusually regal demeanor have inspired countless legends depicting them as forgotten monarchs or divine guardians of winter, though such accounts remain unverified. Despite their measured behavior, an Atroxiia becomes exceptionally dangerous once provoked, relying on calculated force rather than prolonged aggression. &4&nAny meetings will likely be hostile.&r"
+				"Before an Atroxiia can be tamed, &4&nit must first be subdued in combat&r. Wild Atroxiia become vulnerable only after their health is &4&nreduced to approximately 60 HP&r, causing the dragon to enter a stunned state. Once stunned, the dragon may be fed preferred foods such as &n&4raw cod, salmon, beef, porkchops, mutton, chicken, and Hearty Dragon Meal&r."
+				"Feeding an Atroxiia does not guarantee successful taming. Failed attempts will restore a portion of the dragon's health, immediately ending its stunned state and forcing the player to subdue it again."
+				"{image:tumblrbumblr:textures/quests/atroxiia.png width:481 height:113 align:center}"
+			]
+			id: "19CDC61F17EC887C"
+			min_width: 600
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "0CBF197916B729B2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "7DBEE54D888AC271"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
+			subtitle: "Tame an Atroxiia"
+			tasks: [{
+				advancement: "saintsdragons:tame_atroxiia"
+				criterion: ""
+				id: "0F079D5107955DDA"
+				title: "Tame an Atroxiia"
+				type: "advancement"
+			}]
+			title: "The False Pharaoh"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["02BE6270875F9491"]
+			id: "7A243832B62F1D1D"
+			tasks: [{
+				id: "0821E8F9129A9AEF"
+				item: "saintsdragons:atroxiia_binder"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["19CDC61F17EC887C"]
+			id: "02BE6270875F9491"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "39720989E1EE1A26"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 3L
+				id: "67BAE609AFC5F06B"
+				item: { Count: 5, id: "saintsdragons:atroxiia_scale" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "6D3F52DB3F780001"
+			tasks: [{
+				id: "3EB05990C6ADB854"
+				item: "saintsdragons:atroxiia_egg"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+	]
+	title: "Next Steps"
+}

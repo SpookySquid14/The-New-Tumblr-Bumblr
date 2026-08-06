@@ -16,30 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["15ACD993630984F4"]
-			description: ["Dragons are powerful creatures that come in many shapes and forms. Saint's Dragons aims to add variety within these powerful beings. Unlike other dragon based mods, dragons do not spawn in nests or structures. They are instead found in the wild, roaming, or remaining in their territories. While most are neutral, some prpesent a dangerous threat, so be on guard, and be prepared."]
-			hide_until_deps_complete: true
-			id: "4F4F4D2EB4A0F184"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:ancientcoins"
-				id: "33D0F7BA8DBA12DF"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				advancement: "saintsdragons:encounter_dragon"
-				criterion: ""
-				id: "05877B529D0CE7DB"
-				title: "Encounter a dragon"
-				type: "advancement"
-			}]
-			title: "Dragon Encounter"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4F4F4D2EB4A0F184"]
+			dependencies: ["4D54B17785EC3EC0"]
 			description: [
 				"The Volitans is a highly territorial semi-aquatic dragon species adapted for environmental control, area denial, and prolonged territorial occupation. Volitans individuals are known for gradually altering surrounding environments through the accumulation of toxins and venomous biological residue. Volitans pursue prey over long distances. And they also establish dominance by controlling movement within their territory, forcing intruders into increasingly hazardous conditions through toxic spines, lingering breath attacks, and environmental pressure. Although often associated with toxicity, Volitans' activity is not inherently destructive. Once territorial disturbances cease, affected ecosystems frequently stabilize over time, suggesting the species alters environments as a defensive adaptation rather than out of indiscriminate aggression. &n&4If met in the wild, it will view a person as hostile.&r"
 				"Before a Volitans can be tamed, &4&nit must first be subdued in combat&r. Wild Volitans become vulnerable only after their health is &4&nreduced to approximately 60 HP&r, causing the dragon to enter a stunned state. Once stunned, the dragon may be fed preferred foods such as &n&4tropical fish, pufferfish, raw cod, salmon, and Hearty Dragon Meal&r."
@@ -77,11 +54,11 @@
 				type: "advancement"
 			}]
 			title: "Mors per Venenum"
-			x: 5.5d
-			y: -3.5d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["4F4F4D2EB4A0F184"]
+			dependencies: ["4D54B17785EC3EC0"]
 			description: [
 				"The Varasuchus is a highly adaptive semi-aquatic dragon species known for its phase-shifting combat behavior and deceptive threat presentation. Varasuchus individuals initially appear restrained and energy-efficient, often displaying limited aggression during early encounters. Varasuchus relies heavily on delayed escalation. Sustained threats trigger a drastic physiological transition in posture, musculature, and combat behavior, shifting the species from a quadrupedal stance into a far more aggressive bipedal combat phase. This transformation is not believed to be emotional, but tactical. Once escalation occurs, Varasuchus abandons passive territorial tolerance entirely and engages targets with calculated, sustained aggression. Early civilizations frequently utilized domesticated Varasuchus due to their aquatic mobility and defensive potential. In their quadrupedal state, most individuals exhibit measured aggression and relatively stable behavior, leading many settlements to integrate them into fishing operations, shoreline protection, and transport across difficult terrain. When met in the wild, they are typically neutral."
 				"Unlike many dragon species, &4&nVarasuchus are not subdued through direct combat&r. Instead, taming &4&nrequires the rider to remain mounted long enough to exhaust and destabilize the dragon's resistance&r. Wild Varasuchus will violently attempt to throw riders off during the process, &n&4requiring repeated mounting attempts before successful domestication can occur&r."
@@ -113,102 +90,11 @@
 				type: "advancement"
 			}]
 			title: "Resilience"
-			x: -1.5d
-			y: -2.0d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"7EFAB0353D571EF1"
-				"0846198E310D721E"
-				"65D9302038D75A53"
-				"495F0F7106CC9D01"
-				"3E5ABF732BC0002B"
-				"7CD9757E1CD48E5A"
-				"25D54E863A28A0AF"
-			]
-			dependency_requirement: "one_completed"
-			description: [
-				"Dragons have two special stats besides health: Hunger and Happiness. With the &4&nDraconic Codex&r, you can see all your tamed dragons and their needs. In addition, you can view their health, armor value, gender, and location."
-				"{image:tumblrbumblr:textures/quests/draconic-codex.png width:180 height:100 align:center}"
-				"Hunger decreases slowly over time, but drains much faster when riding your dragon, about 4 times as quickly. At 60 hunger and below, they will progressively become weaker until their hunger is less than 30."
-				"To increase hunger, feed your dragon their preferred foods or Hearty Dragon Meals. You can view their preferred foods by clicking the green tab on the side of the codex screen."
-				"&n&4Happiness&r decreases slowly over time and when your dragon takes damage. Like hunger, happiness will slowly drain your dragon's stats when reaching below 60, making them slower as it drains. At 30% and below, they will not let you ride them at all."
-				"Feeding your dragon their preferred foods will increase their happiness, but the primary method is by brushing them."
-			]
-			hide_until_deps_complete: true
-			id: "3F7EC354D082C371"
-			rewards: [
-				{
-					amount: 100L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "568DE6EA4D3FDD96"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 3
-					id: "7ED73DC1C471EAB5"
-					item: "saintsdragons:hearty_dragon_meal"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "51F29502C4D1D1C3"
-					item: "saintsdragons:draconic_codex"
-					type: "item"
-				}
-				{
-					id: "213D5BF35F20DD34"
-					item: {
-						Count: 1
-						id: "saintsdragons:dragon_brush"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Dragon Care 101"
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3F7EC354D082C371"]
-			description: ["The Golden Dragon Brush has the same durability as the normal Dragon Brush but is 3 times as effective."]
-			id: "6E526F7F2E2B094A"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "577949475CFF21B1"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 3
-					id: "05111C19C730CA64"
-					item: "saintsdragons:hearty_dragon_meal"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "611BAB31E3E904BB"
-				item: {
-					Count: 1
-					id: "saintsdragons:golden_dragon_brush"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -0.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["4F4F4D2EB4A0F184"]
+			dependencies: ["4D54B17785EC3EC0"]
 			description: [
 				"The Raevyx is a rare, combat-oriented dragon species known for its nomadic behavior, aerial agility, and calculated aggression. Unlike more instinct-driven dragons, Raevyxians exhibit complex emotional awareness and inherited social behaviors, making their upbringing and handling particularly important. &4&nIn the wild, they will not actively target a person without reason.&r"
 				"Before a Raevyx can be tamed, &4&nit must first be subdued in combat&r. Wild Raevyxians become vulnerable only after their health is &4&nreduced to approximately 60 HP&r, causing the dragon to enter a stunned state. Once stunned, the dragon may be fed preferred foods such as &n&4raw cod, salmon, beef, and Hearty Dragon Meal&r."
@@ -240,11 +126,11 @@
 				type: "advancement"
 			}]
 			title: "Bleeding Bolt"
-			x: 1.5d
-			y: -2.0d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["4F4F4D2EB4A0F184"]
+			dependencies: ["4D54B17785EC3EC0"]
 			description: [
 				"The Ignivorus is a colossal fire-adapted dragon species known for its overwhelming physical presence and extreme thermal output. Native primarily to the Nether, Ignivoruses are capable of drastically altering their surroundings through prolonged exposure alone, often rendering occupied regions permanently hostile to other lifeforms. The Ignivorus relies on sustained pressure, environmental dominance, and absolute escalation once engaged in combat. Its immense resilience and refusal to retreat have made it one of the most feared apex predators documented. &4&nAny meetings will likely be hostile.&r"
 				"Before an Ignivorus can be tamed, &4&nit must first be subdued in combat&r. Wild Ignivoruses become vulnerable only after their health is &4&nreduced to approximately 100 HP&r, causing the dragon to enter a stunned state. Once stunned, the dragon may be fed preferred foods such as &n&4raw cod, salmon, beef, and Hearty Dragon Meal&r."
@@ -277,11 +163,11 @@
 				type: "advancement"
 			}]
 			title: "Scorched Earth"
-			x: 3.0d
-			y: -2.5d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["4F4F4D2EB4A0F184"]
+			dependencies: ["4D54B17785EC3EC0"]
 			description: [
 				"The Cindervane is a highly migratory draconic species known for its exceptional endurance and long-distance flight capability. Unlike territorial apex predators, Cindervanes prioritize survival, mobility, and environmental adaptation over prolonged combat engagement. Historically, many ancient civilizations are believed to have relied on established Cindervane migratory routes when constructing trade paths, evacuation corridors, and long-range messenger networks. Cindervanes are also domesticated for the purpose of transportation rather than combat mounts on a daily basis. Their tendency to disperse eggs across wide regions rather than defend centralized nesting grounds has led many researchers to classify the species as ecological carriers rather than territorial rulers. Although not specialized for sustained combat, Cindervanes remain highly dangerous when cornered. &n&4Wild Cindervanes are not hostile unless provoked.&r"
 				"Similarly to domesticated wolves and cats, Cindervanes can be tamed through &4&ndirect feeding with preferred foods such as raw chicken, cod, salmon, and Hearty Dragon Meal.&r"
@@ -313,11 +199,11 @@
 				type: "advancement"
 			}]
 			title: "Destruction Commence"
-			x: -3.0d
-			y: -2.5d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["4F4F4D2EB4A0F184"]
+			dependencies: ["4D54B17785EC3EC0"]
 			description: [
 				"The Stegonaut is a heavily armored defensive dragon species known for its exceptional protective instincts, social imprinting behavior, and battlefield resilience. Stegonauts prioritize allied defense above direct confrontation, frequently positioning themselves between danger and bonded entities without requiring direct commands. Their immense durability and willingness to absorb incoming force made them highly valued companions for both riders and accompanying creatures. Stegonauts are particularly notable for their compatibility with allied mounts, pets, and cooperative combat behavior. &4&nIn the wild, they are notably peaceful.&r"
 				"Stegonauts can be &n&4tamed through direct feeding using a single favored food item, such as raw cod, salmon, or hearty dragon meal&r. Due to the species' naturally social and imprint-driven behavior, successful taming relies less on subduing aggression and more on establishing immediate trust and recognition."
@@ -348,11 +234,11 @@
 				type: "advancement"
 			}]
 			title: "My Sturdy Friend"
-			x: -5.0d
-			y: -3.5d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["4F4F4D2EB4A0F184"]
+			dependencies: ["4D54B17785EC3EC0"]
 			description: [
 				"The Nulljaw is a passive End-adapted dragon species known for its slow drifting behavior and unusually quiet temperament. Unlike many dragon species, Nulljaws spend the majority of their existence suspended high above the End's landscape, traveling in loose airborne groups across void-touched regions. Due to their calm nature and persistent aerial drifting, sightings of Nulljaw groups are often associated with silence, low visibility conditions, and unusually still atmospheric environments within the End. &4&nIt is always passive.&r"
 				"Nulljaw can be tamed by &n&4feeding it Chorus Fruit&r, which can be found in the End Barrens. Simply hold it out to lure Nulljaws close for taming."
@@ -383,200 +269,14 @@
 				type: "advancement"
 			}]
 			title: "The Gap Between Stars"
-			x: 0.0d
-			y: -1.0d
+			x: -4.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["27B1846A1EEBAE65"]
-			description: [
-				"&4&nBreeding&r requires a pair of &4&none male and one female&r with full health. Shift + Right-click with the dragon's preferred food to initiate breeding. Should you breed one male dragon that you own with a female dragon that someone else owns, or otherwise, the baby will default to following the female. Dragons hatched from eggs made by dragons with different owners are &4&nnot tamed by default&r, but can easily be &4&ntamed by feeding them their preferred foods&r."
-				"The Stegonaut Egg is a rugged stone-gray draconic egg marked by embedded violet crystalline growths scattered unevenly across its shell. It takes on average &4&n25 minutes for an egg to hatch&r. Being fragile as they are, Silk Touch is required to pick the egg up. "
-			]
-			id: "46C3F2332E14DE09"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "51FA0C8880EEB050"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7F8F04585187D65D"
-					table_id: 5600401149156168385L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "7027DCA4D0E990F6"
-				item: "saintsdragons:stegonaut_egg"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6E2CA7E047272912"]
-			description: [
-				"&4&nBreeding&r requires a pair of &4&none male and one female&r with full health. Shift + Right-click with the dragon's preferred food to initiate breeding. Should you breed one male dragon that you own with a female dragon that someone else owns, or otherwise, the baby will default to following the female. Dragons hatched from eggs made by dragons with different owners are &4&nnot tamed by default&r, but can easily be &4&ntamed by feeding them their preferred foods&r."
-				"The Cindervane Egg is small with a dark green base and orange spots. Like turtle eggs, several Cindervane eggs can take up on block. It takes on average &4&n10 minutes for an egg to hatch&r. Being fragile as they are, Silk Touch is required to pick the egg up.  "
-				"&n&4These eggs can be found scattered around Plains biomes."
-			]
-			id: "669847104D42AD47"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "2A763478E3D031B9"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2B92CC28D0C36766"
-					table_id: 5600401149156168385L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "799FFA77B0CE787A"
-				item: "saintsdragons:cindervane_egg"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["37366DC80B28DD48"]
-			description: [
-				"&4&nBreeding&r requires a pair of &4&none male and one female&r with full health. Shift + Right-click with the dragon's preferred food to initiate breeding. Should you breed one male dragon that you own with a female dragon that someone else owns, or otherwise, the baby will default to following the female. Dragons hatched from eggs made by dragons with different owners are &4&nnot tamed by default&r, but can easily be &4&ntamed by feeding them their preferred foods&r."
-				"The Varasuchus Egg is a moss-green draconic egg surrounded by hardened yellowish outer plating, giving it an appearance similar to sediment-covered stone shaped by prolonged exposure to shallow water environments. It takes on average &4&n20 minutes for an egg to hatch&r. Being fragile as they are, Silk Touch is required to pick the egg up.  "
-				"&n&4These eggs can be found rarely on beaches and shores.&r"
-			]
-			id: "1710CDAED22CB5A8"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "1E91F22EBEE00FBB"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1E3CC385B1D9FD35"
-					table_id: 5600401149156168385L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "66F0220E8507B293"
-				item: "saintsdragons:varasuchus_egg"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["11F0DB9E836415B8"]
-			description: [
-				"&4&nBreeding&r requires a pair of &4&none male and one female&r with full health. Shift + Right-click with the dragon's preferred food to initiate breeding. Should you breed one male dragon that you own with a female dragon that someone else owns, or otherwise, the baby will default to following the female. Dragons hatched from eggs made by dragons with different owners are &4&nnot tamed by default&r, but can easily be &4&ntamed by feeding them their preferred foods&r."
-				"The Raevyx Egg is a dark, stone-like draconic egg marked by deep crimson fissures concentrated near its lower shell. It takes on average &4&n15 minutes for an egg to hatch&r, but only 8 when exposed to an active thunderstorm, and the egg will hatch immediately when struck by lightning. Being fragile as they are, Silk Touch is required to pick the egg up."
-				"&n&4Pillager Outposts and Ancient Cities sometimes hold on to these eggs like treasure.&r"
-			]
-			id: "54952AF10C398818"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "7F4649BEEF7C7E91"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "572E7757D2FA1207"
-					table_id: 5600401149156168385L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "127892661A681A53"
-				item: "saintsdragons:raevyx_egg"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["1FBE275D5EFEBE58"]
-			description: [
-				"&4&nBreeding&r requires a pair of &4&none male and one female&r with full health. Shift + Right-click with the dragon's preferred food to initiate breeding. Should you breed one male dragon that you own with a female dragon that someone else owns, or otherwise, the baby will default to following the female. Dragons hatched from eggs made by dragons with different owners are &4&nnot tamed by default&r, but can easily be &4&ntamed by feeding them their preferred foods&r."
-				"The Ignivorus Egg is a large, dense, volcanic-black draconic egg marked by hardened ash-gray plating It takes on average &4&n30 minutes for an egg to hatch&r. Being fragile as they are, Silk Touch is required to pick the egg up.  "
-				"&4&nThese eggs can be found in Ancient Cities, Nether Fortresses, and the treasure rooms of Bastion Remnants.&r"
-			]
-			id: "2B8493E70F29BFF7"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "6D8D810BC2EE0C61"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "556539EC0C256995"
-					table_id: 5600401149156168385L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "2055129F99266869"
-				item: "saintsdragons:ignivorus_egg"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["04ADA47AC314A493"]
-			description: [
-				"&4&nBreeding&r requires a pair of &4&none male and one female&r with full health &4&nwhile being underwater&r. Shift + Right-click with the dragon's preferred food to initiate breeding. Should you breed one male dragon that you own with a female dragon that someone else owns, or otherwise, the baby will default to following the female. Dragons hatched from eggs made by dragons with different owners are &4&nnot tamed by default&r, but can easily be &4&ntamed by feeding them their preferred foods&r."
-				"The Volitans Egg is a deep blue draconic egg marked by pale underlayer plating and a smooth shell texture resembling submerged stone polished by water currents. Unlike other eggs, Volitans eggs must be waterlogged in order to hatch. It takes on average &4&n15 minutes for an egg to hatch&r. Being fragile as they are, Silk Touch is required to pick the egg up.  "
-				"&4&nThese eggs can be found in shipwrecks.&r"
-			]
-			id: "5B721647581D643D"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "640E68D35496A0EE"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 3
-					id: "37C45B6D6384C91B"
-					item: "saintsdragons:hearty_dragon_meal"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "353247C61272A555"
-				item: "saintsdragons:volitans_egg"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4F4F4D2EB4A0F184"]
+			dependencies: ["25117DDCB87D0502"]
 			description: [
 				"Ivy Oleander is a trader known for her reserved demeanor, extensive travels, and unusually deep understanding of dragon behavior, particularly regarding the Raevyx species. Though outwardly calm and approachable, Ivy is widely associated with the disappearance of numerous Pillager groups and raider encampments across distant regions."
 				"Despite maintaining the appearance of an ordinary merchant, rumors surrounding Ivy often describe her as relentless, emotionally detached, and dangerously patient toward those connected to raider activity."
-				"To trade with her, one must show a dragon's egg."
 			]
 			id: "019E4643C7FA74EF"
 			rewards: [
@@ -612,256 +312,10 @@
 				type: "observation"
 			}]
 			title: "The Lone Dragon Trader"
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["4F4F4D2EB4A0F184"]
-			description: ["Hearty Dragon Meal is a universally loved food for all dragons and often has stronger effects than other preferred food. &4&nIt can also be made with almost any fish and eggs.&r"]
-			hide_until_deps_complete: true
-			id: "44D01CCBB3B60B18"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:ancientcoins"
-				id: "20407020E31ECF36"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				count: 6L
-				id: "3D56C44DCB4BD69B"
-				item: "saintsdragons:hearty_dragon_meal"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["3F7EC354D082C371"]
-			description: ["While brushing your dragons, they may drop scales. These can be used to craft binders, allowing you to store your dragons for easy transportation."]
-			id: "133F09C83A5389E8"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "141C03E6863C55F6"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 3
-					id: "68E8359905ADFD0C"
-					item: "saintsdragons:hearty_dragon_meal"
-					type: "item"
-				}
-			]
-			tasks: [{
-				count: 3L
-				id: "2BC6B13E9FA1E4D2"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "saintsdragons:dragon_scales"
-					}
-				}
-				title: "Dragon Scales"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["495F0F7106CC9D01"]
-			id: "27B1846A1EEBAE65"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "1098B8A28B5BB856"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 3
-					id: "5EEC03727AA51864"
-					item: "minecraft:salmon"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "17B1AE041151963D"
-				item: "saintsdragons:stegonaut_binder"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0846198E310D721E"]
-			id: "6E2CA7E047272912"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "5CC097C227D4E2C6"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 3
-					id: "79BA115E557E693A"
-					item: "minecraft:salmon"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "16522190EEB5F37A"
-				item: "saintsdragons:cindervane_binder"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7EFAB0353D571EF1"]
-			id: "37366DC80B28DD48"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "19A791DEBCCDC07F"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 3
-					id: "4F5C12DBADFADB04"
-					item: "minecraft:cod"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6A04C9CA1E6D2940"
-				item: "saintsdragons:varasuchus_binder"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7CD9757E1CD48E5A"]
-			id: "04ADA47AC314A493"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "6E67F0E3F1BB51B5"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 3
-					id: "5B7EFEA268EBAE5D"
-					item: "saintsdragons:hearty_dragon_meal"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "76D1A30CF9AE6997"
-				item: "saintsdragons:volitans_binder"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["65D9302038D75A53"]
-			id: "11F0DB9E836415B8"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "177354056F39F3F1"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 3
-					id: "4A5823D3C723E820"
-					item: "saintsdragons:hearty_dragon_meal"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6B94DE5269E97CE0"
-				item: "saintsdragons:raevyx_binder"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["25D54E863A28A0AF"]
-			id: "1FBE275D5EFEBE58"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "328A6286C008EEC1"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 3
-					id: "32735A599BFD69B9"
-					item: "saintsdragons:hearty_dragon_meal"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6DDF7548B9569C52"
-				item: "saintsdragons:ignivorus_binder"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["3E5ABF732BC0002B"]
-			id: "58EA3C6DC55127AA"
-			rewards: [
-				{
-					amount: 70L
-					currency: "eternalcurrencies:ancientcoins"
-					id: "651DA7AAF88CA80A"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					count: 3
-					id: "04F5D7F0AFADB22B"
-					item: "saintsdragons:hearty_dragon_meal"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "34D90F018C14FE97"
-				item: "saintsdragons:nulljaw_binder"
-				type: "item"
-			}]
-			x: 0.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"669847104D42AD47"
-				"2B8493E70F29BFF7"
-				"54952AF10C398818"
-				"46C3F2332E14DE09"
-				"1710CDAED22CB5A8"
-				"5B721647581D643D"
-			]
 			description: [
 				"Moops are curious fish with simple minds and complex evolutionary abilities, known to be found in rivers. Being about the size of Salmon, Moop are easily identifiable by their tan colours and yellow stripes. The most well-known trait of the Moop to ecologists and Dragon Researchers is the unique blend of proteins and bacteria in their bodies that halts the growth of Dragons that eat them. "
 				"When a Raw Moop is fed to a baby dragon, it will cause them to permanently cease growing. This is a useful tool for keeping your dragons cute and space-efficient. "
@@ -892,7 +346,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["4F4F4D2EB4A0F184"]
 			description: ["Mossbacks are a species of small amphibian dragons known for being generally weak and slow, serving mostly as annoyances to those travelling through the jungles they call home. While not being especially adept at fighting (or anything, for that matter), Mossbacks face little true hardship and their numbers are limited only by their laziness, as their natural toxic defense allows them freedom from any natural predators. Mossbacks possess a bladder-like organ in their throats that produce immense amounts of a somewhat weak poison, causing them to always be partially inflated and to leak noxious gasses when under any amount of physical pressure. &4&nThey are not only passive when met in the wild, but able to be picked up and thrown as a projectile.&r"]
 			id: "331F467C59076F55"
 			rewards: [
@@ -917,6 +370,539 @@
 			}]
 			x: 0.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			description: ["Dragons are powerful creatures that come in many shapes and forms. Saint's Dragons aims to add variety within these powerful beings. Unlike other dragon based mods, dragons do not spawn in nests or structures. They are instead found in the wild, roaming, or remaining in their territories. While most are neutral, some prpesent a dangerous threat, so be on guard, and be prepared."]
+			hide_until_deps_complete: true
+			id: "4D54B17785EC3EC0"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "18467F3BD6749644"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				advancement: "saintsdragons:encounter_dragon"
+				criterion: ""
+				id: "058CB82F8BF03B45"
+				title: "Encounter a dragon"
+				type: "advancement"
+			}]
+			title: "Dragon Encounter 2"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D54B17785EC3EC0"]
+			description: [
+				"In exploring the Ancient Cities of the old world, I've discovered scripts describing the creation of an ancient forge I have dubbed The Draconic Crucible. I've recreated it with &4&nAncient Dragonite Fragments found in the same Ancient Cities&r."
+				"Being a forge, it requires a heavy amount of heat to operate. Blaze Powder has been an easily obtainable source of this, but I believe something could be &4&ncreated with Cindervane scales and coal&r."
+				""
+				"{image:tumblrbumblr:textures/quests/draconic-crucible.png width:520 height:369 align:center}"
+			]
+			id: "2AC31E694EFB6EB3"
+			tasks: [{
+				id: "27D578D28536AEAA"
+				item: "saintsdragons:draconic_crucible"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"The first part of the main progression steps are as follow:"
+				"(reveal if you want to be spoiled)"
+				""
+				"||1. Explore ancient cities to find Ancient Dragonite Fragments"
+				"2. Craft a Draconic Crucible (the new main crafting station of the mod)"
+				"3. Mine the new Worldroot Ore in deep deepslate layers"
+				"4. Obtain blaze powder to use as fuel for the Draconic Crucible (this is a tier 2 fuel item), or alternatively, tame a Cindervane and harvest its scales to craft Searing Coals (also tier 2 fuel item)"
+				"4. Smelt the new Worldroot ores in the Draconic Crucible (require tier 2 fuels)"
+				"5. Craft Worldroot tools (they're better than diamond but weaker than netherite)"
+				""
+				"The rest i'll let other players figure out||"
+			]
+			id: "536A723164A346B6"
+			tasks: [{
+				id: "1CDA08B69C99E7FB"
+				type: "custom"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2AC31E694EFB6EB3"]
+			description: ["There are tales of an ancient material, older than the world itself. Found deep within the earth under immense pressure, it is known as &4&nWorld Root&r. I have found the material to be real, and very, very hard, requiring at least diamond tier tools to break, and can onl"]
+			id: "18C4659AC9FEDFED"
+			tasks: [{
+				id: "6C62FEE12BC820E5"
+				item: "saintsdragons:raw_worldroot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18C4659AC9FEDFED"]
+			description: ["With smelted Worldroot, Echo Shards, and a Dragon Seal Stone I found within ancient cities, I've crated a core that, in theory, may be able to bind a dragon. I just need to find a way to add further connection to a particular species."]
+			id: "6D3D534CCE38C433"
+			tasks: [{
+				id: "451D7B264D29EF24"
+				item: "saintsdragons:dragon_binder_core"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D3D534CCE38C433"]
+			id: "6B1CD349EC70CC27"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2CB04D66637B3222"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "6E8FFF1EC725DB0C"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35868E5BC6E99822"
+				item: "saintsdragons:raevyx_binder"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D3D534CCE38C433"]
+			id: "0A20CE333088F8A3"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5F0FC83DFDE02646"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "595BEB9EE85817D7"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DD686335B98CB9A"
+				item: "saintsdragons:cindervane_binder"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D3D534CCE38C433"]
+			id: "24DE89C9614E4CB0"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "4730801E3F7068D2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "0B73F944B52793D8"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75C5308A0D9B3333"
+				item: "saintsdragons:varasuchus_binder"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D3D534CCE38C433"]
+			id: "577FE30DC0835700"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "71321ACCC0BDDBF4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "3663C33131BFCA19"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C36E3F7777C8CA9"
+				item: "saintsdragons:ignivorus_binder"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D3D534CCE38C433"]
+			id: "3E20FDB2C997B2AD"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "49AE5F9DF4CCF375"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "456A399AE2C86A6C"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A10B3F50501ECC7"
+				item: "saintsdragons:volitans_binder"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D3D534CCE38C433"]
+			id: "0F71AC487D31D20B"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "61E682A4D6999F09"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "21AE87EF30377614"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A10440A63B88526"
+				item: "saintsdragons:stegonaut_binder"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D3D534CCE38C433"]
+			id: "105F0A338BB686C4"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "281022B40D50DB19"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "3B68A0FE5FC25FAB"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58E47896C79AB1F7"
+				item: "saintsdragons:nulljaw_binder"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D3D534CCE38C433"]
+			id: "6A464CA3591BB2F4"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "11FC76B4631F1BFD"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "3C148BF6D035ECFB"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F169835F31991E2"
+				item: "saintsdragons:atroxiia_binder"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25117DDCB87D0502"]
+			description: [
+				"&n&4Your dragon's happiness&r decreases slowly over time, as well as when your dragon takes damage, or when scales are forcibly plucked out. Like hunger, happiness will slowly drain your dragon's stats when reaching below 60, making them slower as it drains. At 30% and below, they will not let you ride them at all."
+				"Feeding your dragon their preferred foods will increase their happiness, but the primary method is by brushing them."
+				"Dragons are special creatures who require specialized brushes. Of these, there are two variants: a normal brush and a golden brush. &4&nUsing the normal brush on your dragon will increase its happiness by 10 points and the golden brush by 20.&r"
+				"In addition to increasing happiness, a brush can be used to obtain scales if used when the brush icon in the Draconic Codex is lit up at 100%. This value increases steadily over time."
+			]
+			id: "04EE6076E25E4491"
+			tasks: [{
+				id: "0632C869DD7F2D9E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "saintsdragons:dragon_brush"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "saintsdragons:golden_dragon_brush"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Dragon Brush"
+				type: "item"
+			}]
+			title: "Dragon Care 102"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"495F0F7106CC9D01"
+				"0846198E310D721E"
+				"7EFAB0353D571EF1"
+				"25D54E863A28A0AF"
+				"3E5ABF732BC0002B"
+				"65D9302038D75A53"
+				"7CD9757E1CD48E5A"
+				"495F0F7106CC9D01"
+				"78D798DD080DD1E4"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Dragons have two special stats besides health: Hunger and Happiness. With the &4&nDraconic Codex&r, you can see all your tamed dragons and their needs. In addition, you can view their health, armor value, gender, and location."
+				"{image:tumblrbumblr:textures/quests/draconic-codex.png width:180 height:100 align:center}"
+				"Hunger decreases slowly over time, but drains much faster when riding your dragon, about 4 times as quickly. At 60 hunger and below, they will progressively become weaker until their hunger is less than 30."
+				"To increase hunger, feed your dragon their preferred foods or Hearty Dragon Meals. You can view their preferred foods by clicking the green tab on the side of the codex screen."
+			]
+			hide_until_deps_complete: true
+			id: "25117DDCB87D0502"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "6E058F83F247FADF"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "3CD9506EFCBD68A1"
+					item: "saintsdragons:hearty_dragon_meal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6332E728F4A4B2C3"
+				item: "saintsdragons:draconic_codex"
+				type: "item"
+			}]
+			title: "Dragon Care 101"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D54B17785EC3EC0"]
+			description: [
+				"The Atroxiia is an ancient cryomancy-adapted lindworm species inhabiting frozen mountain ranges, glacial valleys, and polar frontiers. Rather than overwhelming prey through relentless pursuit, Atroxiia establish dominance by exerting precise control over the terrain itself, reshaping the battlefield through specialized cryomantic abilities channeled primarily through the tail. Their composed temperament, territorial discipline, and unusually regal demeanor have inspired countless legends depicting them as forgotten monarchs or divine guardians of winter, though such accounts remain unverified. Despite their measured behavior, an Atroxiia becomes exceptionally dangerous once provoked, relying on calculated force rather than prolonged aggression. &4&nAny meetings will likely be hostile.&r"
+				"Before an Atroxiia can be tamed, &4&nit must first be subdued in combat&r. Wild Atroxiia become vulnerable only after their health is &4&nreduced to approximately 60 HP&r, causing the dragon to enter a stunned state. Once stunned, the dragon may be fed preferred foods such as &n&4raw cod, salmon, beef, porkchops, mutton, chicken, and Hearty Dragon Meal&r."
+				"Feeding an Atroxiia does not guarantee successful taming. Failed attempts will restore a portion of the dragon's health, immediately ending its stunned state and forcing the player to subdue it again."
+				"{image:tumblrbumblr:textures/quests/atroxiia.png width:481 height:113 align:center}"
+			]
+			id: "78D798DD080DD1E4"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "2D06E27028EA4F90"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "51816DB5ADDF5DDC"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
+			subtitle: "Tame an Atroxiia"
+			tasks: [{
+				advancement: "saintsdragons:tame_atroxiia"
+				criterion: ""
+				id: "1CF3E3F15EA2447D"
+				title: "Tame an Atroxiia"
+				type: "advancement"
+			}]
+			title: "The False Pharaoh"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D54B17785EC3EC0"]
+			description: ["Hearty Dragon Meal is a universally loved food for all dragons and often has stronger effects than other preferred food. &4&nIt can also be made with almost any fish and eggs.&r"]
+			hide_until_deps_complete: true
+			id: "16F31CF0700E1CC8"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "68278D65F2423EE3"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				count: 6L
+				id: "44E7B7D82B40CE2F"
+				item: "saintsdragons:hearty_dragon_meal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["18C4659AC9FEDFED"]
+			description: ["Dragonheart alloy is a very strong material "]
+			id: "4529EF7EA98B474C"
+			tasks: [{
+				id: "569180BAA9F02785"
+				item: "saintsdragons:dragonheart_alloy"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4529EF7EA98B474C"]
+			id: "538F30201366232F"
+			tasks: [
+				{
+					id: "5BE497D75823F1D2"
+					item: {
+						Count: 1
+						id: "saintsdragons:dragonlord_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46AE82DA3D99C9EC"
+					item: {
+						Count: 1
+						id: "saintsdragons:dragonlord_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B36D5D489263731"
+					item: {
+						Count: 1
+						id: "saintsdragons:dragonlord_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3874D15291F7D01E"
+					item: {
+						Count: 1
+						id: "saintsdragons:dragonlord_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "227D0D349C97844D"
+					item: {
+						Count: 1
+						id: "saintsdragons:dragonlord_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			description: ["Finding, killing, making armor, making incubator, hatching egg"]
+			id: "2C9358C87170FB16"
+			tasks: [{
+				id: "03CE38AD925C6E12"
+				title: "Path of ignivorus"
+				type: "custom"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			id: "58A91870FFA1A844"
+			tasks: [{
+				id: "3406022C73012468"
+				item: "saintsdragons:ignivorus_tooth"
+				type: "item"
+			}]
+			title: "Kill an Ignivorus"
+			x: -11.0d
+			y: -2.0d
 		}
 	]
 	title: "Saint's Dragons"

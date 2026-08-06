@@ -2,11 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tinkers_construct"
-	group: "1CE580FB33A3818E"
+	group: "44D6198450F74D4C"
 	hide_quest_until_deps_visible: true
 	icon: "tconstruct:smeltery_controller"
 	id: "2248DCF95595D594"
-	order_index: 2
+	order_index: 10
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [

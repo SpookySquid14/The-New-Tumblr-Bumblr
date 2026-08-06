@@ -1,5 +1,4 @@
 {
-	autofocus_id: "15ACD993630984F4"
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
@@ -47,8 +46,8 @@
 			image: "tumblrbumblr:textures/quests/apotheosis-logo.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: 5.5d
-			y: -1.0d
+			x: 8.5d
+			y: -3.5d
 		}
 		{
 			click: "#266180B8179705EE"
@@ -57,8 +56,8 @@
 			image: "tumblrbumblr:textures/quests/apotheosis.png"
 			rotation: 0.0d
 			width: 4.5d
-			x: 5.5d
-			y: 0.0d
+			x: 9.0d
+			y: -2.5d
 		}
 	]
 	order_index: 0
@@ -159,10 +158,10 @@
 			}]
 			title: "How much wood"
 			x: -0.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["5FF18EB0CE40B71B"]
+			dependencies: ["257AD50176950053"]
 			description: [
 				"You've done well and gotten your bearings, but it's likely beginning to get dark, no? In this case, you'll want to keep your surroundings lit. Not only will it prevent hostile mobs from spawning, but it will also keep The Wilted at bay."
 				"I, Professor Larch, recommend &o&6torches&r as the quickest and easiest method. A stick and some sort of coal is the easiest way to craft them. &6&oIf you've not gone underground yet, charcoal can be made by burning wooden logs.&r"
@@ -196,8 +195,8 @@
 				type: "item"
 			}]
 			title: "Light em up up up"
-			x: -0.5d
-			y: -1.0d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4DFD059C412284D5"]
@@ -237,8 +236,8 @@
 				type: "item"
 			}]
 			title: "Cozy and Comfortable"
-			x: -0.5d
-			y: -2.0d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4DFD059C412284D5"]
@@ -259,10 +258,10 @@
 			id: "36A6DDDCE75E7925"
 			optional: true
 			rewards: [{
-				count: 3
-				id: "74A6643D636405A1"
-				item: "minecraft:red_wool"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "12AE374199129BA6"
+				table_id: 7171380229752220707L
+				type: "loot"
 			}]
 			shape: "pentagon"
 			tasks: [
@@ -279,8 +278,8 @@
 				}
 			]
 			title: "Home is where the claim is"
-			x: -1.5d
-			y: -1.5d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["05B83606164A1853"]
@@ -326,8 +325,8 @@
 				value: 250
 			}]
 			title: "Don't lose your way(stone)"
-			x: -0.5d
-			y: -3.0d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5FF18EB0CE40B71B"]
@@ -352,7 +351,7 @@
 			}]
 			title: "Let's (Mine)craft!"
 			x: 1.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6D9C812CBC680546"]
@@ -399,8 +398,8 @@
 				type: "item"
 			}]
 			title: "Smeltery? Not Quite"
-			x: 2.0d
-			y: 0.0d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3B7DF82593D5E9F1"]
@@ -456,8 +455,8 @@
 				type: "item"
 			}]
 			title: "Bags Of Holding"
-			x: 0.5d
-			y: -2.0d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
@@ -570,19 +569,17 @@
 				type: "structure"
 			}]
 			title: "Villages to Venture"
-			x: 4.5d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["15ACD993630984F4"]
-			dependency_requirement: "one_completed"
+			dependencies: ["6D9C812CBC680546"]
 			description: [
 				"I hear you. Even with a nice bag and some chests, the items just keep piling up. At some point, you need to get rid of them, so have you considered &o&6selling your goods?&r If you have, then I, Professor Larch, recommend investing in a &o&6shipping bin&r."
 				"Opening the bin, you'll find its inventory is much like a chest. &6&oSimply put in what you wish to sell, and when the clock strikes midnight, you will be notified of your earnings, which you can pick up next time you open it.&r"
 				"Note that &onot all items are sellable&r, and some items like common ingredients may require more than one to receive any profit."
 				"{image:tumblrbumblr:textures/quests/shipping-bin.png width:156 height:90 align:center}"
 			]
-			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "30ABD0E686F62848"
 			rewards: [{
@@ -598,8 +595,8 @@
 				type: "item"
 			}]
 			title: "Ship It Off!"
-			x: 1.5d
-			y: -1.5d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["64084A2EAFBE2B7F"]
@@ -638,7 +635,7 @@
 				value: 1
 			}]
 			title: "Village Defense Squad"
-			x: 5.5d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -660,7 +657,7 @@
 				value: 5
 			}]
 			title: "A True Hero of Green"
-			x: 6.5d
+			x: 7.0d
 			y: 1.5d
 		}
 		{
@@ -683,7 +680,7 @@
 				type: "item"
 			}]
 			title: "Trading Central"
-			x: 3.5d
+			x: 4.0d
 			y: 1.5d
 		}
 		{
@@ -733,7 +730,7 @@
 				item: "create:clipboard"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 0.5d
 		}
 		{
@@ -825,7 +822,7 @@
 				type: "item"
 			}]
 			title: "The Book of Babel"
-			x: -1.5d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -975,18 +972,18 @@
 				type: "item"
 			}]
 			title: "Tree Finished, Now An Upgrade"
-			x: 1.5d
+			x: 1.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["15ACD993630984F4"]
+			dependencies: ["6D9C812CBC680546"]
 			description: [
 				"I'm sure you've filled your pockets with all sorts of blocks and knick knacks. Well, do not fear, for I, Professor Larch, will teach you about &6&obundles&r."
 				"Bundles are fantastic little pouches that can hold up to a stack's worth of items. &6&oTo store an item hover the bundle over it and left click, or do the opposite and click the bundle with an item. To retrieve an item, hover over the bundle and scroll to the item you wish to take, then right click.&r"
 				"It should be known, however, that bundles have their limits. &6&oItems with stack sizes of less than 64 will take up more space in a bundle, such as a potion taking 4 of bundle's 64 slots due to its stack size of 16.&r A bundle can only carry one of any item that does not stack."
 				"Bundles are very useful, and you can carry up to two on your person via the curios slots."
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			hide_until_deps_complete: true
 			id: "3B7DF82593D5E9F1"
 			rewards: [{
@@ -1002,8 +999,8 @@
 				type: "item"
 			}]
 			title: "Extra Pockets"
-			x: 0.5d
-			y: -1.0d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["257AD50176950053"]
@@ -1023,7 +1020,7 @@
 			}]
 			title: "What a Blast!"
 			x: 3.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["257AD50176950053"]
@@ -1043,9 +1040,9 @@
 				type: "item"
 			}]
 			title: "Smoking Sexy Style"
-			x: 3.0d
-			y: -0.5d
+			x: 2.0d
+			y: 1.0d
 		}
 	]
-	title: "Fresh Beginnings"
+	title: "First Steps"
 }

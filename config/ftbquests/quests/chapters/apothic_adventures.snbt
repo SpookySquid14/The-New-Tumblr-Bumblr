@@ -3,7 +3,7 @@
 	default_min_width: 500
 	default_quest_shape: "pentagon"
 	filename: "apothic_adventures"
-	group: "1CE580FB33A3818E"
+	group: "44D6198450F74D4C"
 	icon: {
 		Count: 1
 		id: "patchouli:guide_book"
@@ -12,7 +12,7 @@
 		}
 	}
 	id: "266180B8179705EE"
-	order_index: 0
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

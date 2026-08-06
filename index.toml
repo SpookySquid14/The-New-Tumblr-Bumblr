@@ -854,7 +854,7 @@ hash = "dea4d260e6eac868297c0f9cd80545fd6b54f7344c678b89edda980a3fc5e8cf"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "090de8daf0d3ca16613019189e761b4ad6fe137676d3f5ac9f92e97fbf9b9fe0"
+hash = "b1995ead4b5041b483606e418a095edfb8d2f0509e09c0054a4f75450fb0c51a"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -1366,7 +1366,7 @@ hash = "63f34caf47c465338b28a5661d3236aa71ea5e4774635bad54718c3edc7bbfec"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "4253a3c2f7c7882f196417797c0db625dd4875620fe3794bfdbc936ed1d34ee3"
+hash = "7429218342853e94ff197b9f0557ee6ee824aa49fdc1a8ca49607da36de874cd"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -1502,7 +1502,7 @@ hash = "f9616237b0d43c79785604221a2f5f628f7b970ff1cc1884734ca70143cb9de5"
 
 [[files]]
 file = "config/betterfpsdist.json"
-hash = "dd437d1a2ccc0adea260a1cb56cd0c43aefae9c529b4be571f802588d7534afe"
+hash = "e08fc526aae2826da82d1d25f64e583835c754f3ede31ae488d7dcf9bb4bdfb1"
 
 [[files]]
 file = "config/bettermineshafts-forge-1_20.toml"
@@ -62577,12 +62577,48 @@ file = "config/blockswap/known_states/relics/researching_table.json5"
 hash = "75fb1de70a2c3b8f02b1e4964b37377a5c944ebafc15e968f187ede017368a79"
 
 [[files]]
+file = "config/blockswap/known_states/saintsdragons/atroxiia_egg.json5"
+hash = "a0910811c8223c9db9b63ce5128eee358c6e14ee6e27bc8dc4a1bf50577f6164"
+
+[[files]]
 file = "config/blockswap/known_states/saintsdragons/cindervane_egg.json5"
 hash = "bac2fcc1c2ca537c98440477eba46ba01b8d6496591774d743c4713ed150deb9"
 
 [[files]]
+file = "config/blockswap/known_states/saintsdragons/deepslate_worldroot_ore.json5"
+hash = "8af4d498b2e9f1dd8f4805e55d43c84339833597f0c908ff56c362fc2f4e6bf5"
+
+[[files]]
+file = "config/blockswap/known_states/saintsdragons/draconian_nucleus.json5"
+hash = "9d8f2b956e613b3a6ea5596db5f917b155bc30629661b945c1a41e0c1605f79e"
+
+[[files]]
+file = "config/blockswap/known_states/saintsdragons/draconian_pellucida.json5"
+hash = "b718d81bc2ffbf6502c2316c64d03f589ca2405d440bddd438264969e7ef0db5"
+
+[[files]]
+file = "config/blockswap/known_states/saintsdragons/draconic_crucible.json5"
+hash = "0ba376bcef87189bae510c0b305a3d254dd95ce895729faa6a471cb8c5bf7e1e"
+
+[[files]]
+file = "config/blockswap/known_states/saintsdragons/dragonheart_alloy_block.json5"
+hash = "dfb25233c5e2fb003845ad133c596d75efc58ff5b5d381da2da57f26b1c471ea"
+
+[[files]]
+file = "config/blockswap/known_states/saintsdragons/dragonheart_block.json5"
+hash = "cf52c29b571bdf7dde21f031640607a4591aa32ec5847c311f645e0fa0b68034"
+
+[[files]]
+file = "config/blockswap/known_states/saintsdragons/dragonheart_ore.json5"
+hash = "27268d669315e12abaf659065a2832375370913f7c13849a272a05d08afc71e6"
+
+[[files]]
 file = "config/blockswap/known_states/saintsdragons/ignivorus_egg.json5"
 hash = "df5b06a110482af0d82538c5365e78027b17efd9abcd9903f1356580b9e975bf"
+
+[[files]]
+file = "config/blockswap/known_states/saintsdragons/ignivorus_incubator_block.json5"
+hash = "877ab245b0d936fe1eadb4688b297b881861309c3deab26c444f31914474edc0"
 
 [[files]]
 file = "config/blockswap/known_states/saintsdragons/nulljaw_egg.json5"
@@ -62591,6 +62627,10 @@ hash = "e6981acafcab6c8e061d1b2020339d3f72455b2ecfddbc59c6208d209ba1541b"
 [[files]]
 file = "config/blockswap/known_states/saintsdragons/raevyx_egg.json5"
 hash = "f20c7a0c6abaf0fc1c3cc7b872788f88e952fb15b44c2b1a74dbdbe1b2589c25"
+
+[[files]]
+file = "config/blockswap/known_states/saintsdragons/raw_worldroot_block.json5"
+hash = "6430b01abcc1bc10dd5c3896f305c27e0f3602714fc57185e80c268b3ad7fe98"
 
 [[files]]
 file = "config/blockswap/known_states/saintsdragons/stegonaut_egg.json5"
@@ -62603,6 +62643,10 @@ hash = "5936d8637b83445792135e968e1d5811d27274837131c621709f426b78e19706"
 [[files]]
 file = "config/blockswap/known_states/saintsdragons/volitans_egg.json5"
 hash = "00d13da99fcc2985bc1a375a5c8b33acf0e6a6dac804f6e9bcabf5830297ed86"
+
+[[files]]
+file = "config/blockswap/known_states/saintsdragons/worldroot_block.json5"
+hash = "16de01d7232889791b818b3a8b566c85354d1ed15bd8b621aa0bfb383bec12ae"
 
 [[files]]
 file = "config/blockswap/known_states/shippingbin/shipping_bin.json5"
@@ -68766,7 +68810,7 @@ hash = "297009e2b4fb125be2f3c0586ff3076b4b437fb155997a4689aaa77e11590b31"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "85e97a0c9dec1b6bf855be4234668cf40d346df15838876acfe775d9e4240b85"
+hash = "5a98e87b5dcc412258e8a78b120611084ebafbb4b57c254c6d12db310e2a6729"
 
 [[files]]
 file = "config/citadel-common.toml"
@@ -69210,7 +69254,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "14dcc57a8e55a8b50e2760f7dc07b5660b978e0d0dd9282232497f3a2e3f6927"
+hash = "bb3514f4085378ae3954f1675cdf237b8833a1e3a194091b919873224fa5aaf8"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70218,7 +70262,7 @@ hash = "5ab406b57f74a7e9cbd892aaf00e4a58f5185333d37c146af68b700c9336c717"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "c23c78e9f51ae08d8899db327a493b951b235d817dee927e5d9c5cc574673c3e"
+hash = "64394ddf8560b8ae64bc074d76a88ab5e7d95c76fcf51149a0d69d7a08b25f9b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ad_astra.snbt"
@@ -70226,7 +70270,7 @@ hash = "60c5487d9a7261275a3d5d9c7386e950f3aeb6e8944e915006074da5fe2be5f3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apothic_adventures.snbt"
-hash = "8e6f8e00c839cd8c7169821074a58945f0543d2e60d76c67c79cd2be6ca31184"
+hash = "a42f57f90867642e1ef5fe540099ea0e6a822dc4ea21441649a632dc343717af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
@@ -70250,7 +70294,7 @@ hash = "063f0b38ef1e58b1893758665685ae7a3351c55760470bf0dac100ee80bab413"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/boats_and_planes.snbt"
-hash = "33a8e28676fb5c8ffcabdd777cc493fe6ebfcec3fe382cc20cd4d9cb2c4bc340"
+hash = "c62e5522d461edc9739b5e9a7778d4e87e97cfd5fb56e318fc2ec2f060d35927"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/born_in_chaos.snbt"
@@ -70270,11 +70314,11 @@ hash = "141fd55eb8d78eacef11969d67e96fb6cc3a18faa87633b46a53f0a72d1d50c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "ecac9c6cdbe35dfd79ba63e28ad3f7cbf2c178dbcbc64135119f44299bedd074"
+hash = "cb1f7112335f0b17a8665d675fff2c757e23ef9549eefff131fcdcbf0560ec68"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/complicated_bees.snbt"
-hash = "25fd0b7f0cc331ff268f5dde6a9d5e726ded2a7544c0d9c37ca73e3c214449dc"
+hash = "49ec77a1ab3f55e366981e6251f3e9d4bb3a3ab5bc929f15b0d1cc6ab39a3c2a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -70286,7 +70330,7 @@ hash = "07b12e3f7750c95261bc28a3f7fcc6bbaaad93f691645d58c683fdf49a98893d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
-hash = "4b6a82f7d67b62ebb2d36da4e0ed2d2bf91efbc3b0119a7f215756853febb0ab"
+hash = "b952fa614391da3be32c111c42bdec5a062f8bc6c5a638fad67373596380e450"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farming.snbt"
@@ -70298,7 +70342,7 @@ hash = "74c7ffe73c263974c5b4dbe069b48e0bd1ea54d6dcd9897af88901e3fb33fe54"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "0b21cd9b2f4257616923fa47e5a41c942f8d525e2e4136aee9ef6e892c1a48ae"
+hash = "cadf7356a885f9bb65619ec1b990e0f735e2a84d7f08399f47dc2bf3301aca3f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
@@ -70314,7 +70358,7 @@ hash = "9ff9a5ea3b7af2dab8f81f2c41ad0366c545cb1b0249cdc22931ea68e15d2f9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/legendary_eyes.snbt"
-hash = "31ecb3851b43e6a90d989c1de1551e167587c2e3a8aaec20e317a356bbab7a21"
+hash = "a692e1680d3fa6a8878bb02e0266bd7f42e0c4c8da21033b9cff69eb729abc44"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magics_and_madness.snbt"
@@ -70330,15 +70374,19 @@ hash = "9fc95d281d92eaa2167763d7170262b08d56cbf48f4fdb766db8a8db8e136fac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mining.snbt"
-hash = "7f5e3633537a37a2497f4d67c770950bd3de13ce5abaef3b668f59eefe52e119"
+hash = "adecbe981d1c961834bb997a827e3c88ca9e5a946de7de2007cfc09453e74a81"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mob_grinding_utils.snbt"
-hash = "5621f041ae7b8bacde559a574254ffc02ad47899171e3d314d9b8faef4c78754"
+hash = "16f8b3b4d98290c9760ccbd93e2efbcb1db45ab6e059c4e832a529d310654061"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.snbt"
 hash = "d0bac7e42976d8be5a98bf0b8706e73dfa7a7483c60729927b80689db7ae53bf"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/next_steps.snbt"
+hash = "d861df2b3d44c9846d87dac7ed2b314973e45447c6f93f8aee13c7c8edd497ed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.snbt"
@@ -70358,7 +70406,7 @@ hash = "5b3634e650b16d4b4fc7b20c34d1825810ec00b70e0692e299c7a152e99675b3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/saints_dragons.snbt"
-hash = "a2eb9f4151d8c0c4d2e5be25d43b2f63b67d2e2848db4dbe7cc821c24bb3b8c3"
+hash = "e3d33bf64a50bcd5fea292179ac02d267fd3eaff8b2a426fb6bed8d15bf12fa9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated_backpacks.snbt"
@@ -70374,7 +70422,7 @@ hash = "11acfa71f1582c9edef54ab8065f11d2f55bf9c0a233d721590d53d498126c59"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkers_construct.snbt"
-hash = "dba5ba70cd482ae67419ae7b0c8f01782732dc11107d0b155cd3bb78ce9021b6"
+hash = "83033d8a4eabf135dd5a1b1b81831dadb32978f6003710cf6924fa84847dcff9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tombstone.snbt"
@@ -70822,11 +70870,11 @@ hash = "8a9c0403b385ca106d0c0b541ea2f2128bf39e3f9b05b342b176ca11834857a4"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "96ec14d94ab1423aa9e4e76f6ab56bca05c71981b1389cf821dc4f909ea5c778"
+hash = "9ab97cd4bcd458ce931d056ef5d6a5f5deee85268c75f6af433e02e11c64d84a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "8279b3abcf9890c088ddd25724df35ab6dfefda698427892fc8de3aa8c761e3a"
+hash = "bc9c67c5875889eda93c199a47b15a08c04435fb6aa4d1d72d639d0e9b7fb2a9"
 
 [[files]]
 file = "config/jeed-client.toml"
@@ -70862,7 +70910,7 @@ hash = "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "cb05e6cc88fe5cc5ce29306131944833ac7a0e112f2b0f4bf37bd41fe4edeadf"
+hash = "4395bff4348d7639fbbe6bf254649c840da119b5efa2a7e3f53f25ee6b7fda58"
 
 [[files]]
 file = "config/jei/world/local/Apothic/lookupHistory.ini"
@@ -70971,6 +71019,10 @@ hash = "278e049de05a907dc48fa563d5159b41c7d0de1e7202e436848c2452e630a667"
 [[files]]
 file = "config/jei/world/local/Music/lookupHistory.ini"
 hash = "dc8f35f1f90143399505a19f2b9566988e8cd78935901249d86150620b9f899b"
+
+[[files]]
+file = "config/jei/world/local/New_Dragons/lookupHistory.ini"
+hash = "6a191f2368b4af3193f286f1ced1f2e31d2d98f89784f850b3895161e64acd38"
 
 [[files]]
 file = "config/jei/world/local/New_Uni/lookupHistory.ini"
@@ -71147,6 +71199,10 @@ hash = "a70d51bd0c8988406a94a9c3b8cc6cbe06e6fcea325def99c01bc1362cc76089"
 [[files]]
 file = "config/jei/world/local/New_World__9/lookupHistory.ini"
 hash = "2f5763cab224905c49863157296459bbd9f839f11bb075afd85c9a46a349bdfb"
+
+[[files]]
+file = "config/jei/world/local/Next_Steps/lookupHistory.ini"
+hash = "aaef88bde26d0c9be11501526ff223e67e515bec1350194caca1d193b0a378f8"
 
 [[files]]
 file = "config/jei/world/local/Night_Test_5/lookupHistory.ini"
@@ -71462,7 +71518,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "023d03846cee20253a69d9f5dacfca99b06911f20a5ede0348b51f3c6e3e9a61"
+hash = "102e514a5cdde2675afcbf0330a851ef65e0b560984703b25b738c2dce44b01d"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71502,11 +71558,11 @@ hash = "0d0fde65203e5b0a005a62d118623bab1ee2133b60cd4f4db20c20a2e8b9a0e7"
 
 [[files]]
 file = "config/mowziesmobs-common.toml"
-hash = "13dd5a80ebae1f7d44271dbec55884dae4652e121b501d87bb22d130525cdc46"
+hash = "6541cfb9e49dc2cf224d3592b1402a45348178b4b1b1626f640df5b9332b9d35"
 
 [[files]]
 file = "config/multimine.cfg"
-hash = "d0a0e833bca98024e2fbe92c66075aa650e05d3bbfc39251d01122cedc8f87e5"
+hash = "09a496e2c87eaa6aa7ebe3cd803629c9062336eeb2b3b388ba718eddbba7d9e4"
 
 [[files]]
 file = "config/multiplayerbosses-common.toml"
@@ -71726,7 +71782,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "cd95475fd27adc341d77294597703d45ea89fc36134e6b549416d9d13af38e13"
+hash = "f149c39daac9a5465afb044f1388aa8905963babefaeae0e4cbb49e526efc473"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71742,7 +71798,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "f3423257e1ae87ac61b950bc0f489c6110b4310c08f8cc65f0e776f00edba22e"
+hash = "a9cf730ef76c2ca0c70a8f68d7f26a165775797874b5aa9159f81691e58e72d4"
 
 [[files]]
 file = "config/pal.properties"
@@ -71983,18 +72039,6 @@ hash = "4010b9aa01f477417abfb32dd9a461cd5282fbe7bad929dd747cd00c9559c48e"
 [[files]]
 file = "config/paxi/resourcepacks/PS Shielded - Xaero Frame 1.0.0.zip"
 hash = "54e69ad8384c12328f0ab837b8ff8a5c81e1b7b21414326750f357e04fb767eb"
-
-[[files]]
-file = "config/paxi/resourcepacks/Secretary Ivy/assets/saintsdragons/optifine/random/entity/ivy_oleander.properties"
-hash = "3db1a840e2438a0c253e741446b9c4241d2d1e061458fbfb44f3b28e41d57387"
-
-[[files]]
-file = "config/paxi/resourcepacks/Secretary Ivy/assets/saintsdragons/optifine/random/entity/ivy_oleander2.png"
-hash = "22f88641df6237aa43bb7a019b3b10c6c2cc3a94ec0d66ed14f65cef05a7fae4"
-
-[[files]]
-file = "config/paxi/resourcepacks/Secretary Ivy/pack.mcmeta"
-hash = "83fce4fe145db1b298d25b3a61046d2cf9b7520218fbbd256515e1e50fdbafdb"
 
 [[files]]
 file = "config/paxi/resourcepacks/Slightly-Improved-Font-1.1.5.zip"
@@ -72302,23 +72346,27 @@ hash = "f36fa723b29bfaf8a62186bd04dee3da1c001db823c0733c38369c645db2915e"
 
 [[files]]
 file = "config/saintsdragons/camera_tuning.json"
-hash = "1433a31d19f29a56c6d99730ea6fa11db9861e5f33510090bbbcdc9a644c1047"
+hash = "c45f538ffc71b657650f60e973fc562539ef5054ee10e4ff498fa0694466e0bc"
 
 [[files]]
 file = "config/saintsdragons/client/clientcommon.toml"
-hash = "d84083cbde0089eae65f24d5ce86087421163e76282dd3fff6a47862090795d1"
+hash = "a1c82604fca8cc81ad2d7447a39dba194c36516afb9bdd0527880d11ac4923bb"
 
 [[files]]
 file = "config/saintsdragons/server/attributes.toml"
-hash = "2715305146074d741b5237cbfa50ad6797821a8d978a583b4779250e8d3b1841"
+hash = "2011cea242a9b7bfce90d7e53acd60e4e8a44d7825baa55feae7779152999276"
 
 [[files]]
 file = "config/saintsdragons/server/servercommon.toml"
-hash = "1138b9ca7ce5f53a53a96d8e88981a6d7f2b1c91e05815892ed64bc69b91cbca"
+hash = "78dc5074a8ee2ce27e4b9b89f708a40859d60b384f7b9f6eefc4380c1b1de34e"
 
 [[files]]
 file = "config/saintsdragons/server/spawning.toml"
-hash = "8053731d2a9c6cf9d15b107014a80718bbf8ca902b291d37d5769e17a4bae3b2"
+hash = "8d54be867f9b5a1edfa56aae43e2947f601cf5f825bd548c3a91b67c669454c2"
+
+[[files]]
+file = "config/saintsdragons/server/tools_and_armor.toml"
+hash = "e8b42ac49dda00f8b2b8dfdb9e7be0533b23e74e660b902af07cf8dc24c88d52"
 
 [[files]]
 file = "config/saintsdragonsspawning.toml"
@@ -72542,11 +72590,7 @@ hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
 
 [[files]]
 file = "config/structurify.json"
-hash = "466557f9f68a426189b67de94bb14dc8731498437ce69d430e1a5aecc01f5421"
-
-[[files]]
-file = "config/structurify/structurify_backup_2026-07-03_17-47-13.json"
-hash = "43c5d5aa0c565895a1cde6cfe447f5e2d1c478feb2bb92971f075d6849856acb"
+hash = "9a935e55b968e1060a12a0ff29282bc04ff1dcf3c4b473e839dbcf13f2dd7361"
 
 [[files]]
 file = "config/structurify/structurify_backup_2026-07-10_11-38-24.json"
@@ -72563,6 +72607,10 @@ hash = "822f284bb166cc16d05acf86d06e53aa9f293c27a833ae9a8a7af734caee2337"
 [[files]]
 file = "config/structurify/structurify_backup_2026-07-11_08-09-04.json"
 hash = "2fabd606ebc1870d519986a238c088db18b36de525dcea8f6dd79e4c8c0b26ed"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-08-05_10-48-46.json"
+hash = "466557f9f68a426189b67de94bb14dc8731498437ce69d430e1a5aecc01f5421"
 
 [[files]]
 file = "config/structurify_dump.json"
@@ -73606,7 +73654,7 @@ hash = "3139c26e432533b00ce7e4eaeafd48c24f10c0b56394770bcf90a34f5e514dcb"
 
 [[files]]
 file = "kubejs/assets/certain_questing_additions/chapter_shaders.json"
-hash = "1bea92798277222d9e3bbfd2da6de8daf43b082b2475dab49d2b1deaee74cb68"
+hash = "d21fa6c886066b09381797d89bd3212221be2d261a4e3be6f906c0017ccabd94"
 
 [[files]]
 file = "kubejs/assets/clanginghowl/textures/slot/empty_feet_slot.png"
@@ -77105,6 +77153,14 @@ file = "kubejs/assets/tumblrbumblr/shaders/core/end_portal.json"
 hash = "83cb3a3c10c75982310778963b2656de1792c9fc745f2d712a88dedf752bd2fe"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/shaders/core/mob_test.fsh"
+hash = "b1f0d07c51779ac641d807591189936e3ee78646940ec351e76c5644f2e948ed"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/shaders/core/mob_test.json"
+hash = "f23bd2beb666d1917142add638edebd55ebb36bdbe16df02d67e4d108d5e1578"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/sounds.json"
 hash = "090130f6caf3179fb2a6f87e4e69a36a83e5192eee4777cc26f2944e9756b783"
 
@@ -77289,6 +77345,10 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/armors-and-weapons.png"
 hash = "c23267db0f888c4ba0e478e49fcebe892d18ed8a7a167e05a4c26228a0ff5485"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/atroxiia.png"
+hash = "396c1e416855dd3724e35bf2eaac5a533045b1b72b725550682dd3df75759b3e"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/augmentation-table.png"
 hash = "2c6fc7b097bbe22bdef9dd18bd1eb244abbae7eaba12db479e8bc2b0e17629eb"
 
@@ -77418,7 +77478,11 @@ hash = "a9f51c05fa38014622a30c1ed711dd0bb94140cd2ea34daee868a0841676222f"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/draconic-codex.png"
-hash = "cc6ac83ae4621eb04a8e87898fdb4b5f9bfe39cc6139c1232675e9ace92a3de1"
+hash = "0f4d5579791a6edbb19acfbf78bb7d933c4549b347fa99cbaff8df242a784d70"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/draconic-crucible.png"
+hash = "6bd1c92af8845008bc964ffa2bc0e95893109af9b629d0668f6a9db5082d78bb"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/empty-focus.png"
@@ -80747,12 +80811,12 @@ metafile = true
 
 [[files]]
 file = "mods/fallen-gems-affixes.pw.toml"
-hash = "5c2eee2d8a1f487debf30fa7b198107bb57eef0065d30dde473faa2aa0e9de05"
+hash = "96f7cda59e4a4f2af276a8fb461e94bfd4f0cb517b86d6bd6d75cac3874a76cf"
 metafile = true
 
 [[files]]
 file = "mods/fallen-lib.pw.toml"
-hash = "21814729b602c041d35a1bcb07425ec8ce4f4589109e11af96add974e4dffffb"
+hash = "3c29ce298219ca194d885649938d00cecc8cd118d4502bcf38084620b8f696a5"
 metafile = true
 
 [[files]]
@@ -81747,7 +81811,7 @@ metafile = true
 
 [[files]]
 file = "mods/saints-dragons.pw.toml"
-hash = "62aa8e89ad818ef6580f9f3c05de0b098c8d7b08fb8145db48b7b32151fc66aa"
+hash = "cb05f87e5b801427b9ce7356889dccd25138a7ddebf426f43a4446b9a80b277c"
 metafile = true
 
 [[files]]
@@ -81983,6 +82047,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "4f53b56bfe2ebfeeb88cee448ee877af716bf0564fcc3b4f8660a34bf5108e7b"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "5f7a256302d085127f36279c4cb66b086e71f361a427d14d6aa45629f2dab398"
 metafile = true
 
 [[files]]
@@ -82344,6 +82413,22 @@ hash = "e87721c991495aee97091d5b5c8acad879b40908e7d4938ed5e3dc5eda27a708"
 [[files]]
 file = "resourcepacks/Quark Programmer Art.zip"
 hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
+
+[[files]]
+file = "resourcepacks/Secretary Ivy/assets/saintsdragons/optifine/random/entity/ivy_oleander.properties"
+hash = "5c325a2e9b99c39ddaebac719c924964411b4e615fa3a4aa654b67773be25da4"
+
+[[files]]
+file = "resourcepacks/Secretary Ivy/assets/saintsdragons/optifine/random/entity/ivy_oleander1.png"
+hash = "cdca7f12987915cb5b590a0060f1c4388c8bcc3ada28241ebcd237c1bf49e0ba"
+
+[[files]]
+file = "resourcepacks/Secretary Ivy/assets/saintsdragons/optifine/random/entity/ivy_oleander2.png"
+hash = "22f88641df6237aa43bb7a019b3b10c6c2cc3a94ec0d66ed14f65cef05a7fae4"
+
+[[files]]
+file = "resourcepacks/Secretary Ivy/pack.mcmeta"
+hash = "83fce4fe145db1b298d25b3a61046d2cf9b7520218fbbd256515e1e50fdbafdb"
 
 [[files]]
 file = "resourcepacks/Slightly-Improved-Font-1.1.5.zip"

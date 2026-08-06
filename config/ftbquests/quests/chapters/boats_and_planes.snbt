@@ -5,7 +5,7 @@
 	group: "1CE580FB33A3818E"
 	icon: "immersive_aircraft:gyrodyne"
 	id: "2A86CB58B0C9B847"
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

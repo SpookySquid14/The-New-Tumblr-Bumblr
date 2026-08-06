@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.28",
-  "config_datetime": "2026-07-11_08-09-04",
+  "config_datetime": "2026-08-05_10-48-46",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -128,6 +128,28 @@
         "dungeons_arise:jungle_tree_house": 1,
         "dungeons_arise:abandoned_temple": 1,
         "dungeons_arise:bathhouse": 2
+      }
+    },
+    {
+      "spacing": 66,
+      "separation": 23,
+      "name": "nova_structures:taverns",
+      "is_disabled": false,
+      "salt": 783,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "nova_structures:tavern_cherry": 1,
+        "nova_structures:tavern_oak": 1,
+        "nova_structures:tavern_birch": 1,
+        "nova_structures:tavern_acacia": 1,
+        "nova_structures:tavern_jungle": 1,
+        "nova_structures:tavern_mangrove": 1,
+        "nova_structures:tavern_swamp": 1,
+        "nova_structures:tavern_dark_oak": 1,
+        "nova_structures:tavern_desert": 1,
+        "nova_structures:tavern_snowy": 1,
+        "nova_structures:tavern_spruce": 1
       }
     },
     {

@@ -103,5 +103,18 @@
     "grounded_pitch_offset": 0.0,
     "air_or_water_pitch_offset": 10.0,
     "pitch_smoothing": 0.15
+  },
+  "atroxiia": {
+    "grounded_distance": 10.0,
+    "air_or_water_distance": 10.0,
+    "bank_shift_max": 0.0,
+    "zoom_smoothing": 0.05,
+    "lateral_shift_smoothing": 0.15,
+    "vertical_shift_smoothing": 0.12,
+    "grounded_vertical_shift": 1.0,
+    "air_or_water_vertical_shift": 1.0,
+    "grounded_pitch_offset": 0.0,
+    "air_or_water_pitch_offset": 0.0,
+    "pitch_smoothing": 0.15
   }
 }

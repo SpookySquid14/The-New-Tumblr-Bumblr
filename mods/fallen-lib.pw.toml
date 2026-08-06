@@ -1,18 +1,18 @@
-filename = 'fallen_lib-1.4.2-hf.jar'
+filename = 'fallen_lib-1.4.4.jar'
 name = 'Fallen Lib'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'fallen_lib-1.4.2-hf.jar'
+x-prismlauncher-version-number = 'fallen_lib-1.4.4.jar'
 
 [download]
-hash = '8fc0c8aec2746149d193a044d0706eace4b91a99'
+hash = '3dfa8d8d9bc69250fc9f390c0fb47ab22abbd5ee'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8419377
+file-id = 8442985
 project-id = 1404737
