@@ -68810,7 +68810,7 @@ hash = "297009e2b4fb125be2f3c0586ff3076b4b437fb155997a4689aaa77e11590b31"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "d1776000cd1bb08bee8dc04d1b6d799187b09b165cab905589c495863ea2eaee"
+hash = "86884d2cd82f18496599989ae47ed73506528fb87ea2da7f863093a9d8ce8c3f"
 
 [[files]]
 file = "config/citadel-common.toml"
@@ -69254,7 +69254,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "e01a158bf339becdf6f53d366c21602f3e519864071ae1547f6a0924f32ddf0f"
+hash = "fcad74b13028f633ee9f41888354177c6e9e9ebf81dfa4ae21f39372f7d9cb86"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70390,7 +70390,7 @@ hash = "d0bac7e42976d8be5a98bf0b8706e73dfa7a7483c60729927b80689db7ae53bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/next_steps.snbt"
-hash = "d861df2b3d44c9846d87dac7ed2b314973e45447c6f93f8aee13c7c8edd497ed"
+hash = "79ea414a35b46159bb7f2dff13d6c0508102be5d9dbb169aba5ce9bcb46c5a7b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.snbt"
@@ -70410,7 +70410,7 @@ hash = "5b3634e650b16d4b4fc7b20c34d1825810ec00b70e0692e299c7a152e99675b3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/saints_dragons.snbt"
-hash = "e3d33bf64a50bcd5fea292179ac02d267fd3eaff8b2a426fb6bed8d15bf12fa9"
+hash = "9b9b66f6d49e35b6312f5a78ab624291db97a2c3e929ce6f3731b1ebf6c31a68"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated_backpacks.snbt"
@@ -70890,7 +70890,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "ea2def4e14800ec7c9fe0660d82b5eb7133b52b929ed383aceb6a8041a76e0f0"
+hash = "969eda0e2401c64f8041781517eb20108cdf35cf33f4c3ce0cc75d6e4b5718ed"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -71305,6 +71305,10 @@ file = "config/jei/world/local/Tectonic_Test/lookupHistory.ini"
 hash = "41b573c5fc5b16ece5b5d727cf2d68d8b98e9e85c0f7952bd0f030311829fcea"
 
 [[files]]
+file = "config/jei/world/local/Terratonic/lookupHistory.ini"
+hash = "1020e90cbfc60fc6f90337887e2bc467291c3c91b9d34681ce1c15f372e6de09"
+
+[[files]]
 file = "config/jei/world/local/Testing/lookupHistory.ini"
 hash = "46670e0a9faa789ac619adbe6bf63dc47b04c66239ee032270e23251d8fe5217"
 
@@ -71522,7 +71526,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "2b98c9fe0484cf98040360c3a2deff3cef0a0be844bb58615ba35c79d7a7a20d"
+hash = "d8e65e82f497172d35bb0bc13e305fd210d0afb6b5b262b818823f2762cb1596"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71566,7 +71570,7 @@ hash = "6541cfb9e49dc2cf224d3592b1402a45348178b4b1b1626f640df5b9332b9d35"
 
 [[files]]
 file = "config/multimine.cfg"
-hash = "09a496e2c87eaa6aa7ebe3cd803629c9062336eeb2b3b388ba718eddbba7d9e4"
+hash = "f72c350315f4277803013f70ddf98ecac528a1bba785007e0b7708b0bd50750d"
 
 [[files]]
 file = "config/multiplayerbosses-common.toml"
@@ -71786,7 +71790,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "fd4c73741fc0edf463242dcee33c7cdf55d145d47a2641255f3562c2ed35bc4a"
+hash = "466625a22ab647034990cb4c5497a9c51e4aa4bb185403c7d48acdcc34085842"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71802,7 +71806,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "6a3fc38a186edbb88e3242b39d0183cb8ab4d619f88deeaae514dec0161927bd"
+hash = "e354bde39d42417bd6cf555e2980cd8fb54fd60b3f84e9242db1154061dcd861"
 
 [[files]]
 file = "config/pal.properties"

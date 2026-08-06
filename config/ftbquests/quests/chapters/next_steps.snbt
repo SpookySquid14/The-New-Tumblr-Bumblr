@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "next_steps"
 	group: "48841A8C395C40D5"
+	icon: "minecraft:diamond"
 	id: "059C8E3BA11BD516"
 	order_index: 1
 	quest_links: [ ]
@@ -16,8 +17,8 @@
 				item: "saintsdragons:worldroot_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			id: "57B0727D357856C6"
@@ -26,8 +27,8 @@
 				item: "saintsdragons:draconic_crucible"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			id: "4B812A16C2D3CA0F"
@@ -36,8 +37,8 @@
 				title: "Add something that leads to other structures like ancient cities"
 				type: "custom"
 			}]
-			x: -5.5d
-			y: -4.0d
+			x: -9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
@@ -57,8 +58,8 @@
 				item: "saintsdragons:hearty_dragon_meal"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			id: "29DC1FEF1871089D"
@@ -67,8 +68,8 @@
 				title: "Find IVy"
 				type: "custom"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			id: "4B8DF1E0E921CA44"
@@ -77,8 +78,8 @@
 				title: "tame cindervane"
 				type: "custom"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			id: "27B101C923BEA1FD"
@@ -88,8 +89,8 @@
 				type: "item"
 			}]
 			title: "Givr ivy an egg"
-			x: 1.0d
-			y: 1.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["149BF56B98224AAF"]
@@ -106,8 +107,8 @@
 				type: "checkmark"
 			}]
 			title: "Onwards"
-			x: -6.0d
-			y: -2.5d
+			x: -8.0d
+			y: -3.0d
 		}
 		{
 			id: "2A670EEA2FB3A5B0"
@@ -116,10 +117,11 @@
 				title: "dragon alloy"
 				type: "custom"
 			}]
-			x: 1.0d
-			y: -0.5d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["3A6E403F44FFE7AA"]
 			description: ["Taverns are small buildings offering rest and food via the villagers housed there. Most notably, however, they are a source of structure maps, each showing the location of a specific structure. For an explorer, there's no better method, except maybe special eyes."]
 			id: "70A04C140ADBC630"
 			tasks: [{
@@ -129,10 +131,11 @@
 				title: "Find a Tavern"
 				type: "advancement"
 			}]
-			x: -5.0d
+			x: -9.0d
 			y: -3.0d
 		}
 		{
+			dependencies: ["3F23F48FE24ECE5C"]
 			description: ["Frostmaws do not take up a traditional den or cave. Instead, they are found often in large and open snowy biomes."]
 			icon: {
 				Count: 1
@@ -172,7 +175,7 @@
 				}
 			]
 			title: "Frosted Furs"
-			x: -4.0d
+			x: -5.5d
 			y: -3.0d
 		}
 		{
@@ -201,32 +204,39 @@
 					type: "structure"
 				}
 				{
-					id: "70829D0D7091419E"
-					item: "bosses_of_mass_destruction:ancient_anima"
-					type: "item"
+					entity: "bosses_of_mass_destruction:lich"
+					icon: "bosses_of_mass_destruction:ancient_anima"
+					id: "7DA360535F770257"
+					title: "Slay The Night Lich"
+					type: "kill"
+					value: 1L
 				}
 			]
 			title: "Cold as Death"
-			x: -3.0d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3CDD48DCA161A352"]
-			description: ["The Frosted Prison is a gargantuan structure that houses the cursed soul of Maledictus. If you aim to conquer it, come prepared, less you meet a similar demise."]
+			description: ["Long guarded by the draugr that roam it, The Frosted Prison is a gargantuan structure housing the cursed soul of Maledictus. If you aim to conquer it and claim the Legendary Eye in his posession, then come prepared, less you meet a similar demise."]
 			id: "4CE580B31A397745"
 			tasks: [{
 				icon: "cataclysm:cursed_eye"
 				id: "20765BA2026DC729"
 				structure: "cataclysm:frosted_prison"
+				title: "Find The Frosted Prison"
 				type: "structure"
 			}]
 			title: "Cursed Crypt"
-			x: -2.0d
+			x: -2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4CE580B31A397745"]
-			description: ["The door to Maledictus's chamber is guarded by powerful draugr known as Aptgangr. On death, they will drop you the key to the chamber. Be ready."]
+			description: [
+				"You will find the door to Maledictus's chamber guarded by powerful draugr known as &6&oAptgangr&r. These colossal foes are capable of sending shockwaves by slamming the ground with its axe, and charging at their enemies with a death grip."
+				"If you manage to kill one, you will obtain the key to the Maledictus's chamber. Make your final preparations, for the time has nearly come."
+			]
 			id: "059DDAA627A824B9"
 			tasks: [{
 				id: "63C0EB56365D61B4"
@@ -234,12 +244,16 @@
 				type: "item"
 			}]
 			title: "Master Key"
-			x: -1.0d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["059DDAA627A824B9"]
-			description: ["The time has come. Approach the tombstone and slay the cursed king, sealing him for the next millenia."]
+			description: [
+				"A difficult fight lies ahead of you to claim the Legendary Eye, for Maledictus can never truly be killed. Even so, his defeat at your hands will be all you need."
+				"Maledictus is rageful, &6&ogetting stronger with each attack that hits its mark&r. At his rage's full potential, even simple strikes may become lethal to the unprepared. His mastery over &6close range maces, dexterous halberds, and long range bows&r will quickly become apparent. The bands around his arm indicate his attacks, with green being blockable, orange blockable but disabling shields, and red unblockable."
+				"&6&oBe patient, be smart, and you will leave this room a champion.&r"
+			]
 			id: "67E1F1698D957610"
 			rewards: [{
 				amount: 200L
@@ -257,10 +271,11 @@
 				value: 1L
 			}]
 			title: "To Seal a King's Soul"
-			x: 0.0d
+			x: -0.5d
 			y: -3.0d
 		}
 		{
+			dependencies: ["3F23F48FE24ECE5C"]
 			description: [
 				"The Atroxiia is an ancient cryomancy-adapted lindworm species inhabiting frozen mountain ranges, glacial valleys, and polar frontiers. Rather than overwhelming prey through relentless pursuit, Atroxiia establish dominance by exerting precise control over the terrain itself, reshaping the battlefield through specialized cryomantic abilities channeled primarily through the tail. Their composed temperament, territorial discipline, and unusually regal demeanor have inspired countless legends depicting them as forgotten monarchs or divine guardians of winter, though such accounts remain unverified. Despite their measured behavior, an Atroxiia becomes exceptionally dangerous once provoked, relying on calculated force rather than prolonged aggression. &4&nAny meetings will likely be hostile.&r"
 				"Before an Atroxiia can be tamed, &4&nit must first be subdued in combat&r. Wild Atroxiia become vulnerable only after their health is &4&nreduced to approximately 60 HP&r, causing the dragon to enter a stunned state. Once stunned, the dragon may be fed preferred foods such as &n&4raw cod, salmon, beef, porkchops, mutton, chicken, and Hearty Dragon Meal&r."
@@ -293,7 +308,7 @@
 				type: "advancement"
 			}]
 			title: "The False Pharaoh"
-			x: -3.5d
+			x: -5.5d
 			y: -4.0d
 		}
 		{
@@ -304,7 +319,7 @@
 				item: "saintsdragons:atroxiia_binder"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.5d
 			y: -4.0d
 		}
 		{
@@ -323,17 +338,515 @@
 				item: { Count: 5, id: "saintsdragons:atroxiia_scale" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -4.5d
 			y: -4.0d
 		}
 		{
-			id: "6D3F52DB3F780001"
+			dependencies: ["3A6E403F44FFE7AA"]
+			dependency_requirement: "all_started"
+			description: ["A Dolphin is an interesting creature. Swimming alongside one will grant you the Dolphin's Grace, speeding up travel drastically. What's more, if you feed a dolphin a fish and gain its favor, it will lead you directly to a shipwreck"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/mob_effect/dolphins_grace.png"
+				}
+			}
+			id: "69BEEF688AA76D82"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "minecraft:textures/mob_effect/dolphins_grace.png"
+						}
+					}
+					id: "7CB4473F320FCC72"
+					observe_type: 5
+					timer: 0L
+					title: "Find a Dolphin And Feed It Fish"
+					to_observe: "minecraft:dolphin"
+					type: "observation"
+				}
+				{
+					count: 3L
+					id: "6948ED6287B04FB8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:foods/raw_fish"
+						}
+					}
+					title: "3x Raw Fish"
+					type: "item"
+				}
+			]
+			title: "Grace of Dolphins"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69BEEF688AA76D82"]
+			description: ["It's hard to say who these ancient relics once belonged to, be it pirates or settlers, monsters or men. What's certainly the truth, however, is that these wrecks have valuable loot inside, including a &6&oBuried Treasure Map&r. This map will lead you to riches beyond your imagination, the most notable being the treasured &6&oHeart of The Sea&r, a rare item used as a crafting ingredient for numerous special items."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/shipwreck.png"
+				}
+			}
+			id: "43D8B9DE51674200"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0446968D4ABBF3F9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
-				id: "3EB05990C6ADB854"
-				item: "saintsdragons:atroxiia_egg"
+				id: "650D31D5658894DF"
+				structure: "#minecraft:shipwreck"
+				title: "Find a Shipwreck"
+				type: "structure"
+			}]
+			title: "A Remnant of The Sea"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "2426440F227E7101"
+			tasks: [
+				{
+					entity: "saintsdragons:ignivorus"
+					icon: "saintsdragons:ignivorus_tooth"
+					id: "4CCCE7AF63D60424"
+					title: "Kill an Ignivorus"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "saintsdragons:volitans"
+					icon: "saintsdragons:volitans_spine"
+					id: "79C23E148C5AD69B"
+					title: "Kill a Volitans"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "saintsdragons:raevyx"
+					icon: "saintsdragons:raevyx_wingtalon"
+					id: "4C610D97130FDDB3"
+					title: "Kill a Raevyx"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Dragon Slayer"
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69BEEF688AA76D82"]
+			description: [
+				"The Volitans is a highly territorial semi-aquatic dragon species adapted for environmental control, area denial, and prolonged territorial occupation. Volitans individuals are known for gradually altering surrounding environments through the accumulation of toxins and venomous biological residue. Volitans pursue prey over long distances. And they also establish dominance by controlling movement within their territory, forcing intruders into increasingly hazardous conditions through toxic spines, lingering breath attacks, and environmental pressure. Although often associated with toxicity, Volitans' activity is not inherently destructive. Once territorial disturbances cease, affected ecosystems frequently stabilize over time, suggesting the species alters environments as a defensive adaptation rather than out of indiscriminate aggression. &n&4If met in the wild, it will view a person as hostile.&r"
+				"Before a Volitans can be tamed, &4&nit must first be subdued in combat&r. Wild Volitans become vulnerable only after their health is &4&nreduced to approximately 60 HP&r, causing the dragon to enter a stunned state. Once stunned, the dragon may be fed preferred foods such as &n&4tropical fish, pufferfish, raw cod, salmon, and Hearty Dragon Meal&r."
+				"Feeding a Volitans does not guarantee successful taming. Failed attempts will restore a portion of the dragon's health, immediately ending its stunned state and forcing the player to subdue it again."
+				"{image:tumblrbumblr:textures/quests/volitans.png width:300 height:150 align:center}"
+			]
+			id: "47B33098B502ED89"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "5E7FF859190D1B87"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "5844272FC29B9E34"
+					item: "saintsdragons:hearty_dragon_meal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "696642B5836B1A06"
+					table_id: 5600401149156168385L
+					type: "loot"
+				}
+			]
+			subtitle: "Tame a Volitans"
+			tasks: [{
+				advancement: "saintsdragons:tame_volitans"
+				criterion: ""
+				id: "539181DB523BEA9D"
+				title: "Tame a Volitans"
+				type: "advancement"
+			}]
+			title: "Mors per Venenum"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47B33098B502ED89"]
+			id: "732AFB79B553D1E6"
+			tasks: [{
+				count: 3L
+				id: "5AB0C1935CBF27A9"
+				item: { Count: 3, id: "saintsdragons:volitans_scale" }
 				type: "item"
 			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47B33098B502ED89"]
+			id: "053F1DAB52A4FACE"
+			tasks: [{
+				id: "5D0778E01F7B1865"
+				item: "saintsdragons:arrow_of_venom"
+				type: "item"
+			}]
+			title: "Weaponized Toxicity"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43D8B9DE51674200"]
+			description: [
+				"Legends tell of Ancient Builders who once created these temples, back before the sea rose to drown it. A mix of biological and magical, the Guardians that roam its surroundings fend off would-be-intruders with concentrated prismatic light. It's best that you don't let them win any staring contests."
+				"The Ocean Temple is a structure worth its troubles. Rewarding with riches and Sponges from the 3 Elder Guardians, as well as a bountiful supply of Prismarine Shards and Crystals. Indeed, you don't want to miss this."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/elder_guardian.png"
+				}
+			}
+			id: "73837610E788A3CD"
+			tasks: [{
+				id: "4066166C5615F216"
+				structure: "#betteroceanmonuments:better_ocean_monuments"
+				title: "Find an Ocean Monument"
+				type: "structure"
+			}]
+			title: "The Sea's Temple"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73837610E788A3CD"]
+			description: ["Acropolis floats high above the open sea, its citizens evolved to live without the water, yet still forever attached to it. At its pinnacle sits &6&oScylla, The Storm Empress&r. In your search for power and the Legendary Eyes, you will need to conquer this floating city."]
+			id: "36BF42D396F66FE3"
+			tasks: [{
+				icon: "cataclysm:storm_eye"
+				id: "7ED9EEF586EB5742"
+				structure: "cataclysm:acropolis"
+				title: "Find Acropolis"
+				type: "structure"
+			}]
+			title: "A Sanctuary Of Storms"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36BF42D396F66FE3"]
+			description: [
+				"To combat The Storm Empress, one must simply find her anchor at the peak of Acropolis. But be prepared, as &6&oher heavy strikes and ability with electrocution&r will live up to her title."
+				"Scylla's anchor is her primary weapon, capable of grabbing foes from afar. She can also send out torrents of water, &6&omaking her enemy wet and amplifying her electrical attacks&r, such as a spear of lightning that bypasses armor."
+				"To fight one such as her is never an even match, magical serpents being summoned to aid Scylla in your defeat."
+				"&6&oIndeed, be aware of the water, be careful of the anchor, and you may yet live to see another day.&r"
+			]
+			id: "52DACA3870E942B9"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:ceraunus"
+				id: "653013C5B6F2124F"
+				title: "Slay Scylla, the Storm Empress"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Storm's End"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73837610E788A3CD"]
+			description: ["An ancient civilization that still thrives, Deeplings inhabit what can only be called the Sunken City. A gargantuan structure found in Deep Oceans and completely submerged in water, it houses the brother of Scylla, &o&6The Leviathan&r. If you wish to lay claim to The Legendary Eyes, this will be one of your key destinations. Best not make it your last."]
+			id: "24D211740DD41A5D"
+			tasks: [{
+				icon: "cataclysm:abyss_eye"
+				id: "5F1CBCECBA22795D"
+				structure: "cataclysm:sunken_city"
+				title: "Find The Sunken City"
+				type: "structure"
+			}]
+			title: "The Abyss Calls Back"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24D211740DD41A5D"]
+			description: [
+				"To summon The Leviathan is by no means an easy task. It will require an Abyssal Sacrifice, crafted using &o&6rare materials and items plucked from the bodies of the city's residents&r. Of all the ingredients, the two that stand out are &6&oThe Athame and Coral Chunk&r."
+				"The Athame is a holy dagger held only by Deepling Priests and Warlocks, used in abyssal rituals. Coral chunks can be ripped off of a dead Coralssus, akin to golems and powerful mounts."
+			]
+			id: "4EB7EBA9F1F56744"
+			tasks: [{
+				id: "583000F692AA7095"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			title: "Sacrificial Blessings"
 			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4EB7EBA9F1F56744"]
+			description: [
+				"To kill The Leviathan is to combat the Abyss itself. You would best prepare yourself for combat in the water, and carry with you Blessed Amethyst Crab Meat, gained by &6&oslaying an Amethyst Crab in Lush Caves and blessing its meat at the Sunken City's Amethyst Altar&r."
+				"Knowledge of one's surroundings is key in this battle, as The Leviathan's maw and tentacles will strike as you avoid making contact with the Abyssal Mines floating throughout the arena. &6&oDodge its strikes, projectiles, and mines, and victory may be yours.&r"
+			]
+			id: "01994F72AF7D412B"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cataclysm:textures/mob_effect/abyssal_curse.png"
+					}
+				}
+				id: "151B885D954CEC82"
+				title: "Kill The Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Silence Once More"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69BEEF688AA76D82"]
+			description: [
+				"Exploring the vast ocean is a long an arduous journey. It's for this reason that a proper ship becomes a necessity. Whether it be a Cog for simple traversal, particularly in cold waters, a Brigg for transportation of many items and passengers, a Galley for naval warfare, or a Drakkar for the true Norse experience."
+				"All ships have their uses, and all use the sails, let down with the necessary keybind (Default R). From there, speed is increased with W and decreased with S."
+				"For some extra personality, you can dye the sails of your ship."
+			]
+			id: "2270E70D4E4E6E86"
+			tasks: [{
+				id: "5413FED76BD2EA68"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:ships"
+					}
+				}
+				type: "item"
+			}]
+			title: "To Sail The Seas"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A6E403F44FFE7AA"]
+			description: ["When roaming the frozen tundra, and especially high in the mountains, Powder Snow can be a deadly trap. Without specialized gear or leather boots, one will find themselves sinking in its cold grip, and quickly feel their temperature drop. It's best to get out fast unless you wish to freeze to death."]
+			icon: "minecraft:powder_snow_bucket"
+			id: "3F23F48FE24ECE5C"
+			tasks: [{
+				id: "2E86F54AB68CE03E"
+				title: "Learn about Powder Snow"
+				type: "checkmark"
+			}]
+			title: "Watch Your Steps In The Snow"
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["732AFB79B553D1E6"]
+			id: "705B6C8D3FFF1270"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "02F277B91626F495"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "3A30E8A7FA646EAC"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F73261441EA1FDC"
+				item: "saintsdragons:volitans_binder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A6E403F44FFE7AA"]
+			id: "4D570C2527E2CB0E"
+			tasks: [{
+				biome: "#minecraft:is_forest"
+				id: "1383BA5F32090FFB"
+				title: "Visit The Forest"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D570C2527E2CB0E"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tumblrbumblr:textures/quests/icons/ivy_portrait.png"
+				}
+			}
+			id: "03D00E8C22516D8B"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0AD448ADCD8CC436"
+					structure: "saintsdragons:ivy_house"
+					title: "Find Ivy's House"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "tumblrbumblr:textures/quests/icons/ivy_portrait.png"
+						}
+					}
+					id: "5845D76DF53D9125"
+					observe_type: 5
+					timer: 0L
+					title: "Meet Ivy Oleander"
+					to_observe: "saintsdragons:ivy_oleander"
+					type: "observation"
+				}
+			]
+			title: "The Dragon Merchant"
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03D00E8C22516D8B"]
+			description: [
+				"The Cindervane is a highly migratory draconic species known for its exceptional endurance and long-distance flight capability. Unlike territorial apex predators, Cindervanes prioritize survival, mobility, and environmental adaptation over prolonged combat engagement. Historically, many ancient civilizations are believed to have relied on established Cindervane migratory routes when constructing trade paths, evacuation corridors, and long-range messenger networks. Cindervanes are also domesticated for the purpose of transportation rather than combat mounts on a daily basis. Their tendency to disperse eggs across wide regions rather than defend centralized nesting grounds has led many researchers to classify the species as ecological carriers rather than territorial rulers. Although not specialized for sustained combat, Cindervanes remain highly dangerous when cornered. &n&4Wild Cindervanes are not hostile unless provoked.&r"
+				"Similarly to domesticated wolves and cats, Cindervanes can be tamed through &4&ndirect feeding with preferred foods such as raw chicken, cod, salmon, and Hearty Dragon Meal.&r"
+				"Due to their naturally cautious behavior, taming attempts may require multiple feedings before successful domestication occurs."
+				"{image:tumblrbumblr:textures/quests/cindervane.png width:300 height:180 align:center}"
+			]
+			id: "56BECC7019FEC95F"
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "33D86AF029F400F9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "0AB92EBA952D529B"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
+			subtitle: "Tame a Cindervane"
+			tasks: [{
+				advancement: "saintsdragons:tame_cindervane"
+				criterion: ""
+				id: "4666A26F9EBA2952"
+				title: "Tame a Cindervane"
+				type: "advancement"
+			}]
+			title: "Destruction Commence"
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4D570C2527E2CB0E"]
+			description: ["Found deep in Dark Forests, a Woodland Mansion is home to many Illagers"]
+			id: "31B44D0B5AFCF8C4"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "supplementaries:textures/map_marker/swamp_hut.png"
+					}
+				}
+				id: "0F07B0749FCD26A8"
+				structure: "minecraft:mansion"
+				title: "Find a Woodland Mansion"
+				type: "structure"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["31B44D0B5AFCF8C4"]
+			id: "479B3D601324E87F"
+			tasks: [
+				{
+					id: "04A03ECC46B40A19"
+					item: "goety:dark_scroll"
+					type: "item"
+				}
+				{
+					entity: "goety:vizier"
+					icon: "goety:soul_ruby"
+					id: "257652D0CAF8C4FF"
+					title: "Kill the Vizier"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["479B3D601324E87F"]
+			id: "627B64906CC01F55"
+			tasks: [{
+				id: "415C315248F368FB"
+				item: "masquerader_mod:invitation"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["627B64906CC01F55"]
+			id: "6885E3A393E25F8E"
+			tasks: [{
+				entity: "masquerader_mod:masquerader"
+				icon: {
+					Count: 1
+					id: "masquerader_mod:blank_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "37E6F61965A8D420"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
 			y: -5.0d
 		}
 	]

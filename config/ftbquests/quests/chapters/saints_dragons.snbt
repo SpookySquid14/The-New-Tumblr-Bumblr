@@ -507,7 +507,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6D3D534CCE38C433"]
@@ -585,7 +585,7 @@
 				type: "item"
 			}]
 			x: -14.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6D3D534CCE38C433"]
@@ -663,7 +663,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["25117DDCB87D0502"]
@@ -808,16 +808,17 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["18C4659AC9FEDFED"]
-			description: ["Dragonheart alloy is a very strong material "]
+			dependencies: ["58C4A3B1A0BFD749"]
+			description: ["With the Crucible, I've managed to alloy together Dragonheart Chunks and Worldroot Ingots. This material is much stronger than its components. I believe it will prove a useful material for some rather powerful armor and weapons."]
 			id: "4529EF7EA98B474C"
 			tasks: [{
 				id: "569180BAA9F02785"
 				item: "saintsdragons:dragonheart_alloy"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -1.0d
+			title: "Dragon and World Combined"
+			x: -10.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4529EF7EA98B474C"]
@@ -879,8 +880,9 @@
 					type: "item"
 				}
 			]
-			x: -12.5d
-			y: -1.5d
+			title: "Fus Ro Dah!"
+			x: -14.0d
+			y: -2.0d
 		}
 		{
 			description: ["Finding, killing, making armor, making incubator, hatching egg"]
@@ -894,15 +896,61 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["4529EF7EA98B474C"]
+			description: ["To kill an Ignivorus is by no means an easy task. The monster is large, powerful, and merciless. However, it makes for some rather wonderful prey. A satisfying kill, rewarding one with even more powerful loot. The Ignivorus's wing hide, teeth, and most powerful of all, its heart are exceptionally tough. Even after death, an Ignivorus's heart runs hot, perhaps enough to use as fuel."]
 			id: "58A91870FFA1A844"
+			rewards: [{
+				amount: 100L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2ED0F9C708A2DFD1"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "3406022C73012468"
+					item: "saintsdragons:ignivorus_wing_hide"
+					type: "item"
+				}
+				{
+					id: "4A485820C3A8EC8B"
+					item: "saintsdragons:ignivorus_tooth"
+					type: "item"
+				}
+				{
+					id: "4E54B283FB28BE15"
+					item: "saintsdragons:ignivorus_heart"
+					type: "item"
+				}
+			]
+			title: "True Dragon Slayer"
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			id: "4E01F448897FC3F6"
 			tasks: [{
-				id: "3406022C73012468"
-				item: "saintsdragons:ignivorus_tooth"
+				id: "2FB3B80E6C6137C7"
+				item: "saintsdragons:raevyx_wing_hide"
 				type: "item"
 			}]
-			title: "Kill an Ignivorus"
-			x: -11.0d
-			y: -2.0d
+			title: "Bleeding The Bleeding Bolt"
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18C4659AC9FEDFED"]
+			description: ["The End seems to contain a rare blood red material found on the bottomside of its islands. Due to its color and location, I've decided to call this material &4&nDragonheart&r. It is incredibly tough, requiring a pickaxe as strong or stronger than Netherite."]
+			id: "58C4A3B1A0BFD749"
+			tasks: [{
+				id: "2782E88DDB90CA5A"
+				item: "saintsdragons:dragonheart_chunk"
+				type: "item"
+			}]
+			title: "Dragonhearted"
+			x: -10.0d
+			y: -1.0d
 		}
 	]
 	title: "Saint's Dragons"
