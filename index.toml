@@ -68810,7 +68810,7 @@ hash = "297009e2b4fb125be2f3c0586ff3076b4b437fb155997a4689aaa77e11590b31"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "5a98e87b5dcc412258e8a78b120611084ebafbb4b57c254c6d12db310e2a6729"
+hash = "d1776000cd1bb08bee8dc04d1b6d799187b09b165cab905589c495863ea2eaee"
 
 [[files]]
 file = "config/citadel-common.toml"
@@ -69254,7 +69254,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "bb3514f4085378ae3954f1675cdf237b8833a1e3a194091b919873224fa5aaf8"
+hash = "e01a158bf339becdf6f53d366c21602f3e519864071ae1547f6a0924f32ddf0f"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70095,6 +70095,10 @@ hash = "3ca35502fff7005548e214b15ecb44c2905e0e9037e000685d554c23e76c5f87"
 [[files]]
 file = "config/forgeendertech/Biomes/terralith$glacial_chasm.cfg"
 hash = "bce5bb99264171f85f8ba743de7581372e371296f685a1a1e63b45a9249a8975"
+
+[[files]]
+file = "config/forgeendertech/Biomes/terralith$granite_cliffs.cfg"
+hash = "94094fcdb726a805cc669d24011d9d54f8fed12a1399c2283b0dec97ea1f0109"
 
 [[files]]
 file = "config/forgeendertech/Biomes/terralith$haze_mountain.cfg"
@@ -71518,7 +71522,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "102e514a5cdde2675afcbf0330a851ef65e0b560984703b25b738c2dce44b01d"
+hash = "2b98c9fe0484cf98040360c3a2deff3cef0a0be844bb58615ba35c79d7a7a20d"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71782,7 +71786,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "f149c39daac9a5465afb044f1388aa8905963babefaeae0e4cbb49e526efc473"
+hash = "fd4c73741fc0edf463242dcee33c7cdf55d145d47a2641255f3562c2ed35bc4a"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71798,7 +71802,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "a9cf730ef76c2ca0c70a8f68d7f26a165775797874b5aa9159f81691e58e72d4"
+hash = "6a3fc38a186edbb88e3242b39d0183cb8ab4d619f88deeaae514dec0161927bd"
 
 [[files]]
 file = "config/pal.properties"
