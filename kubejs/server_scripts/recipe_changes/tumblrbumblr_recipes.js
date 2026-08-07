@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
     'B B'
   ],
   {
-    A: 'moremekanismprocessing:draconium_ingot',
+    A: 'saintsdragons:draconian_flesh',
     B: "minecraft:phantom_membrane",
     C: "minecraft:elytra"
   }

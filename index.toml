@@ -68810,7 +68810,7 @@ hash = "297009e2b4fb125be2f3c0586ff3076b4b437fb155997a4689aaa77e11590b31"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "86884d2cd82f18496599989ae47ed73506528fb87ea2da7f863093a9d8ce8c3f"
+hash = "c72d5ec1e10c1ca0298c0003c619c05d681cf67050eae170a50f8f09d8bc8375"
 
 [[files]]
 file = "config/citadel-common.toml"
@@ -69254,7 +69254,7 @@ hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "fcad74b13028f633ee9f41888354177c6e9e9ebf81dfa4ae21f39372f7d9cb86"
+hash = "88bb5d2d03c6abe17dc426078e8d110e601dc7a3e34f0f313e43c1f4c0d45686"
 
 [[files]]
 file = "config/fairylights-client.toml"
@@ -70390,7 +70390,7 @@ hash = "d0bac7e42976d8be5a98bf0b8706e73dfa7a7483c60729927b80689db7ae53bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/next_steps.snbt"
-hash = "79ea414a35b46159bb7f2dff13d6c0508102be5d9dbb169aba5ce9bcb46c5a7b"
+hash = "5d48e81e4ab530bc821c14078e61056f2e845a521a04655c39378b72c278f686"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.snbt"
@@ -71306,7 +71306,7 @@ hash = "41b573c5fc5b16ece5b5d727cf2d68d8b98e9e85c0f7952bd0f030311829fcea"
 
 [[files]]
 file = "config/jei/world/local/Terratonic/lookupHistory.ini"
-hash = "1020e90cbfc60fc6f90337887e2bc467291c3c91b9d34681ce1c15f372e6de09"
+hash = "af5a29dda02218039c77148ba90c68d74a8498f301d33b8d376280c1ce92ff43"
 
 [[files]]
 file = "config/jei/world/local/Testing/lookupHistory.ini"
@@ -71526,7 +71526,7 @@ hash = "113f7e52bccd6fff74cd41f4423511ba32191b7a655f8ab6e4cdb24e59d94cd1"
 
 [[files]]
 file = "config/modernstartupqol/startup_times.json"
-hash = "d8e65e82f497172d35bb0bc13e305fd210d0afb6b5b262b818823f2762cb1596"
+hash = "831219c4b86bef43fa8790b86a4bd525b122075322b49abf53cee7e818776d27"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -71790,7 +71790,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "466625a22ab647034990cb4c5497a9c51e4aa4bb185403c7d48acdcc34085842"
+hash = "ee698dc31f1aa202a7ca570b66df964d24aefd6f9864757db9df9024b0332474"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -71806,7 +71806,7 @@ hash = "1cb5807421d57c43c64c74b18bc22a30452f4e84b59020ed39742c0b957ea57b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "e354bde39d42417bd6cf555e2980cd8fb54fd60b3f84e9242db1154061dcd861"
+hash = "4610d19e011c7ce32169f52de43a051af392c8a3489edb69fb93ce169987c0bb"
 
 [[files]]
 file = "config/pal.properties"
@@ -71898,7 +71898,7 @@ hash = "eadf1d547321431cf04c27e5a840db0c4bd2f47537ec842e0b08109d4b137055"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "9e078bcaaf6ef271b531e97fd1deaf9f8a0ed650c9390a26fe726ce2f541fbd5"
+hash = "4d068b8a3e95b06eed16f8e6eed019187e447d54cfc4ca420383c40ae901dde6"
 
 [[files]]
 file = "config/paxi/resourcepacks/A Better GUI 2 - FTB.zip"
@@ -71939,6 +71939,42 @@ hash = "cb63a5a33c142ce588f1df020c7d4615f57f0e312064e03d4e7901060803905d"
 [[files]]
 file = "config/paxi/resourcepacks/Create_Styled_AdAstra_Plates.zip"
 hash = "b0ff9ec4d6512c8389b3666a8f5356f833ebb761f436e268ad745d855816b4f3"
+
+[[files]]
+file = "config/paxi/resourcepacks/Draconian_Warp/assets/waystones/textures/block/warp_plate.png"
+hash = "9f13e89fa6ac813e204cf1552ede28cc1494ea854d2dcb0dbc26cca8184703c5"
+
+[[files]]
+file = "config/paxi/resourcepacks/Draconian_Warp/assets/waystones/textures/item/warp_dust.ase"
+hash = "ad78b090b673a7f819be58d2c352edcf154f1bb760f48a9ce24fbd1b0f0f813a"
+
+[[files]]
+file = "config/paxi/resourcepacks/Draconian_Warp/assets/waystones/textures/item/warp_dust.aseprite"
+hash = "ad78b090b673a7f819be58d2c352edcf154f1bb760f48a9ce24fbd1b0f0f813a"
+
+[[files]]
+file = "config/paxi/resourcepacks/Draconian_Warp/assets/waystones/textures/item/warp_dust.png"
+hash = "7b1707d26947e98d1f7c088c6bf3b6436961b35b931300595cd32b9ec5c042c8"
+
+[[files]]
+file = "config/paxi/resourcepacks/Draconian_Warp/assets/waystones/textures/item/warp_dust.png.mcmeta"
+hash = "7466ce9a43d76fe371ba3150ac8330b94c67fed01e355db1ae3ab96f519f54f1"
+
+[[files]]
+file = "config/paxi/resourcepacks/Draconian_Warp/assets/waystones/textures/item/warp_stone.png"
+hash = "80d585e6b3316700fa3cbee1e25b5b0c3722255b36524a38dc8c51c45adfb3cd"
+
+[[files]]
+file = "config/paxi/resourcepacks/Draconian_Warp/assets/waystones/textures/item/warp_stone.png.mcmeta"
+hash = "2c7d150af555a57b596b208f8864bdb9ffd2013dee5d7aee6c8b7940074cf45f"
+
+[[files]]
+file = "config/paxi/resourcepacks/Draconian_Warp/assets/waystones/textures/item/waystone/portstone.png"
+hash = "807b0377a9365a74ca62484d596879bd0cee9d63e68be1e675dc4acc40f66738"
+
+[[files]]
+file = "config/paxi/resourcepacks/Draconian_Warp/pack.mcmeta"
+hash = "e1a98628c2d4648891deb6f1c5b56ccf10fb82fbbcface3f351621d07153c1b8"
 
 [[files]]
 file = "config/paxi/resourcepacks/Eternal Ancient Coins/assets/ancientcoins/lang/en_us.json"
@@ -79838,11 +79874,11 @@ hash = "43f92455f33cf11a87444baea4859cc79e66fb41faf353a3b37a67a60b97795a"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/tumblrbumblr_recipes.js"
-hash = "24f01b98b12ae63fb9fbca3b001d27bfa19952fa01044eb78a6568e488a2f1f3"
+hash = "5e3507d3553e549cd5d46a58c643203ca44b0a947122e1c763d13096a2366b40"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/waystones_recipes.js"
-hash = "25f86fbd2ac932512a33e8bbf994b8d2ac448ca52f55b9908c80b4c033463e2d"
+hash = "cf8a6cc313a3a11bbcb8b66481bd8631451ec5ac8824eedf8dc83e1d54fe8fe4"
 
 [[files]]
 file = "kubejs/server_scripts/util/occultism_util.js"
