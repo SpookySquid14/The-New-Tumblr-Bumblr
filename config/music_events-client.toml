@@ -4,13 +4,24 @@
 	showStandbyEvents = true
 	#Display background ghost timers (persistence).
 	showPersistenceTimers = true
-	#Display nearby tracked entities.
+	#Display nearby tracked entities, crosshair target, and targeting mobs.
 	showNearbyMobs = true
 	#Display Mod CPU Tick Time.
 	showPerformanceMetrics = true
+	#Display the currently open GUI class name.
+	showCurrentGui = true
 
 ["Performance Settings"]
 	#How often (in ticks) the mod should evaluate music events. 20 ticks = 1 second. Lower values make the mod more responsive but consume more CPU usage.
 	#Range: 1 ~ 20
 	evaluationTickRate = 20
+
+["Vanilla Music Coexistence"]
+	#When true, vanilla music can play while this mod is not playing. The mod cuts vanilla off when it starts and blocks it during playback and GUI preview.
+	allowVanillaMusic = false
+	#When true, the Vanilla Music Cooldown slider controls all vanilla song spacing. When false, vanilla uses its own natural random timing (10-20 min).
+	vanillaCooldownSlider = false
+	#Controls how long vanilla waits before starting its next song. 0 = start immediately. Adjustable in-game via the Sound Options slider (steps of 30s, max 20 min).
+	#Range: 0 ~ 1200
+	vanillaMusicCooldownSeconds = 300
 

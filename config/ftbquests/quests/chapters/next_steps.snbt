@@ -10,87 +10,36 @@
 	quests: [
 		{
 			dependencies: ["57B0727D357856C6"]
+			description: [
+				"Some say Worldroot is the remnants of an older existence, before the world grew to where it is today. Some say it was from a time where man and monster worked as one. Whatever their origin, &6&oWorldroot remains a powerful material&r."
+				"Found embedded in Deepslate and close to the bedrock of the Overworld, Worldroot is especially tough, &6&orequiring at least a diamond tier pickaxe to mine&r. This toughness seems to transfer over to smelting as well, as only the power of a &6&oDraconic Crucible&r can turn this ancient essence into usable ingots of history."
+			]
 			id: "7756E05A9E7AB29F"
 			tasks: [{
-				count: 2L
+				count: 4L
 				id: "46F95B3F44E41A2B"
 				item: "saintsdragons:worldroot_ingot"
 				type: "item"
 			}]
+			title: "Ingots of Origin"
 			x: -1.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
+			dependencies: ["66BA8C0F224F38F0"]
+			description: [
+				"The aptly named &6&oDraconic Crucible&r is a powerful workstation crafted with Ancient Dragonite Fragments, a long forgotten material found in Ancient Cities, Nether Fortresses, and Bastions. The Crucible requires strong sources of heat such as &6&oBlaze Powder or Searing Coals&r to function, but can create some spectacular items."
+				"Or you can use it as the world's most badass furnace, I guess. "
+			]
 			id: "57B0727D357856C6"
 			tasks: [{
 				id: "24FD1F7D49D434CF"
 				item: "saintsdragons:draconic_crucible"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
-		}
-		{
-			id: "4B812A16C2D3CA0F"
-			tasks: [{
-				id: "334C764FADD530C2"
-				title: "Add something that leads to other structures like ancient cities"
-				type: "custom"
-			}]
-			x: -10.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["15ACD993630984F4"]
-			description: ["Hearty Dragon Meal is a universally loved food for all dragons and often has stronger effects than other preferred food. &4&nIt can also be made with almost any fish and eggs.&r"]
-			hide_until_deps_complete: true
-			id: "197A51AEA89A7FF8"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:ancientcoins"
-				id: "250F67631AA9D398"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				count: 6L
-				id: "1A1F8A7F828893F5"
-				item: "saintsdragons:hearty_dragon_meal"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 1.5d
-		}
-		{
-			id: "29DC1FEF1871089D"
-			tasks: [{
-				id: "08D79CA9CD1280FF"
-				title: "Find IVy"
-				type: "custom"
-			}]
-			x: -2.0d
-			y: 3.0d
-		}
-		{
-			id: "4B8DF1E0E921CA44"
-			tasks: [{
-				id: "60DBCF388E4C64AF"
-				title: "tame cindervane"
-				type: "custom"
-			}]
+			title: "Doom's Furnace"
 			x: -1.0d
-			y: 3.0d
-		}
-		{
-			id: "27B101C923BEA1FD"
-			tasks: [{
-				id: "3C257CB275D3932A"
-				item: "saintsdragons:varasuchus_egg"
-				type: "item"
-			}]
-			title: "Givr ivy an egg"
-			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["149BF56B98224AAF"]
@@ -107,23 +56,14 @@
 				type: "checkmark"
 			}]
 			title: "Onwards"
-			x: -8.0d
-			y: -3.0d
-		}
-		{
-			id: "2A670EEA2FB3A5B0"
-			tasks: [{
-				id: "695812BA6402630F"
-				title: "dragon alloy"
-				type: "custom"
-			}]
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3A6E403F44FFE7AA"]
 			description: ["Taverns are small buildings offering rest and food via the villagers housed there. Most notably, however, they are a source of structure maps, each showing the location of a specific structure. For an explorer, there's no better method, except maybe special eyes."]
 			id: "70A04C140ADBC630"
+			optional: true
 			tasks: [{
 				advancement: "nova_structures:adventure/find_tavern"
 				criterion: ""
@@ -131,8 +71,8 @@
 				title: "Find a Tavern"
 				type: "advancement"
 			}]
-			x: -9.0d
-			y: -3.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3F23F48FE24ECE5C"]
@@ -175,12 +115,16 @@
 				}
 			]
 			title: "Frosted Furs"
-			x: -5.5d
-			y: -3.0d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3AAB0E864C590306"]
-			description: ["The tower of The Night Lich is a large and forboding. While one may discover it naturally along their travels, an easier way of locating one would be to use Soul Stars, dropped from killing undead mobs. Do be aware, however, that you need 4 soul stars to place in each Chiseled Stone Alter, summoning the boss. Be careful."]
+			description: [
+				"The tower of &6The Night Lich&r is a large and forboding. While one may discover it naturally along their travels, an easier way of locating one would be to use Soul Stars, dropped from killing undead mobs. Do be aware, however, that &6&oyou need 4 soul stars&r to place in each Chiseled Stone Alter, summoning the boss."
+				"The Night Lich itself is a powerful sorcerer, attacking from afar with magic while levitating high off the ground, you would best be ready to match its projectiles with your own. Phantoms called upon by the lich will be brutal obstacles in your battle, but do not worry too much, for they are merely phantoms."
+				"&6&oBe ready for a long ranged fight, take care of your surroundings, and the Night Lich will die once more. &r"
+			]
 			icon: "bosses_of_mass_destruction:ancient_anima"
 			id: "3CDD48DCA161A352"
 			rewards: [{
@@ -213,12 +157,12 @@
 				}
 			]
 			title: "Cold as Death"
-			x: -4.0d
-			y: -3.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3CDD48DCA161A352"]
-			description: ["Long guarded by the draugr that roam it, The Frosted Prison is a gargantuan structure housing the cursed soul of Maledictus. If you aim to conquer it and claim the Legendary Eye in his posession, then come prepared, less you meet a similar demise."]
+			description: ["Long guarded by the draugr that roam it, The Frosted Prison is a gargantuan structure housing the cursed soul of &6&oMaledictus.&r If you aim to conquer it and claim the Legendary Eye in his posession, then come prepared, less you meet a similar demise."]
 			id: "4CE580B31A397745"
 			tasks: [{
 				icon: "cataclysm:cursed_eye"
@@ -228,8 +172,8 @@
 				type: "structure"
 			}]
 			title: "Cursed Crypt"
-			x: -2.5d
-			y: -3.0d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CE580B31A397745"]
@@ -244,8 +188,8 @@
 				type: "item"
 			}]
 			title: "Master Key"
-			x: -1.5d
-			y: -3.0d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["059DDAA627A824B9"]
@@ -271,8 +215,8 @@
 				value: 1L
 			}]
 			title: "To Seal a King's Soul"
-			x: -0.5d
-			y: -3.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3F23F48FE24ECE5C"]
@@ -308,8 +252,8 @@
 				type: "advancement"
 			}]
 			title: "The False Pharaoh"
-			x: -5.5d
-			y: -4.0d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["02BE6270875F9491"]
@@ -319,8 +263,8 @@
 				item: "saintsdragons:atroxiia_binder"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.0d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["19CDC61F17EC887C"]
@@ -338,8 +282,8 @@
 				item: { Count: 5, id: "saintsdragons:atroxiia_scale" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.0d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3A6E403F44FFE7AA"]
@@ -384,8 +328,8 @@
 				}
 			]
 			title: "Grace of Dolphins"
-			x: -7.0d
-			y: -2.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["69BEEF688AA76D82"]
@@ -412,8 +356,8 @@
 				type: "structure"
 			}]
 			title: "A Remnant of The Sea"
-			x: -5.5d
-			y: -2.0d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			id: "2426440F227E7101"
@@ -444,8 +388,8 @@
 				}
 			]
 			title: "Dragon Slayer"
-			x: -10.0d
-			y: -2.0d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["69BEEF688AA76D82"]
@@ -486,8 +430,8 @@
 				type: "advancement"
 			}]
 			title: "Mors per Venenum"
-			x: -6.5d
-			y: -1.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["47B33098B502ED89"]
@@ -498,8 +442,8 @@
 				item: { Count: 3, id: "saintsdragons:volitans_scale" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.0d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["47B33098B502ED89"]
@@ -510,8 +454,8 @@
 				type: "item"
 			}]
 			title: "Weaponized Toxicity"
-			x: -7.0d
-			y: 0.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["43D8B9DE51674200"]
@@ -534,8 +478,8 @@
 				type: "structure"
 			}]
 			title: "The Sea's Temple"
-			x: -4.0d
-			y: -2.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["73837610E788A3CD"]
@@ -549,8 +493,8 @@
 				type: "structure"
 			}]
 			title: "A Sanctuary Of Storms"
-			x: -2.5d
-			y: -2.0d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["36BF42D396F66FE3"]
@@ -570,8 +514,8 @@
 				value: 1L
 			}]
 			title: "Storm's End"
-			x: -1.0d
-			y: -2.0d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["73837610E788A3CD"]
@@ -585,8 +529,8 @@
 				type: "structure"
 			}]
 			title: "The Abyss Calls Back"
-			x: -2.5d
-			y: -1.0d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["24D211740DD41A5D"]
@@ -601,8 +545,8 @@
 				type: "item"
 			}]
 			title: "Sacrificial Blessings"
-			x: -1.5d
-			y: -1.0d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4EB7EBA9F1F56744"]
@@ -626,8 +570,8 @@
 				value: 1L
 			}]
 			title: "Silence Once More"
-			x: -0.5d
-			y: -1.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["69BEEF688AA76D82"]
@@ -649,8 +593,8 @@
 				type: "item"
 			}]
 			title: "To Sail The Seas"
-			x: -5.5d
-			y: -1.0d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3A6E403F44FFE7AA"]
@@ -663,8 +607,8 @@
 				type: "checkmark"
 			}]
 			title: "Watch Your Steps In The Snow"
-			x: -7.0d
-			y: -3.5d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["732AFB79B553D1E6"]
@@ -689,8 +633,8 @@
 				item: "saintsdragons:volitans_binder"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.0d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3A6E403F44FFE7AA"]
@@ -701,8 +645,8 @@
 				title: "Visit A Forest"
 				type: "biome"
 			}]
-			x: -7.5d
-			y: -4.5d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4D570C2527E2CB0E"]
@@ -739,8 +683,8 @@
 				}
 			]
 			title: "The Dragon Merchant"
-			x: -7.5d
-			y: -5.5d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["03D00E8C22516D8B"]
@@ -775,8 +719,8 @@
 				type: "advancement"
 			}]
 			title: "Destruction Commence"
-			x: -6.5d
-			y: -6.0d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4D570C2527E2CB0E"]
@@ -795,8 +739,8 @@
 				title: "Find a Woodland Mansion"
 				type: "structure"
 			}]
-			x: -6.5d
-			y: -5.0d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["31B44D0B5AFCF8C4"]
@@ -817,8 +761,8 @@
 					value: 1L
 				}
 			]
-			x: -5.5d
-			y: -5.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["479B3D601324E87F"]
@@ -828,8 +772,8 @@
 				item: "masquerader_mod:invitation"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -5.0d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["627B64906CC01F55"]
@@ -847,8 +791,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.5d
-			y: -5.0d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3FE36789CB4C89C0"]
@@ -864,11 +808,12 @@
 				type: "item"
 			}]
 			title: "A Crystal Bloom"
-			x: -8.0d
-			y: -1.0d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3A6E403F44FFE7AA"]
+			description: ["The Ancient Builders were said to have retreated underground long ago, building &6&osprawling cities within the Deepslate caves&r. How unfortunate, then, that in doing so, they flew too close to the sun and &6&oopened a gateway to The Otherside&r, welcoming in The Warden and its sculking mass. If you find such a relic, you are sure to obtain some truly wonderful loot."]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -883,8 +828,9 @@
 				title: "Find an Ancient City"
 				type: "structure"
 			}]
-			x: -9.0d
-			y: -2.0d
+			title: "City of Sculk"
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3A6E403F44FFE7AA"]
@@ -907,8 +853,236 @@
 				}
 			]
 			title: "Knight Burried in Earth"
-			x: -8.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7756E05A9E7AB29F"]
+			description: ["Worldroot, being as powerful as it is, proves to be stronger than Diamond tier tools, but not quite at the level of Netherite. Regardless, it is a powerful asset."]
+			id: "7360CC59A2A52088"
+			rewards: [{
+				amount: 360L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "17D7F39DE71AAE0F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "594D7CA7B36F00E0"
+					item: {
+						Count: 1
+						id: "saintsdragons:worldroot_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58887C0898DEDA65"
+					item: {
+						Count: 1
+						id: "saintsdragons:worldroot_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "146A6A197AA0473D"
+					item: {
+						Count: 1
+						id: "saintsdragons:worldroot_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6533F378F88CAF4B"
+					item: {
+						Count: 1
+						id: "saintsdragons:worldroot_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EA59F0BE6CD2255"
+					item: {
+						Count: 1
+						id: "saintsdragons:worldroot_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tools Rooted in Strength"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7756E05A9E7AB29F"]
+			description: [
+				"If you've tamed any kind of dragon, you've likely wanted to travel with it. Unfortunately, this can prove difficult with some species. But fear not, for there exists a means to carry your scaly companion with you."
+				"A Dragon Binder when bound to a tamed dragon will &6&ostore their very being inside it&r, allowing you to release it whenever and wherever you see fit. But these items are not simple to make. Each requires a &6&oDragon Binder Core&r, made from Worldroot, Echo Shards, and a &6&oDragon Seal Stone&r, found in chests of structures such as Ancient Cities and Strongholds."
+			]
+			id: "4777E3CA84CDFCCB"
+			tasks: [{
+				id: "6DEA912A0757788A"
+				item: "saintsdragons:dragon_binder_core"
+				type: "item"
+			}]
+			title: "To Bind a Beast"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25E290F19A2CCAF7"]
+			description: ["Nobody quite knows who created the Ancient Factory, only that it remains alive, guarded by dutiful Watchers, Prowlers, and the unfinished form of &o&6The Harbinger&r. Found deep underground, this factory holds many a treasure, but to one searching for &6&oThe Legendary Eyes&r, none is greather than that which is embedded in The Harbinger's metallic body."]
+			icon: "cataclysm:mech_eye"
+			id: "0F649DD652FB7582"
+			tasks: [{
+				id: "3A72EC7DB20F3606"
+				structure: "cataclysm:ancient_factory"
+				title: "Find The Ancient Factory"
+				type: "structure"
+			}]
+			title: "Mechanized Warfare"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A0422E6DF854E64"]
+			description: [
+				"Deep underground lie the &6&oCatacombs&r, burial sites of an ancient necromancer and his army. A wayward compass may show you the way to one of these locations, and exploration will reward you with treasures of arcane power. It also remains home of &6&oThe Dead King, holder of The Undead Eye&r."
+				"A powerful necromancer indeed, The Dead King will cast a variety of deadly spells, &o&6from slashes of blood to to poison arrows, and even raising the dead to fight under it&r. And do not fool yourself into thinking it is weak in close quarters, for it still holds its staff, a powerful bludgeoning tool."
+				"&6&oBe quick on your feet, bring plenty of potions, and The Undead Eye may be yours to claim.&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:wayward_compass"
+				tag: { }
+			}
+			id: "25E290F19A2CCAF7"
+			tasks: [
+				{
+					id: "3E15CDBC2DA7B94D"
+					structure: "irons_spellbooks:catacombs"
+					title: "Find The Catacombs"
+					type: "structure"
+				}
+				{
+					entity: "irons_spellbooks:dead_king"
+					id: "004F0805FEF6831A"
+					title: "Slay The Dead King"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Stay Dead"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A6E403F44FFE7AA"]
+			id: "3C31DF9EB32C9238"
+			tasks: [{
+				id: "7F343A299E51CEBF"
+				item: "supplementaries:cartographers_quill"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F649DD652FB7582"]
+			description: [
+				"The Harbinger is a deadly machine, utilizing the full power of the Nether Star used to power it mixed with ancient technology. To fight one is to fight that which combats destruction incarnate. &6&oFire resistance can prove vital as its barrage of lasers set you ablaze, and the wither effect corrupts you from your very core.&r"
+				"The Harbinger does not care for life, and targets whatever is in its vicinity, an important thing to note if fighting in a group. &6&oSwitching between lasers and missiles&r can quickly turn the tides of the battle if not prepared, as can the exploding Wither Howlitzers. The Harbinger's shield, brought up upon &6&otaking 50% damage, blocks projectiles&r, leading to a close quarters fight. It seems as if the creators knew its power, however, as several columns with &6&olever activated EMPs&r have been left for usage."
+				"&6&oKeep aware of your surroundings, listen closely for the mechanical hiss of changing weaponry, and use the arena to your advantage, so that you may claim the Mechanical Eye.&r"
+			]
+			icon: "goety_cataclysm:mechanized_core"
+			id: "0EB209B2B41E6921"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "5003977D886CEA0C"
+				title: "Kill The Harbinger"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Self Destruct Sequence"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A6E403F44FFE7AA"]
+			id: "24A1DE3BA5E7E971"
+			tasks: [{
+				biome: "#forge:is_desert"
+				icon: "immersive_weathering:sand_layer_block"
+				id: "554E14A6EDEAC07D"
+				title: "Visit a Desert"
+				type: "biome"
+			}]
+			x: -0.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["24A1DE3BA5E7E971"]
+			description: [
+				"The Ignivorus is a colossal fire-adapted dragon species known for its overwhelming physical presence and extreme thermal output. Native primarily to the Nether, Ignivoruses are capable of drastically altering their surroundings through prolonged exposure alone, often rendering occupied regions permanently hostile to other lifeforms. The Ignivorus relies on sustained pressure, environmental dominance, and absolute escalation once engaged in combat. Its immense resilience and refusal to retreat have made it one of the most feared apex predators documented. &4&nAny meetings will likely be hostile.&r"
+				"Before an Ignivorus can be tamed, &4&nit must first be subdued in combat&r. Wild Ignivoruses become vulnerable only after their health is &4&nreduced to approximately 100 HP&r, causing the dragon to enter a stunned state. Once stunned, the dragon may be fed preferred foods such as &n&4raw cod, salmon, beef, and Hearty Dragon Meal&r."
+				"Feeding an Ignivorus does not guarantee successful taming. Failed attempts will restore a portion of the dragon's health, immediately ending its stunned state and forcing the player to subdue it again."
+				"{image:tumblrbumblr:textures/quests/ignivorus.png width:300 height:199 align:center}"
+			]
+			id: "4E763FD9BA473520"
+			min_width: 500
+			rewards: [
+				{
+					amount: 70L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "1456279214DEF2B9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A0BD6CA275CD8D8"
+					table_id: 5600401149156168385L
+					type: "loot"
+				}
+			]
+			subtitle: "Tame an Ignivorus"
+			tasks: [{
+				advancement: "saintsdragons:tame_ignivorus"
+				criterion: ""
+				id: "63F40DAA90196EF6"
+				title: "Tame an Ignivorus"
+				type: "advancement"
+			}]
+			title: "Scorched Earth"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24A1DE3BA5E7E971"]
+			description: ["The heart of an Ignivorus burns hot even in death. To a dragon hunter, there is no greater trophy."]
+			id: "31E3A26AA76120EB"
+			tasks: [{
+				id: "740A151066E78E63"
+				item: "saintsdragons:ignivorus_heart"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
 		}
 	]
 	title: "Next Steps"

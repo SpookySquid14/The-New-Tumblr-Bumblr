@@ -74,6 +74,10 @@
     "decorative_graves": true,
     "player_graves": true
   },
+  "bf_blockpack": {
+    "fill": true,
+    "lantern": true
+  },
   "immersiveengineering": {
     "multiblock_icon": true
   },

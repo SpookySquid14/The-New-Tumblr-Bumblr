@@ -12,6 +12,13 @@
     "result": "deny"
   },
   {
+    "mob": "deeperdarker:stalker",
+    "when": "onjoin",
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  
+  {
     "maxheight": 0,
     "mob": ["mebahelcreaturesdraugr:draugr","mebahelcreaturesdraugr:draugr_archer","mebahelcreaturesdraugr:skeleton_warrior","mebahelcreaturesdraugr:draugr_wight","mebahelcreaturesdraugr:draugr_scourge","mebahelcreaturesdraugr:infernal_draugr"],
     "when": "onjoin",

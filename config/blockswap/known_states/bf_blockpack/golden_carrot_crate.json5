@@ -1,0 +1,147 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "1"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "2"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "3"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "4"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "5"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "6"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "7"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "8"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "9"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "10"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "11"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "12"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "13"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "14"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "15"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "16"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "17"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "18"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"fill": "19"
+		},
+		"Name": "bf_blockpack:golden_carrot_crate"
+	},
+	{
+		"Name": "bf_blockpack:golden_carrot_crate"
+	}
+]

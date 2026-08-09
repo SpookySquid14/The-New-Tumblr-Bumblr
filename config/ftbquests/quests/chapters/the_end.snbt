@@ -40,6 +40,16 @@
 			x: 1.5d
 			y: -1.0d
 		}
+		{
+			id: "7F389DC77D01294A"
+			tasks: [{
+				id: "2B9528D217A0F127"
+				title: "Fight Draconian Swarm"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
 	]
 	title: "The End"
 }

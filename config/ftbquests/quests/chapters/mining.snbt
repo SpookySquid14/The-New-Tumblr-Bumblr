@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	filename: "mining"
 	group: "48841A8C395C40D5"
 	icon: {
@@ -11,7 +11,15 @@
 		}
 	}
 	id: "7548472196D95D7C"
-	order_index: 3
+	images: [{
+		height: 15.0d
+		image: "minecraft:textures/gui/sprites/container/slot/pickaxe.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: -0.5d
+		y: 0.5d
+	}]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -60,7 +68,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: -0.5d
 		}
 		{
@@ -119,8 +127,8 @@
 				}
 			]
 			title: "Find All of Alex's Caves"
-			x: 0.0d
-			y: 3.0d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
@@ -190,7 +198,7 @@
 				type: "item"
 			}]
 			title: "Obtain a Cave Tablet"
-			x: -0.5d
+			x: -1.0d
 			y: 2.0d
 		}
 		{
@@ -258,8 +266,8 @@
 				title: "Translate a Tablet and Create a Cave Codex"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0838E783B7978F76"]
@@ -282,7 +290,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
@@ -303,8 +311,8 @@
 				title: "Find Dripstone Caves"
 				type: "biome"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
@@ -324,8 +332,8 @@
 				title: "Find Lush Caves"
 				type: "biome"
 			}]
-			x: 2.5d
-			y: -2.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
@@ -345,8 +353,8 @@
 				title: "Find Frosted Caves"
 				type: "biome"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
@@ -366,8 +374,8 @@
 				title: "Find Lost Caves"
 				type: "biome"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
@@ -402,8 +410,8 @@
 				}
 			]
 			title: "Diggy Diggy Hole 2"
-			x: -1.5d
-			y: -2.5d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
@@ -437,8 +445,8 @@
 				}
 			]
 			title: "Diggy Diggy Hole 3"
-			x: 1.5d
-			y: -2.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
@@ -458,8 +466,8 @@
 				type: "item"
 			}]
 			title: "Diggy Diggy Hole 1"
-			x: -0.5d
-			y: -3.0d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["15ACD993630984F4"]
@@ -481,8 +489,8 @@
 				value: 1024L
 			}]
 			title: "Diggy Diggy Hole 0"
-			x: 0.5d
-			y: -3.0d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			id: "4D88C96EE88FCB2A"
@@ -493,8 +501,36 @@
 				type: "item"
 			}]
 			title: "I am Become Death"
-			x: 0.0d
-			y: 4.5d
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
+			id: "2B0F5DE5CE571902"
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: "minecraft:sculk_sensor"
+				id: "1474F24813A9C1B6"
+				title: "Find The Deep Dark"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15ACD993630984F4"]
+			hide_until_deps_complete: true
+			id: "2BD084D3001B19FC"
+			tasks: [{
+				biome: "minecraft:sulfur_caves"
+				icon: "minecraft:potent_sulfur"
+				id: "30F0663F5611C829"
+				title: "Find Sulfur Caves"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: -3.0d
 		}
 	]
 	title: "Mining"

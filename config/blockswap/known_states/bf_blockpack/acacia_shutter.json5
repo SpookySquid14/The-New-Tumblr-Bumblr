@@ -1,0 +1,1538 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "true",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "false",
+			"below": "true",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "true",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "false",
+			"below": "false",
+			"above": "true"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "true",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "false",
+			"below": "true",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "true",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "north",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "north",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "south",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "south",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "west",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "west",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "true",
+			"facing": "east",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "true",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"open": "false",
+			"flipped": "false",
+			"facing": "east",
+			"connect": "false",
+			"below": "false",
+			"above": "false"
+		},
+		"Name": "bf_blockpack:acacia_shutter"
+	}
+]

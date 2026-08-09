@@ -1,0 +1,134 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "bottom_left",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "top_right",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "top_left",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "bottom_right",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "bottom_left",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "top_right",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "top_left",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "bottom_right",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "bottom_left",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "top_right",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "top_left",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "bottom_right",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "bottom_left",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "top_right",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:workbench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "top_left",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:workbench"
+	}
+]

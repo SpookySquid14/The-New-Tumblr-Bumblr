@@ -1,0 +1,365 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "0",
+			"lit": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "1",
+			"lit": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "2",
+			"lit": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "3",
+			"lit": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "4",
+			"lit": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "1",
+			"lit": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "2",
+			"lit": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "3",
+			"lit": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "4",
+			"lit": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "0",
+			"lit": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "1",
+			"lit": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "2",
+			"lit": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "3",
+			"lit": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "4",
+			"lit": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "0",
+			"lit": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "1",
+			"lit": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "2",
+			"lit": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "3",
+			"lit": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "4",
+			"lit": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "0",
+			"lit": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "1",
+			"lit": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "2",
+			"lit": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "3",
+			"lit": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "4",
+			"lit": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "0",
+			"lit": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "1",
+			"lit": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "2",
+			"lit": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "3",
+			"lit": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "4",
+			"lit": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "0",
+			"lit": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "1",
+			"lit": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "2",
+			"lit": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "3",
+			"lit": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "4",
+			"lit": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "0",
+			"lit": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "1",
+			"lit": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "2",
+			"lit": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "3",
+			"lit": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"stage": "4",
+			"lit": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:candlestick_iron_tall_cyan"
+	}
+]

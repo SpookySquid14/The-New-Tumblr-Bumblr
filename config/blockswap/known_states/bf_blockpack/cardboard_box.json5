@@ -1,0 +1,2597 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "0",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "1",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "2",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "3",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "4",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "5",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "6",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "7",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "8",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "9",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "10",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "11",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "12",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "13",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "14",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "15",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "16",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "17",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "18",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "19",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "20",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "21",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "22",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "23",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "24",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "25",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "26",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "27",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "28",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "29",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "30",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "31",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "32",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "33",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "34",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "35",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "1",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "2",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "3",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "4",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "5",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "6",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "7",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "8",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "9",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "10",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "11",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "12",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "13",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "14",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "15",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "16",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "17",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "18",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "19",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "20",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "21",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "22",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "23",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "24",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "25",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "26",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "27",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "28",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "29",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "30",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "31",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "32",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "33",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "34",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "35",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "0",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "1",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "2",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "3",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "4",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "5",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "6",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "7",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "8",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "9",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "10",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "11",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "12",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "13",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "14",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "15",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "16",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "17",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "18",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "19",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "20",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "21",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "22",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "23",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "24",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "25",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "26",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "27",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "28",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "29",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "30",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "31",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "32",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "33",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "34",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "35",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "0",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "1",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "2",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "3",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "4",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "5",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "6",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "7",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "8",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "9",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "10",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "11",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "12",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "13",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "14",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "15",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "16",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "17",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "18",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "19",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "20",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "21",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "22",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "23",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "24",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "25",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "26",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "27",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "28",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "29",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "30",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "31",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "32",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "33",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "34",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "35",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "0",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "1",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "2",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "3",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "4",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "5",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "6",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "7",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "8",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "9",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "10",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "11",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "12",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "13",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "14",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "15",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "16",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "17",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "18",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "19",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "20",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "21",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "22",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "23",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "24",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "25",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "26",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "27",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "28",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "29",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "30",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "31",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "32",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "33",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "34",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "35",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "0",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "1",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "2",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "3",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "4",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "5",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "6",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "7",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "8",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "9",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "10",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "11",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "12",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "13",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "14",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "15",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "16",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "17",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "18",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "19",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "20",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "21",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "22",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "23",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "24",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "25",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "26",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "27",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "28",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "29",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "30",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "31",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "32",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "33",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "34",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "35",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "0",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "1",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "2",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "3",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "4",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "5",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "6",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "7",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "8",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "9",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "10",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "11",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "12",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "13",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "14",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "15",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "16",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "17",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "18",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "19",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "20",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "21",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "22",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "23",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "24",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "25",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "26",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "27",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "28",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "29",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "30",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "31",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "32",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "33",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "34",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "35",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "0",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "1",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "2",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "3",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "4",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "5",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "6",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "7",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "8",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "9",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "10",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "11",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "12",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "13",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "14",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "15",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "16",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "17",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "18",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "19",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "20",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "21",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "22",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "23",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "24",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "25",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "26",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "27",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "28",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "29",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "30",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "31",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "32",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "33",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "34",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"piece": "35",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "bf_blockpack:cardboard_box"
+	}
+]
