@@ -1,0 +1,21 @@
+filename = 'cynosure-1.0.1-neoforge-1.21.1.jar'
+name = 'Cynosure'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0.1-neoforge'
+
+[download]
+hash = '61d09c8de698e11e09fcd5e2c45b382cda8524137450e79a4feb393182a91a1e291d5100133a21978ae0a237b588c3c0c7355b808beb83425aba2479bfc81820'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4JVfdODB/versions/eP3lKUga/cynosure-1.0.1-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = '4JVfdODB'
+version = 'eP3lKUga'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ordsPcFz'
+type = 'REQUIRED'

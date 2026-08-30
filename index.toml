@@ -81,8 +81,16 @@ file = "config/ae2-common.toml"
 hash = "0b13fbe2bd57729f040dc9574e6fc826b30b8bfc75da69d244440a9fdd8477c7"
 
 [[files]]
+file = "config/aeronautics-server.toml"
+hash = "733a50c4a935c18257572c88cf0df06e85978671930984248d4dac1ffdfb6b19"
+
+[[files]]
 file = "config/alltheleaks.json"
 hash = "2437057bda7e53d91e7a8c400da308a8d848fbdcc80ed845a9c8dbdabd071482"
+
+[[files]]
+file = "config/almostunified/.gitignore"
+hash = "abfe79685d4d74888072befedc60b4d19c641c8cf32b48f1b332f11d0aba9a6e"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -126,11 +134,11 @@ hash = "d44a28ad5ba29bd441c06aa30938bc6ccac38d844a7517a9c965c99b67657abd"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "d8f6d525c064871483363c9ed932455c5fead32ee397b4d40f6c65d724a8f916"
+hash = "22b2244e5313d988f23e231f0239ea7333eebafab2ee2984e18273a8fe90a59c"
 
 [[files]]
 file = "config/apotheosis/name_generation.cfg"
-hash = "e3158532fc4c88d4a614e2d08ba265ac3ab586c5f78c2bf09167ecc7f45250fe"
+hash = "e84edcdd77afe10ff8c0faa643ed1197a11ba681af01c3fa22101ab87f75024b"
 
 [[files]]
 file = "config/apothic_spawners.cfg"
@@ -217,6 +225,74 @@ file = "config/configured-client.properties"
 hash = "a9f1058d68eb630eb4783d12da4a5dea5c2f5481fdf38280e33944b9593d2d9c"
 
 [[files]]
+file = "config/copycats-client.toml"
+hash = "e315dbb97d8623bcb779383e2b58d22cf2c65b7ca239f73cb34660ee077fecfb"
+
+[[files]]
+file = "config/copycats-common.toml"
+hash = "14818ac4ed5c487630e917c6bcbb986b6dfad26357111cdb4619ad5456b3a46e"
+
+[[files]]
+file = "config/copycats-server.toml"
+hash = "dac18a20718319d6556a7b2709d8f7a64b5da718d2b05ab9d32604087860322a"
+
+[[files]]
+file = "config/create-client.toml"
+hash = "16774bad3d5684a5ecfb6e9e9a8ca5c158fbc8bb3c97568af830be925e6d3d2a"
+
+[[files]]
+file = "config/create-common.toml"
+hash = "1c632f62c30f4e1223669267196d2ff1a2c03e400bf565ff4fe81e20c7cd2bdf"
+
+[[files]]
+file = "config/create-server.toml"
+hash = "f1a3edd31cdcf2b602b7d51d1fe8ba5e88d6403580ba382ba4cbfab1ecb3a365"
+
+[[files]]
+file = "config/create_connected-common.toml"
+hash = "5e18ed787b1fb0fcd23abcc4baf7f73f5ebcf73f369bf1102ba251569fd06fd4"
+
+[[files]]
+file = "config/create_connected-server.toml"
+hash = "5b0f4cdc30aac70ead5b98c9768e0aa39868141b999cfcdebc3e49f18a8ac9eb"
+
+[[files]]
+file = "config/create_wizardry-common.toml"
+hash = "3a5007eb21cb12a37ebf58fa39bc07c542f2d478afe35157e491d51c208ac2b5"
+
+[[files]]
+file = "config/createaddition-common.toml"
+hash = "a9ac73605dc02f11a5e5a059f44e15e389d5e16d98b6bfbebaac22cff42891d4"
+
+[[files]]
+file = "config/createestrogen/client.json5"
+hash = "4cf322de399db73a7083c4b506b1773bc9363514dd9db0687e6aadca3778b2eb"
+
+[[files]]
+file = "config/createestrogen/common.json5"
+hash = "7b6ca8cdd9859408821bb79a247aea70b76d1c0b5dd9db7f88572dc4465e353c"
+
+[[files]]
+file = "config/createestrogen/server.json5"
+hash = "7b6ca8cdd9859408821bb79a247aea70b76d1c0b5dd9db7f88572dc4465e353c"
+
+[[files]]
+file = "config/createnuclear-common.toml"
+hash = "a505deb53c2a76336a5cbd911b3e2a141710bf940bd905d164d7f33b12a06a81"
+
+[[files]]
+file = "config/createoreexcavation-common.toml"
+hash = "6b87e43f057460f167d20bd2cb0ac968be0565df049b2ece98921179cf4ccd0e"
+
+[[files]]
+file = "config/createoreexcavation-server.toml"
+hash = "af9f2fc843387f89071c35ab9f184ad3fedd7686ca2cbd2a6247d72b69152fe0"
+
+[[files]]
+file = "config/createtweakedcontrollers-client.toml"
+hash = "e515cfbb98173e45c0bc11ec251858ec8a9159fde505b7bff8559db7f18dd5c7"
+
+[[files]]
 file = "config/creativecore-client.json"
 hash = "acb6c8c1394d4d6f2d0c98d5c314c5ef8ad34b8a76f0a420fc596733bcbc51ac"
 
@@ -258,19 +334,27 @@ hash = "f44cd2b65f10a28590cb64dd48341bc78f1c6ff85f903687aad40cc9c619b0c6"
 
 [[files]]
 file = "config/eclipticseasons_multimodpatch-client-1.toml.bak"
+hash = "f22bcf1d234a56bfec8cc9647022615a1f2e859f2d2032671f301acd32e858e1"
+
+[[files]]
+file = "config/eclipticseasons_multimodpatch-client-2.toml.bak"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/eclipticseasons_multimodpatch-client.toml"
-hash = "f22bcf1d234a56bfec8cc9647022615a1f2e859f2d2032671f301acd32e858e1"
+hash = "06776857694dd84a0b3b6e5c23e2823934068a486b0c3ca8f17adeee53f385be"
 
 [[files]]
 file = "config/eclipticseasons_multimodpatch-common-1.toml.bak"
+hash = "5ab82b242cb62b4df5e5d3bc009293a0f7a4b0c04e1eacd9b4f373be2c116c19"
+
+[[files]]
+file = "config/eclipticseasons_multimodpatch-common-2.toml.bak"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/eclipticseasons_multimodpatch-common.toml"
-hash = "5ab82b242cb62b4df5e5d3bc009293a0f7a4b0c04e1eacd9b4f373be2c116c19"
+hash = "3c27dc99caa807db98377b9f0a75d7f1a0601d30d9c96d67f0d974d354637718"
 
 [[files]]
 file = "config/ends_delight-common.toml"
@@ -287,6 +371,18 @@ hash = "02a1a53ce16cfe14a5830763382c8b7e4aa32a887f2bee31798e3ade5b962333"
 [[files]]
 file = "config/envelope-server.toml"
 hash = "ee0e5e767eea31215a53e89d53e0c33a3f32f63ce1eb6efb42d3875c0a6c705a"
+
+[[files]]
+file = "config/estrogen/client.json5"
+hash = "064bfc5725bee3b9d458c11cc47274f957ec72d1cd54dfe9665f061034c0b2b0"
+
+[[files]]
+file = "config/estrogen/common.json5"
+hash = "fcf7767612748f9b3629d0cb07f3d1abd467074fec01cd44f03400f3579dd5c5"
+
+[[files]]
+file = "config/estrogen/server.json5"
+hash = "626b91403ff61262aeca37e8889125484d9ce0fb1026a1c521009e290074ed53"
 
 [[files]]
 file = "config/extralib/config.yml"
@@ -311,6 +407,10 @@ hash = "1eecc5b541b94652f11619de138f2f958a71034e3466a7d7096f1b739060dce6"
 [[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "b6c85cb392f799ed932ffe8d6051f48a283a0df3f8674acf4f8d89341836e686"
+
+[[files]]
+file = "config/flywheel-client.toml"
+hash = "9a8019a2819cf8f27a30c0788b458ed7e9b6d749faea23d8feafa0424c4bb568"
 
 [[files]]
 file = "config/fml.toml"
@@ -351,6 +451,10 @@ hash = "224890fd3a08bcfd70ad4ffcd277b13843610006658ddf7e26b5b864f2663e53"
 [[files]]
 file = "config/immersiveengineering-startup.toml"
 hash = "776cf15a4474e30ac7bdf944f44d0dca25851efad95b8d8055f3d3de29aad705"
+
+[[files]]
+file = "config/irons_jewelry-server.toml"
+hash = "6b03f588d0bee8356f40f9c8c92be34fb67f0f307df7cd9ffbb527ed22d86e38"
 
 [[files]]
 file = "config/irons_spellbooks-client.toml"
@@ -398,11 +502,11 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "a1c92597b888f3de75836437f16518433a855b7277193054d2cebb8dc2efca4a"
+hash = "9e99b29c95f6941507bad7e37427cdab3907189863790034a1c5fb381abe268d"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
-hash = "0fba9a2471748dcf9c8a155b0b2bbc7428c579c47331c42a6175871dc77b8a19"
+hash = "3d3c92b1a45a3a27186b91eeb1e9958d28e81282ccca4611acce34f7250bd81d"
 
 [[files]]
 file = "config/jei/jei-client.ini"
@@ -422,15 +526,23 @@ hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "061dbb3f82ef9d856cbf28ab7eb54190679be3555939680202f7e75d9da1b3a3"
+hash = "747e97fd8e4f882b6a12514f1159353ad9791cd1ddf1df4d21564dcf0cea1334"
 
 [[files]]
 file = "config/jei/world/local/Aqua Test/lookupHistory.json"
 hash = "0083dd6adbbb6b256b59d1a0d3b489f45cdac1e6a8b087f55ace1c96b31b0506"
 
 [[files]]
+file = "config/jei/world/local/Create Test/lookupHistory.json"
+hash = "a7aab0823a8fd6433360c2db0d99c7781d0f574c3ff1c862be2e3164975df17c"
+
+[[files]]
 file = "config/jei/world/local/Data test 1/lookupHistory.json"
 hash = "b3340c30e39c2885017608f59b2c549ba50e2eb11919e6628fdd02632104497d"
+
+[[files]]
+file = "config/jei/world/local/Grave Test/lookupHistory.json"
+hash = "e97af9d629908eddb61cc99ab9a3eeb8b56faf474a6cebb362f75c7fc4ca3e1f"
 
 [[files]]
 file = "config/jei/world/local/KubeJS Test/lookupHistory.json"
@@ -457,8 +569,16 @@ file = "config/jei_mekanism_multiblocks-client.toml"
 hash = "4c2fc76e8aaa750db4f8168d8654e3bd624c4b5a8e606948591f76058d78b868"
 
 [[files]]
+file = "config/kritter.json5"
+hash = "b47f839be4d54affccadb5967c8582ae699461d05b8aa86a49a86f7c48135657"
+
+[[files]]
 file = "config/lithium.properties"
 hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
+
+[[files]]
+file = "config/lithostitched.json"
+hash = "43e35f01fceb40ba4689584c447ae842edf22fe86131f30f5108aae55b1b5ca6"
 
 [[files]]
 file = "config/lodestone-client.toml"
@@ -545,12 +665,16 @@ file = "config/occultism-startup.toml"
 hash = "b4094254eafafe113401e63970319b247c87a22cc767418002249208ae9ee9f1"
 
 [[files]]
+file = "config/offroad-server.toml"
+hash = "7dda83d4436419564b495e65b4123ab8453eb926cdd8dabc526e41d3ace6bf40"
+
+[[files]]
 file = "config/packed_packs/__version.json"
 hash = "53d0bd0d7dcc4f7d177829026f9f473fd8a5b5cd328c483a883de9a70ba33f1f"
 
 [[files]]
 file = "config/packed_packs/config.json"
-hash = "92b87166bc3cbe535593c81fb1d19925e0974f26a9401e0c4a01fcb13e81b8ba"
+hash = "7e3e9baf6ea25533a63642e6305a976a99ea9583f3f1e4f8be3b6020cdb5147a"
 
 [[files]]
 file = "config/packed_packs/config.meta.json"
@@ -558,7 +682,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "96385734758a1a5ccd83c31c56d7a1d34c5ea5b90d1c2f1d5d27dfe69c971c78"
+hash = "0146428d9b03c5914a4e99205e61c622ed172672b8b0427d6ce1087b40b24f77"
 
 [[files]]
 file = "config/packed_packs/profiles/datapacks/Tumblr Bumblr.profile.json"
@@ -581,8 +705,32 @@ file = "config/placebo.cfg"
 hash = "6bbc71c6dc18b1ba4952e1bc54ed2b98c3a90f04cec4257ec3f7566cdf0c0e2a"
 
 [[files]]
+file = "config/ponder-client.toml"
+hash = "57fe579bf4cdbcab6c6702dc0dad2727b899f07f28fea686bca1e4b25b20bbfb"
+
+[[files]]
 file = "config/primal-common.toml"
 hash = "0554f73563008f4290771fc89f83cdeff6d7732c1a64ad12b9cad909d9d96404"
+
+[[files]]
+file = "config/railways-client.toml"
+hash = "5c75da0d115b1409c47ca63e8103819a7b9700d69693bdc482349a4306da0992"
+
+[[files]]
+file = "config/railways-common.toml"
+hash = "cf3c9c86459a6d341ff8419fd49bf332d7e12b9a25e5c2605cfe5c0b28e52e41"
+
+[[files]]
+file = "config/railways-server.toml"
+hash = "a954732e7e76d5cccb62ed88cdeee38018f22679d39c3b4727581551fa4da02b"
+
+[[files]]
+file = "config/regions_unexplored/client.json"
+hash = "219a24a03c06a9171e1b04e1bd361a9332905dd79d0b94a4c805b4358a41ee1d"
+
+[[files]]
+file = "config/regions_unexplored/common.json"
+hash = "300dda462e31f6f1bcce0d67308e4939d1b461a03c8cc92ba805f7ac9d1cb66c"
 
 [[files]]
 file = "config/reliable_replacer.json"
@@ -601,12 +749,44 @@ file = "config/resourceful-config-web.json"
 hash = "e00ca7dee6dfef16d016cc65d21f11ea5a0c39b3ba931a32afc52023d66061b8"
 
 [[files]]
+file = "config/sable-client-1.toml.bak"
+hash = "cd29b6cafa59b3266e47725575f628f4e665302760dede5d11e28959a427e310"
+
+[[files]]
+file = "config/sable-client-2.toml.bak"
+hash = "0dd32460fb2fc6a4e438784924c377f11ba416732be1daff68c951e2e197d42d"
+
+[[files]]
+file = "config/sable-client.toml"
+hash = "0dd32460fb2fc6a4e438784924c377f11ba416732be1daff68c951e2e197d42d"
+
+[[files]]
+file = "config/sable-common.toml"
+hash = "0614f722541191b6ddcfb686f97d5ea9a3280d32f8e0607c0d31dffe9a2dc5d7"
+
+[[files]]
+file = "config/sable-server.toml"
+hash = "086c61695c31826b3fbcd4e5f55be8f42c3e4f25d6e1d3ffb680588a7457d2bc"
+
+[[files]]
+file = "config/sable_xaero_bridge-client.toml"
+hash = "2b850f2bd88e6f51d583ac7941c4916340e439b1a9f1232029595d667ba65b25"
+
+[[files]]
 file = "config/silentgear-client.toml"
 hash = "eddf28a0e0d6c1027054eb40c290adc4be61ea6b40ca503094b6a40c444ab5ce"
 
 [[files]]
 file = "config/silentgear-common.toml"
 hash = "c149f0ac643788f61ac07159b59cc64d7a9977dac7c7f032a5b20308fea715fc"
+
+[[files]]
+file = "config/simulated-client.toml"
+hash = "944ba0d36dfe00436e814fffd736acdd51292da18a01a060ea6ffbcf3dc7388b"
+
+[[files]]
+file = "config/simulated-server.toml"
+hash = "74ceaca226933e2471df76e5f6a8b1d0e2e339754419fd7c0c8f37fb3b90d243"
 
 [[files]]
 file = "config/sky_aesthetics.json"
@@ -665,6 +845,30 @@ file = "config/stellaris-config.json"
 hash = "e5b4aeac857b0286a978cd5627ecb3c32f5665666d59bda5573085434f9f7e53"
 
 [[files]]
+file = "config/stormiespiders/non-climbable-blocks.json"
+hash = "a2dc02a71020a0056bed420d58cdc2e0baa01c33fccfd1f2bd96c1880bd14abc"
+
+[[files]]
+file = "config/stormiespiders/rotation-overrides.json"
+hash = "d53f4c37a8d1d28b4bd8b72205bcc4f9f5a50c6b57dc2efbe0c6d5331071186c"
+
+[[files]]
+file = "config/stormiespiders/stormiespiders.json"
+hash = "c8c24b97720a02ec698726cac1147910dce5b685ce1b36c5050d442cdca4a4e7"
+
+[[files]]
+file = "config/tectonic.json"
+hash = "88ac9fd71410c3ba66e5a775a4d38ebd3fec819184996f3d6c3091188532adb1"
+
+[[files]]
+file = "config/terrablender.toml"
+hash = "499d188162ddcf7fcf450cdcdc96bd41ac582501ecad5ed4a74dd9ed6b01990a"
+
+[[files]]
+file = "config/terralith.json"
+hash = "eadc7fad5ce55fbcec25df521820d36c222d5b12f17006ed9fea34ebeb6fd01d"
+
+[[files]]
 file = "config/test-config.json"
 hash = "19c0f10bf7e0d767f7861e9c561b7d0227da826996387cd59058df1eca61190f"
 
@@ -675,6 +879,14 @@ hash = "6a6d3f77f88598206f8edeb23e48afafbcee758f69eb4f430fbeded6e76d0cfb"
 [[files]]
 file = "config/tide/tide_server.json"
 hash = "83e0d650511b8a3780c26bf5bc158d0e7378fbb79c4acb247cfefa07ff5dbd89"
+
+[[files]]
+file = "config/trmt-client.json"
+hash = "3f05a62ecf2b307ec62e5bf24f645121685bde1bb8ceae1c0fc375a121dac8c8"
+
+[[files]]
+file = "config/trmt.json"
+hash = "dc616de5844f627b0196f517f4ba92a9a4866a9c2d84a9ca97f4291aa90ac731"
 
 [[files]]
 file = "config/vampirism-balance.toml"
@@ -707,6 +919,78 @@ hash = "160ecade5d7b31e6286f625b8e12518b958dc22c4625a71a4b2f5d6d92c59211"
 [[files]]
 file = "config/werewolves-server.toml"
 hash = "1caea670ed6064708b7bad43e2016b0a0745c72193dae4b3d203ce611e206dd1"
+
+[[files]]
+file = "config/xaero/lib/client.cfg"
+hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+
+[[files]]
+file = "config/xaero/lib/common.cfg"
+hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+
+[[files]]
+file = "config/xaero/lib/profiles/default.cfg"
+hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+
+[[files]]
+file = "config/xaero/lib/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaero/minimap/client.cfg"
+hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+
+[[files]]
+file = "config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_client.json"
+hash = "a4c13e76500473fe8d555225022542d0ef89708c3d885e233dca15f91e437774"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_server.json"
+hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
+
+[[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "ca697880dd3a041951f86a69bd0e37e5d07981027f01b9eab2a8bec3ac44a139"
+
+[[files]]
+file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "646f4782212350914aa92e1a5a0ed828215af22dafdf1d480fe91be62aa91ae4"
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+
+[[files]]
+file = "config/xaero/minimap/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaero/world-map/client.cfg"
+hash = "d0f079a8df083f6f60a0e0c1316a25fc841755a91bdcb2f86c66ead8e7d4d13d"
+
+[[files]]
+file = "config/xaero/world-map/common.cfg"
+hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+
+[[files]]
+file = "config/xaero/world-map/profiles/default.cfg"
+hash = "5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf"
+
+[[files]]
+file = "config/xaero/world-map/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaerohud.txt"
+hash = "8d13c5f398016036aa4fdefb366ef3926d89f96ca104155bc9f6e5a7ec682ecd"
+
+[[files]]
+file = "config/xaeropatreon.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/yacl.json5"
@@ -854,6 +1138,11 @@ hash = "7798fe2a32f58af4d67273fc04f2cd8d5e8829b7902bde1d1bf69b28e3153abe"
 metafile = true
 
 [[files]]
+file = "mods/atlas-api.pw.toml"
+hash = "0b169d65656ff0b50b153e529f43d61773448a8144dbb3abf38eb94050ac1259"
+metafile = true
+
+[[files]]
 file = "mods/better-advanced-tooltips.pw.toml"
 hash = "d03501e76c49171cd156b5b6a62d9a3624d33db7c920385f736212dc6c82b2d6"
 metafile = true
@@ -929,6 +1218,61 @@ hash = "1edcb61c72223e07f2e5ad4f17f8b0994669a3f3bb89d6049ad8a4f26359aa30"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "911e14b5e671ce623692401b3be626489183af0940328e2fecc4f03f4f795573"
+metafile = true
+
+[[files]]
+file = "mods/create-compatible-storage.pw.toml"
+hash = "c07a6c30cb0d82f5035797f17b19660d949d59cfb6e7d6150cfbc63177d3e99c"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "eea97c957732ac6e1b834f20d740940133b3165c7589a9bb901ab26b66b34c96"
+metafile = true
+
+[[files]]
+file = "mods/create-estrogen.pw.toml"
+hash = "ffa9b15ff9842f895f0cee02f005d2c840ba4448f94f27ff64dd7c0f05f7591b"
+metafile = true
+
+[[files]]
+file = "mods/create-ore-excavation.pw.toml"
+hash = "cde65a96516824d531583322ac78c22f1b6582a3a26bb1849dbb7bf86a1ed3cb"
+metafile = true
+
+[[files]]
+file = "mods/create-tweaked-controllers.pw.toml"
+hash = "aad16eb5df74893e66d527f4e54154de5f91c437ff6c6e99b41bb9d09d6c63c2"
+metafile = true
+
+[[files]]
+file = "mods/create-wizardry.pw.toml"
+hash = "aac54c44a66501665546dcd0b38c1662078f1927d01ac4427e5f2a7a425bdcf7"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "1b694c48990fb1cdb4201105aabd867c397db3aef9a56bf00987c31167172eec"
+metafile = true
+
+[[files]]
+file = "mods/createaddition.pw.toml"
+hash = "626627e33aead34dbe0b98373768b20cfe057385002b74fb62ae1e1845d87541"
+metafile = true
+
+[[files]]
+file = "mods/createbetterfps.pw.toml"
+hash = "5b6c4f7b0489be39e71936a234eb5b286f78bc82eaf4e32f6c4ad441f048dfa8"
+metafile = true
+
+[[files]]
+file = "mods/createnuclear.pw.toml"
+hash = "c94dd2e3e2291948faa43bfd4f1839e3f25c3e82e6545907271c0e3b72e3e255"
+metafile = true
+
+[[files]]
 file = "mods/creativecore.pw.toml"
 hash = "c3db35f5037f4e30c1b65e70d5181efd1cfcf57f1e50ed029d43cf72334a5b41"
 metafile = true
@@ -941,6 +1285,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "3fd4c88bfbc3328daacbb0df8560d1037fb5be349c29b4fa5cf56e1b38769f4d"
+metafile = true
+
+[[files]]
+file = "mods/cynosure.pw.toml"
+hash = "042afe2f3fd5f49d32fcc9a2efb104d0db8b24af1fa3dde3af3033cb906879e3"
 metafile = true
 
 [[files]]
@@ -966,6 +1315,11 @@ metafile = true
 [[files]]
 file = "mods/envelope.pw.toml"
 hash = "a5be9c6e369e0da3d34f0565bb58e4d5c23aaad218fcdbe0e499c8277ecfb918"
+metafile = true
+
+[[files]]
+file = "mods/estrogen.pw.toml"
+hash = "4c76eb907e576a760eefb21cb8e0e2bf0110409fab170d3295ebc7753015e0b7"
 metafile = true
 
 [[files]]
@@ -1039,6 +1393,16 @@ hash = "9f25c9eddd8aeefa77c90b7819388f2c60a90be73568173f7fcd1e5204af08c6"
 metafile = true
 
 [[files]]
+file = "mods/interiors.pw.toml"
+hash = "a0d41c49c4fefdc88060332397b2e206d2d4f19d1474eedeea478303d0be8fc4"
+metafile = true
+
+[[files]]
+file = "mods/irons-jewelry.pw.toml"
+hash = "ca639d34f34afe69862eaad27214c7e8565cab715b8ee6dce5a4513f2de3903a"
+metafile = true
+
+[[files]]
 file = "mods/irons-lib.pw.toml"
 hash = "d0f5fdf54b6cb51ec64cde2df12c163de16544c1bab69277ad6e56a6b802630b"
 metafile = true
@@ -1061,6 +1425,11 @@ metafile = true
 [[files]]
 file = "mods/just-enough-mekanism-multiblocks.pw.toml"
 hash = "971ae48c886556f839542dfbdea5fcd51830457eef7ec34d6348566aed0f1d23"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "ed77efd1e63eafec6bbeea6e53339226f62569c203144efcb7d05c406fdbcf0a"
 metafile = true
 
 [[files]]
@@ -1214,8 +1583,23 @@ hash = "c1fcd6cb80c9c3c1079514f463d780e7c8e617e79cef5ea64003b6aa77b56759"
 metafile = true
 
 [[files]]
+file = "mods/sable-x-xaero-bridge.pw.toml"
+hash = "85378af1304287aaf54b660319a7f38cc38d552ae02184f977f5210732b63aaa"
+metafile = true
+
+[[files]]
+file = "mods/sable.pw.toml"
+hash = "2453b15db13b83990a218a8a89b63e24958fcea7ca39dce8e50848bbcc5fed45"
+metafile = true
+
+[[files]]
 file = "mods/selene.pw.toml"
 hash = "fb9f856d63aba7a50bcca4051c9b1be3803f54f3b4f3db9a513c3f860dcbca13"
+metafile = true
+
+[[files]]
+file = "mods/shatterbyte-lib.pw.toml"
+hash = "66debc2b0e1ad53a2c6c21e49c8ce5b99fbbd2f2e4c4476d0c772225e3a01a14"
 metafile = true
 
 [[files]]
@@ -1251,6 +1635,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "e8d454b9b95698912f7ecd2da1a5a2b116c1fd69231e52a68162b837bd3eada0"
+metafile = true
+
+[[files]]
+file = "mods/steam-n-rails-neoforge.pw.toml"
+hash = "75d85d74066de8fe6d501bef385cf5f7e9dd23a9626ed3f13096e07f66a66a77"
 metafile = true
 
 [[files]]
@@ -1294,8 +1683,23 @@ hash = "69fd7c743daafda6e317ad75c8b553af01056687368ad053be81c61c7259debb"
 metafile = true
 
 [[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "04c0b86caee26a175899121c81052750473ee35f59b5c05a1faaadca5e92c94a"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "adb7d09722172d695c699e3b11a70047fbe38ca0a0c883c76f96ceb5fc18f493"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "614f1d3f6fa953f4f4ccb3ae69b86b7c156c66ad5f7769c2d4ff0fcb438072ad"
+metafile = true
+
+[[files]]
+file = "mods/yagm.pw.toml"
+hash = "b45e0b09c1dd1e9d6f4c3063b794653fe232f9937e7aa170950e912846e94ca2"
 metafile = true
 
 [[files]]
@@ -1310,7 +1714,3 @@ hash = "c037a7cfa347260baffd2a1270624e9746c6a01ab75dc40f594542d8fca33f49"
 [[files]]
 file = "resourcepacks/[Forge] IE Reimmersed v1.1.zip"
 hash = "f7d23a05706551a3db6324a5a9d5c69f2db1672a27ce4911c9c9eeeed78be844"
-
-[[files]]
-file = "sync.sh"
-hash = "2bad6f30b02aefe283c9832741b489c4500eb60f89306c1d7dca28a2879239c8"

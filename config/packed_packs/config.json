@@ -8,10 +8,10 @@
     "replaceOriginal": true,
     "hideIncompatibleWarnings": false,
     "additionalFolders": [],
-    "rememberLastViewedProfile": false,
-    "lastViewedProfile": "No Profile",
+    "rememberLastViewedProfile": true,
+    "lastViewedProfile": "Tumblr Bumblr",
     "profileOrder": [
-      "No Profile"
+      "Tumblr Bumblr"
     ]
   },
   "datapacks": {
@@ -19,7 +19,6 @@
     "hideIncompatibleWarnings": false,
     "additionalFolders": [],
     "rememberLastViewedProfile": true,
-    "lastViewedProfile": "No Profile",
     "profileOrder": [
       "No Profile"
     ]
