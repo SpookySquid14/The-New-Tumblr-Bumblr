@@ -1,0 +1,21 @@
+filename = 'reliable_replacer-neoforge-1.21.1-1.7.0.jar'
+name = 'Reliable Replacer'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Reliable Replacer Neoforge 1.21.1 - 1.7.0'
+
+[download]
+hash = '91e2f5b795352cc84879bc80e58d53fe0477a099'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8553683
+project-id = 1450759
+
+[[x-prismlauncher-dependencies]]
+addonId = '667299'
+type = 'OPTIONAL'

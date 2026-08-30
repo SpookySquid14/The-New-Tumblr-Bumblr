@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"immersiveengineering:plate_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ad_astra:steel_plating"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ad_astra:steel_pillar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ad_astra:steel_sliding_door"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

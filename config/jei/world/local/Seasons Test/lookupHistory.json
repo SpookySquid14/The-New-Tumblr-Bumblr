@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"hauntedharvest:grim_apple"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hauntedharvest:succotash"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hauntedharvest:corn"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hauntedharvest:corn_crate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hauntedharvest:kernels"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hauntedharvest:corn_on_the_cob"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:egg"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

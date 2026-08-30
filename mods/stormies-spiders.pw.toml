@@ -1,0 +1,18 @@
+filename = 'stormiespiders-neoforge-1.21.1-3.3.1.jar'
+name = "Stormie's Spiders"
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Stormie's Spiders (NeoForge 1.21.1-3.3.1)"
+
+[download]
+hash = 'fff73106fbe750fcc76fcbb22f0e684fbbb344d6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8348287
+project-id = 1395945

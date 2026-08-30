@@ -1,0 +1,21 @@
+filename = 'hauntedharvest-1.21-3.5.0-neoforge.jar'
+name = 'Haunted Harvest'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'hauntedharvest-1.21-3.5.0-neoforge'
+
+[download]
+hash = '270d98b5c6581c45a418ccb2e88378676ef2880d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8594354
+project-id = 541753
+
+[[x-prismlauncher-dependencies]]
+addonId = '499980'
+type = 'REQUIRED'

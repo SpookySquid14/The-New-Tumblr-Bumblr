@@ -1,0 +1,11 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"werewolves:silver_nugget"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:plate_silver"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ad_astra:steel_rod"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:steel_sign"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ad_astra:steel_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:dust_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ad_astra:steel_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:sheetmetal_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

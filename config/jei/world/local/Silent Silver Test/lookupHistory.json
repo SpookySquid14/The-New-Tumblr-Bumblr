@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"silentgear:chestplate_blueprint"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:ingot_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ad_astra:steel_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:custom_ingot","components":"{\"silentgear:material\":{item:{components:{\"silentgear:material\":{material:\"silentgear:high_carbon_steel\"}},count:1,id:\"silentgear:custom_ingot\"},material:\"silentgear:high_carbon_steel\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:ingot_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:ritual_dummy/summon_foliot_crusher"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:silver_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

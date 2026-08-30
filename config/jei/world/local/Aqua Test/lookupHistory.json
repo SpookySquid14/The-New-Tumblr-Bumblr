@@ -1,0 +1,19 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"occultism:spirit_grindstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:beaver_nugget"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:storage_stabilizer_tier2_dark"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:afrit_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ends_delight:dragon_tooth"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ends_delight:dragon_tooth_knife"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:blueprint_paper"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:rod_blueprint"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:pickaxe_blueprint"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"primal:weaved_straw"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"primal:dried_straw_bale"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"primal:straw_bale"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"primal:river_reeds"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:blueprint_package"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:material_book"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tide:fishing_journal"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

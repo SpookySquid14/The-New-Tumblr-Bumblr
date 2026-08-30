@@ -1,0 +1,18 @@
+filename = 'packed_packs-neoforge-2.2.4+1.21.1.jar'
+name = 'Packed Packs'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'NeoForge v2.2.4+1.21.1'
+
+[download]
+hash = 'f666858614cf2d5fbab8d92fd100b970f0de28d8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8722497
+project-id = 1260514

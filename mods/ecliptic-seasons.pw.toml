@@ -1,0 +1,18 @@
+filename = 'EclipticSeasons-1.21.1-neoforge-0.14.99-beta-2.jar'
+name = 'Ecliptic Seasons'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'EclipticSeasons-1.21.1-neoforge-0.14.99-beta-2.jar'
+
+[download]
+hash = '35231e62dc2984b4890ee718613d595ec6d48032'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8736085
+project-id = 1118306

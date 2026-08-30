@@ -1,0 +1,18 @@
+filename = 'envelope-neoforge-1.21.1-0.7.5.jar'
+name = 'Envelope'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Envelope - NeoForge 1.21.1 - 0.7.5'
+
+[download]
+hash = '6438c750876f57e4d7508d5d1b4ea70c90078355'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8654796
+project-id = 1281170

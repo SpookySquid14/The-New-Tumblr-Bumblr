@@ -1,0 +1,21 @@
+filename = 'Ecliptic-Seasons-MultiMod-Patch-1.21.1-neoforge-0.32.0-beta.jar'
+name = 'Ecliptic Seasons: MultiMod Patch'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Ecliptic-Seasons-MultiMod-Patch-1.21.1-neoforge-0.32.0-beta.jar'
+
+[download]
+hash = 'b3c2154d68cbf2f7e6b52a5a33313e21d9432941'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8736031
+project-id = 1316748
+
+[[x-prismlauncher-dependencies]]
+addonId = '1118306'
+type = 'REQUIRED'

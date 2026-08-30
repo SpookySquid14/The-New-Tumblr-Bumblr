@@ -1,0 +1,14 @@
+{
+  "locked": false,
+  "name": "Tumblr Bumblr",
+  "overrides": {},
+  "packIds": [
+    "file/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip",
+    "generated/fragmentum_layer",
+    "mod_data",
+    "vanilla",
+    "eclipticseasons/Rain Together",
+    "eclipticseasons/Regional Snow Time",
+    "eclipticseasons/Vanilla Biome Climate Settings"
+  ]
+}

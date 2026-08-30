@@ -1,0 +1,21 @@
+filename = 'trmt-0.5.1-1.21.1-neoforge.jar'
+name = 'The Roads More Travelled [TRMT]'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'trmt-0.5.1-1.21.1-neoforge.jar'
+
+[download]
+hash = '3d2a0b7c28390a8ebe590945aea9fa1208d88c36'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8174511
+project-id = 1512955
+
+[[x-prismlauncher-dependencies]]
+addonId = '306612'
+type = 'REQUIRED'
