@@ -1,0 +1,21 @@
+filename = 'aces_spell_utils-1.2.7.1-1.21.1.jar'
+name = "Ace's Spell Utils"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'aces_spell_utils-1.2.7.1-1.21.1.jar'
+
+[download]
+hash = '8b27eefc00b7ec1f321b4707ac532c53df4fadc4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8466924
+project-id = 1299492
+
+[[x-prismlauncher-dependencies]]
+addonId = '855414'
+type = 'REQUIRED'

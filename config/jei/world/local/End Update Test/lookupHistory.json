@@ -1,0 +1,16 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"goety:void_bottle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"goety:void_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"apotheosis:gem","components":"{\"apotheosis:gem\":\"apotheosis:the_end/endersurge\",\"apotheosis:purity\":\"flawless\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"goety:void_echo"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"goety:void_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:quartz"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderscape:nebulite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderscape:nebulite_shards"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderscape:mirror","components":"{\"minecraft:enchantments\":{levels:{\"enderscape:lightspeed\":6}},\"minecraft:repair_cost\":1}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderscape:mirror"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderscape:drift_jelly_bottle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderscape:shadoline_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderscape:raw_shadoline"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

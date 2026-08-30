@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"cataclysm:sticky_gloves"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"estrogen:estrogen","show_icon":true,"neoforge:cures":["milk","protected_by_totem"],"duration":600},"type":"net.minecraft.world.effect.MobEffectInstance","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:fire_resistance","show_icon":true,"neoforge:cures":["milk","protected_by_totem"],"duration":600},"type":"net.minecraft.world.effect.MobEffectInstance","bookmarkType":"INGREDIENT"}
+]
