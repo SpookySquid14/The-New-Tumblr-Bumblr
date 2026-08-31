@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"artifacts:withered_bracelet","components":"{\"relics:data\":{abilities:{abilities:{passive:{extender:{cooldown:0,cooldownCap:0,ticking:0b},lock:{breaks:5},points:0,research:{links:{},researched:0b},stats:{}},withered:{extender:{cooldown:0,cooldownCap:0,ticking:0b},lock:{breaks:5},points:0,research:{links:{},researched:0b},stats:{chance:{initialValue:0.26122d},time:{initialValue:3.83137d}}}}},leveling:{experience:0,level:0,luck:0,points:0}}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"creeperoverhaul:tiny_cactus"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

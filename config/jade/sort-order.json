@@ -19,6 +19,8 @@
   "eclipticseasons:cauldron": null,
   "eclipticseasons:crop": null,
   "eclipticseasons:greenhouse_core": null,
+  "exposure:lightroom": null,
+  "exposure:photograph_frame": null,
   "goety:block_owner": null,
   "goety:capture_mode": null,
   "goety:hostile": null,
@@ -101,5 +103,9 @@
   "minecraft:zombie_villager": null,
   "occultism:foliot": null,
   "occultism:sacrificial": null,
-  "pet_home:collar_tag": null
+  "pet_home:collar_tag": null,
+  "quark:oretoise_eating_cooldown": null,
+  "supplementaries:hat_stand": null,
+  "supplementaries:present": null,
+  "supplementaries:safe": null
 }

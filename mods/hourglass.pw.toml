@@ -1,0 +1,18 @@
+filename = 'hourglass-1.21-1.3.0.0-beta1.jar'
+name = 'Hourglass'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Hourglass v1.3.0.0 Beta 1 for 1.21'
+
+[download]
+hash = 'b69a0a99689c7e922ed8fc1f2932cf8113674dd5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8624077
+project-id = 511172

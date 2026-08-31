@@ -109,12 +109,22 @@
     "snowy_status": true,
     "crop.shift_hint": true
   },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
     "fluid": true,
     "energy": true,
     "tooltip_renderer": true
+  },
+  "quark": {
+    "oretoise_eating_cooldown": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "goety": {
     "block_owner": true,

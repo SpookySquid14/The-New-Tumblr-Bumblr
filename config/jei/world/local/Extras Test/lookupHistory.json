@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"exposure_expanded:gameboy_film","components":"{\"exposure:film_frames\":[{extra_data:{biome:\"terralith:amethyst_rainforest\",day_time:4291,dimension:\"minecraft:overworld\",focal_length:18,light_level:11,pitch:6.3285084f,pos:[7.535861736190127d,67.0d,-112.58668506031366d],shutter_speed:\"1/60\",timestamp:1788134989L,weather:\"Clear\",yaw:-178.95494f},identifier:\"SpookiestOfSquid_4291\",photographer:{name:\"SpookiestOfSquid\",uuid:[I;-1351040915,-444577765,-1241626113,495023361]}}]}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"exposure:developed_color_film"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"exposure:high_sensitivity_color_film"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"yagm:ghost_pearl"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

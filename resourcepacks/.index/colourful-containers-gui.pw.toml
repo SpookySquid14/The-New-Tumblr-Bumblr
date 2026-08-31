@@ -1,0 +1,68 @@
+filename = '§lColourful Containers§8.zip'
+name = 'Colourful Containers GUI'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.19-Snapshot',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3-Snapshot',
+    '1.19.3',
+    '1.19.4-Snapshot',
+    '1.19.4',
+    '1.20-Snapshot',
+    '1.20',
+    '1.20.1',
+    '1.20.2-Snapshot',
+    '1.20.2',
+    '1.20.3-Snapshot',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5-Snapshot',
+    '1.20.5',
+    '1.20.6',
+    '1.21-Snapshot',
+    '1.21',
+    '1.21.1-Snapshot',
+    '1.21.1',
+    '1.21.2-Snapshot',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4-Snapshot',
+    '1.21.4',
+    '1.21.5-Snapshot',
+    '1.21.5',
+    '1.21.6-snapshot',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9-snapshot',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11-snapshot',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '§lColourful Containers§8.zip'
+
+[download]
+hash = 'e8a8a1d8a3409149a4d9c2557295d74eaed0e2ab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8226957
+project-id = 905855
+
+[[x-prismlauncher-dependencies]]
+addonId = '533006'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '619986'
+type = 'OPTIONAL'
