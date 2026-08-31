@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"immersiveengineering:ingot_nickel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:dust_nickel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:raw_nickel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:raw_block_nickel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"goety:lofty_chest"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

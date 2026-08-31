@@ -7,3 +7,9 @@
 [create]
 	#Render seasonal snow on exposed Create contraption blocks.
 	Enable = true
+
+#Pretty Rain
+[particlerain]
+	Enable = true
+	#Change the amount of particles when raining.
+	ChangeAmount = true

@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"sophisticatedstorage:chest","components":"{\"sophisticatedstorage:wood_type\":\"spruce\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:super_glue"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"goety:magic_emerald"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"goety:teeth_focus"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:emerald"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"goety:totem_of_souls","components":"{\"minecraft:custom_data\":{\"Max Souls\":10000,Souls:0}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"quark:trapped_spruce_chest"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

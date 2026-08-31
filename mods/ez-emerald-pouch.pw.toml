@@ -1,0 +1,18 @@
+filename = 'ezemeraldpouch-neoforge-1.21.1-1.0.3.3.jar'
+name = 'EZ Emerald Pouch'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ezemeraldpouch-neoforge-1.21.1-1.0.3.3.jar'
+
+[download]
+hash = '94574d22db1fa5013616be13a20a9612a08cdbe7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7976689
+project-id = 1421408

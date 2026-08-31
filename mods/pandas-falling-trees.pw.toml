@@ -1,0 +1,21 @@
+filename = 'fallingtrees-neoforge-1.21.1-0.14.0.jar'
+name = "Panda's Falling Trees"
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '[1.21.1 NeoForge] 0.14.0'
+
+[download]
+hash = '070260f182d10bdc23de5e8e9297bec0231e2bec'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7858908
+project-id = 880630
+
+[[x-prismlauncher-dependencies]]
+addonId = '975460'
+type = 'REQUIRED'

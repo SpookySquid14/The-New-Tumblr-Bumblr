@@ -15,6 +15,9 @@
   "apothic_enchanting:ench": null,
   "apothic_enchanting:raven_stats": null,
   "apothic_spawners:spawner": null,
+  "balm:jade": null,
+  "complicated_bees:apiary_errors": null,
+  "complicated_bees:bee_nest_type": null,
   "eclipticseasons:animal": null,
   "eclipticseasons:cauldron": null,
   "eclipticseasons:crop": null,
@@ -107,5 +110,6 @@
   "quark:oretoise_eating_cooldown": null,
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
-  "supplementaries:safe": null
+  "supplementaries:safe": null,
+  "waystones:waystone": null
 }

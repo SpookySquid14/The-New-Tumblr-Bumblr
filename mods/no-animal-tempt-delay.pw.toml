@@ -1,0 +1,21 @@
+filename = 'noanimaltemptdelay-1.21.1-1.2.jar'
+name = 'No Animal Tempt Delay'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.21.1-1.2 | No Animal Tempt Delay'
+
+[download]
+hash = '2cb906d108769588b004128fa9a2453ad0437d68'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5609572
+project-id = 952356
+
+[[x-prismlauncher-dependencies]]
+addonId = '342584'
+type = 'REQUIRED'

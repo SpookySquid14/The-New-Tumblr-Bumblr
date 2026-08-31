@@ -35,7 +35,9 @@
     "c:storage_blocks/{material}",
     "c:wires/{material}"
   ],
-  "ignored_tags": [],
+  "ignored_tags": [
+    "c:gems/emerald"
+  ],
   "ignored_items": [],
   "ignored_recipe_types": [
     "cucumber:shaped_tag"

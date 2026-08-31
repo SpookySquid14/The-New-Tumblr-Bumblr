@@ -3,12 +3,20 @@
   "name": "Tumblr Bumblr",
   "overrides": {},
   "packIds": [
+    "file/TumblrBumblr",
+    "netherexp:nether_worldgen_overhaul",
+    "railways:phantom_track_override",
+    "netherexp:nether_mosaic_biome_source",
+    "supplementaries:generated_pack",
+    "tectonic",
+    "amendments:generated_server_pack",
     "file/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip",
     "generated/fragmentum_layer",
     "mod_data",
     "vanilla",
     "eclipticseasons/Rain Together",
     "eclipticseasons/Regional Snow Time",
-    "eclipticseasons/Vanilla Biome Climate Settings"
+    "eclipticseasons/Vanilla Biome Climate Settings",
+    "create:dynamic_data"
   ]
 }

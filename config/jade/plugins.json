@@ -82,12 +82,21 @@
   "apotheosis": {
     "adventure": true
   },
+  "complicated_bees": {
+    "show_cycle_ticks": false,
+    "apiary_errors": true,
+    "show_errors": true,
+    "bee_nest_type": true
+  },
   "occultism": {
     "foliot": true,
     "sacrificial": true
   },
   "apothic_enchanting": {
     "ench": true
+  },
+  "balm": {
+    "jade": true
   },
   "ae2": {
     "part_icon": true,
@@ -125,6 +134,9 @@
   },
   "supplementaries": {
     "hat_stand": true
+  },
+  "waystones": {
+    "waystone": true
   },
   "goety": {
     "block_owner": true,

@@ -1,0 +1,18 @@
+filename = 'piglinproliferation-1.21.1-2.0.15.jar'
+name = 'Piglin Proliferation'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'piglinproliferation-1.21.1-2.0.15.jar'
+
+[download]
+hash = 'e6573a4e1132f4cad59476405502a2f5a7d84767'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8282482
+project-id = 657831

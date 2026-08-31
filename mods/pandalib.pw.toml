@@ -1,0 +1,18 @@
+filename = 'pandalib-neoforge-1.21.1-0.6.0.jar'
+name = 'PandaLib'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '[1.21.1 NeoForge] 0.6.0'
+
+[download]
+hash = 'af13ba0a3e417e4218a57c835d184ad5c331c1c2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7858822
+project-id = 975460

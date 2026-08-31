@@ -1,0 +1,21 @@
+filename = 'waystones_26.2.zip'
+name = 'Fresh Waystones Texture'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2', '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'waystones_26.2.zip'
+
+[download]
+hash = 'de82059c31ac45953b4ef968afb0a53cf2217639'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8430312
+project-id = 860903
+
+[[x-prismlauncher-dependencies]]
+addonId = '245755'
+type = 'REQUIRED'

@@ -1,0 +1,18 @@
+filename = 'underground_rooms-2.3.0-neoforge.jar'
+name = "Ember's Underground Rooms | Ancient Dungeons"
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'underground_rooms-2.3.0-neoforge.jar'
+
+[download]
+hash = 'e5d1c9922e2fbddb61cc111b9d03fe62b62a1995'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8548885
+project-id = 1197753
