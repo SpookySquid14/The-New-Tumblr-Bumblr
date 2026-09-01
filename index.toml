@@ -666,7 +666,7 @@ hash = "d7ad6c34d30fb7d2fefe19688d09419dcde661bf71d1a03beb6c4680188b130c"
 
 [[files]]
 file = "config/configurableextramobdrops/mobdropconfig.txt"
-hash = "b261e330b3f6921d2c33aa069b409ff5a0214204c17a51aad3699418cc5a2c3f"
+hash = "5fd398931b77142e7adda6632322b3a899edf74c497d9f7569e0ff4962be19a5"
 
 [[files]]
 file = "config/configured-client.properties"
@@ -3758,7 +3758,7 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/apotheosis_recipes.js"
-hash = "11aeb81958dbedefcfb1fadfbfe4e70147cff5a5b535f6e682453b629fbfe55b"
+hash = "2ce359f7566a00bc9d81ec4edcc673d7a7f5ae3b26e32e8dded00a6f12361668"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/cataclysm_recipes.js"

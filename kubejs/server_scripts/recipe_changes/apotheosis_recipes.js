@@ -29,6 +29,6 @@ ServerEvents.recipes(event=>{
     event.replaceInput(
         {output:'apotheosis:inert_trident'},
         'minecraft:nautilus_shell',
-        '#tumblrbumblr:shark_teeth'
+        'primal:shark_tooth'
     )
 })
