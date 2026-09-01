@@ -1,0 +1,22 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:spawner"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:recrystallizer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"goety:magic_emerald"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:emerald_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"waystones:warp_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:soul_elytra"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm_spellbooks:excelsius_speed_chestplate","components":"{\"azurelib:az_id\":[I;-713592662,461000216,-1709938051,-324204002],\"irons_spellbooks:spell_container\":{data:[{id:\"cataclysm_spellbooks:overcharged\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm:ignitium_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm:ignitium_elytra_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:elytra_blueprint"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:elytra_template"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:elytra_wings"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:elytra"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:elytra","components":"{\"minecraft:damage\":0,\"minecraft:item_name\":\u0027{\"translate\":\"item.silentgear.elytra.nameProper\",\"with\":[{\"translate\":\"material.silentgear.azure_silver\"}]}\u0027,\"silentgear:construction\":{broken_count:0,example:0b,parts:[{item:{components:{\"silentgear:material_list\":[{item:{count:1,id:\"silentgear:azure_silver_ingot\"},material:\"silentgear:azure_silver\"}]},count:1,id:\"silentgear:elytra_wings\"},part:\"silentgear:elytra_wings\"},{item:{components:{\"silentgear:material_list\":[{item:{count:1,id:\"minecraft:string\"},material:\"silentgear:string\"}]},count:1,id:\"silentgear:binding\"},part:\"silentgear:binding\"}],repairedCount:0},\"silentgear:model_index\":3,\"silentgear:model_key\":\"elytra:elytra_wings{azure_silver},binding{string},\",\"silentgear:properties\":{\"silentgear:armor\":1.0500002f,\"silentgear:armor_durability\":17.0f,\"silentgear:armor_toughness\":0.0f,\"silentgear:charging_value\":1.4f,\"silentgear:durability\":197.0f,\"silentgear:enchantment_value\":29.0f,\"silentgear:knockback_resistance\":0.0f,\"silentgear:magic_armor\":13.0f,\"silentgear:rarity\":83.0f,\"silentgear:repair_efficiency\":1.05f,\"silentgear:repair_value\":0.5f,\"silentgear:traits\":[{conditions:[],level:3,trait:\"silentgear:malleable\"},{conditions:[],level:1,trait:\"silentgear:flexible\"}]}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderscape:nebulite_shards"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderscape:nebulite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderscape:end_city_key"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createoreexcavation:raw_diamond"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createoreexcavation:raw_redstone"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

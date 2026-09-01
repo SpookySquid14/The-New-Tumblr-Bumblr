@@ -1,0 +1,21 @@
+filename = 'configurableextramobdrops-1.21.1-3.7.jar'
+name = 'Configurable Extra Mob Drops'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.21.1-3.7 | Configurable Extra Mob Drops'
+
+[download]
+hash = '6aa2fd7a76e6da136805c3397c0b82326ded66fd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8212149
+project-id = 414350
+
+[[x-prismlauncher-dependencies]]
+addonId = '342584'
+type = 'REQUIRED'

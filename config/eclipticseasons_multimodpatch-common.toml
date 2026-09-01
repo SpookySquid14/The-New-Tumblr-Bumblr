@@ -30,3 +30,7 @@
 [domum_ornamentum]
 	#Enable automatic snow-covered blocks and models.
 	Enable = true
+
+#InControl
+[incontrol]
+	Enable = true
