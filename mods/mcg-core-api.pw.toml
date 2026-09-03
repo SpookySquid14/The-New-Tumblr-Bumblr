@@ -1,0 +1,18 @@
+filename = 'mcg-core-neoforge-1.21.1-1.1.0.jar'
+name = 'MCG Core [API]'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mcg-core-neoforge-1.21.1-1.1.0.jar'
+
+[download]
+hash = '1ac012cf13d28c211f0c0291a9688546e03a4b0a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8777782
+project-id = 1673221

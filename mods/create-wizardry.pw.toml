@@ -1,18 +1,37 @@
-filename = 'create_wizardry-1.21.1-0.5.1-pre1.jar'
+filename = 'create_wizardry-1.21.1-0.5.0.jar'
 name = 'Create: Wizardry'
-side = 'both'
-x-prismlauncher-dependencies = []
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '1.21.1-0.5.1-pre1'
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create: Wizardry 0.5.0'
 
 [download]
-hash = '273078193837b10c91c44d02cdf2e10fc40f3a5e8db72e87ee8db69706c8defe84f01e161223f418e60a34f29892b96d047e80a63a16913421ffaffa2ba33276'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/OeGdeWEj/versions/K1xkNKKf/create_wizardry-1.21.1-0.5.1-pre1.jar'
+hash = 'b692265fb72866036f6e494bcdf477ac70c43088'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'OeGdeWEj'
-version = 'K1xkNKKf'
+[update.curseforge]
+file-id = 8304856
+project-id = 949995
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '855414'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '658587'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'

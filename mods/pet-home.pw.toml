@@ -1,0 +1,18 @@
+filename = 'pet_home-1.0.13-neoforge-1.21.1.jar'
+name = 'Pet Home'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'pet_home-1.0.13-neoforge-1.21.1.jar'
+
+[download]
+hash = '360ce432dd358c854450048f1db6604f997e6104'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8204886
+project-id = 1255343
