@@ -1,0 +1,31 @@
+{
+  "discovered": [
+    "estrogen:moth_bed",
+    "ftbquests:book",
+    "mcgcore:guidebook",
+    "minecraft:charcoal",
+    "minecraft:coal",
+    "minecraft:cobblestone",
+    "minecraft:crafting_table",
+    "minecraft:emerald",
+    "minecraft:furnace",
+    "minecraft:grindstone",
+    "minecraft:iron_axe",
+    "minecraft:snow",
+    "minecraft:stick",
+    "minecraft:stone_pickaxe",
+    "minecraft:torch",
+    "minecraft:villager_spawn_egg",
+    "silentgear:azure_silver_ingot",
+    "vampirism:cursed_spruce_log",
+    "vampirism:dark_spruce_sapling",
+    "waystones:mossy_waystone",
+    "waystones:warp_stone",
+    "waystones:waystone",
+    "werewolves:silver_ore"
+  ],
+  "ticked": [],
+  "seen": [],
+  "notes": {},
+  "recents": []
+}

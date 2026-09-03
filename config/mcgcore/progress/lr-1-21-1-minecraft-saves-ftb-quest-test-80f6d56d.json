@@ -1,0 +1,25 @@
+{
+  "discovered": [
+    "enderscape:veiled_log",
+    "ftbfiltersystem:smart_filter",
+    "ftbquests:book",
+    "goety:pine_log",
+    "mcgcore:guidebook",
+    "minecraft:crafting_table",
+    "minecraft:oak_log",
+    "minecraft:stick",
+    "primal:seashells",
+    "quark:hollow_cherry_log",
+    "regions_unexplored:blackwood_log",
+    "regions_unexplored:silver_birch_log",
+    "regions_unexplored:silver_birch_sapling",
+    "silentgear:axe",
+    "silentgear:crimson_iron_ingot",
+    "silentgear:material_book",
+    "werewolves:magic_log"
+  ],
+  "ticked": [],
+  "seen": [],
+  "notes": {},
+  "recents": []
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Introduction",
+  "description": "Welcome, traveler. I do not know your name, but neither do you mine. What matters is that we've met, talked... understood one another.\nhis world is full of wonders, but also danger. Many gears move in the clockwork of reality, and time is something nobody can escape. So the question is, what will you do with yours?\nWithin the contents of this book are a collection of people's notes, their journeys, and for some, their life's work. I'm certain it will prove useful to you.\nAh, but be not afraid if you lose this book. Its contents will always be accessible through your inventory.",
+  "icon": {
+    "item": "minecraft:knowledge_book"
+  },
+  "chapter": "main",
+  "sort_order": 0,
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Read The Book And Accept Responsibility of What Comes Next",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:visit_dimension",
+      "name": "Join The World",
+      "dimension": "minecraft:overworld",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [],
+  "toast_on_unlock": false,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": true,
+  "description_completed": "Now, go forth, and carve your tale."
+}

@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:make_furnace_and_pickaxe"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "minecraft:torch",
+      "required_amount": 16
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "Light Em Up Up Up!",
+  "description": "You've done well and gotten your bearings, but it's likely beginning to get dark, no? In this case, you'll want to keep your surroundings lit. This will go a long way in keeping hostile mobs at bay.\nI, Professor Larch, recommend §o§6torches§r as the quickest and easiest method. A stick and some sort of coal is the easiest way to craft them. §6§oIf you've not gone underground yet, charcoal can be made by burning wooden logs.§r\nSomething you will immediately notice is that holding items like torches visibly light the area around you without needing to be placed. Do note that this only helps you, and will not prevent things such as mobs.",
+  "icon": {
+    "item": "minecraft:torch"
+  },
+  "chapter": "main",
+  "sort_order": -4,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

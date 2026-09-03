@@ -18,6 +18,11 @@
 				x: 2
 				y: 1
 			}
+			"ftbchunks:chunks": {
+				enabled: true
+				x: 3
+				y: 1
+			}
 			"ftblibrary:toggle/night": {
 				enabled: true
 				x: 2
@@ -35,8 +40,13 @@
 			}
 			"ftblibrary:config": {
 				enabled: true
-				x: 3
+				x: 4
 				y: 1
+			}
+			"ftbchunks:claim_chunks": {
+				enabled: true
+				x: 0
+				y: 2
 			}
 			"ftblibrary:toggle/day": {
 				enabled: true

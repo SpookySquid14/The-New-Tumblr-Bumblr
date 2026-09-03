@@ -1,0 +1,11 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"estrogen:moth_fuzz"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"estrogen:moth_wool"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"estrogen:moth_bed"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"refurbished_furniture:warped_storage_jar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"waystones:warp_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"moremekanismprocessing:azure_silver_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:azure_silver_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:azure_silver_nugget"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

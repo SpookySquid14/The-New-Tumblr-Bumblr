@@ -1,0 +1,31 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:make_home"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Learn About Claims"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "Claiming It As Yours",
+  "description": "With the addition of FTB Chunks, you have the ability to &o&6claim land&r. To do so, open your inventory and click the [claim manager icon](image:tumblrbumblr:textures/quests/icons/claim_manager.png) to open the menu. Using the left mouse button you can drag the cursor over chunks to claim them, and unclaim them by doing the same with the right mouse button.\nClaimed chunks have a number of advantages, with one of the biggest being the inability for mobs to grief them. Perfect for a house you don't want broken down.",
+  "icon": {
+    "item": "minecraft:red_bed"
+  },
+  "chapter": "main",
+  "sort_order": -6,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

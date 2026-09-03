@@ -1,0 +1,18 @@
+{
+  "discovered": [
+    "ftbquests:book",
+    "mcgcore:guidebook",
+    "minecraft:apple",
+    "minecraft:crafting_table",
+    "minecraft:emerald",
+    "minecraft:kelp",
+    "minecraft:oak_log",
+    "minecraft:oak_sapling",
+    "minecraft:redstone_torch",
+    "minecraft:stick"
+  ],
+  "ticked": [],
+  "seen": [],
+  "notes": {},
+  "recents": []
+}

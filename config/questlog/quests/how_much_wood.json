@@ -1,0 +1,42 @@
+{
+  "title": "How Much Wood",
+  "description": "So, you've been introduced to a world of creativity and challenges. I, Professor Larch, welcome you with open arms.\nNow then, let's get you fitted with the basics, shall we? As a wise man once said, it all begins with a tree, then an upgrade. We'll get started on that first one now.\nWhen you go to cut down a tree, you'll likely notice something. Indeed, not all trees are chopped at the same speed. Some may take longer than others. But, as long as you keep going, all trees, big or small, will fall. After they do, you'll be given their blocks and any other items from them at the base of the stump you destroyed. Quite convenient. But do be aware that felling a tree will use the same durability as if you had destroyed all the blocks manually yourself.\nIf you for any reason want to cut down a tree normally, holding shift and breaking the block should do the trick.",
+  "icon": {
+    "item": "minecraft:oak_log"
+  },
+  "chapter": "main",
+  "sort_order": -1,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false,
+
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain 10 Logs",
+      "icon": {
+        "item": "minecraft:oak_log"
+      },
+      "item": "#minecraft:logs",
+      "required_amount": 10
+    }
+  ],
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:main_intro",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "1 Emerald",
+      "icon": {
+        "item": "minecraft:emerald"
+      },
+      "item": "minecraft:emerald",
+      "count": 1
+    }
+  ]
+}

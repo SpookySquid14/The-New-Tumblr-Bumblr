@@ -1,0 +1,17 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon"
+	}
+	id: "4DB89F2C472492C1"
+	loot_size: 3
+	order_index: 15
+	rewards: [
+		{ id: "57A0DB5249FBBC7A", item: { count: 1, id: "minecraft:salmon" } }
+		{ id: "72023AACFE695AAF", item: { count: 1, id: "minecraft:salmon" } }
+		{ id: "6362E654DE1A634E", item: { count: 1, id: "minecraft:salmon" } }
+		{ id: "3F99D1D27C3B4358", item: { count: 1, id: "minecraft:cod" } }
+		{ id: "07631F272DFFFD2D", item: { count: 1, id: "minecraft:cod" } }
+		{ id: "7D48ACD1FFA016DB", item: { count: 1, id: "minecraft:cod" } }
+	]
+	use_title: true
+}

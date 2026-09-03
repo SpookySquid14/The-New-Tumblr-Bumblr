@@ -1,0 +1,95 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "2E5A9DABC49A0340"
+	id: "24D05EE5346105AD"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "79CAC5DD86CF5B52"
+			tasks: [{
+				id: "7E12576675F0CBE1"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4D279009D425E84B"
+			tasks: [{
+				id: "50B20CCA196348EA"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "639F18460A94F794"
+			rewards: [{
+				id: "2E70354DFF23472C"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "0E7CD0551C65D2D6"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "39D2C7E79A2A575C"
+			tasks: [{
+				id: "2069926D882DCE69"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "732DDBE332DE607F"
+			tasks: [{
+				id: "1C90CCFE6E2B0A6C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "175CC2FC98270934"
+			tasks: [{
+				id: "4D86AA41BB835B49"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "056F9909CD8A4F4D"
+			tasks: [{
+				id: "7E0A7D69ABD35831"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7B911BD477A5F0A0"
+			tasks: [{
+				id: "3AB98373B8FCECE7"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

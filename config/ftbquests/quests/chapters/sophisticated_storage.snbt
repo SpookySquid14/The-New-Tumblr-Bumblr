@@ -1,0 +1,1075 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_storage"
+	group: "60036678430AC30B"
+	id: "735224FDAABAE660"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "25B20970F2E51E30"
+			rewards: [
+				{
+					id: "73DC90E8615DB8B1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "738ECAE0990E9D2A"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "177B3B44403A54B3"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "20BC0B93A0B52388"
+			rewards: [
+				{
+					id: "0C4A057660F5D8EE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0F1690A7651D9A16"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A61B36B3A30B6BF"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "020AD3C5960386EB"
+			rewards: [
+				{
+					id: "674B3E9560BC9E2B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3EDA13A34B3D8B7D"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50B157429A794FA7"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1AAD393EC8CA5294"
+			rewards: [{
+				id: "50DE94C372C542DC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0C00D0CCF4BDF6A6"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "21026D8552F0AAC5"
+			rewards: [{
+				id: "25E15ECED53B2701"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "56DE175FF5CF2254"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "14B0868E99676875"
+			rewards: [{
+				id: "1A74E4A507D0481C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "73861BD9677E1221"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "24CA2793B67AB471"
+			rewards: [{
+				id: "064B7000A71159DD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7D73FCFB995DDEA0"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1327EDD0BA054648"
+			rewards: [{
+				id: "5B1388407B226206"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2A937FD68184B45B"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5B82BF9D6ED5AED5"
+			rewards: [{
+				id: "75CC7D489D4B6DDF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0AFDCEC7928D9463"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7C4BE51FC5BFCB80"
+			rewards: [{
+				id: "5EBB4B6085643BC7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2682CE9F022C6B2B"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "11B24F83BFD3EC7C"
+			rewards: [{
+				id: "552714B3F15CEAA1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "54A4CC355E707AED"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "29550C23C06EEE61"
+			rewards: [{
+				id: "3194FC6E9188EB29"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7E536788153295E6"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5C305E74B2F2635C"
+			rewards: [{
+				id: "1A7186CCF9EA7E49"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "57149790A532BD62"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5D72D2C20DE31EE2"
+			rewards: [{
+				id: "1FB32207CB5FBC24"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "22CB078B25526C22"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "46FCAB6F1591BAEB"
+			rewards: [{
+				id: "06091F8011ADE282"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "65B1C0435D889147"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4785BEBAD3E315FE"
+			rewards: [{
+				id: "0C2289767FD1892F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "526BDBBA3465B865"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2F267987A561022D"
+			rewards: [{
+				id: "7E96F1E5CA11857B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4CBA816F87B617C3"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "427B7B15F42614CC"
+			rewards: [{
+				id: "26FB1DC5B66AD612"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "641D11DB3C8A035B"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1E7993836A8F2ABC"
+			rewards: [{
+				id: "0CEA671ED5AF564C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3D14E01E7E481DB0"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "37A50B9452708A43"
+			rewards: [{
+				id: "22B56B21954B9460"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0FD7B349D6CFA153"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3738DE1EAA739CAF"
+			rewards: [{
+				id: "62F5F816BB5B6D60"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5EAA0FF14B3535AF"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "42E403AD5F97F6B5"
+			rewards: [{
+				id: "7E39602C79725758"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7AEAF76538D7019A"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6F4CB55D15F77D97"
+			rewards: [{
+				id: "6570120EF85B8DE6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "733E52B09264AEB4"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4D4380FD4A7B96E7"
+			rewards: [{
+				id: "5D967B71D874EDD6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3D9FBC000A5F3F7F"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0DB45A8F4E182EBA"
+			rewards: [{
+				id: "31A4ED5B872237C7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "27C60F0C169264CB"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1B313C472D166D1C"
+			rewards: [{
+				id: "7F9A144827E39DB1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "212BCFCE7B3FAC00"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "78E3542EFC048E5F"
+			rewards: [{
+				id: "3DBEA8AC23F33188"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "524809106763CF8F"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "653D4753D7743AA5"
+			rewards: [{
+				id: "3318409381850CD8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "254B4E241A5FA8BC"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "57CB6FEF09E692F8"
+			rewards: [{
+				id: "50BA2C204C906B10"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "179E2AB2FEA060B3"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6C8EE17207079C32"
+			rewards: [{
+				id: "727896C25579C32D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "091AC115342A4A20"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5B480277407A2025"
+			rewards: [{
+				id: "4B61129E7FB30504"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0056DC4B2FA7327D"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4FD4FF5849476766"
+			rewards: [{
+				id: "73E96EF8FD8B6C90"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7C2ADBBDD1756F94"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "48FC48D1B2D78011"
+			rewards: [{
+				id: "5073DB4A443310EA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "15C712EA2A83F9BA"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5218429C48951370"
+			rewards: [{
+				id: "5C1551EDF6867006"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3E6B9106F745D1B3"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "29ACA75ADCB874D2"
+			rewards: [{
+				id: "59F79F7D82F22C75"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "322C0BB41D0592FB"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7080C350CCEAB0FC"
+			rewards: [{
+				id: "26E6685A3C7FE055"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6887CEA72257239F"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "30BA8734CFB8D819"
+			rewards: [{
+				id: "1FAB9DBBCB05B2EF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1C71EAF89B27E59A"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6095D172AE384D86"
+			rewards: [{
+				id: "5D3F8C3197F6455E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "600B4CDA591F85C7"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "09253863CA0A7123"
+			rewards: [{
+				id: "2B7980142D6CA639"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "52AE23CE1A8E1B63"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "444D519CEAFCD11C"
+			rewards: [{
+				id: "78D8938F89D50888"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6DFF4616E197481C"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6F3FA64BABCFEFA8"
+			rewards: [{
+				id: "10415ED6B034BBBC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5E805BAC667A9826"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "531E7C48BA86B546"
+			rewards: [{
+				id: "4AA8BE71A03C2097"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4044DB8EFC8848DD"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0224AD0DAC0D3BDD"
+			rewards: [{
+				id: "1A7963572033F783"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7E7CDC7B2935AA88"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "76167B4171AB5C4B"
+			rewards: [{
+				id: "267AEB734C30D305"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3BAD27A935B76BA6"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3FD815F712CCA0ED"
+			rewards: [
+				{
+					id: "07B5788170472B90"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1743AEEC0007FF89"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "386389E561C2937A"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "065CC7543DCDC9FC"
+			rewards: [
+				{
+					id: "1A3D8AC4CEAF2333"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "0F6CB94F6452608E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "66D3FF26D4DC1DC1"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "29A7297004BECA7E"
+			rewards: [
+				{
+					id: "5E735EFD6666937F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "56ABC2CB5386DAD9"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68D81C76FDDC650A"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "113D270E86B5A284"
+			rewards: [
+				{
+					id: "1E65630470BC9D69"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "446D0C08DD945319"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0503F7B7F8932334"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0F047E7D87DD19B9"
+			rewards: [
+				{
+					id: "0D6C64E6F7C5156F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3D5B09A2EF7CC2D9"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "105AC73F70958FC9"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "18A0AABAF675257D"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2CC64FEFCD8C3A22"
+			rewards: [
+				{
+					id: "0A1870F8B441B596"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5C316B373DA5943F"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5FCF230B3DE32582"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "2898D391757589AE"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "0122BD1E7BC6AFF3"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "2C700C6F40539244"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "700207112B8CB1E9"
+			rewards: [
+				{
+					id: "5AF6D1D47C0A6718"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "62419207344E6054"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "222D4F3A7174B372"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "776473D37E7D9BCE"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "24C8626291200CE7"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "40FB5B65E8533307"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "63BB3830C2FEF2D3"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1C4A96F5309C4A07"
+			rewards: [
+				{
+					id: "30307B69A9211D0C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "212EFAC295D9ADD4"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "667778E35125BF85"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "52B0A510B06AF3A0"
+			rewards: [
+				{
+					id: "2BD961DC811A981E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0333E3275BFF1090"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C0D7934878F1AAD"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4919CA330CE83242"
+			rewards: [
+				{
+					id: "6C27FD58CEDCA841"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4A028D3986E06CDE"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3D92A09F0E51DCA7"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "27D30304A5DF3ADE"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "48C8C27DBAD8043F"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "230A514F4CE41017"
+			tasks: [{
+				id: "731C40C584A5E411"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4987607027AD1D38"
+			rewards: [
+				{
+					id: "1E04EA70F7C8577C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "287494B5E04745E3"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "349D79C5ECDD8E51"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "551ADB23A1679792"
+			rewards: [{
+				id: "021A662429C986EA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6F46AA5AC2937139"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "75B955D121D3B267"
+			rewards: [{
+				id: "101A918C18ADC41C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "55AA9FDA602430A2"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

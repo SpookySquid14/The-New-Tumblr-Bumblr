@@ -1,0 +1,1487 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biomancy"
+	group: "453245C6A3A61454"
+	id: "0D7C0F8B83DFE16E"
+	images: [
+		{
+			dependency: "4537DD077CD404BF"
+			height: 0.5d
+			image: "modpack:textures/bio-alchemy.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependency: "4537DD077CD404BF"
+			height: 1.0d
+			image: "modpack:textures/storage-and-machines.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependency: "4537DD077CD404BF"
+			height: 1.0d
+			image: "modpack:textures/armors-and-weapons.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependency: "4537DD077CD404BF"
+			height: 0.5d
+			image: "modpack:textures/grenades.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: -3.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"H&kell&ro? Ah, fi&knally, &rcontact. I was beginning to l&kos&re &kho&rpe. Listen, I d&kon't kn&row how muc&kh longe&rr there &kis f&ror me, so I'll &kkeep&r it brief."
+				"I've m&kade&r breakthroughs on life, its &kver&ry nature. But n&kow I'&rm lost. I need &o&6you&r to take in w&khat&r I've learned, c&kar&rry it on."
+				"Please."
+			]
+			icon: "biomancy:tab_icon"
+			id: "53A31A5C0C000C7B"
+			rewards: [
+				{
+					amount: 77L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "1A5A4EF4D164774D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					auto: "no_toast"
+					icon: "etched:radio"
+					id: "2E0695B023958799"
+					title: "Thank you."
+					type: "custom"
+				}
+			]
+			subtitle: "{\"text\":\"Can you hear me?\",\"font\":\"biomancy:caro_invitica\"}"
+			tasks: [{
+				id: "6CA180162691A80B"
+				title: "Accept?"
+				type: "checkmark"
+			}]
+			title: "What is this? Some kind of device?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53A31A5C0C000C7B"]
+			description: [
+				"Great, you deci&kded to le&rarn. Alright, the&k fi&rrst thing you'll nee&kd is a&r &o&6Flesh Plunderer.&r It's a s&kick&rle of sorts, &o&6made fr&kom bon&r&o&6e and raw meat.&r I... wish I could tel&kl yo&ru &kmo&rre on how to mak&ke on&re."
+				"It's a crucial tool needed to g&kathe&rr impo&krta&rnt items fro&km mob&rs that they otherwise w&kould no&rt usually dr&ko&rp. Just... make one, th&ken go and k&rill a bunc&kh of m&robs, especially pred&kato&rrs, the ones with sharp claws and fangs."
+				"{image:modpack:textures/flesh-plunderer.png width:100 height:100 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "592B100EDEFA0F5A"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "183EED8DD79D5504"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [{
+				id: "0F132BB37D241520"
+				item: {
+					Count: 1
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A Fleshsickle"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["592B100EDEFA0F5A"]
+			description: [
+				"You got th&ke st&ruff? Great job, you'r&ke a n&ratural."
+				"Alright, no&kw y&rou should be ab&kle to &ot&r&oake some cla&kws a&r&ond meat&r, and com&kbin&re them to make a &o&6Primordial Cradle&r."
+				"{image:modpack:textures/primordial-cradle.png width:100 height:100 align:center}"
+				"{@pagebreak}"
+				"I fe&kel like &rI'&km fo&rrgetting some&kthi&rng... Ri&kght!&r &o&6The Primord&kial C&r&o&6ore&r! You'll need one of tho&kse fo&rr th&ke cr&radle."
+				"{image:modpack:textures/primordial-core.png width:100 height:100 align:center}"
+			]
+			hide_until_deps_visible: true
+			icon: "biomancy:primordial_cradle"
+			id: "37A7B469D081A654"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "21079B557ABDFE62"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "341C4F2B925AB3BF"
+					item: "biomancy:primordial_core"
+					type: "item"
+				}
+				{
+					id: "5DB8CAB6A09D9D9A"
+					item: "biomancy:primordial_cradle"
+					type: "item"
+				}
+			]
+			title: "Primordial"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37A7B469D081A654"]
+			description: [
+				"Have you &ktr&ried feedin&kg the c&rradle yet? If not, you sh&koul&rd. Offe&kr it r&raw meat and then a &ks&racrifice with life properties, such as a he&kalt&rh &kpo&rtion or &kgo&rlden apple. It should spit out a &o&6flesh blob&r. These guys are raw, &kpr&rimal life, and they'll do n&kothing&r but consume wha&kte&rver they can find, so ma&kke s&rure you don't ha&kve an&ry pets nearby. You can also drop food on the ground for them. Whatever &kwo&rrks, &o&6as long as they eat it and grow&r."
+				"Then yo&ku ne&red to kill it. I know that sounds counterproductive, but that's the best way to get &o&6Living Flesh&r. The &kla&rrger the blob &kis, t&rhe more flesh you'll &kg&ret from &kkil&rling it."
+				"{image:modpack:textures/flesh-blob.png width:100 height:100 align:center}"
+			]
+			hide_until_deps_visible: true
+			id: "7F8AA45AD32EDB24"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "174612F9EDB61CC7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "alexsmobs:tab_icon"
+						tag: {
+							DisplayEntityType: "biomancy:flesh_blob"
+						}
+					}
+					id: "448AD6970B1A4B64"
+					observe_type: 6
+					timer: 0L
+					title: "Create a Flesh Blob"
+					to_observe: "biomancy:fleshkin"
+					type: "observation"
+				}
+				{
+					count: 5L
+					id: "4C19320516569B0B"
+					item: "biomancy:living_flesh"
+					type: "item"
+				}
+			]
+			title: "Flesh and Blob"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F8AA45AD32EDB24"]
+			description: ["You got &kthe f&rlesh? Good, no&kw you&r ca&kn r&really begin. There are t&kw&ro mac&khine&rs, a &o&6Bio-Forge and a Decomposer&r. I can exp&klain m&rore onc&ke y&rou have &kth&rem."]
+			hide_until_deps_visible: true
+			id: "4537DD077CD404BF"
+			tasks: [
+				{
+					id: "1F53958258EC47B0"
+					item: "biomancy:bio_forge"
+					type: "item"
+				}
+				{
+					id: "480EDAE2C4938695"
+					item: "biomancy:decomposer"
+					type: "item"
+				}
+			]
+			title: "Mechanical Meets Biological"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			description: [
+				"The &6&oBio-F&korg&r&o&6e&r is one of you&kr mo&rst impor&ktan&rt machines in Biomancy. It'll a&kllo&rw you to cra&kft m&rost items. On th&ke&r left of t&khe m&renu, you should &ks&ree the items that are cra&kftab&rle. Clicking on on&ke will s&rhow it's ma&kte&rrial comp&kon&rents in the sl&ko&rts on the rig&kht&r. You should also s&kee&r a bar to th&ke le&rft of the sele&kcte&rd item. That's the forge's su&kpp&rly of &o&6nutrients&r. They &kfunc&rtion as the fuel f&kor t&rhese devices. N&kothi&rng can be done w&kith&rout nutrients, and nutri&kents&r can be taken from &o&6any kind of food&r."
+				"You pr&kobabl&ry don't &kh&rave all the mate&krial&rs yo&ku n&reed. That's where the &o&6Decomposer&r comes into play."
+				"{image:modpack:textures/bioforge.png width:100 height:70 align:center}"
+			]
+			hide_until_deps_visible: true
+			id: "7B7F34E2C34E28FA"
+			tasks: [{
+				block: "biomancy:bio_forge"
+				block_type: 0
+				checkItem: false
+				id: "6E4C1F6A0896CE5D"
+				isItemInteraction: false
+				type: "questsadditions:use"
+				value: 1L
+			}]
+			title: "Biological Creation"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			description: [
+				"On&ke o&rf the m&kain m&rachines you'll &ku&rse is &o&6The Decomposer&r. It w&kil&rl take in &kite&rms and bre&ka&rk them down to th&keir m&raterial com&kpone&rnts. Like al&kl oth&rer mac&khin&res, you mus&kt s&rupply the Decomposer with &o&6nutrients&r, which ca&kn&r be done by &kpl&racing food i&kn the s&rlot on the &kl&reft."
+				"Af&kte&rr that, &kyo&ru just need &kto p&rut in the items yo&ku w&rish to break &kdo&rwn and wait. The&ks&re materials &kwil&rl be used heavily in rec&kipe&rs from &6&oThe Bio-Forge&r."
+				"{image:modpack:textures/decomposer.png width:100 height:110 align:center}"
+			]
+			hide_until_deps_visible: true
+			id: "7DB5674EB574A1AD"
+			tasks: [{
+				block: "biomancy:decomposer"
+				block_type: 0
+				checkItem: false
+				id: "384D276295080FF0"
+				isItemInteraction: false
+				type: "questsadditions:use"
+				value: 1L
+			}]
+			title: "Break It Down"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["37A7B469D081A654"]
+			description: [
+				"Uh, hey, have you noticed any &o&6Malignant Flesh Veins&r appearing when you perform a sacrifice? They're hard to miss. If you do, well... you might want to get rid of them before they spread."
+				"B-but they aren't necessarily a &obad&r thing. If you wait, let them spread, you'll see all sorts of new blocks. Fleshy ones. They make for a great source of raw material."
+				"I uh, think &o&6rotten flesh&r upsets the cradle. Uh, causes it to nearly always grow more veins."
+			]
+			id: "306086EE9B34A8CC"
+			tasks: [{
+				icon: "biomancy:malignant_flesh"
+				id: "6F5B1AEC520D1BBC"
+				observe_type: 0
+				timer: 0L
+				title: "Witness The Spreading"
+				to_observe: "biomancy:malignant_flesh_veins"
+				type: "observation"
+			}]
+			title: "The Primal Spread"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B7F34E2C34E28FA"]
+			description: [
+				"So, you &kprob&rably don't want to b&ke const&rantly giving the ma&kchines meat fo&rr nutrients, right? Well, you have the Bio-Forge now, so you can make a &o&6Digester&r."
+				"The Digester&k is ra&rther simple. You put any&k sort of &rorganic material like meat or plants inside, and it'll convert them into &o&6Nutrient Paste&r. This is a great sou&krce of n&rutrients, and&k when compr&ressed into &o&6Nutrient Bars&r, can&k be a&r very good option for food."
+				"I don't remember the last time I've had anything else."
+				"{image:modpack:textures/digester.png width:100 height:100 align:center}"
+			]
+			hide_until_deps_visible: true
+			icon: "biomancy:digester"
+			id: "64CACC32F8670740"
+			rewards: [{
+				amount: 70L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "6F824541CE7C77D4"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "08E1A49B35F229A8"
+					item: "biomancy:digester"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "45ECBAA6AED735F6"
+					item: "biomancy:nutrient_paste"
+					type: "item"
+				}
+			]
+			title: "Nutritious and Delicious"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2053246F6CA30BC6"]
+			id: "3F30439847E13BD6"
+			tasks: [{
+				id: "443C2505853720F7"
+				item: "biomancy:vial"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F30439847E13BD6"]
+			description: [
+				"\"So, we've got a vial and a lab, what next?\" I hear you ask. Well, this is where we begin to use the lab."
+				"When you use the bio-lab, you'll be met with the following screen. Like all other machines, the bio-lab requires &onutrients&r, found through the bar on the left. The top four slots are your &o&6ingredients&r and the center is your &o&6base&r. Much like regular potions, you use a base item when creating compounds and serums."
+				"&o&6The Organic Compound&r serves as your basis for all future alchemy. Every single serum starts off as this. Try making some."
+			]
+			id: "23F1B575238D5D9F"
+			tasks: [{
+				id: "39388F75A475C4CD"
+				item: "biomancy:organic_compound"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23F1B575238D5D9F"]
+			id: "29F5E45C97600A71"
+			tasks: [{
+				id: "5E03E91ABF68B7B1"
+				item: "biomancy:genetic_compound"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23F1B575238D5D9F"]
+			id: "5551C74B36ABC2EA"
+			tasks: [{
+				id: "2904B58748F852F6"
+				item: "biomancy:exotic_compound"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23F1B575238D5D9F"]
+			id: "1CA4E6C5001398C5"
+			tasks: [{
+				id: "1E45AE888A9BCE71"
+				item: "biomancy:unstable_compound"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3F30439847E13BD6"]
+			description: ["So if you've seen the flesh spread long enough, you've probably come across some &o&6Gastric Acid&r, right? This stuff is highly corosive. While a bucket works when it's spilled on the ground, you can &o&6use an organic vial on the orifice that produces it&r to gather it in a more portable form."]
+			id: "758F00009EFA6E27"
+			tasks: [{
+				id: "793EA16694B8D22D"
+				item: "biomancy:acid_extract"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29F5E45C97600A71"]
+			id: "3E54748FDA323B3E"
+			tasks: [{
+				id: "2277BAF3387D3DCB"
+				item: "biomancy:breeding_stimulant"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3E54748FDA323B3E"
+				"171FC85502A10D8A"
+				"0CCD28EE5292C045"
+				"352C5EC28212183B"
+				"339B37630EE2D0E4"
+				"33A5BB608F0915FC"
+				"171FC85502A10D8A"
+				"788CEA1889C7C128"
+				"14E275B38B54D71C"
+				"6933F18AFC826E44"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Hey, you did it. You made &6&oa proper serum&r. Serums aren't as stable as potions, not being held together through traditional magic. &o&6As a result, you won't be able to drink a serum or throw it at someone&r."
+				"Instead, you'll want to craft a &o&6Bio-Injector&r. Think of it like a &obig&r needle. &oTo open its inventory, press the main-hand action key (Default: V)&r. After that, you can select the serum you want to load into it. From there, it's as simple as right clicking a mob to inject the serum into it, or holding shift and right clicking to inject the serum into yourself."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3FC61B65DA8C7080"
+			tasks: [{
+				id: "5CB5CA3C588A68BD"
+				item: {
+					Count: 1
+					id: "biomancy:injector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["29F5E45C97600A71"]
+			id: "171FC85502A10D8A"
+			tasks: [{
+				id: "02DA14E74E7803EE"
+				item: "biomancy:rejuvenation_serum"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			description: [
+				"Wow, you've really gotten far, huh? With everything you've done, we can get into Bio-Alchemy, the creation of serums with varrying effects. To start, you'll uh, want to make a &o&6Bio-Lab&r."
+				"{\"extra\":[{\"font\":\"biomancy:caro_invitica\",\"text\":\"TEST\"}],\"text\":\"\"}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2053246F6CA30BC6"
+			tasks: [{
+				id: "2304D0E7AF0034F2"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E54748FDA323B3E"]
+			description: ["These guys are jerks. They'll attack you, villagers, and any other animals that's not a pig. What's more, if you feed it raw porkchops, it'll enter a &ofrenzy&r and will start attacking quite literally anyhting."]
+			hide_dependency_lines: true
+			id: "1D0A5E343CD7689A"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "biomancy:flesh_pig"
+					}
+				}
+				id: "34D2A206E67E7E91"
+				observe_type: 5
+				timer: 0L
+				title: "See a Flesh Pig"
+				to_observe: "biomancy:flesh_pig"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3E54748FDA323B3E"]
+			description: ["Like a regular sheep, these guys "]
+			hide_dependency_lines: true
+			id: "1AA91D7D090A9404"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "biomancy:flesh_sheep"
+					}
+				}
+				id: "33A04E5D1E858E78"
+				observe_type: 5
+				timer: 0L
+				title: "See a Flesh Sheep"
+				to_observe: "biomancy:flesh_sheep"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3E54748FDA323B3E"]
+			hide_dependency_lines: true
+			id: "7777A4B0D411361C"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "biomancy:flesh_cow"
+					}
+				}
+				id: "2682A87EC8862EAB"
+				observe_type: 5
+				timer: 0L
+				title: "See a Flesh Cow"
+				to_observe: "biomancy:flesh_cow"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3E54748FDA323B3E"]
+			hide_dependency_lines: true
+			id: "43DA45DB8EDC0584"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "biomancy:flesh_chicken"
+					}
+				}
+				id: "5FB62F8E11B3EEA8"
+				observe_type: 5
+				timer: 0L
+				title: "See a Flesh Chicken"
+				to_observe: "biomancy:flesh_chicken"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			description: [
+				"Use to get essences from mobs or yourself. Essences are used for other blocks and flesh chests"
+				"ENchanting with surgical precision increases the tier of the essence."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6CC8ABE47CE50400"
+			tasks: [{
+				id: "45B775F84E2C5F35"
+				item: {
+					Count: 1
+					id: "biomancy:extractor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			description: ["The Fleshkin Chest is like a regular chest for the most part, though it features less storage, only holding 42 stacks of items. Where it differs from a regular chest, however, is in its &odefense mechanism&r. You see, by default, &o&6only the player who placed the chest down will be able to open it. All other players will be attacked, instead. A player can be given permission by right clicking the chest with said player's tier 3 essence&r."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "58697C4CF815054A"
+			tasks: [{
+				id: "2A71E76077D2FB4D"
+				item: "biomancy:fleshkin_chest"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			description: ["The Maw Hopper acts mostly like its traditional counterpart, but with some key differences. The first is that, unlike a regular hopper, &6&othe maw hopper will transport up to 16 of a single item at a time&r. The other difference is that, unlike a regular hopper, the maw hopper can be connected to elongate it and move in different directions, much like a pipe."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "396D173C835EC97C"
+			tasks: [{
+				id: "78A5C609C09C6035"
+				item: "biomancy:maw_hopper"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			description: [
+				"The Tongue is not unlike a mechanical chute. &6&oWhen connected to a container, it will slowly extract all items within it, placing them on the ground as if dropped.&r"
+				"Oddly, it does not appear to work with &6&oFleshkin Chests&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "21AC049A964823A0"
+			tasks: [{
+				id: "1177CE1ECDFF04C4"
+				item: "biomancy:tongue"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "50499C9D17A45F7C"
+			tasks: [{
+				id: "4DB492C7D9599C2A"
+				item: "biomancy:chrysalis"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			description: ["The &o&6Storage Sac&r acts like a mix between a shulker box and a bundle. It can be placed down and picked up like the former, and its inventory can be accessed through your inventory like the latter. It can hold up to 15 stacks."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4DEEB71D2AB760AE"
+			tasks: [{
+				id: "2F2AFE707364F638"
+				item: {
+					Count: 1
+					id: "biomancy:storage_sac"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			description: [
+				"Before the warriors, there were alchemists. Once known as devotees of the primordial ways, their time has been lost. Still, the armor remains, a memorial of what once was."
+				"The Bio-Alchemist Armor will give you increased resistance of acid and success with the usage of serums and injections."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6ED45E65608B8164"
+			rewards: [{
+				amount: 175L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "0A8C6492056FA1D7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "12818768B5222ACC"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_helmet"
+						tag: {
+							"biomancy:nutrients": 200
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DB83FD4210F936E"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_chestplate"
+						tag: {
+							"biomancy:nutrients": 250
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25169A4ED95D38D1"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_leggings"
+						tag: {
+							"biomancy:nutrients": 250
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7206C3E8DD9AF542"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_boots"
+						tag: {
+							"biomancy:nutrients": 200
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "An Alchemist's Robes"
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7FE6E7B6905980AE"
+			tasks: [{
+				id: "0F1C95F030DBECA1"
+				item: {
+					Count: 1
+					id: "biomancy:caustic_gunblade"
+					tag: {
+						"biomancy:nutrients": 200
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5DFEA58465571979"
+			rewards: [{
+				amount: 175L
+				currency: "eternalcurrencies:ancientcoins"
+				id: "2CD82638239923E7"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			tasks: [
+				{
+					id: "09B63B5D7F3EC94F"
+					item: {
+						Count: 1
+						id: "biomancy:warrior_armor_helmet"
+						tag: {
+							"biomancy:nutrients": 400
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57BEABAF4BB54186"
+					item: {
+						Count: 1
+						id: "biomancy:warrior_armor_chestplate"
+						tag: {
+							"biomancy:nutrients": 500
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EC93F255B68F53E"
+					item: {
+						Count: 1
+						id: "biomancy:warrior_armor_leggings"
+						tag: {
+							"biomancy:nutrients": 500
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "222D528D9FE528A7"
+					item: {
+						Count: 1
+						id: "biomancy:warrior_armor_boots"
+						tag: {
+							"biomancy:nutrients": 400
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "20A74B3486B24614"
+			tasks: [{
+				id: "2F32D5C95B73965F"
+				item: {
+					Count: 1
+					id: "biomancy:thorn_shield"
+					tag: {
+						"biomancy:nutrients": 250
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3279DB002A9CF954"
+			tasks: [{
+				id: "1EDAFD47DEF51DAE"
+				item: {
+					Count: 1
+					id: "biomancy:ravenous_claws"
+					tag: {
+						LivingToolState: 1b
+						"biomancy:nutrients": 250
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "55243BED37406952"
+			tasks: [{
+				id: "4CE54158F1108F4E"
+				item: {
+					Count: 1
+					id: "biomancy:impaler"
+					tag: {
+						"biomancy:nutrients": 200
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4537DD077CD404BF"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "00F62B445ED2A4D1"
+			tasks: [{
+				id: "09FDF481CA6ED9FC"
+				item: "biomancy:grenade_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00F62B445ED2A4D1"]
+			id: "7522D8908ED9DE8F"
+			tasks: [{
+				id: "76A2271801D4A785"
+				item: "biomancy:toxin_grenade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00F62B445ED2A4D1"]
+			id: "34C50E409F6DD9CA"
+			tasks: [{
+				id: "2A5DE4FE7E0F8389"
+				item: "biomancy:acid_grenade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00F62B445ED2A4D1"]
+			id: "0847562B329868F8"
+			tasks: [{
+				id: "7192E94CD50F297C"
+				item: "biomancy:decay_grenade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00F62B445ED2A4D1"]
+			id: "2858D7BC80DEF4D7"
+			tasks: [{
+				id: "095874FBAAC79A40"
+				item: "biomancy:incendiary_grenade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29F5E45C97600A71"]
+			id: "0CCD28EE5292C045"
+			tasks: [{
+				id: "52CB4AD5D37FDD9B"
+				item: "biomancy:ageing_serum"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29F5E45C97600A71"]
+			id: "788CEA1889C7C128"
+			tasks: [{
+				id: "671153F25C646EE8"
+				item: "biomancy:shrinking_serum"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29F5E45C97600A71"]
+			id: "339B37630EE2D0E4"
+			tasks: [{
+				id: "38E68C2F2436040B"
+				item: "biomancy:enlargement_serum"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5551C74B36ABC2EA"]
+			id: "6933F18AFC826E44"
+			tasks: [{
+				id: "0EC7373A9C6661AD"
+				item: "biomancy:insomnia_cure"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5551C74B36ABC2EA"]
+			id: "14E275B38B54D71C"
+			tasks: [{
+				id: "0F449324E21D0EE9"
+				item: "biomancy:absorption_boost"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5551C74B36ABC2EA"]
+			id: "352C5EC28212183B"
+			tasks: [{
+				id: "631E2AA6AB163538"
+				item: "biomancy:cleansing_serum"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5551C74B36ABC2EA"]
+			id: "33A5BB608F0915FC"
+			tasks: [{
+				id: "1DBA45870E800475"
+				item: "biomancy:frenzy_serum"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1CA4E6C5001398C5"
+				"23F1B575238D5D9F"
+			]
+			dependency_requirement: "one_completed"
+			id: "08B2F084D5F15438"
+			tasks: [{
+				id: "17A376F123541334"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 5373871
+													name: "alexsmobs.potion.poison_resistance"
+													potion: "alexsmobs:long_poison_resistance"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 14270531
+													name: "effect.minecraft.haste"
+													potion: "alexscaves:strong_haste"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 9740385
+													name: "effect.minecraft.glowing"
+													potion: "alexscaves:long_glowing"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 6750003
+													name: "effect.mowziesmobs.poison_resist"
+													potion: "mowziesmobs:long_poison_resist"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 16776960
+													name: "effect.ars_elemental.static_charged"
+													potion: "ars_elemental:shock_potion"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 16777215
+													name: "effect.vampirism.garlic"
+													potion: "vampirism:garlic"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 1322304
+													name: "effect.alexsmobsinteraction.skreeching.title"
+													potion: "alexsmobsinteraction:skreeching"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 117709
+													name: "effect.tconstruct.ricochet"
+													potion: "tconstruct:strong_ricochet"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 12405579
+													name: "alexsmobs.potion.clinging"
+													potion: "alexsmobs:long_clinging"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 16443055
+													name: "effect.alexsmobsinteraction.gusting.title"
+													potion: "alexsmobsinteraction:long_gusting"
+												}
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 16753899
+													name: "effect.alexscaves.sugar_rush"
+													potion: "alexscaves:long_sugar_rush"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 16115861
+													name: "effect.goety.climbing"
+													potion: "goety:long_climbing"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 47084
+													name: "effect.irons_spellbooks.instant_mana"
+													potion: "irons_spellbooks:instant_mana_four"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 8803127
+													name: "alexsmobs.potion.knockback_resistance"
+													potion: "alexsmobs:strong_knockback_resistance"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 5461356
+													name: "effect.alexscaves.magnetizing"
+													potion: "alexscaves:long_magnetizing"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 13565951
+													name: "effect.minecraft.levitation"
+													potion: "tconstruct:strong_levitation"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 8080895
+													name: "effect.ars_nouveau.mana_regen"
+													potion: "ars_nouveau:mana_regen_potion_strong"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 16384000
+													name: "effect.ars_nouveau.blasting"
+													potion: "ars_nouveau:blasting_potion_strong"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 16738816
+													name: "alexsmobs.potion.lava_vision"
+													potion: "alexsmobs:long_lava_vision"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 250
+													name: "effect.ars_nouveau.freezing"
+													potion: "ars_nouveau:freezing_potion_strong"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 9830550
+													name: "effect.ars_nouveau.shielding"
+													potion: "ars_nouveau:shielding_potion_strong"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 7882315
+													name: "alexsmobs.potion.bug_pheromones"
+													potion: "alexsmobs:long_bug_pheromones"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 51240
+													name: "effect.ars_nouveau.recovery"
+													potion: "ars_nouveau:recovery_potion_strong"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 11101546
+													name: "effect.minecraft.instant_damage"
+													potion: "minecraft:strong_harming"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 3402751
+													name: "effect.minecraft.speed"
+													potion: "alexsmobs:speed_iii"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 10610
+													name: "effect.alexscaves.deepsight"
+													potion: "alexscaves:long_deepsight"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 5970436
+													name: "effect.quark.resilience"
+													potion: "quark:strong_resilience"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 8080895
+													name: "effect.ars_elemental.enderference"
+													potion: "ars_elemental:enderference_potion_long"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 9274854
+													name: "effect.minecraft.resistance"
+													potion: "minecraft:strong_turtle_master"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 9698815
+													name: "alexsmobs.potion.soulsteal"
+													potion: "alexsmobs:strong_soulsteal"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 4866583
+													name: "effect.minecraft.mining_fatigue"
+													potion: "miners_delight:strong_mining_fatigue"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 12467937
+													name: "effect.biomancy.primordial_infestation"
+													potion: "biomancy:long_primordial_infestation"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 8570995
+													name: "effect.tconstruct.experienced"
+													potion: "tconstruct:strong_experienced"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 13860095
+													name: "effect.tconstruct.enderference"
+													potion: "tconstruct:long_enderference"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 2017480
+													name: "effect.ars_nouveau.spell_damage"
+													potion: "ars_nouveau:spell_damage_potion_strong"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 13382400
+													name: "effect.lavafishing.lava_walker"
+													potion: "lavafishing:lava_walker"
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "biomancy:potion_serum"
+											tag: {
+												"biomancy:serum_data": {
+													color: 65488
+													name: "effect.deeperdarker.sculk_affinity"
+													potion: "deeperdarker:long_sculk_affinity"
+												}
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Potion Serum"
+				type: "item"
+			}]
+			title: "Potion Serum"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{\"extra\":[{\"text\":\"H\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ell\"},{\"text\":\"o? Ah, fi\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"nally, \"},{\"text\":\"contact. I was beginning to l\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"os\"},{\"text\":\"e \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ho\"},{\"text\":\"pe. Listen, I d\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"on't kn\"},{\"text\":\"ow how muc\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"h longe\"},{\"text\":\"r there \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"is f\"},{\"text\":\"or me, so I'll \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"keep\"},{\"text\":\" it brief.\"}],\"text\":\"\"}"
+				"{\"extra\":[{\"text\":\"I've m\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ade\"},{\"text\":\" breakthroughs on life, its \"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ver\"},{\"text\":\"y nature. But n\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ow I'\"},{\"text\":\"m lost. I need \"},{\"italic\":true,\"color\":\"gold\",\"text\":\"you\"},{\"text\":\" to take in w\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"hat\"},{\"text\":\" I've learned, c\"},{\"font\":\"biomancy:caro_invitica\",\"text\":\"ar\"},{\"text\":\"ry it on.\"}],\"text\":\"\"}"
+				"{\"text\":\"Please.\"}"
+			]
+			icon: "etched:radio"
+			id: "70717BF607EB9306"
+			rewards: [
+				{
+					amount: 77L
+					currency: "eternalcurrencies:ancientcoins"
+					id: "03AFBA413EE268EA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					auto: "no_toast"
+					icon: "etched:radio"
+					id: "5CACBDC707CD86AA"
+					title: "Thank you."
+					type: "custom"
+				}
+			]
+			secret: true
+			subtitle: "Ca&kn&r a&knyo&rne h&kear&r"
+			tasks: [{
+				id: "519125A037960306"
+				title: "Accept?"
+				type: "checkmark"
+			}]
+			title: "TEST Incoming Transmission"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["306086EE9B34A8CC"]
+			description: ["While watching the flesh spread, did you come across any berries? Bloomberry's form near outer walls of flesh. They can be picked and then consumed for random potion effects. Alternatively, you can let a fully grown bloomberry continue growing before it's launched into the sky. After traveling a bit, they'll explode into malignant veins, continuing the spread of the flesh."]
+			id: "0BB8DE1AF9032136"
+			tasks: [{
+				id: "6DC9C74E282BEA08"
+				item: "biomancy:bloomberry"
+				type: "item"
+			}]
+			title: "The Berry's Blowing Up"
+			x: -1.0d
+			y: -2.5d
+		}
+	]
+	title: "Biomancy"
+}

@@ -1,0 +1,680 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "saints_dragons"
+	group: "44D6198450F74D4C"
+	id: "533A9A274E0AFD57"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7CD9757E1CD48E5A"
+			rewards: [
+				{
+					id: "1D5F754628A99ADC"
+					type: "custom"
+				}
+				{
+					id: "2FFD03EE491D66C5"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "369EACC4F0A84A24"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "737B12D25A4C57F6"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7EFAB0353D571EF1"
+			rewards: [
+				{
+					id: "1853CFE535C0851D"
+					type: "custom"
+				}
+				{
+					id: "7BA77D49B7607A95"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "7F6F2B1E1094C279"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "65D9302038D75A53"
+			rewards: [
+				{
+					id: "07AEC0A0C2256969"
+					type: "custom"
+				}
+				{
+					id: "5DC51EB9CAEE1E84"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "190A6491653606A7"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "25D54E863A28A0AF"
+			rewards: [
+				{
+					id: "156EE6812E612897"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CB05D355EBAC73F"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "583D55B2758E3FAE"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0846198E310D721E"
+			rewards: [
+				{
+					id: "3C6C0AF3CD7C67A5"
+					type: "custom"
+				}
+				{
+					id: "04F1D16789F38591"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "3C124874053133C9"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "495F0F7106CC9D01"
+			rewards: [
+				{
+					id: "2333E459538B5C51"
+					type: "custom"
+				}
+				{
+					id: "56CCA2C549CFBB7A"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "2A8E01AA2D4C0F0F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3E5ABF732BC0002B"
+			rewards: [
+				{
+					id: "4EBF6D83D8F4839C"
+					type: "custom"
+				}
+				{
+					id: "2F899C31DAAF4494"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "5F26261C570CAA30"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "019E4643C7FA74EF"
+			rewards: [
+				{
+					id: "6EA4729E0A84682E"
+					type: "custom"
+				}
+				{
+					id: "78DD288CE135FA87"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E3803B39D205D7E"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:dirt"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "42C0216DD176D468"
+			rewards: [
+				{
+					id: "5F5516FF9732A1EA"
+					type: "custom"
+				}
+				{
+					id: "439E2818B27B5E40"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "005BBE1A96FF0C66"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "331F467C59076F55"
+			rewards: [
+				{
+					id: "7D7357DFE09435C1"
+					type: "custom"
+				}
+				{
+					id: "627DC850369486D9"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E3F63618D146EAA"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4D54B17785EC3EC0"
+			rewards: [{
+				id: "18467F3BD6749644"
+				type: "custom"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "058CB82F8BF03B45"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2AC31E694EFB6EB3"
+			tasks: [{
+				id: "27D578D28536AEAA"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "536A723164A346B6"
+			tasks: [{
+				id: "1CDA08B69C99E7FB"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "18C4659AC9FEDFED"
+			tasks: [{
+				id: "6C62FEE12BC820E5"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6D3D534CCE38C433"
+			tasks: [{
+				id: "451D7B264D29EF24"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6B1CD349EC70CC27"
+			rewards: [
+				{
+					id: "2CB04D66637B3222"
+					type: "custom"
+				}
+				{
+					id: "6E8FFF1EC725DB0C"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35868E5BC6E99822"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0A20CE333088F8A3"
+			rewards: [
+				{
+					id: "5F0FC83DFDE02646"
+					type: "custom"
+				}
+				{
+					id: "595BEB9EE85817D7"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DD686335B98CB9A"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "24DE89C9614E4CB0"
+			rewards: [
+				{
+					id: "4730801E3F7068D2"
+					type: "custom"
+				}
+				{
+					id: "0B73F944B52793D8"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75C5308A0D9B3333"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "577FE30DC0835700"
+			rewards: [
+				{
+					id: "71321ACCC0BDDBF4"
+					type: "custom"
+				}
+				{
+					id: "3663C33131BFCA19"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C36E3F7777C8CA9"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3E20FDB2C997B2AD"
+			rewards: [
+				{
+					id: "49AE5F9DF4CCF375"
+					type: "custom"
+				}
+				{
+					id: "456A399AE2C86A6C"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A10B3F50501ECC7"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0F71AC487D31D20B"
+			rewards: [
+				{
+					id: "61E682A4D6999F09"
+					type: "custom"
+				}
+				{
+					id: "21AE87EF30377614"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A10440A63B88526"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "105F0A338BB686C4"
+			rewards: [
+				{
+					id: "281022B40D50DB19"
+					type: "custom"
+				}
+				{
+					id: "3B68A0FE5FC25FAB"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58E47896C79AB1F7"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6A464CA3591BB2F4"
+			rewards: [
+				{
+					id: "11FC76B4631F1BFD"
+					type: "custom"
+				}
+				{
+					id: "3C148BF6D035ECFB"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F169835F31991E2"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "04EE6076E25E4491"
+			tasks: [{
+				id: "0632C869DD7F2D9E"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "25117DDCB87D0502"
+			rewards: [
+				{
+					id: "6E058F83F247FADF"
+					type: "custom"
+				}
+				{
+					id: "3CD9506EFCBD68A1"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6332E728F4A4B2C3"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "78D798DD080DD1E4"
+			rewards: [
+				{
+					id: "2D06E27028EA4F90"
+					type: "custom"
+				}
+				{
+					id: "51816DB5ADDF5DDC"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "1CF3E3F15EA2447D"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "16F31CF0700E1CC8"
+			rewards: [{
+				id: "68278D65F2423EE3"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "44E7B7D82B40CE2F"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4529EF7EA98B474C"
+			tasks: [{
+				id: "569180BAA9F02785"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "538F30201366232F"
+			tasks: [
+				{
+					id: "5BE497D75823F1D2"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "46AE82DA3D99C9EC"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "2B36D5D489263731"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "3874D15291F7D01E"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "227D0D349C97844D"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2C9358C87170FB16"
+			tasks: [{
+				id: "03CE38AD925C6E12"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "58A91870FFA1A844"
+			rewards: [{
+				id: "2ED0F9C708A2DFD1"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "3406022C73012468"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4A485820C3A8EC8B"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4E54B283FB28BE15"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4E01F448897FC3F6"
+			tasks: [{
+				id: "2FB3B80E6C6137C7"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "58C4A3B1A0BFD749"
+			tasks: [{
+				id: "2782E88DDB90CA5A"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

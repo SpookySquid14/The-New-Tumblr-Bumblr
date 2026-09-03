@@ -1,0 +1,2054 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "2E5A9DABC49A0340"
+	id: "617637544D025A7F"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1908E5992649B221"
+			rewards: [{
+				id: "33D43DFBC16C7528"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "15701D4CAED41A05"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "507EDE587A82CF65"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4479AB901F8621D9"
+			rewards: [
+				{
+					id: "178B0845883B5B87"
+					type: "custom"
+				}
+				{
+					id: "31869C3F2CCA7F87"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E21BF9CE3961C6D"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "51AB4D8CC9052211"
+			rewards: [{
+				id: "00CF2DC5653437F3"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "507DBCD4D336A982"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "10B025FE594CB756"
+			tasks: [{
+				id: "5ED93D7EBED079FB"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1A4D57B6CA4E5128"
+			tasks: [{
+				id: "2262B02015FBC55C"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "58B0624C9BBA1796"
+			tasks: [{
+				id: "3A8D04D325165220"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "22D0DB7D7F40A723"
+			tasks: [
+				{
+					id: "270432A2CFDC8233"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "70375FD1C29CD0EE"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4B523327BFD0F2D0"
+			tasks: [
+				{
+					id: "2816497A4D99AC86"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5EAC9866D1AF45D2"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "7BDDB93FA99B838F"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "577D5056DFB3FA69"
+			tasks: [
+				{
+					id: "59AA164724E13C7D"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6B7A52B1F8C0D160"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "20CC0933DF2ACF2A"
+			tasks: [
+				{
+					id: "6B76128FF246E7DB"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "0784B9A0BF011429"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7CC42784803FC670"
+			tasks: [
+				{
+					id: "04F4A6F49086FC69"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "48CE01F57DD833FB"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6F2E20F8B1FB2AA4"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "76424519924D5BD2"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0E495CBE472C7124"
+			tasks: [{
+				id: "119EBB64DAF41EA7"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "24E837D70C2A4762"
+			tasks: [{
+				id: "43928082C9CC4DD2"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1DDD484C05B10A38"
+			tasks: [{
+				id: "2EBCDD168117879D"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "72FFC043391FC449"
+			tasks: [
+				{
+					id: "36D2CE27FBDB0F36"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "31E7A2BDFC57C565"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0C74A1D72E10D754"
+			tasks: [{
+				id: "375FF0778466AD2A"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "52DA17035C75DEBE"
+			tasks: [
+				{
+					id: "7AC6AB0A3BB386EC"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4B743A43712BD02F"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "41E213E02CC541E2"
+			tasks: [{
+				id: "65EE06A78A699AE0"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "76E6E295FDCA2A3D"
+			tasks: [
+				{
+					id: "37858AA9BBB31C91"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "34C9CB0A188D4158"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1E0F68CE39E46A81"
+			tasks: [{
+				id: "3047B25C8960C87D"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4BFB2D892CC29D6D"
+			tasks: [{
+				id: "6BDF9CB275EFBCE8"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "707A51B4CC38F5F1"
+			tasks: [{
+				id: "11E151F95484AF16"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "268BA371BFD876E9"
+			tasks: [{
+				id: "267FFB2DCD92604B"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "32F1BBAF9B0E9231"
+			tasks: [{
+				id: "75749ED55DEB1F6B"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "226E685EBF424C80"
+			tasks: [
+				{
+					id: "1FC67242902B6D20"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "0B06E7F48C13B93A"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "349C149AE25E469C"
+			rewards: [{
+				id: "63F1E0BFDC32BBC3"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "68576BFAA76D7BED"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1722CCBB8755EF0A"
+			tasks: [
+				{
+					id: "1D68E83E84BE4F36"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1C022A4971F61723"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "72FB435F34CF0ACE"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "475C88F86D039870"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "237641490EBA56FC"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "452157A246B3BF7C"
+			tasks: [
+				{
+					id: "7C9D94946DB5166A"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "19F0C46CB1788DC5"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "118AC9C690B6C0A2"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6F2BAE19FFAA693E"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4BCD060E27C56554"
+			rewards: [{
+				id: "3A29E599E893F3F6"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "443A86428A525A58"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "35117D0274D7F83C"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "3281CA2AB3C14A8D"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "0905898B0086542F"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1777D17F725B3595"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "78646EB5642CD915"
+			rewards: [
+				{
+					id: "4E9351535786568F"
+					type: "custom"
+				}
+				{
+					id: "36C1A9DF7EC7C780"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6F77433F0801F947"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6591E3B9D1E3FEAA"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "7B84CC8F300EDF2A"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6AEEB39908A00F24"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "319328B8B24413DB"
+			rewards: [
+				{
+					id: "49B285B9D61E0361"
+					type: "custom"
+				}
+				{
+					id: "7D39501E851CD600"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B5F1DE4D0725642"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "07B53960E2A790D5"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "71EE65E5363D5C0C"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "342C81B1733B3BC6"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "423AFCA0447D72C2"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3064519CF5EDABDD"
+			rewards: [{
+				id: "5FDF2B0D66E7CAC2"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "4BF758AF812BAB0C"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "3E6759AB77A011EF"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "284B737F073F6542"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "657D3663705A629E"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4D39685F150C59C7"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "15E23B6FFCCBEFD2"
+			rewards: [{
+				id: "66D02711B658C033"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "7BDE2067AEE57CA0"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4EA2D481B2BFFAFD"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6ACEF60077B3817A"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "16E06C80CFCEB7AF"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "653EDEA7CCF1A84A"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "07337A0A95423EB2"
+			tasks: [
+				{
+					id: "084B95D556390BD0"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "59039CEADE5AC519"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "65AA19617A799E1B"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5EB2229421739788"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "579B02E1493A4181"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "29EF96BD531FE5F0"
+			rewards: [{
+				id: "47FD727FB4947D98"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "536FD92C0831D81B"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "00957DB630AE4313"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4EA1736D8205AC6B"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "61850D59D2F00EC9"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "235CBF8FE3FD0FE2"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3E90E0D630633F39"
+			rewards: [{
+				id: "2F402F58C09E4225"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "4D19D828B9EBA3AF"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6A79A401B48BFF03"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "7511D7E569F4B61C"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1DE3677ACDD57DD0"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "3116150BB3E44DDC"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7B36440BC7FD9165"
+			rewards: [{
+				id: "2C022240CEB13060"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "6031A49E55791E75"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "7BEF61958A7899B7"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5F6CB8F281958322"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "25BE646F9E107509"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "40E25305BFD59E52"
+			rewards: [{
+				id: "22E31145DB8470BF"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "65B1A52B2D0881D4"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1AB154DF38446573"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "077E3FB763BA8932"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "06BC3056B33A4EFF"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "77F3EDCF04E078D7"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "00B0676CC76BDDC4"
+			rewards: [{
+				id: "29F166E4B999DA8C"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "14DBA011114F9E96"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4C4D61C6573AA0DD"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "7452664418C7DA42"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "275B92F04EAAA674"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "71C633AEF69F91A6"
+			rewards: [{
+				id: "16C13F2EB46F9BCC"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "252A609617465937"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "22026A936EDB2C5A"
+			rewards: [{
+				id: "72EA2CC76DBC51C0"
+				type: "custom"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "53C0CA9857CC6882"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5527B492B9A22A4B"
+			rewards: [{
+				id: "31D739CDACADF90F"
+				type: "custom"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "6499FBE5BFCF741D"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3450BE6166DDB52C"
+			rewards: [{
+				id: "6D4C7CDE95369038"
+				type: "custom"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "62180389388C38BB"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0B8C6A506F4D2EED"
+			rewards: [{
+				id: "10CD8CB855CC7FF6"
+				type: "custom"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "68D97D0726A5B0D7"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7B1AA9B3F1D0B54F"
+			rewards: [{
+				id: "7572046E5881685A"
+				type: "custom"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "42E0DF176B5F14BF"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "08CE020472A9766E"
+			rewards: [{
+				id: "2F6F25A1C3A8CC1C"
+				type: "custom"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "7C0314F0DA3065AB"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6A562D5D0DA4CEF9"
+			rewards: [{
+				id: "753054507B3FDBC4"
+				type: "custom"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "7BE5FDE9C2F30600"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2EC165A1E97069B7"
+			rewards: [{
+				id: "1C57671EB4334179"
+				type: "custom"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "23B1C2E7688C4411"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5F7A8652E98997B6"
+			rewards: [{
+				id: "78A107AEC3596350"
+				type: "custom"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "320CF7214567658E"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1C961593A106CD26"
+			rewards: [{
+				id: "0702E8B27C37CF32"
+				type: "custom"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "34B3812BC5C0763A"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "23360E2F7E112EE6"
+			rewards: [{
+				id: "647D7CF38C51F362"
+				type: "custom"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "7CA490339C40CDE0"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5D0618C385372CBC"
+			rewards: [{
+				id: "37232048BEC7001D"
+				type: "custom"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "26E42189E8098187"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "21AFB6E4BAD5EC6B"
+			rewards: [{
+				id: "5F25CEBE03C5D9FA"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "229ABAB1D8F252A2"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "38481C9EBD946C97"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "62C97380A8738B94"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6E4F3993219B451E"
+			tasks: [{
+				id: "4D7F5949FF6B1D4E"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3A9CD738270A126D"
+			tasks: [{
+				id: "3341E4498D039407"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "36DA54C04945FC82"
+			rewards: [{
+				id: "02EF045AFC9DC99D"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "534E4D72E84963F5"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4C808E65885DBF7D"
+			rewards: [{
+				id: "00719D2BDC612CA3"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "5A9C8E1C2B30A8A9"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "28CBAD3793B10132"
+			rewards: [{
+				id: "63A37D965CDE87A7"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "7A438396BB38199B"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1D40F78FE30D6F31"
+			rewards: [{
+				id: "4683163E72F25875"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "4E5BFD4A943A3568"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6494A9980556064A"
+			rewards: [
+				{
+					id: "2311DD796B2EA9C0"
+					type: "custom"
+				}
+				{
+					id: "6E8B7830CF3B7B7D"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "560F9822C449A04A"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "0706617BD5425E84"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "2966D0D6D5403E08"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "284F9FEAC5642E9A"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5368EEE7B3992E2C"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0AD58CA90772F0B5"
+			tasks: [
+				{
+					id: "197C23958AA7E888"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "3052DD0D9EEC7939"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "073B22A8C5D6A60E"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6240BE58B4A54ECC"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "2F70AABB9EB800BB"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0A6C0D80401D7D17"
+			rewards: [{
+				id: "531AF00A3E68E16F"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "3F6CCFBBF798A2A0"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "0A077AB5740BECB5"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "37CED614C757EA70"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "3AE8A2CA9B6D009A"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "50A9AC2970E434BA"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "34DE39F2106DB50E"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "01C8FAA27461B5EB"
+			rewards: [{
+				id: "0EB456C0B51C0711"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "771B3B7276345BE6"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "2E292335B5AC0641"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "682A7CDF7C13457A"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "0F27FC83E41AB1A1"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4734221916FE3485"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "7117884FDD46837B"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "39F1C19154FA959C"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2909AA079114656F"
+			rewards: [{
+				id: "642DFCC4E08EBAD3"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "55D2E74682B92516"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5A7865A9AFA8C2BA"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "05D1F5B7B0068E35"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "0B608E757ED4694D"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "34914FD15F93DD55"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "335F3F40881EC057"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "50343A1FA75F6FA2"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "3F3BBD51F980D584"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "64DB6AB811975E9A"
+			rewards: [{
+				id: "1EBCDC65072E672C"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "58F70F36D236733C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "16F672CB45B8DBAC"
+			rewards: [{
+				id: "15FC2F17A7DC539B"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "0B30C8DBE6164379"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "72C8C7CB7B2A68D8"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "775D8C7B77EA8830"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6B1FB7A2F37E2A15"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "493B2D9BE9F21A8E"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1F87599D27DFED71"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "2AE762F5769A6A97"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5668A927C2999B8B"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "60926B401C87CB94"
+			rewards: [{
+				id: "06BB7489501B329F"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "164E36B7BEDD12FC"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5CAC64A08AAB734B"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4A945962749EF5CC"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5832563919DB73B6"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "7165838CD43257AF"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "351DB060B63E1AD3"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1C15A3A4E31745DE"
+			rewards: [{
+				id: "7934FA53C366C57A"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "1A4BEA8FEE54F474"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4674F3579411D74F"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "2B63DA9848CB2F22"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6C41EEF9BD9B30ED"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "247B5A443BB78580"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "141564E14017FEA6"
+			rewards: [{
+				id: "60D30A984F27B0BF"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "39E586DD57AAD5DC"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4C389E8364A25F02"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "564D796B7A8EC22C"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "07D4C2D35860A344"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6F0C07C8151107D5"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "298A962A2B1AF36E"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0B8F9662721646F8"
+			rewards: [{
+				id: "1022BB603AD78EC1"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "716E2E66B790A8B3"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "453E6B2AEB78C842"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "35C55D34428C482F"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "66E844FDA92611F0"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6089DFDB6C935DF1"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4A65E698C5C2306C"
+			rewards: [{
+				id: "2AA5059C8E4BE6E8"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "2C56C72E3D3EA8D0"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "7182123643871A56"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "07A6C9A92D352300"
+			rewards: [{
+				id: "704CB35935998960"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "0B5C3FDE9C512074"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "7F1018A58AD1DD54"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "70B9627D9FA482EF"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1D75D3EE37934DAE"
+			rewards: [{
+				id: "1B4C0CEF6DA028AD"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "69B7C737C8879F27"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "29C14116F86633BE"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "24CD87F98027A7E5"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "27DE0DAAEA35BC3C"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6915B801E22A5915"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "439C8F9958B79B8C"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1274A10C30071D64"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5E010FD08FDFC1F1"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "7CCCC51E8862D5BC"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "0037BC0D3D1C7608"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4D867CCB572BFFA9"
+			rewards: [{
+				id: "5333959915F259B8"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "6DD17D82DC6B7B92"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "2BF21D07DF7D84E9"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1889BA5B0BCD655D"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "2DC3B3A3480FFFAE"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "69F42AC6CA4A0032"
+			rewards: [{
+				id: "0BAF9B93834C8DFA"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "2E96AB97F0A78844"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "03B244FA10B13CB4"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "579EC90F76FBD31B"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "799CF832598885D3"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "364B43BE2D197735"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "75ADCF86A6F6B50C"
+			rewards: [{
+				id: "7969893C2995B72A"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "6D2661CE4B2762B0"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1049BEB445E2BAB8"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5503B40CDA893A05"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "542299DFDB714816"
+			rewards: [{
+				id: "0264A82676163E4C"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "61804DEC28486E9D"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "76918CA73623AB03"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "25D1680C5838FF74"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "3D50E1DF3AF17529"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "644021096852D3E5"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "752B81A10C7CF5CA"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4B341E2EB276866A"
+			rewards: [{
+				id: "7C6172F15F487F3C"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "162E9A89C58544A4"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "0AA8F30E0C2D0C91"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "33E0FA55F490D1BD"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4C5775B39E6ACACD"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "482194464FFFE2DE"
+			rewards: [{
+				id: "4491D80C567DB735"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "37639C3DF2A57CCC"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1A16073B74BB589D"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "0C8C37B1008A2E9A"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6EE195D3E4DF9AC2"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "701FB25B9128CD42"
+			rewards: [{
+				id: "1136A86A0722EDAD"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "567C5D147541D57D"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "61A42607A4E9A4C0"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7F07053E02B170CB"
+			rewards: [{
+				id: "49F2A44A7726F2CD"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "095BD65630D26A6D"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "0A49673B5A9FD642"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5D684D1C67F0AFF1"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "29213AC500A39A04"
+			rewards: [{
+				id: "705F18FDC73651E6"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "69C3D6F20CDAA531"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5F6B2DA021D30830"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "71F87B04E9A494D2"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "124B54C326D8BCBD"
+			rewards: [{
+				id: "60CB1D899BAA04DB"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "5C8F3DB7503E61D7"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "51175236A01AF60E"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5FF0B9D3E3C94E12"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5C593FEFDC137AFF"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "00C7DCADDFB57AC6"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "03359ED6C801A587"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "79AEECE2AD7C75C1"
+			rewards: [{
+				id: "6162271B01573828"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					id: "6BCE5D79B67FFEAF"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "5442FDF58DDBEB5D"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1BEE70483AF57308"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1E63AFE12CEF6840"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1607B08D90E5D103"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "61BC8E968202B2FB"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5050429C5EBE871F"
+			rewards: [{
+				id: "2AE5F16607887B50"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "2FD8686B722077A3"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "01DF52F555D662F0"
+			rewards: [{
+				id: "534706EBF26592F8"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "4DD0E9C2F283BC99"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

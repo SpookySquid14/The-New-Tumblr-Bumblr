@@ -14,14 +14,13 @@
 				id: "34352E0A4C96F820"
 				item: {
 					count: 1
-					id: "minecraft:emerald"
+					id: "minecraft:apple"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
 				id: "77680064E7CC73BA"
-				item: { count: 1, id: "minecraft:oak_log" }
+				item: { }
 				type: "item"
 			}]
 			x: 0.0d
@@ -31,11 +30,11 @@
 			id: "7F1DAE6774DD0D66"
 			tasks: [{
 				id: "754357D01C131DD2"
-				item: { count: 1, id: "minecraft:oak_fence" }
+				item: { }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 }

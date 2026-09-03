@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"moremekanismprocessing:shard_emerald"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"moremekanismprocessing:dirty_dust_emerald"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tumblrbumblr:dirty_raw_emerald"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:raw_crimson_iron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:crimson_iron_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

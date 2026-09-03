@@ -1,0 +1,33 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:how_much_wood"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "total": 1,
+      "item": "minecraft:crafting_table",
+      "name": "Make a Crafting Table"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "Let's (Mine)craft!",
+  "description": "If you're reading this, then you've gotten yourself a fair bit of wood. If not, stop reading ahead, and go back and get some.\nNow then, provided you've gotten the wood you were supposed to, I, Professor Larch, implore you to &6&ocreate a crafting table&r. You likely know how to make one of these, but if you don't, &o&6Just Enough Items, or JEI, can tell you virtually any recipe.&r Just go over to the right side of your screen. The bar at the bottom can be used to search for particular items.",
+  "icon": {
+    "item": "minecraft:crafting_table"
+  },
+  "chapter": "main",
+  "sort_order": -2,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

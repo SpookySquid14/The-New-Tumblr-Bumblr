@@ -1,0 +1,56 @@
+{
+	id: "6385DC52C7A3EC23"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "gacha"
+	}
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			id: "529E1250C4AE3534"
+			item: {
+				count: 1
+				id: "apotheosis:mysterious_scrap_metal"
+			}
+			weight: 70.0f
+		}
+		{
+			id: "0E1071DC8C43F72F"
+			item: {
+				count: 1
+				id: "apotheosis:timeworn_fabric"
+			}
+			weight: 58.0f
+		}
+		{
+			id: "3691C7283E072FE1"
+			item: {
+				count: 1
+				id: "apotheosis:luminous_crystal_shard"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "55BD68F61107CCF6"
+			item: {
+				count: 1
+				id: "apotheosis:arcane_sands"
+			}
+			weight: 18.0f
+		}
+		{
+			id: "59941EB843B109AB"
+			item: {
+				count: 1
+				id: "apotheosis:godforged_pearl"
+			}
+			weight: 3.0f
+		}
+	]
+}

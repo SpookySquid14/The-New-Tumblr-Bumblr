@@ -1,0 +1,21 @@
+filename = 'questlog-neoforge-1.21.1-3.3.2.jar'
+name = 'Questlog'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Questlog Neoforge 1.21.1 - 3.3.2'
+
+[download]
+hash = 'd0bc7baa9c20db1efa4dea30054f832830aa15f9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8557871
+project-id = 1202066
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'REQUIRED'

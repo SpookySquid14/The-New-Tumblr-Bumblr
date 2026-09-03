@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:make_torches"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:block_place",
+      "block": "#minecraft:beds",
+      "name": "Make a bed and set it down."
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "To Make a House a Home!",
+  "description": "Have you found a place to settle down? Perhaps you've taken refuge in somebody's house, or maybe even built your own. Regardless, a home is not a home without §6§oa bed to set your spawn and sleep through the night§r. Do note that §6§osleep is not always possible, as sometimes an event may occur that prevents it.§r\nI, Professor Larch, am certain you will find your way through these harsh nights, and emerge from them even stronger than before.\nIf you're struggling to find wool, I suggest you look for §6§owild flax or industrial hemp seeds§r. Both make for a plentiful supply of string.",
+  "icon": {
+    "item": "minecraft:red_bed"
+  },
+  "chapter": "main",
+  "sort_order": -5,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

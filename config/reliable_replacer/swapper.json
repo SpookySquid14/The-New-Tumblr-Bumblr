@@ -1,5 +1,10 @@
 {
   "swapper": {
-    "examplemod:input_block": "examplemod:output_block"
-  }
+		"occultism:silver_ore": "werewolves:silver_ore",
+		"occultism:silver_ore_deepslate": "werewolves:deepslate_silver_ore",
+		"immersiveengineering:ore_silver": "werewolves:silver_ore",
+		"immersiveengineering:deepslate_ore_silver": "werewolves:deepslate_silver_ore",
+		"mekanism:lead_ore": "immersiveengineering:ore_lead",
+		"mekanism:deepslate_lead_ore": "immersiveengineering:deepslate_ore_lead"
+	}
 }

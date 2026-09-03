@@ -1,0 +1,13 @@
+{
+	id: "6A590512C0D9C3EA"
+	loot_size: 1
+	order_index: 12
+	rewards: [{
+		count: 3
+		id: "0145CA57679488F6"
+		item: {
+			count: 1
+			id: "tide:fishy_note"
+		}
+	}]
+}

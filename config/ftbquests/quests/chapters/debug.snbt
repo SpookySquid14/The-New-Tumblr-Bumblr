@@ -1,0 +1,285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "debug"
+	group: ""
+	id: "5C41B2ABE23B698C"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "673800544C41DE7D"
+			rewards: [
+				{
+					command: "/say Hi, @p!"
+					id: "3AA200BEC1154308"
+					type: "command"
+				}
+				{
+					id: "14794A9F36810859"
+					ignore: false
+					key: "key"
+					type: "extraquests:key_value"
+					value: 5L
+				}
+			]
+			tasks: [{
+				id: "6AD75CBCE611918B"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "589978178B567097"
+			rewards: [{
+				id: "55061D22703FB719"
+				ignore: false
+				key: "key"
+				type: "extraquests:key_value"
+				value: 5L
+			}]
+			tasks: [
+				{
+					id: "28AAF8797EABC2CA"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+				{
+					id: "19C041E3FD16FBEF"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+				{
+					id: "3CD9F0B1D7D5FE7E"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+				{
+					id: "52CEFCD6B607E292"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+				{
+					id: "08ED755F641CB672"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+				{
+					id: "513E252DC89F97C0"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+				{
+					id: "7DAA0F3BC809C69F"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+				{
+					id: "55D2AB9E3A391FBE"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+				{
+					id: "2E68CBE2AC91672D"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+				{
+					id: "061891909601E6B5"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+				{
+					id: "6D73FDFCE6DA6BC9"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+				{
+					id: "338466C4E0E6641A"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+				{
+					id: "24EA840EDFC66D86"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+				{
+					id: "62E67B5C1881F721"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:dirt"
+					type: "observation"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "547383EEE81FD544"
+			tasks: [{
+				id: "1AEF8E53EAE6877E"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3DFD93D35624B7A1"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "5191F76619DDD058"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "15757B216B5D7237"
+			tasks: [{
+				id: "430EE2FC4E62352D"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2B0FCAC7E8CFFC40"
+			tasks: [{
+				id: "62B431A08B0C0EED"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "56B565694503D9C4"
+			tasks: [{
+				id: "48323746EBADC356"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6728C3AC474508DF"
+			rewards: [{
+				command: "/say Hi, @p!"
+				id: "53190D15CB53AF1D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4BC3FBE2AE1330AC"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2B15416FD329E64F"
+			rewards: [{
+				command: "/say Hi, @p!"
+				id: "084CC25F9211A399"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7D5BD2295A3A8E4F"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "025FD7C068AD4C7E"
+			rewards: [{
+				command: "/say Hi, @p!"
+				id: "087653D9657A4537"
+				type: "command"
+			}]
+			tasks: [{
+				id: "013FD0629425CCFB"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "51505202836EF091"
+			rewards: [
+				{
+					command: "/say Hi, @p!"
+					id: "301EB485553714FF"
+					type: "command"
+				}
+				{
+					id: "2FAF0218698726FE"
+					ignore: false
+					key: "key"
+					type: "extraquests:key_value"
+					value: 5L
+				}
+			]
+			tasks: [{
+				id: "01C5B6532BF439EE"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "75DE50143D701A56"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}
