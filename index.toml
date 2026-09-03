@@ -1417,6 +1417,10 @@ file = "config/forgeendertech/Biomes/minecraft$lush_caves.cfg"
 hash = "e4b130a68e94d87e07b143c714bc7f302792223402f01e63d8ec9465863bc4f0"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$mushroom_fields.cfg"
+hash = "8d68f12cd0a01cf6874e249d2c174dff45be8145473c168876a8622f9a639607"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$old_growth_pine_taiga.cfg"
 hash = "e6cd8596630817f74e09dedd93af4c3cee85f90ab2c2f60dd4fa590da8b4d468"
 
@@ -1427,6 +1431,14 @@ hash = "fff0ecc6b1510c949bf80ba142bf2033638c9b1ccd8d5511a40563a03525d5a0"
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$cold_river.cfg"
 hash = "c869e9b03ace940a8a4320010a4f6cadf03338919a334b3d36f0108090602612"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$golden_boreal_taiga.cfg"
+hash = "132e324ff13ade84e15b09ac856dfe8066ea5ab73a75df4b77bc49863030c64d"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$gravel_beach.cfg"
+hash = "37604a8bc32c472adc8d097de63e4da87e8ae013d85b9dc79e39c16a19fd378a"
 
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$old_growth_golden_boreal_taiga.cfg"
@@ -1453,6 +1465,10 @@ file = "config/forgeendertech/Biomes/terralith$lush_desert.cfg"
 hash = "74a3ee4eebbc0d5c3c127166e7c9539f67a49f843af5e039a3796f20e87881e9"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$snowy_shield.cfg"
+hash = "6fea2986c48b4c953e6529d7345b0afaab386a523b271f7ba3446e4ef520b895"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$tropical_jungle.cfg"
 hash = "f1727fb2c5d1291631c1d3d8441bcf9d481f76300e89c051539274ac37c98a88"
 
@@ -1470,7 +1486,7 @@ hash = "cd72582691e5077a591a7aec9e7ea55f8952aaeaa5c66475660fb4bbf14b4c60"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "710343af2d8eed0cd4e1e69fafeaa092d0b8431b4ad1dd5fe48c8ed35ed4bbe5"
+hash = "3b36329ea2f26f54042f942e5439b07693212df0f0591e9bb8543214b207e6c8"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1833,6 +1849,22 @@ file = "config/guideme.toml"
 hash = "86ad6c16f2290267eb51f3654ebd8410921118450617154f337bdd442af53c28"
 
 [[files]]
+file = "config/hackersandslashers-client.toml"
+hash = "29f9c51610f4259d3005bf80d45fc1a92dda78af018fac18e86468efc62381af"
+
+[[files]]
+file = "config/hackersandslashers-server.toml"
+hash = "a42c65a27029c8c463a045a81a67338b591ce4d236e198058246244fcb50770e"
+
+[[files]]
+file = "config/hackersandslashers/client.json5"
+hash = "21b499f12b7b3630e5bf439744d1b88460bfcd8efbe5511f6cb2e6e51787d1fa"
+
+[[files]]
+file = "config/hackersandslashers/server.json5"
+hash = "217882e3c4e59395b8a923f0eaa799ef7b5a76ec4ec20a8c7277308c2af9f86a"
+
+[[files]]
 file = "config/hauntedharvest-common.toml"
 hash = "591cf43aad08bc4e7e4f8ed46c3bc90bd328263c1f3f7001f39d6176df90ec59"
 
@@ -1998,7 +2030,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "005ad8a7bc2672e386826867fd4a8e7f82e038f93647019d1ba7f87ce7ad6550"
+hash = "1dd5709bae2ff273cbab878a0af38915d0a2425898534a5a302927f4fcf2cf7e"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2159,6 +2191,10 @@ hash = "88f92356f3546e3d62f62b6099702ac7756ec75540955bc9b4c1bfbc8c799a74"
 [[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-quest-test-3aa51781.json"
 hash = "ce6b952be997b05d5be79629d7383a834bfd29a621dd85e5d827667a5eee3731"
+
+[[files]]
+file = "config/mcgcore/progress/ecraft-saves-hack-n-slashers-combat-test-102f75a7.json"
+hash = "d351a1ea6706b3d02359858f4448e0fe96d77e1775a9513721c0209b21fe1771"
 
 [[files]]
 file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-ftb-quest-test-80f6d56d.json"
@@ -4445,6 +4481,11 @@ hash = "2fdf75836fd8ce03a92175d9b84fb2b7229465828de29db1275bb1a9d1371450"
 metafile = true
 
 [[files]]
+file = "mods/cinematic-cataclysm.pw.toml"
+hash = "a513e60c9b5923a7c9a1d374f8b3c24b2770d2f18b3142709a4b1bfe1d76f9eb"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "542deb827feec4aff02739b6c587688450acbad0b99f6b0d4e915a05adfec9af"
 metafile = true
@@ -4892,6 +4933,11 @@ metafile = true
 [[files]]
 file = "mods/golem-overhaul.pw.toml"
 hash = "3451a4f13db7d6ab65ac263929556e0ab66300abf673f28c17fedc406cb9e862"
+metafile = true
+
+[[files]]
+file = "mods/gtbcs-cataclysmic-boss-ui.pw.toml"
+hash = "68ba89a2e256f0748293fb999e7ee3a5b90d25874722bd31fbe72843d839369c"
 metafile = true
 
 [[files]]
