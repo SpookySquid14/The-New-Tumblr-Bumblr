@@ -821,6 +821,6 @@
 'aquamirae:abyssal_scyphoid' : '',
 'tide:aquathorn' : '',
 'goety:squall_golem' : '',
-'irons_spellbooks:dead_king' : '{Count:1b,id:"endrem:corrupted_eye",tag:{Damage:0,dropchance:1.0d}}',
+'irons_spellbooks:dead_king' : '{Count:1b,id:"endrem:undead_eye",tag:{Damage:0,dropchance:1.0d}}',
 'goety_cataclysm:kobolediator' : '',
 'minecraft:squid' : '',

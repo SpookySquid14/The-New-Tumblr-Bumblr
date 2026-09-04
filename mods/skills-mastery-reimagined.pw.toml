@@ -1,0 +1,25 @@
+filename = 'skills_mastery_reimagined.jar'
+name = 'Skills Mastery Reimagined'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'skills_mastery_reimagined-1.2.1'
+
+[download]
+hash = '65d1ca5d578f56ec9d86d7265c35ba05c2634ea7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7515084
+project-id = 1423615
+
+[[x-prismlauncher-dependencies]]
+addonId = '991341'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '835091'
+type = 'REQUIRED'

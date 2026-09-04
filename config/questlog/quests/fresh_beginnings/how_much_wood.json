@@ -24,7 +24,7 @@
   "requirements": [
     {
       "type": "questlog:quest_complete",
-      "quest": "questlog:main_intro",
+      "quest": "questlog:fresh_beginnings/main_intro",
       "required_amount": 1
     }
   ],

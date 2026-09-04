@@ -2,7 +2,7 @@
   "prerequisites": [
     {
       "type": "questlog:quest_complete",
-      "quest": "questlog:make_home"
+      "quest": "questlog:fresh_beginnings/make_home"
     }
   ],
   "objectives": [

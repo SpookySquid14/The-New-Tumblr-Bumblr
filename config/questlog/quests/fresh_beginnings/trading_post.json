@@ -1,0 +1,43 @@
+{
+  "title": "Tables of The Trade",
+  "description": "You've found a village, have you? Wonderful. It's always so nice to see others living their lifes, isn't it? That said, sometimes I, Professor Larch, can find it a bit tedious trying to locate a specific villager whomst I've grown close to and trade with often. For that reason, I have invested in a §6Trading Post§r.\nThe trading post is a convenient little block that lets one trade with all villagers in the immediate vicinity, even being able to filter trades, making the process just that much more convenient, and most importantly, humane.",
+  "icon": {
+    "item": "tradingpost:trading_post"
+  },
+  "chapter": "main",
+  "sort_order": -6,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false,
+
+  "objectives": [
+    {
+  "type": "questlog:entity_approach",
+  "entity": "minecraft:villager",
+  "range": 16,
+  "name": "Find a Villager"
+    },
+  {
+    "type": "questlog:item_craft",
+    "item": "tradingpost:trading_post"
+  }
+  ],
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "3 Emeralds",
+      "icon": {
+        "item": "minecraft:emerald"
+      },
+      "item": "minecraft:emerald",
+      "count": 3
+    }
+  ]
+}

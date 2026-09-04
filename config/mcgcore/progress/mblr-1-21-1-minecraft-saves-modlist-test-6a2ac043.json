@@ -1,7 +1,10 @@
 {
   "discovered": [
     "ftbquests:book",
-    "mcgcore:guidebook"
+    "mcgcore:guidebook",
+    "minecraft:fire_charge",
+    "minecraft:obsidian",
+    "tumblrbumblr:inscribed_tablet"
   ],
   "ticked": [],
   "seen": [],

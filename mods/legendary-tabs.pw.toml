@@ -1,0 +1,18 @@
+filename = 'legendarytabs-1.21.1-2.0.jar'
+name = 'Legendary Tabs'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'legendarytabs-1.21.1-2.0.jar'
+
+[download]
+hash = '25868744d13e71e8c5b4b6ce4d1df9430f1f8cbd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8590971
+project-id = 1172469

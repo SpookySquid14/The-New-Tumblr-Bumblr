@@ -1,0 +1,33 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:entity_approach",
+      "entity": "bossrifts:boss_rift",
+      "range": 3
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_approach",
+      "entity": "bossrifts:boss_rift",
+      "range": 3
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "Rifts In Time And Space",
+  "description": "If you've defeated a boss, you may notice the creation of a §o§6Boss Rift§r. These special rifts in space are activated by interacting with them, where they will gather energy before §6§oteleporting all nearby entities to the home of the player who interacted with it.§r\nI, Professor Larch, find it to be very useful when capping off a long trip with a rather large fight.",
+  "icon": {
+    "texture": "tumblrbumblr:textures/quests/boss_rift.png"
+  },
+  "chapter": "main",
+  "sort_order": -6,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

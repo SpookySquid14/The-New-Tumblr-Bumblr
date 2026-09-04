@@ -1,0 +1,8 @@
+{
+  "name": "Legendary Eyes",
+  "icon": {
+    "item": "endrem:ancient_portal_frame"
+  },
+  "default_chapter": false,
+  "hidden": false
+}

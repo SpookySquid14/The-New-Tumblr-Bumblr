@@ -21,14 +21,13 @@ ServerEvents.recipes(event=>{
 	}
 	})
 	
-    event.replaceInput(
-        {output:'apotheosis:inert_trident'},
-        'minecraft:iron_ingot',
-        'minecraft:prismarine_shard'
-    )
-    event.replaceInput(
-        {output:'apotheosis:inert_trident'},
-        'minecraft:nautilus_shell',
-        'primal:shark_tooth'
-    )
+    event.remove(
+		{id: 'apothic_enchanting:inert_trident'}
+	)
+
+	event.replaceOutput(
+		{output: 'minecraft:trident'},
+		'minecraft:trident',
+		'apothic_enchanting:inert_trident'
+	)
 })

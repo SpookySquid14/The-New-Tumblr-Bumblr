@@ -2,7 +2,7 @@
   "prerequisites": [
     {
       "type": "questlog:quest_complete",
-      "quest": "questlog:make_torches"
+      "quest": "questlog:fresh_beginnings/make_torches"
     }
   ],
   "objectives": [

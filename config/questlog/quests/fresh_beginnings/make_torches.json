@@ -2,7 +2,7 @@
   "prerequisites": [
     {
       "type": "questlog:quest_complete",
-      "quest": "questlog:make_furnace_and_pickaxe"
+      "quest": "questlog:fresh_beginnings/make_furnace_and_pickaxe"
     }
   ],
   "objectives": [

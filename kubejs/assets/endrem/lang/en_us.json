@@ -45,8 +45,8 @@
   "item.endrem.corrupted_eye.description": "§7§oThe God King Maledictus ruled over his servants cruelly. He was eventually defeated by an unnamed hero who banished him into a tombstone for all of eternity.",
   "item.endrem.witch_pupil": "Witch Pupil",
 
-    "item.endrem.witch_eye": "§cGauntlet Eye",
-  "item.endrem.witch_eye.description": "§7§oThis pupil is believed to have seen the ancient forging of items lost in time.",
+  "item.endrem.witch_eye": "§3Sculk Eye",
+  "item.endrem.witch_eye.description": "§3§oImmense magical power eminates from this eye, ripped from the corroded rock of Chesed.",
 
   "item.endrem.undead_soul": "§eEternal Soul",
 
@@ -100,8 +100,8 @@
   "advancements.main.cursed_eye.title": "Eye of a Thousand Metals",
   "advancements.main.cursed_eye.description": "Get Your First Armored Eye",
 
-  "advancements.main.witch_eye.title": "Talk to The Hand",
-  "advancements.main.witch_eye.description": "Get Your First Gauntlet Eye",
+  "advancements.main.witch_eye.title": "Sculking Around",
+  "advancements.main.witch_eye.description": "Get Your First Sculk Eye",
 
   "advancements.main.evil_eye.title": "A Real 'Blessing'",
   "advancements.main.evil_eye.description": "Get Your First Evil Eye",

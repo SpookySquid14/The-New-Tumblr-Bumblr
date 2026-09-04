@@ -2,7 +2,7 @@
   "requirements": [
     {
       "type": "questlog:quest_complete",
-      "quest": "questlog:how_much_wood"
+      "quest": "questlog:fresh_beginnings/how_much_wood"
     }
   ],
   "objectives": [

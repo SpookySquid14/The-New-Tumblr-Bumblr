@@ -13,7 +13,12 @@
   "entityWhitelist": [
     "botania:mana_burst",
     "drg_flares:drg_flares",
-    "quark:soul_bead"
+    "quark:soul_bead",
+    "cinematiccataclysm:ancient_remnant_cutscene",
+    "cinematiccataclysm:ignis_cutscene",
+    "cinematiccataclysm:leviathan_cutscene",
+    "cinematiccataclysm:maledictus_cutscene",
+    "cinematiccataclysm:scylla_cutscene"
   ],
   "tracingDistance": 128,
   "debugMode": false,

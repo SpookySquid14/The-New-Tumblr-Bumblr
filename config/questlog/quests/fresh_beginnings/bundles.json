@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/make_crafting_table"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain a Bundle",
+      "item": "#minecraft:bundles"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "Extra Pockets",
+  "description": "I'm sure you've filled your pockets with all sorts of blocks and knick knacks. Well, do not fear, for I, Professor Larch, will teach you about a common solution: §6§oBundles§r.\nBundles are fantastic little pouches crafted with leather and string that can hold up to a stack's worth of items. §6§oTo store an item hover the bundle over it and left click, or do the opposite and click the bundle with an item. To retrieve an item, hover over the bundle and scroll to the item you wish to take, then right click.§r\nIt should be known, however, that bundles have their limits. §6§oItems with stack sizes of less than 64 will take up more space in a bundle, such as a potion taking 4 of bundle's 64 slots due to its stack size of 16.§r A bundle can only carry one of any item that does not stack.\nBundles are very useful, and you can carry up to two on your person via the curios slots.",
+  "icon": {
+    "item": "minecraft:bundle"
+  },
+  "chapter": "main",
+  "sort_order": -3,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

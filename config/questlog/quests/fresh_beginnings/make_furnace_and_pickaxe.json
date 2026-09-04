@@ -2,13 +2,13 @@
   "prerequisites": [
     {
       "type": "questlog:quest_complete",
-      "quest": "questlog:make_crafting_table"
+      "quest": "questlog:fresh_beginnings/make_crafting_table"
     }
   ],
   "objectives": [
     {
       "type": "questlog:or",
-      "name": "Craft a Furnace",
+      "name": "Do One Of The Following",
       "objectives": [
         {
           "type": "questlog:item_craft",

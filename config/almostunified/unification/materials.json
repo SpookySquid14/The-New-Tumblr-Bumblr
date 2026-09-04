@@ -9,6 +9,8 @@
     "immersiveengineering",
     "mekanism",
     "create",
+    "irons_jewelry",
+    "moremekanismprocessing",
     "thermal"
   ],
   "priority_overrides": {},
@@ -35,9 +37,7 @@
     "c:storage_blocks/{material}",
     "c:wires/{material}"
   ],
-  "ignored_tags": [
-    "c:gems/emerald"
-  ],
+  "ignored_tags": ["c:gems/emerald", "c:storage_blocks/emerald"],
   "ignored_items": [],
   "ignored_recipe_types": [
     "cucumber:shaped_tag"

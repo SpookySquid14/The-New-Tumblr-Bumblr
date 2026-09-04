@@ -3,6 +3,8 @@
   "name": "Tumblr Bumblr",
   "overrides": {},
   "packIds": [
+    "naturalist:custom_spawn_eggs",
+    "file/Two-Moons-LexLim-1.21-1.21.4-v1.0.0-Resource-Pack.zip",
     "mod/primal:resourcepacks/modern_banner_patterns",
     "mod/primal:resourcepacks/modern_spawn_eggs",
     "file/waystones_26.2.zip",

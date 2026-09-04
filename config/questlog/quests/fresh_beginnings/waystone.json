@@ -1,0 +1,42 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/make_home"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Learn About Claims"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    },
+    {
+      "type": "questlog:experience",
+      "experience": 5,
+      "levels": true,
+      "name": "5 Levels"
+    },
+    {
+      "type": "questlog:item",
+      "item": "waystones:mossy_waystone",
+      "name": "An Old Waystone"
+    }
+  ],
+  "title": "Don't Lose Your Way",
+  "description": "You have done well to make it this far. I, Professor Larch, am sure I'd be proud of you if we knew eachother face to face. Now, as your final lesson in this section, it's time to learn about §6Waystones§r.\nWaystones are mysterious and ancient relics that allow for swift transportation from one location to another, at the cost of some experience, of course. This cost does get cheaper the further you travel, however.",
+  "icon": {
+    "item": "waystones:waystone"
+  },
+  "chapter": "main",
+  "sort_order": -6,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

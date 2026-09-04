@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"irons_spellbooks:netherite_mage_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm:monstrous_horn"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"horseman:copper_horn","components":"{\"minecraft:instrument\":\"minecraft:ponder_goat_horn\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tumblrbumblr:nether_star_drained"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
