@@ -1,0 +1,58 @@
+{
+	"weight": 10,
+    "mainhands": [{
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:golden_sword"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:crossbow"
+            }
+        }
+    ],
+	
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:golden_boots",
+            "nbt": {
+                "Trim": {
+                    "pattern":"netherexp:rift",
+                    "material":"minecraft:quartz"
+                }
+            }
+		},
+        "drop_chance": 0
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:golden_leggings",
+            "nbt": {
+                "Trim": {
+                    "pattern":"netherexp:rift",
+                    "material":"minecraft:quartz"
+                }
+            }
+		},
+        "drop_chance": 0
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:golden_chestplate",
+            "nbt": {
+                "Trim": {
+                    "pattern":"netherexp:rift",
+                    "material":"minecraft:quartz"
+                }
+            }
+		},
+        "drop_chance": 0
+	}],
+	"tags": [
+	]
+}

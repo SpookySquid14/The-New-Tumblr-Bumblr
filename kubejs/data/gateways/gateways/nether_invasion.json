@@ -1,0 +1,321 @@
+{
+    "size": "large",
+    "color": "#7833ae",
+    "waves": [
+        {
+    "entities": [
+        {
+            "entity": "minecraft:piglin",
+            "nbt": {
+                "IsImmuneToZombification": true,
+                "IsBaby": false
+            },
+            "modifiers":[
+                {
+                            "type": "gateways:gear_set",
+                            "gear_set": "gateways:piglin_soldier"
+                        }
+            ],
+            "count": 2,
+            "finalize_spawn": false
+        },
+        {
+            "entity": "minecraft:piglin_brute",
+            "nbt": {
+                "IsImmuneToZombification": true
+            },
+            "modifiers":[
+                {
+                            "type": "gateways:gear_set",
+                            "gear_set": "gateways:brute_soldier"
+                        }
+            ],
+            "count": 1,
+            "finalize_spawn": false
+        }
+    ],              
+    "modifiers": [
+        
+    ],
+    "rewards": [
+        {
+            "type": "gateways:entity_loot",
+            "entity": "piglin",
+            "rolls": 2
+        }
+    ],
+    "max_wave_time": 3840,
+    "setup_time": 600
+},
+        {
+    "entities": [
+        {
+            "entity": "minecraft:piglin",
+            "nbt": {
+                "IsImmuneToZombification": true,
+                "IsBaby": false
+            },
+            "modifiers":[
+                {
+                            "type": "gateways:gear_set",
+                            "gear_set": "gateways:piglin_soldier"
+                        }
+            ],
+            "finalize_spawn": false,
+            "count": 3
+        },
+        {
+            "entity": "minecraft:piglin_brute",
+            "nbt": {
+                "IsImmuneToZombification": true
+            },
+            "modifiers":[
+                {
+                            "type": "gateways:gear_set",
+                            "gear_set": "gateways:brute_soldier"
+                        }
+            ],
+            "count": 1,
+            "finalize_spawn":false
+        }
+    ],              
+    "modifiers": [
+        
+    ],
+    "rewards": [
+        {
+    "type": "gateways:entity_loot",
+    "entity": "minecraft:piglin",
+    "rolls": 3
+        }
+    ],
+    "max_wave_time": 3840,
+    "setup_time": 600
+},
+        {
+    "entities": [
+                {
+            "entity": "minecraft:piglin",
+            "nbt": {
+                "IsImmuneToZombification": true,
+                "IsBaby": false
+            },
+            "modifiers":[
+                {
+                            "type": "gateways:gear_set",
+                            "gear_set": "gateways:piglin_soldier"
+                        }
+            ],
+            "finalize_spawn": false,
+            "count": 3
+        },
+                {
+            "entity": "minecraft:piglin_brute",
+            "nbt": {
+                "IsImmuneToZombification": true
+            },
+            "modifiers":[
+                {
+                            "type": "gateways:gear_set",
+                            "gear_set": "gateways:brute_soldier"
+                        }
+            ],
+            "count": 1
+        },
+                {
+            "entity": "piglinproliferation:piglin_alchemist",
+            "nbt": {
+                "IsImmuneToZombification": true
+            },
+            "modifiers":[
+                {
+                            "type": "gateways:gear_set",
+                            "gear_set": "gateways:alchemist_soldier"
+                        }
+            ],
+            "finalize_spawn":false,
+            "count": 1
+        }
+    ],              
+    "modifiers": [
+        
+    ],
+    "rewards": [
+        {
+    "type": "gateways:entity_loot",
+    "entity": "minecraft:piglin",
+    "rolls": 3
+        },
+        {
+            "type":"gateways:entity_loot",
+            "entity": "blaze",
+            "rolls": 1
+        }
+    ],
+    "max_wave_time": 3840,
+    "setup_time": 600
+},
+        {
+    "entities": [
+        {
+            "entity": "minecraft:piglin",
+            "nbt": {
+                "IsImmuneToZombification": true,
+                "IsBaby": false
+            },
+            "modifiers":[
+                {
+                            "type": "gateways:gear_set",
+                            "gear_set": "gateways:piglin_soldier"
+                        }
+            ],
+            "finalize_spawn": false,
+            "count": 2
+        },
+        {
+            "entity": "minecraft:piglin_brute",
+            "nbt": {
+                "IsImmuneToZombification": true
+            },
+            "modifiers":[
+                {
+                            "type": "gateways:gear_set",
+                            "gear_set": "gateways:brute_soldier"
+                        }
+            ],
+            "count": 2,
+            "finalize_spawn":false
+        },
+        {
+            "entity": "piglinproliferation:piglin_alchemist",
+            "nbt": {
+                "IsImmuneToZombification": true
+            },
+            "modifiers":[
+                {
+                            "type": "gateways:gear_set",
+                            "gear_set": "gateways:alchemist_soldier"
+                        }
+            ],
+            "finalize_spawn":false,
+            "count": 2
+        }
+    ],              
+    "modifiers": [
+        
+    ],
+    "rewards": [
+        {
+            "type":"gateways:loot_table",
+            "loot_table":"minecraft:chests/bastion_other",
+            "rolls": 1,
+            "desc": "Bastion Chest"
+        },
+        {
+            "type":"gateways:entity_loot",
+            "entity": "blaze",
+            "rolls": 1
+        }
+    ],
+    "max_wave_time": 3840,
+    "setup_time": 600
+},
+        {
+    "entities": [
+        {
+            "entity": "minecraft:piglin_brute",
+            "nbt": {
+                "IsImmuneToZombification": true
+            },
+            "modifiers":[
+                {
+                            "type": "gateways:gear_set",
+                            "gear_set": "gateways:brute_soldier"
+                        }
+            ],
+            "count": 4,
+            "finalize_spawn":false            
+        },
+        {
+            "entity": "piglinproliferation:piglin_alchemist",
+            "nbt": {
+                "IsImmuneToZombification": true
+            },
+            "modifiers":[
+                {
+                            "type": "gateways:gear_set",
+                            "gear_set": "gateways:alchemist_soldier"
+                        }
+            ],
+            "count": 3
+        }
+    ],              
+    "modifiers": [
+        
+    ],
+    "rewards": [
+        {
+            "type":"gateways:loot_table",
+            "loot_table":"minecraft:chests/bastion_other",
+            "rolls": 1,
+            "desc": "Bastion Chest"
+        }
+    ],
+    "max_wave_time": 6240,
+    "setup_time": 600
+},
+        {
+    "entities": [
+        {
+            "entity": "goety:hostile_redstone_golem",
+            "desc": "Ancient Golem",
+            "nbt": {
+                "CustomNameVisible": 0,
+                "CustomName": "{\"text\":\"Ancient Golem\",\"color\":\"#443A3B\"}",
+                "DeathLootTable": "minecraft:empty"
+            },
+            "count": 1
+        }
+    ],
+    "modifiers": [
+        
+    ],
+    "rewards": [
+        {
+            "type":"gateways:entity_loot",
+            "entity": "golemoverhaul:netherite_golem",
+            "rolls": 4
+        }
+    ],
+    "max_wave_time": 6240,
+    "setup_time": 1200
+}
+    ],
+    "rewards": [
+    {
+        "type": "gateways:stack",
+        "stack": {
+            "item": "tumblrbumblr:inscribed_tablet"
+        }
+    }
+        
+    ],
+    "failures": [
+        {
+    "type": "gateways:explosion",
+    "strength": 3,
+    "fire": true,
+    "block_damage": false
+},
+    {
+        "type":"gateways:command",
+        "command": "team remove Nether_Gateway",
+        "desc": ""
+    }
+    ],
+    "spawn_algorithm": "gateways:open_field",
+    "rules": {},
+    "boss_event": {
+        "mode": "boss_bar"
+    }
+}

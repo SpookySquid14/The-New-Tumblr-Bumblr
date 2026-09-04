@@ -1,12 +1,12 @@
 [options]
 	#Comma seperated list of items that when crafted unlock the corresponding dimension
 	craftitems = "tumblrbumblr:inscribed_tablet,minecraft:ender_eye"
+	#Title for the Advancements
+	craftedmessage = "%dim% Unlocked!"
 	#Prevents Death by Teleporting Player to Spawn if trying to enter an Ender Portal
 	preventdeath = true
 	#Message that displays when Teleport is blocked
 	blockedmessage = "Please obtain a %item% to enter the %dim%"
-	#Title for the Advancements
-	craftedmessage = "%dim% Unlocked!"
 	#Description for the Advancements
 	description = "Obtain a %item%"
 	#Comma seperated list of Dimension Resource Names

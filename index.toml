@@ -1001,6 +1001,14 @@ file = "config/cristellib/hauntedharvest/structure_toggle_config.json5"
 hash = "2b8c1850d24922a75580fc59119496a6278beaa7b4439bda571d042144e462fe"
 
 [[files]]
+file = "config/cristellib/integrated_cataclysm/structure_placement_config.json5"
+hash = "886473eb4236f48242d73ae585dc1e907df28444f3909357a0b5d639934e24c3"
+
+[[files]]
+file = "config/cristellib/integrated_cataclysm/structure_toggle_config.json5"
+hash = "5d460467e0c45b9176dc09350f3ebde5a0f25be85af8bc4c95a397eb1cd35265"
+
+[[files]]
 file = "config/cristellib/integrated_seven_seas/structure_placement_config.json5"
 hash = "12aceb2ee397e5bbf195832f30a58e42864cbaccc01bfd4f6dc9252c63bbc980"
 
@@ -1202,7 +1210,7 @@ hash = "113ec56c65877ff1ca4e256b8f1fea904b92c7c1fdb3a7f2f77ec117756bafeb"
 
 [[files]]
 file = "config/eclipticseasons-mixins.toml"
-hash = "0c119ec3e42185b8e99bb7a0fd4dbb4deba3200bc71ffb681854b9ff89c3ae89"
+hash = "9285a9d5631e332ba69331ab4e122d48e0516eea96d48193205faf65f32566af"
 
 [[files]]
 file = "config/eclipticseasons-startup.toml"
@@ -1345,6 +1353,10 @@ file = "config/ezemeraldpouch-client.toml"
 hash = "5cb4f6c44fcdcd42c15ffc4ec901663f34de35a355525575ff79092778114ef4"
 
 [[files]]
+file = "config/fabric/indigo-renderer.properties"
+hash = "ac9f9fe8d508e917510d951bd95b7a7b3aad48c8f72fde8c4ec8517d28943175"
+
+[[files]]
 file = "config/fairylights-common.toml"
 hash = "7343f9f8c502cdabaeb24c37f4a1a3f8bf1e951e57268bb1dc117bf492e2b036"
 
@@ -1433,6 +1445,10 @@ file = "config/forgeendertech/Biomes/minecraft$frozen_ocean.cfg"
 hash = "653263f4aeee35131cefbf7363fee1d888372ff7ee81799b96637a7491ac6ed3"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$jagged_peaks.cfg"
+hash = "117c729f5df7529318eb8b8e0b7057570751f5ab2eaea6d03623b889b88c2900"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$lush_caves.cfg"
 hash = "e4b130a68e94d87e07b143c714bc7f302792223402f01e63d8ec9465863bc4f0"
 
@@ -1449,6 +1465,18 @@ file = "config/forgeendertech/Biomes/minecraft$river.cfg"
 hash = "fff0ecc6b1510c949bf80ba142bf2033638c9b1ccd8d5511a40563a03525d5a0"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$wooded_badlands.cfg"
+hash = "c2ddb98e408a84edce859335375818c4ebf9761bfc59c51075cdbd961153635a"
+
+[[files]]
+file = "config/forgeendertech/Biomes/quark$glimmering_weald.cfg"
+hash = "1c465dfb4288265c028acccd4e717005e613230ce04dc8b064a748020a0a9827"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$barley_fields.cfg"
+hash = "70f7cc4587cc925dfdf39e6ccd11e50a37cff9b9af457f6735b7bd202f26608d"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$cold_river.cfg"
 hash = "c869e9b03ace940a8a4320010a4f6cadf03338919a334b3d36f0108090602612"
 
@@ -1457,8 +1485,16 @@ file = "config/forgeendertech/Biomes/regions_unexplored$golden_boreal_taiga.cfg"
 hash = "132e324ff13ade84e15b09ac856dfe8066ea5ab73a75df4b77bc49863030c64d"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$grassy_beach.cfg"
+hash = "ac08b3402528cacddbdd501c55e63306b839499a85da0bac56753fa518c25ffe"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$gravel_beach.cfg"
 hash = "37604a8bc32c472adc8d097de63e4da87e8ae013d85b9dc79e39c16a19fd378a"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$maple_forest.cfg"
+hash = "edda2bfb0f69d3797bb44ee262d1a1715d80b11242f016d5f07428907cab8f6a"
 
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$old_growth_golden_boreal_taiga.cfg"
@@ -1479,6 +1515,10 @@ hash = "eb6d5af7873fff5f7c7d5d18a32c9c6bea5586064d0ff0718f9e5122ec07bc48"
 [[files]]
 file = "config/forgeendertech/Biomes/terralith$ancient_sands.cfg"
 hash = "4a1e7e4aa548103be8cb6b3446fb520e8c02efa9262a0a223563c795fc7c5995"
+
+[[files]]
+file = "config/forgeendertech/Biomes/terralith$cave$diorite_caves.cfg"
+hash = "1b46e9c17d7f1fcdb20de1c83a3dbfcecb0ebd134cdd3b540d082d545ac9f79f"
 
 [[files]]
 file = "config/forgeendertech/Biomes/terralith$cave$tuff_caves.cfg"
@@ -1522,7 +1562,7 @@ hash = "cd72582691e5077a591a7aec9e7ea55f8952aaeaa5c66475660fb4bbf14b4c60"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "ee1f9604cdae040987dd5e6a61c2bcf7175e69a3322826e8f8bb30cbb9939195"
+hash = "6fc40b99df9deb8587d9ce2f32820eb797138d167b7306a2c82f37ad4c5a3208"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1622,7 +1662,7 @@ hash = "17014c842c67940afa2d9dfe7cce29e276ce01c45fe97939ea919eb2d72d7e3e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "8353a611ef35bed2745653488cbc944fced15d36a54a5ee5528363e6eb0184cb"
+hash = "5e92308829c408c66678d57a1cafb8a1e7db5059ecd0299bd9c51698770caa12"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
@@ -2066,7 +2106,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "67b6c3c2aa1d16a9ba1a6c918073a8ddaf863e22ebfa52f97fc67e9d232f9c27"
+hash = "cd51f7d3ceb542b55804d634ccac7531a78dc350188369224c3775b9bcc2e566"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2090,7 +2130,7 @@ hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "3f4a46a284dc0677f9e9171f63c1db8462a3fb720ce22423dde1543141170801"
+hash = "4814b2dc56e076ccc772e3a64820164680a31ac2597245353152e53c43a7d15b"
 
 [[files]]
 file = "config/jei/world/local/Aqua Test/lookupHistory.json"
@@ -2125,8 +2165,16 @@ file = "config/jei/world/local/FTB Quest Test/lookupHistory.json"
 hash = "5e77f57d19f02a8eb3c49d9986204217d5af956ab04d353901f332825631086f"
 
 [[files]]
+file = "config/jei/world/local/Gateway Test/lookupHistory.json"
+hash = "fe4f512ac9590800c8cd1639af6be3f4f7bc441df1ce43eeb5171f4fa3799655"
+
+[[files]]
 file = "config/jei/world/local/Grave Test/lookupHistory.json"
 hash = "e97af9d629908eddb61cc99ab9a3eeb8b56faf474a6cebb362f75c7fc4ca3e1f"
+
+[[files]]
+file = "config/jei/world/local/Integrated Cataclysm Test/lookupHistory.json"
+hash = "7c3195fd8c1b5ba7a28b9569e8d581696a4659334a3086e04033f400a1620fca"
 
 [[files]]
 file = "config/jei/world/local/JEI Test/lookupHistory.json"
@@ -2143,6 +2191,10 @@ hash = "27fe90acef7f60b58d58ac002ebf14a74e35e7ad7bf84af9a1c58f24fdfbc1fe"
 [[files]]
 file = "config/jei/world/local/KubeJS Test/lookupHistory.json"
 hash = "735d2f664623b70d56bdbd23e4a6da8fcd8f17483bb77a4de9225ee0c7624825"
+
+[[files]]
+file = "config/jei/world/local/Nether Test 5/lookupHistory.json"
+hash = "ac8abd9be5693195098cabf9e351e0eaf10833f49fea828001026237900a2a34"
 
 [[files]]
 file = "config/jei/world/local/Portal Test 2/lookupHistory.json"
@@ -2210,7 +2262,7 @@ hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
 
 [[files]]
 file = "config/lithostitched.json"
-hash = "43e35f01fceb40ba4689584c447ae842edf22fe86131f30f5108aae55b1b5ca6"
+hash = "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df"
 
 [[files]]
 file = "config/lodestone-client.toml"
@@ -2237,6 +2289,22 @@ file = "config/mcgcore.properties"
 hash = "88f92356f3546e3d62f62b6099702ac7756ec75540955bc9b4c1bfbc8c799a74"
 
 [[files]]
+file = "config/mcgcore/progress/blr-1-21-1-minecraft-saves-nether-test-1-3f18cd1a.json"
+hash = "6bdbd22f0a364e717620a830cfac4ebb84b097e36fd4beab2dc0330a005581f6"
+
+[[files]]
+file = "config/mcgcore/progress/blr-1-21-1-minecraft-saves-nether-test-3-3f18cd1c.json"
+hash = "6bdbd22f0a364e717620a830cfac4ebb84b097e36fd4beab2dc0330a005581f6"
+
+[[files]]
+file = "config/mcgcore/progress/blr-1-21-1-minecraft-saves-nether-test-4-3f18cd1d.json"
+hash = "6bdbd22f0a364e717620a830cfac4ebb84b097e36fd4beab2dc0330a005581f6"
+
+[[files]]
+file = "config/mcgcore/progress/blr-1-21-1-minecraft-saves-nether-test-5-3f18cd1e.json"
+hash = "bbfcc355bd7bfe74a92eeadb0d24e1a2abf576c6f0f5e376e95e30194ab0524f"
+
+[[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-boss-test-46cb3114.json"
 hash = "ded8e41aaaa75d8e2d22a93650c088002890adfbcd66b7876c698803dfb0ffae"
 
@@ -2249,8 +2317,16 @@ file = "config/mcgcore/progress/ecraft-saves-hack-n-slashers-combat-test-102f75a
 hash = "d351a1ea6706b3d02359858f4448e0fe96d77e1775a9513721c0209b21fe1771"
 
 [[files]]
+file = "config/mcgcore/progress/inecraft-saves-integrated-cataclysm-test-83632d2f.json"
+hash = "dbc99895beb719ed5f2554592c081d367969817b8670c9ce1a640cebd7afc50d"
+
+[[files]]
 file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-ftb-quest-test-80f6d56d.json"
 hash = "908224edc2737fd50b8456b7541f19392e94f62abd68640c2d1ce94f711afd9d"
+
+[[files]]
+file = "config/mcgcore/progress/mblr-1-21-1-minecraft-saves-gateway-test-4cdfa71f.json"
+hash = "b496de8d6fe75a536c9fbd9da0f009f9372afa4578d0dab996a9913c61b20d39"
 
 [[files]]
 file = "config/mcgcore/progress/mblr-1-21-1-minecraft-saves-modlist-test-6a2ac043.json"
@@ -2394,7 +2470,7 @@ hash = "d27849b34a7e0ac1dd6ed69adeade44a686b46df849959c2ec976bb56a4d0c96"
 
 [[files]]
 file = "config/obscuria/cache/aquamirae-keepsakes.json"
-hash = "00cdac494e4d8c25edc81adf82673dc32215516f17fdb494aaab842fc9869f87"
+hash = "1be1a2361ff9cef42c36b3c13f596110bf443552e080903ef3058401bbd66815"
 
 [[files]]
 file = "config/obscuria/loot_journal-client.toml"
@@ -2598,7 +2674,7 @@ hash = "bc1460142e8dbc01454cdff2ec415e532a93a8fd9c76812dcd81ee7fe2ec9b9e"
 
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/trading_post.json"
-hash = "a048e2936f03ed7b9b3e74f2ef2190f2b31fdf25a4eb4a571629d6288b5d5452"
+hash = "174b7619b4cb8670d4c995b6e62edc2b265998d58cea1efa850be37ee1063c4a"
 
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/waystone.json"
@@ -2658,7 +2734,7 @@ hash = "e00ca7dee6dfef16d016cc65d21f11ea5a0c39b3ba931a32afc52023d66061b8"
 
 [[files]]
 file = "config/restrictedportals-common.toml"
-hash = "a36b9aca67cdf26dccd95a7b27cd7aa7216f6c183fa7b5637822b2e884d0b86e"
+hash = "fc540f21cae6c8cc95eec81bc46babe89f076281f88a0da3909c6867dcec9f84"
 
 [[files]]
 file = "config/sable-client-1.toml.bak"
@@ -3259,6 +3335,58 @@ hash = "20817ed900dcccfd0303583d636d710972199fc5790cf108c7af30c0fa2e6ae4"
 [[files]]
 file = "kubejs/assets/ftbquests/textures/item/book.png"
 hash = "ea1e816566d18e031f8c0b3ce6983531ad32105a58bc57b336feb301eb60b503"
+
+[[files]]
+file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/redstone_golem.properties"
+hash = "d6071de564c95d782e18637769728880410d13b5a893282108d7ea68de981001"
+
+[[files]]
+file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/redstone_golem2.ase"
+hash = "a8544b7409d4d3340f92abf14ac409d9c16c65d37f46b4d8881a088213bd5b98"
+
+[[files]]
+file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/redstone_golem2.png"
+hash = "21e8e9caf028c9b9a941c51c67ec399c2e858b18da79c63e353676297dbf51ae"
+
+[[files]]
+file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/redstone_golem2_mask.ase"
+hash = "1b6df0ed1819e1e3683721de1511bae0700141187d7d7d09238c5841c2c06667"
+
+[[files]]
+file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/redstone_golem_damage_heavy2.png"
+hash = "999cf2db0d450bae54931f611154abb3f7bb0b06fcbb609075e6f6b12c9ba149"
+
+[[files]]
+file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/redstone_golem_damage_minor2.png"
+hash = "e89a0a7ca1bc4175fff44979ff76b3d0c81a826a3e51dfa93b126e0d48dab5fd"
+
+[[files]]
+file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/redstone_golem_damage_moderate2.png"
+hash = "fd32a7f08bc68fbfa71e5cc157465ed7aad238fa64425f4a1995e1ffbf4de901"
+
+[[files]]
+file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/redstone_golem_eyes2.png"
+hash = "7f825c8c8690d6e896d5eea44e169e05b9d56e52510281788bc839c47c2c6c2a"
+
+[[files]]
+file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/redstone_golem_flash2.png"
+hash = "a4a9f2834f9328b17a8e16df90258ff534b4966657a599df742464a66ab0ab2e"
+
+[[files]]
+file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/redstone_golem_glow2.png"
+hash = "5a75da80d46107064a8142d653d8f67ac5ff9e4573e867d25e55cf54507858f6"
+
+[[files]]
+file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/redstone_golem_glow_super2.png"
+hash = "a268ccd3d67926d019cd6e709fc355af0bf7e43c80b85436023c7bc68313b4d9"
+
+[[files]]
+file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/redstone_golem_lining2.png"
+hash = "d0bda31643714b4b52628e8804c1ee68961225d532e17286cd83c8e973690599"
+
+[[files]]
+file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/texture_ref.aseprite"
+hash = "c3dfe7bf7ee1b6f071e3cbd217cf80b256d665bf87a2e025d22d52f642437b1e"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -4341,6 +4469,46 @@ file = "kubejs/data/fdbosses/loot_table/entities/malkuth.json"
 hash = "f1ed29cec5d38b79ebe4ebd991478d5c8a77994d6386fb08e24274a1fb64db01"
 
 [[files]]
+file = "kubejs/data/gateways/gateways/eternal_nether_invasion.json"
+hash = "390c3a3bc90a1c51c89001d9e6a928050f5ad8f204d5bc9867ec65c3036b3a28"
+
+[[files]]
+file = "kubejs/data/gateways/gateways/nether_invasion.json"
+hash = "a32e3ece25630fbbd7ec4633593973bc6dffa0b99fac1c98e5378631d8fc5298"
+
+[[files]]
+file = "kubejs/data/gateways/gateways/test_gateway.json"
+hash = "bfd47d38593cac670af5f97c4ebf22478cf40a4280cc8db342448df1cd9ac0c4"
+
+[[files]]
+file = "kubejs/data/gateways/gateways/unstable_nether_portal.json"
+hash = "bb04f47be56bd7c5df7e59e768aa3164fb124979f37b08bf04bb146b52cf4fde"
+
+[[files]]
+file = "kubejs/data/gateways/gear_sets/alchemist_soldier.json"
+hash = "0db229da165ede56ee10c2ffbc9485d671f66b855c76980e353bfc1d349d75d7"
+
+[[files]]
+file = "kubejs/data/gateways/gear_sets/ancient.json"
+hash = "f85b652a97f10d32a962a9a4ef90b432fd5a901644407ab22292133953b1b2d3"
+
+[[files]]
+file = "kubejs/data/gateways/gear_sets/brute_soldier.json"
+hash = "999b6a1529dae0a035d46b3900f24d8e98496fcd034ea7dcb939a97accc934e7"
+
+[[files]]
+file = "kubejs/data/gateways/gear_sets/eternal.json"
+hash = "f67dc1af613373f0a3114fb058d86d54988f636b91b2c8aa0c03e4c036898706"
+
+[[files]]
+file = "kubejs/data/gateways/gear_sets/piglin_soldier.json"
+hash = "c52f8df05987d5fcd25f994eba4c97562ca8c47acfc770ee84b27c547e5392de"
+
+[[files]]
+file = "kubejs/data/gateways/recipes/nether_invasion.json"
+hash = "27b988411a39513283c706a2a2fc3251f072f33c0580d67062ca1cc48cc1bd1c"
+
+[[files]]
 file = "kubejs/data/goblintraders/goblin_trades/goblin_trader/common.json"
 hash = "591edaccf9816f0b212fd2536217975a8297980028abc7ac5b27f82c4dc439c3"
 
@@ -5168,6 +5336,11 @@ hash = "2181bd1dde3d7d895e7b3359a6d929a1f801dcf6db169d7002a16905f225f7e6"
 metafile = true
 
 [[files]]
+file = "mods/idas.pw.toml"
+hash = "b0dbcea722d64b97e03d8b554b84e8322c2358b1816d5a1bf5a468714158f4c3"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "e7a98860c395018d19ba6b233e764a238be53aecbd1a084d3ece9d535797570a"
 metafile = true
@@ -5200,6 +5373,26 @@ metafile = true
 [[files]]
 file = "mods/incubation.pw.toml"
 hash = "9f25c9eddd8aeefa77c90b7819388f2c60a90be73568173f7fcd1e5204af08c6"
+metafile = true
+
+[[files]]
+file = "mods/integrated-api.pw.toml"
+hash = "be4ac93e19b7b12f6dfe4f5dc83a3b8e469a706b2a6b9d0ebb77b39699518cda"
+metafile = true
+
+[[files]]
+file = "mods/integrated-cataclysm.pw.toml"
+hash = "1d463c0d164bd8f068d2f5b9eb33ecfac39b925c4366843c1df2a174cec9be63"
+metafile = true
+
+[[files]]
+file = "mods/integrated-stronghold.pw.toml"
+hash = "71327e8fd83134a323edc91c1df91e6f089b6bc9a2db210275e11ffaa364fbe0"
+metafile = true
+
+[[files]]
+file = "mods/integrated-villages.pw.toml"
+hash = "59349233e64e1be445a9e6694245437da2ac999f6567e9755152c532e8659948"
 metafile = true
 
 [[files]]
@@ -5324,7 +5517,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "6cb2d4ef16c519954b2c8adbc4963281776a954f30de1a7c151539d3d83f4e0e"
+hash = "eaa3db6534026ac360b526a78330cef317aaf2deda7d0e7f762a51068e6ecec4"
 metafile = true
 
 [[files]]

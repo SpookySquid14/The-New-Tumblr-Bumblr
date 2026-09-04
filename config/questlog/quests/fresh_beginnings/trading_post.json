@@ -14,7 +14,7 @@
     {
   "type": "questlog:entity_approach",
   "entity": "minecraft:villager",
-  "range": 16,
+  "range": 12,
   "name": "Find a Villager"
     },
   {
@@ -27,6 +27,12 @@
       "type": "questlog:quest_complete",
       "quest": "questlog:fresh_beginnings/main_intro",
       "required_amount": 1
+    },
+        {
+  "type": "questlog:entity_approach",
+  "entity": "minecraft:villager",
+  "range": 32,
+  "name": "Find a Villager"
     }
   ],
   "rewards": [

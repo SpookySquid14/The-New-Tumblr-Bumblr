@@ -1,0 +1,64 @@
+{
+    "type": "gateways:normal",
+    "size": "large",
+    "color": "#7833ae",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:piglin",
+                    "nbt": {
+                    "IsImmuneToZombification": true,
+                    "IsBaby": false
+                    },
+                    "count": 2,
+                    "finalize_spawn": true
+                },
+                {
+                    "entity": "minecraft:piglin_brute",
+                    "nbt": {
+                    "IsImmuneToZombification": true,
+                    "IsBaby": false
+                    },
+                    "count": 1,
+                    "finalize_spawn": true
+                }
+            ],
+            "modifiers": [
+
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:loot_table",
+                    "loot_table": "minecraft:chests/bastion_bridge",
+                    "rolls": 2,
+                    "desc": "Bastion Chest"
+                }
+            ],
+            "max_wave_time": 3840,
+            "setup_time": 600
+        }
+        
+    ],
+    "rewards": [
+        {
+            "type":"gateways:stack",
+            "stack": {
+                "id": "tumblrbumblr:inscribed_tablet"
+            }
+        }
+    ],
+    "failures": [
+        {
+    "type": "gateways:explosion",
+    "strength": 3,
+    "fire": true,
+    "block_damage": true
+}
+    ],
+    "spawn_algorithm": "gateways:open_field",
+    "rules": {},
+    "boss_event": {
+        "mode": "boss_bar"
+    }
+}

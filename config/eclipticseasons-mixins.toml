@@ -48,6 +48,11 @@
 		MixinLevelSlice = true
 		MixinNeoForgeModelAccess = true
 
+	[compat.fabric_renderer_indigo]
+		MixinAbstractBlockRenderer = true
+		MixinBlockRenderer = true
+		MixinFabricVanillaModelEncoder = true
+
 [data]
 	MixinsDataProvider = true
 	MixinsDelegatingOps = true

@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"silentgear:nether_star_fragment"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"aquamirae:cracked_record"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

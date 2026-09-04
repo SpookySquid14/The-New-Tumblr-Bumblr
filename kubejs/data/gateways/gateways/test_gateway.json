@@ -1,0 +1,62 @@
+{
+    "size": "large",
+    "color": "#7833ae",
+    "waves": [
+        {
+    "entities": [
+        {
+            "entity": "irons_spellbooks:citadel_keeper",
+            "nbt": {
+                "Team": "Nether_Gateway"
+
+            },
+            "modifiers": [
+                {
+                    "type":"gateways:attribute",
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "multiply_total",
+                    "value": -0.4
+                }
+            ],
+
+            "count": 1
+        }
+    ],              
+    "modifiers": [
+        
+    ],
+    "rewards": [
+        {
+            "type": "gateways:entity_loot",
+            "entity": "zombified_piglin"
+        },
+        {
+            "type":"gateways:entity_loot",
+            "entity": "wither_skeleton"
+        }
+    ],
+    "max_wave_time": 3840,
+    "setup_time": 200
+}
+    ],
+    "rewards":[
+    {
+        "type":"gateways:command",
+        "command": "team remove Nether_Gateway",
+        "desc": ""
+    }
+    ],
+    "failures": [
+        {
+    "type": "gateways:explosion",
+    "strength": 3,
+    "fire": true,
+    "block_damage": false
+}
+    ],
+    "spawn_algorithm": "gateways:open_field",
+    "rules": {},
+    "boss_event": {
+        "mode": "boss_bar"
+    }
+}
