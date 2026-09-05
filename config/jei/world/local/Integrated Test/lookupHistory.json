@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"yagm:ghost_pearl"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"yagm:restore_key"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

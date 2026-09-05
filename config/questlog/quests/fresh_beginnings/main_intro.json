@@ -1,6 +1,6 @@
 {
   "title": "Introduction",
-  "description": "Welcome, traveler. I do not know your name, but neither do you mine. What matters is that we've met, talked... understood one another.\nhis world is full of wonders, but also danger. Many gears move in the clockwork of reality, and time is something nobody can escape. So the question is, what will you do with yours?\nWithin the contents of this book are a collection of people's notes, their journeys, and for some, their life's work. I'm certain it will prove useful to you.\nAh, but be not afraid if you lose this book. Its contents will always be accessible through your inventory.",
+  "description": "Welcome, traveler. I do not know your name, but neither do you mine. What matters is that we've met, talked... understood one another.\nhis world is full of wonders, but also danger. Many gears move in the clockwork of reality, and time is something nobody can escape. So the question is, what will you do with yours?\nWithin the contents of this book are a collection of people's notes, their journeys, and for some, their life's work. I'm certain it will prove useful to you.",
   "icon": {
     "item": "minecraft:knowledge_book"
   },
@@ -21,9 +21,19 @@
       "required_amount": 1
     }
   ],
-  "rewards": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "Emerald Pouch",
+      "icon": {
+        "item": "ezemeraldpouch:emerald_pouch"
+      },
+      "item": "ezemeraldpouch:emerald_pouch",
+      "count": 1
+    }
+  ],
   "toast_on_unlock": false,
   "toast_on_complete": false,
   "show_popup_on_unlock": true,
-  "description_completed": "Now, go forth, and carve your tale."
+  "description_completed": "This pouch, too, will be of use to you. And worry not if you wish to read the contents of this book. Its contents will always be accessible through your inventory.\nNow, go forth, and carve your tale."
 }

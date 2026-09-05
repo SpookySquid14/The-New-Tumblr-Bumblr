@@ -613,6 +613,14 @@ file = "config/brewinandchewin-common.toml"
 hash = "cf7e8f3ae75a942e0c8b62f14fa68df3963b47c9c38895c2d7ba59c2bcb079ab"
 
 [[files]]
+file = "config/carryon-client.toml"
+hash = "c3cbcb17ade590daf230373d51457732bc8d9dd1039f7947b6bf564e38df1d9c"
+
+[[files]]
+file = "config/carryon-common.toml"
+hash = "8e367f5171aabc7337f94a1b70045bad620ef99ce28c6d42708806af561ad249"
+
+[[files]]
 file = "config/cataclysm-client.toml"
 hash = "60a93fbbdd17a6775241f8227b34dbfa71da706bc905444fc3f8c6de0dcbaa4c"
 
@@ -739,6 +747,14 @@ hash = "56c975d0d32433e64fe8e71c2608eaa6c013549be1563d0908b194b48ec18578"
 [[files]]
 file = "config/createaddition-common.toml"
 hash = "a9ac73605dc02f11a5e5a059f44e15e389d5e16d98b6bfbebaac22cff42891d4"
+
+[[files]]
+file = "config/createbigcannons-client.toml"
+hash = "a97b8ef8b0501c855edd8726b2bc869772fa0f15972d1516cbb481070428eb23"
+
+[[files]]
+file = "config/createbigcannons-server.toml"
+hash = "ed1f99827104bc23ebb8b1fbaa42dd7c298cbd0ac7c7068a115bb8247ffc1e01"
 
 [[files]]
 file = "config/createestrogen/client.json5"
@@ -1001,6 +1017,14 @@ file = "config/cristellib/hauntedharvest/structure_toggle_config.json5"
 hash = "2b8c1850d24922a75580fc59119496a6278beaa7b4439bda571d042144e462fe"
 
 [[files]]
+file = "config/cristellib/idas/structure_placement_config.json5"
+hash = "956b78cd4554c9d71745a4b67281e6bd1f402f14deffe7ed7f9d3b455b2410ec"
+
+[[files]]
+file = "config/cristellib/idas/structure_toggle_config.json5"
+hash = "8121bc178bab6ef501849f7c628c4cba28553335ade5943735268a5987138609"
+
+[[files]]
 file = "config/cristellib/integrated_cataclysm/structure_placement_config.json5"
 hash = "886473eb4236f48242d73ae585dc1e907df28444f3909357a0b5d639934e24c3"
 
@@ -1009,12 +1033,36 @@ file = "config/cristellib/integrated_cataclysm/structure_toggle_config.json5"
 hash = "5d460467e0c45b9176dc09350f3ebde5a0f25be85af8bc4c95a397eb1cd35265"
 
 [[files]]
+file = "config/cristellib/integrated_dungeons_arise/structure_placement_config.json5"
+hash = "fe19e91818b158c488cb1ef676aa90a4a40f3b97b7689d0f2e716108f2844ef0"
+
+[[files]]
+file = "config/cristellib/integrated_dungeons_arise/structure_toggle_config.json5"
+hash = "aac42237bfea3884b58eca606ca4aea844068a707c78e2a71b863b886ca0b7d3"
+
+[[files]]
 file = "config/cristellib/integrated_seven_seas/structure_placement_config.json5"
 hash = "12aceb2ee397e5bbf195832f30a58e42864cbaccc01bfd4f6dc9252c63bbc980"
 
 [[files]]
 file = "config/cristellib/integrated_seven_seas/structure_toggle_config.json5"
 hash = "e51b42c73fb924a507d7d1abfe1bade8c9d85f4fb5ecc4e80044125b5a8512d1"
+
+[[files]]
+file = "config/cristellib/integrated_stronghold/structure_placement_config.json5"
+hash = "e726a738749f9c9059a67f222986881c7958bc5b43fbd90656bd218c0d548c0e"
+
+[[files]]
+file = "config/cristellib/integrated_stronghold/structure_toggle_config.json5"
+hash = "c5ed4f2692d0f263cd2c77efe4ee5b419ffac9d4ba4d8973dd53a5b7df3ebd45"
+
+[[files]]
+file = "config/cristellib/integrated_villages/structure_placement_config.json5"
+hash = "b4ad8229e4403e479c553c114022ba16709f1212ccd15e11fcbbbbca6c50341b"
+
+[[files]]
+file = "config/cristellib/integrated_villages/structure_toggle_config.json5"
+hash = "6f765e2524c9c3aeb8020fdd368e7d2eaeb2ecaba1d07ea4fc651545744868be"
 
 [[files]]
 file = "config/cristellib/irons_spellbooks/structure_placement_config.json5"
@@ -1465,6 +1513,10 @@ file = "config/forgeendertech/Biomes/minecraft$river.cfg"
 hash = "fff0ecc6b1510c949bf80ba142bf2033638c9b1ccd8d5511a40563a03525d5a0"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$savanna.cfg"
+hash = "ad70da99a2fee045a8d3648c0b86d7f8fc6897346c789adc8b60ec8371cb84c5"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$wooded_badlands.cfg"
 hash = "c2ddb98e408a84edce859335375818c4ebf9761bfc59c51075cdbd961153635a"
 
@@ -1495,6 +1547,10 @@ hash = "37604a8bc32c472adc8d097de63e4da87e8ae013d85b9dc79e39c16a19fd378a"
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$maple_forest.cfg"
 hash = "edda2bfb0f69d3797bb44ee262d1a1715d80b11242f016d5f07428907cab8f6a"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$marsh.cfg"
+hash = "08fd173bc42ab46b23e87d8100065082b0393c47a0d287d7735e939f4e37455f"
 
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$old_growth_golden_boreal_taiga.cfg"
@@ -1562,15 +1618,19 @@ hash = "cd72582691e5077a591a7aec9e7ea55f8952aaeaa5c66475660fb4bbf14b4c60"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "6fc40b99df9deb8587d9ce2f32820eb797138d167b7306a2c82f37ad4c5a3208"
+hash = "8c60385d40767710c04a9dcd0dc977652e378f94fc9313d105cc50ad03021e25"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
 hash = "73345c2e0fcad604296129df0e3e764643968e96d177f949eefd2e8e0b4bc780"
 
 [[files]]
+file = "config/ftbessentials.snbt"
+hash = "f55ca157708b8b73fe70763ac611b9d3552ffe0eccf57ef0e754bec91ac096d6"
+
+[[files]]
 file = "config/ftblibrary-client.snbt"
-hash = "f9e68cb4dfef189e837d75392a88c8c4bba9e5e36324219f16b5cefd598ec389"
+hash = "937b20d01cd9d1eab23bc642207d509c38e656925e32b5bd760f0de44cac36e0"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
@@ -1965,6 +2025,10 @@ file = "config/hourglass-server.toml"
 hash = "c60920d889149815d066a71ea48c3bfa3b650019767017a6a20a7474f666e536"
 
 [[files]]
+file = "config/idas-neoforge-1_21.toml"
+hash = "7c81cad8f7fe70cb4538c76023f39bf17b8d3d65226ae71084e61844d7aa34d4"
+
+[[files]]
 file = "config/immediatelyfast.json"
 hash = "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a"
 
@@ -2049,6 +2113,10 @@ file = "config/incontrol/spawner.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
+file = "config/integrated_villages-neoforge-1_21.toml"
+hash = "008ef7ca6fa759b865a0df2371724f78e4b6e85fb1a449c52d720b2215da2d39"
+
+[[files]]
 file = "config/irons_jewelry-server.toml"
 hash = "6b03f588d0bee8356f40f9c8c92be34fb67f0f307df7cd9ffbb527ed22d86e38"
 
@@ -2106,7 +2174,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "cd51f7d3ceb542b55804d634ccac7531a78dc350188369224c3775b9bcc2e566"
+hash = "59552ada615c240b8e77258d92b4d4f902ccc9a64fc7cc3c96b799e89acab3b7"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2130,7 +2198,7 @@ hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "4814b2dc56e076ccc772e3a64820164680a31ac2597245353152e53c43a7d15b"
+hash = "4afda70e618601e82a673bf362ad0ebb12ee2955b15162a1633cef9042fe0740"
 
 [[files]]
 file = "config/jei/world/local/Aqua Test/lookupHistory.json"
@@ -2175,6 +2243,10 @@ hash = "e97af9d629908eddb61cc99ab9a3eeb8b56faf474a6cebb362f75c7fc4ca3e1f"
 [[files]]
 file = "config/jei/world/local/Integrated Cataclysm Test/lookupHistory.json"
 hash = "7c3195fd8c1b5ba7a28b9569e8d581696a4659334a3086e04033f400a1620fca"
+
+[[files]]
+file = "config/jei/world/local/Integrated Test/lookupHistory.json"
+hash = "f6a29234383c6133be4a4676bad1dd0f315b18c3a45561807b9a0dc078c437b3"
 
 [[files]]
 file = "config/jei/world/local/JEI Test/lookupHistory.json"
@@ -2339,6 +2411,10 @@ hash = "971561b2099caf499eceaa768ff6f8364b2de8d01e944e1c8d2bad75187852f2"
 [[files]]
 file = "config/mcgcore/progress/mblr-1-21-1-minecraft-saves-quest-test-3-25bd3f54.json"
 hash = "8bedbbe65e3ee34c2b3f761516b00ecdf48f577e4780a206350a4602bf718177"
+
+[[files]]
+file = "config/mcgcore/progress/r-1-21-1-minecraft-saves-integrated-test-a1b73fae.json"
+hash = "8005b9009bde6c7752c70131b7fbb94efca3284d82758e1c10405f2b3f3ac3dd"
 
 [[files]]
 file = "config/minecolonies-client.toml"
@@ -2645,6 +2721,10 @@ file = "config/questlog/quests/fresh_beginnings/claim_home.json"
 hash = "24d38298d6ad997920ad870679385c529518772193555ab41c7c75b254b95015"
 
 [[files]]
+file = "config/questlog/quests/fresh_beginnings/death.json"
+hash = "6703dca8dc4e59e5ce1720545ca21c259d1e50b5bde97f42344ac16a80a0b417"
+
+[[files]]
 file = "config/questlog/quests/fresh_beginnings/eccentric_tome.json"
 hash = "50f5f46a68d5f3ea33852083893c84949ee0a869a5c02de907720bcd2349f76e"
 
@@ -2654,7 +2734,7 @@ hash = "8b89e542a9953f80bf3e2d25c6bce8e1b5ccf344718fc42c90349a8d41be7a22"
 
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/main_intro.json"
-hash = "896ecd6f1496e825fe4a178b3f0a38b5eaf56ebd4af206bb94f17b7e6918ceb8"
+hash = "b57406e6032660058d9639c9af65533f2c35233ba55c7b0249447428e1931959"
 
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/make_crafting_table.json"
@@ -2735,6 +2815,10 @@ hash = "e00ca7dee6dfef16d016cc65d21f11ea5a0c39b3ba931a32afc52023d66061b8"
 [[files]]
 file = "config/restrictedportals-common.toml"
 hash = "fc540f21cae6c8cc95eec81bc46babe89f076281f88a0da3909c6867dcec9f84"
+
+[[files]]
+file = "config/ritchiesprojectilelib-server.toml"
+hash = "0118936ae0375d6c318582b47e0cf631540ba683d4a5db25a3ca7f090eda54c1"
 
 [[files]]
 file = "config/sable-client-1.toml.bak"
@@ -2826,7 +2910,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "ef3242a314c4311b64b88ce016acea790d42a35f7c81f0a02934841e64efcda1"
+hash = "0e4ce933707829871980a9d5e305a29cf69bc16d7dee33c4388c0d55aec549e1"
 
 [[files]]
 file = "config/sodiumdynamiclights-client.toml"
@@ -3247,6 +3331,10 @@ hash = "7f1e58be2cf7db18181869804bb09823ee93a4ea863d560036e8a05954bcf806"
 [[files]]
 file = "defaultconfigs/certain_questing_additions/client-config.snbt"
 hash = "c9bbba6f7f28ff51219fd10e38b1d981c48f9cc31f47bf272507e24e9de1b920"
+
+[[files]]
+file = "defaultconfigs/ftbessentials-server.snbt"
+hash = "92b8488b53c40f9be3d5414fe382c3e1c6d45f86850345b3bbcee1d212b5f125"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -4791,6 +4879,11 @@ hash = "6fd2e4c618bca79e94afec50ee1fc5baedc41316f281b4eecd79616ffaa7aa4a"
 metafile = true
 
 [[files]]
+file = "mods/carry-on.pw.toml"
+hash = "a3ec297f347a5d7c54a7c36f59d44ee5ced9f92d6dbea6672888422265896c98"
+metafile = true
+
+[[files]]
 file = "mods/cataclysm-spellbooks.pw.toml"
 hash = "69a7bd359817d052b6c837066596912a25b76f2dd0ae21361638554d723e1dbe"
 metafile = true
@@ -4916,6 +5009,11 @@ hash = "1cddfd5a9244b463b68fd0b0d44bd2eb3a699c97e7cb9446c18655f5fe2b3dda"
 metafile = true
 
 [[files]]
+file = "mods/create-big-cannons.pw.toml"
+hash = "1fd0ca3739cc148e6b8dbf7d54302d1f0fa126beb904f28faa9780f1a3f27c2a"
+metafile = true
+
+[[files]]
 file = "mods/create-compatible-storage.pw.toml"
 hash = "c07a6c30cb0d82f5035797f17b19660d949d59cfb6e7d6150cfbc63177d3e99c"
 metafile = true
@@ -4988,6 +5086,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "3fd4c88bfbc3328daacbb0df8560d1037fb5be349c29b4fa5cf56e1b38769f4d"
+metafile = true
+
+[[files]]
+file = "mods/cynosure.pw.toml"
+hash = "d8fc327fe131b89f258828fbde4430f472166285f17c34455f874b1063408e13"
 metafile = true
 
 [[files]]
@@ -5231,6 +5334,11 @@ hash = "a3da2bbb635f400a3b9df234a69f7d76f542a90909a197820fc7ec543dc5bd6a"
 metafile = true
 
 [[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "f645e21d38d7d07ac188caae0c2d4d6732e0fc12e3527ac40a58ca4f9604995d"
+metafile = true
+
+[[files]]
 file = "mods/ftb-filter-system.pw.toml"
 hash = "1d6f217c96c3d5ac1025d43c996ff56b2c62f28b32478fd53f0c512f2e4ef661"
 metafile = true
@@ -5383,6 +5491,16 @@ metafile = true
 [[files]]
 file = "mods/integrated-cataclysm.pw.toml"
 hash = "1d463c0d164bd8f068d2f5b9eb33ecfac39b925c4366843c1df2a174cec9be63"
+metafile = true
+
+[[files]]
+file = "mods/integrated-dungeons-arise.pw.toml"
+hash = "fa74cfa5b01b1a2aa24aec2184e528bbc23842498fe5347eb52a8562ff8c3016"
+metafile = true
+
+[[files]]
+file = "mods/integrated-seven-seas.pw.toml"
+hash = "52cd509a7101470f4eb4a13991056bfc0f7c514a16acfd457a5f90b016f18923"
 metafile = true
 
 [[files]]
@@ -5873,6 +5991,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "c1fcd6cb80c9c3c1079514f463d780e7c8e617e79cef5ea64003b6aa77b56759"
+metafile = true
+
+[[files]]
+file = "mods/ritchies-projectile-library.pw.toml"
+hash = "caf75db710d69ef6152db6ffa96a82dcc667dea19da68e8b88a4a3c8eb15ec02"
 metafile = true
 
 [[files]]

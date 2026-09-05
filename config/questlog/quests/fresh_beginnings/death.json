@@ -1,0 +1,39 @@
+{
+  "title": "You Won't Die",
+  "description": "Death will not be your end. It is only the beginning. For those who pass, a grave will be erected, and to it, ghosts will flock, and can be befriended through Glowstone Dust\nIf you instead choose to put the spirits to rest, pearls of their essence will be dropped, which can be crafted into a Recovery Key. The item allows you to quickly recover your belongings if they are far from reach.",
+  "icon": {
+    "item": "yagm:restore_key"
+  },
+  "chapter": "main",
+  "sort_order": 0,
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Learn About Death",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:stat",
+      "name": "Meet Your End",
+      "stat": "minecraft:deaths",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "A Restore Key",
+      "icon": {
+        "item": "yagm:restore_key"
+      },
+      "item": "yagm:restore_key",
+      "count": 1
+    }
+  ],
+  "toast_on_unlock": false,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": true,
+  "description_completed": "Do try to avoid this fate, please."
+}

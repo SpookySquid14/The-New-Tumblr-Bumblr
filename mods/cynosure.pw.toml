@@ -1,0 +1,21 @@
+filename = 'cynosure-1.0.2-neoforge-1.21.1.jar'
+name = 'Cynosure'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Cynosure 1.0.2 Neoforge'
+
+[download]
+hash = '12f169044e65e07878ad251cf89940261b8b44fa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8778770
+project-id = 1259952
+
+[[x-prismlauncher-dependencies]]
+addonId = '351264'
+type = 'REQUIRED'
