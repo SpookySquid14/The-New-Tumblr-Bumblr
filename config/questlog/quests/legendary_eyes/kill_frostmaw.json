@@ -1,0 +1,37 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "name": "Kill Frostmaw"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 30,
+      "levels": true,
+      "name": "30 Levels"
+    },
+    {
+      "type": "questlog:item",
+      "name": "minecraft:emerald",
+      "number": 15
+    }
+  ],
+  "title": "The Ice Cold Yeti",
+  "description": "Name: Frostmaw\nKnown Locations: Open Snowy Biomes. Rare sightings in Taigas\nEstimated Size: Huge\nBehavior: Often found sleeping while holding an [Ice Crystal](image:mowziesmobs:textures/item/icecrystal.png). Puts crystal in mouth upon approach and uses its abilities to freeze its targets. Studies suggest immunity to arrows and weakness to fire.\nDanger Level: §4§lHigh",
+  "icon": {
+    "item": "endrem:cold_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

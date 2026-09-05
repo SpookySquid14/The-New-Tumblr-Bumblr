@@ -1,0 +1,30 @@
+{
+  "prerequisites": [
+    {
+      "type": "",
+      "quest": ""
+    }
+  ],
+  "objectives": [
+    {
+      "type": "",
+      "name": ""
+    }
+  ],
+  "rewards": [
+    {
+      "type": "",
+      "name": ""
+    }
+  ],
+  "title": "",
+  "description": "",
+  "icon": {
+    "item": ""
+  },
+  "chapter": "",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}
