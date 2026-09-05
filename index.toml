@@ -1225,6 +1225,14 @@ file = "config/defaultoptions-common.toml"
 hash = "04e8f5e0f15baa2edae956fe4b8282e8382b94027c6dcc4f3c45f7b13c953e36"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "90d83c6288c409ea53a3199af8f8b899b376d17838d5d6c680ed8a4c8cacde2e"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "356dd74a753fd2834de0bdc60538f8e44df394db8e53c66b74e649805ee0d866"
+
+[[files]]
 file = "config/dragonfight.json"
 hash = "db2e19762d710e17b5655224ae41662bbc25e4ab4ec5158cd4aff6e0019ae097"
 
@@ -1509,6 +1517,10 @@ file = "config/forgeendertech/Biomes/minecraft$old_growth_pine_taiga.cfg"
 hash = "e6cd8596630817f74e09dedd93af4c3cee85f90ab2c2f60dd4fa590da8b4d468"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$old_growth_spruce_taiga.cfg"
+hash = "889986622c92c7f763934e3ed388691557ef959fb2722992b335d00701a2185a"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$river.cfg"
 hash = "fff0ecc6b1510c949bf80ba142bf2033638c9b1ccd8d5511a40563a03525d5a0"
 
@@ -1618,7 +1630,7 @@ hash = "cd72582691e5077a591a7aec9e7ea55f8952aaeaa5c66475660fb4bbf14b4c60"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "8c60385d40767710c04a9dcd0dc977652e378f94fc9313d105cc50ad03021e25"
+hash = "40163c0c30edaed3ae0a67df0f3e5273a39f11e21ac51ee68c22ac63ef4a6341"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -5501,11 +5513,6 @@ metafile = true
 [[files]]
 file = "mods/integrated-seven-seas.pw.toml"
 hash = "52cd509a7101470f4eb4a13991056bfc0f7c514a16acfd457a5f90b016f18923"
-metafile = true
-
-[[files]]
-file = "mods/integrated-stronghold.pw.toml"
-hash = "71327e8fd83134a323edc91c1df91e6f089b6bc9a2db210275e11ffaa364fbe0"
 metafile = true
 
 [[files]]
