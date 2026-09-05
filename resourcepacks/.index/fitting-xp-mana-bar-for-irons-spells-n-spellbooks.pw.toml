@@ -1,0 +1,21 @@
+filename = "Fitting XP Mana Bar for Iron's Spells 'n Spellbooks from 1.20.1 and above.zip"
+name = "Fitting XP Mana Bar for Iron's Spells 'n Spellbooks"
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Fitting XP Mana Bar for Iron's Spells 'n Spellbooks.zip"
+
+[download]
+hash = '36a776f51a8cecd23b65f551596c5119258d4b8b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5904469
+project-id = 1138017
+
+[[x-prismlauncher-dependencies]]
+addonId = '855414'
+type = 'REQUIRED'

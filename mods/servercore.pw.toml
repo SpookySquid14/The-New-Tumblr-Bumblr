@@ -1,0 +1,18 @@
+filename = 'servercore-neoforge-1.5.19+1.21.1.jar'
+name = 'ServerCore'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ServerCore NeoForge 1.5.19+1.21.1'
+
+[download]
+hash = '62ce692654e09271b5c55cbb3a1ef7606d067132'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8312220
+project-id = 550579

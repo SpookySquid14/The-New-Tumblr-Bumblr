@@ -1,0 +1,38 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "mowziesmobs:ferrous_wroughtnaut",
+      "name": "Locate and Kill The Ferrous Wroughtnaut"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 30,
+      "levels": true,
+      "name": "30 Levels"
+    },
+    {
+      "type": "questlog:item",
+      "name": "minecraft:emerald",
+      "number": 15
+    }
+  ],
+  "title": "The Living Armor",
+  "description": "Name: [Ferrous Wroughtnaut](image:tumblrbumblr:textures/quests/photos/wroughtnaut.png:150:150)\nKnown Locations: Underground\nEstimated Size: Large\nBehavior: Stationary until approached. Swings [Axe of a Thousand Metals](image:mowziesmobs:textures/item/wrought_axe_icon.png:50:50) in wide arcs. Armor is seemingly unbreakable, making damaging it only possible through the crack in its back.\nDanger Level: §6§lMedium",
+  "icon": {
+    "item": "endrem:cursed_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

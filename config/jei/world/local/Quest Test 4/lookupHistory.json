@@ -1,0 +1,9 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"irons_spellbooks:cinder_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:cinderous_soulcaller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:echo_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:pyrium_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:tyros_statue"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"exposure:color_film","components":"{\"exposure:film_frames\":[{entities_in_frame:[{distance:23,id:\"mowziesmobs:frostmaw\",name:\"Frostmaw\",pos:[I;-1821,70,1683]}],extra_data:{biome:\"regions_unexplored:cold_boreal_taiga\",day_time:29393,dimension:\"minecraft:overworld\",focal_length:55,light_level:10,pitch:12.310568f,pos:[-1825.663191548377d,75.0d,1705.9285033418944d],shutter_speed:\"1/60\",structures:[\"mowziesmobs:frostmaw_spawn\"],timestamp:1788635973L,weather:\"Snow\",yaw:-166.6313f},identifier:\"SpookiestOfSquid_29393\",photographer:{name:\"SpookiestOfSquid\",uuid:[I;-1351040915,-444577765,-1241626113,495023361]}},{extra_data:{biome:\"regions_unexplored:cold_boreal_taiga\",day_time:29829,dimension:\"minecraft:overworld\",focal_length:55,light_level:10,pitch:15.910836f,pos:[-1825.663191548377d,75.0d,1705.9285033418944d],shutter_speed:\"1/60\",structures:[\"mowziesmobs:frostmaw_spawn\"],timestamp:1788635995L,weather:\"Snow\",yaw:-144.82018f},identifier:\"SpookiestOfSquid_29829\",photographer:{name:\"SpookiestOfSquid\",uuid:[I;-1351040915,-444577765,-1241626113,495023361]}}]}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

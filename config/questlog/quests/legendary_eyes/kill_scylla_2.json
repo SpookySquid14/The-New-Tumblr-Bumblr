@@ -1,0 +1,38 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:legendary_eyes/kill_scylla_1"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "cataclysm:scylla",
+      "name": "Kill Scylla"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 30,
+      "levels": true,
+      "name": "30 Levels"
+    },
+    {
+      "type": "questlog:item",
+      "name": "minecraft:emerald",
+      "number": 15
+    }
+  ],
+  "title": "The Lich",
+  "description": "Name: [Scylla](image:tumblrbumblr:textures/quests/photos/scylla.png:150:150)\nKnown Locations: Acropolis, a city found floating above oceans.\nEstimated Size: Medium\nBehavior: Summoned through usage of her anchor, it also acts as her primary weapon. Attacks with electricity, especially effective with targets she [makes wet](image:cataclysm:textures/mob_effect/wetness.png:50:50). Can summon serpents when threatened.\nDanger Level: §8§lDeadly",
+  "icon": {
+    "item": "tumblrbumblr:sunken_eye_shard_2"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

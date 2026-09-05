@@ -1,0 +1,38 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "mowziesmobs:umvuthi",
+      "name": "Locate and Kill Umvuthi"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 30,
+      "levels": true,
+      "name": "30 Levels"
+    },
+    {
+      "type": "questlog:item",
+      "name": "minecraft:emerald",
+      "number": 15
+    }
+  ],
+  "title": "The Sunbird",
+  "description": "Name: [Umvuthi](image:tumblrbumblr:textures/quests/photos/umvuthi.png:150:150)\nKnown Locations: Savannas\nEstimated Size: Large\nBehavior: Remains stationary even when attacked and passive to others wearing [Umvuthana Masks](image:mowziesmobs:textures/item/umvuthana_mask_bliss_icon.png:50:50). Relies on its [followers](image:tumblrbumblr:textures/quests/photos/umvuthana.png:150:150) and ranged beams of light. When very hurt, uses its followers energy to form a shield and recover from its wounds.\nDanger Level: §4§lHard",
+  "icon": {
+    "item": "endrem:guardian_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false
+}

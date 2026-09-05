@@ -1,0 +1,33 @@
+{
+  "discovered": [
+    "aeronautics:andesite_propeller",
+    "aeronautics:aviators_goggles",
+    "aeronautics:smart_propeller",
+    "aeronautics:wooden_propeller",
+    "copycats:copycat_shaft",
+    "create:blaze_cake",
+    "create:creative_motor",
+    "create:gearshift",
+    "create_connected:inverted_clutch",
+    "domum_ornamentum:blue_brick_extra",
+    "ezemeraldpouch:emerald_pouch",
+    "ftbquests:book",
+    "goety:haunted_planks",
+    "mcgcore:guidebook",
+    "minecraft:bogged_spawn_egg",
+    "minecraft:cave_spider_spawn_egg",
+    "minecraft:coal",
+    "minecraft:comparator",
+    "minecraft:creeper_spawn_egg",
+    "minecraft:redstone",
+    "minecraft:tipped_arrow",
+    "simulated:honey_glue",
+    "simulated:physics_assembler",
+    "simulated:red_portable_engine",
+    "simulated:steering_wheel"
+  ],
+  "ticked": [],
+  "seen": [],
+  "notes": {},
+  "recents": []
+}

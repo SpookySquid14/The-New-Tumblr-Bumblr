@@ -8,7 +8,8 @@
   "objectives": [
     {
       "type": "questlog:entity_kill",
-      "name": "Kill Frostmaw"
+      "entity": "mowziesmobs:frostmaw",
+      "name": "Locate and Kill The Frostmaw"
     }
   ],
   "rewards": [
@@ -25,7 +26,7 @@
     }
   ],
   "title": "The Ice Cold Yeti",
-  "description": "Name: Frostmaw\nKnown Locations: Open Snowy Biomes. Rare sightings in Taigas\nEstimated Size: Huge\nBehavior: Often found sleeping while holding an [Ice Crystal](image:mowziesmobs:textures/item/icecrystal.png). Puts crystal in mouth upon approach and uses its abilities to freeze its targets. Studies suggest immunity to arrows and weakness to fire.\nDanger Level: §4§lHigh",
+  "description": "Name: [Frostmaw](image:tumblrbumblr:textures/quests/photos/frostmaw.png:150:150)\nKnown Locations: Open Snowy Biomes. Rare sightings in Taigas\nEstimated Size: Huge\nBehavior: Often found sleeping while holding an [Ice Crystal](image:mowziesmobs:textures/item/icecrystal.png:50:50). Puts crystal in mouth upon approach and uses its abilities to freeze its targets. Studies suggest immunity to arrows and weakness to fire.\nDanger Level: §4§lHard",
   "icon": {
     "item": "endrem:cold_eye"
   },
