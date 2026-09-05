@@ -30,15 +30,202 @@
             "rewards": [
                 {
                     "type": "gateways:loot_table",
-                    "loot_table": "minecraft:chests/bastion_bridge",
-                    "rolls": 2,
+                    "loot_table": "minecraft:chests/bastion_other",
+                    "rolls": 1,
                     "desc": "Bastion Chest"
                 }
             ],
             "max_wave_time": 3840,
             "setup_time": 600
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:piglin",
+                    "nbt": {
+                    "IsImmuneToZombification": true,
+                    "IsBaby": false
+                    },
+                    "count": 3,
+                    "finalize_spawn": true
+                },
+                {
+                    "entity": "minecraft:piglin_brute",
+                    "nbt": {
+                    "IsImmuneToZombification": true,
+                    "IsBaby": false
+                    },
+                    "count": 1,
+                    "finalize_spawn": true
+                }
+            ],
+            "modifiers": [
+
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:loot_table",
+                    "loot_table": "minecraft:chests/bastion_other",
+                    "rolls": 1,
+                    "desc": "Bastion Chest"
+                }
+            ],
+            "max_wave_time": 3840,
+            "setup_time": 600
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:piglin",
+                    "nbt": {
+                    "IsImmuneToZombification": true,
+                    "IsBaby": false
+                    },
+                    "count": 3,
+                    "finalize_spawn": true
+                },
+                {
+                    "entity": "minecraft:piglin_brute",
+                    "nbt": {
+                    "IsImmuneToZombification": true,
+                    "IsBaby": false
+                    },
+                    "count": 1,
+                    "finalize_spawn": true
+                },
+                {
+                    "entity": "piglinproliferation:piglin_alchemist",
+                    "nbt": {
+                    "IsImmuneToZombification": true,
+                    "IsBaby": false
+                    },
+                    "count": 1,
+                    "finalize_spawn": true
+                }
+            ],
+            "modifiers": [
+
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:loot_table",
+                    "loot_table": "minecraft:chests/bastion_other",
+                    "rolls": 1,
+                    "desc": "Bastion Chest"
+                }
+            ],
+            "max_wave_time": 3840,
+            "setup_time": 600
+        },
+
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:piglin",
+                    "nbt": {
+                    "IsImmuneToZombification": true,
+                    "IsBaby": false
+                    },
+                    "count": 3,
+                    "finalize_spawn": true
+                },
+                {
+                    "entity": "minecraft:piglin_brute",
+                    "nbt": {
+                    "IsImmuneToZombification": true,
+                    "IsBaby": false
+                    },
+                    "count": 2,
+                    "finalize_spawn": true
+                },
+                {
+                    "entity": "piglinproliferation:piglin_alchemist",
+                    "nbt": {
+                    "IsImmuneToZombification": true,
+                    "IsBaby": false
+                    },
+                    "count": 2,
+                    "finalize_spawn": true
+                }
+            ],
+            "modifiers": [
+
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:loot_table",
+                    "loot_table": "minecraft:chests/bastion_other",
+                    "rolls": 1,
+                    "desc": "Bastion Chest"
+                }
+            ],
+            "max_wave_time": 3840,
+            "setup_time": 600
+        },
+
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:piglin_brute",
+                    "nbt": {
+                    "IsImmuneToZombification": true,
+                    "IsBaby": false
+                    },
+                    "count": 4,
+                    "finalize_spawn": true
+                },
+                {
+                    "entity": "piglinproliferation:piglin_alchemist",
+                    "nbt": {
+                    "IsImmuneToZombification": true,
+                    "IsBaby": false
+                    },
+                    "count": 3,
+                    "finalize_spawn": true
+                }
+            ],
+            "modifiers": [
+
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:loot_table",
+                    "loot_table": "minecraft:chests/bastion_bridge",
+                    "rolls": 1,
+                    "desc": "Bastion Chest"
+                }
+            ],
+            "max_wave_time": 6240,
+            "setup_time": 600
+        },
+        {
+            "entities": [
+                {
+                    "entity": "goety:hostile_redstone_golem",
+                    "desc": "Ancient Golem",
+                    "nbt": {
+                        "CustomNameVisible": false,
+                        "CustomName": "{\"text\":\"Ancient Golem\",\"color\":\"#443A3B\"}",
+                        "DeathLootTable": "minecraft:empty"
+                    },
+                    "count": 1,
+                    "finalize_spawn": false
+                }
+            ],
+            "modifiers": [
+
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "golemoverhaul:netherite_golem",
+                    "rolls": 4,
+                    "desc": "Ancient Golem Loot Table"
+                }
+            ],
+            "max_wave_time": 6240,
+            "setup_time": 1200
         }
-        
     ],
     "rewards": [
         {

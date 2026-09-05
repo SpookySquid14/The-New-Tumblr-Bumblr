@@ -35,5 +35,5 @@
   "toast_on_unlock": false,
   "toast_on_complete": false,
   "show_popup_on_unlock": true,
-  "description_completed": "This pouch, too, will be of use to you. And worry not if you wish to read the contents of this book. Its contents will always be accessible through your inventory.\nNow, go forth, and carve your tale."
+  "description_completed": "This pouch, too, will be of use to you. And worry not if you wish to read the contents of this book. [Its contents will always be accessible through your inventory](image:tumblrbumblr:textures/quests/questlog_tab.png:109:123).\nNow, go forth, and carve your tale."
 }

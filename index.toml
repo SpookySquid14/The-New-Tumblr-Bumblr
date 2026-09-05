@@ -1489,6 +1489,10 @@ file = "config/forgeendertech/Biomes/ad_astra$martian_polar_caps.cfg"
 hash = "8bb59a95d7365d9ff09e94f338bcae0d03df8b2122d088dcdf4de08bfe5d6721"
 
 [[files]]
+file = "config/forgeendertech/Biomes/enderscape$corrupt_barrens.cfg"
+hash = "595921b2eac251cf76eae392119ed8bd9b2876434a19b0e34b806f48c3accfb2"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$cold_ocean.cfg"
 hash = "5e27aefb11060e95ca1e71092218c9a029dcbe4afc792975daaabf2149e2ead2"
 
@@ -1630,7 +1634,7 @@ hash = "cd72582691e5077a591a7aec9e7ea55f8952aaeaa5c66475660fb4bbf14b4c60"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "40163c0c30edaed3ae0a67df0f3e5273a39f11e21ac51ee68c22ac63ef4a6341"
+hash = "290ed0d2f34b37df62d2e8f589f413f69f2cf55a052893669f9e7e94c7579a39"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1647,270 +1651,6 @@ hash = "937b20d01cd9d1eab23bc642207d509c38e656925e32b5bd760f0de44cac36e0"
 [[files]]
 file = "config/ftbquests-client.snbt"
 hash = "1aad536e4bf4ac32fd3f994e43af2792e5347ac37e40d1f8430dde45c9468f5c"
-
-[[files]]
-file = "config/ftbquests/quests/backup_biomancy.snbt"
-hash = "5ab406b57f74a7e9cbd892aaf00e4a58f5185333d37c146af68b700c9336c717"
-
-[[files]]
-file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "81affe6a6543c0f0b5f5068ce41a9fcf16d341e4faf81bded829d508a9bc610b"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/ad_astra.snbt"
-hash = "856e0c02f6db001d991578660ba69758076ffe3330245dabab878e2a54d2a3b7"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/apothic_adventures.snbt"
-hash = "03b1d8299b0ffa64c7a86c651df35b508c40892a2b0bbbe144c670083b2b503a"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
-hash = "8210f45e5ce76a36988d6a779222fe0c109aee9c9b1c1c2401b1ed2e825056c5"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/aquamirae.snbt"
-hash = "8d420c302a9eab28a80d76fe76b17258672ca12a1a19ae22df8250b3837f7b49"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "ffd63dfa9b7783b055ca4be97c11d097fcd0281b66c00cfbd22ad1b8adc978cc"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/better_archeology.snbt"
-hash = "ce5dcd562168b0f2f651e5889a1cb48260ce4c54b959c917899ceb9d44413bf5"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/biomancy.snbt"
-hash = "5a4dd249c38720df59f4dfde9ba558343e453f19aec954717327b34f51a92285"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/boats_and_planes.snbt"
-hash = "302a1298f486e0f0115a50e89a056a852c14050b1bb4d29df483fff0eec53890"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/born_in_chaos.snbt"
-hash = "3d3373cc72a54497c01bc9a7ae55ba21d554508979c9cd4bd645fdae440202ca"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/brewing_and_chewing.snbt"
-hash = "0c0c64ff5882bae4fa37e10f515b857b85dcba984505993846bc30b9ab85baa4"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/candy_canyon.snbt"
-hash = "fb0db277fd2da9be66dd83f298770c98042b80dff658773219fefa5b4a1f0e75"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/clanging_howl.snbt"
-hash = "5f35a737dcff3da1d85cb5e824367a384936dafe1a9977ab0ce0e73aebc81194"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "499999300d5999d406e96de1dce972d9069a324daf3b0ea12225e35b380ed8c9"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/complicated_bees.snbt"
-hash = "ff17c35ea57bc31564a21414643b30bb57d3b5ef7d471515f49164a9ba33cff2"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "7c61220b63799e75190a9e43b501a371d9756bc768be514c67b3c68891b3338f"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/debug.snbt"
-hash = "6f7f093db5811b0bc00ada8c54d52e8ea558125c55face6644e437d1641d817a"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/enchanting.snbt"
-hash = "0fdd0a0bf8e67c16875b9e4c1d3658b7d21896aeed6b8b8057a4cee119fe70c5"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/farming.snbt"
-hash = "1a8cec24731fb808e3eb599fa8c47c63791e1f290ae7b746dbbb4b43b3c6f0d5"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/fine_fishing.snbt"
-hash = "17014c842c67940afa2d9dfe7cce29e276ce01c45fe97939ea919eb2d72d7e3e"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/fresh_beginnings.snbt"
-hash = "5e92308829c408c66678d57a1cafb8a1e7db5059ecd0299bd9c51698770caa12"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/goety_the_dark_arts.snbt"
-hash = "7afeb8c4256d5c260beee10de2cc8d354b42b127a76153d2b7e4204ae7e7f135"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/immersive_engineering.snbt"
-hash = "10bf924eb1eff5c91022f4392754de3fd436ff8c9f6499159d99f3cc12f83c8d"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/irons_spells_and_spellbooks.snbt"
-hash = "9033f010f2a8972b42e6dad64a8159244f0f46f875ef00fb5a38248e29806cc7"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/legendary_eyes.snbt"
-hash = "12319a9d5ca258230c732d0d8ac96c39bc6b50f6843f6e5dd9b4ab12170b04b7"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/magics_and_madness.snbt"
-hash = "85f08ff7d18118ddf27f95b81eb33d34e12bdc4cc813e3eaa3da6ccd862c774f"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "94154f8797050e908cbf2d2a9c826f6e24dfdf1b74a92d09f0f33c7aa0f185a1"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/minecolonies.snbt"
-hash = "661baa1dac9bc1e12ce4115e0b0a8bdb82f96554224a4a6a6e5d5a4a68e15c5c"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/mining.snbt"
-hash = "835471ec828599d1ac0f56fb45c8de5d8b622af9b4704034f9aa3f32120b7ad7"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/mob_grinding_utils.snbt"
-hash = "1ad5c957d7e77f735556e79b91f14c689944d4c0ff59112524e44eb7e6c4d06a"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/nether.snbt"
-hash = "d75360bf4420df78d148bf9d5793e8c8d7d26e72192404326fef06e904d0772e"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/next_steps.snbt"
-hash = "c54c79b9e0e1b22fd0f9ee4bd12cdf826980981bc85461a1ed5d53e76c068f72"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/occultism.snbt"
-hash = "24f5fd0fd4bd3226581834a5b138b543af73f476884f9d75e30dab9e0a46e90f"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/otherside.snbt"
-hash = "074e6736f3475c55ff75ea0c0975205eaccfb854243ff6f4d31395f342232eea"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/potions_and_poisons.snbt"
-hash = "9f8e9f857d5ba6d99741794ff0e69066fc3a5d836af472075a8dd6e573d2cfe1"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/rock_and_stone.snbt"
-hash = "097363e343e89cab31e1e28f367913e87406b03e7344b675669fdbfdc55ac823"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/saints_dragons.snbt"
-hash = "94f317fc8c10249305d95b6e3b45812076484f9334f4847abbd96e16eb1a9225"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/sophisticated_backpacks.snbt"
-hash = "034b5a95acbed782b38b50245f87a2d45b9a29fe1183dca2406c54eb783827d9"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/sophisticated_storage.snbt"
-hash = "53a1032da5a48f89dbd3c3b349b8a967955f524223b3d1cf42f323021e219ff9"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/the_end.snbt"
-hash = "53c63ebe964326e51c77e4fe0d42680345de980fcec01efee9e966eb8b1b146e"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/tinkers_construct.snbt"
-hash = "8617c6e88750f0ca0ea87849f690a6b4d104abe130f82e0faa6ab4b28a759fc9"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/tombstone.snbt"
-hash = "d02f0bdd6b9fd15a6c778c473a93dc7507bf454a9229de259cbf68c28a4664bb"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/vampirism.snbt"
-hash = "e9613e97feb7952837e2d4ae9093823656698786ba9ca2cfd3d6d78edd4f7d89"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/vampirism_2.snbt"
-hash = "de686e64a16bf2b1e016a5d12aedaa5aafe8a7acc9e57f17f7442902c39f5813"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/vampirism_werewolves.snbt"
-hash = "3738f20579af4adb9cdb149476bc1270521342cda33b382e536bdf7e397106d4"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/w.snbt"
-hash = "88693150f06fc9e2dba43e4610feaf13079125ed9879a4acbec8acf1c934abba"
-
-[[files]]
-file = "config/ftbquests/quests/data.snbt"
-hash = "4f4105cd0a7fbad1ced5bde6498af44b407c6f2c3d53e6063628bca9d16fa506"
-
-[[files]]
-file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "3a2cbd2a147738577d04ae54dc86aed27a471e4bbaa1997042ef70ef515b08e7"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/chance_gold.snbt"
-hash = "97b335397d67fc38ba606af46296f2da4822db40b4fc192b558c5961e3924bfe"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/choice_compost.snbt"
-hash = "241cfbd2497d983df89431f6575b82b8734e22b12618ec3e21e9a570cd5a1d1d"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/choice_crush.snbt"
-hash = "eb82391c2f27295085090345fea0c76ec0d3d6763291e77f8ee2a3e3bf3941c1"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/choice_dye.snbt"
-hash = "6bd1c01949b28e8018a5bf4950d574adb16808def266f9375aefc33b9aa22574"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/choice_flowers.snbt"
-hash = "029cb6f53172affa62a8cc3cb1aa000487fb4275d55b923f5e33b5538360ab48"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/choice_food.snbt"
-hash = "13f919e787be9d06f5f607ff2127ce3308ee1c9d8cb135cb1a16085fce71bd8b"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/choice_hospital.snbt"
-hash = "803a04fca0d2be4e8ab014c7f4e3e62890e927204f539607895bf5145256c4a1"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/choice_logs.snbt"
-hash = "b7e73991908deb930b4d4296a7e7531800d8b63fb992ade758e32b73b09bdd73"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/choice_mob_drop.snbt"
-hash = "433660b68e3b7732e0ccd259f79fcf6a1e6b818eddf9ff74a77c3557683500e4"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/choice_sapling.snbt"
-hash = "da186b81efa1d7bf498e070f8fe95d40fe0191df99e6274c450f17f06f1a4293"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/choice_stone.snbt"
-hash = "94f4db841e3a43f111a2b9e17abd9c33f552fade81673d0169a56ce148ccb426"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/fishers_crate.snbt"
-hash = "e9cf1f896b31940cb18a5c158dbdd0e450c5770f8cbc6c14d306d4cff3a21903"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/gacha.snbt"
-hash = "743a5408a08a220e49c331ec9e0c2e5b4237642e6ce2f9a7a520b73a1e3b0d06"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/minecolonies_common.snbt"
-hash = "b28bc93519eb6d8d8a5cbbcace8b28571590678c263f1638c043c55b69e2d31a"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/note_or_coin.snbt"
-hash = "5a02dcde200f76848dba8472d6d036786529919df6fd847ed7944cd4884b89c5"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/satchel_of_fish.snbt"
-hash = "20a46e8bff3c6d0ba0d9b658ed8de9997d9da600cba6a465423afeb1e6d00bab"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/wda_food.snbt"
-hash = "86c27da1132d8c234769bc40988d8dd670141853ba23db1785fc322bea840459"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -2186,7 +1926,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "59552ada615c240b8e77258d92b4d4f902ccc9a64fc7cc3c96b799e89acab3b7"
+hash = "3bc6fba4f4aceac39697efbcbc8dc2739a241060eaef92d92c3f8a654723cc20"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2243,6 +1983,10 @@ hash = "d91c6dfe5aabe5d1acfa10fee1b065f84cba31ef4c6b498a811f41c89cb525ed"
 [[files]]
 file = "config/jei/world/local/FTB Quest Test/lookupHistory.json"
 hash = "5e77f57d19f02a8eb3c49d9986204217d5af956ab04d353901f332825631086f"
+
+[[files]]
+file = "config/jei/world/local/Gateway Test 2/lookupHistory.json"
+hash = "a215825d47de22eba62404528316858373226ecf4ab0b56736741410bebb5cb4"
 
 [[files]]
 file = "config/jei/world/local/Gateway Test/lookupHistory.json"
@@ -2409,6 +2153,10 @@ file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-ftb-quest-test-80f6d56
 hash = "908224edc2737fd50b8456b7541f19392e94f62abd68640c2d1ce94f711afd9d"
 
 [[files]]
+file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-gateway-test-2-93925f71.json"
+hash = "480e858396b2d6f667f953b5992a21f973c6794b918c7698db4c500eb8e55b0b"
+
+[[files]]
 file = "config/mcgcore/progress/mblr-1-21-1-minecraft-saves-gateway-test-4cdfa71f.json"
 hash = "b496de8d6fe75a536c9fbd9da0f009f9372afa4578d0dab996a9913c61b20d39"
 
@@ -2498,7 +2246,7 @@ hash = "55984be8a03604dd95446a84769854c5a42b064146db05dafa16c2ecba7a0971"
 
 [[files]]
 file = "config/multimine.cfg"
-hash = "fcc5c14b48f191f0117b58649a363db67cf59fd57e95935420c813ecf0dc9f9b"
+hash = "30c7dc5828c8876510d0f5a6d027fa6dafa9c71e733bea0aae433b7aec038644"
 
 [[files]]
 file = "config/mynethersdelight-common.toml"
@@ -2634,7 +2382,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "12dba219d807238a41b59158d497e93025e6813b04f443e4022f3395cdcb4f03"
+hash = "676b8494492476f59b2d6ba32987ad32a6afc98a77d5bcc8cb590d7484fd86cf"
 
 [[files]]
 file = "config/packed_packs/profiles/datapacks/Tumblr Bumblr.profile.json"
@@ -2642,7 +2390,7 @@ hash = "98f76f0a5dab055c19ff37d22109272bae613d6229cea6dbb98868d495200d44"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Tumblr Bumblr.profile.json"
-hash = "3025b1c61be98bb5fc19b4a520c47e7716a6f811ebcc37b602cab75041cd4a87"
+hash = "591708b2d650db408bbf61a0d827cfa1c5c7360dc1555762321c804326d8ace6"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -2746,7 +2494,7 @@ hash = "8b89e542a9953f80bf3e2d25c6bce8e1b5ccf344718fc42c90349a8d41be7a22"
 
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/main_intro.json"
-hash = "b57406e6032660058d9639c9af65533f2c35233ba55c7b0249447428e1931959"
+hash = "2295eb9e2440eb9c8c8f0b12dcf00ec3257584e9900d59312b5c9cd0fce264b8"
 
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/make_crafting_table.json"
@@ -3435,6 +3183,10 @@ hash = "20817ed900dcccfd0303583d636d710972199fc5790cf108c7af30c0fa2e6ae4"
 [[files]]
 file = "kubejs/assets/ftbquests/textures/item/book.png"
 hash = "ea1e816566d18e031f8c0b3ce6983531ad32105a58bc57b336feb301eb60b503"
+
+[[files]]
+file = "kubejs/assets/gateways/lang/en_us.json"
+hash = "eed23ee9197a48bd62a19ea6b1b489b6beead128f6f7007bf3a9458f944f82ba"
 
 [[files]]
 file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/redstone_golem.properties"
@@ -4221,6 +3973,10 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/quest-book.png"
 hash = "4ddb6a7cdd8e0d987d50146c67ee030ee9eb64517a2828b3bc9f604cb3e91ab4"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/questlog_tab.png"
+hash = "97c7dfb9a0e6fa7525bdc8c07a02537cea7e1d21f57f8cc1fd89c9830423c979"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/raevyx-egg.png"
 hash = "52c2594defb129bcf4beb3fb0bf8bf805344af8b2d64261007447ca305012522"
 
@@ -4582,7 +4338,7 @@ hash = "bfd47d38593cac670af5f97c4ebf22478cf40a4280cc8db342448df1cd9ac0c4"
 
 [[files]]
 file = "kubejs/data/gateways/gateways/unstable_nether_portal.json"
-hash = "bb04f47be56bd7c5df7e59e768aa3164fb124979f37b08bf04bb146b52cf4fde"
+hash = "e1ea3fdf75c05478cfc9643a32d053ac34f236aafbe9a6f8d647a190c130b9ed"
 
 [[files]]
 file = "kubejs/data/gateways/gear_sets/alchemist_soldier.json"
@@ -4605,8 +4361,8 @@ file = "kubejs/data/gateways/gear_sets/piglin_soldier.json"
 hash = "c52f8df05987d5fcd25f994eba4c97562ca8c47acfc770ee84b27c547e5392de"
 
 [[files]]
-file = "kubejs/data/gateways/recipes/unstable_nether_portal.json"
-hash = "27b988411a39513283c706a2a2fc3251f072f33c0580d67062ca1cc48cc1bd1c"
+file = "kubejs/data/gateways/recipe/unstable_nether_portal.json"
+hash = "ff70553a8409640cd8d91f882343ecfad175a8acd5fddb52e335195927da1898"
 
 [[files]]
 file = "kubejs/data/goblintraders/goblin_trades/goblin_trader/common.json"
@@ -6410,6 +6166,10 @@ hash = "d53bbc2a0bbf07c162dd37ab0e5cfb53ead97024c7ce782edab2e352abf5e0f6"
 [[files]]
 file = "resourcepacks/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip"
 hash = "c037a7cfa347260baffd2a1270624e9746c6a01ab75dc40f594542d8fca33f49"
+
+[[files]]
+file = "resourcepacks/Quest-log-more-like-quest-BOOK.zip"
+hash = "7daab72cf603a079b70b4c84a42647ab7dfb3dc68aada2aa33bee96cbbf40052"
 
 [[files]]
 file = "resourcepacks/Slightly-Improved-Font-1.1.5.zip"
