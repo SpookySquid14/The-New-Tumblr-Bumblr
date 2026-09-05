@@ -4605,7 +4605,7 @@ file = "kubejs/data/gateways/gear_sets/piglin_soldier.json"
 hash = "c52f8df05987d5fcd25f994eba4c97562ca8c47acfc770ee84b27c547e5392de"
 
 [[files]]
-file = "kubejs/data/gateways/recipes/nether_invasion.json"
+file = "kubejs/data/gateways/recipes/unstable_nether_portal.json"
 hash = "27b988411a39513283c706a2a2fc3251f072f33c0580d67062ca1cc48cc1bd1c"
 
 [[files]]
