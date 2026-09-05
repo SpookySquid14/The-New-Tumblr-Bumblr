@@ -1,0 +1,21 @@
+filename = 'createtransmission-1.2.2+neoforge-create6-1.21.1.jar'
+name = 'Create: Transmission!'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'createtransmission-1.2.2+neoforge-create6-1.21.1.jar'
+
+[download]
+hash = '60e020b39a243e4eca5d15e3c9299fcdf8ed20d2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8646664
+project-id = 1354280
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

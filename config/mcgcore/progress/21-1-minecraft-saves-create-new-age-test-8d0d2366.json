@@ -1,0 +1,26 @@
+{
+  "discovered": [
+    "create:basin",
+    "create:brass_ingot",
+    "create:cogwheel",
+    "create:creative_motor",
+    "create:goggles",
+    "create:mechanical_mixer",
+    "create:zinc_ingot",
+    "create_new_age:advanced_solar_heating_plate",
+    "create_new_age:basic_solar_heating_plate",
+    "create_new_age:heat_pipe",
+    "create_new_age:heat_pump",
+    "create_new_age:heater",
+    "createaddition:electric_motor",
+    "ezemeraldpouch:emerald_pouch",
+    "ftbquests:book",
+    "mcgcore:guidebook",
+    "minecraft:copper_ingot",
+    "minecraft:short_grass"
+  ],
+  "ticked": [],
+  "seen": [],
+  "notes": {},
+  "recents": []
+}

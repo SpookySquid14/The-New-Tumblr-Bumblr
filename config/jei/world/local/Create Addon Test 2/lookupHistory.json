@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create_enchantment_industry:blaze_forger"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_enchantment_industry:blaze_enchanter"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
