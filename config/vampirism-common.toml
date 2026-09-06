@@ -14,7 +14,7 @@
 	#Whether glass bottles should be automatically be converted to blood bottles when needed
 	autoConvertGlassBottles = true
 	#If enabled adds a craftable umbrella that can be used to slowly walk though sunlight without taking damage
-	umbrella = true
+	umbrella = false
 	#Enable a custom vampirism log file that logs specific faction actions
 	enableFactionLogging = false
 
