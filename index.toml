@@ -694,7 +694,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "c69e38d0ed635fdf774f6c56ba088b176f00fa956272ea0acd592036373f9314"
+hash = "45df4b0f716fbacd518003d7f3ddc91d8a8aaca81937b4769e3666e37a260f31"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -1938,7 +1938,7 @@ hash = "cd72582691e5077a591a7aec9e7ea55f8952aaeaa5c66475660fb4bbf14b4c60"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "4a3747d591ff6fb24e01cab293c081e941cdc96c78b891598937ac9b294dcb12"
+hash = "4f12ae7bb5e4a0daef507a43455042c98b2d5b4d5559b79c9ddffa454f14d3a5"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2230,7 +2230,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/phases.json"
-hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+hash = "2fba6a2fcd4c2891268c1672c261984a3528e54e5d6b369aa857cabb0212e749"
 
 [[files]]
 file = "config/incontrol/placeevents.json"
@@ -2242,7 +2242,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+hash = "342a5724566402f41d43eeea34e0d6e529ebbf53d22e10a60ee1c3941bdb9966"
 
 [[files]]
 file = "config/incontrol/spawner.json"

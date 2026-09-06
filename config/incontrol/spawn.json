@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "phase": "after_day100",
+        "mob": "minecraft:creeper",
+        "when": "onjoin",
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:creeper",
+        "when": "onjoin",
+        "result": "deny"
+    }
+]
