@@ -1,0 +1,18 @@
+filename = 'TwilightJAPPAPack-1.21.1-1.2.0.zip'
+name = 'Twilight Forest: JAPPA Pack (official addon)'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Twilight JAPPA Pack - 1.21.1 - 1.2.0'
+
+[download]
+hash = '7d50a29e76f72b78c9b007c95981ac4ce0779141'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6472746
+project-id = 885865

@@ -1,0 +1,31 @@
+filename = 'underground_village-neoforge-1.21.1-2.0.jar'
+name = 'Underground Villages, Stoneholm (Fabric/Forge/NeoForge)'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [
+    '1.21.1-Snapshot',
+    '1.21.1',
+    '1.21.2-Snapshot',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4-Snapshot',
+    '1.21.4',
+    '1.21.5-Snapshot',
+    '1.21.5'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'underground_village-neoforge-1.21.1-2.0.jar'
+
+[download]
+hash = '53e65e6e0be47e7ee23e5d52535a595b440a88d3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8172510
+project-id = 1123746
+
+[[x-prismlauncher-dependencies]]
+addonId = '1150683'
+type = 'REQUIRED'

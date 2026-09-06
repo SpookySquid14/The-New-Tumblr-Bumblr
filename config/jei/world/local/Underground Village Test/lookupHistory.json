@@ -1,0 +1,4 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"complicated_bees:comb","components":"{\"complicated_bees:comb_type\":\"complicated_bees:rocky\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

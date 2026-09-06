@@ -450,11 +450,11 @@ hash = "d44a28ad5ba29bd441c06aa30938bc6ccac38d844a7517a9c965c99b67657abd"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "ebfe4bffc7f4712648fa95486315b50220e13a639931956f1bb4abd40fabf2d0"
+hash = "c265d67a17152768132b465958ad4c0f3cf5ebff3475e3020eda0dcdc3f2dea1"
 
 [[files]]
 file = "config/apotheosis/name_generation.cfg"
-hash = "41aa60f7f880f6d7798862e5efd4bb413f69bffa4f0c11ea54344cdfbb0cb392"
+hash = "899f1a7adeb11c4fe176280ec7af8cc1a04326730590a18b7e6474c04e06b177"
 
 [[files]]
 file = "config/apothic_spawners.cfg"
@@ -491,6 +491,10 @@ hash = "9f136b36f13fb0f7d0de277ecf6d933914c7dcc3f646136cd09a68e904659109"
 [[files]]
 file = "config/better-advanced-tooltips-client.toml"
 hash = "167486d8ac09ab9959c9b98c97c169365eaa9e5be0488b9ff8e6a04695d456e0"
+
+[[files]]
+file = "config/better_lib/common.json"
+hash = "beb6fe58c56f2e0179c9738228260e6bcaba754b1effb5a83b41d82e66611cd4"
 
 [[files]]
 file = "config/better_mob_combat_reimagined-client.toml"
@@ -663,6 +667,10 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "config/chefsdelight-common.toml"
 hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
+
+[[files]]
+file = "config/cobblegengalore-common.toml"
+hash = "84f5307e83a8969e9a634351af681d2b3223d54241b01b5310a036123090cbcb"
 
 [[files]]
 file = "config/collective.json5"
@@ -1017,6 +1025,14 @@ file = "config/cristellib/cataclysm/structure_toggle_config.json5"
 hash = "44b14269e2f7628382cf11744ebd736a124c9c04d51df208aa1c16490e674e91"
 
 [[files]]
+file = "config/cristellib/darkerdepths/structure_placement_config.json5"
+hash = "660883e6b8fc062472b05687847c82512eb273be2865e735365f002448834a73"
+
+[[files]]
+file = "config/cristellib/darkerdepths/structure_toggle_config.json5"
+hash = "5acdaad080317016d2ed7f09e65bdb8610964f866554ebd2d077def1972bafed"
+
+[[files]]
 file = "config/cristellib/deeperdarker/structure_placement_config.json5"
 hash = "75856312be02a835dd931bbed09a279fa5c232ef4226695908b45fd211335f7e"
 
@@ -1245,6 +1261,14 @@ file = "config/cristellib/skyvillages/structure_toggle_config.json5"
 hash = "d333520c5937f577ed2b7e788a51cfe8543fc391b8a074baaa0563aad646c649"
 
 [[files]]
+file = "config/cristellib/stoneholm/structure_placement_config.json5"
+hash = "b0427439b1a43a1f113c6a1ffa6922380027b1a281a3229fd9062995ad2296ab"
+
+[[files]]
+file = "config/cristellib/stoneholm/structure_toggle_config.json5"
+hash = "001ceb49015038f479814e0e0529b7ae9bb18f998db8341cff94faa73c1476fa"
+
+[[files]]
 file = "config/cristellib/supplementaries/structure_placement_config.json5"
 hash = "5bf7dd3121a172ab0209680d384a08008d5a2469f59e40178c8db110c5ce52f0"
 
@@ -1269,12 +1293,36 @@ file = "config/cristellib/terralith/structure_toggle_config.json5"
 hash = "b2b1510673394f1558f80f11c479a7619414a91691139a5cc43d5e3b3d233da1"
 
 [[files]]
+file = "config/cristellib/twilightforest/structure_placement_config.json5"
+hash = "28390adba5a83375b1c16f3a02d68fb5b566bf84d1ac53571591c18c419fa24e"
+
+[[files]]
+file = "config/cristellib/twilightforest/structure_toggle_config.json5"
+hash = "27d44d52925eeee68dc6af594f45b75e748516073954281eab7a7df4c348be92"
+
+[[files]]
 file = "config/cristellib/underground_rooms/structure_placement_config.json5"
 hash = "fe0d5ec18a7859bcdf412043deb072af60527ed4257cf501958d7cc916dc1572"
 
 [[files]]
 file = "config/cristellib/underground_rooms/structure_toggle_config.json5"
 hash = "f2b17a8053e4ed539381e8626373424b4267b7716012843c81ec314a351bf99e"
+
+[[files]]
+file = "config/cristellib/underground_village/structure_placement_config.json5"
+hash = "76d8c503373e231e5303f8a890b88ad0ccaed3211757bff258b3ddb813a543ac"
+
+[[files]]
+file = "config/cristellib/underground_village/structure_toggle_config.json5"
+hash = "afaa6437dfd7994e5b6cfccd5ad4256518e4f4bfb784787a8ab2c6bbaa685146"
+
+[[files]]
+file = "config/cristellib/underwater_village/structure_placement_config.json5"
+hash = "4ca4f3aeb540d87349494199426e1b9534bcb6b2a49ba12568aa57b605d9f3b0"
+
+[[files]]
+file = "config/cristellib/underwater_village/structure_toggle_config.json5"
+hash = "24ea313081f8c39e2e8df8e82d22f0370df828fd295ac056e49d0c626ef63979"
 
 [[files]]
 file = "config/cristellib/vampirism/structure_placement_config.json5"
@@ -1303,6 +1351,10 @@ hash = "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674"
 [[files]]
 file = "config/curios-server.toml"
 hash = "3c34cf9f7918c6a9ec15b14a87aa4570a751c1688f8ac01cb2e9acfb9392a734"
+
+[[files]]
+file = "config/darkerdepths-common.toml"
+hash = "0c7d9cf802b24ba09b139a3d2e154daaafc5b2685c3b97b3140adea2fcca1f2e"
 
 [[files]]
 file = "config/deeperdarker-common.toml"
@@ -1589,6 +1641,10 @@ file = "config/forgeendertech/Biomes/enderscape$corrupt_barrens.cfg"
 hash = "595921b2eac251cf76eae392119ed8bd9b2876434a19b0e34b806f48c3accfb2"
 
 [[files]]
+file = "config/forgeendertech/Biomes/enderscape$magnia_crags.cfg"
+hash = "992ba58865c293196bb1b3e5c2806e264b7f17ce67c4afbbe9e2d461f45bf414"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$beach.cfg"
 hash = "9984ef4b350b9fa5d8be90a48f76b46fad41f03d3585632d64126848dc3b5e87"
 
@@ -1637,6 +1693,10 @@ file = "config/forgeendertech/Biomes/minecraft$savanna.cfg"
 hash = "ad70da99a2fee045a8d3648c0b86d7f8fc6897346c789adc8b60ec8371cb84c5"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$snowy_beach.cfg"
+hash = "ff340941e2b3ae1eafdeb4978b507a28fd3e3e4f679c9f91cd8e0fd3f57baf13"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$snowy_plains.cfg"
 hash = "5b7eb4d0b3154e2ef034d471caa776204214c4d06f1f0bc90d72d9e8e77a3c14"
 
@@ -1661,6 +1721,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$dry_bushland.cfg"
 hash = "9a6673e034f72fe913d90a4325a3131d323e303c3f3a3a7f75ba2eca38cd5388"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$frozen_tundra.cfg"
+hash = "18365d2840258c9604fdf16bb8689c59d462a69abdc1b5257b1c1b613aceec1b"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$golden_boreal_taiga.cfg"
 hash = "132e324ff13ade84e15b09ac856dfe8066ea5ab73a75df4b77bc49863030c64d"
 
@@ -1675,6 +1739,10 @@ hash = "37604a8bc32c472adc8d097de63e4da87e8ae013d85b9dc79e39c16a19fd378a"
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$highland_fields.cfg"
 hash = "a398202541deab9df1b9b67e439307485c9343386c3f81f6e2e594040c6f4e51"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$magnolia_woodland.cfg"
+hash = "a439a53f18e476554f6b9e7e7cfb1130fed3fc7fdc7e8cd81b17d0cf6562651a"
 
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$maple_forest.cfg"
@@ -1693,6 +1761,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$old_growth_golden_boreal
 hash = "26c83cef404a1e72283c616372a6117bf2e5754bf37c4d1abcf8459aab5782a7"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$poppy_fields.cfg"
+hash = "20a3191a5bc0cd04730309cbb4ea43fb929bff119a3b67ecd84fec175e85fa99"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$pumpkin_fields.cfg"
 hash = "a71d8bc3cdc14b58abe64813b3aa7d14ce3ea1a578e5a498d960511374871620"
 
@@ -1703,6 +1775,10 @@ hash = "9003cf6435be1effc08c2ab54fdc1753b122eee67d8b249d3d41b08c30c9a50e"
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$sparse_rainforest.cfg"
 hash = "9633fb9fdc8bb537a17d1882b51e8088db310e78bfa7ee15aac29116d3928d54"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$sparse_redwoods.cfg"
+hash = "31d8745e19cdf130c2228cc43cf0bff8f45c7f0fc87596d1ac92fefaee0b39ff"
 
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$spires.cfg"
@@ -1753,8 +1829,16 @@ file = "config/forgeendertech/Biomes/terralith$lush_desert.cfg"
 hash = "74a3ee4eebbc0d5c3c127166e7c9539f67a49f843af5e039a3796f20e87881e9"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$red_oasis.cfg"
+hash = "e807f0dc54970e3cce520ef59a9ded1a058cfefee61c36d6624ce72243718610"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$snowy_shield.cfg"
 hash = "6fea2986c48b4c953e6529d7345b0afaab386a523b271f7ba3446e4ef520b895"
+
+[[files]]
+file = "config/forgeendertech/Biomes/terralith$stony_spires.cfg"
+hash = "17726e1f2fa2979eb056a8d116f63e599dc58fcf9ea31556425eeebb0cc2d7be"
 
 [[files]]
 file = "config/forgeendertech/Biomes/terralith$tropical_jungle.cfg"
@@ -1782,7 +1866,7 @@ hash = "cd72582691e5077a591a7aec9e7ea55f8952aaeaa5c66475660fb4bbf14b4c60"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "672ea1b312ccb26e68ab1c4251cc45425232b97b2f9d6004bd78e9e517c61c18"
+hash = "f043fa91806ad001f9adf9e63ecb77bd0ea2b81735b27c83ba7341fe51834106"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2094,7 +2178,7 @@ hash = "6b03f588d0bee8356f40f9c8c92be34fb67f0f307df7cd9ffbb527ed22d86e38"
 
 [[files]]
 file = "config/irons_spellbooks-client.toml"
-hash = "0eb35dca70dcf2a8b9184fe378be5b129ff3ee1fd755edb48e133aa9cfabd794"
+hash = "8b44815565d688d8a39cc395e7405039e6be74c50e8625c91edf22bc8d2d7bc5"
 
 [[files]]
 file = "config/irons_spellbooks-server.toml"
@@ -2126,11 +2210,11 @@ hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "0a7e7580c53869f2d4954a33acc0642520eeb6b8981e53b5f06fca699c7bd323"
+hash = "7d38f3a2b5320d1d82d68c07ba7ed01c101060365053c220debce97122f5b0e7"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "c57c30bfc76f967903fe9312f03444a6053d5a125aacb69504faace86ed7afb6"
+hash = "364d282561d6288b24b30c6cd40cec9c4572b6ea500adee0df464989786733c5"
 
 [[files]]
 file = "config/jeed-client.toml"
@@ -2146,11 +2230,11 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "3b2abfdb5464f0a2823fd370ba5a76b578a7271403c8e8eb2c2a7db72778ab79"
+hash = "a04947f94204f1510a0072e23ba2f8a33790bd239d662a8f5e44ee8d166f67f8"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
-hash = "caff22fac8f5af6df5cfec2311c7c615dcaa99b2730a757c99bd60df1fdfba63"
+hash = "4cfc17705ac9aff4169bd8532fb684566306fb2fa9f06b77332b34cc820dd6a4"
 
 [[files]]
 file = "config/jei/jei-client.ini"
@@ -2170,7 +2254,7 @@ hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "f22222052a5994eb3481499a3934aca8573c8f6d0d609cc696fed4f66f7b2466"
+hash = "d9f24b864b62fc83f01df3f4d0ad1387a8596498942536b4f662ec076a35c4b2"
 
 [[files]]
 file = "config/jei/world/local/Aqua Test/lookupHistory.json"
@@ -2179,6 +2263,10 @@ hash = "0083dd6adbbb6b256b59d1a0d3b489f45cdac1e6a8b087f55ace1c96b31b0506"
 [[files]]
 file = "config/jei/world/local/Boss Test/lookupHistory.json"
 hash = "3d0c09c02f9a53aa0b473ed4076349f876c8bdacc0a9ea4088c86f1362cab42b"
+
+[[files]]
+file = "config/jei/world/local/Cobblegen Test/lookupHistory.json"
+hash = "b0ca5de21648342191dacde5a696bc9f5d76a70c3d1d09529ff608186975c4eb"
 
 [[files]]
 file = "config/jei/world/local/Create Addon Test 2/lookupHistory.json"
@@ -2289,6 +2377,14 @@ file = "config/jei/world/local/Test 1/lookupHistory.json"
 hash = "7363bce412272afcf91a7da11e2b0f4ef1a722e9a085a937e2183396413f82e7"
 
 [[files]]
+file = "config/jei/world/local/Twilight Test 2/lookupHistory.json"
+hash = "e7cda1ddab4423aa5b611f76d8d7d7c2388561741bfac4136332e3aee45ff5c2"
+
+[[files]]
+file = "config/jei/world/local/Underground Village Test/lookupHistory.json"
+hash = "d31b74f991ac9a10c04350206d8330ae3f24a49c4b363548faee20d44ff8b1ad"
+
+[[files]]
 file = "config/jei/world/local/Unified Test/lookupHistory.json"
 hash = "680ff352a625644ec14366899cca256306bfda18253aa5fc6fb72b9daad23af8"
 
@@ -2381,8 +2477,28 @@ file = "config/mcgcore/progress/blr-1-21-1-minecraft-saves-nether-test-5-3f18cd1
 hash = "bbfcc355bd7bfe74a92eeadb0d24e1a2abf576c6f0f5e376e95e30194ab0524f"
 
 [[files]]
+file = "config/mcgcore/progress/blr-1-21-1-minecraft-saves-twilight-test-b9e09c51.json"
+hash = "09fbfb88441150d7e176c67ac82e0ecc391df38d23e665051bbd00920d4a5670"
+
+[[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-boss-test-46cb3114.json"
 hash = "ded8e41aaaa75d8e2d22a93650c088002890adfbcd66b7876c698803dfb0ffae"
+
+[[files]]
+file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-gen-test-2-b904a165.json"
+hash = "09fbfb88441150d7e176c67ac82e0ecc391df38d23e665051bbd00920d4a5670"
+
+[[files]]
+file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-gen-test-3-b904a166.json"
+hash = "09fbfb88441150d7e176c67ac82e0ecc391df38d23e665051bbd00920d4a5670"
+
+[[files]]
+file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-gen-test-4-b904a167.json"
+hash = "09fbfb88441150d7e176c67ac82e0ecc391df38d23e665051bbd00920d4a5670"
+
+[[files]]
+file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-gen-test-5-b904a168.json"
+hash = "f9701eea2c16d1a95ac0b60f11688d2bff2a1e395ad1a3de6f87893fed5eb21c"
 
 [[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-quest-test-3aa51781.json"
@@ -2395,6 +2511,10 @@ hash = "d351a1ea6706b3d02359858f4448e0fe96d77e1775a9513721c0209b21fe1771"
 [[files]]
 file = "config/mcgcore/progress/inecraft-saves-integrated-cataclysm-test-83632d2f.json"
 hash = "dbc99895beb719ed5f2554592c081d367969817b8670c9ce1a640cebd7afc50d"
+
+[[files]]
+file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-cobblegen-test-bcbff078.json"
+hash = "de7a4a2d658110bfe747ee20abf3251cf4b0ed312cfcd86b3fcfce5bdc26caf7"
 
 [[files]]
 file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-ftb-quest-test-80f6d56d.json"
@@ -2425,12 +2545,24 @@ file = "config/mcgcore/progress/mblr-1-21-1-minecraft-saves-quest-test-4-25bd3f5
 hash = "217a46ca086590d603b2dcadc68fae299d2020d9e23db8e71d4657547e57409f"
 
 [[files]]
+file = "config/mcgcore/progress/minecraft-saves-underground-village-test-9a121478.json"
+hash = "9e2e06c59810e5728845da023421f49ad45a07fe7808cf236ac4675832bb5bf5"
+
+[[files]]
 file = "config/mcgcore/progress/r-1-21-1-minecraft-saves-integrated-test-a1b73fae.json"
 hash = "8005b9009bde6c7752c70131b7fbb94efca3284d82758e1c10405f2b3f3ac3dd"
 
 [[files]]
+file = "config/mcgcore/progress/r-1-21-1-minecraft-saves-twilight-test-2-c42ad023.json"
+hash = "372e63e51b5b671fcf055c388152df79cd069093c41b17566359ee4fed0d85ff"
+
+[[files]]
 file = "config/mcgcore/progress/r-bumblr-1-21-1-minecraft-saves-dog-test-878ab3a7.json"
 hash = "e3727b8db51e918e92c16ccc9960d71f0b680b872e80604e91592dcc02be697f"
+
+[[files]]
+file = "config/mcgcore/progress/r-bumblr-1-21-1-minecraft-saves-gen-test-ba21d613.json"
+hash = "676d225ced48d920c0daa440b90accfd2f3ff0acb21047f89cf98e8d08c9b157"
 
 [[files]]
 file = "config/mcgcore/progress/r-bumblr-1-21-1-minecraft-saves-lag-test-e1fcdd11.json"
@@ -2519,6 +2651,14 @@ hash = "8b0cc3d54025bbbf4a551a83d8b59147e788b2273c2fcf6ba825e4927ad5c35d"
 [[files]]
 file = "config/naturalist-server.toml"
 hash = "b0a11f9fa0636e2852345241f28d8992f19c00b6103979d0c87ec17fc8efce14"
+
+[[files]]
+file = "config/naturescompass-client.toml"
+hash = "52155f5707537443156b47499d98b96dcdbf48ad0ed4ce8cfdf53cef7ffb8a9c"
+
+[[files]]
+file = "config/naturescompass-common.toml"
+hash = "e5bdd793b356a733dbb217de068c31fc8b06f43e36dd3db405a85178c0ef6a05"
 
 [[files]]
 file = "config/neoforge-client.toml"
@@ -2654,15 +2794,15 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "676b8494492476f59b2d6ba32987ad32a6afc98a77d5bcc8cb590d7484fd86cf"
+hash = "c9c8dc8857d8fddbda56e4fbcc68c5d6197501d4cd1306c2a0f67b76bdc6c09a"
 
 [[files]]
 file = "config/packed_packs/profiles/datapacks/Tumblr Bumblr.profile.json"
-hash = "98f76f0a5dab055c19ff37d22109272bae613d6229cea6dbb98868d495200d44"
+hash = "a06dbdee2717b28fd89e87bbc2d1a499d9b672ed78b43032f5326550ebe16057"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Tumblr Bumblr.profile.json"
-hash = "591708b2d650db408bbf61a0d827cfa1c5c7360dc1555762321c804326d8ace6"
+hash = "5716eaf59fff59c9222453c76a3ca5ebbf284df228bb508aa0eb9464e435a1d9"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -2869,6 +3009,10 @@ file = "config/relics.yaml"
 hash = "4411078ac8d2107482e0f717576b1d9e1fa6c0938d11135a2541f4d8c2518278"
 
 [[files]]
+file = "config/reliquified_twilight_forest/general.yaml"
+hash = "30d073baf7960f541f89b3936b0cddc5e7f4b76407e2a44b832659e6c2bcaf0d"
+
+[[files]]
 file = "config/resourceful-config-web.json"
 hash = "e00ca7dee6dfef16d016cc65d21f11ea5a0c39b3ba931a32afc52023d66061b8"
 
@@ -3070,7 +3214,7 @@ hash = "c8c24b97720a02ec698726cac1147910dce5b685ce1b36c5050d442cdca4a4e7"
 
 [[files]]
 file = "config/structurify.json"
-hash = "39a31e397d53daa586bde3beae71c6486b023836284eed27abc4b4a2dc95466e"
+hash = "8857780ee3e04fc9ced0caee0b93be42d3ae9c63f95d9f641056787ef96f77b4"
 
 [[files]]
 file = "config/structurify/structurify_backup_2026-08-31_10-33-22.json"
@@ -3083,6 +3227,14 @@ hash = "4d05a8ccb7b9a2d4858662e830a4a72cf2b70b3a5f06edf449571d5bce61b0dd"
 [[files]]
 file = "config/structurify/structurify_backup_2026-09-03_13-01-31.json"
 hash = "2f8673e944a42a87492470fabd18403f1e022dbf50ff5d646fc5b5dd75b50fc0"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-09-05_20-50-18.json"
+hash = "39a31e397d53daa586bde3beae71c6486b023836284eed27abc4b4a2dc95466e"
+
+[[files]]
+file = "config/structurify/structurify_backup_2026-09-05_20-50-27.json"
+hash = "7a0a459db5db239b53ebabe9c27c3b942bc6bc2110769c4a53f8fe4295611da5"
 
 [[files]]
 file = "config/structurize-client.toml"
@@ -3175,6 +3327,18 @@ hash = "3f05a62ecf2b307ec62e5bf24f645121685bde1bb8ceae1c0fc375a121dac8c8"
 [[files]]
 file = "config/trmt.json"
 hash = "dc616de5844f627b0196f517f4ba92a9a4866a9c2d84a9ca97f4291aa90ac731"
+
+[[files]]
+file = "config/twilightforest-client.toml"
+hash = "22db0a24f98c30f6ddd3a5f4a42c75354992d403bcecfa110b9a2931c53159fc"
+
+[[files]]
+file = "config/twilightforest-common.toml"
+hash = "11cdd50ade194ded67a72c40c95f810ce166760c02d87e9c9deae1ede4ae8f49"
+
+[[files]]
+file = "config/underground_village/common.json"
+hash = "86050d2a21ff25024ab472607975ccfdecbc27cd05666f3654c8944793579492"
 
 [[files]]
 file = "config/vampiricageing-client.toml"
@@ -4753,6 +4917,10 @@ file = "kubejs/server_scripts/recipe_changes/tide_recipes.js"
 hash = "649903bfc156c8f69101bc9eddd56af4abe306ecb8d2c6cfbfb611b94f2fc750"
 
 [[files]]
+file = "kubejs/server_scripts/recipe_changes/waystones_recipes.js"
+hash = "b4cb5bd629e841923f6ad31b7eb243ca11585f680e3b208288486c554607fb87"
+
+[[files]]
 file = "kubejs/server_scripts/tags/curios.js"
 hash = "224bd6dce2b4c13b549d21f95be750870303e6c1d5b37d1fea02d07e3b73f4b2"
 
@@ -4932,6 +5100,11 @@ hash = "6035d356d0e0a59a9341cc5cd5761477dee7574495e8c44c32d53fc0b0d2debb"
 metafile = true
 
 [[files]]
+file = "mods/better-library.pw.toml"
+hash = "8e0e96b58c49bfcb148bcddfde248a154c73d8115ebb1f2dd70cd194fef6a07b"
+metafile = true
+
+[[files]]
 file = "mods/better-mob-combat-reimagined.pw.toml"
 hash = "b71381cd378c6704a5db129beea5dce3148b88f7593c06d986433c254ff35d03"
 metafile = true
@@ -5029,6 +5202,11 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "6e673846ccd4dc62480a4fbda7a512b073d3da5148d4c1b02123b3b3aa4a81cb"
+metafile = true
+
+[[files]]
+file = "mods/cobblegen-galore.pw.toml"
+hash = "f2abd5d3f99988ad053e6abfbefc89070066e6671e08744c18df179608e82790"
 metafile = true
 
 [[files]]
@@ -5219,6 +5397,11 @@ metafile = true
 [[files]]
 file = "mods/cynosure.pw.toml"
 hash = "d8fc327fe131b89f258828fbde4430f472166285f17c34455f874b1063408e13"
+metafile = true
+
+[[files]]
+file = "mods/darker-depths.pw.toml"
+hash = "ec9a69513e3466749c7548f2615c854598d250a81ccf9780a84dd59c47e9f403"
 metafile = true
 
 [[files]]
@@ -5842,6 +6025,11 @@ hash = "ed837c317efbd0ec10d2efa324126d0da3a324942c59ea04531787b6df6e99c9"
 metafile = true
 
 [[files]]
+file = "mods/mowzies-cataclysm.pw.toml"
+hash = "7fe2e516ca3b1fdc1fcf5b6d28ff1b3ea62ee4d42744d928b9625fe762f7bc30"
+metafile = true
+
+[[files]]
 file = "mods/mowzies-mobs.pw.toml"
 hash = "126397c4f3fd5529137565d30d8686d13f20e0155d652ca58a9fe0a928409d22"
 metafile = true
@@ -5869,6 +6057,11 @@ metafile = true
 [[files]]
 file = "mods/naturalist.pw.toml"
 hash = "a2f6d68f3e2f5f84b24324d6695dd23459a66e0261baccdd2d2e852dc852c16e"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "f07bb5834c894f3a9ad22c66fcf2c192faa2feab82d3ef7dc1ac128512688922"
 metafile = true
 
 [[files]]
@@ -6074,6 +6267,11 @@ metafile = true
 [[files]]
 file = "mods/reliquified-l-ender-s-cataclysm.pw.toml"
 hash = "771587b4ca6bff43f8befd9ebc1b525dd5978ad574f76d34a397c2e820eb4805"
+metafile = true
+
+[[files]]
+file = "mods/reliquified-twilight-forest.pw.toml"
+hash = "cca0d3bb3f6c7e0f27b6bcb5481458b699a8df98258b83706ec5717d85d328c6"
 metafile = true
 
 [[files]]
@@ -6307,6 +6505,11 @@ hash = "046cf298ea6546f70de3b0224808ae20bdd47c7c54434848b981b33f023d30a4"
 metafile = true
 
 [[files]]
+file = "mods/the-twilight-forest.pw.toml"
+hash = "adc2019e4cd2275195ac31c07e142f2497e2d4a3deb30df5bbfb3a962af861a1"
+metafile = true
+
+[[files]]
 file = "mods/thief.pw.toml"
 hash = "8450785dfa7867905c3d386e865ea8abb196cb2d4ca1b0e808c68c9305a7f207"
 metafile = true
@@ -6339,6 +6542,21 @@ metafile = true
 [[files]]
 file = "mods/trimmed.pw.toml"
 hash = "81445b5defda5333b21b224f96389399f0c5ee362d2def981ccb6951aa383202"
+metafile = true
+
+[[files]]
+file = "mods/underground-rivers.pw.toml"
+hash = "830c0112c0d8c2a945bd98e8db1980dd6f0257d1b315fda48f51bd60529e3f5c"
+metafile = true
+
+[[files]]
+file = "mods/underground-villages-stoneholm.pw.toml"
+hash = "a776b5421fbe74c3cb0fddab1e2657700112585e41e91fe761088a2a1c22aa6a"
+metafile = true
+
+[[files]]
+file = "mods/underwater-village.pw.toml"
+hash = "d5f521d5fe2ee33fa7ef83fc7c1b43bfc5319351aa9ee465c92157bf82e51784"
 metafile = true
 
 [[files]]
@@ -6517,6 +6735,11 @@ hash = "bcb85b8f3c6355174a66414bf851adac8bb6ad65e9bc8b1e3d3c86f8981f4ab0"
 metafile = true
 
 [[files]]
+file = "resourcepacks/.index/twilight-forest-jappa-pack.pw.toml"
+hash = "e704e40586927ef22e054a8ce0faf02be9e3c2fe1f53e4ab422867191736e5ec"
+metafile = true
+
+[[files]]
 file = "resourcepacks/.index/vampire-hunters-and-crossbows-texture-pack-by.pw.toml"
 hash = "16a08dab5e7497d2a4a24903390aac8b05cd90a13acbb5a504b2e7c175f75da1"
 metafile = true
@@ -6557,6 +6780,10 @@ hash = "7daab72cf603a079b70b4c84a42647ab7dfb3dc68aada2aa33bee96cbbf40052"
 [[files]]
 file = "resourcepacks/Slightly-Improved-Font-1.1.5.zip"
 hash = "b991537dd86f7dee818d8d059b8beb21d17d606ae797865e0c71b8cc9918c1de"
+
+[[files]]
+file = "resourcepacks/TwilightJAPPAPack-1.21.1-1.2.0.zip"
+hash = "8bacc800970d14b8a0f24e405c3143441620de20dba701a5d5cdec7673109050"
 
 [[files]]
 file = "resourcepacks/Two-Moons-LexLim-1.21-1.21.4-v1.0.0-Resource-Pack.zip"

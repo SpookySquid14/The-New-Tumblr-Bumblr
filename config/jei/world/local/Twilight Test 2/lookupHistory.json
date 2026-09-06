@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"ae2:ender_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:ender_pearl"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

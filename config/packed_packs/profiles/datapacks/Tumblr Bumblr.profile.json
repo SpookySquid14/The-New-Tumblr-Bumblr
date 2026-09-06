@@ -3,7 +3,8 @@
   "name": "Tumblr Bumblr",
   "overrides": {},
   "packIds": [
-    "file/TumblrBumblr",
+    "create_dragons_plus:runtime",
+    "t_and_t:resources/t_and_t_waystones_patch",
     "netherexp:nether_worldgen_overhaul",
     "railways:phantom_track_override",
     "netherexp:nether_mosaic_biome_source",

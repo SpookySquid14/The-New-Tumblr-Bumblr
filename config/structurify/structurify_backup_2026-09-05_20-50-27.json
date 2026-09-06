@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.34",
-  "config_datetime": "2026-09-05_20-50-27",
+  "config_datetime": "2026-09-05_20-50-18",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -32,10 +32,6 @@
   "structure_sets": [
     {
       "name": "underground_village:underground_village",
-      "frequency": 0.3
-    },
-    {
-      "name": "underground_village:underwater_village",
       "frequency": 0.3
     }
   ],

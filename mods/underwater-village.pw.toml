@@ -1,0 +1,18 @@
+filename = 'underwater_village-1.0.2-neoforge-1.21.1.jar'
+name = 'Underwater Village - Oceanic Structures'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Underwater Village - MC 1.21.1 - 1.0.2'
+
+[download]
+hash = '0adcea413b73bad85a5dbb7f18e80576378817e2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6410823
+project-id = 1228716
