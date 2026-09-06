@@ -466,7 +466,7 @@ hash = "c265d67a17152768132b465958ad4c0f3cf5ebff3475e3020eda0dcdc3f2dea1"
 
 [[files]]
 file = "config/apotheosis/name_generation.cfg"
-hash = "b0fc1b20498f52a62e6dfc674f8df5223cccf4e211a1459e272543eba8d97329"
+hash = "c56b8ae91a5ce768df646c2da754aef45557e13fffbccb42961e77f4975c384e"
 
 [[files]]
 file = "config/apothic_spawners.cfg"
@@ -653,6 +653,10 @@ file = "config/brewinandchewin-common.toml"
 hash = "cf7e8f3ae75a942e0c8b62f14fa68df3963b47c9c38895c2d7ba59c2bcb079ab"
 
 [[files]]
+file = "config/c2me.toml"
+hash = "342d9f4d5236072a5dcf8e64b82d600e1860ac18d02e8edfad76dbdb254ddc9f"
+
+[[files]]
 file = "config/carryon-client.toml"
 hash = "c3cbcb17ade590daf230373d51457732bc8d9dd1039f7947b6bf564e38df1d9c"
 
@@ -687,6 +691,10 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "config/chefsdelight-common.toml"
 hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
+
+[[files]]
+file = "config/cinematic_respawn.properties"
+hash = "c69e38d0ed635fdf774f6c56ba088b176f00fa956272ea0acd592036373f9314"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -751,6 +759,14 @@ hash = "8c9b8aba6b9c5d12dddb3d432a333e8e01386ba5356bd5fb3ff041476cce3b77"
 [[files]]
 file = "config/connector.json"
 hash = "67bee06b2b321ed25e0d4e9b5bac7ab76c8ae76442de6caf11f463ce2ae1ac5e"
+
+[[files]]
+file = "config/constructionstick-startup.toml"
+hash = "1d5b09c0378ea5f412b1ca7f43d6c415c8dc1aeadd2a49cb3bd175e1600e7343"
+
+[[files]]
+file = "config/constructionwand-client.toml"
+hash = "3229ffc6e9a65d8398fdfaa1c82c41c33d4f898a997629d31d198489358b388a"
 
 [[files]]
 file = "config/copycats-client.toml"
@@ -1145,6 +1161,14 @@ file = "config/cristellib/hauntedharvest/structure_toggle_config.json5"
 hash = "2b8c1850d24922a75580fc59119496a6278beaa7b4439bda571d042144e462fe"
 
 [[files]]
+file = "config/cristellib/iceandfire/structure_placement_config.json5"
+hash = "01ea6dd87c5c13335669640e7983d5a80abf6fdb820b8989e8208c3f53c90cfb"
+
+[[files]]
+file = "config/cristellib/iceandfire/structure_toggle_config.json5"
+hash = "c4bad34549f305bb04e594f28281b160e5572579c71e87dbcff345af61e82c0f"
+
+[[files]]
 file = "config/cristellib/idas/structure_placement_config.json5"
 hash = "956b78cd4554c9d71745a4b67281e6bd1f402f14deffe7ed7f9d3b455b2410ec"
 
@@ -1501,6 +1525,10 @@ file = "config/enhancedcelestials2core-mixins.properties"
 hash = "188f59de0598973abd6255886c285da7191829e67292fb959fc1a83a45ff388f"
 
 [[files]]
+file = "config/entity_model_features.json"
+hash = "c633e3370aa256a71ab45aec68683a2ec4b29b6c5c2dfd430f9788a854ccf920"
+
+[[files]]
 file = "config/entity_texture_features.json"
 hash = "bd66edf9d1a72cd717bbe9b17b41ffd16963b089493e5ddae3d3ad69153105ba"
 
@@ -1661,6 +1689,10 @@ file = "config/forgeendertech/Biomes/ae2$spatial_storage.cfg"
 hash = "acca102608284cb654149d94e04702652835c54c73c94eb993110de64b2ab294"
 
 [[files]]
+file = "config/forgeendertech/Biomes/darkerdepths$molten_cavern.cfg"
+hash = "a3bf9c5373184005dea15629f5838ceadd4d50d47ad4581c2ad11e0fe710b8b5"
+
+[[files]]
 file = "config/forgeendertech/Biomes/enderscape$corrupt_barrens.cfg"
 hash = "595921b2eac251cf76eae392119ed8bd9b2876434a19b0e34b806f48c3accfb2"
 
@@ -1725,12 +1757,20 @@ file = "config/forgeendertech/Biomes/minecraft$snowy_plains.cfg"
 hash = "5b7eb4d0b3154e2ef034d471caa776204214c4d06f1f0bc90d72d9e8e77a3c14"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$windswept_forest.cfg"
+hash = "26292e15412193f0a6aa8e667ab44c05f9c3551abd606cdd315178dbeb44a4f9"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$wooded_badlands.cfg"
 hash = "c2ddb98e408a84edce859335375818c4ebf9761bfc59c51075cdbd961153635a"
 
 [[files]]
 file = "config/forgeendertech/Biomes/quark$glimmering_weald.cfg"
 hash = "1c465dfb4288265c028acccd4e717005e613230ce04dc8b064a748020a0a9827"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$ashen_woodland.cfg"
+hash = "d68c0cff557282291c403ea501c7f9932aadfd7d63b9f0203e197a5a59c983a3"
 
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$barley_fields.cfg"
@@ -1898,7 +1938,7 @@ hash = "cd72582691e5077a591a7aec9e7ea55f8952aaeaa5c66475660fb4bbf14b4c60"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "3130e384708679d5c921dcf867703f1440896ed6e9911776a3f0025c71902a7a"
+hash = "4a3747d591ff6fb24e01cab293c081e941cdc96c78b891598937ac9b294dcb12"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2059,6 +2099,14 @@ hash = "71a66702bfae04794704c7da4cb4a245a96a4bb850b2d86dfa3d401408f593d9"
 [[files]]
 file = "config/hourglass-server.toml"
 hash = "c60920d889149815d066a71ea48c3bfa3b650019767017a6a20a7474f666e536"
+
+[[files]]
+file = "config/iceandfire/iaf-client.json"
+hash = "cb326e55a4a76c4741c031ce61b48f96b56dbc327792d457f4eb7894d6a0fad7"
+
+[[files]]
+file = "config/iceandfire/iaf-common.json"
+hash = "5ba0f45591f92a225037bc4df4b3948251345e50dfeaab5fbda4b87d7225aeaf"
 
 [[files]]
 file = "config/ichunutil/ichunutil-client.toml"
@@ -2242,11 +2290,11 @@ hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "7d38f3a2b5320d1d82d68c07ba7ed01c101060365053c220debce97122f5b0e7"
+hash = "9ba6a06cf55717dac8b3432dc0f9c922f19f1d5182c8e08e47b3d6d60675b495"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "364d282561d6288b24b30c6cd40cec9c4572b6ea500adee0df464989786733c5"
+hash = "df593bc807c89ca8dd4890ffe6a7eb2c2a41e28693af965eec42356ca961cdab"
 
 [[files]]
 file = "config/jeed-client.toml"
@@ -2262,7 +2310,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "6aa9cfd77e78b474c50a5b5faed84b56c4bd00718cf113c3a494a9cb19a0d6a6"
+hash = "3a5784793976b826d6ca2aa5f5c9112b291cfdb51e1e68b6fe87f416dd565a7d"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2286,7 +2334,7 @@ hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "d9f24b864b62fc83f01df3f4d0ad1387a8596498942536b4f662ec076a35c4b2"
+hash = "b926e660659e6ec7b980c990337e4dffbde5252b87209999796316ab5a8ffde5"
 
 [[files]]
 file = "config/jei/world/local/Aqua Test/lookupHistory.json"
@@ -2299,6 +2347,10 @@ hash = "55b5cdf84c702a4655954bbc366122c754571ea15fdd055735c7ae8f4c1b5a40"
 [[files]]
 file = "config/jei/world/local/Boss Test/lookupHistory.json"
 hash = "3d0c09c02f9a53aa0b473ed4076349f876c8bdacc0a9ea4088c86f1362cab42b"
+
+[[files]]
+file = "config/jei/world/local/C2ME Test/lookupHistory.json"
+hash = "5a3ef6f20b2d958cba3f415143bbb33a8f0aab276399e9d1f2394e5f19e835b3"
 
 [[files]]
 file = "config/jei/world/local/Cobblegen Test/lookupHistory.json"
@@ -2347,6 +2399,10 @@ hash = "fe4f512ac9590800c8cd1639af6be3f4f7bc441df1ce43eeb5171f4fa3799655"
 [[files]]
 file = "config/jei/world/local/Grave Test/lookupHistory.json"
 hash = "e97af9d629908eddb61cc99ab9a3eeb8b56faf474a6cebb362f75c7fc4ca3e1f"
+
+[[files]]
+file = "config/jei/world/local/IaF Test/lookupHistory.json"
+hash = "14bd5088ee8318543d8ac39ad79a23176d583bc755f562e850b9391febb382ef"
 
 [[files]]
 file = "config/jei/world/local/Integrated Cataclysm Test/lookupHistory.json"
@@ -2409,6 +2465,10 @@ file = "config/jei/world/local/Silent Silver Test/lookupHistory.json"
 hash = "96008b014a77db44de5c083cc81cc9204b25795e20a6795332d5135711a03da2"
 
 [[files]]
+file = "config/jei/world/local/Stick Test/lookupHistory.json"
+hash = "f72948c1b3c30f2c6982d50df8b5da017934bef63665d5ebb6625e97f118a3a4"
+
+[[files]]
 file = "config/jei/world/local/Test 1/lookupHistory.json"
 hash = "7363bce412272afcf91a7da11e2b0f4ef1a722e9a085a937e2183396413f82e7"
 
@@ -2439,6 +2499,10 @@ hash = "0521bdd88430d64c2e02663471e4952d88b643bdb8089a3195ea81c9d0c3a51c"
 [[files]]
 file = "config/jeresources-common.toml"
 hash = "6f411079b9ae2699015a6838623159d92c9eee0b52614b998abae4037f489fcd"
+
+[[files]]
+file = "config/jupiter.json"
+hash = "ac6415cb504a1cd8d129435e67e718b0f139613f378127f0f8f21ee61ca4ffe7"
 
 [[files]]
 file = "config/kritter.json5"
@@ -2525,6 +2589,10 @@ file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-boss-test-46cb3114
 hash = "ded8e41aaaa75d8e2d22a93650c088002890adfbcd66b7876c698803dfb0ffae"
 
 [[files]]
+file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-c2me-test-f1bc36ba.json"
+hash = "b277dee0568512c9983582e5c7794b81f2a34d510b8ef9ed76d9912752e12122"
+
+[[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-crawl-test-48410f5c.json"
 hash = "a3d590f5d9601ac9c8390dacb5320d716353ea84aea166943c651944a45815a5"
 
@@ -2547,6 +2615,10 @@ hash = "f9701eea2c16d1a95ac0b60f11688d2bff2a1e395ad1a3de6f87893fed5eb21c"
 [[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-quest-test-3aa51781.json"
 hash = "ce6b952be997b05d5be79629d7383a834bfd29a621dd85e5d827667a5eee3731"
+
+[[files]]
+file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-stick-test-d0b8ec93.json"
+hash = "8105d2dbe03093f87ed893f976749379f52b67e43137e7769b0a796a2c5d8ece"
 
 [[files]]
 file = "config/mcgcore/progress/ecraft-saves-hack-n-slashers-combat-test-102f75a7.json"
@@ -2609,6 +2681,10 @@ file = "config/mcgcore/progress/r-bumblr-1-21-1-minecraft-saves-gen-test-ba21d61
 hash = "676d225ced48d920c0daa440b90accfd2f3ff0acb21047f89cf98e8d08c9b157"
 
 [[files]]
+file = "config/mcgcore/progress/r-bumblr-1-21-1-minecraft-saves-iaf-test-720969f5.json"
+hash = "cfdb1daf230a0c62e5df95b5f92eacca44d6f258701f460540a9867df57051f8"
+
+[[files]]
 file = "config/mcgcore/progress/r-bumblr-1-21-1-minecraft-saves-lag-test-e1fcdd11.json"
 hash = "ff85b249242671baaada4b675e22b9b027b38e1c27c8127b3cf3e35b0a2e62ca"
 
@@ -2655,6 +2731,10 @@ hash = "71966bc6f963b429b0c5fd4529bd07951256934313a023f7a3478f85fff79b5d"
 [[files]]
 file = "config/moonlight-common.toml"
 hash = "ce17e22174f8d796e792c87dbe7c2cff8360686edfb59080adf905e26df144ea"
+
+[[files]]
+file = "config/moreculling.toml"
+hash = "fb014dfce3372af5a6c3957f4df4fecc9b12432b9bb22dd5b315b91692889304"
 
 [[files]]
 file = "config/moremekanismprocessing-client.toml"
@@ -2761,6 +2841,10 @@ file = "config/obscuria/aquamirae-common.toml"
 hash = "d27849b34a7e0ac1dd6ed69adeade44a686b46df849959c2ec976bb56a4d0c96"
 
 [[files]]
+file = "config/obscuria/aquamirae-early.json"
+hash = "48d7cb1ed8ff2224a17840d28c3ebddc47bd355d46df2ef1eba7778cfffcc125"
+
+[[files]]
 file = "config/obscuria/cache/aquamirae-keepsakes.json"
 hash = "1be1a2361ff9cef42c36b3c13f596110bf443552e080903ef3058401bbd66815"
 
@@ -2838,7 +2922,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "c9c8dc8857d8fddbda56e4fbcc68c5d6197501d4cd1306c2a0f67b76bdc6c09a"
+hash = "35ec330511a6d25b028c64561036f9cc5f5d41fa7d935e94038d3babeab1ced5"
 
 [[files]]
 file = "config/packed_packs/profiles/datapacks/Tumblr Bumblr.profile.json"
@@ -2846,7 +2930,7 @@ hash = "a06dbdee2717b28fd89e87bbc2d1a499d9b672ed78b43032f5326550ebe16057"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Tumblr Bumblr.profile.json"
-hash = "5716eaf59fff59c9222453c76a3ca5ebbf284df228bb508aa0eb9464e435a1d9"
+hash = "38db6f4c6b5dc4fbf58bf83fdaf24590a78006d21ad7523d379aff87c8ab352c"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -2938,7 +3022,7 @@ hash = "24d38298d6ad997920ad870679385c529518772193555ab41c7c75b254b95015"
 
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/death.json"
-hash = "6703dca8dc4e59e5ce1720545ca21c259d1e50b5bde97f42344ac16a80a0b417"
+hash = "668b5074df2a5e7cf622cfb0a83f86e3d4a3c97e91ffbc884bb3c11efb475a28"
 
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/eccentric_tome.json"
@@ -3046,7 +3130,7 @@ hash = "64ce01a8132ebfa472d96b3379bc2931e87d39af519b2e62d279ce95d95f416b"
 
 [[files]]
 file = "config/reliable_replacer/swapper.json"
-hash = "1b23173392c219c0d857a3f77ff918f0f26abdc3961bb447d65a6d7f54a4167e"
+hash = "96559948955b057dfd14ffbc4342ca82216a0fb75d1f0d066688b1dd93b895af"
 
 [[files]]
 file = "config/relics.yaml"
@@ -3405,8 +3489,12 @@ file = "config/vampiricageing-werewolfAgeing.toml"
 hash = "1a8709a58490ec5110a395a6c6c2caf30d0434f1d34db331e2da57d515f9731b"
 
 [[files]]
-file = "config/vampirism-balance.toml"
+file = "config/vampirism-balance-1.toml.bak"
 hash = "fa648896df60bb2ea45345b48a9dae66dfca2ec12de234020adc76121614c11b"
+
+[[files]]
+file = "config/vampirism-balance.toml"
+hash = "9ff0ebcd0560c9d05947407e61749e25fe6bfce96c98ea21d0d3dcc2416da66a"
 
 [[files]]
 file = "config/vampirism-client.toml"
@@ -3558,11 +3646,11 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "ca697880dd3a041951f86a69bd0e37e5d07981027f01b9eab2a8bec3ac44a139"
+hash = "09c804ce272aa39944375ff4cad8d817b77984e8e03fdaa4ae35a38e3c1fddd2"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "646f4782212350914aa92e1a5a0ed828215af22dafdf1d480fe91be62aa91ae4"
+hash = "3d5f4d5350b6e15ee1468d23e06e32bdbead15c251b876ce20fe82a86ef4846a"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -3763,6 +3851,210 @@ hash = "d0bda31643714b4b52628e8804c1ee68961225d532e17286cd83c8e973690599"
 [[files]]
 file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/texture_ref.aseprite"
 hash = "c3dfe7bf7ee1b6f071e3cbd217cf80b256d665bf87a2e025d22d52f642437b1e"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/cyclops/Greek-style Cyclops.zip"
+hash = "124ca486ab0470c7f90de3723e1e9180a5589b56bdc5e2f3114a31c9b071309e"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/cyclops/cyclops_0.png"
+hash = "a6f3bfb93e3f9bff6226a38fccc6ca4edd19d57be169ff731fde81f0c9beaadd"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/cyclops/cyclops_0_blink.png"
+hash = "286508d1c4d1f292435e8c8e78ba9d067da334dfc8a0369171880895f623e2aa"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/cyclops/cyclops_0_injured.png"
+hash = "cdbe810eb9c09f8b95c87926b058b9fb2a25c64d8d82de77d038cbe83718412a"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/cyclops/cyclops_1.png"
+hash = "c568345b416a21a620ff9e5923c8112115af5921f9a96f636f5e370a385ec2b6"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/cyclops/cyclops_1_blink.png"
+hash = "800b76c4016a60f4356c548fc152679c3a3c7afbd01be2ce257f7c7500a6714d"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/cyclops/cyclops_1_injured.png"
+hash = "ca25ea6a61f3297036195324ad8aa464ba620d150d759b1e47fc603b519c1c0f"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/cyclops/cyclops_2.png"
+hash = "1d4e721f25afa5ed2cb260cd4ac67b37aa7a476ce57284ac2ff62cd6e8471cb0"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/cyclops/cyclops_2_blink.png"
+hash = "c40fd39523745a13bd62f94178061b64c3809be675c4a74bee4700fe9e5d16dc"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/cyclops/cyclops_2_injured.png"
+hash = "0695cb56ecd550f1682827a1db08961a2f9ebf509b038534ddce130de6d171a3"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/cyclops/cyclops_3.png"
+hash = "34b716f4f00dbce6c333eb51218cee12773d0f4f228353f7f4ba76e7c8b99d1b"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/cyclops/cyclops_3_blink.png"
+hash = "acf456ae45e5d8060d0c9e7b615a11e1072881bf0f190b8ccc6e55cddc41a491"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/cyclops/cyclops_3_injured.png"
+hash = "ca168f175101b089f0300afb45a165d3a31641b9d5c0f6998f933319073681b8"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/hippocampus/hippocampus_0.png"
+hash = "84ee89c6ed5f45481ba5dea56429e5669f7dcbb1ccdf913f95413aae0b601fd0"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/hippocampus/hippocampus_0_blinking.png"
+hash = "11acb4aef2fea7188272ad820205ec316512e36d0045502debbfff1a4f366c36"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/hippocampus/hippocampus_1.png"
+hash = "dfb2bcdd7449963ab9b10b726428e313e94302ce7fb9a4f7354766d77207ef01"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/hippocampus/hippocampus_1_blinking.png"
+hash = "ca3e57f47f1f8074e6c0fb29ca91c2e138894d07d25725b6e3051fa51dbfbe57"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/hippocampus/hippocampus_2.png"
+hash = "95eafd8e95bea1fd2f7b2d1bf4d9edcc032e76958a8649aa87b26b7634885ee4"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/hippocampus/hippocampus_2_blinking.png"
+hash = "12f073c310c251d60ecb808563783a484928c65773922589fe0b05beaaca95d4"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/hippocampus/hippocampus_3.png"
+hash = "f524615b9444d5c418a53e561f11799e09f3799af2c771a35a2f8bf13f5e5c03"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/hippocampus/hippocampus_3_blinking.png"
+hash = "4ded83d9ca477c93d7cae8991310f6ef911ed34817a3796c6aa8e441e6ccfe48"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/hippocampus/hippocampus_4.png"
+hash = "f3e441b301e81b147e279d46fb91489820728a7d4219b021ff4eab34f5734a04"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/hippocampus/hippocampus_4_blinking.png"
+hash = "1ba997f7a2fe4048726ae0d3a3841b9d745bc3b96ba2b7a18656933e7645d6a7"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/hippocampus/hippocampus_5.png"
+hash = "220e66ff208efef04a871e1416a04c03d44a2235e74739a1e6a8d503b49471dd"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/hippocampus/hippocampus_5_blinking.png"
+hash = "e248c09d41739a40bf26b89757a0f030757ee001d38062a4d54ec5338464d104"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/pixie/pixie_0.png"
+hash = "5ecc974d3300c14de72045c9981eb30db02f62f21b51766ed85e08e2bcbc992a"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/pixie/pixie_1.png"
+hash = "faa081cfcf880e6306570e9fee576f56b01af5b00938458eac269808e6503886"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/pixie/pixie_2.png"
+hash = "a902d2444d94821c8e0be48197ef14335d26fa7fc9e020c39f409cd7b0459cc3"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/pixie/pixie_3.png"
+hash = "a7a34c4e5d8577296eb1f891f1d677119fb89ee1a720bde69c38a78a9dd14eab"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/pixie/pixie_4.png"
+hash = "5e3e17050962fc730914fb8958e7442220e09dd71dde0769d1f1794089960633"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/ancient_overlay.png"
+hash = "1c11118e729db4c20720a78dfb2a69f6716cf4b5c6bf566a9d6f37327a04e838"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_blue.png"
+hash = "5bfef6f114a562d041c92edee72e99ace44d0c40235dfb49345f54f253f1fd78"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_blue_blink.png"
+hash = "2f892b0f0d3fbf3945125877e8b75e714e3bb1f7670f18726765dfc746e4585f"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_bronze.png"
+hash = "2bff1160b21c8d55d52fb18667dd59dfea447fdd9c01255114005374e71eddaf"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_bronze_blink.png"
+hash = "541fe00e97678422bd6e52af847246c4b70b30d124ba5e486e8a770ec00a832a"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_darkblue.png"
+hash = "217b375fedaf961414a45984cf9ea00ab9d71984d9dfe14fc058b369c7a01ac0"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_darkblue_blink.png"
+hash = "40e1188e447c93fb3008cd51f1fc4375c0bd0caa964a472904aa764caa46274e"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_green.png"
+hash = "be81130fdd8a53ba3dec8846d70d72bd0826140a9103bf529425b78239d7b2e1"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_green_blink.png"
+hash = "841e047d4e7f0c1157dabc8dbcf64081c644f1323eda7b0084e9b4f6b839fe8d"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_purple.png"
+hash = "c17f182647fe37a406aef120fa86c40a152fa5407b1f10ba737f5ff3959aa96c"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_purple_blink.png"
+hash = "cc77457551c1d739125d952a9ebfbd6d27d08b728aa1caeb3080cc7ee88d3908"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_red.png"
+hash = "d49ad0c36f55a58e1739c28909b637fc23d48d4f14a19b1ca6ec7ea2fb1dafc9"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_red_blink.png"
+hash = "8874e859b59765868d181c434e4a63e7345d8c48139b05c3a257b07ae4d603d7"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_teal.png"
+hash = "44bd0debf0f504c9e8d51ccb8524af734223c0f566259d29b303882ac0af7f1c"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/seaserpent/seaserpent_teal_blink.png"
+hash = "8a5da595daa244439b7ea26da33214303afab39fd1e06dd9d16f0eef82d39f25"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/siren/siren_0.png"
+hash = "98de80a932e118ce3bcc478597303909eb83a24acc054abb63ba3b2402b88bbb"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/siren/siren_0_aggressive.png"
+hash = "6ee8fab14a3679f241da5b263635f4542957a02e8cb7d98f40b691b76931e0dc"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/siren/siren_1.png"
+hash = "70615a94368db1bc3714f624bd4fdc4c1e9c21a0b5a1851488a5a71ca4f28b93"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/siren/siren_1_aggressive.png"
+hash = "366c388e7e33f6c018e0891559940bcfaa472af480cc50aeb50d50781ea324a6"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/siren/siren_2.png"
+hash = "d38387d257ec2aa1e3d75f83db6d0302dd3dc1edda57d6754074b4a1622cf8b7"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/entity/siren/siren_2_aggressive.png"
+hash = "e15c1f97185902d1273e2b3742323742ef6beea33ec3176293badbb7e16d5527"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -4929,10 +5221,6 @@ file = "kubejs/server_scripts/recipe_changes/apotheosis_recipes.js"
 hash = "863ee814bf8ecca16705e9e33252508daa41a69379633906d9e8ef3daeb8d2be"
 
 [[files]]
-file = "kubejs/server_scripts/recipe_changes/cataclysm_recipes.js"
-hash = "9922a9ca79941097c90697f730985602d1e8865ad780658a514d893d0232deeb"
-
-[[files]]
 file = "kubejs/server_scripts/recipe_changes/endrem_recipes.js"
 hash = "154b8b5cde6f6b7116bd58a51dbbad506dfcd89c3354a7754997816cce77a2fc"
 
@@ -4951,6 +5239,10 @@ hash = "a4f2b37f8703b4ad7d30ba9434a6f3db3b6100e1e6dc0600c340703ce88a7eef"
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/ore_excavation_emerald.js"
 hash = "3c7773c33de64fee5041c184b10d6954cd637060a44654a7beb63a5506e72b26"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/silent_gear_recipes.js"
+hash = "ef5d44933aa5450ffc91cf48007197e9206a5a2aa46087ab08358d45cc8d0ced"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/tag_alt_recipes.js"
@@ -5244,6 +5536,11 @@ hash = "a513e60c9b5923a7c9a1d374f8b3c24b2770d2f18b3142709a4b1bfe1d76f9eb"
 metafile = true
 
 [[files]]
+file = "mods/cinematic-respawn.pw.toml"
+hash = "294c36eed2ffab755ec7f004e3f9b7b5ad481704eb7255d672cc50d4e37cfcd2"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "542deb827feec4aff02739b6c587688450acbad0b99f6b0d4e915a05adfec9af"
 metafile = true
@@ -5301,6 +5598,11 @@ metafile = true
 [[files]]
 file = "mods/connectivity.pw.toml"
 hash = "f1c0e4aa386b3f006486d709c7453ea0b17140f10ca600233d1b45c7743f0846"
+metafile = true
+
+[[files]]
+file = "mods/construction-sticks.pw.toml"
+hash = "61716af77a4625b401c2abc9e570f738d7e56447a34adf3c33deb7ccfb29e58f"
 metafile = true
 
 [[files]]
@@ -5579,6 +5881,11 @@ hash = "35b9d5e3a17309425d88a2f3f28b69ed96e00dbee303385bbec5e982b131f9ba"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "fd5964a7210ff329e91a254f9d9a08c892ff048f4161951c3552ff60ca424959"
+metafile = true
+
+[[files]]
 file = "mods/entity-texture-features-fabric.pw.toml"
 hash = "7ca7926fee920663292175ea396f5fd869fa72b87b9a28ae76911df1981c2095"
 metafile = true
@@ -5799,6 +6106,16 @@ hash = "2ac1d6be363cbd947cc7c16adf52af961acf663b48e2cc1cc043d149fa3b5805"
 metafile = true
 
 [[files]]
+file = "mods/ice-and-fire-dragons-x-better-combat.pw.toml"
+hash = "42c88dda0869f9c092dcb425ed486134588eed5baab176b39d788385d4dfe356"
+metafile = true
+
+[[files]]
+file = "mods/iceandfire-ce.pw.toml"
+hash = "56168b7b4aa1ca6b7b355e18af4a13c6bcee1d11b713e64b94793a11a83bacfe"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "2181bd1dde3d7d895e7b3359a6d929a1f801dcf6db169d7002a16905f225f7e6"
 metafile = true
@@ -5891,6 +6208,11 @@ metafile = true
 [[files]]
 file = "mods/jeremyseq-damage-indicator.pw.toml"
 hash = "8a15bed4a93149b2a0ae9e3efb24791938171b6bcd598bbe33b56dd17c4516a6"
+metafile = true
+
+[[files]]
+file = "mods/jupiter.pw.toml"
+hash = "b449ab1d2b4262c35838dd664ae27eaac537972e46c6892768fb2fb81e70b3fe"
 metafile = true
 
 [[files]]
@@ -6076,6 +6398,11 @@ metafile = true
 [[files]]
 file = "mods/more-relics.pw.toml"
 hash = "c7226b4469255e33b3b186d683db4f6417e00c41d2f6a792f61075aa77b7b3db"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "2de4bc61edaee97e61ecd736e51e163b9934392cee9f3da6deb6a5f9fdcc3fb3"
 metafile = true
 
 [[files]]
@@ -6619,6 +6946,11 @@ hash = "d5f521d5fe2ee33fa7ef83fc7c1b43bfc5319351aa9ee465c92157bf82e51784"
 metafile = true
 
 [[files]]
+file = "mods/uranus.pw.toml"
+hash = "422b751a964b8bcc4b4f90720ab4b03fc8fc80af637688dee97cffcf13ffdc91"
+metafile = true
+
+[[files]]
 file = "mods/vampires-need-umbrellas.pw.toml"
 hash = "222c35494823aa62b16d2391431716921e30198d912653784580427a81b7c6a8"
 metafile = true
@@ -6789,13 +7121,28 @@ hash = "32ea50a78e3cc1900bbf4c75c6079e8c496bb5c9543c60c4aaf1db53fd99adec"
 metafile = true
 
 [[files]]
+file = "resourcepacks/.index/frostbiteandbrimstone.pw.toml"
+hash = "b12bae617c7b2ac8413611df3baf418e8f1027c3fe379fd75a6acd0b1b4edddb"
+metafile = true
+
+[[files]]
 file = "resourcepacks/.index/ie-reimmersed.pw.toml"
 hash = "82448f829781d8a0cdb13b7f6d9856e43ce546d2f035d66b751a0bdd047a0836"
 metafile = true
 
 [[files]]
+file = "resourcepacks/.index/mob-grinding-utils-vanillafied.pw.toml"
+hash = "ec4929dc517a868b268b7137f6849cf25f2740a710af70c6215a8480f2dd6d73"
+metafile = true
+
+[[files]]
 file = "resourcepacks/.index/slightly-improved-font.pw.toml"
 hash = "bcb85b8f3c6355174a66414bf851adac8bb6ad65e9bc8b1e3d3c86f8981f4ab0"
+metafile = true
+
+[[files]]
+file = "resourcepacks/.index/true-dovah.pw.toml"
+hash = "e2fbddb45bc92493176fac88ad8ec774056afa9da68fb90673bbd3add7540cc4"
 metafile = true
 
 [[files]]
@@ -6838,12 +7185,32 @@ file = "resourcepacks/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip"
 hash = "c037a7cfa347260baffd2a1270624e9746c6a01ab75dc40f594542d8fca33f49"
 
 [[files]]
+file = "resourcepacks/IAF-DE4THR4SH-Dragonsteel-Weaponry-V-3.5-[1.20.X].zip"
+hash = "675265a75b9b963d207a108db8c7f35e14096518258bee448ae03c31f4499d20"
+
+[[files]]
+file = "resourcepacks/ImmersiveResprites-1.1.zip"
+hash = "1506f684febbeabca1dcfc91e95c3b24c1d13f7bd2f2f11ce81915522febf5a0"
+
+[[files]]
+file = "resourcepacks/Mob Grinding Utils Vanillafied.zip"
+hash = "c916eee0b86f98c1b9a32268fa4f06857e512b9b60e786fab4b88be2a40c863e"
+
+[[files]]
 file = "resourcepacks/Quest-log-more-like-quest-BOOK.zip"
 hash = "7daab72cf603a079b70b4c84a42647ab7dfb3dc68aada2aa33bee96cbbf40052"
 
 [[files]]
+file = "resourcepacks/Silent Updated.zip"
+hash = "6e51b7b7b88e33a417189d91a945cff7ee13ac714a481766407e639b6606c8ee"
+
+[[files]]
 file = "resourcepacks/Slightly-Improved-Font-1.1.5.zip"
 hash = "b991537dd86f7dee818d8d059b8beb21d17d606ae797865e0c71b8cc9918c1de"
+
+[[files]]
+file = "resourcepacks/True Dovah.zip"
+hash = "133502f64724ce61bff080e97bc4e92ec789ba0f195710004f6bcdcd28a12ed1"
 
 [[files]]
 file = "resourcepacks/TwilightJAPPAPack-1.21.1-1.2.0.zip"
@@ -6858,12 +7225,180 @@ file = "resourcepacks/[Forge] IE Reimmersed v1.1.zip"
 hash = "f7d23a05706551a3db6324a5a9d5c69f2db1672a27ce4911c9c9eeeed78be844"
 
 [[files]]
+file = "resourcepacks/iaftextureupdate1.16.zip"
+hash = "5885ea161e40d54ff5ab892a8796861d16861b1c63ed1fcb617a7100a980b594"
+
+[[files]]
 file = "resourcepacks/waystones_26.2.zip"
 hash = "c79924e1608f4c3aec075270f43db68b08063f3bcebc847d98bf6b59aee9b21f"
 
 [[files]]
-file = "resourcepacks/wild_and_horrible_vampires.zip"
-hash = "1b4b87e66075d6717222eb2a0db9285e0016200a9711c432e481d7d04616d9df"
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/ambient/blood_dripping.ogg"
+hash = "6a1de9b9c81d16a9b773336a49a9cadf77a1ebe1eb601eb33e46136bb832f6e6"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/ambient/blood_dripping2.ogg"
+hash = "501634b83c6c49d8402c5e12386bbd02e405af8c2636ef387e9b8b70076600a4"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/ambient/ghosty_ambient.ogg"
+hash = "7661672d7be6c1f45b4ce0d9ffdc7a60c7fe0f4148515d1365b01f6a81f2c12b"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/ambient/scary.ogg"
+hash = "c1262870b3a1ffe52c780b138d398e6d3b96ddbb37b5c8a7aef2e313546899cd"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/block/boiling.ogg"
+hash = "c9ca93ed32ce80e568948515ddfabd7d4cc54eaf3970789b6f56a390e4356046"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/block/church_organ.ogg"
+hash = "8ca40c5e525107d375472fac3ced444c5933986489637f1e84fccc9322b5bcc7"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/block/coffin_lid_slide.ogg"
+hash = "6b6e490e227d4d8f47e627ee08bd2520981dcdacc0ed19e4fcbc1e4dd7cf0f01"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/block/grinder.ogg"
+hash = "be079d4120c855a0bb3d8736233957c66e2acb68114ccbf6eac29f4dcc9c5851"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/entity/vampire_bite.ogg"
+hash = "08b0b7fe956126198ca9dc42c2a0ac4bd0c8ab826b29a581f793d8236d65632f"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/entity/vampire_bite_long.ogg"
+hash = "94a64e26ef0283da649962b59a6e3cdd639839c74c6303c20841416661364040"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/entity/vampire_feeding.ogg"
+hash = "5ba6f03dff88e6fb26c3a94b72e2a56917f5bbf5c73d424cfcff0c41d2d50866"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/entity/vampire_scream.ogg"
+hash = "4e6e2015b1902f0294cf24bb0a9a03385dfffd2b155a391853768413cdced776"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/fx/bat_swarm.ogg"
+hash = "0973f61227f93b94b0722888623ab32d5839e1951e6f76c292494cfa77ee097c"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/sounds/cc/fx/task_complete.ogg"
+hash = "466c7e92116fdceeafbcebd842f1252519c8b2cd2cdbde15c2294c31d69f30ac"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/advanced_vampire.png"
+hash = "de3cc913a708f91d20a87749542ef414c52a13d30de5fb9c7da7a8967b516d9b"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/baron.png"
+hash = "391463b16e22d33e4ef2e57e35c4f0aad6205200302b146ccbb0a26217f99c89"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/baron_attire.png"
+hash = "a574a6891cbc58bb2bb9c7e85e61d0cc5545871f76c62850f75d0e77a486a014"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/baron_enraged.png"
+hash = "ba6d4f9b468c3907e14e1a28f3251dc155526d4c93677126afa1ebdbdf0a739f"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/baroness.png"
+hash = "09e386a62bc901246e4e5c755b891332a5848049a42fda00d175360af7029f38"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/baroness_attire.png"
+hash = "d801da27e6b292c716804cfa6b6a9f5fc7dc56be53c9c5ae471a0d30a1b670d4"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/baroness_enraged.png"
+hash = "3f34fc35bd53c1f0e968928b4321121522e5a5ef86dca44015b58f42695e1ef8"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire1.png"
+hash = "8cd4c09786ca6bf893487f42593fd7c1137c59db0c94e26a02d2c6e1b4892896"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire10.png"
+hash = "eb5625a3cf105a25888cc9f16f7bed157ec57fc71db83e3c4ba5b95ace94da7d"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire11.png"
+hash = "5256c00af80c03f21a356c9c05bc3c6bd92d21e5781adecb163e38ca01d03fa7"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire12.png"
+hash = "93bc248ece475e01a95ad73cb35d8234bdf6c450678307446fba5a5f812952f9"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire13.png"
+hash = "54bc1639ec747875952d829a1c934445abf08bf7340fc4e31ef750b3aee244ea"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire14.png"
+hash = "a109082b43bafe67731c41fd6bd2c7e8fd38f289476feabed45cf1cff1269d9f"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire15.png"
+hash = "13bcac15fb94a8991e9059061d72472cb32c8f23fb20e04a99bf859a498ef4a0"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire16.png"
+hash = "c5d849cef534fc440e53ecaaffc75b06d101633c4ff800a82b6dc85b70a8512c"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire17.png"
+hash = "2ca8bae60e28696e37d1bedbd02284fd4eafcfaa282bbdcb9fe717374fa1490b"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire2.png"
+hash = "cafe173eb5e40e49669cc0b3af87ae41e3144a512d97570196391c62b0378d98"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire3.png"
+hash = "46cefc3fd53814e95078d519e67c808745dfba9a21c62d72465f8cf7ab7bb8d5"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire4.png"
+hash = "49c84de1c3ba3e7cf0f602030a27f8a83442f88e94b389b29e7f6d20a4322516"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire5.png"
+hash = "6873dc18eafe227a59d79e62b8b52624166560648844950f9646d80bfc571198"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire6.png"
+hash = "3bddbdd0ef2df7f0111204cf3e3a230a86e275ad243e2c86509cd3d404ddee19"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire7.png"
+hash = "b147e693e7142f65bec93066aee85bfdddfddfe66e4dd294d0bc052f81afe0bd"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire8.png"
+hash = "5837214d6ec5aff23f41e347832836958647b908ccd31f7b6a212bc44dbcd14b"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/vampire/vampire9.png"
+hash = "37ec3b93ee7619a33f29782d05ea96216fee5068ac22d4a76bb2213bc69154e6"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/entity/wings.png"
+hash = "e161333e98b21689eac2859ad78f7a8420e2ac478467917fd7f59cfae3eb0960"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/assets/vampirism/textures/gui/altar4.png"
+hash = "297bd449731cd78a7ad96d7ca0e56c8d5b7ecafe7d19b64a847089f972614aca"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/pack.mcmeta"
+hash = "606f426b5b3b2c8639ed191055c833a923592f2fb7cb19c3f1edcb0fd01e31e5"
+
+[[files]]
+file = "resourcepacks/wild_and_horrible_vampires/pack.png"
+hash = "d84a7a24f4719d8d83894ea9d0da7fee671695a559b334d54c7ac9302d67d90c"
 
 [[files]]
 file = "resourcepacks/§5§lModded §f§lContainers§8.zip"

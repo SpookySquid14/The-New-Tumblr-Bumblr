@@ -1,0 +1,17 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"quark:thatch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:wheat"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"incubation:hay_nest"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"incubation:twig_nest"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"eclipticseasons:greenhouse_core_container"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"eclipticseasons:summer_greenhouse_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"eclipticseasons:summer_greenhouse_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"eclipticseasons:spring_greenhouse_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"supplementaries:flax"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"supplementaries:flax_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:flax_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:chain"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:troll_leather_forest"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_enchantment_industry:brass_bookshelf"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

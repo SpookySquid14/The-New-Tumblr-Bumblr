@@ -35,5 +35,5 @@
   "toast_on_unlock": false,
   "toast_on_complete": false,
   "show_popup_on_unlock": true,
-  "description_completed": "Do try to avoid this fate, please."
+  "description_completed": "Do try to avoid this fate, please. Also know that you can skip the respawn cinematic if you so desire."
 }

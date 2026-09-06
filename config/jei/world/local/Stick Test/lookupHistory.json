@@ -1,0 +1,15 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"constructionstick:template_destruction"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"constructionstick:template_battery"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"constructionstick:template_unbreakable"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"constructionstick:template_replacement"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"constructionstick:template_angel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"bits_n_bobs:diorite_tiles"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:blaze_rod"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:blaze_powder"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:ender_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mowzies_cataclysm:sun_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mowzies_cataclysm:tongbi_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mowzies_cataclysm:wrought_eye"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

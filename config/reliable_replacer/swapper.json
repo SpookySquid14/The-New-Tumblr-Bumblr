@@ -5,6 +5,8 @@
 		"immersiveengineering:ore_silver": "werewolves:silver_ore",
 		"immersiveengineering:deepslate_ore_silver": "werewolves:deepslate_silver_ore",
 		"mekanism:lead_ore": "immersiveengineering:ore_lead",
-		"mekanism:deepslate_lead_ore": "immersiveengineering:deepslate_ore_lead"
+		"mekanism:deepslate_lead_ore": "immersiveengineering:deepslate_ore_lead",
+		"silentgear:wild_flax_plant": "supplementaries:wild_flax",
+		"silentgear:flax_plant": "supplementaries:flax"
 	}
 }

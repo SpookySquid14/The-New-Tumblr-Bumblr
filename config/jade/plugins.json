@@ -95,6 +95,12 @@
     "foliot": true,
     "sacrificial": true
   },
+  "iceandfire": {
+    "dragon_egg_entity": true,
+    "multipart": true,
+    "dragon": true,
+    "dragon_egg_block": true
+  },
   "apothic_enchanting": {
     "ench": true
   },

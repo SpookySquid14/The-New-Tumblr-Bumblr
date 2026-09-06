@@ -1,0 +1,13 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"silentgear:flax_string"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:flax_fiber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"supplementaries:flax"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:string"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:fluffy_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:fine_silk_cloth"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:fine_silk"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:cord"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:sinew_fiber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"silentgear:flax_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
