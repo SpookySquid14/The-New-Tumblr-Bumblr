@@ -1,0 +1,37 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/blueprints"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "silentgear:blueprint_book",
+      "name": "Craft A Blueprint Book"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "silentgear:blueprint_package",
+      "name": "Some old blueprints"
+    }
+  ],
+  "title": "Blueprint Binders",
+  "description": "Now that you're using blueprints, you'd probably like to not need to file through your storages ev'ry time yer lookin' for a print, right? Good thing about blueprints is they can be conveniently stored in a [blueprint book](image:tumblrbumblr:textures/quests/blueprint_book.png:124:62). Think of it like a binder for your trading cards.\nOpening te book's inventory, you can store as many blueprints as there are slots for. Once that's been done, you've got two methods of choosinng the print. Either click a print while holding ctrl to select it, or hover over the book and use [z] and [c] to cycle through them one by one. And yes, if you haven' clued in yet, the book acts as not just storage for your parts, but a single item that can act as any print inside it while crafting.\nSo, go and make one of em, and I'll let you have some old prints of mine to start off your collection.",
+  "icon": {
+    "item": "silentgear:blueprint_book"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

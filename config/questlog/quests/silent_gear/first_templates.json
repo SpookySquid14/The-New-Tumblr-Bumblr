@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/template_boards"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "silentgear:pickaxe_template",
+      "name": "Pickaxe Template"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "Take a Pick Atcha",
+  "description": "Promising stuff so far. Now thatcha got your templates, it's time to shape them into something usable. For tha most part, you'll find templates, and lat'r blueprints, are crafted as if crafting the tool they're used fer.\nFer example, let's craft ourselves a pickaxe template. Can't get more simple than that, can ya? [Just craft it like ya would any other pickaxe, but use the templates in place of materials](image:tumblrbumblr:textures/quests/pickaxe_template.png:124:62). Is at this point I'd like ta remind you that JEI is a valuable tool in the process. If you're ever confused on how to make someth'ng, just give it a peek.",
+  "icon": {
+    "item": "silentgear:pickaxe_template"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/silent_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "silentgear:template_board",
+      "name": "Stone Anvil"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "Basic Boards",
+  "description": "Ya got the stuff? We're gonna start off simple, just some wooden templates. These'll let ya craft an item once before being used up. Ta make em, you're gonna wanna take a log and place it on the stone anvil, then [right click it with a knife in hand](image:tumblrbumblr:textures/quests/template_making.png:256:148). A dagger can work, too, but knives are more consistent in my opinion. You should get yourself about 6 or so boards. I sugges' ya get a few more. Jus' repeat the process.",
+  "icon": {
+    "item": "silentgear:template_board"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

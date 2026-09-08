@@ -1,0 +1,43 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/pickaxe"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Make a Repair Kit",
+      "objectives": [
+        {
+          "type": "questlog:item_craft",
+          "item": "silentgear:very_crude_repair_kit",
+          "name": "Very Crude Repair Kit"
+        },
+        {
+          "type": "questlog:item_craft",
+          "item": "silentgear:crude_repair_kit",
+          "name": "Crude Repair Kit"
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "On The Go Repairs",
+  "description": "One of the big benefits of smithing a tool this way is repairability. Where your regular tools shatter into pieces at the end of their lifespan, these tools will simply fall into a broken state. You'll be able ta repair them whenever ya get the chance and they'll be good as new.\nBut I hear you. Maybe ya don' got an anvil without you while yer out in the wild. Well, that's when you'll want a Repair Kit. There's a few variants, each able to store more material and repair items more efficiently, the highest tier of Azure being as good as a proper anvil. For now, [a cruder kit](image:tumblrbumblr:textures/quests/repair_kits.png:124:62:2:1000) will do the trick jus' fine.\nOnce you make one, you can fill it with material in a crafting table. Jus' put the materials in the grid, as much as you'd like. And to empty it, put a stick in the grid instead. But be warned thatcha may not get yer materials back from this.",
+  "icon": {
+    "item": "silentgear:crude_repair_kit"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/first_templates"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "silentgear:rod_template",
+      "name": "Rod Template"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "The Rods We Travel",
+  "description": "Here's a neat little bitta info for ya. Didcha know you can make sticks with rocks? It sounds silly, I know, but try it. And while you're at that, why not give crafting a rod template a shot? Simple stuff, really, just a few sticks and templates.\nTool rods can generally be better than basic sticks, and a template or blueprint ain't always needed for em, but consistency can be real nice.",
+  "icon": {
+    "item": "silentgear:rod_template"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

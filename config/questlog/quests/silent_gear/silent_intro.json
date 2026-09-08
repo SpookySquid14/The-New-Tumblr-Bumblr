@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "silentgear:stone_anvil",
+      "name": "Stone Anvil"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "A Silent Smith",
+  "description": "So, ya tired of plain old tools? Tired of crafting something after so much work, only for it ta break while you're in tha midddle of a cave surrounded by beasts. Ya, I know what you want. You're lookin' for some proper smithing. Well look no further, cause I gotcha.\nSilent Gear is a mod about modular weapons, tools, an' armors. Nothin' set in stone here, so let's get ya started, shall 'e?\nFirst things first, you're gonna want to get 'ur hands on some templates! For that, you want a [Stone Anvil](image:tumblrbumblr:textures/quests/stone_anvil.png:124:62). It's a rudimentary thing, but it gets tha job done. While you're at it, getcha hands on a knife, too.",
+  "icon": {
+    "item": "silentgear:stone_anvil"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

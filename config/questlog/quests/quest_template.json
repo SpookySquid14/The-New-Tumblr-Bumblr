@@ -25,6 +25,6 @@
   "chapter": "",
   "sort_order": 0,
   "toast_on_unlock": true,
-  "toast_on_complete": false,
+  "toast_on_complete": true,
   "show_popup_on_unlock": false
 }

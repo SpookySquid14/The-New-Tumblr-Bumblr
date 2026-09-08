@@ -430,7 +430,7 @@ hash = "3f0d92c8abaf95a68ff79bb2ef9169fd598500070de7e5a616b755f9c5123e6f"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "e54e87b1dcd28145e51cb69c959315c7cab8255cac3bb46adcdfd99b8307841f"
+hash = "5a8e20f91138afe6b9f2c944551e60c80c9faf4223daa28d91008cf3783a460b"
 
 [[files]]
 file = "config/almostunified/unification/materials.json.bak"
@@ -526,7 +526,7 @@ hash = "d109eded700ea97d9d2d3b96e4790fe4e6bd34f7f469575e07ab0183d38f3ce4"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
-hash = "5b965898d5b13c5557b603c68ed4ac79a4f850f3a7205eb3dbfc6116f2caf19a"
+hash = "0e3056c284380d1cac4126e3393bffee0da492b814413e10ca90dac85bee32c3"
 
 [[files]]
 file = "config/betterarcheology.jsonc"
@@ -698,7 +698,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "c699f3240ca9e389fc876f134340f73b968dc8bad057141d07ea514552feaa8e"
+hash = "a580970def918aee1c4eae1018d4c499dcec4b52c3abce39a346ccfe84173407"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -1642,7 +1642,7 @@ hash = "267cd5153fecd073d0777ed2a8aae3e8703a084262d3a09781f026d15b3c0d02"
 
 [[files]]
 file = "config/fancytoasts/toast.json"
-hash = "ffd770dbe37acf49f080f2715e2ea11475afdcb5437127a50176fa966c9375f5"
+hash = "2c7257f5628de15eb81bfe24da3645f124405aaa05c1356b4b3a0b98e0423bd9"
 
 [[files]]
 file = "config/fancytoasts/toast_filtering.json"
@@ -1933,6 +1933,10 @@ file = "config/forgeendertech/Biomes/terralith$lush_desert.cfg"
 hash = "74a3ee4eebbc0d5c3c127166e7c9539f67a49f843af5e039a3796f20e87881e9"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$painted_mountains.cfg"
+hash = "82050b39d5ed64182dbdb812559b41bfd871d6ee1c9a0dbe49dc9fb2e6a93024"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$red_oasis.cfg"
 hash = "e807f0dc54970e3cce520ef59a9ded1a058cfefee61c36d6624ce72243718610"
 
@@ -1978,11 +1982,11 @@ hash = "258517f918104865c079e0db35426ff1021c666e985e4608a64ce2ad3130aa82"
 
 [[files]]
 file = "config/forgeendertech/cached.dat"
-hash = "cd72582691e5077a591a7aec9e7ea55f8952aaeaa5c66475660fb4bbf14b4c60"
+hash = "a5c14aa35e5d5bfb3d855e56df212f1d1957029f286d3d4ee3c294b6d3d648bf"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "26046f95ea224c94de9e131e31457de484b9699c81758db693fb37c1f123d31a"
+hash = "1a6040f160f82872a21e8ccf986770c5eaf9aa219c116760dee82c964afc055d"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2354,7 +2358,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "f42ae2e86676889fd89ba25822b63e82e0f554930b7c7435efabb57ee3144295"
+hash = "f3cdff36bd60a2bea12c62d7aeb36bf62c99cc54067449d963c7e50aa5914931"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2486,7 +2490,7 @@ hash = "ac8abd9be5693195098cabf9e351e0eaf10833f49fea828001026237900a2a34"
 
 [[files]]
 file = "config/jei/world/local/Playtesting Teh Bumblr/lookupHistory.json"
-hash = "2b905b913c05def0c55a4a6bf6cd3f688a9da6700a0114c30de427c993061386"
+hash = "4dcaede645cfb584353233546ff4aee19dce192ad85fdfd3d9b38ce58364e073"
 
 [[files]]
 file = "config/jei/world/local/Portal Test 2/lookupHistory.json"
@@ -2523,6 +2527,10 @@ hash = "5e0704501fa71e6260f4de18d7452d3bd3ddf7fc011639c685ebd3794544e3b6"
 [[files]]
 file = "config/jei/world/local/Silent Silver Test/lookupHistory.json"
 hash = "96008b014a77db44de5c083cc81cc9204b25795e20a6795332d5135711a03da2"
+
+[[files]]
+file = "config/jei/world/local/Silent Test/lookupHistory.json"
+hash = "fcba31d74725cab00462755b5301d8d74994e0b0c6a2be9c8a614656e52e711a"
 
 [[files]]
 file = "config/jei/world/local/Stick Test/lookupHistory.json"
@@ -2626,7 +2634,7 @@ hash = "9e4712866fde9dd6b539ff5cd9efd6a5a72e052c1248f18c79b6d94bcc45a7d8"
 
 [[files]]
 file = "config/mcgcore/progress/1-minecraft-saves-playtesting-teh-bumblr-2891682c.json"
-hash = "64a279655436b064a51e051219b27997d9a873681233639b0c85fbdfa535cb5d"
+hash = "350b3371a6b719f8436dbcf8ce1af6df47b40bb0294576f6bb55f76a752eec47"
 
 [[files]]
 file = "config/mcgcore/progress/21-1-minecraft-saves-create-addon-test-1-b16093b6.json"
@@ -2773,6 +2781,10 @@ file = "config/mcgcore/progress/r-bumblr-1-21-1-minecraft-saves-lag-test-e1fcdd1
 hash = "ff85b249242671baaada4b675e22b9b027b38e1c27c8127b3cf3e35b0a2e62ca"
 
 [[files]]
+file = "config/mcgcore/progress/umblr-1-21-1-minecraft-saves-silent-test-7ef1816c.json"
+hash = "0c0e0eea01790a89d963a6637843c3a7aa861ce4e59d8c5765d1980fbf3d260a"
+
+[[files]]
 file = "config/minecolonies-client.toml"
 hash = "dfbbeeddbace9814c3431efe4cd1f43fc2898f9d517909c4dd1cd3f9860e974b"
 
@@ -2846,7 +2858,7 @@ hash = "55984be8a03604dd95446a84769854c5a42b064146db05dafa16c2ecba7a0971"
 
 [[files]]
 file = "config/multimine.cfg"
-hash = "5d672338d12c800568941b1531e789642afd54138a0a4b070ca92f9ed9448652"
+hash = "bcabf1543c25ba316cfd5d3f5419aabb838fa23ea1a9bcc416f374ea5b82b0f4"
 
 [[files]]
 file = "config/mynethersdelight-common.toml"
@@ -3006,7 +3018,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "227c7d7fe2acb69a6a88b0881c7e9130c0e29a9787c804e13fb3eb9d20e9da77"
+hash = "d4394e3f9c27fa97bb4a7a9c0c79520f8724987eaf6fef7309bbba6c69c038be"
 
 [[files]]
 file = "config/packed_packs/profiles/datapacks/Tumblr Bumblr.profile.json"
@@ -3014,7 +3026,7 @@ hash = "dd988af7a2791e5485c225961ce82193a58d9c2a2f30e09741d90659080b4280"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Tumblr Bumblr.profile.json"
-hash = "7d843d3687cf0bae7773510d3de1c2770a5430d72178b6151d693ccf7ac7c934"
+hash = "b1700a4e78acb7fb30c33641723e939a78662ce728c1c15d0440e64d9a36f129"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -3087,6 +3099,10 @@ hash = "532cb424c2dedc8f2b5014a4bd8ff5414808d7a7b7a6c8c163da69bc11ca83d0"
 [[files]]
 file = "config/questlog/chapters/main.json"
 hash = "bb2cfd4efb798ea23dcdd4f4ba0cf00ebf21c0bff932be3ad34a0e8bf4d12651"
+
+[[files]]
+file = "config/questlog/chapters/silent_gear.json"
+hash = "e19f58f97f4c4986768626f7772405159e7eea8cea2ac9053a62802c607c2843"
 
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/backpacks.json"
@@ -3282,7 +3298,47 @@ hash = "396223a2f96deb4c74729ccd22e4f855e0ba8eda9c8331c43625f17305db9ae8"
 
 [[files]]
 file = "config/questlog/quests/quest_template.json"
-hash = "95a4b476fe8dfe00b5d24fc6ddb096ab57350d12cb878a93d9e74ce2067b956c"
+hash = "d7e2dd2556e5e324842b346438508ae57586d341b22b153e6feec44cb6da90f7"
+
+[[files]]
+file = "config/questlog/quests/silent_gear/blueprint_book.json"
+hash = "fd31829ec59509784a9aeba27184988138ca91e951bf732dead3cd961fb317ee"
+
+[[files]]
+file = "config/questlog/quests/silent_gear/blueprints.json"
+hash = "030d540077ce08504281c8bd76c7418c7b88ccafad2f0134a78eb1a2f12cf6d1"
+
+[[files]]
+file = "config/questlog/quests/silent_gear/coatings.json"
+hash = "f9dee46d5401610d2aa5608816a7a7780f0dc121416cbc068b85249ec9d02973"
+
+[[files]]
+file = "config/questlog/quests/silent_gear/first_templates.json"
+hash = "c869735c37236220f719921fd6f31cc756196dc7a7750e766b92229986020422"
+
+[[files]]
+file = "config/questlog/quests/silent_gear/pickaxe.json"
+hash = "4ff1a9dcce19b28fb908f84ce0d7e17c9259a5eaf8914660a3439cb99d624f10"
+
+[[files]]
+file = "config/questlog/quests/silent_gear/repair_kits.json"
+hash = "6d9b717d396adb8ba13e84a8e9f2655fa64d31e3b4c769a2c5e7b007efac4d77"
+
+[[files]]
+file = "config/questlog/quests/silent_gear/rods.json"
+hash = "4ca8ceb6a4af6fe0b50d45a8d3ddd865112f518440cbe71218a3288db68ab36b"
+
+[[files]]
+file = "config/questlog/quests/silent_gear/silent_intro.json"
+hash = "fa4e4ea39c5bfb847e8fb4af82915833dba754abe51a96383111fdcb2c7a43ea"
+
+[[files]]
+file = "config/questlog/quests/silent_gear/template_boards.json"
+hash = "b0005caf18e1f79fd631835f2dc78589bf2387df2fc3f8d77c71dafceccccdbc"
+
+[[files]]
+file = "config/questlog/quests/silent_gear/tips.json"
+hash = "f1d1b80c9dcf91d5e58b01fd7d330c7b8948bcba6a2c445db859debe784273e6"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -3854,11 +3910,11 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "09c804ce272aa39944375ff4cad8d817b77984e8e03fdaa4ae35a38e3c1fddd2"
+hash = "7787180ce2343b561bd173c4cb22b03916ca9678b5f061af2ebdd50ee402a7f7"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "d24e7bb092ecdb619117b6431429d74a1b393fa5bd70e298c91cd11958355d0a"
+hash = "014af0d1c8bb2dbfc718c31221b3dd477c1ab7077657ea2b0e418311cf75b236"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -4059,6 +4115,10 @@ hash = "d0bda31643714b4b52628e8804c1ee68961225d532e17286cd83c8e973690599"
 [[files]]
 file = "kubejs/assets/goety/optifine/random/entity/servants/redstone_golem/texture_ref.aseprite"
 hash = "c3dfe7bf7ee1b6f071e3cbd217cf80b256d665bf87a2e025d22d52f642437b1e"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/block/copper_pile.png"
+hash = "dfb1c2539f1626b007059478afc22711cd0966cceb76c3fd5fe64c684b131304"
 
 [[files]]
 file = "kubejs/assets/iceandfire/textures/entity/cyclops/Greek-style Cyclops.zip"
@@ -4263,6 +4323,50 @@ hash = "d38387d257ec2aa1e3d75f83db6d0302dd3dc1edda57d6754074b4a1622cf8b7"
 [[files]]
 file = "kubejs/assets/iceandfire/textures/entity/siren/siren_2_aggressive.png"
 hash = "e15c1f97185902d1273e2b3742323742ef6beea33ec3176293badbb7e16d5527"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/item/armor_copper_metal_boots.png"
+hash = "5cb1d4d96dc0b295de88c06a8eed97d1b35d4e583acc7d22a36aacde50e7f95e"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/item/armor_copper_metal_chestplate.png"
+hash = "db7dcbc07a31396cb093c0b7490daf6db65d46399103d6388fc85a3b912710d9"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/item/armor_copper_metal_helmet.png"
+hash = "5245a945c7a12b3dcdfc3cf9be285a9f45b170d9afbd2a2aa9e18fa168afa686"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/item/armor_copper_metal_leggings.png"
+hash = "14959a8e18f41a302aa6d8da30ad500ab0a93dee3b173d2d520bd5935423255e"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/item/copper_axe.png"
+hash = "42be153a9de15822da664de048205f24164df34148e3d84472f9dcd9ed32b98a"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/item/copper_hoe.png"
+hash = "35a7b84cd976e545954574990f81d5bcb196751860bfc1b97a18bf0664a65ad3"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/item/copper_pickaxe.png"
+hash = "f26b95c9765ba0945c93aa5e5ef8beba8ed1128fa89577a3ab779c19a595f558"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/item/copper_shovel.png"
+hash = "bf35c5f0428eb12ce1f13536c48eda730d51adc401a3588319387e61a83e4fcd"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/item/copper_sword.png"
+hash = "90b78f3d2616353be6137cafb11b3b95d6713352df90e6218c10e15fa82d5e0a"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/models/armor/copper_layer_1.png"
+hash = "52cac4622cc57f96d553e8a2da3f87ec5bb57a0cf8eadebc20de8bec07035b8f"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/models/armor/copper_layer_2.png"
+hash = "9f42bff42feff7470a17924d7d343cf739059302f14f462adc7337133c8a72a6"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -4509,6 +4613,10 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/bloomberry.png"
 hash = "0b1a3a6ec3e1857e1974651fa7e12d51504e1d33d642f5bf27223226771c8e0c"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/blueprint_paper.png"
+hash = "d96518837d061fbc2bcedd872eeeae3795b58ada1d2d38ef9def1d5ade08feac"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/bobbers.png"
 hash = "cfbff42a5bd8f828fa8db25072e7055ecc29bce7b0161afa30f380f62091da41"
 
@@ -4557,6 +4665,10 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/claim2.png"
 hash = "cfee48304ca5edb792d60ae71a342d4efeb363eaa3530e3e619d5f69552bbf26"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/coating.png"
+hash = "b4dfacb639f80cb6894007533358bd741c5c12e6b54b8373b0aac3b524ed1a8d"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/cobweb_removal.png"
 hash = "b3a4ea6f2c9b4cbf1e0d82fa32c447037e80691edd8e27968e7d8e3ef5274da1"
 
@@ -4575,6 +4687,10 @@ hash = "570903bcf23e9bda37625eca530d16610472ed670cfd00192bc4bb510dbaaf5a"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/cookbook.png"
 hash = "317c9ae5a61e333d2c89ebb48325c32c3e486977c63e110af85554e335c21f9e"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/crude_repair_kit.png"
+hash = "5c8a400063a2da62e748d98363d2868ec08258f8f4e838f04085efde9e4d9998"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/dead-king.png"
@@ -5049,6 +5165,22 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/photos/wroughtnaut.png"
 hash = "62e509820d0ccb4e8824da364253bb9acd8bb8811f0e263e7c36434adaf5e1ac"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/pickaxe_0.png"
+hash = "6c5c770fc5082921f00990eaf74b464ddd803a8259ac93dd75306f9e5ecfdeac"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/pickaxe_1.png"
+hash = "871ddf4a482492f3e968417e810ade262a76e1919a43267860207298e1ce9f85"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/pickaxe_2.png"
+hash = "4d06efd1a1c7e0c8c31b40094408e888d76ccdea1295b9c16c2eb2a1719d19b4"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/pickaxe_template.png"
+hash = "3be56cf182048aa3aae4f4de0df16d70a19ce22f208c46d5c9fbbd2f955db5bd"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/potions-and-poisons.png"
 hash = "974532e83aabe6289300d8c7ce20dee8f50b7ec008d07c994895e0ca62df8233"
 
@@ -5091,6 +5223,10 @@ hash = "1d812118d9552ded69798b4c661a7cd1ed7db01ad75c4821642b46bdd24ab1b7"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/ravenous-claws.png"
 hash = "b6cba970696aa8fb76b222ef1870e05bbdf59003363fff5cbac055ba43c00d30"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/repair_kits.png"
+hash = "26545defdb3453b9680464d667187aefc0335cd5fdf0119c70061a1c67831707"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/respawn-anchor.png"
@@ -5181,6 +5317,10 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/stegonaut.png"
 hash = "e2cc986069aaada476d688283f77be0b5c159e3a3517d13767f60f4584df41d4"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/stone_anvil.png"
+hash = "15adecfa710da25663a49a226e8f55b16071999dc92dcf716e9a833604412612"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/storage-and-machines.png"
 hash = "301fe2f29f51a8e7093108ef65c1b82d7264696e2da3fe2dfbc0b36fb7e03914"
 
@@ -5197,8 +5337,16 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/tackle-box-menu.png"
 hash = "e2b61851cffd8694effc851c8267f4896e0d4c1180193a3f33236375c1543904"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/template_making.png"
+hash = "b4202ae9e2ab8ae6566ab1882fb948079a1a12a3b5aea8ce2417fdc381f225b7"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/the-thorn.png"
 hash = "cce8efe94bbb2c7155221b0b21c729edb50e27ac7ff92fa7d76a59a76967de56"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/tip_blueprint.png"
+hash = "5866360ddeba369ffa7cacfd45f1ca6c2727209c2fc826a6e85272b515ffd250"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/tongue.png"
@@ -5235,6 +5383,10 @@ hash = "22b6a348e1606b5a70e0baeb0c27f0ce1896051b210d72963737599f1050331a"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/varasuchus.png"
 hash = "48fbe3d1fb8439afd207b52e915704321294015119673b06e5a9b8fe3aae52ef"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/very_crude_repair_kit.png"
+hash = "38592e925b05d0b1295b168b0548dbbe4c9a68a9b055c190d6638c2e2394d0e6"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/vizier.png"

@@ -1,0 +1,35 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/blueprints"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "silentgear:tip",
+      "components": {
+        "silentgear:material_list": [{"material": "silentgear:diamond", "item": {"id": "minecraft:diamond", "count": 1}}]
+      },
+      "name": "Craft A Diamond Tip"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "Tip Top Shape",
+  "description": "We've covered a lot already, but I think it's time we get into the real interesting stuff. [Tips](image:tumblrbumblr:textures/quests/tip_blueprint.png:124:62) are an upgrade that can be applied to most tools and weapons, giving them stat bonuses and occasionally new traits. Fer example, a diamond tip will bring the tool's harvest level up to Diamond tier while giving it the Brittle and Lustrous traits. Let's try making one now, shall we?",
+  "icon": {
+    "item": "silentgear:tip"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

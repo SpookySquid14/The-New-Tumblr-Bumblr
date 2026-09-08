@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/blueprints"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "silentgear:coating",
+      "name": "Craft A Coating"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "A Coat of Polish",
+  "description": "[Coatings](image:tumblrbumblr:textures/quests/coating.png:124:62) are a small group of strong modifiers to your gear. Te most notable one woul' have ta be Netherite, giving your items a hard fireproof shell. Dat said, it's not the only coating available.",
+  "icon": {
+    "item": "silentgear:coating"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/repair_kits"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "silentgear:blueprint_paper",
+      "name": "Obtain Blueprint Paper"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "Printing Papers",
+  "description": "'ouv'e done well ta get this far. The world of smithing is just opening up to you. We got a tool and a repair kit, but before we go any ferther, I think it's time 'e getcha some proper blueprints.\nI 'aid this earlier on, I think, but blueprints act the same as templates, only they can be used multiple times, unlike templates, which are one use only.\nTo make bluepprints, you'll firs' need to make [blueprint paper](image:tumblrbumblr:textures/quests/blueprint_paper.png:124:62). After that, is just like making templates wit' the boards. For the most part you'll be makin' a tool with the paper in place of the material.",
+  "icon": {
+    "item": "silentgear:blueprint_paper"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

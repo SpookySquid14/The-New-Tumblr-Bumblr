@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/first_templates"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "silentgear:pickaxe",
+      "name": "Craft A Pickaxe"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "A Smith's First Tool",
+  "description": "Now we're talking. You got your template, so it's time to make your first pickaxe. It's crucial you know that templates for things like tools [will only craft the head of an item](image:tumblrbumblr:textures/quests/pickaxe_0.png:168:140). This on its own is fine, just means [you'll hav' ta then put the head of the tool in a crafting grid with a [rod/handle](image:tumblrbumblr:textures/quests/pickaxe_1.png:168:140). If you'd like to not do this, however, [you can also put the rod in the crafting grid with the template and materials](image:tumblrbumblr:textures/quests/pickaxe_2.png:168:140). Simple but skips a step, y'know? Efficient.\nNow then, go ahead and craft a pickaxe. And I mean craft one, not just get one from a friend.",
+  "icon": {
+    "item": "silentgear:pickaxe"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}
