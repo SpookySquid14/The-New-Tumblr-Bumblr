@@ -1345,7 +1345,7 @@
 				"Is Blacklist" = false
 
 [mobs]
-	Crabs = true
+	Crabs = false
 	Forgotten = true
 	Foxhound = true
 	Shiba = true
@@ -1544,7 +1544,7 @@
 	"Elytra Indicator" = true
 	"Greener Grass" = true
 	"Improved Tooltips" = true
-	"Long Range Pick Block" = true
+	"Long Range Pick Block" = false
 	"Microcrafting Helper" = true
 	"Soul Candles" = true
 	"Usage Ticker" = true

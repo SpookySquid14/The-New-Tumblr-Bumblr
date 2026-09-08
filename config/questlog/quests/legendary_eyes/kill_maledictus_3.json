@@ -1,0 +1,43 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:legendary_eyes/kill_maledictus_2"
+    }
+  ],
+  "objectives": [
+      {
+        "type": "questlog:entity_kill",
+        "entity": "cataclysm:maledictus",
+        "name": "Banish Maledictus" 
+      }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 30,
+      "levels": true,
+      "name": "30 Levels"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "number": 15
+    },
+    {
+      "type": "questlog:command",
+      "command": "/execute as @a[distance=..100] run ql progress complete questlog:legendary_eyes/kill_maledictus_3 @a[distance=..100]",
+      "auto_claim": true
+    }
+  ],
+  "title": "Banished King",
+  "description": "Name: [Maledictus](image:tumblrbumblr:textures/quests/photos/maledictus.png:150:150)\nKnown Locations: The Frosted Prison, found in the snow.\nEstimated Size: Large\nBehavior: Highly mobile and agressive, uses a multitude of different weapons. His rage increases with each successful attack. Rings display warnings on strength of attacks: Green can be blocked, yellow disables shields, and red cannot be blocked. Can be baited to use closer range attacks and then dodged. Pattern recognition and spacial awareness is essential.\nDanger Level: §8§lDeadly",
+  "icon": {
+    "item": "endrem:corrupted_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

@@ -1,0 +1,34 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "minecraft:mansion",
+      "name": "Find The Catacombs Deep Underground"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "goety:dark_scroll",
+      "name": "Obtain a Dark Scroll to summon The Vizier."
+    }
+  ],
+  "rewards": [
+
+  ],
+  "title": "The Overseer",
+  "description": "Name: [Unknown, commonly referred to as The Vizier](image:tumblrbumblr:textures/quests/photos/vizier.png:150:150)\nKnown Locations: Unknown, reported to be in dark forests.\nEstimated Size: Medium\nBehavior: Master usage of dark magic, able to shoot projectiles and summon hordes of Irks, as well as phase through blocks.\nDanger Level: §6§lMedium",
+  "icon": {
+    "item": "endrem:magical_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "hide_when_completed": true
+}

@@ -1,0 +1,43 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:legendary_eyes/kill_leviathan_2"
+    }
+  ],
+  "objectives": [
+      {
+        "type": "questlog:entity_kill",
+        "entity": "cataclysm:the_leviathan",
+        "name": "Kill The Leviathan" 
+      }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 30,
+      "levels": true,
+      "name": "30 Levels"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "number": 15
+    },
+    {
+      "type": "questlog:command",
+      "command": "/execute as @a[distance=..100] run ql progress complete questlog:legendary_eyes/kill_leviathan_3 @a[distance=..100]",
+      "auto_claim": true
+    }
+  ],
+  "title": "The Abyss That Looks Back",
+  "description": "Name: [The Leviathan](image:tumblrbumblr:textures/quests/photos/leviathan.png:150:150)\nKnown Locations: The Sunken City, locate in Deep Oceans.\nEstimated Size: Huge\nBehavior: Summoned through the usage of an [Abyssal Sacrifice](image:tumblrbumblr:textures/quests/abyssal_sacrifice.png:124:127). Lives exclusively submerged in water, posessing several tentacles and jaws. It is known to create abyssal mines scattered in the water. When driven into a corner, it can achieve a second wind. [It is recommended to bless meat from Amethyst Crabs found in Lush Caves at an Altar of Amethyst](image:tumblrbumblr:textures/quest/blessed_amethyst_crab_meat.png:133:67)\nDanger Level: §8§lDeadly",
+  "icon": {
+    "item": "tumblrbumblr:sunken_eye_shard_1"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

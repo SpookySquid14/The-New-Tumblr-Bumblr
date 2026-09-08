@@ -14,6 +14,7 @@ PlayerEvents.loggedIn( event => {
  
       event.server.runCommandSilent("curios remove rings " + player_name)//server runs a command that removes a head slot from the new player
       event.server.runCommandSilent("curios remove rings " + player_name)//server runs a command that removes a head slot from the new player
+      event.server.runCommandSilent("curios remove curio " + player_name)//server runs a command that removes a head slot from the new player
  
                                                                         //List of preset slots at this link https://docs.illusivesoulworks.com/curios/preset-slots
     }

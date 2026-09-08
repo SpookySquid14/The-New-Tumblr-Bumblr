@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","file/[Forge] IE Reimmersed v1.1.zip","file/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip","file/CreateSophBackpacks.zip","file/Slightly-Improved-Font-1.1.5.zip","file/Fresh Vampirism Pack V1.4.zip","file/Better_hunters_2.zip","file/wild_and_horrible_vampires","file/waystones_26.2.zip","file/Two-Moons-LexLim-1.21-1.21.4-v1.0.0-Resource-Pack.zip","file/§lColourful Containers§8.zip","file/§5§lModded §f§lContainers§8.zip","file/Quest-log-more-like-quest-BOOK.zip","file/Fitting XP Mana Bar for Iron\u0027s Spells \u0027n Spellbooks from 1.20.1 and above.zip","file/Better Fitting XP Mana Bar for Iron\u0027s Spells \u0027n Spellbooks.zip","file/TwilightJAPPAPack-1.21.1-1.2.0.zip","file/iaftextureupdate1.16.zip","file/IAF-DE4THR4SH-Dragonsteel-Weaponry-V-3.5-[1.20.X].zip","file/True Dovah.zip","file/Mob Grinding Utils Vanillafied.zip","file/ImmersiveResprites-1.1.zip","file/Silent Updated.zip"]
+incompatibleResourcePacks:["file/Better_hunters_2.zip","file/wild_and_horrible_vampires","file/§5§lModded §f§lContainers§8.zip","file/Fitting XP Mana Bar for Iron\u0027s Spells \u0027n Spellbooks from 1.20.1 and above.zip","file/Better Fitting XP Mana Bar for Iron\u0027s Spells \u0027n Spellbooks.zip","file/iaftextureupdate1.16.zip","file/IAF-DE4THR4SH-Dragonsteel-Weaponry-V-3.5-[1.20.X].zip","file/True Dovah.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0

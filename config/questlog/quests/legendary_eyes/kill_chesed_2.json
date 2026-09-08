@@ -1,0 +1,43 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:legendary_eyes/kill_chesed_1"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "fdbosses:chesed",
+      "name": "Destroy Chesed"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 30,
+      "levels": true,
+      "name": "30 Levels"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "number": 15
+    },
+    {
+      "type": "questlog:command",
+      "command": "/execute as @a[distance=..100] run ql progress complete questlog:legendary_eyes/kill_chesed_2 @a[distance=..100]",
+      "auto_claim": true
+    }
+  ],
+  "title": "The Stone Eye",
+  "description": "Name: [Chesed](image:tumblrbumblr:textures/quests/photos/chesed.png:150:150)\nKnown Locations: Deep Underground\nEstimated Size: Medium\nBehavior: Uses a variety of energy based attacks ignoring target armor. Several monoliths around it and power large attacks if not deactivated through damaging. Cannot be harmed directly and must have its own lightning strikes reflected by a Reflector powered through breaking energized crystals.\nDanger Level: §8§lDeadly",
+  "icon": {
+    "item": "endrem:witch_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

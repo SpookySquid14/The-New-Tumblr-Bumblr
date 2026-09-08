@@ -1,12 +1,7 @@
 [
     {
-        "phase": "after_day100",
-        "mob": "minecraft:creeper",
-        "when": "onjoin",
-        "result": "allow"
-    },
-    {
-        "mob": "minecraft:creeper",
+        "mob": ["vampirism:vampire","vampirism:advanced_vampire","vampirism:vampire_imob","vampirism:advanced_vampire_imob"],
+        "structure": ["fdbosses:chesed_arena","fdbosses:malkuth_arena"],
         "when": "onjoin",
         "result": "deny"
     }

@@ -5,9 +5,9 @@
     "item": "minecraft:oak_log"
   },
   "chapter": "main",
-  "sort_order": -1,
+  "sort_order": 0,
   "toast_on_unlock": true,
-  "toast_on_complete": false,
+  "toast_on_complete": true,
   "show_popup_on_unlock": false,
 
   "objectives": [

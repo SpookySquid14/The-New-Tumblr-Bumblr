@@ -2,14 +2,14 @@
   "prerequisites": [
     {
       "type": "questlog:quest_complete",
-      "quest": "questlog:fresh_beginnings/main_intro"
+      "quest": "questlog:legendary_eyes/kill_dead_king_1"
     }
   ],
   "objectives": [
     {
       "type": "questlog:entity_kill",
       "entity": "irons_spellbooks:dead_king",
-      "name": "Locate and Kill The Dead King"
+      "name": "Banish The Dead King"
     }
   ],
   "rewards": [
@@ -21,8 +21,13 @@
     },
     {
       "type": "questlog:item",
-      "name": "minecraft:emerald",
+      "item": "minecraft:emerald",
       "number": 15
+    },
+    {
+      "type": "questlog:command",
+      "command": "/execute as @a[distance=..100] run ql progress complete questlog:legendary_eyes/kill_dead_king_2 @a[distance=..100]",
+      "auto_claim": true
     }
   ],
   "title": "The Lich",
@@ -32,7 +37,7 @@
   },
   "chapter": "legendary_eyes",
   "sort_order": 0,
-  "toast_on_unlock": true,
-  "toast_on_complete": false,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
   "show_popup_on_unlock": false
 }

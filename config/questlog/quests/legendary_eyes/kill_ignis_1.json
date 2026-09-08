@@ -1,0 +1,29 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "cataclysm:burning_arena",
+      "name": "Find The Burning Arena"
+    }
+  ],
+  "rewards": [
+
+  ],
+  "title": "Immortal Inferno",
+  "description": "Name: [Ignis](image:tumblrbumblr:textures/quests/photos/ignis.png:150:150)\nKnown Locations: The Nether\nEstimated Size: Large\nBehavior: Relentless in combat and capable of damaging his target ignoring armor through the [Blazing Brand effect](image:cataclysm:textures/mob_effect/blazing_brand.png). Becomes more unpredictable as combat progresses.\nDanger Level: §8§lDeadly",
+  "icon": {
+    "item": "endrem:nether_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "hide_when_completed": true
+}

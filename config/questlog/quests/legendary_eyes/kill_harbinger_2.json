@@ -1,0 +1,43 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:legendary_eyes/kill_harbinger_1"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "cataclysm:the_harbinger",
+      "name": "Kill The Harbinger"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 30,
+      "levels": true,
+      "name": "30 Levels"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "number": 15
+    },
+    {
+      "type": "questlog:command",
+      "command": "/execute as @a[distance=..100] run ql progress complete questlog:legendary_eyes/kill_harbinger_2 @a[distance=..100]",
+      "auto_claim": true
+    }
+  ],
+  "title": "The Mech",
+  "description": "Name: [The Harbinger](image:tumblrbumblr:textures/quests/photos/harbinger.png:150:150)\nKnown Locations: Underground\nEstimated Size: Large\nBehavior: Attacks mindlessly while in combat, switching betwen missiles and lasers. Most dangerous is its energy beam. Projectile attacks appear useless when at 50% integrity.\nDanger Level: §8§lDeadly",
+  "icon": {
+    "item": "endrem:wither_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

@@ -1,0 +1,43 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:legendary_eyes/kill_ignis_2"
+    }
+  ],
+  "objectives": [
+      {
+        "type": "questlog:entity_kill",
+        "entity": "cataclysm:ignis",
+        "name": "Banish Ignis" 
+      }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 30,
+      "levels": true,
+      "name": "30 Levels"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "number": 15
+    },
+    {
+      "type": "questlog:command",
+      "command": "/execute as @a[distance=..100] run ql progress complete questlog:legendary_eyes/kill_ignis_3 @a[distance=..100]",
+      "auto_claim": true
+    }
+  ],
+  "title": "Immortal Inferno",
+  "description": "Name: [Ignis](image:tumblrbumblr:textures/quests/photos/ignis.png:150:150)\nKnown Locations: The Nether\nEstimated Size: Large\nBehavior: Relentless in combat and capable of damaging his target ignoring armor through the [Blazing Brand effect](image:cataclysm:textures/mob_effect/blazing_brand.png). Becomes more unpredictable as combat progresses.\nDanger Level: §8§lDeadly",
+  "icon": {
+    "item": "endrem:nether_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

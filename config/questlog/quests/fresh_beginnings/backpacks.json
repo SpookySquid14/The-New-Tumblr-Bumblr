@@ -45,13 +45,13 @@
     }
   ],
   "title": "Pack It Up",
-  "description": "In your journey, you're bound to obtain a plethora of different blocks and items, and these things take up valuable space. Perhaps you've tried to remedy this with bundles, but even they have their limits. At some point, you may want something akin to an entirely new inventory. Well, I, Professor Larch, know of a way to achieve this. The solution you're looking for is a §o§6Backpack.§r\nWhile a little costly with leather, a basic backpack is like a chest you can carry around. Wait, those exist, don't they? In that other dimension? Well, no matter. Unlike said boxes, your backpack can be carried on, well, your back via the curios slot. You can quickly deposit an item by hovering the backpack over it and right clicking.\nBackpacks are capable of so much more, but that isn't my subject to teach.\nA little bonus teaching for you, sometimes you may see mobs in the wild with backpacks of their own. Defeating these stronger foes may let you get their bag for yourself.",
+  "description": "In your journey, you're bound to obtain a plethora of different blocks and items, and these things take up valuable space. Perhaps you've tried to remedy this with bundles, but even they have their limits. At some point, you may want something akin to an entirely new inventory. Well, I, Professor Larch, know of a way to achieve this. The solution you're looking for is a §o§6Backpack.§r\n[While a little costly with leather](image:tumblrbumblr:textures/quests/backpack.png:124:62), a basic backpack is like a chest you can carry around. Wait, those exist, don't they? In that other dimension? Well, no matter. Unlike said boxes, your backpack can be carried on, well, your back via the curios slot. You can quickly deposit an item by hovering the backpack over it and right clicking.\nBackpacks are capable of so much more, but that isn't my subject to teach.\nA little bonus teaching for you, sometimes you may see mobs in the wild with backpacks of their own. Defeating these stronger foes may let you get their bag for yourself.",
   "icon": {
     "item": "sophisticatedbackpacks:backpack"
   },
   "chapter": "main",
-  "sort_order": -3,
+  "sort_order": 0,
   "toast_on_unlock": true,
-  "toast_on_complete": false,
+  "toast_on_complete": true,
   "show_popup_on_unlock": false
 }

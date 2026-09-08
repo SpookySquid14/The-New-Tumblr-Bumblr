@@ -1,0 +1,29 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "cataclysm:soul_blacksmith",
+      "name": "Find The Soul Blacksmith"
+    }
+  ],
+  "rewards": [
+
+  ],
+  "title": "The Monstrous Creation",
+  "description": "Name: [The Netherite Monstrosity](image:tumblrbumblr:textures/quests/photos/netherite_monstrosity.png:150:150)\nKnown Locations: The Nether\nEstimated Size: Huge\nBehavior: Incredibly powerful and aggressive. Will shoot jets of fire and balls of magma at targets or charge at them. Immune to fire and capable of regenerating through absorbing nearby lava.\nDanger Level: §8§lDeadly",
+  "icon": {
+    "item": "endrem:lost_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "hide_when_completed": true
+}

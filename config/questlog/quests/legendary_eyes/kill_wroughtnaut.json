@@ -21,8 +21,13 @@
     },
     {
       "type": "questlog:item",
-      "name": "minecraft:emerald",
+      "item": "minecraft:emerald",
       "number": 15
+    },
+    {
+      "type": "questlog:command",
+      "command": "/execute as @a[distance=..100] run ql progress complete questlog:legendary_eyes/kill_wroughtnaut_2 @a[distance=..100]",
+      "auto_claim": true
     }
   ],
   "title": "The Living Armor",
@@ -32,7 +37,7 @@
   },
   "chapter": "legendary_eyes",
   "sort_order": 0,
-  "toast_on_unlock": true,
-  "toast_on_complete": false,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
   "show_popup_on_unlock": false
 }

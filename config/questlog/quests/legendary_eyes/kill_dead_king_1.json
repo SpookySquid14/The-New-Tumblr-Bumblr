@@ -1,0 +1,29 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "irons_spellbooks:catacombs",
+      "name": "Find The Catacombs Deep Underground"
+    }
+  ],
+  "rewards": [
+
+  ],
+  "title": "The Lich",
+  "description": "Name: [Unknown, commonly referred to as The Dead King](image:tumblrbumblr:textures/quests/photos/dead_king.png:150:150)\nKnown Locations: Underground\nEstimated Size: Medium\nBehavior: Master usage of blood magic, able to shoot projectiles and summon hordes of undead minions, as well as teleport behind its targets. No notes regarding its defensives, but accounts speak of having to kill it twice.\nDanger Level: §6§lMedium",
+  "icon": {
+    "item": "endrem:undead_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "hide_when_completed": true
+}

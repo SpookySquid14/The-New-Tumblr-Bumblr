@@ -33,7 +33,7 @@
     }
   ],
   "toast_on_unlock": false,
-  "toast_on_complete": false,
+  "toast_on_complete": true,
   "show_popup_on_unlock": true,
-  "description_completed": "Do try to avoid this fate, please. Also know that you can skip the respawn cinematic if you so desire."
+  "description_completed": "Do try to avoid this fate, please. Also know that §l§6you can skip the respawn cinematic with the Space key if you so desire."
 }

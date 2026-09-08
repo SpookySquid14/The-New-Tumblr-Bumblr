@@ -1,0 +1,29 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "cataclysm:ancient_factory",
+      "name": "Find The Ancient Factory Buried Underground"
+    }
+  ],
+  "rewards": [
+
+  ],
+  "title": "The Mech",
+  "description": "Name: [The Harbinger](image:tumblrbumblr:textures/quests/photos/harbinger.png:150:150)\nKnown Locations: Underground\nEstimated Size: Large\nBehavior: Attacks mindlessly while in combat, switching betwen missiles and lasers. Most dangerous is its energy beam. Projectile attacks appear useless when at 50% integrity.\nDanger Level: §8§lDeadly",
+  "icon": {
+    "item": "endrem:wither_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "hide_when_completed": true
+}

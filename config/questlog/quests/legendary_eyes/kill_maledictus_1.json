@@ -1,0 +1,29 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "cataclysm:frosted_prison",
+      "name": "Find The Frosted Prison"
+    }
+  ],
+  "rewards": [
+
+  ],
+  "title": "Banished King",
+  "description": "Name: [Maledictus](image:tumblrbumblr:textures/quests/photos/maledictus.png:150:150)\nKnown Locations: The Frosted Prison, found in the snow.\nEstimated Size: Large\nBehavior: Highly mobile and agressive, uses a multitude of different weapons. His rage increases with each successful attack. Rings display warnings on strength of attacks: Green can be blocked, yellow disables shields, and red cannot be blocked. Can be baited to use closer range attacks and then dodged. Pattern recognition and spacial awareness is essential.\nDanger Level: §8§lDeadly",
+  "icon": {
+    "item": "endrem:corrupted_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "hide_when_completed": true
+}

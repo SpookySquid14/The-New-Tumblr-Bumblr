@@ -1,0 +1,43 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:legendary_eyes/kill_vizier_1"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "goety:vizier",
+      "name": "Kill The Vizier"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 30,
+      "levels": true,
+      "name": "30 Levels"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "number": 15
+    },
+    {
+      "type": "questlog:command",
+      "command": "/execute as @a[distance=..100] run ql progress complete questlog:legendary_eyes/kill_vizier_2 @a[distance=..100]",
+      "auto_claim": true
+    }
+  ],
+  "title": "The Overseer",
+  "description": "Name: [Unknown, commonly referred to as The Vizier](image:tumblrbumblr:textures/quests/photos/vizier.png:150:150)\nKnown Locations: Unknown, reported to be in dark forests.\nEstimated Size: Medium\nBehavior: Master usage of dark magic, able to shoot projectiles and summon hordes of Irks, as well as phase through blocks.\nDanger Level: §6§lMedium",
+  "icon": {
+    "item": "endrem:magical_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

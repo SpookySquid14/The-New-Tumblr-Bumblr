@@ -1,0 +1,16 @@
+#Cooldown in ticks before a player can kiss again
+# Default: 30
+# Range: 0 ~ 6000
+kissCooldown = 30
+#Maximum distance between players to kiss
+# Default: 3.0
+# Range: 0.0 ~ 3.0
+kissDistance = 3.0
+#Number of half-hearts to transfer on kiss
+# Default: 1
+# Range: 0 ~ 40
+kissHearts = 1
+#Whether the kisser can give hearts to the target
+canGiveHearts = true
+#Whether to check distance between players
+checkDistance = false

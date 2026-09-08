@@ -7,8 +7,84 @@
   ],
   "objectives": [
     {
-      "type": "questlog:read",
-      "name": "Collect The Legendary Eyes"
+      "type": "questlog:item_obtain",
+      "item": "endrem:witch_eye",
+      "name": "Obtain the Sculk Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:black_eye",
+      "name": "Obtain the Black Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:undead_eye",
+      "name": "Obtain the Undead Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:cold_eye",
+      "name": "Obtain the Frozen Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:wither_eye",
+      "name": "Obtain the Mechanical Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:nether_eye",
+      "name": "Obtain the Demonic Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:exotic_eye",
+      "name": "Obtain the Sunken Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:corrupted_eye",
+      "name": "Obtain the Soul Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:evil_eye",
+      "name": "Obtain the Elemental Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:lost_eye",
+      "name": "Obtain the Lost Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:old_eye",
+      "name": "Obtain the Old Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:guardian_eye",
+      "name": "Obtain the Guardian Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:cursed_eye",
+      "name": "Obtain the Armored Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:magical_eye",
+      "name": "Obtain the Magical Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:cryptic_eye",
+      "name": "Obtain the Angler's Eye"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "endrem:rogue_eye",
+      "name": "Obtain the Angler's Eye"
     }
   ],
   "rewards": [
@@ -20,13 +96,13 @@
     }
   ],
   "title": "The Eyes That Guide The End",
-  "description": "You have done well to make it this far. I, Professor Larch, am sure I'd be proud of you if we knew eachother face to face. Now, as your final lesson in this section, it's time to learn about §6Waystones§r.\nWaystones are mysterious and ancient relics that allow for swift transportation from one location to another, at the cost of some experience, of course. This cost does get cheaper the further you travel, however.",
+  "description": "In this world, The End is only The Beginning, but before that, you must obtain 12 of the 16 Legendary Eyes.",
   "icon": {
     "item": "minecraft:ender_eye"
   },
   "chapter": "legendary_eyes",
-  "sort_order": 0,
-  "toast_on_unlock": true,
-  "toast_on_complete": false,
+  "sort_order": -1,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
   "show_popup_on_unlock": false
 }

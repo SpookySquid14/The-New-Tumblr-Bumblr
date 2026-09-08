@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"farmersdelight:dog_food"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:rotten_flesh"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

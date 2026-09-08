@@ -1,0 +1,43 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:legendary_eyes/kill_remnant_2"
+    }
+  ],
+  "objectives": [
+      {
+        "type": "questlog:entity_kill",
+        "entity": "cataclysm:ancient_remnant",
+        "name": "Kill The Ancient Remnant" 
+      }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 30,
+      "levels": true,
+      "name": "30 Levels"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "number": 15
+    },
+    {
+      "type": "questlog:command",
+      "command": "/execute as @a[distance=..100] run ql progress complete questlog:legendary_eyes/kill_remnant_3 @a[distance=..100]",
+      "auto_claim": true
+    }
+  ],
+  "title": "Sands Of Time",
+  "description": "Name: [The Ancient Remnant](image:tumblrbumblr:textures/quests/photos/remnant.png:150:150)\nKnown Locations: The Cursed Pyramid located in deserts.\nEstimated Size: Huge\nBehavior: Must be awakened by a [Necklace of The Desert](image:cataclysm:textures/item/necklace_of_the_desert.png) found buried within the sand of the pyramid. Extremely aggressive, attacks with charges, its tail, and twisters that disorientate its targets. Can begin to recover from damage when driven into a corner and is immune to projectiles, fire, and lava.\nDanger Level: §8§lDeadly",
+  "icon": {
+    "item": "endrem:old_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

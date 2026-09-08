@@ -1,0 +1,43 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:legendary_eyes/kill_cornelia_2"
+    }
+  ],
+  "objectives": [
+      {
+        "type": "questlog:entity_kill",
+        "entity": "aquamirae:captain_cornelia",
+        "name": "Summon and Banish Captain Cornelia" 
+      }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 30,
+      "levels": true,
+      "name": "30 Levels"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "number": 15
+    },
+    {
+      "type": "questlog:command",
+      "command": "/execute as @a[distance=..100] run ql progress complete questlog:legendary_eyes/kill_cornelia_3 @a[distance=..100]",
+      "auto_claim": true
+    }
+  ],
+  "title": "Ghostly Captain",
+  "description": "Name: [Captain Cornelia](image:tumblrbumblr:textures/quests/photos/cornelia.png:150:150)\nKnown Locations: Unknown, last seen sailing towards the frozen ocean.\nEstimated Size: Medium\nBehavior: Capable of using multiple weapons. When driven into a corner, can summon The Shipbreaker. Heavily resistant to all weapons unrelated to the Ice Maze and can only be killed if weakened at low health.\nDanger Level: §8§lHard",
+  "icon": {
+    "item": "endrem:black_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

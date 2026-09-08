@@ -1,0 +1,32 @@
+#Haunted Harvest
+[hauntedharvest]
+	Enable = true
+	#Solar Terms in which Haunted Harvest villager AI behaviors will be active.
+	"Halloween Time" = ["COLD_DEW", "FIRST_FROST"]
+	#Adds custom times in which mobs can wear pumpkins. Leave empty to ignore.
+	" Mobs Wear Pumpkins Time" = ["FIRST_FROST"]
+
+#Xaero's World Map
+[xaeroworldmap]
+	Enable = true
+	SkipVanillaColorCheck = true
+
+#Xaero's Minimap
+[xaerominimap]
+	Enable = true
+	SkipVanillaColorCheck = true
+
+#MineColonies
+[minecolonies]
+	Enable = true
+	# Default: 12000
+	# Range: 1 ~ 23999
+	AverageNightTime = 12000
+	# Default: 1000
+	# Range: -6000 ~ 6000
+	CheckSleepOffset = 1000
+
+#Domum Ornamentum
+[domum_ornamentum]
+	#Enable automatic snow-covered blocks and models.
+	Enable = true

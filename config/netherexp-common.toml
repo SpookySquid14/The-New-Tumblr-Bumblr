@@ -689,7 +689,7 @@
 	#Replaces the ugly fire texture when mobs are burning with particles based on Minecraft: Dungeons
 	improvedBurnParticles = true
 	#Mobs on fire will pulse a glow corresponding to the fire type they are on
-	mobBurningGlow = true
+	mobBurningGlow = false
 
 #Game Mechanic Settings
 [gameMechanicSettings]

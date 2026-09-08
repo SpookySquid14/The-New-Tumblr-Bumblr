@@ -1,0 +1,29 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "fdbosses:malkuth_arena",
+      "name": "Find Malkuth's Island"
+    }
+  ],
+  "rewards": [
+
+  ],
+  "title": "The Fallen King",
+  "description": "Name: [Malkuth](image:tumblrbumblr:textures/quests/photos/malkuth.png:150:150)\nKnown Locations: Oceans\nEstimated Size: Large\nBehavior: Utilizes fire and ice elements and puts his opponent on equal footing, making them immune to one and weak to the other, shown through a circle on their crosshair. Strikes powerful attacks with swords, the elements, and cannons. Because of equal footing, he cannot be damaged by means other than the cannons in the arena.\nDanger Level: §8§lDeadly",
+  "icon": {
+    "item": "endrem:evil_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "hide_when_completed": true
+}
