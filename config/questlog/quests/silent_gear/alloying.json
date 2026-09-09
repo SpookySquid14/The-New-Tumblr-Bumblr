@@ -1,0 +1,37 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/crimson_steel"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "silentgear:alloy_forge",
+      "name": "Craft An Alloy Forge"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "silentgear:blaze_gold_ingot",
+      "name": "Alloy Blaze Gold"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "True Combination",
+  "description": "Yuv got Crimson Steel, but les be real, it ain't cheap. Fortunately I had you make 'nuff of it to craft an [Alloy Forge](image:tumblrbumblr:textures/quests/alloy_forge.png:124:68). Sure hope ya didn't use it up on me.\nNow go ahead and make it, why don'tcha. It'll make the process of creating crimson steel much easier, along with our next material, Blaze Gold. After ya make the forge, go ahead and make sum of that, too. Just some gold and blaze powder, nuthing too crazy.",
+  "icon": {
+    "item": "silentgear:alloy_forge"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

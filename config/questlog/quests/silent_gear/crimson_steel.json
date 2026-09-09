@@ -1,0 +1,33 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/blueprints"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "silentgear:crimson_steel_ingot",
+      "name": "Create Some Crimson Steel",
+      "required_amount": 4
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "A Crimson Hue",
+  "description": "Now, at some point, yer gonna find limitations on whatcha can do in the Overworld alone. And that is when you gotta go searching... deeper. Aye, in the Nether, you'll be able to obtain Crimson Iron. On its own, it ain't much. But where it really shines is in its ability to be alloyed into Crimson Steel. For now, [you can just make the steel in a crafting table](image:tumblrbumblr:textures/quests/crimson_steel.png:124:62), but you'll later on be able to make it much more efficiently.",
+  "icon": {
+    "item": "silentgear:crimson_steel_ingot"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

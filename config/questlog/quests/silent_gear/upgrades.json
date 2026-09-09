@@ -1,0 +1,33 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/repair_kits"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "silentgear:advanced_upgrade_base",
+      "name": "Craft 4 Advanced Upgrade Bases",
+      "required_amount": 4
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "Upgrades, People, Upgrades",
+  "description": "Now, you're probably looking at your tool and thinkin' it's nice and all, but everything can be improved, can't it? Well, lemme tell you about upgrades. There ain't a lotta them, but is still good t' know.\nUpgrade Bases are simple, made with stone, wood, and 2 sticks. There's only one basic upgrade, and that's the Red Card, an upgrade that makes it so yer tools break like regular ones instead of going into a broken state. Why you'd want this, I'm not sure, but there's probably a use for it somewhere.\n[Advanced Upgrades are next, the base crafted with your basic bases, some gold, and some diamond shards](image:tumblrbumblr:textures/quests/advanced_upgrade_base.png:124:62). Real simple stuff. Advanced upgrades include extending the radius of hammers and excavators, making yer tools magnetic, makin' pathways with excavators, an' a spoon... for sum reason.",
+  "icon": {
+    "item": "silentgear:advanced_upgrade_base"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

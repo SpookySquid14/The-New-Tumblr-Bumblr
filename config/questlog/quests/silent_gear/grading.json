@@ -1,0 +1,50 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/alloying"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "silentgear:material_grader",
+      "name": "Craft A Material Grader"
+    },
+    {
+      "type": "questlog:or",
+      "name": "Obtain 4",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "silentgear:glowing_dust",
+          "name": "Glowing Dust",
+          "required_amount": 4
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "silentgear:blazing_dust",
+          "name": "Blazing Dust",
+          "required_amount": 4
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "What Are These, Trading Cards?",
+  "description": "Alright, I've strung you along for long enuff. Let's get to learning 'bout grading. Now, what is it, you ask? Well, graded materials offer stronger stats than non-graded materials. A regular old iron pickaxe will be okay, but an iron pickaxe made with grade A iron? Now that's gonna be stronger and last longer. Is not jus' the materials that matter, quality can make a huge difference.\nNow, to make a Material Grader, [you're gonna need some Blaze Gold, Iron, Quartz, and an Advanced Upgrade Base](image:tumblrbumblr:textures/quests/material_grader.png:124:62). In addition to the grader, you'll need a catalyst. Basic stuff is [Glowing Dust](image:tumblrbumblr:textures/quests/glowing_dust.png:124:62), but if you're feeling adventurous, crush up sum blaze gold with a hammer on the stone anvil, then craft it together with sum glowstone dust fer sum [Blazing Dust](image:tumblrbumblr:textures/quests/glowing_dust.png:124:62).\nOnce ya got the catalyst, just pop it into the grader with your material of choice and let it do its thing. After a bit o' waiting, you'll get the graded result, going from E to MAX. Best part? You can always pop the graded material in again to regrade it. You'll never get a grade worse than what it already is, but it can take sum time and catalysts to get sumthin higher, provided it can go any higher to begin with.",
+  "icon": {
+    "item": "silentgear:material_grader"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

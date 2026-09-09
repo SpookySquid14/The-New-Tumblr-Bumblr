@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/blueprints"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "item": "silentgear:prospector_hammer",
+      "name": "Craft A Prospector Hammer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "Ore Sniffer In Hand",
+  "description": "Now I don't plan on going through each and ev'ry tool there is, cause there's a lotta them. However, I feel it's worth talking about the [Prospector Hammer](image:tumblrbumblr:textures/quests/prospector_hammer.png:124:62) cause of its unique ability. When right clicking the side of a block, the prospector hammer will tell you if there are any ores in that direction. It's got a detection width of 3 blocks, the block you click and one on each side of it, and a range of 16 blocks ahead of you.",
+  "icon": {
+    "item": "silentgear:prospector_hammer"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

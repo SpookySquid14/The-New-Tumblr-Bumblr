@@ -15,8 +15,11 @@
   "rewards": [
     {
       "type": "questlog:item",
-      "item": "minecraft:emerald",
-      "name": "Emerald"
+      "item": "minecraft:emerald"
+    },
+    {
+      "type":"questlog:item",
+      "item":"silentgear:material_book"
     }
   ],
   "title": "A Silent Smith",
