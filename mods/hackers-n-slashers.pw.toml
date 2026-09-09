@@ -1,0 +1,21 @@
+filename = 'hackersandslashers-2.0-beta2.5.jar'
+name = "Hackers 'n Slashers"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'hackersandslashers-2.0-beta2.5.jar'
+
+[download]
+hash = 'e7864ce079c4f74b226d56d520d3639ca98d5394'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8838801
+project-id = 1176763
+
+[[x-prismlauncher-dependencies]]
+addonId = '1283899'
+type = 'REQUIRED'

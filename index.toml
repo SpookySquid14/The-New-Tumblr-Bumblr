@@ -698,7 +698,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "d2ce3bba4ef2d81ec792ce8a8051db823a9ea87cfddb7c171450678a55d08b72"
+hash = "e363c97157156a49cf013c6ab1c4e9df190c6bc86e17ba39c708903b884707c1"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -1885,6 +1885,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$spires.cfg"
 hash = "8526e49879668d479b2ce388b84ecec495cd99cd0b39cfbeb11cf0e8201dbc88"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$temperate_grove.cfg"
+hash = "a780e7740c7bc2c76827f97e77b40851d92c7f6fe33a04e608c5b1b8d0741716"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$towering_cliffs.cfg"
 hash = "a219a4c417de82b9d77b07eacf48094bb2522dfc75fe170795d439902816ab21"
 
@@ -1990,7 +1994,7 @@ hash = "a5c14aa35e5d5bfb3d855e56df212f1d1957029f286d3d4ee3c294b6d3d648bf"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "cdcc5719d36e99b1843e1252e80f40e8d411b3f33773228bde0576eac233782f"
+hash = "e5cb5beda34a53da007a52d399b6cf2f78070cc1cafc69cac053caffeca13c77"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2362,7 +2366,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "f42ae2e86676889fd89ba25822b63e82e0f554930b7c7435efabb57ee3144295"
+hash = "1cf4d445eef823655598c11a3fd0ce8c0b2907bbe65295be418c2381b2d091ca"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2713,6 +2717,10 @@ file = "config/mcgcore/progress/ecraft-saves-hack-n-slashers-combat-test-102f75a
 hash = "d351a1ea6706b3d02359858f4448e0fe96d77e1775a9513721c0209b21fe1771"
 
 [[files]]
+file = "config/mcgcore/progress/inecraft-saves-hackers-and-slashers-test-2132d5b4.json"
+hash = "b41f45d910fbab901155f7bc19887bf21325a3477b9a18047bb7cee5857f107b"
+
+[[files]]
 file = "config/mcgcore/progress/inecraft-saves-integrated-cataclysm-test-83632d2f.json"
 hash = "dbc99895beb719ed5f2554592c081d367969817b8670c9ce1a640cebd7afc50d"
 
@@ -2862,7 +2870,7 @@ hash = "55984be8a03604dd95446a84769854c5a42b064146db05dafa16c2ecba7a0971"
 
 [[files]]
 file = "config/multimine.cfg"
-hash = "a7b30ee50517356d63f4f7ce7fca93801a72d342745046e97e34a7e611ce5ea5"
+hash = "619886a6ef681e550565c344b07dae6948dad24c24e1fb265f7e2b39eaa967fd"
 
 [[files]]
 file = "config/mynethersdelight-common.toml"
@@ -3006,7 +3014,7 @@ hash = "7dda83d4436419564b495e65b4123ab8453eb926cdd8dabc526e41d3ace6bf40"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
-hash = "37bbb8df722f5abbd7305048007cc0ca5e0a9b84d3229d983a6753f7dbcfae80"
+hash = "49c3dddb307b7f8c21db9cc22ae9bc1bddd347cc8b7195d3e2bbbd3585012a63"
 
 [[files]]
 file = "config/packed_packs/__version.json"
@@ -3133,6 +3141,10 @@ file = "config/questlog/quests/fresh_beginnings/eccentric_tome.json"
 hash = "cc13ed1d1ef79e6e41eccd068f898047a995fc89caecdb0980527697be39e698"
 
 [[files]]
+file = "config/questlog/quests/fresh_beginnings/hackersandslashers.json"
+hash = "4a1b237e60a7174153b078815662ca65a4f319298e3fcb37c8f12fc13fce4d09"
+
+[[files]]
 file = "config/questlog/quests/fresh_beginnings/how_much_wood.json"
 hash = "9859b98d951bfbfa27e77644f81da1181a46fb23fbe45b2bff3ba8b62498d233"
 
@@ -3155,10 +3167,6 @@ hash = "bbd0925dd2961d9b659af97425387abce71bf2bff5bc058da1b572e2467d8468"
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/make_torches.json"
 hash = "78a832ee2dee58524bb3196af3860aa6d8327a7ef94fa24db1841acf95754e06"
-
-[[files]]
-file = "config/questlog/quests/fresh_beginnings/test.json"
-hash = "46722d2c4bd03a8dee941ba3683882eec2911fc72bd0a40d2bd8df41fdc2c356"
 
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/trading_post.json"
@@ -6594,6 +6602,11 @@ hash = "df064454e5d8807fe8bd90fd0ed47c09b8c2936817021f7e6e378c669e9e9a30"
 metafile = true
 
 [[files]]
+file = "mods/hackers-n-slashers.pw.toml"
+hash = "eb56190fe0f22480b255948ee166d5d2287533ec1e934b06b1f0eadec9c0e4ab"
+metafile = true
+
+[[files]]
 file = "mods/haunted-harvest.pw.toml"
 hash = "5f901b137de765d7c5c9de923e856914ab26ec8f674a3d4133d7003d3df435b6"
 metafile = true
@@ -7051,6 +7064,11 @@ metafile = true
 [[files]]
 file = "mods/platform.pw.toml"
 hash = "866ed6794f26037f66a598cbd03d270fc6ab84dfc056069e761ed8176316f7b6"
+metafile = true
+
+[[files]]
+file = "mods/player-animation-library.pw.toml"
+hash = "fdf83329099a0858118aa1c04836a0d8f1321ef28e913903169f681aa48da7ae"
 metafile = true
 
 [[files]]
