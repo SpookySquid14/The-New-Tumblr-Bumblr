@@ -706,7 +706,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "0bd750535b72d647eec482e6f37d449013aeb278297c02997cbed748672db704"
+hash = "d0e3f47de32053a195d237216a75802b63a5ccd944354af1823e0d4e28aca370"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -2037,6 +2037,10 @@ file = "config/forgeendertech/Biomes/twilightforest$oak_savannah.cfg"
 hash = "323a3f45e834fe0072ed3a32840f930b011e2b4421c7085109b2de06845c581e"
 
 [[files]]
+file = "config/forgeendertech/Biomes/twilightforest$thornlands.cfg"
+hash = "5e51f8215a63f618ad4b30e9ab285700a6d46903808aac4b317fd0f0c39e2c7d"
+
+[[files]]
 file = "config/forgeendertech/Biomes/werewolves$werewolf_heaven.cfg"
 hash = "944e71d7ba6dc2c84fd37ebabf1d920062c43183deed5e91ed5a5889f55a5a17"
 
@@ -2050,7 +2054,7 @@ hash = "a5c14aa35e5d5bfb3d855e56df212f1d1957029f286d3d4ee3c294b6d3d648bf"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "d5a825ae777c918b5cc6d38d8cdd988595eb2ec9d3bca760d862041fa88a8b51"
+hash = "efba691342f6ac2017e05fc536e21cbac715ff6538cef3a87c89ef1b1ab3f7f2"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2422,7 +2426,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "4d366861402e856c573d173549f36ade449ac9baddc24af521a4f9efeb3bc0e3"
+hash = "6bf45bb5d0750431ec28ef6a1130b432d86b49c6f60ec919c0d652a44bc66450"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -6389,6 +6393,11 @@ metafile = true
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
 hash = "1fd0ca3739cc148e6b8dbf7d54302d1f0fa126beb904f28faa9780f1a3f27c2a"
+metafile = true
+
+[[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "e62babc082e170187915541619edcd0e13c38aa9c65a6f73e87aef512312fa40"
 metafile = true
 
 [[files]]

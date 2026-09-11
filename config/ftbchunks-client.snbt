@@ -138,85 +138,85 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"quark:toretoise": true
-			"naturalist:snake": true
-			"fdbosses:chesed_monolith": true
 			"minecraft:zombie": true
-			"tide:ocean_perch": true
-			"werewolves:werewolf_beast": true
-			"minecraft:zombified_piglin": true
-			"goetyhostility:iceologer": true
-			"goety:heretic": true
-			"vampirism:advanced_vampire": true
-			"golemoverhaul:coal_golem": true
-			"minecraft:enderman": true
-			"goety:icy_spider": true
-			"minecraft:spider": true
-			"aquamirae:scuttler": true
-			"tide:cave_eel": true
-			"vampirism:converted_creature_imob": true
-			"minecraft:villager": true
-			"creeperoverhaul:cave_creeper": true
-			"minecraft:stray": true
-			"goetyhostility:frozen_zombie": true
-			"vampirism:vampire_baron": true
-			"tide:anchovy": true
-			"yungscavebiomes:ice_cube": true
-			"goety:wraith": true
-			"tide:iron_tetra": true
-			"minecraft:axolotl": true
-			"creeperoverhaul:dripstone_creeper": true
+			"minecraft:glow_squid": true
+			"quark:toretoise": true
 			"aquamirae:anglerfish": true
-			"goety:reaper": true
-			"primal:walrus": true
-			"vampirism:vampire": true
-			"naturalist:piranha": true
-			"werewolves:alpha_werewolf": true
-			"tide:red_snapper": true
-			"minecraft:hoglin": true
-			"fdbosses:chesed": true
-			"minecraft:tropical_fish": false
-			"tide:tuna": true
-			"irons_spellbooks:necromancer": true
-			"minecraft:zombie_villager": true
+			"fdbosses:chesed_monolith": true
+			"goety:icy_spider": true
+			"tide:ocean_perch": true
+			"vampirism:vampire_baron": true
 			"naturalist:mole": true
+			"minecraft:piglin": true
+			"tide:iron_tetra": true
+			"tide:crystalline_carp": true
+			"vampirism:advanced_vampire_imob": true
+			"goety:heretic": true
+			"naturalist:bird": true
+			"vampirism:vampire": true
+			"naturalist:bear": true
+			"goetyhostility:frozen_zombie": true
+			"werewolves:alpha_werewolf": true
+			"minecraft:spider": true
+			"minecraft:salmon": false
+			"aquamirae:maw": true
+			"vampirism:converted_creature_imob": true
+			"mowziesmobs:frostmaw": true
+			"minecraft:zombified_piglin": true
+			"creeperoverhaul:spruce_creeper": true
+			"creeperoverhaul:snowy_creeper": true
+			"tide:deep_grouper": true
+			"goety:wraith": true
+			"tide:cave_eel": true
+			"minecraft:tropical_fish": false
 			"minecraft:creeper": true
+			"tide:red_snapper": true
+			"creeperoverhaul:cave_creeper": true
+			"werewolves:werewolf_survivalist": true
+			"minecraft:polar_bear": true
+			"aquamirae:scuttler": true
+			"yungscavebiomes:ice_cube": true
+			"minecraft:villager": true
+			"naturalist:piranha": true
+			"primal:shark": true
+			"minecraft:enderman": true
+			"naturalist:snake": true
+			"minecraft:zombie_villager": true
+			"tide:tuna": true
+			"naturalist:crab": true
+			"creeperoverhaul:dripstone_creeper": true
+			"minecraft:axolotl": true
+			"minecraft:bat": true
+			"minecraft:wither_skeleton": true
+			"primal:walrus": true
+			"minecraft:wolf": true
 			"quark:stoneling": true
 			"tide:lapis_lanternfish": true
-			"vampirism:vampire_imob": true
-			"goety:web_spider": true
-			"naturalist:crab": true
-			"vampirism:blinding_bat": true
-			"naturalist:bear": true
-			"werewolves:werewolf_survivalist": true
-			"mowziesmobs:frostmaw": true
-			"minecraft:squid": true
-			"minecraft:strider": true
-			"aquamirae:maze_mother": true
-			"minecraft:wolf": true
-			"minecraft:piglin": true
-			"endermanoverhaul:cave_enderman": true
-			"vampirism:advanced_vampire_imob": true
-			"naturalist:bird": true
-			"minecraft:salmon": false
-			"primal:shark": true
-			"tide:crystalline_carp": true
-			"minecraft:rabbit": true
-			"creeperoverhaul:spruce_creeper": true
 			"goety:warlock": true
-			"minecraft:bat": true
+			"vampirism:vampire_imob": true
+			"minecraft:stray": true
+			"minecraft:hoglin": true
+			"minecraft:strider": true
+			"vampirism:advanced_vampire": true
+			"aquamirae:maze_mother": true
 			"goetyhostility:sunken_skeleton": true
-			"minecraft:glow_squid": true
-			"creeperoverhaul:snowy_creeper": true
-			"artifacts:mimic": true
-			"minecraft:wither_skeleton": true
-			"naturalist:anglerfish": true
-			"minecraft:polar_bear": true
+			"werewolves:werewolf_beast": true
+			"golemoverhaul:coal_golem": true
 			"goety:reprobate": true
+			"minecraft:rabbit": true
 			"vampirism:converted_sheep": true
+			"minecraft:squid": true
+			"goetyhostility:iceologer": true
+			"goety:web_spider": true
+			"tide:anchovy": true
+			"artifacts:mimic": true
+			"endermanoverhaul:cave_enderman": true
 			"minecraft:skeleton": true
-			"aquamirae:maw": true
-			"tide:deep_grouper": true
+			"goety:reaper": true
+			"irons_spellbooks:necromancer": true
+			"naturalist:anglerfish": true
+			"fdbosses:chesed": true
+			"vampirism:blinding_bat": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
