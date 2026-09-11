@@ -1,0 +1,31 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:nether/enter_nether"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "betterfortresses:fortress",
+      "name": "Find a Nether Fortress"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "To Invade",
+  "description": "Now, my dear, it is time you sought out why you came here. Yes, seek out the towering fortresses that dot this fiery wasteland, built from brick made up of its substance. Seek it out, my dear.",
+  "icon": {
+    "item": "minecraft:nether_bricks"
+  },
+  "chapter": "nether",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

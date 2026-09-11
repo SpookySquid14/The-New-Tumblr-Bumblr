@@ -3,6 +3,7 @@
   "name": "Tumblr Bumblr",
   "overrides": {},
   "packIds": [
+    "hns_mace",
     "file/[Forge] IE Reimmersed v1.1.zip",
     "file/fresh_waystones.zip",
     "mod/towntalk:respack",

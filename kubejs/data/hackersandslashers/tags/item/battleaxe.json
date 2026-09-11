@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "cataclysm:soul_render",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ceraunus",
+      "required": false
+    },
+    {
+      "id": "vampirism:hunter_axe_normal",
+      "required": false
+    },
+    {
+      "id": "vampirism:hunter_axe_enhanced",
+      "required": false
+    },
+    {
+      "id": "vampirism:hunter_axe_ultimate",
+      "required": false
+    }
+  ]
+}

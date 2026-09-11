@@ -1,0 +1,67 @@
+{
+    "weaponStyle": "SPEAR",
+    "handling": {
+        "weight": 1.5,
+        "weapon_inertia_tilt": 2.0,
+        "hand_inertia_tilt": 0.5,
+        "momentum_speed": 0.75,
+        "sway_amplitude": 0.3,
+        "sway_speed": 1,
+        "crouch_drop": -2
+    },
+    "scale_override": 1.0,
+    "hitboxData": {
+        "hitboxStart": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "hitboxEnd": [
+            0.0,
+            2.5,
+            0.0
+        ],
+        "visuals": {
+            "trailStart": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "trailEnd": [
+                0.0,
+                2.5,
+                0.0
+            ]
+        }
+    },
+    "stances": {
+        "onIdle": "hackersandslashers:hns_one_handed_idle",
+        "onSneak": "hackersandslashers:one_handed_sneak",
+        "onDash": "one_handed_dash",
+        "onKickOff": "one_handed_kick_off",
+        "onPowerChargeOneHanded": "hackersandslashers:charge_generic_oh",
+        "onPowerChargeDualHanded": "hackersandslashers:charge_generic_dh"
+    },
+    "moveset": {
+        "onGrappleAttack": {
+            "oneHanded": [],
+            "dualHanded": []
+        },
+        "onAttack": {
+            "oneHanded": [
+                {
+                    "attack": "hackersandslashers:hnsattack_one_handed_trident_thrust",
+                    "damage_multiplier": "1",
+                    "haste": "1",
+                    "trailParticle": "hackersandslashers:trail_base",
+                    "onPowerAttack": {
+                        "attack": "hackersandslashers:hnsattack_one_handed_trident_strong_thrust",
+                        "used_hand": "RIGHT",
+                        "damage_multiplier": 2
+                    }
+                }
+            ],
+            "dualHanded": []
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "aquamirae:shatterspike",
+      "required": false
+    },
+    {
+      "id": "aquamirae:tidepiercer",
+      "required": false
+    },
+    {
+      "id": "vampirism:pitchfork",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:lava_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:coal_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:coal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:dust_coal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:miner_foliot_unspecialized","components":"{\"occultism:max_mining_time\":400,\"occultism:rolls_per_operation\":1}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:dimensional_mineshaft"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:miner_djinni_ores","components":"{\"minecraft:damage\":3,\"occultism:max_mining_time\":300,\"occultism:rolls_per_operation\":1}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

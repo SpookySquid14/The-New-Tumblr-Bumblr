@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+        {
+      "id": "cataclysm:the_annihilator",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_immolator",
+      "required": false
+    }
+  ]
+}

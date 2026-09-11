@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:potion","components":"{\"minecraft:potion_contents\":{potion:\"vampirism:very_long_water_breathing\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:potion","components":{"minecraft:potion_contents":{"potion":"vampirism:very_long_water_breathing"},"create:potion_fluid_bottle_type":"regular"}},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:potion","components":{"minecraft:potion_contents":{"potion":"vampirism:very_long_water_breathing"},"create:potion_fluid_bottle_type":"splash"}},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:splash_potion","components":"{\"minecraft:potion_contents\":{potion:\"vampirism:very_long_water_breathing\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

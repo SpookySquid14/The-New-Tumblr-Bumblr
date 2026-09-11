@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "cataclysm:athame",
+      "required": false
+    },
+    {
+      "id": "goety:wicked_boline",
+      "required": false
+    },
+    {
+      "id": "endermanoverhaul:corrupted_blade",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "cataclysm:void_forge",
+      "required": false
+    },
+    {
+      "id": "cataclysm:infernal_forge",
+      "required": false
+    },
+    {
+      "id": "cataclysm:brontes",
+      "required": false
+    },
+    {
+      "id": "goety:iron_ice_axe",
+      "required": false
+    },
+    {
+      "id": "goety:reinforced_ice_axe",
+      "required": false
+    },
+    {
+      "id": "goety:diamond_ice_axe",
+      "required": false
+    }
+  ]
+}

@@ -26,6 +26,10 @@
 	# Range: -6000 ~ 6000
 	CheckSleepOffset = 1000
 
+#InControl
+[incontrol]
+	Enable = true
+
 #Domum Ornamentum
 [domum_ornamentum]
 	#Enable automatic snow-covered blocks and models.

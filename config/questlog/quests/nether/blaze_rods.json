@@ -1,0 +1,30 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:nether/nether_fortress"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "A Blaze of Glory",
+  "description": "Within the fortress, you will find two major entities. The first is the Wither Skeleton, but you already knew that. The second, however, is the Blaze. I'm sure you are at least aware of its existence. They are no doubt why you came here, amongst other motives.\nBut you won't find them simply by walking around. No, a blaze is a unique creature. It is only summoned, not born, nor created naturally. Within the fortress, you will find several of these... spawners. An infinite supply of blazes, so long as it remains intact. Their bodies, you see, are made up of wonderous rods of flame. But if you're an engineer, perhaps their heads would do you more good. Whatever your reasons, the rods are not guaranteed, so be sure to take any that you can.",
+  "icon": {
+    "item": "minecraft:blaze_rod"
+  },
+  "chapter": "nether",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

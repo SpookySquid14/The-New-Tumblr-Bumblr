@@ -1,0 +1,8 @@
+{
+  "name": "Nether",
+  "icon": {
+    "item": "minecraft:netherrack"
+  },
+  "default_chapter": false,
+  "hidden": false
+}

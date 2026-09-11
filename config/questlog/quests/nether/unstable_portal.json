@@ -1,0 +1,34 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "gateways:gate_pearl",
+      "components": {"gateways:gateway": "gateways:unstable_nether_portal"},
+      "name": "Unstable Nether Portal"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Into The Fire",
+  "description": "There is only so much one can do in the Overworld's... restrictions. If you're reading this, I'm sure you agree.\nAh, but lets not get too ahead of ourselves. Let me ask you a question, have you built a portal? If you have, you've no doubt realized it's not quite that simple. The secrets of travel were lost long ago, but there is a way.\nThe piglins. They live in ruins of a once wonderous society, one that was not bound by the walls of dimensions. Certain they still have the scripturem, you just need... a way to acquire it.\n[This... \"unstable\" portal](image:tumblrbumblr:textures/quests/unstable_nether_portal.png:124:62), my own design of course. It will not let you enter, but perhaps the ones residing may come your way instead.",
+  "icon": {
+    "item": "gateways:gate_pearl",
+      "components": {"gateways:gateway": "gateways:unstable_nether_portal"}
+  },
+  "chapter": "nether",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "description_completed": "Perfect. Now that you have the portal, simply use it in an open area. And... prepare for a fight. The piglins have never been the most... friendly of species."
+}

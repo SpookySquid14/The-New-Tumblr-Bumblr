@@ -1,0 +1,262 @@
+{
+    "weaponStyle": "SWORD",
+    "handling": {
+        "weight": 1.0,
+        "weapon_inertia_tilt": 2.0,
+        "hand_inertia_tilt": 0.5,
+        "momentum_speed": 0.85,
+        "sway_amplitude": 0.3,
+        "sway_speed": 1,
+        "crouch_drop": -2.0
+    },
+    "scale_override": 1.2,
+    "hitboxData": {
+        "hitboxStart": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "hitboxEnd": [
+            0.0,
+            1.2,
+            0.0
+        ],
+        "visuals": {
+            "trailStart": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "trailEnd": [
+                0.0,
+                1.2,
+                0.0
+            ]
+        }
+    },
+    "stances": {
+        "onIdle": {
+            "third_person": "hackersandslashers:hns_sword_idle",
+            "first_person": "hackersandslashers:hns_sword_idle_fp"
+        },
+        "onSprint": "hackersandslashers:one_handed_sprint",
+        "onSneak": "hackersandslashers:one_handed_sneak",
+        "onDash": "one_handed_dash",
+        "onKickOff": "one_handed_kick_off",
+        "onGrappleHold": "hackersandslashers:hns_one_handed_grapple",
+        "onPowerChargeOneHanded": "hackersandslashers:charge_slicer",
+        "onPowerChargeDualHanded": "hackersandslashers:charge_slicer",
+        "mounted": {
+            "onIdle": "hackersandslashers:one_handed_mounted_idle",
+            "onWalk": "hackersandslashers:one_handed_mounted_walk",
+            "onSprint": "hackersandslashers:one_handed_mounted_sprint"
+        },
+        "onParry": "hackersandslashers:parry_generic"
+    },
+    "moveset": {
+        "onUltimateAttack": {
+            "oneHanded": [
+                {
+                    "attack": "hackersandslashers:hnsattack_one_handed_sword_ultimate_a",
+                    "haste": 1.0,
+                    "used_hand": "RIGHT",
+                    "damage_multiplier": 2,
+                    "attackMovespeedReduction": {
+                        "preAttack": 0.9,
+                        "duringAttack": 0,
+                        "postAttack": 0.9
+                    },
+                    "trailParticle": "hackersandslashers:trail_slash_ultimate",
+                    "attackEvents": {
+                        "onAttackRelease": {
+                            "applyImpulse": {
+                                "xyz": [
+                                    0.0,
+                                    0.0,
+                                    1.3
+                                ],
+                                "followCursorDirection": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "attack": "hackersandslashers:hnsattack_one_handed_sword_ultimate_b",
+                    "haste": 1.0,
+                    "used_hand": "RIGHT",
+                    "damage_multiplier": 2,
+                    "attackMovespeedReduction": {
+                        "preAttack": 0.9,
+                        "duringAttack": 0,
+                        "postAttack": 0.9
+                    },
+                    "trailParticle": "hackersandslashers:trail_slash_ultimate",
+                    "attackEvents": {
+                        "onAttackRelease": {
+                            "applyImpulse": {
+                                "xyz": [
+                                    0.0,
+                                    0.0,
+                                    1.3
+                                ],
+                                "followCursorDirection": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "attack": "hackersandslashers:hnsattack_one_handed_sword_ultimate_c",
+                    "haste": 0.8,
+                    "used_hand": "RIGHT",
+                    "damage_multiplier": 4,
+                    "attackMovespeedReduction": {
+                        "preAttack": 0.0,
+                        "duringAttack": 0,
+                        "postAttack": 0.9
+                    },
+                    "attack_sound": "hackersandslashers:power_attack_swing",
+                    "trailParticle": "hackersandslashers:trail_slash_ultimate",
+                    "attackEvents": {
+                        "onAttackRelease": {
+                            "applyImpulse": {
+                                "xyz": [
+                                    0.0,
+                                    0.0,
+                                    1.3
+                                ],
+                                "followCursorDirection": true
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "onMountedAttack": {
+            "oneHanded": []
+        },
+        "onGrappleAttack": {
+            "oneHanded": [],
+            "dualHanded": []
+        },
+        "onAttack": {
+            "oneHanded": [
+                {
+                    "attack": "hackersandslashers:hnsattack_one_handed_leftswing",
+                    "damage_multiplier": "1.0",
+                    "haste": "2.5",
+                    "trailParticle": "hackersandslashers:trail_slash",
+                    "onPowerAttack": {
+                        "attack": "hackersandslashers:hnsattack_one_handed_strong_rightswing",
+                        "used_hand": "RIGHT",
+                        "attackMovespeedReduction": {
+                            "preAttack": 0.0,
+                            "duringAttack": 0.9,
+                            "postAttack": 0.0
+                        },
+                        "trailParticle": "hackersandslashers:trail_slash",
+                        "attackEvents": {
+                            "onAttackRelease": {
+                                "applyImpulse": {
+                                    "xyz": [
+                                        0.0,
+                                        0.0,
+                                        1.1
+                                    ],
+                                    "followCursorDirection": false
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "attack": "hackersandslashers:hnsattack_one_handed_rightswing",
+                    "damage_multiplier": "1.0",
+                    "haste": "1",
+                    "trailParticle": "hackersandslashers:trail_slash",
+                    "onPowerAttack": {
+                        "attack": "hackersandslashers:hnsattack_one_handed_strong_rightswing",
+                        "used_hand": "RIGHT",
+                        "attackMovespeedReduction": {
+                            "preAttack": 0.0,
+                            "duringAttack": 0.9,
+                            "postAttack": 0.0
+                        },
+                        "trailParticle": "hackersandslashers:trail_slash",
+                        "attackEvents": {
+                            "onAttackRelease": {
+                                "applyImpulse": {
+                                    "xyz": [
+                                        0.0,
+                                        0.0,
+                                        1.1
+                                    ],
+                                    "followCursorDirection": false
+                                }
+                            }
+                        }
+                    }
+                }
+            ],
+            "dualHanded": [
+                {
+                    "attack": "hackersandslashers:hnsattack_one_handed_rightswing",
+                    "used_hand": "RIGHT",
+                    "damage_multiplier": "0.75",
+                    "haste": "2.5",
+                    "trailParticle": "hackersandslashers:trail_slash",
+                    "onPowerAttack": {
+                        "attack": "hackersandslashers:hnsattack_one_handed_strong_rightswing",
+                        "used_hand": "RIGHT",
+                        "attackMovespeedReduction": {
+                            "preAttack": 0.0,
+                            "duringAttack": 0.9,
+                            "postAttack": 0.0
+                        },
+                        "trailParticle": "hackersandslashers:trail_slash",
+                        "attackEvents": {
+                            "onAttackRelease": {
+                                "applyImpulse": {
+                                    "xyz": [
+                                        0.0,
+                                        0.0,
+                                        1.1
+                                    ],
+                                    "followCursorDirection": false
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "attack": "hackersandslashers:hnsattack_one_handed_rightswing",
+                    "damage_multiplier": "1",
+                    "used_hand": "LEFT",
+                    "haste": "1",
+                    "trailParticle": "hackersandslashers:trail_slash",
+                    "onPowerAttack": {
+                        "attack": "hackersandslashers:hnsattack_one_handed_strong_rightswing",
+                        "used_hand": "RIGHT",
+                        "attackMovespeedReduction": {
+                            "preAttack": 0.0,
+                            "duringAttack": 0.9,
+                            "postAttack": 0.0
+                        },
+                        "trailParticle": "hackersandslashers:trail_slash",
+                        "attackEvents": {
+                            "onAttackRelease": {
+                                "applyImpulse": {
+                                    "xyz": [
+                                        0.0,
+                                        0.0,
+                                        1.1
+                                    ],
+                                    "followCursorDirection": false
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

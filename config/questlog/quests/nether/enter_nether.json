@@ -1,0 +1,36 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:nether/unstable_portal"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "tumblrbumblr:inscribed_tablet"
+    },
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:the_nether",
+      "name": "Enter The Nether"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Fire And Brimstone",
+  "description": "Now it is time. Use the unstable portal and kill the ones who invade your home. Be prepared for a fight. You will no doubt need to fight multiple waves of the piglins, perhaps even... the prototype.\nWith the tablet in hand, you'll have the knowledge and power to break down the walls between dimensions. I suggest you do so if you wish for your journey to continue, my friend.",
+  "icon": {
+    "item": "tumblrbumblr:inscribed_tablet"
+  },
+  "chapter": "nether",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "description_completed": "Wonderful, truly wonderful. I can't wait to see what happens next."
+}

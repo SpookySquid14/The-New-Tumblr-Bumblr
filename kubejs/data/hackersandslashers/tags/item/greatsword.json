@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "irons_spellbooks:spellbreaker",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:boreal_blade",
+      "required": false
+    },
+    {
+      "id": "vampirism:heart_seeker_normal",
+      "required": false
+    },
+    {
+      "id": "vampirism:heart_seeker_enhanced",
+      "required": false
+    },
+    {
+      "id": "vampirism:heart_seeker_ultimate",
+      "required": false
+    },
+    {
+      "id": "vampirism:heart_striker_normal",
+      "required": false
+    },
+    {
+      "id": "vampirism:heart_striker_enhanced",
+      "required": false
+    },
+    {
+      "id": "vampirism:heart_striker_ultimate",
+      "required": false
+    }
+  ]
+}

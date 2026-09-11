@@ -1,21 +1,21 @@
-filename = 'better_mob_combat_reimagined-1.1.10.jar'
-name = 'Better Mob Combat - Reimagined'
+filename = 'logprot-1.21.1-3.6.jar'
+name = 'Login Protection'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'better_mob_combat_reimagined-1.1.10'
+x-prismlauncher-version-number = 'logprot-1.21.1-3.6.jar'
 
 [download]
-hash = '9abe5468ce72bd7771f0a0ba28010a6621a85689'
+hash = '8898ea5203038aea97d1da86ef5146801c6d000d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8497258
-project-id = 1606434
+file-id = 8824987
+project-id = 358304
 
 [[x-prismlauncher-dependencies]]
-addonId = '639842'
+addonId = '326652'
 type = 'REQUIRED'

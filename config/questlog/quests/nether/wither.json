@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:nether/wither_skulls"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "minecraft:wither",
+      "name": "Do what must be done"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Incarnation",
+  "description": "Wonderful, wonderful. You've gone and gathered all the pieces, all three catalysts. The ancients once tried to create life, but were unable to control their creation. But now, the time has come for Death to return to this plain. Gather the skulls and soul sand, and bring back that which was lost so long ago.\nGo on, do it. It'll be fun.",
+  "icon": {
+    "item": "minecraft:wither_skeleton_skull"
+  },
+  "chapter": "nether",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "description_completed": "No! How could you kill it! You don't know what you're doing!\nYou... you don't know..."
+}

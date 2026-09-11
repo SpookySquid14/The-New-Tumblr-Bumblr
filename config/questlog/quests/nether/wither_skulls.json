@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:nether/nether_fortress"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:wither_skeleton_skull",
+      "amount_required": 3
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Execution",
+  "description": "You've seen them, the charred bones of those that guard the fortress. Have you felt their touch, withering away your very soul? Yes, the Wither Skeletons are the undying servants that roam these halls for eternity. It is your duty to eliminate them. Rip [their skulls](image:tumblrbumblr:textures/quests/wither_skull.png:80:80) from their bodies until you've amassed a small collection. You will need them for what comes next.",
+  "icon": {
+    "item": "minecraft:wither_skeleton_skull"
+  },
+  "chapter": "nether",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "description_completed": "So close, so close. You're nearly there."
+}

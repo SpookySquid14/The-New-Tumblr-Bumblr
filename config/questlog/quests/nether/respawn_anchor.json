@@ -1,0 +1,34 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:nether/enter_nether"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:respawn_anchor"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type":"questlog:item",
+      "item":"minecraft:glowstone"
+    }
+  ],
+  "title": "Death And Rebirth",
+  "description": "Now that you've reached The Nether, you don't want to die and be sent back, do you? No, I'm certain that would be... undesirable. But a simple bed will not do, no, no. Instead, I implore you to craft a [Respawn Anchor](image:tumblrbumblr:textures/quests/respawn_anchor.png:124:62). Fueled with blocks of glowstone, your very soul will be anchored to this plane.",
+  "icon": {
+    "item": "minecraft:respawn_anchor"
+  },
+  "chapter": "nether",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

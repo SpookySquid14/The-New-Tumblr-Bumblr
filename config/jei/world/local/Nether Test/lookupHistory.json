@@ -1,0 +1,11 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"occultism:netherite_scrap_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:netherite_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:witherite_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:wither_skeleton_skull"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:respawn_anchor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:dead_king_phylactery_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:dead_king_phylactery"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gateways:gate_pearl","components":"{\"gateways:gateway\":\"gateways:unstable_nether_portal\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
