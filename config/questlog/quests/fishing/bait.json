@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fishing/fishing_basics"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "#tide:bait_items",
+      "amount_required": 4,
+      "name": "Obtain 4 Baits"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "About Bait",
+  "description": "Catching fish can be a wonderfully relaxing activity, but you probably want to, y'know, catch them more, don't you? Well, that's where bait comes in. They can be made from all sorts of things, but the most basic can be made with some rotten flesh, bonemeal, seeds, and mushrooms.\nUsing bait is very simple. Just hover the bait over your fishing rod, or vice versa, and right click. The bait will fill one of the rod's bait slots. Different rods have different amounts of slots. You can combine multiple types of bait to stack their effects, but only one of each can be used.",
+  "icon": {
+    "item": "tide:bait"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

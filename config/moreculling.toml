@@ -24,6 +24,7 @@ azurelib = true
 farmersdelight = true
 mob_grinding_utils = true
 createtransmission = true
+simulatedcoasters = true
 goety = true
 silentgear = true
 golemoverhaul = true

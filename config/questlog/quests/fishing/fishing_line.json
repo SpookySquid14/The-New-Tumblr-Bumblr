@@ -1,0 +1,30 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fishing/angling_table"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "tide:fishing_line"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Line It Up",
+  "description": "Fishing lines can be very useful. They have varrying properties, but the gist is that they modify the catching minigame, like making the line move slower.\nThe basic line is cosmetic, but serves as the base for the other lines, each crafted with the basic line and one of the material on the top and bottom.",
+  "icon": {
+    "item": "tide:fishing_line"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

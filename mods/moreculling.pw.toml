@@ -1,19 +1,19 @@
-filename = 'moreculling-neoforge-1.21.1-1.0.9.jar'
-name = 'MoreCulling'
-side = ''
+filename = 'moreculling-neoforge-1.21.1-1.0.10.jar'
+name = 'More Culling'
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'v1.0.9'
+x-prismlauncher-version-number = 'v1.0.10'
 
 [download]
-hash = 'ae55b17d7257dbc52616899198545dc219c132af'
+hash = '7e2d906031fdba883649eef6ef48a4dbdbb0f6cf'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8563409
+file-id = 8833217
 project-id = 630104
 
 [[x-prismlauncher-dependencies]]

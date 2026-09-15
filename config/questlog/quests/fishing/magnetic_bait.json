@@ -1,0 +1,31 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fishing/bait"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "tide:magnetic_bait",
+      "amount_required": 4
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Crates and Magnetic Baits",
+  "description": "So, you should know that you won't always fish up a, well, fish. It's sad, but the waters aren't free of boots and other junk. Even so, there's some valuable stuff you can find. I think my favourite may be crates. They can hold all sorts of goodies.\nIf you're wanting to get crates more often, you'll definitely want to make some [magnetic bait](image:tumblrbumblr:textures/quests/magnetic_bait.png:124:62). It'll up your chances of fishing up crates.",
+  "icon": {
+    "item": "tide:wooden_crate"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

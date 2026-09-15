@@ -1,0 +1,30 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:the_end"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "tide:void_hook"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Your Fish Are Null And Void",
+  "description": "Okay, this caught me off guard when a friend told me, but apparently you can fish in the void. You need [a real special hook](image:tumblrbumblr:textures/quests/void_hook.png:124:62), but it can be done, and apparently you can get some real unique fish. The End is probably the easiest place to do this, but there's a rare species of fish found underground called the [Chasm Eel](image:tide:textures/item/chasm_eel.png:50:50), it can be used to break even bedrock.",
+  "icon": {
+    "item": "tide:fishing_hook"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

@@ -1,0 +1,33 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fishing/fishing_rod"
+    }
+  ],
+  "objectives": [
+    {
+      "type":"questlog:stat",
+      "stat": "minecraft:fish_caught",
+      "required_amount": 1,
+      "retroactive": false,
+      "name": "Catch a Fish"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Basics Of Fishing",
+  "description": "Hey, you actually made one, nice going. Alright, get comfortable, I'll teach you the basics. So, first thing you're gonna want to do is cast the rod by holding and then releasing right click. Longer you hold it, the further it'll go. Simple, right?\nOnce that's done... I guess it's just a waiting game. But you'll eventually catch something. You'll know you did because your bobber with be pulled down. With a fish caught on the hook, right click to begin pulling it in. In doing so, you'll be shown a bar with a moving line. Your goal is right click when the line is as close to the middle as possible. If you get it right, you reel in your catch. Otherwise, it might just escape.",
+  "icon": {
+    "item": "minecraft:cod"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

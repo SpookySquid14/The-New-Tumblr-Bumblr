@@ -1,0 +1,31 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fishing/angling_table"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "#tide:bobbers",
+      "name": "Obtain Bobber"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Bobbing Heads",
+  "description": "Bobbers don't really do anything to your fishing. They don't increase stats or make things easier to catch. Though, even if they're purely cosmetic, I find I just can't help but enjoy playing around with different kinds.",
+  "icon": {
+    "item": "tide:red_bobber"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

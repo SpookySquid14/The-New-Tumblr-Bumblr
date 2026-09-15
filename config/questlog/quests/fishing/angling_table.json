@@ -1,0 +1,33 @@
+{
+  "prerequisites": [
+    {
+      "type":"questlog:stat",
+      "stat": "minecraft:fish_caught",
+      "required_amount": 7,
+      "retroactive": false,
+      "name": "Catch 7 Fish"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "tide:angling_table"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "An Angler's Workbench",
+  "description": "Alright, looks like you've got some experience under your belt. I'm sure you're ready to jump into the deep end. Well, say no more, and let me introduce you to the [Angling Table](image:tumblrbumblr:textures/quests/angling_table.png:124:62). This will be your ticket to customizing your rod further, adding all sorts of hooks, bobbers, and lines.\nOpening the angling table's ui, [you'll see just what I described](image:tumblrbumblr:textures/quests/angling_table_gui.png:124:58). A slot on the left for you to put your rod into, along with three slots on the right, each corresponding to one of the three attachments.",
+  "icon": {
+    "item": "tide:angling_table"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

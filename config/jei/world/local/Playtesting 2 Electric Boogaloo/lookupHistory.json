@@ -1,0 +1,14 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:blackstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:smooth_basalt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:basalt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"regions_unexplored:barley"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:arrow"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:feather"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:hemp_fiber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:wicked_bone_ring"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"goety:ectoplasm"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"goety:wicked_boline"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:copper_axe"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

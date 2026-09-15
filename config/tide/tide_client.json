@@ -1,6 +1,6 @@
 {
   "general": {
-    "infoPlacement": "TOP_RIGHT",
+    "infoPlacement": "BOTTOM_LEFT",
     "infoOffsetX": 0,
     "infoOffsetY": 0,
     "ambientVoidParticles": true,

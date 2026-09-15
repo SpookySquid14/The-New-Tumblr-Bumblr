@@ -1,0 +1,13 @@
+{
+  "reset_structure_on_reentry": true,
+  "reset_dimension_if_no_player": false,
+  "slow_fall_when_enter_dimensions": true,
+  "allow_use_eye_in_dimension": false,
+  "keep_structures_in_original_dimensions": false,
+  "random_spread_in_dimension": false,
+  "enable_return_rift": false,
+  "consume_teleport_eye": false,
+  "disable_respawn": false,
+  "enable_teleport_eye": true,
+  "reset_structure_requires_boss_kill": true
+}

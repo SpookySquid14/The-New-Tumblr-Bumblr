@@ -1,0 +1,15 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"deeperdarker:soul_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:heart_of_the_deep"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:warden_carapace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:sculk_transmitter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:bloom_chest_boat"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:light_gray_sculk_transmitter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:white_sculk_transmitter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:lite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:sculk_bone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:resonarium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:gloomy_grass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:reinforced_echo_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

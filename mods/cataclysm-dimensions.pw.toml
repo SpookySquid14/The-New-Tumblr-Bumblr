@@ -1,0 +1,21 @@
+filename = 'cataclysm_dimension-neoforge1.21.1-1.7.0.jar'
+name = 'Cataclysm Dimensions'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'cataclysm_dimension-neoforge1.21.1-1.7.0.jar'
+
+[download]
+hash = 'ac2a19580991e76d54e15e30f5c93370cdb799b2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8431140
+project-id = 1303494
+
+[[x-prismlauncher-dependencies]]
+addonId = '551586'
+type = 'REQUIRED'

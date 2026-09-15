@@ -1,0 +1,30 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:fishing_rod"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Fine Fishing",
+  "description": "Oh, hey, didn't see you there. Who am I? Oh, I'm nobody special. Just your average fisherman, I suppose. But enough about me, what's got you here?\nYou here to fish as well? Well, that's great! I'll gladly teach you, if you're up for it. Just get yourself a fishing rod and we can begin. Sorry I don't have a spare, but they are pretty cheap, just some sticks and string. Or rocks, if you want that for some reason.",
+  "icon": {
+    "item": "minecraft:fishing_rod"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

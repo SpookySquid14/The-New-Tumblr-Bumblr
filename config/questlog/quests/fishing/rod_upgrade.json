@@ -1,0 +1,48 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fishing/fishing_basics"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "or",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "tide:iron_fishing_rod"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "tide:golden_fishing_rod"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "tide:diamond_fishing_rod"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "tide:crystal_fishing_rod"
+        }
+    ]
+    }
+      
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Upgrading Your Rods",
+  "description": "Once you've gotten a good grip on fishing, you might want to think about upgrading that rod of yours. Doing so is real simple. [Just take your rod and pop it into a smithing table along with the new material, like iron, gold, or diamond, and a bit of string.](image:tumblrbumblr:textures/quests/rod_upgrade.png:124:38:4:1000) If you're upgrading to a stronger tier, you can use any kind of fishing rod from a lower tier, so something like a diamond rod can be upgraded from a normal rod, a gold rod, or an iron rod.",
+  "icon": {
+    "item": "tide:iron_fishing_rod"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

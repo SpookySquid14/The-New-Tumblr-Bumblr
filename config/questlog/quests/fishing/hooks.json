@@ -1,0 +1,31 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fishing/angling_table"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "#tide:hooks",
+      "name": "Obtain A Hook"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Hooked",
+  "description": "Hooks modify the availability of fish, changing values like time and temperature. Like the basic fishing line, the basic hook is purely cosmetic, and it isn't really required for any other hooks, but it's cheap, I guess.",
+  "icon": {
+    "item": "tide:fishing_hook"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

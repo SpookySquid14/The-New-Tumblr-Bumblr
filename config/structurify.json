@@ -1,11 +1,11 @@
 {
   "config_version": "2.0.34",
-  "config_datetime": "2026-09-05_20-50-27",
+  "config_datetime": "2026-09-14_21-35-39",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
     "enable_global_spacing_and_separation_modifier": true,
-    "global_spacing_and_separation_modifier": 3.0
+    "global_spacing_and_separation_modifier": 2.0
   },
   "structure_namespaces": [
     {
@@ -23,9 +23,115 @@
   ],
   "structures": [
     {
+      "name": "cataclysm:acropolis",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
+    },
+    {
+      "name": "cataclysm:ancient_factory",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "cataclysm:burning_arena",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
+    },
+    {
+      "name": "cataclysm:cursed_pyramid",
+      "terrain_adaptation": "beard_thin",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
+    },
+    {
+      "name": "cataclysm:frosted_prison",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
+    },
+    {
+      "name": "cataclysm:ruined_citadel",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "cataclysm:soul_black_smith",
+      "terrain_adaptation": "bury",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
+    },
+    {
+      "name": "cataclysm:sunken_city",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
+    },
+    {
+      "name": "fdbosses:chesed_arena",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "fdbosses:geburah_arena",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "fdbosses:malkuth_arena",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
       "name": "nova_structures:illager_camp",
       "blacklisted_biomes": [
         "minecraft:river"
+      ]
+    },
+    {
+      "name": "nova_structures:trident_trial_monument",
+      "blacklisted_biomes": [
+        "minecraft:deep_frozen_ocean"
       ]
     }
   ],

@@ -1,0 +1,45 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "tide:golden_fishing_rod"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "tide:lucky_bait"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "tide:golden_line"
+        }
+      ]
+    }
+      
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "tide:midas_fish"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "amount": 16
+    }
+  ],
+  "title": "The Touch",
+  "description": "There's a legend of a rare fish known only as the Midas Fish. People don't even know if it really exists, but they say if you believe and have extraordinary luck, you might just fish it up.",
+  "icon": {
+    "item": "tide:midas_fish"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

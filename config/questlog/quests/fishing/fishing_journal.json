@@ -1,0 +1,34 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fishing/fishing_basics"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "tide:fishing_journal"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "tide:fishy_note"
+    }
+  ],
+  "title": "Journalling Your Catches",
+  "description": "If you're planning on making this a hobby, you should really get a fishing journal. I can't recommend one enough. They can help you track what fish you've caught, along with how many of them you've caught and the smallest and biggest ones you've caught. But most important of all, it'll show you the requirements for catching it, such as climate or depth.\nIt can even store your fishy notes so you don't have to keep them on you at all times. Here, I'll give you one if you can make the journal.",
+  "icon": {
+    "item": "tide:fishing_journal"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

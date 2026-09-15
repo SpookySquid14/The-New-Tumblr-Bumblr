@@ -1,0 +1,30 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fishing/hooks"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "tide:lavaproof_hook"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Hot Fishes In Your Area",
+  "description": "On the topic of hooks, did you know you could fish in lava? It's not particularly easy, but if you've got [the right hook made up of some obsidian and gold](image:tumblrbumblr:textures/quests/lavaproof_hook.png:124:62), you can find some very unique fish. The best place for this would be The Nether, but even lava in the overworld will house some species.",
+  "icon": {
+    "item": "tide:lavaproof_hook"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

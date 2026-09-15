@@ -42,7 +42,7 @@ syncRegistry = true
 	#Rain particle density
 	# Default: 100
 	# Range: 1 ~ 100
-	density = 100
+	density = 65
 	# Default: 1.0
 	# Range: 0.0 ~ 1.7976931348623157E308
 	gravity = 1.0

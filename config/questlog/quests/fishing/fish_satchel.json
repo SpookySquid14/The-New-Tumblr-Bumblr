@@ -1,0 +1,30 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fishing/fishing_basics"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "tide:fish_satchel"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    }
+  ],
+  "title": "Bundles of Fish",
+  "description": "You caught a fish. Nice work. Now, there's a lot of fish out there, all varying in size and shape. It can quickly clog up your inventory if you not careful. If you want my advice, I'd recommend you get a satchel for them. It's pretty cheap, [4 leather around a fish](image:tumblrbumblr:textures/quests/fish_satchel.png:124:62). Ah, but I guess leather can be a bit hard to obtain. Eh, I'm sure you've got it under control.\nUsing the satchel is pretty easy, actually. If you've got fish in your inventory, right click them with the satchel, or right click the satchel with the fish. If you hold it in your hand, you can right click to open and close it. While it's open, any fish you catch will immediately be put inside the satchel. It can hold up to 64 fish of any kind.",
+  "icon": {
+    "item": "tide:fish_satchel"
+  },
+  "chapter": "fishing",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}
