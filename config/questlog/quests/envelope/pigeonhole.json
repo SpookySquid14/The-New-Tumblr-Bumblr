@@ -1,0 +1,43 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:quest_complete",
+          "quest": "questlog:envelope/letters"
+        },
+        {
+          "type": "questlog:quest_complete",
+          "quest": "questlog:envelope/packages"
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "#envelope:pigeonholes"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:wheat_seeds"
+    }
+  ],
+  "title": "Rest Up, Deary",
+  "description": "You've sent some mail, but look at the poor pigeon, deary. It's all worn out from that hard work. Tell you what, how about you craft it a [pigeon hole](image:tumblrbumblr:textures/quests/pigeonholes.png)? It's quite a suitable resting place for them, and if it's close enough to your mailbox, you shouldn't have to worry about the little fella wandering off.",
+  "icon": {
+    "item": "envelope:oak_pigeonhole"
+  },
+  "chapter": "envelope",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

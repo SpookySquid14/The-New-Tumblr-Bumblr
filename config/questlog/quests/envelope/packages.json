@@ -1,0 +1,34 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:envelope/mailbox"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "envelope:paper_box"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:wheat_seeds"
+    }
+  ],
+  "title": "First Package",
+  "description": "So, you want to send a package, my dear? Alright, then let's gather up some paper and honeycomb, or cardboard if you're using... the automations. Blasted things, they are.\npackages can hold up to 6 stacks of items, a little limited, but enough, right? Well, once your filled the box, you'll need two other items, a [seal](image:tumblrbumblr:textures/quests/seal.png) and an [address tag](image:tumblrbumblr:textures/quests/address_tag.png). Use the address tag and write the address you want to send it to, or another's name if they have a default mailbox set up. Next it's a simple matter of right clicking the package with both the tag and seal to label it properly, and all you have to do is put the package in your own mailbox, add in a bit of seeds for the pigeon, and wait as a nearby pigeon comes to pick it up, deliver it, and then return. Little fella's going to be worn out afterwards, so don't get too package happy yet.",
+  "icon": {
+    "item": "envelope:paper_box"
+  },
+  "chapter": "envelope",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

@@ -1,0 +1,33 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:envelope/packages"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:wheat_seeds"
+    }
+  ],
+  "title": "Delivery Fees II",
+  "description": "Now that you've got the payback tag, you want to actually use it, don't you? Well, doing so is a simple matter, my dear. Just use the payback tag and place in any items you wish to receive from the recipient. You can scale the amount of items and the time before the transaction is cancelled. Afterwards, attach it to a package or envelope like an address tag and ship it off. The recipient will not receive the mail immediately, instead being presented with a Payback Box. Once the recipient fills the payback box and sends it back, they will finally be given their mail. If not, the package will be returned back to the sender.",
+  "icon": {
+    "item": "envelope:payback_tag"
+  },
+  "chapter": "envelope",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

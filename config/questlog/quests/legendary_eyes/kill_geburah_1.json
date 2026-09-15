@@ -1,0 +1,29 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "structure": "fdbosses:geburah_arena",
+      "name": "Enter Geburah's Arena"
+    }
+  ],
+  "rewards": [
+
+  ],
+  "title": "Scales of Justice",
+"description": "Name: [Geburah](image:tumblrbumblr:textures/quests/photos/geburah.png:150:150)\nKnown Locations: The Briah Dimension, entered through Eye of Geburah.\nEstimated Size: Huge\nBehavior: Judges both Accused and itself for sins. Summons flocks of Judgement Birds and an array of lasers and projectiles. Unable to be damaged naturally and must be made to sin, shown on the screens at its base.\nDanger Level: §8§lDeadly",
+  "icon": {
+    "item": "endrem:evil_eye"
+  },
+  "chapter": "legendary_eyes",
+  "sort_order": 0,
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "hide_when_completed": true
+}

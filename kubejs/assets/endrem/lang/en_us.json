@@ -2,8 +2,8 @@
   "item.endrem.old_eye": "§eOld Eye",
   "item.endrem.old_eye.description": "§7§oLegends say this eye once belonged to one of the great Sandworms.",
 
-  "item.endrem.rogue_eye": "§dCrystal Eye",
-  "item.endrem.rogue_eye.description": "§7§oIt shines with a glimmer of amethyst, forged by the pressure of the void itself",
+  "item.endrem.rogue_eye": "§dElemental Eye",
+  "item.endrem.rogue_eye.description": "§7§oMade of two opposing forces, this eye is imbued with Malkuth's energy.",
 
   "item.endrem.nether_eye": "§4Demonic Eye",
   "item.endrem.nether_eye.description": "§7§oIt was used by a powerful demon in the battle between The Overworld and The Nether. This artifact was later reclaimed when a certain arrogant interloper summoned said Demon. This item inspires courage in a way you've never felt before..",
@@ -15,7 +15,7 @@
   "item.endrem.magical_eye.description": "§7§oIn the illagers search to find the secrets of otherworldly travel, this eye was imbued with the souls of many.",
 
   "item.endrem.black_eye": "§8Black Eye",
-  "item.endrem.black_eye.description": "§7§oPirate lore says this item allows the user to bend the ocean to their will.. The honourable Captain Cornelia went searching for this relic over a century ago.. She was never heard from again..",
+  "item.endrem.black_eye.description": "§7§oWhile most of the ancient builders found refuge in The End, others remained in the ocean, eventually meeting their own abyss.",
 
   "item.endrem.lost_eye": "§4Lost Eye",
   "item.endrem.lost_eye.description": "§7§oIt is told that this item was forged by an ancient blacksmith, their name is tragically lost to time, this artifact is one of the most beautiful things you've ever seen.",
@@ -33,7 +33,7 @@
   "item.endrem.exotic_eye.description": "§7§oThose who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying.",
 
   "item.endrem.evil_eye": "§8Evil Eye",
-  "item.endrem.evil_eye.description": "§7§oAn unholy talisman said to protect its owner from bad luck. The Masquerader coveted this item for its immense magical power... and to make sure his parties were a great success!",
+  "item.endrem.evil_eye.description": "§7§oAn unholy talisman said to protect its owner from bad luck. It's said Geburah was granted it as a means to ensure proper justice.",
 
   "item.endrem.undead_eye": "§8Undead Eye",
   "item.endrem.undead_eye.description": "§7§oThe Dead King's treasure. It rings with the souls of the dammed.",
@@ -70,8 +70,8 @@
   "advancements.main.old_eye.title": "Fortune Seeker",
   "advancements.main.old_eye.description": "Get Your First Old Eye",
 
-  "advancements.main.rogue_eye.title": "A Crystal Bloom",
-  "advancements.main.rogue_eye.description": "Get Your First Crystal Eye",
+  "advancements.main.rogue_eye.title": "A Meeting of Elements",
+  "advancements.main.rogue_eye.description": "Get Your First Elemental Eye",
 
   "advancements.main.nether_eye.title": "Stare Into Despair",
   "advancements.main.nether_eye.description": "Get Your First Demonic Eye",
@@ -85,7 +85,7 @@
   "advancements.main.magical_eye.title": "The Secrets of The World",
   "advancements.main.magical_eye.description": "Get Your First Magical Eye",
 
-  "advancements.main.black_eye.title": "Arghh, Where be Me Ship?",
+  "advancements.main.black_eye.title": "And The Abyss Stared Back",
   "advancements.main.black_eye.description": "Get Your First Black Eye",
 
   "advancements.main.lost_eye.title": "Need A Map?",
@@ -103,7 +103,7 @@
   "advancements.main.witch_eye.title": "Sculking Around",
   "advancements.main.witch_eye.description": "Get Your First Sculk Eye",
 
-  "advancements.main.evil_eye.title": "A Real 'Blessing'",
+  "advancements.main.evil_eye.title": "Justice Served",
   "advancements.main.evil_eye.description": "Get Your First Evil Eye",
 
   "advancements.main.exotic_eye.title": "This is not Atlantis..",

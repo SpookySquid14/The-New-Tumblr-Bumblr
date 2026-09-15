@@ -15,10 +15,9 @@
   ],
   "prerequisites": [
     {
-      "type": "questlog:visit_dimension",
-      "name": "Join The World",
-      "dimension": "minecraft:overworld",
-      "required_amount": 1
+      "type": "questlog:stat",
+      "stat": "minecraft:play_time",
+      "required_amount": 10
     }
   ],
   "rewards": [

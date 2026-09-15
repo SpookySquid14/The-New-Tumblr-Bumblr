@@ -2,14 +2,14 @@
   "prerequisites": [
     {
       "type": "questlog:quest_complete",
-      "quest": "questlog:legendary_eyes/kill_cornelia_2"
+      "quest": "questlog:legendary_eyes/kill_geburah_1"
     }
   ],
   "objectives": [
       {
         "type": "questlog:entity_kill",
-        "entity": "aquamirae:captain_cornelia",
-        "name": "Summon and Banish Captain Cornelia" 
+        "entity": "fdbosses:geburah",
+        "name": "Cast Judgement on Geburah" 
       }
   ],
   "rewards": [
@@ -30,10 +30,10 @@
       "auto_claim": true
     }
   ],
-  "title": "Ghostly Captain",
-  "description": "Name: [Captain Cornelia](image:tumblrbumblr:textures/quests/photos/cornelia.png:150:150)\nKnown Locations: Unknown, last seen sailing towards the frozen ocean.\nEstimated Size: Medium\nBehavior: Capable of using multiple weapons. When driven into a corner, can summon The Shipbreaker. Heavily resistant to all weapons unrelated to the Ice Maze and can only be killed if weakened at low health.\nDanger Level: §8§lHard",
+  "title": "Scales of Justice",
+"description": "Name: [Geburah](image:tumblrbumblr:textures/quests/photos/geburah.png:150:150)\nKnown Locations: The Briah Dimension, entered through Eye of Geburah.\nEstimated Size: Huge\nBehavior: Judges both Accused and itself for sins. Summons flocks of Judgement Birds and an array of lasers and projectiles. Unable to be damaged naturally and must be made to sin, shown on the screens at its base.\nDanger Level: §8§lDeadly",
   "icon": {
-    "item": "endrem:black_eye"
+    "item": "endrem:evil_eye"
   },
   "chapter": "legendary_eyes",
   "sort_order": 0,

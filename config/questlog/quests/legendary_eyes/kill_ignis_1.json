@@ -16,7 +16,7 @@
 
   ],
   "title": "Immortal Inferno",
-  "description": "Name: [Ignis](image:tumblrbumblr:textures/quests/photos/ignis.png:150:150)\nKnown Locations: The Nether\nEstimated Size: Large\nBehavior: Relentless in combat and capable of damaging his target ignoring armor through the [Blazing Brand effect](image:cataclysm:textures/mob_effect/blazing_brand.png). Becomes more unpredictable as combat progresses.\nDanger Level: §8§lDeadly",
+  "description": "Name: [Ignis](image:tumblrbumblr:textures/quests/photos/ignis.png:150:150)\nKnown Locations: The Burning Arena, located in Infernal's Maw, entered through Eye of Flame\nEstimated Size: Large\nBehavior: Relentless in combat and capable of damaging his target ignoring armor through the [Blazing Brand effect](image:cataclysm:textures/mob_effect/blazing_brand.png). Becomes more unpredictable as combat progresses.\nDanger Level: §8§lDeadly",
   "icon": {
     "item": "endrem:nether_eye"
   },

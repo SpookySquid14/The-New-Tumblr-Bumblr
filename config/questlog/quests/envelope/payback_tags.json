@@ -1,0 +1,34 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:envelope/packages"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "envelope:payback_tag"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:wheat_seeds"
+    }
+  ],
+  "title": "Delivery Fees",
+  "description": "You've sent a package, and it was completely free of charge. But perhaps you want to trade with the recipient. In that case, you'll want a payback tag. And for that, I'll need to introduce you to Services.\nServices are special addresses that work in various services such as the mail crafting system. For a payback tag, you'll want to package an address tag with red dye and use another address tag to set the destination to \"Mail Service\". Then it's a simple matter of mailing the package like normal and waiting for the return.\nThere are several mail recipes, and you can view them all with JEI.",
+  "icon": {
+    "item": "envelope:payback_tag"
+  },
+  "chapter": "envelope",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

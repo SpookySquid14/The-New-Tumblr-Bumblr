@@ -1,0 +1,36 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/make_crafting_table"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_approach",
+      "name": "Find a pigeon",
+      "entity": "envelope:pigeon",
+      "range": 5
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:wheat_seeds"
+    }
+  ],
+  "title": "You've Got Mail",
+  "description": "'Eellllo 'ello, my dear. Come to learn about mailing, have you? Well, you're in luck, my dear. Oh, and I'm not talking about that fancy schmancy stuff with the andesite and mechanical packagers. No, I'm talking about the good old fashion ways. What do I mean? Well, Pigeons, of course!\nEnvelope is a mod about sending mail in a more tradition sense. From letters to packages, it allows easy communication between different players or even your own bases of operation.\nNow, the first thing you need to do is find yourself a pigeon. They can often be found in mountainous regions, or in villages and dovecotes, small little structures built to house the little darlings.",
+  "icon": {
+    "item": "envelope:letter"
+  },
+  "chapter": "envelope",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

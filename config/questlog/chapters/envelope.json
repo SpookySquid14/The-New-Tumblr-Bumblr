@@ -1,0 +1,8 @@
+{
+  "name": "Fine Fishing",
+  "icon": {
+    "item": "envelope:sealed_letter"
+  },
+  "default_chapter": false,
+  "hidden": false
+}

@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "functions": [],
-          "name": "fdbosses:fire_and_ice_core"
+          "name": "fdbosses:justice_core"
         }
       ],
       "rolls": 1.0
@@ -18,7 +18,7 @@
         {
           "type": "minecraft:item",
           "functions": [],
-          "name": "fdbosses:malkuth_fist"
+          "name": "fdbosses:divine_gear"
         }
       ],
       "rolls": 1.0
@@ -29,7 +29,23 @@
         {
           "type": "minecraft:item",
           "functions": [],
-          "name": "fdbosses:malkuth_trophy"
+          "name": "fdbosses:geburah_trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 512
+            }
+          ],
+          "name": "fdbosses:polished_justicestone"
         }
       ],
       "rolls": 1.0
@@ -40,11 +56,11 @@
         {
           "type": "minecraft:item",
           "functions": [],
-          "name": "endrem:rogue_eye"
+          "name": "endrem:evil_eye"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "fdbosses:entities/malkuth"
+  "random_sequence": "fdbosses:entities/geburah"
 }

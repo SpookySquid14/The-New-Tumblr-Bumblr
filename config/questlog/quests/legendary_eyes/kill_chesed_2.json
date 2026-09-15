@@ -31,7 +31,7 @@
     }
   ],
   "title": "The Stone Eye",
-  "description": "Name: [Chesed](image:tumblrbumblr:textures/quests/photos/chesed.png:150:150)\nKnown Locations: Deep Underground\nEstimated Size: Medium\nBehavior: Uses a variety of energy based attacks ignoring target armor. Several monoliths around it and power large attacks if not deactivated through damaging. Cannot be harmed directly and must have its own lightning strikes reflected by a Reflector powered through breaking energized crystals.\nDanger Level: §8§lDeadly",
+  "description": "Name: [Chesed](image:tumblrbumblr:textures/quests/photos/chesed.png:150:150)\nKnown Locations: The Briah Dimension, entered through an Eye of Chesed\nEstimated Size: Medium\nBehavior: Uses a variety of energy based attacks ignoring target armor. Several monoliths around it and power large attacks if not deactivated through damaging. Cannot be harmed directly and must have its own lightning strikes reflected by a Reflector powered through breaking energized crystals.\nDanger Level: §8§lDeadly",
   "icon": {
     "item": "endrem:witch_eye"
   },

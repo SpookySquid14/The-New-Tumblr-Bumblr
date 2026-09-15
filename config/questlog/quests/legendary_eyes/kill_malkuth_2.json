@@ -31,9 +31,9 @@
     }
   ],
   "title": "The Fallen King",
-  "description": "Name: [Malkuth](image:tumblrbumblr:textures/quests/photos/malkuth.png:150:150)\nKnown Locations: Oceans\nEstimated Size: Large\nBehavior: Utilizes fire and ice elements and puts his opponent on equal footing, making them immune to one and weak to the other, shown through a circle on their crosshair. Strikes powerful attacks with swords, the elements, and cannons. Because of equal footing, he cannot be damaged by means other than the cannons in the arena.\nDanger Level: §8§lDeadly",
+  "description": "Name: [Malkuth](image:tumblrbumblr:textures/quests/photos/malkuth.png:150:150)\nKnown Locations: The Asiyah Dimension, entered through Eye of Malkuth\nEstimated Size: Large\nBehavior: Utilizes fire and ice elements and puts his opponent on equal footing, making them immune to one and weak to the other, shown through a circle on their crosshair. Strikes powerful attacks with swords, the elements, and cannons. Because of equal footing, he cannot be damaged by means other than the cannons in the arena.\nDanger Level: §8§lDeadly",
   "icon": {
-    "item": "endrem:evil_eye"
+    "item": "endrem:rogue_eye"
   },
   "chapter": "legendary_eyes",
   "sort_order": 0,
