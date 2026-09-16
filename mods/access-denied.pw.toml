@@ -1,0 +1,29 @@
+filename = 'access_denied-neoforge-1.21.1-7.0.0-hotfix.6.jar'
+name = 'Access Denied'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge] 1.21.1-7.0.0-hotfix.6 | Access Denied'
+
+[download]
+hash = '46ad58143cbaf6af875f6db3354f42bf8bd8b332'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8143218
+project-id = 917449
+
+[[x-prismlauncher-dependencies]]
+addonId = '438496'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1423093'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '341284'
+type = 'OPTIONAL'

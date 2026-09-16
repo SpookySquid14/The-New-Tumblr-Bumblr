@@ -1,0 +1,10 @@
+{
+  "modifiers": [
+    "enhancedcelestials:peaceful_moon_moon_texture_color",
+    "enhancedcelestials:peaceful_moon_sky_light_color",
+    "enhancedcelestials:peaceful_moon_moon_size",
+    "enhancedcelestials:peaceful_moon_force_surface_spawning",
+    "enhancedcelestials:peaceful_moon_spawn_category_multiplier",
+    "enhancedcelestials:peaceful_moon_text_components"
+  ]
+}

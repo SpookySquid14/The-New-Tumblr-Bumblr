@@ -16,7 +16,7 @@
 
   ],
   "title": "The Lich",
-  "description": "Name: [Unknown, commonly referred to as The Dead King](image:tumblrbumblr:textures/quests/photos/dead_king.png:150:150)\nKnown Locations: Underground\nEstimated Size: Medium\nBehavior: Master usage of blood magic, able to shoot projectiles and summon hordes of undead minions, as well as teleport behind its targets. No notes regarding its defensives, but accounts speak of having to kill it twice.\nDanger Level: §6§lMedium",
+  "description": "Name: [Unknown, commonly referred to as The Dead King](image:tumblrbumblr:textures/quests/photos/dead_king.png:150:150)\nKnown Locations: Underground\nEstimated Size: Medium\nBehavior: The Dead King can reach farther than expected with his staff for melee attacks. Cycles through Blood Slash, which shoots a large blade of blood; Fang Strike, which causes multiple jaws to erupt from the ground in front of him; Poison Arrow; Blight; Acid Orb; and Ray of Siphoning, allowing him to drain health from the opponent hit. Periodically will summon hordes of the undead and shoot Wither Skulls. Using Blood Step, The Dead King can teleport behind an opponent, turning invisible as he does. At half health, he becomes airborne and fires Wither Skulls more frequently.\nDanger Level: §6§lMedium",
   "icon": {
     "item": "endrem:undead_eye"
   },

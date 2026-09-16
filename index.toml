@@ -149,6 +149,10 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
+file = "config/access_denied/dimension/minecraft_the_nether.json"
+hash = "cae0e510b691f5ecaaf3c13d131e9bda895a64d6373226b667cdacc8de7159b0"
+
+[[files]]
 file = "config/aces_spell_utils-common.toml"
 hash = "941c8a4f285c5764d7dda52dad71820e234d0025e1c7a12afed88a23e9fb5560"
 
@@ -710,7 +714,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "c2adee4479ff2a5140febe4daebafe3ef9f5fc1546f12e6e6b5eeb727a60f22a"
+hash = "fcb732e29666dca2a73d3dc66b97a1b31faa2fb008817ad224e09b091fc83c3d"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -1737,6 +1741,10 @@ file = "config/forgeendertech/Biomes/blueprint$original_source_marker.cfg"
 hash = "2e042f2fe7557a9d7017d5122aed4e7bbd236f0e972f9015e4710680965aac66"
 
 [[files]]
+file = "config/forgeendertech/Biomes/cataclysm_dimension$badlands.cfg"
+hash = "81883e9f4d1fda08e2097edca57df9637eab60328ad345bbeb32da7db955985e"
+
+[[files]]
 file = "config/forgeendertech/Biomes/darkerdepths$molten_cavern.cfg"
 hash = "a3bf9c5373184005dea15629f5838ceadd4d50d47ad4581c2ad11e0fe710b8b5"
 
@@ -1825,6 +1833,10 @@ file = "config/forgeendertech/Biomes/minecraft$savanna.cfg"
 hash = "ad70da99a2fee045a8d3648c0b86d7f8fc6897346c789adc8b60ec8371cb84c5"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$savanna_plateau.cfg"
+hash = "7cfbbe071478882b664830819db0df99a3e7559bc695bba983fef342caf4a9a2"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$snowy_beach.cfg"
 hash = "ff340941e2b3ae1eafdeb4978b507a28fd3e3e4f679c9f91cd8e0fd3f57baf13"
 
@@ -1835,6 +1847,10 @@ hash = "5b7eb4d0b3154e2ef034d471caa776204214c4d06f1f0bc90d72d9e8e77a3c14"
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$soul_sand_valley.cfg"
 hash = "c8ed5414da4d84bf56038976aef25fc1713ccd76f42133d95e9750069585d7d0"
+
+[[files]]
+file = "config/forgeendertech/Biomes/minecraft$sulfur_caves.cfg"
+hash = "1559967e1a018f9b35cbfdbe3b2f96eff5a5046d6a1eed53c12f1c89a9f6ad0d"
 
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$sunflower_plains.cfg"
@@ -1883,6 +1899,10 @@ hash = "c869e9b03ace940a8a4320010a4f6cadf03338919a334b3d36f0108090602612"
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$dry_bushland.cfg"
 hash = "9a6673e034f72fe913d90a4325a3131d323e303c3f3a3a7f75ba2eca38cd5388"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$fen.cfg"
+hash = "e0c36c28e19a0ebf36ab6a254ac09ce627a2ec6350c0d71b9c4c896383325484"
 
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$frozen_pine_taiga.cfg"
@@ -1949,6 +1969,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$pumpkin_fields.cfg"
 hash = "a71d8bc3cdc14b58abe64813b3aa7d14ce3ea1a578e5a498d960511374871620"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$rainforest.cfg"
+hash = "8d99ed32bffd8234c0576dd87767600510cf1b74c9f38da3116241785dc51b86"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$rocky_meadow.cfg"
 hash = "b9c8cdcf1078ee34949c7ee5e797e8334c8b715dcc94754f31f037db640c490b"
 
@@ -1973,6 +1997,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$spires.cfg"
 hash = "8526e49879668d479b2ce388b84ecec495cd99cd0b39cfbeb11cf0e8201dbc88"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$steppe.cfg"
+hash = "c2cd89ecb3c3709ff4dd4338cd1597ba490e8dccd24c8324e2b5789105d4ae38"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$temperate_grove.cfg"
 hash = "a780e7740c7bc2c76827f97e77b40851d92c7f6fe33a04e608c5b1b8d0741716"
 
@@ -1989,6 +2017,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$willow_forest.cfg"
 hash = "a52a735a608a71a2784b82fa895c8487cf8861147889d74601e7f1da1d75cdfd"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$windswept_maple_forest.cfg"
+hash = "492e6e670c4abb94145f8d871d20a8ace6e91688ccb0130931391da24809e583"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$alpha_islands.cfg"
 hash = "bbdbbf632b0c3114643df2eef5c941be39d5544cd3bc1f456d0a865c8f1e7265"
 
@@ -2003,6 +2035,10 @@ hash = "4a1e7e4aa548103be8cb6b3446fb520e8c02efa9262a0a223563c795fc7c5995"
 [[files]]
 file = "config/forgeendertech/Biomes/terralith$blooming_valley.cfg"
 hash = "96d7840b3ba43f927468b3a8faaa9e40cf4f842e039f4cf530341b32cfe1f6a4"
+
+[[files]]
+file = "config/forgeendertech/Biomes/terralith$cave$andesite_caves.cfg"
+hash = "62b32ca020632bbc1aef3f679f8467f2e99700769e47c709013431358e781db0"
 
 [[files]]
 file = "config/forgeendertech/Biomes/terralith$cave$diorite_caves.cfg"
@@ -2101,6 +2137,10 @@ file = "config/forgeendertech/Biomes/twilightforest$dark_forest_center.cfg"
 hash = "bd7d4cadf1028d60eb60bf914e38736964ee4939b1ad940d0fcf2a97287deb39"
 
 [[files]]
+file = "config/forgeendertech/Biomes/twilightforest$dense_mushroom_forest.cfg"
+hash = "c6f264f5d86f76eb4d2ec02530cd0dee20103fe741428f24292b2df8b8434e63"
+
+[[files]]
 file = "config/forgeendertech/Biomes/twilightforest$glacier.cfg"
 hash = "3277cecbe648c80e1b57168448e07bb41cf5557bc22e7a3101127d5c4bb2cec9"
 
@@ -2126,11 +2166,11 @@ hash = "258517f918104865c079e0db35426ff1021c666e985e4608a64ce2ad3130aa82"
 
 [[files]]
 file = "config/forgeendertech/cached.dat"
-hash = "a5c14aa35e5d5bfb3d855e56df212f1d1957029f286d3d4ee3c294b6d3d648bf"
+hash = "97672eb07cec63e4b48d178cdb6e014e23c925e3d3b34cf9bbc6f3d262fdca61"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "5ac5c74741b73461a4b504c2851e1f240679ac05f9e8db44a560e9102a316e62"
+hash = "72062a4e6c9912febdbe5f23ce6917881383735520ef59a9da11d62a3b427444"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2502,7 +2542,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "28e0a096707936671c8e424d25c9615c5e88cd41068b36932ce1909c6d13d7df"
+hash = "c59ffd8893ebc77c1d5fcf1d8649055bff1a093e6f1edd3504e94a6cb752ba26"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2526,7 +2566,7 @@ hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "8ce78e7439f601580f8fdb2f526144d03a85a448fe365515b0d2b4f57423342a"
+hash = "010ba7eb16e6e6ea550404beaec6944dbfc02bf0c8bcd81c0f6243339478dc18"
 
 [[files]]
 file = "config/jei/world/local/Aeronautics Playground/lookupHistory.json"
@@ -2735,6 +2775,14 @@ hash = "680ff352a625644ec14366899cca256306bfda18253aa5fc6fb72b9daad23af8"
 [[files]]
 file = "config/jei/world/local/Wither Test/lookupHistory.json"
 hash = "026814e32688e14b4be749602a5e4f8a51dad21f8812dbdbcf557449ae055c96"
+
+[[files]]
+file = "config/jei/world/local/Wrought Test 2/lookupHistory.json"
+hash = "26999f8238ec9127b9b597297e2897c9223ae0010520470fbbc66683445fa2b6"
+
+[[files]]
+file = "config/jei/world/local/Wrought Test/lookupHistory.json"
+hash = "50ba1f07bd6ad26cd8bc81109c4b1a38745261d88f79f97343cde12603739304"
 
 [[files]]
 file = "config/jei/world/local/fish test 1/lookupHistory.json"
@@ -2974,7 +3022,7 @@ hash = "a3d590f5d9601ac9c8390dacb5320d716353ea84aea166943c651944a45815a5"
 
 [[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-eye-check-a22111c8.json"
-hash = "02c3958554e8aef68c06f367a1895dd01edbdcc012b34fa0808dfbe2d3d503bc"
+hash = "dfedb930bb07a7d1336606d6b482238986080a76d91ec5f277e449fef1713466"
 
 [[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-gen-test-2-b904a165.json"
@@ -2991,6 +3039,10 @@ hash = "09fbfb88441150d7e176c67ac82e0ecc391df38d23e665051bbd00920d4a5670"
 [[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-gen-test-5-b904a168.json"
 hash = "f9701eea2c16d1a95ac0b60f11688d2bff2a1e395ad1a3de6f87893fed5eb21c"
+
+[[files]]
+file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-moon-test-c99ace00.json"
+hash = "a3d590f5d9601ac9c8390dacb5320d716353ea84aea166943c651944a45815a5"
 
 [[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-quest-test-3aa51781.json"
@@ -3033,6 +3085,38 @@ file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-gateway-test-2-93925f7
 hash = "39e088fe08b1d731ce9afaf5b04c5f3f3ef76ce3f961433b50b7de4b1a27c2ba"
 
 [[files]]
+file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-wrought-test-2-71d76fe3.json"
+hash = "5fa04d3de16aad21132de7e5c3720357e9448470e0c59eca4b4ff561838336d1"
+
+[[files]]
+file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-wrought-test-3-71d76fe4.json"
+hash = "a78a4855c1b895cadfff3c918cdacc77d5a5861b58cc3bd95c5fae0580a860ca"
+
+[[files]]
+file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-wrought-test-4-71d76fe5.json"
+hash = "3207e38327cef54d50aef6dff97a72969db0f07a60c279995f57096b51854005"
+
+[[files]]
+file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-wrought-test-5-71d76fe6.json"
+hash = "82b178b22096d2edd9827daf6cf5b113c32d5621dc1fa9c02a71f42efe7a771c"
+
+[[files]]
+file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-wrought-test-6-71d76fe7.json"
+hash = "3207e38327cef54d50aef6dff97a72969db0f07a60c279995f57096b51854005"
+
+[[files]]
+file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-wrought-test-7-71d76fe8.json"
+hash = "62b7f85b77188dcd5666fdea409ebd0e2a056ffc79d44c39b1cc1695b41d2cab"
+
+[[files]]
+file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-wrought-test-8-71d76fe9.json"
+hash = "efcf29820d6bb8a794cd4df77521147f65701c60dc2713704f412f40d799219d"
+
+[[files]]
+file = "config/mcgcore/progress/lr-1-21-1-minecraft-saves-wrought-test-9-71d76fea.json"
+hash = "5b8c283885a6eba3f48807bbb99eac59990c46f9c9d0ef0906c4a7604eb063f1"
+
+[[files]]
 file = "config/mcgcore/progress/mblr-1-21-1-minecraft-saves-dim-lag-test-a6f28549.json"
 hash = "1b6d771971262901ee0c7130aedd3ba2a6adfab4a016fbb908fcb42b442196e5"
 
@@ -3067,6 +3151,10 @@ hash = "217a46ca086590d603b2dcadc68fae299d2020d9e23db8e71d4657547e57409f"
 [[files]]
 file = "config/mcgcore/progress/mblr-1-21-1-minecraft-saves-quest-test-5-25bd3f56.json"
 hash = "09c43fef101adc233bd68cd37712784fa90df49bd484165ff46807a2e5191aee"
+
+[[files]]
+file = "config/mcgcore/progress/mblr-1-21-1-minecraft-saves-wrought-test-15b22c11.json"
+hash = "3207e38327cef54d50aef6dff97a72969db0f07a60c279995f57096b51854005"
 
 [[files]]
 file = "config/mcgcore/progress/mblr-bumblr-1-21-1-minecraft-saves-sculk-e4d1b73.json"
@@ -3105,12 +3193,20 @@ file = "config/mcgcore/progress/r-bumblr-1-21-1-minecraft-saves-lag-test-e1fcdd1
 hash = "ff85b249242671baaada4b675e22b9b027b38e1c27c8127b3cf3e35b0a2e62ca"
 
 [[files]]
+file = "config/mcgcore/progress/umblr-1-21-1-minecraft-saves-access-test-1d86b1bd.json"
+hash = "15880cb2119f0dbd4d097590b5319168dcde167cfb82d69ba7fbb68fc7fb7bde"
+
+[[files]]
 file = "config/mcgcore/progress/umblr-1-21-1-minecraft-saves-combat-test-974ee22d.json"
 hash = "a5fd6d567d13b8ca66f3e44a5de8759d3068bce99c153115f4513d74c2e4e537"
 
 [[files]]
 file = "config/mcgcore/progress/umblr-1-21-1-minecraft-saves-fish-test-1-b721e2da.json"
 hash = "3da37e4c6541f3ed7a91c6547bd7fcc44b6faf9568a021c20a854031c15d4034"
+
+[[files]]
+file = "config/mcgcore/progress/umblr-1-21-1-minecraft-saves-moon-test-2-ce1f5212.json"
+hash = "7a93cf39113dcf17924471c4b0d8c0b1e09e2668649d9b96a26ede351bbb7d31"
 
 [[files]]
 file = "config/mcgcore/progress/umblr-1-21-1-minecraft-saves-nether-test-bf997749.json"
@@ -3198,7 +3294,7 @@ hash = "55984be8a03604dd95446a84769854c5a42b064146db05dafa16c2ecba7a0971"
 
 [[files]]
 file = "config/multimine.cfg"
-hash = "8097a34b240f7995f00aead25fe6787396d6f900ae98892fa780ac2e10fe9e8f"
+hash = "871faefae17420cc264ce0cffbf357626f6e7dd485b3aa85a5c0b93c4e375c7f"
 
 [[files]]
 file = "config/mynethersdelight-common.toml"
@@ -3610,23 +3706,23 @@ hash = "835676dad41400deb4a1adbc538c5ae2cdacc65e6d969b1924c0f05ea114499c"
 
 [[files]]
 file = "config/questlog/quests/legendary_eyes/kill_chesed_1.json"
-hash = "17f056863f288bd759179e8cda2584525e9d778fbc0519d875439ce43502541a"
+hash = "0909e870c791385c96e66de7ee2429263fa3790d0db9d01a993968e7a68d5f0b"
 
 [[files]]
 file = "config/questlog/quests/legendary_eyes/kill_chesed_2.json"
-hash = "54e85f408c3c99308c785110a5fa5177f84c4360c07c14c4ec547242f89b99f3"
+hash = "742282da14f1263b82a6d2ee52d6dbf8b153de26d7da65b436af8fce20d69abd"
 
 [[files]]
 file = "config/questlog/quests/legendary_eyes/kill_dead_king_1.json"
-hash = "e5ca5e92656e9f567ae6c473d93e80aef2c9040a6d71c78c2bf8d14ffd7ad758"
+hash = "d2be5d12479ca5c3de6bee90de8c667f238735f8ab27fc87d09084150cfb9d02"
 
 [[files]]
 file = "config/questlog/quests/legendary_eyes/kill_dead_king_2.json"
-hash = "7e717f797572b1a4ef78d3fe080fe1af9dfdff3549bfe5e1750e44eda34ea445"
+hash = "871d2dedd0923cd6165ca0287f20dcf2083275f9d183a460d02286fba12be82c"
 
 [[files]]
 file = "config/questlog/quests/legendary_eyes/kill_frostmaw.json"
-hash = "071c60f0b6f7dad5380008390c7b1d285044c0e87803219bdf49b7edf8c7f12d"
+hash = "7a99fc363655fcd71b12436a490b91a122f5743d0d4b9b8c85b5e1705c0e4983"
 
 [[files]]
 file = "config/questlog/quests/legendary_eyes/kill_geburah_1.json"
@@ -3658,15 +3754,15 @@ hash = "dd0872ccd6a2bd638121d40a8b2f73620cc5eb7059cec96598f7311b67075680"
 
 [[files]]
 file = "config/questlog/quests/legendary_eyes/kill_leviathan_1.json"
-hash = "86045f17373ed99ad857fa427731fd43e3f89fb73c1beb198ab9d5d2aeb49f94"
+hash = "b87eb06518648555673f1cab7de9333d3f949605f46fb36161d940816e17f1c0"
 
 [[files]]
 file = "config/questlog/quests/legendary_eyes/kill_leviathan_2.json"
-hash = "880351c59217701022a102818b22a6108c5fa6c3532f462f0848c79b56e7fca0"
+hash = "b765a0c77492573ac27cee94fe2c30ebdd698f61e6b9ac39074cc4bac5cc290b"
 
 [[files]]
 file = "config/questlog/quests/legendary_eyes/kill_leviathan_3.json"
-hash = "d0b93a36902913304da39e2d9816602c122e675f2c8f35299a02d9c0798d308c"
+hash = "ff79f71da14ca4ff313291e9c616f794786aac4cfcf3c334f01d7dccfdea4a8f"
 
 [[files]]
 file = "config/questlog/quests/legendary_eyes/kill_maledictus_1.json"
@@ -4234,27 +4330,27 @@ hash = "1a8709a58490ec5110a395a6c6c2caf30d0434f1d34db331e2da57d515f9731b"
 
 [[files]]
 file = "config/vampirism-balance-1.toml.bak"
-hash = "fa648896df60bb2ea45345b48a9dae66dfca2ec12de234020adc76121614c11b"
+hash = "9ff0ebcd0560c9d05947407e61749e25fe6bfce96c98ea21d0d3dcc2416da66a"
 
 [[files]]
 file = "config/vampirism-balance-2.toml.bak"
-hash = "9ff0ebcd0560c9d05947407e61749e25fe6bfce96c98ea21d0d3dcc2416da66a"
+hash = "fa648896df60bb2ea45345b48a9dae66dfca2ec12de234020adc76121614c11b"
 
 [[files]]
 file = "config/vampirism-balance-3.toml.bak"
-hash = "fa648896df60bb2ea45345b48a9dae66dfca2ec12de234020adc76121614c11b"
+hash = "9ff0ebcd0560c9d05947407e61749e25fe6bfce96c98ea21d0d3dcc2416da66a"
 
 [[files]]
 file = "config/vampirism-balance-4.toml.bak"
-hash = "9ff0ebcd0560c9d05947407e61749e25fe6bfce96c98ea21d0d3dcc2416da66a"
-
-[[files]]
-file = "config/vampirism-balance-5.toml.bak"
 hash = "fa648896df60bb2ea45345b48a9dae66dfca2ec12de234020adc76121614c11b"
 
 [[files]]
-file = "config/vampirism-balance.toml"
+file = "config/vampirism-balance-5.toml.bak"
 hash = "9ff0ebcd0560c9d05947407e61749e25fe6bfce96c98ea21d0d3dcc2416da66a"
+
+[[files]]
+file = "config/vampirism-balance.toml"
+hash = "fa648896df60bb2ea45345b48a9dae66dfca2ec12de234020adc76121614c11b"
 
 [[files]]
 file = "config/vampirism-client.toml"
@@ -4539,6 +4635,14 @@ hash = "fb497e9598f6f53ce72148c9de076860e41a64cd0bed0ae72adb7b0f0cbe3160"
 [[files]]
 file = "kubejs/assets/endrem/textures/item/wither_eye.png"
 hash = "3a43f75c5ab1f5fc03a236e83d384a72b9159feddf9366e1ac37c4f3b4e7cf32"
+
+[[files]]
+file = "kubejs/assets/enhancedcelestials/lang/en_us.json"
+hash = "d872901486cc6bf9c72ee2ebf9c0171edde00af217782b87c1540f113d27887e"
+
+[[files]]
+file = "kubejs/assets/enhancedcelestials/lang/fr_fr.json"
+hash = "113a225a88ff8074f676dd2bf2af929a8c052c4f12c8ffe4d0602c59821260b6"
 
 [[files]]
 file = "kubejs/assets/estrogen/textures/slot/thighs.png"
@@ -6157,6 +6261,38 @@ file = "kubejs/data/endrem/loot_table/minecraft/entities/wither.json"
 hash = "2f7a93a1c7afde4a092445646b3463cd95190ad5c216fd132b87685aa0069d9f"
 
 [[files]]
+file = "kubejs/data/enhancedcelestials/enhancedcelestials2core/lunar/event/peaceful_moon.json"
+hash = "0d7b87d8386fbe49f04d94acc3f41ab03b678ae1c0989fd7a047067d881e9ad6"
+
+[[files]]
+file = "kubejs/data/enhancedcelestials/enhancedcelestials2core/lunar/event_modifier/peaceful_moon_force_surface_spawning.json"
+hash = "ca8b247dd8f938121911fd16ed489e9e2600032b76017f6c3ee6ca6e4fdb97f3"
+
+[[files]]
+file = "kubejs/data/enhancedcelestials/enhancedcelestials2core/lunar/event_modifier/peaceful_moon_moon_size.json"
+hash = "4f601674373904e01aa68c7a777051c8418f17210e3b545900c12ff3d71673c2"
+
+[[files]]
+file = "kubejs/data/enhancedcelestials/enhancedcelestials2core/lunar/event_modifier/peaceful_moon_moon_texture_color.json"
+hash = "e0fec82043584074a2033f29be4f37add4aada72be16b835f6dd103d8bee4774"
+
+[[files]]
+file = "kubejs/data/enhancedcelestials/enhancedcelestials2core/lunar/event_modifier/peaceful_moon_sky_light_color.json"
+hash = "b244d68e016a417abe89427aea589056c0ae9493e6c0a90cafa60f1e359a9ea8"
+
+[[files]]
+file = "kubejs/data/enhancedcelestials/enhancedcelestials2core/lunar/event_modifier/peaceful_moon_spawn_category_multiplier.json"
+hash = "be7fc3797df1499ba71d414d089aceb9af0d50e8be590935cfd276732dde1432"
+
+[[files]]
+file = "kubejs/data/enhancedcelestials/enhancedcelestials2core/lunar/event_modifier/peaceful_moon_text_components.json"
+hash = "2525edc9c9486f21adf0dcbc627cc20130caa7e5f92e8dabac3fb22796955158"
+
+[[files]]
+file = "kubejs/data/enhancedcelestials/enhancedcelestials2core/lunar/event_probability/peaceful_moon.json"
+hash = "99a8c5b5159804f5f4d5f7b254d313daec2fc28a2315f5698703d80be079e83d"
+
+[[files]]
 file = "kubejs/data/fdbosses/loot_table/entities/chesed.json"
 hash = "b8165b8918de384b6544fe0c57dbf412a74af1fd32ccbdd8ce682f7a78bb55b6"
 
@@ -6281,6 +6417,10 @@ file = "kubejs/data/irons_spellbooks/presets/twilight_gale.json"
 hash = "878acb5dfe045bbca9edb4de53d6c1eaf9ab446ceadd5e916af02b2050e392c2"
 
 [[files]]
+file = "kubejs/data/mowziesmobs/presets/wrought_axe.json"
+hash = "43eccfd0f92d431c60d6d01492c559ddbaa33d76af67f34d62a8731abfd836b2"
+
+[[files]]
 file = "kubejs/data/netherman/presets/azazel_spear.json"
 hash = "be7136a7d61c214f0a757cb692419785977b5e7e38fd066f7ba9f9b4cb1d95ca"
 
@@ -6379,6 +6519,16 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 [[files]]
 file = "kubejs/startup_scripts/tumblrbumblr/custom_item_creation.js"
 hash = "51bcbe83cf473ea80b4afb2ecae72d31ae8142589c47e7bf2d890bcbd9394e54"
+
+[[files]]
+file = "mods/access-denied-api.pw.toml"
+hash = "d5b76c4dfcd36210fe212913527d2ab1565f283c5bd271d13a10b7811ae67a98"
+metafile = true
+
+[[files]]
+file = "mods/access-denied.pw.toml"
+hash = "b3f615f1bcf77692409df7a858b255665f42549249c662eace73d28b234dfcee"
+metafile = true
 
 [[files]]
 file = "mods/aces-spell-utils.pw.toml"
@@ -7621,11 +7771,6 @@ hash = "4c7e47227a97ff71de8150b36f9e242a5f9480e8c43705ed9a414070e3dbce03"
 metafile = true
 
 [[files]]
-file = "mods/peaceful-moon-2.pw.toml"
-hash = "8a05944bde4b324a59552dfc71dc174cd598942584c2a20660b1f42d2d04ab0e"
-metafile = true
-
-[[files]]
 file = "mods/perception.pw.toml"
 hash = "155d85410b85d8e4f7262ac8bf366538a51771eb2e4e50911320c5d6db713dd2"
 metafile = true
@@ -7778,11 +7923,6 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "0ca55e4d27927c4e53e68664dcad78589f2615bc08c3597678f63461fcca5ff8"
-metafile = true
-
-[[files]]
-file = "mods/restricted-portals.pw.toml"
-hash = "693b209cf564df55321bb6cec5b6d07314c188fc5caeea458f32781b0217c961"
 metafile = true
 
 [[files]]

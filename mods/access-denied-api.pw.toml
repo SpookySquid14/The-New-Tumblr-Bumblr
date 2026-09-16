@@ -1,18 +1,18 @@
-filename = 'restrictedportals-neoforge-1.21.1-1.6.2.jar'
-name = 'Restricted Portals'
+filename = 'access_denied_api-neoforge-1.21.1-2.0.0.jar'
+name = 'Access Denied - API'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'restrictedportals-neoforge-1.21.1-1.6.2.jar'
+x-prismlauncher-version-number = '[NeoForge] 1.21.1-v2.0.0 | Access Denied API'
 
 [download]
-hash = '8685d67447bf6a0b100b6870558e905670d0d40d'
+hash = '16176a9044037e1e52b3f0d9ebcc89048e1d6086'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6194876
-project-id = 228266
+file-id = 8393618
+project-id = 1423093

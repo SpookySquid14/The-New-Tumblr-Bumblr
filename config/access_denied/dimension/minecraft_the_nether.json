@@ -1,0 +1,7 @@
+{
+  "dimension": "minecraft:the_nether",
+  "portalAction": 3,
+  "itemsKey": {
+    "tumblrbumblr:inscribed_tablet": false
+  }
+}

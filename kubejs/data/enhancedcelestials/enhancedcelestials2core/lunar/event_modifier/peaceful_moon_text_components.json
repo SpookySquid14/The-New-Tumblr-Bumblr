@@ -1,0 +1,19 @@
+{
+  "type": "enhancedcelestials2core:text_components",
+  "settings": {
+    "components": {
+      "start_notification": {
+        "component": {
+          "key": "enhancedcelestials.notification.peaceful_moon.rise"
+        },
+        "type": "CHAT"
+      },
+      "end_notification": {
+        "component": {
+          "key": "enhancedcelestials.notification.peaceful_moon.set"
+        },
+        "type": "CHAT"
+      }
+    }
+  }
+}

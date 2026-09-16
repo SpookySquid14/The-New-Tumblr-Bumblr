@@ -31,7 +31,7 @@
     }
   ],
   "title": "The Stone Eye",
-  "description": "Name: [Chesed](image:tumblrbumblr:textures/quests/photos/chesed.png:150:150)\nKnown Locations: The Briah Dimension, entered through an Eye of Chesed\nEstimated Size: Medium\nBehavior: Uses a variety of energy based attacks ignoring target armor. Several monoliths around it and power large attacks if not deactivated through damaging. Cannot be harmed directly and must have its own lightning strikes reflected by a Reflector powered through breaking energized crystals.\nDanger Level: §8§lDeadly",
+  "description": "Name: [Chesed](image:tumblrbumblr:textures/quests/photos/chesed.png:150:150)\nKnown Locations: The Briah Dimension, entered through an Eye of Chesed\nEstimated Size: Medium\nBehavior: Chesed attacks with a variety of energy based attacks, which can ignore armor, along with phsyically rolling around the arena and throwing blocks at opponents. Its most notable attack is the tracking laser, which aims for the opponent as they move. The aiming stops with an audible ding, allowing the target a brief moment to evade. During this attack, crystals form in the arena that can be broken in order to charge the one who broke it. While charged, a player can approach a reflector, charging it, and making it reflect Chesed's laser back at it. This is the only way to damage Chesed, as opponents will not be able to approach it. Around Chesed float 4 obelisks which must be damaged, most effectively with an axe, to be disabled. One of Chesed's strongest attacks scales its damage based on how many obelisks are active, dealing no damage if all are disabled.\nDanger Level: §8§lDeadly, recommended to read up on foe before challenging.",
   "icon": {
     "item": "endrem:witch_eye"
   },

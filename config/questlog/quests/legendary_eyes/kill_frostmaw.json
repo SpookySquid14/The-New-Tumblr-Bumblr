@@ -31,7 +31,7 @@
     }
   ],
   "title": "The Ice Cold Yeti",
-  "description": "Name: [Frostmaw](image:tumblrbumblr:textures/quests/photos/frostmaw.png:150:150)\nKnown Locations: Open Snowy Biomes. Rare sightings in Taigas\nEstimated Size: Huge\nBehavior: Often found sleeping while holding an [Ice Crystal](image:mowziesmobs:textures/item/icecrystal.png:50:50). Puts crystal in mouth upon approach and uses its abilities to freeze its targets. Studies suggest immunity to arrows and weakness to fire.\nDanger Level: §4§lHard",
+  "description": "Name: [Frostmaw](image:tumblrbumblr:textures/quests/photos/frostmaw.png:150:150)\nKnown Locations: Open Snowy Biomes. Rare sightings in Taigas\nEstimated Size: Huge\nBehavior: Often found sleeping while holding an [Ice Crystal](image:mowziesmobs:textures/item/icecrystal.png:50:50). If quiet enough, an opponent can steal the crystal from it, crippling its abilities significantly. Will make large swipes with its arms. If the ice cystal is not taken before the fight, it is put in the Frostmaw's mouth, allowing it to spew a cone of freezing air, and being hit by it enough will freeze its opponent solid for a few seconds. When far, it will shoot a ball of ice, freezing any who it hits immediately. When brought down to just over half health, the Frostmaw will begin to slam the ground with its body, dealing massive damage. The Frostmaw is immune to projectiles but weak to fire.\nDanger Level: §4§lHard",
   "icon": {
     "item": "endrem:cold_eye"
   },
