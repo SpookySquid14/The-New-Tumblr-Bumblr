@@ -16,7 +16,7 @@
 
   ],
   "title": "The Mech",
-  "description": "Name: [The Harbinger](image:tumblrbumblr:textures/quests/photos/harbinger.png:150:150)\nKnown Locations: Underground\nEstimated Size: Large\nBehavior: Attacks mindlessly while in combat, switching betwen missiles and lasers. Most dangerous is its energy beam. Projectile attacks appear useless when at 50% integrity.\nDanger Level: §8§lDeadly",
+  "description": "Name: [The Harbinger](image:tumblrbumblr:textures/quests/photos/harbinger.png:150:150)\nKnown Locations: Underground\nEstimated Size: Large\nBehavior: Once activated with a [Nether Star](image:minecraft:nether_star.png:50:50), it begins attacking all entities with its multiple heads and large weapon supply. The Harbinger routinely switches between Wither Missiles and lasers, announced with a mechanical hiss during each transition. It can also launch Wither Howitzers around itself to create large explosions, and charge up a powerful dash that destroys nearby blocks. Routinely charges a powerful laser beam to sweep the arena. At 50% health, it puts up a shield that deflects projectiles and becomes more aggresive. Within the arena are several EMPs that can stun The Harbinger if activated close by.\nDanger Level: §8§lDeadly",
   "icon": {
     "item": "endrem:wither_eye"
   },

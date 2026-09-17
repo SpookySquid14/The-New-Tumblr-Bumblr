@@ -16,7 +16,7 @@
 
   ],
   "title": "Sands Of Time",
-  "description": "Name: [The Ancient Remnant](image:tumblrbumblr:textures/quests/photos/remnant.png:150:150)\nKnown Locations: The Cursed Pyramid located in deserts.\nEstimated Size: Huge\nBehavior: Must be awakened by a [Necklace of The Desert](image:cataclysm:textures/item/necklace_of_the_desert.png) found buried within the sand of the pyramid. Extremely aggressive, attacks with charges, its tail, and twisters that disorientate its targets. Can begin to recover from damage when driven into a corner and is immune to projectiles, fire, and lava.\nDanger Level: §8§lDeadly",
+  "description": "Name: [The Ancient Remnant](image:tumblrbumblr:textures/quests/photos/remnant.png:150:150)\nKnown Locations: The Cursed Pyramid located in deserts.\nEstimated Size: Huge\nBehavior: Must be awakened by a [Necklace of The Desert](image:cataclysm:textures/item/necklace_of_the_desert.png) found buried within the sand of the pyramid. The Ancient Remnant can stampede through blocks and bite its opponent. It can also summon sand tornadoes, which inflict The Curse of The Desert, a status effect that reverses all movement of the afflicted. The remnant can cause shockwaves with its body and tail, which also serves to shield itself from behind. It may also summon sand above the arena, which will inflict Curse of The Desert if it hits anyone. At 50% health, it becomes stronger and gains regeneration. The Remnant is rageful, shown by a meter beneath its health. Whenever it misses an attack, the bar fills, and when it hits an attack, the bar empties. If filled, the Ancient Remnant will perform a devastating charge towards its opponent.\nDanger Level: §8§lDeadly",
   "icon": {
     "item": "endrem:old_eye"
   },

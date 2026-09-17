@@ -31,7 +31,7 @@
     }
   ],
   "title": "The Storm Empress",
-  "description": "Name: [Scylla](image:tumblrbumblr:textures/quests/photos/scylla.png:150:150)\nKnown Locations: Acropolis, a city found floating above oceans.\nEstimated Size: Medium\nBehavior: Summoned through usage of her anchor, it also acts as her primary weapon. Attacks with electricity, especially effective with targets she [makes wet](image:cataclysm:textures/mob_effect/wetness.png:50:50). Can summon serpents when threatened.\nDanger Level: §8§lDeadly",
+  "description": "Name: [Scylla](image:tumblrbumblr:textures/quests/photos/scylla.png:150:150)\nKnown Locations: Acropolis, a city found floating above oceans.\nEstimated Size: Medium\nBehavior: Summoned through usage of her anchor, it also acts as her primary weapon for melee attacks and pulling the opponent closer from a distance. Her primary method of attack uses electricity, something that grows stronger when the opponent is [wet](image:cataclysm:textures/mob_effect/wetness.png:50:50). She can create waves that make the opponent wet and throw Lightning Spears from the air. She can also summon magical serpents and conjure a thunderstorm.\nDanger Level: §8§lDeadly",
   "icon": {
     "item": "endrem:exotic_eye"
   },

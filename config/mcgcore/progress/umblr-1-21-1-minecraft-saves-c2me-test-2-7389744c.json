@@ -1,0 +1,31 @@
+{
+  "discovered": [
+    "cataclysm:desert_eye",
+    "cataclysm:mech_eye",
+    "cataclysm:void_eye",
+    "endrem:cursed_eye",
+    "ezemeraldpouch:emerald_pouch",
+    "fdbosses:eye_of_chesed",
+    "fdbosses:eye_of_geburah",
+    "fdbosses:eye_of_malkuth",
+    "immersiveengineering:shader_bag_epic",
+    "mcgcore:guidebook",
+    "minecraft:cobblestone",
+    "minecraft:diamond_sword",
+    "minecraft:enchanted_golden_apple",
+    "minecraft:glowstone",
+    "minecraft:iron_ingot",
+    "minecraft:netherite_boots",
+    "minecraft:netherite_chestplate",
+    "minecraft:netherite_helmet",
+    "minecraft:netherite_leggings",
+    "minecraft:redstone",
+    "minecraft:respawn_anchor",
+    "mowziesmobs:wrought_axe",
+    "mowziesmobs:wrought_helmet"
+  ],
+  "ticked": [],
+  "seen": [],
+  "notes": {},
+  "recents": []
+}

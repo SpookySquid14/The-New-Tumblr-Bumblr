@@ -1472,42 +1472,6 @@
 			# Range: 1.0 ~ 2048.0
 			redstoneCubeFollowRange = 16.0
 
-		[Attributes."Summoned Mobs"."Royal Guard Servant"]
-			#How much Max Health Royal Guard Servants have, Default: 48.0
-			# Default: 48.0
-			# Range: 1.0 ~ 1.7976931348623157E308
-			royalGuardServantHealth = 48.0
-			#How much natural armor points Royal Guard Servants have, Default: 10.0
-			# Default: 10.0
-			# Range: 0.0 ~ 1.7976931348623157E308
-			royalGuardServantArmor = 10.0
-			#How much natural armor toughness points Royal Guard Servants have, Default: 4.0
-			# Default: 4.0
-			# Range: 0.0 ~ 1.7976931348623157E308
-			royalGuardServantToughness = 4.0
-			#How much damage Royal Guard Servants deals, Default: 9.0
-			# Default: 9.0
-			# Range: 1.0 ~ 1.7976931348623157E308
-			royalGuardServantDamage = 9.0
-			#Initially, how many hits until Shield is broken, Default: 1
-			# Default: 1
-			# Range: > 0
-			royalGuardServantShield = 1
-
-		[Attributes."Summoned Mobs".Cerberus]
-			#How much Max Health Cerberuses have, Default: 100.0
-			# Default: 100.0
-			# Range: 1.0 ~ 1.7976931348623157E308
-			cerberusHealth = 100.0
-			#How much natural Armor Cerberuses have, Default: 0.0
-			# Default: 0.0
-			# Range: 0.0 ~ 1.7976931348623157E308
-			cerberusArmor = 0.0
-			#How much damage Cerberus melee attacks deal, Default: 8.0
-			# Default: 8.0
-			# Range: 1.0 ~ 1.7976931348623157E308
-			cerberusDamage = 8.0
-
 		[Attributes.Mini-Bosses.Crone]
 			#How much Max Health Crones have, Default: 130.0
 			# Default: 130.0

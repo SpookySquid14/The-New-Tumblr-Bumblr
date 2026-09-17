@@ -31,7 +31,7 @@
     }
   ],
   "title": "The Monstrous Creation",
-  "description": "Name: [The Netherite Monstrosity](image:tumblrbumblr:textures/quests/photos/netherite_monstrosity.png:150:150)\nKnown Locations: The Nether\nEstimated Size: Huge\nBehavior: Incredibly powerful and aggressive. Will shoot jets of fire and balls of magma at targets or charge at them. Immune to fire and capable of regenerating through absorbing nearby lava.\nDanger Level: §8§lDeadly",
+  "description": "Name: [The Netherite Monstrosity](image:tumblrbumblr:textures/quests/photos/netherite_monstrosity.png:150:150)\nKnown Locations: The Nether\nEstimated Size: Huge\nBehavior: When close, The Netherite Monstrosity may slam its arms on the ground, sometimes creating shockwaves disrupting nearby blocks. When at a distance, it may charge at the opponent. At long range, The Netherite Monstrosity can perform various attacks. One of these is spraying out several lava bombs from its mouth, which turn into lava upon hitting the ground. The Netherite Monstrosity can then absorb any nearby lava to heal itself. In addition, it can summon flames from the ground and shoot projectiles from its hand.\nDanger Level: §8§lDeadly, recommended to have Fire Resistance",
   "icon": {
     "item": "endrem:lost_eye"
   },

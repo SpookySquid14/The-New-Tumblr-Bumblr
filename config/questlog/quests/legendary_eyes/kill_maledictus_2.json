@@ -16,7 +16,7 @@
 
   ],
   "title": "Banished King",
-  "description": "Name: [Maledictus](image:tumblrbumblr:textures/quests/photos/maledictus.png:150:150)\nKnown Locations: The Frosted Prison, found in the snow.\nEstimated Size: Large\nBehavior: Highly mobile and agressive, uses a multitude of different weapons. His rage increases with each successful attack. Rings display warnings on strength of attacks: Green can be blocked, yellow disables shields, and red cannot be blocked. Can be baited to use closer range attacks and then dodged. Pattern recognition and spacial awareness is essential.\nDanger Level: §8§lDeadly",
+  "description": "Name: [Maledictus](image:tumblrbumblr:textures/quests/photos/maledictus.png:150:150)\nKnown Locations: The Frosted Prison, found in the Eternal Frosthold, accessed through an Eye of Curse.\nEstimated Size: Large\nBehavior: Maledictus is rageful, shown through a meter under his health bar. When he lands an attack, his rage builds, and when an attack misses, his rage lessens. His attacks become stronger the more rageful he is. At close range, he dual wields Phantom Maces and can generate shockwaves. At mid-range, he wields a Phantom Halberd, allowing for more mobility and summoning spectral halberds in large areas. At long range, he uses the Phantom Bow, capable of shooting 4 homing projectiles. Maledictus's arms have rings around them revealing if his next attack will be blockable. If green, they are blockable; if orange, they can be blocked but will disable shield; and if red, they cannot be blocked.\nDanger Level: §8§lDeadly, spatial awareness is crucial",
   "icon": {
     "item": "endrem:corrupted_eye"
   },

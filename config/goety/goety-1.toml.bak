@@ -163,14 +163,6 @@
 	pithosRespawn = true
 	#Allow used Crystal Balls to spawn Crones again when right-clicked with respawn_boss tagged item, Default: true
 	crystalBallRespawn = true
-	#Whether a Sarcophagus can be slept in.
-	sarcophagusSleep = true
-	#Whether non-undead sleepers receive debuffs without a cushion.
-	sarcophagusUndead = true
-	#The maximum number of living Cerberuses owned by one player, Default: 1
-	# Default: 1
-	# Range: > 0
-	cerberusLimit = 1
 
 ["Soul Taken"]
 	#Multiplies the amount of Souls taken by this amount, Default: 2

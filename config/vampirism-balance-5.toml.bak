@@ -71,8 +71,8 @@
 		naturalArmorToughnessIncrease = 8
 		#Buff sunscreen potion to prevent negative effects at any level
 		sunscreenBuff = false
-		#Multiply fire damage with this for vampires - Changed due to IceAndFire
-		# Default: 1.5
+		#Multiply fire damage with this for vampires
+		# Default: 3.0
 		# Range: 0.1 ~ 1.7976931348623157E308
 		fireVulnerabilityMod = 3.0
 		# Default: 2
@@ -136,7 +136,7 @@
 		speedMaxMod = 0.5
 		#List of damage source types that the player does not die from (immediately)
 		immortalFromDamageSources = []
-		#Whether to replace the vanilla fire resistance potion for vampires with a custom one that only reduces damage but does not remove it - Changed due to IceAndFire
+		#Whether to replace the vanilla fire resistance potion for vampires with a custom one that only reduces damage but does not remove it
 		fireResistanceReplace = true
 		# Default: 7.0
 		# Range: 1.0 ~ 1.7976931348623157E308

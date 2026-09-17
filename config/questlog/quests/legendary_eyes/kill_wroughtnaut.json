@@ -31,7 +31,7 @@
     }
   ],
   "title": "The Living Armor",
-  "description": "Name: [Ferrous Wroughtnaut](image:tumblrbumblr:textures/quests/photos/wroughtnaut.png:150:150)\nKnown Locations: Underground\nEstimated Size: Large\nBehavior: Stationary until approached. Swings [Axe of a Thousand Metals](image:mowziesmobs:textures/item/wrought_axe_icon.png:50:50) in wide arcs. Armor is seemingly unbreakable, making damaging it only possible through the crack in its back.\nDanger Level: §6§lMedium",
+  "description": "Name: [Ferrous Wroughtnaut](image:tumblrbumblr:textures/quests/photos/wroughtnaut.png:150:150)\nKnown Locations: Underground\nEstimated Size: Large\nBehavior: Stationary until approached. Swings [Axe of a Thousand Metals](image:mowziesmobs:textures/item/wrought_axe_icon.png:50:50) in wide arcs. At 90% health, it will swing twice. At 60% health, it will swing twice and then spin. Will also stomp the ground, knocking back opponents and sending debris into the air. The Ferrous Wroughtnaut is immune to all forms of damage. It can only be hurt by exploiting the crack in its back, made vulnerable from behind after a large overhead swing makes its axe stuck.\nDanger Level: §6§lMedium",
   "icon": {
     "item": "endrem:cursed_eye"
   },

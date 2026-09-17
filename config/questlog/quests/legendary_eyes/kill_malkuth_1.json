@@ -16,7 +16,7 @@
 
   ],
   "title": "The Fallen King",
-  "description": "Name: [Malkuth](image:tumblrbumblr:textures/quests/photos/malkuth.png:150:150)\nKnown Locations: The Asiyah Dimension, entered through Eye of Malkuth\nEstimated Size: Large\nBehavior: Utilizes fire and ice elements and puts his opponent on equal footing, making them immune to one and weak to the other, shown through a circle on their crosshair. Strikes powerful attacks with swords, the elements, and cannons. Because of equal footing, he cannot be damaged by means other than the cannons in the arena.\nDanger Level: §8§lDeadly",
+  "description": "Name: [Malkuth](image:tumblrbumblr:textures/quests/photos/malkuth.png:150:150)\nKnown Locations: The Asiyah Dimension, entered through Eye of Malkuth\nEstimated Size: Large\nBehavior: Malkuth cycles weaknesses and immunities to fire and ice respectively, indicated by a ring around your crosshair and a line at the bottom of your screen. When orange, you are weak to fire and resistant to ice, and vice versa. These switch regularly, most often when being hit by an attack and using the cannons to attack. He can send out elemental blades, rushes of magma and ice, and summon giant swords to strike the arena. Malkuth also posesses a grappling hook attack, and at lower health, can make islands rise from the arena in a sea of magma and ice. He cannot be damaged traditionally, and must be shot with the two cannons in his arena while he does the same on the other side of the lava. When at 50% health, crystals will form, disabling their corresponding cannons until Malkuth is made to break them.\nDanger Level: §8§lDeadly, don't stop moving",
   "icon": {
     "item": "endrem:rogue_eye"
   },
