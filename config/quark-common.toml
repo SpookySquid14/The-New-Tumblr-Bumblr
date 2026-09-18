@@ -515,7 +515,7 @@
 	"Gold Tools Have Fortune" = true
 	"Grab Chickens" = true
 	"Hoe Harvesting" = true
-	"Horses Swim" = true
+	"Horses Swim" = false
 	"Improved Sponges" = true
 	"Lock Rotation" = true
 	"Magma Keeps Concrete Powder" = true

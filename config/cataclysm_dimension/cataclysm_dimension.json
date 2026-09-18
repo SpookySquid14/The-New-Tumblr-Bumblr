@@ -3,7 +3,7 @@
   "reset_dimension_if_no_player": false,
   "slow_fall_when_enter_dimensions": true,
   "allow_use_eye_in_dimension": false,
-  "keep_structures_in_original_dimensions": false,
+  "keep_structures_in_original_dimensions": true,
   "random_spread_in_dimension": false,
   "enable_return_rift": false,
   "consume_teleport_eye": false,

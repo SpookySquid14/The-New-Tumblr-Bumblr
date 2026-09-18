@@ -86,7 +86,7 @@ hash = "80be96650f8b70bf59239b891571012be341085fc9df2acae494af7a8f860eab"
 
 [[files]]
 file = "config/Mekanism/client.toml"
-hash = "5a3febd891fbed6961403ad21b32ff89e7165fdb2c5e82c43d6d5fc2d99b7cc0"
+hash = "9be0f7a6bf4f62e3425c91c7ccff18292a68fb26b77b9357302003f3ee91bbae"
 
 [[files]]
 file = "config/Mekanism/common.toml"
@@ -694,7 +694,7 @@ hash = "31dc938bcb1455ad20589f3083ed03dc74b0df260d1fa61d451407c9ff97dce6"
 
 [[files]]
 file = "config/cataclysm_dimension/cataclysm_dimension.json"
-hash = "c0a12becf9d7764a6e5e1107712d0d3373522f4d5581879c0dbb88fe4b0e95d7"
+hash = "9349b584508805ae533413ea23116e193c282a6d08cefc1e805094c12d732d24"
 
 [[files]]
 file = "config/cataclysm_spellbooks-server.toml"
@@ -714,7 +714,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "fbc67b34b45a543ffea2bd5f3cb1f76f97a55a8dc462ff0ea09b03bc181f1485"
+hash = "b223515bd1a87d30b01b61f2b497ec7e39541e579a084ded63f2045c8161ae82"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -1953,6 +1953,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$highland_fields.cfg"
 hash = "a398202541deab9df1b9b67e439307485c9343386c3f81f6e2e594040c6f4e51"
 
 [[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$hyacinth_deeps.cfg"
+hash = "869e1c5925640cec4b9108bbb99d8b1bd157e59f55ae1e4253f4e4703348ee4d"
+
+[[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$inferno.cfg"
 hash = "5a1d059def8e60edc949a1f2437613d2cf12e6600edb90fa31536a6494baea76"
 
@@ -1995,6 +1999,10 @@ hash = "a71d8bc3cdc14b58abe64813b3aa7d14ce3ea1a578e5a498d960511374871620"
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$rainforest.cfg"
 hash = "8d99ed32bffd8234c0576dd87767600510cf1b74c9f38da3116241785dc51b86"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$redstone_caves.cfg"
+hash = "8468ba91e4aeb4332915185ceb51334055bdaeb1c784321f38b0e860ba7a658a"
 
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$rocky_meadow.cfg"
@@ -2202,7 +2210,7 @@ hash = "97672eb07cec63e4b48d178cdb6e014e23c925e3d3b34cf9bbc6f3d262fdca61"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "5fa76537199255ce61bf087c2cb973e9f665b984aa609bb947d47060a126c699"
+hash = "b59920d35cd122e6dac7ce12fe5006f4baf68933b7001d9125ad1e40919a15e4"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2433,6 +2441,10 @@ file = "config/ichunutil/themes/whitelight.json"
 hash = "5369346e99dc684898a20bbf08791a940f55c9e70e4ed0b0fa8af9e04091dc78"
 
 [[files]]
+file = "config/icys-better-horses.json"
+hash = "5fcb6e93f141721ed240b242f12178fd00d6c18c9e619790938feb86f05dcb4d"
+
+[[files]]
 file = "config/idas-neoforge-1_21.toml"
 hash = "7c81cad8f7fe70cb4538c76023f39bf17b8d3d65226ae71084e61844d7aa34d4"
 
@@ -2582,7 +2594,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "9b48a2e72d9ad09f4b7adb619929596d934ac6c5a7d12f65e509693986a9a6df"
+hash = "279c01a3d6671b6a57a1ab5115ab685a6fc2c0334fee675b308b95bfcd837728"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2713,6 +2725,10 @@ file = "config/jei/world/local/Grave Test/lookupHistory.json"
 hash = "e97af9d629908eddb61cc99ab9a3eeb8b56faf474a6cebb362f75c7fc4ca3e1f"
 
 [[files]]
+file = "config/jei/world/local/Horse Test/lookupHistory.json"
+hash = "8b65f670b1c338a52c188761bce4597d57027ed971917387607b82a3de7f4936"
+
+[[files]]
 file = "config/jei/world/local/IaF Test/lookupHistory.json"
 hash = "14bd5088ee8318543d8ac39ad79a23176d583bc755f562e850b9391febb382ef"
 
@@ -2811,6 +2827,10 @@ hash = "e1ed276b50954bc53499a746883449591857aeca3768bcd7fa2b554bb1783380"
 [[files]]
 file = "config/jei/world/local/Stick Test/lookupHistory.json"
 hash = "f72948c1b3c30f2c6982d50df8b5da017934bef63665d5ebb6625e97f118a3a4"
+
+[[files]]
+file = "config/jei/world/local/Structure Gen Test 2/lookupHistory.json"
+hash = "2a9e3c2641a711de1fa12b0891e240d50ac33f133ab64333d11f5c36b65a1159"
 
 [[files]]
 file = "config/jei/world/local/Test 1/lookupHistory.json"
@@ -2929,6 +2949,42 @@ file = "config/mcgcore/progress/1-1-minecraft-saves-occultism-playground-466f2b7
 hash = "001c7e07058b643c6b1ba54b9883f49309afae7532d67c841afa6feec5739d49"
 
 [[files]]
+file = "config/mcgcore/progress/1-1-minecraft-saves-structure-gen-test-1-aad6e111.json"
+hash = "84b2a92657588f433c7f9649bd34134e01ae2af80a3c3ab68f42f4f7d19ed54b"
+
+[[files]]
+file = "config/mcgcore/progress/1-1-minecraft-saves-structure-gen-test-2-aad6e112.json"
+hash = "ee75003191fa839e62183ca182af566bedc74e7615651d0fb7c4a5a5fc2804ee"
+
+[[files]]
+file = "config/mcgcore/progress/1-1-minecraft-saves-structure-gen-test-3-aad6e113.json"
+hash = "84b2a92657588f433c7f9649bd34134e01ae2af80a3c3ab68f42f4f7d19ed54b"
+
+[[files]]
+file = "config/mcgcore/progress/1-1-minecraft-saves-structure-gen-test-4-aad6e114.json"
+hash = "84b2a92657588f433c7f9649bd34134e01ae2af80a3c3ab68f42f4f7d19ed54b"
+
+[[files]]
+file = "config/mcgcore/progress/1-1-minecraft-saves-structure-gen-test-5-aad6e115.json"
+hash = "84b2a92657588f433c7f9649bd34134e01ae2af80a3c3ab68f42f4f7d19ed54b"
+
+[[files]]
+file = "config/mcgcore/progress/1-1-minecraft-saves-structure-gen-test-6-aad6e116.json"
+hash = "84b2a92657588f433c7f9649bd34134e01ae2af80a3c3ab68f42f4f7d19ed54b"
+
+[[files]]
+file = "config/mcgcore/progress/1-1-minecraft-saves-structure-gen-test-7-aad6e117.json"
+hash = "7122f4d28bb686d038b703e5a3354e2a85b91ec204c8d35e1fe10f24b3466cc6"
+
+[[files]]
+file = "config/mcgcore/progress/1-1-minecraft-saves-structure-gen-test-8-aad6e118.json"
+hash = "d2f6b451e08f2b613ef7f715f6d165257d86b239028a86231f9202e5d1472ad3"
+
+[[files]]
+file = "config/mcgcore/progress/1-1-minecraft-saves-structure-gen-test-9-aad6e119.json"
+hash = "e28a554766e1b6151a60961212e46c3c5b3034d523034b7db3b1d8f1900a1649"
+
+[[files]]
 file = "config/mcgcore/progress/1-21-1-minecraft-saves-astikorcarts-test-28d5c755.json"
 hash = "58ca1500bde5d58adf5d07806c1ddb89134a65cb8d55cdbf83347d8f92dc8222"
 
@@ -3029,6 +3085,10 @@ file = "config/mcgcore/progress/1-minecraft-saves-playtesting-teh-bumblr-2891682
 hash = "350b3371a6b719f8436dbcf8ce1af6df47b40bb0294576f6bb55f76a752eec47"
 
 [[files]]
+file = "config/mcgcore/progress/1-minecraft-saves-structure-gen-test-10-b005413f.json"
+hash = "598a88a9d670d0089701240070d51483a243c7cde6e181969d737d6f34c49a42"
+
+[[files]]
 file = "config/mcgcore/progress/21-1-minecraft-saves-boss-structure-test-f03f9d41.json"
 hash = "220519ffd0f128cb38d5d740f1933d0879f33376fb80a9212d70715e09873477"
 
@@ -3107,6 +3167,10 @@ hash = "09fbfb88441150d7e176c67ac82e0ecc391df38d23e665051bbd00920d4a5670"
 [[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-gen-test-5-b904a168.json"
 hash = "f9701eea2c16d1a95ac0b60f11688d2bff2a1e395ad1a3de6f87893fed5eb21c"
+
+[[files]]
+file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-horse-test-574c1966.json"
+hash = "856cc4adea626522848b68ecfbc27cb32c2eff384f254bfea0b2070d617ef807"
 
 [[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-moon-test-c99ace00.json"
@@ -3382,7 +3446,7 @@ hash = "55984be8a03604dd95446a84769854c5a42b064146db05dafa16c2ecba7a0971"
 
 [[files]]
 file = "config/multimine.cfg"
-hash = "3e1273eb0a4795e83314e386a6897440b35e2d9f73ea18b10d2a386121f193ba"
+hash = "189d09d8fa76beeaa24741dd5ae3d101d9440a9e428a7035c19185e04f36ef24"
 
 [[files]]
 file = "config/mynethersdelight-common.toml"
@@ -3542,7 +3606,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "1bec7a7e2a5d310b9b19f96914156d367c6569b548280f9458082f146f65f47c"
+hash = "54fe6a316670c02dcb60df8806e37f80c3d804ab6e38a94d855ae7e542c34bd3"
 
 [[files]]
 file = "config/packed_packs/profiles/datapacks/Tumblr Bumblr.profile.json"
@@ -3550,7 +3614,7 @@ hash = "dd988af7a2791e5485c225961ce82193a58d9c2a2f30e09741d90659080b4280"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Tumblr Bumblr.profile.json"
-hash = "79c578ac4c93b0fc159242681328652982d9f714ac8297dc51df06184578e738"
+hash = "15b824e5be11fe76325bb5869da5bc8074151440f3c7b2749792f6024375eb70"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -3614,7 +3678,7 @@ hash = "655bdf8542f53b722a19ef527df91eec0bb8e209f8251eaca6b818756fd4d44b"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "e586b185816b6449e49142da4558d39371b2598a1d636c69811a52804a2c5dd9"
+hash = "191311f36ab2da2b90c6d3f7b3196afe81970a077f6888807cbe00f11b044ae6"
 
 [[files]]
 file = "config/questlog-client.toml"
@@ -4270,27 +4334,27 @@ hash = "c8c24b97720a02ec698726cac1147910dce5b685ce1b36c5050d442cdca4a4e7"
 
 [[files]]
 file = "config/structurify.json"
-hash = "36b92b9d4f9acf1ad5bbf66a5f1689a8e9908bb50780b09897f041999915cd06"
+hash = "8c3f4d45ebe988e95667af2d8ba7b632eae0630c7ad001da27725729762d3d16"
 
 [[files]]
-file = "config/structurify/structurify_backup_2026-09-14_21-15-54.json"
-hash = "3186158b95b81c7ded043ab798f92d623f283ce7364de1cc6da2b4b988fa5562"
+file = "config/structurify/structurify_backup_2026-09-18_10-00-05.json"
+hash = "8453912df0633d83f01e06da9e502302e8b18a98b590619560d0e1dcd859ebef"
 
 [[files]]
-file = "config/structurify/structurify_backup_2026-09-14_21-15-58.json"
-hash = "77938338b1f2697dbd9a7fb633a1d2149ee39da10e2949adcabde55a1e583c99"
+file = "config/structurify/structurify_backup_2026-09-18_10-00-10.json"
+hash = "761e0c393a78aa5a4118dc1f288626af1d3d32856f8c8ae499add764125d8638"
 
 [[files]]
-file = "config/structurify/structurify_backup_2026-09-14_21-25-51.json"
-hash = "ef8a0cf94bfe7db79cf6226dc171ff49b3bb308019e44d1a49444297485fb0b0"
+file = "config/structurify/structurify_backup_2026-09-18_10-00-15.json"
+hash = "a009658866777f1e145c29ff1c6d0da242c1786e28855b266cc9c42ef3c76864"
 
 [[files]]
-file = "config/structurify/structurify_backup_2026-09-14_21-35-39.json"
-hash = "c970f49c72b3a6d611d1cb1eb73647b8f1cd023b37cc3bcc8b6135f286dae682"
+file = "config/structurify/structurify_backup_2026-09-18_10-00-22.json"
+hash = "ba2fbb4dc33e15eaa6a957e53acb7eb8482f8df57c390d139e90cf565301b41c"
 
 [[files]]
-file = "config/structurify/structurify_backup_2026-09-16_16-27-36.json"
-hash = "58db3e0106c89a375a0869d5f863558896415c9740ab7170ece82f0c548ddbde"
+file = "config/structurify/structurify_backup_2026-09-18_10-00-25.json"
+hash = "527e06b1780879795dbed7f6c9abab2e596647023f47858c6422c6a67497530a"
 
 [[files]]
 file = "config/structurize-client.toml"
@@ -6237,6 +6301,10 @@ file = "kubejs/config/web_server.json"
 hash = "7067ef87d055e3851bab3bb4f4c7b60df03606dffd98ef27a648d26992015826"
 
 [[files]]
+file = "kubejs/data/c/tags/entity_type/horses.json"
+hash = "986f9b52265388f4b17b9f599f2a57cd87d31303a4b82a2f7b4ee478e7467323"
+
+[[files]]
 file = "kubejs/data/c/tags/item/gems/emerald.json"
 hash = "d4af0ba78d7059e39ccb95da2650c3d4db2ba398b3eb565213ed6c05a735a6a0"
 
@@ -6746,11 +6814,6 @@ metafile = true
 [[files]]
 file = "mods/artifacts.pw.toml"
 hash = "f6d95ffad7d664a2d4ab8e79dbe9de55f8f8e5860a18a0f30b8c6a65abdab4a4"
-metafile = true
-
-[[files]]
-file = "mods/astikor-carts-redux.pw.toml"
-hash = "30d43b4b55765dd5ede116ec2b3235c407e0cb78801e6b8a2b57dd9e1b099295"
 metafile = true
 
 [[files]]
@@ -7459,11 +7522,6 @@ hash = "5f901b137de765d7c5c9de923e856914ab26ec8f674a3d4133d7003d3df435b6"
 metafile = true
 
 [[files]]
-file = "mods/horseman.pw.toml"
-hash = "7920ebfe9b353e3ce7cd1898d29260c020d0c01189ae0c7b079e2bae98478c5d"
-metafile = true
-
-[[files]]
 file = "mods/hourglass.pw.toml"
 hash = "2ac1d6be363cbd947cc7c16adf52af961acf663b48e2cc1cc043d149fa3b5805"
 metafile = true
@@ -7481,6 +7539,11 @@ metafile = true
 [[files]]
 file = "mods/ichunutil.pw.toml"
 hash = "1fa8c00f4f0287dea84f26699c9a67493b586c01d75ef9a4f98d99e483ee0508"
+metafile = true
+
+[[files]]
+file = "mods/icys-better-horses.pw.toml"
+hash = "3f65c9ab6ef0cff2ea7ea162e6c04c4240b2d0e31ff2c0473aa2d58a4fbccd5a"
 metafile = true
 
 [[files]]
@@ -7521,11 +7584,6 @@ metafile = true
 [[files]]
 file = "mods/integrated-api.pw.toml"
 hash = "f52b4ec377f141fdeafe5addc630678fd436685901b1048e5038c935b49e02f9"
-metafile = true
-
-[[files]]
-file = "mods/integrated-cataclysm.pw.toml"
-hash = "1d463c0d164bd8f068d2f5b9eb33ecfac39b925c4366843c1df2a174cec9be63"
 metafile = true
 
 [[files]]
