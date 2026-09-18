@@ -1,0 +1,45 @@
+filename = 'IMM v1.3.0-1.21.1.jar'
+name = "Integrated Mowzie's Mobs"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v1.3.0 ~ IMM 1.21.1'
+
+[download]
+hash = '905210267cdade35874781748606c04b10a3a207'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8833807
+project-id = 1587709
+
+[[x-prismlauncher-dependencies]]
+addonId = '1690092'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '896746'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '817709'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '412082'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '250498'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '243121'
+type = 'REQUIRED'

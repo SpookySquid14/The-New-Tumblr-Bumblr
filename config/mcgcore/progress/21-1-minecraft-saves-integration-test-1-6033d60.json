@@ -1,0 +1,31 @@
+{
+  "discovered": [
+    "cataclysm:infernal_forge",
+    "cataclysm:lava_power_cell",
+    "cataclysm:mech_eye",
+    "cataclysm:monstrous_eye",
+    "cataclysm:monstrous_horn",
+    "cataclysm:stone_pillar",
+    "cataclysm:witherite_block",
+    "create:andesite_pillar",
+    "create:nixie_tube",
+    "endrem:lost_eye",
+    "endrem:wither_eye",
+    "immersiveengineering:shader_bag_epic",
+    "mcgcore:guidebook",
+    "minecraft:acacia_sapling",
+    "minecraft:chain",
+    "minecraft:deepslate_bricks",
+    "minecraft:flint_and_steel",
+    "minecraft:lever",
+    "minecraft:obsidian",
+    "minecraft:polished_deepslate_stairs",
+    "minecraft:rail",
+    "netherman:azazel_guide_book",
+    "tumblrbumblr:nether_star_drained"
+  ],
+  "ticked": [],
+  "seen": [],
+  "notes": {},
+  "recents": []
+}
