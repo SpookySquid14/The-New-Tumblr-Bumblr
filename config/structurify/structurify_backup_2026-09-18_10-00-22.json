@@ -1,0 +1,178 @@
+{
+  "config_version": "2.0.34",
+  "config_datetime": "2026-09-18_10-00-15",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": true,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 2.0
+  },
+  "structure_namespaces": [
+    {
+      "name": "global",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": false,
+      "min_distance_from_world_center": 300,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
+    }
+  ],
+  "structures": [
+    {
+      "name": "cataclysm:acropolis",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "cataclysm:ancient_factory",
+      "whitelisted_biomes": [
+        "cataclysm_dimension:badlands"
+      ],
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "cataclysm:burning_arena",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
+    },
+    {
+      "name": "cataclysm:cursed_pyramid",
+      "terrain_adaptation": "beard_box",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 21
+    },
+    {
+      "name": "cataclysm:frosted_prison",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
+    },
+    {
+      "name": "cataclysm:ruined_citadel",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "cataclysm:soul_black_smith",
+      "terrain_adaptation": "bury",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_max_height_difference": 21
+    },
+    {
+      "name": "cataclysm:sunken_city",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "cataclysm_dimension:acropolis",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "cataclysm_dimension:ancient_factory",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "cataclysm_dimension:burning_arena",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "cataclysm_dimension:cursed_pyramid",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "cataclysm_dimension:frosted_prison",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "cataclysm_dimension:ruined_citadel",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "fdbosses:chesed_arena",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "fdbosses:geburah_arena",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "fdbosses:malkuth_arena",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "nova_structures:illager_camp",
+      "blacklisted_biomes": [
+        "minecraft:river"
+      ]
+    },
+    {
+      "name": "nova_structures:trident_trial_monument",
+      "blacklisted_biomes": [
+        "minecraft:deep_frozen_ocean"
+      ]
+    }
+  ],
+  "structure_sets": [
+    {
+      "name": "underground_village:underground_village",
+      "frequency": 0.3
+    },
+    {
+      "name": "underground_village:underwater_village",
+      "frequency": 0.3
+    }
+  ],
+  "structure_template_pools": []
+}

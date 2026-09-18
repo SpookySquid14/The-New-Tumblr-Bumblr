@@ -1,0 +1,25 @@
+{
+  "discovered": [
+    "cataclysm:burning_ashes",
+    "cataclysm:chiseled_stone_brick_pillar",
+    "cataclysm:cursed_eye",
+    "cataclysm:door_of_seal",
+    "cataclysm:flame_eye",
+    "cataclysm:ignitium_ingot",
+    "cataclysm:music_disc_ignis",
+    "cataclysm:void_eye",
+    "create:clutch",
+    "create:creative_motor",
+    "create:gearbox",
+    "create:rope_pulley",
+    "create:vertical_gearbox",
+    "endrem:nether_eye",
+    "ezemeraldpouch:emerald_pouch",
+    "immersiveengineering:shader_bag_epic",
+    "mcgcore:guidebook"
+  ],
+  "ticked": [],
+  "seen": [],
+  "notes": {},
+  "recents": []
+}

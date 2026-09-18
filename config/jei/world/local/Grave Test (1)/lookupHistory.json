@@ -1,0 +1,13 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"naturalist:morsel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hauntedharvest:grim_apple"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:honeycomb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"golemoverhaul:honey_blob"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"complicated_bees:centrifuge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createestrogen:centrifuge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:isotopic_centrifuge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"complicated_bees:honey_droplet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"complicated_bees:comb","components":"{\"complicated_bees:comb_type\":\"complicated_bees:honey\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"complicated_bees:beeswax"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

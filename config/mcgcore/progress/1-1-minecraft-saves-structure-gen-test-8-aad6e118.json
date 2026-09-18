@@ -1,0 +1,25 @@
+{
+  "discovered": [
+    "cataclysm:cursed_eye",
+    "cataclysm:flame_eye",
+    "cataclysm:mech_eye",
+    "cataclysm:music_disc_the_harbinger",
+    "cataclysm:witherite_block",
+    "endrem:wither_eye",
+    "ezemeraldpouch:emerald_pouch",
+    "immersiveengineering:shader_bag_epic",
+    "mcgcore:guidebook",
+    "minecraft:lever",
+    "minecraft:polished_blackstone_wall",
+    "minecraft:polished_deepslate_slab",
+    "minecraft:polished_deepslate_stairs",
+    "minecraft:powered_rail",
+    "minecraft:rail",
+    "minecraft:redstone_torch",
+    "tumblrbumblr:nether_star_drained"
+  ],
+  "ticked": [],
+  "seen": [],
+  "notes": {},
+  "recents": []
+}

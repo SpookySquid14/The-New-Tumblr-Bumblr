@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:skeleton_horse_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"goety:dark_altar_ominous_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"goety:pedestal_highrock"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"icys-better-horses:horse_hooves_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"icys-better-horses:horse_medkit_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"icys-better-horses:horse_stabilizer_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:saddle"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
