@@ -714,7 +714,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "7c78f516594889f009d8dfc8742c4dc95a52e9f7de2a242aeeed3f6f7c23b879"
+hash = "fbc67b34b45a543ffea2bd5f3cb1f76f97a55a8dc462ff0ea09b03bc181f1485"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -2202,7 +2202,7 @@ hash = "97672eb07cec63e4b48d178cdb6e014e23c925e3d3b34cf9bbc6f3d262fdca61"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "1be839a0e193bc6c76ab46c987ebb9e5f5bbc9b7386555ac4eee30c83a5cc9af"
+hash = "5fa76537199255ce61bf087c2cb973e9f665b984aa609bb947d47060a126c699"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2701,6 +2701,14 @@ file = "config/jei/world/local/Gateway Test/lookupHistory.json"
 hash = "fe4f512ac9590800c8cd1639af6be3f4f7bc441df1ce43eeb5171f4fa3799655"
 
 [[files]]
+file = "config/jei/world/local/Grave Test (1)/bookmarks.json"
+hash = "1393eb480ad74aced4c1447e7211fd899cc90e0b76abb0b56cc5c1c6f35238a3"
+
+[[files]]
+file = "config/jei/world/local/Grave Test (1)/lookupHistory.json"
+hash = "989bd8b198b67bb86e9451f2db32bbb009d254d3e9ea8349f42e382da3f9ccef"
+
+[[files]]
 file = "config/jei/world/local/Grave Test/lookupHistory.json"
 hash = "e97af9d629908eddb61cc99ab9a3eeb8b56faf474a6cebb362f75c7fc4ca3e1f"
 
@@ -3045,6 +3053,10 @@ file = "config/mcgcore/progress/21-1-minecraft-saves-miner-on-ship-test-f2f4a047
 hash = "457cad944c301547868797ede04183042f52779aebeda4e5c7f3e718907b1f81"
 
 [[files]]
+file = "config/mcgcore/progress/blr-1-21-1-minecraft-saves-grave-test-1-5cd1855e.json"
+hash = "6b1d6a468ad1fe48a43e9a106a6129f312b5c4f5b6415d1dde6940b40c82f4b9"
+
+[[files]]
 file = "config/mcgcore/progress/blr-1-21-1-minecraft-saves-nether-test-1-3f18cd1a.json"
 hash = "6bdbd22f0a364e717620a830cfac4ebb84b097e36fd4beab2dc0330a005581f6"
 
@@ -3370,7 +3382,7 @@ hash = "55984be8a03604dd95446a84769854c5a42b064146db05dafa16c2ecba7a0971"
 
 [[files]]
 file = "config/multimine.cfg"
-hash = "e9aa1fcf0e35a19d1d0e1a66053b24a5f284fe3395cdffe11b5454ad2824f4b7"
+hash = "3e1273eb0a4795e83314e386a6897440b35e2d9f73ea18b10d2a386121f193ba"
 
 [[files]]
 file = "config/mynethersdelight-common.toml"
@@ -3633,6 +3645,10 @@ file = "config/questlog/chapters/silent_gear.json"
 hash = "e19f58f97f4c4986768626f7772405159e7eea8cea2ac9053a62802c607c2843"
 
 [[files]]
+file = "config/questlog/quests/additional_main_quests/honey_golem.json"
+hash = "22980df247962d0784c5d50cffc4cdc3805fde322a9d1dc4432084e684617dfb"
+
+[[files]]
 file = "config/questlog/quests/envelope/envelope_intro.json"
 hash = "43d643315d47d545857c1099b41472a970fe72f0318906d2a18c7ecfef6929ba"
 
@@ -3734,7 +3750,7 @@ hash = "397d5ce8d69b1ee06b72951b6f98ec95c452c9211de5bc946bd3fca3536774c2"
 
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/death.json"
-hash = "844eb189f0eb1d5634ca84fef7b8e9ca20d4b5a2e77fa1f500cf47a75fd9dd61"
+hash = "9d30625d89c176b2d1a627c74bb5644e69aa10c4c23561c75a2a2d2af9d8d67e"
 
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/eccentric_tome.json"

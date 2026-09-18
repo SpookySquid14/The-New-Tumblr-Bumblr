@@ -1,6 +1,6 @@
 {
   "title": "You Won't Die",
-  "description": "Death will not be your end. It is only the beginning. For those who pass, a grave will be erected, and to it, ghosts will flock, and can be befriended through Glowstone Dust\nIf you instead choose to put the spirits to rest, pearls of their essence will be dropped, which can be crafted into a Recovery Key. The item allows you to quickly recover your belongings if they are far from reach.",
+  "description": "Death will not be your end. It is only the beginning. For those who pass, a grave will be erected, and if 10 are created close together, a graveyard will be created, shown by fog forming on the ground. To this, ghosts will flock, which can be befriended and even bred through Glowstone Dust.\nIf you instead choose to put the spirits to rest, pearls of their essence will be dropped, which can be crafted into a Recovery Key. The item allows you to quickly recover your belongings if they are far from reach.",
   "icon": {
     "item": "yagm:restore_key"
   },
@@ -35,5 +35,5 @@
   "toast_on_unlock": false,
   "toast_on_complete": true,
   "show_popup_on_unlock": true,
-  "description_completed": "Do try to avoid this fate, please. Also know that §l§6you can skip the respawn cinematic with the Space key if you so desire."
+  "description_completed": "Do try to avoid this fate, please, unless you want to create a graveyard with 10 or more graves. Also know that §l§6you can skip the respawn cinematic with the Space key if you so desire."
 }
