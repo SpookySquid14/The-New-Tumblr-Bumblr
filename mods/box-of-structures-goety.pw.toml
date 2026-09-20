@@ -1,0 +1,25 @@
+filename = 'bosgoety-1.21.1-1.1.0.jar'
+name = 'Box of Structures: Goety'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'bosgoety-1.21.1-1.1.0'
+
+[download]
+hash = '3ede1207247d58e1611dbe9acbe2361b61b2f97f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8594600
+project-id = 1467540
+
+[[x-prismlauncher-dependencies]]
+addonId = '1458529'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '586095'
+type = 'REQUIRED'

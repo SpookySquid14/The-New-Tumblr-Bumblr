@@ -6989,6 +6989,11 @@ hash = "d03eb1afd3f3a2b9323400ff67fe52e83d81625886b4b2240564eae2c3db5804"
 metafile = true
 
 [[files]]
+file = "mods/box-of-structures-goety.pw.toml"
+hash = "d46d61a76714a8ff0b0f71a39c4bb11ae17fdd5f2566aaef08f0bcbb2a93408d"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "6fd2e4c618bca79e94afec50ee1fc5baedc41316f281b4eecd79616ffaa7aa4a"
 metafile = true
