@@ -1,0 +1,37 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:horses/horse_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:stat",
+      "stat": "minecraft:horse_one_cm",
+      "name": "Ride your horse 2 km",
+      "required_amount": 200000
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "farmersdelight:horse_feed",
+      "name": "For yo-wr hoss, not ya"
+    }
+  ],
+  "title": "Goin' For A Stroll",
+  "description": "Horses ahr wonderful animals, truly.  Thay kay-yun be ridden by two people at once, an git this, kay-yun eve-yn be made t' cut duhrt awn their own.  That's right, hit W twice, an ya're hoss will begin movin' forward awn its own, all ya need t' do is steer.  Ya canna course tay-uk control back whenevher ya want.  Oh, eend water? Mud? Pffthah! Don't may-uk me lay-uf.  Such thin's won't stop yo-wr trusty steed.\nWanna know sumthin' eve-yn beder? by hittin' thuh Horse Walk Cycle key (Default: V), ya kay-yun cycule through thuh different speeds: walk, trot, canter, an gallop.  While yo-wr hoss is movin' awn its own, ya kay-yun hold w an s t' gallop at any time, an lettin' gitty-up will jus' 'ave yo-wr hoss continue awn as it was befo-wr.",
+  "icon": {
+      "texture": "icys-better-horses:textures/gui/hud/icon_quarter.png"
+  },
+  "chapter": "horses",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

@@ -1,7 +1,7 @@
 {
-  "name": "Mail Central",
+  "name": "Horsin' Aroun'",
   "icon": {
-    "item": "envelope:sealed_letter"
+    "item": "minecraft:saddle"
   },
   "default_chapter": false,
   "hidden": false

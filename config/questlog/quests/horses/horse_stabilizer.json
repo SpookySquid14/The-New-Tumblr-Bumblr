@@ -1,0 +1,35 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:horses/upgraded_saddle"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "icys-better-horses:horse_stabilizer_gear"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:hay_block",
+      "name": "For yo-wr hoss, not ya"
+    }
+  ],
+  "title": "Not Quite a Pegasus",
+  "description": "'ave ya evher tried ridin' a hoss aroun' a mountain or ravine? it's 'ard sumtaahms t' keep 'em awn thuh flader surfaces an not tay-uk a dive, ah'll tell ya that much.  Fortunately, maah partner created this special stabilizer usin' thayse little canisters.  Whe-yn ya're awn a hoss an ya fuh-all a certain diestance, thuh win's will come out an slow yo-wr fuh-all ta a nahce safe glaahd.  It's a fuh-auhrly big device, kay-yun't use any carts with it, but ah imagaahn that would look straynge everhoo",
+  "icon": {
+      "item": "icys-better-horses:horse_stabilizer_gear"
+  },
+  "chapter": "horses",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

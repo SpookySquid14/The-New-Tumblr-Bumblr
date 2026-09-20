@@ -86,7 +86,7 @@ hash = "80be96650f8b70bf59239b891571012be341085fc9df2acae494af7a8f860eab"
 
 [[files]]
 file = "config/Mekanism/client.toml"
-hash = "9be0f7a6bf4f62e3425c91c7ccff18292a68fb26b77b9357302003f3ee91bbae"
+hash = "5a3febd891fbed6961403ad21b32ff89e7165fdb2c5e82c43d6d5fc2d99b7cc0"
 
 [[files]]
 file = "config/Mekanism/common.toml"
@@ -714,7 +714,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "b223515bd1a87d30b01b61f2b497ec7e39541e579a084ded63f2045c8161ae82"
+hash = "5bdf5f653a9fe0ee5dfa46aa449757a7e8c580e9b9f4ceb5c32c13c7dcb51eb9"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -981,6 +981,14 @@ file = "config/cristellib/ae2/structure_toggle_config.json5"
 hash = "1d900647f5a76b713371e4c4bb995890f04f1141aabfdf585c22d611cf7b14dc"
 
 [[files]]
+file = "config/cristellib/ancient_remnants/structure_placement_config.json5"
+hash = "9db14e9e289f43bd5857875116855f5982a7585b8e5d2675bd849da83007ded1"
+
+[[files]]
+file = "config/cristellib/ancient_remnants/structure_toggle_config.json5"
+hash = "92df3948cf22b5a54046ba30819edbe31076a0b062fbd03553ff8d4a26f594f4"
+
+[[files]]
 file = "config/cristellib/apotheosis/structure_placement_config.json5"
 hash = "a305799ec680f9069271afc9c2e2f1a07438cea08aa24b7de9a6422ffba3d81b"
 
@@ -1066,7 +1074,7 @@ hash = "fc70281d363679d4e401468518de6f815a6d48301cbdb39d5d744bc6b7a63b46"
 
 [[files]]
 file = "config/cristellib/built_in_packs.json5"
-hash = "76120cb769b1303ffdbd30a197e01e69692a9c111eb818a3b5a5272925343364"
+hash = "266761717cb03c996179f460937d88630ad8257dfb8326a6936ddce2eb5f28fb"
 
 [[files]]
 file = "config/cristellib/castles_and_keeps/structure_placement_config.json5"
@@ -2137,6 +2145,10 @@ file = "config/forgeendertech/Biomes/terralith$savanna_slopes.cfg"
 hash = "5cdd62a7ca6cb57aa9d82530d932e7de99c941fbd11bb31a43a09b9c19660ae3"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$snowy_cherry_grove.cfg"
+hash = "5791394a9728ec7bc864b4579c48bade5fa3f35b22f386c224f2dfcec8040662"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$snowy_shield.cfg"
 hash = "6fea2986c48b4c953e6529d7345b0afaab386a523b271f7ba3446e4ef520b895"
 
@@ -2210,7 +2222,7 @@ hash = "97672eb07cec63e4b48d178cdb6e014e23c925e3d3b34cf9bbc6f3d262fdca61"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "b59920d35cd122e6dac7ce12fe5006f4baf68933b7001d9125ad1e40919a15e4"
+hash = "48d2c4a6f9b2bed167884007fdb4cd9f38d1eea2ba1192fe95edafa93f843c14"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2278,11 +2290,15 @@ hash = "18edd8e125dfa8d085b308df0a4a7ef3c29eb0e8c2e4a3956c4214a281737256"
 
 [[files]]
 file = "config/goety/goety-attributes-1.toml.bak"
+hash = "e2bad956ddce24556f8d90a283da893871e92c9ef9ecebb893a160561fe8a4ed"
+
+[[files]]
+file = "config/goety/goety-attributes-2.toml.bak"
 hash = "ead407d977c003ed23a851d5dbc440f386993035e142e92a3028b53eb1c01c46"
 
 [[files]]
 file = "config/goety/goety-attributes.toml"
-hash = "e2bad956ddce24556f8d90a283da893871e92c9ef9ecebb893a160561fe8a4ed"
+hash = "c0c2b1493dc1a2bf030ecb8a0dfcff4469316dd4f81cae4ea665737234ce54db"
 
 [[files]]
 file = "config/goety/goety-brews.toml"
@@ -2594,7 +2610,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "279c01a3d6671b6a57a1ab5115ab685a6fc2c0334fee675b308b95bfcd837728"
+hash = "8ed1c9a3aa82cc1d0020d04d2e9b30b223f8f50db245631664575f759b9832e6"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2726,7 +2742,7 @@ hash = "e97af9d629908eddb61cc99ab9a3eeb8b56faf474a6cebb362f75c7fc4ca3e1f"
 
 [[files]]
 file = "config/jei/world/local/Horse Test/lookupHistory.json"
-hash = "8b65f670b1c338a52c188761bce4597d57027ed971917387607b82a3de7f4936"
+hash = "9d40717e46af2dd209e667676dd48f85f75a93605754d22e5b07706db7cc50b4"
 
 [[files]]
 file = "config/jei/world/local/IaF Test/lookupHistory.json"
@@ -3170,7 +3186,7 @@ hash = "f9701eea2c16d1a95ac0b60f11688d2bff2a1e395ad1a3de6f87893fed5eb21c"
 
 [[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-horse-test-574c1966.json"
-hash = "856cc4adea626522848b68ecfbc27cb32c2eff384f254bfea0b2070d617ef807"
+hash = "f08457717c5fa503c14b4b7e3cc7c04d96a21e7bc11b23eafaa646ea21a8d867"
 
 [[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-moon-test-c99ace00.json"
@@ -3678,7 +3694,7 @@ hash = "655bdf8542f53b722a19ef527df91eec0bb8e209f8251eaca6b818756fd4d44b"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "191311f36ab2da2b90c6d3f7b3196afe81970a077f6888807cbe00f11b044ae6"
+hash = "ad8d191b86b1a73cb76d561e47083e7def8b9edb29ac9d38885db87a280a7598"
 
 [[files]]
 file = "config/questlog-client.toml"
@@ -3686,11 +3702,15 @@ hash = "d14d7ab03e104f50e3b01f65307ab51ae0901deef0e80b81d5af6004e2c4e36a"
 
 [[files]]
 file = "config/questlog/chapters/envelope.json"
-hash = "40f50d0337e93fa33a1594e780d8d37ee865751696e42c168036b9ecdc207d0c"
+hash = "137c2c1fe73c9f1c3c5edd4b9227d4277c3821bb391c59028cb427b69a9295fc"
 
 [[files]]
 file = "config/questlog/chapters/fishing.json"
 hash = "41e79353b7ca46328790801bebf003db812e9b77d69d28e7aeb458fe6db9c395"
+
+[[files]]
+file = "config/questlog/chapters/horses.json"
+hash = "c7760223af1f1958ac7478bda9e3e4e730e03157364dd78c4a6afab2feaaab18"
 
 [[files]]
 file = "config/questlog/chapters/legendary_eyes.json"
@@ -3855,6 +3875,50 @@ hash = "bdf2da853a3a7cc0b8fb39b216bcfe180b36e4a230969f069f9c279eeb77ebf4"
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/waystone.json"
 hash = "b4aad10f82a7aa7ed12e341391822b62572262457b99bf05bf9d5e9784dc2e6e"
+
+[[files]]
+file = "config/questlog/quests/horses/command_wheel.json"
+hash = "34608f390194ab532fadb32f93a7361f39003d4ea4644cf35482855846afe150"
+
+[[files]]
+file = "config/questlog/quests/horses/horse_cart.json"
+hash = "fe273f98145b4e1f6bc45f6f6a65ed2b34db875991ebfa73d880ed491aa9c703"
+
+[[files]]
+file = "config/questlog/quests/horses/horse_combat.json"
+hash = "b74ab6d12103f44b16fb75d84f7d14562b1d8cdf15ce8b86cdaa2a0c6139d119"
+
+[[files]]
+file = "config/questlog/quests/horses/horse_hooves.json"
+hash = "3495220be6b043d3c867080b7b7e82c3f277adfce33577f9f73b3c50e4ff71b1"
+
+[[files]]
+file = "config/questlog/quests/horses/horse_intro.json"
+hash = "c009dd1481b1979dc36bfbd51cac2f181020bc06a1e757fa236c9d11b457e037"
+
+[[files]]
+file = "config/questlog/quests/horses/horse_medkit.json"
+hash = "3f6a22beb72b8b2416b89fb393b38c3e254b6952f20794b0a9a6ac214a36eac6"
+
+[[files]]
+file = "config/questlog/quests/horses/horse_stabilizer.json"
+hash = "3c6d076ae2c6aee635f9a2c7f750e611aa81b5055444c12d5155b2f2f0675b38"
+
+[[files]]
+file = "config/questlog/quests/horses/riding_basics.json"
+hash = "9482f95f5d797c1bc31c77ba1d4eed88a07caf49f40c22c769cb7b82f9e6607f"
+
+[[files]]
+file = "config/questlog/quests/horses/trusted_players.json"
+hash = "13669b64759bbc0175335a7f7ced4aa3414f1e00cabdd12f29f50287b421fa12"
+
+[[files]]
+file = "config/questlog/quests/horses/upgraded_saddle.json"
+hash = "abfa39b8d74422b4d523d7cb031c4e97fd498a8ec01047a16cc06c1a3e065178"
+
+[[files]]
+file = "config/questlog/quests/horses/whistle_and_menu.json"
+hash = "ff4d87d014c482e6d0cfdc5ac82cbdc8db46612a82bd6ab6af019a3cd4938935"
 
 [[files]]
 file = "config/questlog/quests/legendary_eyes/base_quest.json"
@@ -5625,6 +5689,22 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/hellshelf_of_sight.png"
 hash = "dabd0d8e6f834f5c3cc3062a7ad8f893ce05917c3a48a6ffc7cf4a6716e28fe7"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/horse_command_wheel.png"
+hash = "2d0dabc1f3740868f9b6d913e7efb2a4ff2910fed0b10e0e9b8e1e2b185bc8c1"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/horse_hooves.png"
+hash = "25aa1d88ad7b4b974e9fc55563adc6e8e4e25878824d916987070f8e5d94b875"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/horse_medkit.png"
+hash = "0f95b728349bb449b8dc9806ae37d27e78835c721b34d4fc2da8580c06cfe779"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/horse_stats.png"
+hash = "1b4df68836624b5cdd8adb1397a8c50d347b9c6c2bceac663167cfd562ddca33"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/icons/advanced_chainsaw.png"
 hash = "c7ad987082135a0da344241ebecc0c0a93f23448a0e1494ecc1c2a41098b1ab2"
 
@@ -5863,6 +5943,10 @@ hash = "d90976d3bf6031b1858cc6fe3cd65b3d0e6a4203aac8cf8542c2959d555b739d"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/malignant-veins.png"
 hash = "7669700d14e39f0572daef5d3b6a60794c637ef898cb43ce3542991993b581ec"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/manage_horses.png"
+hash = "cd337ab59825d6829414c346e3d5b54f63b6bebd40ab33cac7fc8fb31ea38670"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/material_grader.png"
@@ -6201,6 +6285,10 @@ file = "kubejs/assets/tumblrbumblr/textures/quests/unstable_nether_portal.png"
 hash = "fc73853c8a8b4c34676b4a59a3bf298f84c9b0fa65babb823e97c16c1f1ceb0f"
 
 [[files]]
+file = "kubejs/assets/tumblrbumblr/textures/quests/upgraded_saddle.png"
+hash = "8fcdd31ddb99947ff5a4655528e501c03313f7e3771eb5a81fa3439b49a36594"
+
+[[files]]
 file = "kubejs/assets/tumblrbumblr/textures/quests/upgrading-rod.png"
 hash = "dee171b111bd8549fc2c59016a29016e8e4a1d796bba32f10e18d7223b872abe"
 
@@ -6455,6 +6543,10 @@ hash = "2525edc9c9486f21adf0dcbc627cc20130caa7e5f92e8dabac3fb22796955158"
 [[files]]
 file = "kubejs/data/enhancedcelestials/enhancedcelestials2core/lunar/event_probability/peaceful_moon.json"
 hash = "99a8c5b5159804f5f4d5f7b254d313daec2fc28a2315f5698703d80be079e83d"
+
+[[files]]
+file = "kubejs/data/estrogen/tags/entity_type/urine_giving.json"
+hash = "8049d7dac53702c4dbe38dd3540afe3de46615030237b5c1cfdff74cdfe50b44"
 
 [[files]]
 file = "kubejs/data/fdbosses/loot_table/entities/chesed.json"
@@ -6862,6 +6954,11 @@ hash = "8e0e96b58c49bfcb148bcddfde248a154c73d8115ebb1f2dd70cd194fef6a07b"
 metafile = true
 
 [[files]]
+file = "mods/better-respawn.pw.toml"
+hash = "c3f9dd79236a2ac7230b2105f334dde8a3787623cc974d61292a7586f3fa4ca8"
+metafile = true
+
+[[files]]
 file = "mods/better-third-person.pw.toml"
 hash = "1d9db9e1ce4a16eb46d1989ebadb1c2a820145040e62395577ec72db471f9944"
 metafile = true
@@ -6924,11 +7021,6 @@ metafile = true
 [[files]]
 file = "mods/catalogue.pw.toml"
 hash = "c1c27163eb2cc6c2ab721275c3ee0e0845567a78ae4f0bb91abf422ef7530e15"
-metafile = true
-
-[[files]]
-file = "mods/certain-questing-additions.pw.toml"
-hash = "e343c9b8da6eee9dbc44e7afd46ef01871e4422d797a7ab1d8b627fae4e5e1af"
 metafile = true
 
 [[files]]
@@ -6999,11 +7091,6 @@ metafile = true
 [[files]]
 file = "mods/configurable-extra-mob-drops.pw.toml"
 hash = "d2056d95de055ad381587e174e85f2539d7383cf6f4fe60b4d6b4796a537ea14"
-metafile = true
-
-[[files]]
-file = "mods/configured.pw.toml"
-hash = "1edcb61c72223e07f2e5ad4f17f8b0994669a3f3bb89d6049ad8a4f26359aa30"
 metafile = true
 
 [[files]]
@@ -7252,6 +7339,11 @@ hash = "7200c5fda1e0293b933b9f956e68bf4a4aa34310375d7125321273985413dae5"
 metafile = true
 
 [[files]]
+file = "mods/embers-ancient-remnants.pw.toml"
+hash = "2e0607d938a99846d00c6ff3fffd97ee5c259b2350c8e4e52a9ec7c8920316d0"
+metafile = true
+
+[[files]]
 file = "mods/embers-castles-and-keeps.pw.toml"
 hash = "99accc4352f83e7ea6882cb49a8ad9f3c325721bffc7bedd6e0d3251430ed609"
 metafile = true
@@ -7347,16 +7439,6 @@ hash = "60c268de9cbca18294adb7059f726eae3a71357b14c150d5681f3ff892a7769d"
 metafile = true
 
 [[files]]
-file = "mods/extralib.pw.toml"
-hash = "2ee312c0be63fb242f3041eb552f725407321d120e30ecb7d2d5ff597cabd4d4"
-metafile = true
-
-[[files]]
-file = "mods/extraquests.pw.toml"
-hash = "886a02ba331f67de468d7b0a1ec17a43b122219c73b44d4cd822cfcd37970c4f"
-metafile = true
-
-[[files]]
 file = "mods/ez-emerald-pouch.pw.toml"
 hash = "51c02a8a6a2872ebe012d9644d0795242ae523dd44386d5b9614bc25798bd162"
 metafile = true
@@ -7427,11 +7509,6 @@ hash = "f645e21d38d7d07ac188caae0c2d4d6732e0fc12e3527ac40a58ca4f9604995d"
 metafile = true
 
 [[files]]
-file = "mods/ftb-filter-system.pw.toml"
-hash = "1d6f217c96c3d5ac1025d43c996ff56b2c62f28b32478fd53f0c512f2e4ef661"
-metafile = true
-
-[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "e4d9252217aa87cccc69ea8b60b6036c828b038240eeec85ebee7716621dcce5"
 metafile = true
@@ -7444,11 +7521,6 @@ metafile = true
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "cd1bb0ea09e5ae27f0c29f460ea5ec41e327298a256dd00a7fd2f002f2c40bfe"
-metafile = true
-
-[[files]]
-file = "mods/ftb-xmod-compat.pw.toml"
-hash = "ac0d252252d75c1d4b15c463776031772689a54f2ac7c8ffa290af759673c81d"
 metafile = true
 
 [[files]]
@@ -7488,7 +7560,7 @@ metafile = true
 
 [[files]]
 file = "mods/goety.pw.toml"
-hash = "75da2c385e54695f5aebe7b10be30208fa12d04645b7db473caa91aeed168532"
+hash = "b24ef9ac4563be3d01a1b8d16f3d05f5e2c94bb4874c9f4f3dfdd6e4f1b08133"
 metafile = true
 
 [[files]]
@@ -7514,6 +7586,16 @@ metafile = true
 [[files]]
 file = "mods/hackers-n-slashers.pw.toml"
 hash = "eb56190fe0f22480b255948ee166d5d2287533ec1e934b06b1f0eadec9c0e4ab"
+metafile = true
+
+[[files]]
+file = "mods/hammer-animations.pw.toml"
+hash = "f2c0c2facda373d71427c127abcdee389863883c305047fed7941a8dd7f3fae6"
+metafile = true
+
+[[files]]
+file = "mods/hammer-lib.pw.toml"
+hash = "db2aadaead3529949cb0758c3dfb31ea06af48ef3d526ba9bffac884208febab"
 metafile = true
 
 [[files]]
@@ -7822,11 +7904,6 @@ hash = "19afef65dcf95dc4bd82b60313514e3407bce0267a7a66022908ba60a73e8bd2"
 metafile = true
 
 [[files]]
-file = "mods/monobank.pw.toml"
-hash = "77ef4dca7de388911a73f879a73098201587c97ebdc388edd0d8035d67b13a46"
-metafile = true
-
-[[files]]
 file = "mods/more-mekanism-processing.pw.toml"
 hash = "7b30f88f492468725009666b14c97f46f74016c4587b099501f6a37449aad946"
 metafile = true
@@ -7933,7 +8010,7 @@ metafile = true
 
 [[files]]
 file = "mods/pandalib.pw.toml"
-hash = "c318eedf0fc73f8136786ac37d38243917a837d246880cf52271734e07fdee44"
+hash = "b0674bddaf513d2ddd9859c442f6dac30533d391b11c3b78c2819a2af3cd5d0b"
 metafile = true
 
 [[files]]
@@ -7994,11 +8071,6 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "04707a676b936d2a9d95bb031d78903769ddb103e7946c91f799a8403ea654a4"
-metafile = true
-
-[[files]]
-file = "mods/potentials.pw.toml"
-hash = "b8026fc57d7dc8cb732f4d39315a574265751e65f5c364e2911970fceb1a8db6"
 metafile = true
 
 [[files]]
@@ -8084,6 +8156,11 @@ metafile = true
 [[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "357bab9ae7bd928e93f292c0f3e33180d5941abdeba9daeaebab72c908ba86ab"
+metafile = true
+
+[[files]]
+file = "mods/relics-thirteen-flames.pw.toml"
+hash = "f5a1309cd233e37aa6ca74ab71b3fffc05c03833cd0adb4a23e12c471748215b"
 metafile = true
 
 [[files]]
@@ -8174,11 +8251,6 @@ metafile = true
 [[files]]
 file = "mods/shatterbyte-lib.pw.toml"
 hash = "66debc2b0e1ad53a2c6c21e49c8ce5b99fbbd2f2e4c4476d0c772225e3a01a14"
-metafile = true
-
-[[files]]
-file = "mods/shipping-bin.pw.toml"
-hash = "9031f0ea51f6d100b242419bb1d7ef5403763ee7bedc0b1b82610bfc8dee33f2"
 metafile = true
 
 [[files]]
@@ -8337,11 +8409,6 @@ hash = "adc2019e4cd2275195ac31c07e142f2497e2d4a3deb30df5bbfb3a962af861a1"
 metafile = true
 
 [[files]]
-file = "mods/thief.pw.toml"
-hash = "8450785dfa7867905c3d386e865ea8abb196cb2d4ca1b0e808c68c9305a7f207"
-metafile = true
-
-[[files]]
 file = "mods/tidal-towns.pw.toml"
 hash = "30ee8d3c5c4e8d452bc8e3826a95c8db655e7cc7dfe54560539a6ba3fd469db2"
 metafile = true
@@ -8349,11 +8416,6 @@ metafile = true
 [[files]]
 file = "mods/tide.pw.toml"
 hash = "6bad05fa81fa97cb077d992f7d74dc01ed3152bff948830017babdb11a9e8cdf"
-metafile = true
-
-[[files]]
-file = "mods/towns-and-towers.pw.toml"
-hash = "f395081bbc279936221069d2bcbdb6e580c8bc13585118a0fa2034274027aff6"
 metafile = true
 
 [[files]]

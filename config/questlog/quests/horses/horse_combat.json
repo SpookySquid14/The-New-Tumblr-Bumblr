@@ -1,0 +1,35 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:horses/horse_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Learn about horse combat"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "farmersdelight:horse_feed",
+      "name": "For yo-wr hoss, not ya"
+    }
+  ],
+  "title": "To War!",
+  "description": "Horses ahr powerful mounts.  At a full gallop, ya maahyt notaahce thuh shield-lookin' icon besaahd yo-wr hotbar.  Whe-yn this icon's full, ya'll blast through foes, damagin' whatever's unlucky enough ta be in front awf ya.  Armored eend war horses do eve-yn mo-wr damayge ta thuh po-wr soul.  But it's not jus' in front, what's behahnd ya kay-yun also git a daisy kickin' ifin' it attacks.\nThay're loyal friends, too.  Ya git hit whe-yn one's culohs an it'll come t' aid ya in an instant, fightin' until its bacon gets low.  But sumtaahms that's not such a daisy idea.  Ifin' ya evher need t' cahwl yo-wr pals awk, whistle eend thay're cut duhrt awk for a bit.  Once thay're safe, ya kay-yun whistle again.\nCareful, though.  Yo-wr averayge ridden hoss may git spooked by thuh fightin' an drop ya.  Higher bond means thay're less likely ta, an war horses will nary.  Ya kay-yun count awn that",
+  "icon": {
+      "item": "minecraft:iron_horse_armor"
+  },
+  "chapter": "horses",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

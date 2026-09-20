@@ -46,7 +46,7 @@
 
 [automation]
 	"Chains Connect Blocks" = true
-	Chute = true
+	Chute = false
 	"Dispensers Place Blocks" = true
 	"Ender Watcher" = true
 	"Feeding Trough" = true

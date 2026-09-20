@@ -1,0 +1,36 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:entity_approach",
+      "entity": "#c:horses",
+      "range": 10
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_approach",
+      "entity": "#c:horses",
+      "range": 10
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:saddle"
+    }
+  ],
+  "title": "Hold Yo-wr Horses",
+  "description": "Hey thair, bud.  Ya found yourself a hoss, eh? well, let this ole fella teach ya what 'e knows.  Maah nuh-ame? oh, ah don't gawt one, jus' cahwl me a trayveler.\nIn any case, hooaah don't ya gitty-up ahead an tame that one.  Jus' gawt ta raahd it until it loves ya. Ah'll give ya a saddle afterwards.",
+  "icon": {
+    "item": "minecraft:horse_spawn_egg"
+  },
+  "chapter": "horses",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

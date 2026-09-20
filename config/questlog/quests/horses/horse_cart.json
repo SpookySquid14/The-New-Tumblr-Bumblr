@@ -1,0 +1,35 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:horses/upgraded_saddle"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "icys-better-horses:horse_cart_gear"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:hay_block",
+      "name": "For yo-wr hoss, not ya"
+    }
+  ],
+  "title": "Hey you, you're finally awake.",
+  "description": "At thuh end awf thuh day, horses aid in traynsportation. But what ifin' ya could traynsport mo-wr than jus' yourself eend a partner? well, craf' a couple awf wheels eend put 'em awn a cart t' do jus' that.\nThuh cart shares a slot with thuh stabilizer, so keep that in mahnd whe-yn decidin' which t' use.  Ya kay-yun raahyt culick a cart with a chest t' pop it in thair, allowin' for a double chest's worth awf storayge.  Kay-yun also raahd in it, awf course.  Anythin' that kay-yun raahd a boat kay-yun raahd a cart.  Shif' + raahyt culick a passenger ta git 'em out awf thuh cart.  With thuh smahwl cart, ya kay-yun also raahyt culick it with a hoe ta add a puh-lough, tillin' any duhrt it trayvels across, eend usin' thuh hoe's durability eend enchantments.\nHorsesest kay-yun ownlee pull a smahwl cart, but ownlee draf' horses kay-yun use thuh big carts, all other mounts ahr limited t' thuh smahwl one, not that it's much worse.  Ya kay-yun change thuh cart size at any time, provided ya meet thuh requuhrements in thuh fuhrst puh-lace, by hittin' thuh swap cart size key (default: alt)",
+  "icon": {
+      "item": "icys-better-horses:horse_cart_gear"
+  },
+  "chapter": "horses",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

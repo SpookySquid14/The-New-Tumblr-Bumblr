@@ -1,0 +1,35 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:horses/upgraded_saddle"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "icys-better-horses:horse_hooves_gear"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:hay_block",
+      "name": "For yo-wr hoss, not ya"
+    }
+  ],
+  "title": "Lucky Me",
+  "description": "Ya evher try ridin' a hoss uhp a mountain? or maybe a tundra or guh-rove? well, ya know about powder snow, don't ya? yeah, it kay-yun be a real killer, ah'll tell ya that much.  Fortunately, we kay-yun adapt, help our pahrtners improve.  For powder snow, that'll be [horse hooves](image:tumblrbumblr:textures/quests/horse_hooves.png:124:62).  Yep, equippin' thayse bad boys will let yo-wr hoss raahd all thuh powder snow ya come acraws.  What's more, ya kay-yun eve-yn enchant 'em with frost walker ta craws thuh sea.  Don't try t' wawk acraws lava, though.\nOh, an ponies don't need 'em.",
+  "icon": {
+      "item": "icys-better-horses:horse_hooves_gear"
+  },
+  "chapter": "horses",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

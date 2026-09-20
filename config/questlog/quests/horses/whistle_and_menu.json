@@ -1,0 +1,35 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:horses/command_wheel"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Learn about the info screen"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:apple",
+      "name": "For yo-wr hoss, not ya"
+    }
+  ],
+  "title": "Stat Sheet",
+  "description": "Hit thuh whistle key (Default: P) ta cahwl yo-wr hoss ta ya, settin' it ta follow.  Hit thuh same key while ridin' yo-wr hoss t' fetch uhp thuh [Horse Info Screen](image:tumblrbumblr:textures/quests/horse_stats.png:140:112).  This will show ya yo-wr hoss's gender, breed, an coat, which ahr mostly for breeding, along with its bond, speed, jump height, an bacon.\nBond is an important stat t' keep trayck awf.  Every 20 points, yo-wr hoss's speed an jump heaahyt increase.  Hp, not so much.  It'll increases slowly jus' by standin' nar 'em, but nuh-amin' 'em will add 10 points, eend feedin' 'em a golden apple will give 2.\nhit thuh Manage Horses key (Default: G) ta fetch uhp [a list awf all yo-wr horses](image:tumblrbumblr:textures/quests/manage_horses.png:220:100).  It'll show ya where ther, let ya whistle for 'em, sey-nd 'em home ifin' thay 'ave one, set 'em as active, or disown 'em.  Ifin' a hoss is marked as \"resting\" the-yn it's ary in another dimension or thuh chunk is unloaded.",
+  "icon": {
+    "texture": "icys-better-horses:textures/item/stable_handbook_book.png"
+  },
+  "chapter": "horses",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

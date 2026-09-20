@@ -1,0 +1,35 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:horses/riding_basics"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Learn about trusted players"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:apple",
+      "name": "For yo-wr hoss, not ya"
+    }
+  ],
+  "title": "Goin' For A Stroll",
+  "description": "Ya 'ave friends, right? besaahds thuh hoss.  Well, ya maahyt wanna let 'em tay-uk care awf yo-wr pahrtner for a bit.  Ifin' thay try raahyt now, thay're prolly not gettin' dreadfully fuh-ar.  That's where thuh command \"/horse trust [playername]\" comes in.  Usin' this command will let thuh other puh-layer do ta yo-wr hoss anythin' ya kay-yun, save releasin' 'em.  \"/horse untrust [playername]\" does thuh opposite, takin' away privileges. \"/horse trusted\" will list all thuh trusted puh-layers ya've gawt",
+  "icon": {
+      "item": "minecraft:player_head"
+  },
+  "chapter": "horses",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

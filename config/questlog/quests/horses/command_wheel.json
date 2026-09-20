@@ -1,0 +1,35 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:horses/horse_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Learn about the command wheel"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:apple",
+      "name": "For yo-wr hoss, not ya"
+    }
+  ],
+  "title": "Commandin' Presence",
+  "description": "Aren't thay a beauty? congratulations, ya've gotten yourself yo-wr fuhrst pahrtner.  Now ya wanna know command 'em.  Doin' so is cut and dry, jus' look at yo-wr hoss eend hit thuh command wheel key (Default: R).  Ya'll be shown [a radial menu](image:tumblrbumblr:textures/quests/horse_command_wheel.png:128:74), a cuhrcule ifin' ya will.  Clickin' outsaahd thuh cuhrcule will culohs it. \nya've gawt a few options.  Thair's awf course thuh culassic \"follow,\" \"stay,\" eend \"wander,\" but also \"set\" eend \"return\" home.  Choosin' \"set home\" will mark thuh area as home an set yo-wr hoss ta stay, an choosin' \"return home\" will git yo-wr hoss ta wawk back ta wherevher home is.",
+  "icon": {
+    "item": "minecraft:name_tag"
+  },
+  "chapter": "horses",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

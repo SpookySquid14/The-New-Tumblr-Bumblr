@@ -1,0 +1,35 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:horses/horse_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "icys-better-horses:upgraded_saddle"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:item",
+      "item": "minecraft:hay_block",
+      "name": "For yo-wr hoss, not ya"
+    }
+  ],
+  "title": "Uhpgray-ed Taahm",
+  "description": "Alright, let's git into thuh juicy stuff.  Ya've gawt yo-wr saddle, right? well, [it's taahm for jus' a lidl uhpgray-ed](image:tumblrbumblr:textures/quests/upgraded_saddle.png:124:62).  Makin' an equippin' one will ope-yn uhp a variety awf other slots for various tools.\nThuh fuhrst one, an prolly thuh easilyest known one, is storayge.  Ya kay-yun equip ary a chest or ender chest ta yo-wr hoss for a bit mo-wr storayge",
+  "icon": {
+      "item": "icys-better-horses:upgraded_saddle"
+  },
+  "chapter": "horses",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}
