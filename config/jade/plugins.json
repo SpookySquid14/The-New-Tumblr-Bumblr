@@ -62,9 +62,6 @@
     "entity": true,
     "entity_variant": true
   },
-  "ftbquests": {
-    "barrier": true
-  },
   "immersiveengineering": {
     "multiblock_icon": true
   },
@@ -130,6 +127,9 @@
   "exposure": {
     "lightroom": true,
     "photograph_frame": true
+  },
+  "hammerlib": {
+    "root": true
   },
   "mekanism": {
     "chemical": true,

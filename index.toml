@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/ArmorDamageLimit.toml"
 hash = "b140e61a5c0f500849eb97798554e9d23f4d01a13b1e2e94757e550fb79ac8b4"
 
@@ -537,6 +541,10 @@ file = "config/better_mob_combat_reimagined-server.toml"
 hash = "d109eded700ea97d9d2d3b96e4790fe4e6bd34f7f469575e07ab0183d38f3ce4"
 
 [[files]]
+file = "config/better_respawn-server.toml"
+hash = "df7215f4de0a4f264aefd1a395de0cbea173e18eea4c0cb43c1eba153fb57882"
+
+[[files]]
 file = "config/betteradvancements-client.toml"
 hash = "5b965898d5b13c5557b603c68ed4ac79a4f850f3a7205eb3dbfc6116f2caf19a"
 
@@ -714,7 +722,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "5bdf5f653a9fe0ee5dfa46aa449757a7e8c580e9b9f4ceb5c32c13c7dcb51eb9"
+hash = "69609e9b0de8f46dc2537aab13ee01e1656a26c4d5cbaaa3ad54c18600565c93"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -1071,6 +1079,14 @@ hash = "1699f8928403aa00319164ffa3ffda5bac0e94c55823180acaafc2761b47c82e"
 [[files]]
 file = "config/cristellib/betterwitchhuts/structure_toggle_config.json5"
 hash = "fc70281d363679d4e401468518de6f815a6d48301cbdb39d5d744bc6b7a63b46"
+
+[[files]]
+file = "config/cristellib/bosgoety/structure_placement_config.json5"
+hash = "daec662a7ddcdec0663758c240e8d9c98ff4f62121a11d2828ca1e93cf89d2dd"
+
+[[files]]
+file = "config/cristellib/bosgoety/structure_toggle_config.json5"
+hash = "e0967bce8b69de85ee36899e2312aecfb281c72c4ab3f392b0476afba43a5a40"
 
 [[files]]
 file = "config/cristellib/built_in_packs.json5"
@@ -1837,6 +1853,10 @@ file = "config/forgeendertech/Biomes/minecraft$mushroom_fields.cfg"
 hash = "8d68f12cd0a01cf6874e249d2c174dff45be8145473c168876a8622f9a639607"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$old_growth_birch_forest.cfg"
+hash = "d5bee71b90718cce905fbcf4eb68e81bde2089d662e1ad2c8db9061cfa6a5bd6"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$old_growth_pine_taiga.cfg"
 hash = "e6cd8596630817f74e09dedd93af4c3cee85f90ab2c2f60dd4fa590da8b4d468"
 
@@ -2023,6 +2043,10 @@ hash = "535eed93dd2386be36a9de764fb2dfb6430e57a8f69b26bcc15510b89193407c"
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$scorching_caves.cfg"
 hash = "9003cf6435be1effc08c2ab54fdc1753b122eee67d8b249d3d41b08c30c9a50e"
+
+[[files]]
+file = "config/forgeendertech/Biomes/regions_unexplored$silver_birch_forest.cfg"
+hash = "f3b703a038ea9046b3cab720608b8156623e4e669d489e376f38300aa34661d8"
 
 [[files]]
 file = "config/forgeendertech/Biomes/regions_unexplored$sparse_rainforest.cfg"
@@ -2222,7 +2246,7 @@ hash = "97672eb07cec63e4b48d178cdb6e014e23c925e3d3b34cf9bbc6f3d262fdca61"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "48d2c4a6f9b2bed167884007fdb4cd9f38d1eea2ba1192fe95edafa93f843c14"
+hash = "3382dd4449c0f9e71d6b84a8cde952330087da0d6410c35da9257d6939102ac0"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2371,6 +2395,18 @@ hash = "21b499f12b7b3630e5bf439744d1b88460bfcd8efbe5511f6cb2e6e51787d1fa"
 [[files]]
 file = "config/hackersandslashers/server.json5"
 hash = "217882e3c4e59395b8a923f0eaa799ef7b5a76ec4ec20a8c7277308c2af9f86a"
+
+[[files]]
+file = "config/hammerlib/foil_colors.json"
+hash = "b59479f89fc1e63b20a2dc8eee2c96b102d6e4c80612015539ea3a117dc3741b"
+
+[[files]]
+file = "config/hammerlib/main.cfg"
+hash = "1df26f9c860f9bf12c66a69b67c224a996f6067cea38058a9e0cf5752475360d"
+
+[[files]]
+file = "config/hammerlib/recipes/modded/hammerlib.json"
+hash = "09558f531693a4ef0ca2d49789b79bbe06e6534cfb1260119ad0730260a1013b"
 
 [[files]]
 file = "config/hauntedharvest-common.toml"
@@ -2590,11 +2626,11 @@ hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "9ba6a06cf55717dac8b3432dc0f9c922f19f1d5182c8e08e47b3d6d60675b495"
+hash = "03b68ae3013a27e40da71be6a6b7a03a89a4b5e33b4748e405445bf58c1cb73d"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "df593bc807c89ca8dd4890ffe6a7eb2c2a41e28693af965eec42356ca961cdab"
+hash = "db267ee13727439dfa8f983bd693fb334b63556d242174228ef7ab9208e51c69"
 
 [[files]]
 file = "config/jeed-client.toml"
@@ -2610,7 +2646,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "8ed1c9a3aa82cc1d0020d04d2e9b30b223f8f50db245631664575f759b9832e6"
+hash = "3562d642d37d85731d43f347f12788ec871dfc562b5e090c80b8082f91b28f8c"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2634,7 +2670,7 @@ hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "413979b051edd65f5fc30f6151eb4fd1c59062a4d411d517052fbeb1b80cdae9"
+hash = "e84eaa91efb344709f497922594aa22a76c9aee4144071551e1a32b0ba89dbc8"
 
 [[files]]
 file = "config/jei/world/local/Aeronautics Playground/lookupHistory.json"
@@ -2695,6 +2731,10 @@ hash = "709dc12cdbb87884ca1e206773a5d143cd2002677f11a353ce6d753b0599cda8"
 [[files]]
 file = "config/jei/world/local/Dimension Test 3/lookupHistory.json"
 hash = "0cdfc60d8fab610383fc740ffa2c33d0e9c636c00f59d1f016bea9a441cd148b"
+
+[[files]]
+file = "config/jei/world/local/Dragon Test/lookupHistory.json"
+hash = "0cd13dac5091b8410e965e657e6edf38f6227dcf5d55a038d1154ba977204564"
 
 [[files]]
 file = "config/jei/world/local/End Update Test/lookupHistory.json"
@@ -2790,7 +2830,7 @@ hash = "456fff8b73b397851bddc6d9800ea268464fe80a2926d4835ac75d4e12848db1"
 
 [[files]]
 file = "config/jei/world/local/Playtesting 2 Electric Boogaloo/lookupHistory.json"
-hash = "c39b1eefa39d6d86152bf7f054e8dcd93a019c1c0157736c236d6f64602a3347"
+hash = "b39a5d9afda0bc92f2da3b1839779fa2c65864360721c1dc4249c20d4e6d4462"
 
 [[files]]
 file = "config/jei/world/local/Playtesting Teh Bumblr/lookupHistory.json"
@@ -3206,7 +3246,7 @@ hash = "d351a1ea6706b3d02359858f4448e0fe96d77e1775a9513721c0209b21fe1771"
 
 [[files]]
 file = "config/mcgcore/progress/ft-saves-playtesting-2-electric-boogaloo-be120370.json"
-hash = "3cacf0214ef341f3d017525564c416b9395509ec92ebac626e942f1ea817eec8"
+hash = "6750fbc1d86b66d43ee45ac71d52cf1e040b9dd4df93d61af0f24e87e82e875b"
 
 [[files]]
 file = "config/mcgcore/progress/inecraft-saves-hackers-and-slashers-test-2132d5b4.json"
@@ -3369,6 +3409,10 @@ file = "config/mcgcore/progress/umblr-1-21-1-minecraft-saves-combat-test-974ee22
 hash = "a5fd6d567d13b8ca66f3e44a5de8759d3068bce99c153115f4513d74c2e4e537"
 
 [[files]]
+file = "config/mcgcore/progress/umblr-1-21-1-minecraft-saves-dragon-test-f79abe6e.json"
+hash = "1f3201f2bc84c2266734085254ac851deef5ec799e25e0e4837dec42897ad5dc"
+
+[[files]]
 file = "config/mcgcore/progress/umblr-1-21-1-minecraft-saves-fish-test-1-b721e2da.json"
 hash = "3da37e4c6541f3ed7a91c6547bd7fcc44b6faf9568a021c20a854031c15d4034"
 
@@ -3462,7 +3506,7 @@ hash = "55984be8a03604dd95446a84769854c5a42b064146db05dafa16c2ecba7a0971"
 
 [[files]]
 file = "config/multimine.cfg"
-hash = "189d09d8fa76beeaa24741dd5ae3d101d9440a9e428a7035c19185e04f36ef24"
+hash = "6938bd9c7ff54d638513366f3d1e7ba1188370a6013b4bc9756b9c3424240de3"
 
 [[files]]
 file = "config/mynethersdelight-common.toml"
@@ -3622,7 +3666,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "54fe6a316670c02dcb60df8806e37f80c3d804ab6e38a94d855ae7e542c34bd3"
+hash = "c09869cdc9a0bd4176db81c2641a8b7769f6b1c05880ba9b4349d4d8c190cf44"
 
 [[files]]
 file = "config/packed_packs/profiles/datapacks/Tumblr Bumblr.profile.json"
@@ -3630,7 +3674,7 @@ hash = "dd988af7a2791e5485c225961ce82193a58d9c2a2f30e09741d90659080b4280"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Tumblr Bumblr.profile.json"
-hash = "15b824e5be11fe76325bb5869da5bc8074151440f3c7b2749792f6024375eb70"
+hash = "f16ebdb06307079f6e1d6ed1be36b42ee531b55cdfc883b07e91b3229ea6e61b"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -4642,7 +4686,7 @@ hash = "b9eaceec932b2f8b235f75d2371fb896e67ad0ac42b99b806349162188c6f5d9"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "31184712d8954c06eeb1228a04dbe1f29a96261af527cfe1d01de56605a36e42"
+hash = "d95e531c9d36c413408909c4c838d8fec93eef8f8111900210ae37384b7b039f"
 
 [[files]]
 file = "config/werewolves-balance.toml"
@@ -4726,7 +4770,7 @@ hash = "09c804ce272aa39944375ff4cad8d817b77984e8e03fdaa4ae35a38e3c1fddd2"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "7609da011fd6616c74bc52753bc28eb65e2d2703fd258bce99792f39dabf9c7b"
+hash = "d5ca6b9d36d31b8714cfd36d286460cf6f4034050811e1a1d703137c7f66c679"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -4801,32 +4845,36 @@ file = "kubejs/assets/endrem/lang/en_us.json"
 hash = "9d309ec3c6f29ed10a6ff6bd9e9b27bba0d410f94ca7931b9b95cf21bce21424"
 
 [[files]]
-file = "kubejs/assets/endrem/textures/block/eyes/cryptic.png"
-hash = "7defff2d3f8c312e4fd01bc5672b6fa5d8bdd09e219720a60cb56335c5180693"
+file = "kubejs/assets/endrem/textures/block/eyes/cryptic_eye.png"
+hash = "8bd97a184efc4d96d5e3977d4778a406794c1d5ba525e5f7a8fccab82795aab0"
 
 [[files]]
 file = "kubejs/assets/endrem/textures/block/eyes/cursed.ase"
 hash = "57b6b2a5e85639e90e3f7368b2a0bbdc44273232514d8129811d1161bd64bcf0"
 
 [[files]]
-file = "kubejs/assets/endrem/textures/block/eyes/cursed.png"
-hash = "9007abf921a207d816463d202e46732b898b85918cefc08e8615566e3e46b3f0"
+file = "kubejs/assets/endrem/textures/block/eyes/cursed_eye.png"
+hash = "256c668cc635dd66f3f77e228c4fa84dcd9256c148c43053dc4c8477477accd6"
 
 [[files]]
-file = "kubejs/assets/endrem/textures/block/eyes/guardian.png"
-hash = "31a84bff2aaba74534534e7fa5c1fd394c01688847d57d65054e263285e39658"
+file = "kubejs/assets/endrem/textures/block/eyes/exotic_eye.png"
+hash = "a3e2e049123b2c8e4bfe1e1816dff18ed4846f2acbad3f4c474876327dcdc1ef"
 
 [[files]]
-file = "kubejs/assets/endrem/textures/block/eyes/rogue.png"
+file = "kubejs/assets/endrem/textures/block/eyes/guardian_eye.png"
+hash = "79e1f2016f4aada95919c9751707a23a8f0cd13a97f0477f6499d217a4850fd1"
+
+[[files]]
+file = "kubejs/assets/endrem/textures/block/eyes/rogue_eye.png"
 hash = "fdc73ccb88f3009bd61308041f8a07f8ebb1cbfd6bf01aa809ffe3ee54bc7845"
 
 [[files]]
-file = "kubejs/assets/endrem/textures/block/eyes/witch.png"
-hash = "4cfcba1a18eb23b2d5169bd7126be13375949eb45c1e3b5b94f0102967b75611"
+file = "kubejs/assets/endrem/textures/block/eyes/witch_eye.png"
+hash = "6c220019189d1eb05ac4b0749d37414988fb4723515b3080243258364a6f31ab"
 
 [[files]]
-file = "kubejs/assets/endrem/textures/block/eyes/wither.png"
-hash = "9c56470d3cddafbe76211da644b3d7bd5811493a08a09953d9d5b75b9d5ae472"
+file = "kubejs/assets/endrem/textures/block/eyes/wither_eye.png"
+hash = "c5dc9c52ca2d16eaae11e45d53b6a228609a9bf43fdd9cd3a14b92425a602ea4"
 
 [[files]]
 file = "kubejs/assets/endrem/textures/item/cryptic_eye.png"
@@ -6733,6 +6781,10 @@ file = "kubejs/server_scripts/recipe_changes/fried_egg.js"
 hash = "b041f3828d9e31e437ac5356b8361ea80ccb9cde12eaee459c1dfb67548a61c8"
 
 [[files]]
+file = "kubejs/server_scripts/recipe_changes/goety_recipes.js"
+hash = "9dd4d4d64f25a15d62a5337bc5055382de46a6e40a35a6879ca11b3f7967f7d2"
+
+[[files]]
 file = "kubejs/server_scripts/recipe_changes/occultism_recipes.js"
 hash = "2c8d68b9099fe148b31f47c307e51235b8cbc19cd93adc913c7490c58b5a91aa"
 
@@ -7594,16 +7646,6 @@ hash = "eb56190fe0f22480b255948ee166d5d2287533ec1e934b06b1f0eadec9c0e4ab"
 metafile = true
 
 [[files]]
-file = "mods/hammer-animations.pw.toml"
-hash = "f2c0c2facda373d71427c127abcdee389863883c305047fed7941a8dd7f3fae6"
-metafile = true
-
-[[files]]
-file = "mods/hammer-lib.pw.toml"
-hash = "db2aadaead3529949cb0758c3dfb31ea06af48ef3d526ba9bffac884208febab"
-metafile = true
-
-[[files]]
 file = "mods/haunted-harvest.pw.toml"
 hash = "5f901b137de765d7c5c9de923e856914ab26ec8f674a3d4133d7003d3df435b6"
 metafile = true
@@ -8164,11 +8206,6 @@ hash = "357bab9ae7bd928e93f292c0f3e33180d5941abdeba9daeaebab72c908ba86ab"
 metafile = true
 
 [[files]]
-file = "mods/relics-thirteen-flames.pw.toml"
-hash = "f5a1309cd233e37aa6ca74ab71b3fffc05c03833cd0adb4a23e12c471748215b"
-metafile = true
-
-[[files]]
 file = "mods/reliquified-artifacts.pw.toml"
 hash = "4a5eca3091ad28a63565d919671f0c5a7230b618d92eb4b111b5d7f492ca6b7e"
 metafile = true
@@ -8694,6 +8731,10 @@ hash = "675265a75b9b963d207a108db8c7f35e14096518258bee448ae03c31f4499d20"
 [[files]]
 file = "resourcepacks/ImmersiveResprites-1.1.zip"
 hash = "1506f684febbeabca1dcfc91e95c3b24c1d13f7bd2f2f11ce81915522febf5a0"
+
+[[files]]
+file = "resourcepacks/Impossible Difficulty Resourcepack v1.1.zip"
+hash = "a085551a3a99ea98506a420ed37de8dc448f056066e476e47095ebfe76cbbbe0"
 
 [[files]]
 file = "resourcepacks/LowOnFire 1.21.3.zip"
