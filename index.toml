@@ -438,7 +438,7 @@ hash = "3f0d92c8abaf95a68ff79bb2ef9169fd598500070de7e5a616b755f9c5123e6f"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "5a8e20f91138afe6b9f2c944551e60c80c9faf4223daa28d91008cf3783a460b"
+hash = "960acdadccc1d9593b9a7a1f6597642da754b2ac5b94131b4ef6701327c35089"
 
 [[files]]
 file = "config/almostunified/unification/materials.json.bak"
@@ -722,7 +722,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "69609e9b0de8f46dc2537aab13ee01e1656a26c4d5cbaaa3ad54c18600565c93"
+hash = "b5739a801aab7a108e6541f7dd7dc1fcf6bf87d61dad425f5a41110fc5d4f2f9"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -879,6 +879,10 @@ hash = "c758403d22c507ca6c7c3e52460ac2668127b9a20ee2cd85e0e2aed1d252f35b"
 [[files]]
 file = "config/create_enchantment_industry-server.toml"
 hash = "74d6bf333342576057cb0da6252a0aa836191090ec30d75d5e100de2b1fb6f68"
+
+[[files]]
+file = "config/create_mekanism_compat-server.toml"
+hash = "e9069dc3e89d4ea8431ac337385f32c089dab737f8262f9c9d7f89bb827f4e46"
 
 [[files]]
 file = "config/create_new_age-client.toml"
@@ -1801,6 +1805,10 @@ file = "config/forgeendertech/Biomes/enderscape$veiled_woodlands.cfg"
 hash = "dec02340dfb4a7f13f22c611e8b083d8edb3d3c9acafb3eba763990f3be66012"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$badlands.cfg"
+hash = "6608ef6f87e0d83f6041bfa46dcf0d5a96b7bdac104246672c0a8b4a40ced6e1"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$beach.cfg"
 hash = "9984ef4b350b9fa5d8be90a48f76b46fad41f03d3585632d64126848dc3b5e87"
 
@@ -2237,6 +2245,10 @@ file = "config/forgeendertech/Biomes/werewolves$werewolf_heaven.cfg"
 hash = "944e71d7ba6dc2c84fd37ebabf1d920062c43183deed5e91ed5a5889f55a5a17"
 
 [[files]]
+file = "config/forgeendertech/Biomes/yungscavebiomes$frosted_caves.cfg"
+hash = "c4878bf232253af1afc3a70c2cf65b7f8a18d85e3c95a750bb4d131b6891c9b1"
+
+[[files]]
 file = "config/forgeendertech/Wind.cfg"
 hash = "258517f918104865c079e0db35426ff1021c666e985e4608a64ce2ad3130aa82"
 
@@ -2246,7 +2258,7 @@ hash = "97672eb07cec63e4b48d178cdb6e014e23c925e3d3b34cf9bbc6f3d262fdca61"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "3382dd4449c0f9e71d6b84a8cde952330087da0d6410c35da9257d6939102ac0"
+hash = "4882b268c18d76d64f04a80c9b71cf432c23fd3e19ca2a74579c09608337a323"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2881,6 +2893,10 @@ file = "config/jei/world/local/Silent Test/lookupHistory.json"
 hash = "e1ed276b50954bc53499a746883449591857aeca3768bcd7fa2b554bb1783380"
 
 [[files]]
+file = "config/jei/world/local/Starship/lookupHistory.json"
+hash = "3a9ceb57aae21c16967b00cbb4869ca85d0a7451668a155c5aa8f05d0f8c4fea"
+
+[[files]]
 file = "config/jei/world/local/Stick Test/lookupHistory.json"
 hash = "f72948c1b3c30f2c6982d50df8b5da017934bef63665d5ebb6625e97f118a3a4"
 
@@ -3381,6 +3397,10 @@ file = "config/mcgcore/progress/r-bumblr-1-21-1-minecraft-saves-lag-test-e1fcdd1
 hash = "ff85b249242671baaada4b675e22b9b027b38e1c27c8127b3cf3e35b0a2e62ca"
 
 [[files]]
+file = "config/mcgcore/progress/r-bumblr-1-21-1-minecraft-saves-starship-a090121f.json"
+hash = "f1da631cb4ae59697af36140c6b0fabd6458762f0cef8ce1900bb47a26818d29"
+
+[[files]]
 file = "config/mcgcore/progress/umblr-1-21-1-minecraft-saves-access-test-1d86b1bd.json"
 hash = "15880cb2119f0dbd4d097590b5319168dcde167cfb82d69ba7fbb68fc7fb7bde"
 
@@ -3506,7 +3526,7 @@ hash = "55984be8a03604dd95446a84769854c5a42b064146db05dafa16c2ecba7a0971"
 
 [[files]]
 file = "config/multimine.cfg"
-hash = "6938bd9c7ff54d638513366f3d1e7ba1188370a6013b4bc9756b9c3424240de3"
+hash = "80bf74b925b366286ea08bfa0ad223bff63cc33e7cc580634f360e25c257cbfe"
 
 [[files]]
 file = "config/mynethersdelight-common.toml"
@@ -3745,6 +3765,10 @@ file = "config/questlog-client.toml"
 hash = "d14d7ab03e104f50e3b01f65307ab51ae0901deef0e80b81d5af6004e2c4e36a"
 
 [[files]]
+file = "config/questlog/chapters/debug.json"
+hash = "bf6d3e07a13a2d04dd1ef9080a2c7a5c59ae1ffbabc8a6ef78ea4782cee14ed2"
+
+[[files]]
 file = "config/questlog/chapters/envelope.json"
 hash = "137c2c1fe73c9f1c3c5edd4b9227d4277c3821bb391c59028cb427b69a9295fc"
 
@@ -3775,6 +3799,18 @@ hash = "e19f58f97f4c4986768626f7772405159e7eea8cea2ac9053a62802c607c2843"
 [[files]]
 file = "config/questlog/quests/additional_main_quests/honey_golem.json"
 hash = "22980df247962d0784c5d50cffc4cdc3805fde322a9d1dc4432084e684617dfb"
+
+[[files]]
+file = "config/questlog/quests/debug/test1.json"
+hash = "6dc752ec0c15b9f9a9df8aab6dcb2dc8088cc61612af6e3c727d206a14208997"
+
+[[files]]
+file = "config/questlog/quests/debug/test2.json"
+hash = "2d5300a93e0d0955acf1c35cd039c58b60354686bfb6524231a5748ec0fa79c1"
+
+[[files]]
+file = "config/questlog/quests/debug/test3.json"
+hash = "de9f9c1898bdca3a63812b42803c9e66e1cd8d084aa197a305aaeb747bff3c01"
 
 [[files]]
 file = "config/questlog/quests/envelope/envelope_intro.json"
@@ -7196,6 +7232,11 @@ hash = "a0ecc29f0b458998fe4dd47fed1ea5e5100ff3034007419117e4e359848c2133"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-mekanism-compatibility.pw.toml"
+hash = "bc2f2a79baa6c609e804f97613a725435e5fedce3ef4461d2bc8acf77f266683"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "51646d7c02e4d1432fdb3d1a76cfc756c3f1d99137efa968dd4dc9aa049ba064"
 metafile = true
@@ -7858,6 +7899,46 @@ metafile = true
 [[files]]
 file = "mods/login-protection.pw.toml"
 hash = "30affbe1d1bca927780a630fc0182bab2c6a2d2198c861db8cd547ddda559373"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-better-archeology.pw.toml"
+hash = "bc0252ec2a9ed59b3f39ea6637647080ac872c7a5047699a63ab4ae95f468030"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-cataclysm.pw.toml"
+hash = "5859d70330510036ef8685a97ff474bb0c4f39ed03ba0660ceffe900c514c53b"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-choicetheorems-overhauled.pw.toml"
+hash = "7be19b810669c935ea2713a747480f36aa59355ca7063bbca309747a079e7c19"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-dungeons-and-taverns.pw.toml"
+hash = "b2f875316047438c7f00badefdd6b3f098e5c3ccb00fe836baf2d7c1afb2c90a"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-ice-and-fire.pw.toml"
+hash = "dd2b7d8d7d3d3656dafd02af47c72365e179e7fbbe75cf17561cf54f1489e443"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-when-dungeons-arise.pw.toml"
+hash = "217efda9980c85bfce5668cdf52c6cc13f07ca3416c1fc7d9791000c0ab8f7a4"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-yggdrasils.pw.toml"
+hash = "bb8c48dd0f93a43d89c9b76f0e3f7e3bad59093d4483bd371fc2780b3a7755ba"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations.pw.toml"
+hash = "0076405f44d59a86951515bd5e48e145827d730529958aee589812984a11b36b"
 metafile = true
 
 [[files]]
@@ -8586,6 +8667,16 @@ hash = "b45e0b09c1dd1e9d6f4c3063b794653fe232f9937e7aa170950e912846e94ca2"
 metafile = true
 
 [[files]]
+file = "mods/yggdrasils.pw.toml"
+hash = "3736269214d322780cf9746e2ed53795f4a2fea8c6a0764a91b6e1378ede066b"
+metafile = true
+
+[[files]]
+file = "mods/yung-structures-addon-for-loot-integrations.pw.toml"
+hash = "fedf1c01fb529ae8e29eb9036f29fd3efa8c09c9316be08960f02f4066dd0aa4"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api-neoforge.pw.toml"
 hash = "8556191f38ab3d545e1bcaaa8a7bab55c339838dbdda6d786ad84795408f2ace"
 metafile = true
@@ -8731,10 +8822,6 @@ hash = "675265a75b9b963d207a108db8c7f35e14096518258bee448ae03c31f4499d20"
 [[files]]
 file = "resourcepacks/ImmersiveResprites-1.1.zip"
 hash = "1506f684febbeabca1dcfc91e95c3b24c1d13f7bd2f2f11ce81915522febf5a0"
-
-[[files]]
-file = "resourcepacks/Impossible Difficulty Resourcepack v1.1.zip"
-hash = "a085551a3a99ea98506a420ed37de8dc448f056066e476e47095ebfe76cbbbe0"
 
 [[files]]
 file = "resourcepacks/LowOnFire 1.21.3.zip"

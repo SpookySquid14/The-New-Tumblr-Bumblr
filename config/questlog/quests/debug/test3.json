@@ -1,0 +1,38 @@
+{
+  "prerequisites": [
+    {
+      "type":"questlog:quest_complete",
+      "quest": "questlog:debug/test2"
+    }
+  ],
+  "objectives": [
+    {
+      "type":"questlog:quest_complete",
+      "quest": "questlog:debug/test1",
+      "name": "Approach a pig"
+    },
+    {
+      "type":"questlog:quest_complete",
+      "quest": "questlog:debug/test2",
+      "name": "Kill a pig"
+    },
+    {
+      "type": "questlog:item_craft",
+      "item": "minecraft:cooked_porkchop",
+      "name": "Cook the porkchop"
+    }
+  ],
+  "rewards": [
+  ],
+  "title": "Pigs",
+  "description": "I've heard from others that pigs are a valuable source of food. After finding one, I killed it. The final step is to cook its meat.",
+  "icon": {
+    "item": "minecraft:pig_spawn_egg"
+  },
+  "chapter": "debug",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "hide_when_completed": false
+}

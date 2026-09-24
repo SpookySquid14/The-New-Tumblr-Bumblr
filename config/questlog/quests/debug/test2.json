@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type":"questlog:quest_complete",
+      "quest": "questlog:debug/test1"
+    }
+  ],
+  "objectives": [
+    {
+      "type":"questlog:quest_complete",
+      "quest": "questlog:debug/test1",
+      "name": "Approach a pig"
+    },
+    {
+      "type": "questlog:entity_kill",
+      "entity": "minecraft:pig"
+    }
+  ],
+  "rewards": [
+  ],
+  "title": "Pigs",
+  "description": "I've heard from others that pigs are a valuable source of food. Now that I've found one, I need to kill it for meat.",
+  "icon": {
+    "item": "minecraft:pig_spawn_egg"
+  },
+  "chapter": "debug",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": false,
+  "show_popup_on_unlock": false,
+  "hide_when_completed": true
+}

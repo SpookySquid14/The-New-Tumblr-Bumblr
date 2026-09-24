@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"moremekanismprocessing:platinum_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createpropulsion:platinum_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createpropulsion:platinum_fluid_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createpropulsion:coral"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:creative_fluid_tank","components":"{\"mekanism:fluids\":{fluid_tanks:[{amount:2147483647,id:\"createpropulsion:coral\"}]}}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

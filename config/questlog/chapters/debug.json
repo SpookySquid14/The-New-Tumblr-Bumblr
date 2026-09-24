@@ -1,0 +1,9 @@
+{
+  "name": "Debug",
+  "icon": {
+    "item": "minecraft:grass_block"
+  },
+  "default_chapter": false,
+  "hidden": false,
+  "order": -1
+}

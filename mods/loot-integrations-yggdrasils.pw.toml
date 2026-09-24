@@ -1,0 +1,34 @@
+filename = 'lootintegrations_yggdrasils-1.3.jar'
+name = 'Loot Integrations: Yggdrasils'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.21.1',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'lootintegrations_yggdrasils-1.3.jar'
+
+[download]
+hash = '67664fe9902a7052e4f803a2d4b76f03a5100911'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8920687
+project-id = 1269854
+
+[[x-prismlauncher-dependencies]]
+addonId = '580689'
+type = 'REQUIRED'
