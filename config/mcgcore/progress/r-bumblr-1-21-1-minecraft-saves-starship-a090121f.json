@@ -2,6 +2,8 @@
   "discovered": [
     "aeronautics:aviators_goggles",
     "aeronautics:levitite",
+    "comforts:hammock_magenta",
+    "comforts:rope_and_nail",
     "constructionstick:netherite_stick",
     "copycats:copycat_cogwheel",
     "create:analog_lever",
@@ -16,6 +18,7 @@
     "createpropulsion:liquid_vector_thruster",
     "createpropulsion:platinum_fluid_tank",
     "createpropulsion:vector_thruster",
+    "goety:ectoplasm",
     "hauntedharvest:rotten_apple",
     "immersiveengineering:seed",
     "immersiveengineering:sheetmetal_colored_purple",

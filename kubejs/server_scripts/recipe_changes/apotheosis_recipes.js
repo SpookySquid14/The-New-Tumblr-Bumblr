@@ -30,4 +30,14 @@ ServerEvents.recipes(event=>{
 		'minecraft:trident',
 		'apothic_enchanting:inert_trident'
 	)
+	event.replaceInput(
+		{output: 'minecraft:trident'},
+		'minecraft:trident',
+		'apothic_enchanting:inert_trident'
+	)
+	event.replaceInput(
+		{output: 'apothic_enchanting:hellshelf'},
+		'minecraft:potion',
+		'minecraft:nether_wart'
+	)
 })

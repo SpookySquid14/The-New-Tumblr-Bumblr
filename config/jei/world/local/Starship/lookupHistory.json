@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"comforts:rope_and_nail"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"moremekanismprocessing:platinum_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"createpropulsion:platinum_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"createpropulsion:platinum_fluid_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},

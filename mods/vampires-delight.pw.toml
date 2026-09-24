@@ -1,0 +1,25 @@
+filename = 'VampiresDelight-1.21.1-0.1.12b.jar'
+name = "Vampire's Delight"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'VampiresDelight-1.21.1-0.1.12b'
+
+[download]
+hash = 'cea638061c8edfcba42e2b39e8c6af5a835bb8f6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8036636
+project-id = 939092
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '233029'
+type = 'REQUIRED'

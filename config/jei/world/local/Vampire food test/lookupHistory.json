@@ -1,0 +1,14 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"goety:soul_candlestick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"goety:gold_candlestick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"constructionstick:diamond_stick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"constructionstick:iron_stick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"constructionstick:wooden_stick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"constructionstick:copper_stick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"refurbished_furniture:light_microwave"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"refurbished_furniture:light_electricity_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"refurbished_furniture:dark_electricity_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"refurbished_furniture:workbench"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"refurbished_furniture:cherry_crate"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

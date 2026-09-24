@@ -478,11 +478,11 @@ hash = "d44a28ad5ba29bd441c06aa30938bc6ccac38d844a7517a9c965c99b67657abd"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "c265d67a17152768132b465958ad4c0f3cf5ebff3475e3020eda0dcdc3f2dea1"
+hash = "cf2d4ca2b07773eb2ce225664b60e82bfcb84957df37311e5cdeb866f63c0f34"
 
 [[files]]
 file = "config/apotheosis/name_generation.cfg"
-hash = "acc4b6ab7f5db2eac1f2cd45874622e52b3ca9050bc8b97dd0ecc6089402932d"
+hash = "28cb7dac079ba39d5c79db8d58885fdefc085d6043c88c0c8811c4c5d1085a63"
 
 [[files]]
 file = "config/apothic_spawners.cfg"
@@ -722,7 +722,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "b5739a801aab7a108e6541f7dd7dc1fcf6bf87d61dad425f5a41110fc5d4f2f9"
+hash = "692514541bc2a451f9fd793694ca5c6eed6cbee528a6dcf88f5a0e0f26e06f22"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -1331,6 +1331,14 @@ hash = "f3dc418ffb2c1a11570e0368e69cde2fc91505d008be91d74250ec277894bd46"
 [[files]]
 file = "config/cristellib/mr_tidal_towns/structure_toggle_config.json5"
 hash = "62b1205df5e50d83906c36dfc72b6483935c947b41d3c1d53cf59cac703855ac"
+
+[[files]]
+file = "config/cristellib/mr_yggdrasil_structure/structure_placement_config.json5"
+hash = "e21ae80b3a839951a8d394e9d856854f46906c1900d5283248048945f914690c"
+
+[[files]]
+file = "config/cristellib/mr_yggdrasil_structure/structure_toggle_config.json5"
+hash = "376bfeac1c6c93f64328da69f5698c4b08d93b2a4d44267c7869208c61512709"
 
 [[files]]
 file = "config/cristellib/netherexp/structure_placement_config.json5"
@@ -2181,6 +2189,10 @@ file = "config/forgeendertech/Biomes/terralith$snowy_cherry_grove.cfg"
 hash = "5791394a9728ec7bc864b4579c48bade5fa3f35b22f386c224f2dfcec8040662"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$snowy_maple_forest.cfg"
+hash = "0502d32d3b768f332b5951af5fef54976d1071f7584aaf28e81e6d66da706af0"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$snowy_shield.cfg"
 hash = "6fea2986c48b4c953e6529d7345b0afaab386a523b271f7ba3446e4ef520b895"
 
@@ -2254,11 +2266,11 @@ hash = "258517f918104865c079e0db35426ff1021c666e985e4608a64ce2ad3130aa82"
 
 [[files]]
 file = "config/forgeendertech/cached.dat"
-hash = "97672eb07cec63e4b48d178cdb6e014e23c925e3d3b34cf9bbc6f3d262fdca61"
+hash = "933183b9c45ad6c8ef31b5f490ebca66ca6adfb65b97c3d09b49f59b72d6d0ce"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "4882b268c18d76d64f04a80c9b71cf432c23fd3e19ca2a74579c09608337a323"
+hash = "25f6547b805b62c3ea9c074d2f2c45f48a8f1da668f64065d9bf1a8a3904e7c2"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2658,7 +2670,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "3562d642d37d85731d43f347f12788ec871dfc562b5e090c80b8082f91b28f8c"
+hash = "19e32f70306118069948e0f2ff18210699fbf81a3718a27a5e676b124a913150"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2682,7 +2694,7 @@ hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "e84eaa91efb344709f497922594aa22a76c9aee4144071551e1a32b0ba89dbc8"
+hash = "72c9a12b9f74bb510dfe1b92f10f7252dc9090e3bea6c2df0e7fca87ca0ea489"
 
 [[files]]
 file = "config/jei/world/local/Aeronautics Playground/lookupHistory.json"
@@ -2842,7 +2854,7 @@ hash = "456fff8b73b397851bddc6d9800ea268464fe80a2926d4835ac75d4e12848db1"
 
 [[files]]
 file = "config/jei/world/local/Playtesting 2 Electric Boogaloo/lookupHistory.json"
-hash = "b39a5d9afda0bc92f2da3b1839779fa2c65864360721c1dc4249c20d4e6d4462"
+hash = "574c6db36668146f0211660a3d4b12e70764bcbf0dd8d0432912210a0c9d5bd6"
 
 [[files]]
 file = "config/jei/world/local/Playtesting Teh Bumblr/lookupHistory.json"
@@ -2894,7 +2906,7 @@ hash = "e1ed276b50954bc53499a746883449591857aeca3768bcd7fa2b554bb1783380"
 
 [[files]]
 file = "config/jei/world/local/Starship/lookupHistory.json"
-hash = "3a9ceb57aae21c16967b00cbb4869ca85d0a7451668a155c5aa8f05d0f8c4fea"
+hash = "583bf6e78aadc008832aa48dde525aeefaf3cc016c7d2cf9b4f0e852636e5c25"
 
 [[files]]
 file = "config/jei/world/local/Stick Test/lookupHistory.json"
@@ -2919,6 +2931,10 @@ hash = "d31b74f991ac9a10c04350206d8330ae3f24a49c4b363548faee20d44ff8b1ad"
 [[files]]
 file = "config/jei/world/local/Unified Test/lookupHistory.json"
 hash = "680ff352a625644ec14366899cca256306bfda18253aa5fc6fb72b9daad23af8"
+
+[[files]]
+file = "config/jei/world/local/Vampire food test/lookupHistory.json"
+hash = "4e13148f9ac47aa4f7cc885bb09cfd2db77891fb176d838a6caf5962ca4b15e2"
 
 [[files]]
 file = "config/jei/world/local/Wither Test/lookupHistory.json"
@@ -2991,6 +3007,10 @@ hash = "964c94d1f00b084d2b017641d3182a8af4846d602db0a26911ec0fdae72f8c43"
 [[files]]
 file = "config/logprot.json"
 hash = "59073d7a61121021b76b27ed206655711ea5180a06f0da2bafbd2f2f25a28ae2"
+
+[[files]]
+file = "config/lootintegrations.json"
+hash = "0f83d1fe46508feb8af4c63d9a807b9f33521d759f38c17ee8ba29375f785ad1"
 
 [[files]]
 file = "config/lootr-client.toml"
@@ -3115,6 +3135,10 @@ hash = "c8995a5f9dd8b8644cbabcafac0f3c12f86edc3b8fc58295b919d9099c687a61"
 [[files]]
 file = "config/mcgcore/progress/1-21-1-minecraft-saves-inventory-test-6-562e311d.json"
 hash = "c8995a5f9dd8b8644cbabcafac0f3c12f86edc3b8fc58295b919d9099c687a61"
+
+[[files]]
+file = "config/mcgcore/progress/1-21-1-minecraft-saves-vampire-food-test-72a4ae11.json"
+hash = "a38da7526aed77b0eb92507e1c7783de4e95af66bb9d426f5d4f8d69b80e95de"
 
 [[files]]
 file = "config/mcgcore/progress/1-minecraft-saves-aeronautics-playground-51fd79c6.json"
@@ -3262,7 +3286,7 @@ hash = "d351a1ea6706b3d02359858f4448e0fe96d77e1775a9513721c0209b21fe1771"
 
 [[files]]
 file = "config/mcgcore/progress/ft-saves-playtesting-2-electric-boogaloo-be120370.json"
-hash = "6750fbc1d86b66d43ee45ac71d52cf1e040b9dd4df93d61af0f24e87e82e875b"
+hash = "5f49f5ed67085ac71e192b6436adb93e853477ab9e14d0d1a86f022e6bcc9354"
 
 [[files]]
 file = "config/mcgcore/progress/inecraft-saves-hackers-and-slashers-test-2132d5b4.json"
@@ -3398,7 +3422,7 @@ hash = "ff85b249242671baaada4b675e22b9b027b38e1c27c8127b3cf3e35b0a2e62ca"
 
 [[files]]
 file = "config/mcgcore/progress/r-bumblr-1-21-1-minecraft-saves-starship-a090121f.json"
-hash = "f1da631cb4ae59697af36140c6b0fabd6458762f0cef8ce1900bb47a26818d29"
+hash = "3f6473c303f511c5a172608b87cb7f7db799a533653c128b1614c132c168daef"
 
 [[files]]
 file = "config/mcgcore/progress/umblr-1-21-1-minecraft-saves-access-test-1d86b1bd.json"
@@ -3526,7 +3550,7 @@ hash = "55984be8a03604dd95446a84769854c5a42b064146db05dafa16c2ecba7a0971"
 
 [[files]]
 file = "config/multimine.cfg"
-hash = "80bf74b925b366286ea08bfa0ad223bff63cc33e7cc580634f360e25c257cbfe"
+hash = "1ea586e7eca5165f189168748e24451e3d1f651738b9aeae095bc74b25f6108f"
 
 [[files]]
 file = "config/mynethersdelight-common.toml"
@@ -3766,7 +3790,7 @@ hash = "d14d7ab03e104f50e3b01f65307ab51ae0901deef0e80b81d5af6004e2c4e36a"
 
 [[files]]
 file = "config/questlog/chapters/debug.json"
-hash = "bf6d3e07a13a2d04dd1ef9080a2c7a5c59ae1ffbabc8a6ef78ea4782cee14ed2"
+hash = "e0058d2c16acba43562c7b424a2222dfe0af412c67635aee6a93b5be7e9b189f"
 
 [[files]]
 file = "config/questlog/chapters/envelope.json"
@@ -4607,6 +4631,14 @@ hash = "11cdd50ade194ded67a72c40c95f810ce166760c02d87e9c9deae1ede4ae8f49"
 [[files]]
 file = "config/underground_village/common.json"
 hash = "86050d2a21ff25024ab472607975ccfdecbc27cd05666f3654c8944793579492"
+
+[[files]]
+file = "config/vampiresdelight-client.toml"
+hash = "8db9574c89e4bd09c81af41c5270c398f72eedbced05b13a0b49eccf47ddfc76"
+
+[[files]]
+file = "config/vampiresdelight-common.toml"
+hash = "670e225bd8ad9f595b1bc68e6727f243ab02aa8e196e0e6ef3c0cce8ab34abbd"
 
 [[files]]
 file = "config/vampiresneedumbrellas-common.toml"
@@ -6806,7 +6838,7 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/apotheosis_recipes.js"
-hash = "863ee814bf8ecca16705e9e33252508daa41a69379633906d9e8ef3daeb8d2be"
+hash = "86bd5c9e178eb70a3c215d2600f624680d3c67ad62476dc1d462a5eb7f2d6331"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/endrem_recipes.js"
@@ -8579,6 +8611,11 @@ metafile = true
 [[files]]
 file = "mods/uranus.pw.toml"
 hash = "422b751a964b8bcc4b4f90720ab4b03fc8fc80af637688dee97cffcf13ffdc91"
+metafile = true
+
+[[files]]
+file = "mods/vampires-delight.pw.toml"
+hash = "f5fd66f1e8da0701ccdb15665ff2c9b41cee89068cd104695b8e8ef039a42c14"
 metafile = true
 
 [[files]]
