@@ -1,6 +1,6 @@
 name = "The New(er) Tumblr Bumblr"
 author = "SpookiestOfSquid"
-version = "0.3.1"
+version = "1.21.1-0.3.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
