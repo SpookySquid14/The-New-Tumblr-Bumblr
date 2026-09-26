@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"dimdoors:amalgam_lump"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"dimdoors:item_ag_dim_railways_red_folding_locometal_door"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:wayward_compass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:vitality_compass","components":"{\"occultism:angle\":0.46385026f}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"piglinproliferation:travelers_compass"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -478,11 +478,11 @@ hash = "d44a28ad5ba29bd441c06aa30938bc6ccac38d844a7517a9c965c99b67657abd"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "cf2d4ca2b07773eb2ce225664b60e82bfcb84957df37311e5cdeb866f63c0f34"
+hash = "557239ea92c4bd5bb02d3304b0b839ecde3d9468c70ad5f680b5731d96b1f753"
 
 [[files]]
 file = "config/apotheosis/name_generation.cfg"
-hash = "28cb7dac079ba39d5c79db8d58885fdefc085d6043c88c0c8811c4c5d1085a63"
+hash = "a4efd7bb3ea58c91dc4bbb30c2d58d27ce91a01b75d28d971a98612a1d2c140a"
 
 [[files]]
 file = "config/apothic_spawners.cfg"
@@ -722,7 +722,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "692514541bc2a451f9fd793694ca5c6eed6cbee528a6dcf88f5a0e0f26e06f22"
+hash = "182e78b47e2c01100a755f29ece68500d51450244e33604e467bae3cb1a21296"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -1129,6 +1129,14 @@ file = "config/cristellib/deeperdarker/structure_toggle_config.json5"
 hash = "e6ce8be2f4c714f1077fa7331b89b1e8b6c728246415c2985e2342361dceca4e"
 
 [[files]]
+file = "config/cristellib/dimdoors/structure_placement_config.json5"
+hash = "aa13c3c1ebe7bcba1d163258fd87c70baa2456d933106062c46a4a889a38162a"
+
+[[files]]
+file = "config/cristellib/dimdoors/structure_toggle_config.json5"
+hash = "88ddf808eaa3abd29a4152039f38b2f82b6785c6336b97ec0166b6361c6d3d85"
+
+[[files]]
 file = "config/cristellib/dungeons_arise/structure_placement_config.json5"
 hash = "4b3e54811d5e41677688e9f829bb203ed345d98dfacb6e100ed1a06ef9bbd27b"
 
@@ -1487,6 +1495,10 @@ hash = "5c4e9a4afc99caa95af4cbb016820d3f96f6120324afff0e8a9b42cad97a5321"
 [[files]]
 file = "config/defaultoptions/options.txt"
 hash = "76932a46d3eae4851a5c459caeb0d07d5aaaaf40e5eb93b4f49f9988201974b0"
+
+[[files]]
+file = "config/dimdoors-config.json5"
+hash = "821a636c2a5d6d1edf9a498800310edddebf3e5c3fb26cd77158d015e0918ef8"
 
 [[files]]
 file = "config/ding.toml"
@@ -2165,6 +2177,10 @@ file = "config/forgeendertech/Biomes/terralith$lush_desert.cfg"
 hash = "74a3ee4eebbc0d5c3c127166e7c9539f67a49f843af5e039a3796f20e87881e9"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$orchid_swamp.cfg"
+hash = "7ff4406be9ce4ab6d858c3b4fc0d42da66822d833adc652b1b49a20b546c0913"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$painted_mountains.cfg"
 hash = "82050b39d5ed64182dbdb812559b41bfd871d6ee1c9a0dbe49dc9fb2e6a93024"
 
@@ -2270,7 +2286,7 @@ hash = "933183b9c45ad6c8ef31b5f490ebca66ca6adfb65b97c3d09b49f59b72d6d0ce"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "25f6547b805b62c3ea9c074d2f2c45f48a8f1da668f64065d9bf1a8a3904e7c2"
+hash = "a2a479d8c196e3f1b7c24b5064705a86f85bc6f670b829d69c93f4aaae33255a"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2670,7 +2686,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "19e32f70306118069948e0f2ff18210699fbf81a3718a27a5e676b124a913150"
+hash = "df428ddd27e8cad008e6fab0a6680c6f0ff590cce2f218d8009b3970d6065b20"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2694,7 +2710,7 @@ hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "72c9a12b9f74bb510dfe1b92f10f7252dc9090e3bea6c2df0e7fca87ca0ea489"
+hash = "ae15b6dcf0b26878d936dd1c0b7533002a3e95232a969212671fee46023c561c"
 
 [[files]]
 file = "config/jei/world/local/Aeronautics Playground/lookupHistory.json"
@@ -2755,6 +2771,10 @@ hash = "709dc12cdbb87884ca1e206773a5d143cd2002677f11a353ce6d753b0599cda8"
 [[files]]
 file = "config/jei/world/local/Dimension Test 3/lookupHistory.json"
 hash = "0cdfc60d8fab610383fc740ffa2c33d0e9c636c00f59d1f016bea9a441cd148b"
+
+[[files]]
+file = "config/jei/world/local/Dimensional Doors Test/lookupHistory.json"
+hash = "fe44cfdd1c48f40adc1711edcc18902ce35c95be690bed7f4b963a0317947672"
 
 [[files]]
 file = "config/jei/world/local/Dragon Test/lookupHistory.json"
@@ -3138,7 +3158,7 @@ hash = "c8995a5f9dd8b8644cbabcafac0f3c12f86edc3b8fc58295b919d9099c687a61"
 
 [[files]]
 file = "config/mcgcore/progress/1-21-1-minecraft-saves-vampire-food-test-72a4ae11.json"
-hash = "a38da7526aed77b0eb92507e1c7783de4e95af66bb9d426f5d4f8d69b80e95de"
+hash = "6284e85840ed33887c90b8207f106d7ea124b2e7a4111dd929c525da825f0038"
 
 [[files]]
 file = "config/mcgcore/progress/1-minecraft-saves-aeronautics-playground-51fd79c6.json"
@@ -3175,6 +3195,10 @@ hash = "943b2b753b903b8af77a40900642410d1d212b3ac16a733dc5b05cb3d7463456"
 [[files]]
 file = "config/mcgcore/progress/1-minecraft-saves-connected-texture-test-d2074d3f.json"
 hash = "3bdde798b23236634366d28d246296c90af3b8f004d90a5b034498aee8b52b09"
+
+[[files]]
+file = "config/mcgcore/progress/1-minecraft-saves-dimensional-doors-test-ccb1f1cd.json"
+hash = "c1c643067a83aae96e8cd3989400b769ce2ee98cbdacd37910eb02f8a83c97ef"
 
 [[files]]
 file = "config/mcgcore/progress/1-minecraft-saves-playtesting-teh-bumblr-2891682c.json"
@@ -3550,7 +3574,7 @@ hash = "55984be8a03604dd95446a84769854c5a42b064146db05dafa16c2ecba7a0971"
 
 [[files]]
 file = "config/multimine.cfg"
-hash = "1ea586e7eca5165f189168748e24451e3d1f651738b9aeae095bc74b25f6108f"
+hash = "1c3c93e4c135a7ea5f577da92d7ea79509bcccd67db9ace4799612a0cee8a26e"
 
 [[files]]
 file = "config/mynethersdelight-common.toml"
@@ -3787,6 +3811,10 @@ hash = "ad8d191b86b1a73cb76d561e47083e7def8b9edb29ac9d38885db87a280a7598"
 [[files]]
 file = "config/questlog-client.toml"
 hash = "d14d7ab03e104f50e3b01f65307ab51ae0901deef0e80b81d5af6004e2c4e36a"
+
+[[files]]
+file = "config/questlog/chapters/aquamirae.json"
+hash = "57a59c892a393f25c47dd572a55e69c18c2cf8d307538e6231ec0bbac7d97e39"
 
 [[files]]
 file = "config/questlog/chapters/debug.json"
@@ -4393,6 +4421,10 @@ file = "config/simulatedcoasters-common.toml"
 hash = "97fa738939cb6a7e0ab5bcd7833544b1bde56b41e314c8a1e37278154082a874"
 
 [[files]]
+file = "config/skinlayers.json"
+hash = "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166"
+
+[[files]]
 file = "config/sky_aesthetics.json"
 hash = "19558d4070f194719cf66046f52cc226b402ae37e2ad5b016ea22d96a17ded50"
 
@@ -4598,7 +4630,7 @@ hash = "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c"
 
 [[files]]
 file = "config/travelerstitles-neoforge-1_21.toml"
-hash = "d6974a5b29dcd166bbeca5c6c3e885f3314c30d12eccb4f8a1841d92a5d1b630"
+hash = "43b34945b001c225f219bd54384b34b0fb7d084486d4ba7191aa0f242b3cf59b"
 
 [[files]]
 file = "config/traveloptics/traveloptics-common.toml"
@@ -7414,6 +7446,11 @@ hash = "7075c329f523e58502a825ab5fca660b8af8f7a7840f1df4f31f8c21146542d2"
 metafile = true
 
 [[files]]
+file = "mods/dimensionaldoors.pw.toml"
+hash = "c26399fbcf12990435bda6087291fc0fa84e019ab2a3b5f0a2105afbf9a7988d"
+metafile = true
+
+[[files]]
 file = "mods/ding.pw.toml"
 hash = "85e553bb19cc7b6d3c7f68227f27fb2e8df057eec1229084f71ca2ecf211b378"
 metafile = true
@@ -8700,7 +8737,7 @@ metafile = true
 
 [[files]]
 file = "mods/yagm.pw.toml"
-hash = "b45e0b09c1dd1e9d6f4c3063b794653fe232f9937e7aa170950e912846e94ca2"
+hash = "8495fd1a3fdc95cc17d3f3eebf898c10143ec03db692fe2876496700cc2e7c3b"
 metafile = true
 
 [[files]]

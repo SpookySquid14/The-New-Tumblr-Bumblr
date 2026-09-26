@@ -1,7 +1,12 @@
 {
   "discovered": [
+    "cataclysm:cursium_chestplate",
+    "goety:nameless_cape",
+    "iceandfire:armor_red_chestplate",
+    "iceandfire:deathworm_yellow_chestplate",
     "iceandfire:deathworm_yellow_helmet",
-    "mcgcore:guidebook"
+    "mcgcore:guidebook",
+    "minecraft:netherite_chestplate"
   ],
   "ticked": [],
   "seen": [],
