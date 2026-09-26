@@ -13,3 +13,7 @@
 	Enable = true
 	#Change the amount of particles when raining.
 	ChangeAmount = true
+
+#Presence Footsteps
+[presencefootsteps]
+	Enable = true

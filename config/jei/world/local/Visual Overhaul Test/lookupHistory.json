@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"goety:dark_anvil"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"vampirism:sanguinare","show_icon":true,"neoforge:cures":["milk","vampirism:garlic","protected_by_totem"],"duration":600},"type":"net.minecraft.world.effect.MobEffectInstance","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:jump_boost","show_icon":true,"neoforge:cures":["milk","protected_by_totem"],"duration":600},"type":"net.minecraft.world.effect.MobEffectInstance","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:end_rod"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderscape:end_lamp"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:glass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:framed_glass"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

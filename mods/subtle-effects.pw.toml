@@ -1,0 +1,21 @@
+filename = 'SubtleEffects-neoforge-1.21.1-1.14.3.jar'
+name = 'Subtle Effects'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Subtle Effects (NeoForge) 1.21.1-1.14.3'
+
+[download]
+hash = 'f0c846484bd7c769b88f38ab31429457f52552d7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8008312
+project-id = 1023913
+
+[[x-prismlauncher-dependencies]]
+addonId = '1005914'
+type = 'REQUIRED'

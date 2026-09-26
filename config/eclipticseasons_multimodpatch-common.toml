@@ -34,3 +34,7 @@
 [domum_ornamentum]
 	#Enable automatic snow-covered blocks and models.
 	Enable = true
+
+#Subtle Effects
+[subtle_effects]
+	Enable = true

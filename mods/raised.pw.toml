@@ -1,0 +1,18 @@
+filename = 'raised-neoforge-1.21.1-6.0.2.jar'
+name = 'Raised'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Raised 6.0.2 (NeoForge 1.21.1)'
+
+[download]
+hash = 'cd4b283d812a0da65258e711172f562809a2914c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8951296
+project-id = 570368
