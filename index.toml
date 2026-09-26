@@ -518,7 +518,7 @@ hash = "5c743d635ef2888bed262e4cbaecfb260bba8f3eee0636415f945da998a5c8cc"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "ff08d5c0a736cee7b6ef83f74a9f2e42243d7203b74bf3a61a1df932f784fa23"
+hash = "009acd3fbbf6933f92db6d307beefd7a4ccad4d93f948d6a2b83febb6531dbb1"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -698,7 +698,7 @@ hash = "c3cbcb17ade590daf230373d51457732bc8d9dd1039f7947b6bf564e38df1d9c"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "8e367f5171aabc7337f94a1b70045bad620ef99ce28c6d42708806af561ad249"
+hash = "7a44d15203aa7f071432eb7bbf04d76d3e3027a60d472f2ddc6869ede5f850df"
 
 [[files]]
 file = "config/cat_loaf.json"
@@ -734,7 +734,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "73cd798d0056b7b1e8aa7d6573a7fe26a6f9ccc47dee03297f9db5ec0308aa8a"
+hash = "bd186f4ce737d13cf5eb078459390b6456c5a74f673348711ffa3ef5f6768e69"
 
 [[files]]
 file = "config/clickadv.json"
@@ -1506,7 +1506,7 @@ hash = "f2f9b84d0b1eb13bddac08459d48e6b76bb1b01eca467030dfd07cc7650321e6"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "2e9c1107b637a00acaccc2d2c91e65418e446819fea76a7d3fec59ce7a6bad01"
+hash = "6d23d5a00afcbddaffd390ae4d74f8fd53989e3b92b53fccd51a94a7f69c1a21"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -2245,6 +2245,10 @@ file = "config/forgeendertech/Biomes/terralith$savanna_slopes.cfg"
 hash = "5cdd62a7ca6cb57aa9d82530d932e7de99c941fbd11bb31a43a09b9c19660ae3"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$skylands_spring.cfg"
+hash = "d91423233b6112fc622731fcf17844acd54e550e59a58a1cca1f0251bccf117d"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$snowy_cherry_grove.cfg"
 hash = "5791394a9728ec7bc864b4579c48bade5fa3f35b22f386c224f2dfcec8040662"
 
@@ -2330,7 +2334,7 @@ hash = "933183b9c45ad6c8ef31b5f490ebca66ca6adfb65b97c3d09b49f59b72d6d0ce"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "af7c149760cc727682a816204f51bcee7f70fc3ac35effa2054ea69d02cbb963"
+hash = "a5a6691191510eed0ad8a700003fc09ce2c0dd02104bd7b771fe2c1d85fc8d28"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -3166,7 +3170,7 @@ hash = "e28a554766e1b6151a60961212e46c3c5b3034d523034b7db3b1d8f1900a1649"
 
 [[files]]
 file = "config/mcgcore/progress/1-1-minecraft-saves-visual-overhaul-test-fc1ebf3f.json"
-hash = "e1f4ded39b582c072ea7fb0431084209eb257a9de3678a93d8c9770dbe5e6d3f"
+hash = "0be271d19120823d8c2a67195f86dfd5288947c213bac40f58c72864c0a1a84c"
 
 [[files]]
 file = "config/mcgcore/progress/1-21-1-minecraft-saves-astikorcarts-test-28d5c755.json"
@@ -3806,7 +3810,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "e236b543ff1055fdf286a126557ea68d79505b710893e6955cc7d96a0248c6e6"
+hash = "bdbc4637723f03be7f9e8c58e57a08538ac2fc0863f4d3bc584eac0ab4bd80db"
 
 [[files]]
 file = "config/packed_packs/profiles/datapacks/Tumblr Bumblr.profile.json"
@@ -3814,7 +3818,7 @@ hash = "dd988af7a2791e5485c225961ce82193a58d9c2a2f30e09741d90659080b4280"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Tumblr Bumblr.profile.json"
-hash = "4aeebf35a57cb863df336e23c5f4a406045ecfdd725850be89a2020de9ee921e"
+hash = "0ffc0c21c72654ca0f91f751f5e3d6bb845e76152702575d181834ac034fa9a5"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -3882,7 +3886,7 @@ hash = "655bdf8542f53b722a19ef527df91eec0bb8e209f8251eaca6b818756fd4d44b"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "ad8d191b86b1a73cb76d561e47083e7def8b9edb29ac9d38885db87a280a7598"
+hash = "dfa0e83089ddbd00361db3e8eff127eae26e0f3b8a2819fd96a8957aaa5636cc"
 
 [[files]]
 file = "config/questlog-client.toml"
@@ -9097,6 +9101,34 @@ file = "resourcepacks/Fitting XP Mana Bar for Iron's Spells 'n Spellbooks from 1
 hash = "77cc8cb85bdf4e5add35b9ab811bd156ce8400079c736e8f253c151036239a2b"
 
 [[files]]
+file = "resourcepacks/Fresh Goety Compat/assets/goety/textures/entity/servants/prisoner_shackles.png"
+hash = "464d259a24b22635144145f05b4b4080d0d4c56608d3ea9fc95a0c74c7923255"
+
+[[files]]
+file = "resourcepacks/Fresh Goety Compat/assets/goety/textures/entity/servants/spider/cave_spider.png"
+hash = "63226d5261e47f3b154f54814ada5e3bd465115c92b9cd36bdde68a3708e2d27"
+
+[[files]]
+file = "resourcepacks/Fresh Goety Compat/assets/goety/textures/entity/servants/spider/cave_spider_servant.png"
+hash = "65199f5fd8c7fd2c5cd417cd397f26634aa424e3f6d9da65f11b5d9bae20eb85"
+
+[[files]]
+file = "resourcepacks/Fresh Goety Compat/assets/goety/textures/entity/servants/spider/spider.png"
+hash = "bb41c9741efeae72e5cd8fce8350bb4e816cf437ca2a9837f011e2acb47d0688"
+
+[[files]]
+file = "resourcepacks/Fresh Goety Compat/assets/goety/textures/entity/servants/spider/spider_servant.png"
+hash = "f1ca89740aac1534937896e87b08e6cba493ce297defb0dad9af49e09a8201e8"
+
+[[files]]
+file = "resourcepacks/Fresh Goety Compat/assets/goety/textures/entity/servants/spider/spider_servant_eyes.png"
+hash = "460e913bfcb60bf00abba37aea476ea77bb993f35de0d3e539743344ac2510b2"
+
+[[files]]
+file = "resourcepacks/Fresh Goety Compat/pack.mcmeta"
+hash = "3d65b49a3c7d2c2a956b9b5ccdb0a3f21ce8f975848319a50a2ec533aaddb71c"
+
+[[files]]
 file = "resourcepacks/Fresh Patch - Jaden's Nether Expansion.zip"
 hash = "4cbafb97b6f082378437019654862ba611eded2d1bd532aeb4e60d3870179fe9"
 
@@ -9115,6 +9147,234 @@ hash = "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2"
 [[files]]
 file = "resourcepacks/FreshCompats_v1.6.zip"
 hash = "0fe5e8edb0d7806fe8aa703ce61a6f2f2ec6ed0dd2e1afbf7ee617a33321445f"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/acebee/angry.png"
+hash = "817517c93c820ed7b1f4ca5f59b55f615b4ee5accad9e08f88fabaac454d753a"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/acebee/angry_nectar.png"
+hash = "e75bf7a6bbe9f1c90240819f3927547f7045670d6cf615a26ae7e6553aa77882"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/acebee/nectar.png"
+hash = "2f1c3b02b0a1aade58adc1cf1d82d2a4701df046ea597c8b1cc24e697756bde0"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/acebee/normal.png"
+hash = "1389b9617971c03cb99040295f4475f366333fa84649d6116c92fccf08916a9b"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/agenbee/angry.png"
+hash = "3b6a39e1e694947068b56ca9f1848f62c2f19498ef49787582e57bee49440576"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/agenbee/angry_nectar.png"
+hash = "5c08a5a781407c7e014fe41aefdde2dfb93ee87e7a5bb288452fe5ea9953827c"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/agenbee/nectar.png"
+hash = "ca575e629f7381f632174e783ec62b889c46d9110a75b36814fe935eca26704c"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/agenbee/normal.png"
+hash = "0dca811ac4f4192247e9045350336da1bc73d10b922454facec366326ed1ca39"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/arobee/angry.png"
+hash = "ab9d811826bf417455aac5a15ab5358bfd887680525d881ca9f1112e1f56df92"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/arobee/angry_nectar.png"
+hash = "23b70ba760c312afdc247404cda3091e9386c7cd317f628376dc9771a4b50d05"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/arobee/nectar.png"
+hash = "5173e86028d6dc64612f3284aa00c01886a12d0ad4a21048c37332f9668fb70c"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/arobee/normal.png"
+hash = "5992c6391b07a54578ef591cf74cbd05c5f6ef54570c5a4f3ae81486da8a9716"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/beefluid/angry.png"
+hash = "b77d17d04c7d31864f8af8e940bc3db6425050517cd92b17309c2d972380f34a"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/beefluid/angry_nectar.png"
+hash = "58a7a3b2478386391ae4144f610d56f8a7bf4732ddaaa41ed3a23b97de04e1b2"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/beefluid/nectar.png"
+hash = "ff00ebb3d518a4f6624603c8fe4a0b440b827d8c5788df8ad908e60389158d18"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/beefluid/normal.png"
+hash = "c078610fbd13e88c33949c11b4b0b2de35505e93f759a7ddcced5160551fdffe"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/beequeer/angry.png"
+hash = "c6256a5e1a0c225c4343cf2342a43a98b9dcc17a81c8a07cbfae1c15936c190b"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/beequeer/angry_nectar.png"
+hash = "6f53d0cb733b188da1510e6bba06197a7da8ed8155a1578a9494bcf13706c1ca"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/beequeer/nectar.png"
+hash = "0fd295cef2bf3c8e9ba8316a82f5e931852d2365d04365e57344efd1add8e6c4"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/beequeer/normal.png"
+hash = "7c42bea788e020c28f9e4af016ed565636a1220364cb4c7fa989569557304d18"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/beesexual/angry.png"
+hash = "4a4a6a89d8963b5de4fbebaadba43c84787f8dfcaf0ec3be2029976286c78c44"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/beesexual/angry_nectar.png"
+hash = "f2a38ed21160ce6581d57d18c2dbcf56bd2eb1d9d8df108d7dfe30edabe960f9"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/beesexual/nectar.png"
+hash = "8638bc8b639c2896739f1f16898c4a6b35e76060b7091fc279038077604d45d0"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/beesexual/normal.png"
+hash = "e32ef847fedb140fa11babb2a5de8c4f1cd254f6419cb74aaae10eca8a63dbd1"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/enbee/angry.png"
+hash = "e76155a65a14272f10485eb668aed4081abcb0821e3764d5e7f4d2b38bbdfa64"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/enbee/angry_nectar.png"
+hash = "5dbe72184ab56feceda3d46c498e74988bc5f26845e20fe39fa9ae9c4fe6cb68"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/enbee/nectar.png"
+hash = "b6c1fd7d1f5da09864d88feb059f82d520b846bdb3e90e1d545e19ff77bb5f25"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/enbee/normal.png"
+hash = "3bd65b951e92f377b0ee770950236650555fada273c643c859b6af0d1dc73776"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/gaybee/angry.png"
+hash = "f4e97b8a2ccd451fa0876f9e460f767a157d1a038fc9e49d69cf01e26100e0a6"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/gaybee/angry_nectar.png"
+hash = "3a927d05157a6ed8dc2639e74ee52038c9f637224dff97b899d4ee608e34e59a"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/gaybee/nectar.png"
+hash = "a894ad4a298ab8b32ed995c667c4eae42a508934cfab18ed51e03757982e4d60"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/gaybee/normal.png"
+hash = "cc9b9fddee7b6ee9cc9a07c728d810f015bc6d9684454525c1907bd694f94779"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/helen/angry.png"
+hash = "8bc73c5bf59d001300ff2a1f9ea94bf1a82ac85c9d7d81ff06f2d12136b9e05d"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/helen/angry_nectar.png"
+hash = "c127706934cb8d75b55fec6777aab69c9f81a8678555dc12a65e3723cd4533f7"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/helen/nectar.png"
+hash = "595de841eacf61d9ad6117c95420c733c7b160aaad55731d81f8b0b5f6c84ec8"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/helen/normal.png"
+hash = "11a21278f794d8d1b80700620fa2c77075f8a844c078b1dc82dede56ec2e88fb"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/interbee/angry.png"
+hash = "c62f6f3b0694bc549ca651c9fffdc7148f9655791cf622cf243ecb1b9d59e195"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/interbee/angry_nectar.png"
+hash = "aaf9e36c703e1d3208251184830035171f2d5de5c9ccb7fa3cd5870dbb9940cb"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/interbee/nectar.png"
+hash = "2436187f2af6e7e056ae3a7cf1f053409e8e29a3084af42587886ee7a10da8a6"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/interbee/normal.png"
+hash = "116366e7775589ba20efb5abb6919a777b33e38d95cec6c0b29c0ce8c327a099"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/lesbeean/angry.png"
+hash = "dd619c41129db0a7fbbf9b1f2b2b067d3a364332e9591a91e1e375832a18b3b1"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/lesbeean/angry_nectar.png"
+hash = "6d206342d6d21b48ea0232dc7f09ae5342122584057850a5bd86daaf6068845b"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/lesbeean/nectar.png"
+hash = "690f5376ad27ff0d6c7b9474825e4a3eeb4a19e77903e20821d5bd378ed6306c"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/lesbeean/normal.png"
+hash = "1564c5be368ff79a355a4d20792e832773b2fb3e87d0e805973ca96bd345b3a6"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/panbee/angry.png"
+hash = "6318ab7f03dc422f1f036d37f0e65abeb4297f4202d4d3c9fa9922404d056cc0"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/panbee/angry_nectar.png"
+hash = "0395d5d0bc10595c8fcf9a6cb0f641213cf9b3faef007a89d6b396d0faced662"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/panbee/nectar.png"
+hash = "b81d491512755a6630d5aad8e986b153b55eab395c3e822b4732838c0bb2e437"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/panbee/normal.png"
+hash = "872c571036d2b944d29e0226e5a8b5650da2e969d3cbdd45dce415d66e1a357f"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/polysexbee/angry.png"
+hash = "b9cc4edbec8d8dca2d28b5cfb0b1e197917d1d285d5c31ea45655e09b12efabf"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/polysexbee/angry_nectar.png"
+hash = "847f4986ea0e6332fd42cffe3d42fc98192294168992b8d86fd9de62b84e98c8"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/polysexbee/nectar.png"
+hash = "d17797841e85f7c61b6f315da639a3d4b4840e55821623db8197d410c0c8f92e"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/polysexbee/normal.png"
+hash = "00eec2fa1b0dd41ae4586ccf40b1824c9b3934a5df116fb5fa966eb519d49d4a"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/transbee/angry.png"
+hash = "a1fb76da895cf6b32fbd5fafd3046ff7cc7a0f286a6ace5f42a015c7462fd616"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/transbee/angry_nectar.png"
+hash = "3c728be8aa51f55eb81f340dbc914ce7eba3cc251924a6e40ecc6365c221b378"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/transbee/nectar.png"
+hash = "1807ee906d1014a5d908ede10f3df6163c49b9d10bc110cfe12dbfb14964e0d9"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/assets/quark/textures/model/entity/variants/bees/transbee/normal.png"
+hash = "1706acc473b5d1353226d34879a648f68ece5c936bcb0ab35adcac8b0a1ded80"
+
+[[files]]
+file = "resourcepacks/Freshly LGBT Bees/pack.mcmeta"
+hash = "84db3374337b7da55bf659d99972a203c56ea994cafc96f80e1806ddd78a0188"
 
 [[files]]
 file = "resourcepacks/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip"
