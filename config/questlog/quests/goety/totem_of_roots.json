@@ -1,0 +1,31 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:goety/ectoplasm"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "goety:totem_of_roots"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "Give Me Your Souls",
+  "description": "Soul Energy is the driving force in Goety. It is used as fuel for spells and rituals, among other things. To perform acts in Goety, you need Soul Energy.\nGathering Soul Energy is a simple process. One must merely obtain a totem to act as the container. For a beginner, a Totem of Roots, crafted with ectoplasm, lapis lazuli, and sticks, will be sufficient. You'll learn of stronger containers later on.\nOnce in possession of a totem, you can hold it in your hands or equip it as a charm, and you should see the Soul Energy bar appear on your screen. Once it's visible, you need only kill mobs to harvest their Soul Energy. Different mobs have different amounts of souls, ranging from undead as the lowest to the mighty Warden at the very top.",
+  "icon": {
+    "item": "goety:totem_of_roots"
+  },
+  "chapter": "goety",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

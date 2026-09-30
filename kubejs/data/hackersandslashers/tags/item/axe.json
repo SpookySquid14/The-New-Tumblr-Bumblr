@@ -8,6 +8,10 @@
     {
       "id": "cataclysm:the_immolator",
       "required": false
+    },
+    {
+      "id": "#c:tools/paxel",
+      "required": false
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:goety/fabric"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "goety:empty_focus"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "Focused",
+  "description": "A key item and material in Goety, empty focuses provide the basis to spells and spell-related equipment. For now, we need one only for the creation of a wand. That being said, it's a good idea to keep the extras.",
+  "icon": {
+    "item": "goety:empty_focus"
+  },
+  "chapter": "goety",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

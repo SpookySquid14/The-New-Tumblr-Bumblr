@@ -518,7 +518,7 @@ hash = "5c743d635ef2888bed262e4cbaecfb260bba8f3eee0636415f945da998a5c8cc"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "009acd3fbbf6933f92db6d307beefd7a4ccad4d93f948d6a2b83febb6531dbb1"
+hash = "a76e4cb1863c0acc5c5501370020b26debaf82e54bd4d4f718f5717f29b3dab6"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -734,7 +734,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "bd186f4ce737d13cf5eb078459390b6456c5a74f673348711ffa3ef5f6768e69"
+hash = "e71f21c568eeddb0baaa4d299196136528af9c96aabdd0ebe4c4f019ca58b4b3"
 
 [[files]]
 file = "config/clickadv.json"
@@ -1813,6 +1813,10 @@ file = "config/forgeendertech/Biomes/ad_astra$martian_wastelands.cfg"
 hash = "a8699ffa5a7753f038a551ba79716b17e5c27f0039ab8c861e8af428f5dce880"
 
 [[files]]
+file = "config/forgeendertech/Biomes/ad_astra$orbit.cfg"
+hash = "c6f7eef750fd29dc1a1cc85e1417a19c23a62d51b6f379421e7a4c53986ec9a2"
+
+[[files]]
 file = "config/forgeendertech/Biomes/ae2$spatial_storage.cfg"
 hash = "acca102608284cb654149d94e04702652835c54c73c94eb993110de64b2ab294"
 
@@ -1883,6 +1887,10 @@ hash = "653263f4aeee35131cefbf7363fee1d888372ff7ee81799b96637a7491ac6ed3"
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$frozen_river.cfg"
 hash = "c416d43d738454865ee3b549bfaacd6b437e9eb54a69d5f6f395099b9d119879"
+
+[[files]]
+file = "config/forgeendertech/Biomes/minecraft$grove.cfg"
+hash = "88fec35fb1eab6cd5a99a66570f416e2d5a85ae7df09d35b9f0ec9a06458d7ab"
 
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$ice_spikes.cfg"
@@ -2334,7 +2342,7 @@ hash = "933183b9c45ad6c8ef31b5f490ebca66ca6adfb65b97c3d09b49f59b72d6d0ce"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "a5a6691191510eed0ad8a700003fc09ce2c0dd02104bd7b771fe2c1d85fc8d28"
+hash = "5bbba8f101e8ae5dbe137c8b5b25802a59b1f2720e38c4971608ce2299977acf"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2833,6 +2841,10 @@ file = "config/jei/world/local/Dimensional Doors Test/lookupHistory.json"
 hash = "fe44cfdd1c48f40adc1711edcc18902ce35c95be690bed7f4b963a0317947672"
 
 [[files]]
+file = "config/jei/world/local/Dragon Drop Test/lookupHistory.json"
+hash = "12021e70ace85323d06d6a315a41da7bfeb10d1000e3f1dfee6c267f2f01fc4f"
+
+[[files]]
 file = "config/jei/world/local/Dragon Test/lookupHistory.json"
 hash = "0cd13dac5091b8410e965e657e6edf38f6227dcf5d55a038d1154ba977204564"
 
@@ -3207,6 +3219,10 @@ hash = "09df635a9fd150bea7b798cad5964f3a5effa4f73f645f486dfebd300cb50f4b"
 [[files]]
 file = "config/mcgcore/progress/1-21-1-minecraft-saves-dimension-test-9-ba281dd6.json"
 hash = "77fc150b5e01d679237a6fbb1c7d752a6944983af394ec97a09729f74582cf5f"
+
+[[files]]
+file = "config/mcgcore/progress/1-21-1-minecraft-saves-dragon-drop-test-d6c7c6e7.json"
+hash = "f583bd19d2bddb80ccccb3824b032b41fed78e5a5650e53bd599b7f0574bd5c7"
 
 [[files]]
 file = "config/mcgcore/progress/1-21-1-minecraft-saves-inventory-test-1-562e3118.json"
@@ -3810,7 +3826,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "bdbc4637723f03be7f9e8c58e57a08538ac2fc0863f4d3bc584eac0ab4bd80db"
+hash = "86868397c27b3fe604b467af041f629c3984fc7550035a4696583da725a0a923"
 
 [[files]]
 file = "config/packed_packs/profiles/datapacks/Tumblr Bumblr.profile.json"
@@ -3818,7 +3834,7 @@ hash = "dd988af7a2791e5485c225961ce82193a58d9c2a2f30e09741d90659080b4280"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Tumblr Bumblr.profile.json"
-hash = "0ffc0c21c72654ca0f91f751f5e3d6bb845e76152702575d181834ac034fa9a5"
+hash = "e0934a7542e3a230506621fbffea4b9f7124c99b6013fc65174f9c2601dff9b5"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -3907,6 +3923,10 @@ hash = "137c2c1fe73c9f1c3c5edd4b9227d4277c3821bb391c59028cb427b69a9295fc"
 [[files]]
 file = "config/questlog/chapters/fishing.json"
 hash = "41e79353b7ca46328790801bebf003db812e9b77d69d28e7aeb458fe6db9c395"
+
+[[files]]
+file = "config/questlog/chapters/goety.json"
+hash = "bc037a40cfcbecfd8b90d5c66db180d80d2bcdd1b9153bb8949c23596476fec3"
 
 [[files]]
 file = "config/questlog/chapters/horses.json"
@@ -4087,6 +4107,30 @@ hash = "bdf2da853a3a7cc0b8fb39b216bcfe180b36e4a230969f069f9c279eeb77ebf4"
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/waystone.json"
 hash = "b4aad10f82a7aa7ed12e341391822b62572262457b99bf05bf9d5e9784dc2e6e"
+
+[[files]]
+file = "config/questlog/quests/goety/dark_wand.json"
+hash = "dd877f37066d41acf8a0c00cf1db78e071ade84002c8d73351fd114764c38318"
+
+[[files]]
+file = "config/questlog/quests/goety/ectoplasm.json"
+hash = "c7beb23feb3bc86798e0bd3274ea98d29002894b4a681ced0a3184582a5114a7"
+
+[[files]]
+file = "config/questlog/quests/goety/empty_focus.json"
+hash = "a04753e4f24ac98e189136a9101fcb6427c40d2ac1f58f5baf7b5bae262f5b30"
+
+[[files]]
+file = "config/questlog/quests/goety/fabric.json"
+hash = "0e59505fbd80a3035260c443378d82e953b23488a7d29285b9620d0d2600a473"
+
+[[files]]
+file = "config/questlog/quests/goety/goety_intro.json"
+hash = "929c9dfc42d85a72598f181d4239a2a072c8283bd0ef66d5272a933e36dfe4ec"
+
+[[files]]
+file = "config/questlog/quests/goety/totem_of_roots.json"
+hash = "bc1a0f8b7d33cd988bbbcf6948ea94186067882951fd9e0af1e4ebe47074ad45"
 
 [[files]]
 file = "config/questlog/quests/horses/command_wheel.json"
@@ -6898,7 +6942,7 @@ hash = "591edaccf9816f0b212fd2536217975a8297980028abc7ac5b27f82c4dc439c3"
 
 [[files]]
 file = "kubejs/data/hackersandslashers/tags/item/axe.json"
-hash = "925b92b453e2d386c06beb16b9120f2efbec4a492d84fc68daa06e99c2865338"
+hash = "f15d8031c00cc23457d028b4282572c0ac4c7229627a885aa5b5b90f8fd59e98"
 
 [[files]]
 file = "kubejs/data/hackersandslashers/tags/item/battleaxe.json"
@@ -9085,8 +9129,8 @@ file = "resourcepacks/Diagonal Rails.zip"
 hash = "1494e70e1b032a03d4a27051bf798cc83f23898c1f0b3edd5850411ff48217e7"
 
 [[files]]
-file = "resourcepacks/FA+All_Extensions-v1.8.1.zip"
-hash = "420ad586300bb4164ff441460ae0d1b2be68933cfd9321746fcef173c0437015"
+file = "resourcepacks/FA+Emissive-v1.6.zip"
+hash = "4da38e4f1580da77e308a551b5bb3bf9d8926c14fd0b4bb9275c90f9c3f6b609"
 
 [[files]]
 file = "resourcepacks/FA+Objects-v2.1.2.zip"
@@ -9099,34 +9143,6 @@ hash = "9ee3ae5b2fe5cd980e4041429dc66d88243f5f2420e2814e5361c746ad937f33"
 [[files]]
 file = "resourcepacks/Fitting XP Mana Bar for Iron's Spells 'n Spellbooks from 1.20.1 and above.zip"
 hash = "77cc8cb85bdf4e5add35b9ab811bd156ce8400079c736e8f253c151036239a2b"
-
-[[files]]
-file = "resourcepacks/Fresh Goety Compat/assets/goety/textures/entity/servants/prisoner_shackles.png"
-hash = "464d259a24b22635144145f05b4b4080d0d4c56608d3ea9fc95a0c74c7923255"
-
-[[files]]
-file = "resourcepacks/Fresh Goety Compat/assets/goety/textures/entity/servants/spider/cave_spider.png"
-hash = "63226d5261e47f3b154f54814ada5e3bd465115c92b9cd36bdde68a3708e2d27"
-
-[[files]]
-file = "resourcepacks/Fresh Goety Compat/assets/goety/textures/entity/servants/spider/cave_spider_servant.png"
-hash = "65199f5fd8c7fd2c5cd417cd397f26634aa424e3f6d9da65f11b5d9bae20eb85"
-
-[[files]]
-file = "resourcepacks/Fresh Goety Compat/assets/goety/textures/entity/servants/spider/spider.png"
-hash = "bb41c9741efeae72e5cd8fce8350bb4e816cf437ca2a9837f011e2acb47d0688"
-
-[[files]]
-file = "resourcepacks/Fresh Goety Compat/assets/goety/textures/entity/servants/spider/spider_servant.png"
-hash = "f1ca89740aac1534937896e87b08e6cba493ce297defb0dad9af49e09a8201e8"
-
-[[files]]
-file = "resourcepacks/Fresh Goety Compat/assets/goety/textures/entity/servants/spider/spider_servant_eyes.png"
-hash = "460e913bfcb60bf00abba37aea476ea77bb993f35de0d3e539743344ac2510b2"
-
-[[files]]
-file = "resourcepacks/Fresh Goety Compat/pack.mcmeta"
-hash = "3d65b49a3c7d2c2a956b9b5ccdb0a3f21ce8f975848319a50a2ec533aaddb71c"
 
 [[files]]
 file = "resourcepacks/Fresh Patch - Jaden's Nether Expansion.zip"

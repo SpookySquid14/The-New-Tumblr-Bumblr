@@ -1,0 +1,8 @@
+{
+  "name": "Goety: The Dark Arts",
+  "icon": {
+    "item": "goety:magic_emerald"
+  },
+  "default_chapter": false,
+  "hidden": false
+}

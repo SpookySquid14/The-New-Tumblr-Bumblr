@@ -1,0 +1,31 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:goety/goety_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "goety:ectoplasm"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "Gouls and Monsters",
+  "description": "To begin your journey into the dark arts, a particular item is required: Ectoplasm. This is dropped through killing Wraiths and Reapers found at night.",
+  "icon": {
+    "item": "goety:ectoplasm"
+  },
+  "chapter": "goety",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

@@ -1,0 +1,31 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:goety/totem_of_roots"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "goety:magic_fabric"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "Magical Weaving",
+  "description": "Fabrics are special materials crafting with lapis lazuli, string, and another item that varies on the desired weave. As of right now, what we want is Magic Fabric to use in crafting a Dark Wand. For this we need lapis, two pieces of string, and a gold ingot.",
+  "icon": {
+    "item": "goety:magic_fabric"
+  },
+  "chapter": "goety",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

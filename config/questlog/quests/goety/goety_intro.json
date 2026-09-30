@@ -1,0 +1,31 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/main_intro"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Begin your journey into the dark arts"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "The Dark Arts",
+  "description": "The dark arts, magic used by the illagers, sorcerers, and those lost to time. For some, this done through usage of mana and spellbooks, but for us, for me, this utilizes the souls of the living and the dead as fuel for focuses.\nGoety: The Dark Arts is a magic mod focused on black magic utilizing Soul Energy. Spells are cast through a wand or staff using a Focus, and rituals are conducted under specific circumstances. If this sounds interesting, continue reading for more.",
+  "icon": {
+    "item": "goety:black_book"
+  },
+  "chapter": "goety",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}
