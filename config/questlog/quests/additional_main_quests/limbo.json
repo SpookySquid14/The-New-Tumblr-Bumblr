@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "dimdoors:limbo"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:overworld",
+      "name": "Find Eternal Fluid and Escape"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "You Shouldn't Be Here",
+  "description": "You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here. You shouldn't be here.",
+  "icon": {
+    "item": "dimdoors:monolith_spawner"
+  },
+  "chapter": "main",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": true
+}

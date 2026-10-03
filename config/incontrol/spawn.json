@@ -4,5 +4,11 @@
         "structure": ["fdbosses:chesed_arena","fdbosses:malkuth_arena"],
         "when": "onjoin",
         "result": "deny"
+    },
+    {
+        "mob": ["iceandfire:sea_serpent"],
+        "biome": ["minecraft:deep_frozen_ocean"],
+        "when": "onjoin",
+        "result": "deny"
     }
 ]

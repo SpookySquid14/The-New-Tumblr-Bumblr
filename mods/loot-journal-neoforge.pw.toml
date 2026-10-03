@@ -1,24 +1,20 @@
-filename = 'loot_journal-neoforge-1.21.1-6.2.1.jar'
-name = 'Loot Journal: Pickup Notifier [NeoForge Edition]'
+filename = 'loot_journal-neoforge-1.21.1-6.2.2.jar'
+name = 'Loot Journal'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Loot Journal 6.2.1'
+x-prismlauncher-version-number = 'Loot Journal 6.2.2'
 
 [download]
-hash = '064bac2f8aa2c02c71b8bf8af298f096c8790bac'
+hash = '9f6030dd1f081bc71f24e5c50ff83d58ce8e4cc4'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8141352
+file-id = 8922056
 project-id = 1120395
-
-[[x-prismlauncher-dependencies]]
-addonId = '667299'
-type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = '1123977'

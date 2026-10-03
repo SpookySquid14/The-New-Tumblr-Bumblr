@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"supplementaries:planter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"apotheosis:boss_summoner"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"werewolves:white_pelt_upgrade_smithing_template"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create_dragons_plus:blaze_upgrade_smithing_template"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"deeperdarker:warden_upgrade_smithing_template"},"type":"item_stack","bookmarkType":"INGREDIENT"},

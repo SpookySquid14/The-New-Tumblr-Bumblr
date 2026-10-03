@@ -1,8 +1,3 @@
-#=============[ Aquamirae Common Config ]============
-# Please prefer editing the config through the in-game 
-# configuration screen (available via the mods list),
-# as it includes many hints and quality-of-life improvements.
-#====================================================
 #Allowed Values: EVERYWHERE, ICE_MAZE
 shell_horn_usage_mode = "ICE_MAZE"
 # Default: 12
@@ -69,7 +64,7 @@ eel_attributes = ["generic.max_health set(160~200)", "generic.armor set(20)", "g
 tortured_soul_attributes = ["generic.max_health set(30)", "generic.armor set(4)", "generic.movement_speed set(0.2)", "generic.attack_damage set(7)", "generic.attack_knockback set(0.7)", "generic.knockback_resistance set(0)", "generic.follow_range set(24)"]
 maze_mother_attributes = ["generic.max_health set(100)", "generic.armor set(10)", "generic.movement_speed set(64)", "generic.attack_damage set(5)", "generic.attack_knockback set(0.5)", "generic.knockback_resistance set(0.2)", "generic.follow_range set(128)"]
 captain_cornelia_attributes = ["generic.max_health set(300)", "generic.armor set(16)", "generic.movement_speed set(0.2)", "generic.attack_damage set(1)", "generic.attack_knockback set(2)", "generic.knockback_resistance set(0.75)", "generic.follow_range set(128)", "generic.step_height set(1)", "aquamirae:depths_fury set(2)", "aquamirae:depths_resilience set(2)"]
-ice_maze_biomes = ["minecraft:deep_frozen_ocean", "minecraft:deep_cold_ocean"]
+ice_maze_biomes = ["minecraft:deep_frozen_ocean"]
 # Default: 35
 # Range: 1 ~ 512
 pirate_ship_placement_spacing = 35
@@ -155,3 +150,11 @@ enable_maze_mother_spawning = true
 # Default: 0.005
 # Range: 0.0 ~ 1.0
 maze_mother_spawn_chance = 0.005
+#=============[ Aquamirae Common Config ]============
+# Please prefer editing the config through the in-game 
+# configuration screen (available via the mods list),
+# as it includes many hints and quality-of-life improvements.
+#====================================================
+#Allowed Values: VANILLA, AQUAMIRAE, BALANCED
+difficulty = "AQUAMIRAE"
+blizzard_biomes = ["#aquamirae:ice_maze"]

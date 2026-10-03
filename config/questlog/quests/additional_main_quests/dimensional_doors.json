@@ -1,0 +1,31 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "dimdoors:dungeon_pockets"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Read About Dimensional Doors"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "Beyond The Confines of Reality",
+  "description": "You've made it somewhere very, very interesting. Indeed, dimensional doors are gateways to a variety of different puzzles and challenges. Upon entering, you have a few options. Go further in, explore the pocket in space and time, or turn back, leaving the dimension through the same door you entered. You may encounter more doors inside these pocket dimensions, but do not worry. An oak door will always represent where you had come from.",
+  "icon": {
+    "item": "dimdoors:item_ag_dim_minecraft_oak_door"
+  },
+  "chapter": "main",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": true
+}

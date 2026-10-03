@@ -20,9 +20,12 @@
     "minecraft:potion",
     "minecraft:spider_spawn_egg",
     "minecraft:stick",
+    "minecraft:string",
+    "minecraft:sugar_cane",
     "minecraft:wheat_seeds",
     "occultism:datura_seeds",
-    "sophisticatedbackpacks:backpack"
+    "sophisticatedbackpacks:backpack",
+    "supplementaries:planter"
   ],
   "ticked": [],
   "seen": [],
