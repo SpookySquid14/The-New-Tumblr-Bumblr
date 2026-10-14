@@ -94,7 +94,7 @@
 'creeperoverhaul:dripstone_creeper' : '',
 'goety:wight' : '',
 'tide:pike' : '',
-'minecraft:zombie' : '',
+'minecraft:zombie' : '{Count:1b,id:"minecraft:bundle",tag:{Damage:0,dropchance:0.1d}}',
 'tide:sand_tiger_shark' : '',
 'tide:great_white_shark' : '',
 'minecolonies:camppirate' : '',

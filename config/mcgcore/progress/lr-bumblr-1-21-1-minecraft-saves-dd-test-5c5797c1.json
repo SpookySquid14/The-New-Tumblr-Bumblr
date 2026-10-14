@@ -5,7 +5,12 @@
     "dimdoors:rift_blade",
     "ezemeraldpouch:emerald_pouch",
     "mcgcore:guidebook",
-    "minecraft:emerald"
+    "minecraft:bundle",
+    "minecraft:emerald",
+    "naturalist:fur",
+    "regions_unexplored:alpha_log",
+    "regions_unexplored:alpha_sapling",
+    "regions_unexplored:ashen_dirt"
   ],
   "ticked": [],
   "seen": [],

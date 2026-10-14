@@ -518,7 +518,7 @@ hash = "5c743d635ef2888bed262e4cbaecfb260bba8f3eee0636415f945da998a5c8cc"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "71d74b12c0a56c2acefc637f6f64dc9dd9caad0a6906493f046517aa170f1ab3"
+hash = "1be1ede24684c44a73cd16ee99f3082d0001bf450e21f27818f1e3ff5bc50190"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -734,7 +734,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "2e6c705913c81ce2151d6330e64f2679b2e6066efabbb1b0e6ff848bf7e23aab"
+hash = "c3a24d2db6d89c79ecbe2116f1725cb279304fdfbcae3837575c405ffac96d60"
 
 [[files]]
 file = "config/clickadv.json"
@@ -790,7 +790,7 @@ hash = "d7ad6c34d30fb7d2fefe19688d09419dcde661bf71d1a03beb6c4680188b130c"
 
 [[files]]
 file = "config/configurableextramobdrops/mobdropconfig.txt"
-hash = "2582feb2e680d4b542f0d9e618e59dd2ec03dec4692d3b74b473173341c668ac"
+hash = "158d3102e81520a84b4676149b3247c6a746c8531aaee761980e2008f797fbf7"
 
 [[files]]
 file = "config/configured-client.properties"
@@ -1717,6 +1717,14 @@ file = "config/extraquests/locale.yml"
 hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
+file = "config/eyesinthedarkness-client.toml"
+hash = "313ed24fdfa7f78cec1676d5d805dce78d86f0f53d192ce0e9c4ff3a93d0ab49"
+
+[[files]]
+file = "config/eyesinthedarkness-server.toml"
+hash = "04045396d6f57f5795a44820a0facb2f043f640b66600c6759c49d3a7f9a8f64"
+
+[[files]]
 file = "config/ezemeraldpouch-client.toml"
 hash = "5cb4f6c44fcdcd42c15ffc4ec901663f34de35a355525575ff79092778114ef4"
 
@@ -2249,6 +2257,10 @@ file = "config/forgeendertech/Biomes/terralith$rocky_mountains.cfg"
 hash = "44923fbdb4b92b4e3bd31b84a4eb575341cda499ebb23e3ed086b42423d96c99"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$rocky_shrubland.cfg"
+hash = "e8dbf07d2405efa6adbed77974f84777af61db20c47d1bc213c363da620c5c40"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$sandstone_valley.cfg"
 hash = "fbfd7372f487af352d92a31ac1aa71f50b909edd17a02e3adda2f95e109307e1"
 
@@ -2346,11 +2358,11 @@ hash = "258517f918104865c079e0db35426ff1021c666e985e4608a64ce2ad3130aa82"
 
 [[files]]
 file = "config/forgeendertech/cached.dat"
-hash = "c4b41a84de502e1de9743ba1a1e566211424b66bfdc4f2846658e22427b0dffb"
+hash = "680fb5104e0dda7c28b0a4f8b4ec19a4b0d48dd7c0e84420f08590d61a319c51"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "45e330b1a7327525d3505adb68210bdba632bedb62dd2950273055c1c59b1918"
+hash = "c40fad45e7f87c67a42244e7a40f0439c3aed882cbfd881fae6d8f03e993e7a3"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2758,7 +2770,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "4650bf4707165c4e237780298824f2c0a7cf6accd01c2398fb892c373c52781d"
+hash = "3ff7a970fbb51c509328a917a210b1603b5bfca1067167ed9b9ab01209d92c74"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2834,7 +2846,7 @@ hash = "a7aab0823a8fd6433360c2db0d99c7781d0f574c3ff1c862be2e3164975df17c"
 
 [[files]]
 file = "config/jei/world/local/DD Test/lookupHistory.json"
-hash = "5bac4c09437eb3dcf99c308542aa2fc490c11f841355f701dd0800073f7efe92"
+hash = "73c2ea82d85184ce52277984855e796c39423ca46c67a24f4ef141579a9b4b2c"
 
 [[files]]
 file = "config/jei/world/local/Data test 1/lookupHistory.json"
@@ -3474,7 +3486,7 @@ hash = "5b8c283885a6eba3f48807bbb99eac59990c46f9c9d0ef0906c4a7604eb063f1"
 
 [[files]]
 file = "config/mcgcore/progress/lr-bumblr-1-21-1-minecraft-saves-dd-test-5c5797c1.json"
-hash = "36e7dd07c5d5afa17e2dd76fb7f1118f3bb80cb185a21f2d2529c357fac07282"
+hash = "d72d973828c399ce9b36a318ea4b475380095f0616ccbb379be0b7f059bf9497"
 
 [[files]]
 file = "config/mcgcore/progress/mblr-1-21-1-minecraft-saves-dim-lag-test-a6f28549.json"
@@ -3846,7 +3858,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "de553d361039710ccdc3d3ec21ae3132833d33d6016af84d72200224e7fbd82d"
+hash = "a2acd758685f17e2bc91a4bb172400a7e3da68e8bfc46b9d143a2cb160d70c2a"
 
 [[files]]
 file = "config/packed_packs/profiles/datapacks/Tumblr Bumblr.profile.json"
@@ -3854,7 +3866,7 @@ hash = "dd988af7a2791e5485c225961ce82193a58d9c2a2f30e09741d90659080b4280"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Tumblr Bumblr.profile.json"
-hash = "e7cdb2f608fcd230f41e3bd1441543dd435e0c08fee756ca7ee34fe03e0b2d90"
+hash = "18051491ab04fcdf07a34d7e898f86aedb0ff1ab3a727485cbd0dd761e8f9abf"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -4361,6 +4373,14 @@ file = "config/questlog/quests/nether/wither_skulls.json"
 hash = "b7a444be900c08235a0273a9d62c9a95782c6981bea74d3888de918d3626471d"
 
 [[files]]
+file = "config/questlog/quests/new_quest_928a6877.json"
+hash = "b544479ca7d3b37554cd3728b5400bd2aff11e3896e36389914e7451cb926558"
+
+[[files]]
+file = "config/questlog/quests/new_quest_f75a1109.json"
+hash = "8a79c9fe5a0367243cb74143d4f5cd165a411b1887f2ee2d4586f3e5107c6381"
+
+[[files]]
 file = "config/questlog/quests/quest_template.json"
 hash = "d7e2dd2556e5e324842b346438508ae57586d341b22b153e6feec44cb6da90f7"
 
@@ -4674,7 +4694,7 @@ hash = "bc029afc200ba2fba522a27245d65c8e5db0f20cd0eddd5873a316054d962923"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "8c8df85f0646263400b40a6b90cff2e50ea5c913eaa0342d868030ae47355631"
+hash = "79252a0f4fca93c2ae45bea97d481a0cc2fae6b39bbffca17df67189b21bdb2d"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -7842,6 +7862,11 @@ hash = "60c268de9cbca18294adb7059f726eae3a71357b14c150d5681f3ff892a7769d"
 metafile = true
 
 [[files]]
+file = "mods/eyes-in-the-darkness.pw.toml"
+hash = "318135fcbfe46ae860bb275b2a38811c070105e0b8f4c9dd3bbd6d92327b138e"
+metafile = true
+
+[[files]]
 file = "mods/ez-emerald-pouch.pw.toml"
 hash = "51c02a8a6a2872ebe012d9644d0795242ae523dd44386d5b9614bc25798bd162"
 metafile = true
@@ -9179,6 +9204,302 @@ hash = "4cbafb97b6f082378437019654862ba611eded2d1bd532aeb4e60d3870179fe9"
 [[files]]
 file = "resourcepacks/Fresh Patch - Rotten Creatures.zip"
 hash = "36c19062f46ba16cf96ebf0179bd4d748a3e6df802ceb2c045ec4fa9cb2f1d9e"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/acebee/angry.png"
+hash = "817517c93c820ed7b1f4ca5f59b55f615b4ee5accad9e08f88fabaac454d753a"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/acebee/angry_nectar.png"
+hash = "e75bf7a6bbe9f1c90240819f3927547f7045670d6cf615a26ae7e6553aa77882"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/acebee/nectar.png"
+hash = "2f1c3b02b0a1aade58adc1cf1d82d2a4701df046ea597c8b1cc24e697756bde0"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/acebee/normal.png"
+hash = "1389b9617971c03cb99040295f4475f366333fa84649d6116c92fccf08916a9b"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/agenbee/angry.png"
+hash = "3b6a39e1e694947068b56ca9f1848f62c2f19498ef49787582e57bee49440576"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/agenbee/angry_nectar.png"
+hash = "5c08a5a781407c7e014fe41aefdde2dfb93ee87e7a5bb288452fe5ea9953827c"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/agenbee/nectar.png"
+hash = "ca575e629f7381f632174e783ec62b889c46d9110a75b36814fe935eca26704c"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/agenbee/normal.png"
+hash = "0dca811ac4f4192247e9045350336da1bc73d10b922454facec366326ed1ca39"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/arobee/angry.png"
+hash = "ab9d811826bf417455aac5a15ab5358bfd887680525d881ca9f1112e1f56df92"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/arobee/angry_nectar.png"
+hash = "23b70ba760c312afdc247404cda3091e9386c7cd317f628376dc9771a4b50d05"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/arobee/nectar.png"
+hash = "5173e86028d6dc64612f3284aa00c01886a12d0ad4a21048c37332f9668fb70c"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/arobee/normal.png"
+hash = "5992c6391b07a54578ef591cf74cbd05c5f6ef54570c5a4f3ae81486da8a9716"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/beefluid/angry.png"
+hash = "b77d17d04c7d31864f8af8e940bc3db6425050517cd92b17309c2d972380f34a"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/beefluid/angry_nectar.png"
+hash = "58a7a3b2478386391ae4144f610d56f8a7bf4732ddaaa41ed3a23b97de04e1b2"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/beefluid/nectar.png"
+hash = "ff00ebb3d518a4f6624603c8fe4a0b440b827d8c5788df8ad908e60389158d18"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/beefluid/normal.png"
+hash = "c078610fbd13e88c33949c11b4b0b2de35505e93f759a7ddcced5160551fdffe"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/beequeer/angry.png"
+hash = "c6256a5e1a0c225c4343cf2342a43a98b9dcc17a81c8a07cbfae1c15936c190b"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/beequeer/angry_nectar.png"
+hash = "6f53d0cb733b188da1510e6bba06197a7da8ed8155a1578a9494bcf13706c1ca"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/beequeer/nectar.png"
+hash = "0fd295cef2bf3c8e9ba8316a82f5e931852d2365d04365e57344efd1add8e6c4"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/beequeer/normal.png"
+hash = "7c42bea788e020c28f9e4af016ed565636a1220364cb4c7fa989569557304d18"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/beesexual/angry.png"
+hash = "4a4a6a89d8963b5de4fbebaadba43c84787f8dfcaf0ec3be2029976286c78c44"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/beesexual/angry_nectar.png"
+hash = "f2a38ed21160ce6581d57d18c2dbcf56bd2eb1d9d8df108d7dfe30edabe960f9"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/beesexual/nectar.png"
+hash = "8638bc8b639c2896739f1f16898c4a6b35e76060b7091fc279038077604d45d0"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/beesexual/normal.png"
+hash = "e32ef847fedb140fa11babb2a5de8c4f1cd254f6419cb74aaae10eca8a63dbd1"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/enbee/angry.png"
+hash = "e76155a65a14272f10485eb668aed4081abcb0821e3764d5e7f4d2b38bbdfa64"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/enbee/angry_nectar.png"
+hash = "5dbe72184ab56feceda3d46c498e74988bc5f26845e20fe39fa9ae9c4fe6cb68"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/enbee/nectar.png"
+hash = "b6c1fd7d1f5da09864d88feb059f82d520b846bdb3e90e1d545e19ff77bb5f25"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/enbee/normal.png"
+hash = "3bd65b951e92f377b0ee770950236650555fada273c643c859b6af0d1dc73776"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/gaybee/angry.png"
+hash = "f4e97b8a2ccd451fa0876f9e460f767a157d1a038fc9e49d69cf01e26100e0a6"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/gaybee/angry_nectar.png"
+hash = "3a927d05157a6ed8dc2639e74ee52038c9f637224dff97b899d4ee608e34e59a"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/gaybee/nectar.png"
+hash = "a894ad4a298ab8b32ed995c667c4eae42a508934cfab18ed51e03757982e4d60"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/gaybee/normal.png"
+hash = "cc9b9fddee7b6ee9cc9a07c728d810f015bc6d9684454525c1907bd694f94779"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/helen/angry.png"
+hash = "8bc73c5bf59d001300ff2a1f9ea94bf1a82ac85c9d7d81ff06f2d12136b9e05d"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/helen/angry_nectar.png"
+hash = "c127706934cb8d75b55fec6777aab69c9f81a8678555dc12a65e3723cd4533f7"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/helen/nectar.png"
+hash = "595de841eacf61d9ad6117c95420c733c7b160aaad55731d81f8b0b5f6c84ec8"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/helen/normal.png"
+hash = "11a21278f794d8d1b80700620fa2c77075f8a844c078b1dc82dede56ec2e88fb"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/interbee/angry.png"
+hash = "c62f6f3b0694bc549ca651c9fffdc7148f9655791cf622cf243ecb1b9d59e195"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/interbee/angry_nectar.png"
+hash = "aaf9e36c703e1d3208251184830035171f2d5de5c9ccb7fa3cd5870dbb9940cb"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/interbee/nectar.png"
+hash = "2436187f2af6e7e056ae3a7cf1f053409e8e29a3084af42587886ee7a10da8a6"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/interbee/normal.png"
+hash = "116366e7775589ba20efb5abb6919a777b33e38d95cec6c0b29c0ce8c327a099"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/lesbeean/angry.png"
+hash = "dd619c41129db0a7fbbf9b1f2b2b067d3a364332e9591a91e1e375832a18b3b1"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/lesbeean/angry_nectar.png"
+hash = "6d206342d6d21b48ea0232dc7f09ae5342122584057850a5bd86daaf6068845b"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/lesbeean/nectar.png"
+hash = "690f5376ad27ff0d6c7b9474825e4a3eeb4a19e77903e20821d5bd378ed6306c"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/lesbeean/normal.png"
+hash = "1564c5be368ff79a355a4d20792e832773b2fb3e87d0e805973ca96bd345b3a6"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/panbee/angry.png"
+hash = "6318ab7f03dc422f1f036d37f0e65abeb4297f4202d4d3c9fa9922404d056cc0"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/panbee/angry_nectar.png"
+hash = "0395d5d0bc10595c8fcf9a6cb0f641213cf9b3faef007a89d6b396d0faced662"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/panbee/nectar.png"
+hash = "b81d491512755a6630d5aad8e986b153b55eab395c3e822b4732838c0bb2e437"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/panbee/normal.png"
+hash = "872c571036d2b944d29e0226e5a8b5650da2e969d3cbdd45dce415d66e1a357f"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/polysexbee/angry.png"
+hash = "b9cc4edbec8d8dca2d28b5cfb0b1e197917d1d285d5c31ea45655e09b12efabf"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/polysexbee/angry_nectar.png"
+hash = "847f4986ea0e6332fd42cffe3d42fc98192294168992b8d86fd9de62b84e98c8"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/polysexbee/nectar.png"
+hash = "d17797841e85f7c61b6f315da639a3d4b4840e55821623db8197d410c0c8f92e"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/polysexbee/normal.png"
+hash = "00eec2fa1b0dd41ae4586ccf40b1824c9b3934a5df116fb5fa966eb519d49d4a"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/transbee/angry.png"
+hash = "a1fb76da895cf6b32fbd5fafd3046ff7cc7a0f286a6ace5f42a015c7462fd616"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/transbee/angry_nectar.png"
+hash = "3c728be8aa51f55eb81f340dbc914ce7eba3cc251924a6e40ecc6365c221b378"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/transbee/nectar.png"
+hash = "1807ee906d1014a5d908ede10f3df6163c49b9d10bc110cfe12dbfb14964e0d9"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/quark/textures/model/entity/variants/bees/transbee/normal.png"
+hash = "1706acc473b5d1353226d34879a648f68ece5c936bcb0ab35adcac8b0a1ded80"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/emf/cem/a_vampire_equipment.jpm"
+hash = "192e57451f22a3c5f617ce5845290a50a915657a09dd14b9251c6d4de9480c91"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/emf/cem/a_vampire_idle.jpm"
+hash = "2bbb610f8fdf4cec96b1256ea891b3520ea06ecf9d880cfd177ebbc893bcba20"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/emf/cem/a_vampire_movement.jpm"
+hash = "741b305d8dc32e3ce8214338edc98d5679e09b2eeff78c7d8de19ac23b67ec48"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/emf/cem/a_vampire_variables.jpm"
+hash = "fbfc8569eadfe27fb919635e485dc25c9b3844cf4b281bc5956e8da5afc5ca0a"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/emf/cem/vampire.jem"
+hash = "116ea0b2bef92627c8dede9659a6a2ce19bd05e129280dc76581a92a9a6347a9"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/emf/cem/vampire.properties"
+hash = "974f0ba32280c88f62181cfb07f233408f59574bb49953bcf070e4107e7b8fd4"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/textures/entity/equipment/humanoid_leggings/copper.png"
+hash = "ea4f9171d6c4408fb78f146a2608cef88dac8c3810c19afe6473eb6219bcaaca"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/textures/entity/equipment/humanoid_leggings/diamond.png"
+hash = "b14bd397b8eb793660aa02b5c0ae02aaefe9e7d67692eee2d7ed3a1dfcea328c"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/textures/entity/equipment/humanoid_leggings/gold.png"
+hash = "8e04e194364e845e17f9fc616635dfd290a32557563d515cf1f7fd72286f8a44"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/textures/entity/equipment/humanoid_leggings/iron.png"
+hash = "5b6d16852cdf565ba3c5015c6e3e14e581651f9403b7f5424a094e90ab6498de"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/textures/entity/equipment/humanoid_leggings/leather.png"
+hash = "b5d01f39dce61c6b30f1bf789c79ed3c8d9f81692f487650af92f8d8742c5bed"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/textures/entity/equipment/humanoid_leggings/netherite.png"
+hash = "bef167381c875b754534e48533f8938d8dce6f9bbdff86318d1de0143342567d"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/textures/models/armor/diamond_layer_2.png"
+hash = "b14bd397b8eb793660aa02b5c0ae02aaefe9e7d67692eee2d7ed3a1dfcea328c"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/textures/models/armor/gold_layer_2.png"
+hash = "8e04e194364e845e17f9fc616635dfd290a32557563d515cf1f7fd72286f8a44"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/textures/models/armor/iron_layer_2.png"
+hash = "5b6d16852cdf565ba3c5015c6e3e14e581651f9403b7f5424a094e90ab6498de"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/textures/models/armor/leather_layer_2.png"
+hash = "b5d01f39dce61c6b30f1bf789c79ed3c8d9f81692f487650af92f8d8742c5bed"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/assets/vampirism/textures/models/armor/netherite_layer_2.png"
+hash = "bef167381c875b754534e48533f8938d8dce6f9bbdff86318d1de0143342567d"
+
+[[files]]
+file = "resourcepacks/Fresh Vampires/pack.mcmeta"
+hash = "65641be71b1f5d2f931c9d8119e67291d43794e053cb1a3a048379ed8ff68498"
 
 [[files]]
 file = "resourcepacks/Fresh Vampirism Pack V1.4.zip"

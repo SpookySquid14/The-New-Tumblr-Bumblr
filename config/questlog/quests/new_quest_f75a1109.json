@@ -1,0 +1,12 @@
+{
+  "title": "New Quest",
+  "description": "Describe your quest here...",
+  "icon": {
+    "item": "minecraft:knowledge_book"
+  },
+  "chapter": "main",
+  "sort_order": 0,
+  "objectives": [],
+  "prerequisites": [],
+  "rewards": []
+}
