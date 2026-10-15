@@ -1,0 +1,34 @@
+{
+  "title": "Eat Up!",
+  "description": "Feeling peckish? Or maybe you're just longing to regenerate some of that health you've lost. Well, the solution is simple. In this world, eating directly restores health. No hunger bar to speak of. The amount of health restored is based on the food's original hunger values. Keep in mind that while you can regenerate most of the time, natural regeneration is disabled during combat.",
+  "icon": {
+    "item": "minecraft:apple"
+  },
+  "chapter": "main",
+  "sort_order": 0,
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Learn About Food",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:stat",
+      "stat": "minecraft:damage_taken",
+      "required_amount": 3
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:apple",
+      "count": 5
+    }
+  ],
+  "toast_on_unlock": false,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": true,
+  "description_completed": "Do try to avoid this fate, please, unless you want to create a graveyard with 10 or more graves. Also know that §l§6you can skip the respawn cinematic with the Space key if you so desire."
+}

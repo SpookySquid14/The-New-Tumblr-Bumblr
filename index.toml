@@ -522,7 +522,7 @@ hash = "5c743d635ef2888bed262e4cbaecfb260bba8f3eee0636415f945da998a5c8cc"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "8b83aa4f15e6a3b7600dc5d7bd7302525938443e98a98e64d05f21c6e7f31ef0"
+hash = "9f98315f59925058c0e30d71863896f461df8e8a037e9f565d09d53de3fe8fee"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -738,7 +738,7 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "c045dfbd855bf4de7b3f10f89b0c321b95a22f4332ab2e66c295f2e84ee0cfef"
+hash = "4594c2ea958a7f3a4dde91a858a918ed73c22b3e2e86d15c76ce890d9557df09"
 
 [[files]]
 file = "config/clickadv.json"
@@ -2394,7 +2394,7 @@ hash = "680fb5104e0dda7c28b0a4f8b4ec19a4b0d48dd7c0e84420f08590d61a319c51"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "e7cc7280c51c7e9ded8031ec122f5fee344e1bd35dc449a70846b5a499e5077b"
+hash = "9485c7536003f152bedd75b021239920215c6e86137a5f95526224e1d57d9cc7"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -4203,6 +4203,10 @@ hash = "9d30625d89c176b2d1a627c74bb5644e69aa10c4c23561c75a2a2d2af9d8d67e"
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/eccentric_tome.json"
 hash = "cc13ed1d1ef79e6e41eccd068f898047a995fc89caecdb0980527697be39e698"
+
+[[files]]
+file = "config/questlog/quests/fresh_beginnings/food.json"
+hash = "c408573ab8b01a40fee6029889e337c7da703dcd6afe75e2e844c7bdab8f9476"
 
 [[files]]
 file = "config/questlog/quests/fresh_beginnings/hackersandslashers.json"
