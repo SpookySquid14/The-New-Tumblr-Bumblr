@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"hauntedharvest:candy_corn"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:nourishment","show_icon":true,"neoforge:cures":["protected_by_totem","milk"],"duration":600},"type":"net.minecraft.world.effect.MobEffectInstance","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_enchantment_industry:brass_bookshelf"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cgs:nailgun","components":"{\"ntgl:ammo_count\":40}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cgs:flintlock","components":"{\"ntgl:ammo_count\":1}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

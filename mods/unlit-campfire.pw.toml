@@ -1,0 +1,21 @@
+filename = 'unlitcampfire-neoforge-1.21-3.1.2.5.jar'
+name = 'Unlit Campfire'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'neoforge-1.21-3.1.2.5'
+
+[download]
+hash = 'b8727d9ff6f619e81822a32357db03c06674116e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8767309
+project-id = 417553
+
+[[x-prismlauncher-dependencies]]
+addonId = '324717'
+type = 'OPTIONAL'

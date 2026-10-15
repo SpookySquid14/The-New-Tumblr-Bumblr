@@ -1,0 +1,31 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:fresh_beginnings/make_furnace_and_pickaxe"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:campfire"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "Cozy and Comfortable",
+  "description": "You've done quite well thus far, but night approaches, and night, my dear student, is dangerous. I, Professor Larch, suggest the usage of a Campfire to aid in your nighttime survival.\nCampfires are special in this world. When placed, they will be unlit. You must light them yourself with flint and steel or similar. You'll also find that although they can last a long time, campfires will eventually go out. You may be wondering what benefits you gain from something if it has these requirements. Well, wonder no more, for I, Professor Larch, am here to let you know that being near a lit campfire will passively give you the Regeneration effect.",
+  "icon": {
+    "item": "minecraft:torch"
+  },
+  "chapter": "main",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

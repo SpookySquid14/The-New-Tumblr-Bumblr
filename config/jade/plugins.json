@@ -82,6 +82,9 @@
   "apotheosis": {
     "adventure": true
   },
+  "unlitcampfire": {
+    "campfireinfo": true
+  },
   "complicated_bees": {
     "show_cycle_ticks": false,
     "apiary_errors": true,
@@ -128,15 +131,20 @@
     "lightroom": true,
     "photograph_frame": true
   },
-  "hammerlib": {
-    "root": true
-  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
     "fluid": true,
     "energy": true,
     "tooltip_renderer": true
+  },
+  "kaleidoscope_cookery": {
+    "chopping_board": true,
+    "shawarma_spit": true,
+    "recipe_block": true,
+    "food_bite_block": true,
+    "millstone": true,
+    "enamel_basin": true
   },
   "quark": {
     "oretoise_eating_cooldown": true
