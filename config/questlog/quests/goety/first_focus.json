@@ -1,0 +1,31 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:goety/dark_wand"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "goety:soul_light_focus"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "1 Emerald"
+    }
+  ],
+  "title": "The First of Many",
+  "description": "Very good, verryyy gooood. You've crafted your first wand, a vital instrument for any bender of the darkness. Ah, but a wand is only as powerful as its focus.\nYes, in Goety's dark magic system, spells take the form of focuses, items that embody its traits. There are many different focuses, some requiring more resources and time than others. For now, we'll start you off with the Soul Light focus. Sticks and coal around an empty focus will be all you need.",
+  "icon": {
+    "item": "goety:soul_light_focus"
+  },
+  "chapter": "goety",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

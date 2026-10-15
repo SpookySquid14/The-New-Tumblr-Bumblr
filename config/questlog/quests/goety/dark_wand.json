@@ -2,13 +2,13 @@
   "prerequisites": [
     {
       "type": "questlog:quest_complete",
-      "quest": "questlog:goety/fabric"
+      "quest": "questlog:goety/empty_focus"
     }
   ],
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "item": "goety:empty_focus"
+      "item": "goety:dark_wand"
     }
   ],
   "rewards": [
@@ -21,7 +21,7 @@
   "title": "A Wand Chosen By The Wizard",
   "description": "It is time. Now... you shall craft your first wand. Take the magic fabric, empty focus, some lapis, and some planks, and you will be able to create your instrument.",
   "icon": {
-    "item": "goety:empty_focus"
+    "item": "goety:dark_wand"
   },
   "chapter": "goety",
   "sort_order": 0,

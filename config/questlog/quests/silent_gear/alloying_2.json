@@ -1,0 +1,39 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silent_gear/alloying"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "silentgear:alloy_ingot"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "silentgear:hybrid_gem"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "silentgear:mixed_fabric"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:emerald",
+      "name": "Emerald"
+    }
+  ],
+  "title": "True Combination",
+  "description": "But it's naut jus' the specially named alloys that get to shine, any materials can be put together in their respective machines. You've got the Alloy Forge for metal, the Recrystallizer for gems, and the Refabricator for fibres and cloth. Take one o' em, slap in whatever mateirals you want, and get yourself a new combination to use in your tools.",
+  "icon": {
+    "item": "silentgear:alloy_forge"
+  },
+  "chapter": "silent_gear",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false
+}

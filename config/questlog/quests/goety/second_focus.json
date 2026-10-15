@@ -1,0 +1,32 @@
+{
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:goety/first_focus"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "goety:soul_bolt_focus"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": {"id": "patchouli:guide_book", "count": 1, "components": {"patchouli:book": "goety:black_book"}},
+      "name": "Some future reading material"
+    }
+  ],
+  "title": "A Fighting Chance",
+  "description": "There is more to do with a Soul Light focus than simply lighting the area. Yes, it can indeed be empowered, but I suggest we hold off on that. Rather, I emplore you to gather some ectoplasm and arrows, taking your Soul Light Focus and changing it into a Soul Bolt focus.\nWhile the bolt may at first seem slow and weak, it can become mighty powerful when properly enchanted.",
+  "icon": {
+    "item": "goety:soul_bolt_focus"
+  },
+  "chapter": "goety",
+  "sort_order": 0,
+  "toast_on_unlock": true,
+  "toast_on_complete": true,
+  "show_popup_on_unlock": false,
+  "description_completed": "And with this Soul Bolt focus, you've learned all the basics I've to teach you. Now, I entrust you with the Black Book. Do make good use of it in your travels. I cannot wait to see what will become of you."
+}

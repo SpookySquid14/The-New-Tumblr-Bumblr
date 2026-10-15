@@ -6,4 +6,5 @@ StartupEvents.registry('item', event => {
  event.create('tumblrbumblr:pale_totem').texture('tumblrbumblr:item/pale_totem').rarity('UNCOMMON').displayName("Pale Totem")
  event.create('tumblrbumblr:dirty_raw_diamond').displayName('Dirty Raw Diamond')
  event.create('tumblrbumblr:dirty_raw_emerald').displayName('Dirty Raw Emerald')
+ event.create('tumblrbumblr:dragonsteel_upgrade_template').displayName('Dragonsteel Upgrade')
 })

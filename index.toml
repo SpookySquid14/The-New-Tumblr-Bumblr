@@ -522,7 +522,7 @@ hash = "5c743d635ef2888bed262e4cbaecfb260bba8f3eee0636415f945da998a5c8cc"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "32de32fe08fb1c658383f37ca8169fe4d4c40b2c9ddfc6ad3c066e2ceb958f7c"
+hash = "8b83aa4f15e6a3b7600dc5d7bd7302525938443e98a98e64d05f21c6e7f31ef0"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
@@ -738,11 +738,15 @@ hash = "348bf9f89d3dc287ab71039f9151eef027163eb4b1a0c1016ef0ed7248dfb665"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "eb0b05159116ed3a875c5e747846d19869226a7874bd65aa14638d7c4134f5c7"
+hash = "c045dfbd855bf4de7b3f10f89b0c321b95a22f4332ab2e66c295f2e84ee0cfef"
 
 [[files]]
 file = "config/clickadv.json"
 hash = "47c112c0007be4f036fad58f646ebcd3f20d396d4d795edecea9d4063e208c81"
+
+[[files]]
+file = "config/clockwork.toml"
+hash = "9116436243ac7191e063fb50637023601fa5107385e46d74e58678779205b379"
 
 [[files]]
 file = "config/cobblegengalore-common.toml"
@@ -1989,6 +1993,10 @@ file = "config/forgeendertech/Biomes/minecraft$soul_sand_valley.cfg"
 hash = "c8ed5414da4d84bf56038976aef25fc1713ccd76f42133d95e9750069585d7d0"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$stony_peaks.cfg"
+hash = "aa722a7388a8bc6cb80fc0fb86352512305959c54104dab950d32cb347631808"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$sulfur_caves.cfg"
 hash = "1559967e1a018f9b35cbfdbe3b2f96eff5a5046d6a1eed53c12f1c89a9f6ad0d"
 
@@ -2341,6 +2349,10 @@ file = "config/forgeendertech/Biomes/twilightforest$dense_mushroom_forest.cfg"
 hash = "c6f264f5d86f76eb4d2ec02530cd0dee20103fe741428f24292b2df8b8434e63"
 
 [[files]]
+file = "config/forgeendertech/Biomes/twilightforest$final_plateau.cfg"
+hash = "665600151e62aa81afedc7b4203cc3ddaac178f0af76bfcedd9f9b57aea31892"
+
+[[files]]
 file = "config/forgeendertech/Biomes/twilightforest$glacier.cfg"
 hash = "3277cecbe648c80e1b57168448e07bb41cf5557bc22e7a3101127d5c4bb2cec9"
 
@@ -2382,7 +2394,7 @@ hash = "680fb5104e0dda7c28b0a4f8b4ec19a4b0d48dd7c0e84420f08590d61a319c51"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "57910c89db6c5e595297c0f7b89f1f391649484ab9cda9ca892a9375073b957f"
+hash = "e7cc7280c51c7e9ded8031ec122f5fee344e1bd35dc449a70846b5a499e5077b"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2802,7 +2814,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "6acd842eba9e55b655084941eb411c910aa72bf477bad5f898f97e49f09a72b3"
+hash = "e20ae961ea6b4d877add76afa03fafbd9b8a10c2c134b8ddd65ebc897e99d797"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2826,7 +2838,7 @@ hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "52b9294092615c5cb77c51e8b42d8b238d000d4245b15302d3271cf8cc6ae122"
+hash = "42a69395d2e1d7b5c8c11f4b5ebb15f17bf4017fe337f6410602005e7c3411fe"
 
 [[files]]
 file = "config/jei/world/local/Aeronautics Playground/lookupHistory.json"
@@ -2905,6 +2917,10 @@ file = "config/jei/world/local/Dragon Test/lookupHistory.json"
 hash = "0cd13dac5091b8410e965e657e6edf38f6227dcf5d55a038d1154ba977204564"
 
 [[files]]
+file = "config/jei/world/local/Dragonsteel Test/lookupHistory.json"
+hash = "20f797854038cd934c802e73a2de1e474e49c67b12639416cfc7e2d6a0398953"
+
+[[files]]
 file = "config/jei/world/local/End Update Test/lookupHistory.json"
 hash = "d33bc82ebf437863a7873dda124f0dd9d4e4d3c6441efbc3b1aed3d6f41e9ffb"
 
@@ -2930,7 +2946,7 @@ hash = "9281b8ccb2c863d96f599018dcd79cf64a2285dd1616e098f61c5f54bf2c7beb"
 
 [[files]]
 file = "config/jei/world/local/Food Test/lookupHistory.json"
-hash = "f4f6ae22a10756d243be8141f61eaa580b9c2676da1e344968ee32c3583e7fe7"
+hash = "3883b3dad40bfd842dede943b90643d52908395a94f1ddbadb5e7439f21b0db7"
 
 [[files]]
 file = "config/jei/world/local/Gateway Test 2/lookupHistory.json"
@@ -3149,6 +3165,10 @@ file = "config/kissme-common.toml"
 hash = "dda4fb4b95e84068b9089093cc8ac383bd9e547d087a8daa7e79e4bb0a6749e5"
 
 [[files]]
+file = "config/knightlib.toml"
+hash = "f34fcd88ba2c19ed2ae714e3f67e2233288104c47b90853007125db00bd6915c"
+
+[[files]]
 file = "config/kritter.json5"
 hash = "b47f839be4d54affccadb5967c8582ae699461d05b8aa86a49a86f7c48135657"
 
@@ -3301,6 +3321,10 @@ file = "config/mcgcore/progress/1-21-1-minecraft-saves-dragon-drop-test-d6c7c6e7
 hash = "f3ea36834106041231686629571b85d3e6d6b8144ae78fcfa514026611b97f4f"
 
 [[files]]
+file = "config/mcgcore/progress/1-21-1-minecraft-saves-dragonsteel-test-792b49cb.json"
+hash = "e7209bc80224f6c2bbf13b1b1897c931c3609ad522c40d526432ae8e30b16969"
+
+[[files]]
 file = "config/mcgcore/progress/1-21-1-minecraft-saves-inventory-test-1-562e3118.json"
 hash = "c8995a5f9dd8b8644cbabcafac0f3c12f86edc3b8fc58295b919d9099c687a61"
 
@@ -3450,7 +3474,7 @@ hash = "c8995a5f9dd8b8644cbabcafac0f3c12f86edc3b8fc58295b919d9099c687a61"
 
 [[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-food-test-aaab4ec3.json"
-hash = "8222c003d649064df09aa4b19d46799c0baf82f4397eb374a9a381c210813204"
+hash = "d0385241cd1b1e9e5bec7a26257205ca86d3baef849f85e2dccc4231349f3978"
 
 [[files]]
 file = "config/mcgcore/progress/bumblr-1-21-1-minecraft-saves-gen-test-2-b904a165.json"
@@ -3926,7 +3950,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "a2acd758685f17e2bc91a4bb172400a7e3da68e8bfc46b9d143a2cb160d70c2a"
+hash = "45f48a28219d9df914a9f8082b301e287edd93294afabf93fbb057dc189bee5d"
 
 [[files]]
 file = "config/packed_packs/profiles/datapacks/Tumblr Bumblr.profile.json"
@@ -4222,7 +4246,7 @@ hash = "b4aad10f82a7aa7ed12e341391822b62572262457b99bf05bf9d5e9784dc2e6e"
 
 [[files]]
 file = "config/questlog/quests/goety/dark_wand.json"
-hash = "dd877f37066d41acf8a0c00cf1db78e071ade84002c8d73351fd114764c38318"
+hash = "3d13b5bce0e0c8ff01c3f4605114836ddac43959c2f949961f6079df23c792dd"
 
 [[files]]
 file = "config/questlog/quests/goety/ectoplasm.json"
@@ -4237,8 +4261,16 @@ file = "config/questlog/quests/goety/fabric.json"
 hash = "0e59505fbd80a3035260c443378d82e953b23488a7d29285b9620d0d2600a473"
 
 [[files]]
+file = "config/questlog/quests/goety/first_focus.json"
+hash = "b21096d70318cc648ff4bca9c0e95a5abae7132b20be2d6fb4d36147499bd85a"
+
+[[files]]
 file = "config/questlog/quests/goety/goety_intro.json"
 hash = "929c9dfc42d85a72598f181d4239a2a072c8283bd0ef66d5272a933e36dfe4ec"
+
+[[files]]
+file = "config/questlog/quests/goety/second_focus.json"
+hash = "23045ab84578923cd896cef74c891098ca20dea6cd196c029b616d490bd68cf0"
 
 [[files]]
 file = "config/questlog/quests/goety/totem_of_roots.json"
@@ -4459,6 +4491,10 @@ hash = "d7e2dd2556e5e324842b346438508ae57586d341b22b153e6feec44cb6da90f7"
 [[files]]
 file = "config/questlog/quests/silent_gear/alloying.json"
 hash = "187f9bdb92e349832f6de78ae6db2c933f4e8dfc189149568805a866f813da3a"
+
+[[files]]
+file = "config/questlog/quests/silent_gear/alloying_2.json"
+hash = "2900aea89a3a186ca28fb19ff6064ad0016ae51b1157666ab83e81be25031567"
 
 [[files]]
 file = "config/questlog/quests/silent_gear/blueprint_book.json"
@@ -4766,7 +4802,7 @@ hash = "bc029afc200ba2fba522a27245d65c8e5db0f20cd0eddd5873a316054d962923"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "45372aff157aff5061f94380bf83b867e7d245c2c7cf7fa372f5cab9a9898afd"
+hash = "420db737f9f203328462f6f8ac33fc7f98bbc9dfbbc27a7a8379118af9b6a0b1"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -5727,6 +5763,10 @@ hash = "988ecbfde39a14e3508f735f6720cd6e280ae4f99196663b71b0f4385475e7e2"
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/item/dirty_raw_emerald.png"
 hash = "2caf39623c1d16c93e88dd071800a9c536e3262cc7c0c48469f00b8e5abbe927"
+
+[[files]]
+file = "kubejs/assets/tumblrbumblr/textures/item/dragonsteel_upgrade_template.png"
+hash = "c325679c45b87d2ea115da35c0b184e11b45c08fcecf831eb130aad00d7ba2ad"
 
 [[files]]
 file = "kubejs/assets/tumblrbumblr/textures/item/example_item.png"
@@ -6826,7 +6866,7 @@ hash = "418780bf017aaf188511a35aef1d405bfa43d8429f9f2e8dadcfd4843f6cd722"
 
 [[files]]
 file = "kubejs/client_scripts/custom_item_registry.js"
-hash = "7f87f7363aef0da311101c3d19c1b3c828e7e57cd87da71d3fa759de4611d265"
+hash = "e0950007b6fad3478e8387fe697500a796c6d6d4a13696fdc9f9f45d7e4b5308"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
@@ -7129,6 +7169,18 @@ file = "kubejs/data/iceandfire/assets/sword.json"
 hash = "a5f09f0a670bce63ff3b89e9dfe84372c7aa44c93108f0e68e2d80885f2c47f2"
 
 [[files]]
+file = "kubejs/data/iceandfire/recipe/dragonforge/dragonsteel_fire_ingot.json"
+hash = "67833a1311c5acbc811c12110ec9e7a2fe93dcd20affeffa6388da2c4025a6f9"
+
+[[files]]
+file = "kubejs/data/iceandfire/recipe/dragonforge/dragonsteel_ice_ingot.json"
+hash = "b91608999b87db5b468dc786df562c2538a7a71270571d080ec3e836b62164f0"
+
+[[files]]
+file = "kubejs/data/iceandfire/recipe/dragonforge/dragonsteel_lightning_ingot.json"
+hash = "5edd5e740bff169a49b624110d2b1e8c8e6b3fe7a10b962f200bb3fd5b25545b"
+
+[[files]]
 file = "kubejs/data/irons_spellbooks/presets/twilight_gale.json"
 hash = "878acb5dfe045bbca9edb4de53d6c1eaf9ab446ceadd5e916af02b2050e392c2"
 
@@ -7173,6 +7225,10 @@ file = "kubejs/server_scripts/gameplay/curios_slots.js"
 hash = "9f2ac79c1944b585d70bf4be298a386819063762d78ffc8ec659e09799782065"
 
 [[files]]
+file = "kubejs/server_scripts/gameplay/dragonsteel_upgrade_template_in_chests.js"
+hash = "c4b5a3a0c6b03db27888055afadf1803b80507e3626707fdc1ca85bd7d349777"
+
+[[files]]
 file = "kubejs/server_scripts/gameplay/eye_loot.js"
 hash = "7db63ab1b68c144afaf381484c4830a8159f8da2e96e6a6270d13c5ed67721d2"
 
@@ -7195,6 +7251,10 @@ hash = "b041f3828d9e31e437ac5356b8361ea80ccb9cde12eaee459c1dfb67548a61c8"
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/goety_recipes.js"
 hash = "9dd4d4d64f25a15d62a5337bc5055382de46a6e40a35a6879ca11b3f7967f7d2"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes/iceandfire_recipes.js"
+hash = "ed7675d914ef6f852e014565f2007687223cf3ae601807a712984e6bc0964954"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes/occultism_recipes.js"
@@ -7250,7 +7310,7 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "kubejs/startup_scripts/tumblrbumblr/custom_item_creation.js"
-hash = "51bcbe83cf473ea80b4afb2ecae72d31ae8142589c47e7bf2d890bcbd9394e54"
+hash = "ea468650821c1de2bd6fc87d9541bbe1ca73e7dec420f046ad952a2d94517da6"
 
 [[files]]
 file = "mods/access-denied-api.pw.toml"
@@ -7525,6 +7585,11 @@ metafile = true
 [[files]]
 file = "mods/clickable-advancements.pw.toml"
 hash = "c49be70578e27848af38977bcadf481111fdd4ad9f8ed20134f1b23a54d72307"
+metafile = true
+
+[[files]]
+file = "mods/clockwork.pw.toml"
+hash = "2f2c6c7b777091d42ebdd594ae17d8ffe6542e639e20ed29c51fca4d4e180cf6"
 metafile = true
 
 [[files]]
@@ -8260,6 +8325,11 @@ metafile = true
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "fc0af5a92266a0829e4724a80dbe18662dcdc7921f591b72f95e70ce871467d2"
+metafile = true
+
+[[files]]
+file = "mods/knight-lib.pw.toml"
+hash = "a551b72face784147acdce18ed95290580a88e1b63a1ed3c4ebc163bde6be28f"
 metafile = true
 
 [[files]]
